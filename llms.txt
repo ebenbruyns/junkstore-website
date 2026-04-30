@@ -179,7 +179,7 @@ They work from their sailboat, Taleisin, moored in Kawau Island north of Aucklan
 - **/features/** - Full feature breakdown with live demos and video gallery
 - **/decky-vs-pro/** - Detailed comparison between free and Pro versions
 - **/help/** - FAQ, troubleshooting, tutorials (searchable, filterable by product)
-- **/tested-games/** - Database of 900+ games tested on Steam Deck
+- **/games/tested/** - Database of 900+ games tested on Steam Deck
 - **/get_started/** - Quick start installation guide
 - **/about/** - Team information and project background
 - **/tutorials/** - Step-by-step guides for specific features

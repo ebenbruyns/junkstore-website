@@ -1,0 +1,81 @@
+---
+layout: game-page
+title: "Where Winds Meet - Steam Deck Compatibility"
+game_title: "Where Winds Meet"
+slug: "where-winds-meet"
+storefront: "Epic"
+storefront_key: "epic"
+permalink: /games/epic/where-winds-meet/
+
+# Compatibility
+decky_rating: "green"
+standalone_rating: "green"
+date_tested: "Dec '25"
+proton_version: ""
+
+# Game Info
+publisher: NetEase Games
+developer: Everstone Studio
+genre: Action, RPG, Open World
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "November 14, 2025"
+game_modes: ["Single-player","Multi-player","Co-op"]
+languages: ["English*","Japanese","Simplified Chinese*","Traditional Chinese*","Korean","French","German","Spanish - Latin America","Portuguese - Brazil*languages with full audio support"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
+
+# Images
+banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/3564740/library_hero.jpg"
+cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/3564740/library_600x900.jpg"
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/3564740/capsule_231x87.jpg"
+
+# Technical Details
+controller_input: "native"
+community_layout: false
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: true
+epic_achievements: true
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: true
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
+
+# Links
+store_url: "https://store.epicgames.com/en-US/p/where-winds-meet-58a176"
+protondb_url: "https://www.protondb.com/app/3564740"
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Where_Winds_Meet"
+metacritic_score: 
+metacritic_url: ""
+
+# Notes
+notes: "Works out of the box!<br> Make sure you launch first time in **Desktop/Big Picture Mode** to accept the EULA otherwise game will crash in gamemode."
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "a7d28f0e0935490b9d6f92dda1a7a75b"
+is_featured: false
+owned: true
+---
+
+Where Winds Meet is an epic Wuxia open-world action-adventure RPG set in ancient China at the tenth century. Players will assume the role of a young sword master as they embark on a journey to uncover the mysteries of their own identity. Let the wind carry your legend on an epic journey to the East!

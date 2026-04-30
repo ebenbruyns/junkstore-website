@@ -70,7 +70,7 @@ function trackTrialButtons() {
  */
 function trackNavigationIntent() {
   var intentPages = {
-    '/buy_now/': 'high_intent',
+    '/portal-redirect/': 'high_intent',
     '/get_started/': 'high_intent',
     '/pricing/': 'high_intent',
     '/comparison/': 'comparing_options',
@@ -78,7 +78,7 @@ function trackNavigationIntent() {
     '/tutorials/': 'learning',
     '/help/': 'needs_help',
     '/faq/': 'has_questions',
-    '/tested-games/': 'checking_compatibility'
+    '/games/tested/': 'checking_compatibility'
   };
 
   var path = window.location.pathname;

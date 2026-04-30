@@ -174,9 +174,9 @@
    ========================================================================== */
 
 .js-post__footer {
-  margin-top: 2rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid $junkstore-border;
+  // Tags are emitted SEO-only inside js-post__tags-seo (display: none),
+  // so this footer renders no visible content. No top spacing or border
+  // needed — the prev/next nav directly below has its own divider.
 }
 
 /*

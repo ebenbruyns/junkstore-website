@@ -27,26 +27,26 @@ Down under we're officially heading out of summer and into winter. Daylight savi
 We're a bit bummed about daylight savings, we had so many jobs we needed to do on the boat over summer but never got the right weather or enough free time. Fingers crossed things can hang in there over winter or until we get some free time to work on them.
 
 <div class="update-callout">
-<strong>🚀 Junk Store Pro 3.0 is here!</strong> In case you missed the <a href="/blog/junk-store-3-0-release/" target="_blank" rel="noopener">announcement</a>, we've added heaps of new goodies: built-in SteamGridDB, a File Manager, Disk Analyser, and Process Manager. Check out the <a href="https://youtu.be/DI-5Wdvu7Kw" target="_blank" rel="noopener">YouTube video</a> for a full rundown. If you've got a license, update now. If you haven't tried it yet, give it a go with our 7 day free trial. Features like these aren't available anywhere else, and yes they all run right in Game Mode.
+<strong>🚀 Junk Store Pro 3.0 is here!</strong> In case you missed the <a href="/blog/junk-store-3-release/" target="_blank" rel="noopener">announcement</a>, we've added heaps of new goodies: built-in SteamGridDB, a File Manager, Disk Analyser, and Process Manager. Check out the <a href="https://youtu.be/DI-5Wdvu7Kw" target="_blank" rel="noopener">YouTube video</a> for a full rundown. If you've got a license, update now. If you haven't tried it yet, give it a go with our 7 day free trial. Features like these aren't available anywhere else, and yes they all run right in Game Mode.
 </div>
 
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:
 
-* **Junk Store Pro 3.0 Released:** The big update is here! Highlights include built-in SteamGridDB support, a File Manager, Disk Analyser, and Process Manager. <a href="/blog/junk-store-3-0-release/" target="_blank" rel="noopener">Read the full announcement →</a>
+* **Junk Store Pro 3.0 Released:** The big update is here! Highlights include built-in SteamGridDB support, a File Manager, Disk Analyser, and Process Manager. <a href="/blog/junk-store-3-release/" target="_blank" rel="noopener">Read the full announcement →</a>
 * **Decky Loader Conflict Resolved:** The conflict has been resolved in version 3.0. You can now download from Stable without issue.
-* **GOG Extension:** Exclusively available through the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a>.
+* **GOG Extension:** Exclusively available through the <a href="/portal-redirect/" target="_blank" rel="noopener">Junk Store Portal</a>.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store Pro</a>**: v3.0.1.0 (New Release - Stable Channel)
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: v3.0.1.0 (New Release - Stable Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)
 * **GOG Extension**: v0.1.11 (can be purchased from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.3 (Prerelease)
 * **Proton**: GE-Proton 10.26
 * **SteamOS**: v3.7.20 (Stable)
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 > **Tip:** Click any game title below to view full compatibility details, testing notes, and system requirements in our games database!
 
@@ -57,7 +57,7 @@ This week featuring Tomak: Save the Earth Regeneration, Clone Drone in the Dange
 <div class="game-entry">
   <img src="https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-myh89.png" alt="Tomak: Save the Earth Regeneration" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Tomak%3A%20Save%20the%20Earth%20Regeneration">Tomak: Save the Earth Regeneration</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/tomak-save-the-earth-regeneration/">Tomak: Save the Earth Regeneration</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">The legendary cult hit "Tomak: Save the Earth" arrives on the Epic Games Store.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -69,7 +69,7 @@ This week featuring Tomak: Save the Earth Regeneration, Clone Drone in the Dange
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/597170/library_600x900.jpg" alt="Clone Drone in the Danger Zone" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Clone%20Drone%20in%20the%20Danger%20Zone">Clone Drone in the Danger Zone</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/clone-drone-in-the-danger-zone/">Clone Drone in the Danger Zone</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Clone Drone in the Danger Zone is a third person sword fighter where any part of your body can be sliced off.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -81,7 +81,7 @@ This week featuring Tomak: Save the Earth Regeneration, Clone Drone in the Dange
 <div class="game-entry">
   <img src="https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201ca07/vornyca-t6xk9.jpg?resize=1&w=480&h=270&quality=medium" alt="Vornyca" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Vornyca">Vornyca</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/vornyca/">Vornyca</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Set in a world where humanity has defeated its own creations, Vornyca follows the journey of a lone surviving AI struggling to find purpose, freedom, and identity in the ruins of a fallen civilization.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -93,7 +93,7 @@ This week featuring Tomak: Save the Earth Regeneration, Clone Drone in the Dange
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2708790/library_600x900.jpg" alt="Together After Dark" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Together%20After%20Dark">Together After Dark</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/together-after-dark/">Together After Dark</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Together After Dark is a co-op horror psychological game with a survival touch for 1-4 players.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -109,7 +109,7 @@ This week featuring Total War: Pharaoh Dynasties, XCOM: Enemy Unknown Complete P
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2951630/library_600x900.jpg" alt="Total War: Pharaoh Dynasties" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Total%20War%3A%20Pharaoh%20Dynasties">Total War: Pharaoh Dynasties</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/total-war-pharaoh-dynasties/">Total War: Pharaoh Dynasties</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Wage total war across the ancient world from the Aegean to Mesopotamia in this free addition to Total War: PHARAOH.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -121,7 +121,7 @@ This week featuring Total War: Pharaoh Dynasties, XCOM: Enemy Unknown Complete P
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/200510/library_600x900.jpg" alt="XCOM: Enemy Unknown Complete Pack" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=XCOM%3A%20Enemy%20Unknown%20Complete%20Pack">XCOM: Enemy Unknown Complete Pack</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/xcom-enemy-unknown-complete-pack/">XCOM: Enemy Unknown Complete Pack</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">From the makers of Sid Meier’s Civilization comes a game about civilization’s last stand.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -129,8 +129,6 @@ This week featuring Total War: Pharaoh Dynasties, XCOM: Enemy Unknown Complete P
     </div>
   </div>
 </div>
-
-
 
 ## Looking Forward
 
@@ -144,14 +142,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

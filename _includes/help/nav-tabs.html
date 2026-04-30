@@ -1,0 +1,40 @@
+{%- comment -%}
+  Tab-style navigation strip rendered at the top of every help sub-page
+  (/help/faq/, /help/troubleshooting/, /help/tips/, /help/tutorials/).
+  Each tab is an <a href> link to a sibling page; the active page's tab
+  gets the .active class.
+
+  Usage: {% include help/nav-tabs.html active="faq" %}
+{%- endcomment -%}
+<section class="help-header-compact">
+  <div class="help-tabs-compact">
+    <a href="/help/faq/" class="help-tab{% if include.active == 'faq' %} active{% endif %}" data-tab="faq">FAQ</a>
+    <a href="/help/tips/" class="help-tab{% if include.active == 'tips' %} active{% endif %}" data-tab="tips">Quick Tips</a>
+    <a href="/help/troubleshooting/" class="help-tab{% if include.active == 'troubleshooting' %} active{% endif %}" data-tab="troubleshooting">Troubleshooting</a>
+    <a href="/help/tutorials/" class="help-tab{% if include.active == 'tutorials' %} active{% endif %}" data-tab="tutorials">Tutorials</a>
+  </div>
+
+  <div class="version-buttons-centered">
+    <button class="version-btn decky" data-filter="decky" onclick="selectVersion('decky')">Decky Plugin</button>
+    <button class="version-btn pro" data-filter="pro" onclick="selectVersion('pro')">Pro Version</button>
+    <button class="version-btn all selected" data-filter="all" onclick="selectVersion('all')">Show All</button>
+    <button class="badge-help-btn" id="badge-help-trigger" title="What do the badges mean?">?</button>
+    <div class="badge-tooltip" id="badge-tooltip">
+      <div class="tooltip-content">
+        <strong>Badge Guide:</strong>
+        <div class="tooltip-item"><span class="badge-sample decky">Decky</span> Decky Plugin only</div>
+        <div class="tooltip-item"><span class="badge-sample pro">Pro</span> Pro Version only</div>
+        <div class="tooltip-item"><span class="badge-sample both">Universal</span> Same for both versions</div>
+        <div class="tooltip-item"><span class="badge-sample version-specific">Version Specific</span> Different answer per version</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="search-primary">
+    <div class="search-box-large">
+      <input type="text" id="faq-search" placeholder="{{ include.search_placeholder | default: 'Search help content...' }}" aria-label="Search help">
+      <button type="button" id="faq-clear-search" class="clear-btn" title="Clear search">×</button>
+    </div>
+    <div class="search-info-line" id="search-info" data-label="{{ include.counter_label | default: 'items' }}"></div>
+  </div>
+</section>

@@ -1,0 +1,81 @@
+---
+layout: game-page
+title: "BioShock Remastered - Steam Deck Compatibility"
+game_title: "BioShock Remastered"
+slug: "bioshock-remastered"
+storefront: "GOG"
+storefront_key: "gog"
+permalink: /games/gog/bioshock-remastered/
+
+# Compatibility
+decky_rating: "green"
+standalone_rating: "green"
+date_tested: "Oct '24"
+proton_version: ""
+
+# Game Info
+publisher: 2K Games, Feral Interactive
+developer: Blind Squirrel Games
+genre: Role-playing (RPG), Adventure
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "September 15, 2016"
+game_modes: ["Single player"]
+languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
+
+# Images
+banner_image: "https://images.gog.com/fe457fa38ece7c93436c6aa9f2ca789afdb9df872eb5bb8b8eb47e918a222285.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/5148b840cdb4a8c36ace0be14875e0af17ff0d69269524afd5a528c13bbcb979.jpg?namespace=gamesdb"
+icon_image: ""
+
+# Technical Details
+controller_input: "native"
+community_layout: false
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: "12 hrs"
+hltb_main_extra: "15.5 hrs"
+hltb_completionist: "23 hrs"
+hltb_url: "https://howlongtobeat.com/game/1065"
+
+# Links
+store_url: "https://www.gog.com/en/game/bioshock_remastered"
+protondb_url: "https://www.protondb.com/app/409710"
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/BioShock_Remastered"
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/bioshock-the-collection?ftag=MCD-06-10aaa1f"
+
+# Notes
+notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. \nTurn on Esync and Fsync toggles under Proton config to fix the low-res textures and long saving/loading."
+controller_config: Native Steam Deck Controls
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "1439656515"
+is_featured: false
+owned: true
+---
+
+BioShock is a shooter unlike any other, loaded with unique weapons and tactics. Complete with an arsenal of revolvers, shotguns, and grenade launchers, players will be forced to genetically modify their DNA to become an even deadlier weapon.

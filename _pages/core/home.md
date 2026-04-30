@@ -1,7 +1,8 @@
 ---
 layout: junkstore-splash
-title: "Your Non-Steam Gaming Hub"
-description: "Junk Store - the original 100% Game Mode launcher for Steam Deck. Play Epic, GOG, Amazon & itch games without Desktop Mode. Zero background processes, full controller support."
+title: "Play Epic, GOG, Amazon & itch on Steam Deck | Junk Store"
+hero_title: "Your Non-Steam Gaming Hub for Steam Deck — Epic, GOG, Amazon & itch in Game Mode"
+description: "Play your Epic, GOG, Amazon Prime & itch libraries on Steam Deck — no Desktop Mode, no extra launchers, zero background processes. Try Junk Store free for 7 days."
 permalink: /
 classes: home
 excerpt: "All your non-Steam games in one place. No desktop mode. No multiple launchers. Just gaming."
@@ -9,6 +10,15 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
 {% include content-schema.html type="software" %}
 
 {% include video-demo-player.html %}
+
+<a href="/status/" class="homepage-uptime-badge" id="homepage-uptime" style="display: none;">
+  <span class="homepage-uptime__icon">🛡️</span>
+  <span class="homepage-uptime__text">
+    <strong>Junk Store Pro: <span id="homepage-uptime-days">--</span> days stable</strong>
+    <span class="homepage-uptime__sub">on Steam Deck — through every recent SteamOS update</span>
+  </span>
+  <span class="homepage-uptime__cta">Live status &rarr;</span>
+</a>
 
 <section class="what-is-junkstore">
   <h2>One Launcher. All Your Games</h2>
@@ -109,7 +119,7 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
     </div>
     <div class="question-item">
       <h4>Is Junk Store trustworthy?</h4>
-      <p><strong>Zero password storage.</strong> Local tokens only, same OAuth as official stores.<br><a href="/help/#is-junk-store-trustworthy">Learn more →</a></p>
+      <p><strong>Zero password storage.</strong> Local tokens only, same OAuth as official stores.<br><a href="/help/faq/#is-junk-store-trustworthy">Learn more →</a></p>
     </div>
     <div class="question-item">
       <h4>Will this impact performance?</h4>

@@ -1,0 +1,27 @@
+<!-- Latest Write-ups Section -->
+<section class="games-hub-section">
+  <div class="games-hub-section__header">
+    <h2>Latest Write-ups</h2>
+    <a href="/blog/" class="games-hub-section__link">View all →</a>
+  </div>
+
+  <div class="writeups-carousel">
+    {% assign weekly_posts = site.posts | where_exp: "post", "post.categories contains 'Weekly Update'" | limit: 4 %}
+    {% for post in weekly_posts %}
+    <a href="{{ post.url | relative_url }}" class="writeup-card">
+      {% if post.image %}
+      <div class="writeup-card__image">
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+      </div>
+      {% endif %}
+      <div class="writeup-card__content">
+        <h3 class="writeup-card__title">{{ post.title }}</h3>
+        <span class="writeup-card__date">{{ post.date | date: "%b %d, %Y" }}</span>
+        {% if post.excerpt %}
+        <p class="writeup-card__excerpt">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+        {% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>

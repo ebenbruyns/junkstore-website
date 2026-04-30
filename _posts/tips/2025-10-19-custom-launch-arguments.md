@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/blog/tips/launch-args/251015-launch-args-thumb.webp
 read_time: "3 min read"
 toc: true
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Need to add custom launch arguments to your Epic, GOG, Amazon or itch.io games? Use Junk Store's **Additional Variables** or **Additional Arguments** fields in the Advanced settings!
@@ -116,7 +117,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for seamless Steam Deck gaming?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Why make gaming harder than it needs to be?</p>

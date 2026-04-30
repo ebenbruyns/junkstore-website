@@ -1,0 +1,226 @@
+[
+  {
+    "id": "077ffe45-b72d-4824-8d2a-4cf548c47b0f",
+    "originalId": "backend-scripts-info",
+    "product": "decky",
+    "category": "Advanced",
+    "order": 0,
+    "title": "What are the backend scripts, and do I need them?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\nThese are optional example scripts mainly for DOSBox games. They are not officially supported and may stop working if Junk Store is updated. Use them only if you know how they work.\n</div>"
+  },
+  {
+    "id": "8b224e3e-8af0-4284-9391-3a45981af851",
+    "originalId": "uninstall-backend-scripts",
+    "product": "decky",
+    "category": "Advanced",
+    "order": 1,
+    "title": "How do I uninstall the backend scripts for DOS and Win 3.1?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\nYou can delete them manually from:\n    <br>\n    <code>~/homebrew/data/Junk Store/scripts/Extensions</code>\n</div>"
+  },
+  {
+    "id": "1369bed2-5827-4c65-8cc9-7670a9ff96a2",
+    "originalId": "epic-login-issues",
+    "product": "both",
+    "category": "Epic Games",
+    "order": 0,
+    "title": "I am experiencing issues trying to log in to my Epic Games account. What should I do?",
+    "solution": "\n<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\nLegendary sometimes has trouble logging in, especially with alternative authentication methods. Try these solutions:\n    <br><br>\n    <strong>Method 1 - Big Picture Mode Login:</strong><br>\nThis is common if you are trying to login using an OAuth or Third Party method (e.g. google, Steam, etc).\n    <ol>\n      <li>Switch to Desktop Mode</li>\n      <li>Launch Steam in Big Picture mode</li>\n      <li>Try logging in there</li>\n      <li>Once successful, return to Gaming Mode</li>\n    </ol>\n    <br>\n    <strong>Method 2 - \"Unable to complete login\" error:</strong><br>\n    If you get this error, use the command-line workaround:\n    <ol>\n      <li>Switch to Desktop Mode and open Konsole</li>\n      <li>Run: <code>flatpak run com.github.derrod.legendary auth --disable-webview</code></li>\n      <li>It will launch a browser for you to log in</li>\n      <li>Copy the provided code and paste it back into Konsole</li>\n    </ol><br>\nIf you are still having issues logging in please reach out to us via Discord or reddit so we can help to get you up and running.\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Note:</strong> If you've changed your password and are having issues logging in, simply reboot your Steam Deck.\n</div>\n\n</div>"
+  },
+  {
+    "id": "bfc730e9-20ef-48a5-88f5-c2cc696b29f7",
+    "originalId": "legendary-error-popup",
+    "product": "decky",
+    "category": "Epic Games",
+    "order": 1,
+    "title": "Legendary ERROR pop-up when signing in?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\nIf you see \"Legendary status produced no output,\" your credentials may be corrupted.<br><br>\n    In Desktop Mode, open Konsole and run:<br>\n    <code>/bin/flatpak run com.github.derrod.legendary auth --delete</code><br>\n    Then re-authenticate with:<br>\n    <code>/bin/flatpak run com.github.derrod.legendary auth</code>\n</div>"
+  },
+  {
+    "id": "2abc32d6-5b92-45e4-8ff4-ffb1c1709ba5",
+    "originalId": "captcha-mouse-wont-reach",
+    "product": "decky",
+    "category": "Epic Games",
+    "order": 2,
+    "title": "Can't verify captcha — mouse won't reach button?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\nTry the following:\n    <ul>\n      <li>Use a keyboard and press <kbd>Tab</kbd> to cycle to the Verify button.</li>\n      <li>In Game Mode, change the resolution to <strong>3840x2160</strong> via:<br>\n      Epic Games Login &gt; Properties &gt; Shortcut &gt; Game Resolution.</li>\n      <li>Or run in Konsole:<br>\n      <code>flatpak run com.github.derrod.legendary auth --disable-webview</code></li>\n    </ul>\n</div>"
+  },
+  {
+    "id": "639be607-9f18-4938-95f8-e31797ce9ac7",
+    "originalId": "games-wont-load-cpp-error",
+    "product": "decky",
+    "category": "Epic Games",
+    "order": 3,
+    "title": "Games won't load — Microsoft Visual C++ error?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\nIf prompted to install Microsoft Visual C++ Runtime:\n    <ol>\n      <li>Download the <strong>X64 redistributable</strong> from <a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\">Microsoft Learn</a>.</li>\n      <li>Copy the file to the game's install folder:<br><code>~/Games/epic/[game title]</code></li>\n      <li>In Junk Store, go to the game's slider menu → <strong>Run EXE in Game Folder</strong></li>\n      <li>Select <code>VC_redist.x64.exe</code> and complete the install.</li>\n    </ol>\n    This should allow the game to run.\n</div>"
+  },
+  {
+    "id": "46f4c914-ac9b-4d39-b6f9-d337e3cdc80d",
+    "originalId": "game-wont-launch",
+    "product": "both",
+    "category": "Games Not Working",
+    "order": 0,
+    "title": "My game won't launch or crashes immediately. What should I do?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\nGames may fail to launch for various reasons. Let's go through a step-by-step checklist to identify and fix the issue. After each step, try launching the game; this helps identify exactly what fixed the problem.\n  <ul>\n  <li><strong>Check offline mode settings</strong></li>\n    Games or storefronts set to offline mode can sometimes prevent launching.\n    <ul>\n    <li>Check global settings:<br> Go to the storefront tab (Epic/GOG/Amazon/itch) &gt; ⚙️ <strong>Cog Icon</strong> and make sure <strong>Offline Mode</strong> is toggled <strong>off</strong></li>\n    <li>Check per-game settings (<b>Junk Store Pro</b>&nbsp;only):<br> Go to Junk Store &gt; [Your Game] &gt; Press Y &gt; ⚙️ <strong>Cog Icon</strong> &gt; Game Configs and check if <strong>Offline Mode</strong> is enabled for that specific game</li>\n    <li>If you change any settings, make sure to <strong>Press X to Save</strong></li>\n    </ul>\n    <br>\n  <li><strong>Install any missing game dependencies</strong></li>\n    <ul>\n    <li>Missing or broken dependencies can cause launch issues.</li>\n    <li>You may get prompted to install things like Microsoft C++ runtimes when first launching.</li>\n    <li>Easily install any missing dependencies via our built-in dependency installer</li>\n    </ul>\n    <br>\n  <li><strong>Update, Verify or repair the game files</strong></li>\n    Corrupted or incomplete installs can be fixed with these tools. Sometimes updates or patches will cause games to no longer launch that used to work.\n    <ul>\n    To update game files:<br>\n    <code>Junk Store &gt; [Your Game] &gt; ☰ Sliders Menu &gt; Update Game</code><br>\n    To verify game files:<br>\n    <code>Junk Store &gt; [Your Game] &gt; ☰ Sliders Menu &gt; Verify Game</code><br>\n    To repair game files:<br>\n    <code>Junk Store &gt; [Your Game] &gt; ☰ Sliders Menu &gt; Repair Game</code>\n    </ul>\n    <br>\n  <li><strong>Change to a GE-Proton version</strong></li>\n    Some games require a more compatible version of Proton.\n    <ul>\n    Go to:<br>\n    <code>Junk Store &gt; [Your Game] &gt; Press Y &gt; ⚙️ Cog Icon &gt; Compatibility</code><br>\n    Select a <strong>GE-Proton</strong> version<br>\n    </ul>\n    <br>\n  <li><strong>Enable the EOS Overlay (Epic games only)</strong></li>\n    Some Epic games require the Epic Online Services (EOS) overlay to launch properly.\n    <ul>\n      Go to:<br>\n      <code>Junk Store &gt; [Your Game] &gt; ☰ Sliders Menu &gt; Enable EOS Overlay</code>\n    </ul>\n  </ul>\n  \n  <strong>Still not working? Check compatibility resources:</strong><br>\n     First check our <a href=\"/tested-games/\">Games Tested table</a> to see if your game has been tested with compatibility notes and workarounds.<br><br>\n    If not found there, visit <a href=\"https://www.protondb.com\" target=\"_blank\" rel=\"noopener\">ProtonDB.com</a> for community tips. You may find game-specific tweaks, compatibility reports, or Proton version recommendations that solve your issue.\n</div>"
+  },
+  {
+    "id": "b4290e46-9ad0-4390-ba32-2b3501b3649e",
+    "originalId": "rainbow-black-screen",
+    "product": "both",
+    "category": "Games Not Working",
+    "order": 1,
+    "title": "My game shows a rainbow screen (TV test), black screen, or fails to launch. What should I do?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\n\nThese issues are common with non-Steam games and are often related to Proton compatibility. Junk Store defaults to the system version of Proton, but this doesn't always work well for all games.\n  <br>\n  <br>\n  <strong>Try using a GE-Proton version:</strong><br>\n  GE-Proton tends to be more compatible with non-Steam games and often fixes these launch issues.\n    <ul>\n    <li>To change Proton version:</li>  \n    <code>Junk Store &gt; [Your Game] &gt; Press Y &gt; ⚙️ Cog Icon &gt; Compatibility</code><br>\n    <li>Select a <strong>GE-Proton</strong> version from the list</li>\n    </ul>\n  <strong>Where to get GE-Proton versions:</strong><br>\n    <ul>\n    <li><strong>Wine Cellar</strong> (Decky Plugin)</li>\n    <li><strong>ProtonUp-QT</strong> from the Discover Store on your Steam Deck</li>\n    </ul>\n  <strong>Need more tweaks? Or still having issues?</strong><br>\n   If you're still stuck, feel free to reach out on our <a href=\"https://discord.gg/6mRUhR6Teh\">Discord</a> or <a href=\"https://www.reddit.com/r/JunkStore/\">Reddit</a> community for help with your specific game.\n   <br>\n   <br>\n   Check <a href=\"https://www.protondb.com\" target=\"_blank\" rel=\"noopener\">ProtonDB.com</a> for community-recommended tweaks or launch options that may be needed to get your specific game working.\n</div>"
+  },
+  {
+    "id": "bd7d0c2e-9ec0-4ec0-bcfe-e020c890523e",
+    "originalId": "stuck-prelaunch",
+    "product": "both",
+    "category": "Games Not Working",
+    "order": 2,
+    "title": "My game gets stuck at the Steam pre-launch screen. What should I do?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong>\nThis issue might be caused by another plugin — such as <code>decky-cloud-save</code> or <code>syncthing</code> — locking Junk Store's files.\n<br><br>\n<strong>Make sure nothing is interfering with Junk Store's data directory:</strong>\n<ul>\n  <li><strong>Junk Store Pro:</strong> <code>~/.config/junkstore</code> and <code>~/.local/share/junkstore</code></li>\n  <li><strong>Decky Plugin:</strong> <code>/home/deck/homebrew/data/Junk Store</code></li>\n</ul>\nJunk Store relies on its data directory to function correctly, so if another tool is syncing or locking files in that path, it can prevent games from launching.\n</div>"
+  },
+  {
+    "id": "fbd8aed0-c0fc-4f53-9df5-b1452ff12dad",
+    "product": "both",
+    "category": "Games Not Working",
+    "order": 3,
+    "title": "Game stuck on EAC/BattlEye screen or getting kicked due to anti-cheat",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\nIf your game launches but stops at an anti-cheat loading screen, or loads but immediately kicks you out with an anti-cheat error, the anti-cheat dependencies likely aren't installed or enabled.<br><br>\n<strong>Solution:</strong>\n\n<ol>\n   <li>Install the required anti-cheat dependency via About &gt; System (look for \"Install Proton Easy Anti Cheat\" or \"Install Proton BattlEye Runtime\")</li>     \n <li>Open the game's Settings (cog icon) → Proton config</li>                                                                                                   \n  <li>Set dropdown to All to see advanced options</li>                                                                                                            \n  <li>Toggle on EAC Runtime or BattlEye Runtime as needed</li>                                                                                                    \n  <li>Press X to save</li> \n</ol>\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Tip:</strong> If the game is still not working try the following tips.\n<ul>                                                                                                                                     \n  <li>Try using GE-Proton instead of standard Proton</li>                                                                                                         \n  <li>For Epic games, also enable the EOS overlay</li>                                                                                                             \n  <li>Install dependencies to the internal SSD (external drives/microSD can cause issues)</li>                                                                    \n  <li>Check ProtonDB or tested games list - some anti-cheat systems don't support Linux at all (e.g., Fortnite)</li>\n</ul>\n</div>\n</div>"
+  },
+  {
+    "id": "6ed2266c-47b6-44ff-92f1-79b88cf4d2c0",
+    "originalId": "games-not-showing-non-steam",
+    "product": "both",
+    "category": "Games Not Working",
+    "order": 4,
+    "title": "After downloading, game shortcuts aren't showing up in the Non-Steam tab.",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\n\n   <li>Try rebooting your device and check if show up after a restart.</li>\n   <li>Check your settings and make sure the shortcut isn't hidden. After changing settings, reboot your Steam Deck for changes to take effect.</li><br>\n\nIf they still don't appear, ask for help in the <em>#plugin-support</em> channel on <a href=\"https://discord.gg/6mRUhR6Teh\" target=\"_blank\">Discord</a>.\n</div>"
+  },
+  {
+    "id": "e7322796-7751-4ebe-9bcf-14815a7283d4",
+    "originalId": "steam-download-stuck-0",
+    "product": "decky",
+    "category": "Games Not Working",
+    "order": 5,
+    "title": "When I launch a game, Steam tries to download something but it gets stuck at 0%",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\nThis is a known Steam issue, often related to Proton 9. We recommend switching to a <strong>GE-Proton</strong> version instead, as these are better suited for running non-Steam games. Open the game's properties in Steam and select a different Proton version from the Compatibility tab to resolve the issue.\n</div>"
+  },
+  {
+    "id": "bd94372c-6941-42e0-b2de-0e205917347b",
+    "originalId": "sd-card-permissions-error",
+    "product": "version-specific",
+    "category": "Games Not Working",
+    "order": 6,
+    "title": "Installing games to SD card causes a Permissions Error?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nIf you're getting permissions errors when trying to install games to your SD card, you need to properly configure your install location in Junk Store Pro.\n  <br><br>\n  <strong>How to fix:</strong>\n  <ol>\n    <li>Follow the steps in our FAQ for <a href=\"/help/tips/#qt-manage-game-storage\">How to manage game storage and SD card downloads</a></li>\n    <li>Make sure to set the dropdown at the top to <strong>All</strong></li>\n    <li>When setting your install location, select <strong>Specify your own path</strong></li>\n    <li>Put the path to your SD card in the <strong>Custom Install Path</strong> field</li>\n    <li>Press <kbd>X</kbd> to save your changes</li>\n  </ol>\n  This ensures Junk Store has the correct permissions to write to your SD card location.\n</div>\n\n<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\n<strong>Possible causes:</strong>\n    <ul>\n      <li>Your SD card may not be formatted correctly.</li>\n      <li>Old dependencies — revisit <strong>About &gt; Dependencies</strong> and reinstall them.</li>\n      <li><strong>SD card naming:</strong> If you've renamed your SD card, it may not be in the path Junk Store expects (<code>/run/media/mmcblk0p1</code>). See solution below.</li>\n    </ul>\n    <strong>Bazzite users:</strong>\n    <br>\n    If you are getting this error you need to edit the <code>settings.sh</code> file to match your setup.\n    <br><br>\n    The file you need to edit is here:<br>\n    <code>~/homebrew/plugins/Junk-Store/scripts/Extensions/Epic/settings.sh</code>\n    <br><br>\n    Look for the line:<br>\n    <code>INSTALL_DIR=\"/run/media/mmcblk0p1/Games/epic/\"</code>\n    <br><br>\n    That's the fallback path Junk Store expects. If your SD card has a different name or path, update this line to match your actual SD card location.\n</div>"
+  },
+  {
+    "id": "7a5cef80-0fba-479f-a0b1-c2bda6471a40",
+    "originalId": "new-version-game-not-in-decky",
+    "product": "pro",
+    "category": "Games Not Working",
+    "order": 7,
+    "title": "I installed a game on the new version and can't see it in the Decky one?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nThe new version of Junk Store uses a different system, so games installed there won't show up in the older Decky version — and can't be moved over.\n    <br>\n    <br>\n    If you're switching back to the Decky version:\n    <ul>\n      <li>Back up any save files manually otherwise they will be deleted.</li>\n      <li>Uninstall the game from the new version (to free up space).</li>\n      <li>Reinstall the game from within the Decky version of Junk Store.</li>\n      <li>Restore your game save manually.</li>\n    </ul>\n    Tip: Do this before your trial ends — otherwise, you may lose access and the games will still occupy storage.\n</div>"
+  },
+  {
+    "id": "056293aa-fae6-49e0-abe1-99a6bef7b73f",
+    "originalId": "games-not-showing",
+    "product": "both",
+    "category": "General",
+    "order": 0,
+    "title": "My games aren't showing up in my library. What should I check?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\nIf your games aren't appearing in one of the store tabs, try the following checks to resolve it:\n  <ul>\n  <li><strong>Check \"Show Installed\" filter:</strong></li>\n    <ul>\n      <li>Check the bottom-right of the store tab (Epic/GOG/Amazon/itch.io (beta))</li>\n      <li>If <strong>Show Installed</strong> is enabled, only games already installed will be visible</li>\n      <li>Disable this to see your full game library</li>\n    </ul>\n  <li><strong>Check the search bar:</strong></li>\n    <ul>\n      <li>Make sure you haven't accidentally typed something into the search bar that's filtering your games</li>\n      <li>Clear the text field to show all titles</li>\n    </ul>\n  <li><strong>Check your login account:</strong></li>\n    <ul>\n      <li>You might be logged into a different Epic/GOG/Amazon/itch.io (beta) account</li>\n      <li>Log out and back in with the correct account linked to your game library</li>\n    </ul>\n  <li><strong>Refresh the game list:</strong></li>\n    <ul>\n      <li>Go to the Epic/GOG/Amazon/itch.io (beta) tab and select the sliders menu to manually refresh the game list</li>\n      <li>This can help pull in any missing titles, especially after login or token changes</li>\n    </ul>\n  <li><strong>Reboot your Steam Deck:</strong></li>\n    <ul>\n      <li>Sometimes a restart is all it takes to reload everything properly</li>\n    </ul>\n   <li><strong>Force Refresh:</strong></li>\n     <ul>\n       <li>Run the following in Konsole to refresh:</li>\n  <pre><code>flatpak run com.github.derrod.legendary list --force-refresh</code></pre>\n     </ul>\n  </ul>\n\nIf missing games still don't appear, they may require a third-party launcher and are currently unsupported.\n</div>"
+  },
+  {
+    "id": "cada2c1c-9c63-4715-be05-636856f57760",
+    "originalId": "game-wont-download-critical",
+    "product": "both",
+    "category": "General",
+    "order": 1,
+    "title": "Game won't download — CRITICAL error?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\nIf you get the following error while trying to download a game:<br>\n    <code><strong>CRITICAL: installation cannot proceed, exiting</strong></code><br>\n    It likely means your storage is full. Free up space or install to another location.\n</div>"
+  },
+  {
+    "id": "923eb546-14e1-447e-8c2c-4248ce48adbd",
+    "originalId": "controller-not-working",
+    "product": "both",
+    "category": "General",
+    "order": 2,
+    "title": "Game launches but controller doesn't work?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\nTry the following:\n    <ul>\n      <li><strong>Restart your Steam Deck</strong> this can resolve odd controller issues.</li>\n      <li><strong>Check your Steam Input settings</strong> they may be interfering.</li>\n      <li><strong>Open and close the Quick Access menu</strong> this can \"wake\" controller detection.</li>\n      <li><strong>Change the Proton version</strong> ProtonGE is often more compatible.</li>\n    </ul>\n    If none of these work, further research may be needed. Note that we can't test every game.\n</div>"
+  },
+  {
+    "id": "7bc78732-531f-4533-8309-52b107f09072",
+    "originalId": "keyboard-issues",
+    "product": "both",
+    "category": "General",
+    "order": 3,
+    "title": "Having issues bringing up the keyboard in Game Mode?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\nIf the <strong>Steam + X</strong> shortcut isn't bringing up the keyboard try the following:\n  <ul>\n    <li>Try to bring up the keyboard ⌨️ from the Quick Access Menu (<strong>⋯</strong>).</li>\n    <li>Tap directly on a text field (like a password box) to prompt the keyboard.</li>\n    <li>Try toggling to Desktop Mode and back to Game Mode to reset input services.</li>\n    <li>Restart Steam or the device if the issue persists.</li>\n  </ul>\n    This is a known Steam bug that has been around for a while. These steps usually help work around it until Valve fixes it in a future update.\n</div>"
+  },
+  {
+    "id": "f515b742-96b2-4522-a06f-eac2f6aaedbb",
+    "originalId": "328d883c-ac40-476d-a51f-2a3eb6366be9",
+    "product": "decky",
+    "category": "General",
+    "order": 4,
+    "title": "Why can I only see games A-L in my Epic/GOG library?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\n<strong>This is normal behavior for the Decky plugin.</strong> The free Decky version only loads your first 100 games by default for performance optimization.\n  <br>\n  <br>\n    <strong>To see your full library:</strong>\n    <ol>\n      <li>Open your Epic or GOG library in Junk Store</li>\n      <li>Navigate to any game in the list (move out of the search field)</li>\n      <li>Look for the bottom menu with <strong>\"SHOW ALL\"</strong> button</li>\n      <li>Press the <strong>Y button</strong> on your Steam Deck</li>\n      <li>Wait a moment for your complete library to load</li>\n    </ol>\n    <strong>Can't see the \"SHOW ALL\" button?</strong>\n    <ul>\n      <li>Your CSS Loader theme might be hiding the bottom menu</li>\n      <li>Try temporarily disabling your CSS theme to access the button</li>\n      <li>You can still search for specific games by name</li>\n    </ul>\n    <strong>Note:</strong> Each store (Epic, GOG, Amazon) needs \"SHOW ALL\" pressed separately.\n\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 10px; margin: 10px 0; border-radius: 0 6px 6px 0;\"> \n  <strong style=\"color: #d4a84b;\">Refer:</strong> <a href=\"/blog/press-y-show-all-games/\">Tip of the Week: Missing the 'Press Y to Show All Prompt</a>                                    \n</div>\n\n</div>"
+  },
+  {
+    "id": "3b04c412-e7be-4e3a-9322-b4adc4f8ad3f",
+    "originalId": "installation-not-completing",
+    "product": "pro",
+    "category": "Installation",
+    "order": 0,
+    "title": "Junk Store Pro installation fails",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong><br>\n<strong>What to do:</strong>\n  <ol>\n    <li><strong>Wait for completion:</strong> Let the installation dialog run until it specifically shows \"Installation Complete\"</li>\n    <li><strong>Don't click OK early:</strong> The OK button appears before installation finishes - ignore it until completion message shows</li>\n    <li><strong>If you clicked too early:</strong> Re-run the installer and wait for the complete message this time</li>\n  </ol>\n\n  <em>This is the #1 cause of installation issues - incomplete installations due to clicking OK too early.</em>\n\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 15px; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">CRITICAL:</strong> When installing Junk Store Pro, you MUST wait until the dialogue box says \"Installation Complete\" before clicking OK. Clicking the OK button too early cancels the installation process.\n</div>\n</div>"
+  },
+  {
+    "id": "6ed831b7-07c0-4015-9deb-ff46e3bce326",
+    "originalId": "junk-store-not-working",
+    "product": "pro",
+    "category": "Installation",
+    "order": 1,
+    "title": "Junk Store isn't working or showing errors after installation?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nThis might be caused by a couple of common issues:\n    <ol>\n      <li><strong>Outdated Decky version</strong><br>\n        Outdated versions can cause compatibility errors, such as:<br><br>\n        <strong>An error occurred while rendering this content</strong><br>\n        <code>Error reference: shared SteamUI_9871360_fede34d936775239</code>\n        <br><br>\n        Try updating Decky and see if the issue is resolved.<br><br>\n        If you're still having trouble, feel free to reach out on our \n        <a href=\"https://discord.gg/6mRUhR6Teh\" target=\"_blank\" rel=\"noopener\">Discord server</a>.\n      </li><br>\n      <li><strong>You're using the Steam Beta branch</strong><br>\n        Breakages can happen on Steam Beta due to ongoing codebase changes. We do our best to patch any issues quickly.<br><br>\n        For the most stable experience, we recommend using the <strong>Stable</strong> version of Steam. The Beta branch often includes bugs or breaking changes.<br><br>\n        If you do choose to stay on Steam <em>Beta</em>, we also recommend using the <em>Beta</em> version of Junk Store for better compatibility.\n      </li>\n    </ol>\n</div>"
+  },
+  {
+    "id": "285b6aae-f7de-416a-9aa1-2ca9cb7ba5b6",
+    "originalId": "no-extensions",
+    "product": "pro",
+    "category": "Installation",
+    "order": 2,
+    "title": "I don't have any extensions—what do I do?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nIf you don't see any extensions, you'll need to generate them. Currently, Junk Store supports extensions for <strong>Epic</strong>, <strong>GOG</strong>, <strong>Amazon</strong>, and <strong>itch.io (beta)</strong>.\n  <br>\n  <br>\n  <strong>To generate extensions:</strong>\n  <ol>\n    <li>Open Junk Store by pushing <strong>Select</strong> button above the D-pad.</li>\n    <li>Make sure you're logged in to your Junk Store account.</li>\n    <li>Scroll down to the <strong>Tools</strong> section.</li>\n    <li>Open the sliders menu (☰) next to the search bar and select <strong>Download All Presets from Server</strong>.</li>\n    <li>Then, go to each extension you want (Epic, GOG, Amazon, itch.io (beta)) and press the <strong>Download</strong> button (📥) for each one.</li>\n  </ol>\n    Once downloaded, the extensions will appear as tabs in Junk Store.\n  <br><br>\n  <strong>📖 Need detailed installation steps?</strong> Check our <a href=\"/tutorials/install-junk-store-2\">Installation Tutorial</a> for complete setup instructions.\n</div>"
+  },
+  {
+    "id": "27696f17-600b-455c-bee5-456692c68da4",
+    "originalId": "dependencies-not-installing",
+    "product": "decky",
+    "category": "Installation",
+    "order": 3,
+    "title": "Dependencies aren't installing - how do I fix this?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong><br>\nAfter installing Junk Store you're seeing errors and dependencies aren't installing. If this happens try running the following commands in Konsole:\n    <br><br>\n    <strong>Command sequence:</strong>\n    <div class=\"custom-code-block\" style=\"position: relative; margin: 15px 0;\">\n      <pre style=\"background: #272822; color: #f8f8f2; padding: 15px; border-radius: 6px; overflow-x: auto; position: relative; font-family: 'Fira Code', Consolas, monospace; font-size: 14px; line-height: 1.4;\"><code><span style=\"color: #66d9ef\">export</span> <span style=\"color: #fd971f\">DECKY_PLUGIN_RUNTIME_DIR</span><span style=\"color: #f92672\">=</span>~/homebrew/data/Junk Store\n<span style=\"color: #66d9ef\">export</span> <span style=\"color: #fd971f\">PYTHONPATH</span><span style=\"color: #f92672\">=</span>~/homebrew/plugins/Junk Store/scripts:<span style=\"color: #fd971f\">$PYTHONPATH</span>:~/homebrew/plugins/Junk Store/scripts/shared\n<span style=\"color: #66d9ef\">export</span> <span style=\"color: #fd971f\">DECKY_PLUGIN_DIR</span><span style=\"color: #f92672\">=</span>~/homebrew/plugins/Junk Store\n<span style=\"color: #66d9ef\">export</span> <span style=\"color: #fd971f\">DECKY_PLUGIN_LOG_DIR</span><span style=\"color: #f92672\">=</span>~/homebrew/logs/Junk Store\n<span style=\"color: #66d9ef\">cd</span> ~/homebrew/plugins/Junk Store\n./scripts/install_deps.sh</code></pre>\n      <button onclick=\"copyCode(this)\" style=\"position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,0.6); border: 1px solid #555; color: #fff; padding: 6px 8px; border-radius: 3px; cursor: pointer; font-size: 11px; z-index: 100;\" title=\"Copy to clipboard\">⧉</button>\n    </div>\n    \n    <script>\n    function copyCode(button) {\n      const code = button.parentElement.parentElement.querySelector('code').textContent.trim();\n      navigator.clipboard.writeText(code).then(() => {\n        button.innerHTML = '<span style=\"color: #4ade80;\">✓ Copied</span>';\n        setTimeout(() => {\n          button.innerHTML = `<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n            <rect x=\"9\" y=\"9\" width=\"13\" height=\"13\" rx=\"2\" ry=\"2\"></rect>\n            <path d=\"m5 15-4-4 4-4\"></path>\n            <path d=\"M5 20v-7a3 3 0 0 1 3-3h7\"></path>\n          </svg>`;\n        }, 2000);\n      });\n    }\n    </script>\n    <strong>What this does:</strong> Sets up the correct environment and runs the dependency installer manually.\n</div>"
+  },
+  {
+    "id": "84126a26-d41c-47aa-b216-fd42a4bbd34c",
+    "originalId": "gog-wont-run",
+    "product": "decky",
+    "category": "Installation",
+    "order": 4,
+    "title": "I can't get GOG to run in Junk Store. What do I do?",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong><br>\nMake sure you're using the <strong>latest version of Junk Store</strong> from the <strong>Decky Testing Store</strong>.<br><br>\n    You'll also need to reinstall dependencies by going to the <strong>About</strong> section and clicking \"Install Dependencies.\"<br><br>\n    Once you've purchased the GOG extension, please follow the <a href=\"/tutorials/gog-extension/\">GOG Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.\n</div>"
+  },
+  {
+    "id": "e0849426-5126-41b8-bad7-45d61b3da1f1",
+    "originalId": "executables-wont-run",
+    "product": "both",
+    "category": "Installation",
+    "order": 5,
+    "title": "Downloaded executables won't run on Steam Deck",
+    "solution": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\nExecutable files don't run when double-clicked, or open in text editor instead.<br>\n<strong>Quick fixes:</strong>\n  <ol>\n    <li><strong>File permissions:</strong> Right-click → Properties → Permissions → Enable \"Is executable\"</li>\n    <li><strong>Theme interference:</strong> Custom icons/themes can break dialogs - switch to default temporarily</li>\n    <li><strong>Console execution:</strong> Right-click → \"Run in Konsole\" for error details</li>\n  </ol>\n\n  <em>Most common cause: Custom icon themes interfering with system dialogs (zenity).</em>\n</div>"
+  }
+]

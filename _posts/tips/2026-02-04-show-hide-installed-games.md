@@ -12,6 +12,7 @@ toc: true
 image: /assets/images/blog/tips/show-hide/show-hide-installed-card.webp
 header:
   og_image: /assets/images/blog/tips/show-hide/show-hide-installed-card.jpg
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Press X in any Junk Store library to toggle between showing only installed games and showing your complete library - perfect for decluttering large collections!
@@ -71,7 +72,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Want seamless library management across all your stores?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Your Steam Deck, simplified and supercharged</p>

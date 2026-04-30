@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/blog/tips/langvar/langvar-thumb.webp
 read_time: "3 min read"
 toc: true
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Use the **Additional Variables** field in the Decky Plugin to set language environment variables for Epic games that support multiple languages!
@@ -112,7 +113,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for seamless Steam Deck gaming?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Game Mode native — the way handheld gaming should be</p>

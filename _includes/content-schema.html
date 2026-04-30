@@ -13,6 +13,8 @@
 {% include schemas/faq.html %}
 {% elsif include.type == "troubleshooting" %}
 {% include schemas/troubleshooting.html %}
+{% elsif include.type == "quicktips" %}
+{% include schemas/quicktips.html %}
 {% elsif include.type == "tutorial" and include.id %}
 {% capture tutorial_file %}schemas/tutorial-{{ include.id }}.html{% endcapture %}
 {% include {{ tutorial_file }} %}

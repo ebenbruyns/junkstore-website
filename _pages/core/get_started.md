@@ -148,19 +148,19 @@ excerpt: "Quick start guide for Junk Store Pro - get up and running fast"
   <div class="js-card js-card--success">
     <h4 class="js-card__title">Import games from Decky</h4>
     <p class="js-card__text">Migrate your existing library from the Decky plugin.</p>
-    <div class="js-card__link"><a href="/help/#import-games-from-decky">Learn how →</a></div>
+    <div class="js-card__link"><a href="/help/faq/#import-games-from-decky">Learn how →</a></div>
   </div>
 
   <div class="js-card js-card--success">
     <h4 class="js-card__title">Install & uninstall games</h4>
     <p class="js-card__text">Managing your game library in Junk Store.</p>
-    <div class="js-card__link"><a href="/help/#install-uninstall-game">Learn how →</a></div>
+    <div class="js-card__link"><a href="/help/tips/#qt-install-uninstall-game">Learn how →</a></div>
   </div>
 
   <div class="js-card js-card--success">
     <h4 class="js-card__title">Access itch</h4>
     <p class="js-card__text">Enable the itch extension for indie games.</p>
-    <div class="js-card__link"><a href="/help/#how-to-access-itch-io-beta">Learn how →</a></div>
+    <div class="js-card__link"><a href="/help/faq/#how-to-access-itch-io-beta">Learn how →</a></div>
   </div>
 </div>
 
@@ -171,25 +171,25 @@ excerpt: "Quick start guide for Junk Store Pro - get up and running fast"
   <div class="js-card js-card--accent">
     <h4 class="js-card__title">Installation not completing?</h4>
     <p class="js-card__text">Wait for "Installation Complete" before clicking OK.</p>
-    <div class="js-card__link"><a href="/help/#installation-not-completing">Full troubleshooting →</a></div>
+    <div class="js-card__link"><a href="/help/troubleshooting/#installation-not-completing">Full troubleshooting →</a></div>
   </div>
 
   <div class="js-card js-card--accent">
     <h4 class="js-card__title">Executable won't run?</h4>
     <p class="js-card__text">Check file permissions and theme settings.</p>
-    <div class="js-card__link"><a href="/help/#executables-wont-run">Full troubleshooting →</a></div>
+    <div class="js-card__link"><a href="/help/troubleshooting/#executables-wont-run">Full troubleshooting →</a></div>
   </div>
 
   <div class="js-card js-card--accent">
     <h4 class="js-card__title">Junk Store not working?</h4>
     <p class="js-card__text">Check Decky version and Steam branch settings.</p>
-    <div class="js-card__link"><a href="/help/#junk-store-not-working">Full troubleshooting →</a></div>
+    <div class="js-card__link"><a href="/help/troubleshooting/#junk-store-not-working">Full troubleshooting →</a></div>
   </div>
 
   <div class="js-card js-card--accent">
     <h4 class="js-card__title">Games not showing?</h4>
     <p class="js-card__text">Check filters, search bar, and login account.</p>
-    <div class="js-card__link"><a href="/help/#games-not-showing">Full troubleshooting →</a></div>
+    <div class="js-card__link"><a href="/help/troubleshooting/#games-not-showing">Full troubleshooting →</a></div>
   </div>
 </div>
 
@@ -207,12 +207,12 @@ excerpt: "Quick start guide for Junk Store Pro - get up and running fast"
     <p class="js-card__text">Watch the full setup on YouTube</p>
   </a>
 
-  <a href="/help/#troubleshooting" class="js-card js-card--success">
+  <a href="/help/troubleshooting/" class="js-card js-card--success">
     <h4 class="js-card__title">Troubleshooting</h4>
     <p class="js-card__text">Full list of fixes and solutions</p>
   </a>
 
-  <a href="/help/#faq" class="js-card js-card--accent">
+  <a href="/help/faq/" class="js-card js-card--accent">
     <h4 class="js-card__title">FAQ</h4>
     <p class="js-card__text">Common questions answered</p>
   </a>

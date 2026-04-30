@@ -75,8 +75,8 @@ difficulty: "Intermediate"
 
 <p><strong>Quick fixes for common issues:</strong></p>
 <ul>
-<li><a href="/faq/">FAQ</a> - General questions</li>
-<li><a href="/troubleshooting/">Troubleshooting</a> - Common issues</li>
+<li><a href="/help/faq/">FAQ</a> - General questions</li>
+<li><a href="/help/troubleshooting/">Troubleshooting</a> - Common issues</li>
 </ul>
 
 <p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> for community support.</p>

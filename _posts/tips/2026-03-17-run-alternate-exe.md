@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/blog/tips/run-exe/runexeblogcard.webp
 read_time: "2 min read"
 toc: true
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Some games bundle multiple executables like expansion packs, config tools, or alternate launchers. Here's how to run any of them without switching to Desktop Mode.
@@ -113,7 +114,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for seamless Steam Deck gaming?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     Try Junk Store 2.0 Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Game Mode native - the way handheld gaming should be</p>

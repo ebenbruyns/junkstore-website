@@ -175,8 +175,8 @@ Games that need <strong>EA App</strong> or <strong>Origin</strong> won't show up
 
 <p><strong>Quick fixes for common issues:</strong></p>
 <ul>
-<li><a href="/help/#faq">Decky Plugin FAQ</a> - General questions</li>
-<li><a href="/help/#troubleshooting">Troubleshooting</a> - All Decky issues</li>
+<li><a href="/help/faq/">Decky Plugin FAQ</a> - General questions</li>
+<li><a href="/help/troubleshooting/">Troubleshooting</a> - All Decky issues</li>
 </ul>
 
 <p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> and post in <strong>#decky-support</strong> channel.</p>

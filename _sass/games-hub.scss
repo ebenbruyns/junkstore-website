@@ -1,0 +1,738 @@
+// Games Hub Styles
+// ==================
+
+// Override page layout padding for games hub
+.js-page:has(.games-hub-hero) {
+  padding: 0 !important;
+
+  .js-container {
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  .js-page__content {
+    text-align: center;
+  }
+}
+
+// Variables
+$hub-bg: #0d1117;
+$hub-card-bg: #161b22;
+$hub-border: #30363d;
+$hub-text: #e6edf3;
+$hub-muted: #8b949e;
+$hub-link: #58a6ff;
+$hub-green: #3fb950;
+$hub-yellow: #d29922;
+$hub-red: #f85149;
+$hub-radius: 12px;
+
+// Hero Section
+.games-hub-hero {
+  background: linear-gradient(135deg, #1a2332 0%, #0d1117 100%);
+  padding: 24px 24px 28px;
+  text-align: center;
+  border-bottom: 1px solid $hub-border;
+  margin-top: -2rem; // Counteract .js-page padding
+
+  &__content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+
+    @media (max-width: 600px) {
+      font-size: 26px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    color: $hub-muted;
+    margin-bottom: 20px;
+    text-align: center !important;
+    width: 100%;
+    display: block;
+
+    @media (max-width: 600px) {
+      font-size: 15px;
+    }
+  }
+
+  &__stores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+    max-width: 720px;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+  }
+
+  &__cta {
+    display: inline-block;
+    padding: 14px 24px;
+    background: transparent;
+    border: 2px solid $hub-link;
+    border-radius: 8px;
+    color: $hub-link;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: all 0.2s;
+
+    &:hover {
+      background: $hub-link;
+      color: #fff;
+    }
+  }
+}
+
+// Store Pills
+.store-pill {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s, opacity 0.2s;
+
+  &:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+
+  &--epic {
+    background: #444;
+    color: #fff;
+  }
+
+  &--gog {
+    background: #86328a;
+    color: #fff;
+  }
+
+  &--amazon {
+    background: #00a14f;
+    color: #fff;
+  }
+
+  &--itch {
+    background: #fa5c5c;
+    color: #fff;
+  }
+}
+
+// Search Box
+.games-hub-search {
+  display: flex;
+  flex: 1;
+  max-width: 500px;
+  position: relative;
+
+  &__input {
+    flex: 1;
+    padding: 14px 20px;
+    background: $hub-card-bg;
+    border: 1px solid $hub-border;
+    border-right: none;
+    border-radius: $hub-radius 0 0 $hub-radius;
+    color: $hub-text;
+    font-size: 15px;
+
+    &::placeholder {
+      color: $hub-muted;
+    }
+
+    &:focus {
+      outline: none;
+      border-color: $hub-link;
+    }
+  }
+
+  &__btn {
+    padding: 14px 20px;
+    background: $hub-link;
+    border: none;
+    border-radius: 0 $hub-radius $hub-radius 0;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      background: lighten($hub-link, 10%);
+    }
+  }
+
+  // Autocomplete suggestions
+  &__suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: $hub-card-bg;
+    border: 1px solid $hub-border;
+    border-top: none;
+    border-radius: 0 0 $hub-radius $hub-radius;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 100;
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+
+  &__suggestion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    color: $hub-text;
+    text-decoration: none;
+    border-bottom: 1px solid $hub-border;
+    transition: background 0.15s;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:hover {
+      background: lighten($hub-card-bg, 5%);
+    }
+
+    &-title {
+      font-weight: 500;
+    }
+
+    &-store {
+      font-size: 10px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+
+      &.epic { background: #444; color: #fff; }
+      &.gog { background: #86328a; color: #fff; }
+      &.amazon { background: #00a14f; color: #fff; }
+      &.itch { background: #fa5c5c; color: #fff; }
+    }
+  }
+}
+
+// Section Container
+.games-hub-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+
+    h2 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #fff;
+      margin: 0;
+    }
+  }
+
+  &__link {
+    color: $hub-link;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__intro {
+    color: $hub-muted;
+    font-size: 16px;
+    margin-bottom: 16px;
+
+    .games-hub-section__link {
+      font-size: inherit;
+    }
+  }
+
+  &__footer {
+    text-align: center;
+    margin-top: 24px;
+  }
+
+  &--reports {
+    background: $hub-card-bg;
+    border-top: 1px solid $hub-border;
+    border-bottom: 1px solid $hub-border;
+    max-width: none;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    .games-hub-section__header,
+    .games-hub-section__intro,
+    .report-submit-box,
+    .recent-reports {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+// Button
+.games-hub-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: transparent;
+  border: 2px solid $hub-link;
+  border-radius: 8px;
+  color: $hub-link;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+
+  &:hover {
+    background: $hub-link;
+    color: #fff;
+  }
+}
+
+// Games Carousel
+.games-carousel {
+  position: relative;
+  margin: 0 -24px;
+  padding: 0 24px;
+
+  &__loading {
+    display: flex;
+    gap: 16px;
+    overflow: hidden;
+  }
+
+  &__track {
+    display: none;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    padding: 4px 4px 16px 4px;
+
+    // Hide scrollbar but keep functionality
+    scrollbar-width: thin;
+    scrollbar-color: $hub-border transparent;
+
+    &::-webkit-scrollbar {
+      height: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $hub-border;
+      border-radius: 3px;
+    }
+  }
+}
+
+// Write-ups Carousel
+.writeups-carousel {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 4px 4px 16px 4px;
+  margin: 0 -24px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  scrollbar-width: thin;
+  scrollbar-color: $hub-border transparent;
+}
+
+// Game Card
+.game-card {
+  flex: 0 0 160px;
+  background: $hub-card-bg;
+  border: 1px solid $hub-border;
+  border-radius: $hub-radius;
+  overflow: hidden;
+  text-decoration: none;
+  scroll-snap-align: start;
+  transition: transform 0.2s, border-color 0.2s;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: $hub-link;
+  }
+
+  &--skeleton {
+    height: 240px;
+    background: linear-gradient(90deg, $hub-card-bg 25%, lighten($hub-card-bg, 5%) 50%, $hub-card-bg 75%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s infinite;
+  }
+
+  &__image {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    overflow: hidden;
+    background: darken($hub-card-bg, 3%);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &--placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #2a3441 0%, #1a2332 100%);
+    }
+  }
+
+  &__placeholder-text {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+  }
+
+  &__content {
+    padding: 12px;
+  }
+
+  &__badges {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+
+  &__title {
+    font-size: 10px;
+    font-weight: 600;
+    color: $hub-text;
+    margin: 4px 0 0 0;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  &__rating {
+    font-size: 12px;
+    font-weight: 600;
+
+    &--green { color: $hub-green; }
+    &--yellow { color: $hub-yellow; }
+    &--red { color: $hub-red; }
+    &--gray { color: $hub-muted; }
+  }
+
+  &__store {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &--epic { background: #444; color: #fff; }
+    &--gog { background: #86328a; color: #fff; }
+    &--amazon { background: #00a14f; color: #fff; }
+    &--itch { background: #fa5c5c; color: #fff; }
+  }
+}
+
+@keyframes skeleton-loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+// Store Cards
+.store-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.store-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px;
+  background: $hub-card-bg;
+  border: 1px solid $hub-border;
+  border-radius: $hub-radius;
+  text-decoration: none;
+  transition: transform 0.2s, border-color 0.2s;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: $hub-link;
+  }
+
+  &__badge {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+  }
+
+  &__stats {
+    text-align: center;
+  }
+
+  &__total {
+    font-size: 15px;
+    color: $hub-text;
+    margin-bottom: 4px;
+
+    strong {
+      font-size: 22px;
+      font-weight: 700;
+    }
+  }
+
+  &__green {
+    font-size: 13px;
+    color: $hub-green;
+  }
+
+  // Store-specific badge colors
+  &--epic .store-card__badge {
+    background: #444;
+    color: #fff;
+  }
+
+  &--gog .store-card__badge {
+    background: #86328a;
+    color: #fff;
+  }
+
+  &--amazon .store-card__badge {
+    background: #00a14f;
+    color: #fff;
+  }
+
+  &--itch .store-card__badge {
+    background: #fa5c5c;
+    color: #fff;
+  }
+}
+
+.writeup-card {
+  flex: 0 0 280px;
+  background: $hub-card-bg;
+  border: 1px solid $hub-border;
+  border-radius: $hub-radius;
+  overflow: hidden;
+  text-decoration: none !important;
+  scroll-snap-align: start;
+  transition: transform 0.2s, border-color 0.2s;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: $hub-link;
+  }
+
+  &__image {
+    height: 160px;
+    overflow: hidden;
+    background: darken($hub-card-bg, 3%);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    padding: 16px;
+    text-align: left !important;
+  }
+
+  &__title {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: $hub-text !important;
+    margin: 0 0 8px 0 !important;
+    line-height: 1.4 !important;
+    text-align: left !important;
+  }
+
+  &__date {
+    font-size: 13px !important;
+    color: $hub-muted !important;
+    display: block !important;
+    margin-bottom: 8px !important;
+    text-align: left !important;
+  }
+
+  &__excerpt {
+    font-size: 13px !important;
+    color: $hub-muted !important;
+    line-height: 1.5 !important;
+    margin: 0 !important;
+    text-align: left !important;
+  }
+}
+
+// Community Reports
+.report-submit-box {
+  background: $hub-card-bg;
+  border: 1px solid $hub-border;
+  border-radius: $hub-radius;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+
+  &__content {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 4px 0;
+  }
+
+  &__text {
+    color: $hub-muted;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  &__btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #238636;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.2s;
+    white-space: nowrap;
+
+    &:hover {
+      background: #2ea043;
+    }
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.recent-reports {
+  &__title {
+    font-size: 16px;
+    font-weight: 600;
+    color: $hub-text;
+    margin: 0 0 16px 0;
+  }
+}
+
+.report-preview {
+  background: darken($hub-card-bg, 2%);
+  border: 1px solid $hub-border;
+  border-radius: $hub-radius;
+  padding: 20px;
+  margin-bottom: 12px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__quote {
+    font-size: 15px;
+    color: $hub-text;
+    line-height: 1.6;
+    margin: 0 0 12px 0;
+    padding: 0;
+    border: none;
+    font-style: italic;
+  }
+
+  &__meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: $hub-muted;
+    margin-bottom: 8px;
+  }
+
+  &__rating {
+    color: $hub-yellow;
+  }
+
+  &__game {
+    font-size: 13px;
+    color: $hub-link;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Footer CTA - uses global .final-cta styles

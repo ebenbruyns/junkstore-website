@@ -1,0 +1,81 @@
+---
+layout: game-page
+title: "Amnesia: The Bunker - Steam Deck Compatibility"
+game_title: "Amnesia: The Bunker"
+slug: "amnesia-the-bunker"
+storefront: "GOG"
+storefront_key: "gog"
+permalink: /games/gog/amnesia-the-bunker/
+
+# Compatibility
+decky_rating: "green"
+standalone_rating: "unknown"
+date_tested: "Oct '24"
+proton_version: ""
+
+# Game Info
+publisher: Frictional Games
+developer: Frictional Games
+genre: adventure, indie, puzzle, shooter
+franchise: Amnesia
+age_rating_summary: ESRB Mature 17+
+release_date: "June 6, 2023"
+game_modes: ["Single player"]
+languages: ["English"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
+
+# Images
+banner_image: "https://images.gog.com/0a6aa78d9569b87f775683993bf0f06e5e554dd4578083e8533c571336397e59.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/ea493428c6a2324c4a0368e7f11199251307f3aba2ee3be88c8bf7cfc3b5522c.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/ea493428c6a2324c4a0368e7f11199251307f3aba2ee3be88c8bf7cfc3b5522c.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: "native"
+community_layout: false
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: "5 hrs"
+hltb_main_extra: "7 hrs"
+hltb_completionist: "13.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/117559"
+
+# Links
+store_url: "https://www.gog.com/en/game/amnesia_the_bunker"
+protondb_url: "https://www.protondb.com/app/1944430"
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia:_The_Bunker"
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/amnesia-the-bunker/"
+
+# Notes
+notes: Works out of the box on the Decky plugin version.
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "1186009992"
+is_featured: false
+owned: true
+---
+
+Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker. Face the oppressing terrors stalking the dark corridors.

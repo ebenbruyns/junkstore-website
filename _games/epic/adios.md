@@ -1,0 +1,81 @@
+---
+layout: game-page
+title: "Adios - Steam Deck Compatibility"
+game_title: "Adios"
+slug: "adios"
+storefront: "Epic"
+storefront_key: "epic"
+permalink: /games/epic/adios/
+
+# Compatibility
+decky_rating: "green"
+standalone_rating: "green"
+date_tested: "Aug '25"
+proton_version: ""
+
+# Game Info
+publisher: Mischief
+developer: Mischief
+genre: Narration, Adventure, First Person
+franchise: 
+age_rating_summary: 
+release_date: "June 29, 2021"
+game_modes: ["Single player"]
+languages: ["English"]
+tags_structured: [{"id":"1395","name":"Narration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1294","name":"First Person"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2023-01-25T15:00:00.000Z","end":"2023-02-01T15:00:00.000Z","type":null,"id":"7334a6f04f5b47218e691f805891bc5d"}]
+
+# Images
+banner_image: "https://images.gog.com/e6030f1211af2baa459fe5a8c7ae04f1e1e16f9b1b9c8a692e0788901eba6af8.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/e2d61f63e21a57daa74e6e4873f508d653c86a316024cce836c9952f034c9f1a.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/6dd436603c9f02c4ef0a56ad0107756da89c4941b252bf9ce359acad679426df.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: "native"
+community_layout: false
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: true
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: "1.3 hrs"
+hltb_main_extra: "1.5 hrs"
+hltb_completionist: "2 hrs"
+hltb_url: "https://howlongtobeat.com/game/86459"
+
+# Links
+store_url: "https://store.epicgames.com/en-US/p/adios-b378b4"
+protondb_url: "https://www.protondb.com/app/1271400"
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Adios"
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/adios/"
+
+# Notes
+notes: "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. Needs Microsoft C++ runtime dependency but ships with it, so just install it."
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "73c56a1f38a548b2852ce8608c5e436e"
+is_featured: false
+owned: true
+---
+
+A pig farmer decides he no longer wants to dispose of bodies for the mob. What follows is a discussion between him and his would-be killer.

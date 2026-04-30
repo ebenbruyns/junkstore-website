@@ -1,0 +1,461 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.game_title }} on {{ page.storefront }} — Steam Deck Compatibility | Junk Store</title>
+
+  {%- assign compat = page.standalone_rating | default: page.decky_rating -%}
+  {%- assign tool_name = "Junk Store" -%}
+  {%- if page.storefront_key == "amazon" or page.storefront_key == "itch" -%}{%- assign tool_name = "Junk Store Pro" -%}{%- endif -%}
+  {%- if compat == "green" -%}{%- assign compat_text = "works out of the box" -%}
+  {%- elsif compat == "yellow" -%}{%- assign compat_text = "runs with some setup" -%}
+  {%- elsif compat == "red" -%}{%- assign compat_text = "runs with advanced setup" -%}
+  {%- elsif compat == "broken" -%}{%- assign compat_text = "not currently playable" -%}
+  {%- else -%}{%- assign compat_text = "compatibility tested" -%}{%- endif -%}
+
+  <meta name="description" content="Play {{ page.game_title }} ({{ page.storefront }}) on Steam Deck via {{ tool_name }} — {{ compat_text }}. Get Proton version, setup notes, and compatibility details.">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.game_title }} on {{ page.storefront }} — Steam Deck Compatibility">
+  <meta property="og:description" content="Play {{ page.game_title }} ({{ page.storefront }}) on Steam Deck via {{ tool_name }} — {{ compat_text }}. Proton version, setup notes, and compatibility details.">
+  <meta property="og:image" content="{{ page.banner_image }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.game_title }} on {{ page.storefront }} — Steam Deck Compatibility">
+  <meta name="twitter:description" content="{{ page.game_title }} ({{ page.storefront }}) on Steam Deck via {{ tool_name }} — {{ compat_text }}.">
+  <meta name="twitter:image" content="{{ page.banner_image }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    {% include game-page-styles.css %}
+  </style>
+
+  <!-- VideoGame Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": {{ page.game_title | jsonify }},
+    "description": {{ content | strip_html | strip_newlines | truncate: 200 | jsonify }},
+    {% if page.cover_image %}"image": {{ page.cover_image | jsonify }},{% endif %}
+    {% if page.genre %}"genre": {{ page.genre | jsonify }},{% endif %}
+    {% if page.publisher %}"publisher": { "@type": "Organization", "name": {{ page.publisher | jsonify }} },{% endif %}
+    {% if page.developer %}"author": { "@type": "Organization", "name": {{ page.developer | jsonify }} },{% endif %}
+    {% if page.release_date and page.release_date != "" and page.release_date != "Invalid Date" %}"datePublished": {{ page.release_date | date: '%Y-%m-%d' | jsonify }},{% endif %}
+    "gamePlatform": ["PC", "Steam Deck"],
+    "applicationCategory": "Game"
+  }
+  </script>
+
+  <!-- BreadcrumbList Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ '/' | absolute_url | jsonify }} },
+      { "@type": "ListItem", "position": 2, "name": "Games", "item": {{ '/games/' | absolute_url | jsonify }} },
+      { "@type": "ListItem", "position": 3, "name": {{ page.storefront | jsonify }}, "item": {{ '/games/tested/' | absolute_url | append: '?store=' | append: page.storefront | jsonify }} },
+      { "@type": "ListItem", "position": 4, "name": {{ page.game_title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<!-- Hero -->
+<div class="hero">
+  {% if page.banner_image and page.banner_image != "" %}
+  <img src="{{ page.banner_image }}" alt="{{ page.game_title }} on Steam Deck — {{ page.storefront }} compatibility" class="hero-bg">
+  {% endif %}
+  <div class="hero-content">
+    <h1 class="hero-title">{{ page.game_title }}</h1>
+    <div class="hero-meta" data-game-slug="{{ page.slug }}" data-game-storefront="{{ page.storefront_key }}" data-game-title="{{ page.game_title | escape }}">
+      <span class="store-badge {{ page.storefront_key }}">{{ page.storefront }}</span>
+      {% if page.date_tested %}
+      <span class="hero-detail">Tested {{ page.date_tested }}</span>
+      {% endif %}
+      {% if page.metacritic_score or page.metacritic_url %}
+      <span class="hero-detail metacritic-hero">Metacritic: <strong class="mc-score {% if page.metacritic_score %}mc-score--{% if page.metacritic_score >= 75 %}green{% elsif page.metacritic_score >= 50 %}yellow{% else %}red{% endif %}{% else %}mc-score--tbd{% endif %}">{% if page.metacritic_score %}{{ page.metacritic_score }}{% else %}TBD{% endif %}</strong></span>
+      {% endif %}
+      {% comment %}
+        Show the hero HLTB pill if any of main / extras / completionist is populated.
+        Some games (sandbox/casual) only have a Completionist time on HLTB.
+      {% endcomment %}
+      {% assign hltb_hero_time = page.hltb_main %}
+      {% if hltb_hero_time == nil or hltb_hero_time == "" %}{% assign hltb_hero_time = page.hltb_main_extra %}{% endif %}
+      {% if hltb_hero_time == nil or hltb_hero_time == "" %}{% assign hltb_hero_time = page.hltb_completionist %}{% endif %}
+      {% if hltb_hero_time and hltb_hero_time != "" %}
+      <span class="hero-detail hltb-hero">🕐 {{ hltb_hero_time }}</span>
+      {% endif %}
+      {% if page.age_rating_summary and page.age_rating_summary != "" %}
+      <span class="hero-detail age-rating-hero" title="Age rating">{{ page.age_rating_summary }}</span>
+      {% endif %}
+      {% if page.was_free_before %}
+        {% comment %} Build the tooltip from giveaway_events dates {% endcomment %}
+        {% capture giveaway_tooltip %}{% if page.giveaway_events.size > 0 %}Previously free:{% for ev in page.giveaway_events %} {{ ev.start | date: "%b %-d" }} – {{ ev.end | date: "%b %-d, %Y" }}{% unless forloop.last %};{% endunless %}{% endfor %}{% else %}This game has been given away free in the past{% endif %}{% endcapture %}
+      <span class="hero-detail previously-free" title="{{ giveaway_tooltip | strip }}">Previously Free</span>
+      {% endif %}
+      {% if page.owned == false %}
+      <span class="hero-detail community-tested" title="Tested by the community, not in the Junk Store team's library">Community Tested</span>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- Breadcrumb + inline CTA -->
+<div class="breadcrumb-bar">
+  <span class="breadcrumb-trail">
+    <a href="/">Home</a> / <a href="/games/">Games</a> / <a href="/games/tested/?store={{ page.storefront }}">{{ page.storefront }}</a> / {{ page.game_title }}
+  </span>
+  <a href="/portal-redirect/" class="breadcrumb-cta">Play with Junk Store — Try Free for 7 Days →</a>
+</div>
+
+<!-- Main Content -->
+<div class="main-content">
+  <div class="content-left">
+
+    <!-- Compatibility -->
+    <div class="compat-card">
+      <h2>Steam Deck Compatibility</h2>
+      <div class="compat-grid">
+        <div class="compat-item">
+          <div class="compat-label">Decky Plugin</div>
+          {% if page.storefront_key == "amazon" or page.storefront_key == "itch" %}
+          <div class="compat-status">🚫</div>
+          <div class="compat-text red">Pro Only</div>
+          {% else %}
+          <div class="compat-status">{% include game-page-status-icon.html rating=page.decky_rating %}</div>
+          <div class="compat-text {% include game-page-status-class.html rating=page.decky_rating %}">{% include game-page-status-text.html rating=page.decky_rating %}</div>
+          {% endif %}
+        </div>
+        <div class="compat-item">
+          <div class="compat-label">Junk Store Pro</div>
+          <div class="compat-status">{% include game-page-status-icon.html rating=page.standalone_rating %}</div>
+          <div class="compat-text {% include game-page-status-class.html rating=page.standalone_rating %}">{% include game-page-status-text.html rating=page.standalone_rating %}</div>
+        </div>
+      </div>
+
+      {% assign notes_lower = page.notes | downcase | strip %}
+      {% assign is_generic = false %}
+      {% if notes_lower == "works out of the box!" or notes_lower == "works out of the box" or notes_lower == "works great!" or notes_lower == "works great" or notes_lower == "works out of the box on the decky plugin version." or notes_lower == "works out of the box on the standalone version." or notes_lower == "" %}
+        {% assign is_generic = true %}
+      {% endif %}
+      {% if page.notes and is_generic == false %}
+      <div class="notes-box">
+        <h3>Setup Notes</h3>
+        <p>{{ page.notes | markdownify | strip_html }}</p>
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- Technical Details -->
+    {% comment %}
+      Pre-count populated grid items so we can pick a column layout that
+      balances rows: 1→1col, 2→2col, 3→3col, 4→2col(2x2), 5+→3col.
+    {% endcomment %}
+    {% assign tech_count = 1 %}{% comment %} Recommended Proton always shows {% endcomment %}
+    {% if page.controller_input %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.community_layout %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.required_launcher and page.required_launcher != "" %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.requires_account_setup %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.requires_eac_runtime or page.requires_battleye_runtime or page.cant_test_linux %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.must_be_online %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    <div class="info-section">
+      <h2>Technical Details</h2>
+      <div class="info-grid info-grid--{{ tech_count }}">
+        {% if page.controller_input %}
+        <div class="info-item">
+          <div class="info-label">Controller Support</div>
+          <div class="info-value">{% include game-page-controller-text.html input=page.controller_input %}</div>
+        </div>
+        {% endif %}
+        {% if page.community_layout %}
+        <div class="info-item">
+          <div class="info-label">Community Layout</div>
+          <div class="info-value community-layout-badge">🎮 Available</div>
+        </div>
+        {% endif %}
+        <div class="info-item">
+          <div class="info-label">Recommended Proton</div>
+          <div class="info-value">{{ page.proton_version | default: "GE-Proton" }}</div>
+        </div>
+        {% if page.required_launcher and page.required_launcher != "" %}
+        <div class="info-item">
+          <div class="info-label">Required Launcher</div>
+          <div class="info-value">{{ page.required_launcher | capitalize }}</div>
+        </div>
+        {% endif %}
+        {% if page.requires_account_setup %}
+        <div class="info-item">
+          <div class="info-label">Account Required</div>
+          <div class="info-value">Yes{% if page.account_type %} ({{ page.account_type }}){% endif %}</div>
+        </div>
+        {% endif %}
+        {% if page.requires_eac_runtime or page.requires_battleye_runtime or page.cant_test_linux %}
+        <div class="info-item">
+          <div class="info-label">Anti-Cheat</div>
+          <div class="info-value">
+            {% if page.requires_eac_runtime %}EasyAntiCheat
+            {% elsif page.requires_battleye_runtime %}BattlEye
+            {% elsif page.cant_test_linux %}Requires Windows
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+        {% if page.must_be_online %}
+        <div class="info-item">
+          <div class="info-label">Online Requirement</div>
+          <div class="info-value">Always Online</div>
+        </div>
+        {% endif %}
+      </div>
+
+      {% comment %}
+        Filter out controller_config strings that just restate what the
+        structured Controller Support row already conveys (e.g. "Native
+        Steam Deck Controls" when controller_input is "native"). Keeps
+        genuinely useful notes like "Need to use the mouse/trackpad."
+      {% endcomment %}
+      {% assign cc_lower = page.controller_config | downcase | strip | replace: ".", "" %}
+      {% assign cc_is_generic = false %}
+      {% if cc_lower == "" or cc_lower == "native steam deck controls" or cc_lower == "native steam deck controller support" or cc_lower == "native controller support" or cc_lower == "native" %}
+        {% assign cc_is_generic = true %}
+      {% endif %}
+      {% assign show_controller_config = false %}
+      {% if page.controller_config and cc_is_generic == false %}{% assign show_controller_config = true %}{% endif %}
+
+      {% if show_controller_config or page.performance_notes or page.known_issues %}
+      <div class="tech-notes">
+        {% if show_controller_config %}
+        <div class="tech-note">
+          <strong>Controller Config:</strong> {{ page.controller_config }}
+        </div>
+        {% endif %}
+        {% if page.performance_notes %}
+        <div class="tech-note">
+          <strong>Performance:</strong> {{ page.performance_notes }}
+        </div>
+        {% endif %}
+        {% if page.known_issues %}
+        <div class="tech-note">
+          <strong>Known Issues:</strong> {{ page.known_issues }}
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+
+    {% comment %}
+      Epic Features: only render rows that are actually enabled, as compact
+      chips so the section stays small. Hides entirely if nothing is enabled.
+    {% endcomment %}
+    {% if page.storefront_key == 'epic' %}
+      {% assign any_epic_feature = false %}
+      {% if page.epic_achievements or page.epic_cloud_saves or page.epic_offline_mode or page.supports_eos %}
+        {% assign any_epic_feature = true %}
+      {% endif %}
+      {% if any_epic_feature %}
+      <div class="info-section info-section--compact">
+        <h2>Epic Features</h2>
+        <div class="feature-chips">
+          {% if page.epic_achievements %}<span class="feature-chip">✓ Achievements</span>{% endif %}
+          {% if page.epic_cloud_saves %}<span class="feature-chip">✓ Cloud Saves</span>{% endif %}
+          {% if page.epic_offline_mode %}<span class="feature-chip">✓ Offline Mode</span>{% endif %}
+          {% if page.supports_eos %}<span class="feature-chip">✓ Epic Online Services</span>{% endif %}
+        </div>
+      </div>
+      {% endif %}
+    {% endif %}
+
+    <!-- About -->
+    <div class="info-section">
+      <h2>About This Game</h2>
+      <p class="description">{{ content }}</p>
+    </div>
+
+    {% comment %} External resource links — moved here from sidebar so they sit
+       naturally after the description, where users are in "learn more" mode. {% endcomment %}
+    {% if page.store_url or page.pcgamingwiki_url or page.protondb_url or page.protondb_report_url or page.areweanticheat_url or page.metacritic_url or page.hltb_url %}
+    <div class="info-section info-section--compact">
+      <h2>External Resources</h2>
+      <div class="external-links">
+        {% if page.store_url and page.store_url != "" %}
+        <a href="{{ page.store_url }}" target="_blank" rel="noopener" class="external-link {{ page.storefront_key }}">{{ page.storefront }} Store</a>
+        {% endif %}
+        {% if page.pcgamingwiki_url and page.pcgamingwiki_url != "" %}
+        <a href="{{ page.pcgamingwiki_url }}" target="_blank" rel="noopener" class="external-link pcgaming">PCGamingWiki</a>
+        {% endif %}
+        {% if page.protondb_url and page.protondb_url != "" %}
+        <a href="{{ page.protondb_url }}" target="_blank" rel="noopener" class="external-link protondb">ProtonDB</a>
+        {% endif %}
+        {% if page.protondb_report_url and page.protondb_report_url != "" %}
+        <a href="{{ page.protondb_report_url }}" target="_blank" rel="noopener" class="external-link our-report">Our Report</a>
+        {% endif %}
+        {% if page.areweanticheat_url and page.areweanticheat_url != "" %}
+        <a href="{{ page.areweanticheat_url }}" target="_blank" rel="noopener" class="external-link anticheat">AreWeAntiCheat</a>
+        {% endif %}
+        {% if page.metacritic_url and page.metacritic_url != "" %}
+        <a href="{{ page.metacritic_url | replace: 'http://', 'https://' }}" target="_blank" rel="noopener" class="external-link metacritic">Metacritic <span class="badge-score">{% if page.metacritic_score %}{{ page.metacritic_score }}{% else %}TBD{% endif %}</span></a>
+        {% endif %}
+        {% if page.hltb_url and page.hltb_url != "" %}
+        <a href="{{ page.hltb_url }}" target="_blank" rel="noopener" class="external-link hltb">HowLongToBeat</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+
+
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+
+    <div class="sidebar-card">
+      {% if page.cover_image %}
+      <img src="{{ page.cover_image }}" alt="{{ page.game_title }} Cover" class="game-cover">
+      {% endif %}
+
+      <h3>Game Info</h3>
+      {% if page.publisher %}
+      <div class="info-item">
+        <div class="info-label">Publisher</div>
+        <div class="info-value">{{ page.publisher }}</div>
+      </div>
+      {% endif %}
+      {% if page.developer %}
+      <div class="info-item">
+        <div class="info-label">Developer</div>
+        <div class="info-value">{{ page.developer }}</div>
+      </div>
+      {% endif %}
+      {% if page.genres_structured.size > 0 or page.genre %}
+      <div class="info-item info-item--tags">
+        <div class="info-label">Genre</div>
+        <div class="tag-chips">
+          {% if page.genres_structured.size > 0 %}
+            {% for g in page.genres_structured %}
+              <span class="tag-chip tag-chip--genre">{{ g.name }}</span>
+            {% endfor %}
+          {% else %}
+            {% assign legacy_genres = page.genre | split: "," %}
+            {% for g in legacy_genres %}
+              <span class="tag-chip tag-chip--genre">{{ g | strip }}</span>
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+      {% if page.franchise and page.franchise != "" %}
+      <div class="info-item">
+        <div class="info-label">Franchise</div>
+        <div class="info-value">{{ page.franchise }}</div>
+      </div>
+      {% endif %}
+      {% if page.release_date %}
+      <div class="info-item">
+        <div class="info-label">Release Date</div>
+        <div class="info-value">{{ page.release_date }}</div>
+      </div>
+      {% endif %}
+      {% if page.game_modes.size > 0 %}
+      <div class="info-item info-item--tags">
+        <div class="info-label">Game Modes</div>
+        <div class="tag-chips">
+          {% for m in page.game_modes %}
+            <span class="tag-chip tag-chip--mode">{{ m }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+      {% if page.languages.size > 0 %}
+      {% assign has_audio_lang = false %}
+      {% assign lang_count = 0 %}
+      {% for lang in page.languages %}
+        {% unless lang == "*languages with full audio support" or lang contains "*languages with full audio support" %}
+          {% assign lang_count = lang_count | plus: 1 %}
+          {% if lang contains "*" %}
+            {% assign has_audio_lang = true %}
+          {% endif %}
+        {% endunless %}
+        {% if lang contains "*languages with full audio support" and lang != "*languages with full audio support" %}
+          {% assign lang_count = lang_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      <div class="info-item info-item--languages">
+        <div class="info-label">Languages ({{ lang_count }})</div>
+        <div class="language-tags">
+          {% for lang in page.languages %}
+            {% unless lang == "*languages with full audio support" %}
+              {% assign clean_lang = lang | replace: "*languages with full audio support", "" %}
+              {% assign has_audio = false %}
+              {% unless lang contains "*languages with full audio support" %}
+                {% if clean_lang contains "*" %}
+                  {% assign has_audio = true %}
+                  {% assign clean_lang = clean_lang | replace: "*", "" %}
+                {% endif %}
+              {% endunless %}
+              <span class="language-tag{% if has_audio %} language-tag--audio{% endif %}">{{ clean_lang }}{% if has_audio %}*{% endif %}</span>
+            {% endunless %}
+          {% endfor %}
+        </div>
+        {% if has_audio_lang %}
+        <div class="language-legend">* Full audio support</div>
+        {% endif %}
+      </div>
+      {% endif %}
+      {% assign has_hltb = false %}
+      {% if page.hltb_main and page.hltb_main != "" %}{% assign has_hltb = true %}{% endif %}
+      {% if page.hltb_main_extra and page.hltb_main_extra != "" %}{% assign has_hltb = true %}{% endif %}
+      {% if page.hltb_completionist and page.hltb_completionist != "" %}{% assign has_hltb = true %}{% endif %}
+      {% if has_hltb %}
+      <div class="info-item info-item--hltb">
+        <div class="info-label">How Long to Beat</div>
+        <div class="hltb-times">
+          {% if page.hltb_main and page.hltb_main != "" %}
+          <div class="hltb-row">
+            <span class="hltb-type">Main Story</span>
+            <span class="hltb-time">{{ page.hltb_main }}</span>
+          </div>
+          {% endif %}
+          {% if page.hltb_main_extra and page.hltb_main_extra != "" %}
+          <div class="hltb-row">
+            <span class="hltb-type">Main + Extras</span>
+            <span class="hltb-time">{{ page.hltb_main_extra }}</span>
+          </div>
+          {% endif %}
+          {% if page.hltb_completionist and page.hltb_completionist != "" %}
+          <div class="hltb-row">
+            <span class="hltb-type">Completionist</span>
+            <span class="hltb-time">{{ page.hltb_completionist }}</span>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+
+
+  </div>
+</div>
+
+<!-- Back -->
+<div class="back-section">
+  <a href="/games/tested/" class="back-link">← Back to Game Database</a>
+</div>
+
+<script src="/assets/js/free-games-overlay.js" defer></script>
+
+</body>
+</html>

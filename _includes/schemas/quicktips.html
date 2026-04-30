@@ -1,0 +1,23 @@
+{%- comment -%}
+Quick Tips JSON-LD as FAQPage (no dedicated "QuickTips" schema.org type
+exists). Generated from _data/quicktips.json so schema and visible HTML
+match 1:1.
+{%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for item in site.data.quicktips -%}
+    {
+      "@type": "Question",
+      "name": {{ item.question | strip_newlines | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.answer | strip_html | strip_newlines | jsonify }}
+      }
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+}
+</script>

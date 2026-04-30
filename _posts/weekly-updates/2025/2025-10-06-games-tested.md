@@ -15,8 +15,6 @@ toc: true
 
 **This week's testing highlights:** 10 games across Epic, GOG, Amazon storefronts — including games like Gargoyles Remastered, Shadow Tactics, and Salt and Sanctuary that I could have easily turned into gaming sessions instead of testing sessions! All 10 games tested this week work perfectly out of the box on Junk Store Pro.
 
-
-
 G'day Everyone!
 
 Apologies for the lateness of this week's post! The weather hasn't been the best these past few days, which means our internet hasn't been cooperating either. Couple that with school holidays and lots of people up at their holiday homes, and it makes for very slow internet for us on the boat. Thankfully today is a beautiful Spring day, which gives us a chance to dry out and warm up! If only summer could arrive a little faster—that would be bliss.
@@ -24,7 +22,7 @@ Apologies for the lateness of this week's post! The weather hasn't been the best
 Anyway, let's get to it!
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.11 (Pre-release)
@@ -33,7 +31,7 @@ Anyway, let's get to it!
 
 > **📋 GOG Extension Note:** The GOG Extension is exclusively available through the [Junk Store Portal](https://portal.junkstore.xyz/). All previous supporters have been migrated - sign in with your original email to access. [Read more about portal-only sales](https://www.junkstore.xyz/blog/gog-extension-portal-only/).
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 ### Epic Games Giveaway
 
@@ -42,7 +40,7 @@ This week featuring Firestone: Online Idle RPG.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/b2449c5b44e83b74a6d21e9b1cc7a3eb6da588b1667431a7e0aa5722a3e8695d.jpg?namespace=gamesdb" alt="Firestone: Online Idle RPG" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Firestone%3A+Online+Idle+RPG">Firestone: Online Idle RPG</a></strong>
+    <strong><a href="/games/epic/firestone-online-idle-rpg/">Firestone: Online Idle RPG</a></strong>
     <div class="game-description">Firestone is an Idle RPG set in the Fantasy world of Alandria, where Undead and Orc forces have gathered for the first time in millennia to bring chaos and disorder to the realm.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -58,7 +56,7 @@ This week featuring Tormented Souls.
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1367590/capsule_231x87.jpg" alt="Tormented Souls" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Tormented+Souls">Tormented Souls</a></strong> <span style="color: #999;">(Prime Gaming)</span>
+    <strong><a href="/games/amazon/tormented-souls/">Tormented Souls</a></strong> <span style="color: #999;">(Prime Gaming)</span>
     <div class="game-description">Classic survival horror is back! Inspired by the original Resident Evil and Alone in the Dark series, Tormented Souls modernises with a fresh twist on the fixed perspective adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -74,7 +72,7 @@ Catching up on Paladins, Q.U.B.E. 2, Gargoyles Remastered, The Forgotten City.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/93c26e6c94e833bba81e8ecf17bf0a8de5309dab3d0f91f18b530647b2226f69.jpg?namespace=gamesdb" alt="Paladins" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Paladins">Paladins</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/epic/paladins/">Paladins</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Paladins is the ultimate fantasy team-based shooter experience, with over 50 customizable Champions fighting in 5v5 action across a diverse Realm of modes and maps!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: ❌ Doesn't work</div>
@@ -86,7 +84,7 @@ Catching up on Paladins, Q.U.B.E. 2, Gargoyles Remastered, The Forgotten City.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/8d365d5a57e9c3d3c1ff7c1f79a390cae78d9468badd04e73c83b5d5d1c124c0.jpg?namespace=gamesdb" alt="Q.U.B.E. 2" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Q.U.B.E.+2">Q.U.B.E. 2</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/epic/qube-2/">Q.U.B.E. 2</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Q.U.B.E. 2 is the sequel to the hit first-person puzzle game Q.U.B.E. With the distant help of another survivor you must manipulate the structure of this mysterious world and find a way back home.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟡 Minor tinkering</div>
@@ -98,7 +96,7 @@ Catching up on Paladins, Q.U.B.E. 2, Gargoyles Remastered, The Forgotten City.
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1928020/capsule_231x87.jpg" alt="Gargoyles Remastered" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Gargoyles+Remastered">Gargoyles Remastered</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong><a href="/games/amazon/gargoyles-remastered/">Gargoyles Remastered</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">Relive the legend of Goliath and save the world from destruction.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -110,7 +108,7 @@ Catching up on Paladins, Q.U.B.E. 2, Gargoyles Remastered, The Forgotten City.
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/874260/capsule_231x87.jpg" alt="The Forgotten City" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=The+Forgotten+City">The Forgotten City</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong><a href="/games/amazon/the-forgotten-city/">The Forgotten City</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">The Forgotten City is a mystery adventure game of exploration and deduction, and a re-imagining of the critically acclaimed mod of the same name.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -126,7 +124,7 @@ Updated compatibility for BioShock 2 Remastered, Salt and Sanctuary, Metro: Last
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/409720/capsule_231x87.jpg" alt="BioShock 2 Remastered" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=BioShock+2+Remastered">BioShock 2 Remastered</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/gog/bioshock-2-remastered/">BioShock 2 Remastered</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">In BioShock 2, you step into the boots of the most iconic denizen of Rapture, the Big Daddy, as you explore through the decrepit and beautiful fallen city, chasing an unseen foe in search of answers and your own survival.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -138,7 +136,7 @@ Updated compatibility for BioShock 2 Remastered, Salt and Sanctuary, Metro: Last
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/0e02b1eda5c0b787bc6ccc86298b79309b14faf236e35e0f89b4a50c0b240552.jpg?namespace=gamesdb" alt="Salt and Sanctuary" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Salt+and+Sanctuary">Salt and Sanctuary</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/epic/salt-and-sanctuary/">Salt and Sanctuary</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Explore a haunting, punishing island in this stylized 2D action RPG.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -150,7 +148,7 @@ Updated compatibility for BioShock 2 Remastered, Salt and Sanctuary, Metro: Last
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/287390/capsule_231x87.jpg" alt="Metro: Last Light Redux" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Metro%3A+Last+Light+Redux">Metro: Last Light Redux</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/gog/metro-last-light-redux/">Metro: Last Light Redux</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">It is the year 2034. Beneath the ruins of post-apocalyptic Moscow, in the tunnels of the Metro, the remnants of mankind are besieged by deadly threats from outside – and within.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -162,7 +160,7 @@ Updated compatibility for BioShock 2 Remastered, Salt and Sanctuary, Metro: Last
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/9fdc43f379fa9725b9aa8eb48001a549b0fa4aa6329269fd3706a6438ad4f183.jpg?namespace=gamesdb" alt="Shadow Tactics: Blades of the Shogun" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Shadow+Tactics%3A+Blades+of+the+Shogun">Shadow Tactics: Blades of the Shogun</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/gog/shadow-tactics-blades-of-the-shogun/">Shadow Tactics: Blades of the Shogun</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Shadow Tactics is a hardcore tactical stealth game set in Japan around the Edo period.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -171,17 +169,15 @@ Updated compatibility for BioShock 2 Remastered, Salt and Sanctuary, Metro: Last
   </div>
 </div>
 
-
-
 ## Games That Didn't Make the Cut
 
 Unfortunately, there were a few games this week that didn't cooperate during testing:
 
-**[Nightingale](/tested-games/?game=Nightingale) (Epic)** - Encountered a persistent error claiming the game couldn't link to Steam—despite being an Epic title. This one needs further investigation to understand what's going on.
+**Nightingale (Epic)** - Encountered a persistent error claiming the game couldn't link to Steam—despite being an Epic title. This one needs further investigation to understand what's going on.
 
-**[DragonStrike](/tested-games/?game=DragonStrike) (Amazon Prime Gaming - GOG key)** - The DOSBox configuration files weren't located where Junk Store expects to find them. We'll be implementing a fix for this and other DOSBox-based games in an upcoming update.
+**DragonStrike (Amazon Prime Gaming - GOG key)** - The DOSBox configuration files weren't located where Junk Store expects to find them. We'll be implementing a fix for this and other DOSBox-based games in an upcoming update.
 
-**[Paladins](/tested-games/?game=Paladins) (Epic) - Decky Plugin only** - Couldn't get this working on the Decky version, though given our unreliable internet this week, that may have been the culprit. The silver lining? It works flawlessly on Junk Store Pro!
+**[Paladins](/games/epic/paladins/) (Epic) - Decky Plugin only** - Couldn't get this working on the Decky version, though given our unreliable internet this week, that may have been the culprit. The silver lining? It works flawlessly on Junk Store Pro!
 
 All three games will be retested once we've resolved these issues—stay tuned for updates!
 
@@ -190,25 +186,17 @@ All three games will be retested once we've resolved these issues—stay tuned f
 **Next week's giveaways look exciting!**
 
 **Epic Games (October 9):**
-- **[Gravity Circuit](/tested-games/?game=Gravity+Circuit)** - A flashy action-packed 2D platformer following Kai, a lone operative war hero who harnesses the mysterious powers of the Gravity Circuit. Think Mega Man-style action with overwhelmingly positive reviews!
-- **[Rogue Journeyman Bundle for Albion Online](/tested-games/?game=Albion+Online)** - Starter bundle for the cross-platform sandbox MMORPG
+- **[Gravity Circuit](/games/amazon/gravity-circuit/)** - A flashy action-packed 2D platformer following Kai, a lone operative war hero who harnesses the mysterious powers of the Gravity Circuit. Think Mega Man-style action with overwhelmingly positive reviews!
+- **[Rogue Journeyman Bundle for Albion Online](/games/epic/albion-online/)** - Starter bundle for the cross-platform sandbox MMORPG
 
 **Amazon Prime Gaming:**
-- **[XCOM 2](/tested-games/?game=XCOM+2)** (GOG key) - Lead a resistance against alien occupation in this acclaimed turn-based strategy game
-- **[Vampire: The Masquerade - Reckoning of New York](/tested-games/?game=Vampire%3A+The+Masquerade+-+Reckoning+of+New+York)** (Epic key) - A narrative-driven visual novel set in the World of Darkness universe, featuring the grand finale to the New York Vampire Trilogy
+- **XCOM 2** (GOG key) - Lead a resistance against alien occupation in this acclaimed turn-based strategy game
+- **[Vampire: The Masquerade - Reckoning of New York](/games/epic/vampire-the-masquerade-reckoning-of-new-york/)** (Epic key) - A narrative-driven visual novel set in the World of Darkness universe, featuring the grand finale to the New York Vampire Trilogy
 
 We hope you're having a wonderful time wherever you are in the world, and as always, if you've got any questions about these games or Junk Store in general, please don't hesitate to reach out through our community channels.
 
 Cheers, 
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

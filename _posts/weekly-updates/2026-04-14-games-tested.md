@@ -30,19 +30,19 @@ Had to conserve power with the solar panels down, which is why this one's a bit 
 
 A few quick updates before we dive into the games:
 
-* **Junk Store Pro 3.0 Released:** The big update is here! Highlights include built-in SteamGridDB support, a File Manager, Disk Analyser, and Process Manager. <a href="/blog/junk-store-3-0-release/" target="_blank" rel="noopener">Read the full announcement →</a>
+* **Junk Store Pro 3.0 Released:** The big update is here! Highlights include built-in SteamGridDB support, a File Manager, Disk Analyser, and Process Manager. <a href="/blog/junk-store-3-release/" target="_blank" rel="noopener">Read the full announcement →</a>
 * **Decky Loader Conflict Resolved:** The conflict has been resolved in version 3.0. You can now download from Stable without issue.
-* **GOG Extension:** Exclusively available through the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a>.
+* **GOG Extension:** Exclusively available through the <a href="/portal-redirect/" target="_blank" rel="noopener">Junk Store Portal</a>.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store Pro</a>**: v3.0.1.0 (Stable Channel)
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: v3.0.1.0 (Stable Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)
 * **GOG Extension**: v0.1.11 (can be purchased from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.3 (Prerelease)
 * **Proton**: GE-Proton 10.26
 * **SteamOS**: v3.7.20 (Stable)
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 > **Tip:** Click any game title below to view full compatibility details, testing notes, and system requirements in our games database!
 
@@ -53,9 +53,9 @@ This week featuring Prop Sumo.
 <div class="game-entry">
   <img src="https://cdn2.steamgriddb.com/thumb/eb6617a04e3a3b22bc0306e55333c766.jpg" alt="Prop Sumo" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Prop%20Sumo">Prop Sumo</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/prop-sumo/">Prop Sumo</a></strong> <span class="store-badge epic">Epic</span>
     <p class="game-blurb">If you like Fall Guys, Faaast Penguin or Stumble Upon Rumble - this party fighting game pits ordinary props against each other in chaotic online battles. I got my butt kicked and may need a few more rounds of the tutorial before I'm ready to face others again!</p>
-    <a href="/tested-games/?game=Prop%20Sumo" class="view-details">View compatibility details →</a>
+    <a href="/games/epic/prop-sumo/" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
@@ -66,18 +66,18 @@ This week featuring A Rat's Quest: The Way Back Home - Season 1, King of Retail.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1124420/library_600x900.jpg" alt="A Rat's Quest: The Way Back Home - Season 1" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=A%20Rat's%20Quest%3A%20The%20Way%20Back%20Home%20-%20Season%201">A Rat's Quest: The Way Back Home - Season 1</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/a-rats-quest-the-way-back-home-season-1/">A Rat's Quest: The Way Back Home - Season 1</a></strong> <span class="store-badge epic">Epic</span>
     <p class="game-blurb">This one reminded me of The Spirit & the Mouse - beautiful artwork and it's kinda cute playing as a mouse, gives you a different perspective on things. You may need to tone down the graphics for cutscenes as they can get a bit laggy. Definitely one for the backlog - I'll get to it someday!</p>
-    <a href="/tested-games/?game=A%20Rat's%20Quest%3A%20The%20Way%20Back%20Home%20-%20Season%201" class="view-details">View compatibility details →</a>
+    <a href="/games/epic/a-rats-quest-the-way-back-home-season-1/" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/968250/library_600x900.jpg" alt="King of Retail" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=King%20of%20Retail">King of Retail</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/king-of-retail/">King of Retail</a></strong> <span class="store-badge gog">GOG</span>
     <p class="game-blurb">A retail sim where you can sell whatever you want and try out some wild business ideas. I didn't get far into this one - I'd rather leave my retail experience in the past as part of my uni days working part-time!</p>
-    <a href="/tested-games/?game=King%20of%20Retail" class="view-details">View compatibility details →</a>
+    <a href="/games/gog/king-of-retail/" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
@@ -88,13 +88,11 @@ This week featuring Evergreen Valley: The Parkour Game.
 <div class="game-entry">
   <img src="https://cdn1.epicgames.com/spt-assets/7ceb18d65aee4c36b5be5c745921b2f8/evergreen-valley-the-parkour-game-logo-2f5fw.png?resize=1&w=480&h=270&quality=medium" alt="Evergreen Valley: The Parkour Game" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Evergreen%20Valley%3A%20The%20Parkour%20Game">Evergreen Valley: The Parkour Game</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/evergreen-valley-the-parkour-game/">Evergreen Valley: The Parkour Game</a></strong> <span class="store-badge epic">Epic</span>
     <p class="game-blurb">This one gave me Getting Over It vibes - I couldn't get past the first 4 obstacles! Controls take a bit of getting used to, and one fall sends you back to the start. I'll give it another nudge, but fair warning: this one could get frustrating.</p>
-    <a href="/tested-games/?game=Evergreen%20Valley%3A%20The%20Parkour%20Game" class="view-details">View compatibility details →</a>
+    <a href="/games/epic/evergreen-valley-the-parkour-game/" class="view-details">View compatibility details →</a>
   </div>
 </div>
-
-
 
 ## Looking Forward
 
@@ -108,14 +106,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

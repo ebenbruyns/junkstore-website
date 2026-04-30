@@ -1,0 +1,81 @@
+---
+layout: game-page
+title: "Yakuza Kiwami - Steam Deck Compatibility"
+game_title: "Yakuza Kiwami"
+slug: "yakuza-kiwami"
+storefront: "GOG"
+storefront_key: "gog"
+permalink: /games/gog/yakuza-kiwami/
+
+# Compatibility
+decky_rating: "green"
+standalone_rating: "unknown"
+date_tested: "Oct '24"
+proton_version: ""
+
+# Game Info
+publisher: Sega, Deep Silver
+developer: Ryū Ga Gotoku Studios
+genre: role-playing-rpg, adventure, hack-and-slash-beat-em-up
+franchise: 
+age_rating_summary: ESRB 17
+release_date: "January 21, 2016"
+game_modes: ["Single player","Multiplayer"]
+languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
+
+# Images
+banner_image: "https://images.gog.com/1de10c293238351862a0da95aabf84ca8552d2ebfb6f09f4d66900cc2e07135a.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/0f7c01c712f0a34b24645a7c00c71773b6dfd4fc8da87471c0601ed216806d28.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/0f7c01c712f0a34b24645a7c00c71773b6dfd4fc8da87471c0601ed216806d28.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: "native"
+community_layout: false
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: "17.5 hrs"
+hltb_main_extra: "33 hrs"
+hltb_completionist: "84.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/39484"
+
+# Links
+store_url: "https://www.gog.com/en/game/yakuza_kiwami"
+protondb_url: "https://www.protondb.com/app/834530"
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Yakuza_Kiwami"
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/yakuza-kiwami?ftag=MCD-06-10aaa1f"
+
+# Notes
+notes: Works out of the box on the Decky plugin version.
+controller_config: Native Steam Deck Controls
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "1951443960"
+is_featured: false
+owned: true
+---
+
+Yakuza Kiwami is a remake of the 2005 open world action-adventure game Yakuza.

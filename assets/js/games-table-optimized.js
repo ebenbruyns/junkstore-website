@@ -256,13 +256,13 @@ class StaticOptimizedGamesTable {
           `;
         }).join('');
         
-      // Add click handlers for featured games - same as main table
+      // Add click handlers for featured games - navigate to game page
       this.featuredRow.querySelectorAll('.featured-game-link').forEach(link => {
         link.addEventListener('click', (e) => {
           e.preventDefault();
           const gameId = e.target.dataset.gameId;
           if (gameId) {
-            this.openGameModal(gameId);
+            this.navigateToGamePage(gameId);
           }
         });
       });
@@ -445,12 +445,26 @@ class StaticOptimizedGamesTable {
   addModalHandlers() {
     const gameLinks = document.querySelectorAll('.game-link.clickable');
     gameLinks.forEach(link => {
-      link.addEventListener('click', async (e) => {
+      link.addEventListener('click', (e) => {
         e.preventDefault();
         const gameId = e.target.dataset.gameId;
-        await this.openGameModal(gameId);
+        this.navigateToGamePage(gameId);
       });
     });
+  }
+
+  navigateToGamePage(gameId) {
+    const game = this.allGames.find(g => g.id === gameId);
+    if (!game) {
+      console.error('Game not found:', gameId);
+      return;
+    }
+
+    // Construct page URL - itch.io becomes 'itch' in URL
+    const store = game.storefront === 'itch.io' ? 'itch' : game.storefront.toLowerCase();
+    const slug = game.slug || game.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+
+    window.location.href = `/games/${store}/${slug}/`;
   }
 
   async openGameModal(gameId) {
@@ -699,10 +713,10 @@ class StaticOptimizedGamesTable {
                         </div>
                       ` : '';
                       })()}
-                      ${game.releasedate ? `
+                      ${game.release_date || game.releasedate ? `
                         <div class="info-item">
                           <span class="info-label">Release Date</span>
-                          <span class="info-value">${new Date(game.releasedate).toLocaleDateString()}</span>
+                          <span class="info-value">${new Date(game.release_date || game.releasedate).toLocaleDateString()}</span>
                         </div>
                       ` : ''}
                       ${(() => {
@@ -730,13 +744,13 @@ class StaticOptimizedGamesTable {
                   <div class="info-section">
                     <h6><i class="fas fa-external-link-alt text-primary"></i> External Links</h6>
                     <div class="external-links">
-                      ${game.protondb ? `
-                        <a href="${game.protondb}" target="_blank" rel="noopener" class="external-link protondb">
+                      ${game.protondb_url || game.protondb ? `
+                        <a href="${game.protondb_url || game.protondb}" target="_blank" rel="noopener" class="external-link protondb">
                           <i class="fas fa-database"></i> ProtonDB
                         </a>
                       ` : ''}
-                      ${game.pc_gaming_wiki_url ? `
-                        <a href="${game.pc_gaming_wiki_url}" target="_blank" rel="noopener" class="external-link pcgaming">
+                      ${game.pcgamingwiki_url || game.pc_gaming_wiki_url ? `
+                        <a href="${game.pcgamingwiki_url || game.pc_gaming_wiki_url}" target="_blank" rel="noopener" class="external-link pcgaming">
                           <i class="fas fa-book"></i> PCGaming Wiki
                         </a>
                       ` : game.epic_url && game.epic_url.includes('pcgamingwiki.com') ? `
@@ -1046,10 +1060,10 @@ class StaticOptimizedGamesTable {
                 <span class="info-value">${game.controller_config}</span>
               </div>
             ` : ''}
-            ${game.protondb ? `
+            ${game.protondb_url || game.protondb ? `
               <div class="info-item">
                 <span class="info-label">ProtonDB</span>
-                <span class="info-value"><a href="${game.protondb}" target="_blank" rel="noopener noreferrer">View on ProtonDB <i class="fas fa-external-link-alt ms-1"></i></a></span>
+                <span class="info-value"><a href="${game.protondb_url || game.protondb}" target="_blank" rel="noopener noreferrer">View on ProtonDB <i class="fas fa-external-link-alt ms-1"></i></a></span>
               </div>
             ` : ''}
             ${game.epic_url ? `

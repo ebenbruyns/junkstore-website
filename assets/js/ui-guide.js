@@ -473,7 +473,7 @@ function navigateToScreen(screenId) {
     addHotspot(65.5, 68.5, 4, 4.5, 2, 'B - Back');
   } else if (screenId === 6) {
     // itch library screen
-    hint.innerHTML = '<p>📚 <strong>itch.io Games Library</strong></p><p style="font-size: 0.95em; margin-top: 0.5rem;">Click store tabs to switch libraries</p>';
+    hint.innerHTML = '<p>📚 <strong>itch Games Library</strong></p><p style="font-size: 0.95em; margin-top: 0.5rem;">Click store tabs to switch libraries</p>';
     addHotspot(44, 31.5, 3.5, 4, 3, 'Amazon');
     addHotspot(48, 31.5, 2.5, 4, 4, 'Epic');
     addHotspot(51, 31.5, 2.5, 4, 5, 'GOG');

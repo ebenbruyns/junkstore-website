@@ -33,14 +33,14 @@ Anyways, all of the other games tested work out of the box on both versions of J
 * **Decky Loader Update:** If you're running the Steam beta, grab the latest Decky pre-release update (v3.2.2-pre3). The recent Steam beta broke something in Decky Loader that's now been fixed.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.5.0.0 (Channel: Stable Decky)
+* **<a href="/portal-redirect/">Junk Store 2.0</a>**: v2.5.0.0 (Channel: Stable Decky)
 * **Junk Store Plugin**: v1.1.13 (Main Store)
 * **GOG Extension**: v0.1.11 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.2-pre3
 * **Proton**: GE-Proton 10.26
 * **SteamOS**: v3.7.20 (Stable)
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 > **💡 Tip:** Click any game title below to view full compatibility details, testing notes, and system requirements in our games database!
 
@@ -51,7 +51,7 @@ This week featuring Hyper Echelon, Havendock.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/953330/library_600x900.jpg" alt="Hyper Echelon" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Hyper%20Echelon">Hyper Echelon</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/hyper-echelon/">Hyper Echelon</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">The Cyan galaxy is in peril! Your trusty little star fighter and rag tag squad of wingmen are the only hope against the evil EXODON!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -63,7 +63,7 @@ This week featuring Hyper Echelon, Havendock.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2020710/library_600x900.jpg" alt="Havendock" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Havendock">Havendock</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/havendock/">Havendock</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">A simulation game where you build a town in the middle of the sea.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -79,7 +79,7 @@ This week featuring Deep Sky Derelicts and Total War: THREE KINGDOMS.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/698640/library_600x900.jpg" alt="Deep Sky Derelicts" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Deep%20Sky%20Derelicts">Deep Sky Derelicts</a></strong> <span class="store-badge amazon">Amazon</span>
+    <strong><a href="/games/amazon/deep-sky-derelicts/">Deep Sky Derelicts</a></strong> <span class="store-badge amazon">Amazon</span>
     <div class="game-description">Deep Sky Derelicts will bring the players into the burdensome life of a society outcast, a scavenger trying to make a living, while aspiring for a better life of a full-fledged citizen.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -91,7 +91,7 @@ This week featuring Deep Sky Derelicts and Total War: THREE KINGDOMS.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/779340/library_600x900.jpg" alt="Total War: THREE KINGDOMS" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Total%20War%3A%20THREE%20KINGDOMS">Total War: THREE KINGDOMS</a></strong> <span class="store-badge amazon">Amazon</span>
+    <strong><a href="/games/epic/total-war-three-kingdoms/">Total War: THREE KINGDOMS</a></strong> <span class="store-badge amazon">Amazon</span>
     <div class="game-description">Total War: THREE KINGDOMS is the first in the award-winning series to recreate epic conflict across ancient China.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -107,7 +107,7 @@ These are bonus giveaways from game devs on Epic this week: Symmetry and Lucky G
 <div class="game-entry">
   <img src="https://cdn2.steamgriddb.com/thumb/c74c7da0ec0abfaeadb3ea1d96db7f9f.jpg" alt="Symmetry" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Symmetry">Symmetry</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/symmetry/">Symmetry</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">A research spaceship reaches an abandoned planet. Nothing is what it seems here and the situation quickly slips out of control. Can the crew manage to survive and get back home?</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -119,7 +119,7 @@ These are bonus giveaways from game devs on Epic this week: Symmetry and Lucky G
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2174420/library_600x900.jpg" alt="Lucky Goal" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Lucky%20Goal">Lucky Goal</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/lucky-goal/">Lucky Goal</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Lucky goal offers an experience of a soccer game through a third-person view.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -127,8 +127,6 @@ These are bonus giveaways from game devs on Epic this week: Symmetry and Lucky G
     </div>
   </div>
 </div>
-
-
 
 ## Looking Forward
 
@@ -142,14 +140,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools. Upgrade to the all-in-one solution.</p>
-</div>
 
 ---
 

@@ -10,6 +10,23 @@
     return;
   }
 
+  // Render a note's text. HTML-escape everything first (XSS defense — note
+  // authors are Firebase-authed admins but defense-in-depth costs nothing),
+  // then convert `[text](https://...)` markdown links into <a> tags.
+  function renderNoteText(raw) {
+    if (!raw) return '';
+    const escaped = String(raw)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+    return escaped.replace(
+      /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
+      (_, text, url) => `<a href="${url}" target="_blank" rel="noopener noreferrer">${text}</a>`
+    );
+  }
+
   try {
     // Fetch from Cloudflare Worker cache instead of direct Firebase
     const data = await window.fetchCachedDocument('metadata/uptime');
@@ -49,6 +66,14 @@
       }
     }
 
+    // Update homepage badge if present
+    const homepageBadge = document.getElementById('homepage-uptime');
+    const homepageDays = document.getElementById('homepage-uptime-days');
+    if (homepageBadge && homepageDays) {
+      homepageDays.textContent = diffDays;
+      homepageBadge.style.display = '';
+    }
+
     // Update status page elements if present
     const statusDays = document.getElementById('status-days');
     const statusDate = document.getElementById('status-reset-date');
@@ -78,6 +103,57 @@
       statusSteamOS.textContent = data.steamosVersion || 'N/A';
     }
 
+    // Stability stats: count SteamOS *stable* updates passed since reset, and
+    // derive the latest stable version from the most recent stable note.
+    const versionRegex = /(?:SteamOS\s+v?)?(\d+\.\d+(?:\.\d+)?)/i;
+    let stableUpdatesPassed = 0;
+    let currentSteamosVersion = null;
+
+    if (Array.isArray(data.notes) && data.notes.length > 0) {
+      const stableNotes = data.notes
+        .filter(n => n && n.type === 'stable')
+        .map(n => ({
+          ...n,
+          _date: n.date && n.date.toDate ? n.date.toDate() : new Date(n.date)
+        }))
+        .filter(n => !isNaN(n._date))
+        .sort((a, b) => b._date - a._date);
+
+      stableUpdatesPassed = stableNotes.filter(n => n._date > resetDate).length;
+
+      for (const n of stableNotes) {
+        const m = (n.text || '').match(versionRegex);
+        if (m) {
+          currentSteamosVersion = m[1];
+          break;
+        }
+      }
+    }
+
+    const updatesPassedEl = document.getElementById('status-updates-passed');
+    const updatesPassedLabel = document.getElementById('status-updates-passed-label');
+    if (updatesPassedEl) {
+      updatesPassedEl.textContent = stableUpdatesPassed;
+    }
+    if (updatesPassedLabel) {
+      updatesPassedLabel.textContent =
+        stableUpdatesPassed === 1 ? 'SteamOS update passed' : 'SteamOS updates passed';
+    }
+
+    const steamosLine = document.getElementById('status-steamos-line');
+    const steamosText = document.getElementById('status-steamos-text');
+    if (steamosLine && steamosText && data.steamosVersion) {
+      const launch = data.steamosVersion;
+      let html;
+      if (currentSteamosVersion && currentSteamosVersion !== launch) {
+        html = '<strong>SteamOS:</strong> ' + launch + ' at launch &middot; ' + currentSteamosVersion + ' current';
+      } else {
+        html = '<strong>SteamOS:</strong> ' + launch;
+      }
+      steamosText.innerHTML = html;
+      steamosLine.style.display = '';
+    }
+
     // Populate notes table
     const notesTable = document.getElementById('notes-table');
     const NOTES_LIMIT = 5;
@@ -105,7 +181,7 @@
             row.innerHTML = `
               <td>${noteDate.toLocaleDateString('en-NZ', { year: 'numeric', month: 'short', day: 'numeric' })}</td>
               <td>${typeBadge}</td>
-              <td>${note.text}</td>
+              <td>${renderNoteText(note.text)}</td>
             `;
             tbody.appendChild(row);
           });
@@ -120,7 +196,7 @@
             row.innerHTML = `
               <td>${noteDate.toLocaleDateString('en-NZ', { year: 'numeric', month: 'short', day: 'numeric' })}</td>
               <td>${typeBadge}</td>
-              <td>${note.text}</td>
+              <td>${renderNoteText(note.text)}</td>
             `;
             tbody.appendChild(row);
           });
@@ -163,42 +239,72 @@
       }
     }
 
-    // Populate break history table
-    // Filter out invalid entries (empty strings, nulls, entries without dates)
+    // Populate Track Record section
     const validHistory = (data.breakHistory || []).filter(entry => entry && typeof entry === 'object' && entry.date);
+    const trackRecordClean = document.getElementById('track-record-clean');
+    const trackRecordStats = document.getElementById('track-record-stats');
+    const trackRecordSince = document.getElementById('track-record-since');
 
-    if (historyTable && validHistory.length > 0) {
-      const tbody = historyTable.querySelector('tbody');
-      if (tbody) {
-        tbody.innerHTML = '';
-
-        // Sort by date descending (most recent first)
-        const sortedHistory = [...validHistory].sort((a, b) => {
-          const dateA = a.date.toDate ? a.date.toDate() : new Date(a.date);
-          const dateB = b.date.toDate ? b.date.toDate() : new Date(b.date);
-          return dateB - dateA;
-        });
-
-        sortedHistory.forEach(entry => {
-          const entryDate = entry.date.toDate ? entry.date.toDate() : new Date(entry.date);
-          // Convert newlines to <br> for multi-line reasons
-          const reasonHtml = (entry.reason || 'Unknown').replace(/\n/g, '<br>');
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${entryDate.toLocaleDateString('en-NZ', { year: 'numeric', month: 'short', day: 'numeric' })}</td>
-            <td>${entry.steamosVersion || 'Unknown'}</td>
-            <td>${reasonHtml}</td>
-            <td>${entry.fixedIn || '-'}</td>
-            <td>${entry.daysStable || 0}</td>
-          `;
-          tbody.appendChild(row);
+    if (validHistory.length === 0) {
+      // Clean record: show affirmative statement, hide stats + table
+      if (trackRecordSince) {
+        trackRecordSince.textContent = resetDate.toLocaleDateString('en-NZ', {
+          year: 'numeric', month: 'long', day: 'numeric'
         });
       }
-    } else if (historyTable) {
-      // No history yet
-      const tbody = historyTable.querySelector('tbody');
-      if (tbody) {
-        tbody.innerHTML = '<tr><td colspan="5" class="text-center text-muted">No break history recorded yet</td></tr>';
+      if (trackRecordClean) trackRecordClean.style.display = '';
+      if (trackRecordStats) trackRecordStats.style.display = 'none';
+      if (historyTable) historyTable.style.display = 'none';
+    } else {
+      // Have breaks: show stats strip + detail table, hide clean message
+      if (trackRecordClean) trackRecordClean.style.display = 'none';
+
+      // Sort by date descending
+      const sortedHistory = [...validHistory].sort((a, b) => {
+        const dateA = a.date.toDate ? a.date.toDate() : new Date(a.date);
+        const dateB = b.date.toDate ? b.date.toDate() : new Date(b.date);
+        return dateB - dateA;
+      });
+
+      // Compute summary stats
+      const currentStreakDays = diffDays;
+      const previousStreaks = sortedHistory.map(e => Number(e.daysStable) || 0);
+      const longestStreak = Math.max(currentStreakDays, ...previousStreaks);
+      const totalDaysTracked = previousStreaks.reduce((a, b) => a + b, 0) + currentStreakDays;
+      // "Days stable" assumes ~1 day downtime per break (conservative). If we ever
+      // track fix duration, swap this for a precise number.
+      const daysBroken = sortedHistory.length;
+      const stablePercent = totalDaysTracked > 0
+        ? Math.round(((totalDaysTracked - daysBroken) / totalDaysTracked) * 100 * 10) / 10
+        : 100;
+
+      const breaksEl = document.getElementById('record-stat-breaks');
+      const longestEl = document.getElementById('record-stat-longest');
+      const percentEl = document.getElementById('record-stat-percent');
+      if (breaksEl) breaksEl.textContent = sortedHistory.length;
+      if (longestEl) longestEl.textContent = longestStreak;
+      if (percentEl) percentEl.textContent = stablePercent + '%';
+      if (trackRecordStats) trackRecordStats.style.display = '';
+
+      if (historyTable) {
+        historyTable.style.display = '';
+        const tbody = historyTable.querySelector('tbody');
+        if (tbody) {
+          tbody.innerHTML = '';
+          sortedHistory.forEach(entry => {
+            const entryDate = entry.date.toDate ? entry.date.toDate() : new Date(entry.date);
+            const reasonHtml = (entry.reason || 'Unknown').replace(/\n/g, '<br>');
+            const row = document.createElement('tr');
+            row.innerHTML = `
+              <td>${entryDate.toLocaleDateString('en-NZ', { year: 'numeric', month: 'short', day: 'numeric' })}</td>
+              <td>${entry.steamosVersion || 'Unknown'}</td>
+              <td>${reasonHtml}</td>
+              <td>${entry.fixedIn || '-'}</td>
+              <td>${entry.daysStable || 0}</td>
+            `;
+            tbody.appendChild(row);
+          });
+        }
       }
     }
 

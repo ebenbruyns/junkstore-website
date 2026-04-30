@@ -76,6 +76,34 @@ layout: junkstore-default
       {{ content }}
     </section>
 
+    {%- comment -%}
+      Unified Junk Store Pro CTA. Subtext rotates from _data/cta_variations.yml
+      (deterministic per-post via day-of-year mod, so each post gets a stable
+      but varied tagline). Posts that need a custom CTA set `cta_disabled: true`
+      in their frontmatter and embed their own inline-blog-cta block in content.
+    {%- endcomment -%}
+    {%- if page.cta_disabled != true -%}
+      {%- assign cta_subtexts_joined = "" -%}
+      {%- for category in site.data.cta_variations -%}
+        {%- for line in category[1] -%}
+          {%- assign cta_subtexts_joined = cta_subtexts_joined | append: line | append: "|||" -%}
+        {%- endfor -%}
+      {%- endfor -%}
+      {%- assign cta_subtexts = cta_subtexts_joined | split: "|||" -%}
+      {%- assign cta_seed = page.date | date: "%j" | plus: 0 -%}
+      {%- assign cta_idx = cta_seed | modulo: cta_subtexts.size -%}
+      {%- assign cta_subtext = cta_subtexts[cta_idx] -%}
+
+      <aside class="inline-blog-cta inline-blog-cta--auto" aria-label="Try Junk Store Pro">
+        <p><strong>Ready for an all-in-one launcher?</strong></p>
+        <a href="/portal-redirect/" class="inline-blog-cta-button">
+          🚀 Try Junk Store Pro Free for 7 Days
+        </a>
+        <p class="inline-cta-subtext">{{ cta_subtext }}</p>
+        <a href="/features/" class="inline-blog-cta-features-link">See all Junk Store Pro features &rarr;</a>
+      </aside>
+    {%- endif -%}
+
     <!-- Post Footer (tags hidden for SEO) -->
     <footer class="js-post__footer">
       {% if page.tags %}

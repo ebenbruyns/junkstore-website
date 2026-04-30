@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/blog/tips/offline-tip/globalofflineon.webp
 read_time: "3 min read"
 toc: true
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Want to play your Epic games without an internet connection? Junk Store makes it easy to enable offline mode.
@@ -84,7 +85,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Want per-game offline control?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store 2.0 Free for 7 Days
   </a>
   <p class="inline-cta-subtext">More control, same Game Mode experience</p>

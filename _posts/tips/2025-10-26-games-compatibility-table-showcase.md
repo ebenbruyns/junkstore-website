@@ -61,7 +61,7 @@ Instead of just reading about a game in our weekly update, you can click through
 
 This isn't just a static list - it's a living database that gets updated weekly as we test new games and retest existing ones to verify compatibility hasn't changed. Each entry includes real testing notes from actual Steam Deck sessions.
 
-Check it out at: [junkstore.xyz/tested-games](/tested-games/)
+Check it out at: [junkstore.xyz/tested-games](/games/tested/)
 
 ## Share Your Feedback
 
@@ -74,14 +74,6 @@ Since we don't have comments on blog posts, join the conversation on Discord or 
 
 <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Join Discord</a>
 <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>r/JunkStore</a>
-
-<div class="inline-blog-cta">
-  <p><strong>Ready to try these tested games on your Steam Deck?</strong></p>
-  <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="inline-blog-cta-button">
-    🎮 Start Free Trial - Junk Store Pro
-  </a>
-  <p class="inline-cta-subtext">Get instant access to Epic, GOG, Amazon & itch.io games in Game Mode</p>
-</div>
 
 <style>
 /* Community buttons styling */

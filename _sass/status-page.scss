@@ -55,6 +55,41 @@
     color: #aaa;
   }
 
+  .status-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin: 0.5rem 0 0.25rem;
+  }
+
+  .status-stat {
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #2ecc71;
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 1rem;
+    color: #aaa;
+    margin-top: 0.25rem;
+  }
+
+  @media (max-width: 480px) {
+    .status-stats {
+      gap: 1.5rem;
+    }
+
+    .stat-number {
+      font-size: 2.75rem;
+    }
+  }
+
   .last-reset-info {
     margin-top: 1.5rem;
     padding-top: 1.5rem;
@@ -110,10 +145,38 @@
     padding: 0.25rem 0.75rem;
     border-radius: 12px;
     font-size: 0.85rem;
-    font-weight: 500;
-    // All badges green to indicate "not broken"
-    background: rgba(46, 204, 113, 0.2);
+    font-weight: 600;
+    white-space: nowrap;
+    // Default: muted green tint (covers any unknown types)
+    background: rgba(46, 204, 113, 0.15);
     color: #2ecc71;
+    border: 1px solid transparent;
+
+    &.stable {
+      background: #2ecc71;
+      color: #0b1117;
+      border-color: #2ecc71;
+    }
+
+    &.beta {
+      background: transparent;
+      color: #2ecc71;
+      border-color: rgba(46, 204, 113, 0.55);
+      font-weight: 500;
+    }
+
+    &.release {
+      background: rgba(255, 117, 26, 0.18);
+      color: #ff9b52;
+      border-color: rgba(255, 117, 26, 0.4);
+    }
+
+    &.info {
+      background: rgba(255, 255, 255, 0.08);
+      color: #aaa;
+      border-color: rgba(255, 255, 255, 0.15);
+      font-weight: 500;
+    }
   }
 
   .show-all-notes-btn {
@@ -139,6 +202,105 @@
       border-bottom: 2px solid #444;
       padding-bottom: 0.5rem;
       margin-bottom: 1.5rem;
+    }
+  }
+
+  .track-record-clean {
+    background: linear-gradient(135deg, rgba(46, 204, 113, 0.08) 0%, rgba(46, 204, 113, 0.02) 100%);
+    border-left: 4px solid #2ecc71;
+    border-radius: 0 8px 8px 0;
+    padding: 1.5rem 1.75rem;
+
+    .track-record-headline {
+      font-size: 1.1rem;
+      color: #ddd;
+      margin: 0 0 0.5rem 0;
+
+      strong {
+        color: #2ecc71;
+      }
+    }
+
+    .track-record-sub {
+      font-size: 0.95rem;
+      color: #888;
+      margin: 0;
+    }
+  }
+
+  .track-record-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    .record-stat {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 1.25rem 1rem;
+      text-align: center;
+    }
+
+    .record-stat__num {
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: $junkstore-accent;
+      line-height: 1;
+    }
+
+    .record-stat__label {
+      font-size: 0.85rem;
+      color: #888;
+      margin-top: 0.4rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .track-record-stats {
+      grid-template-columns: 1fr;
+    }
+
+    // Stack notes + break-history rows as cards (tables overflow at this width)
+    #notes-table,
+    #break-history-table {
+      thead { display: none; }
+
+      tbody, tr { display: block; }
+
+      tr {
+        padding: 0.75rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      td {
+        display: block;
+        padding: 0.15rem 0;
+        border: none;
+      }
+
+      // Date row
+      td:first-child {
+        color: #888;
+        font-size: 0.85rem;
+      }
+
+      // Badge row gets a small bottom margin before text
+      td:nth-child(2) {
+        padding-bottom: 0.4rem;
+      }
+
+      // Note/issue text
+      td:nth-child(3) {
+        color: #ccc;
+        font-size: 0.95rem;
+      }
+
+      // "Show all notes" full-width row
+      tr:has(.show-all-notes-btn) {
+        text-align: center;
+        border-bottom: none;
+      }
     }
   }
 

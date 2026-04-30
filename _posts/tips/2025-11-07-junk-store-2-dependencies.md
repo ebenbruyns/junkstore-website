@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/blog/tips/dependencies/251017-deps-thumb.webp
 read_time: "3 min read"
 toc: true
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Games won't launch due to missing Windows components? Junk Store Pro includes **built-in dependency management** directly in Game Mode menus - no Protontricks needed!
@@ -64,7 +65,7 @@ All dependency configurations are saved to your game's settings and persist betw
 </div>
 
 <div class="tip-callout">
-  <strong>💡 Pro Tip:</strong> Not sure which dependency is needed? Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB</a> or our <a href="/tested-games/">tested games database</a> - we list required dependencies for each tested title so you can install them proactively.
+  <strong>💡 Pro Tip:</strong> Not sure which dependency is needed? Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB</a> or our <a href="/games/tested/">tested games database</a> - we list required dependencies for each tested title so you can install them proactively.
 </div>
 
 <h2 style="text-align: left !important; margin-left: 0;">Next Week Preview</h2>
@@ -77,7 +78,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready to skip the Desktop Mode hassle?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop fighting with Protontricks - install dependencies with one click</p>

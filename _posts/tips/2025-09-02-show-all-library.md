@@ -77,9 +77,6 @@ Sometimes CSS Loader themes hide or modify the bottom menu area where this promp
 
 **Can't see the button?** You can still **search for specific games** by name - Junk Store's search function works even when the "SHOW ALL" prompt is hidden.
 
-
-
-
 <h2 style="text-align: left !important; margin-left: 0;">Pro Tips</h2>
 
 <div class="game-entry">
@@ -91,7 +88,6 @@ Sometimes CSS Loader themes hide or modify the bottom menu area where this promp
   </div>
 </div>
 
-
 <div class="game-entry">
   <div class="game-details">
     <strong>Test New CSS Themes</strong>
@@ -101,7 +97,6 @@ Sometimes CSS Loader themes hide or modify the bottom menu area where this promp
   </div>
 </div>
 
-
 <h2 style="text-align: left !important; margin-left: 0;">Next Week Preview</h2>
 Coming next week: **Dive into Junk Store's Many Menus** - Start exploring what's inside the different configuration options and game settings throughout your Decky plugin interface!
 
@@ -109,14 +104,6 @@ Hope this tip helps you access your complete game library! If you have any quest
 
 Cheers,  
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Less tweaking, more gaming — that's the 2.0 difference</p>
-</div>
 
 ---
 

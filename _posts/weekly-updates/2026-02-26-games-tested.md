@@ -26,7 +26,7 @@ This week has been a bit disrupted with a quick trip across to the mainland. We 
 A few quick updates before we dive into the games:
 
 * **Decky Loader + 2.0 Conflict:** If running both together, use the TEST channel build. It's the same stable build, just packaged without a component that conflicts with Decky (since Decky already includes it). We're using the TEST channel to keep it separate and easy to distinguish.
-* **GOG Extension:** New version (v0.1.11) available on the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a> with LSFG support. All Patreon/Ko-fi supporters have been migrated — sign in with your original email to access.
+* **GOG Extension:** New version (v0.1.11) available on the <a href="/portal-redirect/" target="_blank" rel="noopener">Junk Store Portal</a> with LSFG support. All Patreon/Ko-fi supporters have been migrated — sign in with your original email to access.
 * **LSFG-VK Support:** Now built into Junk Store with easy toggles. No need to manually add environment variables. Find it under the **Proton Config** menu (change the dropdown to "All"). You may need to try different Proton versions to find one that works for your game. <a href="https://www.junkstore.xyz/blog/lsfg-frame-generation-built-in/" target="_blank" rel="noopener">More info →</a>
   * **Decky Plugin:** v1.1.13 (Main Decky store)
   * **GOG Extension:** v0.1.11 (Junk Store Portal)
@@ -34,7 +34,7 @@ A few quick updates before we dive into the games:
   * **Junk Store 2.0 (with Decky Loader):** v2.4.1.0-test-20260108-100341 (Test channel)
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.5.0.0-beta (for itch.io use **Extension** Channel: beta)
+* **<a href="/portal-redirect/">Junk Store 2.0</a>**: v2.5.0.0-beta (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.13 (Main Store)
 * **GOG Extension**: v0.1.11 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.1 (Prerelease)
@@ -43,7 +43,7 @@ A few quick updates before we dive into the games:
 
 Let's get to it, here's this week's findings...
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 > **💡 Tip:** Click any game title below to view full compatibility details, testing notes, and system requirements in our games database!
 
@@ -54,7 +54,7 @@ This week featuring Return to Ash, Stalcraft: X.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/3445830/library_600x900.jpg" alt="Return to Ash" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Return%20to%20Ash">Return to Ash</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/return-to-ash/">Return to Ash</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">The hospital was empty. Quiet, and brighter than usual... like waking up on a snow day. But I didn't feel cold. I didn't feel much of anything.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -66,7 +66,7 @@ This week featuring Return to Ash, Stalcraft: X.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1818450/library_600x900.jpg" alt="Stalcraft: X" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Stalcraft%3A%20X">Stalcraft: X</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/stalcraft-x/">Stalcraft: X</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">STALCRAFT: X is the largest online game set in the open world of the Chernobyl Exclusion Zone.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -82,7 +82,7 @@ This week featuring Ambition: A Minuet in Power, Captain Blood.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/949200/library_600x900.jpg" alt="Ambition: A Minuet in Power" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Ambition%3A%20A%20Minuet%20in%20Power">Ambition: A Minuet in Power</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/ambition-a-minuet-in-power/">Ambition: A Minuet in Power</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">A young woman finds herself alone in the streets of Paris, far from home and abandoned by the love of her life.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -94,7 +94,7 @@ This week featuring Ambition: A Minuet in Power, Captain Blood.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/3040220/library_600x900.jpg" alt="Captain Blood" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Captain%20Blood">Captain Blood</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/captain-blood/">Captain Blood</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Captain Blood is a pirate-themed action game where you play as a fearsome pirate seeking gold and glory.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -110,7 +110,7 @@ Updated compatibility for Figment, Flashout 3D: Enhanced Edition.
 <div class="game-entry">
   <img src="https://images.gog.com/1286900fea4fb4f154987f15bb5e11396670b1c174ca31e0eaf96835442890ff.jpg?namespace=gamesdb" alt="Figment" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Figment">Figment</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/itch/figment/">Figment</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">A musical action-adventure set in the recesses of the human mind.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -122,7 +122,7 @@ Updated compatibility for Figment, Flashout 3D: Enhanced Edition.
 <div class="game-entry">
   <img src="https://images.gog.com/237161d745a564f62edad01fd73fe243a64e2f89db5573212ec0cf5624c1528f.jpg?namespace=gamesdb" alt="Flashout 3D: Enhanced Edition" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Flashout%203D%3A%20Enhanced%20Edition">Flashout 3D: Enhanced Edition</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/flashout-3d-enhanced-edition/">Flashout 3D: Enhanced Edition</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Flashout 3D is the best racing experience for your mobile device.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -130,8 +130,6 @@ Updated compatibility for Figment, Flashout 3D: Enhanced Edition.
     </div>
   </div>
 </div>
-
-
 
 ## Looking Forward
 
@@ -145,14 +143,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

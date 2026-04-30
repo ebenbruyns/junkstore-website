@@ -1,0 +1,81 @@
+---
+layout: game-page
+title: "Werewolf: The Apocalypse — Heart of the Forest - Steam Deck Compatibility"
+game_title: "Werewolf: The Apocalypse — Heart of the Forest"
+slug: "werewolf-the-apocalypse-heart-of-the-forest"
+storefront: "Amazon"
+storefront_key: "amazon"
+permalink: /games/amazon/werewolf-the-apocalypse-heart-of-the-forest/
+
+# Compatibility
+decky_rating: "not-supported"
+standalone_rating: "green"
+date_tested: "Oct '25"
+proton_version: ""
+
+# Game Info
+publisher: Different Tales
+developer: Different Tales
+genre: Adventure, Indie, RPG
+franchise: 
+age_rating_summary: 
+release_date: "October 13, 2020"
+game_modes: ["Single-player"]
+languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
+
+# Images
+banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1342620/library_hero.jpg"
+cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1342620/library_600x900.jpg"
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1342620/capsule_231x87.jpg"
+
+# Technical Details
+controller_input: "mouse-only"
+community_layout: false
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: "3 hrs"
+hltb_main_extra: "3 hrs"
+hltb_completionist: "9 hrs"
+hltb_url: "https://howlongtobeat.com/game/84435"
+
+# Links
+store_url: ""
+protondb_url: "https://www.protondb.com/app/1342620"
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Werewolf:_The_Apocalypse_-_Heart_of_the_Forest"
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/pc/werewolf-the-apocalypse---heart-of-the-forest?ftag=MCD-06-10aaa1f"
+
+# Notes
+notes: "Works out of the box!<br><br>You can use the touchscreen or mouse only controlls for this point and click game."
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "amzn1.adg.product.827fa625-e3c0-4671-9557-71bbcf7c7115"
+is_featured: false
+owned: true
+---
+
+Explore the myths and monsters of Europe’s last primeval wilderness. Play as Maia, who arrives at the ancient Białowieża Forest looking to explore her family history. Discover Rage in an adventure game inspired by the experience of the legendary tabletop roleplaying game Werewolf: The Apocalypse.

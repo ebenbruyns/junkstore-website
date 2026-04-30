@@ -58,25 +58,25 @@ difficulty: "Intermediate"
 <li>
   <strong>Open Settings Menu</strong>
   <p>From the game page in Junk Store, click the <strong>Settings</strong> menu (cog icon).</p>
-  <img src="/assets/images/tutorials/lsfg/cp2077cog.webp" alt="Settings menu cog icon" width="600" height="338" loading="lazy" />
+  <img src="/assets/images/lsfg-vk/Cog.webp" alt="Settings menu cog icon" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
   <strong>Select Proton Configs</strong>
   <p>Select <strong>Proton Configs</strong> from the menu.</p>
-  <img src="/assets/images/tutorials/lsfg/protonconfig.webp" alt="Proton Configs option" width="600" height="338" loading="lazy" />
+  <img src="/assets/images/lsfg-vk/ProtonConfig.webp" alt="Proton Configs option" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
   <strong>Show All Options</strong>
   <p>Set the dropdown to <strong>All</strong> to reveal advanced options.</p>
-  <img src="/assets/images/tutorials/lsfg/alldropdown.webp" alt="Dropdown set to All" width="600" height="338" loading="lazy" />
+  <img src="/assets/images/lsfg-vk/ProtonAll.webp" alt="Dropdown set to All" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
   <strong>Enable LSFG</strong>
   <p>Find the <strong>LSFG</strong> section and enable LSFG-VK. Tweak the settings if needed.</p>
-  <img src="/assets/images/tutorials/lsfg/lsfgvksettings.webp" alt="LSFG-VK settings" width="600" height="338" loading="lazy" />
+  <img src="/assets/images/lsfg-vk/LSFG-VKConfigs.webp" alt="LSFG-VK settings" width="600" height="338" loading="lazy" />
 
   <div class="js-callout js-callout--warning">
     <strong>Important:</strong> Both LSFG settings need to say <strong>Enable</strong> for LSFG-VK to work.
@@ -108,8 +108,8 @@ difficulty: "Intermediate"
 
   <p><strong>Quick fixes for common issues:</strong></p>
   <ul>
-    <li><a href="/help/#faq">FAQ</a> - General questions</li>
-    <li><a href="/help/#troubleshooting">Troubleshooting</a> - Common issues</li>
+    <li><a href="/help/faq/">FAQ</a> - General questions</li>
+    <li><a href="/help/troubleshooting/">Troubleshooting</a> - Common issues</li>
   </ul>
 
   <p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> for community support.</p>

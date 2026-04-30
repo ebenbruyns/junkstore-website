@@ -2,6 +2,21 @@
 layout: junkstore-default
 ---
 
+<script>
+  // Case-insensitive fallback: GitHub Pages serves URLs case-sensitively, so
+  // /Tutorials/ 404s while /tutorials/ works. If the URL has any uppercase
+  // characters in the path, redirect to the lowercased version once before
+  // showing the 404 UI. Lowercased path differing from the original avoids
+  // any redirect loop.
+  (function () {
+    var path = location.pathname;
+    var lowered = path.toLowerCase();
+    if (path !== lowered) {
+      location.replace(lowered + location.search + location.hash);
+    }
+  })();
+</script>
+
 <article class="js-page js-404">
   <div class="js-container">
     <div class="js-404__content">

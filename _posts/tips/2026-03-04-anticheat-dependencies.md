@@ -13,6 +13,7 @@ toc: true
 header:
   teaser: /assets/images/tips/anticheat/dependencies-not-installed.webp
   og_image: /assets/images/tips/anticheat/dependencies-not-installed.webp
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Some games require anti-cheat dependencies to run properly. Junk Store makes it easy to download and enable them in game mode.
@@ -87,7 +88,7 @@ No restart required. If the options are greyed out, they're already installed.
 <ul style="padding-left: 1.2em; margin-left: 0;">
 <li>Make sure you're using a compatible Proton version (GE-Proton often works best)</li>
 <li>Some Epic games also require the EOS overlay to be installed and enabled for the game</li>
-<li>Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB</a> or our <a href="/tested-games/">tested games list</a> to see if the game is known to work</li>
+<li>Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB</a> or our <a href="/games/tested/">tested games list</a> to see if the game is known to work</li>
 </ul>
 
 
@@ -96,7 +97,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for seamless Steam Deck gaming?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store 2.0 Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Game Mode native - the way handheld gaming should be</p>

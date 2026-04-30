@@ -1,6 +1,7 @@
 ---
 layout: junkstore-splash
-title: "Junk Store Features"
+title: "Junk Store Pro Features: Play Non-Steam Games on Steam Deck"
+hero_title: "Junk Store Pro Features"
 description: "Junk Store Pro features for Steam Deck: built-in file manager, disk analyzer, process manager - all in Game Mode. Play Epic, GOG, Amazon & itch without Desktop Mode."
 permalink: /features/
 classes: wide
@@ -27,7 +28,8 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   padding: 1.5rem 1rem 0.5rem;
 }
 
-#tab-features .comparison-hero h1 {
+#tab-features .comparison-hero h1,
+#tab-features .comparison-hero h2 {
   margin: 0 0 0.5rem 0;
 }
 
@@ -201,7 +203,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 <!-- Features Tab Header -->
 <section class="comparison-hero">
-  <h1>Junk Store Pro Features</h1>
+  <h2>Junk Store Pro Features</h2>
   <p class="lead-text">Everything you need for non-Steam gaming on Steam Deck. No desktop. No hassle.</p>
 </section>
 
@@ -472,7 +474,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 }
 </style>
 
-<section class="feature-groups">
+<section id="difference" class="feature-groups">
   <h2>Decky Plugin vs Junk Store Pro</h2>
 
   <!-- Group 1: Platforms & Storefronts -->
@@ -813,7 +815,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 </style>
 
 <!-- Demo Section -->
-<section class="demo-section">
+<section id="gallery" class="demo-section">
   <h2>See It In Action</h2>
   <p>Click to preview Pro features</p>
 

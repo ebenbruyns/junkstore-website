@@ -91,10 +91,10 @@ permalink: /tutorials/install-junk-store-2/
 
 <p><strong>Quick fixes for common issues:</strong></p>
 <ul>
-<li><a href="/help/#3b04c412-e7be-4e3a-9322-b4adc4f8ad3f">Installation not completing</a> - If the installer seems stuck</li>
-<li><a href="/help/#e0849426-5126-41b8-bad7-45d61b3da1f1">Executable won't run</a> - If Junk Store won't start</li>
-<li><a href="/help/#faq">FAQ</a> - General usage questions</li>
-<li><a href="/help/#troubleshooting">Troubleshooting</a> - All Pro version issues</li>
+<li><a href="/help/troubleshooting/#installation-not-completing">Installation not completing</a> - If the installer seems stuck</li>
+<li><a href="/help/troubleshooting/#executables-wont-run">Executable won't run</a> - If Junk Store won't start</li>
+<li><a href="/help/faq/">FAQ</a> - General usage questions</li>
+<li><a href="/help/troubleshooting/">Troubleshooting</a> - All Pro version issues</li>
 </ul>
 
 <p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> and post in <strong>v2-support</strong> channel.</p>

@@ -2,8 +2,8 @@
 {% assign hero_image = page.header.overlay_image | default: default_hero %}
 <div class="js-hero js-hero--overlay" style="background-image: url('{{ hero_image | relative_url }}');">
   <div class="js-hero__wrapper">
-    {% if page.title %}
-    <h1 class="js-hero__title">{{ page.title }}</h1>
+    {% if page.hero_title or page.title %}
+    <h1 class="js-hero__title">{{ page.hero_title | default: page.title }}</h1>
     {% endif %}
 
     {% if page.excerpt %}

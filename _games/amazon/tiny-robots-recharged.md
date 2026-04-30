@@ -1,0 +1,81 @@
+---
+layout: game-page
+title: "Tiny Robots Recharged - Steam Deck Compatibility"
+game_title: "Tiny Robots Recharged"
+slug: "tiny-robots-recharged"
+storefront: "Amazon"
+storefront_key: "amazon"
+permalink: /games/amazon/tiny-robots-recharged/
+
+# Compatibility
+decky_rating: "not-supported"
+standalone_rating: "green"
+date_tested: "July '25"
+proton_version: ""
+
+# Game Info
+publisher: Snapbreak
+developer: Big Loop Studios
+genre: Adventure, Indie, Puzzle
+franchise: 
+age_rating_summary: 
+release_date: "November 10, 2020"
+game_modes: ["Single player"]
+languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
+
+# Images
+banner_image: "https://images.gog.com/706ea5bf04faef24777d4f7b3ff74c9f562187ef5dd4c3fb62d36174664e1961.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/2b3771214aa0133bd27d95e9885de4744d6cfdcc086ca81eefa93db7be913fb9.jpg?namespace=gamesdb"
+icon_image: ""
+
+# Technical Details
+controller_input: "keyboard-mouse"
+community_layout: false
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: "3 hrs"
+hltb_main_extra: "3 hrs"
+hltb_completionist: "3.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/97921"
+
+# Links
+store_url: ""
+protondb_url: "https://www.protondb.com/app/1709580"
+protondb_report_url: ""
+pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/tiny-robots-recharged/"
+
+# Notes
+notes: 
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "amzn1.adg.product.20b87aa4-24b1-444b-80d0-8a5cbc277c56"
+is_featured: false
+owned: true
+---
+
+It was all fun and games until the bad guy took your friends. It's not their fault he built his super-secret laboratory next to the park.

@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/blog/v3-release/thumb.webp
 read_time: "3 min read"
 toc: true
+cta_disabled: true
 ---
 
 **Bet you weren't expecting this.** Junk Store Pro v3.0 just dropped with a bunch of new tools, performance improvements, and quality-of-life upgrades that make managing your non-Steam games easier than ever.
@@ -70,7 +71,7 @@ All the features that made Pro great are still here and better than ever:
 
 <div class="inline-blog-cta">
   <p><strong>Ready to try Junk Store Pro v3.0?</strong></p>
-  <a href="https://portal.junkstore.xyz/" class="inline-blog-cta-button" target="_blank" rel="noopener">
+  <a href="/portal-redirect/" class="inline-blog-cta-button" target="_blank" rel="noopener">
     Go to Portal
   </a>
   <p class="inline-cta-subtext">7-day free trial · No commitment · Cancel anytime</p>

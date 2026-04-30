@@ -24,7 +24,7 @@ This is hot off the press: I've been on a little side quest to get **Itch.io wor
 
 - **Existing customers**: Set both build and extension channels to **beta**
 - **New users**: The fully functional trial includes all builds for testing
-- **Trial users**: [Start your 7-day free trial](/buy_now/) - beta access included
+- **Trial users**: [Start your 7-day free trial](/portal-redirect/) - beta access included
 
 **Important**: You must have both build and extension channels set to beta.
 
@@ -89,14 +89,6 @@ This is bleeding edge stuff - you're getting access to something that's never ex
 
 **Game on!**  
 **The Junk Store Team**
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Your Steam Deck, simplified and supercharged</p>
-</div>
 
 ---
 

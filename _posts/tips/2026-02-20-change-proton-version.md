@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/blog/tips/proton-tip/proton-tip-thumb.webp
 read_time: "4 min read"
 toc: true
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** If a game shows a black screen, won't launch, or crashes immediately, try changing the Proton version. It's often the fix.
@@ -83,7 +84,7 @@ Same result, just a different way to get there.
 
 <h2 style="text-align: left !important; margin-left: 0;">Not Sure Which Version Works?</h2>
 
-Check our [Games Tested](/tested-games/) page or [ProtonDB.com](https://www.protondb.com/) to see what others are using for your specific game.
+Check our [Games Tested](/games/tested/) page or [ProtonDB.com](https://www.protondb.com/) to see what others are using for your specific game.
 
 Hope this helps get your games running! Questions? Our team is always ready to help.
 
@@ -92,7 +93,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Want hassle-free Steam Deck gaming?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store 2.0 Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Game Mode native — no Desktop Mode switching</p>

@@ -10,6 +10,7 @@ excerpt: "R&D release - our diagnostics framework for detecting issues and sugge
 image: /assets/images/blog/features/diagnostics/JunkStoreDiagnostics-1.webp
 read_time: "3 min read"
 toc: true
+cta_disabled: true
 ---
 
 It's unusual for us to release early R&D work, but we have a diagnostics tool based on extensive research that we think would be useful to users. This framework is still in the early phases of development, but we have already found it useful. It's available on the beta build channel for Junk Store Pro.
@@ -78,7 +79,7 @@ If you get stuck or encounter any issues with the diagnostic tool, don't hesitat
 
 <div class="inline-blog-cta">
   <p><strong>Ready to experience premium Steam Deck gaming?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🛠️ Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Give your Steam Deck the launcher it was meant to have</p>

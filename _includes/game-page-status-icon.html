@@ -1,0 +1,8 @@
+{% case include.rating %}
+{% when 'green' %}🟢
+{% when 'yellow' %}🟡
+{% when 'red' %}🔴
+{% when 'broken' %}⛔
+{% when 'unsupported' %}🚫
+{% else %}⚪
+{% endcase %}

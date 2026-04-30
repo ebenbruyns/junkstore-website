@@ -1,0 +1,81 @@
+---
+layout: game-page
+title: "Transistor - Steam Deck Compatibility"
+game_title: "Transistor"
+slug: "transistor"
+storefront: "GOG"
+storefront_key: "gog"
+permalink: /games/gog/transistor/
+
+# Compatibility
+decky_rating: "yellow"
+standalone_rating: "unknown"
+date_tested: "Oct '24"
+proton_version: ""
+
+# Game Info
+publisher: Supergiant Games
+developer: Supergiant Games
+genre: role-playing-rpg, strategy
+franchise: 
+age_rating_summary: ESRB 13
+release_date: "May 1, 2014"
+game_modes: ["Single player"]
+languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
+
+# Images
+banner_image: "https://images.gog.com/d70c02f6be0edd48f93d4b36007e3f927845023cdea27f630507efce8f64511b.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/fc51e64084e42ca3bfd43c8c9740d167581104474421d5342a735fd7adef4b45.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/fc51e64084e42ca3bfd43c8c9740d167581104474421d5342a735fd7adef4b45.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: "native"
+community_layout: false
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: "6 hrs"
+hltb_main_extra: "8 hrs"
+hltb_completionist: "15.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/17617"
+
+# Links
+store_url: "https://www.gog.com/en/game/transistor"
+protondb_url: "https://www.protondb.com/app/237930"
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Transistor"
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/pc/transistor?ftag=MCD-06-10aaa1f"
+
+# Notes
+notes: "Native controller support. **Decky Plugin: Some tinkering required**. VC 2010/2012 Redists, DirectX Jun 2010 Redist"
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "1429612159"
+is_featured: false
+owned: true
+---
+
+An unconventional tactical action RPG in which after a powerful group called the Camerata cause measureless destruction through the ambiguous settlement of Cloudbank, Red, a famous singer in the city, goes on a journey along with her lover who is trapped inside the Transistor...

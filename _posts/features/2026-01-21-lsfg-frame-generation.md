@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/lsfg-vk/lsfg-blog-card.webp
 read_time: "4 min read"
 toc: true
+cta_disabled: true
 ---
 
 **Big News:** LSFG-VK (Lossless Scaling Frame Generation) is now built into Junk Store! We noticed some folks were running into trouble getting it set up manually, so we figured we'd just build it in and save everyone the hassle. Simple toggles, no launch arguments needed.
@@ -68,7 +69,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for seamless Steam Deck gaming?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Game Mode native - the way handheld gaming should be</p>

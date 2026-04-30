@@ -85,53 +85,15 @@
     word-wrap: break-word;
 }
 
-/* Featured game highlighting */
-.games-table-wrapper #gamesTable tbody tr.featured-game {
-    background: rgba(255, 163, 102, 0.05);
-    border-left: 3px solid $junkstore-accent;
+/* Whole-row click affordance: cursor + hover lift */
+.games-table-wrapper #gamesTable tbody tr {
+    cursor: pointer;
+    transition: background 0.12s;
 }
 
-.games-table-wrapper #gamesTable tbody tr.featured-game td {
-    background: rgba(255, 163, 102, 0.05);
-}
-
-/* Row hover effects */
-.games-table-wrapper #gamesTable tbody tr:hover {
-    background: rgba(255, 163, 102, 0.1);
-}
-
+.games-table-wrapper #gamesTable tbody tr:hover,
 .games-table-wrapper #gamesTable tbody tr:hover td {
     background: rgba(255, 163, 102, 0.1);
-}
-
-/* Featured games hover (slightly more intense) */
-.games-table-wrapper #gamesTable tbody tr.featured-game:hover {
-    background: rgba(255, 163, 102, 0.15);
-}
-
-.games-table-wrapper #gamesTable tbody tr.featured-game:hover td {
-    background: rgba(255, 163, 102, 0.15);
-}
-
-/* Backlog and retest game highlighting - unified light blue for both */
-.games-table-wrapper #gamesTable tbody tr.retest-game,
-.games-table-wrapper #gamesTable tbody tr.backlog-game {
-    background: rgba(102, 191, 255, 0.08);
-    border-left: 3px solid $junkstore-primary;
-}
-.games-table-wrapper #gamesTable tbody tr.retest-game td,
-.games-table-wrapper #gamesTable tbody tr.backlog-game td {
-    background: rgba(102, 191, 255, 0.08);
-}
-
-/* Backlog and retest games hover (slightly more intense) */
-.games-table-wrapper #gamesTable tbody tr.retest-game:hover,
-.games-table-wrapper #gamesTable tbody tr.backlog-game:hover {
-    background: rgba(102, 191, 255, 0.15);
-}
-.games-table-wrapper #gamesTable tbody tr.retest-game:hover td,
-.games-table-wrapper #gamesTable tbody tr.backlog-game:hover td {
-    background: rgba(102, 191, 255, 0.15);
 }
 
 /* Game title links - make them more obvious and clickable */
@@ -287,167 +249,487 @@
 .games-table-wrapper #gamesTable td:nth-child(4) { text-align: center; }
 .games-table-wrapper #gamesTable td:nth-child(5) { text-align: center; }
 
-/* Table controls styling (outside the table wrapper) */
-.table-controls {
-    display: flex;
-    justify-content: space-between;
+/* ==========================================================================
+   FILTER BAR — column-aligned pill row above the table
+   ========================================================================== */
+
+.filter-bar {
+    // Grid columns are sized from CSS variables set by JS (syncBarToTable),
+    // matching the actual table column widths. Fallback fr units used until
+    // the first measurement lands.
+    display: grid;
+    grid-template-columns:
+        var(--col-1-w, 2.4fr)
+        var(--col-2-w, 1fr)
+        var(--col-3-w, 1fr)
+        var(--col-4-w, 1fr)
+        var(--col-5-w, 0.85fr);
     align-items: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 20px;
-    padding: 15px;
-    background: #2a2a2a;
-    border-radius: 8px;
+    gap: 0;
+    padding: 12px 0;
+    margin: 14px 0 18px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    position: relative; // anchor for popovers
+
+    &__col-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-width: 0;
+        padding: 0 16px;
+    }
+
+    &__search {
+        flex: 1 1 auto;
+        min-width: 180px;
+        height: 36px;
+        background: #1f2530;
+        color: #eee;
+        border: 1px solid #364150;
+        border-radius: 8px;
+        padding: 8px 12px;
+        font-size: 0.92rem;
+        box-sizing: border-box;
+
+        &:focus {
+            outline: none;
+            border-color: $junkstore-accent;
+        }
+    }
+
+    &__show {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        color: #9aa;
+        font-size: 0.85rem;
+        flex: 0 0 auto;
+
+        select {
+            background: #1f2530;
+            color: #eee;
+            border: 1px solid #364150;
+            border-radius: 6px;
+            padding: 4px 8px;
+            height: 32px;
+            font-size: 0.88rem;
+            min-width: 64px;
+            text-align: center;
+            text-align-last: center;
+
+            &:focus { outline: none; border-color: $junkstore-accent; }
+        }
+    }
 }
 
-.control-group {
+// Mobile bar — search + Filters button + Show, no pills (drawer takes over)
+@media (max-width: 700px) {
+    .filter-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px 12px;
+        align-items: center;
+
+        &__search {
+            flex: 1 1 100%;
+            height: 42px;
+            font-size: 1rem;
+        }
+
+        &__mobile-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #1f2530;
+            border: 1px solid #364150;
+            color: #ddd;
+            padding: 0 14px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            height: 42px;
+            box-sizing: border-box;
+            font-family: inherit;
+            flex: 1 1 auto;
+
+            &:hover, &:focus { background: #2a3140; border-color: #4a5568; outline: none; }
+            &:active { transform: scale(0.98); }
+        }
+
+        &__mobile-badge {
+            background: $junkstore-accent;
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            min-width: 20px;
+            text-align: center;
+        }
+
+        &__show {
+            flex: 0 0 auto;
+
+            select { height: 42px; }
+        }
+    }
+
+    // Hide the desktop-only mobile button on wider screens
+}
+
+@media (min-width: 701px) {
+    .filter-bar__mobile-btn { display: none; }
+}
+
+/* ==========================================================================
+   MOBILE FILTER DRAWER — slide-in sheet from the right with sticky footer
+   ========================================================================== */
+
+.filter-drawer-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0);
+    z-index: 9998;
+    transition: background 0.25s;
+
+    &.is-visible { background: rgba(0, 0, 0, 0.55); }
+}
+
+.filter-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 90%;
+    max-width: 400px;
+    background: #161b24;
+    border-left: 1px solid #2a3140;
+    box-shadow: -8px 0 32px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
     display: flex;
-    align-items: center;
-    gap: 10px;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: transform 0.25s ease-out;
+
+    &.is-open { transform: translateX(0); }
+
+    &__head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 18px;
+        border-bottom: 1px solid #2a3140;
+        background: #11161e;
+        flex-shrink: 0;
+
+        h3 { margin: 0; font-size: 1.1rem; font-weight: 700; color: #fff; }
+    }
+
+    &__close {
+        background: transparent;
+        border: 0;
+        color: #9aa;
+        font-size: 1.8rem;
+        line-height: 1;
+        padding: 4px 10px;
+        cursor: pointer;
+        border-radius: 6px;
+
+        &:hover { background: rgba(255, 255, 255, 0.05); color: #fff; }
+    }
+
+    &__body {
+        flex: 1;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 4px 0 12px;
+    }
+
+    &__section {
+        padding: 12px 18px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+
+        &:last-child { border-bottom: 0; }
+
+        h4 {
+            margin: 0 0 10px;
+            color: $junkstore-accent;
+            font-size: 0.74rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+    }
+
+    &__chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    &__chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: #1f2530;
+        border: 1px solid #364150;
+        color: #ddd;
+        padding: 8px 12px;
+        border-radius: 18px;
+        font-size: 0.92rem;
+        cursor: pointer;
+        min-height: 38px;
+        line-height: 1.1;
+        box-sizing: border-box;
+        font-family: inherit;
+        transition: background 0.12s, border-color 0.12s;
+
+        &:hover { background: #2a3140; border-color: #4a5568; }
+
+        &.is-active {
+            background: rgba(230, 115, 0, 0.18);
+            border-color: $junkstore-accent;
+            color: #ffae66;
+        }
+    }
+
+    &__chip-count {
+        color: #6a7585;
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+
+    &__chip.is-active &__chip-count { color: #ffae66; }
+
+    &__row-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: transparent;
+        border: 0;
+        color: #ddd;
+        font-size: 0.95rem;
+        padding: 8px 0;
+        cursor: pointer;
+        font-family: inherit;
+    }
+
+    &__row-switch {
+        position: relative;
+        width: 44px;
+        height: 24px;
+        background: #364150;
+        border-radius: 12px;
+        flex-shrink: 0;
+        transition: background 0.15s;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 20px;
+            height: 20px;
+            background: #aab;
+            border-radius: 50%;
+            transition: left 0.15s, background 0.15s;
+        }
+    }
+
+    &__row-toggle.is-on &__row-switch {
+        background: $junkstore-accent;
+        &::after { left: 22px; background: #fff; }
+    }
+
+    &__foot {
+        display: flex;
+        gap: 10px;
+        padding: 14px 18px;
+        border-top: 1px solid #2a3140;
+        background: #11161e;
+        flex-shrink: 0;
+    }
+
+    &__clear {
+        flex: 0 0 auto;
+        background: transparent;
+        border: 1px solid #364150;
+        color: #ddd;
+        padding: 12px 18px;
+        border-radius: 8px;
+        font-size: 0.92rem;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: inherit;
+        min-height: 44px;
+
+        &:hover { background: rgba(255, 255, 255, 0.05); }
+    }
+
+    &__done {
+        flex: 1;
+        background: $junkstore-accent;
+        border: 0;
+        color: #fff;
+        padding: 12px 18px;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        font-family: inherit;
+        min-height: 44px;
+
+        &:hover { background: darken($junkstore-accent, 6%); }
+    }
 }
 
-.control-group label {
-    font-weight: 600;
-    color: $junkstore-accent;
-    font-size: 0.9rem;
-}
+// Body scroll lock when drawer is open
+body.filter-drawer-open { overflow: hidden; }
 
-/* Form controls styling */
-#storefrontFilter,
-#searchInput,
-#pageSizeSelect {
-    background: #445465;
-    color: #ddd;
-    border: 1px solid #666;
-    border-radius: 6px;
-    padding: 8px 12px;
-    font-size: 0.9rem;
-}
-
-/* Search input wrapper with clear button */
-.search-input-wrapper {
-    position: relative;
+.filter-pill {
     display: inline-flex;
     align-items: center;
+    gap: 6px;
+    background: #1f2530;
+    border: 1px solid #364150;
+    color: #ddd;
+    padding: 6px 12px;
+    border-radius: 18px;
+    font-size: 0.88rem;
+    cursor: pointer;
+    height: 36px;
+    line-height: 1;
+    box-sizing: border-box;
+    transition: background 0.15s, border-color 0.15s;
+    font-family: inherit;
+    justify-self: center; // center pills inside their grid cells
+
+    &:hover, &:focus {
+        background: #2a3140;
+        border-color: #4a5568;
+        outline: none;
+    }
+
+    &.is-active {
+        background: rgba(230, 115, 0, 0.15);
+        border-color: $junkstore-accent;
+        color: #ffae66;
+    }
+
+    &.is-open {
+        background: #2a3140;
+        border-color: #4a5568;
+    }
+
+    &__arrow {
+        color: #6a7585;
+        font-size: 0.7rem;
+    }
+
+    &.is-active &__arrow {
+        color: #ffae66;
+    }
+
+    &__clear {
+        color: #9aa;
+        padding: 0 2px 0 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        line-height: 1;
+        background: transparent;
+        border: 0;
+
+        &:hover { color: #fff; }
+    }
+
+    &.is-active &__clear { color: #ffae66; }
 }
 
-.search-input-wrapper #searchInput {
-    padding-right: 40px;
-}
-
-.search-clear-btn {
+/* Popover anchored under a pill */
+.filter-popover {
     position: absolute;
-    right: 6px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: transparent;
-    color: #ccc;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    width: 28px;
-    height: 28px;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: all 0.2s ease;
-    text-align: center;
-    line-height: 28px;
-    user-select: none;
-    border: none;
-}
+    min-width: 240px;
+    max-width: 320px;
+    background: #1a1f29;
+    border: 1px solid #364150;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    padding: 0;
+    overflow: hidden;
 
-.search-clear-btn:hover {
-    background: rgba(255, 163, 102, 0.2);
-    color: $junkstore-accent;
-}
+    &__head {
+        padding: 10px 14px;
+        color: #9aa;
+        font-size: 0.78rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
 
-.search-clear-btn.show {
-    display: flex;
-}
+    &__body {
+        padding: 6px;
+        max-height: 320px;
+        overflow-y: auto;
+    }
 
-#storefrontFilter:focus,
-#searchInput:focus,
-#pageSizeSelect:focus {
-    outline: none;
-    border-color: $junkstore-accent;
-}
+    &__opt {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 10px;
+        border-radius: 6px;
+        cursor: pointer;
+        color: #ddd;
+        font-size: 0.9rem;
+        user-select: none;
 
-/* Featured games section styling */
-.feature-box.games-featured-box {
-    background: linear-gradient(135deg, #2a3442 0%, $junkstore-bg-card 100%);
-    border: 1px solid #3a4a5c;
-    border-radius: 12px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
+        &:hover { background: rgba(255, 255, 255, 0.05); }
 
-.feature-box.games-featured-box h3 {
-    color: $junkstore-accent;
-    margin: 0 0 10px 0;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
+        input { margin: 0; cursor: pointer; }
 
-.featured-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
+        .filter-popover__count {
+            margin-left: auto;
+            color: #9aa;
+            font-weight: 600;
+            font-size: 0.82rem;
+        }
+    }
 
-.featured-entry {
-    background-color: #334458;
-    padding: 8px 12px;
-    border-radius: 6px;
-    border: 1px solid #4a5a6c;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    user-select: none;
-}
+    &__foot {
+        padding: 8px 14px;
+        border-top: 1px solid rgba(255, 255, 255, 0.06);
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
 
-.featured-entry.clickable {
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
+        button {
+            background: transparent;
+            border: 1px solid #364150;
+            color: #ddd;
+            padding: 5px 12px;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            cursor: pointer;
+            font-family: inherit;
 
-.featured-entry.clickable:hover {
-    background-color: #3e5068;
-    transform: translateY(-1px);
-}
+            &:hover { background: rgba(255, 255, 255, 0.05); }
 
-.featured-game-link {
-    color: #cceeff;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.9rem;
-}
+            &.is-primary {
+                background: $junkstore-accent;
+                border-color: $junkstore-accent;
+                color: #fff;
 
-/* Store badges in featured games section */
-.featured-row .store-badge {
-    font-size: 0.8rem;
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-weight: 600;
-    margin-left: 0.5rem;
-}
-
-.featured-row .store-badge.epic {
-    background-color: #444;
-    color: #fff;
-}
-
-.featured-row .store-badge.gog {
-    background-color: #863399;
-    color: #fff;
-}
-
-.featured-row .store-badge.amazon {
-    background-color: #00a14f;
-    color: #fff;
+                &:hover { background: darken($junkstore-accent, 6%); border-color: darken($junkstore-accent, 6%); }
+            }
+        }
+    }
 }
 
 /* Back to top button - matching table theme */
@@ -485,32 +767,37 @@
 
 /* Games Statistics Section */
 .games-stats {
-    margin: 20px 0;
-    padding: 20px;
+    margin: 14px 0;
+    padding: 14px 18px;
     background: #1f1f1f;
     border-radius: 8px;
 }
 
 .stats-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 0;
     text-align: center;
 }
 
 .stat-item {
     display: flex;
     flex-direction: column;
+    padding: 4px 0;
 }
 
 .stat-number {
-    font-size: 2em;
+    font-size: 1.7rem;
+    line-height: 1.1;
     font-weight: bold;
     color: $junkstore-accent;
+    margin: 0;
 }
 
 .stat-label {
-    font-size: $type-size-body-small;
+    font-size: 0.78rem;
+    margin-top: 2px;
+    letter-spacing: 0.02em;
     color: #ccc;
 }
 
@@ -709,10 +996,6 @@
     position: relative;
   }
 
-  .games-table-wrapper #gamesTable tbody tr.featured-game {
-    border-left: 4px solid $junkstore-accent;
-    background: rgba(255, 163, 102, 0.05);
-  }
 
   .games-table-wrapper #gamesTable tbody tr td {
     display: block;
@@ -799,16 +1082,6 @@
     min-width: 44px;
   }
 
-  /* Featured games mobile adjustments */
-  .featured-row {
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .featured-entry {
-    width: 100%;
-    justify-content: space-between;
-  }
 
   /* Table controls mobile optimization */
   .table-controls {
@@ -850,3 +1123,4 @@
     font-size: $type-size-caption;
   }
 }
+
