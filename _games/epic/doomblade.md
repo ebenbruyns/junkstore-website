@@ -78,4 +78,4 @@ is_featured: true
 owned: true
 ---
 
-DOOMBLADE
+Deep underground, Gloom Girl discovers DOOMBLADE, a sentient weapon hellbent on escape after eons in chains. Together, "Doom and Gloom" embark on a vengeful quest to unlock the powerful abilities and destroy the Dread Lords once and for all in this 2D Action Metroidvania.

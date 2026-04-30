@@ -23,6 +23,20 @@ plugins:
   - jekyll-include-cache
   - jekyll-archives
   - jekyll-paginate
+  - jekyll-minifier
+
+# Minifier only runs in JEKYLL_ENV=production builds. Local `jekyll serve`
+# stays unminified for easier debugging. CI workflow sets JEKYLL_ENV=production.
+# JS minification is OFF: uglifier-4 (the gem jekyll-minifier ships with)
+# doesn't support modern JS syntax in our code. CSS + HTML minification still
+# gives the bulk of the savings.
+jekyll-minifier:
+  compress_javascript: false
+  exclude:
+    - atom.xml
+    - feed.xml
+    - sitemap.xml
+    - robots.txt
 
 # Feed configuration
 feed:

@@ -286,7 +286,7 @@ async function checkWorkerHealth() {
   try {
     const response = await fetch(`${WORKER_URL}/health`, { method: 'GET' });
     return response.ok;
-  } catch {
+  } catch (_e) {
     return false;
   }
 }
