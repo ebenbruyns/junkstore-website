@@ -171,6 +171,22 @@
       border-color: rgba(255, 117, 26, 0.4);
     }
 
+    // Steam Client (vs SteamOS) — same green-family "all good" semantics but
+    // teal hue to instantly distinguish client updates from OS updates.
+    // Teal is already a brand colour (v3 launch banner, status badge).
+    &.client-stable {
+      background: #00adb5;
+      color: #0b1117;
+      border-color: #00adb5;
+    }
+
+    &.client-beta {
+      background: transparent;
+      color: #00adb5;
+      border-color: rgba(0, 173, 181, 0.55);
+      font-weight: 500;
+    }
+
     &.info {
       background: rgba(255, 255, 255, 0.08);
       color: #aaa;

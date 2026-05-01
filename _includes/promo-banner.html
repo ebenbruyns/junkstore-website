@@ -1,10 +1,51 @@
-<!-- Dynamic Banner (loaded from Firebase) -->
-<div id="promo-banner" class="promo-banner" style="display: none;">
+{%- comment -%}
+Site-wide announcement banner. Pulls from _data/banners.yml.
+Was Firebase-fetched; moved to static so the banner renders at first paint
+(no flash from hidden → visible). Date filtering happens at build time —
+admin commits and pushes when they want a banner to go live or come down.
+{%- endcomment -%}
+
+{%- assign now_ts = "now" | date: "%s" | plus: 0 -%}
+{%- assign matched = nil -%}
+
+{%- for banner in site.data.banners -%}
+  {%- if banner.isActive == false -%}{%- continue -%}{%- endif -%}
+
+  {%- comment -%} Date window check (skip if not yet started or already ended) {%- endcomment -%}
+  {%- if banner.startDate -%}
+    {%- assign start_ts = banner.startDate | date: "%s" | plus: 0 -%}
+    {%- if now_ts < start_ts -%}{%- continue -%}{%- endif -%}
+  {%- endif -%}
+  {%- if banner.endDate -%}
+    {%- assign end_ts = banner.endDate | date: "%s" | plus: 0 -%}
+    {%- if now_ts > end_ts -%}{%- continue -%}{%- endif -%}
+  {%- endif -%}
+
+  {%- comment -%} Page targeting: empty list = all pages, otherwise must match page.url {%- endcomment -%}
+  {%- if banner.targetPages and banner.targetPages.size > 0 -%}
+    {%- assign page_matches = false -%}
+    {%- for target in banner.targetPages -%}
+      {%- if target == "*" or target == page.url -%}{%- assign page_matches = true -%}{%- endif -%}
+    {%- endfor -%}
+    {%- unless page_matches -%}{%- continue -%}{%- endunless -%}
+  {%- endif -%}
+
+  {%- comment -%} Highest priority wins {%- endcomment -%}
+  {%- if matched == nil -%}
+    {%- assign matched = banner -%}
+  {%- elsif banner.priority > matched.priority -%}
+    {%- assign matched = banner -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if matched -%}
+<div id="promo-banner" class="promo-banner" data-banner-id="{{ matched.id }}">
   <div class="promo-banner__content">
-    <span class="promo-banner__main">Loading...</span>
+    <span class="promo-banner__main">{{ matched.content }}</span>
   </div>
   <button class="promo-banner__close" aria-label="Close banner" onclick="this.parentElement.style.display='none';">&times;</button>
 </div>
+{%- endif -%}
 
 <style>
 .promo-banner {
