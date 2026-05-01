@@ -14,14 +14,15 @@ published: true
 {%- assign days_at_build = diff_seconds | divided_by: 86400 -%}
 
 {%- comment -%}
-  Count "stable" notes posted after the reset (= SteamOS stable updates we've passed).
-  Filter at build time; rendered count is exact for the deploy-day and may grow
-  by 1/day server-side until next deploy. Inline JS below recomputes from
-  data-reset-date so live visitors always see the right number.
+  Count Steam Client Stable updates posted after the reset. Steam Client Stable
+  releases are the highest-impact updates (they reach the public stable channel
+  on every Deck), so this is the metric we headline. SteamOS updates — and
+  client betas — are tracked separately via the notes table below but don't
+  contribute to this counter.
 {%- endcomment -%}
 {%- assign stable_passed = 0 -%}
 {%- for note in uptime.notes -%}
-  {%- if note.type == "stable" -%}
+  {%- if note.type == "client-stable" -%}
     {%- assign n_seconds = note.date | date: "%s" | plus: 0 -%}
     {%- if n_seconds > reset_seconds -%}
       {%- assign stable_passed = stable_passed | plus: 1 -%}
@@ -54,7 +55,7 @@ published: true
     </div>
     <div class="status-stat">
       <div class="stat-number">{{ stable_passed }}</div>
-      <div class="stat-label">SteamOS update{% if stable_passed != 1 %}s{% endif %} passed</div>
+      <div class="stat-label">Steam Client update{% if stable_passed != 1 %}s{% endif %} passed</div>
     </div>
   </div>
 
@@ -92,6 +93,8 @@ published: true
           {%- case note.type -%}
             {%- when "stable" -%}<span class="note-badge stable">SteamOS Stable</span>
             {%- when "beta" -%}<span class="note-badge beta">SteamOS Beta</span>
+            {%- when "client-stable" -%}<span class="note-badge client-stable">Steam Client Stable</span>
+            {%- when "client-beta" -%}<span class="note-badge client-beta">Steam Client Beta</span>
             {%- when "release" -%}<span class="note-badge release">Junk Store</span>
             {%- else -%}<span class="note-badge info">Info</span>
           {%- endcase -%}
