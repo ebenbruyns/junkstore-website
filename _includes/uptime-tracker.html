@@ -1,10 +1,14 @@
 <!-- Junk Store Pro Uptime Tracker (Footer) -->
-<div id="uptime-tracker" class="uptime-tracker-footer" style="display: none;">
+{%- assign uptime = site.data.uptime -%}
+{%- assign reset_seconds = uptime.lastResetDate | date: "%s" | plus: 0 -%}
+{%- assign now_seconds = "now" | date: "%s" | plus: 0 -%}
+{%- assign footer_uptime_days = now_seconds | minus: reset_seconds | divided_by: 86400 -%}
+<div class="uptime-tracker-footer" data-reset-date="{{ uptime.lastResetDate }}">
   <a href="/status/" class="uptime-tracker-link">
     <span class="uptime-tracker-icon">🛡️</span>
     <span class="uptime-tracker-text">
       <strong>Junk Store Pro:</strong>
-      <span id="uptime-days" class="uptime-count">--</span> days stable
+      <span data-uptime-days class="uptime-count">{{ footer_uptime_days }}</span> days stable
     </span>
   </a>
 </div>

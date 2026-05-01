@@ -43,25 +43,6 @@
 <link rel="mask-icon" href="{{ '/safari-pinned-tab.svg' | relative_url }}" color="#FF6600">
 <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
 
-<!-- Firebase SDK for dynamic banners -->
-<script type="module">
-  import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js';
-  import { getFirestore, collection, getDocs, doc, getDoc } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js';
-
-  const firebaseConfig = {
-    apiKey: "AIzaSyDnUIisCanLOxvTWiHMAnZimg7CBnqKQp8",
-    authDomain: "junkstore-website.firebaseapp.com",
-    projectId: "junkstore-website"
-  };
-
-  window.firebaseApp = initializeApp(firebaseConfig);
-  window.firebaseDb = getFirestore(window.firebaseApp);
-  window.firebaseGetDocs = getDocs;
-  window.firebaseCollection = collection;
-  window.firebaseDoc = doc;
-  window.firebaseGetDoc = getDoc;
-</script>
-
 <!-- Cookie Consent with Accept/Decline -->
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"></noscript>

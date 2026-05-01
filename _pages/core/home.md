@@ -10,10 +10,15 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
 {% include content-schema.html type="software" %}
 
 
-<a href="/status/" class="homepage-uptime-badge" id="homepage-uptime" style="display: none;">
+{%- assign uptime = site.data.uptime -%}
+{%- assign reset_seconds = uptime.lastResetDate | date: "%s" | plus: 0 -%}
+{%- assign now_seconds = "now" | date: "%s" | plus: 0 -%}
+{%- assign uptime_days = now_seconds | minus: reset_seconds | divided_by: 86400 -%}
+<a href="/status/" class="homepage-uptime-badge"
+   data-uptime-badge data-reset-date="{{ uptime.lastResetDate }}">
   <span class="homepage-uptime__icon">🛡️</span>
   <span class="homepage-uptime__text">
-    <strong>Junk Store Pro: <span id="homepage-uptime-days">--</span> days stable</strong>
+    <strong>Junk Store Pro: <span data-uptime-days>{{ uptime_days }}</span> days stable</strong>
     <span class="homepage-uptime__sub">on Steam Deck — through every recent SteamOS update</span>
   </span>
   <span class="homepage-uptime__cta">Live status &rarr;</span>

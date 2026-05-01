@@ -35,22 +35,42 @@
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
 
-<!-- Firebase Cache Client (must load before Firebase loaders) -->
-<script src="{{ '/assets/js/firebase-cache-client.js' | relative_url }}" defer></script>
+<!-- Live "days since reset" updater for site-wide uptime badges.
+     Initial count is rendered from _data/uptime.yml at build time; this
+     recomputes from data-reset-date on each visit so the number stays
+     accurate even between deploys. Same number length so no CLS. -->
+<script>
+(function () {
+  function updateUptimeDays() {
+    document.querySelectorAll('[data-uptime-days]').forEach(function (el) {
+      var wrapper = el.closest('[data-reset-date]');
+      var resetIso = wrapper && wrapper.getAttribute('data-reset-date');
+      if (!resetIso) return;
+      var reset = new Date(resetIso);
+      if (isNaN(reset)) return;
+      var days = Math.floor((Date.now() - reset.getTime()) / 86400000);
+      if (days >= 0 && String(days) !== el.textContent.trim()) {
+        el.textContent = days;
+      }
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', updateUptimeDays);
+  } else {
+    updateUptimeDays();
+  }
+})();
+</script>
 
-<!-- Firebase Uptime Tracker -->
-<script src="{{ '/assets/js/firebase-uptime.js' | relative_url }}" defer></script>
-
-<!-- Firebase FAQ + Troubleshooting loaders removed: /help/ now renders
-     content statically from _data/faq.json + _data/troubleshooting.json
-     + _data/quicktips.json (see Plan 4 in SEO audit). -->
-
-<!-- Static pricing config (was Firebase) — injects window.JS_PRICING from _data/pricing.yml -->
+<!-- Pricing renderer: reads window.JS_PRICING (set by pricing-config.html
+     from _data/pricing.yml at build time) and rewrites data-pricing="..."
+     elements. No Firebase fetch. -->
 {% include pricing-config.html %}
-<script src="{{ '/assets/js/firebase-pricing.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/pricing.js' | relative_url }}" defer></script>
 
-<!-- Firebase Testimonials Loader -->
-<script src="{{ '/assets/js/firebase-testimonials.js' | relative_url }}" defer></script>
+<!-- Testimonial rotation: testimonials are rendered server-side from
+     _data/testimonials.yml; this just cycles the .active class. -->
+<script src="{{ '/assets/js/testimonials-rotation.js' | relative_url }}" defer></script>
 
 {% if site.after_footer_scripts %}
   {% for script in site.after_footer_scripts %}
