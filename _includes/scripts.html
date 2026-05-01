@@ -48,7 +48,8 @@
      content statically from _data/faq.json + _data/troubleshooting.json
      + _data/quicktips.json (see Plan 4 in SEO audit). -->
 
-<!-- Firebase Pricing Loader -->
+<!-- Static pricing config (was Firebase) — injects window.JS_PRICING from _data/pricing.yml -->
+{% include pricing-config.html %}
 <script src="{{ '/assets/js/firebase-pricing.js' | relative_url }}" defer></script>
 
 <!-- Firebase Testimonials Loader -->

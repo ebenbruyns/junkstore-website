@@ -9,7 +9,6 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
 ---
 {% include content-schema.html type="software" %}
 
-{% include lazy-media.html %}
 
 <a href="/status/" class="homepage-uptime-badge" id="homepage-uptime" style="display: none;">
   <span class="homepage-uptime__icon">🛡️</span>
@@ -99,12 +98,61 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
       <h3>See It In Action</h3>
       <p>Browse all your libraries, install games, and launch - all without leaving Game Mode. No Desktop Mode. No extra steps. It just works.</p>
     </div>
-    <div class="demo-section__video">
-      <video loop muted playsinline preload="none" data-lazy-video class="demo-video" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; background: #1a1d24;">
+    <div class="demo-section__video demo-section__video--clickable" onclick="playDemoVideo(this)" role="button" tabindex="0" aria-label="Play demo video">
+      <video loop muted playsinline preload="none" poster="{{ '/assets/images/jspro/features/homepage.webp' | relative_url }}" class="demo-video" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; background: #1a1d24; display: block;">
         <source data-src="{{ '/assets/images/jspro/features/homepage.webm' | relative_url }}" type="video/webm">
         <source data-src="{{ '/assets/images/jspro/features/homepage.mp4' | relative_url }}" type="video/mp4">
       </video>
+      <span class="demo-section__play" aria-hidden="true">▶</span>
     </div>
+
+<style>
+.demo-section__video--clickable {
+  position: relative;
+  cursor: pointer;
+}
+.demo-section__video--clickable .demo-section__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.demo-section__video--clickable:hover .demo-section__play,
+.demo-section__video--clickable:focus-visible .demo-section__play {
+  background: rgba(255, 117, 26, 0.9);
+  transform: translate(-50%, -50%) scale(1.05);
+}
+.demo-section__video--clickable.playing .demo-section__play {
+  display: none;
+}
+</style>
+
+<script>
+function playDemoVideo(container) {
+  if (container.classList.contains('playing')) return;
+  container.classList.add('playing');
+  var video = container.querySelector('video');
+  if (!video) return;
+  video.querySelectorAll('source[data-src]').forEach(function (s) {
+    s.src = s.dataset.src;
+    s.removeAttribute('data-src');
+  });
+  video.load();
+  var p = video.play();
+  if (p && typeof p.catch === 'function') p.catch(function () {});
+}
+</script>
   </div>
 </section>
 

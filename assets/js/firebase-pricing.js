@@ -1,6 +1,13 @@
 /**
- * Firebase Pricing Loader
- * Fetches pricing config from Firestore and updates page elements dynamically
+ * Pricing renderer
+ *
+ * Reads pricing config from `window.JS_PRICING` (injected synchronously in
+ * <head> by _includes/pricing-config.html, sourced from _data/pricing.yml)
+ * and updates all `data-pricing="..."` elements on the page.
+ *
+ * Originally fetched from Firebase; moved to static YAML so prices render at
+ * first paint with no flicker. Date-based promotion/coupon active-checks still
+ * happen client-side because the page might be cached when a promo starts/ends.
  *
  * Usage: Add data attributes to elements you want updated:
  *   data-pricing="price"        → $40 (with currency symbol)
@@ -22,39 +29,29 @@
  *   data-pricing="promo-desc"      → Holiday Special! (shown if promo active)
  */
 
-(async function loadPricing() {
-  // Wait for cache client to be ready
-  if (!window.fetchCachedDocument) {
-    setTimeout(loadPricing, 100);
-    return;
-  }
-
-  try {
-    // Fetch from Cloudflare Worker cache instead of direct Firebase
-    const pricing = await window.fetchCachedDocument('pricing/config');
-
+(function applyPricing() {
+  function run() {
+    var pricing = window.JS_PRICING;
     if (!pricing) {
-      console.warn('Pricing config not found');
+      console.warn('window.JS_PRICING not set — pricing-config include missing from <head>');
       return;
     }
-    const symbol = pricing.currency_symbol || '$';
-    let price = pricing.annual_price || 40;
-    let trialDays = pricing.trial_days || 7;
-    const portalUrl = pricing.portal_url || 'https://portal.junkstore.xyz';
-    const coupon = pricing.coupon || {};
-    const promotion = pricing.promotion || {};
 
-    // Check if promotion is active and within date range
-    let promoActive = false;
-    let promoDesc = '';
+    var symbol = pricing.currency_symbol || '$';
+    var price = pricing.annual_price || 40;
+    var trialDays = pricing.trial_days || 7;
+    var portalUrl = pricing.portal_url || 'https://portal.junkstore.xyz';
+    var coupon = pricing.coupon || {};
+    var promotion = pricing.promotion || {};
+
+    // Promotion: active if isActive AND within date window (or no dates set)
+    var promoActive = false;
+    var promoDesc = '';
     if (promotion.isActive) {
-      const now = new Date();
-      const startDate = promotion.startDate ? new Date(promotion.startDate) : null;
-      const endDate = promotion.endDate ? new Date(promotion.endDate) : null;
+      var now = new Date();
+      var startDate = promotion.startDate ? new Date(promotion.startDate) : null;
+      var endDate = promotion.endDate ? new Date(promotion.endDate) : null;
 
-      // Promotion is active if:
-      // - No dates set (always active when enabled), or
-      // - Current time is between start and end dates
       if (!startDate && !endDate) {
         promoActive = true;
       } else if (startDate && endDate && now >= startDate && now <= endDate) {
@@ -66,43 +63,35 @@
       }
 
       if (promoActive) {
-        // Apply promotional overrides
         if (promotion.trial_days) trialDays = promotion.trial_days;
         if (promotion.annual_price) price = promotion.annual_price;
         promoDesc = promotion.description || '';
-        console.log('Promotion active:', { trialDays, price, promoDesc });
       }
     }
 
-    // Calculate weekly price
-    const weeklyPrice = Math.floor(price / 52);
+    var weeklyPrice = Math.floor(price / 52);
 
-    // Check if coupon is active and not expired
-    let couponActive = coupon.isActive === true;
+    // Coupon: active if isActive flag set AND not expired
+    var couponActive = coupon.isActive === true;
     if (couponActive && coupon.expiresAt) {
-      const expiryDate = new Date(coupon.expiresAt);
-      if (new Date() > expiryDate) {
-        couponActive = false;
-      }
+      if (new Date() > new Date(coupon.expiresAt)) couponActive = false;
     }
 
-    // Calculate discounted price
-    const discountPercent = coupon.discount_percent || 0;
-    const discountedPrice = couponActive ? Math.round(price * (1 - discountPercent / 100)) : price;
+    var discountPercent = coupon.discount_percent || 0;
+    var discountedPrice = couponActive ? Math.round(price * (1 - discountPercent / 100)) : price;
 
-    // Update all elements with data-pricing attribute
-    document.querySelectorAll('[data-pricing]').forEach(el => {
-      const type = el.getAttribute('data-pricing');
+    document.querySelectorAll('[data-pricing]').forEach(function (el) {
+      var type = el.getAttribute('data-pricing');
 
       switch (type) {
         case 'price':
-          el.textContent = `${symbol}${price}`;
+          el.textContent = symbol + price;
           break;
         case 'price-only':
           el.textContent = price;
           break;
         case 'trial':
-          el.textContent = `${trialDays}-day free trial`;
+          el.textContent = trialDays + '-day free trial';
           break;
         case 'trial-days':
           el.textContent = trialDays;
@@ -118,7 +107,7 @@
           }
           break;
         case 'weekly':
-          el.textContent = `Less than ${symbol}${weeklyPrice}`;
+          el.textContent = 'Less than ' + symbol + weeklyPrice;
           break;
         case 'coupon-code':
           if (couponActive && coupon.code) {
@@ -130,7 +119,7 @@
           break;
         case 'coupon-discount':
           if (couponActive && discountPercent > 0) {
-            el.textContent = `${discountPercent}% off`;
+            el.textContent = discountPercent + '% off';
             el.style.display = '';
           } else {
             el.style.display = 'none';
@@ -146,7 +135,7 @@
           break;
         case 'discounted':
           if (couponActive && discountPercent > 0) {
-            el.textContent = `${symbol}${discountedPrice}`;
+            el.textContent = symbol + discountedPrice;
             el.style.display = '';
           } else {
             el.style.display = 'none';
@@ -154,9 +143,9 @@
           break;
         case 'original-crossed':
           if (couponActive && discountPercent > 0) {
-            el.innerHTML = `<s style="opacity: 0.6">${symbol}${price}</s> ${symbol}${discountedPrice}`;
+            el.innerHTML = '<s style="opacity: 0.6">' + symbol + price + '</s> ' + symbol + discountedPrice;
           } else {
-            el.textContent = `${symbol}${price}`;
+            el.textContent = symbol + price;
           }
           break;
         case 'promo-desc':
@@ -170,24 +159,22 @@
       }
     });
 
-    // Show/hide coupon containers
-    document.querySelectorAll('[data-coupon-container]').forEach(el => {
+    document.querySelectorAll('[data-coupon-container]').forEach(function (el) {
       el.style.display = couponActive ? '' : 'none';
     });
 
-    // Show/hide promo containers
-    document.querySelectorAll('[data-promo-container]').forEach(el => {
+    document.querySelectorAll('[data-promo-container]').forEach(function (el) {
       el.style.display = promoActive ? '' : 'none';
     });
 
-    // Update portal links
-    document.querySelectorAll('a[href*="portal.junkstore"]').forEach(link => {
+    document.querySelectorAll('a[href*="portal.junkstore"]').forEach(function (link) {
       link.href = portalUrl;
     });
+  }
 
-    console.log('Pricing loaded from Firebase:', { price, trialDays, couponActive, promoActive });
-
-  } catch (error) {
-    console.error('Error loading pricing:', error);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', run);
+  } else {
+    run();
   }
 })();
