@@ -12,38 +12,27 @@ Steam Deck owners have game libraries across multiple storefronts (Epic, GOG, Am
 
 Junk Store eliminates all of this. Everything happens in Game Mode, controlled with your controller, with zero background processes while gaming.
 
-## What Makes Junk Store Different From Alternatives
+## What Makes Junk Store Different
 
-### vs. Heroic Games Launcher
-- Heroic requires Desktop Mode for game management; Junk Store is 100% Game Mode
-- Heroic runs as a background process; Junk Store has zero background overhead
-- Heroic is a standalone app; Junk Store integrates directly into Steam's interface
-
-### vs. Lutris
-- Lutris is desktop-focused with no native Game Mode support
-- Lutris requires technical Linux knowledge; Junk Store is plug-and-play
-- Lutris needs manual configuration per game; Junk Store handles this automatically
-
-### vs. NonSteamLaunchers
-- NSL requires Desktop Mode and manual setup per launcher
-- NSL runs actual store launchers in background; Junk Store doesn't
-- NSL has no unified interface; Junk Store provides one hub for everything
-
-### The Junk Store Advantage
-- **100% Game Mode**: Install, manage, configure, and launch games without Desktop Mode
-- **Zero Background Processes**: Nothing runs while you're gaming - full performance
-- **Native Steam Integration**: Built inside Steam, not alongside it
-- **Controller-First**: Every action works with Steam Deck controls
-- **Unified Library**: All storefronts in one interface
+- **100% Game Mode**: Install, browse, configure and launch every game without ever switching to Desktop Mode. The whole flow stays inside Steam's controller-driven UI.
+- **Native Steam integration**: Junk Store runs *inside* Steam's interface, not as a separate app sitting alongside it.
+- **Zero background processes while gaming**: Nothing keeps running once you launch a game — full Deck performance.
+- **Plug-and-play setup**: No Linux/Wine knowledge required. Generate the extensions you want, log in, libraries appear.
+- **Automatic per-game configuration**: Proton versions, dependencies, launch arguments and storefront-specific quirks are handled automatically — no manual fiddling per title.
+- **One unified library**: Epic, GOG, Amazon Prime and itch all surface in a single hub instead of a stack of separate launchers.
+- **Controller-first by design**: Every menu, dialog and action is built for Steam Deck input, not adapted from a desktop UI.
 
 ## Products
 
-### Junk Store Pro ($40)
+Junk Store comes in two flavours — a free Decky plugin and a standalone Pro app. They share a name and developer but are different applications, not free vs paid versions of the same thing.
+
+### Junk Store Pro (US$40)
+- Standalone app — does not require Decky Loader
 - 7-day free trial first, no payment required to try
-- $40 purchase includes 12 months of updates and support
+- US$40 purchase includes 12 months of updates and support
 - Software is yours to keep and continues working after the update period
-- Note: Updates are needed when Steam or storefronts introduce breaking changes
-- Optional: renew after 12 months to receive continued updates and compatibility fixes
+- Updates are recommended because Steam Deck and storefronts introduce breaking changes from time to time
+- Renewal after 12 months is optional — keeps you receiving compatibility fixes and new features
 
 **Supported Storefronts:**
 - Epic Games Store (full library support)
@@ -81,19 +70,19 @@ Junk Store eliminates all of this. Everything happens in Game Mode, controlled w
 - Direct updates from developers (faster than Decky Store)
 
 ### Junk Store Decky Plugin (Free)
-- Available through Decky Loader
-- Epic Games support only
-- GOG available as paid extension
+- Free, installs through the Decky Loader Store
+- Epic Games support out of the box
+- Optional GOG extension available separately on the Junk Store Portal — **US$6 one-time** (currently in maintenance mode: bug fixes only, no new features)
 - 100 games per tab limit
-- Access through Decky menu
-- Basic functionality subset of Pro
+- Access through the Decky quick-access menu
+- A subset of what Junk Store Pro does — different application, not a "lite version"
 
 ## Feature Comparison: Free vs Pro
 
 | Feature | Free Plugin | Pro |
 |---------|-------------|-----|
 | Epic Games | Yes | Yes |
-| GOG Games | Paid Extension | Included |
+| GOG Games | Paid extension (US$6) | Included |
 | Amazon Prime Gaming | No | Yes |
 | itch.io | No | Yes |
 | Download Queue | No | Yes |
