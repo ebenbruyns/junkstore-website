@@ -54,7 +54,12 @@ hide_title: true
 
   function renderCard(entry) {
     var meta = storeMeta(entry.storefront);
-    var img = entry.image ? 'background-image: url(' + JSON.stringify(entry.image).slice(1, -1) + ');' : '';
+    // Use a real <img> with loading="lazy" instead of CSS background-image so
+    // off-screen cards don't fetch (Epic/GOG return multi-MB PNGs which makes
+    // this page very heavy on slow connections).
+    var imgEl = entry.image
+      ? '<img class="free-games-card__img" src="' + escapeHtml(entry.image) + '" alt="" loading="lazy" decoding="async">'
+      : '';
     var price = entry.original_price
       ? '<span class="strike">' + escapeHtml(entry.original_price) + '</span> <strong>Free</strong>'
       : '<strong>Free</strong>';
@@ -67,7 +72,8 @@ hide_title: true
 
     return ''
       + '<article class="free-games-card">'
-      +   '<div class="free-games-card__image" style="' + img + '">'
+      +   '<div class="free-games-card__image">'
+      +     imgEl
       +     '<span class="store-badge ' + meta.cls + '">' + escapeHtml(meta.label) + '</span>'
       +   '</div>'
       +   '<div class="free-games-card__body">'
