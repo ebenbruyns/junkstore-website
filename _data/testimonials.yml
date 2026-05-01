@@ -1,0 +1,40 @@
+# Customer testimonials shown on the homepage. Was in Firebase, moved back to
+# a static data file so the homepage renders them at first paint with no CLS
+# from async fetch + DOM swap. Update this file when you want to add/edit/order
+# testimonials, then commit + push — no Firebase admin step needed.
+- order: 1
+  name: "Anonymous"
+  text: "Junk Store Pro gives me access to dozens of games I already own on platforms I rarely use — without all the convoluted workarounds."
+- order: 2
+  name: "BadServo"
+  text: "JS allows me the freedom to choose stores with better deals, DRM-free options, or freebies — without sacrificing the joy and simplicity of the Steam Deck."
+- order: 3
+  name: "Zer04evr"
+  text: "This is f***ing great and well worth the sub. It's leagues better than before and blows the Decky Loader version out of the water."
+- order: 4
+  name: "Tiny Tech"
+  text: "It's the perfect Swiss Army knife for my Deck!"
+- order: 5
+  name: "Dio"
+  text: "Complexity simplified, with Junkstore I can play all my games from other stores natively and seamlessly on my Steam Deck."
+- order: 6
+  name: "Phil Osyfee"
+  text: "With as much going on in the background, the experience is as simple an seamless as ever."
+- order: 7
+  name: "Reddit User"
+  text: "It's far easier to use and doesn't require restarting after installing a game; it's a far more 'native' experience."
+- order: 8
+  name: "Reddit User"
+  text: "Junk store is what I use and hands on the best solution for getting epic games onto the deck."
+- order: 9
+  name: "Richard Devine (Windows Central)"
+  text: "Donated to @JunkStore to get the GOG extension. Worth every penny. Such a good plugin."
+- order: 10
+  name: "Video Game Lunatic"
+  text: "I installed @JunkStore on my #SteamDeck and I have to say that execution is really slick. Getting my Amazon, GOG, and Epic accounts setup was simple and there are plenty of settings to tinker with."
+- order: 11
+  name: "too many names"
+  text: "The Junk-Store plugin for Decky Loader on #SteamDeck is just so so good as an Easy Mode for getting games from Epic Games installed and running in gaming mode."
+- order: 12
+  name: "Noah Kupetsky"
+  text: "Being able to access Epic and GOG games in such an accessible way is wonderful and has made me use other methods a bit less, thanks to how easy it is and how integrated the interface is with Game Mode."
