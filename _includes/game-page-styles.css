@@ -38,14 +38,30 @@ button:focus,
   overflow: hidden;
 }
 
-.hero-bg {
+/* Two layers: a blurred copy that fills the hero box (so no visible bars
+   when the image's aspect ratio doesn't match the hero), and the main
+   contain'd image showing the full art uncropped on top. Browsers de-dup
+   the network request — the second img reads from cache. */
+.hero-bg-blur {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.6);
+  filter: blur(40px) brightness(0.5);
+  /* scale up slightly so the blur's edges fall outside the visible area */
+  transform: scale(1.1);
+  z-index: 0;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0.75);
+  z-index: 1;
 }
 
 .hero-content {
