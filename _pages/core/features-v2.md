@@ -514,6 +514,114 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 }
 </style>
 
+<section class="versions-summary">
+  <h2>Two flavours of Junk Store</h2>
+  <div class="versions-grid">
+    <div class="version-card">
+      <h3>Junk Store</h3>
+      <p class="version-tag">Free Decky plugin</p>
+      <p class="version-price">Free</p>
+      <ul class="version-list">
+        <li>Installs from the Decky Loader Store</li>
+        <li>Epic Games out of the box</li>
+        <li>Optional GOG add-on &mdash; <strong>US$6</strong>, one-time (maintenance mode)</li>
+      </ul>
+    </div>
+    <div class="version-card version-card--featured">
+      <h3>Junk Store Pro</h3>
+      <p class="version-tag">Standalone app</p>
+      <p class="version-price">US$40</p>
+      <ul class="version-list">
+        <li>Epic, GOG, Amazon Prime &amp; itch &mdash; all included</li>
+        <li>File Manager, Disk Analyser, Process Manager, SteamGridDB</li>
+        <li>7-day free trial, then 12 months of updates &amp; support</li>
+        <li>Renewal optional</li>
+      </ul>
+    </div>
+  </div>
+  <p class="versions-note">Two separate apps, same team. Pick the one that fits your setup.</p>
+</section>
+
+<style>
+.versions-summary {
+  max-width: 1100px;
+  margin: 1rem auto 2rem;
+  padding: 0 20px;
+}
+.versions-summary h2 {
+  text-align: center;
+  margin: 0 0 1.5rem 0;
+}
+.versions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 1rem;
+}
+.version-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+}
+.version-card--featured {
+  border-color: #ff751a;
+  background: rgba(255, 117, 26, 0.06);
+}
+.version-card h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #fff;
+}
+.version-card .version-tag {
+  margin: 0.1rem 0 0.5rem;
+  font-size: 0.8rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.version-card .version-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #66bfff;
+  margin: 0 0 0.75rem 0;
+}
+.version-card--featured .version-price {
+  color: #ff9b52;
+}
+.version-card .version-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.version-card .version-list li {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  padding: 0.25rem 0 0.25rem 1.1rem;
+  position: relative;
+}
+.version-card .version-list li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #666;
+}
+.version-card--featured .version-list li::before {
+  color: #ff751a;
+}
+.versions-note {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+  margin: 0.5rem 0 0;
+}
+@media (max-width: 700px) {
+  .versions-grid { grid-template-columns: 1fr; }
+}
+</style>
+
 <section id="difference" class="feature-groups">
   <h2>Decky Plugin vs Junk Store Pro</h2>
 
