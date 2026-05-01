@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-04-30T20:14:53.507Z",
+  "games": [
+    {
+      "id": "gp_3595",
+      "title": "The Lost Painter",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://www.gamerpower.com/open/the-lost-painter-itchio-giveaway",
+      "image": "https://www.gamerpower.com/offers/1b/69e7686e9561b.jpg",
+      "end_date": "2026-05-01 23:59:00",
+      "end_date_formatted": "Friday, May 1",
+      "first_seen": "2026-04-23 02:18:12",
+      "original_price": "$2.99"
+    },
+    {
+      "id": "manual_1777580091980_hogwarts-legacy",
+      "title": "Hogwarts Legacy",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/en-US/p/hogwarts-legacy",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Foffer%2Fe97659b501af4e3981d5430dad170911%2FEGS_HogwartsLegacy_AvalancheSoftware_S1_2560x1440-aa80981dd7c9b3f26b12606974a76dba_2560x1440-aa80981dd7c9b3f26b12606974a76dba&w=480&output=webp&q=80",
+      "end_date": "2026-05-03T12:00:00.000Z",
+      "end_date_formatted": "Monday, May 4",
+      "first_seen": "2026-04-30 20:14:53",
+      "original_price": "NZ$100.00"
+    },
+    {
+      "id": "manual_1777577568665_fantasy-general-ii-invasion",
+      "title": "Fantasy General II - Invasion",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/fantasy-general-gog/dp/amzn1.pg.item.9d4ded3f-a772-485b-8fb8-0868631044fb?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2F81473b367717fe18c4b629cdc299fba72e44c9bb39a0236609f0b1736c4cbb4d.png&w=480&output=webp&q=80",
+      "end_date": "2026-05-30T12:00:00.000Z",
+      "end_date_formatted": "Sunday, May 31",
+      "first_seen": "2026-04-30 19:32:49",
+      "original_price": "$39.99"
+    },
+    {
+      "id": "gp_3394",
+      "title": "Rose and Cross",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://www.gamerpower.com/open/rose-and-cross-itch-io-giveaway",
+      "image": "https://www.gamerpower.com/offers/1b/6930a11f989ac.jpg",
+      "end_date": "2026-05-31 23:59:53",
+      "end_date_formatted": "Sunday, May 31",
+      "first_seen": "2026-04-23 02:18:12",
+      "original_price": "$6.99"
+    },
+    {
+      "id": "manual_1777577568665_kinnikuneko-super-muscle-cat",
+      "title": "KinnikuNeko: SUPER MUSCLE CAT",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/kinnikuneko-super-muscle-cat-epic/dp/amzn1.pg.item.1ddb7652-affd-420e-a2af-9b0a2ba70ac1?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F3ad882527ee2481ea4d90dbee3c921a4%2Fkinnikuneko-super-muscle-cat-1wxkk.png&w=480&output=webp&q=80",
+      "end_date": "2026-06-03T12:00:00.000Z",
+      "end_date_formatted": "Thursday, Jun 4",
+      "first_seen": "2026-04-30 19:32:49",
+      "original_price": "NZ$26.49"
+    },
+    {
+      "id": "manual_1777577568665_pinball-spire",
+      "title": "Pinball Spire",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/pinball-spire-gog/dp/amzn1.pg.item.76919ab0-9718-4c3d-9433-9484478f32b0?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fc1c095aa9760c31002088b35a853c3346e8395c216f85eba33f5102833f85514.png&w=480&output=webp&q=80",
+      "end_date": "2026-06-03T12:00:00.000Z",
+      "end_date_formatted": "Thursday, Jun 4",
+      "first_seen": "2026-04-30 19:32:49",
+      "original_price": "$14.99"
+    },
+    {
+      "id": "manual_1776973466618_neo-cab",
+      "title": "Neo Cab",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/neo-cab-gog/dp/amzn1.pg.item.e2868d3e-ca75-4dd1-93ce-ef343e126305?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fb5a65acb6b398b21d74647ce67a47b8826dfcd8833ad72e62483e72952bbbfeb.png&w=480&output=webp&q=80",
+      "end_date": "2026-06-25T12:00:00.000Z",
+      "end_date_formatted": "Friday, Jun 26",
+      "first_seen": "2026-04-23 19:44:27",
+      "original_price": "$14.99"
+    },
+    {
+      "id": "manual_1776973466618_the-pale-beyond",
+      "title": "The Pale Beyond",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/the-pale-beyond-gog/dp/amzn1.pg.item.7791491d-6134-4109-b285-1b7f1b79f07a?g=s&ingress=amzn&ref_=SM_ThePaleBeyond_S01_FGWP_CRWN",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fdb4e16dc43f196b3641b0f69158fa480bf77748439f82fb611d24034e19f42dc.png&w=480&output=webp&q=80",
+      "end_date": "2026-06-25T12:00:00.000Z",
+      "end_date_formatted": "Friday, Jun 26",
+      "first_seen": "2026-04-23 19:44:27",
+      "original_price": "$19.99"
+    },
+    {
+      "id": "gp_3096",
+      "title": "Madness Inside",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://www.gamerpower.com/open/madness-inside-itch-io-giveaway",
+      "image": "https://www.gamerpower.com/offers/1b/67c76007697b3.jpg",
+      "end_date": "2026-08-01 23:59:59",
+      "end_date_formatted": "Saturday, Aug 1",
+      "first_seen": "2026-04-23 02:18:12",
+      "original_price": "$6.99"
+    },
+    {
+      "id": "epic_102da1ac6e864d7f84889f2c0a107ee2",
+      "title": "Oddsparks: An Automation Adventure",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/en-US/p/oddsparks-58440c",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2Ff09aaab3f10e4c18a2948a5b829bd84d%2Foddsparks-an-automation-adventure-117zi.png&w=480&output=webp&q=80",
+      "end_date": "2026-08-04T12:00:00.000Z",
+      "end_date_formatted": "Wednesday, Aug 5",
+      "first_seen": "2026-04-30 19:32:49",
+      "original_price": "$29.99"
+    },
+    {
+      "id": "gp_3614",
+      "title": "Adventures of Robbo",
+      "storefront": "gog",
+      "website_slug": null,
+      "store_url": "https://www.gog.com/en/game/adventures_of_robbo",
+      "image": "https://www.gamerpower.com/offers/1b/69f3650dadcdf.jpg",
+      "end_date": "2026-08-04T12:00:00.000Z",
+      "end_date_formatted": "Wednesday, Aug 5",
+      "first_seen": "2026-04-30 19:32:49",
+      "original_price": null
+    },
+    {
+      "id": "gp_3612",
+      "title": "Electro Man",
+      "storefront": "gog",
+      "website_slug": null,
+      "store_url": "https://www.gog.com/en/game/electro_man",
+      "image": "https://www.gamerpower.com/offers/1b/69f36366e5470.jpg",
+      "end_date": "2026-08-04T12:00:00.000Z",
+      "end_date_formatted": "Wednesday, Aug 5",
+      "first_seen": "2026-04-30 19:32:49",
+      "original_price": null
+    },
+    {
+      "id": "gp_3613",
+      "title": "Robbo",
+      "storefront": "gog",
+      "website_slug": null,
+      "store_url": "https://www.gog.com/en/game/robbo",
+      "image": "https://www.gamerpower.com/offers/1b/69f364770c810.jpg",
+      "end_date": "2026-08-04T12:00:00.000Z",
+      "end_date_formatted": "Wednesday, Aug 5",
+      "first_seen": "2026-04-30 19:32:49",
+      "original_price": null
+    },
+    {
+      "id": "gp_3611",
+      "title": "Heartlight",
+      "storefront": "gog",
+      "website_slug": null,
+      "store_url": "https://www.gog.com/en/game/heartlight",
+      "image": "https://www.gamerpower.com/offers/1b/69f3624dade84.jpg",
+      "end_date": "2026-08-04T12:00:00.000Z",
+      "end_date_formatted": "Wednesday, Aug 5",
+      "first_seen": "2026-04-30 19:32:49",
+      "original_price": null
+    }
+  ]
+}
