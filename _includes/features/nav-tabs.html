@@ -1,0 +1,14 @@
+{%- comment -%}
+  Tab-style navigation rendered at the top of every features sub-page
+  (/features/, /decky-vs-pro/, /features/gallery/, /features/press/).
+  Each tab is an <a href> link to a sibling page; the active page passes
+  its key via include.active to highlight the right tab.
+
+  Usage: {% include features/nav-tabs.html active="features" %}
+{%- endcomment -%}
+<div class="features-tabs">
+  <a href="/features/" class="features-tab{% if include.active == 'features' %} active{% endif %}">Features</a>
+  <a href="/decky-vs-pro/" class="features-tab{% if include.active == 'difference' %} active{% endif %}">Decky vs Pro</a>
+  <a href="/features/gallery/" class="features-tab{% if include.active == 'gallery' %} active{% endif %}">Gallery</a>
+  <a href="/features/press/" class="features-tab{% if include.active == 'press' %} active{% endif %}">Press</a>
+</div>

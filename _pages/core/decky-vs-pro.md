@@ -7,6 +7,8 @@ excerpt: "Every feature, side by side. See exactly what Pro unlocks for your Ste
 ---
 {% include content-schema.html type="software" %}
 
+{% include features/nav-tabs.html active="difference" %}
+
 <style>
 /* Two-Tier Comparison Cards */
 .tier-comparison {
@@ -622,12 +624,12 @@ excerpt: "Every feature, side by side. See exactly what Pro unlocks for your Ste
         <span class="free-status status-no">❌ No</span>
         <span class="pro-status status-yes">✅ Yes</span>
       </div>
-      div class="feature-item">
+      <div class="feature-item">
         <span class="feature-name">Database Management</span>
         <span class="free-status status-no">❌ No</span>
         <span class="pro-status status-yes">✅ Yes</span>
       </div>
-      div class="feature-item">
+      <div class="feature-item">
         <span class="feature-name">SteamGridDB Built In</span>
         <span class="free-status status-no">❌ No</span>
         <span class="pro-status status-yes">✅ Yes</span>
@@ -783,7 +785,7 @@ excerpt: "Every feature, side by side. See exactly what Pro unlocks for your Ste
   </div>
 
   <div class="demo-more">
-    <a href="/features/#gallery">View all demos in Gallery →</a>
+    <a href="/features/gallery/">View all demos in Gallery →</a>
   </div>
 </section>
 

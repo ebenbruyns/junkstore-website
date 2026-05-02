@@ -207,7 +207,7 @@
     "category": "Overview",
     "order": 0,
     "question": "What's the difference between the Decky version and the Professional version?",
-    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nThe Professional version includes extra convenience features and doesn't require Decky to run.\n  <br>\n  <br>\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>The Decky version is free and open source, designed to run via the Decky Loader. \n  <strong><br><br>\nFor detailed feature comparison:</strong> <a href=\"/comparison/\">View Complete Comparison Chart</a>\n</div>"
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nThe Professional version includes extra convenience features and doesn't require Decky to run.\n  <br>\n  <br>\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>The Decky version is free and open source, designed to run via the Decky Loader. \n  <strong><br><br>\nFor detailed feature comparison:</strong> <a href=\"/decky-vs-pro/\">View Complete Comparison Chart</a>\n</div>"
   },
   {
     "id": "00df440f-7a0d-4fe0-881f-f97e9936c5b4",
