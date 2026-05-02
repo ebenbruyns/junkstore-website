@@ -41,6 +41,26 @@ published: true
 {%- comment -%} Sort notes most-recent-first {%- endcomment -%}
 {%- assign sorted_notes = uptime.notes | sort: "date" | reverse -%}
 
+{%- comment -%}
+  Extract the most recent SteamOS version from stable notes. Format-tolerant —
+  works with both "[SteamOS X.Y.Z Release](...)" and "[SteamOS X.Y.Z](...)".
+  Build-time derivation eliminates the JS rewrite that was causing CLS on the
+  status card when the launch version differed from current.
+{%- endcomment -%}
+{%- assign current_steamos = uptime.steamosVersion -%}
+{%- for note in sorted_notes -%}
+  {%- if note.type == "stable" -%}
+    {%- assign parts = note.text | split: "SteamOS " -%}
+    {%- if parts.size > 1 -%}
+      {%- assign rest = parts[1] | split: "]" | first | split: " " | first | split: ")" | first -%}
+      {%- if rest contains "." -%}
+        {%- assign current_steamos = rest -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
 <div class="status-page">
 
 <div class="status-card stable">
@@ -61,7 +81,11 @@ published: true
 
   <div class="last-reset-info">
     <p id="status-steamos-line">
-      <span data-status-steamos-text><strong>SteamOS:</strong> {{ uptime.steamosVersion }}</span>
+      {%- if current_steamos == uptime.steamosVersion -%}
+      <strong>SteamOS:</strong> {{ uptime.steamosVersion }}
+      {%- else -%}
+      <strong>SteamOS:</strong> {{ uptime.steamosVersion }} at launch &middot; {{ current_steamos }} current
+      {%- endif -%}
     </p>
     <p><strong>Stable since:</strong> {{ uptime.lastResetDate | date: "%-d %B %Y" }}</p>
     <p><strong>Last reset:</strong> {{ uptime.resetReason }}</p>
@@ -217,30 +241,6 @@ published: true
       el.textContent = days;
     }
   });
-
-  // If the most recent stable note has a different SteamOS version embedded
-  // in its text (regex match), append "· X.Y.Z current" to the launch line.
-  // The launch version is already rendered statically so there's no flash if
-  // we don't append.
-  var steamosTextEl = document.querySelector('[data-status-steamos-text]');
-  if (steamosTextEl) {
-    var stableNotes = Array.from(document.querySelectorAll('.note-row'))
-      .filter(function (row) { return row.querySelector('.note-badge.stable'); });
-    var versionRegex = /(?:SteamOS\s+v?)?(\d+\.\d+(?:\.\d+)?)/i;
-    for (var i = 0; i < stableNotes.length; i++) {
-      var noteText = stableNotes[i].querySelector('td:last-child')?.textContent || '';
-      var m = noteText.match(versionRegex);
-      if (m) {
-        var current = m[1];
-        var launchHtml = steamosTextEl.innerHTML;
-        var launchVersion = (launchHtml.match(/(\d+\.\d+(?:\.\d+)?)/) || [])[1];
-        if (launchVersion && current !== launchVersion) {
-          steamosTextEl.innerHTML = '<strong>SteamOS:</strong> ' + launchVersion + ' at launch &middot; ' + current + ' current';
-        }
-        break;
-      }
-    }
-  }
 
   // Show-all-notes button: reveals the .hidden-note rows and removes itself
   var showAllBtn = document.getElementById('show-all-notes-btn');

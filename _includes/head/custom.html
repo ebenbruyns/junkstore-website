@@ -47,8 +47,13 @@
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"></noscript>
 <style>
-  /* Cookie banner styling */
+  /* Cookie banner styling — position fixed inline so the JS-injected
+     element doesn't briefly render in document flow before the CDN CSS
+     loads (was causing ~0.4 CLS on every page). */
   .cc-window {
+    position: fixed !important;
+    bottom: 1rem !important;
+    right: 1rem !important;
     min-width: 300px !important;
     max-width: 350px !important;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
