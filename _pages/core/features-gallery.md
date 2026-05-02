@@ -21,10 +21,11 @@ excerpt: "See Junk Store Pro running in Game Mode — short demos, no Desktop Mo
     <div class="gif-wrapper">
       <img
         class="gif-click"
-        src="/assets/images/jspro/gallery/download-still.jpg"
+        src="/assets/images/jspro/gallery/download-still.webp"
         data-gif="/assets/images/jspro/gallery/download.webm"
         alt="Download queue management"
-        data-still="/assets/images/jspro/gallery/download-still.jpg"
+        data-still="/assets/images/jspro/gallery/download-still.webp"
+        width="2538" height="1561"
         loading="lazy"
       >
     </div>
@@ -36,10 +37,11 @@ excerpt: "See Junk Store Pro running in Game Mode — short demos, no Desktop Mo
     <div class="gif-wrapper">
       <img
         class="gif-click"
-        src="/assets/images/jspro/gallery/language-still.jpg"
+        src="/assets/images/jspro/gallery/language-still.webp"
         data-gif="/assets/images/jspro/gallery/languageselection.webm"
         alt="Language selection"
-        data-still="/assets/images/jspro/gallery/language-still.jpg"
+        data-still="/assets/images/jspro/gallery/language-still.webp"
+        width="2546" height="1589"
         loading="lazy"
       >
     </div>
@@ -51,10 +53,11 @@ excerpt: "See Junk Store Pro running in Game Mode — short demos, no Desktop Mo
     <div class="gif-wrapper">
       <img
         class="gif-click"
-        src="/assets/images/jspro/gallery/dependencies-still.jpg"
+        src="/assets/images/jspro/gallery/dependencies-still.webp"
         data-gif="/assets/images/jspro/gallery/dependencies.webm"
         alt="Install dependencies"
-        data-still="/assets/images/jspro/gallery/dependencies-still.jpg"
+        data-still="/assets/images/jspro/gallery/dependencies-still.webp"
+        width="2538" height="1561"
         loading="lazy"
       >
     </div>
@@ -66,10 +69,11 @@ excerpt: "See Junk Store Pro running in Game Mode — short demos, no Desktop Mo
     <div class="gif-wrapper">
       <img
         class="gif-click"
-        src="/assets/images/jspro/gallery/changelauncher-still.jpg"
+        src="/assets/images/jspro/gallery/changelauncher-still.webp"
         data-gif="/assets/images/jspro/gallery/changelauncher.webm"
         alt="Change launcher"
-        data-still="/assets/images/jspro/gallery/changelauncher-still.jpg"
+        data-still="/assets/images/jspro/gallery/changelauncher-still.webp"
+        width="2538" height="1561"
         loading="lazy"
       >
     </div>
