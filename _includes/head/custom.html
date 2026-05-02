@@ -69,6 +69,34 @@
   .cc-allow { background: #f1d600 !important; color: #000 !important; }
   .cc-deny { background: #666 !important; color: #fff !important; }
   .cc-link { color: #f1d600 !important; text-decoration: underline !important; }
+
+  /* Critical hero height — inlined so the splash hero reserves its
+     final dimensions at first paint, before the async-loaded main.css
+     applies. Without this, the hero renders at content-height (~99px)
+     then jumps to 220px when main.css arrives, causing ~0.2 CLS on
+     splash pages (homepage, /features/, /status/, etc.). */
+  .layout--splash .page__hero--overlay,
+  .js-hero--overlay {
+    min-height: 220px;
+    height: 220px;
+    max-height: 220px;
+  }
+  @media (max-width: 768px) {
+    .layout--splash .page__hero--overlay,
+    .js-hero--overlay {
+      min-height: 250px;
+      height: 250px;
+      max-height: 250px;
+    }
+  }
+  @media (max-width: 480px) {
+    .layout--splash .page__hero--overlay,
+    .js-hero--overlay {
+      min-height: 220px;
+      height: auto;
+      max-height: none;
+    }
+  }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" defer></script>
 <script>
