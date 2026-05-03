@@ -119,6 +119,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 }
 
 .hero-feature-visual {
+  aspect-ratio: 16 / 9;
   background: #1a1a1a;
   border-radius: 12px;
   overflow: hidden;
