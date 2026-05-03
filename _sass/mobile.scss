@@ -9,11 +9,8 @@
 
 /* Touch action optimization for interactive elements */
 .button,
-.testimonial-dots .dot,
-.faq-box summary,
 .feature,
 .pricing-cta a,
-.greedy-nav__toggle,
 .search__toggle {
   touch-action: manipulation;
   -webkit-user-select: none;
@@ -429,7 +426,6 @@
     overflow: hidden;
   }
 
-  .faq-box summary:active,
   .button:active {
     will-change: transform;
   }
@@ -448,9 +444,7 @@
      Content Boxes
      -------------------------------------------------------------------------- */
 
-  .content-box,
-  .faq-box,
-  .troubleshooting-box {
+  .content-box {
     margin: 1rem 0;
     padding: 1.25rem;
     border-radius: 8px;
