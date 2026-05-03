@@ -7,11 +7,8 @@
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
-<!-- GOG Font with optimized loading - deferred for performance -->
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap" rel="stylesheet"></noscript>
-
-<!-- Epic Font with optimized loading - deferred for performance -->
+<!-- Roboto from Google Fonts - deferred for performance -->
+<!-- (Lato was previously loaded but no font-family stack referenced it) -->
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"></noscript>
 
@@ -23,12 +20,23 @@
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css"></noscript>
 
-<!-- Font display optimization to prevent layout shifts -->
+<!-- Font display optimization to prevent layout shifts.
+     'Roboto Fallback' uses local Arial bytes with metrics adjusted to match
+     Roboto exactly — so while GF Roboto is loading, the fallback already has
+     the right line-height/cap-height. When GF Roboto swaps in, no layout
+     shift. Standard Capsize-derived overrides. -->
 <style>
 @font-face { font-family: 'Font Awesome 6 Free'; font-display: swap; }
 @font-face { font-family: 'Font Awesome 6 Brands'; font-display: swap; }
-@font-face { font-family: 'Lato'; font-display: swap; }
 @font-face { font-family: 'Roboto'; font-display: swap; }
+@font-face {
+  font-family: 'Roboto Fallback';
+  src: local('Arial'), local('Helvetica'), local('Liberation Sans'), local('Nimbus Sans');
+  size-adjust: 100.06%;
+  ascent-override: 92.49%;
+  descent-override: 24.34%;
+  line-gap-override: 0%;
+}
 </style>
 
 <!-- Mobile performance optimizations -->
