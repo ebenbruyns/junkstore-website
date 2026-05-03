@@ -294,6 +294,7 @@ table .free-now-badge {
     aspect-ratio: 16 / 9;
     background: #111 center/cover no-repeat;
     position: relative;
+    overflow: hidden;
 
     // Reuses the visual language of .store-badge from the table / game-page hero
     // (those rules are scoped to their containers, so we restate the colours here).
@@ -316,6 +317,13 @@ table .free-now-badge {
       &.amazon { background: #00a14f; }
       &.itch   { background: #fa5c5c; }
     }
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
 
   &__body {

@@ -74,7 +74,7 @@ hide_title: true
         {%- endcase -%}
       <a class="free-games-new-card" href="{{ entry.store_url | escape }}" target="_blank" rel="noopener" title="Claim on {{ cta_label | escape }}">
         {%- if entry.image -%}
-          <img class="free-games-new-card__thumb" src="{{ entry.image | escape }}" alt="" loading="lazy" decoding="async">
+          <img class="free-games-new-card__thumb" src="{{ entry.image | escape }}" alt="" width="60" height="34" loading="lazy" decoding="async">
         {%- else -%}
           <span class="free-games-new-card__thumb free-games-new-card__thumb--placeholder"></span>
         {%- endif -%}
@@ -113,7 +113,7 @@ hide_title: true
     <article class="free-games-card" data-end-date="{{ entry.end_date | escape }}">
       <div class="free-games-card__image">
         {%- if entry.image -%}
-          <img class="free-games-card__img" src="{{ entry.image | escape }}" alt="" loading="lazy" decoding="async">
+          <img class="free-games-card__img" src="{{ entry.image | escape }}" alt="" width="480" height="270" loading="lazy" decoding="async">
         {%- endif -%}
         <span class="store-badge {{ badge_cls }}">{{ badge_label }}</span>
       </div>
