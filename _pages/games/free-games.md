@@ -95,10 +95,11 @@ hide_title: true
   </section>
 {%- endif -%}
 
+{%- assign games_by_end = games | sort: 'end_date' -%}
 {%- if active_count > 0 -%}
   <h2 class="free-games-page__section-title">All Current Giveaways</h2>
   <div class="free-games-page__grid">
-  {%- for entry in games -%}
+  {%- for entry in games_by_end -%}
     {%- assign end_iso = entry.end_date | replace: ' ', 'T' -%}
     {%- unless end_iso contains 'Z' -%}{%- assign end_iso = end_iso | append: 'Z' -%}{%- endunless -%}
     {%- assign end_unix = end_iso | date: '%s' | plus: 0 -%}
