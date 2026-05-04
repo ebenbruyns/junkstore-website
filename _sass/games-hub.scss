@@ -386,10 +386,10 @@ $hub-radius: 12px;
 
 // Game Card
 .game-card {
-  flex: 0 0 160px;
+  flex: 0 0 220px;
   // Lock height so the JS swap from skeleton → real card doesn't shift layout.
-  // 160w / 3:4 image = 213h + ~87px content (badges + 4-line title clamp).
-  height: 300px;
+  // 220w / 3:4 image = 293h + ~125px content (badges + 4-line title clamp at 13px).
+  height: 420px;
   background: $hub-card-bg;
   border: 1px solid $hub-border;
   border-radius: $hub-radius;
@@ -449,7 +449,7 @@ $hub-radius: 12px;
   }
 
   &__title {
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 600;
     color: $hub-text;
     margin: 4px 0 0 0;
