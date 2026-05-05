@@ -1,12 +1,12 @@
 ---
 layout: junkstore-post
-title: "Hogwarts Legacy & Oddsparks: An Automation Adventure + 2 More - Steam Deck Tested | May 6"
+title: "Hogwarts Legacy & Oddsparks: An Automation Adventure + 3 More - Steam Deck Tested | May 6"
 date: 2026-05-06 10:00:00 +1200
 categories: [Weekly Update, Game Compatibility]
 tags: [junk-store, steam-deck]
 slug: "games-tested-may-06"
-excerpt: "Steam Deck compatibility: Hogwarts Legacy, Oddsparks: An Automation Adventure, KinnikuNeko: Super Muscle Cat + 1 more. Tested with GE-Proton - Junk Store Game Mode setup included."
-description: "4 Epic & GOG games tested on Steam Deck this week: Hogwarts Legacy, Oddsparks: An Automation Adventure, KinnikuNeko: Super Muscle Cat. Get working Proton settings and compatibility notes for Game Mode play."
+excerpt: "Steam Deck compatibility: Hogwarts Legacy, Oddsparks: An Automation Adventure, Rocket League re-tested with the new EAC + 2 more. Tested with GE-Proton - Junk Store Game Mode setup included."
+description: "5 Epic & GOG games tested on Steam Deck this week: Hogwarts Legacy, Oddsparks: An Automation Adventure, Rocket League with the new EAC. Get working Proton settings and compatibility notes for Game Mode play."
 featured_games:
   - { store: epic, slug: hogwarts-legacy }
   - { store: epic, slug: oddsparks-an-automation-adventure }
