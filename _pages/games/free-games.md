@@ -44,7 +44,6 @@ hide_title: true
   <header class="free-games-page__header">
     <h1>Free Right Now</h1>
     <p>Current giveaways from Epic, GOG, Amazon Prime Gaming, and itch, claim them before the deal ends.</p>
-    <p class="free-games-page__caveat">Heads up: Amazon Prime Gaming giveaways require an active Amazon Prime subscription to claim.</p>
     {%- if feed.generated_at -%}
       <span class="free-games-page__updated">Updated {{ feed.generated_at | date: '%b %-d, %Y' }}</span>
     {%- endif -%}
@@ -98,6 +97,7 @@ hide_title: true
 {%- assign games_by_end = games | sort: 'end_date' -%}
 {%- if active_count > 0 -%}
   <h2 class="free-games-page__section-title">All Current Giveaways</h2>
+  <p class="free-games-page__caveat">Heads up: Amazon Prime Gaming giveaways require an active Amazon Prime subscription to claim.</p>
   <div class="free-games-page__grid">
   {%- for entry in games_by_end -%}
     {%- assign end_iso = entry.end_date | replace: ' ', 'T' -%}
