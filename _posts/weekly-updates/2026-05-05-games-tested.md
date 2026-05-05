@@ -88,7 +88,7 @@ This week featuring KinnikuNeko: Super Muscle Cat, Pinball Spire.
   <img src="https://images.gog.com/767fc40365561f765f40f9bafe1a62c6d5e2df6126d18006b2d04c06a40f4e46.jpg?namespace=gamesdb" alt="Pinball Spire" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/gog/pinball-spire/">Pinball Spire</a></strong> <span class="store-badge gog">GOG</span>
-    <p class="game-blurb">Pinball with a twist! It's a "pinballvania" where you bounce your way up through a mysterious tower. Loved testing it, though I tumbled all the way back down a few too many times. Definitely needs more practice.</p>
+    <p class="game-blurb">Pinball with a twist! It's a "pinballvania" where you bounce your way up through a mysterious tower. Loved testing it, though I tumbled all the way back down a few too many times. Definitely needs more practice. I couldn't test the Decky version this round (GOG's CDN was giving me grief), but I'll update the game page once I get it downloaded.</p>
     <a href="/games/gog/pinball-spire/" class="view-details">View compatibility details →</a>
   </div>
 </div>
