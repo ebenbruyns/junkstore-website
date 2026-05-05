@@ -15,7 +15,6 @@ featured_games:
 image: /assets/images/blog/260505-hero.jpg
 header:
   teaser: /assets/images/blog/260505-hero-thumb.jpg
-read_time: "5 min read"
 toc: true
 ---
 

@@ -28,12 +28,12 @@ layout: junkstore-default
           {% endfor %}
         </div>
         {% endif %}
-        {% if page.read_time %}
+        {% assign words = content | strip_html | number_of_words %}
+        {% assign minutes = words | divided_by: 200 | at_least: 1 %}
         <div class="js-post__read-time">
           <i class="fas fa-clock"></i>
-          {{ page.read_time }}
+          {{ minutes }} min read
         </div>
-        {% endif %}
       </div>
 
       <!-- Share Buttons -->
