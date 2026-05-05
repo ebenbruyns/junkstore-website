@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "36½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "58½ Hours"
+hltb_url: "https://howlongtobeat.com/game/109177"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-lord-of-the-rings-return-to-moria-f01344"
 protondb_url: "https://www.protondb.com/app/2933130"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Lord_of_the_Rings:_Return_to_Moria"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 59
+metacritic_url: "https://www.metacritic.com/game/the-lord-of-the-rings-return-to-moria/"
 
 # Notes
 notes: "Works out of the box! You may need to install C++ Runtime for the Decky version."

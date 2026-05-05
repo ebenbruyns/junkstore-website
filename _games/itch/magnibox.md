@@ -28,7 +28,7 @@ was_free_before: false
 giveaway_events: []
 
 # Images
-banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/999410/library_hero.jpg"
+banner_image: "https://cdn2.steamgriddb.com/hero_thumb/ef864ebbb6f6386038671578e2548cdf.jpg"
 cover_image: "https://images.gog.com/e99dd0cffc181d54fc5cb6d37a218639a038e1d01670934be5a2a6bbca9ec26f.jpg?namespace=gamesdb"
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/999410/capsule_231x87.jpg"
 
@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "--"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "--"
+hltb_url: "https://howlongtobeat.com/game/67699"
 
 # Links
 store_url: "https://josephgribbin.itch.io/magnibox"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/999410"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Magnibox"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/magnibox/"
 
 # Notes
 notes: "Works out of the box!"

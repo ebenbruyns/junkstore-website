@@ -59,7 +59,7 @@ hltb_completionist: "11.2 hrs"
 hltb_url: "https://howlongtobeat.com/game/1618"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/cave-story"
+store_url: "https://store.epicgames.com/en-US/p/cave-story-plus"
 protondb_url: "https://www.protondb.com/app/200900"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cave_Story%2B"

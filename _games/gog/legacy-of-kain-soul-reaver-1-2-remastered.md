@@ -56,19 +56,19 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/157302"
 
 # Links
 store_url: "https://www.gog.com/en/game/legacy_of_kain_soul_reaver_12_remastered"
 protondb_url: "https://www.protondb.com/app/2521380"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legacy_of_Kain%3A_Soul_Reaver_1_%26_2_Remastered"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/legacy-of-kain-soul-reaver-1-and-2-remastered/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

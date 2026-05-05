@@ -24,8 +24,8 @@ game_modes: ["Single-player"]
 languages: ["English*","German","Russian","Simplified Chinese","French","Spanish - Spain","Portuguese - Brazil","Dutch*languages with full audio support"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"29","name":"Steam Trading Cards"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"id":"epic_9e7d6a034aaf450dacda4b51695d113a","start":"2026-04-23T07:23:01.000Z","end":"2026-04-30T15:00:00.000Z","type":null}]
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b442884/doomblade-1luo5.jpg"
@@ -74,8 +74,8 @@ known_issues:
 
 # Meta
 database_id: "818572d480784b9a904e54aab004d1c4"
-is_featured: true
+is_featured: false
 owned: true
 ---
 
-Deep underground, Gloom Girl discovers DOOMBLADE, a sentient weapon hellbent on escape after eons in chains. Together, "Doom and Gloom" embark on a vengeful quest to unlock the powerful abilities and destroy the Dread Lords once and for all in this 2D Action Metroidvania.
+DOOMBLADE

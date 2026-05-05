@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/league-of-legends"
 protondb_url: "https://www.protondb.com/app/20590"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/League_of_Legends"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/league-of-legends/"
 
 # Notes
 notes: Imported from library - not yet tested

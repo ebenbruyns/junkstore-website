@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "6 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "19½ Hours"
+hltb_url: "https://howlongtobeat.com/game/82150"
 
 # Links
 store_url: "https://noio.itch.io/cloud-gardens"
 protondb_url: "https://www.protondb.com/app/1372320"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cloud_Gardens"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/cloud-gardens/"
 
 # Notes
 notes: "Works out of the box!"

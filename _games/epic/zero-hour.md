@@ -56,7 +56,7 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/74269"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/zero-hour-8449a0"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1359090"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Zero_Hour"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/zero-hour/"
 
 # Notes
 notes: "Works out of the box! While it does have some native controls you do need to map more actions in game."

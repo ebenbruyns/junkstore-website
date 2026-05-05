@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/just-die-already"
 protondb_url: "https://www.protondb.com/app/979070"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Just_Die_Already"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 63
+metacritic_url: "https://www.metacritic.com/game/just-die-already/"
 
 # Notes
 notes: Requires manual controller/key mapping.

@@ -59,7 +59,7 @@ hltb_completionist: "34.5 hrs"
 hltb_url: "https://howlongtobeat.com/game/78213"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/tony-hawk-s-pro-skater-1-2"
+store_url: "https://store.epicgames.com/en-US/p/tony-hawks-pro-skater-1-and-2"
 protondb_url: "https://www.protondb.com/app/2395210"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tony_Hawk%27s_Pro_Skater_1_%2B_2"
@@ -68,7 +68,7 @@ metacritic_url: ""
 
 # Notes
 notes: 
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

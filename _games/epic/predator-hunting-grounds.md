@@ -56,19 +56,19 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/77687"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/predator-hunting-grounds"
 protondb_url: "https://www.protondb.com/app/1556200"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Predator%3A_Hunting_Grounds"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 56
+metacritic_url: "https://www.metacritic.com/game/predator-hunting-grounds/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

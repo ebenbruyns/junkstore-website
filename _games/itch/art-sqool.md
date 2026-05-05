@@ -28,7 +28,7 @@ was_free_before: false
 giveaway_events: []
 
 # Images
-banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/953300/library_hero.jpg"
+banner_image: "https://cdn2.steamgriddb.com/hero_thumb/4cfe94fcc9db2f0a16ba44fa5b71d8ec.jpg"
 cover_image: "https://images.gog.com/8086cdad0fbec2db9fa5c78ed18ec43b70a0b5fc0782955be2106f1499777af9.jpg?namespace=gamesdb"
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/953300/capsule_231x87.jpg"
 
@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "2½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "2½ Hours"
+hltb_url: "https://howlongtobeat.com/game/65222"
 
 # Links
 store_url: "https://glander.itch.io/art-sqool"
 protondb_url: "https://www.protondb.com/app/953300"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Art_Sqool"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 46
+metacritic_url: "https://www.metacritic.com/game/art-sqool/"
 
 # Notes
 notes: "Works out of the box!"

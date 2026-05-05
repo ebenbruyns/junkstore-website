@@ -59,7 +59,7 @@ hltb_completionist: "61 hrs"
 hltb_url: "https://howlongtobeat.com/game/68213"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/tom-clancy-s-rainbow-six-extraction"
+store_url: "https://store.epicgames.com/en-US/p/rainbow-six-extraction"
 protondb_url: "https://www.protondb.com/app/2379390"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tom_Clancy%27s_Rainbow_Six_Extraction"

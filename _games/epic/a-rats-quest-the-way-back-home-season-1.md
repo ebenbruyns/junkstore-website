@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "5 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "--"
+hltb_url: "https://howlongtobeat.com/game/184066"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/a-rats-quest-f610d5"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1124420"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/a-rats-quest-the-way-back-home-season-1/"
 
 # Notes
 notes: "Works out of the box!"

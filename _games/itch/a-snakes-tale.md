@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "1½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "3½ Hours"
+hltb_url: "https://howlongtobeat.com/game/56634"
 
 # Links
 store_url: "https://m12y.itch.io/a-snakes-tale"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/654810"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Snake%27s_Tale"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/a-snakes-tale/"
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."

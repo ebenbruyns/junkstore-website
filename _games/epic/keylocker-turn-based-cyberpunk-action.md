@@ -53,22 +53,22 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "20 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "--"
+hltb_url: "https://howlongtobeat.com/game/107654"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/keylocker-622bcc"
 protondb_url: "https://www.protondb.com/app/1325040"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Keylocker"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/keylocker-turn-based-cyberpunk-action/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck controller support.
+controller_config: 
 performance_notes: 
 known_issues: 
 

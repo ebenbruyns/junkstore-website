@@ -59,12 +59,12 @@ hltb_completionist: ""
 hltb_url: "https://howlongtobeat.com/game/126714"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/super-space-club"
+store_url: "https://store.epicgames.com/en-US/p/super-space-club-20adbe"
 protondb_url: "https://www.protondb.com/app/1100290"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Super_Space_Club"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/super-space-club/"
 
 # Notes
 notes: "Works out of the box!"

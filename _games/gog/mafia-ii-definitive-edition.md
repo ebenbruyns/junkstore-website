@@ -53,22 +53,22 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "11½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "36½ Hours"
+hltb_url: "https://howlongtobeat.com/game/78142"
 
 # Links
 store_url: "https://www.gog.com/en/game/mafia_ii_definitive_edition"
 protondb_url: "https://www.protondb.com/app/1030830"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mafia_II%3A_Definitive_Edition"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/mafia-ii-definitive-edition/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/3258470"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/skybound-only-up-vr/"
 
 # Notes
 notes: "Works out of the box!"

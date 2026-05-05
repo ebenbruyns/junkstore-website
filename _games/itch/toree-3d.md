@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "37 Mins"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "2 Hours"
+hltb_url: "https://howlongtobeat.com/game/90843"
 
 # Links
 store_url: "https://siactro.itch.io/toree3d"
 protondb_url: "https://www.protondb.com/app/1554840"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Toree_3D"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 67
+metacritic_url: "https://www.metacritic.com/game/toree-3d/"
 
 # Notes
 notes: "Works out of the box!"

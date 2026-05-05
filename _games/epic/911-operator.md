@@ -59,7 +59,7 @@ hltb_completionist: "21.4 hrs"
 hltb_url: "https://howlongtobeat.com/game/41512"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/911-operator"
+store_url: "https://store.epicgames.com/en-US/p/911-operator-585edd"
 protondb_url: "https://www.protondb.com/app/503560"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/911_Operator"
@@ -68,7 +68,7 @@ metacritic_url: "https://www.metacritic.com/game/pc/911-operator?ftag=MCD-06-10a
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

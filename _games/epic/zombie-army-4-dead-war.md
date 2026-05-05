@@ -68,7 +68,7 @@ metacritic_url: "https://www.metacritic.com/game/pc/zombie-army-4-dead-war?ftag=
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

@@ -24,8 +24,8 @@ game_modes: ["Single-player"]
 languages: ["English","French*languages with full audio support"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"62","name":"Family Sharing"}]
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"id":"gp_3597","start":"2026-04-22T14:18:12.000Z","end":"2026-04-28T11:59:00.000Z","type":null}]
 
 # Images
 banner_image: "https://images.gog.com/4dba23ddcb615804be388650a2aca96c864c421bac153d140959abd231ebcafd.jpg?namespace=gamesdb"
@@ -74,7 +74,7 @@ known_issues:
 
 # Meta
 database_id: "2044656083"
-is_featured: true
+is_featured: false
 owned: true
 ---
 

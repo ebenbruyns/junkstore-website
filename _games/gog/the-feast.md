@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "16 Mins"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "1½ Hours"
+hltb_url: "https://howlongtobeat.com/game/119290"
 
 # Links
 store_url: "https://www.gog.com/game/the-feast"
@@ -64,11 +64,11 @@ protondb_url: "https://www.protondb.com/app/2221940"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Feast"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/the-feast/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

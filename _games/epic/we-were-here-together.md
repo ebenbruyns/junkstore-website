@@ -56,7 +56,7 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/71166"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/we-were-here-together-6a6d66"

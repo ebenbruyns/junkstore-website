@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/the-alto-collection"
 protondb_url: "https://www.protondb.com/app/2837600"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Alto_Collection"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/the-alto-collection/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

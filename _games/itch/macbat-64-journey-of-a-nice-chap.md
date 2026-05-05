@@ -28,7 +28,7 @@ was_free_before: false
 giveaway_events: []
 
 # Images
-banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/568040/library_hero.jpg"
+banner_image: "https://cdn2.steamgriddb.com/hero_thumb/9dd48d8df816e1b2b78a1573d0b6ce78.jpg"
 cover_image: "https://images.gog.com/b890cc75da4015123b4e2d119dab99e03e7ba3043e3728184e98129a818102c8.jpg?namespace=gamesdb"
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/568040/capsule_231x87.jpg"
 
@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "53 Mins"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "1 Hours"
+hltb_url: "https://howlongtobeat.com/game/44456"
 
 # Links
 store_url: "https://siactro.itch.io/macbat64"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/568040"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Macbat_64"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/macbat-64-journey-of-a-nice-chap/"
 
 # Notes
 notes: "You will need to map controller keys for this game. Also if it doesn't launch first time you may need to repair the games files."

@@ -59,7 +59,7 @@ hltb_completionist: "14.5 hrs"
 hltb_url: "https://howlongtobeat.com/game/93892"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/doki-doki-literature-club"
+store_url: "https://store.epicgames.com/en-US/p/doki-doki-literature-club-plus"
 protondb_url: "https://www.protondb.com/app/1388880"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doki_Doki_Literature_Club_Plus%21"
@@ -68,7 +68,7 @@ metacritic_url: "https://www.metacritic.com/game/pc/doki-doki-literature-club-pl
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

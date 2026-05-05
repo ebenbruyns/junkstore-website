@@ -59,7 +59,7 @@ hltb_completionist: "4.9 hrs"
 hltb_url: "https://howlongtobeat.com/game/1285"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/botanicula"
+store_url: "https://store.epicgames.com/en-US/p/botanicula-50043d"
 protondb_url: "https://www.protondb.com/app/207690"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Botanicula"

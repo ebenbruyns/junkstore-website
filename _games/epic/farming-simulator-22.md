@@ -63,12 +63,12 @@ store_url: "https://store.epicgames.com/en-US/p/farming-simulator-22"
 protondb_url: "https://www.protondb.com/app/1248130"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Farming_Simulator_22"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/farming-simulator-22/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

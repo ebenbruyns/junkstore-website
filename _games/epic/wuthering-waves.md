@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/wuthering-waves-76ebc5"
 protondb_url: "https://www.protondb.com/app/3513350"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wuthering_Waves"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/wuthering-waves/"
 
 # Notes
 notes: Imported from library - not yet tested

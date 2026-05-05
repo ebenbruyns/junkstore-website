@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "22 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "28 Hours"
+hltb_url: "https://howlongtobeat.com/game/127854"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/havendock-64983e"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/2020710"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Havendock"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/havendock/"
 
 # Notes
 notes: "Works out of the box!"

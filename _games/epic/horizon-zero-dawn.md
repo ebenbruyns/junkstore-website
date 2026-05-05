@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "22½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "61 Hours"
+hltb_url: "https://howlongtobeat.com/game/26784"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/horizon-zero-dawn"
+store_url: "https://store.epicgames.com/en-US/p/horizon-zero-dawn-complete-edition"
 protondb_url: "https://www.protondb.com/app/2561580"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Horizon_Zero_Dawn_Remastered"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 89
+metacritic_url: "https://www.metacritic.com/game/horizon-zero-dawn/"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. Install C++ Runtime Dependency"

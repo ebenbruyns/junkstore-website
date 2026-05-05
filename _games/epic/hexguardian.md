@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "--"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "--"
+hltb_url: "https://howlongtobeat.com/game/152944"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/hexguardian-2b0cbe"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/2381740"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/hexguardian/"
 
 # Notes
 notes: "Works out of the box!"

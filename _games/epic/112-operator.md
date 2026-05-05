@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/793460"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/112_Operator"
 metacritic_score: 73
-metacritic_url: "https://www.metacritic.com/game/pc/112-operator?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/112-operator/"
 
 # Notes
 notes: "Works out of the box!"

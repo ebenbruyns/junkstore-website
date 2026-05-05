@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "5 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "7 Hours"
+hltb_url: "https://howlongtobeat.com/game/29029"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/bundles/trine-classic-collection"
 protondb_url: "https://www.protondb.com/app/319910"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trine_3:_The_Artifacts_of_Power"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 68
+metacritic_url: "https://www.metacritic.com/game/trine-3-the-artifacts-of-power/"
 
 # Notes
 notes: "Works out of the box!"

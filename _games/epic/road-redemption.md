@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "5½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "38 Hours"
+hltb_url: "https://howlongtobeat.com/game/21481"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/road-redemption-ce16fb"
 protondb_url: "https://www.protondb.com/app/300380"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Road_Redemption"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 70
+metacritic_url: "https://www.metacritic.com/game/road-redemption/"
 
 # Notes
 notes: "Works out of the box!"

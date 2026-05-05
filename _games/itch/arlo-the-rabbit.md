@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "36 Mins"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "1½ Hours"
+hltb_url: "https://howlongtobeat.com/game/68409"
 
 # Links
 store_url: "https://famicam.itch.io/arlo-the-rabbit"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/854450"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Arlo_The_Rabbit"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/arlo-the-rabbit/"
 
 # Notes
 notes: "Works out of the box!"

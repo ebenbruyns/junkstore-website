@@ -56,15 +56,15 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/114461"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ghostbusters-spirits-unleashed"
 protondb_url: "https://www.protondb.com/app/2383990"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghostbusters%3A_Spirits_Unleashed"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 68
+metacritic_url: "https://www.metacritic.com/game/ghostbusters-spirits-unleashed/"
 
 # Notes
 notes: "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Needs C++ runtime."

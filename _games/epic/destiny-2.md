@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/destiny-2"
 protondb_url: "https://www.protondb.com/app/1085660"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Destiny_2"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/destiny-2/"
 
 # Notes
 notes: Imported from library - not yet tested

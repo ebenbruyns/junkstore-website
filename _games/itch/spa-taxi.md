@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "3 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "--"
+hltb_url: "https://howlongtobeat.com/game/105213"
 
 # Links
 store_url: "https://scanix.itch.io/spasstaxi"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1206770"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Spa%C3%9F_Taxi"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/spa-taxi/"
 
 # Notes
 notes: "Works out of the box! May want to adjust scaling which you can do in game."

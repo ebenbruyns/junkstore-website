@@ -68,7 +68,7 @@ metacritic_url: "https://www.metacritic.com/game/pc/fall-guys-ultimate-knockout?
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. \nInstall the easy anti cheat runtime from the 'About' section- (make sure you are installing it to the SSD not the micro SD card)"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

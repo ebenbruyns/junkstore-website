@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "5½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "6½ Hours"
+hltb_url: "https://howlongtobeat.com/game/115708"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/doors-paradox-5896c7"
@@ -64,11 +64,11 @@ protondb_url: "https://www.protondb.com/app/1622770"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doors%3A_Paradox"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/doors-paradox/"
 
 # Notes
 notes: "Works out of the box, change controller layout to Keyboard & mouse."
-controller_config: "Keyboard & Mouse"
+controller_config: 
 performance_notes: 
 known_issues: 
 

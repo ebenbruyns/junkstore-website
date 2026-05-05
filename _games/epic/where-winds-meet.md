@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "34½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "144 Hours"
+hltb_url: "https://howlongtobeat.com/game/112678"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/where-winds-meet-58a176"
 protondb_url: "https://www.protondb.com/app/3564740"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Where_Winds_Meet"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/where-winds-meet/"
 
 # Notes
 notes: "Works out of the box!<br> Make sure you launch first time in **Desktop/Big Picture Mode** to accept the EULA otherwise game will crash in gamemode."

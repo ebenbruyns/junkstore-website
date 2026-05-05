@@ -28,9 +28,9 @@ was_free_before: false
 giveaway_events: []
 
 # Images
-banner_image: ""
+banner_image: "https://cdn2.steamgriddb.com/thumb/4b600534f2ffbe3b8d278e107deddd4a.jpg"
 cover_image: "https://images.gog.com/1b2337f98e9c9319e1b44872aed528d398aaf1db7e5641caa34e7e2fb496c781.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn2.steamgriddb.com/icon/306ee6a27d95b01dd69ee72920cf25ed/24/256x256.png"
 
 # Technical Details
 controller_input: "native"
@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "--"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "--"
+hltb_url: "https://howlongtobeat.com/game/93198"
 
 # Links
 store_url: "https://e1sif.itch.io/arachnowopunk"

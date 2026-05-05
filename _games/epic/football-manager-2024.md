@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/football-manager-2024"
 protondb_url: "https://www.protondb.com/app/2252570"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Football_Manager_2024"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/football-manager-2024/"
 
 # Notes
 notes: Requires manual controller/key mapping.

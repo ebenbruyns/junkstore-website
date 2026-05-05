@@ -59,7 +59,7 @@ hltb_completionist: "19 hrs"
 hltb_url: "https://howlongtobeat.com/game/29142"
 
 # Links
-store_url: ""
+store_url: "https://midboss.itch.io/rom"
 protondb_url: "https://www.protondb.com/app/330820"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/2064:_Read_Only_Memories"

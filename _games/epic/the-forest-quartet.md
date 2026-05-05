@@ -59,16 +59,16 @@ hltb_completionist: "1.5 hrs"
 hltb_url: "https://howlongtobeat.com/game/118257"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/the-forest-quartet"
+store_url: "https://store.epicgames.com/en-US/p/forest-quartet-5d03e3"
 protondb_url: "https://www.protondb.com/app/1620720"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Forest_Quartet"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/the-forest-quartet/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

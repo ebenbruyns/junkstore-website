@@ -53,13 +53,13 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "19 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "47 Hours"
+hltb_url: "https://howlongtobeat.com/game/62616"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/warhammer-40-000-mechanicus"
+store_url: "https://store.epicgames.com/en-US/p/warhammer-mechanicus-0e4b71"
 protondb_url: "https://www.protondb.com/app/673880"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warhammer_40%2C000%3A_Mechanicus"
@@ -68,7 +68,7 @@ metacritic_url: "https://www.metacritic.com/game/pc/warhammer-40000-mechanicus?f
 
 # Notes
 notes: "You need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

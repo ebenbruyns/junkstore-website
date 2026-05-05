@@ -68,7 +68,7 @@ metacritic_url: "https://www.metacritic.com/game/pc/killing-floor-2?ftag=MCD-06-
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Multiplayer not supported due to anti-cheat."
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

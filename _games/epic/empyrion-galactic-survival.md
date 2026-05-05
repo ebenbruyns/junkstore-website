@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "60 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "--"
+hltb_url: "https://howlongtobeat.com/game/29056"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/empyrion-galactic-survival-fbd99f"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/383120"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Empyrion_-_Galactic_Survival"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/empyrion-galactic-survival/"
 
 # Notes
 notes: Multiplayer is broken even with EAC enabled, need to change controller setup.

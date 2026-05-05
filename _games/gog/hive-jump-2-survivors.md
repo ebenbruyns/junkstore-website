@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "--"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "23½ Hours"
+hltb_url: "https://howlongtobeat.com/game/157669"
 
 # Links
 store_url: "https://www.gog.com/en/game/hive_jump_2_survivors"
@@ -68,7 +68,7 @@ metacritic_url: "https://www.metacritic.com/game/pc/hive-jump-2-survivors?ftag=M
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

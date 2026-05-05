@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "11½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "21 Hours"
+hltb_url: "https://howlongtobeat.com/game/10469"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tomb-raider"
@@ -68,7 +68,7 @@ metacritic_url: "https://www.metacritic.com/game/pc/shadow-of-the-tomb-raider?ft
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account."
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

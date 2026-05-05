@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-04-27T05:24:25.263Z",
+  "generated_at": "2026-05-05T21:26:38.762Z",
   "games": [
     {
       "store": "epic",
+      "slug": "hogwarts-legacy",
+      "featured_in": "2026-05-05",
+      "post_url": "/blog/games-tested-may-05/",
+      "title": "Hogwarts Legacy",
+      "standalone_rating": "green",
+      "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/990080/capsule_231x87.jpg",
+      "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/990080/library_600x900.jpg"
+    },
+    {
+      "store": "epic",
+      "slug": "oddsparks-an-automation-adventure",
+      "featured_in": "2026-05-05",
+      "post_url": "/blog/games-tested-may-05/",
+      "title": "Oddsparks: An Automation Adventure",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/575e2f2892626c038e7a544f81d33756c9300e7485c909e1047d199654dc0d66.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/43acd700c002a17a40c6b6866738e27c7c28cbb19e5bcddd7e4219a036768e99.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "kinnikuneko-super-muscle-cat",
+      "featured_in": "2026-05-05",
+      "post_url": "/blog/games-tested-may-05/",
+      "title": "KinnikuNeko: Super Muscle Cat",
+      "standalone_rating": "green",
+      "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332950/capsule_184x69.jpg?t=1749585009",
+      "vertical_artwork": "https://images.gog.com/e9a4a5a394252a881adb185b7666b2e9dcdd0e4b562032433230724be5f8f792.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "pinball-spire",
+      "featured_in": "2026-05-05",
+      "post_url": "/blog/games-tested-may-05/",
+      "title": "Pinball Spire",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/1b1f8b051c15fa2a9d216c7ea1cc0c1adda9098c491ab53b92182785d48fe9ed.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/767fc40365561f765f40f9bafe1a62c6d5e2df6126d18006b2d04c06a40f4e46.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
       "slug": "doomblade",
-      "featured_in": "2026-04-26",
-      "post_url": "/blog/games-tested-apr-26/",
+      "featured_in": "2026-04-30",
+      "post_url": "/blog/games-tested-apr-30/",
       "title": "DOOMBLADE",
       "standalone_rating": "green",
       "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/922050/capsule_184x69.jpg?t=1762953800",
@@ -14,8 +54,8 @@
     {
       "store": "gog",
       "slug": "the-pale-beyond",
-      "featured_in": "2026-04-26",
-      "post_url": "/blog/games-tested-apr-26/",
+      "featured_in": "2026-04-30",
+      "post_url": "/blog/games-tested-apr-30/",
       "title": "The Pale Beyond",
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/feffd491f055a0bcdf9972876ee07f1bdbc31d5b904b8468170169fd5c6838d4.jpg?namespace=gamesdb",
@@ -24,8 +64,8 @@
     {
       "store": "gog",
       "slug": "neo-cab",
-      "featured_in": "2026-04-26",
-      "post_url": "/blog/games-tested-apr-26/",
+      "featured_in": "2026-04-30",
+      "post_url": "/blog/games-tested-apr-30/",
       "title": "Neo Cab",
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/f1f0e2bfeefc84be76886c4c478afa6362fbb7bc970d783c92b2ebf26d4ad793.jpg?namespace=gamesdb",
@@ -34,8 +74,8 @@
     {
       "store": "gog",
       "slug": "the-whispering-valley",
-      "featured_in": "2026-04-26",
-      "post_url": "/blog/games-tested-apr-26/",
+      "featured_in": "2026-04-30",
+      "post_url": "/blog/games-tested-apr-30/",
       "title": "The Whispering Valley",
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/3feed2c9964ff4e7f34b4fb7f78b31f152794aef0b17cfbd5c9e24509b97ed70.jpg?namespace=gamesdb",

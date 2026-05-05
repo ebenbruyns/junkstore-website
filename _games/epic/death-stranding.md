@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "40½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "113 Hours"
+hltb_url: "https://howlongtobeat.com/game/38061"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/death-stranding"
@@ -68,7 +68,7 @@ metacritic_url: "https://www.metacritic.com/game/pc/death-stranding-directors-cu
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

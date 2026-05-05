@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-04-27T03:37:29.342Z",
+  "last_updated": "2026-05-05T00:20:18.761Z",
   "total_tested_games": 993,
   "featured_games": 4,
   "storefronts": {
     "Epic": {
-      "total": 473,
-      "featured": 1,
+      "total": 474,
+      "featured": 3,
       "directory": "epic"
     },
     "GOG": {
       "total": 375,
-      "featured": 3,
+      "featured": 1,
       "directory": "gog"
     },
     "Amazon": {
@@ -19,91 +19,91 @@
       "directory": "amazon"
     },
     "itch.io": {
-      "total": 72,
+      "total": 71,
       "featured": 0,
       "directory": "itch.io"
     }
   },
   "recent_updates": [
     {
-      "title": "The Pale Beyond",
+      "title": "Pinball Spire",
       "storefront": "GOG",
-      "slug": "the-pale-beyond",
-      "date_tested": "April '26",
+      "slug": "pinball-spire",
+      "date_tested": "May '26",
       "is_featured": true,
-      "updated_at": "2026-04-27T02:02:18.909Z"
+      "updated_at": "2026-05-05T00:16:21.495Z"
     },
     {
-      "title": "Mortal Kombat Trilogy",
-      "storefront": "GOG",
-      "slug": "mortal-kombat-trilogy",
-      "date_tested": "Oct '24",
-      "is_featured": false,
-      "updated_at": "2026-04-27T01:26:26.428Z"
+      "title": "Oddsparks: An Automation Adventure",
+      "storefront": "Epic",
+      "slug": "oddsparks-an-automation-adventure",
+      "date_tested": "May '26",
+      "is_featured": true,
+      "updated_at": "2026-05-04T23:14:23.385Z"
     },
     {
-      "title": "Dino Crisis Bundle",
-      "storefront": "GOG",
-      "slug": "dino-crisis-bundle",
-      "date_tested": "April '25",
-      "is_featured": false,
-      "updated_at": "2026-04-27T01:26:01.024Z"
+      "title": "KinnikuNeko: Super Muscle Cat",
+      "storefront": "Epic",
+      "slug": "kinnikuneko-super-muscle-cat",
+      "date_tested": "May '26",
+      "is_featured": true,
+      "updated_at": "2026-05-04T22:11:20.559Z"
     },
     {
-      "title": "Sin Slayers: The First Sin",
-      "storefront": "GOG",
-      "slug": "sin-slayers-the-first-sin",
-      "date_tested": "April '25",
+      "title": "10 Flights of Ballooning",
+      "storefront": "itch.io",
+      "slug": "10-flights-of-ballooning",
+      "date_tested": "Aug '25",
       "is_featured": false,
-      "updated_at": "2026-04-27T01:25:59.443Z"
+      "updated_at": "2026-05-04T21:39:22.081Z"
     },
     {
-      "title": "STAR WARS™ Jedi Knight: Mysteries of the Sith",
+      "title": "JDM: Rise of the Scorpion",
       "storefront": "GOG",
-      "slug": "star-wars-jedi-knight-mysteries-of-the-sith",
-      "date_tested": "July '25",
+      "slug": "jdm-rise-of-the-scorpion",
+      "date_tested": "Feb '26",
       "is_featured": false,
-      "updated_at": "2026-04-27T01:25:56.452Z"
+      "updated_at": "2026-05-04T21:39:12.579Z"
     },
     {
-      "title": "Neverwinter Nights: Diamond",
+      "title": "Akalabeth: World of Doom",
       "storefront": "GOG",
-      "slug": "neverwinter-nights-diamond",
-      "date_tested": "Dec '24",
+      "slug": "akalabeth-world-of-doom",
+      "date_tested": "Dec '25",
       "is_featured": false,
-      "updated_at": "2026-04-27T01:25:53.894Z"
+      "updated_at": "2026-05-04T21:39:09.750Z"
     },
     {
-      "title": "Medal of Honor: Allied Assault War Chest",
-      "storefront": "GOG",
-      "slug": "medal-of-honor-allied-assault-war-chest",
-      "date_tested": "March '25",
+      "title": "Wuthering Waves",
+      "storefront": "Epic",
+      "slug": "wuthering-waves",
+      "date_tested": "",
       "is_featured": false,
-      "updated_at": "2026-04-27T01:25:51.326Z"
+      "updated_at": "2026-05-04T21:39:06.894Z"
     },
     {
-      "title": "Gex",
-      "storefront": "GOG",
-      "slug": "gex",
-      "date_tested": "March '25",
+      "title": "Star Stable Online",
+      "storefront": "Epic",
+      "slug": "star-stable-online",
+      "date_tested": "Oct '25",
       "is_featured": false,
-      "updated_at": "2026-04-27T01:25:48.822Z"
+      "updated_at": "2026-05-04T21:39:02.935Z"
     },
     {
-      "title": "Doomdark's Revenge",
-      "storefront": "GOG",
-      "slug": "doomdarks-revenge",
-      "date_tested": "April '25",
+      "title": "PUBG: Battlegrounds",
+      "storefront": "Epic",
+      "slug": "pubg-battlegrounds",
+      "date_tested": "",
       "is_featured": false,
-      "updated_at": "2026-04-27T01:25:46.248Z"
+      "updated_at": "2026-05-04T21:39:00.387Z"
     },
     {
-      "title": "Blood Omen: Legacy of Kain",
-      "storefront": "GOG",
-      "slug": "blood-omen-legacy-of-kain",
-      "date_tested": "April '25",
+      "title": "OverTrip",
+      "storefront": "Epic",
+      "slug": "overtrip",
+      "date_tested": "Dec '25",
       "is_featured": false,
-      "updated_at": "2026-04-27T01:25:43.162Z"
+      "updated_at": "2026-05-04T21:38:57.617Z"
     }
   ]
 }

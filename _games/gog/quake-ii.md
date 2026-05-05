@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "7½ Hours"
+hltb_main_extra: "10 Hours"
+hltb_completionist: "14 Hours"
+hltb_url: "https://howlongtobeat.com/game/7455"
 
 # Links
 store_url: "https://www.gog.com/en/game/quake_ii"
@@ -64,11 +64,11 @@ protondb_url: "https://www.protondb.com/app/2320"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Quake_II"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/quake-ii/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

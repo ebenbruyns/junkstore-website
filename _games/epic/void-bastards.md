@@ -68,7 +68,7 @@ metacritic_url: "https://www.metacritic.com/game/pc/void-bastards?ftag=MCD-06-10
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

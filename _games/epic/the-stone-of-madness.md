@@ -24,8 +24,8 @@ game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain*","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Traditional Chinese*languages with full audio support"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"9549","name":"Controller Support"}]
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"id":"epic_3d11f228c8a442318bc17abf13f7db3b","start":"2026-04-22T14:18:12.000Z","end":"2026-04-23T15:00:00.000Z","type":null}]
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-11a59.jpg"
@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "26½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "--"
+hltb_url: "https://howlongtobeat.com/game/124067"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-stone-of-madness-7b22f3"
 protondb_url: "https://www.protondb.com/app/1309710"
 protondb_report_url: "https://www.protondb.com/app/1309710#5Pr0WIj8A8"
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Stone_of_Madness"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/the-stone-of-madness/"
 
 # Notes
 notes: "Works out of the box!"

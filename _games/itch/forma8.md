@@ -28,7 +28,7 @@ was_free_before: false
 giveaway_events: []
 
 # Images
-banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/510240/library_hero.jpg"
+banner_image: "https://cdn2.steamgriddb.com/hero_thumb/4a7ad6a4dfd49733209e941c61ee6524.jpg"
 cover_image: "https://images.gog.com/264596cde05b387c14fb208b70c4622b5c7097221354eaff2eed981cf95f9ae9.jpg?namespace=gamesdb"
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/510240/capsule_231x87.jpg"
 
@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "7 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "9½ Hours"
+hltb_url: "https://howlongtobeat.com/game/44235"
 
 # Links
 store_url: "https://mixedbaggames.itch.io/forma8"
 protondb_url: "https://www.protondb.com/app/510240"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Forma.8"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/forma8/"
 
 # Notes
 notes: 

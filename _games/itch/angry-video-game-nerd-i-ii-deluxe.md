@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "4½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "12½ Hours"
+hltb_url: "https://howlongtobeat.com/game/84577"
 
 # Links
 store_url: "https://jhm28mario.itch.io/avgn-the-game"
 protondb_url: "https://www.protondb.com/app/1162960"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Angry_Video_Game_Nerd_I_%26_II_Deluxe"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/angry-video-game-nerd-i-and-ii-deluxe/"
 
 # Notes
 notes: "Works out of the box!"

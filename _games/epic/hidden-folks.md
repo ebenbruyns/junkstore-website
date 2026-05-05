@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "3½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "7½ Hours"
+hltb_url: "https://howlongtobeat.com/game/43852"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/hidden-folks-239d16"
 protondb_url: "https://www.protondb.com/app/435400"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hidden_Folks"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/hidden-folks/"
 
 # Notes
 notes: "Works out of the box!"

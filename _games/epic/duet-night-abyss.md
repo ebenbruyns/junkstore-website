@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "6 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "--"
+hltb_url: "https://howlongtobeat.com/game/139460"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/duetnightabyss-016366"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/3950020"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Duet_Night_Abyss"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/duet-night-abyss/"
 
 # Notes
 notes: "Once everything is installed and downloaded it works out of the box!\n\n**Note:** You need to make sure you have the correct account selected in order to successfully login. I had a few login failed until I saw the account icon on the right side of the screen and made sure I had an account selected. You may only have this issue if you have logged on from a different device previously."

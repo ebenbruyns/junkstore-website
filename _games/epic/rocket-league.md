@@ -10,7 +10,7 @@ permalink: /games/epic/rocket-league/
 # Compatibility
 decky_rating: "green"
 standalone_rating: "green"
-date_tested: "July '25"
+date_tested: "May '26"
 proton_version: ""
 
 # Game Info
@@ -48,7 +48,7 @@ epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
-requires_eac_runtime: false
+requires_eac_runtime: true
 requires_battleye_runtime: false
 cant_test_linux: false
 
@@ -68,7 +68,7 @@ metacritic_url: "https://www.metacritic.com/game/pc/rocket-league?ftag=MCD-06-10
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

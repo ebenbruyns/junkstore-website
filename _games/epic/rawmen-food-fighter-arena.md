@@ -56,7 +56,7 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/68374"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rawmen-03f74e"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/782940"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/RAWMEN"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/rawmen-food-fighter-arena/"
 
 # Notes
 notes: "Works out of the box!"

@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "1 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "2 Hours"
+hltb_url: "https://howlongtobeat.com/game/104506"
 
 # Links
 store_url: "https://twoandahalfstudios.itch.io/amelie"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1835810"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amelie"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/amelie/"
 
 # Notes
 notes: "Works out of the box. You may need to reset launch options if it doesn't launch first go."

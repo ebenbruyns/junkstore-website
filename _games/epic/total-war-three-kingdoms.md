@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "46 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "673 Hours"
+hltb_url: "https://howlongtobeat.com/game/53677"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/total-war-three-kingdoms-d3bb7a"

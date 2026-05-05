@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "14 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "19½ Hours"
+hltb_url: "https://howlongtobeat.com/game/76551"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/windbound"
 protondb_url: "https://www.protondb.com/app/1162130"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Windbound"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 64
+metacritic_url: "https://www.metacritic.com/game/windbound-2020/"
 
 # Notes
 notes: "Works out of the box!"

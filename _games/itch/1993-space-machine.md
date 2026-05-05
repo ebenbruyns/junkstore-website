@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "2½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "6 Hours"
+hltb_url: "https://howlongtobeat.com/game/37158"
 
 # Links
 store_url: "https://aurora-punks.itch.io/1993-space-machine"
@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/373480"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/1993_Space_Machine"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/1993-space-machine/"
 
 # Notes
 notes: "Works out of the box!"

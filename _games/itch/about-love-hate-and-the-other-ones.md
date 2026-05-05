@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "5½ Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "6 Hours"
+hltb_url: "https://howlongtobeat.com/game/23046"
 
 # Links
 store_url: "https://blackpants.itch.io/about-love-hate-and-the-other-ones"
 protondb_url: "https://www.protondb.com/app/277680"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/About_Love,_Hate_and_the_other_ones"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/about-love-hate-and-the-other-ones/"
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."

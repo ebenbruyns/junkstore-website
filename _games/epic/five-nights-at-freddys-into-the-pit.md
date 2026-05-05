@@ -53,18 +53,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "4 Hours"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "16½ Hours"
+hltb_url: "https://howlongtobeat.com/game/151788"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/five-nights-at-freddys-into-the-pit-99c563"
 protondb_url: "https://www.protondb.com/app/2638370"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Five_Nights_at_Freddy%27s%3A_Into_the_Pit"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 87
+metacritic_url: "https://www.metacritic.com/game/five-nights-at-freddys-into-the-pit/"
 
 # Notes
 notes: "Works out of the box!"

@@ -14,8 +14,8 @@ date_tested: "N/A"
 proton_version: ""
 
 # Game Info
-publisher: Riot Games, Inc.  
-developer: Riot Games, Inc.  
+publisher: Riot Games, Inc.
+developer: Riot Games, Inc.
 genre: Action, Shooter
 franchise: 
 age_rating_summary: ESRB Teen

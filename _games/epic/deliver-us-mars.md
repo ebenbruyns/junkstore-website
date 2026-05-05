@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/deliver-us-mars"
 protondb_url: "https://www.protondb.com/app/1345890"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deliver_Us_Mars"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/deliver-us-mars/"
 
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Needs C++ Runtime, otherwise no extra setup required."

@@ -63,12 +63,12 @@ store_url: "https://store.epicgames.com/en-US/p/tales-from-the-borderlands"
 protondb_url: "https://www.protondb.com/app/330830"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tales_from_the_Borderlands"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/tales-from-the-borderlands-a-telltale-game-series/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

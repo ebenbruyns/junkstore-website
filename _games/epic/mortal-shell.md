@@ -15,7 +15,7 @@ proton_version: ""
 
 # Game Info
 publisher: Playstack Ltd
-developer: Cold Symmetry 
+developer: Cold Symmetry
 genre: Indie, RPG
 franchise: 
 age_rating_summary: 
@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/mortal-shell"
 protondb_url: "https://www.protondb.com/app/1110910"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mortal_Shell"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/mortal-shell/"
 
 # Notes
 notes: "Works out of the box!"

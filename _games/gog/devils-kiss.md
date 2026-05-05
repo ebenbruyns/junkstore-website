@@ -53,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "21 Mins"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "27 Mins"
+hltb_url: "https://howlongtobeat.com/game/75707"
 
 # Links
 store_url: "https://www.gog.com/en/game/devils_kiss"
@@ -64,11 +64,11 @@ protondb_url: "https://www.protondb.com/app/1213550"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Devil%27s_Kiss"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/devils-kiss/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 
