@@ -1,6 +1,7 @@
 ---
 layout: none
 permalink: /2.0faq/
+sitemap: false
 ---
 <!DOCTYPE html>
 <html>

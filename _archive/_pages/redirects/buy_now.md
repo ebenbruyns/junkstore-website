@@ -1,6 +1,7 @@
 ---
 layout: none
 permalink: /buy_now/
+sitemap: false
 ---
 <!DOCTYPE html>
 <html>

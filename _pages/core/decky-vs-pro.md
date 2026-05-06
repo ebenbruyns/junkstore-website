@@ -3,6 +3,10 @@ layout: junkstore-splash
 title: "Decky Plugin vs Junk Store Pro"
 description: "Complete feature-by-feature comparison between the free Junk Store Decky plugin and Junk Store Pro. See exactly what you get when you upgrade."
 permalink: /decky-vs-pro/
+redirect_from:
+  - /posts/f-how-is-junk-store-different-from-other-solutions/
+  - /posts/how-is-junk-store-different-from-other-solutions/
+  - /comparison/
 excerpt: "Every feature, side by side. See exactly what Pro unlocks for your Steam Deck."
 ---
 {% include content-schema.html type="software" %}

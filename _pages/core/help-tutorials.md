@@ -4,6 +4,9 @@ title: "Junk Store Tutorials — Step-by-Step Guides for Steam Deck"
 hero_title: "Junk Store Tutorials"
 description: "Step-by-step setup tutorials for Junk Store on Steam Deck — Decky Plugin install, Pro install, GOG Extension setup, OAuth login, Proton versions, Wine Cellar, frame generation, language settings, Ubisoft games, and more."
 permalink: /help/tutorials/
+redirect_from:
+  - /2.0tutorials/
+  - /tutorials/
 excerpt: " "
 ---
 {% include help/nav-tabs.html active="tutorials" counter_label="tutorials" search_placeholder="Search tutorials..." %}

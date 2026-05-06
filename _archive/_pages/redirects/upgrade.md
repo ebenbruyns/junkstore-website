@@ -1,6 +1,7 @@
 ---
 layout: none
 permalink: /upgrade/
+sitemap: false
 ---
 <!DOCTYPE html>
 <html>

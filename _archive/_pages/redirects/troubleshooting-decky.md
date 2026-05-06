@@ -1,6 +1,7 @@
 ---
 layout: none
 permalink: /troubleshooting/decky/
+sitemap: false
 ---
 <!DOCTYPE html>
 <html>

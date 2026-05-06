@@ -4,6 +4,8 @@ title: "How to Change Game Language Settings"
 description: "Change game language settings on Steam Deck without Desktop Mode. Set your preferred language for Epic, GOG, or Amazon games directly in Junk Store."
 excerpt: "Set your preferred language for Epic, GOG, or Amazon games directly in Game Mode"
 permalink: /tutorials/change-game-language/
+redirect_from:
+  - /posts/m-how-to-change-global-language-settings-for-epic/
 ---
 {% include content-schema.html type="tutorial" id="change-game-language" %}
 

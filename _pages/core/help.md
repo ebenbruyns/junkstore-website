@@ -4,6 +4,12 @@ title: "Junk Store Help — Steam Deck Non-Steam Gaming Help Hub"
 hero_title: "Junk Store Help"
 description: "Help hub for Junk Store on Steam Deck. Find frequently asked questions, troubleshooting fixes for game issues, quick tips for managing games, and step-by-step setup tutorials."
 permalink: /help/
+redirect_from:
+  - /posts/d-wiki-resource/
+  - /2.0-hub/
+  - /deckyhelp/
+  - /deckyhub/
+  - /plugin/
 excerpt: " "
 ---
 <!-- Help hub — landing page that points users to the four detail sections.

@@ -4,6 +4,9 @@ title: "Junk Store FAQ — Steam Deck Non-Steam Gaming Questions Answered"
 hero_title: "Junk Store FAQ"
 description: "Frequently asked questions about Junk Store on Steam Deck. Covers Epic Games, GOG, Amazon Prime Gaming and itch integration, pricing, the free trial, Decky Plugin vs Pro Version differences, anti-cheat, and game compatibility."
 permalink: /help/faq/
+redirect_from:
+  - /2.0faq/
+  - /faq/decky/
 excerpt: " "
 ---
 {% include content-schema.html type="faq" %}

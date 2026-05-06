@@ -3,6 +3,9 @@ layout: junkstore-splash
 title: "Taking You to the Junk Store Portal"
 description: "You're about to access the Junk Store Portal to start your free trial."
 permalink: /portal-redirect/
+redirect_from:
+  - /buy_now/
+  - /upgrade/
 excerpt: "You'll be redirected automatically, or click Continue to go now"
 sitemap: false
 ---

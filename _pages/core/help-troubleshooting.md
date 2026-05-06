@@ -4,6 +4,9 @@ title: "Junk Store Troubleshooting — Fix Steam Deck Game Issues"
 hero_title: "Junk Store Troubleshooting"
 description: "Fix common Junk Store and Steam Deck issues — installation errors, game launch failures, library not showing, controller problems, anti-cheat kicks, EAC and BattlEye runtime, network and OAuth login problems."
 permalink: /help/troubleshooting/
+redirect_from:
+  - /2.0troubleshooting/
+  - /troubleshooting/decky/
 excerpt: " "
 ---
 {% include content-schema.html type="troubleshooting" %}

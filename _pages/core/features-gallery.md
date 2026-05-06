@@ -4,6 +4,8 @@ title: "Junk Store Pro Gallery: Steam Deck Game Mode Demos"
 hero_title: "Junk Store Pro Gallery"
 description: "See Junk Store Pro in action on Steam Deck. Download queue, language selection, dependency installs and more — all from Game Mode."
 permalink: /features/gallery/
+redirect_from:
+  - /gallery/
 classes: wide
 excerpt: "See Junk Store Pro running in Game Mode — short demos, no Desktop Mode required"
 ---

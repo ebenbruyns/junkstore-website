@@ -1,6 +1,7 @@
 ---
 layout: none
 permalink: /plugin/
+sitemap: false
 ---
 <!DOCTYPE html>
 <html>

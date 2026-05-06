@@ -24,6 +24,7 @@ plugins:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-minifier
+  - jekyll-redirect-from
 
 # Minifier only runs in JEKYLL_ENV=production builds. Local `jekyll serve`
 # stays unminified for easier debugging. CI workflow sets JEKYLL_ENV=production.
