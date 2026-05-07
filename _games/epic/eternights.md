@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/eternights-c2fbca"
 protondb_url: "https://www.protondb.com/app/1402110"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Eternights"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 68
+metacritic_url: "https://www.metacritic.com/game/eternights/"
 
 # Notes
 notes: "Works out of the box!"

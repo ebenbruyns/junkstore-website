@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/freshly-frosted-c636d0"
 protondb_url: "https://www.protondb.com/app/1070790"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Freshly_Frosted"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/freshly-frosted/"
 
 # Notes
 notes: "Works out of the box!"

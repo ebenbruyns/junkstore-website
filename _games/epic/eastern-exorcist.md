@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/eastern-exorcist-d49923"
 protondb_url: "https://www.protondb.com/app/1120810"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Eastern_Exorcist"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/eastern-exorcist/"
 
 # Notes
 notes: "Works out of the box!"

@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/guacamelee-stce-7cdbc8"
 protondb_url: "https://www.protondb.com/app/275390"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Guacamelee%21_Super_Turbo_Championship_Edition"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 87
+metacritic_url: "https://www.metacritic.com/game/guacamelee-super-turbo-championship-edition/"
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account, may need to be done in desktop/BPM."

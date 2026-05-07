@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/hot-wheels-unleashed"
 protondb_url: "https://www.protondb.com/app/1271700"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hot_Wheels_Unleashed"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/hot-wheels-unleashed/"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency."

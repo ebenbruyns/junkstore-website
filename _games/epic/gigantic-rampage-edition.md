@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/gigantic-rampage-edition-03f532"
 protondb_url: "https://www.protondb.com/app/1924490"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gigantic%3A_Rampage_Edition"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 65
+metacritic_url: "https://www.metacritic.com/game/gigantic-rampage-edition/"
 
 # Notes
 notes: "Works out of the box!"

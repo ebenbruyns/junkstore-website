@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/godlike-burger-4150a0"
 protondb_url: "https://www.protondb.com/app/1432910"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Godlike_Burger"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 60
+metacritic_url: "https://www.metacritic.com/game/godlike-burger/"
 
 # Notes
 notes: "Works out of the box!"
