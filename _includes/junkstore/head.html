@@ -32,9 +32,11 @@ body{margin:0;padding:0;color:#e8e8e8;font-family:"Roboto","Roboto Fallback",-ap
 <!-- Junkstore layout styles -->
 <link rel="stylesheet" href="{{ '/assets/css/junkstore.css' | relative_url }}">
 
-<!-- Hero image preload -->
+<!-- Hero image preload — preloads page-specific overlay_image if set, otherwise the default site hero on splash layouts (homepage + storefront landing pages). The default hero is rendered as a CSS background-image (per _includes/junkstore/hero.html) so fetchpriority can't be set on an <img> — preload is the only way. Was contributing ~760ms LCP delay on the homepage. -->
 {% if page.header.overlay_image %}
 <link rel="preload" as="image" href="{{ page.header.overlay_image | relative_url }}" fetchpriority="high">
+{% elsif page.layout == 'junkstore-splash' %}
+<link rel="preload" as="image" href="{{ '/assets/images/site/js-steamdeck-hero-lighter.webp' | relative_url }}" fetchpriority="high">
 {% endif %}
 
 <!-- Font Awesome -->
