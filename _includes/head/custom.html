@@ -26,9 +26,10 @@
      the right line-height/cap-height. When GF Roboto swaps in, no layout
      shift. Standard Capsize-derived overrides. -->
 <style>
-@font-face { font-family: 'Font Awesome 6 Free'; font-display: swap; }
-@font-face { font-family: 'Font Awesome 6 Brands'; font-display: swap; }
-@font-face { font-family: 'Roboto'; font-display: swap; }
+/* Capsize-derived metric-override fallback for Roboto. Aliases local
+   Arial bytes but with metrics adjusted to match Roboto so line-height
+   and cap-height match before Roboto swaps in. Must sit BEFORE the
+   system fonts in the font-family stack to be selected on first paint. */
 @font-face {
   font-family: 'Roboto Fallback';
   src: local('Arial'), local('Helvetica'), local('Liberation Sans'), local('Nimbus Sans');
@@ -77,6 +78,30 @@
   .cc-allow { background: #f1d600 !important; color: #000 !important; }
   .cc-deny { background: #666 !important; color: #fff !important; }
   .cc-link { color: #f1d600 !important; text-decoration: underline !important; }
+
+  /* Promo banner — reserve sizing in head so the banner renders at
+     correct dimensions on first paint. Without this, the banner element
+     parses before its own <style> in promo-banner.html (since both live
+     in body), so it briefly renders as a default <div> (no padding,
+     ~32px tall) then reflows to ~76px when the inline <style> parses,
+     pushing all body content down ~44px. Full styling (gradient, etc.)
+     stays in the include — only the dimension-affecting rules are here. */
+  .promo-banner {
+    padding: 1.1rem 1.5rem;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #00adb5;
+  }
+  @media (max-width: 600px) {
+    .promo-banner {
+      font-size: 1rem;
+      padding: 0.9rem 2.5rem 0.9rem 1rem;
+    }
+  }
 
   /* Critical hero height — inlined so the splash hero reserves its
      final dimensions at first paint, before the async-loaded main.css
