@@ -202,7 +202,11 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
   line-height: 1.5;
 }
 
-/* Blog post inline CTA styling */
+/* Blog post inline CTA styling.
+   Scoped to the post-article wrappers — `.js-post` covers the junkstore-post
+   layout (used by all current /blog/ posts), the older Minimal Mistakes
+   .layout--* selectors are kept as a safety net for any legacy layouts. */
+.js-post .inline-blog-cta,
 .layout--single .inline-blog-cta,
 .layout--blog .inline-blog-cta,
 .layout--post .inline-blog-cta {
@@ -214,6 +218,7 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
   border: 1px solid #3a4a5c;
 }
 
+.js-post .inline-blog-cta p,
 .layout--single .inline-blog-cta p,
 .layout--blog .inline-blog-cta p,
 .layout--post .inline-blog-cta p {
@@ -223,6 +228,7 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
 }
 
 /* Blog CTA buttons - matches global button-secondary style */
+.js-post .inline-blog-cta-button,
 .layout--single .inline-blog-cta-button,
 .layout--blog .inline-blog-cta-button,
 .layout--post .inline-blog-cta-button {
@@ -239,6 +245,9 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
   border: 1px solid #004494; /* Subtle darker border for depth */
 }
 
+.js-post .inline-blog-cta-button:hover,
+.js-post .inline-blog-cta-button:visited,
+.js-post .inline-blog-cta-button:visited:hover,
 .layout--single .inline-blog-cta-button:hover,
 .layout--single .inline-blog-cta-button:visited,
 .layout--single .inline-blog-cta-button:visited:hover,
@@ -256,6 +265,7 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
   text-decoration: none;
 }
 
+.js-post .inline-cta-subtext,
 .layout--single .inline-cta-subtext,
 .layout--blog .inline-cta-subtext,
 .layout--post .inline-cta-subtext {
