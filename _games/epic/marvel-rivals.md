@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/marvel-rivals-182004"
 protondb_url: "https://www.protondb.com/app/2767030"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Marvel_Rivals"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/marvel-rivals/"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. Install C++ runtime from sliders menu - ./dependency/VC_resist.x64.exe & set ./MarvelRivals_Launcher.exe from then sliders menue."

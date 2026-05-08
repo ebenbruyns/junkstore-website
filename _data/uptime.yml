@@ -89,7 +89,19 @@ notes:
   - id: "1778107283913"
     date: "2026-05-06T00:00:00"
     type: "client-stable"
-    text: "No issues or breakages - [Steam Client Update - May 5th](https://store.steampowered.com/news/collection/steam/?emclan=103582791457287600&emgid=673993676541657942)"
+    text: "No issues or breakages - [Steam Deck Client Update: May 5th](https://store.steampowered.com/news/collection/steam/?emclan=103582791470414830&emgid=702141174212723534)"
+  - id: "1778210886498"
+    date: "2026-05-08T00:00:00"
+    type: "stable"
+    text: "No issues or breakages - [SteamOS 3.7.23](https://store.steampowered.com/news/app/1675200/view/702141807556821894)"
+  - id: "1778210945980"
+    date: "2026-05-08T00:00:00"
+    type: "beta"
+    text: "No issues or breakages - [SteamOS 3.8.4 Beta: Second Clutch](https://store.steampowered.com/news/app/1675200/view/702141807556821896)"
+  - id: "1778229655681"
+    date: "2026-05-07T00:00:00"
+    type: "client-beta"
+    text: "No issues or breakages - [Steam Deck Beta Client Update: May 6th](https://store.steampowered.com/news/collection/steam/?emclan=103582791470414830&emgid=702141807556821762)"
 
 breakHistory:
   []

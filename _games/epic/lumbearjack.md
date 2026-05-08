@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1582290"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/LumbearJack"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/lumbearjack/"
 
 # Notes
 notes: "Works out of the box!"

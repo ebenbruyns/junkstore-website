@@ -21,7 +21,7 @@ franchise:
 age_rating_summary: ESRB 17
 release_date: "May 19, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Czech","Japanese","Polish","Portuguese - Brazil","Russian*"]
 tags_structured: []
 igdb_url: ""
 was_free_before: false
@@ -74,7 +74,7 @@ known_issues:
 
 # Meta
 database_id: "1449710114"
-is_featured: false
+is_featured: true
 owned: true
 ---
 

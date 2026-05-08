@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/islets-5f2670"
 protondb_url: "https://www.protondb.com/app/1669420"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Islets"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/islets/"
 
 # Notes
 notes: "Works out of the box!"

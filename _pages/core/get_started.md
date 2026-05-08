@@ -89,9 +89,106 @@ excerpt: "Quick start guide for Junk Store Pro - get up and running fast"
   font-size: 0.85rem;
   color: #aaa;
 }
+
+h3 {
+  color: #fd7e14;
+  border-bottom: 1px solid rgba(253, 126, 20, 0.3);
+  padding-bottom: 0.35rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.js-copy-block {
+  position: relative;
+  padding-right: 3rem;
+}
+
+.js-copy-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #555;
+  color: #fff;
+  padding: 5px 7px;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.js-copy-btn:hover {
+  background: rgba(0, 0, 0, 0.75);
+  border-color: #888;
+}
+
+.js-copy-btn svg {
+  display: block;
+}
+
+.js-copy-toast {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: #1a1f29;
+  color: #fff;
+  padding: 0.6rem 1.1rem;
+  border-radius: 6px;
+  border: 1px solid rgba(108, 180, 255, 0.4);
+  font-size: 0.9rem;
+  opacity: 0;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.js-copy-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
 </style>
 
-<h2>Installation Steps</h2>
+<h2>Quick Install (Recommended)</h2>
+
+<p>Pick whichever feels easier. Both walk you through the whole setup: log in to your portal account, choose your build branch (stable, test or beta), pick which storefront extensions you want (Epic, Amazon, GOG, itch) and which branch to use for those, then install.</p>
+
+<h3>Option 1: Double-click installer</h3>
+<ol>
+  <li><a href="https://i.junkstore.xyz/i/junkstore-installer.desktop" download>Download <code>junkstore-installer.desktop</code></a>.</li>
+  <li>Open Dolphin → Downloads and drag the file onto your Desktop.</li>
+  <li>Double-click it and follow the prompts.</li>
+</ol>
+
+<h3>Option 2: Konsole one-liner</h3>
+<ol>
+  <li>Open Konsole in Desktop Mode.</li>
+  <li>Paste this command:
+<pre class="js-copy-block"><code id="js-bootstrap-cmd">curl -fsSL https://i.junkstore.xyz/i/bootstrap.sh | bash</code><button type="button" class="js-copy-btn" onclick="jsCopyBootstrap()" title="Copy to clipboard" aria-label="Copy to clipboard"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></button></pre>
+  </li>
+  <li>Press Enter and follow the prompts.</li>
+</ol>
+
+<script>
+function jsCopyBootstrap() {
+  var cmd = document.getElementById('js-bootstrap-cmd').textContent.trim();
+  navigator.clipboard.writeText(cmd).then(function() {
+    var toast = document.createElement('div');
+    toast.className = 'js-copy-toast';
+    toast.textContent = 'Copied!';
+    document.body.appendChild(toast);
+    requestAnimationFrame(function() { toast.classList.add('show'); });
+    setTimeout(function() {
+      toast.classList.remove('show');
+      setTimeout(function() { toast.remove(); }, 300);
+    }, 1500);
+  });
+}
+</script>
+
+<h2>Installation Steps (manual)</h2>
 
 <div class="install-guide">
 <ol>

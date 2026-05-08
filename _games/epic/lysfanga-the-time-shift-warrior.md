@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/lysfanga-9608f2"
 protondb_url: "https://www.protondb.com/app/2161620"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lysfanga%3A_The_Time_Shift_Warrior"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/lysfanga-the-time-shift-warrior/"
 
 # Notes
 notes: "You need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."

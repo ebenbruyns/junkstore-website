@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/627690"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Idle_Champions_of_the_Forgotten_Realms"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/idle-champions-of-the-forgotten-realms/"
 
 # Notes
 notes: "Works out of the box!"

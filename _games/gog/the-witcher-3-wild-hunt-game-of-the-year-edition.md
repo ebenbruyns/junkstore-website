@@ -28,7 +28,7 @@ was_free_before: false
 giveaway_events: []
 
 # Images
-banner_image: "https://images.gog.com/fc1c44b2252e3200db66872630f7e21687bba217b6eabb188451556b5941cf63.jpg?namespace=gamesdb"
+banner_image: "https://images.gog.com/d4dcbad8151f8acf3d8316c82c62a9f132833d77a384c5523cac0e0bcea80f06.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/28b3ae57e6a29c5566e88503eb0cf31414d41f24c963202e2de07fd713cec72d.jpg?namespace=gamesdb"
 icon_image: ""
 

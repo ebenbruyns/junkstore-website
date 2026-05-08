@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/marvels-midnight-suns"
 protondb_url: "https://www.protondb.com/app/368260"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Marvel%27s_Midnight_Suns"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/marvels-midnight-suns/"
 
 # Notes
 notes: "Works out of the box!"

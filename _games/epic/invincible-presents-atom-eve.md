@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/atom-eve-ff090d"
 protondb_url: "https://www.protondb.com/app/2060870"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Invincible_Presents%3A_Atom_Eve"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/invincible-presents-atom-eve/"
 
 # Notes
 notes: "Works out of the box!"
