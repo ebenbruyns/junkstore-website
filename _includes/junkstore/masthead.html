@@ -6,7 +6,7 @@
       <div class="js-nav__brand">
         {% unless logo_path == empty %}
           <a href="{{ '/' | relative_url }}" class="js-nav__logo">
-            <img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}">
+            <img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}" width="87" height="55">
           </a>
         {% endunless %}
         <a href="{{ '/' | relative_url }}" class="js-nav__title">

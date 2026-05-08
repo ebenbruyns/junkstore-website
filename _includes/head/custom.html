@@ -12,9 +12,9 @@
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"></noscript>
 
-<!-- Font Awesome - deferred for performance -->
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+<!-- Font Awesome - deferred for performance. Pinned version (not @latest) so CDN edge cache and browser HTTP cache remain stable across deploys. -->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css"></noscript>
 
 <!-- Highlight.js CSS for syntax highlighting - deferred -->
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -101,6 +101,99 @@
       font-size: 1rem;
       padding: 0.9rem 2.5rem 0.9rem 1rem;
     }
+  }
+
+  /* Critical masthead/nav layout — without this, the nav <ul>/<li>
+     elements render with default list styles (vertical, bulleted,
+     padding-left: 40px) before main.css loads, making the masthead
+     briefly tall, then snapping to the flex-row layout when main.css
+     arrives. That's a ~80px+ shift on every page. Mirrors
+     _sass/junkstore/_layout.scss minimums. */
+  .js-masthead {
+    background: #252a34;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #444;
+  }
+  .js-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 0.75rem 0;
+    gap: 1rem;
+  }
+  .js-nav__brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .js-nav__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .js-nav__item { margin: 0; }
+  .js-nav__link { display: block; padding: 0.5rem 0.6rem; }
+  .js-container { max-width: 1280px; width: 98%; margin: 0 auto; padding: 0 1rem; }
+  .nav-cta-button {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 0.35rem 0.9rem;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: 0.5rem;
+  }
+  .js-nav__search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+  .js-nav__logo { display: flex; align-items: center; }
+  .js-nav__logo img { height: 55px; width: auto; max-width: none; }
+
+  /* Critical hero wrapper + title — without these, the wrapper has no
+     max-width / padding until main.css loads (deferred), so the H1
+     re-flows when main.css arrives, shifting the whole hero content
+     area. Locks layout at first paint. Mirrors hero-height-fix.scss. */
+  .js-hero--overlay .js-hero__wrapper {
+    position: relative;
+    z-index: 2;
+  }
+  .layout--splash .page__hero--overlay .wrapper,
+  .js-hero__wrapper {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+    text-align: left;
+  }
+  .layout--splash .page__hero--overlay .page__title,
+  .js-hero__title {
+    font-size: 2.25rem;
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    line-height: 1.2;
+  }
+  @media (max-width: 768px) {
+    .layout--splash .page__hero--overlay .page__title,
+    .js-hero__title { font-size: 2rem; }
+  }
+  @media (max-width: 480px) {
+    .layout--splash .page__hero--overlay .page__title,
+    .js-hero__title { font-size: 1.75rem; }
   }
 
   /* Critical hero height — inlined so the splash hero reserves its
