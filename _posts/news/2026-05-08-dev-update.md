@@ -13,7 +13,7 @@ header:
 toc: true
 ---
 
-Kia ora,
+G'day,
 
 It's been a while since I posted a dev update, I generally just get on with it. But there's enough new ground covered since the v3 release that I thought some of you would want a peek behind the curtain.
 
