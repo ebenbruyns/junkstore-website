@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1236930"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/outliver-tribulation/"
 
 # Notes
 notes: "May need to verify with Epic account before launch. Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ runtime."

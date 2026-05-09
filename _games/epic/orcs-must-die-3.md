@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/orcs-must-die-3-a7e03a"
 protondb_url: "https://www.protondb.com/app/1522820"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Orcs_Must_Die%21_3"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/orcs-must-die-3/"
 
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. Needs C++ runtime but it ships with it."

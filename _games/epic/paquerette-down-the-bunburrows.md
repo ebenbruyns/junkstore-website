@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1628610"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/paquerette-down-the-bunburrows/"
 
 # Notes
 notes: You need to verify it with your Epic account.

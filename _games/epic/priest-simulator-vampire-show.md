@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/priest-simulator-vampire-show-71
 protondb_url: "https://www.protondb.com/app/950620"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Priest_Simulator"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/priest-simulator-vampire-show/"
 
 # Notes
 notes: "Works out of the box!"

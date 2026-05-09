@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/necromunda-hired-gun"
 protondb_url: "https://www.protondb.com/app/1222370"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Necromunda%3A_Hired_Gun"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 62
+metacritic_url: "https://www.metacritic.com/game/necromunda-hired-gun/"
 
 # Notes
 notes: "Works out of the box!"

@@ -67,7 +67,7 @@ metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/mafia-ii-definitive-edition/"
 
 # Notes
-notes: "Works out of the box!"
+notes: 
 controller_config: 
 performance_notes: 
 known_issues: 
