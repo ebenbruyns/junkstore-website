@@ -10,6 +10,7 @@ redirect_from:
   - /deckyhelp/
   - /deckyhub/
   - /plugin/
+  - /old-help/
 excerpt: " "
 ---
 <!-- Help hub — landing page that points users to the four detail sections.

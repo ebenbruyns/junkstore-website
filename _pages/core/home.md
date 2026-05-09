@@ -6,6 +6,7 @@ description: "Play your Epic, GOG, Amazon Prime & itch libraries on Steam Deck â
 permalink: /
 redirect_from:
   - /posts/a-introducing-junk-store-v1-0/
+  - /home-redesign/
 classes: home
 excerpt: "All your non-Steam games in one place. No desktop mode. No multiple launchers. Just gaming."
 ---

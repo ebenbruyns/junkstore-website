@@ -7,6 +7,10 @@ permalink: /help/faq/
 redirect_from:
   - /2.0faq/
   - /faq/decky/
+  - /faq/
+  - /faq/deckyfaq/
+  - /faq/epicfaq/
+  - /faq/gogfaq/
 excerpt: " "
 ---
 {% include content-schema.html type="faq" %}

@@ -6,6 +6,7 @@ permalink: /portal-redirect/
 redirect_from:
   - /buy_now/
   - /upgrade/
+  - /buy-now-mockup/
 excerpt: "You'll be redirected automatically, or click Continue to go now"
 sitemap: false
 ---

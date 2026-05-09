@@ -7,6 +7,10 @@ permalink: /help/troubleshooting/
 redirect_from:
   - /2.0troubleshooting/
   - /troubleshooting/decky/
+  - /troubleshooting/
+  - /troubleshooting/epic/
+  - /troubleshooting/gog/
+  - /troubleshooting/plugin/
 excerpt: " "
 ---
 {% include content-schema.html type="troubleshooting" %}

@@ -7,6 +7,7 @@ permalink: /help/tutorials/
 redirect_from:
   - /2.0tutorials/
   - /tutorials/
+  - /plugin_tutorials/
 excerpt: " "
 ---
 {% include help/nav-tabs.html active="tutorials" counter_label="tutorials" search_placeholder="Search tutorials..." %}

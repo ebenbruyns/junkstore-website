@@ -4,6 +4,11 @@ title: "Junk Store Pro Features: Play Non-Steam Games on Steam Deck"
 hero_title: "Junk Store Pro Features"
 description: "Junk Store Pro features for Steam Deck: built-in file manager, disk analyzer, process manager - all in Game Mode. Play Epic, GOG, Amazon & itch without Desktop Mode."
 permalink: /features/
+redirect_from:
+  - /learnmore/
+  - /comingsoon/
+  - /features-redesign/
+  - /features-reference/
 classes: wide
 excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam solution"
 ---
