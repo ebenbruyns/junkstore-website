@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-08T19:37:06.074Z",
-  "total_games": 993,
+  "generated_at": "2026-05-09T19:44:40.798Z",
+  "total_games": 996,
   "storefronts": {
     "Epic": {
-      "total": 474,
-      "green_standalone": 402,
-      "green_decky": 419
+      "total": 476,
+      "green_standalone": 404,
+      "green_decky": 421
     },
     "GOG": {
-      "total": 375,
-      "green_standalone": 298,
-      "green_decky": 344
+      "total": 376,
+      "green_standalone": 299,
+      "green_decky": 345
     },
     "Amazon": {
       "total": 73,
@@ -511,6 +511,20 @@
       "controller_input": "keyboard-mouse",
       "requires_eac_runtime": false,
       "databaseId": "cd8c906fa00d4e45b51e35dd8d800e6f"
+    },
+    {
+      "slug": "arranger-a-role-puzzling-adventure",
+      "id": "0ee60fe6-e5de-446a-8ebf-636e2c547b1b",
+      "title": "Arranger: A Role-Puzzling Adventure",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "May '26",
+      "cant_test_linux": false,
+      "publisher": "Furniture & Mattress LLC",
+      "controller_input": "native",
+      "requires_eac_runtime": false,
+      "databaseId": "d83a370c98f1474ca80de267ef9f54ed"
     },
     {
       "slug": "art-of-rally",
@@ -5820,6 +5834,20 @@
       "databaseId": "a617890cec1542d6ba760ba13f79225e"
     },
     {
+      "slug": "trash-goblin",
+      "id": "ef54854a-88a4-4222-9a76-8df7afe1a61a",
+      "title": "Trash Goblin",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "May '26",
+      "cant_test_linux": false,
+      "publisher": "Spilt Milk Studios Ltd",
+      "controller_input": "native",
+      "requires_eac_runtime": false,
+      "databaseId": "54f7949350c949c6a2c47f12e7b15636"
+    },
+    {
       "slug": "trek-to-yomi",
       "id": "bf84737d-25f8-4ee6-8634-c799080815c4",
       "title": "Trek to Yomi",
@@ -8224,6 +8252,20 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1111530020"
+    },
+    {
+      "slug": "fruitbus",
+      "id": "9cd0abd0-3518-4aa1-8274-f6f4145656ad",
+      "title": "Fruitbus",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "May '26",
+      "cant_test_linux": false,
+      "publisher": "Krillbite Studio",
+      "controller_input": "native",
+      "requires_eac_runtime": false,
+      "databaseId": "1969775197"
     },
     {
       "slug": "gamedec",
