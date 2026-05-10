@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-05-09T19:44:40.828Z",
+  "generated_at": "2026-05-10T20:09:42.253Z",
   "games": [
+    {
+      "store": "gog",
+      "slug": "mafia-ii-definitive-edition",
+      "featured_in": "2026-05-10",
+      "post_url": "/blog/games-tested-may-10/",
+      "title": "Mafia II: Definitive Edition",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/0ca44670c29969c6af5eb72df14b1a21ccb8842e03bcb81bf58fdb00a8c9ebec.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/05752d716fb822a15b0259f1555df73ce4a7f6a244ed4a330ba26547e67bf6df.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "trash-goblin",
+      "featured_in": "2026-05-10",
+      "post_url": "/blog/games-tested-may-10/",
+      "title": "Trash Goblin",
+      "standalone_rating": "green",
+      "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2407830/b5f73d55cbca5df86e2feb1a92636ce62bb1439e/capsule_184x69.jpg?t=1778170992",
+      "vertical_artwork": "https://images.gog.com/f56bc59e1c4b0b07bfa19e8dde261309840074babd7d3c0e02612f6dd94d64b6.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "arranger-a-role-puzzling-adventure",
+      "featured_in": "2026-05-10",
+      "post_url": "/blog/games-tested-may-10/",
+      "title": "Arranger: A Role-Puzzling Adventure",
+      "standalone_rating": "green",
+      "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2596420/capsule_184x69.jpg?t=1745972134",
+      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-1yn2m.jpg"
+    },
+    {
+      "store": "gog",
+      "slug": "fruitbus",
+      "featured_in": "2026-05-10",
+      "post_url": "/blog/games-tested-may-10/",
+      "title": "Fruitbus",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/3a867b4348ca83f6c30bde86b483b5935cb431bab515ddc69feacd106c39c4e7.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/e681bada9d65113f40be2c15e72ab90a215e11be42343b41e5debf86c9541aca.jpg?namespace=gamesdb"
+    },
     {
       "store": "epic",
       "slug": "hogwarts-legacy",
@@ -80,46 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/3feed2c9964ff4e7f34b4fb7f78b31f152794aef0b17cfbd5c9e24509b97ed70.jpg?namespace=gamesdb",
       "vertical_artwork": "https://images.gog.com/00a5557d5297739fc5ba6b493c265f75e66b2bfdb06245d70b956932d269758d.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "the-stone-of-madness",
-      "featured_in": "2026-04-18",
-      "post_url": "/blog/games-tested-apr-18/",
-      "title": "The Stone of Madness",
-      "standalone_rating": "green",
-      "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1309710/capsule_231x87.jpg",
-      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-680ls.jpg"
-    },
-    {
-      "store": "epic",
-      "slug": "monster-harvest",
-      "featured_in": "2026-04-18",
-      "post_url": "/blog/games-tested-apr-18/",
-      "title": "Monster Harvest",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/a619548509f7106478975e16c80ac62c9b641e19f64d61382976358a113aaf89.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/5f1eb1585c6049199a499059c2326087/download-monster-harvest-offer-idy8y.jpg"
-    },
-    {
-      "store": "gog",
-      "slug": "snake-core",
-      "featured_in": "2026-04-18",
-      "post_url": "/blog/games-tested-apr-18/",
-      "title": "Snake Core",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/45d5c4f8647030f4f26e257104848e579875346cdfbe8a7b0df0064f79ef35bc.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/e49ab3e1b405234acceab90b90ea9cf7a22aa3a31f81dd86e527abd67ff5b622.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "undead-rise-of-the-betrayed-king",
-      "featured_in": "2026-04-18",
-      "post_url": "/blog/games-tested-apr-18/",
-      "title": "Undead: Rise of the Betrayed King",
-      "standalone_rating": "green",
-      "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2711180/capsule_231x87.jpg",
-      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/e0b2ef75c4ca470eae076d9d54087eb4/undead-rise-of-the-betrayed-king-14f7w.jpg"
     }
   ]
 }

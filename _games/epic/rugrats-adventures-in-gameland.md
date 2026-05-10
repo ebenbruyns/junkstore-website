@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/rugrats-adventures-in-gameland-7
 protondb_url: "https://www.protondb.com/app/2633950"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rugrats%3A_Adventures_in_Gameland"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/rugrats-adventures-in-gameland/"
 
 # Notes
 notes: "Works out of the box!"

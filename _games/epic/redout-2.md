@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/redout-2"
 protondb_url: "https://www.protondb.com/app/1799930"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Redout_2"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/redout-2/"
 
 # Notes
 notes: "Works out of the box!"

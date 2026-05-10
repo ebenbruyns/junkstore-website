@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/redemption-reapers-54dabd"
 protondb_url: "https://www.protondb.com/app/2139300"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Redemption_Reapers"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 61
+metacritic_url: "https://www.metacritic.com/game/redemption-reapers/"
 
 # Notes
 notes: "Need to use GE-Proton 9.7 for cutscenes to play correctly. <strong>Works out of the box</strong> — no extra setup needed."

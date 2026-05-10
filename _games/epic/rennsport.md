@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/rennsport-3776b8"
 protondb_url: "https://www.protondb.com/app/2077750"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rennsport"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 53
+metacritic_url: "https://www.metacritic.com/game/rennsport/"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Install"

@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/session-skate-sim"
 protondb_url: "https://www.protondb.com/app/861650"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Session"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 67
+metacritic_url: "https://www.metacritic.com/game/session-skate-sim/"
 
 # Notes
 notes: "Works out of the box!"

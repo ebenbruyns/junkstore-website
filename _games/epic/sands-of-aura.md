@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1119840"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sands_of_Aura"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/sands-of-aura/"
 
 # Notes
 notes: "Works out of the box!"

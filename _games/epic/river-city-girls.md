@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/river-city-girls-e6f608"
 protondb_url: "https://www.protondb.com/app/1049320"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/River_City_Girls"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/river-city-girls/"
 
 # Notes
 notes: "Works out of the box!"

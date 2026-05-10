@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1413250"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/republic-of-jungle/"
 
 # Notes
 notes: "You need to verify with your Epic account after that <strong>Works out of the box</strong> — no extra setup needed."

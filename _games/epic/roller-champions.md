@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/roller-champions"
 protondb_url: "https://www.protondb.com/app/2211280"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Roller_Champions"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/roller-champions/"
 
 # Notes
 notes: "Need to download & log in to Uplay"

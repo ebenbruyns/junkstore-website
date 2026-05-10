@@ -10,7 +10,7 @@ permalink: /games/gog/mafia-ii-definitive-edition/
 # Compatibility
 decky_rating: "green"
 standalone_rating: "green"
-date_tested: "March '25"
+date_tested: "May '26"
 proton_version: ""
 
 # Game Info
@@ -67,7 +67,7 @@ metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/mafia-ii-definitive-edition/"
 
 # Notes
-notes: 
+notes: "You'll need to set the game executable."
 controller_config: 
 performance_notes: 
 known_issues: 

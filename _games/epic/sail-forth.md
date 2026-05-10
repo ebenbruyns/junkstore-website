@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/sail-forth-51847e"
 protondb_url: "https://www.protondb.com/app/1031460"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sail_Forth"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/sail-forth/"
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account."

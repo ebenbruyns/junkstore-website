@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T19:44:40.798Z",
+  "generated_at": "2026-05-10T20:09:42.191Z",
   "total_games": 996,
   "storefronts": {
     "Epic": {
@@ -9190,7 +9190,7 @@
       "storefront": "GOG",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "March '25",
+      "date_tested": "May '26",
       "cant_test_linux": false,
       "publisher": "2K",
       "controller_input": "native",
