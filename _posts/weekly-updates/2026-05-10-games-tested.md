@@ -1,10 +1,10 @@
 ---
 layout: junkstore-post
-title: "Mafia II: Definitive Edition & Trash Goblin + 2 More - Steam Deck Tested | May 10"
-date: 2026-05-10 12:00:00 +1200
+title: "Mafia II: Definitive Edition & Trash Goblin + 2 More - Steam Deck Tested | May 11"
+date: 2026-05-11 13:00:00 +1200
 categories: [Weekly Update, Game Compatibility]
 tags: [junk-store, steam-deck]
-slug: "games-tested-may-10"
+slug: "games-tested-may-11"
 excerpt: "Steam Deck compatibility: Mafia II: Definitive Edition, Trash Goblin, Arranger: A Role-Puzzling Adventure + 1 more. Tested with GE-Proton - Junk Store Game Mode setup included."
 description: "4 GOG & Epic games tested on Steam Deck this week: Mafia II: Definitive Edition, Trash Goblin, Arranger: A Role-Puzzling Adventure. Get working Proton settings and compatibility notes for Game Mode play."
 featured_games:
@@ -15,23 +15,16 @@ featured_games:
 image: /assets/images/blog/260510-hero.jpg
 header:
   teaser: /assets/images/blog/260510-hero-thumb.jpg
-read_time: "5 min read"
 toc: true
 ---
 
-G'day Everyone!
+Kia ora Everyone!
 
-[This will be a placeholder for a personal update about boat life, travel, or current situation - keep it conversational and authentic]
+If you've been wondering what Eben has been up to since the v3 release, you're not alone. He prefers writing code over writing posts, but this week (with a bit of prodding from me) he finally sat down to share what's been keeping him busy in his [latest dev update](/blog/dev-update-may-2026/).
 
-[IMPORTANT STYLE NOTES: Keep it clear, concise, and well-paced. No waffle. Cut unnecessary words. Make it flow smoothly. Edit for clarity and readability - not just typos/grammar.]
+It highlights a few things he's been cooking up, and he's got his sights set on what's next, which he shares some of in the post too, so stay tuned!
 
-## Housekeeping Notes
-
-A few quick updates before we dive into the games:
-
-* **Junk Store Pro 3.0 Released:** The big update is here! Highlights include built-in SteamGridDB support, a File Manager, Disk Analyser, and Process Manager. <a href="/blog/junk-store-3-release/" target="_blank" rel="noopener">Read the full announcement →</a>
-* **Decky Loader Conflict Resolved:** The conflict has been resolved in version 3.0. You can now download from Stable without issue.
-* **GOG Extension:** Exclusively available through the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a>.
+Other than that, not much else to report. Hope you all had a fantastic weekend and are looking forward to the week ahead!
 
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: v3.0.1.0 (Stable Channel)
@@ -51,7 +44,7 @@ This week featuring Trash Goblin, Arranger: A Role-Puzzling Adventure.
   <img src="https://images.gog.com/f56bc59e1c4b0b07bfa19e8dde261309840074babd7d3c0e02612f6dd94d64b6.jpg?namespace=gamesdb" alt="Trash Goblin" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/epic/trash-goblin/">Trash Goblin</a></strong> <span class="store-badge epic">Epic</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
+    <p class="game-blurb">Two things I always enjoy in a game: uncovering trinkets, and a relaxed sim vibe. It's a really chill one, unlike other simulators that can get a bit stressful trying to keep up. Staying on my Steam Deck for now so I can dip back in for short gaming sessions.</p>
     <a href="/games/epic/trash-goblin/" class="view-details">View compatibility details →</a>
   </div>
 </div>
@@ -60,7 +53,7 @@ This week featuring Trash Goblin, Arranger: A Role-Puzzling Adventure.
   <img src="https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-1yn2m.jpg" alt="Arranger: A Role-Puzzling Adventure" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/epic/arranger-a-role-puzzling-adventure/">Arranger: A Role-Puzzling Adventure</a></strong> <span class="store-badge epic">Epic</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
+    <p class="game-blurb">I really had to restrain myself with this game, I love puzzle games! You play as Jemma, navigating your way through the world, but it's not as straightforward as you'd think: your movements are on a grid that shifts every time you do! Great to pick up for short sessions, though you'll need your thinking cap on. Another one staying on my Steam Deck for evening downtime.</p>
     <a href="/games/epic/arranger-a-role-puzzling-adventure/" class="view-details">View compatibility details →</a>
   </div>
 </div>
@@ -73,7 +66,7 @@ This week featuring Mafia II: Definitive Edition, Fruitbus.
   <img src="https://images.gog.com/05752d716fb822a15b0259f1555df73ce4a7f6a244ed4a330ba26547e67bf6df.jpg?namespace=gamesdb" alt="Mafia II: Definitive Edition" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/gog/mafia-ii-definitive-edition/">Mafia II: Definitive Edition</a></strong> <span class="store-badge gog">GOG</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
+    <p class="game-blurb">Back in March last year Amazon gave this away, so I thought I'd better retest in case something had changed. Turns out you now need to set the game executable. Otherwise, still works out of the box without issue. Retesting reminded me I need to go back and play through the rest of the franchise.</p>
     <a href="/games/gog/mafia-ii-definitive-edition/" class="view-details">View compatibility details →</a>
   </div>
 </div>
@@ -82,26 +75,20 @@ This week featuring Mafia II: Definitive Edition, Fruitbus.
   <img src="https://images.gog.com/e681bada9d65113f40be2c15e72ab90a215e11be42343b41e5debf86c9541aca.jpg?namespace=gamesdb" alt="Fruitbus" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/gog/fruitbus/">Fruitbus</a></strong> <span class="store-badge gog">GOG</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
+    <p class="game-blurb">A cozy sim where you run a food truck, or to be more accurate, a Fruitbus. Just don't play it if you're feeling hungry, otherwise you might find you need to end your gaming session sooner than expected.</p>
     <a href="/games/gog/fruitbus/" class="view-details">View compatibility details →</a>
   </div>
 </div>
-
-
 
 ## Looking Forward
 
 Next up on the free games front:
 
 **Epic Games:**
-<!-- EPIC: Replace GAME-SLUG and Game Title -->
-Epic's got <a href="https://store.epicgames.com/en-US/p/GAME-SLUG" target="_blank" rel="noopener">Game Title</a> coming this week.
+Epic has two mystery games in store for us this week, I wonder what they could be? Fingers crossed they are worth the suspense.
 
 **Amazon Prime Gaming:**
-<!-- PRIME GOG: Replace game-slug and Game Title -->
-Amazon Prime Gaming has a couple worth grabbing too: a GOG code for <a href="https://www.gog.com/en/game/game-slug" target="_blank" rel="noopener">Game Title</a>
-<!-- PRIME EPIC: Replace game-slug and Game Title -->
-and an Epic code for <a href="https://store.epicgames.com/en-US/p/game-slug" target="_blank" rel="noopener">Game Title</a>. We'll get these tested once they're live.
+Amazon Prime Gaming has a few worth grabbing too: a GOG code for <a href="https://www.gog.com/en/game/60_minutes_to_extinction_escape_room" target="_blank" rel="noopener">60 Minutes to Extinction: Escape Room</a>, an Amazon code for <a href="https://www.gog.com/dreamlist/game/survival-fountain-of-youth-2024" target="_blank" rel="noopener">Survival: Fountain of Youth</a> (currently on the GOG Dreamlist), and an Epic code for <a href="https://store.epicgames.com/p/lethal-honor-order-of-the-apocalypse-84604c" target="_blank" rel="noopener">Lethal Honor: Order of the Apocalypse</a>. We'll get these tested once they're live.
 
 Got questions or want to share what you're keen to try? Flick us a message on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a> or <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a>
 

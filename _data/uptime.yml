@@ -106,6 +106,10 @@ notes:
     date: "2026-05-09T00:00:00"
     type: "client-stable"
     text: "No issues or breakages - [Steam Deck Client Update: May 8th](https://store.steampowered.com/news/app/1675200/view/702141807556822187)"
+  - id: "1778452075710"
+    date: "2026-05-11T00:00:00"
+    type: "stable"
+    text: "No issues or breakages - [SteamOS 3.7.24](https://store.steampowered.com/news/app/1675200/view/702141807556822251)"
 
 breakHistory:
   []
