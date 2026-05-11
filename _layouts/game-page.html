@@ -170,6 +170,7 @@ layout: null
     {% if page.community_layout %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.required_launcher and page.required_launcher != "" %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.requires_account_setup %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.requires_verification %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.requires_eac_runtime or page.requires_battleye_runtime or page.cant_test_linux %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.must_be_online %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     <div class="info-section">
@@ -201,6 +202,12 @@ layout: null
         <div class="info-item">
           <div class="info-label">Account Required</div>
           <div class="info-value">Yes{% if page.account_type %} ({{ page.account_type }}){% endif %}</div>
+        </div>
+        {% endif %}
+        {% if page.requires_verification %}
+        <div class="info-item">
+          <div class="info-label">Verification Required</div>
+          <div class="info-value">Yes</div>
         </div>
         {% endif %}
         {% if page.requires_eac_runtime or page.requires_battleye_runtime or page.cant_test_linux %}
@@ -236,11 +243,21 @@ layout: null
       {% assign show_controller_config = false %}
       {% if page.controller_config and cc_is_generic == false %}{% assign show_controller_config = true %}{% endif %}
 
-      {% if show_controller_config or page.performance_notes or page.known_issues %}
+      {% if show_controller_config or page.performance_notes or page.known_issues or page.set_executable or page.dependencies %}
       <div class="tech-notes">
         {% if show_controller_config %}
         <div class="tech-note">
           <strong>Controller Config:</strong> {{ page.controller_config }}
+        </div>
+        {% endif %}
+        {% if page.set_executable %}
+        <div class="tech-note">
+          <strong>Custom Executable:</strong> <code>{{ page.set_executable }}</code>
+        </div>
+        {% endif %}
+        {% if page.dependencies %}
+        <div class="tech-note">
+          <strong>Dependencies:</strong> {{ page.dependencies }}
         </div>
         {% endif %}
         {% if page.performance_notes %}
