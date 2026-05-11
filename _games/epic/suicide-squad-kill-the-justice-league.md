@@ -66,8 +66,8 @@ store_url: "https://store.epicgames.com/en-US/p/suicide-squad-kill-the-justice-l
 protondb_url: "https://www.protondb.com/app/315210"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Suicide_Squad%3A_Kill_the_Justice_League"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 60
+metacritic_url: "https://www.metacritic.com/game/suicide-squad-kill-the-justice-league/"
 
 # Notes
 notes: "Works out of the box!"

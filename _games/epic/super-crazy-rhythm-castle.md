@@ -66,8 +66,8 @@ store_url: "https://store.epicgames.com/en-US/p/super-crazy-rhythm-castle-e3b464
 protondb_url: "https://www.protondb.com/app/1812560"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Super_Crazy_Rhythm_Castle"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 60
+metacritic_url: "https://www.metacritic.com/game/super-crazy-rhythm-castle/"
 
 # Notes
 notes: "Works out of the box!"

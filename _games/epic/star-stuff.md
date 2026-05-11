@@ -67,7 +67,7 @@ protondb_url: "https://www.protondb.com/app/1955110"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Stuff"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/star-stuff/"
 
 # Notes
 notes: "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."

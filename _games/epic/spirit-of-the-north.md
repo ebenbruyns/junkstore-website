@@ -66,8 +66,8 @@ store_url: "https://store.epicgames.com/en-US/p/spirit-of-the-north-f58a66"
 protondb_url: "https://www.protondb.com/app/1213700"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Spirit_of_the_North"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 59
+metacritic_url: "https://www.metacritic.com/game/spirit-of-the-north/"
 
 # Notes
 notes: "Works out of the box!"

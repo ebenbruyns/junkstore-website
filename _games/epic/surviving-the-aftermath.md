@@ -66,8 +66,8 @@ store_url: "https://store.epicgames.com/en-US/p/surviving-the-aftermath"
 protondb_url: "https://www.protondb.com/app/684450"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Surviving_the_Aftermath"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/surviving-the-aftermath/"
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You do need to create an account with Paradox."

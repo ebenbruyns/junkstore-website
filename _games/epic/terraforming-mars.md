@@ -67,7 +67,7 @@ protondb_url: "https://www.protondb.com/app/800270"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Terraforming_Mars"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/terraforming-mars/"
 
 # Notes
 notes: Works out of the box, but need to map the controller.

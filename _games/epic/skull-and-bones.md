@@ -66,8 +66,8 @@ store_url: "https://store.epicgames.com/en-US/p/skull-and-bones"
 protondb_url: "https://www.protondb.com/app/2853730"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Skull_and_Bones"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 59
+metacritic_url: "https://www.metacritic.com/game/skull-and-bones/"
 
 # Notes
 notes: "Need to log in to download & login to Uplay. Toggle on BattlEye"

@@ -77,7 +77,7 @@ known_issues:
 
 # Meta
 database_id: "1969775197"
-is_featured: true
+is_featured: false
 owned: true
 ---
 
