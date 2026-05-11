@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1326700"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/chronoshot/"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Advanced tinkering required**. **Pro Version: Advanced tinkering required**. Follow extra steps [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Chronoshot)"

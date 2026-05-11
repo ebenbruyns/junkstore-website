@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/pubg-59c1d9"
 protondb_url: "https://www.protondb.com/app/578080"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/PUBG%3A_Battlegrounds"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 86
+metacritic_url: "https://www.metacritic.com/game/playerunknowns-battlegrounds/"
 
 # Notes
 notes: Imported from library - not yet tested

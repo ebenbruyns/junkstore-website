@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1097430"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Book_of_Yog_Idle_RPG"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/book-of-yog/"
 
 # Notes
 notes: Works out of the box, but need to map the controller.

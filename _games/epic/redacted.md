@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/redacted-d9d21e"
 protondb_url: "https://www.protondb.com/app/2229940"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Redacted"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/redacted/"
 
 # Notes
 notes: Must verify with Epic account before launch. Native controller support.

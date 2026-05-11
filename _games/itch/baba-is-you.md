@@ -10,7 +10,7 @@ permalink: /games/itch/baba-is-you/
 # Compatibility
 decky_rating: "not-supported"
 standalone_rating: "green"
-date_tested: "Aug '25"
+date_tested: "May ' 26"
 proton_version: ""
 
 # Game Info

@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/655350"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Astro_Duel_II"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/astro-duel-2/"
 
 # Notes
 notes: "Works out of the box!"

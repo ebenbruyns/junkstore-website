@@ -10,7 +10,7 @@ permalink: /games/gog/berserk-boy/
 # Compatibility
 decky_rating: "green"
 standalone_rating: "green"
-date_tested: "April '25"
+date_tested: "May ' 26"
 proton_version: ""
 
 # Game Info
@@ -68,7 +68,7 @@ metacritic_url: "https://www.metacritic.com/game/pc/berserk-boy?ftag=MCD-06-10aa
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

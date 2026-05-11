@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/deceive-inc"
 protondb_url: "https://www.protondb.com/app/820520"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deceive_Inc."
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/deceive-inc/"
 
 # Notes
 notes: "Works out of the box!"

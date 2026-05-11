@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/645630"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Car_Mechanic_Simulator_2018"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/car-mechanic-simulator-2018/"
 
 # Notes
 notes: "Works out of the box!"

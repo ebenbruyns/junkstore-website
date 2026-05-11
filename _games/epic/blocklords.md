@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1278420"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/blocklords/"
 
 # Notes
 notes: "Works out of the box!"

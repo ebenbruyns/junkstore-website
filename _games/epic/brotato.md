@@ -10,7 +10,7 @@ permalink: /games/epic/brotato/
 # Compatibility
 decky_rating: "green"
 standalone_rating: "green"
-date_tested: "Nov '24"
+date_tested: "May ' 26"
 proton_version: ""
 
 # Game Info
@@ -63,12 +63,12 @@ store_url: "https://store.epicgames.com/en-US/p/brotato-ed4097"
 protondb_url: "https://www.protondb.com/app/1942280"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Brotato"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/brotato/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

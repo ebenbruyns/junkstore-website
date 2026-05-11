@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T20:09:42.191Z",
+  "generated_at": "2026-05-11T01:29:25.693Z",
   "total_games": 996,
   "storefronts": {
     "Epic": {
@@ -1006,9 +1006,11 @@
       "storefront": "Epic",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "Nov '24",
+      "date_tested": "May ' 26",
+      "cant_test_linux": false,
       "publisher": "Blobfish Games",
       "controller_input": "native",
+      "requires_eac_runtime": false,
       "databaseId": "e8bbb84be35640cda646233152ff3428"
     },
     {
@@ -6920,7 +6922,7 @@
       "storefront": "GOG",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "April '25",
+      "date_tested": "May ' 26",
       "cant_test_linux": false,
       "publisher": "BerserkBoy Games",
       "controller_input": "native",
@@ -11922,7 +11924,7 @@
       "storefront": "Amazon",
       "decky_rating": "not-supported",
       "standalone_rating": "green",
-      "date_tested": "Dec '25",
+      "date_tested": "May ' 26",
       "cant_test_linux": false,
       "publisher": "PID Games",
       "controller_input": "native",
@@ -12804,7 +12806,7 @@
       "storefront": "itch",
       "decky_rating": "not-supported",
       "standalone_rating": "green",
-      "date_tested": "Aug '25",
+      "date_tested": "May ' 26",
       "cant_test_linux": false,
       "publisher": "Whippoorwill, Adam Gryu",
       "controller_input": "native",
@@ -13056,7 +13058,7 @@
       "storefront": "itch",
       "decky_rating": "not-supported",
       "standalone_rating": "green",
-      "date_tested": "Aug '25",
+      "date_tested": "May ' 26",
       "cant_test_linux": false,
       "publisher": "hempuli",
       "controller_input": "native",

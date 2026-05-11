@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/card-shark-8f95f0"
 protondb_url: "https://www.protondb.com/app/1371720"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Card_Shark"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/card-shark/"
 
 # Notes
 notes: "Works out of the box!"

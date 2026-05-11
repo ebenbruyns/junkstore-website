@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/bear-and-breakfast-77c209"
 protondb_url: "https://www.protondb.com/app/1136370"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bear_and_Breakfast"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/bear-and-breakfast/"
 
 # Notes
 notes: "Works out of the box!"

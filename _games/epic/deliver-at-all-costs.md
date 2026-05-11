@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/deliver-at-all-costs-a30c8d"
 protondb_url: "https://www.protondb.com/app/1880610"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deliver_at_All_Costs"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/deliver-at-all-costs/"
 
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. If you are having issues, launch it twice or reinstall the dependencies (JS > About)."

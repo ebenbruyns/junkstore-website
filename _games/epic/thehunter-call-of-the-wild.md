@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/thehunter-call-of-the-wild"
 protondb_url: "https://www.protondb.com/app/518790"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Hunter%3A_Call_of_the_Wild"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 64
+metacritic_url: "https://www.metacritic.com/game/thehunter-call-of-the-wild/"
 
 # Notes
 notes: "Works out of the box!"

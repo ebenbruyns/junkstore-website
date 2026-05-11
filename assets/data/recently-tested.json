@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-10T20:09:42.253Z",
+  "generated_at": "2026-05-11T01:29:25.705Z",
   "games": [
     {
       "store": "gog",
       "slug": "mafia-ii-definitive-edition",
-      "featured_in": "2026-05-10",
-      "post_url": "/blog/games-tested-may-10/",
+      "featured_in": "2026-05-11",
+      "post_url": "/blog/games-tested-may-11/",
       "title": "Mafia II: Definitive Edition",
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/0ca44670c29969c6af5eb72df14b1a21ccb8842e03bcb81bf58fdb00a8c9ebec.jpg?namespace=gamesdb",
@@ -14,8 +14,8 @@
     {
       "store": "epic",
       "slug": "trash-goblin",
-      "featured_in": "2026-05-10",
-      "post_url": "/blog/games-tested-may-10/",
+      "featured_in": "2026-05-11",
+      "post_url": "/blog/games-tested-may-11/",
       "title": "Trash Goblin",
       "standalone_rating": "green",
       "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2407830/b5f73d55cbca5df86e2feb1a92636ce62bb1439e/capsule_184x69.jpg?t=1778170992",
@@ -24,8 +24,8 @@
     {
       "store": "epic",
       "slug": "arranger-a-role-puzzling-adventure",
-      "featured_in": "2026-05-10",
-      "post_url": "/blog/games-tested-may-10/",
+      "featured_in": "2026-05-11",
+      "post_url": "/blog/games-tested-may-11/",
       "title": "Arranger: A Role-Puzzling Adventure",
       "standalone_rating": "green",
       "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2596420/capsule_184x69.jpg?t=1745972134",
@@ -34,8 +34,8 @@
     {
       "store": "gog",
       "slug": "fruitbus",
-      "featured_in": "2026-05-10",
-      "post_url": "/blog/games-tested-may-10/",
+      "featured_in": "2026-05-11",
+      "post_url": "/blog/games-tested-may-11/",
       "title": "Fruitbus",
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/3a867b4348ca83f6c30bde86b483b5935cb431bab515ddc69feacd106c39c4e7.jpg?namespace=gamesdb",

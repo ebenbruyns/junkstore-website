@@ -63,8 +63,8 @@ store_url: "https://store.epicgames.com/en-US/p/are-you-smarter-than-a-5th-grade
 protondb_url: "https://www.protondb.com/app/1521160"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Are_You_Smarter_Than_a_5th_Grader%3F_%282022%29"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 58
+metacritic_url: "https://www.metacritic.com/game/are-you-smarter-than-a-5th-grader/"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. \nNeeds Microsoft C++ Runtime (installed automatically in Junk Store Pro)."
