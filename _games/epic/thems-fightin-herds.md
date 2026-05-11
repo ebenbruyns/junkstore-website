@@ -38,6 +38,9 @@ community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
+requires_verification: false
+set_executable: 
+dependencies: "<a href=\"https://www.microsoft.com/en-nz/download/details.aspx?id=35\" target=\"_blank\" rel=\"noopener noreferrer\">DirectX</a>"
 
 # Epic Features
 requires_eos: false

@@ -38,6 +38,9 @@ community_layout: false
 required_launcher: ""
 requires_account_setup: true
 account_type: "Paradox Interactive"
+requires_verification: true
+set_executable: 
+dependencies: 
 
 # Epic Features
 requires_eos: true

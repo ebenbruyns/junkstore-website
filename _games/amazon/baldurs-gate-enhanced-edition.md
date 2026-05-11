@@ -38,6 +38,9 @@ community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
+requires_verification: false
+set_executable: ./Baldur.exe
+dependencies: OpenAL32.dll
 
 # Epic Features
 requires_eos: false

@@ -38,6 +38,9 @@ community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
+requires_verification: false
+set_executable: ./Crystal of Atlan.exe
+dependencies: pdh dependency
 
 # Epic Features
 requires_eos: false

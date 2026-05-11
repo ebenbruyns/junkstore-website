@@ -38,6 +38,9 @@ community_layout: true
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
+requires_verification: false
+set_executable: 
+dependencies: 
 
 # Epic Features
 requires_eos: true

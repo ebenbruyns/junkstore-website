@@ -38,6 +38,9 @@ community_layout: false
 required_launcher: "other"
 requires_account_setup: true
 account_type: "Dragonest Account"
+requires_verification: false
+set_executable: 
+dependencies: 
 
 # Epic Features
 requires_eos: true

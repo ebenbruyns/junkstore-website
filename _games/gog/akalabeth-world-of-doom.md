@@ -38,6 +38,9 @@ community_layout: false
 required_launcher: "dosbox"
 requires_account_setup: false
 account_type: ""
+requires_verification: false
+set_executable: 
+dependencies: 
 
 # Epic Features
 requires_eos: false

@@ -38,6 +38,9 @@ community_layout: false
 required_launcher: ""
 requires_account_setup: true
 account_type: "Directive Games - The Machines Arean"
+requires_verification: false
+set_executable: 
+dependencies: 
 
 # Epic Features
 requires_eos: false

@@ -38,6 +38,9 @@ community_layout: false
 required_launcher: "hoyoplay"
 requires_account_setup: true
 account_type: "HoyoPlay Account"
+requires_verification: false
+set_executable: ./HYP.exe or /games/Genshin Impact game/GenshinImpact.exe
+dependencies: 
 
 # Epic Features
 requires_eos: false
