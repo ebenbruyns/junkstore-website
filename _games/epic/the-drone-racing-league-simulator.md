@@ -67,7 +67,7 @@ protondb_url: "https://www.protondb.com/app/641780"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Drone_Racing_League_Simulator"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/the-drone-racing-league-simulator/"
 
 # Notes
 notes: Works out of the box, but need to map controller.

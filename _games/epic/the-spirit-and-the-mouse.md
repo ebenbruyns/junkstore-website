@@ -66,8 +66,8 @@ store_url: "https://store.epicgames.com/en-US/p/the-spirit-and-the-mouse-42390b"
 protondb_url: "https://www.protondb.com/app/1679210"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Spirit_and_the_Mouse"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/the-spirit-and-the-mouse/"
 
 # Notes
 notes: "Works out of the box!"

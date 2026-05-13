@@ -67,7 +67,7 @@ protondb_url: "https://www.protondb.com/app/1498740"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/troublemaker/"
 
 # Notes
 notes: Works out of the box with native controller support.

@@ -67,7 +67,7 @@ protondb_url: "https://www.protondb.com/app/1721530"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Captain"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/the-captain/"
 
 # Notes
 notes: "Works out of the box!"

@@ -66,8 +66,8 @@ store_url: "https://store.epicgames.com/en-US/p/wildcat-gun-machine-c66c4e"
 protondb_url: "https://www.protondb.com/app/1288610"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wildcat_Gun_Machine"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 63
+metacritic_url: "https://www.metacritic.com/game/wildcat-gun-machine/"
 
 # Notes
 notes: "Works out of the box!"

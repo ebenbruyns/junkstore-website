@@ -67,7 +67,7 @@ protondb_url: "https://www.protondb.com/app/1454960"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dark_Sky"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/dark-sky/"
 
 # Notes
 notes: "Works out of the box!"

@@ -66,8 +66,8 @@ store_url: "https://store.epicgames.com/en-US/p/tiny-tinas-wonderlands"
 protondb_url: "https://www.protondb.com/app/1286680"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tiny_Tina%27s_Wonderlands"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/tiny-tinas-wonderlands/"
 
 # Notes
 notes: "Works out of the box!"

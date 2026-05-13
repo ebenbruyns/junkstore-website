@@ -67,7 +67,7 @@ protondb_url: "https://www.protondb.com/app/602320"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Train_Valley_2"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/train-valley-2/"
 
 # Notes
 notes: Works out of the box, but need to map the controller.

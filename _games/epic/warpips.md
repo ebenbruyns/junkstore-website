@@ -67,7 +67,7 @@ protondb_url: "https://www.protondb.com/app/1291010"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warpips"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/warpips/"
 
 # Notes
 notes: "Works out of the box!"

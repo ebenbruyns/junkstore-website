@@ -66,8 +66,8 @@ store_url: "https://store.epicgames.com/en-US/p/the-walking-dead-no-mans-land-d3
 protondb_url: "https://www.protondb.com/app/2936310"
 protondb_report_url: ""
 pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/the-walking-dead-no-mans-land/"
 
 # Notes
 notes: "Works out of the box!"

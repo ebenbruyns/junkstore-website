@@ -66,8 +66,8 @@ store_url: "https://store.epicgames.com/en-US/p/to-the-rescue-a6c254"
 protondb_url: "https://www.protondb.com/app/946720"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/To_the_Rescue%21"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 57
+metacritic_url: "https://www.metacritic.com/game/to-the-rescue/"
 
 # Notes
 notes: "Works out of the box!"

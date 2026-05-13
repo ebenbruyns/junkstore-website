@@ -66,8 +66,8 @@ store_url: "https://store.epicgames.com/en-US/p/trek-to-yomi-70d134"
 protondb_url: "https://www.protondb.com/app/1370050"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trek_to_Yomi"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/trek-to-yomi/"
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Tested with GE-Proton 9.2. Text is a little hard to read."

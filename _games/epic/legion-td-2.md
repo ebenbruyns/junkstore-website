@@ -67,7 +67,7 @@ protondb_url: "https://www.protondb.com/app/469600"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legion_TD_2"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/legion-td-2/"
 
 # Notes
 notes: Need to verify this game with your account and enable the EOS overlay.

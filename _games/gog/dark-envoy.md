@@ -66,8 +66,8 @@ store_url: "https://www.gog.com/en/game/dark_envoy"
 protondb_url: "https://www.protondb.com/app/945770"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dark_Envoy"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 68
+metacritic_url: "https://www.metacritic.com/game/dark-envoy/"
 
 # Notes
 notes: Works out of the box

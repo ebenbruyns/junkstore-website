@@ -66,8 +66,8 @@ store_url: "https://store.epicgames.com/en-US/p/the-outer-worlds-spacers-choice-
 protondb_url: "https://www.protondb.com/app/1920490"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Outer_Worlds%3A_Spacer's_Choice_Edition"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/the-outer-worlds-spacers-choice-edition/"
 
 # Notes
 notes: "Works out of the box!"

@@ -66,8 +66,8 @@ store_url: "https://store.epicgames.com/en-US/p/the-silent-age-eb6972"
 protondb_url: "https://www.protondb.com/app/352520"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Silent_Age"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/the-silent-age/"
 
 # Notes
 notes: "Works out of the box!"
