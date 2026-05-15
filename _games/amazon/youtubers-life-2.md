@@ -70,7 +70,7 @@ metacritic_score: 63
 metacritic_url: "https://www.metacritic.com/game/youtubers-life-2/"
 
 # Notes
-notes: Imported from library - not yet tested
+notes: ""
 controller_config: 
 performance_notes: 
 known_issues: 

@@ -8,8 +8,8 @@ storefront_key: "epic"
 permalink: /games/epic/pubg-battlegrounds/
 
 # Compatibility
-decky_rating: ""
-standalone_rating: ""
+decky_rating: "not-supported"
+standalone_rating: "not-supported"
 date_tested: ""
 proton_version: ""
 
@@ -70,7 +70,7 @@ metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/playerunknowns-battlegrounds/"
 
 # Notes
-notes: Imported from library - not yet tested
+notes: "Anti-cheat prevents this game from running on Steam Deck."
 controller_config: 
 performance_notes: 
 known_issues: 

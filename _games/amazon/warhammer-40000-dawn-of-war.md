@@ -70,7 +70,7 @@ metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/warhammer-40000-dawn-of-war?ftag=MCD-06-10aaa1f"
 
 # Notes
-notes: Imported from library - not yet tested
+notes: ""
 controller_config: 
 performance_notes: 
 known_issues: 
