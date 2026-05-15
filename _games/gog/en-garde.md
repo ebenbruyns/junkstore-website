@@ -66,8 +66,8 @@ store_url: "https://www.gog.com/en/game/en_garde"
 protondb_url: "https://www.protondb.com/app/1654660"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/En_Garde%21"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/en-garde/"
 
 # Notes
 notes: "Works out of the box!"

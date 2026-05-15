@@ -66,8 +66,8 @@ store_url: "https://www.gog.com/en/game/golf_with_your_friends"
 protondb_url: "https://www.protondb.com/app/431240"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Golf_with_Your_Friends"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 68
+metacritic_url: "https://www.metacritic.com/game/golf-with-your-friends/"
 
 # Notes
 notes: "Works out of the box!"

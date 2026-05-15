@@ -67,7 +67,7 @@ protondb_url: "https://www.protondb.com/app/1127610"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Iris_and_the_Giant"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/iris-and-the-giant/"
 
 # Notes
 notes: "Works out of the box!"

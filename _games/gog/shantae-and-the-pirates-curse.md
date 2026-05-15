@@ -66,8 +66,8 @@ store_url: "https://www.gog.com/en/game/shantae_and_the_pirates_curse"
 protondb_url: "https://www.protondb.com/app/345820"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shantae_and_the_Pirate%27s_Curse"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/shantae-and-the-pirates-curse/"
 
 # Notes
 notes: "Works out of the box!"

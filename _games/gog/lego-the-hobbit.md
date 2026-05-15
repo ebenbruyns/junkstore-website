@@ -66,8 +66,8 @@ store_url: "https://www.gog.com/en/game/lego_the_hobbit"
 protondb_url: "https://www.protondb.com/app/285160"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_The_Hobbit"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/lego-the-hobbit/"
 
 # Notes
 notes: "Works out of the box!"
