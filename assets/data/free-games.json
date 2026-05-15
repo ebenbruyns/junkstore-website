@@ -1,30 +1,6 @@
 {
-  "generated_at": "2026-05-14T23:48:55.484Z",
+  "generated_at": "2026-05-15T02:59:42.689Z",
   "games": [
-    {
-      "id": "gp_3626",
-      "title": "Arranger: A Role-Puzzling Adventure",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://www.gamerpower.com/open/arranger-a-role-puzzling-adventure-epic-games-giveaway",
-      "image": "https://www.gamerpower.com/offers/1b/69fcab1d99b80.jpg",
-      "end_date": "2026-05-14T15:00:00.000Z",
-      "end_date_formatted": "Thu, 14 May · 15:00 UTC",
-      "first_seen": "2026-05-07 20:10:49",
-      "original_price": "$19.99"
-    },
-    {
-      "id": "gp_3625",
-      "title": "Trash Goblin",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://www.gamerpower.com/open/trash-goblin-epic-games-giveaway",
-      "image": "https://www.gamerpower.com/offers/1b/69fca90d9cbd8.jpg",
-      "end_date": "2026-05-14T15:00:00.000Z",
-      "end_date_formatted": "Thu, 14 May · 15:00 UTC",
-      "first_seen": "2026-05-07 20:10:49",
-      "original_price": "$19.99"
-    },
     {
       "id": "gp_3636",
       "title": "Devil's Island",
@@ -36,6 +12,18 @@
       "end_date_formatted": "Thu, 21 May · 15:00 UTC",
       "first_seen": "2026-05-14 20:11:14",
       "original_price": "$0.99"
+    },
+    {
+      "id": "gp_3643",
+      "title": "Vaudeville",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/vaudeville-86cff0",
+      "image": "https://www.gamerpower.com/offers/1b/6a064ba30c5d6.jpg",
+      "end_date": "2026-05-21T15:00:00.000Z",
+      "end_date_formatted": "Thu, 21 May · 15:00 UTC",
+      "first_seen": "2026-05-14 23:16:54",
+      "original_price": "$19.99"
     },
     {
       "id": "gp_3621",
@@ -98,6 +86,54 @@
       "original_price": "$49.99"
     },
     {
+      "id": "gp_3642",
+      "title": "Back to Modern World - Fantasy Hero",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://s-xavier-uy.itch.io/back-to-modern-world-fantasy-hero",
+      "image": "https://www.gamerpower.com/offers/1b/6a064aa563481.jpg",
+      "end_date": "2026-05-25 23:59:00",
+      "end_date_formatted": "Mon, 25 May · 23:59 UTC",
+      "first_seen": "2026-05-14 23:16:54",
+      "original_price": "$6.50"
+    },
+    {
+      "id": "manual_1776973466618_neo-cab",
+      "title": "Neo Cab",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/neo-cab-gog/dp/amzn1.pg.item.e2868d3e-ca75-4dd1-93ce-ef343e126305?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fb5a65acb6b398b21d74647ce67a47b8826dfcd8833ad72e62483e72952bbbfeb.png&w=480&output=webp&q=80",
+      "end_date": "2026-05-27T11:59:59.000Z",
+      "end_date_formatted": "Wed, 27 May · 11:59 UTC",
+      "first_seen": "2026-04-23 19:44:27",
+      "original_price": "$14.99"
+    },
+    {
+      "id": "manual_1776973466618_the-pale-beyond",
+      "title": "The Pale Beyond",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/the-pale-beyond-gog/dp/amzn1.pg.item.7791491d-6134-4109-b285-1b7f1b79f07a?g=s&ingress=amzn&ref_=SM_ThePaleBeyond_S01_FGWP_CRWN",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fdb4e16dc43f196b3641b0f69158fa480bf77748439f82fb611d24034e19f42dc.png&w=480&output=webp&q=80",
+      "end_date": "2026-05-27T11:59:59.000Z",
+      "end_date_formatted": "Wed, 27 May · 11:59 UTC",
+      "first_seen": "2026-04-23 19:44:27",
+      "original_price": "$19.99"
+    },
+    {
+      "id": "manual_1777579884068_fantasy-general-ii-invasion",
+      "title": "Fantasy General II - Invasion",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/fantasy-general-gog/dp/amzn1.pg.item.9d4ded3f-a772-485b-8fb8-0868631044fb?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2F81473b367717fe18c4b629cdc299fba72e44c9bb39a0236609f0b1736c4cbb4d.png&w=480&output=webp&q=80",
+      "end_date": "2026-05-30T11:59:59.000Z",
+      "end_date_formatted": "Sat, 30 May · 11:59 UTC",
+      "first_seen": "2026-04-30 20:11:24",
+      "original_price": "$39.99"
+    },
+    {
       "id": "gp_3394",
       "title": "Rose and Cross",
       "storefront": "itchio",
@@ -110,6 +146,18 @@
       "original_price": "$6.99"
     },
     {
+      "id": "manual_1777579884068_kinnikuneko-super-muscle-cat",
+      "title": "KinnikuNeko: SUPER MUSCLE CAT",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/kinnikuneko-super-muscle-cat-epic/dp/amzn1.pg.item.1ddb7652-affd-420e-a2af-9b0a2ba70ac1/details?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F3ad882527ee2481ea4d90dbee3c921a4%2Fkinnikuneko-super-muscle-cat-1wxkk.png&w=480&output=webp&q=80",
+      "end_date": "2026-06-01T11:59:59.000Z",
+      "end_date_formatted": "Mon, 1 Jun · 11:59 UTC",
+      "first_seen": "2026-04-30 20:11:24",
+      "original_price": "NZ$26.49"
+    },
+    {
       "id": "gp_905",
       "title": "Larger Than Light",
       "storefront": "itchio",
@@ -120,6 +168,18 @@
       "end_date_formatted": "Mon, 1 Jun · 23:59 UTC",
       "first_seen": "2026-05-08 21:59:31",
       "original_price": "$5.00"
+    },
+    {
+      "id": "manual_1777579884068_pinball-spire",
+      "title": "Pinball Spire",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/pinball-spire-gog/dp/amzn1.pg.item.76919ab0-9718-4c3d-9433-9484478f32b0?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fc1c095aa9760c31002088b35a853c3346e8395c216f85eba33f5102833f85514.png&w=480&output=webp&q=80",
+      "end_date": "2026-06-03T11:59:59.000Z",
+      "end_date_formatted": "Wed, 3 Jun · 11:59 UTC",
+      "first_seen": "2026-04-30 20:11:24",
+      "original_price": "$14.99"
     },
     {
       "id": "manual_1778185556623_fruitbus",
@@ -146,64 +206,40 @@
       "original_price": "$29.99"
     },
     {
-      "id": "manual_1776973466618_neo-cab",
-      "title": "Neo Cab",
+      "id": "manual_1778790558547_60-minutes-to-extinction-escape-room",
+      "title": "60 Minutes to Extinction: Escape Room",
       "storefront": "amazon",
       "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/neo-cab-gog/dp/amzn1.pg.item.e2868d3e-ca75-4dd1-93ce-ef343e126305?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fb5a65acb6b398b21d74647ce67a47b8826dfcd8833ad72e62483e72952bbbfeb.png&w=480&output=webp&q=80",
-      "end_date": "2026-06-26T11:59:59.000Z",
-      "end_date_formatted": "Fri, 26 Jun · 11:59 UTC",
-      "first_seen": "2026-04-23 19:44:27",
-      "original_price": "$14.99"
+      "store_url": "https://luna.amazon.com/claims/60-minutes-to-extinction-escape-room-gog/dp/amzn1.pg.item.15f8ec7c-efc1-4422-846a-627acfd66b46?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fc6e2d2635913aeca2753ad5a42ccc046283fa84b91f802cef963feb2b4528a22.png&w=480&output=webp&q=80",
+      "end_date": "2026-06-24T11:59:59.000Z",
+      "end_date_formatted": "Wed, 24 Jun · 11:59 UTC",
+      "first_seen": "2026-05-14 20:29:19",
+      "original_price": "$7.99"
     },
     {
-      "id": "manual_1776973466618_the-pale-beyond",
-      "title": "The Pale Beyond",
+      "id": "manual_1778790558547_survival-fountain-of-youth",
+      "title": "Survival: Fountain of Youth",
       "storefront": "amazon",
       "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/the-pale-beyond-gog/dp/amzn1.pg.item.7791491d-6134-4109-b285-1b7f1b79f07a?g=s&ingress=amzn&ref_=SM_ThePaleBeyond_S01_FGWP_CRWN",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fdb4e16dc43f196b3641b0f69158fa480bf77748439f82fb611d24034e19f42dc.png&w=480&output=webp&q=80",
-      "end_date": "2026-06-26T11:59:59.000Z",
-      "end_date_formatted": "Fri, 26 Jun · 11:59 UTC",
-      "first_seen": "2026-04-23 19:44:27",
-      "original_price": "$19.99"
+      "store_url": "https://luna.amazon.com/claims/survival-fountain-of-youth-aga/dp/amzn1.pg.item.35fc21f8-36dc-4f75-903b-795b97b13cc5?g=s&ingress=amzn&ref_=SM_SurvivalFountainofYouth_S01_FGWP_CRWN",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fmedia.rawg.io%2Fmedia%2Fscreenshots%2F63a%2F63adf8b34db6cbac2c5a401bd82eec57.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-06-24T11:59:59.000Z",
+      "end_date_formatted": "Wed, 24 Jun · 11:59 UTC",
+      "first_seen": "2026-05-14 20:29:19",
+      "original_price": "$27.99"
     },
     {
-      "id": "manual_1777579884068_fantasy-general-ii-invasion",
-      "title": "Fantasy General II - Invasion",
+      "id": "manual_1778790558547_lethal-honor-order-of-the-apocalypse",
+      "title": "Lethal Honor - Order of the Apocalypse",
       "storefront": "amazon",
       "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/fantasy-general-gog/dp/amzn1.pg.item.9d4ded3f-a772-485b-8fb8-0868631044fb?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2F81473b367717fe18c4b629cdc299fba72e44c9bb39a0236609f0b1736c4cbb4d.png&w=480&output=webp&q=80",
-      "end_date": "2026-06-29T11:59:59.000Z",
-      "end_date_formatted": "Mon, 29 Jun · 11:59 UTC",
-      "first_seen": "2026-04-30 20:11:24",
-      "original_price": "$39.99"
-    },
-    {
-      "id": "manual_1777579884068_pinball-spire",
-      "title": "Pinball Spire",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/pinball-spire-gog/dp/amzn1.pg.item.76919ab0-9718-4c3d-9433-9484478f32b0?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fc1c095aa9760c31002088b35a853c3346e8395c216f85eba33f5102833f85514.png&w=480&output=webp&q=80",
-      "end_date": "2026-07-03T11:59:59.000Z",
-      "end_date_formatted": "Fri, 3 Jul · 11:59 UTC",
-      "first_seen": "2026-04-30 20:11:24",
-      "original_price": "$14.99"
-    },
-    {
-      "id": "manual_1777579884068_kinnikuneko-super-muscle-cat",
-      "title": "KinnikuNeko: SUPER MUSCLE CAT",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/kinnikuneko-super-muscle-cat-epic/dp/amzn1.pg.item.1ddb7652-affd-420e-a2af-9b0a2ba70ac1/details?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F3ad882527ee2481ea4d90dbee3c921a4%2Fkinnikuneko-super-muscle-cat-1wxkk.png&w=480&output=webp&q=80",
-      "end_date": "2026-07-03T11:59:59.000Z",
-      "end_date_formatted": "Fri, 3 Jul · 11:59 UTC",
-      "first_seen": "2026-04-30 20:11:24",
-      "original_price": "NZ$26.49"
+      "store_url": "https://luna.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F859ee4dc843d49efaa8c816bd187784d%2Flethal-honor--order-of-the-apocalypse-9rb3i.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-06-24T11:59:59.000Z",
+      "end_date_formatted": "Wed, 24 Jun · 11:59 UTC",
+      "first_seen": "2026-05-14 20:29:19",
+      "original_price": "NZ$42.49"
     },
     {
       "id": "gp_3096",
