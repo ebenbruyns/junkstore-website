@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/make-way/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.7
+protondb_total: 20
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Ice BEAM
@@ -19,10 +27,15 @@ developer: Secret Mode
 genre: Action, Party, Racing
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "August 28, 2025"
 game_modes: ["Single player","Multiplayer"]
-languages: ["English","French","German","Italian","Spanish (Spain)","Japanese","Korean","Chinese (Simplified)","Chinese (Traditional)"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-08-28T15:00:00.000Z","end":"2025-09-04T15:00:00.000Z","type":null,"id":"5e416c7c1444483e828899b0c30ce2cd"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2 Hours"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Make_Way"
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/make-way?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15926"
+opencritic_url: "https://opencritic.com/game/15926/-"
+opencritic_score: 79
+opencritic_review_count: 6
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003237"
+playstation_url: "https://store.playstation.com/en-us/concept/10003237"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/bloons-td-6/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.87
+protondb_total: 730
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Ninja Kiwi
@@ -19,10 +27,15 @@ developer: Ninja Kiwi
 genre: Strategy
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"18","descriptors":"Violência fantasiosa"}}
 release_date: "January 24, 2025"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English","French","Italian","German","Danish","Finnish","Japanese","Korean","Norwegian","Portuguese - Brazil"]
+languages: ["English","French","Italian","German","Danish","Finnish","Japanese","Korean","Norwegian","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Traditional Chinese","Turkish","Polish","Spanish - Spain","Arabic","Dutch","Thai"]
+languages_audio: []
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"39070","name":"iOS"}]
+size: ""
+franchise_siblings: [{"rawg_id":6898,"slug":"bloons-td-5","name":"Bloons TD 5"},{"rawg_id":6498,"slug":"bloons-td-4","name":"Bloons TD 4"},{"rawg_id":1621,"slug":"bloons-td","name":"Bloons TD"},{"rawg_id":407890,"slug":"bloons-tower-defense-3","name":"Bloons Tower Defense 3"},{"rawg_id":407888,"slug":"bloons-tower-defense-2","name":"Bloons Tower Defense 2"}]
+franchise_slug: "bloons-td|bloons-td-4|bloons-td-5|bloons-td-6|bloons-tower-defense-2|bloons-tower-defense-3"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "36.4 hrs"
 hltb_main_extra: "117.2 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bloons_TD_6"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/bloons-td-6/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,6 @@ is_featured: false
 owned: true
 ---
 
-The Bloons are back and better than ever! Craft your perfect defense from a combination of awesome monkey towers, upgrades, Heroes, and activated abilities, then pop every last Bloon that comes your way!
+Mega Popular Tower Defense
+
+Craft your perfect defense from a combination of powerful Monkey Towers and awesome Heroes, then pop every last invading Bloon!

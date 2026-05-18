@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/obduction/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.64
+protondb_total: 58
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Cyan Worlds
 developer: Cyan Worlds
 genre: Adventure, Adventure, Adventure, Adventure, Adventure
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: e10 (ESRB)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Language"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "August 24, 2016"
-game_modes: ["Single player"]
-languages: ["Dutch","English","French","German","Italian","Polish","Portuguese","Russian","Spanish","Turkish","zh-Hans"]
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Polish","Dutch","Portuguese - Brazil"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+size: "4853 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11.5 hrs"
 hltb_main_extra: "15 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/306760"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Obduction"
 metacritic_score: 76
-metacritic_url: "https://www.metacritic.com/game/pc/obduction?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/obduction/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "3166"
+opencritic_url: "https://opencritic.com/game/3166/-"
+opencritic_score: 72
+opencritic_review_count: 37
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-From Cyan, the indie studio that brought you Myst and Riven comes a whole new adventure that will become your world.
-
-The new worlds of Obduction reveal their secrets only as you explore, coax, and consider them. And as you bask in the otherworldly beauty and explore through the enigmatic landscapes, remember that the choices you make will have substantial consequences. This is your story now.
+A sci-fi adventure from Cyan, the creators of Myst. Abducted far across the universe, you find yourself on a broken alien landscape with odd pieces of Earth. Explore, uncover, solve, and find a way to make it home.

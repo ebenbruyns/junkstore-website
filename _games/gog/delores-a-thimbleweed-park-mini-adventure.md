@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/delores-a-thimbleweed-park-mini-adventure/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.32
+protondb_total: 19
+protondb_confidence: "good"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Terrible Toybox
@@ -19,10 +27,15 @@ developer: Terrible Toybox
 genre: Adventure, Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "May 9, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"193","name":"Classic"},{"id":"123","name":"Comedy"},{"id":"79","name":"Free to Play"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"271","name":"Remake"},{"id":"142","name":"Detective"},{"id":"243","name":"1990's"},{"id":"284","name":"Cult Classic"}]
+size: "68 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "1.5 hrs"
 hltb_main_extra: "2 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Delores%3A_A_Thimbleweed_Park_Mini-Adventure"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/delores-a-thimbleweed-park-mini-adventure/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10239"
+opencritic_url: "https://opencritic.com/game/10239/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

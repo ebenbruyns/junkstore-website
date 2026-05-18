@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/gloomhaven/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.67
+protondb_total: 81
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Twin Sails Interactive
@@ -19,10 +27,15 @@ developer: Flaming Fowl Studios, and Saber Interactive Minsk
 genre: Turn-Based, RPG, Strategy
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "September 22, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Polish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "15049 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-09-21T15:00:00.000Z","end":"2022-09-28T15:00:00.000Z","type":null,"id":"9232fdbc352445cc820a54bdc97ed2bb"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "96 hrs"
 hltb_main_extra: "142 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/780290"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gloomhaven"
 metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/gloomhaven?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/gloomhaven/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12137"
+opencritic_url: "https://opencritic.com/game/12137/-"
+opencritic_score: 76
+opencritic_review_count: 31
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10005240"
+playstation_url: "https://store.playstation.com/en-us/concept/10005240"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "You need to link with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-"In Gloomhaven, you play as a team of mercenaries on their own personal quests to go conquer a world of gloomy and wicked decadence. Choose your group members wisely, because in the turmoil of battle you can only rely on your wits, skills and spells to fight your way through the putrid dungeons and forgotten ruins. In this rogue-like dungeon-crawling adaptation of the famous board game, you will journey through terrifying randomly generated dungeons, fight against increasingly horrific and powerful foes…or die trying. "
+Whether you are drawn to Gloomhaven by the call of adventure or by an avid desire for gold glimmering in the dark, your fate will surely be the same. Gloomhaven, the digital adaptation of the acclaimed board game, mixes Tactical-RPG and dungeon-crawling.

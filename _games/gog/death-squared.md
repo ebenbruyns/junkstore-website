@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/death-squared/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.6
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: CIRCLE Entertainment, SMG Studio
 developer: SMG Studio
 genre: Strategy, Indie, Platform, Puzzle, Tactical
 franchise: 
-age_rating_summary: 
+age_rating_summary: E (ESRB) · 3 (PEGI)
+age_ratings: {"esrb":{"rating":"E","descriptors":"Alcohol reference"},"pegi":{"rating":"3","descriptors":"NONE"},"usk":{"rating":"0"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"A"},"csrr":{"rating":"G"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "March 13, 2017"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Single-player"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"4","name":"Funny"},{"id":"49","name":"Difficult"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"11669","name":"stats"},{"id":"107","name":"Family Friendly"},{"id":"165","name":"Colorful"},{"id":"197","name":"Robots"},{"id":"148","name":"Dark Humor"},{"id":"1867","name":"puzzles"},{"id":"116","name":"2.5D"},{"id":"182","name":"4 Player Local"},{"id":"112","name":"Minimalist"},{"id":"625","name":"party"},{"id":"153","name":"Satire"},{"id":"309","name":"Dynamic Narration"},{"id":"163","name":"Co-op Campaign"},{"id":"202","name":"Artificial Intelligence"},{"id":"332","name":"Intentionally Awkward Controls"}]
+size: "136 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "7.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/death_squared"
 protondb_url: "https://www.protondb.com/app/471810"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death_Squared"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/death-squared/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "3935"
+opencritic_url: "https://opencritic.com/game/3935/-"
+opencritic_score: 74
+opencritic_review_count: 51
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box, however multiplayer seems to be local co-op only

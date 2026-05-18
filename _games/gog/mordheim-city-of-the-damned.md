@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/mordheim-city-of-the-damned/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "June '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.74
+protondb_total: 31
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Focus Entertainment
@@ -19,10 +27,15 @@ developer: Rogue Factor
 genre: Role-playing (RPG), Strategy, Tactical
 franchise: 
 age_rating_summary: PEGI 16
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "November 19, 2015"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"115","name":"Controller"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"40","name":"Dark Fantasy"},{"id":"66","name":"Medieval"},{"id":"101","name":"Turn-Based Strategy"},{"id":"170","name":"Competitive"},{"id":"196","name":"Procedural Generation"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"124","name":"Perma Death"},{"id":"162","name":"Board Game"},{"id":"230","name":"Tactical RPG"},{"id":"29","name":"Games Workshop"}]
+size: "4973 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "15.5 hrs"
 hltb_main_extra: "56.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/276810"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mordheim%3A_City_of_the_Damned"
 metacritic_score: 74
-metacritic_url: "https://www.metacritic.com/game/pc/mordheim-city-of-the-damned?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/mordheim-city-of-the-damned/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "2027"
+opencritic_url: "https://opencritic.com/game/2027/-"
+opencritic_score: 70
+opencritic_review_count: 29
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

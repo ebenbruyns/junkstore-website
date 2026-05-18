@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/vampire-the-masquerade-bloodlines/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.7
+protondb_total: 99
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Activision, Electronic Arts
 developer: Troika Games
 genre: role-playing
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Themes, Strong Language"}}
 release_date: "November 1, 2004"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Single-player"]
+languages: ["English","French","German"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"15","name":"Stealth"},{"id":"97","name":"Action RPG"},{"id":"41","name":"Dark"},{"id":"284","name":"Cult Classic"},{"id":"279","name":"Supernatural"},{"id":"204","name":"Gothic"},{"id":"338","name":"cloud saves"},{"id":"300","name":"Vampire"}]
+size: "2659 MB"
+franchise_siblings: [{"rawg_id":303576,"slug":"vampire-the-masquerade-bloodlines-2","name":"Vampire: The Masquerade – Bloodlines 2"},{"rawg_id":462685,"slug":"vampire-the-masquerade-swansong","name":"Vampire: The Masquerade – Swansong"},{"rawg_id":662357,"slug":"bloodhunt","name":"Vampire: The Masquerade - Bloodhunt"},{"rawg_id":430275,"slug":"vampire-the-masquerade-shadows-of-new-york","name":"Vampire: The Masquerade - Shadows of New York"},{"rawg_id":325034,"slug":"vampire-the-masquerade-coteries-of-new-york","name":"Vampire: The Masquerade - Coteries of New York"},{"rawg_id":22230,"slug":"vampire-the-masquerade-redemption","name":"Vampire: The Masquerade - Redemption"}]
+franchise_slug: "bloodhunt|vampire-the-masquerade-bloodli|vampire-the-masquerade-bloodli|vampire-the-masquerade-coterie|vampire-the-masquerade-redempt|vampire-the-masquerade-shadows|vampire-the-masquerade-swanson"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "22.5 hrs"
 hltb_main_extra: "28.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/2600"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vampire%3A_The_Masquerade_-_Bloodlines"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/vampire-the-masquerade---bloodlines?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/vampire-the-masquerade-bloodlines/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

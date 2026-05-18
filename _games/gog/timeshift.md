@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/timeshift/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "unknown"
 date_tested: "March '25"
 proton_version: "Proton 9.0-4"
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.37
+protondb_total: 22
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Activision, Sierra Entertainment
 developer: Saber Interactive
 genre: puzzle, shooter
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Language"},"pegi":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"descriptors":"%NZoflcDescriptors%"}}
 release_date: "October 1, 2007"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Multi-player","Single-player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"8","name":"First-Person"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"122","name":"Pixel Graphics"},{"id":"114","name":"Physics"},{"id":"167","name":"Futuristic"},{"id":"572","name":"Emotional"},{"id":"317","name":"Time Travel"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"308","name":"Bullet Time"},{"id":"302","name":"Time Manipulation"},{"id":"49955","name":"Puzzle Platformer"}]
+size: "2828 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "9 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/timeshift"
 protondb_url: "https://www.protondb.com/app/10130"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/TimeShift"
-metacritic_score: 71
-metacritic_url: "https://www.metacritic.com/game/pc/timeshift?ftag=MCD-06-10aaa1f"
+metacritic_score: 70
+metacritic_url: "https://www.metacritic.com/game/timeshift-2007/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. Use alternate executable: `./bin/TimeShift.exe`. Tested with Proton 9.0-4"

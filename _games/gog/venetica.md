@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/venetica/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.73
+protondb_total: 15
+protondb_confidence: "moderate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Atari, Inc., DTP Entertainment
 developer: Deck13 Interactive
 genre: Role-playing (RPG), Adventure, Indie
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Mild Blood, Mild Suggestive Themes, Violence"},"pegi":{"rating":"16","descriptors":"Realistic looking violence"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Nudez, Violência"}}
 release_date: "September 4, 2009"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Cloud saves","Single-player"]
+languages: ["English","German","French","Italian","Spanish - Spain"]
+languages_audio: ["English","German"]
 tags_structured: []
+size: "6353 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "18.5 hrs"
 hltb_main_extra: "21.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/338140"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Venetica"
 metacritic_score: 61
-metacritic_url: "https://www.metacritic.com/game/pc/venetica?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/venetica/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

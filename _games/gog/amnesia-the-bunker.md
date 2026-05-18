@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/amnesia-the-bunker/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.73
+protondb_total: 48
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Frictional Games
@@ -19,10 +27,15 @@ developer: Frictional Games
 genre: adventure, indie, puzzle, shooter
 franchise: Amnesia
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo"}}
 release_date: "June 6, 2023"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"}]
+size: "8804 MB"
+franchise_siblings: [{"rawg_id":427519,"slug":"amnesia-rebirth","name":"Amnesia: Rebirth"},{"rawg_id":13268,"slug":"amnesia-a-machine-for-pigs","name":"Amnesia: A Machine for Pigs"},{"rawg_id":13668,"slug":"amnesia-the-dark-descent","name":"Amnesia: The Dark Descent"}]
+franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|amnesia-the-dark-descent"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "7 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia:_The_Bunker"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/amnesia-the-bunker/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15036"
+opencritic_url: "https://opencritic.com/game/15036/-"
+opencritic_score: 77
+opencritic_review_count: 97
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: Works out of the box on the Decky plugin version.
 controller_config: 
@@ -81,4 +111,6 @@ is_featured: false
 owned: true
 ---
 
-Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker. Face the oppressing terrors stalking the dark corridors.
+Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker.
+
+Face the oppressing terrors stalking in the dark. Search for and use the tools and weapons at your disposal. Keep the lights on at all costs and make your way out alive.

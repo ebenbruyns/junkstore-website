@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tetris-effect/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "May '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.85
+protondb_total: 146
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Enhance
 developer: Resonair, Monstars
 genre: Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: G (OFLC)
+age_ratings: {"oflc":{"rating":"G"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
 release_date: "July 23, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Thai","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1159","name":"Arcade"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1179","name":"VR"}]
+size: ""
+franchise_siblings: [{"rawg_id":58818,"slug":"tetris-effect","name":"Tetris Effect"}]
+franchise_slug: "tetris-effect|tetris-effect-connected"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,19 +68,36 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2.8 hrs"
 hltb_main_extra: "9.8 hrs"
 hltb_completionist: "52.2 hrs"
-hltb_url: "https://howlongtobeat.com/game/57523"
+hltb_url: "https://howlongtobeat.com/game/84923"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tetris-effect"
 protondb_url: "https://www.protondb.com/app/1003590"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tetris_Effect%3A_Connected"
-metacritic_score: 93
-metacritic_url: "https://www.metacritic.com/game/pc/tetris-effect-connected?ftag=MCD-06-10aaa1f"
+metacritic_score: 89
+metacritic_url: "https://www.metacritic.com/game/tetris-effect/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10254"
+opencritic_url: "https://opencritic.com/game/10254/-"
+opencritic_score: 89
+opencritic_review_count: 67
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

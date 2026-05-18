@@ -7,11 +7,19 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/amelie/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Two and a Half Studios
@@ -19,10 +27,15 @@ developer: Two and a Half Studios
 genre: Indie, Simulator, Visual Novel
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Atos criminosos"}}
 release_date: "December 16, 2021"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese"]
+languages_audio: []
 tags_structured: []
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1 Hours"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amelie"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/amelie/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box. You may need to reset launch options if it doesn't launch first go."

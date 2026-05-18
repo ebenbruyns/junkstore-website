@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/mullet-madjack/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.85
+protondb_total: 33
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Epopeia Games, HAMMER95
@@ -19,10 +27,15 @@ developer: HAMMER95
 genre: Indie, Shooter
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Drogas lícitas"}}
 release_date: "May 1, 2024"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Leaderboards","Overlay","Single-player"]
+languages: ["English","Japanese","Portuguese - Brazil","Spanish - Spain","Russian","Korean","Polish","Simplified Chinese","Traditional Chinese","Spanish - Latin America","Ukrainian","French","Italian"]
+languages_audio: ["English","Portuguese - Brazil"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"40850","name":"Steam Leaderboards"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"571","name":"3D"},{"id":"131","name":"Fast-Paced"},{"id":"226","name":"Cyberpunk"},{"id":"640","name":"Roguelite"},{"id":"197","name":"Robots"},{"id":"243","name":"1990's"},{"id":"166","name":"Stylized"},{"id":"116","name":"2.5D"},{"id":"91686","name":"Family Sharing"},{"id":"224","name":"1980s"},{"id":"54","name":"Score Attack"},{"id":"88047","name":"boomer shooter"}]
+size: "3670 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/2111190"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mullet_MadJack"
 metacritic_score: 88
-metacritic_url: "https://www.metacritic.com/game/pc/mullet-madjack?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/mullet-madjack/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16689"
+opencritic_url: "https://opencritic.com/game/16689/-"
+opencritic_score: 88
+opencritic_review_count: 55
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9PG8TV30NN9H"
+xbox_url: "https://www.xbox.com/games/store/-/9PG8TV30NN9H"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

@@ -7,11 +7,19 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/celeste/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.89
+protondb_total: 259
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Maddy Makes Games
@@ -19,10 +27,15 @@ developer: Extremely OK Games
 genre: Adventure, Indie, Platform
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "January 5, 2018"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"1151","name":"Platformer"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "8.3 hrs"
 hltb_main_extra: "14.6 hrs"
@@ -66,8 +82,22 @@ store_url: "https://maddymakesgamesinc.itch.io/celeste"
 protondb_url: "https://www.protondb.com/app/504230"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Celeste"
-metacritic_score: 88
-metacritic_url: "https://www.metacritic.com/game/pc/celeste?ftag=MCD-06-10aaa1f"
+metacritic_score: 92
+metacritic_url: "https://www.metacritic.com/game/celeste/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "5403"
+opencritic_url: "https://opencritic.com/game/5403/-"
+opencritic_score: 92
+opencritic_review_count: 74
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "BWMQL2RPWBHB"
+xbox_url: "https://www.xbox.com/games/store/-/BWMQL2RPWBHB"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/call-of-juarez-bound-in-blood/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.66
+protondb_total: 38
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Ubisoft Entertainment, Techland
 developer: Techland
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: M (ESRB)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Strong Language, Suggestive Themes, Violence"},"oflc":{"descriptors":"%oflcDescriptors%"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Atos criminosos"}}
 release_date: "June 30, 2009"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Multi-player","Overlay","Single-player"]
+languages: ["English","French","German","Italian","Spanish - Spain"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"89","name":"Historical"},{"id":"152","name":"Western"},{"id":"308","name":"Bullet Time"}]
+size: "3761 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "8 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/call_of_juarez_bound_in_blood"
 protondb_url: "https://www.protondb.com/app/21980"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.protondb.com/app/21980"
-metacritic_score: 78
-metacritic_url: "https://www.metacritic.com/game/pc/call-of-juarez-bound-in-blood?ftag=MCD-06-10aaa1f"
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/call-of-juarez-bound-in-blood/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

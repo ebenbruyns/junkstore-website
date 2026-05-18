@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/empty-shell/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 7
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Hyperstrange
@@ -19,10 +27,15 @@ developer: CC ARTS
 genre: Action, Adventure, Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Linguagem imprópria"}}
 release_date: "October 16, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
 languages: ["English","Italian","German","Russian","French","Spanish - Spain","Japanese","Simplified Chinese"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"40850","name":"Steam Leaderboards"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"41","name":"Dark"},{"id":"74","name":"Retro"},{"id":"17","name":"Survival Horror"},{"id":"1465","name":"combat"},{"id":"639","name":"Roguelike"},{"id":"61","name":"Top-Down"},{"id":"640","name":"Roguelite"},{"id":"49964","name":"Action Roguelike"},{"id":"570","name":"Old School"}]
+size: "127 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "8.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Empty_Shell"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/empty-shell/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16540"
+opencritic_url: "https://opencritic.com/game/16540/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10010361"
+playstation_url: "https://store.playstation.com/en-us/concept/10010361"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

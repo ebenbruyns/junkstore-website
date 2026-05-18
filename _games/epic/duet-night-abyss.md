@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/duet-night-abyss/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.51
+protondb_total: 65
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Hong Kong Spiral Rising Technology Co., Limited
@@ -19,10 +27,15 @@ developer: Pan Studio
 genre: RPG, Action-Adventure, Open World
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"18","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "October 26, 2025"
 game_modes: ["Single-player","Multi-player","Co-op"]
-languages: ["English*","Japanese*","Simplified Chinese*","Traditional Chinese*","Korean**languages with full audio support"]
+languages: ["English","Japanese","Simplified Chinese","Traditional Chinese","Korean","French"]
+languages_audio: ["English","Japanese","Simplified Chinese","Traditional Chinese","Korean"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "331 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Duet_Night_Abyss"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/duet-night-abyss/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "19167"
+opencritic_url: "https://opencritic.com/game/19167/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Once everything is installed and downloaded it works out of the box!\n\n**Note:** You need to make sure you have the correct account selected in order to successfully login. I had a few login failed until I saw the account icon on the right side of the screen and made sure I had an account selected. You may only have this issue if you have logged on from a different device previously."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Duet Night Abyss is a fantasy adventure RPG with a high degree of freedom developed by Hero Games' Pan Studio. The game features "Multiple Weapon Loadouts x 3D Combat" at its core, and tells the story of "Demons" from dual perspectives.
+Duet Night Abyss is a fantasy adventure RPG with a high degree of freedom. The game features "Multiple Weapon Loadouts x 3D Combat" at its core, and tells the story of "Demons" from dual perspectives.

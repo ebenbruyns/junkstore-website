@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/league-of-legends/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "not-supported"
 date_tested: ""
 proton_version: ""
 
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: ""
+steam_deck_category: 
+
 # Game Info
-publisher: Riot Games, Inc.  
-developer: Riot Games, Inc.  
+publisher: Riot Games, Inc.
+developer: Riot Games, Inc.
 genre: Action, RPG, Strategy
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {}
 release_date: "November 4, 2021"
 game_modes: ["Co-operative","Multiplayer"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"10719","name":"Mac OS"}]
+size: ""
+franchise_siblings: [{"rawg_id":383518,"slug":"league-of-legends-esports-manager","name":"League of Legends Esports Manager"},{"rawg_id":383516,"slug":"league-of-legends-wild-rift","name":"League of Legends: Wild Rift"},{"rawg_id":383515,"slug":"legends-of-runeterra","name":"Legends of Runeterra"}]
+franchise_slug: "league-of-legends|league-of-legends-esports-mana|league-of-legends-wild-rift|legends-of-runeterra"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: true
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -69,8 +85,22 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/League_of_Legends"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/league-of-legends/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
-notes: "Anti-cheat prevents this game from running on Steam Deck."
+notes: Anti-cheat prevents this game from running on Steam Deck.
 controller_config: 
 performance_notes: 
 known_issues: 

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/centipede-recharged/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.41
+protondb_total: 10
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Atari
@@ -19,10 +27,15 @@ developer: Nickervision Studios
 genre: Action, Shooter
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "September 29, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-03-02T15:00:00.000Z","end":"2022-03-09T15:00:00.000Z","type":null,"id":"b44a2808223f4cd0a8ca1376410b5460"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "2.1 hrs"
 hltb_main_extra: "3 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Centipede%3A_Recharged"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/centipede-recharged/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12032"
+opencritic_url: "https://opencritic.com/game/12032/-"
+opencritic_score: 71
+opencritic_review_count: 13
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003319"
+playstation_url: "https://store.playstation.com/en-us/concept/10003319"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-The original bug-blasting arcade game is back! Centipede: Recharged has been reimagined for modern gameplay, with vibrant visuals designed for modern screens, a 16:9 field of play, and an original soundtrack from award-winning video game composer Megan McDuffee. Aim for a high score in the old school arcade mode and earn bragging rights with your name at the top of the leaderboard. Or test your skills and rank on the boards in one of 30 intensely creative challenges, which twist the gameplay in new and exciting ways. A dozen new power-ups can give you an edge by introducing abilities like screen-clearing explosions, rail guns, and even slowing down time. Every mode and level is playable in local co-op mode with a friend.
+Blast bugs and chase high scores in this glorious revival of an old-school classic, all while jamming to a heart-pounding original score by Megan McDuffee. Play solo or tag in a friend for local co-op across 30 unique challenges or the endless arcade mode.

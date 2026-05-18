@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/mail-time/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 7
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Freedom Games
@@ -19,10 +27,15 @@ developer: Kela van der Deijl
 genre: Adventure, Indie, Platform
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "April 27, 2023"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Portuguese - Brazil"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"138","name":"Relaxing"},{"id":"166","name":"Stylized"},{"id":"164","name":"Cartoony"},{"id":"572","name":"Emotional"},{"id":"59643","name":"Протагонистка"},{"id":"42410","name":"LGBTQ+"},{"id":"146","name":"Nonlinear"},{"id":"342","name":"Conversation"}]
+size: "718 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2 hrs"
 hltb_main_extra: "2.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mail_Time"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/mail-time/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14860"
+opencritic_url: "https://opencritic.com/game/14860/-"
+opencritic_score: 71
+opencritic_review_count: 19
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10007341"
+playstation_url: "https://store.playstation.com/en-us/concept/10007341"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

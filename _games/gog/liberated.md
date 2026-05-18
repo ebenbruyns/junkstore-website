@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/liberated/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Walkabout Games
@@ -19,10 +27,15 @@ developer: Atomic Wolf
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
 age_rating_summary: ESRB 17
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Drogas lícitas, Linguagem imprópria"}}
 release_date: "June 2, 2020"
-game_modes: ["Single player"]
-languages: ["English","French","German","Polish","Portuguese","Portuguese (Brazil)","Russian","Spanish","zh-Hans"]
-tags_structured: []
+game_modes: ["Achievements","Controller support","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Portuguese - Brazil","Japanese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"41","name":"Dark"},{"id":"167","name":"Futuristic"},{"id":"119","name":"Dystopian"},{"id":"90","name":"Visual Novel"},{"id":"209","name":"Drama"},{"id":"258","name":"Hand-drawn"},{"id":"200","name":"Narration"},{"id":"268","name":"Comic Book"},{"id":"289","name":"Noir"},{"id":"227","name":"Hacking"},{"id":"228","name":"Programming"}]
+size: "1421 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "4 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/liberated"
 protondb_url: "https://www.protondb.com/app/875310"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Liberated"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 59
+metacritic_url: "https://www.metacritic.com/game/liberated/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9568"
+opencritic_url: "https://opencritic.com/game/9568/-"
+opencritic_score: 60
+opencritic_review_count: 41
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

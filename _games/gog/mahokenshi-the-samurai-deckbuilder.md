@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/mahokenshi-the-samurai-deckbuilder/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.3
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Iceberg Interactive
@@ -19,10 +27,15 @@ developer: Game Source Studio
 genre: RPG
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "January 24, 2023"
-game_modes: ["Single-player"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Portuguese - Portugal"]
+game_modes: ["Cloud saves","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: []
+size: "2083 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "13.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/mahokenshi"
 protondb_url: "https://www.protondb.com/app/1717640"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mah%C5%8Dkenshi"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/mahokenshi/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14213"
+opencritic_url: "https://opencritic.com/game/14213/-"
+opencritic_score: 76
+opencritic_review_count: 25
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

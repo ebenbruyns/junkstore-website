@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/moonscars/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 12
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Humble Games
@@ -19,10 +27,15 @@ developer: Black Mermaid
 genre: "Adventure, Indie, Platform, Hack and slash/Beat 'em up"
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Linguagem imprópria, Nudez"}}
 release_date: "September 27, 2022"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Japanese","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil","Turkish","Ukrainian"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"68","name":"Hack and Slash"},{"id":"113","name":"Side Scroller"},{"id":"259","name":"Metroidvania"},{"id":"166","name":"Stylized"},{"id":"59643","name":"Протагонистка"},{"id":"580","name":"Souls-like"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"}]
+size: "260 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8.5 hrs"
 hltb_main_extra: "11.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Moonscars"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/moonscars/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13731"
+opencritic_url: "https://opencritic.com/game/13731/-"
+opencritic_score: 73
+opencritic_review_count: 44
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10005567"
+playstation_url: "https://store.playstation.com/en-us/concept/10005567"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

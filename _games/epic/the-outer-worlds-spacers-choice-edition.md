@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-outer-worlds-spacers-choice-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.59
+protondb_total: 69
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Microsoft
 developer: Obsidian Entertainment
 genre: Action, RPG, Shooter
 franchise: The Outer Worlds
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Strong Language, Intense Violence, Use of Drugs"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"cero":{"rating":"Z","descriptors":"Crime, Violence"},"oflc":{"rating":"ma15","descriptors":"Strong Themes and Violence"},"nzoflc":{"rating":"r16","descriptors":"Violence"},"kgrb":{"rating":"18","descriptors":"violence, inappropriate language, drugs and crime"},"csrr":{"rating":"R","descriptors":"Violence, Objectionable language"},"dejus":{"rating":"16","descriptors":"Violencia, Linguagem Impropria"}}
 release_date: "March 7, 2023"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Polish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-04-03T15:00:00.000Z","end":"2024-04-10T15:00:00.000Z","type":null,"id":"0769596f15a445b7a5ad3f8d7c7730e2"},{"start":"2023-12-24T15:00:00.000Z","end":"2023-12-25T15:00:00.000Z","type":null,"id":"0769596f15a445b7a5ad3f8d7c7730e2"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "17.5 hrs"
 hltb_main_extra: "37 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Outer_Worlds%3A_Spacer'
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/the-outer-worlds-spacers-choice-edition/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14404"
+opencritic_url: "https://opencritic.com/game/14404/-"
+opencritic_score: 81
+opencritic_review_count: 19
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004825"
+playstation_url: "https://store.playstation.com/en-us/concept/10004825"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-The Outer Worlds: Spacer's Choice Edition is the ultimate way to play the award-winning RPG from Obsidian Entertainment and Private Division. Including the base game and all DLC, this remastered masterpiece is the absolute best version of The Outer Worlds.
+The Outer Worlds: Spacer’s Choice Edition is the ultimate way to play the award-winning RPG from Obsidian Entertainment and Private Division. Including the base game and all DLC, this remastered masterpiece is the absolute best version of The Outer Worlds.

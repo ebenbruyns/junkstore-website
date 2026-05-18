@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/naheulbeuks-dungeon-master/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.68
+protondb_total: 8
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Dear Villagers
@@ -19,10 +27,15 @@ developer: Artefacts Studio
 genre: Strategy, Simulator
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Drogas lícitas"}}
 release_date: "November 15, 2023"
 game_modes: ["Single player"]
-languages: ["English*","French*","German*","Spanish - Spain","Polish","Russian","Simplified Chinese*languages with full audio support"]
-tags_structured: []
+languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese"]
+languages_audio: ["English","French","German"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"123","name":"Comedy"},{"id":"107","name":"Family Friendly"},{"id":"5","name":"Replay Value"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"66","name":"Medieval"},{"id":"39","name":"Building"},{"id":"67","name":"Management"},{"id":"180","name":"Base Building"},{"id":"164","name":"Cartoony"},{"id":"147","name":"Resource Management"},{"id":"200","name":"Narration"}]
+size: "3913 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: "22 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/naheulbeuks-dungeon-master/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15851"
+opencritic_url: "https://opencritic.com/game/15851/-"
+opencritic_score: 73
+opencritic_review_count: 7
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004779"
+playstation_url: "https://store.playstation.com/en-us/concept/10004779"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

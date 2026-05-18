@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ghost-song/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.69
+protondb_total: 19
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Humble Games
@@ -19,10 +27,15 @@ developer: Old Moon Games
 genre: Role-playing (RPG), Adventure, Indie, Platform
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Nudez"}}
 release_date: "November 3, 2022"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Japanese","Korean","Russian","Simplified Chinese","Spanish - Latin America"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"32","name":"Sci-fi"},{"id":"259","name":"Metroidvania"}]
+size: "1399 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9.5 hrs"
 hltb_main_extra: "12 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/347800"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghost_Song"
 metacritic_score: 79
-metacritic_url: "https://www.metacritic.com/game/pc/ghost-song?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/ghost-song/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13924"
+opencritic_url: "https://opencritic.com/game/13924/-"
+opencritic_score: 78
+opencritic_review_count: 28
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10005004"
+playstation_url: "https://store.playstation.com/en-us/concept/10005004"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

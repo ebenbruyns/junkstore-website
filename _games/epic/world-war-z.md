@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/world-war-z/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.72
+protondb_total: 93
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Saber Interactive
@@ -19,10 +27,15 @@ developer: Saber Interactive
 genre: Action, Shooter
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
 release_date: "April 16, 2019"
 game_modes: ["Co-op","Multiplayer","Single Player"]
-languages: ["English"]
+languages: ["Russian","English","Spanish - Spain","Traditional Chinese","French","Italian","German","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Japanese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"39940","name":"Gift A Game"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1279","name":"Vampire"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,19 +68,36 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7½ Hours"
 hltb_main_extra: ""
 hltb_completionist: "47 Hours"
-hltb_url: "https://howlongtobeat.com/game/64828"
+hltb_url: "https://howlongtobeat.com/game/98252"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/world-war-z--base-game"
 protondb_url: "https://www.protondb.com/app/699130"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/World_War_Z"
-metacritic_score: 67
-metacritic_url: "https://www.metacritic.com/game/world-war-z/"
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/world-war-z-aftermath/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7513"
+opencritic_url: "https://opencritic.com/game/7513/-"
+opencritic_score: 71
+opencritic_review_count: 129
+twitch_id: ""
+twitch_url: ""
+playstation_id: "230658"
+playstation_url: "https://store.playstation.com/en-us/concept/230658"
+xbox_id: "9PLCL2VB2SC0"
+xbox_url: "https://www.xbox.com/games/store/-/9PLCL2VB2SC0"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/hexguardian/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Yogscast Games
@@ -19,10 +27,15 @@ developer: Split Second Games
 genre: Tower Defense, Rogue-Lite, Strategy
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "February 4, 2026"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian"]
+languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/hexguardian/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16653"
+opencritic_url: "https://opencritic.com/game/16653/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Hexguardian is a roguelite, tower defense game where you build your own maps with hexagonal tiles! Build and upgrade towers, recruit armies, learn spells, construct wonders and place hexagonal tiles to create a path to enhance your defenses. With plenty of game modes and talents to unlock!
+Hexguardian is a roguelite, tower defense game where you build your own maps with hexagonal tiles! Build and upgrade towers, recruit armies, learn spells, construct wonders and place hexagonal tiles to create a path to enhance your defenses

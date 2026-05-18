@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/the-invisible-hand/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Fellow Traveller
@@ -19,10 +27,15 @@ developer: Power Struggle Games
 genre: Adventure, Strategy, Indie, Simulator
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria"}}
 release_date: "May 7, 2021"
 game_modes: ["Single player"]
-languages: ["English*","Simplified Chinese","French*languages with full audio support"]
-tags_structured: []
+languages: ["English","Simplified Chinese","French"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"}]
+size: "1070 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.5 hrs"
 hltb_main_extra: "7 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/628200"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Invisible_Hand"
 metacritic_score: 69
-metacritic_url: "https://www.metacritic.com/game/pc/the-invisible-hand?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/the-invisible-hand/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11340"
+opencritic_url: "https://opencritic.com/game/11340/-"
+opencritic_score: 73
+opencritic_review_count: 12
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

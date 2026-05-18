@@ -7,22 +7,36 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/true-fear-forsaken-souls-part-1/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.33
+protondb_total: 10
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: The Digital Lounge
 developer: Goblinz Enterprises Ltd
 genre: Adventure, Casual
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"cero":{"rating":"B"},"bbfc":{"rating":"12"},"oflc":{"rating":"M"},"nzoflc":{"rating":"M"},"kgrb":{"rating":"12"},"fpb":{"rating":"13"},"csrr":{"rating":"C12"},"mda":{"rating":"AA16"},"dejus":{"rating":"12"}}
 release_date: "October 19, 2016"
-game_modes: ["Single-player"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Dutch","Russian","Ukrainian","Romanian","Czech"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Russian","Ukrainian","Romanian","Czech","Korean","Japanese","Arabic","Portuguese - Brazil","Traditional Chinese","Simplified Chinese","Turkish","Polish"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"16","name":"Horror"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"40833","name":"Captions available"},{"id":"140","name":"Hidden Object"},{"id":"2114","name":"psychological-horror"}]
+size: "476564186
+"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +69,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4.5 hrs"
 hltb_main_extra: "5.5 hrs"
@@ -68,6 +85,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/True_Fear:_Forsaken_Souls_Part_1"
 metacritic_score: 
 metacritic_url: ""
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "5732"
+opencritic_url: "https://opencritic.com/game/5732/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

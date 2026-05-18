@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-evil-within-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.79
+protondb_total: 61
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Bethesda Softworks
 developer: Tango Gameworks
 genre: Horror, Survival, Shooter
 franchise: The Evil Within
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Partial Nudity, Strong Language"},"pegi":{"rating":"18","descriptors":"Linguagem Imprópria, Violência Extrema"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"High Impact Horror Violence, Blood and Gore"},"nzoflc":{"rating":"r16","descriptors":"Horror, graphic violence, offensive language"},"fpb":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Linguagem Imprópria, Violência Extrema"}}
 release_date: "August 2, 2023"
 game_modes: ["Single player"]
-languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Japanese*","Russian*","Korean","Polish","Portuguese - Brazil*"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Korean","Polish","Portuguese - Brazil","Traditional Chinese","Simplified Chinese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Portuguese - Brazil"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "31893 MB"
+franchise_siblings: [{"rawg_id":3554,"slug":"the-evil-within","name":"The Evil Within"}]
+franchise_slug: "the-evil-within|the-evil-within-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-10-25T15:00:00.000Z","end":"2023-11-01T15:00:00.000Z","type":null,"id":"77693e5298d94911a0edd2492203d9ea"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "13.4 hrs"
 hltb_main_extra: "18.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/the-evil-within-2"
 protondb_url: "https://www.protondb.com/app/601430"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Evil_Within_2"
-metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/the-evil-within-2?ftag=MCD-06-10aaa1f"
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/the-evil-within-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4502"
+opencritic_url: "https://opencritic.com/game/4502/-"
+opencritic_score: 80
+opencritic_review_count: 157
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "C40860J5R2MP"
+xbox_url: "https://www.xbox.com/games/store/-/C40860J5R2MP"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,6 +111,6 @@ is_featured: false
 owned: true
 ---
 
-The Evil Within 2 is the latest evolution of survival horror. Detective Sebastian Castellanos has lost it all. But when given a chance to save his daughter, he must descend once more into the nightmarish world of STEM.
-
-Horrifying threats emerge from every corner as the world twists and warps around him. Will Sebastian face adversity head on with weapons and traps, or sneak through the shadows to survive.
+To save his daughter, Detective Sebastian Castellanos returns to a world of nightmares in The Evil Within 2. 
+ 
+Fight for your life inside a terrifying reality using weapons, traps and stealth in this survival horror follow-up from Tango Gameworks.

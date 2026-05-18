@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/crusader-kings-ii/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.77
+protondb_total: 48
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Paradox Interactive
 developer: Paradox Development Studio
 genre: Role-playing (RPG), Strategy, Simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Mild Language, Mild Violence, Sexual Themes"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language, Sex"},"dejus":{"rating":"12","descriptors":"Conteúdo sexual, Linguagem imprópria, Violência"}}
 release_date: "February 3, 2012"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English","French","German","Spanish"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"37","name":"Sandbox"},{"id":"62","name":"Moddable"},{"id":"121","name":"Character Customization"},{"id":"5","name":"Replay Value"},{"id":"89","name":"Historical"},{"id":"66","name":"Medieval"},{"id":"168","name":"RTS"},{"id":"194","name":"Real-Time with Pause"},{"id":"100","name":"Grand Strategy"},{"id":"86","name":"Education"},{"id":"287","name":"Political"},{"id":"211","name":"Diplomacy"},{"id":"219","name":"Politics"}]
+size: "1420 MB"
+franchise_siblings: [{"rawg_id":384567,"slug":"crusader-kings-iii","name":"Crusader Kings III"},{"rawg_id":35163,"slug":"crusader-kings","name":"Crusader Kings"}]
+franchise_slug: "crusader-kings|crusader-kings-ii|crusader-kings-iii"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "67 hrs"
 hltb_main_extra: "246 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/203770"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Crusader_Kings_II"
 metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/crusader-kings-ii?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/crusader-kings-ii/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

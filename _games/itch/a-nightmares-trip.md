@@ -7,11 +7,19 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-nightmares-trip/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: SKY HOUR WORKS
@@ -19,10 +27,15 @@ developer: SKY HOUR WORKS
 genre: Indie, Visual Novel
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "October 7, 2019"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","Simplified Chinese"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"90","name":"Visual Novel"},{"id":"42410","name":"LGBTQ+"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "1 Hours"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_NIGHTMARE%27S_TRIP"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/a-nightmares-trip/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8845"
+opencritic_url: "https://opencritic.com/game/8845/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."

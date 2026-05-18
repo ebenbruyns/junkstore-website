@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/deathkeep/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.09
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: SNEG
@@ -19,10 +27,15 @@ developer: Lion Entertainment
 genre: Action, Adventure, RPG
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "March 27, 2023"
 game_modes: ["Single-player"]
-languages: ["English**languages with full audio support"]
-tags_structured: []
+languages: ["English"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"8","name":"First-Person"},{"id":"64","name":"Fantasy"},{"id":"97","name":"Action RPG"},{"id":"74","name":"Retro"},{"id":"468","name":"role-playing"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"66","name":"Medieval"},{"id":"82","name":"Magic"},{"id":"48","name":"Dungeon Crawler"},{"id":"243","name":"1990's"},{"id":"265","name":"Class-Based"},{"id":"570","name":"Old School"},{"id":"574","name":"Dungeons & Dragons"},{"id":"329","name":"Mystery Dungeon"}]
+size: "225 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "15 hrs"
 hltb_main_extra: "16 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/DeathKeep"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/advanced-dungeons-and-dragons-deathkeep/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! You may need to adjust the scaling for this game via the QAM."

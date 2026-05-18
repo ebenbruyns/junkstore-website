@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/lumbearjack/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.61
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Armor Games Studios
@@ -19,10 +27,15 @@ developer: FinalBoss Games
 genre: Casual, Puzzle
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "June 11, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Russian","Italian","Arabic","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Simplified Chinese","Spanish - Latin America","Swedish","Thai","Traditional Chinese","Turkish","Ukrainian","Vietnamese"]
+languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21151","name":"Easy Puzzles"}]
+size: "176 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-08-01T15:00:00.000Z","end":"2024-08-08T15:00:00.000Z","type":null,"id":"ed744042986f41f791d295459d75725f"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1.5 hrs"
 hltb_main_extra: "2 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/LumbearJack"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/lumbearjack/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/surf-world-series/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.21
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Vision Games Publishing
 developer: Climax Studios
 genre: Sport, Arcade
 franchise: 
-age_rating_summary: 
+age_rating_summary: E (ESRB) · 3 (PEGI)
+age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"oflc":{"rating":"G","descriptors":"Very mild themes, online interactivity"},"dejus":{"rating":"L"}}
 release_date: "August 29, 2017"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Surf_World_Series"
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/surf-world-series/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4761"
+opencritic_url: "https://opencritic.com/game/4761/-"
+opencritic_score: 60
+opencritic_review_count: 8
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/atlas-fallen/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "May '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.71
+protondb_total: 31
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Focus Entertainment
@@ -19,10 +27,15 @@ developer: Deck13
 genre: Action, Adventure
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "October 31, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Japanese"]
+languages_audio: ["English","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11 hrs"
 hltb_main_extra: "19 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Atlas_Fallen"
 metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/atlas-fallen/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15002"
+opencritic_url: "https://opencritic.com/game/15002/-"
+opencritic_score: 68
+opencritic_review_count: 125
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002689"
+playstation_url: "https://store.playstation.com/en-us/concept/10002689"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: Works out of the box on the Decky plugin version.
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Rise from the dust and glide the sands of a timeless land, filled with ancient dangers, mysteries and fragments of the past.
+Rise from the dust and glide the sands of a timeless land, filled with ancient dangers, mysteries and fragments of the past. Hunt legendary monsters with powerful sand-infused weapons and abilities in spectacular, super-powered combat.

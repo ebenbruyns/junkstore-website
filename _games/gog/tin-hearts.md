@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/tin-hearts/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Wired Productions
@@ -19,10 +27,15 @@ developer: Rogue Sun
 genre: Adventure, Strategy, Indie, Platform, Puzzle
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "April 1, 2023"
-game_modes: ["Single player"]
-languages: ["Portuguese (Brazil)","zh-Hans","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","zh-Hans"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Italian","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil"]
+languages_audio: ["English"]
 tags_structured: []
+size: "10934 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "15.5 hrs"
 hltb_main_extra: "17.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/tin_hearts"
 protondb_url: "https://www.protondb.com/app/1831700"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tin_Hearts"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 66
+metacritic_url: "https://www.metacritic.com/game/tin-hearts/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14824"
+opencritic_url: "https://opencritic.com/game/14824/-"
+opencritic_score: 78
+opencritic_review_count: 37
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002494"
+playstation_url: "https://store.playstation.com/en-us/concept/10002494"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

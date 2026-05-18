@@ -7,22 +7,35 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/crosscode/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.84
+protondb_total: 108
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Deck13 Interactive, WhisperGames, DANGEN Entertainment, Mayflower Entertainment
 developer: Radical Fish Games
 genre: Role-playing (RPG), Adventure, Indie, Puzzle, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Language"},"pegi":{"rating":"12","descriptors":"Mild Swearing"},"usk":{"rating":"6","descriptors":"Abstract Violence, Occasional Swearing"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
 release_date: "September 1, 2018"
 game_modes: ["Single player"]
 languages: ["English","German","Simplified Chinese","Japanese","Korean"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"14","name":"Early Access"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"468","name":"role-playing"},{"id":"336","name":"controller support"},{"id":"226","name":"Cyberpunk"},{"id":"337","name":"overlay"},{"id":"233","name":"JRPG"},{"id":"143","name":"RPGMaker"},{"id":"340","name":"in development"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "35.5 hrs"
 hltb_main_extra: "54.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://radicalfishgames.itch.io/crosscode"
 protondb_url: "https://www.protondb.com/app/368340"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/CrossCode"
-metacritic_score: 86
-metacritic_url: "https://www.metacritic.com/game/pc/crosscode?ftag=MCD-06-10aaa1f"
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/crosscode/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "6635"
+opencritic_url: "https://opencritic.com/game/6635/-"
+opencritic_score: 84
+opencritic_review_count: 71
+twitch_id: ""
+twitch_url: ""
+playstation_id: "233619"
+playstation_url: "https://store.playstation.com/en-us/concept/233619"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/aven-colony/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.68
+protondb_total: 38
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Team17
 developer:  Mothership Entertainment LLC
 genre: Simulation, City Builder, Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Language, Mild Blood"},"pegi":{"rating":"12","descriptors":"Bad Language"},"usk":{"rating":"0"},"nzoflc":{"rating":"PG"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 4, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Italian"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21127","name":"Creative Community"},{"id":"1146","name":"City Builder"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "12485 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-11-03T15:00:00.000Z","end":"2021-11-10T15:00:00.000Z","type":null,"id":"408e1dacff9c4ddabecb93b1e6183db9"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "26.6 hrs"
 hltb_main_extra: "35.4 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/484900"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aven_Colony"
 metacritic_score: 65
-metacritic_url: "https://www.metacritic.com/game/pc/aven-colony?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/aven-colony/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4589"
+opencritic_url: "https://opencritic.com/game/4589/-"
+opencritic_score: 72
+opencritic_review_count: 49
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: "2f306644-1899-4cf2-920c-6c3877878c6c"
+geforcenow_url: "https://play.geforcenow.com/games?game-id=2f306644-1899-4cf2-920c-6c3877878c6c"
 
 # Notes
 notes: "Works out of the box!"
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Aven Colony is a city-building and management sim that tells the story of humanity’s first settlement of an extrasolar world. Land on exotic Aven Prime, where you must construct and maintain the infrastructure and ensure the well-being of your citizens, all while dealing with the often harsh realities of an exotic alien world.
-
-On top of this, you’ll face the greatest challenge of all — keeping your people happy. How will you feed your people? Will you be able to provide them with enough jobs, entertainment, retail outlets, and other services while protecting them from the planet’s many dangers? What social policies will you enact to influence your people? The future of the colony rests on your decisions.
+Build a new home for humanity in Aven Colony. Discover Aven Prime - an alien planet of deserts, tundras, and wetlands light years from earth. Build your colonies into massive, sprawling cities whilst dealing with the threats faced when settling on a new world.

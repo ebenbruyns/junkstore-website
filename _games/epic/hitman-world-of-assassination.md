@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/hitman-world-of-assassination/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.75
+protondb_total: 374
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: IO Interactive
 developer: IO Interactive
 genre: Action, Stealth
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Drug Reference, Blood, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, In-Game Purchases"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence, Crime"},"oflc":{"rating":"ma15","descriptors":"Strong violence, online interactivity and in-game purchases"},"nzoflc":{"rating":"r18","descriptors":"Contains Violence"},"kgrb":{"rating":"19"},"fpb":{"rating":"18"},"csrr":{"rating":"R","descriptors":"Drugs, Objectionable Language, Alcohol and Tobacco, Violence"},"dejus":{"rating":"18","descriptors":"Linguagem imprópria, Drogas, Violência Extrema"}}
 release_date: "January 20, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1179","name":"VR"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":58654,"slug":"hitman-2","name":"Hitman 2"},{"rawg_id":10035,"slug":"hitman","name":"Hitman"},{"rawg_id":87356,"slug":"hitman-absolution-elite-edition","name":"Hitman: Absolution - Elite Edition"},{"rawg_id":1628,"slug":"hitman-go","name":"Hitman GO"},{"rawg_id":5583,"slug":"hitman-absolution","name":"Hitman: Absolution"},{"rawg_id":19569,"slug":"hitman-blood-money","name":"Hitman: Blood Money"},{"rawg_id":22961,"slug":"hitman-3-contracts","name":"Hitman: Contracts"},{"rawg_id":19592,"slug":"hitman-2-silent-assassin","name":"Hitman 2: Silent Assassin"},{"rawg_id":10049,"slug":"hitman-codename-47","name":"Hitman: Codename 47"}]
+franchise_slug: "hitman|hitman-2|hitman-2-silent-assassin|hitman-3|hitman-3-contracts|hitman-absolution|hitman-absolution-elite-editio|hitman-blood-money|hitman-codename-47|hitman-go"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1659040"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hitman:_World_of_Assassination"
 metacritic_score: 87
-metacritic_url: "https://www.metacritic.com/game/pc/hitman-3?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/hitman-3/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10039"
+opencritic_url: "https://opencritic.com/game/10039/-"
+opencritic_score: 85
+opencritic_review_count: 196
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10000248"
+playstation_url: "https://store.playstation.com/en-us/concept/10000248"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box on the Decky plugin version. ReShade & LukeFZ's FSR frame generation mod work too."
@@ -81,4 +111,5 @@ is_featured: false
 owned: true
 ---
 
-Hitman 3 is the dramatic conclusion to the World of Assassination trilogy. Become Agent 47, a legendary assassin and use creativity and improvisation to execute the most ingenious and spectacular eliminations
+Become Agent 47 in the ultimate spy-thriller adventure across more than 20 locations
+HITMAN World of Assassination brings together the best of HITMAN HITMAN 2 and HITMAN 3 including the main campaign, escalations, elusive target arcades and HITMAN: Freelancer.

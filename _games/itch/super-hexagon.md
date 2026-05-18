@@ -7,11 +7,19 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/super-hexagon/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.77
+protondb_total: 27
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Distractionware, Terry Cavanagh
@@ -19,10 +27,15 @@ developer: Distractionware, Terry Cavanagh
 genre: Arcade
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "August 1, 2012"
 game_modes: ["Single player"]
-languages: ["English**languages with full audio support"]
-tags_structured: []
+languages: ["English"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"45","name":"2D"},{"id":"49","name":"Difficult"},{"id":"115","name":"Controller"},{"id":"336","name":"controller support"},{"id":"5","name":"Replay Value"},{"id":"165","name":"Colorful"},{"id":"131","name":"Fast-Paced"},{"id":"136","name":"Music"},{"id":"57","name":"Bullet Hell"},{"id":"112","name":"Minimalist"},{"id":"207","name":"Rhythm"},{"id":"54","name":"Score Attack"},{"id":"286","name":"Psychedelic"},{"id":"84","name":"Abstract"}]
+size: "29 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Super_Hexagon"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/super-hexagon?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. Community controller layout available. **Decky Plugin: Not Supported**. **Pro Version: Works out of the box**."

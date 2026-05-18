@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/steamworld-heist-ii/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.81
+protondb_total: 16
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Thunderful Publishing
@@ -19,10 +27,15 @@ developer: Thunderful
 genre: role-playing, adventure, strategy, indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "August 1, 2024"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Polish","Ukrainian"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"123","name":"Comedy"},{"id":"97","name":"Action RPG"},{"id":"80","name":"Tactical"},{"id":"165","name":"Colorful"},{"id":"101","name":"Turn-Based Strategy"},{"id":"154","name":"Steampunk"},{"id":"166","name":"Stylized"},{"id":"164","name":"Cartoony"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"91686","name":"Family Sharing"},{"id":"230","name":"Tactical RPG"}]
+size: "1765 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "20.5 hrs"
 hltb_main_extra: "28.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/2396240"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SteamWorld_Heist_II"
 metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/steamworld-heist-ii?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/steamworld-heist-ii/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17049"
+opencritic_url: "https://opencritic.com/game/17049/-"
+opencritic_score: 82
+opencritic_review_count: 67
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10010568"
+playstation_url: "https://store.playstation.com/en-us/concept/10010568"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

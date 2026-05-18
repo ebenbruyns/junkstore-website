@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/death-stranding-directors-cut/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.84
+protondb_total: 336
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: 505 Games
 developer: KOJIMA PRODUCTIONS
 genre: Action, Open World, Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Partial Nudity, Strong Language"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "March 30, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Greek","Hungarian","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Greek","Japanese","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "38 hrs"
 hltb_main_extra: "59 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/death-stranding-directors-cut"
 protondb_url: "https://www.protondb.com/app/1850570"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death_Stranding_Director%27s_Cut"
-metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/pc/death-stranding-directors-cut?ftag=MCD-06-10aaa1f"
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/death-stranding/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12011"
+opencritic_url: "https://opencritic.com/game/12011/-"
+opencritic_score: 86
+opencritic_review_count: 104
+twitch_id: ""
+twitch_url: ""
+playstation_id: "234585"
+playstation_url: "https://store.playstation.com/en-us/concept/234585"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-From legendary game creator Hideo Kojima comes a genre-defying experience... As Sam Bridges, your mission is to deliver hope to humanity
+From legendary game creator Hideo Kojima comes a genre-defying experience, now expanded in this definitive DIRECTOR’S CUT. As Sam Bridges, your mission is to deliver hope to humanity by connecting the last survivors of a decimated America. 

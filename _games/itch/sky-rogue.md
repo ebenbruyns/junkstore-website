@@ -7,11 +7,19 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/sky-rogue/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 12
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Fractal Phase
@@ -19,10 +27,15 @@ developer: Fractal Phase
 genre: Indie, Shooter, Arcade, Simulator
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "August 24, 2017"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English","French","Japanese","Simplified Chinese","Italian","German","Korean","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil"]
+languages: ["English","French","Japanese","Simplified Chinese","Italian","German","Korean","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil","Russian","Spanish - Latin America","Traditional Chinese"]
+languages_audio: []
 tags_structured: []
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "12½ Hours"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sky_Rogue"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/sky-rogue/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "5017"
+opencritic_url: "https://opencritic.com/game/5017/-"
+opencritic_score: 75
+opencritic_review_count: 7
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

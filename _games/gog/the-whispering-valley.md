@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-whispering-valley/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: "Studio Chien d'Or"
@@ -19,10 +27,15 @@ developer: "Studio Chien d'Or"
 genre: Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Temas sensíveis, Medo"}}
 release_date: "November 30, 2022"
-game_modes: ["Single-player"]
-languages: ["English","French*languages with full audio support"]
+game_modes: ["Cloud saves","Overlay","Single-player"]
+languages: ["English","French"]
+languages_audio: ["French"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"62","name":"Family Sharing"}]
+size: "5146 MB"
+franchise_siblings: [{"rawg_id":970107,"slug":"the-whisperer-le-murmureur","name":"The Whisperer  (Le murmureur)"}]
+franchise_slug: "the-whisperer-le-murmureur|the-whispering-valley"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"id":"gp_3597","start":"2026-04-22T14:18:12.000Z","end":"2026-04-28T11:59:00.000Z","type":null}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2 hrs"
 hltb_main_extra: "2.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Whispering_Valley"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/the-whispering-valley/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

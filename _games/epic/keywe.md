@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/keywe/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.64
+protondb_total: 17
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Fireshine Games
@@ -19,10 +27,15 @@ developer: "Stonewheat & Sons"
 genre: Casual, Puzzle, Indie
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "April 28, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"1203","name":"Multiplayer"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6.1 hrs"
 hltb_main_extra: "8.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1242980"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/KeyWe"
 metacritic_score: 73
-metacritic_url: "https://www.metacritic.com/game/pc/keywe?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/keywe/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11904"
+opencritic_url: "https://opencritic.com/game/11904/-"
+opencritic_score: 75
+opencritic_review_count: 16
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10001774"
+playstation_url: "https://store.playstation.com/en-us/concept/10001774"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-KeyWe is a cute, co-operative postal puzzler starring Jeff and Debra, two small kiwi birds working in a whimsical post office. They must jump, flap, peck and butt-slam their way across an interactive landscape of levers, bells and buttons to get those messages delivered on time!
-
-Encounter perilous postal environments and navigate seasonal hazards while waddling through the Telepost’s various mail rooms, and partner up with a pal to help these adorable kiwis complete their tasks, whatever the weather. Unlock new accessories to customise your kiwi and become the best-dressed mail bird in Bungalow Basin.
+KeyWe is a cute, co-operative postal puzzler starring Jeff and Debra, two small kiwi birds working in a whimsical post office.

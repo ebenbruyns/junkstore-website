@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/icewind-dale-enhanced-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.61
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Beamdog
@@ -19,10 +27,15 @@ developer: Overhaul Games
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
 age_rating_summary: PEGI 12
+age_ratings: {"dejus":{"rating":"14","descriptors":"Conteúdo sexual, Linguagem imprópria, Violência fantasiosa"}}
 release_date: "October 30, 2014"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["Czech","English","French","German","Italian","Korean","Polish","Portuguese (Brazil)","Russian","Spanish","Turkish","zh-Hans"]
-tags_structured: []
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Turkish","Korean","Russian","Czech","Portuguese - Brazil","Simplified Chinese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"121","name":"Character Customization"},{"id":"99","name":"Isometric"},{"id":"194","name":"Real-Time with Pause"},{"id":"238","name":"CRPG"},{"id":"206","name":"Party-Based RPG"},{"id":"574","name":"Dungeons & Dragons"}]
+size: "2590 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "30.5 hrs"
 hltb_main_extra: "41 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/321800"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Icewind_Dale:_Enhanced_Edition"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/icewind-dale-enhanced-edition?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/icewind-dale-enhanced-edition/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

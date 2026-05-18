@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/priest-simulator-vampire-show/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Ultimate Games
@@ -19,10 +27,15 @@ developer: Asmodev
 genre: Shooter, Open World, Comedy
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "September 26, 2024"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Polish"]
+languages_audio: ["English","Polish"]
 tags_structured: [{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1116","name":"Comedy"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "10 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Priest_Simulator"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/priest-simulator-vampire-show/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17889"
+opencritic_url: "https://opencritic.com/game/17889/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10017635"
+playstation_url: "https://store.playstation.com/en-us/concept/10017635"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Imagine that you have divine powers. What do you do? Help people or take the piss out of them? That's a priest's life.
+A mockumental action game. Go forth and rock in the absolute weirdest and most messed up simulator in the history of sandbox shooters. Fully unprofessional English language version. This dub will have you in stitches.

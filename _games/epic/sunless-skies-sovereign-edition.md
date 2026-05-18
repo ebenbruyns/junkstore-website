@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/sunless-skies-sovereign-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.44
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Failbetter Games
@@ -19,10 +27,15 @@ developer: Failbetter Games
 genre: Horror, RPG, Rogue-Lite
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"10","descriptors":"Atos criminosos, Medo"}}
 release_date: "June 27, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"33639","name":"Promotional Content"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-06-26T15:00:00.000Z","end":"2024-07-03T15:00:00.000Z","type":null,"id":"d64e188ad8034ffcacd038c4713f5c0a"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "30 hrs"
 hltb_main_extra: "77.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/596970"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sunless_Skies"
 metacritic_score: 87
-metacritic_url: "https://www.metacritic.com/game/pc/sunless-skies?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/sunless-skies/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7241"
+opencritic_url: "https://opencritic.com/game/7241/-"
+opencritic_score: 85
+opencritic_review_count: 26
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Sunless Skies: Sovereign Edition is a Gothic Horror roleplay game with a focus on exploration and exquisite storytelling. Ready your star-faring engine, and venture into an expanse of hostile factions, lurking deities, forbidden knowledge, vast fortune, and fates worse than death.
+SAIL THE STARS. BETRAY YOUR QUEEN. MURDER A SUN. Sunless Skies is a Gothic Horror roleplay game with a focus on exploration and exquisite storytelling.

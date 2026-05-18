@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/alan-wake-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: "GE-Proton 10.10"
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: ""
+steam_deck_category: 
 
 # Game Info
 publisher: Epic Games Publishing
@@ -19,10 +27,15 @@ developer: Remedy Entertainment
 genre: Horror, Action-Adventure, Shooter
 franchise: Alan Wake
 age_rating_summary: ESRB Mature 17+
+age_ratings: {}
 release_date: "October 27, 2023"
 game_modes: ["Single player"]
 languages: ["English","German","Spanish - Spain","Japanese","French"]
+languages_audio: []
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: [{"rawg_id":18336,"slug":"alan-wakes-american-nightmare","name":"Alan Wake's American Nightmare"},{"rawg_id":19487,"slug":"alan-wake","name":"Alan Wake"}]
+franchise_slug: "alan-wake|alan-wake-2|alan-wakes-american-nightmare"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "19.1 hrs"
 hltb_main_extra: "26 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alan_Wake_II"
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/alan-wake-ii/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box! Tested with Delux Upgrade and works without issue."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Alan Wake 2 marks Remedy Entertainment’s first foray into the survival horror genre. Ritualistic murders in a small town. A writer trapped in a nightmare. An FBI agent looking for answers. Two realities. Two hero characters. One horror story that wants them dead.
+Saga Anderson arrives to investigate ritualistic murders in a small town. Alan Wake pens a dark story to shape the reality around him. These two heroes are somehow connected. Can they become the heroes they need to be?

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/demons-tilt/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.77
+protondb_total: 17
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: FLARB LLC
 developer: WIZNWAR
 genre: Action, Horror
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 7 (PEGI) · 6 (USK)
+age_ratings: {"pegi":{"rating":"7","descriptors":"Mild Violence"},"usk":{"rating":"6","descriptors":"Abstract Violence"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Scary Scenes"},"csrr":{"rating":"C12","descriptors":"Horror, Violence"},"dejus":{"rating":"L","descriptors":"Violence"}}
 release_date: "May 10, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1218","name":"Horror"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-03-23T15:00:00.000Z","end":"2022-03-30T15:00:00.000Z","type":null,"id":"08f2539567df4d43a1b0f8a5196f43cc"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5.5 hrs"
 hltb_main_extra: "12.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Demon%27s_Tilt"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/demons-tilt/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8688"
+opencritic_url: "https://opencritic.com/game/8688/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Turbo charged pinball returns! Now with bigger sprites, more baddies, more secrets & more bullets! Demon's Tilt pushes the limits of the Video Pinball genre with Shump & Hack N' Slash elements.
+TURBO CHARGED PINBALL RETURNS! Now with bigger sprites, more baddies, more secrets & MORE BULLETS! Demon's Tilt pushes the limits of the Video Pinball genre with SHMUP & Hack N' Slash elements.

@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/colt-canyon/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.76
+protondb_total: 12
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Headup Games
@@ -19,10 +27,15 @@ developer: Retrific
 genre: Role-playing (RPG), Adventure, Indie, Shooter, Arcade
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "June 16, 2020"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Russian","Simplified Chinese","Italian","Traditional Chinese","Polish"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"45","name":"2D"},{"id":"72","name":"Local Multiplayer"},{"id":"56","name":"Shoot 'Em Up"}]
+size: "519 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "9.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Colt_Canyon"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/colt-canyon/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9706"
+opencritic_url: "https://opencritic.com/game/9706/-"
+opencritic_score: 78
+opencritic_review_count: 12
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

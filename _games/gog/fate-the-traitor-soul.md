@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fate-the-traitor-soul/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.56
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: WildTangent
 developer: WildTangent
 genre: Role-playing (RPG), Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB)
+age_ratings: {"esrb":{"rating":"e10"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "September 1, 2009"
-game_modes: ["Single player"]
+game_modes: ["Achievements","Cloud saves","Single-player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"40850","name":"Steam Leaderboards"},{"id":"97","name":"Action RPG"},{"id":"468","name":"role-playing"},{"id":"68","name":"Hack and Slash"},{"id":"48","name":"Dungeon Crawler"},{"id":"98","name":"Loot"}]
+size: "414 MB"
+franchise_siblings: [{"rawg_id":21347,"slug":"fate-the-cursed-king","name":"FATE: The Cursed King"},{"rawg_id":20798,"slug":"fate-undiscovered-realms","name":"FATE: Undiscovered Realms"},{"rawg_id":36649,"slug":"fate","name":"Fate (2005)"}]
+franchise_slug: "fate|fate-the-cursed-king|fate-the-traitor-soul|fate-undiscovered-realms"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "17.5 hrs"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FATE:_The_Traitor_Soul"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/fate-the-traitor-soul/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

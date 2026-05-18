@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/golden-light/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.69
+protondb_total: 14
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: HypeTrain Digital
@@ -19,10 +27,15 @@ developer: Mr. Pink
 genre: Action, Stealth, Retro
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Medo, Violência, Nudez"}}
 release_date: "October 14, 2023"
 game_modes: ["Single player"]
 languages: ["English","Russian","German","Spanish - Spain","French","Italian","Portuguese - Brazil","Korean","Simplified Chinese","Japanese"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"1198","name":"Retro"}]
+size: ""
+franchise_siblings: [{"rawg_id":871182,"slug":"golden-light-of-rose","name":"Golden Light of Rose"}]
+franchise_slug: "golden-light|golden-light-of-rose"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-11-08T15:00:00.000Z","end":"2023-11-15T15:00:00.000Z","type":null,"id":"f787056536bf43298e39305a0c5c20c8"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Golden_Light"
 metacritic_score: 
 metacritic_url: ""
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12917"
+opencritic_url: "https://opencritic.com/game/12917/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "May need to launch in desktop/big picture mode first time. After that it works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Golden Light is a first-person survival horror with rogue-like elements and an eerie atmosphere.
+Eat weapons, be scared and question your own mind in this Survival-Horror FPS Prop Hunt Roguelike about meat. Walls are watching you!

@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/bio-menace/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "bronze"
+protondb_score: 0.06
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Apogee Software, Wiz Technology
@@ -19,10 +27,15 @@ developer: Apogee Software
 genre: Platform, Puzzle
 franchise: 
 age_rating_summary: 
+age_ratings: {}
 release_date: "August 3, 1993"
-game_modes: ["Single player"]
+game_modes: ["Cloud saves","Single-player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"193","name":"Classic"}]
+size: "1.87 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "9.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bio_Menace"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/bio-menace/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Requires ScummVM. Community controller layout available. **Decky Plugin: Not Supported**. **Pro Version: Works out of the box**."

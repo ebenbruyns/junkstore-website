@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/zero-hour/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.55
+protondb_total: 80
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: AttritoM7 Productions
@@ -19,10 +27,15 @@ developer: AttritoM7 Productions
 genre: First Person, Shooter
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Atos criminosos, Temas sensíveis, Drogas ilícitas"}}
 release_date: "November 13, 2025"
 game_modes: ["Single-player","Multi-player","Co-op"]
-languages: ["English*","French*","Spanish - Spain","Japanese","Russian","Simplified Chinese*languages with full audio support"]
+languages: ["English","French","Spanish - Spain","Japanese","Russian","Simplified Chinese"]
+languages_audio: ["English","French"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21135","name":"Realistic Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-11-13T16:00:00.000Z","end":"2025-11-20T16:00:00.000Z","type":null,"id":"639547f643c4440db499878634c22dd1"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Zero_Hour"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/zero-hour/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17344"
+opencritic_url: "https://opencritic.com/game/17344/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box! While it does have some native controls you do need to map more actions in game."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Zero Hour is a tactical FPS with online team-based game play that takes place in a variety of fictional locations interpreted in Bangladesh with Real-life scale &amp; resource management. It brings a grounded, close quarter combat experience to the game.
+Zero Hour is a tactical FPS with online team-based game play that takes place in a variety of fictional locations interpreted in Bangladesh with Real-life scale & resource management. It brings a grounded, close quarter combat experience to the game.

@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/doom/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "unknown"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.86
+protondb_total: 1179
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Bethesda Softworks
 developer: id Software
 genre: puzzle, shooter
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"High impact violence, blood and gore, online interactivity"},"nzoflc":{"rating":"r16","descriptors":"graphic violence, horror"},"fpb":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Extreme Violence"}}
 release_date: "May 1, 2016"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Traditional Chinese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian"]
 tags_structured: []
+size: "63434 MB"
+franchise_siblings: [{"rawg_id":58777,"slug":"doom-eternal","name":"DOOM Eternal"},{"rawg_id":2364,"slug":"doom-ii-rpg","name":"DOOM II RPG"},{"rawg_id":36355,"slug":"doom-3-resurrection-of-evil","name":"Doom 3: Resurrection of Evil"},{"rawg_id":19458,"slug":"doom-3","name":"Doom 3"},{"rawg_id":54381,"slug":"doom-64","name":"Doom 64"},{"rawg_id":22448,"slug":"final-doom","name":"Final DOOM"},{"rawg_id":22412,"slug":"ultimate-doom","name":"Ultimate Doom"},{"rawg_id":17975,"slug":"doom-ii","name":"DOOM II"},{"rawg_id":52884,"slug":"doom-2","name":"DOOM"}]
+franchise_slug: "doom|doom-2|doom-3|doom-3-resurrection-of-evil|doom-64|doom-eternal|doom-ii|doom-ii-rpg|final-doom|ultimate-doom"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11.5 hrs"
 hltb_main_extra: "16 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/doom_2016"
 protondb_url: "https://www.protondb.com/app/379720"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doom_%282016%29"
-metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/pc/doom?ftag=MCD-06-10aaa1f"
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/doom/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1572"
+opencritic_url: "https://opencritic.com/game/1572/-"
+opencritic_score: 86
+opencritic_review_count: 152
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10010353"
+playstation_url: "https://store.playstation.com/en-us/concept/10010353"
+xbox_id: "C3QH42WRGM3R"
+xbox_url: "https://www.xbox.com/games/store/-/C3QH42WRGM3R"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: You need to download and install X64 redistributable for Visual Studio 2015-2022.

@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-witcher-2-assassins-of-kings-enhanced-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.77
+protondb_total: 139
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: CD Projekt
 developer: CD Projekt RED
 genre: Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Nudity, Strong Language, Strong Sexual Content, Use of Drugs"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Drogas Lícitas, Violência, Conteúdo Sexual"}}
 release_date: "April 17, 2012"
-game_modes: ["Single player"]
-languages: ["English*","German*","French*","Spanish - Spain","Russian*","Czech","Hungarian","Japanese","Polish*","Turkish"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Single-player"]
+languages: ["English","German","French","Spanish - Spain","Russian","Czech","Hungarian","Japanese","Polish","Turkish","Traditional Chinese","Italian","Korean","Portuguese - Brazil"]
+languages_audio: ["English","German","French","Russian","Polish"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"40850","name":"Steam Leaderboards"},{"id":"41","name":"Dark"},{"id":"44","name":"Nudity"},{"id":"145","name":"Choices Matter"},{"id":"40","name":"Dark Fantasy"},{"id":"192","name":"Mature"},{"id":"66","name":"Medieval"},{"id":"82","name":"Magic"},{"id":"218","name":"Multiple Endings"},{"id":"283","name":"Based On A Novel"},{"id":"146","name":"Nonlinear"}]
+size: "20647 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "24 hrs"
 hltb_main_extra: "34.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/20920"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Witcher_2:_Assassins_of_Kings"
 metacritic_score: 88
-metacritic_url: "https://www.metacritic.com/game/pc/the-witcher-2-assassins-of-kings?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/the-witcher-2-assassins-of-kings/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!<br>\nTo get controller once in game: Hold (...) button + Back (left) on D-pad > Options > Control Options - set to \"Gamepad'"

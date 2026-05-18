@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/shapez/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.53
+protondb_total: 42
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: "tobspr IT Solutions UG (haftungsbeschränkt) & Co. KG (German partnership)"
@@ -19,10 +27,15 @@ developer: tobspr Games
 genre: Puzzle
 franchise: shapez
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "October 31, 2022"
 game_modes: ["Single player"]
-languages: ["English","French","Czech","German","Korean","Spanish - Spain","Dutch","Polish","Portuguese - Portugal","Russian"]
+languages: ["English","French","Czech","German","Korean","Spanish - Spain","Dutch","Polish","Portuguese - Portugal","Russian","Norwegian","Japanese","Portuguese - Brazil","Spanish - Latin America","Simplified Chinese","Traditional Chinese","Danish","Italian","Finnish","Hungarian","Romanian","Swedish","Turkish","Ukrainian"]
+languages_audio: []
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-04-05T15:00:00.000Z","end":"2023-04-12T15:00:00.000Z","type":null,"id":"35f8d25247154fca9b900c13d2be04f6"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "26.5 hrs"
 hltb_main_extra: "41 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shapez"
 metacritic_score: 
 metacritic_url: ""
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Shapez is a game about building factories to automate the creation and combination of increasingly complex shapes within an infinite map.
+shapez is a game about building factories to automate the creation and processing of increasingly complex shapes across an infinitely expanding map.

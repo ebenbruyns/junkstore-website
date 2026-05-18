@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/endless-space-2-definitive-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.74
+protondb_total: 208
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Sega
 developer: Amplitude Studios
 genre: Strategy, Turn-based strategy (TBS)
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Suggestive Themes"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Online Interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild Violence, Online Interactivity"},"dejus":{"rating":"L","descriptors":"In-App Purchase, Users Interact"}}
 release_date: "January 21, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English*","French","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese*languages with full audio support"]
+languages: ["English","French","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: []
+size: "13.5 GB"
+franchise_siblings: [{"rawg_id":529816,"slug":"endless-dungeons","name":"Endless Dungeon"},{"rawg_id":1830,"slug":"dungeon-of-the-endless","name":"Dungeon of the Endless"},{"rawg_id":12980,"slug":"endless-legend","name":"Endless Legend"},{"rawg_id":41457,"slug":"endless-space","name":"Endless Space"}]
+franchise_slug: "dungeon-of-the-endless|endless-dungeons|endless-legend|endless-space|endless-space-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "19 hrs"
 hltb_main_extra: "48 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/392110"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Endless_Space_2"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/endless-space-2?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/endless-space-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4204"
+opencritic_url: "https://opencritic.com/game/4204/-"
+opencritic_score: 82
+opencritic_review_count: 46
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,22 +7,36 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/faaast-penguin/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.77
+protondb_total: 13
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: historia Inc.
 developer: historia Inc.
 genre: Action, Casual, Racing
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: A (CERO)
+age_ratings: {"cero":{"rating":"A"},"dejus":{"rating":"14"}}
 release_date: "September 20, 2024"
 game_modes: ["Single-player","Multi-player"]
-languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Spanish - Latin America*","Portuguese - Brazil*","Russian*","Simplified Chinese*","Traditional Chinese*"]
+languages: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Japanese","Korean"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Japanese","Korean"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "4997240248
+"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +69,9 @@ requires_eac_runtime: true
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "31 mins"
 hltb_main_extra: ""
@@ -69,6 +86,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Faaast_Penguin"
 metacritic_score: 
 metacritic_url: ""
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17439"
+opencritic_url: "https://opencritic.com/game/17439/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10008869"
+playstation_url: "https://store.playstation.com/en-us/concept/10008869"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: 
 controller_config: 
@@ -81,4 +112,5 @@ is_featured: false
 owned: true
 ---
 
-&quot;Faaast Penguin&quot; is a wild and thrilling knockout action racing game where up to 40 penguins collide in a chaotic race to the finish! It's free with cross-platform support! Unleash attacks! Hop on ULTIMATE RIDES! Use shortcuts! Pass your rivals and reach the finish line first!
+"Faaast Penguin" is a wild and thrilling knockout action racing game where up to 40 penguins collide in a chaotic race. It's free with cross-platform support!
+Unleash attacks! Hop on ULTIMATE RIDES! Use shortcuts! Pass your rivals and reach the finish line first!

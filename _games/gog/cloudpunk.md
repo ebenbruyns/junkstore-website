@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/cloudpunk/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.78
+protondb_total: 105
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Merge Games, ION LANDS
 developer: ION LANDS
 genre: Role-playing (RPG), Adventure, Indie, Simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: 12 (USK)
+age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Medo, Linguagem imprópria, Drogas ilícitas"}}
 release_date: "April 1, 2020"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Hungarian","Turkish"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"167","name":"Futuristic"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"209","name":"Drama"}]
+size: "3930 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8.5 hrs"
 hltb_main_extra: "11 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/746850"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cloudpunk"
 metacritic_score: 73
-metacritic_url: "https://www.metacritic.com/game/pc/cloudpunk?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/cloudpunk/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9352"
+opencritic_url: "https://opencritic.com/game/9352/-"
+opencritic_score: 68
+opencritic_review_count: 58
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10000251"
+playstation_url: "https://store.playstation.com/en-us/concept/10000251"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

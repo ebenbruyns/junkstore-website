@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/deep-sky-derelicts/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: 1C Entertainment
 developer: Snowhound Games
 genre: "Role-playing (RPG), Adventure, Strategy, Indie, Card & Board Game"
 franchise: 
-age_rating_summary: 
+age_rating_summary: 12 (PEGI)
+age_ratings: {"pegi":{"rating":"12","descriptors":"Violence, Bad language"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência, Linguagem imprópria"}}
 release_date: "September 26, 2018"
-game_modes: ["Single player"]
+game_modes: ["Achievements","Controller support","Overlay","Single-player"]
 languages: ["English","Russian","French","German","Spanish - Spain","Polish","Simplified Chinese"]
+languages_audio: []
 tags_structured: []
+size: "957 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "18.5 hrs"
 hltb_main_extra: "24.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/698640"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deep_Sky_Derelicts"
 metacritic_score: 70
-metacritic_url: "https://www.metacritic.com/game/pc/deep-sky-derelicts?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/deep-sky-derelicts/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "6704"
+opencritic_url: "https://opencritic.com/game/6704/-"
+opencritic_score: 71
+opencritic_review_count: 18
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

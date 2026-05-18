@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/styx-shards-of-darkness/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.84
+protondb_total: 65
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Focus Entertainment
@@ -19,10 +27,15 @@ developer: Cyanide Studio
 genre: Role-playing (RPG), Role-playing (RPG)
 franchise: 
 age_rating_summary: PEGI 16
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "March 14, 2017"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Korean","Japanese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"123","name":"Comedy"},{"id":"34","name":"Violent"},{"id":"15","name":"Stealth"},{"id":"40","name":"Dark Fantasy"},{"id":"120","name":"Memes"},{"id":"188","name":"Parkour"},{"id":"154","name":"Steampunk"},{"id":"148","name":"Dark Humor"},{"id":"278","name":"Assassin"}]
+size: "10731 MB"
+franchise_siblings: [{"rawg_id":1006936,"slug":"styx-blades-of-greed","name":"Styx: Blades of Greed"},{"rawg_id":3562,"slug":"styx-master-of-shadows","name":"Styx: Master of Shadows"},{"rawg_id":4228,"slug":"of-orcs-and-men","name":"Of Orcs and Men"}]
+franchise_slug: "of-orcs-and-men|styx-blades-of-greed|styx-master-of-shadows|styx-shards-of-darkness"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12 hrs"
 hltb_main_extra: "16.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/355790"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Styx:_Shards_of_Darkness"
 metacritic_score: 72
-metacritic_url: "https://www.metacritic.com/game/pc/styx-shards-of-darkness?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/styx-shards-of-darkness/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4000"
+opencritic_url: "https://opencritic.com/game/4000/-"
+opencritic_score: 72
+opencritic_review_count: 75
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

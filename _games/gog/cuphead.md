@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/cuphead/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "June '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.86
+protondb_total: 334
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Studio MDHR
 developer: Studio MDHR
 genre: platform
 franchise: 
-age_rating_summary: ESRB 10
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Language, Use of Alcohol And Tobacco"},"pegi":{"rating":"7","descriptors":"Fear, Violence"},"usk":{"rating":"12","descriptors":"Violence"},"oflc":{"rating":"PG","descriptors":"Mild Themes, Scary Scenes, Mild Coarse Language"},"nzoflc":{"rating":"PG","descriptors":"Mild Themes"},"kgrb":{"rating":"ALL","descriptors":"Violence"},"csrr":{"rating":"C12","descriptors":"Horror, Inappropriate Language, Tobacco and Alcohol"},"dejus":{"rating":"10","descriptors":"Violence, Inappropriate Language"}}
 release_date: "September 29, 2017"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"49","name":"Difficult"},{"id":"75","name":"Local Co-Op"},{"id":"74","name":"Retro"},{"id":"40833","name":"Captions available"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"56","name":"Shoot 'Em Up"},{"id":"258","name":"Hand-drawn"},{"id":"164","name":"Cartoony"},{"id":"57","name":"Bullet Hell"},{"id":"179","name":"Cartoon"}]
+size: "3408 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10.5 hrs"
 hltb_main_extra: "16 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/cuphead"
 protondb_url: "https://www.protondb.com/app/268910"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cuphead"
-metacritic_score: 88
-metacritic_url: "https://www.metacritic.com/game/pc/cuphead?ftag=MCD-06-10aaa1f"
+metacritic_score: 86
+metacritic_url: "https://www.metacritic.com/game/cuphead/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1792"
+opencritic_url: "https://opencritic.com/game/1792/-"
+opencritic_score: 88
+opencritic_review_count: 214
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

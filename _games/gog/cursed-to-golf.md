@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/cursed-to-golf/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.78
+protondb_total: 14
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Thunderful
@@ -19,10 +27,15 @@ developer: Chuhai Labs
 genre: "Adventure, Indie, Puzzle, Sport, Arcade, Card & Board Game"
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "August 18, 2022"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Portuguese - Brazil","Russian"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"121","name":"Character Customization"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"114","name":"Physics"},{"id":"113","name":"Side Scroller"},{"id":"639","name":"Roguelike"},{"id":"640","name":"Roguelite"},{"id":"413","name":"online"},{"id":"48","name":"Dungeon Crawler"},{"id":"176","name":"Turn-Based Tactics"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"54","name":"Score Attack"},{"id":"2326","name":"explore"},{"id":"1863","name":"challenge"},{"id":"161","name":"Golf"},{"id":"1796","name":"dungeon"},{"id":"4451","name":"obstacles"},{"id":"15556","name":"catch"},{"id":"2581","name":"spikes"}]
+size: "677 MB"
+franchise_siblings: [{"rawg_id":470699,"slug":"cursed-to-golf","name":"Cursed to Golf (itch)"}]
+franchise_slug: "cursed-to-golf|cursed-to-golf-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "7 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1726120"
 protondb_report_url: ""
 pcgamingwiki_url: "https://store.epicgames.com/en-US/p/cursed-to-golf-a6bc22"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/cursed-to-golf?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/cursed-to-golf/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13555"
+opencritic_url: "https://opencritic.com/game/13555/-"
+opencritic_score: 78
+opencritic_review_count: 49
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004926"
+playstation_url: "https://store.playstation.com/en-us/concept/10004926"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

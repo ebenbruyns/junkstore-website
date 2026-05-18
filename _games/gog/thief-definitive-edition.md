@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/thief-definitive-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.77
+protondb_total: 136
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Eidos Interactive Corporation
 developer: Eidos Montreal
 genre: Adventure, Shooter, Simulator
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Nudity, Strong Language, Strong Sexual Content, Use of Drugs, and Violence"},"pegi":{"rating":"16","descriptors":"Drugs, Bad Language, Sex and Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"strong sexual references and violence"},"nzoflc":{"rating":"r13","descriptors":"violence, offensive language and sex scenes"},"kgrb":{"rating":"18","descriptors":"Violence, Crime, Language"},"fpb":{"rating":"16","descriptors":"strong language, nudity and violence"}}
 release_date: "February 28, 2014"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","German","French","Italian","Spanish - Spain","Polish","Russian","Czech"]
+languages_audio: ["English","German","French","Italian","Spanish - Spain","Russian"]
 tags_structured: []
+size: "594653473"
+franchise_siblings: [{"rawg_id":22846,"slug":"thief-3-deadly-shadows","name":"Thief 3: Deadly Shadows"},{"rawg_id":10241,"slug":"thief-ii-the-metal-age","name":"Thief II: The Metal Age"},{"rawg_id":31777,"slug":"thief-the-dark-project","name":"Thief: The Dark Project"}]
+franchise_slug: "thief|thief-3-deadly-shadows|thief-ii-the-metal-age|thief-the-dark-project"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11 hrs"
 hltb_main_extra: "22 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/thief_definitive_edition"
 protondb_url: "https://www.protondb.com/app/239160"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thief"
-metacritic_score: 70
-metacritic_url: "https://www.metacritic.com/game/pc/thief?ftag=MCD-06-10aaa1f"
+metacritic_score: 67
+metacritic_url: "https://www.metacritic.com/game/thief/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "285"
+opencritic_url: "https://opencritic.com/game/285/-"
+opencritic_score: 64
+opencritic_review_count: 75
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/horizon-chase-turbo/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.83
+protondb_total: 35
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Aquiris Game Studio
 developer: Aquiris Game Studio
 genre: Indie, Racing
 franchise: 
-age_rating_summary: 
+age_rating_summary: E (ESRB) · 3 (PEGI)
+age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"dejus":{"rating":"L"}}
 release_date: "June 24, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Korean","Simplified Chinese","Traditional Chinese","Russian"]
+languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":966587,"slug":"horizon-chase-2","name":"Horizon Chase 2"}]
+franchise_slug: "horizon-chase-2|horizon-chase-turbo"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-05-03T15:00:00.000Z","end":"2023-05-10T15:00:00.000Z","type":null,"id":"58a2b650955f4920876afe86dfb563c1"},{"start":"2022-12-15T15:00:00.000Z","end":"2022-12-16T15:00:00.000Z","type":null,"id":"58a2b650955f4920876afe86dfb563c1"},{"start":"2021-06-23T15:00:00.000Z","end":"2021-06-30T15:00:00.000Z","type":null,"id":"58a2b650955f4920876afe86dfb563c1"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: "15.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Horizon_Chase_Turbo"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/horizon-chase-turbo?ftag=MCD-06-10aaa1f"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "6057"
+opencritic_url: "https://opencritic.com/game/6057/-"
+opencritic_score: 79
+opencritic_review_count: 48
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Horizon Chase Turbo is a standalone homage to classic 16-bit racers that defined a generation of high-speed, frenetic arcade fun. The game ignites an instant blast of nostalgia with catchy contemporary chiptune music, split screen multiplayer and retro design with modern gameplay.
+Horizon Chase Turbo is a racing game inspired by the great hits of the 80's and 90's. It recreates the classic arcade gameplay with unbound speed limits of fun. Full throttle on and enjoy!

@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/star-wars-jedi-knight-dark-forces-ii/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.66
+protondb_total: 43
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: LucasArts
 developer: LucasArts
 genre: Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Animated Violence"},"pegi":{"rating":"12","descriptors":"Non realistic looking violence towards human characters"},"oflc":{"rating":"M","descriptors":"Medium level animated violence"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "September 30, 1997"
 game_modes: ["Single player","Multiplayer"]
-languages: ["English*","French*","Italian*","Spanish - Spain**languages with full audio support"]
-tags_structured: []
+languages: ["English","French","Italian","Spanish - Spain"]
+languages_audio: ["English","French","Italian","Spanish - Spain"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"8","name":"First-Person"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"40845","name":"Partial Controller Support"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"72","name":"Local Multiplayer"},{"id":"74","name":"Retro"},{"id":"25","name":"Space"},{"id":"318","name":"Star Wars"},{"id":"290","name":"FMV"}]
+size: "716 MB"
+franchise_siblings: [{"rawg_id":11970,"slug":"star-wars-jedi-knight-jedi-academy","name":"Star Wars Jedi Knight: Jedi Academy"},{"rawg_id":12018,"slug":"star-wars-jedi-knight-ii-jedi-outcast","name":"Star Wars Jedi Knight II: Jedi Outcast"},{"rawg_id":15852,"slug":"star-wars-jedi-knight-mysteries-of-the-sith","name":"STAR WARS Jedi Knight - Mysteries of the Sith"},{"rawg_id":15851,"slug":"star-wars-dark-forces-2","name":"Star Wars: Dark Forces"}]
+franchise_slug: "star-wars-dark-forces-2|star-wars-jedi-knight-dark-for|star-wars-jedi-knight-ii-jedi-|star-wars-jedi-knight-jedi-aca|star-wars-jedi-knight-mysterie"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9 hrs"
 hltb_main_extra: "10 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/32380"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars:_Jedi_Knight_-_Dark_Forces_II"
 metacritic_score: 91
-metacritic_url: "https://www.metacritic.com/game/pc/star-wars-jedi-knight-dark-forces-ii?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/star-wars-jedi-knight-dark-forces-ii/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8321"
+opencritic_url: "https://opencritic.com/game/8321/-"
+opencritic_score: 62
+opencritic_review_count: 18
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "You'll want to adjust the scaling; this can be done in game."

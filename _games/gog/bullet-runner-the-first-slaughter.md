@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/bullet-runner-the-first-slaughter/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Bonus Stage Publishing
@@ -19,10 +27,15 @@ developer: Kami Games
 genre: Adventure, Indie, Shooter
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria"}}
 release_date: "March 24, 2023"
-game_modes: ["Single player"]
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"41","name":"Dark"},{"id":"571","name":"3D"},{"id":"131","name":"Fast-Paced"},{"id":"56","name":"Shoot 'Em Up"},{"id":"57","name":"Bullet Hell"},{"id":"187","name":"Demons"},{"id":"236","name":"Top-Down Shooter"},{"id":"201","name":"Twin Stick Shooter"}]
+size: "2149 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "30 mins"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/bullet-runner-the-first-slaughter/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

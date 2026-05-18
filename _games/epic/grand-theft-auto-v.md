@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/grand-theft-auto-v/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: ""
 standalone_rating: ""
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.71
+protondb_total: 2253
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Take-Two Interactive, Rockstar Games
 developer: Rockstar North
 genre: Adventure, Shooter, Racing
 franchise: 
-age_rating_summary: 
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Nudity, Mature Humor, Strong Language, Strong Sexual Content, Use of Drugs and Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Online Play,, Strong Language"},"usk":{"rating":"18"},"kgrb":{"rating":"18","descriptors":"Game Descriptive: Sexual Content, Violence, Inappropriate Language, Drug, Crime, Gambling, Title Name: Grand Theft Auto V, Age: 18+, Certificate #: CC-NP-150205-002 호, Issue date: 20150205, Company Name:테이크투인터렉티브유한회사, Distributor No,: 제 2009-00016호, ----------------------------------, 내용정보표지사항: 선정성, 폭력성, 언어의 부적절성, 약물, 범죄, 사행성, 제명: 그랜드 테프트 오토 V, 이용등급: 청소년이용불가, 등급분류번호: CC-NP-150205-002 호, 등급분류일자: 20150205, 상호: 테이크투인터렉티브유한회사, 제작.배급업 신고번호: 제 2009-00016호"}}
 release_date: "January 1, 2099"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Traditional Chinese"]
+languages: ["English","French","Italian","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese","Simplified Chinese","Spanish - Latin America"]
+languages_audio: ["English"]
 tags_structured: [{"id":"11631","name":"Requires 2FA"}]
+size: ""
+franchise_siblings: [{"rawg_id":972995,"slug":"grand-theft-aito-vi","name":"Grand Theft Auto VI"},{"rawg_id":5200,"slug":"gta-chinatown-wars","name":"Grand Theft Auto: Chinatown Wars"},{"rawg_id":4459,"slug":"grand-theft-auto-iv","name":"Grand Theft Auto IV"},{"rawg_id":4059,"slug":"grand-theft-auto-vice-city-stories","name":"Grand Theft Auto: Vice City Stories"},{"rawg_id":979345,"slug":"san-andreas-multiplayer-sa-mp","name":"San Andreas Multiplayer (SA-MP)"},{"rawg_id":4058,"slug":"gta-liberty-city-stories","name":"Grand Theft Auto: Liberty City Stories"},{"rawg_id":59122,"slug":"grand-theft-auto-advance","name":"Grand Theft Auto Advance"},{"rawg_id":416,"slug":"grand-theft-auto-san-andreas","name":"Grand Theft Auto: San Andreas"},{"rawg_id":430,"slug":"grand-theft-auto-vice-city","name":"Grand Theft Auto: Vice City"},{"rawg_id":432,"slug":"grand-theft-auto-iii","name":"Grand Theft Auto III"},{"rawg_id":52997,"slug":"grand-theft-auto-2-1999","name":"Grand Theft Auto 2"},{"rawg_id":52998,"slug":"grand-theft-auto-1998","name":"Grand Theft Auto"}]
+franchise_slug: "grand-theft-aito-vi|grand-theft-auto-1998|grand-theft-auto-2-1999|grand-theft-auto-advance|grand-theft-auto-iii|grand-theft-auto-iv|grand-theft-auto-san-andreas|grand-theft-auto-v|grand-theft-auto-vice-city|grand-theft-auto-vice-city-sto|gta-chinatown-wars|gta-liberty-city-stories|san-andreas-multiplayer-sa-mp"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: true
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "32 hrs"
 hltb_main_extra: "51.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/271590"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_V"
 metacritic_score: 97
-metacritic_url: "https://www.metacritic.com/game/pc/grand-theft-auto-v?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/grand-theft-auto-v/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "163"
+opencritic_url: "https://opencritic.com/game/163/-"
+opencritic_score: 92
+opencritic_review_count: 138
+twitch_id: "32982"
+twitch_url: ""
+playstation_id: "201930"
+playstation_url: "https://store.playstation.com/en-us/concept/201930"
+xbox_id: "BPJ686W6S0NH"
+xbox_url: "https://www.xbox.com/games/store/-/BPJ686W6S0NH"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Read this [tutorial](https://www.reddit.com/r/JunkStore/comments/1j5d1f8/running_gtav_enhanced_edition_on_steam_deck_from/)"

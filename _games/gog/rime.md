@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/rime/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.81
+protondb_total: 50
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Grey Box, Grey Box
 developer: Tequila Works
 genre: Adventure, Adventure, Adventure, Adventure
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: e10 (ESRB) · 6 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"6","descriptors":"Fear, Violence"},"usk":{"rating":"6"}}
 release_date: "May 26, 2017"
-game_modes: ["Single player"]
-languages: ["English","French","German","Italian","Japanese","Polish","Portuguese (Brazil)","Russian","Spanish","ar"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Polish","Portuguese - Brazil","Russian"]
+languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21151","name":"Easy Puzzles"}]
+size: "7412 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5.5 hrs"
 hltb_main_extra: "6.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/rime"
 protondb_url: "https://www.protondb.com/app/493200"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rime"
-metacritic_score: 78
-metacritic_url: "https://www.metacritic.com/game/pc/rime?ftag=MCD-06-10aaa1f"
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/rime/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4151"
+opencritic_url: "https://opencritic.com/game/4151/-"
+opencritic_score: 79
+opencritic_review_count: 120
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A third-person exploratory action/adventure title in which a boy ends up on a mysterious island and makes his way through its highly stylized environments, containing puzzles and slight navigation challenges, to get to the bottom of why he's ended up there and to reach the end of the road he's inadvertently begun to travel.
+Play as a young boy who has awakened on a mysterious island after a torrential storm. You see wild animals, long-forgotten ruins and a massive tower that beckons you to come closer. Armed with your wits and a will to overcome—and the guidance of a helpful fox—you must explore ...

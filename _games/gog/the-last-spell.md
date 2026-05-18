@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-last-spell/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.75
+protondb_total: 38
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Nacon, The Arcade Crew
@@ -19,10 +27,15 @@ developer: Ishtar Games
 genre: Role-playing (RPG), Strategy, Turn-based strategy (TBS), Indie, Tactical
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "March 9, 2023"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
+languages: ["English","Simplified Chinese","Traditional Chinese","French","Japanese","German","Spanish - Spain","Korean","Russian","Ukrainian","Portuguese - Brazil"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"49","name":"Difficult"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"43","name":"Post-apocalyptic"},{"id":"40","name":"Dark Fantasy"},{"id":"99","name":"Isometric"},{"id":"640","name":"Roguelite"},{"id":"176","name":"Turn-Based Tactics"},{"id":"230","name":"Tactical RPG"}]
+size: "1563 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "39 hrs"
 hltb_main_extra: "66 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1105670"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Last_Spell"
 metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/the-last-spell?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/the-last-spell/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14413"
+opencritic_url: "https://opencritic.com/game/14413/-"
+opencritic_score: 81
+opencritic_review_count: 18
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10005831"
+playstation_url: "https://store.playstation.com/en-us/concept/10005831"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

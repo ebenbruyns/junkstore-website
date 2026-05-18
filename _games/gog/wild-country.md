@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/wild-country/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: The Iterative Collective, Lost Native Games
@@ -19,10 +27,15 @@ developer: Lost Native Games
 genre: "Adventure, Strategy, Turn-based strategy (TBS), Indie, Card & Board Game"
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"6"}}
 release_date: "November 25, 2024"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Overlay","Single-player"]
+languages: ["English","Simplified Chinese","Traditional Chinese"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"115","name":"Controller"},{"id":"80","name":"Tactical"},{"id":"157","name":"PvP"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"1465","name":"combat"},{"id":"170","name":"Competitive"},{"id":"45878","name":"Online PvP"},{"id":"213","name":"City Builder"},{"id":"127","name":"Card Game"},{"id":"91686","name":"Family Sharing"},{"id":"162","name":"Board Game"},{"id":"774","name":"nature"},{"id":"103","name":"Hex Grid"},{"id":"235","name":"Trading Card Game"},{"id":"49950","name":"Card Battler"},{"id":"4880","name":"tabletop"}]
+size: "831 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wild_Country"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/wild-country/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

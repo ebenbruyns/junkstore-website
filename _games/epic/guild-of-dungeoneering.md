@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/guild-of-dungeoneering/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: ""
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.55
+protondb_total: 34
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Gambrinous
@@ -19,10 +27,15 @@ developer: Gambrinous
 genre: Card Game
 franchise: Guild of Dungeoneering
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 18, 2021"
 game_modes: ["Single player"]
-languages: ["English*","Simplified Chinese","Japanese","Korean","Traditional Chinese*languages with full audio support"]
+languages: ["English","Simplified Chinese","Japanese","Korean","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1181","name":"Card Game"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11.6 hrs"
 hltb_main_extra: "17.9 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/317820"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Guild_of_Dungeoneering"
 metacritic_score: 72
-metacritic_url: "https://www.metacritic.com/game/pc/guild-of-dungeoneering?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/guild-of-dungeoneering/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "876"
+opencritic_url: "https://opencritic.com/game/876/-"
+opencritic_score: 75
+opencritic_review_count: 23
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! If you are having issues though and get an error then from the game page in Junk Store: <br>\nCog > Proton (set to All or advanced) > Set Steam Compat Library Path (toggle this off - grey)."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Guild of Dungeoneering is a turn-based dungeon crawler with a twist: instead of controlling the hero you build the dungeon around him. Using cards drawn from your Guild decks you lay down rooms, monsters, traps and of course loot!
+Guild of Dungeoneering is a turn-based, dungeon-crawling, card-battler with a twist: instead of controlling the hero you build the dungeon around them.

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/bus-simulator-21-next-stop/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.75
+protondb_total: 19
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Astragon Entertainment GmbH
 developer: Stillalive Studios
 genre: Simulation
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: E (ESRB) · 3 (PEGI)
+age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"oflc":{"rating":"G"},"dejus":{"rating":"6"}}
 release_date: "May 16, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Korean","Polish","Russian","Traditional Chinese","Turkish","Simplified Chinese","Spanish - Latin America"]
+languages_audio: ["English","German","Simplified Chinese"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "9728 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-12-05T16:00:00.000Z","end":"2024-12-12T16:00:00.000Z","type":null,"id":"10adac482d1647e1afc237b66dc45066"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "25.2 hrs"
 hltb_main_extra: "26 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bus_Simulator_21"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/bus-simulator-21-next-stop/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11922"
+opencritic_url: "https://opencritic.com/game/11922/-"
+opencritic_score: 66
+opencritic_review_count: 20
+twitch_id: ""
+twitch_url: ""
+playstation_id: "233251"
+playstation_url: "https://store.playstation.com/en-us/concept/233251"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency, no extra setup required."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Experience the daily life of a bus driver in two open world cities either in the USA or Europe. Drive up to 30 licensed buses by international manufacturers, including a double-decker and e-buses. Take your passengers to their destinations safely and on time - either in single- or multiplayer mode.
+It's your stop! Bus Simulator 21 Next Stop is here! Enjoy many game improvements and a brand-new game mode with this comprehensive update.

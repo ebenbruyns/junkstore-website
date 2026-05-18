@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/machinarium/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 79
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Amanita Design
@@ -19,10 +27,15 @@ developer: Amanita Design
 genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas, Violência fantasiosa"}}
 release_date: "February 18, 2025"
 game_modes: ["Single player"]
-languages: ["Too many to list"]
+languages: ["English","French","Italian","German","Spanish - Spain","Czech","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Czech","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "5.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/40700"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Machinarium"
 metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/pc/machinarium?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/machinarium/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9310"
+opencritic_url: "https://opencritic.com/game/9310/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Machinarium is award-winning independent adventure game developed by the makers of Samorost and Botanicula. A little robot who’s been thrown out to the scrap yard behind the city must return and confront the Black Cap Brotherhood and save his robot-girl friend.
+Machinarium is the award-winning independent adventure game developed by the makers of Samorost series, Botanicula and CHUCHEL. Help Josef the robot save his girlfriend Berta kidnapped by the Black Cap Brotherhood gang!

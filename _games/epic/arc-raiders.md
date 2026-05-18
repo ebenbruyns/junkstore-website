@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/arc-raiders/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 926
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Embark Studios
@@ -19,10 +27,15 @@ developer: Embark Studios
 genre: Action, Shooter
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"csrr":{"rating":"C15","descriptors":"Card or Casual Games, Horror, Inappropriate Language, Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "October 30, 2025"
 game_modes: ["Multi-player","Co-op"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "44.1 hrs"
 hltb_main_extra: "94.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/ARC_Raiders"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/arc-raiders/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "19023"
+opencritic_url: "https://opencritic.com/game/19023/-"
+opencritic_score: 87
+opencritic_review_count: 95
+twitch_id: "464339927"
+twitch_url: ""
+playstation_id: "10003610"
+playstation_url: "https://store.playstation.com/en-us/concept/10003610"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Feedback from user who tested this game, also used built in LSFG configs in v1.1.13 on Decky Testing Store.<br> \n\n**Tested with Proton**: 10.0-3<br>\n\n\"Frame generation in the build that I tested worked awesomely .. get easy 85-90 fps medium settings 1920x1200 in FSR3 performance mode (50%).\""
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.
+ARC Raiders is an upcoming multiplayer, extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.

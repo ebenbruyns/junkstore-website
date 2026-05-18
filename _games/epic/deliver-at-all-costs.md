@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/deliver-at-all-costs/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.72
+protondb_total: 16
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: KONAMI
 developer: Far Out Games
 genre: Action, Narration, Adventure
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Crude Humor, Language"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"usk":{"rating":"16","descriptors":"Violence"},"cero":{"rating":"C","descriptors":"Crime, Violence"},"oflc":{"rating":"PG","descriptors":"Mild themes, violence and coarse language"},"kgrb":{"rating":"15","descriptors":"Violence, Bad Language"},"fpb":{"rating":"16","descriptors":"Mild Language, Low impact Violence, Photo Pattern Sensitivity, Competative intensity."},"csrr":{"rating":"C12"},"dejus":{"rating":"14","descriptors":"Violência,, Linguagem Imprópria"}}
 release_date: "May 22, 2025"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Spanish - Latin America","Japanese","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"1395","name":"Narration"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "4.05 GB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-22T15:00:00.000Z","end":"2025-05-29T15:00:00.000Z","type":null,"id":"75a9f751a9964f46b3a37b396d2edc52"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8.5 hrs"
 hltb_main_extra: "12 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deliver_at_All_Costs"
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/deliver-at-all-costs/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "18398"
+opencritic_url: "https://opencritic.com/game/18398/-"
+opencritic_score: 71
+opencritic_review_count: 69
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10012329"
+playstation_url: "https://store.playstation.com/en-us/concept/10012329"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. If you are having issues, launch it twice or reinstall the dependencies (JS > About)."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Deliver At All Costs is a thrilling action game where destruction, absurdity and intrigue collide! Step into the shoes of Winston Green — a down-on-his-luck courier with a fiery temper and a mysterious past — as he delivers highly unconventional cargo, leaving a trail of havoc and chaos behind him.
+Deliver At All Costs is a thrilling action game where destruction, absurdity and intrigue collide! Join Winston Green, a down-on-his-luck courier with a fiery temper and a mysterious past — as he delivers highly unconventional cargo, leaving a trail of havoc and chaos behind him.

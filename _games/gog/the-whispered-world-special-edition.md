@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-whispered-world-special-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Daedalic Entertainment
 developer: Daedalic Entertainment
 genre: Adventure, Indie, Point-and-click
 franchise: 
-age_rating_summary: ESRB 6
+age_rating_summary: E (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"E","descriptors":"Alcohol Reference, Mild Fantasy Violence, Mild Language"},"pegi":{"rating":"12"},"usk":{"rating":"6"}}
 release_date: "May 6, 2014"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Overlay","Single-player"]
+languages: ["English","Italian","German","Spanish - Spain","Polish","Russian"]
+languages_audio: ["English","German","Russian"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"64","name":"Fantasy"},{"id":"141","name":"Point & Click"},{"id":"40834","name":"Commentary available"}]
+size: "2097 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: "11 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/the_whispered_world_special_edition"
 protondb_url: "https://www.protondb.com/app/268540"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Whispered_World"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 70
+metacritic_url: "https://www.metacritic.com/game/the-whispered-world/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

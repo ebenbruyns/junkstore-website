@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/troublemaker/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Freedom Games
@@ -19,10 +27,15 @@ developer: Gamecom Team
 genre: Action, Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Temas sensíveis, Medo"}}
 release_date: "March 31, 2023"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Indonesian"]
+languages_audio: ["Indonesian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+size: "8258 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6.5 hrs"
 hltb_main_extra: "10 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/troublemaker/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: Works out of the box with native controller support.
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Troublemaker tells the story of friendship, chaos, romance, and strife between school gangs. Defeat the enemy gangs, Seize their territory, And become the ruler of the School in the Strongest High School here.
+Grab a backpack, boxing tape, and focus on what high school is all about: Beating the ever loving crap out of one another! Troublemaker brings favorite action-adventure-beat-'em-up elements from the strongest traditions in the genre.

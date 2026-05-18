@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/escape-academy/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.74
+protondb_total: 18
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: iam8bit Presents
@@ -19,10 +27,15 @@ developer: Coin Crew Games
 genre: First Person, Puzzle, Adventure
 franchise: Escape Academy
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "July 14, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain"]
+languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1183","name":"Local Multiplayer"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-01-16T16:00:00.000Z","end":"2025-01-23T16:00:00.000Z","type":null,"id":"224ed07084444c619cedc473c7cd1498"},{"start":"2023-12-31T15:00:00.000Z","end":"2024-01-01T15:00:00.000Z","type":null,"id":"224ed07084444c619cedc473c7cd1498"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "5.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1812090"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Escape_Academy"
 metacritic_score: 79
-metacritic_url: "https://www.metacritic.com/game/pc/escape-academy?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/escape-academy/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13388"
+opencritic_url: "https://opencritic.com/game/13388/-"
+opencritic_score: 80
+opencritic_review_count: 27
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004502"
+playstation_url: "https://store.playstation.com/en-us/concept/10004502"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Welcome to the Escape Academy. Train to become the ultimate Escapist. Solve Puzzles. Hack Servers. Meet the Faculty. Brew the perfect cup of tea. Escape Rooms in single player or co-op with a friend - local or online!
+Welcome to Escape Academy. Train to become the ultimate Escapist. Solve Puzzles. Hack Servers. Meet the Faculty. Brew the perfect cup of tea. Escape Rooms in single player or co-op with a friend - local or online!

@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/tower-of-time/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Digerati Distribution, Digerati Distribution
@@ -19,10 +27,15 @@ developer: Event Horizon
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "April 12, 2018"
-game_modes: ["Single player"]
-languages: ["English","French","German","Italian","Polish","Russian","Turkish","zh-Hans","zh-Hans"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
+languages: ["English","German","Polish","Russian","French","Turkish","Simplified Chinese","Traditional Chinese","Italian"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"14","name":"Early Access"},{"id":"468","name":"role-playing"},{"id":"77","name":"Realistic"},{"id":"48","name":"Dungeon Crawler"},{"id":"194","name":"Real-Time with Pause"},{"id":"205","name":"Lore-Rich"},{"id":"247","name":"Real Time Tactics"}]
+size: "5854 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "33 hrs"
 hltb_main_extra: "41.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/617480"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tower_of_Time"
 metacritic_score: 77
-metacritic_url: "https://www.metacritic.com/game/pc/tower-of-time?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/tower-of-time/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "5897"
+opencritic_url: "https://opencritic.com/game/5897/-"
+opencritic_score: 70
+opencritic_review_count: 19
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: May need to map additional keys for actions in game.

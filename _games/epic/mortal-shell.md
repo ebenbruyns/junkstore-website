@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/mortal-shell/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.87
+protondb_total: 27
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Playstack Ltd
 developer: Cold Symmetry
 genre: Indie, RPG
 franchise: 
-age_rating_summary: 
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence, Use of Alcohol/Tobacco"},"usk":{"rating":"16","descriptors":"Gewalt"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence"},"csrr":{"rating":"R"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "August 18, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Portugal","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Russian","Ukrainian"]
+languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "8673 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-03-13T15:00:00.000Z","end":"2025-03-20T15:00:00.000Z","type":null,"id":"10c62ba6044c4cbba8b50ad16dc58c4d"},{"start":"2022-12-27T15:00:00.000Z","end":"2022-12-28T15:00:00.000Z","type":null,"id":"10c62ba6044c4cbba8b50ad16dc58c4d"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10.5 hrs"
 hltb_main_extra: "14 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mortal_Shell"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/mortal-shell/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10021"
+opencritic_url: "https://opencritic.com/game/10021/-"
+opencritic_score: 76
+opencritic_review_count: 126
+twitch_id: ""
+twitch_url: ""
+playstation_id: "234489"
+playstation_url: "https://store.playstation.com/en-us/concept/234489"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Awakening as an empty vessel, you will enter into a shattered and twisted world where the remains of humanity wither and rot. Implored to do the bidding of the mysterious “Dark Father”, you must traverse this tattered landscape and track down hidden sanctums of devout followers. There, in Mortal Shell’s most hallowed grounds, you must overcome formidable foes and harvest the sacred glands. You won’t be truly alone when the dead litter your path: Scattered across this land are the remnant anima of lost warriors who can be inhabited to gain their unique abilities and knowledge of weapons. The Dark Father is desperate for you to complete your task — but to what end?
+Mortal Shell is a deep action-RPG that tests your sanity and resilience in a shattered world. Your adversaries spare no mercy, with survival demanding superior awareness and precision. Possess lost warriors, discover hidden sanctums, and face formidable foes.

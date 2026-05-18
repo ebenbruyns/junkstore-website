@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/spirit-of-the-north/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.77
+protondb_total: 28
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Silver Lining Interactive
@@ -19,10 +27,15 @@ developer: Infuse Studio
 genre: Adventure
 franchise: Spirit of the North
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "April 19, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Korean"]
+languages_audio: []
 tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":968498,"slug":"spirit-of-the-north-2","name":"Spirit of the North 2"}]
+franchise_slug: "spirit-of-the-north|spirit-of-the-north-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-09-14T15:00:00.000Z","end":"2022-09-21T15:00:00.000Z","type":null,"id":"4460a8fcdc3e4f48a11f3174656f8a96"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "6 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Spirit_of_the_North"
 metacritic_score: 59
 metacritic_url: "https://www.metacritic.com/game/spirit-of-the-north/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8528"
+opencritic_url: "https://opencritic.com/game/8528/-"
+opencritic_score: 63
+opencritic_review_count: 52
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-"Spirit of the North is a single player, 3rd-person adventure game inspired by the breathtaking and mysterious landscapes of Iceland. The story takes root from various pieces of Nordic folklore. The game is unique in that it purposefully has no dialog or narrative. Players must breathe in their surroundings to solve various puzzles and speculate the meaning of a lost ancient civilization. Play as an ordinary red fox who’s story becomes entwined with the guardian of the Northern Lights, a female spirit fox. As you journey over the mountains and under red stained skies you’ll discover more about your companion and a land left in ruin."
+Spirit of the North is a single-player 3rd-person adventure game inspired by the breathtaking and mysterious landscapes of Iceland. The story takes root from various pieces of Nordic folklore.

@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/middle-earth-shadow-of-mordor/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.84
+protondb_total: 128
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: WB Games
 developer: Monolith Productions
 genre: "Role-playing (RPG), Adventure, Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: PEGI 18
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence"},"pegi":{"rating":"18"},"usk":{"rating":"16"},"cero":{"rating":"Z"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"r13"},"kgrb":{"rating":"18"},"fpb":{"rating":"18"},"csrr":{"rating":"R"},"mda":{"rating":"M18"},"dejus":{"rating":"18"}}
 release_date: "September 30, 2014"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"26","name":"Gore"},{"id":"37","name":"Sandbox"},{"id":"15","name":"Stealth"},{"id":"97","name":"Action RPG"},{"id":"68","name":"Hack and Slash"},{"id":"40","name":"Dark Fantasy"},{"id":"82","name":"Magic"},{"id":"188","name":"Parkour"},{"id":"278","name":"Assassin"},{"id":"205","name":"Lore-Rich"},{"id":"283","name":"Based On A Novel"},{"id":"5842","name":"steam"},{"id":"7517","name":"category"},{"id":"44631","name":"microtranzations"}]
+size: "54741 MB"
+franchise_siblings: [{"rawg_id":25,"slug":"middle-earth-shadow-of-war","name":"Middle-earth: Shadow of War"}]
+franchise_slug: "middle-earth-shadow-of-war|shadow-of-mordor"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "17 hrs"
 hltb_main_extra: "27 hrs"
 hltb_completionist: "38 hrs"
-hltb_url: "https://howlongtobeat.com/game/31384"
+hltb_url: "https://howlongtobeat.com/game/18006"
 
 # Links
 store_url: "https://www.gog.com/en/game/middleearth_shadow_of_mordor"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/241930"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Middle-earth%3A_Shadow_of_Mordor"
 metacritic_score: 84
-metacritic_url: "https://www.metacritic.com/game/pc/middle-earth-shadow-of-mordor?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/middle-earth-shadow-of-mordor/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "201"
+opencritic_url: "https://opencritic.com/game/201/-"
+opencritic_score: 85
+opencritic_review_count: 103
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/witch-it/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.7
+protondb_total: 57
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Barrel Roll Games
 developer: Barrel Roll Games
 genre: Action, Indie
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 0 (USK)
+age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa"}}
 release_date: "March 26, 2024"
 game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
+languages: ["English","German","Simplified Chinese","Turkish","French","Italian","Dutch","Russian","Portuguese - Brazil","Romanian","Traditional Chinese","Czech","Spanish - Spain","Korean","Danish","Swedish","Ukrainian","Hungarian","Galician","Japanese","Polish","Basque"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-31T15:00:00.000Z","end":"2024-11-07T15:00:00.000Z","type":null,"id":"d2db7ad960a84551825707261c8437c4"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Witch_It"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/witch-it/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10543"
+opencritic_url: "https://opencritic.com/game/10543/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10011868"
+playstation_url: "https://store.playstation.com/en-us/concept/10011868"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Witch It is a multiplayer hide & seek game set in a humorous, magical world. Brave hunters are tasked with finding the witches that curse their villages!
+Witch It is a multiplayer "hide & seek" game in a living, magical world. Brave hunters seek hidden witches that curse their villages!

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/chessarama/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.57
+protondb_total: 5
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Minimol Games
@@ -19,10 +27,15 @@ developer: Minimol Games
 genre: Turn-Based Strategy, Puzzle, Strategy
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "April 17, 2025"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Hungarian","Indonesian","Japanese","Korean","Norwegian","Polish","Portuguese - Brazil","Russian","Swedish","Turkish","Ukrainian"]
+languages_audio: []
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21150","name":"Challenging Puzzles"}]
+size: "1.35 GB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/chessarama/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15941"
+opencritic_url: "https://opencritic.com/game/15941/-"
+opencritic_score: 72
+opencritic_review_count: 8
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10011699"
+playstation_url: "https://store.playstation.com/en-us/concept/10011699"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/teenage-mutant-ninja-turtles-shredders-revenge/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.81
+protondb_total: 55
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Dotemu
@@ -19,10 +27,15 @@ developer: Tribute Games Inc.
 genre: Action
 franchise: Teenage Mutant Ninja Turtles
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "July 2, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Traditional Chinese","Korean","Japanese","Portuguese - Brazil"]
+languages_audio: ["English","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "2.9 hrs"
 hltb_main_extra: "4.1 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/teenage-mutant-ninja-turtles-shr
 protondb_url: "https://www.protondb.com/app/1361510"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Teenage_Mutant_Ninja_Turtles%3A_Shredder%27s_Revenge"
-metacritic_score: 84
-metacritic_url: "https://www.metacritic.com/game/pc/teenage-mutant-ninja-turtles-shredders-revenge?ftag=MCD-06-10aaa1f"
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/teenage-mutant-ninja-turtles-shredders-revenge/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13252"
+opencritic_url: "https://opencritic.com/game/13252/-"
+opencritic_score: 87
+opencritic_review_count: 165
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003986"
+playstation_url: "https://store.playstation.com/en-us/concept/10003986"
+xbox_id: "9NS3673HVH41"
+xbox_url: "https://www.xbox.com/games/store/-/9NS3673HVH41"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. May need to install C++ Runtime"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Teenage Mutant Ninja Turtles: Shredder's Revenge is a side-scrolling beat 'em up developed by Tribute Games and published by DotEmu. Inspired by the 1987 Teenage Mutant Ninja Turtles animated series, the game pays homage to classic TMNT titles like Turtles in Time, featuring retro-inspired pixel art and dynamic combat. Players control Leonardo, Michelangelo, Donatello, Raphael, or other allies, each with unique abilities, as they battle through various levels to thwart Shredder and Krang's plans to conquer New York City. The game supports solo play or co-op for up to six players, blending nostalgic design with modern gameplay mechanics.
+Teenage Mutant Ninja Turtles: Shredder’s Revenge reunites Leonardo, Michelangelo, Donatello and Raphael as they kick shell in a beautifully realized beat ’em up.

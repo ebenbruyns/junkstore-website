@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/moving-out/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.78
+protondb_total: 30
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Team17
 developer: "SMG Studio & Devm Games"
 genre: Casual, Party
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: 3 (PEGI) · 6 (USK)
+age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"6"},"oflc":{"rating":"PG"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "December 28, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","German","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Swedish","Polish","Russian","Italian","Spanish - Spain"]
+languages_audio: ["English"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-24T15:00:00.000Z","end":"2024-10-31T15:00:00.000Z","type":null,"id":"0a8b32256f374cf4998c3ecf44c31db9"},{"start":"2021-12-27T15:00:00.000Z","end":"2021-12-28T15:00:00.000Z","type":null,"id":"0a8b32256f374cf4998c3ecf44c31db9"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "10 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/moving-out"
 protondb_url: "https://www.protondb.com/app/996770"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Moving_Out"
-metacritic_score: 79
-metacritic_url: "https://www.metacritic.com/game/pc/moving-out?ftag=MCD-06-10aaa1f"
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/moving-out/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9246"
+opencritic_url: "https://opencritic.com/game/9246/-"
+opencritic_score: 77
+opencritic_review_count: 74
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Moving Out is a cooperative moving simulation game. In a local cooperative experience, players move objects from houses into a moving van while coping with exaggerated physics.
-
-It was followed by Moving Out 2.
+Moving Out is a ridiculous physics-based moving simulator that brings new meaning to "couch co-op"! As a newly certified Furniture Arrangement & Relocation Technician, you’ll take on moving jobs all across the busy town of Packmore.

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/card-shark/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.76
+protondb_total: 12
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Devolver Digital
@@ -19,10 +27,15 @@ developer: Nerial
 genre: Narration, Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Atos criminosos"}}
 release_date: "June 2, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese","Korean","Portuguese - Brazil","Russian"]
+languages_audio: []
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"}]
+size: "1206 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "8.4 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Card_Shark"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/card-shark/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13203"
+opencritic_url: "https://opencritic.com/game/13203/-"
+opencritic_score: 81
+opencritic_review_count: 66
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Card Shark is an adventure game full of cunning, intrigue, and delectable deceit. Enter a world where you’ll need to play your opponents better than you play your cards. Cheat your way to the top of 18th-century French society. Master deceptions using card marking, false shuffles, deck switching, false deals, and more! Use your ill-gotten gains to buy your way into the closed world of high-stakes tables. Card Shark is a new adventure that’s all about playing your cards right.
+Card Shark is an adventure game full of cunning, intrigue, and delectable deceit. Enter a world where you’ll need to play your opponents better than you play your cards.

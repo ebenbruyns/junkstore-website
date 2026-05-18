@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-walking-dead-no-mans-land/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Deca Live Operations GmbH
@@ -19,10 +27,15 @@ developer: Deca Live Operations GmbH
 genre: RPG, Strategy
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"18","descriptors":"Violência"}}
 release_date: "January 10, 2024"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/the-walking-dead-no-mans-land/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Join Rick, Daryl, Michonne and other iconic characters from AMC's The Walking Dead in the official mobile game of the show. Do you have what it takes to stay alive?
-
-The Walking Dead: No Man's Land is a thrilling, action-packed RPG where tactical choices make the difference between life and death. Only the strongest will survive so choose your team wisely: bring Michonne and dominate in close-quarter combat or send Rick to dispatch enemies from afar. Or perhaps you'll choose to snipe from a distance with Daryl's crossbow, or mow the herd down with Abraham's assault rifle.
+The Walking Dead: No Man’s Land is a turn-based tactical RPG based on AMC’s massive hit show “The Walking Dead”. In this action-packed strategy game you attempt to survive in a post-apocalyptic world.

@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/everdream-valley/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Varsav Game Studios, Untold Tales
@@ -19,10 +27,15 @@ developer: Mooneaters
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Arcade, Simulator
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "May 30, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","German","Polish","Korean","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Japanese"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"69","name":"Action-Adventure"},{"id":"125","name":"Crafting"},{"id":"138","name":"Relaxing"},{"id":"164","name":"Cartoony"},{"id":"179","name":"Cartoon"},{"id":"304","name":"Character Action Game"},{"id":"231","name":"Strategy RPG"},{"id":"626","name":"cats"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "20 hrs"
 hltb_main_extra: "22 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Everdream_Valley"
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/everdream-valley/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15075"
+opencritic_url: "https://opencritic.com/game/15075/-"
+opencritic_score: 62
+opencritic_review_count: 11
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10007656"
+playstation_url: "https://store.playstation.com/en-us/concept/10007656"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/weird-west/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.69
+protondb_total: 29
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Devolver Digital
 developer: Wolfeye Studios
 genre: Narration, RPG, Action-Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Strong Language, Use of Alcohol, Violence"},"pegi":{"rating":"16"},"dejus":{"rating":"16","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "March 31, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Russian","Simplified Chinese","Traditional Chinese","Korean","Portuguese - Brazil"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"21139","name":"Amazing Characters"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "17.1 hrs"
 hltb_main_extra: "24.4 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1097350"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Weird_West"
 metacritic_score: 76
-metacritic_url: "https://www.metacritic.com/game/pc/weird-west?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/weird-west/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12939"
+opencritic_url: "https://opencritic.com/game/12939/-"
+opencritic_score: 76
+opencritic_review_count: 114
+twitch_id: ""
+twitch_url: ""
+playstation_id: "234916"
+playstation_url: "https://store.playstation.com/en-us/concept/234916"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Discover a dark fantasy reimagining of the Wild West where lawmen and gunslingers share the frontier with fantastical creatures. Journey through the origin stories of a group of atypical heroes, written into legend by the decisions you make in an unforgiving land. Each journey is unique and tailored to the actions taken - a series of high stakes stories where everything counts and the world reacts to the choices you make. Form a posse or venture forth alone into an otherworldly confines of the Weird West and make each legend your own.
+Survive and unveil the mysteries of the Weird West through the intertwined destinies of its unusual heroes in an Action RPG from the co-creators of Dishonored and Prey.

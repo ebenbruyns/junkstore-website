@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/a-plague-tale-innocence/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 256
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Focus Entertainment
 developer: Asobo Studio
 genre: Action, Adventure
 franchise: A Plague Tale
-age_rating_summary: 
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Strong Language, Violence"},"pegi":{"rating":"18","descriptors":"Bad Language"},"usk":{"rating":"16"},"cero":{"rating":"Z","descriptors":"Violence"},"bbfc":{"rating":"18","descriptors":"Violence, Bad Language"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence"},"nzoflc":{"rating":"r16","descriptors":"Violence, Offensive Language, Content that may disturb"},"kgrb":{"rating":"18","descriptors":"Violence, Horror and Strong Language"},"dejus":{"rating":"18","descriptors":"Linguagem imprópria, Violência extrema"}}
 release_date: "May 14, 2019"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Czech","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Korean","Japanese","Traditional Chinese"]
+languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "36263 MB"
+franchise_siblings: [{"rawg_id":616697,"slug":"a-plague-tale-requiem","name":"A Plague Tale: Requiem"}]
+franchise_slug: "a-plague-tale-innocence|a-plague-tale-requiem"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-01-02T15:00:00.000Z","end":"2024-01-03T15:00:00.000Z","type":null,"id":"89e949b9176d4f04a5b2e6ca28655b21"},{"start":"2021-08-04T15:00:00.000Z","end":"2021-08-11T15:00:00.000Z","type":null,"id":"89e949b9176d4f04a5b2e6ca28655b21"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10.9 hrs"
 hltb_main_extra: "12.6 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/752590"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Plague_Tale:_Innocence"
 metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/a-plague-tale-innocence?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/a-plague-tale-innocence/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7547"
+opencritic_url: "https://opencritic.com/game/7547/-"
+opencritic_score: 82
+opencritic_review_count: 171
+twitch_id: ""
+twitch_url: ""
+playstation_id: "231037"
+playstation_url: "https://store.playstation.com/en-us/concept/231037"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A Plague Tale: Innocence, on PlayStation 4, Xbox One and PC, tells the grim story of two siblings fighting together for survival in the darkest hours of History. This new video game from Asobo Studio sends you on an emotional journey through 14th-century France, with gameplay combining adventure, action and stealth, supported by a compelling story. Follow the young Amicia and her little brother Hugo, who face the brutality of a ravaged world as they discover their purpose to expose a dark secret. On the run from the Inquisition's soldiers, surrounded by unstoppable swarms of rats incarnating the Black Death, Amicia and Hugo will learn to know and trust each other as they struggle for their lives against all odds.
+Follow the grim tale of young Amicia and her little brother Hugo, in a heartrending journey through the darkest hours of history. Hunted by Inquisition soldiers and surrounded by unstoppable swarms of rats, they will come to know and trust each other.

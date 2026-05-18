@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/albion-online/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.74
+protondb_total: 75
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Sandbox Interactive GmbH
@@ -19,10 +27,15 @@ developer: Sandbox Interactive GmbH
 genre: Fantasy, RPG, Open World
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"csrr":{"rating":"C15","descriptors":"本遊戲情節涉及暴力、菸酒及性（輕微）情節, 請注意遊戲時間，切勿沉迷或不當模仿, 本遊戲為免費遊戲，內另提供付費服務，請適度消費"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "April 16, 2025"
 game_modes: ["Multiplayer","Massively Multiplayer Online (MMO)"]
-languages: ["English*","French","German","Spanish - Spain","Portuguese - Brazil","Polish","Russian","Portuguese - Portugal","Spanish - Latin America","Korean"]
+languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Polish","Russian","Portuguese - Portugal","Spanish - Latin America","Korean","Simplified Chinese","Italian","Japanese","Traditional Chinese","Indonesian","Arabic","Turkish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: true
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "33 hrs"
 hltb_main_extra: "37.3 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Albion_Online"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/albion-online/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1780"
+opencritic_url: "https://opencritic.com/game/1780/-"
+opencritic_score: 79
+opencritic_review_count: 10
+twitch_id: "417528"
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9PDC9X7BKZR3"
+xbox_url: "https://www.xbox.com/games/store/-/9PDC9X7BKZR3"
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box once you create an account. Don't forget to enble/toggle the anti-cheat for this game."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Albion Online is a sandbox MMORPG set in an open medieval fantasy world. The game features a player-driven economy where nearly every item is player-crafted. Combine armor pieces and weapons suited to your playstyle in a unique, classless "you are what you wear" system. Explore the world, take on other adventurers in thrilling battles, conquer territories, and build a home.
+Albion Online is a sandbox MMORPG in which you write your own story. Explore a vast open world, grow your wealth, forge alliances, and leave your mark on the world of Albion!

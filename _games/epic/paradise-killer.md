@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/paradise-killer/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.69
+protondb_total: 37
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Fellow Traveller
@@ -19,10 +27,15 @@ developer: Kaizen Game Works
 genre: Adventure, Indie, RPG
 franchise: 
 age_rating_summary: 
+age_ratings: {"kgrb":{"rating":"18","descriptors":"Violence, Inappropriate Use of Language"},"dejus":{"rating":"16","descriptors":"Violência, Atos criminosos, Temas sensíveis, Linguagem imprópria, Conteúdo sexual, Nudez, Drogas lícitas"}}
 release_date: "January 1, 2099"
 game_modes: ["Single-player"]
-languages: ["English*","Japanese","Simplified Chinese","Traditional Chinese*languages with full audio support"]
-tags_structured: []
+languages: ["English","Japanese","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"44","name":"Nudity"},{"id":"50","name":"Sexual Content"},{"id":"119","name":"Dystopian"},{"id":"90","name":"Visual Novel"}]
+size: "1893 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11½ Hours"
 hltb_main_extra: ""
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1160220"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Paradise_Killer"
 metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/paradise-killer?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/paradise-killer/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10102"
+opencritic_url: "https://opencritic.com/game/10102/-"
+opencritic_score: 81
+opencritic_review_count: 56
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002720"
+playstation_url: "https://store.playstation.com/en-us/concept/10002720"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Paradise Island, a world outside reality. There’s been a murder that only &quot;investigation freak&quot; Lady Love Dies can solve. Gather evidence and interrogate suspects in this open world adventure. You can accuse anyone, but you’ll have to prove your case in trial. It’s up to you to decide who’s guilty.
+Paradise Island, a world outside reality. There’s been a murder that only "investigation freak" Lady Love Dies can solve. Gather evidence and interrogate suspects in this open world adventure. You can accuse anyone, but you’ll have to prove your case in trial to convict.

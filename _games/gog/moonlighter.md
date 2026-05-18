@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/moonlighter/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.78
+protondb_total: 42
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: 11 bit studios
@@ -19,10 +27,15 @@ developer: Digital Sun Games
 genre: "Role-playing (RPG), Adventure, Indie, Simulator, Hack and slash/Beat 'em up"
 franchise: 
 age_rating_summary: PEGI 7
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violence"}}
 release_date: "May 29, 2018"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Japanese","Polish","Russian","Korean","Portuguese - Brazil","Italian","Turkish","Traditional Chinese"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"},{"id":"122","name":"Pixel Graphics"},{"id":"468","name":"role-playing"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"}]
+size: "677 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "14 hrs"
 hltb_main_extra: "20.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Moonlighter"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/moonlighter/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "6087"
+opencritic_url: "https://opencritic.com/game/6087/-"
+opencritic_score: 82
+opencritic_review_count: 110
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9P8XJRLCLH2P"
+xbox_url: "https://www.xbox.com/games/store/-/9P8XJRLCLH2P"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. You need to install the C++ runtime dependency."

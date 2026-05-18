@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/wizard-of-legend/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.68
+protondb_total: 12
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Contingent99, Humble Games
@@ -19,10 +27,15 @@ developer: Contingent99
 genre: Dungeon Crawler, Action-Adventure, Rogue-Lite
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "December 22, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","Japanese","Korean","Simplified Chinese","French","German","Russian","Spanish - Latin America"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"}]
+size: "439 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-12-22T16:00:00.000Z","end":"2024-12-23T16:00:00.000Z","type":null,"id":"9ac7a7323fb2401f92560174d5a384ff"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "8.6 hrs"
 hltb_main_extra: "16.2 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/wizard-of-legend-21c07d"
 protondb_url: "https://www.protondb.com/app/445980"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wizard_of_Legend"
-metacritic_score: 79
-metacritic_url: "https://www.metacritic.com/game/pc/wizard-of-legend?ftag=MCD-06-10aaa1f"
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/wizard-of-legend/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "5988"
+opencritic_url: "https://opencritic.com/game/5988/-"
+opencritic_score: 77
+opencritic_review_count: 39
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: May need to verify with Epic account before launch. Works out of the box on the Decky plugin version.

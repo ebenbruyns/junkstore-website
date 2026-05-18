@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/through-the-darkest-of-times/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.7
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: HandyGames
 developer: Paintbucket Games
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: 16 (PEGI) · 12 (USK)
+age_ratings: {"pegi":{"rating":"16","descriptors":"Bad Language"},"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Medo, Violência, Temas sensíveis"}}
 release_date: "January 30, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","German","French","Spanish - Spain","Japanese","Russian","Simplified Chinese"]
+languages_audio: ["English","German"]
+tags_structured: [{"id":"31","name":"Singleplayer"}]
+size: "1292 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7 hrs"
 hltb_main_extra: "9.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Through_the_Darkest_of_Times"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/through-the-darkest-of-times/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8913"
+opencritic_url: "https://opencritic.com/game/8913/-"
+opencritic_score: 73
+opencritic_review_count: 31
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Keyboard & mouse controls. **Decky Plugin: Not Supported**. **Pro Version: Works out of the box**."

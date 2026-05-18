@@ -7,11 +7,19 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/dragon-drop/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.21
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Cloudy Games LLC
@@ -19,10 +27,15 @@ developer: Cloudy Games LLC
 genre: Indie, Arcade
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "September 27, 2021"
 game_modes: ["Multiplayer"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40845","name":"Partial Controller Support"},{"id":"4","name":"Funny"},{"id":"198","name":"Split Screen"},{"id":"72","name":"Local Multiplayer"},{"id":"14","name":"Early Access"},{"id":"157","name":"PvP"},{"id":"121","name":"Character Customization"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"170","name":"Competitive"},{"id":"61","name":"Top-Down"},{"id":"164","name":"Cartoony"},{"id":"116","name":"2.5D"},{"id":"182","name":"4 Player Local"},{"id":"179","name":"Cartoon"},{"id":"215","name":"Dragons"},{"id":"45201","name":"Remote Play Together"},{"id":"46114","name":"Shared/Split Screen PvP"},{"id":"55318","name":"Party Game"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dragon_Drop"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/dragon-drop/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

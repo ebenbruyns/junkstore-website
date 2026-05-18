@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/flipon/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Plug In Digital, TyGAMES
@@ -19,10 +27,15 @@ developer: Pixelnest Studio, Damien Mayance
 genre: adventure, indie, puzzle, arcade
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "October 1, 2020"
-game_modes: ["Multiplayer","Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Leaderboards","Multi-player","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Korean","Japanese","Portuguese - Brazil"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"198","name":"Split Screen"},{"id":"157","name":"PvP"},{"id":"182","name":"4 Player Local"},{"id":"45201","name":"Remote Play Together"},{"id":"46114","name":"Shared/Split Screen PvP"},{"id":"299","name":"Match 3"}]
+size: "220 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: "3.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Flipon"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/flipon/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10309"
+opencritic_url: "https://opencritic.com/game/10309/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tharsis/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.62
+protondb_total: 18
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: QubicGames S.A.
 developer: Choice Provisions
 genre: Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: M (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Strong Language"},"pegi":{"rating":"12","descriptors":"Bad Language"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "September 16, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain"]
+languages_audio: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"}]
+size: "177 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-09-15T15:00:00.000Z","end":"2021-09-22T15:00:00.000Z","type":null,"id":"0c7924b21589422581c7cbe8d5a336c5"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2 hrs"
 hltb_main_extra: "4.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tharsis"
 metacritic_score: 61
 metacritic_url: "https://www.metacritic.com/game/tharsis/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1825"
+opencritic_url: "https://opencritic.com/game/1825/-"
+opencritic_score: 66
+opencritic_review_count: 43
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,5 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Tharsis is a turn-based space strategy game. With dice and cannibalism. It puts you in control of humanity's first manned mission to Mars, just as it's struck by a micrometeoroid storm. You must guide your crew through disasters, food shortages, and the unforgiving nature of space - all while maintaining your sanity amidst cryptic signals and warnings from Mars.
-Defy the odds, make the difficult decisions, and embark on the most important mission in human history.
+Tharsis is a turn-based space strategy game. With dice. And cannibalism. It puts you in control of humanity’s first mission to Mars, just as it’s struck by a micrometeorite storm.

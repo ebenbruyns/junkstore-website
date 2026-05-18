@@ -7,22 +7,35 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/an-american-werewolf-in-la/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: PlayMedusa
 developer: PlayMedusa
 genre: "Indie, Arcade, Hack and slash/Beat 'em up, Fighting"
 franchise: 
-age_rating_summary: 
+age_rating_summary: 12 (PEGI)
+age_ratings: {"pegi":{"rating":"12"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "November 15, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Japanese"]
+languages_audio: []
 tags_structured: []
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/an-american-werewolf-in-la/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options on first launch."

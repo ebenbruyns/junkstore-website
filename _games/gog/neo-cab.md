@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/neo-cab/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.56
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Fellow Traveller
@@ -19,10 +27,15 @@ developer: Chance Agency
 genre: Role-playing (RPG)
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Sexual Content, Inappropriate Language"}}
 release_date: "October 3, 2019"
-game_modes: ["Single-player"]
+game_modes: ["Overlay","Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Arabic"]
+languages_audio: []
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"13","name":"Captions available"},{"id":"68","name":"Custom Volume Controls"},{"id":"76","name":"Mouse Only Option"},{"id":"23","name":"Steam Cloud"},{"id":"41","name":"Remote Play on Phone"},{"id":"42","name":"Remote Play on Tablet"},{"id":"62","name":"Family Sharing"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "5.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/neo_cab"
 protondb_url: "https://www.protondb.com/app/794540"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Neo_Cab"
-metacritic_score: 76
-metacritic_url: "https://www.metacritic.com/game/pc/neo-cab?ftag=MCD-06-10aaa1f"
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/neo-cab/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8369"
+opencritic_url: "https://opencritic.com/game/8369/-"
+opencritic_score: 75
+opencritic_review_count: 41
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

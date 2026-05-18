@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/call-of-juarez/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.61
+protondb_total: 39
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Ubisoft Entertainment, Ascaron Entertainment, Techland, Focus Entertainment
 developer: Techland
 genre: Shooter
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Language, Sexual Themes"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Drogas lícitas"}}
 release_date: "September 5, 2006"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Overlay","Single-player"]
 languages: ["English","French","German","Spanish - Spain","Russian"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"15","name":"Stealth"},{"id":"152","name":"Western"}]
+size: "2721 MB"
+franchise_siblings: [{"rawg_id":4013,"slug":"call-of-juarez-gunslinger","name":"Call of Juarez: Gunslinger"},{"rawg_id":19524,"slug":"call-of-juarez-the-cartel","name":"Call of Juarez: The Cartel"},{"rawg_id":4521,"slug":"call-of-juarez-2","name":"Call of Juarez: Bound in Blood"}]
+franchise_slug: "call-of-juarez|call-of-juarez-2|call-of-juarez-gunslinger|call-of-juarez-the-cartel"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "9 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_Juarez"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/call-of-juarez?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

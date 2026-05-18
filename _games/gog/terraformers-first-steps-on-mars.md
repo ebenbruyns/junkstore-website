@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/terraformers-first-steps-on-mars/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.21
+protondb_total: 3
+protondb_confidence: "inadequate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Goblinz Publishing
@@ -19,10 +27,15 @@ developer: Asteroid Lab
 genre: Strategy, Turn-based strategy (TBS), Simulator
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "October 23, 2021"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
+languages: ["English","German","Simplified Chinese","French","Spanish - Spain","Spanish - Latin America","Russian"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"32","name":"Sci-fi"},{"id":"40850","name":"Steam Leaderboards"},{"id":"11669","name":"stats"},{"id":"107","name":"Family Friendly"},{"id":"167","name":"Futuristic"},{"id":"101","name":"Turn-Based Strategy"},{"id":"67","name":"Management"},{"id":"138","name":"Relaxing"},{"id":"640","name":"Roguelite"},{"id":"166","name":"Stylized"},{"id":"147","name":"Resource Management"},{"id":"213","name":"City Builder"},{"id":"212","name":"4X"},{"id":"774","name":"nature"},{"id":"241","name":"Space Sim"},{"id":"263","name":"Mars"},{"id":"4880","name":"tabletop"},{"id":"49967","name":"Colony Sim"}]
+size: "1185 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "1 hrs"
 hltb_main_extra: "2.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Terraformers"
 metacritic_score: 
 metacritic_url: ""
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

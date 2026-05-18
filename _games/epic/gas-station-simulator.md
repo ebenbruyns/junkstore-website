@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/gas-station-simulator/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.52
+protondb_total: 47
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: DRAGO entertainment
@@ -19,10 +27,15 @@ developer: DRAGO entertainment
 genre: Casual, Simulation
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas, Violência"}}
 release_date: "September 25, 2023"
 game_modes: ["Single-player"]
-languages: ["English*","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Turkish","Czech","Portuguese - Brazil"]
+languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Turkish","Czech","Portuguese - Brazil","Ukrainian","Italian","Thai","Portuguese - Portugal","Vietnamese","Korean","Japanese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "5.65 GB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12 hrs"
 hltb_main_extra: "16.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gas_Station_Simulator"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/gas-station-simulator?ftag=MCD-06-10aaa1f"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12003"
+opencritic_url: "https://opencritic.com/game/12003/-"
+opencritic_score: 73
+opencritic_review_count: 11
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004337"
+playstation_url: "https://store.playstation.com/en-us/concept/10004337"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Gas Station Simulator is all about renovating, expanding and running a gas station along a highway in the middle of a desert. Freedom of choice and multiple approaches to run your business and deal with pressure are key ingredients in this game.
+Buy an abandoned gas station and restore it to its full glory. Renovate, upgrade and expand upon the offered services to keep up with your clients demands.

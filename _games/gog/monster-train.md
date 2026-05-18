@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/monster-train/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 90
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Good Shepherd Entertainment
@@ -19,10 +27,15 @@ developer: Shiny Shoe
 genre: Strategy
 franchise: 
 age_rating_summary: 
-release_date: ""
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
+release_date: "May 21, 2020"
+game_modes: ["Achievements","Cloud saves","Multi-player","Overlay","Single-player"]
+languages: ["English","French","German","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"157","name":"PvP"},{"id":"639","name":"Roguelike"},{"id":"45878","name":"Online PvP"},{"id":"175","name":"Turn-Based Combat"},{"id":"127","name":"Card Game"},{"id":"14194","name":"deckbuilding"},{"id":"49950","name":"Card Battler"}]
+size: "651 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "32.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1102190"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Monster_Train"
 metacritic_score: 86
-metacritic_url: "https://www.metacritic.com/game/pc/monster-train?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/monster-train/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9508"
+opencritic_url: "https://opencritic.com/game/9508/-"
+opencritic_score: 83
+opencritic_review_count: 36
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10001097"
+playstation_url: "https://store.playstation.com/en-us/concept/10001097"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/hammerting/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.31
+protondb_total: 32
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Warpzone Studios
@@ -19,10 +27,15 @@ developer: Warpzone Studios
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Simulator
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Drogas lícitas"}}
 release_date: "November 16, 2021"
-game_modes: ["Co-op","Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Co-op","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Japanese","Polish","Portuguese - Brazil"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"64","name":"Fantasy"},{"id":"37","name":"Sandbox"},{"id":"1","name":"Survival"},{"id":"125","name":"Crafting"},{"id":"39","name":"Building"},{"id":"67","name":"Management"},{"id":"180","name":"Base Building"},{"id":"196","name":"Procedural Generation"},{"id":"194","name":"Real-Time with Pause"},{"id":"147","name":"Resource Management"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"}]
+size: "1745 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "23.5 hrs"
 hltb_main_extra: "48.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/760650"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hammerting"
 metacritic_score: 64
-metacritic_url: "https://www.metacritic.com/game/pc/hammerting?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/hammerting/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

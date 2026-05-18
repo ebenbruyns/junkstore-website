@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/hive-jump-2-survivors/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Midwest Games
@@ -19,10 +27,15 @@ developer: Graphite Lab, Sonamu Games, Joystick
 genre: Role-playing (RPG), Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "September 10, 2024"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"14","name":"Early Access"},{"id":"25","name":"Space"},{"id":"172","name":"Aliens"},{"id":"61","name":"Top-Down"},{"id":"640","name":"Roguelite"},{"id":"57","name":"Bullet Hell"},{"id":"91686","name":"Family Sharing"},{"id":"236","name":"Top-Down Shooter"},{"id":"201","name":"Twin Stick Shooter"},{"id":"49964","name":"Action Roguelike"},{"id":"274","name":"Gun Customization"}]
+size: "159 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hive_Jump_2%3A_Survivors"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/hive-jump-2-survivors?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

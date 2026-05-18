@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/for-the-king/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.8
+protondb_total: 28
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Curve Digital
@@ -19,10 +27,15 @@ developer: IronOak Games
 genre: Turn-Based, Adventure
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "April 23, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Polish","Japanese","Korean"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "11.9 hrs"
 hltb_main_extra: "34.7 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/527230"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/For_the_King"
 metacritic_score: 79
-metacritic_url: "https://www.metacritic.com/game/pc/for-the-king?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/for-the-king/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "5927"
+opencritic_url: "https://opencritic.com/game/5927/-"
+opencritic_score: 75
+opencritic_review_count: 22
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-For The King is a turn based roguelike, RPG that can be played solo or cooperatively online and features strategic adventuring, turn based combat, and persistent choices.
+For The King is a challenging blend of strategy, turn-based combat, and roguelike elements. Each playthrough is unique with procedural maps, quests, and events. Explore Fahrul in either single player, local, or online co-op.

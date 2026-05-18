@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/spelunky-classic/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.81
+protondb_total: 101
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Derek Yu
@@ -19,10 +27,15 @@ developer: Derek Yu
 genre: Indie, Platform, Puzzle
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Atos criminosos, Medo"}}
 release_date: "December 21, 2008"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Controller support","Co-op","Multi-player","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese"]
+languages_audio: []
 tags_structured: []
+size: "148 MB"
+franchise_siblings: [{"rawg_id":59613,"slug":"spelunky-2","name":"Spelunky 2"}]
+franchise_slug: "spelunky|spelunky-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "20 hrs"
 hltb_main_extra: "43.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/spelunky"
 protondb_url: "https://www.protondb.com/app/239350"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Spelunky"
-metacritic_score: 90
-metacritic_url: "https://www.metacritic.com/game/pc/spelunky?ftag=MCD-06-10aaa1f"
+metacritic_score: 87
+metacritic_url: "https://www.metacritic.com/game/spelunky/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11875"
+opencritic_url: "https://opencritic.com/game/11875/-"
+opencritic_score: 87
+opencritic_review_count: 25
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/jorels-brother-and-the-most-important-game-of-the-galaxy/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Double Dash Studios
@@ -19,10 +27,15 @@ developer: Double Dash Studios
 genre: Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "August 4, 2025"
 game_modes: ["Single-player"]
 languages: ["English","Portuguese - Brazil","Spanish - Latin America"]
+languages_audio: []
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-09-25T15:00:00.000Z","end":"2025-10-02T15:00:00.000Z","type":null,"id":"70d56e56409e4a0384282d9bea1b4e20"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/jorels-brother-and-the-most-important-game-of-the/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16780"
+opencritic_url: "https://opencritic.com/game/16780/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: 
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Jorel’s Brother and The Most Important Game of the Galaxy is a point-and-click adventure about an eight-year-old boy who lives with his eccentric family in the shadow of Jorel, his handsome and popular brother. Based on the award-winning Brazilian animation Jorel’s Brother.
+“Jorel’s Brother and The Most Important Game of the Galaxy” is a point-and-click adventure about an eight-year-old boy who lives with his eccentric family in the shadow of Jorel, his handsome and popular brother. Based on the award-winning Brazilian animation “Jorel’s Brother”.

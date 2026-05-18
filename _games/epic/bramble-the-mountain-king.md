@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/bramble-the-mountain-king/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.73
+protondb_total: 17
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Merge Games
 developer: Dimfrost Studio
 genre: Adventure, Indie
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 18 (USK) · ma15 (OFLC)
+age_ratings: {"usk":{"rating":"18","descriptors":"Explicit Violence, Shock and/or Horror Content"},"oflc":{"rating":"ma15","descriptors":"Strong Horror Themes, Strong Themes, Strong Violence"},"nzoflc":{"rating":"ma15","descriptors":"Strong Horror Themes, Strong Themes, Strong Violence"},"csrr":{"rating":"R","descriptors":"Violence"},"dejus":{"rating":"18","descriptors":"Extreme Violence, Sensitive Themes"}}
 release_date: "April 27, 2023"
 game_modes: ["Single player"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Portuguese - Portugal","Russian","Simplified Chinese"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Portuguese - Portugal","Russian","Simplified Chinese","Turkish","Finnish","Norwegian","Swedish","Korean","Polish","Traditional Chinese","Ukrainian"]
+languages_audio: ["English"]
 tags_structured: [{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4.7 hrs"
 hltb_main_extra: "5.2 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bramble:_The_Mountain_King"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/bramble-the-mountain-king/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14848"
+opencritic_url: "https://opencritic.com/game/14848/-"
+opencritic_score: 79
+opencritic_review_count: 38
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004805"
+playstation_url: "https://store.playstation.com/en-us/concept/10004805"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!<br>\nAchievements don't seem to be unlocking."
 controller_config: 
@@ -81,8 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Bramble: The Mountain King is a grim adventure set in a world inspired by dark, Nordic fables.
-
-Explore the beautiful yet dangerous and twisted land of Bramble in your endeavour to rescue your sister. Traverse a wondrous landscape and survive deadly encounters with Bramble's many hideous creatures.
-
-Not everything in Bramble is exactly how it seems - in this strange land with creatures big and small, you must be careful when to approach and when to hide. Many hungry and spiteful beasts lurk in these forests and caves. Watch your step....
+Bramble The Mountain King is a grim adventure set in a world inspired by dark, Nordic fables. Explore the beautiful yet dangerous and twisted land of Bramble, traverse a wondrous landscape and survive deadly encounters with Bramble's many hideous creatures.

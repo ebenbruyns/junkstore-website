@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/the-academy-the-first-riddle/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Snapbreak
@@ -19,10 +27,15 @@ developer: Pine Studio
 genre: Adventure, Indie, Puzzle
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "June 19, 2020"
 game_modes: ["Single-player"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese"]
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Portugal"]
+languages_audio: ["English"]
+tags_structured: [{"id":"117","name":"Mystery"},{"id":"406","name":"Story"},{"id":"1867","name":"puzzles"},{"id":"744","name":"friends"},{"id":"820","name":"secrets"},{"id":"1863","name":"challenge"},{"id":"712","name":"school"},{"id":"4851","name":"box"}]
+size: "2.08 GB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9.5 hrs"
 hltb_main_extra: "11 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Academy:_The_First_Riddle"
 metacritic_score: 59
 metacritic_url: "https://www.metacritic.com/game/the-academy-the-first-riddle/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9659"
+opencritic_url: "https://opencritic.com/game/9659/-"
+opencritic_score: 56
+opencritic_review_count: 14
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

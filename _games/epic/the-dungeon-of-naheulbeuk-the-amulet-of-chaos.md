@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-dungeon-of-naheulbeuk-the-amulet-of-chaos/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.7
+protondb_total: 31
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Dear Villagers
@@ -19,10 +27,15 @@ developer: Artefacts Studio
 genre: RPG, Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Drogas lícitas"}}
 release_date: "May 25, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Simplified Chinese","Spanish - Spain","Russian"]
+languages_audio: ["English","French","German"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "32 hrs"
 hltb_main_extra: "37 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/970830"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Dungeon_of_Naheulbeuk:_The_Amulet_of_Chaos"
 metacritic_score: 72
-metacritic_url: "https://www.metacritic.com/game/pc/the-dungeon-of-naheulbeuk-the-amulet-of-chaos?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/the-dungeon-of-naheulbeuk-the-amulet-of-chaos/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10178"
+opencritic_url: "https://opencritic.com/game/10178/-"
+opencritic_score: 68
+opencritic_review_count: 30
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10000689"
+playstation_url: "https://store.playstation.com/en-us/concept/10000689"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Step into the wacky heroic fantasy universe of the Dungeon of Naheulbeuk. Lead a team of unlikely and clumsy heroes in an epic and challenging tactical RPG. Live an adventure filled with humor, surprises and silly encounters.
+The ULTIMATE EDITION includes the base game THE DUNGEON OF NAHEULBEUK: THE AMULET OF CHAOS, the Season Pass of 3 DLC, a Goodies Pack and the game Soundtrack.

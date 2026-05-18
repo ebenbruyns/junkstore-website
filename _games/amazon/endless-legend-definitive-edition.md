@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/endless-legend-definitive-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.74
+protondb_total: 144
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Sega
 developer: Amplitude Studios
 genre: Role-playing (RPG), Strategy, Turn-based strategy (TBS), Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Mild Blood"},"pegi":{"rating":"12","descriptors":"Online, Violence"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violence, User Interact"}}
 release_date: "September 18, 2014"
 game_modes: ["Single player","Multiplayer"]
-languages: ["English*","French","German","Polish","Italian","Russian","Spanish - Spain*languages with full audio support"]
+languages: ["English","French","German","Polish","Russian","Italian","Spanish - Spain","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: []
+size: ""
+franchise_siblings: [{"rawg_id":529816,"slug":"endless-dungeons","name":"Endless Dungeon"},{"rawg_id":10309,"slug":"endless-space-2","name":"Endless Space 2"},{"rawg_id":1830,"slug":"dungeon-of-the-endless","name":"Dungeon of the Endless"},{"rawg_id":41457,"slug":"endless-space","name":"Endless Space"}]
+franchise_slug: "dungeon-of-the-endless|endless-dungeons|endless-legend|endless-space|endless-space-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "15.5 hrs"
 hltb_main_extra: "33.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/289130"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Endless_Legend"
 metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/endless-legend?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/endless-legend/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1277"
+opencritic_url: "https://opencritic.com/game/1277/-"
+opencritic_score: 84
+opencritic_review_count: 31
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

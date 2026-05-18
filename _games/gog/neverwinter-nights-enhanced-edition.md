@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/neverwinter-nights-enhanced-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.58
+protondb_total: 17
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Beamdog
 developer: BioWare, Beamdog
 genre: Role-playing (RPG), Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Conteúdo sexual, Drogas lícitas, Linguagem imprópria"}}
 release_date: "March 27, 2018"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English","French","German","Italian","Polish","Spanish"]
-tags_structured: []
+game_modes: ["Cloud saves","Co-op","Multi-player","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish"]
+languages_audio: ["English","French","German","Polish"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"411","name":"cooperative"},{"id":"9","name":"Online Co-Op"},{"id":"397","name":"Online multiplayer"},{"id":"574","name":"Dungeons & Dragons"}]
+size: "3282 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "43 hrs"
 hltb_main_extra: "71.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Neverwinter_Nights:_Enhanced_Edition"
 metacritic_score: 63
 metacritic_url: "https://www.metacritic.com/game/neverwinter-nights-enhanced-edition/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "5776"
+opencritic_url: "https://opencritic.com/game/5776/-"
+opencritic_score: 60
+opencritic_review_count: 24
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

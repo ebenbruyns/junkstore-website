@@ -7,22 +7,36 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-witcher-enhanced-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.79
+protondb_total: 371
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Atari, CD Projekt
 developer: CD Projekt RED
 genre: Role-playing (RPG)
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Strong Sexual Content, Strong Language, Violence, Blood and Gore, Nudity"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"kgrb":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Nudez"}}
 release_date: "September 16, 2008"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Italian","Czech","Russian","Hungarian","Polish","Traditional Chinese (text Only)"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"97","name":"Action RPG"},{"id":"44","name":"Nudity"},{"id":"145","name":"Choices Matter"},{"id":"40","name":"Dark Fantasy"},{"id":"192","name":"Mature"},{"id":"66","name":"Medieval"},{"id":"82","name":"Magic"},{"id":"218","name":"Multiple Endings"},{"id":"283","name":"Based On A Novel"}]
+size: "10334069000
+"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +69,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "35 hrs"
 hltb_main_extra: "46 hrs"
@@ -66,8 +83,22 @@ store_url: "https://www.gog.com/en/game/the_witcher"
 protondb_url: "https://www.protondb.com/app/20900"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Witcher"
-metacritic_score: 86
-metacritic_url: "https://www.metacritic.com/game/pc/the-witcher-enhanced-edition?ftag=MCD-06-10aaa1f"
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/the-witcher/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Need v0.1.8 of the Gog extension."

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/arcade-paradise/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.7
+protondb_total: 20
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Wired Productions
 developer: Nosebleed Interactive
 genre: Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Lyrics, Blood"},"pegi":{"rating":"12","descriptors":"Bad Language, Violence, In-Game Purchases"},"usk":{"rating":"12","descriptors":"Violence, Occasional Swearing"},"oflc":{"rating":"PG","descriptors":"Online Interactivity, Mild Violence, Mild Themes, Mild Coarse Language, Mild Crude Humour, In-Game Purchases"},"kgrb":{"rating":"12","descriptors":"Language, Violence"},"dejus":{"rating":"10","descriptors":"Violence, Inappropriate Language, In-Game Purchases"}}
 release_date: "August 11, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+size: "2592 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-07-17T15:00:00.000Z","end":"2024-07-24T15:00:00.000Z","type":null,"id":"f7ce9c6bfed74819894366568193d4f8"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "25 hrs"
 hltb_main_extra: "28.3 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Arcade_Paradise"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/arcade-paradise/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13520"
+opencritic_url: "https://opencritic.com/game/13520/-"
+opencritic_score: 76
+opencritic_review_count: 44
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002527"
+playstation_url: "https://store.playstation.com/en-us/concept/10002527"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

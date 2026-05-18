@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/oaken/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 3
+protondb_confidence: "inadequate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Goblinz Publishing
 developer: Laki Studio
 genre: "Adventure, Strategy, Turn-based strategy (TBS), Indie, Puzzle, Card & Board Game"
 franchise: 
-age_rating_summary: 
+age_rating_summary: 7 (PEGI)
+age_ratings: {"pegi":{"rating":"7","descriptors":"Mild Violence"},"dejus":{"rating":"L"}}
 release_date: "May 3, 2022"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Overlay","Single-player"]
+languages: ["English","French","German","Polish","Simplified Chinese","Japanese"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"14","name":"Early Access"},{"id":"102","name":"Turn-Based"},{"id":"165","name":"Colorful"},{"id":"82","name":"Magic"},{"id":"101","name":"Turn-Based Strategy"},{"id":"640","name":"Roguelite"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"127","name":"Card Game"},{"id":"162","name":"Board Game"},{"id":"103","name":"Hex Grid"},{"id":"14194","name":"deckbuilding"},{"id":"49950","name":"Card Battler"},{"id":"4880","name":"tabletop"}]
+size: "928 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "5.5 hrs"
 hltb_main_extra: "30 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Oaken"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/oaken/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15288"
+opencritic_url: "https://opencritic.com/game/15288/-"
+opencritic_score: 77
+opencritic_review_count: 7
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10008158"
+playstation_url: "https://store.playstation.com/en-us/concept/10008158"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

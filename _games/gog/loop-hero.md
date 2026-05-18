@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/loop-hero/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.81
+protondb_total: 64
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Devolver Digital, Playdigious
 developer: Four Quarters
 genre: "role-playing, adventure, strategy, indie, card & board game"
 franchise: Loop Hero
-age_rating_summary: ESRB Teen
+age_rating_summary: 12 (USK)
+age_ratings: {"usk":{"rating":"12"},"kgrb":{"rating":"ALL","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Drogas lícitas"}}
 release_date: "March 4, 2021"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Italian","Dutch","Turkish"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "185 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "28.5 hrs"
 hltb_main_extra: "37 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1282730"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Loop_Hero"
 metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/loop-hero?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/loop-hero/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11017"
+opencritic_url: "https://opencritic.com/game/11017/-"
+opencritic_score: 84
+opencritic_review_count: 85
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

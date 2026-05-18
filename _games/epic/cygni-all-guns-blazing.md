@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/cygni-all-guns-blazing/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.45
+protondb_total: 14
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: KONAMI
 developer: KeelWorks
 genre: Action, Shooter
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Suggestive Themes, Mild Languages"},"pegi":{"rating":"7","descriptors":"Violence, Fear"},"usk":{"rating":"12","descriptors":"Handlungsdruck"},"cero":{"rating":"B","descriptors":"Sexual Content"},"oflc":{"rating":"PG","descriptors":"Mild science fiction violence, online interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild science fiction violence, online interactivity"},"kgrb":{"rating":"12","descriptors":"Mild Sexual, Mild Violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "August 5, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Polish","Spanish - Latin America","Traditional Chinese"]
+languages_audio: ["English","French","German","Japanese","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+size: "20.3 GB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-08-08T15:00:00.000Z","end":"2024-08-15T15:00:00.000Z","type":null,"id":"ce86ed5a3c0d48eaa5326dda50105a9b"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2.5 hrs"
 hltb_main_extra: "4 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cygni:_All_Guns_Blazing"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/cygni-all-guns-blazing/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17077"
+opencritic_url: "https://opencritic.com/game/17077/-"
+opencritic_score: 74
+opencritic_review_count: 43
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004231"
+playstation_url: "https://store.playstation.com/en-us/concept/10004231"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. additional arguments > -epicdeploymentid=78a046d4ac1b42d7aaba9fe80f88a5d8"
 controller_config: 
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-It's a twin-stick vertical scrolling Shooter hybrid with a cinematic flare:
-
-An unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes Cygni the vanguard for the next generation of shoot-em ups.
+An unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes CYGNI the vanguard for the next generation of shoot-em ups. Outgunned, outmanned and out on your own, plunge into a sky full of hell in a last-ditch battle for survival.

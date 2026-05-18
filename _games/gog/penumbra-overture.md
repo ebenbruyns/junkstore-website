@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/penumbra-overture/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.46
+protondb_total: 23
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Paradox Interactive
 developer: Frictional Games
 genre: Adventure, Indie, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: M (ESRB)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Language"},"oflc":{"descriptors":"%oflcDescriptors%"},"nzoflc":{"descriptors":"%NZoflcDescriptors%"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "March 1, 2007"
 game_modes: ["Single player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"1","name":"Survival"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"17","name":"Survival Horror"},{"id":"40833","name":"Captions available"},{"id":"47","name":"Lovecraftian"},{"id":"62349","name":"vr mod"}]
+size: "351 MB"
+franchise_siblings: [{"rawg_id":14001,"slug":"penumbra-requiem","name":"Penumbra: Requiem"},{"rawg_id":38286,"slug":"penumbra-black-plague","name":"Penumbra: Black Plague"}]
+franchise_slug: "penumbra-black-plague|penumbra-overture|penumbra-requiem"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "5.5 hrs"
 hltb_main_extra: "6 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/22180"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Penumbra:_Overture"
 metacritic_score: 73
-metacritic_url: "https://www.metacritic.com/game/pc/penumbra-overture?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/penumbra-overture/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Gameplay will be a black screen unless you disable Post Effects in the settings menu.

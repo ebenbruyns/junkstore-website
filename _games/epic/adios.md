@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/adios/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.57
+protondb_total: 17
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Mischief
@@ -19,10 +27,15 @@ developer: Mischief
 genre: Narration, Adventure, First Person
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "June 29, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1294","name":"First Person"}]
+size: "2283 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-01-25T15:00:00.000Z","end":"2023-02-01T15:00:00.000Z","type":null,"id":"7334a6f04f5b47218e691f805891bc5d"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1.3 hrs"
 hltb_main_extra: "1.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Adios"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/adios/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11090"
+opencritic_url: "https://opencritic.com/game/11090/-"
+opencritic_score: 72
+opencritic_review_count: 13
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. Needs Microsoft C++ runtime dependency but ships with it, so just install it."

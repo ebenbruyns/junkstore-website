@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/ghostrunner-ii/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.75
+protondb_total: 36
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: 505 Games
 developer: One More Level
 genre: Action, Adventure
 franchise: Ghostrunner
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18","descriptors":"Drastische Gewalt"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria"}}
 release_date: "October 26, 2023"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Ukrainian"]
+languages_audio: ["English","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: [{"rawg_id":366850,"slug":"ghostrunner","name":"Ghostrunner"}]
+franchise_slug: "ghostrunner|ghostrunner-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-09-11T15:00:00.000Z","end":"2025-09-18T15:00:00.000Z","type":null,"id":"be5600439b434624802764f704755cde"},{"start":"2024-12-26T16:00:00.000Z","end":"2024-12-27T16:00:00.000Z","type":null,"id":"be5600439b434624802764f704755cde"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8.4 hrs"
 hltb_main_extra: "11.2 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/ghostrunner-2"
 protondb_url: "https://www.protondb.com/app/2144740"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghostrunner_2"
-metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/ghostrunner-2?ftag=MCD-06-10aaa1f"
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/ghostrunner-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15392"
+opencritic_url: "https://opencritic.com/game/15392/-"
+opencritic_score: 79
+opencritic_review_count: 122
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10005977"
+playstation_url: "https://store.playstation.com/en-us/concept/10005977"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Ghostrunner II is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action.
+Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. 

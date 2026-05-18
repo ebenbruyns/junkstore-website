@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/chicken-assassin-reloaded/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Akupara Games
 developer: OneShark
 genre: Role-playing (RPG), Indie, Arcade, Fighting
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Mild Blood, Suggestive Themes, Use of Tobacco"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12","descriptors":"Violence, Sexual Innuendo, Tobacco Use"},"dejus":{"rating":"14","descriptors":"Violência, Drogas lícitas, Conteúdo sexual"}}
 release_date: "June 27, 2016"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Russian"]
+languages_audio: []
 tags_structured: []
+size: "337 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "5.5 hrs"
 hltb_main_extra: "6 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Chicken_Assassin_-_Master_of_Humiliation"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/chicken-assassin-reloaded/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "6445"
+opencritic_url: "https://opencritic.com/game/6445/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

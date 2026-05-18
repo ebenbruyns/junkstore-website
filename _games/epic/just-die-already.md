@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/just-die-already/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.6
+protondb_total: 10
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Curve Digital, DoubleMoose Games
@@ -19,10 +27,15 @@ developer: DoubleMoose Games
 genre: Open World, Comedy, Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência fantasiosa, Atos criminosos, Violência Extrema, Violência, Temas sensíveis, Linguagem imprópria, Nudez, Drogas ilícitas"}}
 release_date: "May 20, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21126","name":"Silly Community"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1116","name":"Comedy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-04-27T15:00:00.000Z","end":"2022-05-04T15:00:00.000Z","type":null,"id":"fd05ded73f7944798434bd7ee7b39e9c"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.5 hrs"
 hltb_main_extra: "7.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Just_Die_Already"
 metacritic_score: 63
 metacritic_url: "https://www.metacritic.com/game/just-die-already/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11398"
+opencritic_url: "https://opencritic.com/game/11398/-"
+opencritic_score: 63
+opencritic_review_count: 14
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

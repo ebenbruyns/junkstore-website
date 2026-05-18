@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/nine-witches-family-disruption/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "bronze"
+protondb_score: 0.06
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Blowfish Studios
 developer: Indiesruption
 genre: Adventure, Indie, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Crude Humor, Suggestive Themes, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence"},"usk":{"rating":"18","descriptors":"No Youth"},"oflc":{"rating":"ma15","descriptors":"Strong Crude Humor"},"kgrb":{"rating":"15","descriptors":"Alcohol, Tobacco, Drug, Violence"},"csrr":{"rating":"C15","descriptors":"Anti-Social Characteristics, Inappropriate Language, Sex, Violence"},"dejus":{"rating":"16","descriptors":"Inappropriate Language, Sexual Content, Violence"}}
 release_date: "December 3, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Spanish - Spain","French","German","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Japanese"]
+languages_audio: []
 tags_structured: []
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "5.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Nine_Witches:_Family_Disruption"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/nine-witches-family-disruption/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

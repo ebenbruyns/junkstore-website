@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-talos-principle/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.75
+protondb_total: 72
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Devolver Digital
 developer: Croteam
 genre: Adventure, Indie, Puzzle
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: T (ESRB) · 12 (USK)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Language, Mild Sexual Themes, Mild Violence"},"usk":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "December 11, 2014"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Russian","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Czech"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"115","name":"Controller"},{"id":"40852","name":"Steam Workshop"},{"id":"40838","name":"Includes level editor"},{"id":"43","name":"Post-apocalyptic"},{"id":"117","name":"Mystery"},{"id":"91","name":"Walking Simulator"},{"id":"218","name":"Multiple Endings"},{"id":"197","name":"Robots"},{"id":"281","name":"Philisophical"}]
+size: "6549 MB"
+franchise_siblings: [{"rawg_id":961200,"slug":"talos-principle-2","name":"The Talos Principle 2"}]
+franchise_slug: "talos-principle-2|the-talos-principle"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "15.5 hrs"
 hltb_main_extra: "21 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/257510"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Talos_Principle"
 metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/pc/the-talos-principle?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/the-talos-principle/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "613"
+opencritic_url: "https://opencritic.com/game/613/-"
+opencritic_score: 87
+opencritic_review_count: 58
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

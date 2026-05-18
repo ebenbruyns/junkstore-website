@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/skul-the-hero-slayer/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "June '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 30
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Playdigious
@@ -19,10 +27,15 @@ developer: NEOWIZ
 genre: Action, Action-Adventure, Adventure
 franchise: Skul
 age_rating_summary: ESRB Teen
+age_ratings: {"kgrb":{"rating":"12","descriptors":"게임물 제명 : 스컬:더 히어로 슬레이어, 이용등급 : 12세이용가, 내용정보표지사항 : 폭력표현, 등급분류일자 : 2020.01.28, 등급분류번호 : GC-CC-NP-200128-006, 신고/등록번호 : 2010-000002호, 대상 등급 기관 : GCRB 게임콘텐츠등급분류위원회"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "January 1, 2026"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Japanese","Korean","Simplified Chinese","German","French","Spanish - Spain","Russian","Traditional Chinese","Portuguese - Brazil","Polish"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"39070","name":"iOS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "20.5 hrs"
 hltb_main_extra: "40.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1147560"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Skul:_The_Hero_Slayer"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/skul-the-hero-slayer?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/skul-the-hero-slayer/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9279"
+opencritic_url: "https://opencritic.com/game/9279/-"
+opencritic_score: 83
+opencritic_review_count: 41
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

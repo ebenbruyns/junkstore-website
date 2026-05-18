@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/star-stable-online/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: ""
+steam_deck_category: 
 
 # Game Info
 publisher: Star Stable Entertainment AB
@@ -19,10 +27,15 @@ developer: Star Stable Entertainment AB
 genre: Open World, Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {}
 release_date: "June 22, 2022"
 game_modes: ["Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "32.5 hrs"
 hltb_main_extra: "75 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Stable"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/star-stable-online/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: Works without issue once successfully logged in and you have changed the controller layout.
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Star Stable is a MMORPG built especially for those with a passion for horses and games. Players will ride their own horse through the huge 3D world, customise their character and horse, compete in different races and competitions, chat and help each other through challenges, mysteries, and horse adventures the game has to offer.
+Star Stable is an exciting online game where adventures are waiting to be explored from horseback. With over 6000 quests and 300 unique horses, Star Stable gathers a global community of millions of players with one thing in common: horses.

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/strange-horticulture/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.84
+protondb_total: 31
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Iceberg Interactive
@@ -19,10 +27,16 @@ developer: Bad Viking
 genre: Exploration, Simulation, Puzzle
 franchise: Strange Horticulture
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "January 21, 2022"
 game_modes: ["Single player"]
-languages: ["English","German","Russian","Chinese (Simplified)"]
+languages: ["English","German","Russian","Simplified Chinese","French","Italian","Spanish - Spain","Korean","Japanese","Traditional Chinese","Czech","Dutch","Polish","Portuguese - Brazil","Turkish"]
+languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "283214202
+"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-08-21T15:00:00.000Z","end":"2025-08-28T15:00:00.000Z","type":null,"id":"0d9a533f0e684cc18620a8f408e8e72c"}]
@@ -55,6 +69,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5.5 hrs"
 hltb_main_extra: "6.5 hrs"
@@ -67,7 +84,21 @@ protondb_url: "https://www.protondb.com/app/1574580"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Strange_Horticulture"
 metacritic_score: 83
-metacritic_url: "https://www.metacritic.com/game/pc/strange-horticulture?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/strange-horticulture/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12629"
+opencritic_url: "https://opencritic.com/game/12629/-"
+opencritic_score: 84
+opencritic_review_count: 16
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

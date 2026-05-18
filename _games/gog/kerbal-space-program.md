@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/kerbal-space-program/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.84
+protondb_total: 118
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Private Division
 developer: Squad
 genre: Indie, Simulator
 franchise: Kerbal Space Program
-age_rating_summary: PEGI 3
+age_rating_summary: E (ESRB) · PG (OFLC)
+age_ratings: {"esrb":{"rating":"E"},"oflc":{"rating":"PG","descriptors":"Mild themes"},"kgrb":{"rating":"ALL"},"dejus":{"rating":"L"}}
 release_date: "April 27, 2015"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Cloud saves","Overlay","Single-player"]
+languages: ["English","Spanish - Spain","Simplified Chinese","Japanese","Russian","French","Italian","German","Portuguese - Brazil"]
+languages_audio: []
 tags_structured: [{"id":"1281","name":"Space Sim"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21127","name":"Creative Community"},{"id":"1400","name":"Physics"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"}]
+size: "2033 MB"
+franchise_siblings: [{"rawg_id":366877,"slug":"kerbal-space-program-2","name":"Kerbal Space Program 2"}]
+franchise_slug: "kerbal-space-program|kerbal-space-program-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "113 hrs"
 hltb_main_extra: "233 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/220200"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Kerbal_Space_Program"
 metacritic_score: 88
-metacritic_url: "https://www.metacritic.com/game/pc/kerbal-space-program?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/kerbal-space-program/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "562"
+opencritic_url: "https://opencritic.com/game/562/-"
+opencritic_score: 81
+opencritic_review_count: 41
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics. Launch your Kerbal crew into orbit and beyond (while keeping them alive) to explore moons and planets in the Kerbol solar system, constructing bases and space stations to expand the reach of your expedition.
+In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics.

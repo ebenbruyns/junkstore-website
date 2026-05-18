@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/cris-tales/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.55
+protondb_total: 26
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Maximum Entertainment LLC
 developer: Dreams Uncorporated, SYCK
 genre: RPG, Turn-Based, Indie
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Mild Language"},"pegi":{"rating":"12","descriptors":"Bad Language"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Mild fantasy violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "July 20, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Japanese","Simplified Chinese","Spanish - Latin America","Italian","Korean","Russian","Traditional Chinese","Portuguese - Portugal","Thai"]
+languages_audio: ["English"]
 tags_structured: [{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1263","name":"Indie"}]
+size: "2883 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-02-23T15:00:00.000Z","end":"2022-03-02T15:00:00.000Z","type":null,"id":"132a0780b11d4cdf8932a239ce86aa4b"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "22 hrs"
 hltb_main_extra: "25.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1079830"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cris_Tales"
 metacritic_score: 74
-metacritic_url: "https://www.metacritic.com/game/pc/cris-tales?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/cris-tales/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11418"
+opencritic_url: "https://opencritic.com/game/11418/-"
+opencritic_score: 74
+opencritic_review_count: 112
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10001088"
+playstation_url: "https://store.playstation.com/en-us/concept/10001088"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: "3cc52468-54ba-454b-844a-b26a9d120eea"
+geforcenow_url: "https://play.geforcenow.com/games?game-id=3cc52468-54ba-454b-844a-b26a9d120eea"
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Discover a unique combination of branching stories, innovative combat, and classic RPG gameplay in Cris Tales’ exciting and unforgettable exploration of how our actions echo through time. Join the newly awakened Time Mage, Crisbell, and her fantastical companions in a fantasy world facing a grim future. The powerful Time Empress and her forces threaten to bring about a cataclysm tearing apart Crystallis and the other four Kingdoms of the region.
+Experience Past, Present, and Future simultaneously in this gorgeous, indie love letter to classic JRPGs

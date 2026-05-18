@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/doomsday-last-survivors/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: IGG SINGAPORE PTE. LTD.
 developer: IGG SINGAPORE PTE. LTD.
 genre: RTS, Tower Defense, Strategy
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 12 (PEGI) · 16 (USK)
+age_ratings: {"pegi":{"rating":"12"},"usk":{"rating":"16"},"bbfc":{"rating":"PG"},"oflc":{"rating":"M"},"nzoflc":{"rating":"M"},"fpb":{"rating":"A"},"csrr":{"rating":"C12"},"mda":{"rating":"AA16"},"dejus":{"rating":"14"}}
 release_date: "June 30, 2023"
 game_modes: ["Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Russian","Turkish","Japanese","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Portugal","Spanish - Latin America","Vietnamese","Arabic","Korean","Indonesian"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1120","name":"RTS"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Doomsday: Last Survivors is a zombie survival strategy game with multiplayer online competition and real-time strategy elements. Set in a near future where zombies have taken over the world, survivors must fight for their lives and for the future of humanity. As the Commander, it's your duty to lead your fellow survivors to build their Shelter, explore fog-filled areas, and fight the zombies and rival factions! Enjoy zombie games, survival games, and strategy games? Doomsday: Last Survivors has got you covered!
+Doomsday: Last Survivors is a zombie survival game with multiplayer online competition and real-time strategy elements.

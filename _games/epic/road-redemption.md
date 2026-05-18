@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/road-redemption/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 33
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Pixel Dash Studios
@@ -19,10 +27,15 @@ developer: Pixel Dash Studios
 genre: Action, Racing
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"14","descriptors":"Atos criminosos, Violência, Temas sensíveis, Linguagem imprópria"}}
 release_date: "August 7, 2025"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Japanese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-08-07T15:00:00.000Z","end":"2025-08-14T15:00:00.000Z","type":null,"id":"91a0b419d5b741c39cc35ce3a35138c0"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "5½ Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Road_Redemption"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/road-redemption/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4960"
+opencritic_url: "https://opencritic.com/game/4960/-"
+opencritic_score: 69
+opencritic_review_count: 44
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Lead your motorcycle gang on an epic journey across the country in this brutal driving combat adventure. Earn money by completing races, assassinations, robberies, and other challenges in your path. As you collect loot, you'll upgrade your character, your bike, and your weapons.
+Road Redemption lets you lead a biker gang on an epic journey across the country in this driving combat road rage adventure.

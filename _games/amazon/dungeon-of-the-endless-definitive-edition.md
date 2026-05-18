@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/dungeon-of-the-endless-definitive-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.6
+protondb_total: 14
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Sega, Amplitude Studios
 developer: Amplitude Studios
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Platform, Real Time Strategy (RTS)
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Blood"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B","descriptors":"暴力"},"oflc":{"rating":"M","descriptors":"Science fiction violence, online interactivity and chat"},"kgrb":{"rating":"12","descriptors":"Violence"},"csrr":{"rating":"C12","descriptors":"暴力"},"mda":{"rating":"AA16"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Drogas lícitas, Violência"}}
 release_date: "October 27, 2014"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English*","French","German","Spanish - Spain","Japanese*","Korean","Polish","Simplified Chinese","Traditional Chinese","Portuguese - Brazil"]
-tags_structured: []
+languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Polish","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Russian"]
+languages_audio: ["English","Japanese"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"32","name":"Sci-fi"},{"id":"9","name":"Online Co-Op"},{"id":"97","name":"Action RPG"},{"id":"5","name":"Replay Value"},{"id":"571","name":"3D"},{"id":"639","name":"Roguelike"},{"id":"61","name":"Top-Down"},{"id":"40937","name":"Steam Trading Cards"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"171","name":"PvE"},{"id":"196","name":"Procedural Generation"},{"id":"65","name":"Tower Defense"},{"id":"295","name":"Soundtrack"},{"id":"201","name":"Twin Stick Shooter"},{"id":"230","name":"Tactical RPG"},{"id":"49964","name":"Action Roguelike"},{"id":"329","name":"Mystery Dungeon"}]
+size: ""
+franchise_siblings: [{"rawg_id":10309,"slug":"endless-space-2","name":"Endless Space 2"},{"rawg_id":1830,"slug":"dungeon-of-the-endless","name":"Dungeon of the Endless"},{"rawg_id":12980,"slug":"endless-legend","name":"Endless Legend"},{"rawg_id":41457,"slug":"endless-space","name":"Endless Space"}]
+franchise_slug: "dungeon-of-the-endless|endless-dungeons|endless-legend|endless-space|endless-space-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "25 hrs"
 hltb_completionist: "110 hrs"
-hltb_url: "https://howlongtobeat.com/game/17454"
+hltb_url: "https://howlongtobeat.com/game/94132"
 
 # Links
 store_url: ""
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1485590"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dungeon_of_the_Endless"
 metacritic_score: 75
-metacritic_url: "https://www.metacritic.com/game/pc/endless-dungeon?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/endless-dungeon/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15650"
+opencritic_url: "https://opencritic.com/game/15650/-"
+opencritic_score: 78
+opencritic_review_count: 39
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002162"
+playstation_url: "https://store.playstation.com/en-us/concept/10002162"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Need to set controller layout to Gamepad in game, then restart game.

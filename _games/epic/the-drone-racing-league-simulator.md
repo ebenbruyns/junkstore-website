@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-drone-racing-league-simulator/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.44
+protondb_total: 35
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: The Drone Racing League
 developer: The Drone Racing League
 genre: Simulation, Racing
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: E (ESRB) · 3 (PEGI)
+age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Language"},"pegi":{"rating":"3"},"usk":{"rating":"0"}}
 release_date: "August 4, 2021"
 game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
+languages: ["English","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-09-28T15:00:00.000Z","end":"2022-10-05T15:00:00.000Z","type":null,"id":"1578c50f725742fab1863952e01efc52"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "15 hrs"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Drone_Racing_League_Sim
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/the-drone-racing-league-simulator/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: Works out of the box, but need to map controller.
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-This is what it feels like to fly in the cockpit of the fastest drones! The DRL Simulator will push the limits of your drone racing abilities and prepare you to fly in real life. Explore legendary locations and new worlds. Battle it out with your friends to the finish line. Crash nonstop without wrecking your drone and breaking the bank. Master this game and you can compete for a chance to become a professional pilot in the Drone Racing League!
+DRL Simulator® is the premier first-person view (FPV) racing game and simulator.  DRL SIM® offers a robust, evolving feature set, including high-intensity drone racing. It packs tracks that DRL's real world pilots compete on, with more added every season.

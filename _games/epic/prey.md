@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/prey/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.89
+protondb_total: 390
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Bethesda Softworks
 developer: Arkane Studios
 genre: Action, First Person, Action-Adventure, Shooter, Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Language, Use of Alcohol, Violence"},"pegi":{"rating":"18","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Strong Violence"},"nzoflc":{"rating":"r13","descriptors":"Violence, horror scenes &amp; offensive language"},"csrr":{"rating":"R"},"dejus":{"rating":"14","descriptors":"Drogas Lícitas, Linguagem Imprópria, Violência"}}
 release_date: "September 9, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese","Simplified Chinese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: [{"rawg_id":331461,"slug":"prey-invasion","name":"Prey Invasion"},{"rawg_id":58632,"slug":"prey-2006","name":"Prey (2006)"},{"rawg_id":403031,"slug":"prey-2","name":"Prey 2"}]
+franchise_slug: "prey|prey-2|prey-2006|prey-invasion"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-05-11T15:00:00.000Z","end":"2022-05-18T15:00:00.000Z","type":null,"id":"ed17077691c541c19dc95e47fdd1cfd5"},{"start":"2021-12-24T15:00:00.000Z","end":"2021-12-25T15:00:00.000Z","type":null,"id":"ed17077691c541c19dc95e47fdd1cfd5"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "16.5 hrs"
 hltb_main_extra: "28 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prey_%282017%29"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/prey/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "3589"
+opencritic_url: "https://opencritic.com/game/3589/-"
+opencritic_score: 81
+opencritic_review_count: 166
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "BQMVWCMB8P59"
+xbox_url: "https://www.xbox.com/games/store/-/BQMVWCMB8P59"
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-In Prey, you awaken aboard Talos I, a space station orbiting the moon in the year 2032. You are the key subject of an experiment meant to alter humanity forever – but things have gone terribly wrong. The space station has been overrun by hostile aliens and you are now being hunted. As you dig into the dark secrets of Talos I and your own past, you must survive using the tools found on the station, your wits, weapons, and mind-bending abilities.
+In Prey, you awaken aboard Talos I, a space station orbiting the moon in the year 2032. You are the key subject of an experiment meant to alter humanity forever – but things have gone terribly wrong.

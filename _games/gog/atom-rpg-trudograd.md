@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/atom-rpg-trudograd/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: AtomTeam
@@ -19,10 +27,15 @@ developer: AtomTeam
 genre: Role-playing (RPG), Turn-based strategy
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"16","descriptors":"Medo, Atos criminosos, Violência, Temas sensíveis, Linguagem imprópria, Conteúdo sexual, Drogas lícitas, Drogas, Drogas ilícitas"}}
 release_date: "May 1, 2020"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","Russian","Simplified Chinese","Spanish - Spain","Traditional Chinese","French","Japanese","Polish","Ukrainian","Portuguese - Brazil","Italian","German","Czech"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"26","name":"Gore"},{"id":"6","name":"Exploration"},{"id":"193","name":"Classic"},{"id":"1","name":"Survival"},{"id":"34","name":"Violent"},{"id":"80","name":"Tactical"},{"id":"14","name":"Early Access"},{"id":"25","name":"Space"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"43","name":"Post-apocalyptic"},{"id":"5","name":"Replay Value"},{"id":"145","name":"Choices Matter"},{"id":"1465","name":"combat"},{"id":"99","name":"Isometric"},{"id":"50","name":"Sexual Content"},{"id":"119","name":"Dystopian"},{"id":"406","name":"Story"},{"id":"175","name":"Turn-Based Combat"},{"id":"808","name":"character"},{"id":"2030","name":"city"},{"id":"238","name":"CRPG"},{"id":"1529","name":"fight"},{"id":"326","name":"Investigation"},{"id":"1309","name":"hero"},{"id":"3046","name":"destroy"},{"id":"1746","name":"dialogue"}]
+size: "9433 MB"
+franchise_siblings: [{"rawg_id":11383,"slug":"atom-rpg","name":"Atom RPG"}]
+franchise_slug: "atom-rpg|atom-rpg-trudograd"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "16.5 hrs"
 hltb_main_extra: "31.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/ATOM_RPG_Trudograd"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/atom-rpg-trudograd?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11999"
+opencritic_url: "https://opencritic.com/game/11999/-"
+opencritic_score: 78
+opencritic_review_count: 4
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

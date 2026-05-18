@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/lords-mobile/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.41
+protondb_total: 14
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: IGG SINGAPORE PTE. LTD.
 developer: IGG SINGAPORE PTE. LTD.
 genre: RPG, Strategy
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10"},"pegi":{"rating":"7"},"usk":{"rating":"6"},"bbfc":{"rating":"PG"},"oflc":{"rating":"PG"},"nzoflc":{"rating":"PG"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"A"},"csrr":{"rating":"C12"},"mda":{"rating":"AA16"},"dejus":{"rating":"10"}}
 release_date: "July 17, 2023"
 game_modes: ["Multiplayer","Massively Multiplayer Online (MMO)"]
-languages: ["English","French","Italian","German","Spanish - Spain","Ukrainian","Russian","Turkish","Japanese","Polish"]
+languages: ["English","French","Italian","German","Spanish - Spain","Ukrainian","Russian","Turkish","Japanese","Polish","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Portugal","Vietnamese","Arabic","Korean","Spanish - Latin America"]
+languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21125","name":"Competitive Community"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"33639","name":"Promotional Content"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lords_Mobile"
 metacritic_score: 
 metacritic_url: ""
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: 
 controller_config: 
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Want to clash with 50 million global players? Dive into LORDS MOBILE, the real-time-strategy mobile MMO game.
-
-Explore exotic magical lands thrown into chaos by terrifying monsters and powerful enemies. Choose your favorite heroes, make new friends, and charge fearlessly into war! Strike down your foes and build an empire!
+Clash with global players in this epic real-time strategy game!

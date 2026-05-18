@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/agony-unrated/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.59
+protondb_total: 28
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Forever Entertainment S. A., PlayWay
@@ -19,10 +27,15 @@ developer: Madmind Studio
 genre: Adventure, Indie, Shooter
 franchise: 
 age_rating_summary: ESRB 17
+age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez, Violência Extrema, Temas sensíveis"}}
 release_date: "May 29, 2018"
-game_modes: ["Single-player"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Simplified Chinese","Japanese","Korean","Polish","Portuguese - Portugal"]
-tags_structured: []
+game_modes: ["Achievements","Controller support","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Turkish","Hungarian"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"40845","name":"Partial Controller Support"},{"id":"40850","name":"Steam Leaderboards"}]
+size: "13353 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "10 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/agony"
 protondb_url: "https://www.protondb.com/app/879420"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Agony_Unrated"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 47
+metacritic_url: "https://www.metacritic.com/game/agony/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "5775"
+opencritic_url: "https://opencritic.com/game/5775/-"
+opencritic_score: 40
+opencritic_review_count: 57
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

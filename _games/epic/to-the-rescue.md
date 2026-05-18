@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/to-the-rescue/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Freedom Games
@@ -19,10 +27,15 @@ developer: Little Rock Games
 genre: Casual, Simulation, Indie
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "November 2, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+size: "227 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "7 hrs"
 hltb_completionist: "8 hrs"
-hltb_url: "https://howlongtobeat.com/game/10588"
+hltb_url: "https://howlongtobeat.com/game/94006"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/to-the-rescue-a6c254"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/To_the_Rescue%21"
 metacritic_score: 57
 metacritic_url: "https://www.metacritic.com/game/to-the-rescue/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,5 +111,4 @@ is_featured: false
 owned: true
 ---
 
-To The Rescue! is a charming dog shelter simulator. Take care of unique dogs and find the right homes for as many of them as you can. Upgrade your shelter, control disease outbreaks, learn each dog's preferences, and make tough decisions, all while helping support real-world animal shelters!
-Each day brings new challenges and rewards. Dogs have specific preferences, can get infectious diseases, and can have negative traits. But you can also have fundraisers, get random donations, and help someone find their new best friend. Unfortunately, there's never enough room, and always more dogs.
+To The Rescue! is a charming dog shelter simulator. Take care of unique dogs and find the right homes for as many of them as you can. Upgrade your shelter, control disease outbreaks, and learn each dog's preferences, all while helping support real-world animal shelters!

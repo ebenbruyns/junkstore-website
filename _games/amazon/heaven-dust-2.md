@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/heaven-dust-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: indienova
@@ -19,10 +27,15 @@ developer: One Gruel Studio
 genre: Adventure, Indie, Puzzle, Shooter
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "January 5, 2022"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Japanese","Traditional Chinese","Russian","Korean","Hungarian","Portuguese - Brazil"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"150","name":"Third-Person Shooter"},{"id":"63","name":"Zombies"},{"id":"17","name":"Survival Horror"},{"id":"571","name":"3D"},{"id":"218","name":"Multiple Endings"},{"id":"48","name":"Dungeon Crawler"},{"id":"209","name":"Drama"},{"id":"147","name":"Resource Management"},{"id":"179","name":"Cartoon"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "7.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Heaven_Dust_2"
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/heaven-dust-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12586"
+opencritic_url: "https://opencritic.com/game/12586/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

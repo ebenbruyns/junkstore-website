@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/eternights/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.69
+protondb_total: 14
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Studio Sai
@@ -19,10 +27,15 @@ developer: Studio Sai
 genre: Action, RPG, Indie
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Temas sensíveis, Nudez"}}
 release_date: "September 12, 2023"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Japanese","Korean","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Spanish - Latin America"]
+languages_audio: ["English","Japanese","Korean"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-19T16:00:00.000Z","end":"2025-12-20T16:00:00.000Z","type":null,"id":"6b96a838963c457c823099eb9e929334"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11.5 hrs"
 hltb_main_extra: "13 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Eternights"
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/eternights/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15479"
+opencritic_url: "https://opencritic.com/game/15479/-"
+opencritic_score: 72
+opencritic_review_count: 46
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004814"
+playstation_url: "https://store.playstation.com/en-us/concept/10004814"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

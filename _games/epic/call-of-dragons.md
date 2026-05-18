@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/call-of-dragons/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: ""
+steam_deck_category: 
 
 # Game Info
 publisher: Farlight Games
@@ -19,10 +27,15 @@ developer: Legou Games
 genre: RTS, Strategy, MOBA
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {}
 release_date: "October 26, 2023"
 game_modes: ["Massively Multiplayer Online (MMO)"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"1120","name":"RTS"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"1275","name":"MOBA"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6.2 hrs"
 hltb_main_extra: "16.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/call-of-dragons/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!<br> You may need to launch in Desktop/Big Picture Mode to be able to accept EULA."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Call of Dragons is an MMO fantasy conquest game from the creators of Rise of Kingdoms, offering an incredible strategic combat experience.
+An MMO Fantasy Conquest Game by the RoK Team! Capture behemoths to fight. Use hero skills with allies. Deploy flying units over 3D terrain. Huge wars. Huge choices. Your journey starts here!

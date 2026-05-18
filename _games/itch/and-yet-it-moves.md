@@ -7,22 +7,35 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/and-yet-it-moves/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.45
+protondb_total: 10
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: DeNA Co., Ltd., Broken Rules
 developer: Broken Rules
 genre: Indie, Platform, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: E (ESRB)
+age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Violence"},"oflc":{"descriptors":"%oflcDescriptors%"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "April 2, 2009"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Japanese","Spanish - Spain"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"46","name":"Surreal"},{"id":"1867","name":"puzzles"},{"id":"220","name":"Experimental"},{"id":"40899","name":"Physics-based Platformer"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "4.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://brokenrules.itch.io/and-yet-it-moves"
 protondb_url: "https://www.protondb.com/app/18700"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/And_Yet_It_Moves"
-metacritic_score: 75
-metacritic_url: "https://www.metacritic.com/game/pc/and-yet-it-moves?ftag=MCD-06-10aaa1f"
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/and-yet-it-moves/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first time."

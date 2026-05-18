@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/jurassic-world-evolution/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.61
+protondb_total: 109
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Frontier Developments, Universal Pictures
 developer: Frontier Developments
 genre: Simulation, Strategy
 franchise: Jurassic World Evolution
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Blood, Violence"},"pegi":{"rating":"16"},"usk":{"rating":"12"}}
 release_date: "December 31, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Italian","Korean","Spanish - Latin America"]
+languages_audio: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Italian","Korean","Spanish - Latin America"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":1006932,"slug":"jurassic-world-evolution-3","name":"Jurassic World Evolution 3"},{"rawg_id":614965,"slug":"jurassic-world-evolution-2-2","name":"Jurassic World Evolution 2"},{"rawg_id":416021,"slug":"jurassic-park-the-new-park","name":"Jurassic Park: The New Park"},{"rawg_id":103182,"slug":"jurassic-park-legacy","name":"Jurassic Park: Legacy"},{"rawg_id":34651,"slug":"jurassic-park-operation-genesis","name":"Jurassic Park: Operation Genesis"},{"rawg_id":29924,"slug":"jurassic-park-dinosaur-battles","name":"Jurassic Park: Dinosaur Battles"},{"rawg_id":53344,"slug":"jurassic-park-iii-island-attack","name":"Jurassic Park III: Island Attack"},{"rawg_id":53345,"slug":"jurassic-park-iii-park-builder","name":"Jurassic Park III: Park Builder"},{"rawg_id":53346,"slug":"jurassic-park-iii-the-dna-factor","name":"Jurassic Park III: The DNA Factor"},{"rawg_id":30727,"slug":"jurassic-park-3-danger-zone","name":"Jurassic Park 3: Danger Zone!"},{"rawg_id":32637,"slug":"jurassic-park-3-dino-defender","name":"Jurassic Park 3: Dino Defender"},{"rawg_id":57970,"slug":"warpath-jurassic-park","name":"Warpath: Jurassic Park"},{"rawg_id":402501,"slug":"the-lost-world-jurassic-park-1997","name":"The Lost World: Jurassic Park (1997)"},{"rawg_id":53105,"slug":"the-lost-world-jurassic-park","name":"The Lost World: Jurassic Park"},{"rawg_id":57390,"slug":"jurassic-park-2-the-chaos-continues","name":"Jurassic Park 2: The Chaos Continues"},{"rawg_id":57075,"slug":"jurassic-park-rampage-edition","name":"Jurassic Park: Rampage Edition"},{"rawg_id":53349,"slug":"jurassic-park","name":"Jurassic Park"},{"rawg_id":43129,"slug":"jurassic-park-aftermath","name":"Jurassic Park: Aftermath"}]
+franchise_slug: "jurassic-park|jurassic-park-2-the-chaos-cont|jurassic-park-3-danger-zone|jurassic-park-3-dino-defender|jurassic-park-aftermath|jurassic-park-dinosaur-battles|jurassic-park-iii-island-attac|jurassic-park-iii-park-builder|jurassic-park-iii-the-dna-fact|jurassic-park-legacy|jurassic-park-operation-genesi|jurassic-park-rampage-edition|jurassic-park-the-new-park|jurassic-world-evolution-2|jurassic-world-evolution-2-2|jurassic-world-evolution-3|the-lost-world-jurassic-park|the-lost-world-jurassic-park-1|warpath-jurassic-park"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-12-30T15:00:00.000Z","end":"2021-01-06T15:00:00.000Z","type":null,"id":"d5a8d607058f4accb71aa406dc8cece0"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "25.5 hrs"
 hltb_main_extra: "41.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/648350"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Jurassic_World_Evolution"
 metacritic_score: 69
-metacritic_url: "https://www.metacritic.com/game/pc/jurassic-world-evolution?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/jurassic-world-evolution/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "6158"
+opencritic_url: "https://opencritic.com/game/6158/-"
+opencritic_score: 71
+opencritic_review_count: 99
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -82,9 +112,3 @@ owned: true
 ---
 
 Take charge of operations on the legendary islands of the Muertes archipelago and bring the wonder, majesty and danger of dinosaurs to life. Build for Science, Entertainment or Security interests in an uncertain world where life always finds a way.
-
-Jurassic World Evolution is a new chapter in the official Jurassic mythology that puts you in charge of cinema’s most famous tourist destination.
-
-Bioengineer dinosaurs that think, feel and react intelligently to the world around them. Play with life itself to give your dinosaurs unique behaviors, traits and appearances, then contain and profit from them to fund your global search for lost dinosaur DNA.
-
-Control the big picture with deep management tools or go hands-on to confront challenges on the ground or in the air. Expand your islands and choose your own journey in an all-new narrative featuring iconic characters from across the franchise and decades of Jurassic lore at your fingertips.

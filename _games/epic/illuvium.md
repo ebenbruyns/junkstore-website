@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/illuvium/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: ""
 standalone_rating: ""
 date_tested: "Aug '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: ""
+steam_deck_category: 
 
 # Game Info
 publisher: Illuvium Labs
@@ -19,10 +27,15 @@ developer: Illuvium Labs
 genre: Turn-Based Strategy, Turn-Based, RPG
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {}
 release_date: "November 28, 2023"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"21146","name":"Educational"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1310","name":"EARLY ACCESS"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/illuvium/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Follow extra steps [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Illuvium)"
 controller_config: 
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Step into the adrenaline-fueled Arena, where strategy and action converge. Whether facing the relentless waves of Illuvials in the Survival Arena or outwitting foes in competitive duels in the Ascendant Arena.
-
-Illuvium: Overworld will be an expansive third-person RPG set within a diverse and dynamic open world. Across this alien terrain, mystical creatures lurk—each with potent abilities. Craft gear to explore, collect precious resources, and empower your team. Every decision shapes your path, carving out your legacy in the wilds of an alien world.
+Stranded on Illuvium—build your dream squad and conquer the Arena in a thrilling auto-battler!

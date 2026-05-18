@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fantasy-empires/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.21
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Strategic Simulations, SNEG
@@ -19,10 +27,15 @@ developer: Silicon Knights
 genre: Role-playing (RPG), Adventure, Strategy, Simulator
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
 release_date: "December 31, 1993"
-game_modes: ["Single player","Co-op"]
+game_modes: ["Co-op","Single-player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"468","name":"role-playing"},{"id":"117","name":"Mystery"},{"id":"165","name":"Colorful"},{"id":"168","name":"RTS"},{"id":"82","name":"Magic"},{"id":"61","name":"Top-Down"},{"id":"243","name":"1990's"},{"id":"215","name":"Dragons"},{"id":"100","name":"Grand Strategy"},{"id":"247","name":"Real Time Tactics"},{"id":"570","name":"Old School"},{"id":"104","name":"Wargame"},{"id":"574","name":"Dungeons & Dragons"}]
+size: "48 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fantasy_Empires"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/fantasy-empires/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "You need to set the platform to DOSBox from the cog menu on the game screen: Game Configs > ADVANCED > platform > Dosbox. Save the config change and launch the game."

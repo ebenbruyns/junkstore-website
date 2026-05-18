@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/tomb-raider-underworld/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.73
+protondb_total: 96
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Square Enix, Eidos Interactive, Feral Interactive, Warner Bros. Interactive Entertainment
 developer: Crystal Dynamics
 genre: Adventure, Platform, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood,, Mild Language,, Mild Suggestive Themes,, Violence"},"pegi":{"rating":"16","descriptors":"Realistic looking violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Violence"},"nzoflc":{"rating":"M"},"kgrb":{"rating":"12"},"csrr":{"rating":"C15"},"dejus":{"rating":"12"}}
 release_date: "November 18, 2008"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"149","name":"Third Person"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"150","name":"Third-Person Shooter"},{"id":"188","name":"Parkour"},{"id":"133","name":"3D Vision"},{"id":"306","name":"Lara Croft"}]
+size: "6992 MB"
+franchise_siblings: [{"rawg_id":51329,"slug":"shadow-of-the-tomb-raider","name":"Shadow of the Tomb Raider"},{"rawg_id":7689,"slug":"rise-of-the-tomb-raider","name":"Rise of the Tomb Raider"},{"rawg_id":700,"slug":"lara-croft-go","name":"Lara Croft GO"},{"rawg_id":1875,"slug":"lara-croft-relic-run","name":"Lara Croft: Relic Run"},{"rawg_id":3474,"slug":"lara-croft-and-the-temple-of-osiris","name":"Lara Croft and the Temple of Osiris"},{"rawg_id":5286,"slug":"tomb-raider","name":"Tomb Raider"},{"rawg_id":4882,"slug":"lara-croft-gol","name":"Lara Croft and the Guardian of Light"},{"rawg_id":5297,"slug":"tomb-raider-anniversary","name":"Tomb Raider: Anniversary"},{"rawg_id":25045,"slug":"lara-croft-tomb-raider-legend","name":"Lara Croft Tomb Raider: Legend"},{"rawg_id":5298,"slug":"tomb-raider-legend","name":"Tomb Raider: Legend"},{"rawg_id":22865,"slug":"tomb-raider-the-angel-of-darkness","name":"Tomb Raider: The Angel of Darkness"},{"rawg_id":53485,"slug":"tomb-raider-the-prophecy","name":"Tomb Raider: The Prophecy"},{"rawg_id":54917,"slug":"tomb-raider-curse-of-the-sword","name":"Tomb Raider: Curse of the Sword"},{"rawg_id":12279,"slug":"tomb-raider-chronicles","name":"Tomb Raider V: Chronicles"},{"rawg_id":938006,"slug":"tomb-raider-gbc","name":"Tomb Raider (GBC)"},{"rawg_id":368083,"slug":"tomb-raider-starring-lara-croft","name":"Tomb Raider Starring Lara Croft"},{"rawg_id":31218,"slug":"tomb-raider-3-the-lost-artifact","name":"Tomb Raider 3: The Lost Artifact"},{"rawg_id":22864,"slug":"tomb-raider-the-last-revelation-chronicles","name":"Tomb Raider: The Last Revelation + Chronicles"},{"rawg_id":12280,"slug":"tomb-raider-the-last-revelation","name":"Tomb Raider IV: The Last Revelation"},{"rawg_id":34588,"slug":"tomb-raider-2-golden-mask","name":"Tomb Raider 2: Golden Mask"},{"rawg_id":32122,"slug":"tomb-raider-3-adventures-of-lara-croft","name":"Tomb Raider 3: Adventures of Lara Croft"},{"rawg_id":57908,"slug":"tomb-raider-ii","name":"Tomb Raider II"},{"rawg_id":31759,"slug":"tomb-raider-1996","name":"Tomb Raider (1996)"}]
+franchise_slug: "lara-croft-and-the-temple-of-o|lara-croft-go|lara-croft-gol|lara-croft-relic-run|lara-croft-tomb-raider-legend|rise-of-the-tomb-raider|shadow-of-the-tomb-raider|tomb-raider|tomb-raider-1996|tomb-raider-2-golden-mask|tomb-raider-3-adventures-of-la|tomb-raider-3-the-lost-artifac|tomb-raider-anniversary|tomb-raider-chronicles|tomb-raider-curse-of-the-sword|tomb-raider-gbc|tomb-raider-ii|tomb-raider-legend|tomb-raider-starring-lara-crof|tomb-raider-the-angel-of-darkn|tomb-raider-the-last-revelatio|tomb-raider-the-last-revelatio|tomb-raider-the-prophecy|tomb-raider-underworld"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9.5 hrs"
 hltb_main_extra: "12 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/tomb_raider_underworld"
 protondb_url: "https://www.protondb.com/app/8140"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider%3A_Underworld"
-metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/tomb-raider-underworld?ftag=MCD-06-10aaa1f"
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/tomb-raider-underworld/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

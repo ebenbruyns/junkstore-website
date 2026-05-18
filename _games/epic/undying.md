@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/undying/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Skystone Games Inc.
@@ -19,10 +27,15 @@ developer: Vanimals
 genre: Horror, Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "October 19, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Simplified Chinese","Japanese","French","German","Korean","Russian","Traditional Chinese","Spanish - Spain","Portuguese - Brazil","Italian","Turkish"]
+languages_audio: ["English","Simplified Chinese"]
 tags_structured: [{"id":"21137","name":"Unique Visuals"},{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-01-30T16:00:00.000Z","end":"2025-02-06T16:00:00.000Z","type":null,"id":"c9d2e42d8b404add9390c0182093abbd"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "25.5 hrs"
 hltb_main_extra: "32.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/638990"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Undying"
 metacritic_score: 74
-metacritic_url: "https://www.metacritic.com/game/pc/undying?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/undying/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10746"
+opencritic_url: "https://opencritic.com/game/10746/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10012406"
+playstation_url: "https://store.playstation.com/en-us/concept/10012406"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Infected by a zombie bite, Anling's days are numbered. She must now fight to survive, not for herself but her young son, Cody. Ensure Cody's survival in this zombie infested world by protecting him, searching for safety, and teaching him valuable skills, at any cost.
+Infected by a zombie, Anling's days are limited. She must now fight to survive, not for herself but her young son, Cody. Ensure Cody's survival in this zombie-infested world by protecting him, searching for safety, and teaching him valuable skills at any cost.

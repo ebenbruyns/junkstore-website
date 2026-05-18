@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/idle-champions-of-the-forgotten-realms/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.78
+protondb_total: 60
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Codename Entertainment
 developer: Codename Entertainment
 genre: Strategy
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Mild Language"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Atos criminosos, Medo"}}
 release_date: "February 16, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
+languages_audio: []
 tags_structured: [{"id":"21136","name":"Playful Visuals"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"1141","name":"Free to Play"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-03-05T16:00:00.000Z","end":"2026-03-12T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2025-11-06T16:00:00.000Z","end":"2025-11-13T16:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2025-04-10T15:00:00.000Z","end":"2025-04-17T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2024-06-12T15:00:00.000Z","end":"2024-06-19T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2023-06-21T15:00:00.000Z","end":"2023-06-28T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2021-04-28T15:00:00.000Z","end":"2021-05-05T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "39.5 hrs"
 hltb_main_extra: "87.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Idle_Champions_of_the_Forgotten_Realms"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/idle-champions-of-the-forgotten-realms/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

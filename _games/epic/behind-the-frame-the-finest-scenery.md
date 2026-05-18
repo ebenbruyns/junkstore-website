@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/behind-the-frame-the-finest-scenery/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.7
+protondb_total: 20
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Akupara Games, Akatsuki Taiwan
@@ -19,10 +27,15 @@ developer: Silver Lining Studio
 genre: Puzzle, Adventure, First Person
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "August 25, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Traditional Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"21151","name":"Easy Puzzles"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-01-23T16:00:00.000Z","end":"2025-01-30T16:00:00.000Z","type":null,"id":"ade0eed6f17a412b97d29a992b35754c"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1.2 hrs"
 hltb_main_extra: "1.6 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1634150"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Behind_the_Frame%3A_The_Finest_Scenery"
 metacritic_score: 73
-metacritic_url: "https://www.metacritic.com/game/pc/behind-the-frame-the-finest-scenery?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/behind-the-frame-the-finest-scenery/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11866"
+opencritic_url: "https://opencritic.com/game/11866/-"
+opencritic_score: 78
+opencritic_review_count: 15
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A narrative-driven puzzle game about collecting, fixing and painting. Enjoy the scenery en route in the world of Behind the Frame, and search for the secrets within. Recollect memories in the time corridor, and savor some beautiful little moments. Combining escape rooms and narrative games, Behind the Frame: The Finest Scenery presents a profoundly interactive storytelling of characters' emotions and plot development. With 360° panorama techniques and an exquisite hand-painted art style, the game takes you into the world of Behind the Frame.
+Guide brush strokes and solve a variety of puzzles to help an aspiring artist complete her masterpiece. As her painting starts to take shape, uncover an emotional tale of chance and artistry revealed behind unrelated yet familiar moments.

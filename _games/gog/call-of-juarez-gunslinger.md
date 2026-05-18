@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/call-of-juarez-gunslinger/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.81
+protondb_total: 217
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Ubisoft Entertainment, Techland
 developer: Techland
 genre: Adventure, Shooter, Arcade
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Suggestive Themes, Strong Language"},"pegi":{"rating":"16","descriptors":"Bad Language, Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong violence"},"nzoflc":{"rating":"ma15","descriptors":"Strong violence"}}
 release_date: "May 22, 2013"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","German","French","Italian","Spanish - Spain","Russian","Japanese","Polish","Portuguese - Brazil"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"4","name":"Funny"},{"id":"26","name":"Gore"},{"id":"40850","name":"Steam Leaderboards"},{"id":"123","name":"Comedy"},{"id":"89","name":"Historical"},{"id":"305","name":"Linear"},{"id":"200","name":"Narration"},{"id":"208","name":"Alternate History"},{"id":"152","name":"Western"},{"id":"308","name":"Bullet Time"},{"id":"309","name":"Dynamic Narration"}]
+size: "4453 MB"
+franchise_siblings: [{"rawg_id":19524,"slug":"call-of-juarez-the-cartel","name":"Call of Juarez: The Cartel"},{"rawg_id":4521,"slug":"call-of-juarez-2","name":"Call of Juarez: Bound in Blood"},{"rawg_id":19572,"slug":"call-of-juarez","name":"Call of Juarez"}]
+franchise_slug: "call-of-juarez|call-of-juarez-2|call-of-juarez-gunslinger|call-of-juarez-the-cartel"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "7 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/call_of_juarez_gunslinger"
 protondb_url: "https://www.protondb.com/app/204450"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_Juarez:_Gunslinger"
-metacritic_score: 79
-metacritic_url: "https://www.metacritic.com/game/pc/call-of-juarez-gunslinger?ftag=MCD-06-10aaa1f"
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/call-of-juarez-gunslinger/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

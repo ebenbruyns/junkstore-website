@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/saints-row-the-third-remastered/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.75
+protondb_total: 39
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Deep Silver
 developer: Deep Silver Volition
 genre: Action, Adventure
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Drug Reference, Intense Violence, Sexual Content, Partial Nudity, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Violência fantasiosa, Atos criminosos, Violência, Violência Extrema, Temas sensíveis, Drogas lícitas, Drogas, Drogas ilícitas, Linguagem imprópria, Conteúdo sexual, Nudez"}}
 release_date: "May 22, 2020"
-game_modes: ["Co-op","Multiplayer","Single player"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Czech"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Czech","Dutch"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"9","name":"Online Co-Op"},{"id":"4","name":"Funny"},{"id":"37","name":"Sandbox"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"69","name":"Action-Adventure"},{"id":"150","name":"Third-Person Shooter"},{"id":"121","name":"Character Customization"},{"id":"571","name":"3D"},{"id":"130","name":"Driving"},{"id":"56","name":"Shoot 'Em Up"},{"id":"148","name":"Dark Humor"},{"id":"229","name":"3D Platformer"},{"id":"51","name":"Destruction"},{"id":"2030","name":"city"},{"id":"59643","name":"Протагонистка"},{"id":"153","name":"Satire"},{"id":"49960","name":"Life Sim"},{"id":"1753","name":"guns"},{"id":"5488","name":"tank"},{"id":"1131","name":"sex"},{"id":"1876","name":"drugs"}]
+size: "42797 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "13 hrs"
 hltb_main_extra: "22 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/saints_row_the_third_remastered"
 protondb_url: "https://www.protondb.com/app/978300"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row%3A_The_Third_Remastered"
-metacritic_score: 74
-metacritic_url: "https://www.metacritic.com/game/saints-row-the-third-remastered/"
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/saints-row-the-third/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7673"
+opencritic_url: "https://opencritic.com/game/7673/-"
+opencritic_score: 72
+opencritic_review_count: 24
+twitch_id: ""
+twitch_url: ""
+playstation_id: "234481"
+playstation_url: "https://store.playstation.com/en-us/concept/234481"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

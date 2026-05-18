@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/20-minutes-till-dawn/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.84
+protondb_total: 78
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: flanne
@@ -19,10 +27,15 @@ developer: flanne
 genre: Action, Indie, Rogue-Lite
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "January 2, 2024"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Japanese","Simplified Chinese","Portuguese - Brazil","French","Italian","German","Spanish - Spain","Polish","Russian","Spanish - Latin America","Traditional Chinese","Turkish","Hungarian","Korean"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "54.5 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-01-01T15:00:00.000Z","end":"2024-01-02T15:00:00.000Z","type":null,"id":"9758dccdbda54c1387f732d0d7d03b3b"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.7 hrs"
 hltb_main_extra: "12.4 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/20_Minutes_till_Dawn"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/20-minutes-till-dawn/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13483"
+opencritic_url: "https://opencritic.com/game/13483/-"
+opencritic_score: 77
+opencritic_review_count: 6
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Shoot down an ever growing horde of Lovecraftian monsters to survive the night. Choose from a variety of upgrades to create unique and game-breaking builds. Unlock a diverse cast of characters and weapons with unique powers.
+20 Minutes Till Dawn is a survival roguelite where endless hordes of creatures lurk from the dark. Craft an array of overpowering builds and eradicate waves of Lovecraftian nightmares. Will you be able to survive the night?

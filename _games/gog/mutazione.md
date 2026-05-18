@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/mutazione/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.38
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Akupara Games
 developer: Die Gute Fabrik
 genre: Role-playing (RPG), Adventure, Indie, Point-and-click, Music
 franchise: 
-age_rating_summary: PEGI 7
+age_rating_summary: 6 (USK)
+age_ratings: {"usk":{"rating":"6","descriptors":"Sexual Innuendo, Tobacco Use, Occasional Swearing"},"dejus":{"rating":"14","descriptors":"Nudez, Linguagem imprópria, Medo"}}
 release_date: "September 19, 2019"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","Danish","French","Italian","German","Dutch","Portuguese - Brazil","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese","Turkish","Arabic"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"}]
+size: "2198 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "8 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/mutazione"
 protondb_url: "https://www.protondb.com/app/1080750"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mutazione"
-metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/mutazione?ftag=MCD-06-10aaa1f"
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/mutazione/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8306"
+opencritic_url: "https://opencritic.com/game/8306/-"
+opencritic_score: 76
+opencritic_review_count: 18
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

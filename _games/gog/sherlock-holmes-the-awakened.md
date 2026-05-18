@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/sherlock-holmes-the-awakened/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.67
+protondb_total: 13
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Frogwares
 developer: Frogwares
 genre: adventure
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Violence, Drug Reference"},"pegi":{"rating":"16","descriptors":"Strong Violence"},"usk":{"rating":"16","descriptors":"Scary Content, Violence"},"oflc":{"rating":"M","descriptors":"Horror Themes, Mature Themes, Violence"},"nzoflc":{"rating":"M"},"dejus":{"rating":"12","descriptors":"Violência, Drogas lícitas, Medo"}}
 release_date: "February 1, 2007"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian"]
+languages_audio: ["English"]
 tags_structured: []
+size: "26361 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,19 +68,36 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9 hrs"
 hltb_main_extra: "10.5 hrs"
 hltb_completionist: "10.5 hrs"
-hltb_url: "https://howlongtobeat.com/game/8407"
+hltb_url: "https://howlongtobeat.com/game/8408"
 
 # Links
 store_url: "https://www.gog.com/en/game/sherlock_holmes_the_awakened"
 protondb_url: "https://www.protondb.com/app/1949030"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sherlock_Holmes:_The_Awakened"
-metacritic_score: 72
-metacritic_url: "https://www.metacritic.com/game/sherlock-holmes-the-awakened-2007/"
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/sherlock-holmes-the-awakened/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14537"
+opencritic_url: "https://opencritic.com/game/14537/-"
+opencritic_score: 75
+opencritic_review_count: 58
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10005262"
+playstation_url: "https://store.playstation.com/en-us/concept/10005262"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

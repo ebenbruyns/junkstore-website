@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/overtrip/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: ""
+steam_deck_category: 
 
 # Game Info
 publisher: GGXYZ
@@ -19,10 +27,15 @@ developer: GGXYZ
 genre: Action, Shooter
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {}
 release_date: "July 10, 2024"
 game_modes: ["Battle Royale"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1299","name":"Competitive"},{"id":"21109","name":"Great Boss Battles"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"9547","name":"Windows"},{"id":"1310","name":"EARLY ACCESS"},{"id":"10719","name":"Mac OS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/overtrip/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A skill-based third-person shooter, where the thrill of competition meets the world of skill-based token betting and the captivating integration of diverse NFT collections.
+The ultimate skill-based third-person shooter, where the thrill of competition meets the world of skill-based token betting and the captivating integration of diverse NFT collections.

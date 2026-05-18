@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/maid-of-sker/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.76
+protondb_total: 21
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Wales Interactive
 developer: Wales Interactive
 genre: Horror, Action-Adventure, Indie
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"dejus":{"rating":"16","descriptors":"Violência, Medo, Violência Extrema, Linguagem imprópria, Nudez"}}
 release_date: "October 27, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Arabic","Turkish","Polish","Hungarian","Japanese","Welsh"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
+size: "7118 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-07-17T15:00:00.000Z","end":"2024-07-24T15:00:00.000Z","type":null,"id":"3795a845a05d4b3baacb8126635ffd74"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4.5 hrs"
 hltb_main_extra: "5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/maid-of-sker-2ae24e"
 protondb_url: "https://www.protondb.com/app/826940"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Maid_of_Sker"
-metacritic_score: 69
-metacritic_url: "https://www.metacritic.com/game/pc/maid-of-sker?ftag=MCD-06-10aaa1f"
+metacritic_score: 64
+metacritic_url: "https://www.metacritic.com/game/maid-of-sker/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9879"
+opencritic_url: "https://opencritic.com/game/9879/-"
+opencritic_score: 65
+opencritic_review_count: 75
+twitch_id: ""
+twitch_url: ""
+playstation_id: "233393"
+playstation_url: "https://store.playstation.com/en-us/concept/233393"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,10 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Maid of Sker is a first-person survival horror, set in a remote hotel with a macabre history from Welsh folklore. Brave the nightmares of the Quiet Men. When they arrive, do not panic — don't even breathe.
-
-Featuring realistic 4k visuals with gameplay focused on story, exploration and no-weapon survival tactics. Experience a multiple thread narrative where your decisions matter, unlocking different story paths and multiple endings.
-
-A 3D sound based AI system is the core survival gameplay mechanic. Hide, run, creep, trap and distract are some of the techniques you need to master to survive enemies with super hearing. As you progress, enemies become more difficult to avoid, to the point where standing still and holding your breath is the only option!
-
-Time it correctly and you’re safe, for now. Run out of breath and — suffer.
+Maid of Sker is a first-person survival horror, set in a remote hotel with a gory and macabre history from British folklore. Brave the nightmares of the Quiet Ones. Do not panic…don’t even breathe!

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/call-of-the-sea/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.87
+protondb_total: 40
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Raw Fury
 developer: Out of the Blue
 genre: Casual, Puzzle, Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence, Use of Tobacco"},"pegi":{"rating":"7","descriptors":"Fear"},"usk":{"rating":"6","descriptors":"Rare Scary Situations"},"oflc":{"rating":"PG"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
 release_date: "February 17, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+size: "11894 MB"
+franchise_siblings: [{"rawg_id":1017859,"slug":"call-of-the-elder-gods","name":"Call of the Elder Gods"}]
+franchise_slug: "call-of-the-elder-gods|call-of-the-sea"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-03-08T15:00:00.000Z","end":"2023-03-15T15:00:00.000Z","type":null,"id":"92da5d8d918543b6b408e36d9af81765"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5.6 hrs"
 hltb_main_extra: "6.2 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/call-of-the-sea"
 protondb_url: "https://www.protondb.com/app/1042490"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_the_Sea"
-metacritic_score: 78
-metacritic_url: "https://www.metacritic.com/game/pc/call-of-the-sea?ftag=MCD-06-10aaa1f"
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/call-of-the-sea/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10651"
+opencritic_url: "https://opencritic.com/game/10651/-"
+opencritic_score: 77
+opencritic_review_count: 84
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10000938"
+playstation_url: "https://store.playstation.com/en-us/concept/10000938"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Call of the Sea is a first-person adventure puzzle game set in the 1930's that tells the story of Norah, a woman on the trail of her missing husband's expedition. The search takes place on a strange but beautiful island in the South Pacific, filled with secrets waiting to be unearthed. It’s an otherworldly tale of mystery, adventure, and self-discovery.
+Call of the Sea is an otherworldly tale of mystery and love set in the 1930s South Pacific. Explore a lush island paradise, solve puzzles and unlock secrets in the hunt for your husband’s missing expedition.

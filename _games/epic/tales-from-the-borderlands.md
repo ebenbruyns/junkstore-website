@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tales-from-the-borderlands/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.72
+protondb_total: 53
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Telltale Games, Take-Two Interactive
 developer: Telltale Games
 genre: Narration, Exploration, Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Drug Reference, Sexual Themes, Strong Language, Violence"},"pegi":{"rating":"18","descriptors":"Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong Violence"},"nzoflc":{"rating":"r13","descriptors":"Violence"},"dejus":{"rating":"16"}}
 release_date: "February 17, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+size: "28.3 GB"
+franchise_siblings: [{"rawg_id":836447,"slug":"new-tales-from-the-borderlands","name":"New Tales from the Borderlands"},{"rawg_id":692541,"slug":"tiny-tinas-assault-on-dragon-keep-a-wonderlands-on","name":"Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure"},{"rawg_id":58617,"slug":"borderlands-3","name":"Borderlands 3"},{"rawg_id":3543,"slug":"borderlands-the-pre-sequel","name":"Borderlands: The Pre-Sequel"},{"rawg_id":330906,"slug":"borderlands-legends","name":"Borderlands Legends"},{"rawg_id":802,"slug":"borderlands-2","name":"Borderlands 2"},{"rawg_id":4828,"slug":"borderlands","name":"Borderlands"}]
+franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|borderlands-the-pre-sequel|new-tales-from-the-borderlands|tales-from-the-borderlands|tiny-tinas-assault-on-dragon-k"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10.5 hrs"
 hltb_main_extra: "11 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/tales-from-the-borderlands"
 protondb_url: "https://www.protondb.com/app/330830"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tales_from_the_Borderlands"
-metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/tales-from-the-borderlands-a-telltale-game-series/"
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/borderlands-a-telltale-game-series/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1947"
+opencritic_url: "https://opencritic.com/game/1947/-"
+opencritic_score: 89
+opencritic_review_count: 35
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Tales from the Borderlands is a five part episodic game series. Set on the unforgiving world of Pandora after the events seen in Borderlands 2, this is a story full of Borderlands' trademark humor, following two adventurers on their quest for greatness.
+Tales from the Borderlands is a five-part episodic game set on the unforgiving world of Pandora between the events of Borderlands 2 and Borderlands 3. This is a story full of Borderlands' trademark humor, following two adventurers on their quest for greatness.

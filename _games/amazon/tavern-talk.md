@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/tavern-talk/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.61
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Gentle Troll Entertainment
 developer: Gentle Troll Entertainment
 genre: Adventure, Casual, Indie, Simulation
 franchise: 
-age_rating_summary: 
+age_rating_summary: 6 (USK)
+age_ratings: {"usk":{"rating":"6"},"dejus":{"rating":"L"}}
 release_date: "June 20, 2024"
 game_modes: ["Single-player"]
 languages: ["English","German","Japanese","Simplified Chinese","Korean"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"134","name":"Anime"},{"id":"145","name":"Choices Matter"},{"id":"165","name":"Colorful"},{"id":"218","name":"Multiple Endings"},{"id":"90","name":"Visual Novel"},{"id":"138","name":"Relaxing"},{"id":"164","name":"Cartoony"},{"id":"572","name":"Emotional"},{"id":"91686","name":"Family Sharing"},{"id":"288","name":"Interactive Fiction"},{"id":"42410","name":"LGBTQ+"},{"id":"342","name":"Conversation"},{"id":"49960","name":"Life Sim"},{"id":"658","name":"Cozy"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "15.5 hrs"
 hltb_main_extra: "17 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/2076140"
 protondb_report_url: ""
 pcgamingwiki_url: "https://store.epicgames.com/en-US/p/boxes-lost-fragments-079041"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/tavern-talk?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/tavern-talk/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16875"
+opencritic_url: "https://opencritic.com/game/16875/-"
+opencritic_score: 76
+opencritic_review_count: 15
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

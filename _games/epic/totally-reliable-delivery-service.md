@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/totally-reliable-delivery-service/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.3
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: tinyBuild
@@ -19,10 +27,15 @@ developer: "We're Five Games"
 genre: Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa, Compras on-line"}}
 release_date: "April 1, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Traditional Chinese","Korean","Japanese","Portuguese - Brazil","Russian"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1400","name":"Physics"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-03-31T15:00:00.000Z","end":"2020-04-07T15:00:00.000Z","type":null,"id":"4f480f675a6c4947b1bbfbc73a7d3a93"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2.9 hrs"
 hltb_main_extra: "9.1 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Totally_Reliable_Delivery_Service"
 metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/pc/totally-reliable-delivery-service?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9215"
+opencritic_url: "https://opencritic.com/game/9215/-"
+opencritic_score: 51
+opencritic_review_count: 25
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10000393"
+playstation_url: "https://store.playstation.com/en-us/concept/10000393"
+xbox_id: "9NZG72SH3H4W"
+xbox_url: "https://www.xbox.com/games/store/-/9NZG72SH3H4W"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

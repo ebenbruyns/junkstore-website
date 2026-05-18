@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-battle-of-polytopia/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.74
+protondb_total: 19
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Midjiwan AB
@@ -19,10 +27,16 @@ developer: Midjiwan AB
 genre: Turn-Based Strategy, Turn-Based, Strategy
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "June 17, 2025"
 game_modes: ["Single-player","Multi-player"]
-languages: ["English","French","Italian","German","Portuguese - Brazil","Russian","Spanish - Latin America","Spanish - Spain","Portuguese - Portugal","Japanese"]
+languages: ["English","French","Italian","German","Portuguese - Brazil","Russian","Spanish - Latin America","Spanish - Spain","Portuguese - Portugal","Japanese","Korean"]
+languages_audio: []
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "126179892
+"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-09-11T15:00:00.000Z","end":"2025-09-18T15:00:00.000Z","type":null,"id":"006ff26e1ff84141a1fa1b48884ac1c7"},{"start":"2025-09-04T15:00:00.000Z","end":"2025-09-11T15:00:00.000Z","type":null,"id":"006ff26e1ff84141a1fa1b48884ac1c7"}]
@@ -55,6 +69,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "1.5 hrs"
 hltb_main_extra: "3.5 hrs"
@@ -69,6 +86,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Battle_of_Polytopia"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/the-battle-of-polytopia?ftag=MCD-06-10aaa1f"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11027"
+opencritic_url: "https://opencritic.com/game/11027/-"
+opencritic_score: 71
+opencritic_review_count: 8
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: 
 controller_config: 
@@ -81,4 +112,4 @@ is_featured: false
 owned: true
 ---
 
-Welcome to the unique, turn-based strategy game set in the strange, flat world of the Square. Lead one of 16 distinct civilizations to victory by expanding your empire, researching technologies, and ultimately become ruler of the world! Play in single-player or multiplayer mode for up to 16 players.
+Award-winning strategy game! Build your civilization, master tech, conquer tribes, and dominate the world map!

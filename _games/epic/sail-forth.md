@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/sail-forth/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.49
+protondb_total: 7
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: The Quantum Astrophysicists Guild
@@ -19,10 +27,15 @@ developer: Festive Vector
 genre: Exploration, Indie, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "December 21, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","German","Simplified Chinese","Japanese","Portuguese - Brazil"]
+languages_audio: []
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "348 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-01-10T15:00:00.000Z","end":"2024-01-17T15:00:00.000Z","type":null,"id":"c819b6b40a034231ad64b8406f75814e"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "16 hrs"
 hltb_main_extra: "28.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sail_Forth"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/sail-forth/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14145"
+opencritic_url: "https://opencritic.com/game/14145/-"
+opencritic_score: 77
+opencritic_review_count: 13
+twitch_id: ""
+twitch_url: ""
+playstation_id: "234318"
+playstation_url: "https://store.playstation.com/en-us/concept/234318"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account."
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Heave! Fake the bull rope and stay the mizzen royal! Command a fleet of custom-rigged sailing ships on a procedurally crafted adventure over an unending ocean whose ancient depths have swallowed the key to a planet’s mysterious past. The Deepblue calls with the bellow of High Adventure! Sail Forth!
+Sail a fleet of customizable ships across an ocean whose ancient depths have swallowed the key to the mysterious past. Befriend fishfolk to expand your boat crews, take up arms against petulant pirates, and chart a course across an expansive watery world.

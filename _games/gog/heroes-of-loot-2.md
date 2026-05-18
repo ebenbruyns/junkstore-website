@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/heroes-of-loot-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Orangepixel, HandyGames
@@ -19,10 +27,16 @@ developer: Orangepixel
 genre: Shooter, Arcade, Roguelike
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "February 23, 2015"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Controller support","Overlay","Single-player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"7808","name":"steam-trading-cards"},{"id":"45","name":"2D"},{"id":"40850","name":"Steam Leaderboards"},{"id":"122","name":"Pixel Graphics"},{"id":"98","name":"Loot"}]
+size: "69547322
+"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +69,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "1 hrs"
 hltb_main_extra: ""
@@ -66,8 +83,22 @@ store_url: "https://www.gog.com/en/game/heroes_of_loot_2"
 protondb_url: "https://www.protondb.com/app/439880"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Heroes_of_Loot_2"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/heroes-of-loot-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12711"
+opencritic_url: "https://opencritic.com/game/12711/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

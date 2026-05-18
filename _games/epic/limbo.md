@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/limbo/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.86
+protondb_total: 67
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Playdead
@@ -19,10 +27,15 @@ developer: Playdead
 genre: Puzzle, Platformer, Indie
 franchise: Limbo
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "July 18, 2019"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Italian","Japanese","Korean","Portuguese - Portugal","Spanish - Spain","Traditional Chinese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Turkish"]
+languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-29T15:00:00.000Z","end":"2025-06-05T15:00:00.000Z","type":null,"id":"49bdb24baa564f8c92848abe14112436"},{"start":"2019-07-16T15:00:00.000Z","end":"2019-07-24T15:00:00.000Z","type":null,"id":"49bdb24baa564f8c92848abe14112436"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.5 hrs"
 hltb_main_extra: "4 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/limbo"
 protondb_url: "https://www.protondb.com/app/48000"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Limbo"
-metacritic_score: 88
-metacritic_url: "https://www.metacritic.com/game/pc/limbo?ftag=MCD-06-10aaa1f"
+metacritic_score: 90
+metacritic_url: "https://www.metacritic.com/game/limbo/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "19474"
+opencritic_url: "https://opencritic.com/game/19474/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9PNG83MDD6SH"
+xbox_url: "https://www.xbox.com/games/store/-/9PNG83MDD6SH"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Limbo is a black and white puzzle-platforming adventure. Players take the role of a young boy traveling through an eerie and treacherous world in an attempt to discover the fate of his sister.
+Limbo is an award-winning indie adventure, critically acclaimed for its captivating puzzle design and immersive sound and visuals. Its dark, misty spaces and haunting narrative will stay with you forever.

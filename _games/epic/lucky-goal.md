@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/lucky-goal/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.21
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: LuckyVerse
@@ -19,10 +27,15 @@ developer: Woondas
 genre: Sports, Indie
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "October 4, 2023"
 game_modes: ["Single-player","Multi-player","Co-op"]
-languages: ["English*","Czech*","Slovak*","French*","German*","Spanish - Spain*","Portuguese - Brazil*","Portuguese - Portugal*","Spanish - Latin America*","Russian*"]
+languages: ["English","Czech","Slovak","French","German","Spanish - Spain","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America","Russian","Traditional Chinese","Simplified Chinese"]
+languages_audio: ["English","Czech","Slovak","French","German","Spanish - Spain","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America","Russian","Traditional Chinese","Simplified Chinese"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1264","name":"Co-op"},{"id":"1283","name":"Sports"},{"id":"1299","name":"Competitive"},{"id":"19847","name":"Achievements"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/lucky-goal/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

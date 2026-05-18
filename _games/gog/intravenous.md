@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/intravenous/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.8
+protondb_total: 15
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: HypeTrain Digital, Roman Glebenkov
@@ -19,10 +27,15 @@ developer: Roman Glebenkov, Explosive Squat Games
 genre: Indie, Shooter, Tactical
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"16","descriptors":"Drogas ilícitas, Violência, Linguagem imprópria"}}
 release_date: "July 26, 2021"
-game_modes: ["Single player"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
 languages: ["English","Russian","Spanish - Spain","German","Turkish","Spanish - Latin America","Portuguese - Brazil","Korean"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"45","name":"2D"},{"id":"30","name":"FPS"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"15","name":"Stealth"},{"id":"122","name":"Pixel Graphics"},{"id":"80","name":"Tactical"},{"id":"1465","name":"combat"},{"id":"144","name":"Crime"},{"id":"61","name":"Top-Down"},{"id":"406","name":"Story"},{"id":"278","name":"Assassin"},{"id":"744","name":"friends"},{"id":"236","name":"Top-Down Shooter"},{"id":"289","name":"Noir"},{"id":"3109","name":"weapons"},{"id":"2590","name":"fun"},{"id":"1079","name":"environment"},{"id":"2906","name":"police"},{"id":"1753","name":"guns"},{"id":"892","name":"love"},{"id":"3117","name":"shoot"},{"id":"712","name":"school"},{"id":"1303","name":"Shadows"},{"id":"3076","name":"rush"}]
+size: "660 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7 hrs"
 hltb_main_extra: "8.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Intravenous"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/intravenous/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11860"
+opencritic_url: "https://opencritic.com/game/11860/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

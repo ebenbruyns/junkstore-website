@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/shadows-awakening/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.53
+protondb_total: 40
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Kalypso Media Digital
 developer: Games Farm
 genre: "Role-playing (RPG), Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Mild Language, Sexual Themes, Use of Alcohol, Violence, May contain content inappropriate for children., Visit esrb.org for rating information."},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Fantasy themes, Violence"},"dejus":{"rating":"14","descriptors":"Violência, Conteúdo sexual, Drogas lícitas"}}
 release_date: "August 30, 2018"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Russian","Spanish - Spain","Simplified Chinese"]
+languages_audio: ["English","German"]
 tags_structured: []
+size: "8253 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "21.5 hrs"
 hltb_main_extra: "29.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/shadows_awakening"
 protondb_url: "https://www.protondb.com/app/585450"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shadows:_Awakening"
-metacritic_score: 77
-metacritic_url: "https://www.metacritic.com/game/pc/shadows-awakening?ftag=MCD-06-10aaa1f"
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/shadows-awakening/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "6531"
+opencritic_url: "https://opencritic.com/game/6531/-"
+opencritic_score: 74
+opencritic_review_count: 44
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

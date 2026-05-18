@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/dnf-duel/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.73
+protondb_total: 28
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Nexon
 developer: NEOPLE Inc., Arc System Works, EIGHTING Co., Ltd.,
 genre: Fighting
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 12 (USK) · M (OFLC)
+age_ratings: {"usk":{"rating":"12","descriptors":"Freigegeben ab 12 (zwölf) Jahren gemäß § 14 JuSchG"},"oflc":{"rating":"M","descriptors":"Fantasy themes and violence, online interactivity"},"kgrb":{"rating":"12","descriptors":"제명 : 던전앤파이터 듀얼(DNF DUEL), 이용등급 : 12세이용가, 내용정보표지사항 : 폭력성, 약물, 등급분류일자 : 2021.11.26, 등급분류번호 : GC-CC-NP-211126-006, 게임제작업자신고번호 : 성남시청 제2013-000044호, 대상 등급 기관 : GCRB 게임콘텐츠등급분류위원회"},"csrr":{"rating":"C12","descriptors":"遊戲情節：暴力,恐怖"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "December 18, 2023"
 game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
+languages: ["English","Japanese","Korean","Simplified Chinese","German","Spanish - Spain","Traditional Chinese"]
+languages_audio: ["Japanese","Korean","Simplified Chinese"]
 tags_structured: [{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-08-08T15:00:00.000Z","end":"2024-08-15T15:00:00.000Z","type":null,"id":"9f314276c254423bb9b145480b5b150b"},{"start":"2023-12-19T15:00:00.000Z","end":"2023-12-20T15:00:00.000Z","type":null,"id":"9f314276c254423bb9b145480b5b150b"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1.5 hrs"
 hltb_main_extra: "14.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/dnf-duel-07d055"
 protondb_url: "https://www.protondb.com/app/1216060"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/DNF_Duel"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/dnf-duel-whos-next/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13289"
+opencritic_url: "https://opencritic.com/game/13289/-"
+opencritic_score: 79
+opencritic_review_count: 56
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002854"
+playstation_url: "https://store.playstation.com/en-us/concept/10002854"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,8 +111,4 @@ is_featured: false
 owned: true
 ---
 
-DNF Duel is a 2D fighting game using Dungeon Fighter Online's characters/classes as fighters. Dungeon Fighter Online currently has 16 base characters with over 60 total classes, though there is some overlap between the male and female variations.
-It was revealed at the 2020 Dungeon&Fighter Universe Festival in Korea.
-It is being developed by Neople, Arc System Works and Eighting.
-
-A date was not announced but It is planned to be a multi-platform release
+Action fighting at its extreme! One of the most popular and widely played RPGs in the world, Dungeon and Fighter is now back as a 2.5D action fighting game. Choose from 16 charming characters, each with their distinct skills and personalities.

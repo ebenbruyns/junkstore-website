@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/rogue-company/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.39
+protondb_total: 113
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Hi-Rez Studios
@@ -19,10 +27,15 @@ developer: Hi-Rez Studios
 genre: Action, Shooter
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Conteúdo sexual"}}
 release_date: "September 30, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English*","French","German","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America*languages with full audio support"]
+languages: ["English","French","German","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"1164","name":"TEAM-BASED"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1234","name":"PVP"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"1141","name":"Free to Play"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: true
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11.3 hrs"
 hltb_main_extra: "26.2 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rogue_Company"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/rogue-company?ftag=MCD-06-10aaa1f"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9865"
+opencritic_url: "https://opencritic.com/game/9865/-"
+opencritic_score: 75
+opencritic_review_count: 17
+twitch_id: ""
+twitch_url: ""
+playstation_id: "235037"
+playstation_url: "https://store.playstation.com/en-us/concept/235037"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box! May need to adjust scaling in the games setting menu."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Gear up and drop in to Rogue Company, the third-person tactical action shooter that puts the fate of the world in your hands. Defeat the enemy team in objective and action based game modes featuring exotic locales, thrilling gun-play, and explosions…lots of explosions. Save the day. Look Good. Get Paid.
+The world needs saving and only the best of the best can do it. Suit up as one of the elite agents of Rogue Company and go to war in a variety of different game modes.  Gear up and go Rogue! Download and play FREE now!

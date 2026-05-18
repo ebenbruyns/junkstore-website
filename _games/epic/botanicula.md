@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/botanicula/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.83
+protondb_total: 30
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Amanita Design
 developer: Amanita Design
 genre: Puzzle, Adventure, Indie
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: 7 (PEGI)
+age_ratings: {"pegi":{"rating":"7"},"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "March 25, 2025"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","German","French","Italian","Spanish - Spain","Russian","Japanese","Polish","Czech","Simplified Chinese"]
+languages_audio: ["English","German","French","Italian","Spanish - Spain","Russian","Japanese","Polish","Czech","Simplified Chinese"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
+size: "543 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.4 hrs"
 hltb_main_extra: "3.8 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/207690"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Botanicula"
 metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/botanicula?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/botanicula/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Humor-filled indie adventure game created by the makers of Machinarium.
-
-Like the previous games from Amanita Design, in Botanicula the player controls a protagonist (or multiple protagonists) while exploring the environment, solving puzzles and collecting items that are required for the obstacles that come in their way. The player is able to interact with other creatures and find easter eggs that are present in the lush environment. Like Machinarium, the game has no spoken or written dialogue.
+Five friends, little tree creatures, set out on a journey to save the last seed from their home tree which is infested by evil parasites.

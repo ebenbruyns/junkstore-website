@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/unrailed/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.51
+protondb_total: 62
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Daedalic Entertainment
 developer: Indoor Astronaut
 genre: Action, Indie, Party
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: 0 (USK)
+age_ratings: {"usk":{"rating":"0","descriptors":"Freigegeben ohne Altersbeschränkung"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "April 25, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","German","Simplified Chinese","Korean","Portuguese - Brazil","Russian","Traditional Chinese","Italian","Spanish - Spain","Japanese","Polish","Turkish","Spanish - Latin America","Czech"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-08-03T15:00:00.000Z","end":"2022-08-10T15:00:00.000Z","type":null,"id":"38ad328025584a26bab9ca92c5f5b842"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1016920"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Unrailed!"
 metacritic_score: 77
-metacritic_url: "https://www.metacritic.com/game/pc/unrailed!?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/unrailed/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9483"
+opencritic_url: "https://opencritic.com/game/9483/-"
+opencritic_score: 75
+opencritic_review_count: 18
+twitch_id: "512058"
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Unrailed! is all about getting an unstoppable train safely to the station through a variety of procedurally generated maps, both weird and wonderful in online multiplayer, local multiplayer or versus mode.
+Unrailed! is a co-op multiplayer game where you have to work together with your friends to build a train track across endless procedurally generated worlds. Master random encounters with its inhabitants, upgrade your train and keep it from derailing!

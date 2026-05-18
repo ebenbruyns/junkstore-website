@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/broken-sword-shadow-of-the-templars-the-directors-cut/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.57
+protondb_total: 8
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Kalypso Media, Ubisoft, Revolution Software
 developer: Revolution Software
 genre: Adventure, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"bbfc":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Drogas lícitas, Conteúdo sexual, Linguagem imprópria"}}
 release_date: "March 19, 2009"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","German","Spanish - Spain","Italian"]
+languages_audio: ["English","French","German","Spanish - Spain","Italian"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"149","name":"Third Person"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"74","name":"Retro"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"243","name":"1990's"},{"id":"258","name":"Hand-drawn"},{"id":"291","name":"Conspiracy"}]
+size: "1180 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: "10.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Broken_Sword:_Shadow_of_the_Templars:_Director%27s_Cut"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/broken-sword-shadow-of-the-templars/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

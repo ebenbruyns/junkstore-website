@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/auto-chess/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.3
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Dragonest Games
@@ -19,10 +27,15 @@ developer: Dragonest Games
 genre: Strategy
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "August 23, 2019"
 game_modes: ["Multiplayer"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Russian","Japanese","Thai","Simplified Chinese*","Traditional Chinese"]
+languages: ["English","French","Italian","German","Spanish - Spain","Russian","Japanese","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America","Vietnamese","Korean"]
+languages_audio: ["English","Simplified Chinese"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1141","name":"Free to Play"},{"id":"21141","name":"Extremely Fun"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "18.1 hrs"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Auto_Chess"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/auto-chess/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: 
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Auto Chess is the original auto battler game that had a significant worldwide influence with its brand new gameplay mode and strategic competitive features. It has also attracted tens of millions of players around the globe. Each player can play against others through the internet and enjoy a brand new strategy competitive experience.
+Auto Chess is a multiplayer online strategy game co-developed by Dragonest Game Co.Ltd and Drodo Studio and published by Dragonest Game Co.Ltd.

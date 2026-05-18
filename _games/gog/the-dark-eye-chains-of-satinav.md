@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-dark-eye-chains-of-satinav/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.66
+protondb_total: 17
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Daedalic Entertainment, Deep Silver, Merge Games
 developer: Daedalic Entertainment
 genre: Role-playing (RPG), Adventure, Indie, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: 16 (PEGI) · 12 (USK)
+age_ratings: {"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"}}
 release_date: "June 22, 2012"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Italian","Russian","Polish","Spanish - Spain"]
+languages_audio: ["English","German"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"64","name":"Fantasy"},{"id":"141","name":"Point & Click"},{"id":"40","name":"Dark Fantasy"}]
+size: "2532 MB"
+franchise_siblings: [{"rawg_id":16711,"slug":"blackguards-2","name":"Blackguards 2"},{"rawg_id":12166,"slug":"blackguards","name":"Blackguards"},{"rawg_id":16253,"slug":"memoria","name":"Memoria"}]
+franchise_slug: "blackguards|blackguards-2|memoria|the-dark-eye-chains-of-satinav"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "9.5 hrs"
 hltb_main_extra: "12 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/203830"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Dark_Eye%3A_Chains_of_Satinav"
 metacritic_score: 75
-metacritic_url: "https://www.metacritic.com/game/pc/the-dark-eye-chains-of-satinav?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/the-dark-eye-chains-of-satinav/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10888"
+opencritic_url: "https://opencritic.com/game/10888/-"
+opencritic_score: 74
+opencritic_review_count: 8
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

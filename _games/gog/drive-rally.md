@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/drive-rally/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.53
+protondb_total: 10
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Pixel Perfect Dude
@@ -19,10 +27,15 @@ developer: Pixel Perfect Dude
 genre: indie, sport, arcade, racing
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "April 1, 2025"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Czech","Hungarian","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Turkish","Ukrainian"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"4","name":"Funny"},{"id":"40850","name":"Steam Leaderboards"},{"id":"115","name":"Controller"},{"id":"14","name":"Early Access"},{"id":"11669","name":"stats"},{"id":"74","name":"Retro"},{"id":"121","name":"Character Customization"},{"id":"114","name":"Physics"},{"id":"130","name":"Driving"},{"id":"243","name":"1990's"},{"id":"166","name":"Stylized"},{"id":"91686","name":"Family Sharing"},{"id":"744","name":"friends"},{"id":"224","name":"1980s"},{"id":"273","name":"Parody"},{"id":"1221","name":"history"},{"id":"2232","name":"journey"},{"id":"132","name":"Offroad"},{"id":"1632","name":"cars"},{"id":"3758","name":"speed"},{"id":"1497","name":"car"},{"id":"3728","name":"memory"},{"id":"49951","name":"Automobile Sim"},{"id":"2483","name":"nostalgia"},{"id":"604","name":"simple"},{"id":"15128","name":"community"},{"id":"3278","name":"rally"},{"id":"5479","name":"drive"},{"id":"1412","name":"design"}]
+size: "1351 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: "12 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Drive_Rally"
 metacritic_score: 63
 metacritic_url: "https://www.metacritic.com/game/drive-rally/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17343"
+opencritic_url: "https://opencritic.com/game/17343/-"
+opencritic_score: 65
+opencritic_review_count: 18
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10015922"
+playstation_url: "https://store.playstation.com/en-us/concept/10015922"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

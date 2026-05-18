@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/crime-boss-rockay-city/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.6
+protondb_total: 43
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: 505 Games
@@ -19,10 +27,15 @@ developer: INGAME STUDIOS
 genre: Action, First Person, Shooter, Rogue-Lite
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Drogas ilícitas, Conteúdo sexual"}}
 release_date: "March 28, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11.7 hrs"
 hltb_main_extra: "19.1 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Crime_Boss:_Rockay_City"
 metacritic_score: 52
 metacritic_url: "https://www.metacritic.com/game/crime-boss-rockay-city/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16983"
+opencritic_url: "https://opencritic.com/game/16983/-"
+opencritic_score: 53
+opencritic_review_count: 3
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004424"
+playstation_url: "https://store.playstation.com/en-us/concept/10004424"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. You need to install Microsoft C++ runtime & accept a EULA"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Crime Boss: Rockay City is an organized crime game combining first-person shooter action and turf wars, playable solo or with friends. Take on the role of Travis Baker – a man with his sights set on becoming the new King of Rockay City, one crime at a time…
+Crime Boss: Rockay City is a 1-4 player co-op FPS heist game with enjoyable stealth and epic killing spree combat. Featuring a solo roguelike campaign that combines FPS and strategy elements with the most hilariously cheesy voice acting that make you laugh. 

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/new-tales-from-the-borderlands/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.61
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: 2K
 developer: Gearbox Software
 genre: Action, Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Sexual Themes, Partial Nudity, Strong Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong violence, online interactivity"},"nzoflc":{"rating":"r13","descriptors":"Bloody violence, sexual references and offensive language"},"kgrb":{"rating":"18"},"fpb":{"rating":"16"},"csrr":{"rating":"R","descriptors":"Sex, Violence, Tobacco &amp; Alcohol, Inappropriate Speech"},"mda":{"rating":"M18","descriptors":"Strong Violence and Gore"},"dejus":{"rating":"18","descriptors":"Conteúdo Sexual, Drogas, Violência extrema"}}
 release_date: "October 21, 2022"
 game_modes: ["Single-player"]
-languages: ["English*","French*","Italian","German","Spanish - Spain","Portuguese - Brazil*languages with full audio support"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil"]
+languages_audio: ["English","French"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+size: "28.3 GB"
+franchise_siblings: [{"rawg_id":692541,"slug":"tiny-tinas-assault-on-dragon-keep-a-wonderlands-on","name":"Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure"},{"rawg_id":58617,"slug":"borderlands-3","name":"Borderlands 3"},{"rawg_id":2100,"slug":"tales-from-the-borderlands","name":"Tales from the Borderlands: A Telltale Game Series"},{"rawg_id":3543,"slug":"borderlands-the-pre-sequel","name":"Borderlands: The Pre-Sequel"},{"rawg_id":330906,"slug":"borderlands-legends","name":"Borderlands Legends"},{"rawg_id":802,"slug":"borderlands-2","name":"Borderlands 2"},{"rawg_id":4828,"slug":"borderlands","name":"Borderlands"}]
+franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|borderlands-the-pre-sequel|new-tales-from-the-borderlands|tales-from-the-borderlands|tiny-tinas-assault-on-dragon-k"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9.5 hrs"
 hltb_main_extra: "11 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/new-tales-from-the-borderlands"
 protondb_url: "https://www.protondb.com/app/1454970"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/New_Tales_from_the_Borderlands"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/new-tales-from-the-borderlands/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13753"
+opencritic_url: "https://opencritic.com/game/13753/-"
+opencritic_score: 67
+opencritic_review_count: 83
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002770"
+playstation_url: "https://store.playstation.com/en-us/concept/10002770"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

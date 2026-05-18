@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/coromon/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.73
+protondb_total: 55
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: indie.io
@@ -19,10 +27,15 @@ developer: TRAGsoft
 genre: Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie, Puzzle, Fighting
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Atos criminosos"}}
 release_date: "December 21, 2020"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Controller support","Multi-player","Overlay","Single-player"]
+languages: ["English","French","German","Portuguese - Brazil","Spanish - Spain","Italian","Russian","Japanese","Korean","Simplified Chinese","Arabic","Indonesian","Spanish - Latin America","Traditional Chinese","Turkish","Vietnamese","Dutch","Thai"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"122","name":"Pixel Graphics"},{"id":"134","name":"Anime"},{"id":"121","name":"Character Customization"},{"id":"102","name":"Turn-Based"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"233","name":"JRPG"},{"id":"581","name":"Epic"}]
+size: "889 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "24.5 hrs"
 hltb_main_extra: "33 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Coromon"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/coromon?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

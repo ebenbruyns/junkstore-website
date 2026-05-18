@@ -7,22 +7,35 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/sundered/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 8
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Thunder Lotus
 developer: Thunder Lotus
 genre: Adventure, Indie, Platform
 franchise: 
-age_rating_summary: 
+age_rating_summary: 12 (PEGI) · 12 (USK)
+age_ratings: {"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B","descriptors":"暴力"},"oflc":{"rating":"M","descriptors":"Violence, Horror Themes"},"kgrb":{"rating":"12","descriptors":"폭력성"},"csrr":{"rating":"C12","descriptors":"暴力"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "July 28, 2017"
 game_modes: ["Single player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Japanese"]
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Japanese","Korean","Traditional Chinese"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"336","name":"controller support"},{"id":"113","name":"Side Scroller"},{"id":"639","name":"Roguelike"},{"id":"259","name":"Metroidvania"},{"id":"258","name":"Hand-drawn"},{"id":"47","name":"Lovecraftian"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "12 Hours"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sundered"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/sundered/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7045"
+opencritic_url: "https://opencritic.com/game/7045/-"
+opencritic_score: 81
+opencritic_review_count: 16
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

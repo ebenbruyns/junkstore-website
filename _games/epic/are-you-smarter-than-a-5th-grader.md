@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/are-you-smarter-than-a-5th-grader/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: HandyGames
 developer: Massive Miniteam
 genre: Casual, Trivia
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: E (ESRB) · 3 (PEGI)
+age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3","descriptors":"In-Game Purchases"},"oflc":{"rating":"G","descriptors":"General, in-game purchases"},"dejus":{"rating":"L"}}
 release_date: "August 23, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1318","name":"Trivia"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"}]
+size: "1678 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "52 mins"
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: "https://howlongtobeat.com/game/118851"
+hltb_url: "https://howlongtobeat.com/game/162268"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/are-you-smarter-than-a-5th-grader-bc328a"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Are_You_Smarter_Than_a_5th_Grader%3F_%282022%29"
 metacritic_score: 58
 metacritic_url: "https://www.metacritic.com/game/are-you-smarter-than-a-5th-grader/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13574"
+opencritic_url: "https://opencritic.com/game/13574/-"
+opencritic_score: 61
+opencritic_review_count: 12
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002864"
+playstation_url: "https://store.playstation.com/en-us/concept/10002864"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. \nNeeds Microsoft C++ Runtime (installed automatically in Junk Store Pro)."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-The Are You Smarter Than A 5th Grader? Plug-and-Play game is is based off the game show of the same name. It was released in 2006 by Jakks Pacific.
+Based on the popular TV franchise, this charming couch co-op quiz game for 1-8 players will have you face more than 6800 fully English-voiced questions. Prove how much you still know from school and that you are, in fact, smarter than a 5th grader.

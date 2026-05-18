@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/cat-quest-ii/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 29
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: PQube, Flyhigh Works, Kepler Interactive, The Gentlebros
@@ -19,10 +27,15 @@ developer: The Gentlebros
 genre: Role-playing (RPG), Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "September 19, 2019"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Dutch","Korean","Thai","Traditional Chinese","Turkish","Spanish - Latin America"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "202 MB"
+franchise_siblings: [{"rawg_id":986898,"slug":"cat-quest-iii","name":"Cat Quest III"},{"rawg_id":44265,"slug":"cat-quest","name":"Cat Quest"}]
+franchise_slug: "cat-quest|cat-quest-ii|cat-quest-iii"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "9.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/914710"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cat_Quest_II"
 metacritic_score: 76
-metacritic_url: "https://www.metacritic.com/game/pc/cat-quest-ii-the-lupus-empire?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/cat-quest-ii-the-lupus-empire/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8317"
+opencritic_url: "https://opencritic.com/game/8317/-"
+opencritic_score: 75
+opencritic_review_count: 46
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Cat Quest II, a fantasy action-adventure RPG, returns to the world of Felingard to expand on the original with more explosive spells, expanded weapon options, an exciting new character switch mechanic, and local co-op! Play as both a cat and dog as you explore their kingdoms solo or with a friend! Quest in a world filled with magic, curious monsters, and go on a catventure like never before!
+Open-world action-RPG in a fantasy realm of cats and dogs. CAT QUEST II lets you play solo or with a friend, as both a cat and dog! Quest in a world filled with magic, defeat monsters and collect loot in a catventure like never before!

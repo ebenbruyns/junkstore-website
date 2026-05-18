@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/haven-park/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.57
+protondb_total: 7
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Mooneye Studios, Fabien Weibel, Bubblebird Studio
 developer: Fabien Weibel, Bubblebird Studio
 genre: Role-playing (RPG), Adventure, Indie, Platform, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: 3 (PEGI) · 0 (USK)
+age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"0"},"kgrb":{"rating":"ALL"},"dejus":{"rating":"L"}}
 release_date: "August 4, 2021"
-game_modes: ["Single player"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: []
 tags_structured: []
+size: "205 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "3.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Haven_Park"
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/haven-park/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11792"
+opencritic_url: "https://opencritic.com/game/11792/-"
+opencritic_score: 67
+opencritic_review_count: 10
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

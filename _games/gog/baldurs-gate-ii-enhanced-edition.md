@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/baldurs-gate-ii-enhanced-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.25
+protondb_total: 8
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Atari, Beamdog
 developer: Overhaul Games
 genre: Role-playing (RPG), Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: 7 (PEGI)
+age_ratings: {"pegi":{"rating":"7","descriptors":"Fear"},"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "November 15, 2013"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Cloud saves","Co-op","Multi-player","Overlay","Single-player"]
+languages: ["English","German"]
+languages_audio: ["English","German"]
 tags_structured: []
+size: "3.13 GB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "46 hrs"
 hltb_main_extra: "80.5 hrs"
 hltb_completionist: "151 hrs"
-hltb_url: "https://howlongtobeat.com/game/809"
+hltb_url: "https://howlongtobeat.com/game/849"
 
 # Links
 store_url: "https://www.gog.com/en/game/baldurs_gate_2_enhanced_edition"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill%3A_Curse_of_the_Ancient_Circle"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/baldurs-gate-ii-enhanced-edition?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Requires manual controller/key mapping. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**."

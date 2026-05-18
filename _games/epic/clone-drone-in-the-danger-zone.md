@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/clone-drone-in-the-danger-zone/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.61
+protondb_total: 35
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Doborog Games
@@ -19,10 +27,15 @@ developer: Doborog Games
 genre: Action, Fighting, Indie
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência, Medo"}}
 release_date: "March 26, 2026"
 game_modes: ["Single-player","Multi-player","Co-op"]
-languages: ["English*","French*","Italian","German*","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Japanese*"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Japanese","Korean","Traditional Chinese"]
+languages_audio: ["English","French","German","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"33639","name":"Promotional Content"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-04-02T15:00:00.000Z","end":"2026-04-09T15:00:00.000Z","type":null,"id":"c6479f31043943d0b1710cc5983f53c6"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2.1 hrs"
 hltb_main_extra: "15.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Clone_Drone_in_the_Danger_Z
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/clone-drone-in-the-danger-zone?ftag=MCD-06-10aaa1f"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12439"
+opencritic_url: "https://opencritic.com/game/12439/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9NKHKBQJSSC3"
+xbox_url: "https://www.xbox.com/games/store/-/9NKHKBQJSSC3"
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Clone Drone in the Danger Zone is a third person sword fighter where any part of your body can be sliced off. With your mind downloaded into a robot gladiator, you must survive the sinister trials of the arena.
+Clone Drone in the Danger Zone is a robot voxel slice-em-up where any part of your body can be sliced off. With your mind downloaded into a robot gladiator, you must survive the sinister trials of the arena.

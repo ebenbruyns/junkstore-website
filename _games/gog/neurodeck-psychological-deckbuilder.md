@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/neurodeck-psychological-deckbuilder/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Goblinz Publishing
@@ -19,10 +27,15 @@ developer: TavroxGames
 genre: Indie, RPG, Strategy
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência, Medo"}}
 release_date: "March 18, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Cloud saves","Overlay","Single-player"]
 languages: ["English","French","German","Japanese","Russian","Simplified Chinese","Korean","Traditional Chinese"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"11669","name":"stats"},{"id":"41","name":"Dark"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"5","name":"Replay Value"},{"id":"639","name":"Roguelike"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"196","name":"Procedural Generation"},{"id":"175","name":"Turn-Based Combat"},{"id":"808","name":"character"},{"id":"127","name":"Card Game"},{"id":"285","name":"Psychological"},{"id":"47","name":"Lovecraftian"},{"id":"624","name":"Monsters"},{"id":"740","name":"demo"},{"id":"4934","name":"health"}]
+size: "245 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "1.5 hrs"
 hltb_main_extra: "7 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/neurodeck_psychological_deckbuilder"
 protondb_url: "https://www.protondb.com/app/1253860"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Neurodeck"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 63
+metacritic_url: "https://www.metacritic.com/game/neurodeck-psychological-deckbuilder/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11093"
+opencritic_url: "https://opencritic.com/game/11093/-"
+opencritic_score: 65
+opencritic_review_count: 11
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

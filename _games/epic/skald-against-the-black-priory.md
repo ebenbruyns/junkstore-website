@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/skald-against-the-black-priory/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.62
+protondb_total: 11
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Raw Fury
@@ -19,10 +27,15 @@ developer: High North Studios AS
 genre: Indie, RPG
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Medo"}}
 release_date: "November 4, 2025"
 game_modes: ["Single-player"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "366 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-28T16:00:00.000Z","end":"2025-12-29T16:00:00.000Z","type":null,"id":"ad8e81ea170542c5a802c2337878712d"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "17 Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Skald:_Against_the_Black_Pr
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/skald-against-the-black-priory/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16794"
+opencritic_url: "https://opencritic.com/game/16794/-"
+opencritic_score: 75
+opencritic_review_count: 9
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box! Decky plugin - may need to adjust the scaling."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-SKALD:Against the Black Priory is a retro-style party-based RPG set in a grim-dark fantasy world of tragic heroes, violent deaths and Lovecraftian horror. Take a chance and roll the dice as you embark on a compelling story filled with deadly creatures, branching story and tactical, turn-based combat
+SKALD is a retro-style party-based RPG set in a grim-dark fantasy world of tragic heroes, violent deaths and Lovecraftian horror. Take a chance and roll the dice as you embark on a compelling story filled with deadly creatures, branching story and tactical, turn-based combat

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/metro-last-light-redux/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.87
+protondb_total: 81
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Deep Silver, Koch Media
 developer: 4A Games
 genre: Action, Shooter, First Person
 franchise: 
-age_rating_summary: 
+age_rating_summary: 18 (PEGI) · 18 (USK)
+age_ratings: {"pegi":{"rating":"18"},"usk":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Violência, Temas sensíveis, Drogas ilícitas"}}
 release_date: "August 14, 2019"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Czech","Dutch","Polish","Russian","Ukrainian"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"}]
+size: "8695 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "9.5 hrs"
 hltb_main_extra: "13.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/metro-last-light-redux"
 protondb_url: "https://www.protondb.com/app/287390"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Metro:_Last_Light_Redux"
-metacritic_score: 76
-metacritic_url: "https://www.metacritic.com/game/pc/metro-last-light-redux?ftag=MCD-06-10aaa1f"
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/metro-last-light/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "956"
+opencritic_url: "https://opencritic.com/game/956/-"
+opencritic_score: 79
+opencritic_review_count: 9
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

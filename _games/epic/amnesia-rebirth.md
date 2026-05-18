@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/amnesia-rebirth/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.85
+protondb_total: 29
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Frictional Games
@@ -19,10 +27,15 @@ developer: Frictional Games
 genre: Horror, Stealth, Adventure
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Violência Extrema, Medo, Linguagem imprópria, Nudez"}}
 release_date: "January 1, 2099"
 game_modes: ["Single Player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"}]
+size: ""
+franchise_siblings: [{"rawg_id":911543,"slug":"amnesia-the-bunker","name":"Amnesia: The Bunker"},{"rawg_id":13268,"slug":"amnesia-a-machine-for-pigs","name":"Amnesia: A Machine for Pigs"},{"rawg_id":13668,"slug":"amnesia-the-dark-descent","name":"Amnesia: The Dark Descent"}]
+franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|amnesia-the-dark-descent"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "8.7 hrs"
 hltb_main_extra: "10.7 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/999220"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia%3A_Rebirth"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/amnesia-rebirth?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/amnesia-rebirth/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10381"
+opencritic_url: "https://opencritic.com/game/10381/-"
+opencritic_score: 78
+opencritic_review_count: 92
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

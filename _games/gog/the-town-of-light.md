@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-town-of-light/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.78
+protondb_total: 22
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Wired Productions, LKA
 developer: LKA
 genre: Adventure, Indie
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Language, Nudity, Strong Sexual Content"},"pegi":{"rating":"18"},"usk":{"rating":"16"},"oflc":{"rating":"r18"},"nzoflc":{"rating":"r16"},"dejus":{"rating":"18"}}
 release_date: "February 26, 2016"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Greek","Portuguese - Brazil","Ukrainian","Spanish - Spain","Simplified Chinese","Traditional Chinese","Japanese"]
+languages_audio: ["English","Italian","German","Japanese"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"44","name":"Nudity"},{"id":"117","name":"Mystery"},{"id":"89","name":"Historical"},{"id":"33","name":"VR"},{"id":"91","name":"Walking Simulator"},{"id":"50","name":"Sexual Content"},{"id":"209","name":"Drama"},{"id":"200","name":"Narration"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"285","name":"Psychological"},{"id":"309","name":"Dynamic Narration"}]
+size: "3787 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "4 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/the_town_of_light"
 protondb_url: "https://www.protondb.com/app/433100"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Town_of_Light"
-metacritic_score: 64
-metacritic_url: "https://www.metacritic.com/game/pc/the-town-of-light?ftag=MCD-06-10aaa1f"
+metacritic_score: 67
+metacritic_url: "https://www.metacritic.com/game/the-town-of-light/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1761"
+opencritic_url: "https://opencritic.com/game/1761/-"
+opencritic_score: 63
+opencritic_review_count: 58
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

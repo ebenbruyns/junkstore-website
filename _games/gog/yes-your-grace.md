@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/yes-your-grace/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.78
+protondb_total: 22
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: No More Robots
 developer: Brave At Night
 genre: Role-playing (RPG), Adventure, Strategy, Simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: 12 (PEGI)
+age_ratings: {"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"dejus":{"rating":"12","descriptors":"Drogas ilícitas, Violência fantasiosa"}}
 release_date: "March 6, 2020"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Overlay","Single-player"]
+languages: ["English","Simplified Chinese","French","German","Russian","Polish","Japanese","Italian","Spanish - Spain","Portuguese - Brazil"]
+languages_audio: ["English","Simplified Chinese","French","German","Russian","Polish","Japanese","Italian","Spanish - Spain","Portuguese - Brazil"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"468","name":"role-playing"},{"id":"141","name":"Point & Click"},{"id":"70","name":"War"},{"id":"89","name":"Historical"},{"id":"639","name":"Roguelike"},{"id":"66","name":"Medieval"},{"id":"67","name":"Management"},{"id":"180","name":"Base Building"},{"id":"147","name":"Resource Management"},{"id":"208","name":"Alternate History"},{"id":"287","name":"Political"},{"id":"272","name":"Inventory Management"}]
+size: "353 MB"
+franchise_siblings: [{"rawg_id":983706,"slug":"yes-your-grace-snowfall","name":"Yes, Your Grace: Snowfall"}]
+franchise_slug: "yes-your-grace|yes-your-grace-snowfall"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "8 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/yes_your_grace"
 protondb_url: "https://www.protondb.com/app/1115690"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Yes%2C_Your_Grace"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/yes-your-grace/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9107"
+opencritic_url: "https://opencritic.com/game/9107/-"
+opencritic_score: 74
+opencritic_review_count: 22
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

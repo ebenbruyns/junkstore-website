@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/lysfanga-the-time-shift-warrior/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.38
+protondb_total: 5
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Quantic Dream
@@ -19,10 +27,15 @@ developer: Sand Door Studio
 genre: Action, Strategy, Indie
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "February 13, 2024"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8.5 hrs"
 hltb_main_extra: "14 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lysfanga%3A_The_Time_Shift_Warrior"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/lysfanga-the-time-shift-warrior/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16219"
+opencritic_url: "https://opencritic.com/game/16219/-"
+opencritic_score: 76
+opencritic_review_count: 25
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "You need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."

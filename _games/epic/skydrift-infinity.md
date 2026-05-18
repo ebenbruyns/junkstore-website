@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/skydrift-infinity/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.3
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: HandyGames
 developer: Digital Reality
 genre: Racing
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "May 6, 2022"
 game_modes: ["Multiplayer","Split screen"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1299","name":"Competitive"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"}]
+size: "1119 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.5 hrs"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SkyDrift_Infinity"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/skydrift-infinity/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11739"
+opencritic_url: "https://opencritic.com/game/11739/-"
+opencritic_score: 76
+opencritic_review_count: 13
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "You need to verify this game with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."

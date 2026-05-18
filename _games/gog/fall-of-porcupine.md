@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fall-of-porcupine/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Assemble Entertainment
@@ -19,10 +27,15 @@ developer: Buntspecht Games, Critical Rabbit
 genre: Adventure, Indie, Platform, Puzzle
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Atos criminosos, Violência fantasiosa"}}
 release_date: "June 15, 2023"
 game_modes: ["Single player"]
 languages: ["English","German","French","Japanese","Korean","Simplified Chinese"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"115","name":"Controller"},{"id":"41","name":"Dark"},{"id":"88","name":"Cute"},{"id":"145","name":"Choices Matter"},{"id":"165","name":"Colorful"},{"id":"406","name":"Story"},{"id":"40937","name":"Steam Trading Cards"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"209","name":"Drama"},{"id":"258","name":"Hand-drawn"},{"id":"164","name":"Cartoony"},{"id":"200","name":"Narration"},{"id":"572","name":"Emotional"},{"id":"288","name":"Interactive Fiction"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"1709","name":"work"},{"id":"1484","name":"skill"},{"id":"1863","name":"challenge"},{"id":"342","name":"Conversation"},{"id":"3758","name":"speed"},{"id":"8234","name":"fall"},{"id":"2006","name":"castle"},{"id":"688","name":"relationship"},{"id":"1303","name":"Shadows"},{"id":"1699","name":"town"},{"id":"1580","name":"hospital"},{"id":"6829","name":"clock"},{"id":"1981","name":"beer"},{"id":"2360","name":"stress"},{"id":"3420","name":"doctor"}]
+size: "1141 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "11 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fall_of_Porcupine"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/fall-of-porcupine?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15086"
+opencritic_url: "https://opencritic.com/game/15086/-"
+opencritic_score: 68
+opencritic_review_count: 28
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004481"
+playstation_url: "https://store.playstation.com/en-us/concept/10004481"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

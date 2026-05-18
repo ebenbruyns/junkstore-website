@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/zombie-army-4-dead-war/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.67
+protondb_total: 34
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Rebellion Developments
@@ -19,10 +27,15 @@ developer: Rebellion Developments
 genre: Action, Horror, Shooter
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema"}}
 release_date: "February 4, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1279","name":"Vampire"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":3416,"slug":"zombie-army-trilogy","name":"Zombie Army Trilogy"},{"rawg_id":16454,"slug":"sniper-elite-nazi-zombie-army-2","name":"Sniper Elite: Nazi Zombie Army 2"},{"rawg_id":16453,"slug":"sniper-elite-nazi-zombie-army","name":"Sniper Elite: Nazi Zombie Army"}]
+franchise_slug: "sniper-elite-nazi-zombie-army|sniper-elite-nazi-zombie-army-|zombie-army-dead-war-4|zombie-army-trilogy"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11.5 hrs"
 hltb_main_extra: "18.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/zombie-army-4-dead-war"
 protondb_url: "https://www.protondb.com/app/694280"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Zombie_Army_4%3A_Dead_War"
-metacritic_score: 74
-metacritic_url: "https://www.metacritic.com/game/pc/zombie-army-4-dead-war?ftag=MCD-06-10aaa1f"
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/zombie-army-4-dead-war/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8540"
+opencritic_url: "https://opencritic.com/game/8540/-"
+opencritic_score: 75
+opencritic_review_count: 121
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9PLSCHRN5715"
+xbox_url: "https://www.xbox.com/games/store/-/9PLSCHRN5715"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Hitler's hordes are back for more in this spine-chilling shooter from the makers of Sniper Elite 4! Abominable occult enemies, epic weapons and a harrowing new campaign for 1-4 players await in 1940's Europe, as you fight to save humankind from undead armageddon.
+Hitler’s hordes are back for more in this spine-chilling shooter from the makers of Sniper Elite 4! Abominable occult enemies, epic weapons and a harrowing new campaign for 1-4 players await in 1940s Europe, as you fight to save humankind from undead Armageddon!

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/castlevania-anniversary-collection/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.49
+protondb_total: 36
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: KONAMI
 developer: KONAMI
 genre: Action, Retro, Platformer
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Fantasy Violence, Partial Nudity"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B"},"oflc":{"rating":"PG","descriptors":"Mild Fantasy Themes, Violence"},"kgrb":{"rating":"12","descriptors":"Violence"},"fpb":{"rating":"13"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "November 14, 2024"
 game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
+languages: ["English","Japanese"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1198","name":"Retro"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-11-14T16:00:00.000Z","end":"2024-11-21T16:00:00.000Z","type":null,"id":"8f80897c0b6e4e678fed08da169d44be"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/castlevania-anniversary-collecti
 protondb_url: "https://www.protondb.com/app/1018010"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Castlevania_Anniversary_Collection"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/castlevania-anniversary-collection/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7708"
+opencritic_url: "https://opencritic.com/game/7708/-"
+opencritic_score: 78
+opencritic_review_count: 40
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. You may want to adjust resolution/scaling."
@@ -82,5 +112,3 @@ owned: true
 ---
 
 Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.
-
-Released as part of the Konami 50th Anniversary celebration, relive these timeless classics that helped define the platformer genre. From the Belmont clan to their extended bloodlines and allies, the Castlevania Anniversary Collection is the best first step for anyone to take into the world of Castlevania and the fight against Dracula!

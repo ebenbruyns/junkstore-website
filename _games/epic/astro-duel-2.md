@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/astro-duel-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.57
+protondb_total: 5
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Wild Rooster
@@ -19,10 +27,15 @@ developer: Wild Rooster
 genre: Action, Party, Platformer
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "March 7, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1299","name":"Competitive"},{"id":"21109","name":"Great Boss Battles"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-03-06T15:00:00.000Z","end":"2024-03-13T15:00:00.000Z","type":null,"id":"bc38eac0277d41ec955690e25779cb53"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1.4 hrs"
 hltb_main_extra: "2.3 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Astro_Duel_II"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/astro-duel-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16410"
+opencritic_url: "https://opencritic.com/game/16410/-"
+opencritic_score: 72
+opencritic_review_count: 5
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

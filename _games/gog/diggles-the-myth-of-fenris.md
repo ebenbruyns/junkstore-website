@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/diggles-the-myth-of-fenris/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.32
+protondb_total: 12
+protondb_confidence: "moderate"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Innonics, CD Projekt
 developer: SEK
 genre: Adventure, Strategy, Real Time Strategy (RTS)
 franchise: 
-age_rating_summary: 
+age_rating_summary: 12 (USK)
+age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Drogas lícitas, Violência fantasiosa"}}
 release_date: "September 27, 2001"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
+languages: ["English","German","Polish","Russian"]
+languages_audio: ["English","German","Polish","Russian"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"123","name":"Comedy"},{"id":"121","name":"Character Customization"},{"id":"165","name":"Colorful"},{"id":"125","name":"Crafting"},{"id":"1465","name":"combat"},{"id":"39","name":"Building"},{"id":"82","name":"Magic"},{"id":"67","name":"Management"},{"id":"116","name":"2.5D"},{"id":"147","name":"Resource Management"},{"id":"195","name":"Economy"},{"id":"108","name":"Mythology"},{"id":"272","name":"Inventory Management"},{"id":"316","name":"Mining"},{"id":"49967","name":"Colony Sim"},{"id":"329","name":"Mystery Dungeon"}]
+size: "511 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: "32 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/diggles_the_myth_of_fenris"
 protondb_url: "https://www.protondb.com/app/1478650"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Diggles:_The_Myth_of_Fenris"
-metacritic_score: 
-metacritic_url: "https://www.metacritic.com/game/diggles-the-myth-of-fenris/"
+metacritic_score: 62
+metacritic_url: "https://www.metacritic.com/game/diggles/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

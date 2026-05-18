@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/rugrats-adventures-in-gameland/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: The MIX Games
@@ -19,10 +27,15 @@ developer: The MIX Games. Wallride
 genre: Action, Action-Adventure
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"6"}}
 release_date: "September 12, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-09-12T15:00:00.000Z","end":"2024-09-19T15:00:00.000Z","type":null,"id":"03fa35d7ade24540b5902b662570a270"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1.5 hrs"
 hltb_main_extra: "2 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rugrats%3A_Adventures_in_Ga
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/rugrats-adventures-in-gameland/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17211"
+opencritic_url: "https://opencritic.com/game/17211/-"
+opencritic_score: 61
+opencritic_review_count: 28
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10010759"
+playstation_url: "https://store.playstation.com/en-us/concept/10010759"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A baby-fresh take on retro-inspired gameplay, featuring a unique co-op design, where kids and parents need to stick together to win!
+When Tommy, Chuckie, Phil, and Lil see a Reptar video game commercial, they imagine their own game! Switch between 8-bit and HD art, pick your favorite baby, and play solo or co-op in Rugrats: Adventures in Gameland—a neo-retro platformer bursting with nostalgia

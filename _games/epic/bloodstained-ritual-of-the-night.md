@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/bloodstained-ritual-of-the-night/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.86
+protondb_total: 216
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: 505 Games
 developer: ArtPlay
 genre: Fantasy, RPG, Action-Adventure
 franchise: Bloodstained
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence, Partial Nudity"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Conteúdo sexual"}}
 release_date: "December 23, 2025"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
-languages: ["Japanese*","English*","French","Italian","German","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages: ["Japanese","English","French","Italian","German","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Spanish - Latin America"]
+languages_audio: ["Japanese","English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":460404,"slug":"bloodstained-curse-of-the-moon-2","name":"Bloodstained: Curse of the Moon 2"},{"rawg_id":58498,"slug":"bloodstained-curse-of-the-moon","name":"Bloodstained: Curse of the Moon"}]
+franchise_slug: "bloodstained-curse-of-the-moon|bloodstained-curse-of-the-moon|bloodstained-ritual-of-the-nig"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-23T16:00:00.000Z","end":"2025-12-24T16:00:00.000Z","type":null,"id":"4e037f816bfa4e4f9fcfdfa29ad383e6"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "14 hrs"
 hltb_main_extra: "20.7 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bloodstained:_Ritual_of_the
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/bloodstained-ritual-of-the-night/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7710"
+opencritic_url: "https://opencritic.com/game/7710/-"
+opencritic_score: 83
+opencritic_review_count: 135
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,6 @@ is_featured: false
 owned: true
 ---
 
-Bloodstained: Ritual of the Night is an exploration-focused, side-scroller action RPG by Koji Igarashi. Play as Miriam, an orphan scarred by an alchemist's curse that slowly crystallizes her body. Battle through a demon-infested castle and defeat its master to save yourself, and all of humanity!
+Igavania Returns!
+
+Play as Miriam, an orphan scarred by an alchemist's curse which slowly crystallizes her body. To save humanity, and herself in the process, she must fight through the castle and defeat the summoner, Gebel.

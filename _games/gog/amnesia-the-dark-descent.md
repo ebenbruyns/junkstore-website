@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/amnesia-the-dark-descent/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.78
+protondb_total: 49
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Frictional Games
 developer: Frictional Games
 genre: Adventure, Adventure, Adventure
 franchise: Amnesia
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Nudity, Language, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence, Strong Language"},"dejus":{"rating":"18","descriptors":"Violência, Medo, Nudez"}}
 release_date: "September 8, 2010"
 game_modes: ["Single player"]
-languages: ["English","French","German","Italian","Russian","Spanish","zh-Hans"]
+languages: ["English","French","German","Italian","Spanish - Spain","Russian","Simplified Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"11631","name":"Requires 2FA"},{"id":"21119","name":"Great for Beginners"}]
+size: "1312 MB"
+franchise_siblings: [{"rawg_id":911543,"slug":"amnesia-the-bunker","name":"Amnesia: The Bunker"},{"rawg_id":427519,"slug":"amnesia-rebirth","name":"Amnesia: Rebirth"},{"rawg_id":13268,"slug":"amnesia-a-machine-for-pigs","name":"Amnesia: A Machine for Pigs"}]
+franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|amnesia-the-dark-descent"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "9 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/57300"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia:_The_Dark_Descent"
 metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/pc/amnesia-the-dark-descent?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/amnesia-the-dark-descent/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Amnesia: The Dark Descent is a survival horror video game by Frictional Games. The game features a protagonist named Daniel exploring a dark and foreboding castle, while trying to maintain his sanity by avoiding monsters and other terrifying obstructions. The game was critically well received.
+Amnesia: The Dark Descent, a first person survival horror. A game about immersion, discovery and living through a nightmare. An experience that will chill you to the core.

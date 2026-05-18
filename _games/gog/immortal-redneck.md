@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/immortal-redneck/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.68
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: CremaGames
 developer: CremaGames
 genre: Indie, Shooter, Arcade
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Language"},"pegi":{"rating":"16","descriptors":"Bad language"},"cero":{"rating":"B","descriptors":"Violence"},"oflc":{"rating":"M","descriptors":"Violence, Coarse language"},"nzoflc":{"rating":"M","descriptors":"Violence, Coarse language"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "April 25, 2017"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Portuguese - Portugal","Simplified Chinese","Polish","Korean"]
+languages_audio: ["English"]
 tags_structured: []
+size: "1761 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "16.5 hrs"
 hltb_main_extra: "20.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/595140"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Immortal_Redneck"
 metacritic_score: 70
-metacritic_url: "https://www.metacritic.com/game/pc/immortal-redneck?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/immortal-redneck/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4224"
+opencritic_url: "https://opencritic.com/game/4224/-"
+opencritic_score: 76
+opencritic_review_count: 51
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

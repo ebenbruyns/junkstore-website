@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/prison-architect/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.63
+protondb_total: 66
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Paradox Interactive
 developer: Introversion Software
 genre: Adventure, Adventure, Adventure, Adventure
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Partial Nudity, Sexual Content, Strong Language"},"pegi":{"rating":"16","descriptors":"Moderate Violence, Sexual Nudity, Strong Language"},"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Linguagem imprópria, Nudez, Drogas ilícitas"}}
 release_date: "October 6, 2015"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Spain","Dutch","Japanese","Swedish","Traditional Chinese","Turkish"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1123","name":"2D"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1293","name":"SANDBOX"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "527 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "16.5 hrs"
 hltb_main_extra: "43 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/233450"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prison_Architect"
 metacritic_score: 83
-metacritic_url: "https://www.metacritic.com/game/pc/prison-architect?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/prison-architect/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1942"
+opencritic_url: "https://opencritic.com/game/1942/-"
+opencritic_score: 80
+opencritic_review_count: 62
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to change the controller mapping to keyboard & mouse."
@@ -81,4 +111,8 @@ is_featured: false
 owned: true
 ---
 
-The game is a top-down 2D construction and management simulation where the player takes control of building and running a prison. The player is responsible for managing various aspects of their prison including building cells and facilities, planning and connecting utilities, hiring and assigning staff, including a warden, guards, workers, and more. The player needs to recruit staff to unlock more aspects of the game. The player is also responsible for the finance, and keeping their inmates content.
+Welcome Wardens!
+
+Only the world’s most ruthless Warden can contain the world’s most ruthless inmates. Design and develop your personalized penitentiary in Prison Architect.
+
+

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/kardboard-kings/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.44
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Akupara Games
 developer: Oscar Brittian and Rob Gross
 genre: Simulation
 franchise: 
-age_rating_summary: 
+age_rating_summary: 0 (USK)
+age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "February 10, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Spanish - Spain","Japanese","Simplified Chinese","Russian"]
+languages_audio: []
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-17T15:00:00.000Z","end":"2024-10-24T15:00:00.000Z","type":null,"id":"747d522e0451439590fa6647ae67f58a"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "11.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Kardboard_Kings"
 metacritic_score: 
 metacritic_url: ""
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12774"
+opencritic_url: "https://opencritic.com/game/12774/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Open your own Card shop by the seaside in Kardboard Kings: Card Shop Simulator! Buy, trade and sell Cards, or keep them for your own collection. Earn reputation with customers, beat your shop goals, unlock new decorations, and host exciting events to bring everyone to the best Card shop in town!
+Open your own Card shop by the seaside! Buy, trade and sell Cards, OR keep them for your own collection! Earn reputation with customers, beat your shop goals, unlock new decorations, and host exciting events to bring everyone to the best Card shop in town!

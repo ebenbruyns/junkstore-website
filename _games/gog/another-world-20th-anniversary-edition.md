@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/another-world-20th-anniversary-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.68
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: The Digital Lounge
 developer: Eric Chahi
 genre: Action, Adventure
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B"},"bbfc":{"rating":"12"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"},"kgrb":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violência, Nudez"}}
 release_date: "April 4, 2013"
-game_modes: ["Single-player"]
-languages: ["English","German","French","Italian","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Korean","Polish","Portuguese - Portugal"]
-tags_structured: []
+game_modes: ["Achievements","Controller support","Single-player"]
+languages: ["English","German","French","Italian","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Korean","Polish","Portuguese - Portugal","Russian","Turkish"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"49","name":"Difficult"},{"id":"193","name":"Classic"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"74","name":"Retro"},{"id":"25","name":"Space"},{"id":"110","name":"Cinematic"},{"id":"172","name":"Aliens"},{"id":"271","name":"Remake"},{"id":"334","name":"achievements"},{"id":"624","name":"Monsters"},{"id":"2191","name":"alien"},{"id":"2075","name":"sound"},{"id":"2489","name":"dodge"}]
+size: "117 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "2.5 hrs"
 hltb_main_extra: "2.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Another_World"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/another-world-20th-anniversary/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "239"
+opencritic_url: "https://opencritic.com/game/239/-"
+opencritic_score: 73
+opencritic_review_count: 22
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

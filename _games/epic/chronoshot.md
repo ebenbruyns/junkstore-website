@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/chronoshot/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "red"
 standalone_rating: "red"
 date_tested: "Aug '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.38
+protondb_total: 5
+protondb_confidence: "low"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: RFLXT Studio
@@ -19,10 +27,15 @@ developer: iMotion Pictures
 genre: Shooter
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "August 7, 2024"
 game_modes: ["Online Multiplayer","Single Player"]
 languages: ["English"]
+languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/chronoshot/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Native controller support. **Decky Plugin: Advanced tinkering required**. **Pro Version: Advanced tinkering required**. Follow extra steps [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Chronoshot)"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-CHRONOSHOT is a free-to-play score-driven sci-fi arena shooting game, with specialized time mechanics. The player is equipped with a Jetpack, several weapons, and special ammunition which can be used to turn the tide against the enemy and dominate the leader board!
+Chronoshot is a free-to-play sci-fi arena shooting game, with specialized time mechanics. Time in the game moves when the player does, allowing players to set up shots, create combos, or examine the arena to determine their next move against a growing number of enemies.

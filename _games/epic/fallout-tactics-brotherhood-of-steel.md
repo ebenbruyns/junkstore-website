@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/fallout-tactics-brotherhood-of-steel/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: "Proton-7.0rc3-GE-1"
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.57
+protondb_total: 32
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Bethesda Softworks
 developer: 14° East
 genre: Turn-Based Strategy, RPG, Strategy
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Strong Language"},"pegi":{"rating":"16","descriptors":"Gambling, Bad Language, Violence"},"usk":{"rating":"16"}}
 release_date: "October 20, 2022"
 game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","German"]
+languages_audio: []
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: [{"rawg_id":1015797,"slug":"fallout-4-creations-bundle","name":"Fallout 4 - Creations Bundle"},{"rawg_id":1000841,"slug":"fallout-4-next-gen","name":"Fallout 4: Next-Gen"},{"rawg_id":732504,"slug":"fallout-shelter-online","name":"Fallout Shelter Online"},{"rawg_id":58585,"slug":"fallout-76","name":"Fallout 76"},{"rawg_id":3070,"slug":"fallout-4","name":"Fallout 4"},{"rawg_id":559,"slug":"fallout-shelter","name":"Fallout Shelter"},{"rawg_id":5563,"slug":"fallout-new-vegas","name":"Fallout: New Vegas"},{"rawg_id":5562,"slug":"fallout-3","name":"Fallout 3"},{"rawg_id":402492,"slug":"fallout-brotherhood-of-steel","name":"Fallout: Brotherhood of Steel"},{"rawg_id":19299,"slug":"fallout-2-a-post-nuclear-role-playing-game","name":"Fallout 2"},{"rawg_id":13554,"slug":"fallout-a-post-nuclear-role-playing-game","name":"Fallout"},{"rawg_id":979041,"slug":"capital-wasteland","name":"Capital Wasteland"}]
+franchise_slug: "capital-wasteland|fallout-2-a-post-nuclear-role-|fallout-3|fallout-4|fallout-4-creations-bundle|fallout-4-next-gen|fallout-76|fallout-a-post-nuclear-role-pl|fallout-brotherhood-of-steel|fallout-new-vegas|fallout-shelter|fallout-shelter-online|fallout-tactics-brotherhood-of"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-12-21T15:00:00.000Z","end":"2022-12-22T15:00:00.000Z","type":null,"id":"550b1ad4adcc414a966d459587bcdb30"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "25.6 hrs"
 hltb_main_extra: "45.6 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/38420"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_Tactics%3A_Brotherhood_of_Steel"
 metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/fallout-tactics-brotherhood-of-steel?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/fallout-tactics-brotherhood-of-steel/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9NDV7FRVD7ML"
+xbox_url: "https://www.xbox.com/games/store/-/9NDV7FRVD7ML"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. Use Proton-7.0rc3-GE-1 to help with stuttering of cutscenes"
@@ -81,6 +111,5 @@ is_featured: false
 owned: true
 ---
 
-This is a Tactical Squad-Based Combat comes to the Fallout Universe. You are the wretched refuse. You may be born from dirt, but we will forge you into steel. You will learn to bend; if not you, will you break. In these dark times, the Brotherhood - your Brotherhood - is all that stands between the rekindled flame of civilization and the howling, radiated wasteland.
-
-Your weapons will become more than your tools, they will become your friends. You will use your skills to inspire the lowly and protect the weak... whether they like it or not. Your squadmates will be more dear to you than your kin and for those that survive there will be honor, respect and the spoils of war.
+Tactical Squad-Based Combat comes to the Fallout® Universe!
+In these dark times, the Brotherhood - your Brotherhood - is all that stands between the rekindled flame of civilization and the howling, radiated wasteland.

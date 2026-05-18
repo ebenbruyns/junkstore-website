@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/stalcraft-x/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.75
+protondb_total: 63
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: EXBO
@@ -19,10 +27,15 @@ developer: EXBO
 genre: Shooter, Open World, First Person
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
 release_date: "February 19, 2026"
 game_modes: ["Multi-player","Co-op"]
-languages: ["English","Russian*","Spanish - Spain","French","Korean*languages with full audio support"]
+languages: ["English","Russian","Spanish - Spain","French","Korean"]
+languages_audio: ["Russian"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21125","name":"Competitive Community"},{"id":"22775","name":"MMO"},{"id":"21129","name":"Challenging Combat"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: "https://howlongtobeat.com/game/156925"
+hltb_url: "https://howlongtobeat.com/game/114697"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/stalcraft-x-stalcraft-x-starter-edition-0b06d4"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stalcraft:_X"
 metacritic_score: 
 metacritic_url: ""
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! <br> You will need to map the controller."
@@ -81,6 +111,6 @@ is_featured: false
 owned: true
 ---
 
-STALCRAFT: X is the largest online game set in the open world of the Chernobyl Exclusion Zone.
+STALCRAFT: X is a free-to-play MMOFPS with RPG elements.
 
-Dive into this universe, filled with mutants and anomalies alone or with friends — unforgettable experiences are guaranteed!
+Explore an open world, engage in PvPvE activities, participate in events, and choose from a variety of weapons — all set in the post-Soviet Chernobyl Exclusion Zone!

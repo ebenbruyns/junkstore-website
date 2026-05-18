@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-vanishing-of-ethan-carter/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.79
+protondb_total: 59
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: The Astronauts
@@ -19,10 +27,15 @@ developer: The Astronauts
 genre: Exploration
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "December 19, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Czech"]
+languages_audio: ["English","Polish"]
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"1127","name":"Investigation"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+size: "5194 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-04-06T15:00:00.000Z","end":"2022-04-13T15:00:00.000Z","type":null,"id":"bdea68145b61462f9cd17068e835aadf"},{"start":"2021-12-18T15:00:00.000Z","end":"2021-12-19T15:00:00.000Z","type":null,"id":"bdea68145b61462f9cd17068e835aadf"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "4 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/258520"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Vanishing_of_Ethan_Carter"
 metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/the-vanishing-of-ethan-carter?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/the-vanishing-of-ethan-carter/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "629"
+opencritic_url: "https://opencritic.com/game/629/-"
+opencritic_score: 79
+opencritic_review_count: 90
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-In The Vanishing of Ethan Carter, you play as Paul Prospero, an occult detective who receives a disturbing letter from Ethan Carter and realizes that the boy is in grave danger. When Paul arrives in Ethan's home of Red Creek Valley, he realizes things are even worse than he imagined. Ethan has vanished in the wake of a brutal murder, which Paul comes to see might not be the only murder to investigate. Using both regular and supernatural detective skills, Paul must figure out what happened to the missing boy.
+The Vanishing of Ethan Carter is a first-person mystery focused on exploration and discovery. As an occult-minded detective Paul Prospero, piece together the truth behind Ethan’s disappearance — and the fate of his family.

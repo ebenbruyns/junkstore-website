@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/deceive-inc/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.49
+protondb_total: 28
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Tripwire Interactive
@@ -19,10 +27,15 @@ developer: Sweet Bandits Studios
 genre: Shooter, Strategy
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "March 21, 2023"
 game_modes: ["Co-operative","Multiplayer"]
-languages: ["English*","French*","German","Japanese","Korean","Russian","Traditional Chinese","Spanish - Spain","Simplified Chinese","Spanish - Latin America*languages with full audio support"]
+languages: ["English","French","German","Japanese","Korean","Russian","Traditional Chinese","Spanish - Spain","Simplified Chinese","Spanish - Latin America"]
+languages_audio: ["English","French"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-11-07T16:00:00.000Z","end":"2024-11-14T16:00:00.000Z","type":null,"id":"327e2f6dbe2b4859b3e1ba4f69dff5c2"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: true
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deceive_Inc."
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/deceive-inc/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14480"
+opencritic_url: "https://opencritic.com/game/14480/-"
+opencritic_score: 72
+opencritic_review_count: 17
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003838"
+playstation_url: "https://store.playstation.com/en-us/concept/10003838"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Go undercover as the world’s greatest spies in this tense multiplayer game of subterfuge. Disguise as anyone, deploy an arsenal of high-tech gadgets or neutralize the competition. As long as you extract with the objective, no trick is too dirty when you work for Deceive Inc.
+Go undercover as the world’s greatest spies in this multiplayer game of subterfuge. Disguise as anyone, deploy high-tech gadgets or neutralize the competition. As long as you extract with the objective, no trick is too dirty when you work for DECEIVE INC.

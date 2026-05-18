@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/house-party/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.57
+protondb_total: 28
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Eek Games
 developer: Eek Games
 genre: Role-playing (RPG), Adventure, Indie, Simulator
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 18 (USK)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Strong Sexual Content, Nudity, Strong Language, Use of Alcohol, Use of Drugs, Mature Humor"},"usk":{"rating":"18","descriptors":"keine Jugendfreigabe gemäß§14 JuSchG"},"dejus":{"rating":"16","descriptors":"Violência fantasiosa, Violência, Linguagem imprópria, Conteúdo sexual, Nudez, Drogas lícitas, Drogas ilícitas"}}
 release_date: "July 15, 2022"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Controller support","Overlay","Single-player"]
+languages: ["English","Simplified Chinese","French","Russian","Spanish - Latin America","German","Turkish","Italian","Polish","Czech"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"8","name":"First-Person"},{"id":"14","name":"Early Access"},{"id":"44","name":"Nudity"},{"id":"192","name":"Mature"},{"id":"120","name":"Memes"},{"id":"50","name":"Sexual Content"},{"id":"160","name":"Dating Sim"},{"id":"312","name":"NSFW"},{"id":"1081","name":"adult"},{"id":"785","name":"Erotic"}]
+size: "2911 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "10.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/House_Party"
 metacritic_score: 
 metacritic_url: ""
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

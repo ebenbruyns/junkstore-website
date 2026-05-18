@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tchia/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "unknown"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.7
+protondb_total: 15
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Kepler Interactive
@@ -19,10 +27,15 @@ developer: Awaceb
 genre: Exploration, Open World, Adventure
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "March 21, 2023"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "14 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/tchia"
 protondb_url: "https://www.protondb.com/app/1496590"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tchia"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/tchia/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14464"
+opencritic_url: "https://opencritic.com/game/14464/-"
+opencritic_score: 78
+opencritic_review_count: 90
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003612"
+playstation_url: "https://store.playstation.com/en-us/concept/10003612"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. Need to install C++ runtime."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A tropical open-world adventure. Climb, glide, swim, and sail your boat around a beautiful archipelago in this physics-driven sandbox.
+A Tropical Open-World adventure. Climb, glide, swim, and sail your boat around a beautiful archipelago in this physics-driven sandbox. Take control of any animal or object you can find, and Jam on your fully playable Ukulele. A game inspired by New Caledonia.

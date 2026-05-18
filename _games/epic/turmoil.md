@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/turmoil/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.66
+protondb_total: 20
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Gamious
@@ -19,10 +27,15 @@ developer: Gamious
 genre: Turn-Based, Simulation, Strategy
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "January 9, 2025"
 game_modes: ["Single player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Hungarian","Japanese","Korean","Turkish"]
+languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "201 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-01-09T16:00:00.000Z","end":"2025-01-16T16:00:00.000Z","type":null,"id":"92acefe8e4e845169ea160bb92e3e4e0"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "7.8 hrs"
 hltb_main_extra: "10.8 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Turmoil"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/turmoil?ftag=MCD-06-10aaa1f"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "2807"
+opencritic_url: "https://opencritic.com/game/2807/-"
+opencritic_score: 72
+opencritic_review_count: 11
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Turmoil is a simulation game set during the 19th century oil rush in North America. Get a taste of the rush and rivalry of the time as you earn your way to become a successful oil entrepreneur. As you make money digging up and selling oil, the town will grow along with you. Acquire more town shares than your competitors in a bid to become the new mayor.
+Drill for oil like it's 1899! Turmoil offers players a visually charming, tongue-in-cheek take on the simulation genre inspired by the 19th century oil rush in North America.

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/void-bastards/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.84
+protondb_total: 62
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Blue Manchu Pty Ltd
 developer: Blue Manchu
 genre: Action, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: 16 (PEGI) · 16 (USK)
+age_ratings: {"pegi":{"rating":"16"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong Coarse Language, Strong Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Atos criminosos"}}
 release_date: "August 19, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-08-18T15:00:00.000Z","end":"2021-08-25T15:00:00.000Z","type":null,"id":"c1bb7eb3554b42f0957cc87363e59e1d"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8.5 hrs"
 hltb_main_extra: "14 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/857980"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Void_Bastards"
 metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/void-bastards?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/void-bastards/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7775"
+opencritic_url: "https://opencritic.com/game/7775/-"
+opencritic_score: 81
+opencritic_review_count: 63
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Inspired by BioShock and System Shock 2, Void Bastards is a revolutionary new strategy-shooter that will test your wits as well as exercise your aim.
+Void Bastards is a revolutionary new strategy-shooter that will test your wits as well as exercise your aim. Can you lead the misfit prisoners of the Void Ark through the derelict spaceships?

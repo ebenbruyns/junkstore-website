@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/dredge/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.94
+protondb_total: 140
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Team17 Digital
 developer: Black Salt Games
 genre: Horror, Exploration, Open World
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 12 (USK)
+age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "December 24, 2024"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Polish"]
+languages_audio: []
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "614 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-12-24T16:00:00.000Z","end":"2024-12-25T16:00:00.000Z","type":null,"id":"c52eda250c0043358ee825b870d49fcd"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9.5 hrs"
 hltb_main_extra: "12.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dredge"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/dredge/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14348"
+opencritic_url: "https://opencritic.com/game/14348/-"
+opencritic_score: 82
+opencritic_review_count: 102
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10005693"
+playstation_url: "https://store.playstation.com/en-us/concept/10005693"
+xbox_id: "9MSVVM5NS9L6"
+xbox_url: "https://www.xbox.com/games/store/-/9MSVVM5NS9L6"
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Dredge is a fishing adventure with a sinister undercurrent. Sell your catch, upgrade your vessel and dredge the depths for long-buried relics. Explore the stories of the strange locals and discover why some things are best left forgotten.
+DREDGE is a single-player fishing adventure with a sinister undercurrent. Sell your catch, upgrade your boat, and dredge the depths for long-buried secrets. Explore a mysterious archipelago and discover why some things are best left forgotten.

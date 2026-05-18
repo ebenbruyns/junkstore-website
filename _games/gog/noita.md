@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/noita/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Aug '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.85
+protondb_total: 429
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Nolla Games
@@ -19,10 +27,15 @@ developer: Nolla Games
 genre: role-playing, adventure, indie, shooter, arcade, simulator
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "September 1, 2019"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Italian","Polish"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"40","name":"Dark Fantasy"},{"id":"114","name":"Physics"},{"id":"639","name":"Roguelike"},{"id":"640","name":"Roguelite"}]
+size: "1437 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "26.5 hrs"
 hltb_main_extra: "83 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/noita"
 protondb_url: "https://www.protondb.com/app/881100"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Noita"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/noita/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10298"
+opencritic_url: "https://opencritic.com/game/10298/-"
+opencritic_score: 79
+opencritic_review_count: 21
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

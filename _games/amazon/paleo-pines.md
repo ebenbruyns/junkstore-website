@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/paleo-pines/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.7
+protondb_total: 11
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: The Irregular Corporation, Maximum Entertainment
@@ -19,10 +27,15 @@ developer: Italic Pig
 genre: Role-playing (RPG), Adventure, Indie, Simulator
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 26, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Italian","Korean","Simplified Chinese"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"36","name":"Open World"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"121","name":"Character Customization"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"40937","name":"Steam Trading Cards"},{"id":"138","name":"Relaxing"},{"id":"126","name":"Dinosaurs"},{"id":"49960","name":"Life Sim"},{"id":"159","name":"Agriculture"},{"id":"49969","name":"Farming Sim"},{"id":"55320","name":"Creature Collector"}]
+size: "1558 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "21 hrs"
 hltb_main_extra: "36.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Paleo_Pines"
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/paleo-pines/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15564"
+opencritic_url: "https://opencritic.com/game/15564/-"
+opencritic_score: 67
+opencritic_review_count: 26
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10005927"
+playstation_url: "https://store.playstation.com/en-us/concept/10005927"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

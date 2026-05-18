@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dex/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.72
+protondb_total: 12
+protondb_confidence: "moderate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Qubic Games, Badland Indie
 developer: Dreadlocks Ltd.
 genre: Role-playing (RPG), Adventure, Indie, Platform
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Sexual Content, Drug Reference, Strong Language"},"pegi":{"rating":"16","descriptors":"Bad Language, Violence"},"usk":{"rating":"16"},"cero":{"rating":"stats"},"nzoflc":{"rating":"r13","descriptors":"Violence,, drug use and, sexual material"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Atos criminosos, Violência, Linguagem imprópria, Conteúdo sexual, Nudez, Drogas lícitas, Drogas ilícitas"}}
 release_date: "May 7, 2015"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Controller support","Overlay","Single-player"]
+languages: ["English","Czech","French","German","Hungarian","Italian","Polish","Spanish - Spain","Portuguese - Brazil","Russian","Japanese","Simplified Chinese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"36","name":"Open World"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"189","name":"Female Protagonist"},{"id":"34","name":"Violent"},{"id":"15","name":"Stealth"},{"id":"468","name":"role-playing"},{"id":"44","name":"Nudity"},{"id":"40833","name":"Captions available"},{"id":"336","name":"controller support"},{"id":"113","name":"Side Scroller"},{"id":"226","name":"Cyberpunk"},{"id":"259","name":"Metroidvania"},{"id":"337","name":"overlay"},{"id":"334","name":"achievements"},{"id":"96","name":"Kickstarter"},{"id":"40858","name":"Other"}]
+size: "1775 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "11 hrs"
 hltb_main_extra: "13.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/269650"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dex"
 metacritic_score: 62
-metacritic_url: "https://www.metacritic.com/game/pc/dex?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/dex/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9860"
+opencritic_url: "https://opencritic.com/game/9860/-"
+opencritic_score: 74
+opencritic_review_count: 19
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

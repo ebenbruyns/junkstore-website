@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/3-out-of-10-ep-1-welcome-to-shovelworks/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
 
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: ""
+steam_deck_category: 
+
 # Game Info
-publisher: 
+publisher: Terrible Posture Games
 developer: Terrible Posture Games LLC
 genre: Action
 franchise: 3 out of 10, EP
 age_rating_summary: 
+age_ratings: {}
 release_date: "August 6, 2020"
 game_modes: ["Single Player"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1141","name":"Free to Play"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+size: "574 MB"
+franchise_siblings: [{"rawg_id":580989,"slug":"3-out-of-10-season-two","name":"3 out of 10: Season Two"}]
+franchise_slug: "3-out-of-10|3-out-of-10-season-two"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-08-05T15:00:00.000Z","end":"2020-08-12T15:00:00.000Z","type":null,"id":"eb38399025864ffb88a7e027d02502a8"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "38 mins"
 hltb_main_extra: "42 mins"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/3_out_of_10"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/3-out-of-10-season-one/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Join the ongoing adventures of developers at the world's worst video game studio as they endure antics both absurd and topical. This week Midge joins Shovelworks Studios as a new animator, but not all is as it seems at the studio.
+Midge joins Shovelworks Studios as a new animator, but not all is as it seems at the studio.

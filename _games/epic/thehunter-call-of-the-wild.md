@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/thehunter-call-of-the-wild/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.78
+protondb_total: 248
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Expansive Worlds
 developer: Expansive Worlds
 genre: First Person, Simulation, Open World
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood,, Violence"},"pegi":{"rating":"16","descriptors":"Violence, Online Game, In-Game Purchases"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Hunting violence, online interactivity"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "November 25, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","German","Portuguese - Brazil","Russian","Spanish - Spain","Czech","Polish","Simplified Chinese","Japanese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-06-21T15:00:00.000Z","end":"2023-06-28T15:00:00.000Z","type":null,"id":"7b0d120a875547e9bec70192ddcc96e2"},{"start":"2021-11-24T15:00:00.000Z","end":"2021-12-01T15:00:00.000Z","type":null,"id":"7b0d120a875547e9bec70192ddcc96e2"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "26 hrs"
 hltb_main_extra: "83 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Hunter%3A_Call_of_the_W
 metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/thehunter-call-of-the-wild/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "3974"
+opencritic_url: "https://opencritic.com/game/3974/-"
+opencritic_score: 68
+opencritic_review_count: 26
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9NQV7C0G1040"
+xbox_url: "https://www.xbox.com/games/store/-/9NQV7C0G1040"
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Never before have you experienced a hunting game like theHunter: Call of the Wild. Plunge into an atmospheric open world, teeming with life: from the majestic true-to-life animals to the rustling of leaves above you as you stalk your prey. You can decide to hunt on your own or join up and hunt together with friends. Just remember, you are not just a visitor in this world, you are a living and breathing part of it. As you finally spot the majestic crown of your first red deer through the brush, the feeling is indescribable.
+Experience an atmospheric hunting game like no other in this realistic and visually breathtaking open world. Immerse yourself in the atmospheric single player campaign, or share the ultimate hunting experience with friends.

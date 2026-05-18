@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/scarf/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.3
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: HandyGames
@@ -19,10 +27,15 @@ developer: Uprising Studios SL
 genre: Action-Adventure
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "December 23, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Japanese","Polish","Russian","Arabic","Danish","Finnish","Korean","Norwegian","Swedish","Czech","Hungarian","Portuguese - Portugal"]
+languages_audio: ["English","German","Spanish - Spain"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Scarf"
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/scarf-2021/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12504"
+opencritic_url: "https://opencritic.com/game/12504/-"
+opencritic_score: 70
+opencritic_review_count: 34
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10006997"
+playstation_url: "https://store.playstation.com/en-us/concept/10006997"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Scarf is a 3D Adventure game, where protagonist Hyke must use his polymorphic scarf to explore a magical environment, solve mysterious puzzles and overcome difficult challenges. Hyke’s scarf morphs into different objects which will help to progress the adventure. Hyke was born in an unknown place, surrounded by other souls. All of them will start a path through the World with the main goal being to meld with it and become part of nature.
-
-"Mixing walking simulator and 3D platformers, Scarf is an atmospheric and emotional journey about what it means to be a hero. Travel to three beautiful crafted worlds and discover your true destiny."
+Scarf is an atmospheric and emotional journey about what it means to be a hero. An adventure game mixing puzzles and 3D platforms. Explore beautifully crafted worlds and discover your true destiny with the help of a dragon-shaped scarf.

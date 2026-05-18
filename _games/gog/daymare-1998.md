@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/daymare-1998/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.52
+protondb_total: 18
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Destructive Creations
 developer: Invader Studios
 genre: Adventure, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: M (ESRB)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"dejus":{"rating":"16","descriptors":"Medo, Violência Extrema, Linguagem imprópria"}}
 release_date: "September 17, 2019"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","Italian","German","Russian","French","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Arabic","Turkish"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"}]
+size: "22025 MB"
+franchise_siblings: [{"rawg_id":608552,"slug":"daymare-1994-sandcastle","name":"Daymare 1994: Sandcastle"}]
+franchise_slug: "daymare-1994-sandcastle|daymare-1998"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: "10.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/daymare_1998"
 protondb_url: "https://www.protondb.com/app/842100"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Daymare%3A_1998"
-metacritic_score: 62
-metacritic_url: "https://www.metacritic.com/game/pc/daymare-1998?ftag=MCD-06-10aaa1f"
+metacritic_score: 53
+metacritic_url: "https://www.metacritic.com/game/daymare-1998/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8273"
+opencritic_url: "https://opencritic.com/game/8273/-"
+opencritic_score: 56
+opencritic_review_count: 65
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

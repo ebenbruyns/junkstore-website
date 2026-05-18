@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/total-war-pharaoh-dynasties/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.42
+protondb_total: 36
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: SEGA
 developer: Creative Assembly
 genre: Action, Strategy
 franchise: Total War
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Mild Language, Alcohol Reference"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Mature themes and violence, online interactvity and chat"},"kgrb":{"rating":"12","descriptors":"폭력성"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "February 11, 2026"
 game_modes: ["Single-player","Multi-player"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Portuguese - Brazil","Simplified Chinese"]
+languages: ["English","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Turkish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "52½ Hours"
 hltb_main_extra: ""
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/total-war-pharaoh-dynasties-f6a3
 protondb_url: "https://www.protondb.com/app/2951630"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Total_War:_Pharaoh"
-metacritic_score: 83
-metacritic_url: "https://www.metacritic.com/game/total-war-pharaoh-dynasties/"
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/total-war-pharaoh/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17139"
+opencritic_url: "https://opencritic.com/game/17139/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Wage total war across the ancient world from the Aegean to Mesopotamia in this free addition to Total War: PHARAOH. Challenge the Bronze Age Collapse by building your own dynasty and leading your faction to victory with new cultures, new units and dramatic new battle mechanics.
+Wage total war across the ancient world from the Aegean to Mesopotamia in Total War: PHARAOH DYNASTIES. Challenge the Bronze Age Collapse, build your dynasty and lead your faction to victory with new cultures, units and battle mechanics.

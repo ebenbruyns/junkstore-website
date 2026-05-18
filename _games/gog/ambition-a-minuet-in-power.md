@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ambition-a-minuet-in-power/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Iceberg Interactive
@@ -19,10 +27,15 @@ developer: Joy Manufacturing Co.
 genre: Adventure, Indie, RPG, Simulation
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Atos criminosos, Violência, Conteúdo sexual, Drogas lícitas"}}
 release_date: "August 18, 2021"
-game_modes: ["Single-player"]
-languages: ["English**languages with full audio support"]
-tags_structured: []
+game_modes: ["Cloud saves","Overlay","Single-player"]
+languages: ["English"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"189","name":"Female Protagonist"},{"id":"89","name":"Historical"},{"id":"217","name":"Romance"},{"id":"160","name":"Dating Sim"},{"id":"293","name":"Otome"},{"id":"42220","name":"Meaningful Choices"},{"id":"7322","name":"lgbtq"}]
+size: "386 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4.5 hrs"
 hltb_main_extra: "10 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ambition:_A_Minuet_in_Power"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/ambition-a-minuet-in-power?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11831"
+opencritic_url: "https://opencritic.com/game/11831/-"
+opencritic_score: 77
+opencritic_review_count: 8
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/snakebird-complete/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Astra Logical
@@ -19,10 +27,15 @@ developer: Noumenon Games
 genre: Puzzle
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "December 29, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-11-14T16:00:00.000Z","end":"2024-11-21T16:00:00.000Z","type":null,"id":"fddca2297b9a4354b59f8f83d4975c90"},{"start":"2023-12-28T15:00:00.000Z","end":"2023-12-29T15:00:00.000Z","type":null,"id":"fddca2297b9a4354b59f8f83d4975c90"}]
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "6.5 hrs"
 hltb_completionist: "10 hrs"
-hltb_url: "https://howlongtobeat.com/game/143272"
+hltb_url: "https://howlongtobeat.com/game/26870"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/snakebird-complete-e6f0ae"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Snakebird"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/snakebird-complete/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A console version of Snakebird that contains both Snakebird and Snakebird Primer and some minor adjustments.
+Experience hit puzzle classic Snakebird and Snakebird Primer in Snakebird Complete, a brand new package that reunites both beloved titles into one seamless experience. Now with a hint system!

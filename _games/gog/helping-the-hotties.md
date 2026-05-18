@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/helping-the-hotties/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: xRedGames
@@ -19,10 +27,15 @@ developer: xRedGames
 genre: Action, Adventure, Indie, RPG, Simulation
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez, Drogas ilícitas, Medo"}}
 release_date: "August 31, 2023"
-game_modes: ["Single player"]
-languages: ["English*","Simplified Chinese","Turkish","Russian","Portuguese - Brazil*languages with full audio support"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
+languages: ["English","Simplified Chinese","Turkish","Russian","Portuguese - Brazil"]
+languages_audio: ["English"]
+tags_structured: [{"id":"468","name":"role-playing"}]
+size: "5250 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "11 hrs"
 hltb_main_extra: "19.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

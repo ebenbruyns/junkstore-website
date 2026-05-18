@@ -7,22 +7,35 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/moon-hunters/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 8
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Kitfox Games
 developer: Kitfox Games
 genre: Role-playing (RPG), Adventure, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Blood"},"pegi":{"rating":"7","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "March 10, 2016"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English*","French*","German","Spanish - Spain","Portuguese - Brazil","Russian","Italian","Japanese","Simplified Chinese*languages with full audio support"]
-tags_structured: []
+languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Italian","Japanese","Simplified Chinese"]
+languages_audio: ["English","French"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"468","name":"role-playing"},{"id":"40833","name":"Captions available"},{"id":"639","name":"Roguelike"},{"id":"337","name":"overlay"},{"id":"334","name":"achievements"},{"id":"96","name":"Kickstarter"},{"id":"182","name":"4 Player Local"},{"id":"625","name":"party"},{"id":"108","name":"Mythology"}]
+size: "600 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "1.5 hrs"
 hltb_main_extra: "7.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/320040"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Moon_Hunters"
 metacritic_score: 62
-metacritic_url: "https://www.metacritic.com/game/pc/moon-hunters?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/moon-hunters/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "2402"
+opencritic_url: "https://opencritic.com/game/2402/-"
+opencritic_score: 67
+opencritic_review_count: 27
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "You need to '**Reset Launch Options**' prior to launch!"

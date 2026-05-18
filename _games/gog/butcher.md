@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/butcher/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 5
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Transhuman Design, Transhuman Design
@@ -19,10 +27,15 @@ developer: Transhuman Design
 genre: Indie, Indie, Indie, Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria"}}
 release_date: "October 5, 2016"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"8","name":"First-Person"},{"id":"45","name":"2D"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"40850","name":"Steam Leaderboards"},{"id":"34","name":"Violent"},{"id":"122","name":"Pixel Graphics"},{"id":"41","name":"Dark"},{"id":"74","name":"Retro"},{"id":"40852","name":"Steam Workshop"},{"id":"40838","name":"Includes level editor"}]
+size: "104 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "4.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/butcher"
 protondb_url: "https://www.protondb.com/app/474210"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Butcher"
-metacritic_score: 70
-metacritic_url: "https://www.metacritic.com/game/pc/butcher?ftag=MCD-06-10aaa1f"
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/butcher/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "3435"
+opencritic_url: "https://opencritic.com/game/3435/-"
+opencritic_score: 71
+opencritic_review_count: 31
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

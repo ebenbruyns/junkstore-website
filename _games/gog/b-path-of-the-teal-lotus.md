@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/b-path-of-the-teal-lotus/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "not-working"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.56
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Humble Games
 developer: Squid Shock Studios
 genre: Action, Adventure, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: E (ESRB)
+age_ratings: {"esrb":{"rating":"E"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "July 17, 2024"
-game_modes: ["Single-player"]
-languages: ["English","French","German","Japanese","Simplified Chinese","Spanish - Latin America","Korean","Traditional Chinese","Ukrainian"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Japanese","Simplified Chinese","Spanish - Latin America","Korean","Traditional Chinese","Ukrainian","Portuguese - Brazil"]
+languages_audio: []
 tags_structured: []
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: "13.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/B%C5%8D:_Path_of_the_Teal_Lotus"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/bo-path-of-the-teal-lotus/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16988"
+opencritic_url: "https://opencritic.com/game/16988/-"
+opencritic_score: 80
+opencritic_review_count: 40
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10008977"
+playstation_url: "https://store.playstation.com/en-us/concept/10008977"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

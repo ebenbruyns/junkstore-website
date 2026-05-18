@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/arranger-a-role-puzzling-adventure/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: "Furniture & Mattress LLC"
@@ -19,10 +27,15 @@ developer: "Furniture & Mattress LLC"
 genre: Adventure, Indie, RPG
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "July 25, 2024"
 game_modes: []
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Spanish - Latin America","Traditional Chinese","Turkish","Portuguese - Brazil","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"64","name":"Adjustable Text Size"},{"id":"68","name":"Custom Volume Controls"},{"id":"78","name":"Adjustable Difficulty"},{"id":"75","name":"Keyboard Only Option"},{"id":"74","name":"Playable without Timed Input"},{"id":"79","name":"Save Anytime"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5½ Hours"
 hltb_main_extra: ""
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/p/arranger-a-rolepuzzling-adventure-dbfd
 protondb_url: "https://www.protondb.com/app/2596420"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Special:Search?search=2596420"
-metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/arranger-a-role-puzzling-adventure?ftag=MCD-06-10aaa1f"
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/arranger-a-role-puzzling-adventure/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17019"
+opencritic_url: "https://opencritic.com/game/17019/-"
+opencritic_score: 80
+opencritic_review_count: 38
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10009671"
+playstation_url: "https://store.playstation.com/en-us/concept/10009671"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

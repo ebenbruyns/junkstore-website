@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/young-souls/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: The Arcade Crew
@@ -19,10 +27,15 @@ developer: 1P2P Studio
 genre: "Role-playing (RPG), Adventure, Indie, Hack and slash/Beat 'em up, Fighting"
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "August 17, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Traditional Chinese","Korean","Japanese"]
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Traditional Chinese","Korean","Japanese","Portuguese - Brazil"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"198","name":"Split Screen"},{"id":"97","name":"Action RPG"},{"id":"68","name":"Hack and Slash"},{"id":"121","name":"Character Customization"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"203","name":"Beat 'em up"},{"id":"48","name":"Dungeon Crawler"},{"id":"98","name":"Loot"},{"id":"179","name":"Cartoon"},{"id":"580","name":"Souls-like"},{"id":"45201","name":"Remote Play Together"},{"id":"46112","name":"Shared/Split Screen Co-op"},{"id":"309","name":"Dynamic Narration"},{"id":"163","name":"Co-op Campaign"},{"id":"1252","name":"portal"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9 hrs"
 hltb_main_extra: "11.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/985900"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Young_Souls"
 metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/young-souls?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/young-souls/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11890"
+opencritic_url: "https://opencritic.com/game/11890/-"
+opencritic_score: 79
+opencritic_review_count: 43
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of thebox!"

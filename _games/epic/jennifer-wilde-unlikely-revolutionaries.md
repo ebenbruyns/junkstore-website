@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/jennifer-wilde-unlikely-revolutionaries/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Outsider Games
@@ -19,10 +27,15 @@ developer: Outsider Games
 genre: Narration, Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Nudez, Violência, Drogas lícitas"}}
 release_date: "June 9, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "3.5 hrs"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/jennifer-wilde-unlikely-revolutionaries/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13884"
+opencritic_url: "https://opencritic.com/game/13884/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-In 1921, young French artist Jennifer Chevalier becomes embroiled in death, espionage and revolution, assisted by the ghost of Oscar Wilde. A hand-drawn Point & Click adventure with a unique comic book inventory design.
+In 1921, young French artist Jennifer Chevalier becomes embroiled in death, espionage and revolution, assisted by the ghost of Oscar Wilde. A hand-drawn Point & Click adventure with a unique comic book inventory design

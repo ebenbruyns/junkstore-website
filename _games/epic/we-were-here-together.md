@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/we-were-here-together/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.81
+protondb_total: 41
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Total Mayhem Games
 developer: Total Mayhem Games
 genre: Puzzle, Adventure, Indie
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 0 (USK)
+age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"12","descriptors":"Violência, Interação de Usuários"}}
 release_date: "December 4, 2025"
 game_modes: ["Multi-player","Co-op"]
-languages: ["English*","French","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Dutch","Italian","Arabic","Czech","Danish","Finnish","Norwegian","Portuguese - Portugal","Portuguese - Brazil","Swedish","Thai","Turkish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"39940","name":"Gift A Game"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: [{"rawg_id":574766,"slug":"we-were-here-forever","name":"We Were Here Forever"},{"rawg_id":45156,"slug":"we-were-here-too","name":"We Were Here Too"},{"rawg_id":9515,"slug":"we-were-here","name":"We Were Here"}]
+franchise_slug: "we-were-here|we-were-here-forever|we-were-here-together|we-were-here-too"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-26T16:00:00.000Z","end":"2025-12-27T16:00:00.000Z","type":null,"id":"231e8f6d250a453f9c44c0adf3a34656"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/We_Were_Here_Together"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/we-were-here-together?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8600"
+opencritic_url: "https://opencritic.com/game/8600/-"
+opencritic_score: 67
+opencritic_review_count: 10
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10001202"
+playstation_url: "https://store.playstation.com/en-us/concept/10001202"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

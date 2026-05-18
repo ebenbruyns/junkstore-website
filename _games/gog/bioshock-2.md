@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/bioshock-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.63
+protondb_total: 69
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: 2K Games, Take-Two Interactive, D3 Publisher, Feral Interactive
 developer: 2K Marin
 genre: Role-playing (RPG), Adventure, Puzzle, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"cero":{"rating":"Z"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"18","descriptors":"내용정보표지사항: 폭력성, 공포, 약물, 제명:  바이오 쇼크 2, 이용등급: 청소년이용불가, 등급분류번호: CC-NP-120316-015, 등급분류일자: 20120316, 상호: 테이크투인터렉티브유한회사, 제작.배급업 신고번호: 제 2009-00016호, ----------------------------------, Game Descriptive: Violence, Horror, Drug, Title Name: BioShock 2, Age: 18+, Certificate #: CC-NP-120316-015, Issue date: 20120316, Company Name:테이크투인터렉티브유한회사, Distributor No,: 제 2009-00016호"}}
 release_date: "February 9, 2010"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English","French","German","Italian","Spanish"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Italian","Spanish - Spain"]
+languages_audio: ["English","French","German","Italian","Spanish - Spain"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"97","name":"Action RPG"},{"id":"41","name":"Dark"},{"id":"119","name":"Dystopian"},{"id":"305","name":"Linear"},{"id":"154","name":"Steampunk"},{"id":"250","name":"Underwater"},{"id":"281","name":"Philisophical"}]
+size: "6.99 GB"
+franchise_siblings: [{"rawg_id":884223,"slug":"bioshock-pinball","name":"Bioshock Pinball"},{"rawg_id":422857,"slug":"bioshock-2-minervas-den-remastered","name":"BioShock 2: Minerva's Den Remastered"},{"rawg_id":4062,"slug":"bioshock-infinite","name":"BioShock Infinite"},{"rawg_id":987520,"slug":"bioshock-2-the-protector-trials","name":"BioShock 2: The Protector Trials"},{"rawg_id":41962,"slug":"bioshock-2-sinclair-solutions-test-pack","name":"BioShock 2: Sinclair Solutions Test Pack"},{"rawg_id":987521,"slug":"bioshock-challenge-rooms","name":"BioShock: Challenge Rooms"},{"rawg_id":4286,"slug":"bioshock","name":"BioShock"},{"rawg_id":397468,"slug":"bioshock-4","name":"BioShock 4"}]
+franchise_slug: "bioshock|bioshock-2|bioshock-2-minervas-den-remast|bioshock-2-sinclair-solutions-|bioshock-2-the-protector-trial|bioshock-4|bioshock-challenge-rooms|bioshock-infinite|bioshock-pinball"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10.5 hrs"
 hltb_main_extra: "14 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/8850"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/BioShock_2"
 metacritic_score: 88
-metacritic_url: "https://www.metacritic.com/game/pc/bioshock-2?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/bioshock-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9556"
+opencritic_url: "https://opencritic.com/game/9556/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

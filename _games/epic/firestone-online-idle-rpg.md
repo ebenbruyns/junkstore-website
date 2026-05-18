@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/firestone-online-idle-rpg/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Holyday Studios
 developer: Holyday Studios
 genre: Action, Casual, Adventure
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 3 (PEGI) · 6 (USK)
+age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"6","descriptors":"Comic Violence"},"cero":{"rating":"A"},"oflc":{"rating":"G","descriptors":"Online Interactivity, Very Mild Violence"},"nzoflc":{"rating":"G"},"fpb":{"rating":"A"},"csrr":{"rating":"G"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "January 23, 2025"
 game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
-languages: ["English"]
+languages: ["English","German","Spanish - Spain","Greek","Portuguese - Brazil","Russian","Simplified Chinese","French","Japanese","Korean","Polish","Traditional Chinese","Turkish","Danish","Finnish","Swedish","Portuguese - Portugal","Spanish - Latin America","Dutch","Italian","Czech","Hungarian","Norwegian","Ukrainian"]
+languages_audio: ["English","German","Spanish - Spain","Greek","Portuguese - Brazil","Russian","Simplified Chinese","French","Japanese","Korean","Polish","Traditional Chinese","Turkish","Danish","Finnish","Swedish","Portuguese - Portugal","Spanish - Latin America","Dutch","Italian","Czech","Hungarian","Norwegian","Ukrainian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"29088","name":"Online Multiplayer"},{"id":"21894","name":"Cloud Saves"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Firestone_Idle_RPG"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/firestone-online-idle-rpg/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Firestone is an Idle RPG set in the Fantasy world of Alandria, where Undead and Orc forces have gathered for the first time in millennia to bring chaos and disorder to the realm. This time, they possess the great power of the Firestones. Your aim is to stop them and reclaim the Firestones.
+Firestone: Online Idle RPG is a multiplayer fantasy game with idle rpg mechanics. Collect heroes🧙‍♂️, upgrade their gear & skills, and sent them in AFK battles or go on an incremental clicker frenzy to beat monstrous bosses! Chat with guild friends or engage in PVP⚔️.

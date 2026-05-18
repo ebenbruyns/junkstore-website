@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/blacksad-under-the-skin/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.59
+protondb_total: 36
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Maximum Games, Microids
 developer: Pendulo Studios, Ys Interactive
 genre: Adventure, Puzzle
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"16","descriptors":"Violence, Bad Language, Sex, Drugs"},"usk":{"rating":"16"},"oflc":{"rating":"ma15"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Atos criminosos, Violência, Linguagem imprópria, Nudez, Drogas lícitas, Drogas ilícitas"}}
 release_date: "November 5, 2019"
-game_modes: ["Single player"]
-languages: ["English*","French*","Italian","German*","Spanish - Spain*","Russian*","Dutch","Simplified Chinese*languages with full audio support"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Russian","Dutch","Simplified Chinese"]
+languages_audio: ["English","French","German","Spanish - Spain","Russian"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"41","name":"Dark"},{"id":"142","name":"Detective"},{"id":"2030","name":"city"},{"id":"269","name":"Quick-Time Events"},{"id":"289","name":"Noir"},{"id":"326","name":"Investigation"},{"id":"2184","name":"hunt"},{"id":"1943","name":"boxing"},{"id":"1158","name":"creative"}]
+size: "12859 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: "11.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blacksad:_Under_the_Skin"
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/blacksad-under-the-skin/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8456"
+opencritic_url: "https://opencritic.com/game/8456/-"
+opencritic_score: 62
+opencritic_review_count: 43
+twitch_id: ""
+twitch_url: ""
+playstation_id: "232562"
+playstation_url: "https://store.playstation.com/en-us/concept/232562"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

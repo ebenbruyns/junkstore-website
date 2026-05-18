@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-first-templar/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 9
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Kalypso Media, FX Interactive
@@ -19,10 +27,15 @@ developer: Haemimont Games
 genre: Role-playing (RPG), Adventure, Puzzle
 franchise: 
 age_rating_summary: ESRB 13
+age_ratings: {"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "May 6, 2011"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Overlay","Single-player"]
 languages: ["English","French","German"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"75","name":"Local Co-Op"},{"id":"68","name":"Hack and Slash"},{"id":"66","name":"Medieval"}]
+size: "4341 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9.5 hrs"
 hltb_main_extra: "13.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/the_first_templar"
 protondb_url: "https://www.protondb.com/app/57680"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_First_Templar"
-metacritic_score: 57
-metacritic_url: "https://www.metacritic.com/game/pc/the-first-templar?ftag=MCD-06-10aaa1f"
+metacritic_score: 52
+metacritic_url: "https://www.metacritic.com/game/the-first-templar/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

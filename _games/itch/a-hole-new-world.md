@@ -7,11 +7,19 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-hole-new-world/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.21
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Dolores Entertainment, MadGearGames
@@ -19,10 +27,15 @@ developer: MadGearGames
 genre: Adventure, Indie, Platform, Arcade
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "May 19, 2017"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Spanish - Latin America"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"7808","name":"steam-trading-cards"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"49","name":"Difficult"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"224","name":"1980s"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "3 Hours"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Hole_New_World"
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/a-hole-new-world/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "5198"
+opencritic_url: "https://opencritic.com/game/5198/-"
+opencritic_score: 70
+opencritic_review_count: 8
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10010434"
+playstation_url: "https://store.playstation.com/en-us/concept/10010434"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."

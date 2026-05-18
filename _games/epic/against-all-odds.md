@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/against-all-odds/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Freedom Games
@@ -19,10 +27,15 @@ developer: Microwave Games
 genre: Action, Sports, Indie
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
 release_date: "May 4, 2023"
 game_modes: ["Single-player"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese*languages with full audio support"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1283","name":"Sports"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-05-03T15:00:00.000Z","end":"2023-05-10T15:00:00.000Z","type":null,"id":"5b99274688e9465aa9d5ca5cea176cfd"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1 hrs"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Against_All_Odds"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/against-all-odds/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: Works out of the box on the Decky plugin version.
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Are you willing to risk it all in order to be the world’s greatest? Outrun and survive against an onslaught of twisted obstacles in the brutalist game show on the planet. Get dressed up and compete in a diverse lineup of lethal multiplayer modes online or with friends!
+Water's cut. Rent's due. Jobs, scarce. Time to get rich. Enter the Slaughter League & win against all odds in supremely lethal races. Platforming meets slaughter in this casual racing game designed for players looking for a new experience - or wind down with blood & guts galore!

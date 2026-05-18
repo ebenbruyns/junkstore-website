@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/gods-trigger/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.56
+protondb_total: 20
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Techland Publishing
 developer: One More Level
 genre: "Indie, Puzzle, Shooter, Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence, Partial Nudity, Suggestive Themes, Strong Language"},"pegi":{"rating":"16","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong violence, Online interactivity"}}
 release_date: "April 18, 2019"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Co-op","Overlay","Single-player"]
+languages: ["English","Polish","Italian","German","Spanish - Spain","Russian","Simplified Chinese","French","Japanese","Portuguese - Brazil"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"9","name":"Online Co-Op"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"75","name":"Local Co-Op"},{"id":"131","name":"Fast-Paced"},{"id":"163","name":"Co-op Campaign"}]
+size: "3335 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "7 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/gods_trigger"
 protondb_url: "https://www.protondb.com/app/488730"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/God%27s_Trigger"
-metacritic_score: 75
-metacritic_url: "https://www.metacritic.com/game/pc/gods-trigger?ftag=MCD-06-10aaa1f"
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/gods-trigger/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7588"
+opencritic_url: "https://opencritic.com/game/7588/-"
+opencritic_score: 80
+opencritic_review_count: 30
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

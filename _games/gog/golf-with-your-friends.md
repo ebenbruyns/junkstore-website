@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/golf-with-your-friends/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 80
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Blacklight Interactive, Team17
 developer: Blacklight Interactive
 genre: Strategy, Indie, Sport, Simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: 7 (PEGI) · 6 (USK)
+age_ratings: {"pegi":{"rating":"7"},"usk":{"rating":"6"},"dejus":{"rating":"L"}}
 release_date: "January 29, 2016"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Controller support","Multi-player","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Japanese"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"16","name":"Horror"},{"id":"4","name":"Funny"},{"id":"49","name":"Difficult"},{"id":"397","name":"Online multiplayer"},{"id":"14","name":"Early Access"},{"id":"11669","name":"stats"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"107","name":"Family Friendly"},{"id":"114","name":"Physics"},{"id":"120","name":"Memes"},{"id":"178","name":"Illuminati"},{"id":"625","name":"party"},{"id":"161","name":"Golf"},{"id":"23","name":"Mini Golf"}]
+size: "4947 MB"
+franchise_siblings: [{"rawg_id":998664,"slug":"golf-with-your-friends-2","name":"Golf With Your Friends 2"}]
+franchise_slug: "golf-with-your-friends|golf-with-your-friends-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "11 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Golf_with_Your_Friends"
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/golf-with-your-friends/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9467"
+opencritic_url: "https://opencritic.com/game/9467/-"
+opencritic_score: 67
+opencritic_review_count: 26
+twitch_id: "491381"
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9N14G09PWG74"
+xbox_url: "https://www.xbox.com/games/store/-/9N14G09PWG74"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

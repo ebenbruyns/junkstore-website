@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/legion-td-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.65
+protondb_total: 50
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Ninja Kiwi
@@ -19,10 +27,16 @@ developer: AutoAttack Games
 genre: Indie, Tower Defense, Strategy
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"kgrb":{"rating":"12"},"dejus":{"rating":"L"}}
 release_date: "October 22, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","German","Spanish - Spain","Dutch","Portuguese - Brazil","Russian","Swedish","French","Polish","Turkish","Spanish - Latin America","Simplified Chinese","Traditional Chinese","Japanese","Korean","Norwegian","Ukrainian","Italian","Czech","Hungarian","Romanian","Arabic","Bulgarian","Danish","Finnish","Indonesian","Portuguese - Portugal","Vietnamese","Afrikaans","Slovak"]
+languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"33639","name":"Promotional Content"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "1665442693
+"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-24T15:00:00.000Z","end":"2025-07-31T15:00:00.000Z","type":null,"id":"71f1c64e7e41477ca09228c1253c9ce7"}]
@@ -55,6 +69,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -68,6 +85,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legion_TD_2"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/legion-td-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12076"
+opencritic_url: "https://opencritic.com/game/12076/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Need to verify this game with your account and enable the EOS overlay.

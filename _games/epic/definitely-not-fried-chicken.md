@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/definitely-not-fried-chicken/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.59
+protondb_total: 17
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Silver Lining Interactive
@@ -19,10 +27,15 @@ developer: Dope Games
 genre: Simulation, Strategy, Indie
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"18","descriptors":"Drogas ilícitas, Violência Extrema, Temas sensíveis"}}
 release_date: "January 29, 2026"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Japanese","Spanish - Latin America","Simplified Chinese","Traditional Chinese"]
+languages_audio: []
 tags_structured: [{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-01-29T16:00:00.000Z","end":"2026-02-05T16:00:00.000Z","type":null,"id":"b916500f733b4973802bdb4fdb276515"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/definitely-not-fried-chicken/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!<br>\nAchievements don't appear to be working; unfortunately this appears to be a 'known' issue with the game. Guess we will have to wait for a patch from the devs to fix this issue."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Definitely Not Fried Chicken is a business management sim with a Twist! Grow your drugs trade through legitimate fronts by managing both sides of the business. Acquire new &quot;businesses&quot;, meet new clientele, Develop more potent narcotics, make lots of money and leave a city in ruin!
+Definitely Not Fried Chicken is a business management sim with a Twist! Grow your drugs trade through legitimate fronts, managing both sides of the business. Acquire new "businesses", meet new clientele, Develop more potent narcotics, make lots of money and leave a city in ruin!

@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/sid-meiers-civilization-iii-complete/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.36
+protondb_total: 96
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: 2K Games
 developer: Firaxis Games
 genre: Strategy, Simulator
 franchise: 
-age_rating_summary: ESRB 10
+age_rating_summary: E (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"E","descriptors":"Animated Blood, Violence"},"pegi":{"rating":"12"},"kgrb":{"rating":"ALL","descriptors":"내용정보표지사항: -, 제명:  문명 3 컴플리트 에디션, 이용등급: 전체이용가, 등급분류번호: CC-NP-120406-008, 등급분류일자: 20120406, 상호: 테이크투인터렉티브유한회사, 제작.배급업 신고번호: 제 2009-00016호, ----------------------------------, Game Descriptive: -, Title Name: Sid Meier's Civilization III: Complete, Age: All Age, Certificate #: CC-NP-120406-008, Issue date: 20120406, Company Name:테이크투인터렉티브유한회사, Distributor No,: 제 2009-00016호"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "September 14, 2004"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"6","name":"Exploration"},{"id":"193","name":"Classic"},{"id":"40838","name":"Includes level editor"},{"id":"102","name":"Turn-Based"},{"id":"5","name":"Replay Value"},{"id":"89","name":"Historical"},{"id":"101","name":"Turn-Based Strategy"},{"id":"81","name":"Military"},{"id":"100","name":"Grand Strategy"},{"id":"212","name":"4X"}]
+size: "1418962466"
+franchise_siblings: [{"rawg_id":983201,"slug":"sid-meiers-civilization-vii","name":"Sid Meier’s Civilization VII"},{"rawg_id":10297,"slug":"civilization-vi","name":"Sid Meier’s Civilization VI"},{"rawg_id":13633,"slug":"civilization-v","name":"Sid Meier's Civilization V"},{"rawg_id":13780,"slug":"sid-meiers-civilization-iv","name":"Sid Meier's Civilization IV"},{"rawg_id":32060,"slug":"sid-meiers-civilization-2","name":"Sid Meier's Civilization 2"},{"rawg_id":32062,"slug":"sid-meiers-civilization","name":"Sid Meier's Civilization"}]
+franchise_slug: "civilization-v|civilization-vi|sid-meiers-civilization|sid-meiers-civilization-2|sid-meiers-civilization-iii-co|sid-meiers-civilization-iv|sid-meiers-civilization-vii"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "22 hrs"
 hltb_main_extra: "43 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/3910"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sid_Meier%27s_Civilization_III"
 metacritic_score: 90
-metacritic_url: "https://www.metacritic.com/game/pc/sid-meiers-civilization-iii?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/sid-meiers-civilization-iii/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/mdk/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.58
+protondb_total: 14
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Playmates Interactive Entertainment, Interplay Entertainment
 developer: Shiny Entertainment
 genre: platform, shooter
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "April 30, 1997"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","German","Italian","Polish","Spanish - Spain"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"193","name":"Classic"},{"id":"150","name":"Third-Person Shooter"}]
+size: "200 MB"
+franchise_siblings: [{"rawg_id":19367,"slug":"mdk2","name":"MDK 2"}]
+franchise_slug: "mdk|mdk2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/MDK"
 metacritic_score: 
 metacritic_url: ""
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

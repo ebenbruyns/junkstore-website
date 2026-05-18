@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/greak-memories-of-azur/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.67
+protondb_total: 19
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Team17
@@ -19,10 +27,15 @@ developer: Navegante Entertainment
 genre: Role-playing (RPG), Adventure, Indie, Platform, Puzzle
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "August 16, 2021"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Controller support","Single-player"]
+languages: ["English","French","Italian","German","Japanese","Russian","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil","Spanish - Spain"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"134","name":"Anime"},{"id":"68","name":"Hack and Slash"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"40937","name":"Steam Trading Cards"},{"id":"259","name":"Metroidvania"},{"id":"258","name":"Hand-drawn"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"49955","name":"Puzzle Platformer"}]
+size: "1141 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6.5 hrs"
 hltb_main_extra: "8 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Greak:_Memories_of_Azur"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/greak-memories-of-azur/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11803"
+opencritic_url: "https://opencritic.com/game/11803/-"
+opencritic_score: 72
+opencritic_review_count: 64
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002329"
+playstation_url: "https://store.playstation.com/en-us/concept/10002329"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

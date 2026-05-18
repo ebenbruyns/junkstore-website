@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/bloody-hell/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.6
+protondb_total: 10
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Pun Intended
@@ -19,10 +27,15 @@ developer: Pun Intended
 genre: Adventure, Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {}
 release_date: "January 27, 2023"
-game_modes: ["Single player"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"26","name":"Gore"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"1465","name":"combat"},{"id":"61","name":"Top-Down"},{"id":"259","name":"Metroidvania"},{"id":"57","name":"Bullet Hell"},{"id":"187","name":"Demons"},{"id":"580","name":"Souls-like"},{"id":"204","name":"Gothic"},{"id":"201","name":"Twin Stick Shooter"},{"id":"146","name":"Nonlinear"}]
+size: "70 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "4.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bloody_Hell"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/bloody-hell-2023/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

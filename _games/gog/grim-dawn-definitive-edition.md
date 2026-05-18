@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/grim-dawn-definitive-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.84
+protondb_total: 595
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Crate Entertainment
@@ -19,10 +27,15 @@ developer: Crate Entertainment
 genre: action, role-playing
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
 release_date: "February 1, 2016"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Czech","Japanese","Russian","Simplified Chinese","Portuguese - Brazil","Italian","Korean","Vietnamese","Polish"]
+languages_audio: ["English"]
 tags_structured: []
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "21.5 hrs"
 hltb_main_extra: "48.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/219990"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Grim_Dawn"
 metacritic_score: 83
-metacritic_url: "https://www.metacritic.com/game/pc/grim-dawn?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/grim-dawn/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "2179"
+opencritic_url: "https://opencritic.com/game/2179/-"
+opencritic_score: 82
+opencritic_review_count: 23
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

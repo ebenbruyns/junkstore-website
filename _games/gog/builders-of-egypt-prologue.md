@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/builders-of-egypt-prologue/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.2
+protondb_total: 15
+protondb_confidence: "good"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Creative Forge Games
@@ -19,10 +27,15 @@ developer: Strategy Labs
 genre: Strategy, Strategy, Strategy
 franchise: 
 age_rating_summary: 
-release_date: ""
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
+release_date: "March 2, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Turkish","Simplified Chinese"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"49","name":"Difficult"},{"id":"193","name":"Classic"},{"id":"37","name":"Sandbox"},{"id":"79","name":"Free to Play"},{"id":"80","name":"Tactical"},{"id":"14","name":"Early Access"},{"id":"70","name":"War"},{"id":"77","name":"Realistic"},{"id":"89","name":"Historical"},{"id":"39","name":"Building"},{"id":"168","name":"RTS"},{"id":"406","name":"Story"},{"id":"67","name":"Management"},{"id":"180","name":"Base Building"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"},{"id":"2030","name":"city"},{"id":"210","name":"Real-Time"},{"id":"245","name":"Trading"},{"id":"1221","name":"history"},{"id":"974","name":"death"},{"id":"219","name":"Politics"},{"id":"1079","name":"environment"},{"id":"4338","name":"egypt"}]
+size: "2291 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "30 mins"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Builders_of_Egypt"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/search/builders%20of%20egypt%20prologue/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

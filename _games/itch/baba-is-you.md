@@ -7,22 +7,35 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/baba-is-you/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "May ' 26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.86
+protondb_total: 46
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: hempuli
 developer: hempuli
 genre: Strategy, Indie, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: E (ESRB) · 3 (PEGI)
+age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"kgrb":{"rating":"ALL"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "March 1, 2019"
 game_modes: ["Single player"]
-languages: ["English","Spanish - Spain","Korean","Norwegian","Polish","Thai","French","Italian","Dutch","Japanese"]
-tags_structured: []
+languages: ["English","Spanish - Spain","Korean","Norwegian","Polish","Thai","French","Italian","Dutch","Japanese","Portuguese - Portugal","Portuguese - Brazil","Turkish","Vietnamese","German","Czech","Traditional Chinese","Simplified Chinese"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"40838","name":"Includes level editor"},{"id":"1867","name":"puzzles"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "21 hrs"
@@ -66,8 +82,22 @@ store_url: "https://hempuli.itch.io/baba"
 protondb_url: "https://www.protondb.com/app/736260"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Baba_Is_You"
-metacritic_score: 87
-metacritic_url: "https://www.metacritic.com/game/pc/baba-is-you?ftag=MCD-06-10aaa1f"
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/baba-is-you/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7457"
+opencritic_url: "https://opencritic.com/game/7457/-"
+opencritic_score: 84
+opencritic_review_count: 30
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

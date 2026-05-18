@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/kings-bounty-crossworlds/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.58
+protondb_total: 18
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: 1C Company, Fulqrum Publishing
 developer: Katauri Interactive
 genre: role-playing, strategy
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: 12 (PEGI)
+age_ratings: {"pegi":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 19, 2009"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Overlay","Single-player"]
+languages: ["English","Russian","German","Italian","Spanish - Spain","Czech","Polish"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"189","name":"Female Protagonist"},{"id":"40838","name":"Includes level editor"},{"id":"102","name":"Turn-Based"},{"id":"101","name":"Turn-Based Strategy"},{"id":"103","name":"Hex Grid"}]
+size: "3098 MB"
+franchise_siblings: [{"rawg_id":364807,"slug":"kings-bounty-ii","name":"King's Bounty II"},{"rawg_id":18000,"slug":"kings-bounty-dark-side","name":"King's Bounty: Dark Side"},{"rawg_id":15198,"slug":"kings-bounty-warriors-of-the-north","name":"King's Bounty: Warriors of the North"},{"rawg_id":17739,"slug":"kings-bounty-legions","name":"King’s Bounty: Legions"},{"rawg_id":17698,"slug":"kings-bounty-armored-princess","name":"King's Bounty: Armored Princess"},{"rawg_id":12022,"slug":"kings-bounty-the-legend","name":"King's Bounty: The Legend"},{"rawg_id":32001,"slug":"kings-bounty","name":"King's Bounty"}]
+franchise_slug: "kings-bounty|kings-bounty-armored-princess|kings-bounty-crossworlds|kings-bounty-dark-side|kings-bounty-ii|kings-bounty-legions|kings-bounty-the-legend|kings-bounty-warriors-of-the-n"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "23.5 hrs"
 hltb_main_extra: "62.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/63910"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/King%27s_Bounty%3A_Crossworlds"
 metacritic_score: 78
-metacritic_url: "https://www.metacritic.com/game/pc/kings-bounty-crossworlds?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/kings-bounty-crossworlds/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/saints-row-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.63
+protondb_total: 48
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: THQ
 developer: Volition
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Content, Strong Language, Use of Drugs"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Drogas ilícitas, Conteúdo sexual, Violência Extrema"}}
 release_date: "October 14, 2008"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Co-op","Multi-player","Overlay","Single-player"]
+languages: ["English","French","German","Italian","Spanish - Spain","Dutch","Danish","Swedish","Russian"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"9","name":"Online Co-Op"},{"id":"4","name":"Funny"},{"id":"37","name":"Sandbox"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"150","name":"Third-Person Shooter"},{"id":"62","name":"Moddable"},{"id":"121","name":"Character Customization"},{"id":"5","name":"Replay Value"},{"id":"144","name":"Crime"},{"id":"337","name":"overlay"},{"id":"163","name":"Co-op Campaign"}]
+size: "6093 MB"
+franchise_siblings: [{"rawg_id":650607,"slug":"saints-row-2022","name":"Saints Row (2022)"},{"rawg_id":3450,"slug":"saints-row-gat-out-of-hell","name":"Saints Row: Gat Out of Hell"},{"rawg_id":3931,"slug":"saints-row-iv","name":"Saints Row IV"},{"rawg_id":4386,"slug":"saints-row-the-third","name":"Saints Row: The Third"},{"rawg_id":28478,"slug":"saints-row","name":"Saints Row"}]
+franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-hell|saints-row-iv|saints-row-the-third"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "19.5 hrs"
 hltb_main_extra: "29 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/saints_row_2"
 protondb_url: "https://www.protondb.com/app/9480"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row_2"
-metacritic_score: 72
-metacritic_url: "https://www.metacritic.com/game/pc/saints-row-2?ftag=MCD-06-10aaa1f"
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/saints-row-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "You need to set the game to run using the ./SR2_pc.exe from the sliders menu (remember to Push X to Save). I also changed the ctroller settings to Keyboard & Mouse. You may want to change the resolution/scaling in game via Options."

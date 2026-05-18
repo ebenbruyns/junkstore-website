@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/openttd/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.7
+protondb_total: 39
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: OpenTTD
@@ -19,10 +27,15 @@ developer: OpenTTD
 genre: Strategy, Indie, Simulator
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"6"}}
 release_date: "March 14, 2004"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["Bulgarian","Czech","Danish","Dutch","English","Finnish","French","German","Greek","Hebrew","Hungarian","Italian","Japanese","Korean","Polish","Portuguese","Portuguese (Brazil)","Romanian","Russian","Slovak","Spanish","Spanish (Mexico)","Swedish","Thai","Turkish","Ukrainian","ar","be-BY","ca-ES","et-EE","is-IS","la","nb-NO","sr-SP","zh-Hans","zh-Hans"]
-tags_structured: []
+game_modes: ["Cloud saves","Co-op","Multi-player","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Thai","Traditional Chinese","Turkish","Ukrainian","Vietnamese"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"9","name":"Online Co-Op"},{"id":"37","name":"Sandbox"},{"id":"79","name":"Free to Play"},{"id":"157","name":"PvP"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"62","name":"Moddable"},{"id":"99","name":"Isometric"},{"id":"39","name":"Building"},{"id":"45878","name":"Online PvP"},{"id":"67","name":"Management"},{"id":"147","name":"Resource Management"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"},{"id":"139","name":"Trains"},{"id":"46115","name":"LAN Co-op"},{"id":"46113","name":"LAN PvP"},{"id":"4270","name":"transportation"}]
+size: "31 MB"
+franchise_siblings: [{"rawg_id":31231,"slug":"transport-tycoon-deluxe","name":"Transport Tycoon Deluxe"}]
+franchise_slug: "openttd|transport-tycoon-deluxe"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "15.5 hrs"
 hltb_main_extra: "37.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/OpenTTD"
 metacritic_score: 
 metacritic_url: ""
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box you just need to change controller mapping!"

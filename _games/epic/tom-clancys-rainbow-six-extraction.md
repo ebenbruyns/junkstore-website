@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tom-clancys-rainbow-six-extraction/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: ""
 standalone_rating: ""
 date_tested: "N/A"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.5
+protondb_total: 36
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Ubisoft
 developer: Ubisoft
 genre: Shooter, Strategy
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Strong Language, Drug Reference"},"pegi":{"rating":"16","descriptors":"Violence, Bad language, In-game purchases"},"usk":{"rating":"16"},"cero":{"rating":"C","descriptors":"Crime, Violence"},"kgrb":{"rating":"18","descriptors":"Violence, Bad language"},"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
 release_date: "January 20, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Arabic","Simplified Chinese","Traditional Chinese","Korean","Spanish - Latin America*"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Simplified Chinese","Traditional Chinese","Korean","Spanish - Latin America","Japanese","Polish","Portuguese - Brazil","Russian","Thai","Turkish"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America","Japanese","Portuguese - Brazil","Russian"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: true
 cant_test_linux: true
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "13.5 hrs"
 hltb_main_extra: "47 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tom_Clancy%27s_Rainbow_Six_Extraction"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/tom-clancys-rainbow-six-extraction/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11577"
+opencritic_url: "https://opencritic.com/game/11577/-"
+opencritic_score: 71
+opencritic_review_count: 157
+twitch_id: ""
+twitch_url: ""
+playstation_id: "233592"
+playstation_url: "https://store.playstation.com/en-us/concept/233592"
+xbox_id: "9NK1FQJ1SMCB"
+xbox_url: "https://www.xbox.com/games/store/-/9NK1FQJ1SMCB"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

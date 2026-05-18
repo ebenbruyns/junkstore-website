@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/trash-goblin/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 7
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Spilt Milk Studios Ltd
@@ -19,10 +27,15 @@ developer: Spilt Milk Studios Ltd
 genre: Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "May 28, 2025"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese","Korean","Simplified Chinese","Thai","Traditional Chinese","Hungarian"]
+languages_audio: []
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"64","name":"Adjustable Text Size"},{"id":"67","name":"Camera Comfort"},{"id":"68","name":"Custom Volume Controls"},{"id":"78","name":"Adjustable Difficulty"},{"id":"76","name":"Mouse Only Option"},{"id":"74","name":"Playable without Timed Input"},{"id":"69","name":"Stereo Sound"},{"id":"65","name":"Subtitle Options"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9½ Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Special:Search?search=24078
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/trash-goblin/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "18619"
+opencritic_url: "https://opencritic.com/game/18619/-"
+opencritic_score: 69
+opencritic_review_count: 15
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10016826"
+playstation_url: "https://store.playstation.com/en-us/concept/10016826"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: 
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A cosy and moreish fantasy shop sim where you uncover, clean, upcycle and sell a vast variety of trinkets - both invaluable and unlovable - to a diverse cast of fascinating customers across a colourful fantasy city. Think Potionomics meets PowerWash Simulator, with a unique protagonist!
+A wholesome, cosy shopkeeping game with no pressures, no stress, and endless good vibes! Uncover and clean trinkets then upcycle them to sell to endless colourful, quirky customers. Spend your savings to upgrade your shop, buy better tools, plus expand and customise your space.

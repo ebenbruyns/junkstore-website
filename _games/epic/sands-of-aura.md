@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/sands-of-aura/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Freedom Games
@@ -19,10 +27,15 @@ developer: Chashu Entertainment
 genre: Action, RPG, Adventure
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "October 21, 2021"
 game_modes: ["Single Player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+size: "19736 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "25 hrs"
 hltb_main_extra: "39 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sands_of_Aura"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/sands-of-aura/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15749"
+opencritic_url: "https://opencritic.com/game/15749/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A powerful spell has turned a lush world into a sea of liquid sand. You must navigate between the ruins – delving deep into dungeons, fighting off the evil that lurks within them, acquiring powerful equipment, and uncovering the history beneath the sand.
+Sands of Aura is an open-world adventure set in a world buried beneath a sea of sand. Sail across the sandseas to return life to a dying world in an unforgettable experience that is equal parts engaging story and unrelenting, souls-like combat.

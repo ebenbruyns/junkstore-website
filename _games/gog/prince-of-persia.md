@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/prince-of-persia/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.71
+protondb_total: 49
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Ubisoft Entertainment
 developer: Ubisoft Montreal
 genre: Adventure, Platform, Puzzle
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: T (ESRB)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Mild Language, Mild Suggestive Themes, Violence"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "December 2, 2008"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Controller support","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain"]
+languages_audio: []
 tags_structured: []
+size: "7242 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11 hrs"
 hltb_main_extra: "14 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/prince_of_persia"
 protondb_url: "https://www.protondb.com/app/19980"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prince_of_Persia_%282008%29"
-metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/prince-of-persia?ftag=MCD-06-10aaa1f"
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/prince-of-persia-2008/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Keyboard & mouse controls."

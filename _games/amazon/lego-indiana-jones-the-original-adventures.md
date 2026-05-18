@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/lego-indiana-jones-the-original-adventures/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "yellow"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.67
+protondb_total: 45
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: LucasArts, Feral Interactive
 developer: "Traveller's Tales, Robosoft Technologies"
 genre: Adventure, Platform, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence"},"pegi":{"rating":"7","descriptors":"Contains depictions of violence"},"usk":{"rating":"6"},"bbfc":{"rating":"U"},"oflc":{"rating":"PG","descriptors":"Mild violence"}}
 release_date: "June 2, 2008"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"40845","name":"Partial Controller Support"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"107","name":"Family Friendly"},{"id":"297","name":"LEGO"}]
+size: ""
+franchise_siblings: [{"rawg_id":5606,"slug":"lego-indiana-jones-2","name":"LEGO Indiana Jones 2: The Adventure Continues"}]
+franchise_slug: "lego-indiana-jones|lego-indiana-jones-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9 hrs"
 hltb_main_extra: "14 hrs"
@@ -66,8 +82,22 @@ store_url: ""
 protondb_url: "https://www.protondb.com/app/32330"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_Indiana_Jones:_The_Original_Adventures"
-metacritic_score: 78
-metacritic_url: "https://www.metacritic.com/game/pc/lego-indiana-jones-the-original-adventures?ftag=MCD-06-10aaa1f"
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/lego-indiana-jones-the-original-adventures/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "You need to install DirectX dependency. This can be done from the cog menu > Installation > Dependencies > DirectX.  You also need to map so keys beyond what is done with keyboard and mouse configs."

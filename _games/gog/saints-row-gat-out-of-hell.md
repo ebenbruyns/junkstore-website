@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/saints-row-gat-out-of-hell/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.23
+protondb_total: 33
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Deep Silver
 developer: High Voltage Software, Volition
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Partial Nudity, Sexual Themes, Strong Language, Violence"},"pegi":{"rating":"16","descriptors":"Bad Language, Violence, Online Gameplay"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong violence, Coarse language, Online interactivity"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Drogas lícitas"}}
 release_date: "January 20, 2015"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"8","name":"First-Person"},{"id":"149","name":"Third Person"},{"id":"9","name":"Online Co-Op"},{"id":"4","name":"Funny"},{"id":"26","name":"Gore"},{"id":"37","name":"Sandbox"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"150","name":"Third-Person Shooter"},{"id":"336","name":"controller support"},{"id":"192","name":"Mature"},{"id":"337","name":"overlay"},{"id":"334","name":"achievements"},{"id":"148","name":"Dark Humor"},{"id":"187","name":"Demons"},{"id":"338","name":"cloud saves"}]
+size: "5126 MB"
+franchise_siblings: [{"rawg_id":650607,"slug":"saints-row-2022","name":"Saints Row (2022)"},{"rawg_id":3931,"slug":"saints-row-iv","name":"Saints Row IV"},{"rawg_id":4386,"slug":"saints-row-the-third","name":"Saints Row: The Third"},{"rawg_id":4599,"slug":"saints-row-2","name":"Saints Row 2"},{"rawg_id":28478,"slug":"saints-row","name":"Saints Row"}]
+franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-hell|saints-row-iv|saints-row-the-third"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "8 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/saints_row_gat_out_of_hell"
 protondb_url: "https://www.protondb.com/app/301910"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row%3A_Gat_out_of_Hell"
-metacritic_score: 66
-metacritic_url: "https://www.metacritic.com/game/pc/saints-row-gat-out-of-hell?ftag=MCD-06-10aaa1f"
+metacritic_score: 64
+metacritic_url: "https://www.metacritic.com/game/saints-row-gat-out-of-hell/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "128"
+opencritic_url: "https://opencritic.com/game/128/-"
+opencritic_score: 67
+opencritic_review_count: 69
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

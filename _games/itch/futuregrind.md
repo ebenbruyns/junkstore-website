@@ -7,22 +7,35 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/futuregrind/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Milkbag Games
 developer: Milkbag Games
 genre: Indie, Platform, Sport, Arcade, Racing
 franchise: 
-age_rating_summary: 
+age_rating_summary: E (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "January 22, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3½ Hours"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FutureGrind"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/futuregrind/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1620"
+opencritic_url: "https://opencritic.com/game/1620/-"
+opencritic_score: 76
+opencritic_review_count: 24
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/overcooked-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: "GE-Proton7-55"
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.85
+protondb_total: 79
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Team17
@@ -19,10 +27,15 @@ developer: Ghost Town Games
 genre: Strategy, Indie, Arcade, Simulator, Tactical
 franchise: "Overcooked!"
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"6"}}
 release_date: "August 7, 2018"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Korean","Polish","Portuguese - Brazil","Traditional Chinese","Russian"]
+languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+size: "6937 MB"
+franchise_siblings: [{"rawg_id":517399,"slug":"overcooked-all-you-can-eat","name":"Overcooked! All You Can Eat"},{"rawg_id":2115,"slug":"overcooked","name":"Overcooked"}]
+franchise_slug: "overcooked|overcooked-2|overcooked-all-you-can-eat"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "7 hrs"
 hltb_main_extra: "11.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/728880"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Overcooked%21_2"
 metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/overcooked!-2?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/overcooked-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "6225"
+opencritic_url: "https://opencritic.com/game/6225/-"
+opencritic_score: 82
+opencritic_review_count: 108
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "BVJLKDG2TX8H"
+xbox_url: "https://www.xbox.com/games/store/-/BVJLKDG2TX8H"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Overcooked returns with a brand-new helping of chaotic cooking action! Journey back to the Onion Kingdom and assemble your team of chefs in classic couch co-op or online play for up to four players. Hold onto your aprons… it’s time to save the world again!
+Overcooked returns with a brand-new helping of chaotic cooking action! Journey back to the Onion Kingdom and assemble your team of chefs in classic couch co-op or online play for up to four players. Hold onto your aprons … it’s time to save the world (again!)

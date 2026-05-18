@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/samorost-3/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.76
+protondb_total: 31
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Amanita Design
@@ -19,10 +27,15 @@ developer: Amanita Design
 genre: Puzzle, Adventure, Indie
 franchise: Samorost
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "January 23, 2025"
 game_modes: ["Single-player"]
-languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Arabic*","Portuguese - Brazil*","Bulgarian*","Danish*","Finnish*"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Portuguese - Brazil","Bulgarian","Danish","Finnish","Dutch","Japanese","Korean","Hungarian","Norwegian","Polish","Portuguese - Portugal","Romanian","Russian","Thai","Traditional Chinese","Turkish","Ukrainian","Simplified Chinese","Czech","Greek","Swedish"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Portuguese - Brazil","Bulgarian","Danish","Finnish","Dutch","Japanese","Korean","Hungarian","Norwegian","Polish","Portuguese - Portugal","Romanian","Russian","Thai","Traditional Chinese","Turkish","Ukrainian","Simplified Chinese","Czech","Greek","Swedish"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
+size: "957 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/421120"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Samorost_3"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/samorost-3?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/samorost-3/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "2373"
+opencritic_url: "https://opencritic.com/game/2373/-"
+opencritic_score: 78
+opencritic_review_count: 19
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "You need to toggle off a config, follow this path and toggle off: Game screen > Cog > Proton > Set Steam Compatibility Library Paths (toggle off for this game)."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Samorost 3 is an exploration adventure and puzzle game from the award-winning creators of Machinarium and Botanicula. Travel across space to nine unique worlds teeming with colorful challenges, creatures and surprises to discover, brought to life with beautiful artwork, sound and music.
+Samorost 3 follows a curious space gnome who uses the powers of a magic flute to travel across the cosmos in search of its mysterious origins. Visit nine unique and alien worlds teeming with colorful challenges, creatures and surprises to discover.

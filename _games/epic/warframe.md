@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/warframe/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.81
+protondb_total: 1541
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Digital Extremes
 developer: Digital Extremes
 genre: Action, RPG, Shooter
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Language"},"pegi":{"rating":"18","descriptors":"Violence, Online Gameplay"},"usk":{"rating":"16"},"kgrb":{"rating":"18","descriptors":"Violence"},"dejus":{"rating":"16","descriptors":"Violência"}}
 release_date: "December 11, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English*","German","French","Italian","Korean","Spanish - Spain","Simplified Chinese","Russian","Japanese","Polish"]
+languages: ["English","German","French","Italian","Korean","Spanish - Spain","Simplified Chinese","Russian","Japanese","Polish","Portuguese - Brazil","Traditional Chinese","Turkish","Ukrainian","Thai"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1141","name":"Free to Play"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -66,8 +82,22 @@ store_url: "https://www.pcgamingwiki.com/wiki/Warframe"
 protondb_url: "https://www.protondb.com/app/230410"
 protondb_report_url: ""
 pcgamingwiki_url: "https://store.epicgames.com/en-US/p/warframe"
-metacritic_score: 69
-metacritic_url: "https://www.metacritic.com/game/pc/warframe?ftag=MCD-06-10aaa1f"
+metacritic_score: 64
+metacritic_url: "https://www.metacritic.com/game/warframe/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "319"
+opencritic_url: "https://opencritic.com/game/319/-"
+opencritic_score: 73
+opencritic_review_count: 37
+twitch_id: "66170"
+twitch_url: ""
+playstation_id: "205342"
+playstation_url: "https://store.playstation.com/en-us/concept/205342"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Warframe situates players as members of the Tenno race, newly awoken after years of cryo-sleep into a solar system at war. Reborn into a corrupt era, the Tenno are sought by the oppressive Grineer Empire for annihilation. Warframe armor is the key to overthrowing the Grineer by providing players with unique offensive and defensive powers to explore, upgrade and master during purpose-driven radical raids.
+Warring factions have brought the Origin System to the brink of destruction. Join the Tenno and defend an ever-expanding universe. Master your Warframe, build your Arsenal and become an unstoppable force in this genre-defining looter-shooter.

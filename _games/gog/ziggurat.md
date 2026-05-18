@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ziggurat/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.49
+protondb_total: 14
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: SOEDESCO Publishing, SOEDESCO Publishing
 developer: Milkstone Studios
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: PEGI 12
+age_rating_summary: e10 (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Violence"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "October 23, 2014"
-game_modes: ["Single player"]
-languages: ["English","French","German","Hungarian","Italian","Portuguese (Brazil)","Russian","Spanish","Swedish"]
-tags_structured: []
+game_modes: ["Achievements","Overlay","Single-player"]
+languages: ["English","Spanish - Spain","Hungarian","French","German","Italian","Russian","Swedish","Portuguese - Brazil","Simplified Chinese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"40850","name":"Steam Leaderboards"},{"id":"11669","name":"stats"},{"id":"468","name":"role-playing"},{"id":"5","name":"Replay Value"},{"id":"639","name":"Roguelike"},{"id":"131","name":"Fast-Paced"},{"id":"82","name":"Magic"},{"id":"218","name":"Multiple Endings"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"334","name":"achievements"},{"id":"98","name":"Loot"},{"id":"196","name":"Procedural Generation"},{"id":"164","name":"Cartoony"},{"id":"124","name":"Perma Death"},{"id":"52","name":"Arena Shooter"}]
+size: "663 MB"
+franchise_siblings: [{"rawg_id":685039,"slug":"ziggurat-2","name":"Ziggurat 2"}]
+franchise_slug: "ziggurat|ziggurat-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "13.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/ziggurat"
 protondb_url: "https://www.protondb.com/app/308420"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ziggurat"
-metacritic_score: 75
-metacritic_url: "https://www.metacritic.com/game/pc/ziggurat?ftag=MCD-06-10aaa1f"
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/ziggurat/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "40"
+opencritic_url: "https://opencritic.com/game/40/-"
+opencritic_score: 78
+opencritic_review_count: 19
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

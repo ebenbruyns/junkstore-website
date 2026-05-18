@@ -7,11 +7,19 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/asterism/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Crystal Game Works
@@ -19,10 +27,15 @@ developer: Crystal Game Works
 genre: Role-playing (RPG), Adventure, Indie, Visual Novel
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "December 31, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"25","name":"Space"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"46","name":"Surreal"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"116","name":"2.5D"},{"id":"572","name":"Emotional"},{"id":"91686","name":"Family Sharing"},{"id":"288","name":"Interactive Fiction"},{"id":"774","name":"nature"},{"id":"42410","name":"LGBTQ+"},{"id":"207","name":"Rhythm"},{"id":"84","name":"Abstract"},{"id":"174","name":"Audio Production"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
 hltb_completionist: "--"
-hltb_url: "https://howlongtobeat.com/game/105196"
+hltb_url: "https://howlongtobeat.com/game/162664"
 
 # Links
 store_url: "https://crystalgameworks.itch.io/asterism"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Asterism"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/asterism/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

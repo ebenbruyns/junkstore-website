@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/cayne/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.21
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: The Brotherhood Games
 developer: The Brotherhood Games
 genre: Adventure, Indie, Point-and-click
 franchise: 
-age_rating_summary: 
+age_rating_summary: M (ESRB)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Strong Language"},"dejus":{"rating":"14","descriptors":"Violência, Medo, Linguagem imprópria"}}
 release_date: "January 24, 2017"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","German","Russian","Italian","Polish","Turkish","Spanish - Spain","Hungarian","Japanese","Portuguese - Brazil","Portuguese - Portugal"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"189","name":"Female Protagonist"},{"id":"34","name":"Violent"},{"id":"79","name":"Free to Play"},{"id":"141","name":"Point & Click"},{"id":"99","name":"Isometric"}]
+size: "2027 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "2.5 hrs"
 hltb_main_extra: "3 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cayne"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/cayne?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "3810"
+opencritic_url: "https://opencritic.com/game/3810/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

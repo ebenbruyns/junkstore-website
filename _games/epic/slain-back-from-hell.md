@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/slain-back-from-hell/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.38
+protondb_total: 7
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Digerati
@@ -19,10 +27,15 @@ developer: Steel Mantis
 genre: Action, Platformer, Indie
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Nudez, Linguagem imprópria"}}
 release_date: "October 6, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: [{"rawg_id":29228,"slug":"valfaris","name":"Valfaris"}]
+franchise_slug: "slain-back-from-hell|valfaris"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-10-05T15:00:00.000Z","end":"2022-10-12T15:00:00.000Z","type":null,"id":"e5267e621ed14b84829c82a69e289c8e"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "8.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/slain-aea303"
 protondb_url: "https://www.protondb.com/app/369070"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Slain%3A_Back_from_Hell"
-metacritic_score: 74
-metacritic_url: "https://www.metacritic.com/game/pc/slain-back-from-hell?ftag=MCD-06-10aaa1f"
+metacritic_score: 40
+metacritic_url: "https://www.metacritic.com/game/slain/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "3102"
+opencritic_url: "https://opencritic.com/game/3102/-"
+opencritic_score: 63
+opencritic_review_count: 34
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Slain: Back from Hell. A heavy metal inspired arcade combat with puzzle elements and gore galore. Stunning visuals and true old school gameplay accompanied by the most metal soundtrack you've ever heard.
+A heavy metal inspired arcade combat with puzzle elements and gore galore. Stunning visuals and true old school gameplay accompanied by the most metal soundtrack you've ever heard.

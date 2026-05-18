@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/marvel-rivals/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.79
+protondb_total: 1552
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: UK Netease
@@ -19,10 +27,15 @@ developer: NetEase Games
 genre: Action, Shooter
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"kgrb":{"rating":"15","descriptors":"폭력성, 공포"},"csrr":{"rating":"C12","descriptors":"暴力,不當言語"},"dejus":{"rating":"18","descriptors":"Violência, Conteúdo sexual"}}
 release_date: "December 6, 2024"
 game_modes: ["Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Russian","Turkish","Thai","Simplified Chinese","Traditional Chinese","Spanish - Latin America","Korean","Japanese","Polish","Portuguese - Brazil","Arabic"]
+languages_audio: ["English","Simplified Chinese","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Marvel_Rivals"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/marvel-rivals/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17210"
+opencritic_url: "https://opencritic.com/game/17210/-"
+opencritic_score: 78
+opencritic_review_count: 61
+twitch_id: "1264310518"
+twitch_url: ""
+playstation_id: "10010451"
+playstation_url: "https://store.playstation.com/en-us/concept/10010451"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. Install C++ runtime from sliders menu - ./dependency/VC_resist.x64.exe & set ./MarvelRivals_Launcher.exe from then sliders menue."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Marvel Rivals is an hero shooter video game developed and published by NetEase Games in collaboration with Marvel Games. The game is free-to-play with a current line up of 33 characters from Marvel Comics.
+Marvel Rivals is a Super Hero Team-Based PVP Shooterr! Assemble an all-star Marvel squad, devise countless strategies by combining powers to form unique Team-Up skills and fight in destructible, ever-changing battlefields across the continually evolving Marvel universe!

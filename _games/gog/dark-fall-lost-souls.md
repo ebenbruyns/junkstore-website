@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dark-fall-lost-souls/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.53
+protondb_total: 8
+protondb_confidence: "moderate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Iceberg Interactive
 developer: Darkling Room
 genre: adventure, indie, point-and-click
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: 16 (PEGI) · 16 (USK)
+age_ratings: {"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"16"},"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "December 4, 2009"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","Italian","German"]
+languages_audio: ["English","French","Italian","German"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
+size: "1267 MB"
+franchise_siblings: [{"rawg_id":10644,"slug":"dark-fall-2-lights-out","name":"Dark Fall 2: Lights Out"},{"rawg_id":10640,"slug":"dark-fall-the-journal","name":"Dark Fall: The Journal"}]
+franchise_slug: "dark-fall-2-lights-out|dark-fall-3-lost-souls|dark-fall-the-journal"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "9.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/46750"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dark_Fall_3%3A_Lost_Souls"
 metacritic_score: 75
-metacritic_url: "https://www.metacritic.com/game/pc/dark-fall-3-lost-souls?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/dark-fall-3-lost-souls/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

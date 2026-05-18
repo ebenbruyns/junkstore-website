@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/aerial-knights-never-yield/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Headup
@@ -19,10 +27,15 @@ developer: Aerial_Knight
 genre: Action, Indie
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "May 19, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Japanese","French","German","Korean","Simplified Chinese","Traditional Chinese","Spanish - Spain"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-02-28T15:00:00.000Z","end":"2024-03-06T15:00:00.000Z","type":null,"id":"2fecb1793ce446408cd869611400a797"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1.5 hrs"
 hltb_main_extra: "2.4 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aerial_Knight%27s_Never_Yie
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/aerialknights-never-yield/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11393"
+opencritic_url: "https://opencritic.com/game/11393/-"
+opencritic_score: 69
+opencritic_review_count: 27
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002196"
+playstation_url: "https://store.playstation.com/en-us/concept/10002196"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Survive a futuristic Tokyo style Detroit in this 3D runner that tells the story of Wally who has uncovered the evidence that can change his city forever. Explore a game world with a dope-tastic soundtrack featuring the authentic sounds of Detroit Artist.
+Take the role of Wally. A mysterious character that has recovered what was taken from him. Hopefully, you're fast enough to outrun your enemies.   Run, Jump, Slide or Dash for acrobatic variants leading to dope combinations and avoid the challenges that await.

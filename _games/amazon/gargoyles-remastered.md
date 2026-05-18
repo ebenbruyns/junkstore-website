@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/gargoyles-remastered/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Disney
@@ -19,10 +27,15 @@ developer: Empty Clip Studios
 genre: Action, Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "October 19, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"40","name":"Dark Fantasy"},{"id":"1465","name":"combat"},{"id":"113","name":"Side Scroller"},{"id":"406","name":"Story"},{"id":"305","name":"Linear"},{"id":"243","name":"1990's"},{"id":"334","name":"achievements"},{"id":"258","name":"Hand-drawn"},{"id":"981","name":"battle"},{"id":"51","name":"Destruction"},{"id":"164","name":"Cartoony"},{"id":"581","name":"Epic"},{"id":"295","name":"Soundtrack"},{"id":"204","name":"Gothic"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"151","name":"Modern"},{"id":"2232","name":"journey"},{"id":"1500","name":"immersive"},{"id":"2075","name":"sound"},{"id":"307","name":"Gaming"},{"id":"7207","name":"graphics"},{"id":"3718","name":"effects"},{"id":"9659","name":"rewind"}]
+size: "1.77 GB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2.5 hrs"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gargoyles_Remastered"
 metacritic_score: 58
 metacritic_url: "https://www.metacritic.com/game/gargoyles-remastered/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15682"
+opencritic_url: "https://opencritic.com/game/15682/-"
+opencritic_score: 54
+opencritic_review_count: 24
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

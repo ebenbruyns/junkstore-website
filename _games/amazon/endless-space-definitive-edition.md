@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/endless-space-definitive-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.75
+protondb_total: 74
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Sega
 developer: Amplitude Studios
 genre: Strategy, Turn-based strategy (TBS)
 franchise: 
-age_rating_summary: 
+age_rating_summary: 7 (PEGI) · 6 (USK)
+age_ratings: {"pegi":{"rating":"7","descriptors":"Online, Violence"},"usk":{"rating":"6"}}
 release_date: "July 4, 2012"
 game_modes: ["Single player","Multiplayer"]
-languages: ["English*","French","German","Polish","Italian","Russian","Spanish - Spain*languages with full audio support"]
-tags_structured: []
+languages: ["English","French","German","Polish","Italian","Russian","Spanish - Spain"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"25","name":"Space"},{"id":"102","name":"Turn-Based"},{"id":"5","name":"Replay Value"},{"id":"167","name":"Futuristic"},{"id":"172","name":"Aliens"},{"id":"101","name":"Turn-Based Strategy"},{"id":"100","name":"Grand Strategy"},{"id":"212","name":"4X"},{"id":"211","name":"Diplomacy"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "16 hrs"
 hltb_main_extra: "41 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/208140"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Endless_Space"
 metacritic_score: 77
-metacritic_url: "https://www.metacritic.com/game/pc/endless-space?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/endless-space/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works flawlessly once you change the controller mapping.

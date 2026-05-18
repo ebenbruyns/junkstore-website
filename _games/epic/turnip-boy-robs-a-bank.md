@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/turnip-boy-robs-a-bank/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.82
+protondb_total: 17
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Graffiti Games
@@ -19,10 +27,15 @@ developer: Snoozy Kazoo
 genre: Shooter, Rogue-Lite, Indie
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Atos criminosos, Violência"}}
 release_date: "January 18, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Latin America","Korean","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"21136","name":"Playful Visuals"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+size: "1042 MB"
+franchise_siblings: [{"rawg_id":517384,"slug":"turnip-boy-commits-tax-evasion","name":"Turnip Boy Commits Tax Evasion"}]
+franchise_slug: "turnip-boy-commits-tax-evasion|turnip-boy-robs-a-bank"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-03-05T16:00:00.000Z","end":"2026-03-12T16:00:00.000Z","type":null,"id":"68d9f0e261464ba284e10418d98532ea"},{"start":"2026-03-05T16:00:00.000Z","end":"2026-03-12T15:00:00.000Z","type":null,"id":"68d9f0e261464ba284e10418d98532ea"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/turnip-boy-robs-a-bank-3fae0e"
 protondb_url: "https://www.protondb.com/app/2097230"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Turnip_Boy_Robs_a_Bank"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/turnip-boy-robs-a-bank/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16036"
+opencritic_url: "https://opencritic.com/game/16036/-"
+opencritic_score: 78
+opencritic_review_count: 45
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Turnip Boy is back! This time he’s teaming up with the fearsome Pickled Gang to plan and execute the weirdest heist of all time. Shake down hostages, steal precious valuables, battle the fuzz, and use wacky tools bought off the dark web to move further into the vaults of the Botanical Bank.
+Turnip Boy is back! This time he’s teaming up with the fearsome Pickled Gang to plan and execute the weirdest heist of all time.

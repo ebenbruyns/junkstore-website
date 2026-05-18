@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fetish-locator-week-one/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: ViNovella Games
@@ -19,10 +27,15 @@ developer: ViNovella Games
 genre: Visual Novel
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"18","descriptors":"Violência, Medo, Atos criminosos, Linguagem imprópria, Conteúdo sexual, Nudez, Sexo Explícito, Drogas lícitas"}}
 release_date: "July 27, 2020"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Overlay","Single-player"]
+languages: ["English","Italian","German","Spanish - Spain","Spanish - Latin America","Simplified Chinese","Portuguese - Brazil","Malay","Turkish","Korean","French"]
+languages_audio: []
 tags_structured: []
+size: "1896 MB"
+franchise_siblings: [{"rawg_id":684945,"slug":"fetish-locator-week-two","name":"Fetish Locator Week Two"},{"rawg_id":386737,"slug":"fetish-locator","name":"Fetish Locator"}]
+franchise_slug: "fetish-locator|fetish-locator-week-one-extend|fetish-locator-week-two"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "5.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fetish_Locator:_Week_One"
 metacritic_score: 
 metacritic_url: ""
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

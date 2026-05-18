@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/tomb-raider-i-ii-iii-remastered/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.87
+protondb_total: 54
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Aspyr Media
@@ -19,10 +27,16 @@ developer: Aspyr Media
 genre: Adventure, Strategy, Puzzle, Shooter
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Drogas lícitas"}}
 release_date: "February 14, 2024"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Single-player"]
+languages: ["English","French","German","Russian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Polish","Portuguese - Brazil","Swedish","Turkish","Ukrainian","Slovak","Japanese","Simplified Chinese","Italian","Spanish - Spain"]
+languages_audio: ["English","French","German","Russian","Japanese"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"571","name":"3D"},{"id":"40937","name":"Steam Trading Cards"},{"id":"271","name":"Remake"},{"id":"59643","name":"Протагонистка"},{"id":"570","name":"Old School"},{"id":"78619","name":"Ремейк"}]
+size: "4365129037
+"
+franchise_siblings: [{"rawg_id":990490,"slug":"tomb-raider-iv-vi-remastered","name":"Tomb Raider IV•V•VI Remastered"},{"rawg_id":998261,"slug":"tomb-raider-i-vi-remastered","name":"Tomb Raider I-VI Remastered"}]
+franchise_slug: "tomb-raider-i-iii-remastered|tomb-raider-i-vi-remastered|tomb-raider-iv-vi-remastered"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +69,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "38.5 hrs"
 hltb_main_extra: "68 hrs"
@@ -66,8 +83,22 @@ store_url: "https://www.gog.com/en/game/tomb_raider_i_to_iii_remastered"
 protondb_url: "https://www.protondb.com/app/2478970"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider_I-III_Remastered"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/tomb-raider-i-iii-remastered-starring-lara-croft/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15618"
+opencritic_url: "https://opencritic.com/game/15618/-"
+opencritic_score: 75
+opencritic_review_count: 95
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10008568"
+playstation_url: "https://store.playstation.com/en-us/concept/10008568"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. May need to tweak key bindings."

@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/thief-ii-the-metal-age/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.56
+protondb_total: 53
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Square Enix, Eidos Interactive, Eidos Montréal
 developer: Looking Glass Studios
 genre: Adventure, Shooter, Simulator
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Animated Blood, Animated Violence"},"pegi":{"rating":"12"},"usk":{"rating":"16","descriptors":"Medium level animated violence"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"M"},"dejus":{"rating":"18"}}
 release_date: "March 21, 2000"
-game_modes: ["Single player"]
+game_modes: ["Cloud saves","Single-player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"40","name":"Dark Fantasy"},{"id":"66","name":"Medieval"},{"id":"154","name":"Steampunk"},{"id":"284","name":"Cult Classic"},{"id":"42473","name":"Immersive Sim"}]
+size: "824 MB"
+franchise_siblings: [{"rawg_id":3766,"slug":"thief","name":"Thief"},{"rawg_id":22846,"slug":"thief-3-deadly-shadows","name":"Thief 3: Deadly Shadows"},{"rawg_id":31777,"slug":"thief-the-dark-project","name":"Thief: The Dark Project"}]
+franchise_slug: "thief|thief-3-deadly-shadows|thief-ii-the-metal-age|thief-the-dark-project"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "20 hrs"
 hltb_main_extra: "26 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/211740"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thief_II%3A_The_Metal_Age"
 metacritic_score: 87
-metacritic_url: "https://www.metacritic.com/game/pc/thief-ii-the-metal-age?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/thief-ii-the-metal-age/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

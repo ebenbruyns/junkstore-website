@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/magrunner-dark-pulse/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.68
+protondb_total: 18
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Focus Entertainment
 developer: Frogwares
 genre: adventure, indie, puzzle, shooter
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "June 1, 2013"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","German","French","Italian","Korean","Spanish - Spain","Russian","Polish","Japanese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"226","name":"Cyberpunk"},{"id":"47","name":"Lovecraftian"}]
+size: "2940 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "8.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/209630"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Magrunner%3A_Dark_Pulse"
 metacritic_score: 70
-metacritic_url: "https://www.metacritic.com/game/pc/magrunner-dark-pulse?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/magrunner-dark-pulse/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10071"
+opencritic_url: "https://opencritic.com/game/10071/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

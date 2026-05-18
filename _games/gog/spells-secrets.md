@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/spells-secrets/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.21
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: rokaplay
 developer: Alchemist Interactive
 genre: Adventure, Indie, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: 6 (USK)
+age_ratings: {"usk":{"rating":"6"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 9, 2023"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
 languages: ["English","German","French","Italian","Spanish - Spain","Japanese","Simplified Chinese"]
+languages_audio: []
 tags_structured: []
+size: "1735 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11 hrs"
 hltb_main_extra: "13 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15865"
+opencritic_url: "https://opencritic.com/game/15865/-"
+opencritic_score: 70
+opencritic_review_count: 7
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10005788"
+playstation_url: "https://store.playstation.com/en-us/concept/10005788"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

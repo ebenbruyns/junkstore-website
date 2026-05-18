@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/cave-story/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.76
+protondb_total: 31
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Nicalis, Inc.
@@ -19,10 +27,15 @@ developer: Nicalis, Inc.
 genre: Action, Adventure, Platformer
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "December 3, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
+size: ""
+franchise_siblings: [{"rawg_id":707254,"slug":"cave-storys-secret-santa","name":"Cave Story's Secret Santa"},{"rawg_id":27100,"slug":"cave-story-3d","name":"Cave Story 3D"},{"rawg_id":37581,"slug":"cave-story-doukutsu-monogatari","name":"Cave Story: Doukutsu Monogatari"}]
+franchise_slug: "cave-story|cave-story-3d|cave-story-doukutsu-monogatari|cave-storys-secret-santa"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-08-30T15:00:00.000Z","end":"2023-09-06T15:00:00.000Z","type":null,"id":"be3de140fc3749b28215da1626cce8bc"},{"start":"2020-12-02T15:00:00.000Z","end":"2020-12-09T15:00:00.000Z","type":null,"id":"be3de140fc3749b28215da1626cce8bc"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "6.3 hrs"
 hltb_main_extra: "8.6 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/cave-story-plus"
 protondb_url: "https://www.protondb.com/app/200900"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cave_Story%2B"
-metacritic_score: 83
-metacritic_url: "https://www.metacritic.com/game/pc/cave-story-plus?ftag=MCD-06-10aaa1f"
+metacritic_score: 89
+metacritic_url: "https://www.metacritic.com/game/cave-story/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4442"
+opencritic_url: "https://opencritic.com/game/4442/-"
+opencritic_score: 88
+opencritic_review_count: 16
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A fun epic 2D platformer side scroller that brings a refreshing look to not only retro games, but this is what a "Remastered Edition" looks like.  Now with multiple endings.
+Arguably the most well-known indie game of all time, Cave Story+ features an original story brimming with personality, mystery and fast-paced fun. Run, jump, shoot, fly and explore your way through a massive adventure reminiscent of classic 8 and 16-bit games!

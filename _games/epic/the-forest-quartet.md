@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-forest-quartet/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.57
+protondb_total: 5
+protondb_confidence: "low"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Bedtime Digital Games
@@ -19,10 +27,15 @@ developer: "Mads & Friends"
 genre: Puzzle, Music, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "February 25, 2025"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Danish","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
+languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1129","name":"Music"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"39070","name":"iOS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1.5 hrs"
 hltb_main_extra: "1.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Forest_Quartet"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/the-forest-quartet/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14109"
+opencritic_url: "https://opencritic.com/game/14109/-"
+opencritic_score: 74
+opencritic_review_count: 9
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10005780"
+playstation_url: "https://store.playstation.com/en-us/concept/10005780"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

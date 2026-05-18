@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/kid-a-mnesia-exhibition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: ""
 standalone_rating: ""
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: ""
+steam_deck_category: 
 
 # Game Info
 publisher: Epic Games Publishing
@@ -19,10 +27,15 @@ developer: "Arbitrarily Good Productions, [namethemachine]"
 genre: Exploration, First Person
 franchise: 
 age_rating_summary: 
+age_ratings: {}
 release_date: "November 18, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-11-17T15:00:00.000Z","end":"2021-11-24T15:00:00.000Z","type":null,"id":"b8bf369a354e4a01b01d61d750b1bc6d"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "54 mins"
 hltb_main_extra: "1.4 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Kid_A_Mnesia_Exhibition"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/kid-a-mnesia-exhibition/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Prompted to install C++ runtime, ships with game."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Kid A Mnesia Exhibition is an upside-down digital/analogue universe created from original artwork and recordings to commemorate 21 years of Radiohead’s Kid A and Amnesiac.
+An upside-down digital/analogue universe created from original artwork and recordings to commemorate 21 years of Radiohead’s Kid A and Amnesiac. Coming in November 2021. Add it to your wishlist now.

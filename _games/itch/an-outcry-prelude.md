@@ -7,11 +7,19 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/an-outcry-prelude/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.21
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Quinn K.
@@ -19,10 +27,15 @@ developer: Jack King-Spooner, Quinn K.
 genre: Indie, Visual Novel
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Temas sensíveis, Medo"}}
 release_date: "April 9, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"79","name":"Free to Play"},{"id":"122","name":"Pixel Graphics"},{"id":"121","name":"Character Customization"},{"id":"5","name":"Replay Value"},{"id":"66","name":"Medieval"},{"id":"101","name":"Turn-Based Strategy"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"98","name":"Loot"},{"id":"175","name":"Turn-Based Combat"},{"id":"112","name":"Minimalist"},{"id":"272","name":"Inventory Management"},{"id":"231","name":"Strategy RPG"},{"id":"14194","name":"deckbuilding"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 Mins"
 hltb_main_extra: ""
 hltb_completionist: "7 Mins"
-hltb_url: "https://howlongtobeat.com/game/105225"
+hltb_url: "https://howlongtobeat.com/game/104583"
 
 # Links
 store_url: "https://quinnk.itch.io/an-outcry"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/an-outcry/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12565"
+opencritic_url: "https://opencritic.com/game/12565/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first time."

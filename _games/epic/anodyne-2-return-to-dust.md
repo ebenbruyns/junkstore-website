@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/anodyne-2-return-to-dust/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Ratalaika Games
@@ -19,10 +27,15 @@ developer: Analgesic Productions, Melos Han-Tani, Marina Kittaka
 genre: Exploration, Adventure, Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Medo"}}
 release_date: "February 28, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Simplified Chinese","Portuguese - Brazil","French","German","Spanish - Spain","Spanish - Latin America","Japanese","Russian","Traditional Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "8.2 hrs"
 hltb_main_extra: "10.3 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Anodyne_2:_Return_to_Dust"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/anodyne-2-return-to-dust/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8138"
+opencritic_url: "https://opencritic.com/game/8138/-"
+opencritic_score: 72
+opencritic_review_count: 28
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10001776"
+playstation_url: "https://store.playstation.com/en-us/concept/10001776"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: Works out of the box on the Decky plugin version.
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Traverse a moody, 3D world and surreal 2D spaces, with PSX and 16-bit-influenced art styles. Play as Nova, the Nano Cleaner...
+Run, jump, and drive across vast, dreamy 3D landscapes. Shrink into surreal, 2D dungeons inside of characters' bodies. Travel the world, meet strange people, and save the world from the dangerous Nano Dust.

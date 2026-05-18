@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/super-space-club/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: GrahamOfLegend
@@ -19,10 +27,15 @@ developer: GrahamOfLegend
 genre: Action, Space, Indie
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "January 23, 2025"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1121","name":"Space"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1.5 hrs"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Super_Space_Club"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/super-space-club/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-In Super Space Club, journey alongside a group of anthropomorphic heroes as they set out to be the top-ranked defenders of the galaxy. You'll take on various missions, partake in several space dogfights, and jam out to lo-fi beats in this chill, arcade-style shooter.
+Super Space Club is a lo-fi arcade space shooter to chill to. Defend a vibrant galaxy as a club of misfit heroes and battle endless waves of spacecrafts to the tune of atmospheric beats. Outlast your enemies and vibe to the rhythm of the stars.

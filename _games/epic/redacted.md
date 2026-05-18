@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/redacted/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.51
+protondb_total: 19
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Krafton
@@ -19,10 +27,15 @@ developer: Striking Distance Studios
 genre: Action, Dungeon Crawler, Rogue-Lite
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "October 31, 2024"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Japanese","Korean","Simplified Chinese","Portuguese - Brazil","Spanish - Latin America"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-12-30T16:00:00.000Z","end":"2024-12-31T16:00:00.000Z","type":null,"id":"611a4122fc9940b19e26094099034c56"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10.5 hrs"
 hltb_main_extra: "17 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Redacted"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/redacted/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17554"
+opencritic_url: "https://opencritic.com/game/17554/-"
+opencritic_score: 75
+opencritic_review_count: 22
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10007288"
+playstation_url: "https://store.playstation.com/en-us/concept/10007288"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Must verify with Epic account before launch. Native controller support.

@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/beholder-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.53
+protondb_total: 12
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Alawar Entertainment, Alawar Premium
@@ -19,10 +27,15 @@ developer: Warm Lamp Games
 genre: Adventure, Strategy, Indie, Simulator
 franchise: 
 age_rating_summary: PEGI 16
+age_ratings: {"dejus":{"rating":"14","descriptors":"Drogas ilícitas, Linguagem imprópria, Atos criminosos"}}
 release_date: "October 22, 2018"
-game_modes: ["Single player"]
-languages: ["English*","Simplified Chinese*","Russian*","German","Korean","Polish","Spanish - Spain","Turkish*languages with full audio support"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","Simplified Chinese","Russian","German","Korean","Polish","Spanish - Spain","Turkish"]
+languages_audio: ["English","Simplified Chinese","Russian"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"34","name":"Violent"}]
+size: "1276 MB"
+franchise_siblings: [{"rawg_id":678695,"slug":"beholder-3","name":"Beholder 3"},{"rawg_id":10090,"slug":"beholder","name":"Beholder"}]
+franchise_slug: "beholder|beholder-2|beholder-3"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "13 hrs"
 hltb_main_extra: "14.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Beholder_2"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/beholder-2?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7101"
+opencritic_url: "https://opencritic.com/game/7101/-"
+opencritic_score: 82
+opencritic_review_count: 8
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

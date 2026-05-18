@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/dreamscaper/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.62
+protondb_total: 16
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: indie.io
@@ -19,10 +27,15 @@ developer: Afterburner Studios
 genre: Action, Rogue-Lite, Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "August 5, 2021"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+size: "2353 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "15 hrs"
 hltb_main_extra: "28 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/dreamscaper"
 protondb_url: "https://www.protondb.com/app/1040420"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dreamscaper"
-metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/dreamscaper?ftag=MCD-06-10aaa1f"
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/dreamscaper/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10004"
+opencritic_url: "https://opencritic.com/game/10004/-"
+opencritic_score: 84
+opencritic_review_count: 38
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: "515cb65c-bcd7-4999-b568-f52c46794826"
+geforcenow_url: "https://play.geforcenow.com/games?game-id=515cb65c-bcd7-4999-b568-f52c46794826"
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-By night, delve deep into your subconscious and discover powerful artifacts to conquer your nightmares. By day, explore the city of Redhaven and build relationships to unlock the power of your dreams. DREAM. DIE. WAKE. REPEAT.
+By night, delve deep into your subconscious and discover powerful artifacts to conquer your nightmares. By day, explore the city of Red Haven and build relationships to unlock the power of your dreams. DREAM. DIE. WAKE. REPEAT.

@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/tr-berbrook/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 9
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: WhisperGames, Headup Games
@@ -19,10 +27,15 @@ developer: btf
 genre: Adventure, Indie, Puzzle, Point-and-click
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "March 12, 2019"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","German","French","Spanish - Spain","Russian","Ukrainian","Japanese","Korean","Polish","Traditional Chinese","Czech","Simplified Chinese"]
+languages_audio: ["English","German"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"141","name":"Point & Click"},{"id":"3394","name":"germany"},{"id":"13593","name":"1960s"}]
+size: "2215 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "5.5 hrs"
 hltb_main_extra: "6 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/truberbrook"
 protondb_url: "https://www.protondb.com/app/757300"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tr%C3%BCberbrook"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 66
+metacritic_url: "https://www.metacritic.com/game/truberbrook/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7426"
+opencritic_url: "https://opencritic.com/game/7426/-"
+opencritic_score: 65
+opencritic_review_count: 39
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Change to keyboard and mouse.

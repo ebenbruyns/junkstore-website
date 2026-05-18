@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/brothers-a-tale-of-two-sons/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.79
+protondb_total: 117
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: 505 Games
 developer: Starbreeze Studios AB
 genre: Adventure
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Crude Humor"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M"},"kgrb":{"rating":"15"},"fpb":{"rating":"13"},"dejus":{"rating":"10"}}
 release_date: "February 17, 2022"
 game_modes: ["Single player","Co-operative"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+size: "1151 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-02-16T15:00:00.000Z","end":"2022-02-23T15:00:00.000Z","type":null,"id":"751c3ae311cf48e1926233fdddae9cb8"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.1 hrs"
 hltb_main_extra: "3.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/brothers-a-tale-of-two-sons"
 protondb_url: "https://www.protondb.com/app/225080"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Brothers%3A_A_Tale_of_Two_Sons"
-metacritic_score: 90
-metacritic_url: "https://www.metacritic.com/game/pc/brothers-a-tale-of-two-sons?ftag=MCD-06-10aaa1f"
+metacritic_score: 86
+metacritic_url: "https://www.metacritic.com/game/brothers-a-tale-of-two-sons/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1867"
+opencritic_url: "https://opencritic.com/game/1867/-"
+opencritic_score: 77
+opencritic_review_count: 31
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,8 +111,6 @@ is_featured: false
 owned: true
 ---
 
-Brothers is presented from a third-person view overlooking the two brothers. The brothers are moved individually by two thumbsticks on the controller. The controller triggers also cause the respective brother to interact with the game world, such as talking to a non-player character or grabbing onto a ledge or object.
+Guide two brothers on an epic fairy tale journey from visionary Swedish film director, Josef Fares and top-tier developer Starbreeze Studios.
 
-The older brother is the stronger of the two and can pull levers or boost his younger brother to higher spaces, while the younger one can pass between narrow bars. The player progresses by manipulating the two brothers at the same time to complete various puzzles, often requiring the player to manipulate both brothers to perform differing functions (such as one distracting a hostile non-player character while the other makes their way around).
-
-Should either brother fall from a great height or get injured, the game restarts at a recent checkpoint. All of the in-game dialogue is spoken in a fictional language, thus the story is conveyed through actions, gestures and expressions.
+This is one journey you will never forget.

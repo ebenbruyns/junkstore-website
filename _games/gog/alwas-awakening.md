@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/alwas-awakening/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 7
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Elden Pixels, Mega Cat Studios
 developer: Elden Pixels
 genre: Adventure, Indie, Platform
 franchise: 
-age_rating_summary: PEGI 7
+age_rating_summary: E (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"6"},"cero":{"rating":"A"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "February 2, 2017"
-game_modes: ["Single player"]
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
 languages: ["English","Swedish","German","Spanish - Spain","Portuguese - Brazil","French","Italian","Russian"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"45","name":"2D"},{"id":"189","name":"Female Protagonist"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"40833","name":"Captions available"},{"id":"259","name":"Metroidvania"}]
+size: "104 MB"
+franchise_siblings: [{"rawg_id":455604,"slug":"alwas-legacy","name":"Alwa's Legacy"}]
+franchise_slug: "alwas-awakening|alwas-legacy"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "7 hrs"
 hltb_main_extra: "9.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/549260"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alwa%27s_Awakening"
 metacritic_score: 71
-metacritic_url: "https://www.metacritic.com/game/pc/alwas-awakening?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/alwas-awakening/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "3885"
+opencritic_url: "https://opencritic.com/game/3885/-"
+opencritic_score: 72
+opencritic_review_count: 31
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

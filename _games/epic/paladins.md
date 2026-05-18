@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/paladins/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.33
+protondb_total: 583
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Hi-Rez Studios
 developer: Hi-Rez Studios, Evil Mojo Games
 genre: Shooter
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Violence, Online Interactivity"},"nzoflc":{"rating":"M","descriptors":"Violence, Online Interactivity"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "March 24, 2020"
 game_modes: ["Co-operative","Multiplayer"]
-languages: ["English*","French","German","Spanish - Spain","Polish","Russian","Turkish","Portuguese - Brazil","Japanese*languages with full audio support"]
+languages: ["English","French","German","Spanish - Spain","Polish","Russian","Turkish","Portuguese - Brazil","Japanese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21125","name":"Competitive Community"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/paladins"
 protondb_url: "https://www.protondb.com/app/444090"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Paladins:_Champions_of_the_Realm"
-metacritic_score: 83
-metacritic_url: "https://www.metacritic.com/game/pc/paladins?ftag=MCD-06-10aaa1f"
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/paladins-champions-of-the-realm/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4540"
+opencritic_url: "https://opencritic.com/game/4540/-"
+opencritic_score: 79
+opencritic_review_count: 19
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Paladins is the ultimate fantasy team-based shooter experience, with over 50 customizable Champions fighting in 5v5 action across a diverse Realm of modes and maps!
+Join 30+ million players in Paladins, the free-to-play fantasy team-based shooter sensation. Wield guns and magic as a legendary Champion of the Realm, customizing your core set of abilities to play exactly how you want to play.

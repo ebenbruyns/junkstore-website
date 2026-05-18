@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/night-reverie/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: indienova, Somber Pixel
@@ -19,10 +27,15 @@ developer: Somber Pixel
 genre: Adventure, Indie, Puzzle
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "October 8, 2021"
 game_modes: ["Single player"]
-languages: ["English","Spanish - Latin America","Italian","Simplified Chinese","Traditional Chinese","Russian","Spanish - Spain","French","German","Japanese"]
-tags_structured: []
+languages: ["English","Spanish - Latin America","Italian","Simplified Chinese","Traditional Chinese","Russian","Spanish - Spain","French","German","Japanese","Korean","Portuguese - Brazil"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"88","name":"Cute"},{"id":"117","name":"Mystery"},{"id":"145","name":"Choices Matter"},{"id":"165","name":"Colorful"},{"id":"138","name":"Relaxing"},{"id":"46","name":"Surreal"},{"id":"572","name":"Emotional"},{"id":"295","name":"Soundtrack"},{"id":"583","name":"Narrative"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.5 hrs"
 hltb_main_extra: "3.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/night-reverie/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12256"
+opencritic_url: "https://opencritic.com/game/12256/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

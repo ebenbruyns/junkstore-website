@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/lovecrafts-untold-stories/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.66
+protondb_total: 11
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Blini Games
 developer: Blini Games
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Shooter, Arcade
 franchise: "Lovecraft's Untold Stories"
-age_rating_summary: ESRB Teen
+age_rating_summary: 16 (PEGI)
+age_ratings: {"pegi":{"rating":"16","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Violência, Atos criminosos"}}
 release_date: "January 31, 2019"
-game_modes: ["Single player"]
-languages: ["English","German","Italian","Portuguese (Brazil)","Russian","Spanish"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","Spanish - Spain","Russian","German","Italian","Portuguese - Brazil"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+size: "337 MB"
+franchise_siblings: [{"rawg_id":670705,"slug":"lovecrafts-untold-stories-2-2","name":"Lovecraft's Untold Stories 2"}]
+franchise_slug: "lovecrafts-untold-stories|lovecrafts-untold-stories-2-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5.5 hrs"
 hltb_main_extra: "28.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lovecraft%27s_Untold_Storie
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/lovecrafts-untold-stories?ftag=MCD-06-10aaa1f"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7744"
+opencritic_url: "https://opencritic.com/game/7744/-"
+opencritic_score: 73
+opencritic_review_count: 8
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Lovecraft’s Untold Stories is an action RPG with rogue-like elements. Explore, improve your skills and gear, and fight cultists and creatures from the Mythos to stop the Old Ones’ plans in randomly generated levels based on Lovecraft stories. Madness and death await you—but maybe you can delay the inevitable…
+Lovecraft’s Untold Stories is an action rogue-lite with RPG elements. Explore randomly generated levels based on Lovecraft's stories, fight cultists and monsters from the Mythos, improve your gear, solve puzzles, and find how to defeat the Great Old Ones.

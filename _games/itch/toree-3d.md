@@ -7,11 +7,19 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/toree-3d/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.72
+protondb_total: 16
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Siactro, Diplodocus Games
@@ -19,10 +27,15 @@ developer: Siactro
 genre: Adventure, Indie, Platform, Arcade
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "April 9, 2021"
 game_modes: ["Single player"]
-languages: ["English**languages with full audio support"]
-tags_structured: []
+languages: ["English"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"134","name":"Anime"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"305","name":"Linear"},{"id":"133","name":"3D Vision"},{"id":"46","name":"Surreal"},{"id":"166","name":"Stylized"},{"id":"229","name":"3D Platformer"},{"id":"164","name":"Cartoony"},{"id":"49963","name":"Precision Platformer"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "37 Mins"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Toree_3D"
 metacritic_score: 67
 metacritic_url: "https://www.metacritic.com/game/toree-3d/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11226"
+opencritic_url: "https://opencritic.com/game/11226/-"
+opencritic_score: 68
+opencritic_review_count: 5
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

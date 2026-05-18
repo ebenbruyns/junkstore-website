@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-spirit-and-the-mouse/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 7
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Armor Games Studios
@@ -19,10 +27,15 @@ developer: Alblune
 genre: Puzzle, Adventure, Platformer
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 26, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Japanese"]
+languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"21151","name":"Easy Puzzles"}]
+size: "296 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-09-26T15:00:00.000Z","end":"2024-10-03T15:00:00.000Z","type":null,"id":"b9763cf171e446d5864cfa0b8fe8b9bb"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Spirit_and_the_Mouse"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/the-spirit-and-the-mouse/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13729"
+opencritic_url: "https://opencritic.com/game/13729/-"
+opencritic_score: 75
+opencritic_review_count: 8
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10007175"
+playstation_url: "https://store.playstation.com/en-us/concept/10007175"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Bring kindness and light to the people of Sainte-et-Claire as Lila - a tiny mouse with a big heart! Explore a quaint French village, make electrifying new friends, and do good deeds for those in need in this lush narrative adventure game.
+Bring kindness and light to the people of Sainte-et-Claire as Lila—a tiny mouse with a big heart! Explore a quaint French village, make electrifying new friends, and do good deeds for those in need in this lush narrative adventure game.

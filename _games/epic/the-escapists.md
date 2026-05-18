@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-escapists/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.39
+protondb_total: 23
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Team17
@@ -19,10 +27,15 @@ developer: Mouldy Toof Studios
 genre: Action, Strategy
 franchise: The Escapists
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"10","descriptors":"Atos criminosos, Violência"}}
 release_date: "December 12, 2019"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Polish","Russian","Italian"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-09-22T15:00:00.000Z","end":"2021-09-29T15:00:00.000Z","type":null,"id":"409270ba4b814c20a761407ab7a49dbd"},{"start":"2019-12-11T15:00:00.000Z","end":"2019-12-18T15:00:00.000Z","type":null,"id":"409270ba4b814c20a761407ab7a49dbd"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "19.4 hrs"
 hltb_main_extra: "42.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/the-escapists"
 protondb_url: "https://www.protondb.com/app/298630"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Escapists"
-metacritic_score: 71
-metacritic_url: "https://www.metacritic.com/game/pc/the-escapists?ftag=MCD-06-10aaa1f"
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/the-escapists/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "72"
+opencritic_url: "https://opencritic.com/game/72/-"
+opencritic_score: 73
+opencritic_review_count: 58
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box, but need to map the controller.
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-All that stands between you and your freedom is a perfectly executed escape plan. The Escapists provides players the opportunity of experiencing a light-hearted insight into everyday prison life with the main objective being that of breaking out.
+You’ve landed yourself in prison again, and your only chance is to engineer an escape by any means necessary. How you do it is up to you! Why not cause a prison riot? Or dig a tunnel right under the walls of the prison? Or even steal a guard uniform to blend in with your captors?

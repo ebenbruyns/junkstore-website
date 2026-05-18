@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/berserk-boy/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May ' 26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: BerserkBoy Games
@@ -19,10 +27,15 @@ developer: BerserkBoy Games
 genre: Adventure, Indie, Platform, Arcade
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "March 6, 2024"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Japanese","Korean","Russian","Simplified Chinese","Portuguese - Brazil","Spanish - Latin America"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"70","name":"War"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"167","name":"Futuristic"},{"id":"259","name":"Metroidvania"},{"id":"136","name":"Music"},{"id":"243","name":"1990's"},{"id":"981","name":"battle"},{"id":"2030","name":"city"},{"id":"91686","name":"Family Sharing"},{"id":"224","name":"1980s"},{"id":"295","name":"Soundtrack"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"1529","name":"fight"},{"id":"1309","name":"hero"},{"id":"570","name":"Old School"},{"id":"1105","name":"planet"},{"id":"1897","name":"fire"},{"id":"749","name":"army"},{"id":"1986","name":"ice"},{"id":"2483","name":"nostalgia"},{"id":"2743","name":"dash"},{"id":"8949","name":"attack"},{"id":"6287","name":"slide"},{"id":"17813","name":"merge"}]
+size: "232 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "7 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1561340"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Berserk_Boy"
 metacritic_score: 83
-metacritic_url: "https://www.metacritic.com/game/pc/berserk-boy?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/berserk-boy/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16367"
+opencritic_url: "https://opencritic.com/game/16367/-"
+opencritic_score: 82
+opencritic_review_count: 50
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10011871"
+playstation_url: "https://store.playstation.com/en-us/concept/10011871"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

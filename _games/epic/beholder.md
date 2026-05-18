@@ -7,22 +7,36 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/beholder/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.75
+protondb_total: 21
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Alawar
 developer: Alawar Stargaze (Warm Lamp Games)
 genre: Narration, Strategy, Adventure
 franchise: Beholder
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Drug Reference, Crude Humor, Use of Alcohol"},"pegi":{"rating":"12","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Drogas ilícitas, Atos criminosos"}}
 release_date: "November 1, 2024"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Russian","French","German","Simplified Chinese","Italian","Traditional Chinese","Japanese","Polish","Spanish - Spain","Portuguese - Brazil","Dutch","Turkish","Korean"]
+languages_audio: ["English","Russian","French","German","Simplified Chinese","Italian","Traditional Chinese","Japanese","Polish","Spanish - Spain","Portuguese - Brazil","Dutch","Korean"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+size: "1132756591
+"
+franchise_siblings: [{"rawg_id":678695,"slug":"beholder-3","name":"Beholder 3"},{"rawg_id":51081,"slug":"beholder-2","name":"Beholder 2"}]
+franchise_slug: "beholder|beholder-2|beholder-3"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-11-21T16:00:00.000Z","end":"2024-11-28T16:00:00.000Z","type":null,"id":"5ef8a7dc06384428a3effed5cefd0ee1"}]
@@ -55,6 +69,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "6.1 hrs"
 hltb_main_extra: "10.5 hrs"
@@ -67,7 +84,21 @@ protondb_url: "https://www.protondb.com/app/475550"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Beholder"
 metacritic_score: 75
-metacritic_url: "https://www.metacritic.com/game/pc/beholder?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/beholder/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "3564"
+opencritic_url: "https://opencritic.com/game/3564/-"
+opencritic_score: 76
+opencritic_review_count: 27
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +112,4 @@ is_featured: false
 owned: true
 ---
 
-A totalitarian State controls every aspect of private and social life. Laws are oppressive. Surveillance is total. Privacy is dead. You are a State-installed manager of an apartment house. The State requires you to spy on your tenants, and report any illegal or subversive activity. However, you can also choose to keep the information to yourself, or use it to blackmail the residents, resulting in a multitude of choices and endings.
+You’re a state-installed landlord in a totalitarian country. Place listening devices, steal and sneak into your tenants’ apartments. Use what you uncovered to report anyone capable of plotting against the state. You MUST! But WILL you?

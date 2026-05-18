@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/backpack-hero/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.6
+protondb_total: 13
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Different Tales
@@ -19,10 +27,15 @@ developer: Jaspel
 genre: Turn-Based, Dungeon Crawler, Rogue-Lite
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 14, 2023"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","German","Czech","Dutch","Polish","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Spanish - Latin America","Turkish","Japanese","Korean","Italian","French","Traditional Chinese","Ukrainian","Irish"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "180 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-03T15:00:00.000Z","end":"2025-07-10T15:00:00.000Z","type":null,"id":"d95cc849f45e406e88c1c371c7af309f"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "11.5 hrs"
 hltb_main_extra: "46.4 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Backpack_Hero"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/backpack-hero?ftag=MCD-06-10aaa1f"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15870"
+opencritic_url: "https://opencritic.com/game/15870/-"
+opencritic_score: 72
+opencritic_review_count: 14
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10007912"
+playstation_url: "https://store.playstation.com/en-us/concept/10007912"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: Works out of the box after you verify with Epic account.
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Backpack Hero is the inventory management roguelike! Collect rare items, organize your bag, and vanquish your foes!
+The inventory management roguelike! Collect rare items, organize your backpack, and vanquish your foes!

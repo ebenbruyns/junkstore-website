@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/barrow-hill-the-dark-path/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Iceberg Interactive
@@ -19,10 +27,15 @@ developer: Shadow Tor Studios
 genre: adventure, indie, point-and-click
 franchise: 
 age_rating_summary: ESRB 13
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "September 1, 2016"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","German"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
+size: "3434 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4.5 hrs"
 hltb_main_extra: "5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill%3A_The_Dark_Path"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/barrow-hill-the-dark-path/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "3480"
+opencritic_url: "https://opencritic.com/game/3480/-"
+opencritic_score: 58
+opencritic_review_count: 3
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

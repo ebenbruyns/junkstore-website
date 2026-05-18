@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/trine-enchanted-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.8
+protondb_total: 32
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Frozenbyte
 developer: Frozenbyte
 genre: Puzzle, Action-Adventure, Platformer
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 12 (PEGI)
+age_ratings: {"pegi":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa"}}
 release_date: "December 31, 2025"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
-languages: ["English*","French*","German*","Italian*","Spanish - Spain**languages with full audio support"]
+languages: ["English","French","German","Italian","Spanish - Spain"]
+languages_audio: ["English","French","German","Italian","Spanish - Spain"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+size: "3353 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "6 Hours"
 hltb_main_extra: ""
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/35700"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trine_Enchanted_Edition"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/trine?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/trine/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "716"
+opencritic_url: "https://opencritic.com/game/716/-"
+opencritic_score: 81
+opencritic_review_count: 12
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Three Heroes make their way through dangers untold in a fairytale world of great castles and strange machinery, featuring physics-based puzzles, beautiful sights and online co-op.
+Spellbound by the magical object Trine, three heroes must join forces to overcome obstacles and puzzles in a fully interactive physics-based world, battle the undead and their minions, and restore balance to the kingdom!

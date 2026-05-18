@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/brigador-up-armored-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.74
+protondb_total: 12
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Stellar Jockeys
@@ -19,10 +27,15 @@ developer: Stellar Jockeys
 genre: Action, Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência"}}
 release_date: "June 2, 2016"
-game_modes: ["Single-player"]
-languages: ["English*","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Italian","Simplified Chinese","Traditional Chinese"]
+game_modes: ["Achievements","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Italian","Simplified Chinese","Traditional Chinese","Polish","Korean"]
+languages_audio: ["English"]
 tags_structured: []
+size: "638 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "9 hrs"
 hltb_main_extra: "15 hrs"
 hltb_completionist: "25.5 hrs"
-hltb_url: "https://howlongtobeat.com/game/47826"
+hltb_url: "https://howlongtobeat.com/game/25234"
 
 # Links
 store_url: "https://www.gog.com/en/game/brigador"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Brigador:_Up-Armored_Edition"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/brigador-up-armored-edition/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "2805"
+opencritic_url: "https://opencritic.com/game/2805/-"
+opencritic_score: 79
+opencritic_review_count: 13
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

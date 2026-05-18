@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/wall-world/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 28
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Alawar
@@ -19,10 +27,15 @@ developer: Alawar
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Platform, Shooter, Arcade, Fighting
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "April 5, 2023"
 game_modes: ["Single player"]
-languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Korean","Polish","Russian","Traditional Chinese"]
-tags_structured: []
+languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Korean","Polish","Russian","Traditional Chinese","Japanese"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"1","name":"Survival"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"11669","name":"stats"},{"id":"1465","name":"combat"},{"id":"113","name":"Side Scroller"},{"id":"639","name":"Roguelike"},{"id":"172","name":"Aliens"},{"id":"67","name":"Management"},{"id":"640","name":"Roguelite"},{"id":"196","name":"Procedural Generation"},{"id":"147","name":"Resource Management"},{"id":"65","name":"Tower Defense"},{"id":"184","name":"Mechs"},{"id":"1529","name":"fight"},{"id":"3109","name":"weapons"},{"id":"624","name":"Monsters"},{"id":"1652","name":"night"},{"id":"1753","name":"guns"},{"id":"3117","name":"shoot"},{"id":"316","name":"Mining"},{"id":"3680","name":"defense"},{"id":"5559","name":"elements"},{"id":"2286","name":"tower"},{"id":"8949","name":"attack"},{"id":"1310","name":"machine"},{"id":"2629","name":"mine"},{"id":"2888","name":"hack"},{"id":"7270","name":"find"},{"id":"1957","name":"weather"},{"id":"675","name":"creatures"},{"id":"2092","name":"rogue"},{"id":"3187","name":"break"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12 hrs"
 hltb_main_extra: "15.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wall_World"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/wall-world/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14526"
+opencritic_url: "https://opencritic.com/game/14526/-"
+opencritic_score: 73
+opencritic_review_count: 8
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10009278"
+playstation_url: "https://store.playstation.com/en-us/concept/10009278"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

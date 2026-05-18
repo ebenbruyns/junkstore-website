@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/minabo-a-walk-through-life/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Selecta Play
@@ -19,10 +27,15 @@ developer: DevilishGames
 genre: Indie, Simulator
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "April 28, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Portugal","Russian","Simplified Chinese","Catalan","Italian"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"1","name":"Survival"},{"id":"11669","name":"stats"},{"id":"121","name":"Character Customization"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"218","name":"Multiple Endings"},{"id":"138","name":"Relaxing"},{"id":"258","name":"Hand-drawn"},{"id":"196","name":"Procedural Generation"},{"id":"164","name":"Cartoony"},{"id":"217","name":"Romance"},{"id":"42473","name":"Immersive Sim"},{"id":"774","name":"nature"},{"id":"309","name":"Dynamic Narration"},{"id":"43374","name":"Remote Play on TV"},{"id":"49960","name":"Life Sim"},{"id":"159","name":"Agriculture"},{"id":"66536","name":"Романтика"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Minabo"
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/minabo-a-walk-through-life/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14862"
+opencritic_url: "https://opencritic.com/game/14862/-"
+opencritic_score: 54
+opencritic_review_count: 14
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10007578"
+playstation_url: "https://store.playstation.com/en-us/concept/10007578"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: May need to set the exe - ./MINABO - A walk through life.exe

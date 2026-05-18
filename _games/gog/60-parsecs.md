@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/60-parsecs/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "unknown"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.73
+protondb_total: 20
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Robot Gentleman
@@ -19,10 +27,15 @@ developer: Robot Gentleman
 genre: Adventure, Casual, Indie, RPG, Simulation, Strategy
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Linguagem imprópria"}}
 release_date: "September 18, 2018"
-game_modes: ["Single-player"]
-languages: ["English*","French","German","Russian","Simplified Chinese","Polish","Korean","Japanese","Italian","Spanish - Spain"]
+game_modes: ["Overlay","Single-player"]
+languages: ["English","French","German","Russian","Simplified Chinese","Polish","Korean","Japanese","Italian","Spanish - Spain","Portuguese - Brazil","Turkish"]
+languages_audio: ["English"]
 tags_structured: []
+size: "831 MB"
+franchise_siblings: [{"rawg_id":349109,"slug":"60-seconds-reatomized","name":"60 Seconds! Reatomized"}]
+franchise_slug: "60-parsecs|60-seconds-reatomized"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1.5 hrs"
 hltb_main_extra: "5.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/60_Parsecs!"
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/60-parsecs/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "6671"
+opencritic_url: "https://opencritic.com/game/6671/-"
+opencritic_score: 72
+opencritic_review_count: 9
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10000311"
+playstation_url: "https://store.playstation.com/en-us/concept/10000311"
+xbox_id: "9NSCS1KS9Z0W"
+xbox_url: "https://www.xbox.com/games/store/-/9NSCS1KS9Z0W"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

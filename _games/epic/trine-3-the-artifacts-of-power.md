@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/trine-3-the-artifacts-of-power/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.76
+protondb_total: 16
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Frozenbyte
@@ -19,10 +27,15 @@ developer: Frozenbyte
 genre: Puzzle, Action-Adventure, Platformer
 franchise: Trine
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa"}}
 release_date: "December 31, 2025"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
-languages: ["English*","French*","Italian","German*","Spanish - Spain*","Danish","Norwegian","Russian*","Swedish","Portuguese - Brazil*"]
+languages: ["English","French","Italian","German","Spanish - Spain","Danish","Norwegian","Russian","Swedish","Portuguese - Brazil","Japanese","Simplified Chinese","Finnish"]
+languages_audio: ["English","French","German","Spanish - Spain","Russian","Portuguese - Brazil","Japanese"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"}]
+size: ""
+franchise_siblings: [{"rawg_id":257252,"slug":"trine-4-the-nightmare-prince","name":"Trine 4: The Nightmare Prince"},{"rawg_id":4519,"slug":"trine-2","name":"Trine 2"},{"rawg_id":5196,"slug":"trine","name":"Trine"}]
+franchise_slug: "trine|trine-2|trine-3-the-artifacts-of-power|trine-4-the-nightmare-prince"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "5 Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trine_3:_The_Artifacts_of_P
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/trine-3-the-artifacts-of-power/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1846"
+opencritic_url: "https://opencritic.com/game/1846/-"
+opencritic_score: 67
+opencritic_review_count: 28
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,6 @@ is_featured: false
 owned: true
 ---
 
-Trine 3: The Artifacts of Power is a platforming game of action, puzzles and adventure, and the sequel to the award winning Trine and Trine 2. Reunite with the three heroes in an all-new adventure, now for the first time in full 3D!
+Trine 3: The Artifacts of Power is a 3D platforming game of action, puzzles and adventure. 
+
+The heroes return their extraordinary gifts to the Artifact called Trine, and so they meddle with powers beyond their understanding: Trine shatters, and an ancient sorcerer escapes!

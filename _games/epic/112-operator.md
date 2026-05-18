@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/112-operator/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.65
+protondb_total: 62
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Games Operators
@@ -19,10 +27,15 @@ developer: Jutsu Games
 genre: Casual, Simulation, Strategy
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência, Atos criminosos, Linguagem imprópria"}}
 release_date: "August 7, 2025"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Korean","Japanese","Portuguese - Brazil"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-08-07T15:00:00.000Z","end":"2025-08-14T15:00:00.000Z","type":null,"id":"913af1ed18e24007ab5fd2bc2092c175"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10.1 hrs"
 hltb_main_extra: "19.1 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/112_Operator"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/112-operator/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9330"
+opencritic_url: "https://opencritic.com/game/9330/-"
+opencritic_score: 71
+opencritic_review_count: 9
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Manage the emergency services in any city in the world! Take calls and dispatch rescue forces. Handle difficult situations, now depending on the weather, terrain and traffic. Help the citizens through cataclysms and natural disasters, becoming a better emergency number operator every day!
+Manage emergency services in any city in the world! Take calls and dispatch rescue forces. Handle difficult situations, now depending on the weather, and traffic. Help the citizens through cataclysms and natural disasters, becoming a better emergency number operator every day!

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/doors-paradox/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.7
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Snapbreak Games
@@ -19,10 +27,15 @@ developer: Big Loop Studios
 genre: Casual, Puzzle, Adventure
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "May 26, 2023"
 game_modes: ["Single Player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Portugal","Russian","Korean","Simplified Chinese","Traditional Chinese","Turkish","Indonesian"]
+languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "1743 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-01-31T15:00:00.000Z","end":"2024-02-07T15:00:00.000Z","type":null,"id":"b8dee54bce824477bc0b7cb298f9f9a9"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5½ Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doors%3A_Paradox"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/doors-paradox/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17753"
+opencritic_url: "https://opencritic.com/game/17753/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10009247"
+playstation_url: "https://store.playstation.com/en-us/concept/10009247"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box, change controller layout to Keyboard & mouse."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A relaxing puzzle escape game! Make your way through a variety of hand-crafted 3D dioramas, look for useful objects, find hidden clues and solve a diversity of fun puzzles! Unravel this mysterious adventure about chaos, order and the surreal.
+A relaxing puzzle escape game! Make your way through a variety of hand-crafted 3D dioramas, look for useful objects, find hidden clues, and solve fun puzzles! Unravel this mysterious adventure about chaos, order, and the surreal.

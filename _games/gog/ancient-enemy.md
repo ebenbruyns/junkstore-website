@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ancient-enemy/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.68
+protondb_total: 8
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Grey Alien Games
@@ -19,10 +27,15 @@ developer: Grey Alien Games
 genre: "Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie, Card & Board Game"
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Medo, Atos criminosos"}}
 release_date: "April 9, 2020"
-game_modes: ["Single player"]
+game_modes: ["Cloud saves","Overlay","Single-player"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
+size: "131 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "10 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ancient_Enemy"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/ancient-enemy/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9299"
+opencritic_url: "https://opencritic.com/game/9299/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box! You can change controller maping to use the touch screen or mouse."
 controller_config: 
@@ -81,8 +111,4 @@ is_featured: false
 owned: true
 ---
 
-An unusual, strategic RPG card game from the makers of Shadowhand and Regency Solitaire.
-
-"Awakening from centuries of slumber, a fallen mage returns to battle twisted folkloric foe across sprawling, ghostly landscapes. His ultimate destination: the nameless antagonist, a dread nemesis waiting patiently in the dark fastness of monstrous citadel, his Ancient Enemy.
-
-You'll embark upon a quest inspired by British mythology and Mabinogion, so expect card battling, visceral fights, mixed with bleak and evocative folklore! Loot the fallen to fill your hero's RPG-style inventory with collectible cards, capture strongholds and gather talented henchmen. Only powerful magic and iron determination will enable revenge upon your ultimate foe."
+Ancient Enemy is an RPG card battler set in a crumbling world where the forces of evil have already won. Blast distorted enemies with a satisfying range of spells and abilities. Journey into a scarred wilderness and defeat the deadliest foe of all!

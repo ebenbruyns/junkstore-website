@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/lego-star-wars-the-complete-saga/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.82
+protondb_total: 153
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: WB Games, LucasArts, Feral Interactive
 developer: "Traveller's Tales, Robosoft Technologies"
 genre: Adventure, Platform
 franchise: 
-age_rating_summary: ESRB 10
+age_rating_summary: e10 (ESRB) · 3 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence"},"pegi":{"rating":"3"},"usk":{"rating":"6"},"bbfc":{"rating":"PG"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Mild Crude Humour"},"nzoflc":{"rating":"PG"}}
 release_date: "November 6, 2007"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"32","name":"Sci-fi"},{"id":"4","name":"Funny"},{"id":"193","name":"Classic"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"25","name":"Space"},{"id":"107","name":"Family Friendly"},{"id":"318","name":"Star Wars"},{"id":"297","name":"LEGO"}]
+size: "4462 MB"
+franchise_siblings: [{"rawg_id":326239,"slug":"lego-star-wars-the-sywalker-saga","name":"Lego Star Wars: The Skywalker Saga"},{"rawg_id":717012,"slug":"lego-star-wars-castaways","name":"LEGO Star Wars: Castaways"},{"rawg_id":632559,"slug":"lego-star-wars-the-skywalker-saga-prototype","name":"LEGO Star Wars: The Skywalker Saga Prototype"},{"rawg_id":612434,"slug":"lego-star-wars-the-last-jedi","name":"Lego Star Wars: The Last Jedi"},{"rawg_id":1935,"slug":"lego-star-wars-tfa","name":"LEGO Star Wars: The Force Awakens"},{"rawg_id":12729,"slug":"lego-star-wars-iii","name":"LEGO Star Wars III - The Clone Wars"},{"rawg_id":42176,"slug":"lego-star-wars-the-quest-for-r2-d2","name":"LEGO Star Wars: The Quest for R2-D2"},{"rawg_id":270713,"slug":"lego-star-wars-ii","name":"LEGO Star Wars II"},{"rawg_id":53378,"slug":"lego-star-wars-2-the-original-trilogy","name":"Lego Star Wars II: The Original Trilogy"},{"rawg_id":53377,"slug":"lego-star-wars","name":"Lego Star Wars: The Video Game"}]
+franchise_slug: "lego-star-wars|lego-star-wars-2-the-original-|lego-star-wars-castaways|lego-star-wars-ii|lego-star-wars-iii|lego-star-wars-tcs|lego-star-wars-tfa|lego-star-wars-the-last-jedi|lego-star-wars-the-quest-for-r|lego-star-wars-the-skywalker-s|lego-star-wars-the-sywalker-sa"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "13 hrs"
 hltb_main_extra: "23 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/lego_star_wars_the_complete_saga"
 protondb_url: "https://www.protondb.com/app/32440"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_Star_Wars%3A_The_Complete_Saga"
-metacritic_score: 77
-metacritic_url: "https://www.metacritic.com/game/pc/lego-star-wars?ftag=MCD-06-10aaa1f"
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/lego-star-wars-the-complete-saga/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9901"
+opencritic_url: "https://opencritic.com/game/9901/-"
+opencritic_score: 82
+opencritic_review_count: 171
+twitch_id: ""
+twitch_url: ""
+playstation_id: "232847"
+playstation_url: "https://store.playstation.com/en-us/concept/232847"
+xbox_id: "BRMKDCZT0C4L"
+xbox_url: "https://www.xbox.com/games/store/-/BRMKDCZT0C4L"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

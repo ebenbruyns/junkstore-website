@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/book-of-yog/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.47
+protondb_total: 12
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: YuanQi Studio
@@ -19,10 +27,15 @@ developer: YuanQi Studio
 genre: Action, RPG
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "May 22, 2023"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21139","name":"Amazing Characters"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1310","name":"EARLY ACCESS"},{"id":"21134","name":"Beautiful Visuals"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Book_of_Yog_Idle_RPG"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/book-of-yog/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: Works out of the box, but need to map the controller.
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-The Book of Yog is a 3D idle RPG game presenting with Cel-Shading skills. You can call heroes, develop the kingdom and explore secrets of the lost world. Dozens of heroes, hundreds of skills, thousands of equipment, free combinations, come and form the most powerful team that belongs to you!
+The Book of Yog is a 3D idle RPG game. You can rally heroes, develop the kingdom and explore the secrets of a lost world. Dozens of heroes, hundreds of skills, thousands of loot for you to combine freely. Come to embark on a journey to build the strongest team!

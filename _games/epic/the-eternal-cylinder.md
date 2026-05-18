@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-eternal-cylinder/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.62
+protondb_total: 19
+protondb_confidence: "good"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Good Shepherd Entertainment
@@ -19,10 +27,15 @@ developer: ACE Team
 genre: Exploration, Survival, Open World, Adventure
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Nudez, Violência"}}
 release_date: "September 30, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Portuguese - Brazil","Russian","Spanish - Spain","Simplified Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12.3 hrs"
 hltb_main_extra: "17.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/865680"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Eternal_Cylinder"
 metacritic_score: 79
-metacritic_url: "https://www.metacritic.com/game/pc/the-eternal-cylinder?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/the-eternal-cylinder/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12051"
+opencritic_url: "https://opencritic.com/game/12051/-"
+opencritic_score: 81
+opencritic_review_count: 24
+twitch_id: ""
+twitch_url: ""
+playstation_id: "232593"
+playstation_url: "https://store.playstation.com/en-us/concept/232593"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-In The Eternal Cylinder, players control a herd of adorable creatures called Trebhums and must explore a strange alien world filled with exotic lifeforms, surreal environments, and the constant threat of the Cylinder, a gargantuan rolling structure of ancient origin which crushes everything in its path. This unique ecosystem is a massive, procedurally generated land with unique animal AI, real-time world destruction, and organic exploration and puzzle design to create emergent gameplay that ensures no two playthroughs are ever the same.
+Control a herd of strange creatures called Trebhums and explore an unforgettable alien world filled with exotic lifeforms and surreal environments. Discover dozens of mutations and evolve to reach new areas, overcome puzzles and survive a dangerous world. 

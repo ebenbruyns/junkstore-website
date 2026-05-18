@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/jupiter-hell/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.62
+protondb_total: 17
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: ChaosForge
@@ -19,10 +27,16 @@ developer: ChaosForge
 genre: Role-playing (RPG), Strategy, Turn-based strategy (TBS), Indie, Shooter, Arcade
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "August 5, 2021"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Controller support","Overlay","Single-player"]
+languages: ["English","German","Polish"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"32","name":"Sci-fi"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"639","name":"Roguelike"}]
+size: "2102574162
+"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +69,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "12.5 hrs"
@@ -67,7 +84,21 @@ protondb_url: "https://www.protondb.com/app/811320"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Jupiter_Hell"
 metacritic_score: 78
-metacritic_url: "https://www.metacritic.com/game/pc/jupiter-hell?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/jupiter-hell/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**.\nNo issue if you select Yes or No at the Vulkan prompt."

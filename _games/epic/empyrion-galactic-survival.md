@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/empyrion-galactic-survival/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.59
+protondb_total: 158
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Eleon Game Studios SA
@@ -19,10 +27,15 @@ developer: Eleon Game Studios SA
 genre: Space, Survival, Open World
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "October 10, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
-languages: ["English"]
+languages: ["English","German","French","Russian","Italian","Portuguese - Brazil","Simplified Chinese","Greek"]
+languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1121","name":"Space"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1183","name":"Local Multiplayer"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-10T15:00:00.000Z","end":"2024-10-17T15:00:00.000Z","type":null,"id":"5d79a38c99e9432f8dec6288a17595ab"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "60 Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Empyrion_-_Galactic_Surviva
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/empyrion-galactic-survival/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: Multiplayer is broken even with EAC enabled, need to change controller setup.
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Empyrion - Galactic Survival is a 3D open world space sandbox survival adventure. Build mighty ships, menacing space stations and vast planetary settlements to explore, conquer or exploit a variety of different planets and the allegedly empty space!
+Build and explore in a true space sandbox survival adventure. Construct mighty capital vessels, sprawling planetary settlements, and vast space stations in your galactic journey to discover the mysteries of Empyrion

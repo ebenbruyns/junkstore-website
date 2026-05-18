@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-darkest-tales-into-the-nightmare/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: 101XP
 developer: Trinity Team
 genre: Adventure, Indie, Platform, Simulator
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: 16 (PEGI) · 16 (USK)
+age_ratings: {"pegi":{"rating":"16"},"usk":{"rating":"16"},"cero":{"rating":"D"},"kgrb":{"rating":"18"},"fpb":{"rating":"16"},"csrr":{"rating":"C15"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
 release_date: "October 14, 2021"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Controller support","Overlay","Single-player"]
+languages: ["English","Italian","Russian","French","German","Simplified Chinese","Japanese","Korean","Spanish - Latin America","Portuguese - Brazil"]
+languages_audio: ["English","Russian"]
 tags_structured: []
+size: "3034 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1 hrs"
 hltb_main_extra: "1 hrs"
 hltb_completionist: "1.5 hrs"
-hltb_url: "https://howlongtobeat.com/game/99189"
+hltb_url: "https://howlongtobeat.com/game/88811"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_darkest_tales_into_the_nightmare"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Darkest_Tales"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/pc/the-darkest-tales?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13844"
+opencritic_url: "https://opencritic.com/game/13844/-"
+opencritic_score: 67
+opencritic_review_count: 6
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

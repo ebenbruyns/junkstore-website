@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/simcity-3000-unlimited/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.54
+protondb_total: 29
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Electronic Arts
 developer: Maxis
 genre: strategy, simulator
 franchise: 
-age_rating_summary: ESRB 6
+age_rating_summary: E (ESRB) · 6 (USK)
+age_ratings: {"esrb":{"rating":"E"},"usk":{"rating":"6","descriptors":"Angedeutete Gewalt"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"7-9PG"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
 release_date: "March 1, 2000"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Cloud saves","Single-player"]
+languages: ["English","French","Italian","German","Dutch","Swedish"]
+languages_audio: ["English","French","Italian","German","Dutch","Swedish"]
 tags_structured: []
+size: "536 MB"
+franchise_siblings: [{"rawg_id":1690,"slug":"simcity-buildit","name":"SimCity BuildIt"},{"rawg_id":41324,"slug":"simcity-2013","name":"SimCity (2013)"},{"rawg_id":35736,"slug":"simcity-societies","name":"SimCity Societies"},{"rawg_id":24872,"slug":"simcity-ds","name":"SimCity DS"},{"rawg_id":31510,"slug":"simcity-4","name":"SimCity 4"},{"rawg_id":5360,"slug":"simcity-2000","name":"SimCity 2000"},{"rawg_id":54172,"slug":"simcity","name":"SimCity"}]
+franchise_slug: "simcity|simcity-2000|simcity-2013|simcity-3000|simcity-4|simcity-buildit|simcity-ds|simcity-societies"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.5 hrs"
 hltb_main_extra: "22.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/simcity_3000"
 protondb_url: "https://www.protondb.com/app/2741560"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SimCity_3000"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/simcity-3000-unlimited/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Tested with Proton Experimental

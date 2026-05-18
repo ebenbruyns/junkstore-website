@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/boxes-lost-fragments/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.8
+protondb_total: 24
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Snapbreak Games
 developer: Big Loop Studios
 genre: Casual, Puzzle, Adventure
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: 6 (PEGI)
+age_ratings: {"pegi":{"rating":"6"},"dejus":{"rating":"L"}}
 release_date: "February 26, 2026"
 game_modes: ["Single player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Indonesian","Japanese","Korean","Polish","Portuguese - Portugal"]
+languages: ["English","French","Italian","German","Spanish - Spain","Indonesian","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
+languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.8 hrs"
 hltb_main_extra: "3.8 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/boxes-lost-fragments/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16204"
+opencritic_url: "https://opencritic.com/game/16204/-"
+opencritic_score: 82
+opencritic_review_count: 6
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10014330"
+playstation_url: "https://store.playstation.com/en-us/concept/10014330"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

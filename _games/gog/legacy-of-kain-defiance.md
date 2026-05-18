@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/legacy-of-kain-defiance/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.8
+protondb_total: 20
+protondb_confidence: "good"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Eidos Interactive
 developer: Crystal Dynamics
 genre: "Adventure, Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence"},"pegi":{"rating":"16"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Medium level animated violence"}}
 release_date: "November 11, 2003"
-game_modes: ["Single player"]
+game_modes: ["Cloud saves","Controller support","Single-player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"68","name":"Hack and Slash"},{"id":"40","name":"Dark Fantasy"},{"id":"204","name":"Gothic"},{"id":"300","name":"Vampire"}]
+size: "1420 MB"
+franchise_siblings: [{"rawg_id":1015975,"slug":"legacy-of-kain-ascendance","name":"Legacy of Kain: Ascendance"},{"rawg_id":1015978,"slug":"legacy-of-kain-defiance-remastered","name":"Legacy of Kain: Defiance Remastered"},{"rawg_id":989747,"slug":"legacy-of-kain-soul-reaver-12-remastered","name":"Legacy of Kain Soul Reaver 1&2 Remastered"},{"rawg_id":22870,"slug":"legacy-of-kain-blood-omen-2","name":"Legacy of Kain: Blood Omen 2"},{"rawg_id":10119,"slug":"legacy-of-kain-soul-reaver-2","name":"Legacy of Kain: Soul Reaver 2"},{"rawg_id":5158,"slug":"legacy-of-kain-soul-reaver","name":"Legacy of Kain: Soul Reaver"},{"rawg_id":5340,"slug":"blood-omen-legacy-of-kain","name":"Blood Omen: Legacy of Kain"},{"rawg_id":42391,"slug":"nosgoth","name":"Nosgoth"}]
+franchise_slug: "blood-omen-legacy-of-kain|legacy-of-kain-ascendance|legacy-of-kain-blood-omen-2|legacy-of-kain-defiance|legacy-of-kain-defiance-remast|legacy-of-kain-soul-reaver|legacy-of-kain-soul-reaver-12-|legacy-of-kain-soul-reaver-2|nosgoth"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12 hrs"
 hltb_main_extra: "14 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legacy_of_Kain%3A_Defiance"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/legacy-of-kain-defiance?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

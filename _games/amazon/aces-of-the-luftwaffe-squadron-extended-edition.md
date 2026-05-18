@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/aces-of-the-luftwaffe-squadron-extended-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.21
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: HandyGames
 developer: HandyGames
 genre: Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB) · 12 (USK)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Language, Fantasy Violence"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Medo"}}
 release_date: "February 26, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Japanese*languages with full audio support"]
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"56","name":"Shoot 'Em Up"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "7 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aces_of_the_Luftwaffe_-_Squadron"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/aces-of-the-luftwaffe-squadron/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "5222"
+opencritic_url: "https://opencritic.com/game/5222/-"
+opencritic_score: 66
+opencritic_review_count: 24
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

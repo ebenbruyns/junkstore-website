@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/labyrinth-city-pierre-the-maze-detective/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.68
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Pixmain
@@ -19,10 +27,15 @@ developer: Darjeeling
 genre: Adventure, Puzzle
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "June 1, 2021"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"138","name":"Relaxing"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"116","name":"2.5D"},{"id":"200","name":"Narration"},{"id":"268","name":"Comic Book"},{"id":"179","name":"Cartoon"},{"id":"140","name":"Hidden Object"},{"id":"2896","name":"collectathon"},{"id":"607","name":"Unity"},{"id":"55320","name":"Creature Collector"},{"id":"5357","name":"comics"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4.5 hrs"
 hltb_main_extra: "5 hrs"
@@ -66,8 +82,22 @@ store_url: ""
 protondb_url: "https://www.protondb.com/app/1421790"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Labyrinth_City:_Pierre_the_Maze_Detective"
-metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/labyrinth-city-pierre-the-maze-detective?ftag=MCD-06-10aaa1f"
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/labyrinth-city-pierre-the-maze-detective/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11573"
+opencritic_url: "https://opencritic.com/game/11573/-"
+opencritic_score: 76
+opencritic_review_count: 17
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

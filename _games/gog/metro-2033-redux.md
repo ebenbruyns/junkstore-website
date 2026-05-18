@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/metro-2033-redux/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.84
+protondb_total: 161
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Deep Silver, Koch Media
 developer: 4A Games
 genre: Role-playing (RPG), Adventure, Shooter
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: 18 (PEGI) · 18 (USK)
+age_ratings: {"pegi":{"rating":"18"},"usk":{"rating":"18"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Violência"}}
 release_date: "August 25, 2014"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Czech","Dutch","Polish","Russian","Ukrainian"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"26","name":"Gore"},{"id":"193","name":"Classic"},{"id":"1","name":"Survival"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"17","name":"Survival Horror"},{"id":"43","name":"Post-apocalyptic"},{"id":"192","name":"Mature"},{"id":"337","name":"overlay"},{"id":"271","name":"Remake"},{"id":"413","name":"online"},{"id":"2030","name":"city"},{"id":"283","name":"Based On A Novel"},{"id":"1897","name":"fire"},{"id":"3397","name":"light"}]
+size: "7321 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "9 hrs"
 hltb_main_extra: "11.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/metro_2033_redux"
 protondb_url: "https://www.protondb.com/app/286690"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Metro_2033_Redux"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/metro-redux/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "957"
+opencritic_url: "https://opencritic.com/game/957/-"
+opencritic_score: 85
+opencritic_review_count: 13
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

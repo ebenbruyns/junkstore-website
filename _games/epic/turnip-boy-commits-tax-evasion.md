@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/turnip-boy-commits-tax-evasion/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.79
+protondb_total: 32
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Graffiti Games
 developer: Snoozy Kazoo
 genre: Casual, Action-Adventure, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: 3 (PEGI) · 6 (USK)
+age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"6","descriptors":"Abstract Violence"},"oflc":{"rating":"PG","descriptors":"Mild Coarse Language"},"nzoflc":{"rating":"PG","descriptors":"Mild Coarse Language"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência, Atos criminosos"}}
 release_date: "March 24, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Japanese"]
+languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+size: "107 MB"
+franchise_siblings: [{"rawg_id":975269,"slug":"turnip-boy-robs-a-bank","name":"Turnip Boy Robs a Bank"}]
+franchise_slug: "turnip-boy-commits-tax-evasion|turnip-boy-robs-a-bank"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-11-01T15:00:00.000Z","end":"2023-11-08T15:00:00.000Z","type":null,"id":"e0282b701ea04c42ac1b5a55c1a3bfde"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "2 hrs"
 hltb_main_extra: "2.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/turnip-boy-commits-tax-evasion-f
 protondb_url: "https://www.protondb.com/app/1205450"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Turnip_Boy_Commits_Tax_Evasion"
-metacritic_score: 72
-metacritic_url: "https://www.metacritic.com/game/pc/turnip-boy-commits-tax-evasion?ftag=MCD-06-10aaa1f"
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/turnip-boy-commits-tax-evasion/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11262"
+opencritic_url: "https://opencritic.com/game/11262/-"
+opencritic_score: 72
+opencritic_review_count: 32
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Avoid paying taxes, solve plantastic puzzles, harvest crops and battle massive beasts all in a journey to tear down a corrupt vegetable government!
+Play as an adorable yet trouble-making turnip. Avoid paying taxes, solve plantastic puzzles, harvest crops and battle massive beasts all in a journey to tear down a corrupt vegetable government!

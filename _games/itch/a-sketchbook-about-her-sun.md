@@ -7,11 +7,19 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-sketchbook-about-her-sun/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Team SolEtude
@@ -19,10 +27,15 @@ developer: Team SolEtude
 genre: Adventure, Visual Novel
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "June 11, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"88","name":"Cute"},{"id":"145","name":"Choices Matter"},{"id":"90","name":"Visual Novel"},{"id":"209","name":"Drama"},{"id":"258","name":"Hand-drawn"},{"id":"217","name":"Romance"},{"id":"200","name":"Narration"},{"id":"268","name":"Comic Book"},{"id":"572","name":"Emotional"},{"id":"288","name":"Interactive Fiction"},{"id":"59643","name":"Протагонистка"},{"id":"285","name":"Psychological"},{"id":"42410","name":"LGBTQ+"},{"id":"151","name":"Modern"},{"id":"342","name":"Conversation"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "31 Mins"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/a-sketchbook-about-her-sun/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004614"
+playstation_url: "https://store.playstation.com/en-us/concept/10004614"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."

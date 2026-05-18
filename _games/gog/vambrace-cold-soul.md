@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/vambrace-cold-soul/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Headup Games
@@ -19,10 +27,15 @@ developer: Devespresso Games
 genre: Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie
 franchise: 
 age_rating_summary: PEGI 12
+age_ratings: {"kgrb":{"rating":"15"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "May 28, 2019"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
+languages: ["English","Korean","French","German","Russian","Simplified Chinese","Ukrainian","Spanish - Latin America"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"189","name":"Female Protagonist"},{"id":"468","name":"role-playing"},{"id":"48","name":"Dungeon Crawler"},{"id":"258","name":"Hand-drawn"}]
+size: "2605 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "18.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/vambrace_cold_soul"
 protondb_url: "https://www.protondb.com/app/904380"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vambrace%3A_Cold_Soul"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 59
+metacritic_url: "https://www.metacritic.com/game/vambrace-cold-soul/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7770"
+opencritic_url: "https://opencritic.com/game/7770/-"
+opencritic_score: 62
+opencritic_review_count: 32
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

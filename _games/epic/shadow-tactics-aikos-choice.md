@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/shadow-tactics-aikos-choice/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.7
+protondb_total: 13
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Daedalic Entertainment
@@ -19,10 +27,15 @@ developer: Mimimi Games
 genre: Action, Strategy, Stealth
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "December 6, 2021"
 game_modes: ["Single player"]
-languages: ["English*","German","Japanese*","French","Italian","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian"]
+languages: ["English","German","Japanese","French","Italian","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
+languages_audio: ["English","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"9549","name":"Controller Support"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-01-04T15:00:00.000Z","end":"2023-01-11T15:00:00.000Z","type":null,"id":"ef6a61163419450ba4dcf2eacb6b88e7"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "7.3 hrs"
 hltb_main_extra: "10.3 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1579380"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shadow_Tactics:_Blades_of_the_Shogun_-_Aiko%27s_Choice"
 metacritic_score: 83
-metacritic_url: "https://www.metacritic.com/game/pc/shadow-tactics-blades-of-the-shogun---aikos-choice?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/shadow-tactics-blades-of-the-shogun-aikos-choice/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12437"
+opencritic_url: "https://opencritic.com/game/12437/-"
+opencritic_score: 83
+opencritic_review_count: 25
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

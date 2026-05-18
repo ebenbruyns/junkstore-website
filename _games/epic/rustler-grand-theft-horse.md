@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/rustler-grand-theft-horse/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.49
+protondb_total: 30
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Games Operators, Modus Games
 developer: Jutsu Games
 genre: Action, RPG, Open World
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 16 (USK)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Strong Language, Blood and Gore, Suggestive Themes, Use of Drugs, Violence"},"usk":{"rating":"16"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência, Atos criminosos, Linguagem imprópria"}}
 release_date: "January 22, 2026"
 game_modes: ["Single-player"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Portuguese - Brazil","Korean"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Portuguese - Brazil","Korean","Simplified Chinese","Traditional Chinese","Turkish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+size: "2292 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-01-22T16:00:00.000Z","end":"2026-01-29T16:00:00.000Z","type":null,"id":"3d10f32b87b94b769524cd44a12e634a"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7 Hours"
 hltb_main_extra: ""
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/rustler-grand-theft-horse-21a7ca
 protondb_url: "https://www.protondb.com/app/844260"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rustler"
-metacritic_score: 65
-metacritic_url: "https://www.metacritic.com/game/pc/rustler?ftag=MCD-06-10aaa1f"
+metacritic_score: 59
+metacritic_url: "https://www.metacritic.com/game/rustler/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11895"
+opencritic_url: "https://opencritic.com/game/11895/-"
+opencritic_score: 63
+opencritic_review_count: 44
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002592"
+playstation_url: "https://store.playstation.com/en-us/concept/10002592"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Work out of the box on Decky!"

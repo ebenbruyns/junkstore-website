@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/borderlands-3/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.77
+protondb_total: 585
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: 2K Games
 developer: Gearbox Software
 genre: First Person, RPG, Shooter
 franchise: Borderlands
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Gambling, In-Game Purchases"},"usk":{"rating":"18"},"nzoflc":{"rating":"r16","descriptors":"Violence"},"kgrb":{"rating":"18","descriptors":"Violence, Language"},"csrr":{"rating":"R","descriptors":"Sex, Violence, Improper Language"},"mda":{"rating":"M18","descriptors":"Violence and Coarse Language"},"dejus":{"rating":"16","descriptors":"Arma com violência (10 anos);, Ossada ou esqueleto com resquício de violência (10 anos);, Ato violento (12 anos);, Descrição de violência (12 anos);, Exposição de cadáver (12 anos);, Linguagem chula (12 anos);, Presença de sangue (12 anos);, Morte intencional (14 anos);, Banalização da violência (16 anos);, Mutilação (16 anos);"}}
 release_date: "September 13, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
-languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Japanese*","Korean*","Portuguese - Brazil","Russian","Simplified Chinese*"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":836447,"slug":"new-tales-from-the-borderlands","name":"New Tales from the Borderlands"},{"rawg_id":692541,"slug":"tiny-tinas-assault-on-dragon-keep-a-wonderlands-on","name":"Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure"},{"rawg_id":2100,"slug":"tales-from-the-borderlands","name":"Tales from the Borderlands: A Telltale Game Series"},{"rawg_id":3543,"slug":"borderlands-the-pre-sequel","name":"Borderlands: The Pre-Sequel"},{"rawg_id":330906,"slug":"borderlands-legends","name":"Borderlands Legends"},{"rawg_id":802,"slug":"borderlands-2","name":"Borderlands 2"},{"rawg_id":4828,"slug":"borderlands","name":"Borderlands"}]
+franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|borderlands-the-pre-sequel|new-tales-from-the-borderlands|tales-from-the-borderlands|tiny-tinas-assault-on-dragon-k"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-05-18T15:00:00.000Z","end":"2022-05-25T15:00:00.000Z","type":null,"id":"dd845909e1504c048c14499eab60ec62"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "23.4 hrs"
 hltb_main_extra: "46.3 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/397540"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Borderlands_3"
 metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/borderlands-3?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/borderlands-3/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10477"
+opencritic_url: "https://opencritic.com/game/10477/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "227478"
+playstation_url: "https://store.playstation.com/en-us/concept/227478"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-The original shooter-looter returns, packing bazillions of guns and a mayhem-fueled adventure! Blast through new worlds and enemies as one of four new Vault Hunters. Play solo or with friends to take on insane enemies, score loads of loot and save your home from the most ruthless cult leaders in the galaxy.
+The original shooter-looter returns, packing bazillions of guns and a mayhem-fueled adventure! Blast through new worlds & enemies and save your home from the most ruthless cult leaders in the galaxy.

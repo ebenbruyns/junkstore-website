@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/darkest-dungeon-ii/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "May '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 89
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Red Hook Studios
 developer: Red Hook Studios
 genre: Turn-Based Strategy, RPG, Strategy
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Blood and Gore, Mild Language, Partial Nudity, Suggestive Themes, Violence"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Mature themes and violence"},"dejus":{"rating":"12","descriptors":"Drogas lícitas, Linguagem imprópria, Medo"}}
 release_date: "October 26, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Czech","Polish","Portuguese - Brazil","Russian","Italian","Simplified Chinese","Korean","Japanese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+size: ""
+franchise_siblings: [{"rawg_id":295014,"slug":"darkest-dungeon-2","name":"Darkest Dungeon 2"}]
+franchise_slug: "darkest-dungeon|darkest-dungeon-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "30.9 hrs"
 hltb_main_extra: "67.6 hrs"
 hltb_completionist: "95.9 hrs"
-hltb_url: "https://howlongtobeat.com/game/85972"
+hltb_url: "https://howlongtobeat.com/game/22535"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/darkest-dungeon-2"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/262060"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Darkest_Dungeon"
 metacritic_score: 84
-metacritic_url: "https://www.metacritic.com/game/pc/darkest-dungeon?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/darkest-dungeon/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1567"
+opencritic_url: "https://opencritic.com/game/1567/-"
+opencritic_score: 84
+opencritic_review_count: 80
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-The eagerly awaited follow-up to Red Hook's smash hit gothic horror RPG! DDII will test your mettle and drive you to the brink of madness.
+The eagerly awaited follow-up to Red Hook's smash hit gothic horror RPG!  DDII will test your mettle and drive you to the brink of madness. Armor yourself with purpose and provision your party for the journey ahead. It will be arduous.

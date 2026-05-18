@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/styx-shards-of-darkness-deluxe-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.84
+protondb_total: 65
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Nacon
@@ -19,10 +27,15 @@ developer: Cyanide Studio
 genre: Fantasy, Action-Adventure, Stealth
 franchise: Styx
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "January 15, 2026"
 game_modes: ["Single-player","Multi-player","Co-op"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Polish","Korean","Japanese*languages with full audio support"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Korean","Japanese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"19764","name":"Nacon Publisher Sale"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "10731 MB"
+franchise_siblings: [{"rawg_id":1006936,"slug":"styx-blades-of-greed","name":"Styx: Blades of Greed"},{"rawg_id":3562,"slug":"styx-master-of-shadows","name":"Styx: Master of Shadows"},{"rawg_id":4228,"slug":"of-orcs-and-men","name":"Of Orcs and Men"}]
+franchise_slug: "of-orcs-and-men|styx-blades-of-greed|styx-master-of-shadows|styx-shards-of-darkness"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-01-15T16:00:00.000Z","end":"2026-01-22T16:00:00.000Z","type":null,"id":"9b99ffa5a53e4317824f4ccb2b6e68d2"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12 Hours"
 hltb_main_extra: ""
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/355790"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Styx:_Shards_of_Darkness"
 metacritic_score: 72
-metacritic_url: "https://www.metacritic.com/game/pc/styx-shards-of-darkness?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/styx-shards-of-darkness/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4000"
+opencritic_url: "https://opencritic.com/game/4000/-"
+opencritic_score: 72
+opencritic_review_count: 75
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

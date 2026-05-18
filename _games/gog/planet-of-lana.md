@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/planet-of-lana/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.9
+protondb_total: 34
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Thunderful
@@ -19,10 +27,15 @@ developer: Wishfully
 genre: Adventure, Indie, Platform, Puzzle
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Medo, Violência fantasiosa"}}
 release_date: "May 23, 2023"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Portuguese - Brazil","Ukrainian","Czech","Danish","Dutch","Greek","Hungarian","Norwegian","Polish","Portuguese - Portugal","Romanian","Swedish","Turkish"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"115","name":"Controller"},{"id":"134","name":"Anime"},{"id":"107","name":"Family Friendly"},{"id":"165","name":"Colorful"},{"id":"110","name":"Cinematic"},{"id":"113","name":"Side Scroller"},{"id":"167","name":"Futuristic"},{"id":"40937","name":"Steam Trading Cards"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"572","name":"Emotional"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"49955","name":"Puzzle Platformer"},{"id":"202","name":"Artificial Intelligence"}]
+size: "6228 MB"
+franchise_siblings: [{"rawg_id":1015907,"slug":"planet-of-lana-2-children-of-the-leaf","name":"planet of lana 2 children of the leaf"}]
+franchise_slug: "planet-of-lana|planet-of-lana-2-children-of-t"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4.5 hrs"
 hltb_main_extra: "5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1608230"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Planet_of_Lana"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/planet-of-lana?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/planet-of-lana/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14952"
+opencritic_url: "https://opencritic.com/game/14952/-"
+opencritic_score: 81
+opencritic_review_count: 90
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10009541"
+playstation_url: "https://store.playstation.com/en-us/concept/10009541"
+xbox_id: "9MXK2RSQJQND"
+xbox_url: "https://www.xbox.com/games/store/-/9MXK2RSQJQND"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

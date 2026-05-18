@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/en-garde/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.74
+protondb_total: 29
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Fireplace Games
@@ -19,10 +27,15 @@ developer: Fireplace Games
 genre: Adventure, Indie, Fighting
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "June 26, 2018"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Italian","Simplified Chinese","Traditional Chinese","Ukrainian"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"149","name":"Third Person"},{"id":"4","name":"Funny"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"69","name":"Action-Adventure"},{"id":"107","name":"Family Friendly"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"114","name":"Physics"},{"id":"1465","name":"combat"},{"id":"89","name":"Historical"},{"id":"188","name":"Parkour"},{"id":"203","name":"Beat 'em up"},{"id":"166","name":"Stylized"},{"id":"164","name":"Cartoony"},{"id":"59643","name":"Протагонистка"},{"id":"185","name":"Swordplay"},{"id":"254","name":"Spectacle fighter"},{"id":"835","name":"Swords"},{"id":"591","name":"Unreal Engine"}]
+size: "6949 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.5 hrs"
 hltb_main_extra: "5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/En_Garde%21"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/en-garde/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15339"
+opencritic_url: "https://opencritic.com/game/15339/-"
+opencritic_score: 77
+opencritic_review_count: 25
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/monopoly-madness/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "red"
 standalone_rating: "red"
 date_tested: "Sep '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Ubisoft
 developer: Ubisoft
 genre: Casual, Party
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: E (ESRB) · 3 (PEGI)
+age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"cero":{"rating":"A"},"oflc":{"rating":"G","descriptors":"General, Online interaction"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
 release_date: "December 9, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1203","name":"Multiplayer"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "6 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Monopoly_Madness"
 metacritic_score: 
 metacritic_url: ""
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12482"
+opencritic_url: "https://opencritic.com/game/12482/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9P0RGJND5SR0"
+xbox_url: "https://www.xbox.com/games/store/-/9P0RGJND5SR0"
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Need to download & log in to Uplay"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Would you like to become the new Mr. Monopoly? It’s your lucky day! Our favorite Real-Estate Mogul is going on a well-earned vacation and he’s looking for a temporary stand-in. The method of selection? A race for fame and fortune. This time the rules have slightly changed. Monopoly Madness brings the Monopoly experience into the arena for the first time ever. Roam the chaotic streets of Monopoly City, collect resources, buy and upgrade properties, mess with your opponents, and avoid their tricks to win the race for riches. This is madness!
+Rediscover the MONOPOLY you love in a way you’ve never seen before. This is Madness!

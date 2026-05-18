@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/vampire-the-masquerade-coteries-of-new-york/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.24
+protondb_total: 13
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Draw Distance
 developer: Draw Distance
 genre: role-playing, adventure, indie, visual novel
 franchise: 
-age_rating_summary: 
+age_rating_summary: 16 (PEGI) · 16 (USK)
+age_ratings: {"pegi":{"rating":"16"},"usk":{"rating":"16"},"dejus":{"rating":"14","descriptors":"Medo, Violência, Temas sensíveis, Linguagem imprópria, Conteúdo sexual, Drogas lícitas, Drogas ilícitas"}}
 release_date: "December 1, 2019"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Portuguese - Brazil","Russian","Simplified Chinese","Italian","Spanish - Spain","German"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"468","name":"role-playing"},{"id":"192","name":"Mature"},{"id":"808","name":"character"},{"id":"288","name":"Interactive Fiction"},{"id":"300","name":"Vampire"},{"id":"1652","name":"night"},{"id":"1746","name":"dialogue"}]
+size: "1677 MB"
+franchise_siblings: [{"rawg_id":303576,"slug":"vampire-the-masquerade-bloodlines-2","name":"Vampire: The Masquerade – Bloodlines 2"},{"rawg_id":462685,"slug":"vampire-the-masquerade-swansong","name":"Vampire: The Masquerade – Swansong"},{"rawg_id":662357,"slug":"bloodhunt","name":"Vampire: The Masquerade - Bloodhunt"},{"rawg_id":430275,"slug":"vampire-the-masquerade-shadows-of-new-york","name":"Vampire: The Masquerade - Shadows of New York"},{"rawg_id":19397,"slug":"vampire-the-masquerade-bloodlines","name":"Vampire: The Masquerade - Bloodlines"},{"rawg_id":22230,"slug":"vampire-the-masquerade-redemption","name":"Vampire: The Masquerade - Redemption"}]
+franchise_slug: "bloodhunt|vampire-the-masquerade-bloodli|vampire-the-masquerade-bloodli|vampire-the-masquerade-coterie|vampire-the-masquerade-redempt|vampire-the-masquerade-shadows|vampire-the-masquerade-swanson"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "5.5 hrs"
 hltb_main_extra: "7 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1096410"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vampire%3A_The_Masquerade_-_Coteries_of_New_York"
 metacritic_score: 70
-metacritic_url: "https://www.metacritic.com/game/pc/vampire-the-masquerade---coteries-of-new-york?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/vampire-the-masquerade-coteries-of-new-york/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8719"
+opencritic_url: "https://opencritic.com/game/8719/-"
+opencritic_score: 70
+opencritic_review_count: 38
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version. Tested with Proton Experimental

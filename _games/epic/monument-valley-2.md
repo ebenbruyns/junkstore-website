@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/monument-valley-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sep '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.85
+protondb_total: 22
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: ustwo games
@@ -19,10 +27,15 @@ developer: ustwo games
 genre: Casual, Puzzle, Adventure
 franchise: Monument Valley
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 11, 2025"
 game_modes: ["Single-player"]
-languages: ["English*","French*","German*","Dutch*","Japanese*","Korean*","Portuguese - Portugal*","Russian*","Simplified Chinese*","Swedish*"]
+languages: ["English","French","German","Dutch","Japanese","Korean","Portuguese - Portugal","Russian","Simplified Chinese","Swedish","Traditional Chinese","Turkish","Italian","Spanish - Spain"]
+languages_audio: ["English","French","German","Dutch","Japanese","Korean","Portuguese - Portugal","Russian","Simplified Chinese","Swedish","Traditional Chinese","Turkish","Italian","Spanish - Spain"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+size: "291 MB"
+franchise_siblings: [{"rawg_id":591,"slug":"monument-valley","name":"Monument Valley"}]
+franchise_slug: "monument-valley|monument-valley-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-09-11T15:00:00.000Z","end":"2025-09-18T15:00:00.000Z","type":null,"id":"d09a24a332c94549b2144f962231c394"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1½ Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Monument_Valley_2:_Panorami
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/monument-valley-2/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13396"
+opencritic_url: "https://opencritic.com/game/13396/-"
+opencritic_score: 82
+opencritic_review_count: 4
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10013172"
+playstation_url: "https://store.playstation.com/en-us/concept/10013172"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: 
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Discover illusionary pathways and delightful puzzles as you learn the secrets of The Sacred Geometry. Follow the heart warming story of Ro in her journey through motherhood. Rediscover independence through manipulating monuments and evolving paths to explore new, surreal, and mysterious worlds.
+Discover illusionary pathways and delightful puzzles as you learn the secrets of The Sacred Geometry. Follow the heart warming story of Ro in her journey through motherhood. Rediscover independence through manipulating monuments and evolving paths to explore new worlds.

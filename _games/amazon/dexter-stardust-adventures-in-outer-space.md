@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/dexter-stardust-adventures-in-outer-space/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: "Flynn's Arcade, Dexter Team Games"
 developer: Sea Monster Media, Dexter Team Games
 genre: Adventure, Indie, Puzzle, Point-and-click, Visual Novel
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10"},"pegi":{"rating":"7"},"usk":{"rating":"6"},"oflc":{"rating":"PG"},"nzoflc":{"rating":"PG"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "March 3, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"69","name":"Action-Adventure"},{"id":"134","name":"Anime"},{"id":"141","name":"Point & Click"},{"id":"165","name":"Colorful"},{"id":"110","name":"Cinematic"},{"id":"113","name":"Side Scroller"},{"id":"90","name":"Visual Novel"},{"id":"258","name":"Hand-drawn"},{"id":"164","name":"Cartoony"},{"id":"268","name":"Comic Book"},{"id":"179","name":"Cartoon"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"288","name":"Interactive Fiction"},{"id":"224","name":"1980s"},{"id":"87","name":"Science"},{"id":"246","name":"Clicker"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "6 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/dexter-stardust-adventures-in-outer-space/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12805"
+opencritic_url: "https://opencritic.com/game/12805/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/alex-kidd-in-miracle-world-dx/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.6
+protondb_total: 14
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Silver Lining Interactive
 developer: Merge Games, Janken Team
 genre: Action, Adventure, Platformer
 franchise: 
-age_rating_summary: 
+age_rating_summary: 0 (USK)
+age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"L"}}
 release_date: "June 22, 2021"
 game_modes: ["Single player"]
-languages: []
+languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Russian","Italian"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.1 hrs"
 hltb_main_extra: "3.6 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alex_Kidd_in_Miracle_World_
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/alex-kidd-in-miracle-world-dx/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11569"
+opencritic_url: "https://opencritic.com/game/11569/-"
+opencritic_score: 64
+opencritic_review_count: 65
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10000812"
+playstation_url: "https://store.playstation.com/en-us/concept/10000812"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,8 +111,4 @@ is_featured: false
 owned: true
 ---
 
-The legendary Alex Kidd returns with Alex Kidd in Miracle World DX! 
-Since his first appearance in 1986 with Alex Kidd in Miracle World. The iconic Alex Kidd makes his return to smash rocks, collect coins and tackle bosses once again in Alex Kidd in Miracle World DX! 
- 
-Return The Kingdom of Radaxian to its former glory and destroy the evil Janken the Great! 
-Comprising of all levels from the original title as well as brand new levels which expand the lore of Alex Kidd, experience Miracle World like you’ve never seen it before with new animations, graphical detail and gameplay improvements.
+A legend returns in stunning new detail with Alex Kidd in Miracle World DX! Fire up your power bracelet and relive a platforming classic alongside new modes, levels and features!

@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/tiny-robots-recharged/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.21
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Snapbreak
 developer: Big Loop Studios
 genre: Adventure, Indie, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: 7 (PEGI)
+age_ratings: {"pegi":{"rating":"7"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 10, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Portugal","Russian"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Rich"},{"id":"4","name":"Funny"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"61","name":"Top-Down"},{"id":"197","name":"Robots"},{"id":"305","name":"Linear"},{"id":"1867","name":"puzzles"},{"id":"744","name":"friends"},{"id":"295","name":"Soundtrack"},{"id":"140","name":"Hidden Object"},{"id":"2590","name":"fun"},{"id":"49955","name":"Puzzle Platformer"},{"id":"575","name":"Logic"},{"id":"822","name":"escape"},{"id":"68059","name":"Escape Room"},{"id":"6706","name":"connect"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "3 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/tiny-robots-recharged/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

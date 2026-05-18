@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/firewatch/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.91
+protondb_total: 75
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Panic
@@ -19,10 +27,15 @@ developer: Campo Santo
 genre: adventure, indie
 franchise: 
 age_rating_summary: ESRB 17
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Drogas, Conteúdo sexual"}}
 release_date: "February 1, 2016"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","Russian","French","German","Spanish - Spain","Simplified Chinese","Japanese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"117","name":"Mystery"},{"id":"111","name":"Short"},{"id":"165","name":"Colorful"},{"id":"192","name":"Mature"},{"id":"91","name":"Walking Simulator"},{"id":"90","name":"Visual Novel"},{"id":"209","name":"Drama"},{"id":"288","name":"Interactive Fiction"},{"id":"183","name":"Thriller"},{"id":"43576","name":"interactive movie"},{"id":"91217","name":"interactive game"}]
+size: "2124 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "4.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/383870"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Firewatch"
 metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/firewatch?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/firewatch/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "2129"
+opencritic_url: "https://opencritic.com/game/2129/-"
+opencritic_score: 80
+opencritic_review_count: 134
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "BQQKG9H2STC0"
+xbox_url: "https://www.xbox.com/games/store/-/BQQKG9H2STC0"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

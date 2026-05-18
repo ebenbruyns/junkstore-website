@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/911-operator/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 86
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Games Operators
@@ -19,10 +27,15 @@ developer: Jutsu Games
 genre: Simulation, Strategy, Indie
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Atos criminosos, Linguagem imprópria, Drogas ilícitas"}}
 release_date: "April 23, 2026"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Polish","Simplified Chinese","Russian","Japanese","Czech","Korean","Portuguese - Brazil","Turkish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6.3 hrs"
 hltb_main_extra: "10.4 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/503560"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/911_Operator"
 metacritic_score: 68
-metacritic_url: "https://www.metacritic.com/game/pc/911-operator?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/911-operator/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4010"
+opencritic_url: "https://opencritic.com/game/4010/-"
+opencritic_score: 57
+opencritic_review_count: 14
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-911 Operator is a game about the difficult work of people that manage emergency lines and services. Main task is to answer incoming calls and to react properly - give first aid instructions, advise, dispatch correct number of firemen / police / ambulances, or sometimes just ignore the call.
+A game about the difficult work of people that manage emergency services. Answer incoming calls and react properly - give first aid instructions, advise, dispatch the correct number of firemen/police/ambulances, or sometimes - just ignore the call. Play on ANY CITY in the world!

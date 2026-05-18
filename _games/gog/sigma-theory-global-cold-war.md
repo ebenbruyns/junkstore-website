@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/sigma-theory-global-cold-war/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Mi-Clos Studio
@@ -19,10 +27,15 @@ developer: Mi-Clos Studio
 genre: Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie, Simulator
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Drogas ilícitas"}}
 release_date: "April 18, 2019"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
+languages: ["English","French","German","Russian","Simplified Chinese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"40850","name":"Steam Leaderboards"},{"id":"70","name":"War"},{"id":"102","name":"Turn-Based"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"808","name":"character"},{"id":"2889","name":"balance"},{"id":"2689","name":"rocket"},{"id":"1724","name":"Superpowers"},{"id":"836","name":"drone"}]
+size: "609 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "4.5 hrs"
 hltb_main_extra: "6 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sigma_Theory%3A_Global_Cold_War"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/sigma-theory-global-cold-war/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8695"
+opencritic_url: "https://opencritic.com/game/8695/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fort-solis/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.64
+protondb_total: 28
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Dear Villagers
@@ -19,10 +27,15 @@ developer: Fallen Leaf
 genre: Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Linguagem imprópria"}}
 release_date: "August 22, 2023"
-game_modes: ["Single-player"]
-languages: ["English*","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Japanese"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Japanese","Italian"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"25","name":"Space"},{"id":"110","name":"Cinematic"},{"id":"91","name":"Walking Simulator"},{"id":"40937","name":"Steam Trading Cards"},{"id":"305","name":"Linear"},{"id":"209","name":"Drama"},{"id":"200","name":"Narration"},{"id":"269","name":"Quick-Time Events"},{"id":"288","name":"Interactive Fiction"},{"id":"183","name":"Thriller"},{"id":"583","name":"Narrative"},{"id":"263","name":"Mars"},{"id":"1500","name":"immersive"},{"id":"5468","name":"qte"}]
+size: "6259 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.5 hrs"
 hltb_main_extra: "4.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fort_Solis"
 metacritic_score: 60
 metacritic_url: "https://www.metacritic.com/game/fort-solis/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15387"
+opencritic_url: "https://opencritic.com/game/15387/-"
+opencritic_score: 61
+opencritic_review_count: 75
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10007627"
+playstation_url: "https://store.playstation.com/en-us/concept/10007627"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

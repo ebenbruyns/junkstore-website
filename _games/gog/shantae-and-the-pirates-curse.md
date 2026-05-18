@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/shantae-and-the-pirates-curse/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.72
+protondb_total: 42
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Rising Star Games, Intergrow, WayForward
 developer: WayForward
 genre: Role-playing (RPG), Adventure, Indie, Platform
 franchise: 
-age_rating_summary: ESRB 10
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Violence, Sex"},"usk":{"rating":"6"},"oflc":{"rating":"G","descriptors":"Very Mild Violence"},"nzoflc":{"rating":"G","descriptors":"Very Mild Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Nudez, Violência"}}
 release_date: "October 22, 2014"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Controller support","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain"]
+languages_audio: ["English"]
 tags_structured: []
+size: "441 MB"
+franchise_siblings: [{"rawg_id":366894,"slug":"shantae-and-the-seven-sirens","name":"Shantae and the Seven Sirens"},{"rawg_id":607,"slug":"shantae-half-genie-hero","name":"Shantae: Half-Genie Hero"},{"rawg_id":239252,"slug":"watch-quest-heroes-of-time","name":"Watch Quest! Heroes of Time"},{"rawg_id":1693,"slug":"shantae-riskys-revenge","name":"Shantae: Risky's Revenge"},{"rawg_id":24077,"slug":"shantae","name":"Shantae"}]
+franchise_slug: "shantae|shantae-and-the-pirates-curse|shantae-and-the-seven-sirens|shantae-half-genie-hero|shantae-riskys-revenge|watch-quest-heroes-of-time"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "9.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shantae_and_the_Pirate%27s_Curse"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/shantae-and-the-pirates-curse/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "2440"
+opencritic_url: "https://opencritic.com/game/2440/-"
+opencritic_score: 81
+opencritic_review_count: 52
+twitch_id: ""
+twitch_url: ""
+playstation_id: "211120"
+playstation_url: "https://store.playstation.com/en-us/concept/211120"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-outer-worlds/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.73
+protondb_total: 271
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Private Division
 developer: Obsidian Entertainment
 genre: Role-playing (RPG), Adventure, Shooter
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence"},"nzoflc":{"rating":"r16","descriptors":"Violence"},"kgrb":{"rating":"18","descriptors":"폭력성, 언어의부적절성, 약물"},"fpb":{"rating":"18","descriptors":"D, L, V, (CI)"},"csrr":{"rating":"R","descriptors":"Violence, Improper Language"},"mda":{"rating":"M18","descriptors":"Violence"},"dejus":{"rating":"16","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "October 25, 2019"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Portuguese - Brazil","Simplified Chinese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"30","name":"FPS"},{"id":"97","name":"Action RPG"},{"id":"25","name":"Space"},{"id":"468","name":"role-playing"},{"id":"145","name":"Choices Matter"}]
+size: "55952 MB"
+franchise_siblings: [{"rawg_id":617120,"slug":"the-outer-worlds-2","name":"The Outer Worlds 2"}]
+franchise_slug: "the-outer-worlds|the-outer-worlds-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "13 hrs"
 hltb_main_extra: "26.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/the_outer_worlds"
 protondb_url: "https://www.protondb.com/app/578650"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Outer_Worlds"
-metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/the-outer-worlds?ftag=MCD-06-10aaa1f"
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/the-outer-worlds/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7413"
+opencritic_url: "https://opencritic.com/game/7413/-"
+opencritic_score: 83
+opencritic_review_count: 215
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9MWD2Z8L1FBQ"
+xbox_url: "https://www.xbox.com/games/store/-/9MWD2Z8L1FBQ"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

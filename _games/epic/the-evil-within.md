@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-evil-within/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.76
+protondb_total: 95
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Bethesda Softworks
 developer: Tango Gameworks
 genre: Horror, Survival, Shooter
 franchise: The Evil Within
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"18"},"oflc":{"rating":"r18"},"nzoflc":{"rating":"r18"},"fpb":{"rating":"18"},"dejus":{"rating":"18"}}
 release_date: "August 2, 2023"
 game_modes: ["Single player"]
-languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Polish","Russian*languages with full audio support"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: [{"rawg_id":29171,"slug":"the-evil-within-2","name":"The Evil Within 2"}]
+franchise_slug: "the-evil-within|the-evil-within-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-10-18T15:00:00.000Z","end":"2023-10-25T15:00:00.000Z","type":null,"id":"087155540ecc47239c98c1265b40ba99"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "15.3 hrs"
 hltb_main_extra: "20 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/the-evil-within"
 protondb_url: "https://www.protondb.com/app/268050"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Evil_Within"
-metacritic_score: 68
-metacritic_url: "https://www.metacritic.com/game/pc/the-evil-within?ftag=MCD-06-10aaa1f"
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/the-evil-within/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "188"
+opencritic_url: "https://opencritic.com/game/188/-"
+opencritic_score: 73
+opencritic_review_count: 95
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "C2M8HBNVPT1T"
+xbox_url: "https://www.xbox.com/games/store/-/C2M8HBNVPT1T"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,6 @@ is_featured: false
 owned: true
 ---
 
-The Evil Within is an action survival horror game that draws inspiration from the Resident Evil series with a grimy look with exaggerated gore. The game was directed by Shinji Mikami, the creator of Resident Evil & a former Resident Evil 4 director. You must navigate through the hostile game world with limited resources, this requires to use your wits to survive and correctly manage your resources as you encounters various terrors and dangers throughout the game. The environments may also change without warning in real-time based on your actions, adding more variables to the game.
+Developed by Tango Gameworks and directed by Resident Evil series creator Shinji Mikami, The Evil Within embodies pure survival horror. 
+
+As Detective Sebastian Castellanos, fight for survival with limited resources in a twisted world of nightmares.

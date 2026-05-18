@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/beyond-blue/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.61
+protondb_total: 19
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: E-Line Media
 developer: E-Line Media
 genre: Casual, Adventure, Indie
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: E (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Blood, Violent References"},"pegi":{"rating":"7"},"dejus":{"rating":"L"}}
 release_date: "June 11, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Dutch","Traditional Chinese","Turkish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-02-06T16:00:00.000Z","end":"2025-02-13T16:00:00.000Z","type":null,"id":"c3006006e4c74c4d8316ff09fb8dcc8d"},{"start":"2023-04-19T15:00:00.000Z","end":"2023-04-26T15:00:00.000Z","type":null,"id":"c3006006e4c74c4d8316ff09fb8dcc8d"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2.7 hrs"
 hltb_main_extra: "4 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/883360"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Beyond_Blue"
 metacritic_score: 72
-metacritic_url: "https://www.metacritic.com/game/pc/beyond-blue?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/beyond-blue/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9619"
+opencritic_url: "https://opencritic.com/game/9619/-"
+opencritic_score: 73
+opencritic_review_count: 70
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,8 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Explore and uncover the secrets of Earth’s last uncharted frontier
-
-Set in the near future, players will probe the mysteries of our ocean through the eyes of Mirai, the lead on a newly formed research team that will use groundbreaking technologies to see, hear, and sense the ocean in a more meaningful way than has ever been attempted. The game will feature both an evocative narrative and high level resource management, challenging the player to make high-stakes decisions and prioritize which objectives can be successfully achieved during the crew’s expedition.
-
-Embracing the same inclusive development process that was used to create Never Alone (Kisima Ingitchuna), E-Line’s BAFTA award-winning game about Alaska Native culture, the company paired world class game makers with some of the field’s leading ocean experts to craft an experience that reflects the awesome wonder and unbounded mystery that infuses our planet’s beating blue heart.
+Beyond Blue is a single-player narrative adventure that takes you deep into our planet’s beating blue heart.  Set in the near future, Beyond Blue explores the mysteries of our ocean through the eyes of Mirai, a deep-sea explorer and scientist. Become a part of a newly-formed r...

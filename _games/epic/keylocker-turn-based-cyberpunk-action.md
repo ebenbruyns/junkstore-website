@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/keylocker-turn-based-cyberpunk-action/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.57
+protondb_total: 5
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Serenity Forge
@@ -19,10 +27,15 @@ developer: Moonana Games
 genre: Turn-Based, Indie, RPG
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "July 31, 2025"
 game_modes: ["Single player"]
-languages: ["English (United States)"]
+languages: ["English","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-31T15:00:00.000Z","end":"2025-08-07T15:00:00.000Z","type":null,"id":"3de25d0eaa7f4b9dbb3fa3f08fd55746"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "20 Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Keylocker"
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/keylocker-turn-based-cyberpunk-action/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17321"
+opencritic_url: "https://opencritic.com/game/17321/-"
+opencritic_score: 81
+opencritic_review_count: 17
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10011063"
+playstation_url: "https://store.playstation.com/en-us/concept/10011063"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Keylocker is a Cyberpunk turn based rhythm JRPG inspired by the Mario&Luigi RPG series and Chrono Trigger, in which you play as the singer and songwriter, BOBO. Fuel your moves with the electric power of music in this unforgiving planet by using real-time execution of moves in rhythm game style! Battle the authorities, unlock the secrets of Saturn, play on your own bands' concerts and hack into the network to bring an end to this corrupt system, for better or worse.
+Keylocker is a Cyberpunk turn-based rhythm JRPG. As the electric singer, B0B0, you’ll choose your class, master a challenging combat system, and shake the foundations of Saturnite society in rhythm-game style!

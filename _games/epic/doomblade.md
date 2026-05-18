@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/doomblade/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.3
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Iceberg Interactive
@@ -19,10 +27,15 @@ developer: Iceberg Interactive
 genre: Action, Adventure, Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "May 31, 2023"
 game_modes: ["Single-player"]
-languages: ["English*","German","Russian","Simplified Chinese","French","Spanish - Spain","Portuguese - Brazil","Dutch*languages with full audio support"]
+languages: ["English","German","Russian","Simplified Chinese","French","Spanish - Spain","Portuguese - Brazil","Dutch"]
+languages_audio: ["English"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"29","name":"Steam Trading Cards"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
+size: "2666 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"id":"epic_9e7d6a034aaf450dacda4b51695d113a","start":"2026-04-23T07:23:01.000Z","end":"2026-04-30T15:00:00.000Z","type":null}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11 hrs"
 hltb_main_extra: "13 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/922050"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doomblade"
 metacritic_score: 83
-metacritic_url: "https://www.metacritic.com/game/pc/doomblade?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/doomblade/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15014"
+opencritic_url: "https://opencritic.com/game/15014/-"
+opencritic_score: 82
+opencritic_review_count: 12
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-DOOMBLADE
+Deep underground, Gloom Girl discovers DOOMBLADE, a sentient weapon hellbent on escape after eons in chains. Together, “Doom and Gloom” embark on a vengeful quest to unlock the powerful abilities and destroy the Dread Lords once and for all in this 2D Action Metroidvania.

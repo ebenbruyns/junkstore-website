@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/oddsparks-an-automation-adventure/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.62
+protondb_total: 19
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: HandyGames
 developer: Massive Miniteam
 genre: Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: 6 (USK)
+age_ratings: {"usk":{"rating":"6","descriptors":"Angedeutete Gewalt"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "May 27, 2025"
 game_modes: []
 languages: ["English","French","German","Japanese","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"1","name":"Multi-player"},{"id":"9","name":"Co-op"},{"id":"38","name":"Online Co-op"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"29","name":"Steam Trading Cards"},{"id":"30","name":"Steam Workshop"},{"id":"64","name":"Adjustable Text Size"},{"id":"67","name":"Camera Comfort"},{"id":"66","name":"Color Alternatives"},{"id":"68","name":"Custom Volume Controls"},{"id":"78","name":"Adjustable Difficulty"},{"id":"74","name":"Playable without Timed Input"},{"id":"79","name":"Save Anytime"},{"id":"69","name":"Stereo Sound"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"id":"epic_102da1ac6e864d7f84889f2c0a107ee2","start":"2026-04-30T07:32:49.000Z","end":"2026-05-07T15:00:00.000Z","type":null},{"id":"gp_3616","start":"2026-05-05T09:54:31.000Z","end":"2026-05-07T15:00:00.000Z","type":null}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "67½ Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Special:Search?search=18178
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/oddsparks-an-automation-adventure/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10007957"
+playstation_url: "https://store.playstation.com/en-us/concept/10007957"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: 
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Design automated workshops for your odd and adorable Sparks to carry and craft everything, including more of themselves! Lead your squad of Sparks into combat. Explore a strange fantasy world, in single player or online co-op. Unearth the ancient mystery of the Sparks!
+Design automated workshops for your odd and adorable Sparks to carry and craft everything, including more of themselves. Lead your squad of Sparks into combat. Explore a strange fantasy world, in single player or online co-op. Unearth the ancient mystery of the Sparks!

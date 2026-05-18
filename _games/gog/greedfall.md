@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/greedfall/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.61
+protondb_total: 130
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Focus Entertainment
 developer: Spiders
 genre: Role-playing (RPG), Adventure, Strategy
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 16 (USK)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Language, Partial Nudity, Suggestive Themes, Violence"},"usk":{"rating":"16"},"dejus":{"rating":"16","descriptors":"Violência, Drogas lícitas"}}
 release_date: "September 9, 2019"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"468","name":"role-playing"}]
+size: "19758 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "23 hrs"
 hltb_main_extra: "41 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/606880"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/GreedFall"
 metacritic_score: 72
-metacritic_url: "https://www.metacritic.com/game/pc/greedfall?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/greedfall/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8085"
+opencritic_url: "https://opencritic.com/game/8085/-"
+opencritic_score: 74
+opencritic_review_count: 124
+twitch_id: ""
+twitch_url: ""
+playstation_id: "233031"
+playstation_url: "https://store.playstation.com/en-us/concept/233031"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

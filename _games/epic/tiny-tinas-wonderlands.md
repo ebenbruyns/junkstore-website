@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tiny-tinas-wonderlands/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.89
+protondb_total: 103
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: 2K Games
 developer: Gearbox Software
 genre: Action, Fantasy, Action-Adventure, Adventure
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Suggestive Themes, Partial Nudity, Language, Crude Humor"},"pegi":{"rating":"16","descriptors":"Violence, In-Game Purchases"},"usk":{"rating":"16"},"oflc":{"rating":"M","descriptors":"Fantasy themes and violence, Online interactivity"},"nzoflc":{"rating":"M","descriptors":"Fantasy themes and violence, Online interactivity"},"kgrb":{"rating":"15","descriptors":"과도하지 않은 폭력성 표현, (무기류를 사용한 공격표현 및 신체훼손 표현), 과도하지 언어 표현, (대사에서 보여지는 욕설 및 비속어 표현)"},"fpb":{"rating":"18"},"csrr":{"rating":"C15","descriptors":"Sex, Violence, Inappropriate Speech"},"mda":{"rating":"AA16"},"dejus":{"rating":"14","descriptors":"Violência, Conteúdo sexual"}}
 release_date: "March 24, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
-languages: ["English*","French*","Italian","German*","Spanish - Spain*","Japanese*","Korean*","Portuguese - Brazil","Russian","Simplified Chinese*"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Thai","Traditional Chinese"]
+languages_audio: ["English","French","German","Spanish - Spain","Japanese","Korean","Simplified Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"1287","name":"Fantasy"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":692541,"slug":"tiny-tinas-assault-on-dragon-keep-a-wonderlands-on","name":"Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure"},{"rawg_id":3388,"slug":"borderlands-the-handsome-collection","name":"Borderlands: The Handsome Collection"},{"rawg_id":802,"slug":"borderlands-2","name":"Borderlands 2"}]
+franchise_slug: "borderlands-2|borderlands-the-handsome-colle|tiny-tinas-assault-on-dragon-k|tiny-tinas-wonderlands"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-29T15:00:00.000Z","end":"2025-06-05T15:00:00.000Z","type":null,"id":"ba702e6d4e3f407ab2bb2370b7f0f983"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "16 hrs"
 hltb_main_extra: "29 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tiny_Tina%27s_Wonderlands"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/tiny-tinas-wonderlands/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12353"
+opencritic_url: "https://opencritic.com/game/12353/-"
+opencritic_score: 78
+opencritic_review_count: 150
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10000818"
+playstation_url: "https://store.playstation.com/en-us/concept/10000818"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Embark on an epic adventure full of whimsy, wonder, and high-powered weaponry! Bullets, magic, and broadswords collide across this chaotic fantasy world brought to life by the unpredictable Tiny Tina.
+Embark on an epic adventure full of whimsy, wonder, and high-powered weaponry! Roll your own multiclass hero then shoot, loot, slash, and cast on a quest to stop the Dragon Lord.

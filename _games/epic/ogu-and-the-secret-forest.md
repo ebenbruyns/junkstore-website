@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/ogu-and-the-secret-forest/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "June '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.17
+protondb_total: 10
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Sinkhole Studio
@@ -19,10 +27,15 @@ developer: Sinkhole Studio, Moonlab Studio
 genre: Action, Puzzle, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"kgrb":{"rating":"ALL","descriptors":"GC-DG-NP-23-00003"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "June 5, 2025"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["Korean","English","Japanese","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Spanish - Latin America"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-06-05T15:00:00.000Z","end":"2025-06-12T15:00:00.000Z","type":null,"id":"7b96ffa7b1654c6dafa0b54cf1afd413"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "13 hrs"
 hltb_main_extra: "16 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ogu_and_the_Secret_Forest"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/ogu-and-the-secret-forest/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17065"
+opencritic_url: "https://opencritic.com/game/17065/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

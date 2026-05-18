@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/lego-the-lord-of-the-rings/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.66
+protondb_total: 168
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: WB Games, Feral Interactive
 developer: "Traveller's Tales"
 genre: Adventure
 franchise: 
-age_rating_summary: ESRB 10
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence"},"pegi":{"rating":"7"},"usk":{"rating":"12"},"dejus":{"rating":"L"}}
 release_date: "November 13, 2012"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["Danish","Dutch","English*","French*","German*","Italian","Polish","Russian","Spanish - Spain*languages with full audio support"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Co-op","Overlay","Single-player"]
+languages: ["Danish","Dutch","English","French","German","Italian","Polish","Russian","Spanish - Spain"]
+languages_audio: ["English","French","German"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"107","name":"Family Friendly"},{"id":"133","name":"3D Vision"},{"id":"297","name":"LEGO"}]
+size: "5894 MB"
+franchise_siblings: [{"rawg_id":833436,"slug":"lego-bricktales","name":"LEGO Bricktales"},{"rawg_id":401818,"slug":"lego-builders-journey","name":"LEGO Builder’s Journey"},{"rawg_id":330295,"slug":"lego-city-builder","name":"Lego City Builder"},{"rawg_id":58597,"slug":"lego-dc-super-villains","name":"LEGO DC Super-Villains"},{"rawg_id":58086,"slug":"lego-the-incredibles","name":"LEGO The Incredibles"},{"rawg_id":67971,"slug":"lego-city-game","name":"LEGO City game"},{"rawg_id":3729,"slug":"lego-the-hobbit","name":"LEGO The Hobbit"},{"rawg_id":27244,"slug":"lego-city-undercover-the-chase-begins-3ds","name":"LEGO City Undercover: The Chase Begins 3DS"},{"rawg_id":53375,"slug":"lego-bionicle","name":"Lego Bionicle"},{"rawg_id":32458,"slug":"lego-racers-2","name":"LEGO Racers 2"},{"rawg_id":53376,"slug":"lego-racers-2-2001","name":"Lego Racers 2 (2001)"},{"rawg_id":32359,"slug":"lego-island-2-the-bricksters-revenge","name":"LEGO Island 2: The Brickster's Revenge"},{"rawg_id":32251,"slug":"lego-racers","name":"LEGO Racers"},{"rawg_id":330584,"slug":"lego-island","name":"LEGO Island"}]
+franchise_slug: "lego-bionicle|lego-bricktales|lego-builders-journey|lego-city-builder|lego-city-game|lego-city-undercover-the-chase|lego-dc-super-villains|lego-island|lego-island-2-the-bricksters-r|lego-lord-of-the-rings|lego-racers|lego-racers-2|lego-racers-2-2001|lego-the-hobbit|lego-the-incredibles"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: "16.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/214510"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_The_Lord_of_the_Rings"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/lego-the-lord-of-the-rings?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/lego-the-lord-of-the-rings/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

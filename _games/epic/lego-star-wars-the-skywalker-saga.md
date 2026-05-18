@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/lego-star-wars-the-skywalker-saga/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.91
+protondb_total: 176
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Warner Bros.
 developer: TT Games
 genre: Action, Adventure
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence, Comic Mischief"},"pegi":{"rating":"7","descriptors":"Violence, Fear, In-Game Purchases"},"usk":{"rating":"12"},"cero":{"rating":"B","descriptors":"Violence, Criminal Acts"},"oflc":{"rating":"PG","descriptors":"Mild science fiction violence"},"kgrb":{"rating":"12","descriptors":"Violence"},"csrr":{"rating":"P6","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa"}}
 release_date: "April 5, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Dutch","Korean","Polish","Portuguese - Brazil","Russian","Spanish - Latin America","Traditional Chinese","Japanese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Spanish - Latin America","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":717012,"slug":"lego-star-wars-castaways","name":"LEGO Star Wars: Castaways"},{"rawg_id":632559,"slug":"lego-star-wars-the-skywalker-saga-prototype","name":"LEGO Star Wars: The Skywalker Saga Prototype"},{"rawg_id":612434,"slug":"lego-star-wars-the-last-jedi","name":"Lego Star Wars: The Last Jedi"},{"rawg_id":1935,"slug":"lego-star-wars-tfa","name":"LEGO Star Wars: The Force Awakens"},{"rawg_id":12729,"slug":"lego-star-wars-iii","name":"LEGO Star Wars III - The Clone Wars"},{"rawg_id":42176,"slug":"lego-star-wars-the-quest-for-r2-d2","name":"LEGO Star Wars: The Quest for R2-D2"},{"rawg_id":270713,"slug":"lego-star-wars-ii","name":"LEGO Star Wars II"},{"rawg_id":12662,"slug":"lego-star-wars-tcs","name":"LEGO Star Wars - The Complete Saga"},{"rawg_id":53378,"slug":"lego-star-wars-2-the-original-trilogy","name":"Lego Star Wars II: The Original Trilogy"},{"rawg_id":53377,"slug":"lego-star-wars","name":"Lego Star Wars: The Video Game"}]
+franchise_slug: "lego-star-wars|lego-star-wars-2-the-original-|lego-star-wars-castaways|lego-star-wars-ii|lego-star-wars-iii|lego-star-wars-tcs|lego-star-wars-tfa|lego-star-wars-the-last-jedi|lego-star-wars-the-quest-for-r|lego-star-wars-the-skywalker-s|lego-star-wars-the-sywalker-sa"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-04T15:00:00.000Z","end":"2025-05-05T15:00:00.000Z","type":null,"id":"283939b792814f5e87d8bdd5a8375fac"},{"start":"2024-12-05T16:00:00.000Z","end":"2024-12-12T16:00:00.000Z","type":null,"id":"283939b792814f5e87d8bdd5a8375fac"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "18.6 hrs"
 hltb_main_extra: "34.7 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-sag
 protondb_url: "https://www.protondb.com/app/920210"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_Star_Wars%3A_The_Skywalker_Saga"
-metacritic_score: 78
-metacritic_url: "https://www.metacritic.com/game/pc/lego-star-wars-the-skywalker-saga?ftag=MCD-06-10aaa1f"
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/lego-star-wars-the-skywalker-saga/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9901"
+opencritic_url: "https://opencritic.com/game/9901/-"
+opencritic_score: 82
+opencritic_review_count: 171
+twitch_id: ""
+twitch_url: ""
+playstation_id: "232847"
+playstation_url: "https://store.playstation.com/en-us/concept/232847"
+xbox_id: "BRMKDCZT0C4L"
+xbox_url: "https://www.xbox.com/games/store/-/BRMKDCZT0C4L"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,8 +111,6 @@ is_featured: false
 owned: true
 ---
 
-Lego Star Wars: The Skywalker Saga is a third-person action-adventure with an open world hub. Unlike previous Lego games in which players had to advance through the story in a linear order, players can now choose to start the game from any of the main Skywalker Saga episodes and complete them in any order they wish. Each episode has their own hub filled with planets featured prominently in each respective film that can be visited and explored. Each episode will have five story missions each, a total of 45 levels.
+Play through all nine Skywalker saga films in a game unlike any other. With over 300 playable characters, over 100 vehicles, and 23 planets to explore, a galaxy far, far away has never been more fun! 
 
-Combat has also been revamped, such as lightsaber fights now involving a variety of combos with light attacks, heavy attacks, and Force moves, and blaster characters having an over-the-shoulder camera angle featured in many third-person shooter games.
-
-Random encounters will also happen in the game's hub. For example, an Imperial Star Destroyer will suddenly jump out of hyperspace and send a fleet of TIE Fighters after the player. Players can choose to engage in dogfights with them or continue onward to progress the story. The game will have more than 200 playable characters, though TT Games has said that number will change.
+*Includes classic Obi-Wan Kenobi playable character

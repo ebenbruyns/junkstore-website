@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/toejam-earl-back-in-the-groove/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 14
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: HumaNature Studios
 developer: HumaNature Studios
 genre: Casual
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Crude Humor, Mild Cartoon Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "October 13, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Portuguese - Brazil","Spanish - Latin America","Japanese","Spanish - Spain"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"}]
+size: ""
+franchise_siblings: [{"rawg_id":335764,"slug":"svc-toejam-earl","name":"Sega Vintage Collection: ToeJam & Earl"},{"rawg_id":353374,"slug":"toejam-earl-iii-mission-to-earth","name":"ToeJam & Earl III: Mission to Earth"},{"rawg_id":447802,"slug":"toejam-earl-2-panic-on-funkotron","name":"Toejam & Earl in Panic on Funkotron"},{"rawg_id":4204,"slug":"toejam-earl","name":"ToeJam & Earl"}]
+franchise_slug: "svc-toejam-earl|toejam-earl|toejam-earl-2-panic-on-funkotr|toejam-earl-back-in-the-groove|toejam-earl-iii-mission-to-ear"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-10-12T15:00:00.000Z","end":"2022-10-19T15:00:00.000Z","type":null,"id":"db9725548f40419cac7d1c10f94c0736"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "2.2 hrs"
 hltb_main_extra: "4.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/ToeJam_%26_Earl:_Back_in_th
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/toejam-earl-back-in-the-groove?ftag=MCD-06-10aaa1f"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7331"
+opencritic_url: "https://opencritic.com/game/7331/-"
+opencritic_score: 72
+opencritic_review_count: 75
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,5 +111,6 @@ is_featured: false
 owned: true
 ---
 
-ToeJam and Earl have crash-landed back on Earth in ToeJam and Earl: Back in the Groove!, a funky fresh rogue-like adventure infused with old skool hip-hop and jam packed with awesome throwbacks to the 1991 classic.
-The iconic '90s duo is back in the groove with all-new presents to help them navigate this wack planet "Earth" and retrieve all the lost pieces to the Rapmaster Rocket. Team up for co-op play to discover secret locations, hidden presents and new friends as you make your way through a constantly changing and unpredictable world!
+ToeJam & Earl: Back in the Groove is a mash-up of the best features from the classic console games with a ton of funky fresh improvements.
+
+Relive the original roguelike game with new 4 player online and local co-op, crazy Earthlings, weird presents and aliens from Funkotron!

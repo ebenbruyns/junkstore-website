@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/south-of-the-circle/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.68
+protondb_total: 8
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: 11 bit studios
@@ -19,10 +27,15 @@ developer: State of Play Games
 genre: Adventure, Point-and-click
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Drogas lícitas, Violência"}}
 release_date: "October 30, 2020"
-game_modes: ["Single player"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Arabic","Dutch","Japanese","Korean","Portuguese - Portugal"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Overlay"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Dutch","Japanese","Korean","Portuguese - Portugal","Russian","Simplified Chinese","Traditional Chinese","Turkish","Portuguese - Brazil"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"141","name":"Point & Click"},{"id":"110","name":"Cinematic"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"209","name":"Drama"},{"id":"217","name":"Romance"},{"id":"200","name":"Narration"},{"id":"572","name":"Emotional"},{"id":"112","name":"Minimalist"},{"id":"288","name":"Interactive Fiction"},{"id":"295","name":"Soundtrack"},{"id":"251","name":"Cold War"},{"id":"66536","name":"Романтика"}]
+size: "1077 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.5 hrs"
 hltb_main_extra: "3.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1811040"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/South_of_the_Circle"
 metacritic_score: 75
-metacritic_url: "https://www.metacritic.com/game/pc/south-of-the-circle?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/south-of-the-circle/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10507"
+opencritic_url: "https://opencritic.com/game/10507/-"
+opencritic_score: 75
+opencritic_review_count: 52
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004233"
+playstation_url: "https://store.playstation.com/en-us/concept/10004233"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/gigantic-rampage-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.44
+protondb_total: 16
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Arc Games
@@ -19,10 +27,15 @@ developer: Abstraction Games
 genre: Action
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "April 9, 2024"
 game_modes: ["Online Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: ["English","French","German","Korean","Simplified Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"39940","name":"Gift A Game"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-08-22T15:00:00.000Z","end":"2024-08-29T15:00:00.000Z","type":null,"id":"5a387d243a05401b926575736262a929"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/gigantic-rampage-edition-03f532"
 protondb_url: "https://www.protondb.com/app/1924490"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gigantic%3A_Rampage_Edition"
-metacritic_score: 65
-metacritic_url: "https://www.metacritic.com/game/gigantic-rampage-edition/"
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/gigantic/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16554"
+opencritic_url: "https://opencritic.com/game/16554/-"
+opencritic_score: 72
+opencritic_review_count: 9
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004505"
+playstation_url: "https://store.playstation.com/en-us/concept/10004505"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-GO GIGANTIC! THE UNIQUE MOBA HERO SHOOTER RETURNS!
+GIGANTIC: RAMPAGE EDITION is a premium and definitive release of the original 5v5 MOBA Hero Shooter, GIGANTIC. Choose a unique hero and team up with other players to control objectives. GIGANTIC: RAMPAGE EDITION includes a new game mode, cross platform play, new heroes, new maps.

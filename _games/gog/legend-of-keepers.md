@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/legend-of-keepers/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.6
+protondb_total: 17
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Goblinz Studio
@@ -19,10 +27,15 @@ developer: Goblinz Studio
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Simulator, Fighting
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência fantasiosa, Violência, Violência Extrema, Drogas lícitas"}}
 release_date: "March 19, 2020"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil","Spanish - Spain","Polish","Russian","Japanese","Korean","Traditional Chinese","Turkish","Czech"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"40850","name":"Steam Leaderboards"},{"id":"122","name":"Pixel Graphics"},{"id":"11669","name":"stats"},{"id":"74","name":"Retro"},{"id":"102","name":"Turn-Based"},{"id":"639","name":"Roguelike"},{"id":"233","name":"JRPG"},{"id":"48","name":"Dungeon Crawler"}]
+size: "658 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "18.5 hrs"
 hltb_main_extra: "27.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/978520"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legend_of_Keepers"
 metacritic_score: 76
-metacritic_url: "https://www.metacritic.com/game/pc/legend-of-keepers-career-of-a-dungeon-manager?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/legend-of-keepers-career-of-a-dungeon-manager/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11294"
+opencritic_url: "https://opencritic.com/game/11294/-"
+opencritic_score: 75
+opencritic_review_count: 17
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10005434"
+playstation_url: "https://store.playstation.com/en-us/concept/10005434"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

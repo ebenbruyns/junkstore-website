@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/skull-and-bones/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "red"
 standalone_rating: "red"
 date_tested: "Sep '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.57
+protondb_total: 22
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Ubisoft
 developer: Ubisoft Singapore
 genre: Action, Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Strong Language, Use of Drugs"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Drugs"},"usk":{"rating":"16"},"cero":{"rating":"D","descriptors":"Violence, Drugs"},"oflc":{"rating":"M","descriptors":"Mature themes, Violence, Drug Use, Coarse Language and sexual references"},"nzoflc":{"rating":"M","descriptors":"Violence, Offensive Language &amp; Content that may disturb"},"kgrb":{"rating":"18","descriptors":"Drugs, Violence"},"fpb":{"rating":"18","descriptors":"D (Substance abuse), L (Language), V (Violence), PPS (Photo Pattern Sensitivity), CI (Competitive Intensity)"},"csrr":{"rating":"R","descriptors":"Violence, Language, Drugs"},"dejus":{"rating":"16","descriptors":"Drogas, Violência"}}
 release_date: "February 16, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Arabic","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Italian","Polish"]
+languages_audio: ["English","French","German","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "31 hrs"
 hltb_main_extra: "45 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Skull_and_Bones"
 metacritic_score: 59
 metacritic_url: "https://www.metacritic.com/game/skull-and-bones/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16299"
+opencritic_url: "https://opencritic.com/game/16299/-"
+opencritic_score: 60
+opencritic_review_count: 102
+twitch_id: ""
+twitch_url: ""
+playstation_id: "225700"
+playstation_url: "https://store.playstation.com/en-us/concept/225700"
+xbox_id: "9P7X7VL05K48"
+xbox_url: "https://www.xbox.com/games/store/-/9P7X7VL05K48"
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Need to log in to download & login to Uplay. Toggle on BattlEye"
 controller_config: Native Steam Deck Controls
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Set sail into the vibrant open world of Skull and Bones, a naval online action RPG where you rise to become the most fearsome pirate kingpin.
-
-Customize your fleet, craft unique ships, and forge formidable weapons to dominate in exhilarating sea battles against your foes, all while expanding your pirate empire. Join a dynamic and ever-evolving world that brings fresh challenges, features, and stories with each season, immersing you in a continuously unfolding pirate saga.
+Enter the perilous world of Skull and Bones, a co-op pirate open world action-RPG experience, to become the most infamous pirate kingpin! Engage in thrilling naval battles, craft a variety of unique ships, forge unlikely alliances as you overcome the odds, and bring mayhem on the seas. Be part of an immersive world that introduces new challenges and features every season.

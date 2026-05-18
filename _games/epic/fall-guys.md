@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/fall-guys/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.56
+protondb_total: 974
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Epic Games
 developer: Mediatonic
 genre: Party
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: 3 (PEGI)
+age_ratings: {"pegi":{"rating":"3"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "June 21, 2022"
 game_modes: ["Co-operative","Multiplayer","Battle Royale"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"39070","name":"iOS"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: true
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9.9 hrs"
 hltb_main_extra: "31.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/fall-guys"
 protondb_url: "https://www.protondb.com/app/1097150"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fall_Guys"
-metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/fall-guys-ultimate-knockout?ftag=MCD-06-10aaa1f"
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/fall-guys/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9913"
+opencritic_url: "https://opencritic.com/game/9913/-"
+opencritic_score: 80
+opencritic_review_count: 110
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003354"
+playstation_url: "https://store.playstation.com/en-us/concept/10003354"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. \nInstall the easy anti cheat runtime from the 'About' section- (make sure you are installing it to the SSD not the micro SD card)"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Fall Guys flings hordes of contestants together online in a mad dash through round after round of escalating chaos until one victor remains! Battle bizarre obstacles, shove through unruly competitors, and overcome the unbending laws of physics to avoid both humiliation and elimination. Leave your dignity at the door and prepare for hilarious failure in your quest for the crown.
+Fall Guys is a free, cross-platform multiplayer party royale game. Dive into escalating rounds of hilarious obstacle courses, lively survival arenas and more!

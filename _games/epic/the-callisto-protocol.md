@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-callisto-protocol/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.87
+protondb_total: 65
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: KRAFTON, Inc.
 developer: Striking Distance Studios
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"High impact bloody violence"},"nzoflc":{"rating":"r18","descriptors":"Violence and horror"},"kgrb":{"rating":"18","descriptors":"Violence, Language, Horror"},"csrr":{"rating":"R","descriptors":"Violence and Offensive Language"},"mda":{"rating":"M18","descriptors":"Violence and Gore"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Medo"}}
 release_date: "January 1, 2099"
 game_modes: ["Single player"]
-languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Japanese*","Korean*","Polish","Portuguese - Brazil","Simplified Chinese*"]
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Russian"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"150","name":"Third-Person Shooter"},{"id":"41","name":"Dark"},{"id":"25","name":"Space"},{"id":"17","name":"Survival Horror"},{"id":"571","name":"3D"},{"id":"77","name":"Realistic"},{"id":"110","name":"Cinematic"},{"id":"167","name":"Futuristic"},{"id":"197","name":"Robots"},{"id":"305","name":"Linear"},{"id":"171","name":"PvE"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10 Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Callisto_Protocol"
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/the-callisto-protocol/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13372"
+opencritic_url: "https://opencritic.com/game/13372/-"
+opencritic_score: 67
+opencritic_review_count: 159
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002652"
+playstation_url: "https://store.playstation.com/en-us/concept/10002652"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-In this narrative-driven, third-person survival horror game set 300 years in the future, the player will take on the role of Jacob Lee – a victim of fate thrown into Black Iron Prison, a maximum-security penitentiary located on Jupiter's moon, Callisto. When inmates begin to transform into monstrous creatures, the prison is thrown into chaos.
+Survive to escape the horrors of Callisto. Using a unique blend of shooting and close-quarters combat, players will need to combat rapidly evolving creatures while scavenging to unlock new weapons and gear to outrun the growing threat of Jupiter's Dead Moon.

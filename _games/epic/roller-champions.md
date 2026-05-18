@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/roller-champions/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "red"
 standalone_rating: "red"
 date_tested: "Sep '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.57
+protondb_total: 5
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: UBISOFT
 developer: UBISOFT MONTREAL
 genre: Sport, Simulator, Racing
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Mild Violence"},"pegi":{"rating":"7","descriptors":"Violence, In-Game Purchases"},"usk":{"rating":"6"},"cero":{"rating":"A"},"oflc":{"rating":"G","descriptors":"Very mild violence, Online interactivity, In-game purchases"},"kgrb":{"rating":"ALL","descriptors":"Violence"},"csrr":{"rating":"G"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "June 23, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Turkish","Portuguese - Brazil"]
+languages_audio: ["English","French"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21125","name":"Competitive Community"},{"id":"21141","name":"Extremely Fun"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Roller_Champions"
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/roller-champions/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13177"
+opencritic_url: "https://opencritic.com/game/13177/-"
+opencritic_score: 61
+opencritic_review_count: 18
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Need to download & log in to Uplay"
 controller_config: Native Steam Deck Controls
@@ -81,5 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Skate your way to victory!
-Advance through the ranks as you rise from street to stadium, winning matches and gaining fans on your way to Roller Champion fame. Feel the thrill of rushing down the track, weaving between opponents, and slamming goals in this electrifying derby-inspired game. The arena awaits you!
+Skate and roll your way up to glory in Roller Champions™. Discover a free-to-play, team PvP sports game like no other!

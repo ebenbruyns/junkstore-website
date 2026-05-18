@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/jdm-rise-of-the-scorpion/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: ""
+steam_deck_category: 
 
 # Game Info
 publisher: Gaming Factory, Gaming Factory
@@ -19,10 +27,15 @@ developer: Gaming Factory
 genre: Sport
 franchise: 
 age_rating_summary: 
+age_ratings: {}
 release_date: "August 8, 2024"
 game_modes: []
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"77","name":"Realistic"},{"id":"114","name":"Physics"},{"id":"406","name":"Story"},{"id":"130","name":"Driving"},{"id":"42473","name":"Immersive Sim"},{"id":"302","name":"Time Manipulation"},{"id":"1407","name":"race"},{"id":"1652","name":"night"},{"id":"1079","name":"environment"},{"id":"6465","name":"unique"},{"id":"1497","name":"car"},{"id":"712","name":"school"},{"id":"49951","name":"Automobile Sim"},{"id":"49966","name":"Combat Racing"},{"id":"2156","name":"drift"},{"id":"8949","name":"attack"},{"id":"9986","name":"summer"},{"id":"1472","name":"competition"},{"id":"2786","name":"skills"},{"id":"2609","name":"vehicle"},{"id":"7270","name":"find"},{"id":"1957","name":"weather"},{"id":"5479","name":"drive"},{"id":"8134","name":"traffic"},{"id":"2235","name":"drifting"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: "1.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/jdm-rise-of-the-scorpion/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

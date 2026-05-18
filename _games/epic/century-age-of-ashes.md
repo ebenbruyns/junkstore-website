@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/century-age-of-ashes/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "bronze"
+protondb_score: 0.24
+protondb_total: 57
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Playwing
@@ -19,10 +27,15 @@ developer: Playwing
 genre: Action
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "February 23, 2022"
 game_modes: ["Co-operative","Multiplayer"]
-languages: ["English*","German","Spanish - Spain","Simplified Chinese","Portuguese - Brazil","Russian","French","Japanese*languages with full audio support"]
+languages: ["English","German","Spanish - Spain","Simplified Chinese","Portuguese - Brazil","Russian","French","Japanese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/century-age-of-ashes"
 protondb_url: "https://www.protondb.com/app/918570"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Century:_Age_of_Ashes"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/century-age-of-ashes/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12463"
+opencritic_url: "https://opencritic.com/game/12463/-"
+opencritic_score: 73
+opencritic_review_count: 17
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10000271"
+playstation_url: "https://store.playstation.com/en-us/concept/10000271"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

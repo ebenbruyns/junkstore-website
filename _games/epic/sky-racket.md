@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/sky-racket/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Double Dash Studios
 developer: Double Dash Studios
 genre: Casual, Sports, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Mild Violence"},"usk":{"rating":"6","descriptors":"Abstract Violence"},"oflc":{"rating":"PG","descriptors":"Scary Scenes"},"kgrb":{"rating":"ALL","descriptors":"Violence, Fear"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "September 21, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","Portuguese - Brazil","Portuguese - Portugal","Spanish - Spain","Spanish - Latin America","Russian","Japanese","Simplified Chinese","Korean"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"1283","name":"Sports"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-10T15:00:00.000Z","end":"2025-07-17T15:00:00.000Z","type":null,"id":"4d83f5e4aa8d42bdb2bdda9081a13ef3"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "2.5 hrs"
 hltb_main_extra: "6 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sky_Racket"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/sky-racket/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9188"
+opencritic_url: "https://opencritic.com/game/9188/-"
+opencritic_score: 71
+opencritic_review_count: 11
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-The universe is in peril! Two kids are chosen to hold the powerful artifact "Sky Racket" and put a stop to an evil tyrant. Play as Racket Boy or Racket Girl, and with the help of cute and strong buddies, save this nonsense dystopian pixel art universe.
+Sky Racket is a game that mixes two classic genres from the Arcade era: Shoot’em up and Brick Breakers. In a world where you are unable to attack, using your racket to strike enemy bullets back at them is your only option! Bounce bullets back at your foes and save the galaxy!

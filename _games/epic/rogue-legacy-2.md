@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/rogue-legacy-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "May '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Cellar Door Games
@@ -19,10 +27,15 @@ developer: Cellar Door Games
 genre: Indie, Rogue-Lite
 franchise: Rogue Legacy
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "August 18, 2020"
 game_modes: ["Single player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Japanese"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: [{"rawg_id":3635,"slug":"rogue-legacy","name":"Rogue Legacy"}]
+franchise_slug: "rogue-legacy|rogue-legacy-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "26.2 hrs"
 hltb_main_extra: "46.1 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1253920"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rogue_Legacy_2"
 metacritic_score: 88
-metacritic_url: "https://www.metacritic.com/game/pc/rogue-legacy-2?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/rogue-legacy-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13069"
+opencritic_url: "https://opencritic.com/game/13069/-"
+opencritic_score: 89
+opencritic_review_count: 71
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10007723"
+playstation_url: "https://store.playstation.com/en-us/concept/10007723"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Rogue Legacy 2 is a genealogical rogue-lite. That means it has all the trappings of a typical rogue-like (randomized runs, changing characters, and more)...
+Rogue Legacy 2 is an Action Platforming RPG Rogue-LITE, where every time you die, your children succeed you. Each child is unique. Your daughter might be a Colourblind Archer, and your son could be a Pacifistic Chef.

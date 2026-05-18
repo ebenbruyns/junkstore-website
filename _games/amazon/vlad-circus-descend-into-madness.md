@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/vlad-circus-descend-into-madness/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Blowfish Studios
@@ -19,10 +27,15 @@ developer: Indiesruption
 genre: Adventure, Indie, Puzzle
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Temas sensíveis, Drogas ilícitas"}}
 release_date: "October 17, 2023"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","German","Spanish - Spain","Russian","Spanish - Latin America"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"41","name":"Dark"},{"id":"74","name":"Retro"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"113","name":"Side Scroller"},{"id":"406","name":"Story"},{"id":"46","name":"Surreal"},{"id":"209","name":"Drama"},{"id":"148","name":"Dark Humor"},{"id":"285","name":"Psychological"},{"id":"183","name":"Thriller"},{"id":"1129","name":"art"},{"id":"822","name":"escape"},{"id":"2075","name":"sound"},{"id":"5559","name":"elements"},{"id":"1746","name":"dialogue"},{"id":"9973","name":"madness"},{"id":"5218","name":"circus"}]
+size: "927 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4.5 hrs"
 hltb_main_extra: "5.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vlad_Circus:_Descend_Into_Madness"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/vlad-circus-descend-into-madness/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15681"
+opencritic_url: "https://opencritic.com/game/15681/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

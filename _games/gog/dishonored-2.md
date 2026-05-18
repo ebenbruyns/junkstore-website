@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dishonored-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.72
+protondb_total: 330
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Bethesda Softworks
 developer: Arkane Studios
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language, Suggestive Themes"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong bloody violence"},"nzoflc":{"rating":"r16","descriptors":"Graphic Violence"},"fpb":{"rating":"18"},"dejus":{"rating":"16"}}
 release_date: "November 11, 2016"
-game_modes: ["Single player"]
-languages: ["Chinese Traditional","English","French","German","Italian","Japanese","Polish","Portuguese (Brazilian)","Russian","Spanish"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"26","name":"Gore"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"15","name":"Stealth"},{"id":"82","name":"Magic"},{"id":"188","name":"Parkour"},{"id":"119","name":"Dystopian"},{"id":"154","name":"Steampunk"},{"id":"278","name":"Assassin"},{"id":"178","name":"Illuminati"},{"id":"216","name":"Heist"},{"id":"279","name":"Supernatural"},{"id":"42473","name":"Immersive Sim"}]
+size: "40514 MB"
+franchise_siblings: [{"rawg_id":29173,"slug":"dishonored-death-of-the-outsider","name":"Dishonored: Death of the Outsider"},{"rawg_id":4248,"slug":"dishonored","name":"Dishonored"}]
+franchise_slug: "dishonored|dishonored-2|dishonored-death-of-the-outsid"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12.5 hrs"
 hltb_main_extra: "22.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/dishonored_2"
 protondb_url: "https://www.protondb.com/app/403640"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dishonored_2"
-metacritic_score: 86
-metacritic_url: "https://www.metacritic.com/game/pc/dishonored-2?ftag=MCD-06-10aaa1f"
+metacritic_score: 88
+metacritic_url: "https://www.metacritic.com/game/dishonored-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "2843"
+opencritic_url: "https://opencritic.com/game/2843/-"
+opencritic_score: 87
+opencritic_review_count: 145
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "BSZM480TSWGP"
+xbox_url: "https://www.xbox.com/games/store/-/BSZM480TSWGP"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

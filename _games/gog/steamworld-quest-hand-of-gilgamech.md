@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/steamworld-quest-hand-of-gilgamech/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 13
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Thunderful
@@ -19,10 +27,15 @@ developer: "Image & Form"
 genre: Role-playing (RPG)
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "April 25, 2019"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Russian"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"468","name":"role-playing"},{"id":"3731","name":"role-playing-game"}]
+size: "1033 MB"
+franchise_siblings: [{"rawg_id":914788,"slug":"steamworld-build","name":"SteamWorld Build"},{"rawg_id":27938,"slug":"steamworld-dig-2","name":"SteamWorld Dig 2"},{"rawg_id":1165,"slug":"steamworld-heist","name":"SteamWorld Heist"},{"rawg_id":3748,"slug":"steamworld-dig","name":"SteamWorld Dig"},{"rawg_id":24382,"slug":"steamworld-tower-defense","name":"SteamWorld Tower Defense"}]
+franchise_slug: "steamworld-build|steamworld-dig|steamworld-dig-2|steamworld-heist|steamworld-quest|steamworld-tower-defense"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "14.5 hrs"
 hltb_main_extra: "20 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/steamworld_quest_hand_of_gilgamech"
 protondb_url: "https://www.protondb.com/app/804010"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SteamWorld_Quest%3A_Hand_of_Gilgamech"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/steamworld-quest-hand-of-gilgamech/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7604"
+opencritic_url: "https://opencritic.com/game/7604/-"
+opencritic_score: 82
+opencritic_review_count: 63
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/syberia-the-world-before/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.74
+protondb_total: 24
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Microids
@@ -19,10 +27,15 @@ developer: Koalabs Games, Microids Studio Paris
 genre: Adventure, Puzzle, Point-and-click
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "March 18, 2022"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Czech","Dutch"]
+languages_audio: ["English","French","German","Polish","Russian"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"149","name":"Third Person"},{"id":"6","name":"Exploration"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"145","name":"Choices Matter"},{"id":"90","name":"Visual Novel"},{"id":"305","name":"Linear"},{"id":"200","name":"Narration"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"326","name":"Investigation"},{"id":"1129","name":"art"},{"id":"3064","name":"poetry"}]
+size: "14386 MB"
+franchise_siblings: [{"rawg_id":10986,"slug":"syberia-3","name":"Syberia 3"},{"rawg_id":22781,"slug":"syberia-2","name":"Syberia 2"},{"rawg_id":3486,"slug":"syberia","name":"Syberia"}]
+franchise_slug: "syberia|syberia-2|syberia-3|syberia-the-world-before"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "13.5 hrs"
 hltb_main_extra: "14 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1410640"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Syberia%3A_The_World_Before"
 metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/syberia-the-world-before?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/syberia-the-world-before/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12899"
+opencritic_url: "https://opencritic.com/game/12899/-"
+opencritic_score: 80
+opencritic_review_count: 42
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10001404"
+playstation_url: "https://store.playstation.com/en-us/concept/10001404"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

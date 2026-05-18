@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/wolfenstein-the-new-order/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.89
+protondb_total: 251
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Bethesda Softworks
 developer: Machine Games
 genre: Action, First Person, Shooter
 franchise: Wolfenstein
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language, Strong Sexual Content, Use of Drugs"},"pegi":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"High Impact Themes and Violence, Blood and Gore"},"nzoflc":{"rating":"r18","descriptors":"Contains Graphic Language and Offensive Language"},"fpb":{"rating":"16","descriptors":"THE MATERIAL IS NOT SUITABLE FOR CHILDREN UNDER THE AGE OF 16 YEARS,, SCENES OF HORROR,, SOME SCENES SHOWING BIAS OR NEGATIVE STEREOTYPING MAY OCCUR , SCENES SHOWING PICTURES OF VIOLENCE"},"csrr":{"rating":"R","descriptors":"Violence, Improper Language"},"dejus":{"rating":"18","descriptors":"Extreme Violence"}}
 release_date: "September 9, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","Spanish - Spain","Japanese","Polish","Russian"]
+languages_audio: ["English","French","Italian","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":58782,"slug":"wolfenstein-youngblood","name":"Wolfenstein: Youngblood"},{"rawg_id":59344,"slug":"wolfenstein-cyberpilot","name":"Wolfenstein: Cyberpilot"},{"rawg_id":28202,"slug":"wolfenstein-2-the-new-colossus","name":"Wolfenstein II: The New Colossus"},{"rawg_id":3346,"slug":"wolfenstein-the-old-blood","name":"Wolfenstein: The Old Blood"},{"rawg_id":28958,"slug":"wolfenstein","name":"Wolfenstein"},{"rawg_id":330366,"slug":"wolfenstein-rpg","name":"Wolfenstein RPG"},{"rawg_id":17604,"slug":"return-to-castle-wolfenstein","name":"Return to Castle Wolfenstein"},{"rawg_id":4005,"slug":"wolfenstein-3d","name":"Wolfenstein 3D"},{"rawg_id":56380,"slug":"castle-wolfenstein","name":"Castle Wolfenstein"}]
+franchise_slug: "castle-wolfenstein|return-to-castle-wolfenstein|wolfenstein|wolfenstein-2-the-new-colossus|wolfenstein-3d|wolfenstein-cyberpilot|wolfenstein-rpg|wolfenstein-the-new-order|wolfenstein-the-old-blood|wolfenstein-youngblood"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-12-19T15:00:00.000Z","end":"2022-12-20T15:00:00.000Z","type":null,"id":"52a32a3469dd4a2ca20bfff0c6a66486"},{"start":"2022-06-01T15:00:00.000Z","end":"2022-06-08T15:00:00.000Z","type":null,"id":"52a32a3469dd4a2ca20bfff0c6a66486"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11.5 hrs"
 hltb_main_extra: "15.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/wolfenstein-the-new-order"
 protondb_url: "https://www.protondb.com/app/201810"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wolfenstein%3A_The_New_Order"
-metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/wolfenstein-the-new-order?ftag=MCD-06-10aaa1f"
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/wolfenstein-the-new-order/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "255"
+opencritic_url: "https://opencritic.com/game/255/-"
+opencritic_score: 82
+opencritic_review_count: 101
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "BT9FFLG51VVG"
+xbox_url: "https://www.xbox.com/games/store/-/BT9FFLG51VVG"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Wolfenstein: The New Order is an action-adventure shooter game played from a first-person perspective. It is the semi-sequel to 2009's Wolfenstein, however utilizes very little from the game and drops any direct references to veil or supernatural.
-
-To progress through the story, the player battle enemies throughout levels. The game utilizes a health system in which players' health is divided into separate sections that regenerate; if an entire section is lost, the player must use a health pack to replenish the missing health. In combat, a cover system can be used as assistance against enemies. The player have the ability to lean around, over, and under cover, which can be used as a tactical advantage during shootouts and stealth levels. The game gives the player a wide variety of weapon options—they can be found on the ground, retrieved from dead enemies, or removed from their stationary position and carried around.
+Wolfenstein®: The New Order reignites the series that created the first-person shooter genre. Set against a backdrop of an alternate 1960s, discover an unfamiliar world ruled by a familiar enemy—one that has changed and twisted history as you know it.

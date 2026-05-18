@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/creature-in-the-well/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "June '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.36
+protondb_total: 8
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Flight School Studio, MWM Interactive
 developer: Flight School Studio
 genre: Action, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: 0 (USK)
+age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "March 25, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Simplified Chinese","Korean","Spanish - Latin America","Japanese","Portuguese - Brazil"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]
+size: "763 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-03-24T15:00:00.000Z","end":"2021-03-31T15:00:00.000Z","type":null,"id":"000f9a594ed44b3981272946d330d968"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4.2 hrs"
 hltb_main_extra: "5.7 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/creature-in-the-well"
 protondb_url: "https://www.protondb.com/app/852300"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Creature_in_the_Well"
-metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/creature-in-the-well?ftag=MCD-06-10aaa1f"
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/creature-in-the-well/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8215"
+opencritic_url: "https://opencritic.com/game/8215/-"
+opencritic_score: 76
+opencritic_review_count: 56
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A top-down, pinball-inspired hack and slash dungeon crawler. Venture deep into a desert mountain to restore power to an ancient facility.
+As the last remaining BOT-C unit, venture deep into a desert mountain to restore power to an ancient facility, haunted by a desperate Creature. Uncover and upgrade powerful gear in order to free the city of Mirage from a deadly sandstorm.

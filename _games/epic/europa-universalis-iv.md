@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/europa-universalis-iv/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.75
+protondb_total: 95
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Paradox Interactive
 developer: Paradox Development Studio
 genre: Simulation, Strategy
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Drug Reference, Mild Language, Mild Sexual Themes, Mild Violence"},"pegi":{"rating":"12","descriptors":"Bad Language, Violence, Online Gameplay, In-Game Purchases"},"usk":{"rating":"6"},"kgrb":{"rating":"12","descriptors":"폭력성 (Violence)"},"dejus":{"rating":"12","descriptors":"Drogas ilícitas, Conteúdo sexual, Linguagem imprópria"}}
 release_date: "September 30, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","German","French","Spanish - Spain"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"10719","name":"Mac OS"}]
+size: "1815 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-08-09T15:00:00.000Z","end":"2023-08-16T15:00:00.000Z","type":null,"id":"45b82cb4454b40439b61ba126adfabec"},{"start":"2021-09-29T15:00:00.000Z","end":"2021-10-06T15:00:00.000Z","type":null,"id":"45b82cb4454b40439b61ba126adfabec"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "95.5 hrs"
 hltb_main_extra: "357 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/236850"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Europa_Universalis_IV"
 metacritic_score: 87
-metacritic_url: "https://www.metacritic.com/game/pc/europa-universalis-iv?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/europa-universalis-iv/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! You will need a Paradox Interactive account to play this game. You also need to either use the touch screen or change controller setting to use the mouse."

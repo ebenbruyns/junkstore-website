@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/sir-questionnaire/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Orangepixel
@@ -19,10 +27,15 @@ developer: Orangepixel
 genre: Adventure, Indie, RPG
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "May 24, 2018"
-game_modes: ["Single-player"]
-languages: ["English**languages with full audio support"]
-tags_structured: []
+game_modes: ["Overlay","Single-player"]
+languages: ["English"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"141","name":"Point & Click"},{"id":"88","name":"Cute"},{"id":"117","name":"Mystery"},{"id":"639","name":"Roguelike"},{"id":"138","name":"Relaxing"},{"id":"640","name":"Roguelite"},{"id":"98","name":"Loot"},{"id":"164","name":"Cartoony"},{"id":"116","name":"2.5D"},{"id":"238","name":"CRPG"},{"id":"227","name":"Hacking"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"},{"id":"624","name":"Monsters"},{"id":"1315","name":"room"},{"id":"1454","name":"quest"},{"id":"1796","name":"dungeon"},{"id":"329","name":"Mystery Dungeon"},{"id":"49965","name":"Traditional Roguelike"}]
+size: "81 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sir_Questionnaire"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/sir-questionnaire/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

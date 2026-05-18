@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/hell-let-loose/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.62
+protondb_total: 372
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Team17
 developer: Team17
 genre: First Person, Shooter
 franchise: Hell Let Loose
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 18 (USK)
+age_ratings: {"usk":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Interacao de Usarios"}}
 release_date: "January 2, 2025"
 game_modes: ["Multiplayer"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Polish","Portuguese - Brazil","Traditional Chinese","Korean","Japanese"]
+languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21135","name":"Realistic Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: [{"rawg_id":1017335,"slug":"hell-let-loose-vietnam","name":"Hell Let Loose: Vietnam"}]
+franchise_slug: "hell-let-loose|hell-let-loose-vietnam"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-01-02T16:00:00.000Z","end":"2025-01-09T16:00:00.000Z","type":null,"id":"5cee37b551534963887a11f6744f6951"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: true
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "35.9 hrs"
 hltb_main_extra: "1200 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/686810"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hell_Let_Loose"
 metacritic_score: 79
-metacritic_url: "https://www.metacritic.com/game/pc/hell-let-loose?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/hell-let-loose/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10001996"
+playstation_url: "https://store.playstation.com/en-us/concept/10001996"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Fight in the most iconic battles of the Second World War, including El Alamein, Stalingrad, Omaha Beach, and Foy! This is combat at a whole new scale.. with lumbering tanks dominating the battlefield, and crucial supply chains fuelling the frontlines, you are a cog in the machine of colossal combined arms warfare. Hell Let Loose puts you in the chaos of war, complete with deep player-controlled vehicles, a dynamically evolving front line, and crucial unit-focused gameplay that commands the tide of battle.
+Join the ever expanding experience of Hell Let Loose - a hardcore World War Two first person shooter with epic battles of 100 players with infantry, tanks, artillery, a dynamically shifting front line and a unique resource based RTS-inspired meta-game.

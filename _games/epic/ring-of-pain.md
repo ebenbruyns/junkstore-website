@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/ring-of-pain/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.81
+protondb_total: 28
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Humble Games
@@ -19,10 +27,15 @@ developer: Simon Boxer, Twice Different
 genre: Indie, Strategy
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência, Medo"}}
 release_date: "August 25, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","French","German","Simplified Chinese","Traditional Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "627 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-08-24T15:00:00.000Z","end":"2022-08-31T15:00:00.000Z","type":null,"id":"4b5ba08363b5472f8c061d92c9a849db"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "21 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ring_of_Pain"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/ring-of-pain/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10337"
+opencritic_url: "https://opencritic.com/game/10337/-"
+opencritic_score: 74
+opencritic_review_count: 14
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Ring of Pain is a roguelike card game in a world distorted by your mind... - Frail and fragile bear the curse, through the shadow you traverse - Darkness favours cunning few, stare too long and be consumed...
+Enter the Ring of Pain, a roguelike card crawler where encounters come to you. Each step around the ring a dire decision. Go for the loot or backstab a creeping horror? Choose your gear wisely to survive and discover the secrets of the Ring of Pain.

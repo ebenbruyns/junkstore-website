@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/redout-enhanced-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.67
+protondb_total: 112
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Saber Interactive
 developer: 34BigThings SRL  
 genre: Racing
 franchise: Redout
-age_rating_summary: 
+age_rating_summary: E (ESRB) · 3 (PEGI)
+age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Language"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"cero":{"rating":"A"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"A"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
 release_date: "May 12, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","Italian","Spanish - Spain","French","German","Russian","Portuguese - Brazil","Simplified Chinese","Japanese","Korean","Portuguese - Portugal","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: [{"rawg_id":791639,"slug":"redout-2","name":"Redout 2"},{"rawg_id":62408,"slug":"redout-space-assault","name":"Redout: Space Assault"}]
+franchise_slug: "redout-2|redout-enhanced-edition|redout-space-assault"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-05-11T15:00:00.000Z","end":"2022-05-18T15:00:00.000Z","type":null,"id":"c82ab1b8b43843e6a279128614667fb8"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10.1 hrs"
 hltb_main_extra: "20.4 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/517710"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Redout"
 metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/redout-2016?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/redout-2016/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1801"
+opencritic_url: "https://opencritic.com/game/1801/-"
+opencritic_score: 77
+opencritic_review_count: 34
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Install."
@@ -81,4 +111,5 @@ is_featured: false
 owned: true
 ---
 
-Redout is a tribute to the old racing monsters such as F-Zero, WipeOut, Rollcage, and POD. It is designed to be an uncompromising, fast, tough and satisfying driving experience, soaked in that vertigo that stands at the core of the arcade racing genre.
+NEXT GENERATION AG RACING IS HERE!
+Redout is a tribute to the classic racing monsters. It is designed to be an uncompromising, fast, tough and satisfying driving experience, soaked in that vertigo that stands at the core of the arcade racing genre.

@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/star-wars-battlefront-ii-classic-2005/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.82
+protondb_total: 172
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Activision, Electronic Arts, LucasArts
 developer: Pandemic Studios, Savage Entertainment
 genre: Shooter
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Language, Violence, Online Interactions Not Rated by the ESRB"},"pegi":{"rating":"12"},"usk":{"rating":"16"},"oflc":{"rating":"M"},"nzoflc":{"rating":"M"}}
 release_date: "October 31, 2005"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
-languages: ["English**languages with full audio support"]
+game_modes: ["Multi-player","Single-player"]
+languages: ["English"]
+languages_audio: ["English"]
 tags_structured: []
+size: "6415 MB"
+franchise_siblings: [{"rawg_id":28152,"slug":"star-wars-battlefront-2","name":"STAR WARS Battlefront II"},{"rawg_id":3052,"slug":"star-wars-battlefront","name":"STAR WARS Battlefront"},{"rawg_id":26149,"slug":"star-wars-battlefront-elite-squadron","name":"Star Wars Battlefront: Elite Squadron"},{"rawg_id":5308,"slug":"star-wars-battlefront-renegade-squadron","name":"Star Wars: Battlefront Renegade Squadron"},{"rawg_id":35629,"slug":"star-wars-battlefront-3","name":"Star Wars: Battlefront (2004)"}]
+franchise_slug: "star-wars-battlefront|star-wars-battlefront-2|star-wars-battlefront-3|star-wars-battlefront-elite-sq|star-wars-battlefront-ii-2|star-wars-battlefront-renegade"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "17.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/star_wars_battlefront_ii"
 protondb_url: "https://www.protondb.com/app/6060"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars:_Battlefront_II"
-metacritic_score: 78
-metacritic_url: "https://www.metacritic.com/game/pc/star-wars-battlefront-ii?ftag=MCD-06-10aaa1f"
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/star-wars-battlefront-ii-2005/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

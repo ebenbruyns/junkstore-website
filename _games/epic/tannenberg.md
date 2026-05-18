@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tannenberg/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.41
+protondb_total: 15
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: M2H, Blackmill Games
 developer: M2H, Blackmill Games
 genre: Action, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: M (ESRB)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood, Strong Language"},"dejus":{"rating":"16","descriptors":"Violência, Violência Extrema, Linguagem imprópria"}}
 release_date: "July 22, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Turkish","Simplified Chinese","Japanese"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21135","name":"Realistic Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-07-20T15:00:00.000Z","end":"2022-07-27T15:00:00.000Z","type":null,"id":"4bdbe4d91f084966aed33eeb5ebb71fd"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "4.8 hrs"
 hltb_main_extra: "14 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/633460"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tannenberg"
 metacritic_score: 69
-metacritic_url: "https://www.metacritic.com/game/pc/tannenberg?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/wwi-tannenberg-eastern-front/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7305"
+opencritic_url: "https://opencritic.com/game/7305/-"
+opencritic_score: 69
+opencritic_review_count: 24
+twitch_id: ""
+twitch_url: ""
+playstation_id: "234574"
+playstation_url: "https://store.playstation.com/en-us/concept/234574"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Tannenberg takes the 1914-1918 WW1 Game Series to the Eastern Front. Warfare on the border of the Russian Empire is a tense battle for survival – can your squad weather the storm of battle?
+Experience authentic First World War action with 64 player battles of maneuver on the Eastern Front. Grab your rifle, ready your sabre and keep your gas mask close as you prepare to play a part in one of the most significant conflicts in history!

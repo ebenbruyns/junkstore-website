@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/gylt/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.61
+protondb_total: 18
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Tequila Works
 developer: Tequila Works
 genre: Action, Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Mild Blood"},"pegi":{"rating":"12","descriptors":"Violence,Bad language,Horror"},"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "July 6, 2023"
 game_modes: ["Single-player"]
-languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Korean","Danish","Finnish","Japanese","Norwegian"]
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Korean","Danish","Finnish","Japanese","Norwegian","Portuguese - Portugal","Russian","Swedish","Simplified Chinese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"15","name":"Stealth"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"17","name":"Survival Horror"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"218","name":"Multiple Endings"},{"id":"200","name":"Narration"},{"id":"572","name":"Emotional"},{"id":"59643","name":"Протагонистка"},{"id":"279","name":"Supernatural"},{"id":"140","name":"Hidden Object"}]
+size: "5964 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "7 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gylt"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/gylt/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8580"
+opencritic_url: "https://opencritic.com/game/8580/-"
+opencritic_score: 69
+opencritic_review_count: 48
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10007169"
+playstation_url: "https://store.playstation.com/en-us/concept/10007169"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

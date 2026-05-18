@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/suicide-squad-kill-the-justice-league/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.52
+protondb_total: 42
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Warner Bros. Interactive Entertainment
 developer: Rocksteady Studios
 genre: Action, Action-Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad, Language, In-Game, Purchases"},"usk":{"rating":"16","descriptors":"Gewalt, In-Game-Käufe, Chats"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Strong themes and, violence, online, interactivity, in-game, purchases and chat"},"nzoflc":{"rating":"M","descriptors":"Violence, sexual references &amp; offensive language"},"kgrb":{"rating":"18","descriptors":"Violence, Language"},"fpb":{"rating":"16","descriptors":"H L V PPS CI"},"csrr":{"rating":"R","descriptors":"Violence,, Inappropriate, Language, Antisocial"},"mda":{"rating":"M18","descriptors":"Strong Violence"},"dejus":{"rating":"16","descriptors":"Violência, Interação de usuários, Compras on-line"}}
 release_date: "March 26, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Japanese","Spanish - Latin America"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12 hrs"
 hltb_main_extra: "18.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Suicide_Squad%3A_Kill_the_J
 metacritic_score: 60
 metacritic_url: "https://www.metacritic.com/game/suicide-squad-kill-the-justice-league/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14351"
+opencritic_url: "https://opencritic.com/game/14351/-"
+opencritic_score: 59
+opencritic_review_count: 142
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10001609"
+playstation_url: "https://store.playstation.com/en-us/concept/10001609"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Suicide Squad: Kill the Justice League is an action-adventure shooter developed by Rocksteady Studios. Set in Metropolis, players control Harley Quinn, Deadshot, Captain Boomerang, and King Shark as they battle a brainwashed Justice League under Brainiac's control. The game features third-person combat, open-world exploration, and live-service elements.
+From the creators of Batman: Arkham, Suicide Squad: Kill the Justice League is a genre-defying third-person action shooter where the ultimate band of misfits must do the impossible: Kill the Justice League.

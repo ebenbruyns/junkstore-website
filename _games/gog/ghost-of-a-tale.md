@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ghost-of-a-tale/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.61
+protondb_total: 44
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Plug In Digital, SeithCG
 developer: SeithCG
 genre: Role-playing (RPG), Adventure, Indie, Puzzle
 franchise: 
-age_rating_summary: ESRB 10
+age_rating_summary: e10 (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Language, Alcohol Reference, Crude Humor, Animated Blood"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"6"},"bbfc":{"rating":"12"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"},"kgrb":{"rating":"12"},"fpb":{"rating":"A"},"csrr":{"rating":"G"},"dejus":{"rating":"10"}}
 release_date: "March 13, 2018"
-game_modes: ["Single player"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese"]
+languages_audio: []
 tags_structured: []
+size: "2812 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11.5 hrs"
 hltb_main_extra: "15 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/417290"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghost_of_a_Tale"
 metacritic_score: 75
-metacritic_url: "https://www.metacritic.com/game/pc/ghost-of-a-tale?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/ghost-of-a-tale/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "5742"
+opencritic_url: "https://opencritic.com/game/5742/-"
+opencritic_score: 75
+opencritic_review_count: 24
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

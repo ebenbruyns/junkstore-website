@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/gamedec/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.82
+protondb_total: 18
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Anshar Publishing
@@ -19,10 +27,15 @@ developer: Anshar Studios
 genre: Role-playing (RPG), Adventure, Indie, Puzzle, Point-and-click
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Conteúdo sexual"}}
 release_date: "September 16, 2021"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","Polish","German","Simplified Chinese","Russian","French","Spanish - Spain","Traditional Chinese","Korean","Turkish","Japanese"]
+languages_audio: []
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+size: "9109 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10.5 hrs"
 hltb_main_extra: "15 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/917720"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gamedec"
 metacritic_score: 72
-metacritic_url: "https://www.metacritic.com/game/pc/gamedec?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/gamedec/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13751"
+opencritic_url: "https://opencritic.com/game/13751/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10006851"
+playstation_url: "https://store.playstation.com/en-us/concept/10006851"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Gamedec is an adaptive cyberpunk RPG. As a private detective, it’s your job to solve crimes inside virtual worlds. What decisions will you make in a world where child slavery is a F2P game, where murder over a game-clan dispute is an every-day reality? Who will you become in the XXII century?
+Gamedec is a single-player cyberpunk isometric RPG. You are a game detective, who solves crimes inside virtual worlds. Use your wits to gather info from your witnesses and suspects, getting to the bottom of deceptive schemes. You are the sum of your choices.

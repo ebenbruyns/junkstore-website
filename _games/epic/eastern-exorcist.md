@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/eastern-exorcist/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.62
+protondb_total: 12
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Wildfire Game
@@ -19,10 +27,15 @@ developer: Wildfire Game
 genre: RPG, Action-Adventure
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Temas sensíveis, Medo"}}
 release_date: "November 20, 2023"
 game_modes: ["Single player"]
-languages: ["English","Simplified Chinese*","Japanese","Traditional Chinese","Turkish","Russian*languages with full audio support"]
+languages: ["English","Simplified Chinese","Japanese","Traditional Chinese","Turkish","Russian"]
+languages_audio: ["Simplified Chinese"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-09-25T15:00:00.000Z","end":"2025-10-02T15:00:00.000Z","type":null,"id":"aa2e42dde7b64a3183855ac1803a829c"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "8.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Eastern_Exorcist"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/eastern-exorcist/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10032"
+opencritic_url: "https://opencritic.com/game/10032/-"
+opencritic_score: 76
+opencritic_review_count: 6
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-The Eastern Exorcist is a stunning 2D side-scrolling action RPG set in a fictitious oriental world with the infestation of vicious demon monsters. Play as a skilled exorcist against chaotic evil to fight your way through the brutal world, and experience unforeseen entanglements of complex beings.
+Eastern Exorcist is a stunning 2D side-scrolling action RPG set in a fantasy eastern world with vicious spirits and monsters. Play as a skilled exorcist against chaotic evil to fight your way through the brutal world, and experience different stories of joy and sorrow.

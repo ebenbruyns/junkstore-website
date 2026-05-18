@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/bioshock-remastered/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.76
+protondb_total: 477
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: 2K Games, Feral Interactive
 developer: Blind Squirrel Games
 genre: Role-playing (RPG), Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Drug Reference, Intense Violence, Sexual Themes, Strong Language, Use of Alcohol, Use of Tobacco"},"pegi":{"rating":"18","descriptors":"Gambling, Bad Language, Violence"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Strong fantasy themes, Violence, Coarse language"},"nzoflc":{"rating":"r16","descriptors":"Horror, Graphic Violence, Offensive Language"},"kgrb":{"rating":"18","descriptors":"Violence, Fear, Horror, Threatening, Alcohol, Tobacco, Drug"},"csrr":{"rating":"R","descriptors":"Violence, Improper Language, Cigarettes or Alcohol"},"mda":{"rating":"M18","descriptors":"Violence, Mature Themes, Coarse Language"},"dejus":{"rating":"18","descriptors":"Sexual Content, Usage of illicit drug, Violence"}}
 release_date: "September 15, 2016"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "15017 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12 hrs"
 hltb_main_extra: "15.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/bioshock_remastered"
 protondb_url: "https://www.protondb.com/app/409710"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/BioShock_Remastered"
-metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/bioshock-the-collection?ftag=MCD-06-10aaa1f"
+metacritic_score: 96
+metacritic_url: "https://www.metacritic.com/game/bioshock/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9556"
+opencritic_url: "https://opencritic.com/game/9556/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. \nTurn on Esync and Fsync toggles under Proton config to fix the low-res textures and long saving/loading."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-BioShock is a shooter unlike any other, loaded with unique weapons and tactics. Complete with an arsenal of revolvers, shotguns, and grenade launchers, players will be forced to genetically modify their DNA to become an even deadlier weapon.
+Explore the undersea city of Rapture, a haven for society's greatest minds that has devolved into a dystopian nightmare wrought by one man's hubris. Includes Museum of Orphaned Concepts, Challenge Rooms and Director's Commentary - Imagining BioShock.

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/destiny-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "not-supported"
 date_tested: ""
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "borked"
+protondb_score: 0.01
+protondb_total: 251
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Bungie
 developer: Bungie
 genre: Action, Shooter, Adventure
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Language, Violence"},"pegi":{"rating":"16","descriptors":"Violence, In game purchases"},"usk":{"rating":"16"},"cero":{"rating":"D","descriptors":"Violence"},"bbfc":{"descriptors":"Blood, Language, Violence"},"oflc":{"rating":"M","descriptors":"Science Fiction Themes, Science Fiction Violence, Online Interactivity"},"nzoflc":{"rating":"M","descriptors":"Science Fiction Themes, Science Fiction Violence, Online Interactivity"},"kgrb":{"rating":"15","descriptors":"Violence"},"fpb":{"rating":"16"},"csrr":{"rating":"C15","descriptors":"Violence, Terror, Inappropriate Language"},"mda":{"rating":"AA16"},"dejus":{"rating":"14","descriptors":"Violence"}}
 release_date: "August 23, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: [{"rawg_id":894,"slug":"destiny","name":"Destiny"}]
+franchise_slug: "destiny|destiny-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,22 +68,39 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: true
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12 hrs"
 hltb_main_extra: "44.5 hrs"
 hltb_completionist: "197 hrs"
-hltb_url: "https://howlongtobeat.com/game/43894"
+hltb_url: "https://howlongtobeat.com/game/156430"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/destiny-2"
 protondb_url: "https://www.protondb.com/app/1085660"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Destiny_2"
-metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/destiny-2/"
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/destiny-2-shadowkeep/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8247"
+opencritic_url: "https://opencritic.com/game/8247/-"
+opencritic_score: 76
+opencritic_review_count: 61
+twitch_id: "497057"
+twitch_url: ""
+playstation_id: "221852"
+playstation_url: "https://store.playstation.com/en-us/concept/221852"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
-notes: "Anti-cheat prevents this game from running on Steam Deck."
+notes: Anti-cheat prevents this game from running on Steam Deck.
 controller_config: 
 performance_notes: 
 known_issues: 

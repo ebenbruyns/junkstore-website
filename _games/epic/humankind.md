@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/humankind/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.73
+protondb_total: 155
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Sega
 developer: Amplitude Studios
 genre: Strategy, Turn-based strategy (TBS), Simulator
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: e10 (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Mild Violence, Mild Language, Alcohol Reference"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Mild themes and battle violence, online interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild themes and battle violence, online interactivity"},"kgrb":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "November 18, 2021"
 game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Korean","Italian","Turkish"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"397","name":"Online multiplayer"},{"id":"89","name":"Historical"},{"id":"101","name":"Turn-Based Strategy"},{"id":"212","name":"4X"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "15½ Hours"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Humankind"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/humankind/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10977"
+opencritic_url: "https://opencritic.com/game/10977/-"
+opencritic_score: 79
+opencritic_review_count: 58
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004309"
+playstation_url: "https://store.playstation.com/en-us/concept/10004309"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

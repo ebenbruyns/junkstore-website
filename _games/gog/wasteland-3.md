@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/wasteland-3/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.71
+protondb_total: 80
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: inXile Entertainment
 developer: inXile Entertainment
 genre: Role-playing (RPG)
 franchise: 
-age_rating_summary: 
+age_rating_summary: M (ESRB)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Sexual Content, Use of Drugs, Strong Language, Intense Violence"},"dejus":{"rating":"18","descriptors":"Medo, Atos criminosos, Violência, Temas sensíveis, Violência Extrema, Linguagem imprópria, Conteúdo sexual, Drogas lícitas"}}
 release_date: "August 1, 2020"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Polish","Russian","Italian","Portuguese - Brazil"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"26","name":"Gore"},{"id":"6","name":"Exploration"},{"id":"34","name":"Violent"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"70","name":"War"},{"id":"102","name":"Turn-Based"},{"id":"1465","name":"combat"},{"id":"99","name":"Isometric"},{"id":"50","name":"Sexual Content"},{"id":"406","name":"Story"},{"id":"981","name":"battle"},{"id":"238","name":"CRPG"},{"id":"684","name":"children"}]
+size: "14899 MB"
+franchise_siblings: [{"rawg_id":41336,"slug":"wasteland-2","name":"Wasteland 2"},{"rawg_id":333664,"slug":"fountain-of-dreams","name":"Fountain of Dreams"},{"rawg_id":30119,"slug":"wasteland","name":"Wasteland"}]
+franchise_slug: "fountain-of-dreams|wasteland|wasteland-2|wasteland-3"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "35.5 hrs"
 hltb_main_extra: "49.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/719040"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wasteland_3"
 metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/pc/wasteland-3?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/wasteland-3/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9140"
+opencritic_url: "https://opencritic.com/game/9140/-"
+opencritic_score: 86
+opencritic_review_count: 114
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9NLT5XR52ZS7"
+xbox_url: "https://www.xbox.com/games/store/-/9NLT5XR52ZS7"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

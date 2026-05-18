@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/republic-of-jungle/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.15
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Gerdoo Games
@@ -19,10 +27,15 @@ developer: Gerdoo Games
 genre: Party, Indie
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "January 21, 2025"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese","Turkish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1299","name":"Competitive"},{"id":"1110","name":"Party"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "30 mins"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/republic-of-jungle/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "You need to verify with your Epic account after that <strong>Works out of the box</strong> — no extra setup needed."
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Who do you trust? In a party game for 5 to 10 players, a secret group of Leakers undermine President Puma and his Loyalists by earning their trust and leaking their confidential affairs to media. Bluff, betray, confide and conspire in a crossover between Jackbox and social deduction games.
+Gather your friends (5 to 10 players) and play as advisors to President Puma. In a social deduction party game, Leakers try to sneak into missions to leak Puma's secrets- Loyalists try to suss them out. Read the room and bluff your way to a political victory.

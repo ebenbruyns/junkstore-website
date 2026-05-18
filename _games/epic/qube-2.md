@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/qube-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.77
+protondb_total: 37
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Toxic Games
 developer: Toxic Games
 genre: Puzzle, Adventure, First Person
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Mild Language"},"dejus":{"rating":"L"}}
 release_date: "March 18, 2018"
 game_modes: ["Single player"]
-languages: ["English*","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Italian*languages with full audio support"]
+languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Italian"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"}]
+size: ""
+franchise_siblings: [{"rawg_id":41054,"slug":"qube","name":"Q.U.B.E."}]
+franchise_slug: "qube|qube-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2019-10-23T15:00:00.000Z","end":"2019-10-30T15:00:00.000Z","type":null,"id":"0c8b6d95ff2746648ccd356dbf941c12"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5.3 hrs"
 hltb_main_extra: "7.4 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/359100"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Q.U.B.E._2"
 metacritic_score: 76
-metacritic_url: "https://www.metacritic.com/game/pc/qube-2?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/qube-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "5586"
+opencritic_url: "https://opencritic.com/game/5586/-"
+opencritic_score: 76
+opencritic_review_count: 51
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004338"
+playstation_url: "https://store.playstation.com/en-us/concept/10004338"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: For the Decky version you will need to install C++ runtime then run the exe to install it. It is automatically downloaded in Junk Store Pro.
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Q.U.B.E. 2 is the sequel to the hit first-person puzzle game Q.U.B.E. You are Amelia Cross, a stranded archaeologist who has awoken among the ruins of an ancient alien landscape. With the distant help of another survivor you must manipulate the structure of this mysterious world and find a way back home.
+As stranded archaeologist, Amelia Cross, you must solve the puzzles of this mysterious world and find a way back home.

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-stone-of-madness/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.57
+protondb_total: 5
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Tripwire Presents
@@ -19,10 +27,15 @@ developer: The Game Kitchen
 genre: Puzzle, Strategy, Stealth
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Temas sensíveis, Nudez"}}
 release_date: "January 28, 2025"
 game_modes: ["Single-player"]
-languages: ["English*","French","German","Spanish - Spain*","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Traditional Chinese*languages with full audio support"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English","Spanish - Spain"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"9549","name":"Controller Support"}]
+size: "3307 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"id":"epic_3d11f228c8a442318bc17abf13f7db3b","start":"2026-04-22T14:18:12.000Z","end":"2026-04-23T15:00:00.000Z","type":null}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "26½ Hours"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: "https://www.protondb.com/app/1309710#5Pr0WIj8A8"
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Stone_of_Madness"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/the-stone-of-madness/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "18041"
+opencritic_url: "https://opencritic.com/game/18041/-"
+opencritic_score: 72
+opencritic_review_count: 36
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10008362"
+playstation_url: "https://store.playstation.com/en-us/concept/10008362"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

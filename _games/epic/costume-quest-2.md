@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/costume-quest-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 7
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Midnight City, Majesco Entertainment
 developer: Double Fine Productions
 genre: Action, Action-Adventure, Turn-Based, Adventure
 franchise: Costume Quest
-age_rating_summary: 
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Fear, Violence"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "October 22, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1386","name":"Turn-Based"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+size: "963 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-12-16T15:00:00.000Z","end":"2022-12-17T15:00:00.000Z","type":null,"id":"62488ccca67b455891967a4cfc6dea24"},{"start":"2020-10-21T15:00:00.000Z","end":"2020-10-28T15:00:00.000Z","type":null,"id":"62488ccca67b455891967a4cfc6dea24"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "6.7 hrs"
 hltb_main_extra: "7.9 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/275180"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Costume_Quest_2"
 metacritic_score: 68
-metacritic_url: "https://www.metacritic.com/game/pc/costume-quest-2?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/costume-quest-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "176"
+opencritic_url: "https://opencritic.com/game/176/-"
+opencritic_score: 71
+opencritic_review_count: 34
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "BZ92FB6PWXFJ"
+xbox_url: "https://www.xbox.com/games/store/-/BZ92FB6PWXFJ"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-In developer Double Fine’s triumphant return to Auburn Pines, our candy-crazed crusaders Wren and Reynold must once again protect Halloween from untold horrors, and grown-ups! Your favorite trick-or-treaters will come armed with a new batch of costumes they wear to transform into giant super powered fantasy Hallowarriors. Fans of the original can look forward to a sweet upgraded battle system and a story that is unmistakably Double Fine.
+Explore spooky time-traversing landscapes, don adorable new costumes that transform into powerful Hallo-warriors, and collect even Creepier Treat Cards to wield in combat against a legion of hygiene obsessed baddies.

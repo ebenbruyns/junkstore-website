@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/session-skate-sim/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.76
+protondb_total: 66
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Nacon
 developer: crea-ture Studios Inc.
 genre: Simulation
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Suggestive Themes, Language, Drug Reference"},"pegi":{"rating":"12","descriptors":"Bad Language"},"usk":{"rating":"0"},"oflc":{"rating":"PG","descriptors":"Mild Themes and Coarse Language"},"nzoflc":{"rating":"PG","descriptors":"Mild Themes and Coarse Language"},"csrr":{"rating":"C12","descriptors":"Objectionable language"},"dejus":{"rating":"14","descriptors":"Drogas ilícitas, Conteúdo sexual, Linguagem imprópria"}}
 release_date: "February 17, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1400","name":"Physics"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6.5 hrs"
 hltb_main_extra: "40.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Session"
 metacritic_score: 67
 metacritic_url: "https://www.metacritic.com/game/session-skate-sim/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13480"
+opencritic_url: "https://opencritic.com/game/13480/-"
+opencritic_score: 66
+opencritic_review_count: 34
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004240"
+playstation_url: "https://store.playstation.com/en-us/concept/10004240"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Inspired by the golden era of skateboarding, the early 90s and early 2000, Session's primary goal is to make you experience what skateboarding really is; an incredible sport where there are no other goals other than expressing your creativity and achieving success through hard work, perseverance and bits of madness for no one else other than yourself.
+Made by and for skaters, dual stick controls faithfully reproduce your feet on the skateboard for an ultra-realistic skateboarding experience. Try out real-life iconic skate spots, customize your skater and equipment with items from the top brands.

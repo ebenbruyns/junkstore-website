@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/dodo-peak/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.21
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Moving Pieces Interactive
@@ -19,10 +27,15 @@ developer: Moving Pieces Interactive
 genre: Puzzle, Retro, Platformer
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "August 3, 2023"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
+languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1198","name":"Retro"},{"id":"1151","name":"Platformer"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-08-16T15:00:00.000Z","end":"2023-08-23T15:00:00.000Z","type":null,"id":"97576d7026ab4e4181fdf9b8711a95d9"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2.5 hrs"
 hltb_main_extra: "3 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dodo_Peak"
 metacritic_score: 56
 metacritic_url: "https://www.metacritic.com/game/dodo-peak/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9904"
+opencritic_url: "https://opencritic.com/game/9904/-"
+opencritic_score: 53
+opencritic_review_count: 7
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,8 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Play as a dodo bird to find and rescue your lost babies from a series of dangerous peaks. Maneuver them home while avoiding obstacles and enemies!
-
-Dodo Peak is a throwback to the classic arcade platformers of the past with a modern twist. Collect coins, dodge sneaky snakes, avoid malevolent monkeys, grab power-ups for extra speed or super strength, and strive for the best time across a stunning variety of handcrafted islands.
-
-As your pack grows, so does the challenge in bringing them home!
+A throwback to the classic arcade platformers of the past with a modern twist! Play as a dodo bird to find and rescue your lost babies from a series of dangerous island peaks.

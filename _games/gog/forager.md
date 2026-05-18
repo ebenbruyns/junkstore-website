@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/forager/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.79
+protondb_total: 81
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Humble Bundle, Humble Games
 developer: Hop Frog, HopFrog
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Puzzle, Simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB) · 3 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Crude Humor, Fantasy Violence, Blood"},"pegi":{"rating":"3"},"kgrb":{"rating":"12","descriptors":"내용정보표지사항: 사행성, 제명: Forager, 이용등급: 12세이용가, 등급분류번호: GC-CC-NP-200626-016, 등급분류일자: 20200626, 상호: 바다게임즈, 제작업 신고번호: 제2019-000003호, 배급업 신고번호: 제2019-000001호"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "April 18, 2019"
-game_modes: ["Single player"]
-languages: ["English","German","Spanish - Spain","Simplified Chinese","Portuguese - Brazil","Japanese","Korean","Russian","Thai","Turkish"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","German","Spanish - Spain","Simplified Chinese","Portuguese - Brazil","Japanese","Korean","Russian","Thai","Turkish","French"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"36","name":"Open World"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"5","name":"Replay Value"},{"id":"125","name":"Crafting"},{"id":"39","name":"Building"},{"id":"67","name":"Management"},{"id":"138","name":"Relaxing"},{"id":"180","name":"Base Building"},{"id":"147","name":"Resource Management"},{"id":"159","name":"Agriculture"}]
+size: "134 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "15 hrs"
 hltb_main_extra: "24.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/751780"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Forager"
 metacritic_score: 78
-metacritic_url: "https://www.metacritic.com/game/pc/forager?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/forager/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7599"
+opencritic_url: "https://opencritic.com/game/7599/-"
+opencritic_score: 76
+opencritic_review_count: 28
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

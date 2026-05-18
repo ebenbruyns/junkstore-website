@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/absolute-drift/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.82
+protondb_total: 18
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Funselektor Labs
@@ -19,10 +27,15 @@ developer: Funselektor Labs
 genre: Indie, Indie, Indie, Indie, Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "July 29, 2015"
-game_modes: ["Single player"]
+game_modes: ["Achievements","Cloud saves","Controller support","Leaderboards","Overlay","Single-player"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+size: "155 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "2.5 hrs"
 hltb_main_extra: "4.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Absolute_Drift"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/absolute-drift/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-In Absolute Drift, you will master the art of drifting. Practice your skills in Free-Roam and compete in drift events such as Driftkhana and Mountain Drifting.
+This is a drifting experience like no other. Journey from apprentice to master as you hone your skill in a gorgeous minimalist world. Push yourself to the limit on drifting tracks and wild mountain roads until you finally master the art of drifting.

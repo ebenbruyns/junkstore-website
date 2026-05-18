@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/filament/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.68
+protondb_total: 8
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Kasedo Games
@@ -19,10 +27,15 @@ developer: Beard Envy
 genre: Indie, Puzzle
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"12","descriptors":"Linguagem imprópria"}}
 release_date: "August 11, 2022"
 game_modes: ["Single Player"]
-languages: ["English"]
+languages: ["English","French","German","Russian","Simplified Chinese","Japanese","Traditional Chinese","Korean","Portuguese - Brazil"]
+languages_audio: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-11-02T15:00:00.000Z","end":"2022-11-09T15:00:00.000Z","type":null,"id":"296453e71c884f95aecf4d582cf66915"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "18.5 hrs"
 hltb_main_extra: "25 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1137350"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Filament"
 metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/filament?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/filament/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Filament is a laid back, story-rich and fully narrated puzzle game centred around solving sets of cable-based puzzles whilst exploring a seemingly abandoned spaceship.
+Solve challenging cable-based puzzles and uncover what really happened to the crew of The Alabaster. Now with Hint System (for those ultra tricky puzzles).

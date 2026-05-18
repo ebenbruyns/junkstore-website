@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/prop-sumo/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: "Barrel Roll Games GmbH & Co. KG"
@@ -19,10 +27,15 @@ developer: "Barrel Roll Games GmbH & Co. KG"
 genre: Action, Casual, Fighting
 franchise: 
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa"}}
 release_date: "April 9, 2026"
 game_modes: ["Multi-player"]
-languages: ["English*","German*languages with full audio support"]
+languages: ["English","German"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1296","name":"Casual"},{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"19847","name":"Achievements"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-04-09T15:00:00.000Z","end":"2026-04-16T15:00:00.000Z","type":null,"id":"bc9b3091841840ad974ff525873d48c1"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/prop-sumo/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "20353"
+opencritic_url: "https://opencritic.com/game/20353/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,6 @@ is_featured: false
 owned: true
 ---
 
-Prop Sumo is a physics-driven fighting game that pits ordinary props together in extraordinary battles!
+Prop Sumo is a party fighting game that pits ordinary props together in extraordinary battles!
+
+Beat up your friends and dominate the scoreboard!

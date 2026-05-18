@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/scorn/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.82
+protondb_total: 61
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Ebb Software, Kepler Interactive
@@ -19,10 +27,15 @@ developer: Ebb Software
 genre: Adventure, Indie, Puzzle
 franchise: 
 age_rating_summary: PEGI 18
+age_ratings: {"kgrb":{"rating":"18","descriptors":"Fear / Horror / Threatening, Sexuality, Violence"},"dejus":{"rating":"18","descriptors":"Violência Extrema"}}
 release_date: "October 14, 2022"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Traditional Chinese","Turkish","Ukrainian","Vietnamese","Arabic","Thai"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"44","name":"Nudity"}]
+size: "17757 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "6 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Scorn"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/scorn/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13773"
+opencritic_url: "https://opencritic.com/game/13773/-"
+opencritic_score: 68
+opencritic_review_count: 96
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10005173"
+playstation_url: "https://store.playstation.com/en-us/concept/10005173"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. May need C++ Runtime. Resolution wrong on launch but automatically set to correct one after opening settings menu."

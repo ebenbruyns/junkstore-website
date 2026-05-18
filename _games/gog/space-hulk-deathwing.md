@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/space-hulk-deathwing/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.73
+protondb_total: 45
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Focus Entertainment
 developer: Cyanide Studio, Streum On Studio
 genre: "Adventure, Shooter, Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: 16 (USK)
+age_ratings: {"usk":{"rating":"16"},"dejus":{"rating":"6"}}
 release_date: "December 14, 2016"
-game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+game_modes: ["Achievements","Controller support","Co-op","Multi-player","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Korean"]
+languages_audio: ["English"]
 tags_structured: []
+size: "18232 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8.5 hrs"
 hltb_main_extra: "12.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/space_hulk_deathwing_enhanced_edition"
 protondb_url: "https://www.protondb.com/app/816090"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Space_Hulk%3A_Deathwing_-_Enhanced_Edition"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 58
+metacritic_url: "https://www.metacritic.com/game/space-hulk-deathwing/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "6124"
+opencritic_url: "https://opencritic.com/game/6124/-"
+opencritic_score: 56
+opencritic_review_count: 27
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

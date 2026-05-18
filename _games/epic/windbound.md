@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/windbound/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.47
+protondb_total: 17
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Deep Silver, Koch Media
 developer: 5 Lives Studios
 genre: Action, RPG, Survival, Action-Adventure, Adventure, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: PG (OFLC)
+age_ratings: {"oflc":{"rating":"PG"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "August 28, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1367","name":"RPG"},{"id":"1080","name":"Survival"},{"id":"1336","name":"Action-Adventure"},{"id":"1289","name":"CRAFTING"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+size: "1371 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "14 Hours"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Windbound"
 metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/windbound-2020/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9918"
+opencritic_url: "https://opencritic.com/game/9918/-"
+opencritic_score: 65
+opencritic_review_count: 92
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

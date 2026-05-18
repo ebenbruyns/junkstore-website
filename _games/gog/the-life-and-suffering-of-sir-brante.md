@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-life-and-suffering-of-sir-brante/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.57
+protondb_total: 8
+protondb_confidence: "low"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: 101XP
@@ -19,10 +27,15 @@ developer: Sever
 genre: Adventure, Indie
 franchise: 
 age_rating_summary: 
-release_date: ""
-game_modes: ["Single player"]
-languages: ["English"]
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
+release_date: "December 1, 2020"
+game_modes: ["Overlay","Single-player"]
+languages: ["English","Russian"]
+languages_audio: []
 tags_structured: []
+size: "588 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2.5 hrs"
 hltb_main_extra: ""
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/the_life_and_suffering_of_sir_brante_cha
 protondb_url: "https://www.protondb.com/app/1460090"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Life_and_Suffering_of_Sir_Brante"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/the-life-and-suffering-of-sir-brante/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11007"
+opencritic_url: "https://opencritic.com/game/11007/-"
+opencritic_score: 83
+opencritic_review_count: 15
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

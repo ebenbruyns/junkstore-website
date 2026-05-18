@@ -7,11 +7,19 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/cloud-gardens/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.7
+protondb_total: 15
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Noio
@@ -19,10 +27,15 @@ developer: Noio
 genre: Strategy, Indie, Puzzle, Simulator
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 1, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese","Russian"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"37","name":"Sandbox"},{"id":"14","name":"Early Access"},{"id":"107","name":"Family Friendly"},{"id":"43","name":"Post-apocalyptic"},{"id":"111","name":"Short"},{"id":"571","name":"3D"},{"id":"39","name":"Building"},{"id":"138","name":"Relaxing"},{"id":"46","name":"Surreal"},{"id":"196","name":"Procedural Generation"},{"id":"213","name":"City Builder"},{"id":"266","name":"Level Editor"},{"id":"774","name":"nature"},{"id":"220","name":"Experimental"}]
+size: "148 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 Hours"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cloud_Gardens"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/cloud-gardens/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11917"
+opencritic_url: "https://opencritic.com/game/11917/-"
+opencritic_score: 75
+opencritic_review_count: 20
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

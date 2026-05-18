@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/trek-to-yomi/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: "GE-Proton 9.2"
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.65
+protondb_total: 21
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Devolver Digital
 developer: Leonard Menchiari, Flying Wild Hog
 genre: Action, Action-Adventure, Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 16 (USK)
+age_ratings: {"usk":{"rating":"16","descriptors":"Gewalt"},"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
 release_date: "May 5, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Italian","Polish"]
+languages_audio: ["Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+size: "8897 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "6 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trek_to_Yomi"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/trek-to-yomi/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13107"
+opencritic_url: "https://opencritic.com/game/13107/-"
+opencritic_score: 72
+opencritic_review_count: 161
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002134"
+playstation_url: "https://store.playstation.com/en-us/concept/10002134"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Tested with GE-Proton 9.2. Text is a little hard to read."

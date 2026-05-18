@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/prince-of-persia-the-two-thrones/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.73
+protondb_total: 23
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Ubisoft Entertainment
 developer: Ubisoft Montreal, Ubisoft Casablanca
 genre: "Adventure, Platform, Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore<br>, Intense Violence<br>"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "December 1, 2005"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Controller support","Single-player"]
+languages: ["English","French","German","Italian","Spanish - Spain"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"15","name":"Stealth"},{"id":"68","name":"Hack and Slash"},{"id":"336","name":"controller support"},{"id":"188","name":"Parkour"},{"id":"317","name":"Time Travel"},{"id":"302","name":"Time Manipulation"}]
+size: "1375 MB"
+franchise_siblings: [{"rawg_id":854540,"slug":"prince-of-persia-escape-2","name":"Prince of Persia: Escape 2"},{"rawg_id":246692,"slug":"prince-of-persia-escape","name":"Prince of Persia: Escape"},{"rawg_id":6305,"slug":"prince-of-persia-the-shadow-and-the-flame","name":"Prince of Persia The Shadow and the Flame"},{"rawg_id":4518,"slug":"prince-of-persia-the-forgotten-sands","name":"Prince of Persia: The Forgotten Sands"},{"rawg_id":39233,"slug":"prince-of-persia-epilogue","name":"Prince of Persia: Epilogue"},{"rawg_id":4744,"slug":"prince-of-persia","name":"Prince of Persia (2008)"},{"rawg_id":25728,"slug":"prince-of-persia-the-fallen-king","name":"Prince of Persia: The Fallen King"},{"rawg_id":13925,"slug":"prince-of-persia-warrior-within","name":"Prince of Persia: Warrior Within"},{"rawg_id":13909,"slug":"prince-of-persia-the-sands-of-time","name":"Prince of Persia: The Sands of Time"},{"rawg_id":772534,"slug":"prince-of-persia-arabian-nights","name":"Prince of Persia: Arabian Nights"},{"rawg_id":32685,"slug":"prince-of-persia-2-the-shadow-and-the-flame","name":"Prince of Persia 2: The Shadow and the Flame"},{"rawg_id":45957,"slug":"prince-of-persia-nes","name":"Prince of Persia (1989)"},{"rawg_id":644662,"slug":"prince-of-persia-redemption","name":"Prince of Persia: Redemption"}]
+franchise_slug: "prince-of-persia|prince-of-persia-2-the-shadow-|prince-of-persia-arabian-night|prince-of-persia-epilogue|prince-of-persia-escape|prince-of-persia-escape-2|prince-of-persia-nes|prince-of-persia-redemption|prince-of-persia-the-fallen-ki|prince-of-persia-the-forgotten|prince-of-persia-the-sands-of-|prince-of-persia-the-shadow-an|prince-of-persia-the-two-thron|prince-of-persia-warrior-withi"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9.5 hrs"
 hltb_main_extra: "10.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/prince_of_persia_the_two_thrones"
 protondb_url: "https://www.protondb.com/app/13530"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prince_of_Persia%3A_The_Two_Thrones"
-metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/pc/prince-of-persia-the-two-thrones?ftag=MCD-06-10aaa1f"
+metacritic_score: 92
+metacritic_url: "https://www.metacritic.com/game/prince-of-persia-the-sands-of-time/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

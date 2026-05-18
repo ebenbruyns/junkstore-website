@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/gods-will-fall/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.3
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Deep Silver, Koch Media
 developer: Clever Beans
 genre: Action-Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: 16 (USK)
+age_ratings: {"usk":{"rating":"16"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "January 29, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"}]
+size: "7328 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-01-05T15:00:00.000Z","end":"2022-01-12T15:00:00.000Z","type":null,"id":"5207cdd79e9145d0bbb947c6bd3699a3"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "7 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gods_Will_Fall"
 metacritic_score: 63
 metacritic_url: "https://www.metacritic.com/game/gods-will-fall/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10838"
+opencritic_url: "https://opencritic.com/game/10838/-"
+opencritic_score: 64
+opencritic_review_count: 50
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-The gods’ torturous rule over humanity has lasted for millennia. Bent on cruelty and suffering, they demand to be served with blind worship through an oath of fealty pledged from every man, woman and child. To those who don't submit to the gods’ will; a slow and merciless death awaits.
+Experience the trials of 8 warriors in their plight to sever the gods’ grip on humanity as you take on legions of beasts in each of the gods’ realms.

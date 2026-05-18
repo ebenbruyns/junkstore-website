@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/cat-quest/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 73
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Kepler Interactive
@@ -19,10 +27,15 @@ developer: The Gentlebros
 genre: Casual, RPG, Action-Adventure
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "December 28, 2023"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Thai","Traditional Chinese","Russian"]
+languages_audio: []
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"35244","name":"Epic Savings"},{"id":"9549","name":"Controller Support"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "108 MB"
+franchise_siblings: [{"rawg_id":986898,"slug":"cat-quest-iii","name":"Cat Quest III"},{"rawg_id":304320,"slug":"cat-quest-ii","name":"Cat Quest II"}]
+franchise_slug: "cat-quest|cat-quest-ii|cat-quest-iii"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-03-27T15:00:00.000Z","end":"2025-04-03T15:00:00.000Z","type":null,"id":"2da36fbed1b34d1997e5ffb1f8efdeb6"},{"start":"2023-12-27T15:00:00.000Z","end":"2023-12-28T15:00:00.000Z","type":null,"id":"2da36fbed1b34d1997e5ffb1f8efdeb6"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5.6 hrs"
 hltb_main_extra: "8 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/cat-quest-8373e0"
 protondb_url: "https://www.protondb.com/app/593280"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cat_Quest"
-metacritic_score: 79
-metacritic_url: "https://www.metacritic.com/game/pc/cat-quest?ftag=MCD-06-10aaa1f"
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/cat-quest/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4693"
+opencritic_url: "https://opencritic.com/game/4693/-"
+opencritic_score: 76
+opencritic_review_count: 42
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,5 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Cat Quest is a 2D open world RPG with the exploration of Skyrim, but set in the visual style of an overworld. This is a fantasy world that asks the question of how different it would be if cats lived in it instead of humans!
-Go to places like the Catpital where the Lion King rules, or experience delicacies like the catnip pie! Talk to the locals, some already on their 7th or 8th lives(what? not all cats have nine lives y'know), and go on a catventure through a world you've never seen before!
+The multi award-winning Action RPG. Cat Quest's loot-fuelled cat-venture is as beautifully crafted, as its combat and magic are ultra-satisfying. Universally adored by critics - it'll have you purring for joy!

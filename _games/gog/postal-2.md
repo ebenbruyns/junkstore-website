@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/postal-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.75
+protondb_total: 72
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Linux Game Publishing, Whiptail Interactive, Running With Scissors
 developer: Running With Scissors
 genre: Adventure, Indie, Shooter
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · ma15 (OFLC)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood &amp; Gore, Intense Violence, Mature Humor, Strong Language, Use of Drugs, Mature Sexual Themes"},"oflc":{"rating":"ma15","descriptors":"Strong crude humour, violence, coarse language and suicide scenes, online interactivity and chat"},"dejus":{"rating":"18","descriptors":"Drogas ilícitas, Violência, Temas sensíveis"}}
 release_date: "April 14, 2003"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Multi-player","Single-player"]
+languages: ["English","Russian","Simplified Chinese","Spanish - Spain","Turkish"]
+languages_audio: ["English","Russian","Simplified Chinese"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"4","name":"Funny"},{"id":"26","name":"Gore"},{"id":"193","name":"Classic"},{"id":"37","name":"Sandbox"},{"id":"123","name":"Comedy"},{"id":"34","name":"Violent"},{"id":"40852","name":"Steam Workshop"},{"id":"40838","name":"Includes level editor"},{"id":"62","name":"Moddable"},{"id":"107","name":"Family Friendly"},{"id":"37796","name":"exclusive"},{"id":"192","name":"Mature"},{"id":"37797","name":"true exclusive"},{"id":"148","name":"Dark Humor"},{"id":"153","name":"Satire"}]
+size: "2434 MB"
+franchise_siblings: [{"rawg_id":949985,"slug":"poostall-royale","name":"POOSTALL Royale"},{"rawg_id":922172,"slug":"postal-before-going-postal","name":"Postal: Before Going Postal"},{"rawg_id":489294,"slug":"postal-brain-damaged","name":"Postal: Brain Damaged"},{"rawg_id":383496,"slug":"postal-4-no-regerts","name":"Postal 4: No Regrets"},{"rawg_id":389577,"slug":"postal-run","name":"POSTAL: RUN!"},{"rawg_id":12157,"slug":"postal-redux","name":"POSTAL Redux"},{"rawg_id":13195,"slug":"postal-iii","name":"Postal III"},{"rawg_id":35607,"slug":"postal-3","name":"Postal 3"},{"rawg_id":1003018,"slug":"postal-x-10th-anniversary-collectors-edition","name":"Postal X: 10th Anniversary Collectors Edition"},{"rawg_id":22751,"slug":"postal-classic-and-uncut","name":"POSTAL: Classic and Uncut"},{"rawg_id":10665,"slug":"postal","name":"POSTAL"}]
+franchise_slug: "poostall-royale|postal|postal-2|postal-3|postal-4-no-regerts|postal-before-going-postal|postal-brain-damaged|postal-classic-and-uncut|postal-iii|postal-redux|postal-run|postal-x-10th-anniversary-coll"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "7 hrs"
 hltb_main_extra: "12.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/game/postal-2"
 protondb_url: "https://www.protondb.com/app/223470"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Postal_2"
-metacritic_score: 59
-metacritic_url: "https://www.metacritic.com/game/pc/postal-2-share-the-pain?ftag=MCD-06-10aaa1f"
+metacritic_score: 50
+metacritic_url: "https://www.metacritic.com/game/postal-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Need to set an exe for Decky version."

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/kinnikuneko-super-muscle-cat/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.21
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Mameshiba Games
@@ -19,10 +27,15 @@ developer: Kamotachi
 genre: Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Conteúdo sexual, Drogas lícitas"}}
 release_date: "March 19, 2024"
 game_modes: []
-languages: ["English*","Spanish - Spain*","Japanese*","French","Italian","German","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil","Portuguese - Portugal","Russian*languages with full audio support"]
+languages: ["English","Spanish - Spain","Japanese","French","Italian","German","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil","Portuguese - Portugal","Russian"]
+languages_audio: ["English","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2½ Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Special:Search?search=13329
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/kinnikuneko-super-muscle-cat/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16641"
+opencritic_url: "https://opencritic.com/game/16641/-"
+opencritic_score: 76
+opencritic_review_count: 10
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10010857"
+playstation_url: "https://store.playstation.com/en-us/concept/10010857"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: 
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A cat with the body of a bodybuilder fights against aliens in this 2D platformer with anime aesthetics.
+Join KinnikuNeko, a cat with a bodybuilder's body, in this fun 2D platformer and fight against the mysterious alien invasion. A story full of goofy humor, friendship, drama and action. Its aesthetics are a love letter to 90s anime along with an unforgettable soundtrack.

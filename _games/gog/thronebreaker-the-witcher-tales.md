@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/thronebreaker-the-witcher-tales/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.58
+protondb_total: 71
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: CD Projekt RED
 developer: CD Projekt RED
 genre: Role-playing (RPG)
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Language, Crude Humor"},"pegi":{"rating":"12","descriptors":"Violence, Horror, Bad Language"},"oflc":{"rating":"PG","descriptors":"Mild themes, Violence and coarse language, Online interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild themes, Violence and coarse language, Online interactivity"},"kgrb":{"rating":"12","descriptors":"Mild Sexual Content, Mild Violence, Mild use of substances"},"csrr":{"rating":"C15","descriptors":"Violence, Tobacco and Alcohol, Improper Language"},"dejus":{"rating":"12","descriptors":"Violencia"}}
 release_date: "October 23, 2018"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Spanish - Latin America","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Spanish - Latin America","Simplified Chinese","Traditional Chinese"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"189","name":"Female Protagonist"},{"id":"468","name":"role-playing"},{"id":"99","name":"Isometric"},{"id":"127","name":"Card Game"}]
+size: "6246 MB"
+franchise_siblings: [{"rawg_id":813543,"slug":"gwent-rogue-mage","name":"Gwent: Rogue Mage"},{"rawg_id":23557,"slug":"gwent-the-witcher-card-game","name":"Gwent: The Witcher Card Game"},{"rawg_id":3328,"slug":"the-witcher-3-wild-hunt","name":"The Witcher 3: Wild Hunt"},{"rawg_id":6400,"slug":"the-witcher-adventure-game","name":"The Witcher Adventure Game"},{"rawg_id":28454,"slug":"the-witcher-2-assassins-of-kings","name":"The Witcher 2: Assassins of Kings"},{"rawg_id":35358,"slug":"the-witcher","name":"The Witcher"},{"rawg_id":39074,"slug":"the-witcher-rise-of-the-white-wolf","name":"The Witcher: Rise of the White Wolf"},{"rawg_id":758455,"slug":"the-witcher-4","name":"The Witcher (A New Saga Begins)"},{"rawg_id":871152,"slug":"the-witcher-remake","name":"The Witcher: Remake"}]
+franchise_slug: "gwent-rogue-mage|gwent-the-witcher-card-game|gwent-thronebreaker|the-witcher|the-witcher-2-assassins-of-kin|the-witcher-3-wild-hunt|the-witcher-4|the-witcher-adventure-game|the-witcher-remake|the-witcher-rise-of-the-white-"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "27.5 hrs"
 hltb_main_extra: "36.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/973760"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thronebreaker%3A_The_Witcher_Tales"
 metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/pc/thronebreaker-the-witcher-tales?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/thronebreaker-the-witcher-tales/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "6768"
+opencritic_url: "https://opencritic.com/game/6768/-"
+opencritic_score: 85
+opencritic_review_count: 80
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

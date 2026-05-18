@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-lord-of-the-rings-return-to-moria/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.82
+protondb_total: 54
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: North Beach Games
 developer: Free Range Games
 genre: Role-playing (RPG), Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: 12 (USK)
+age_ratings: {"usk":{"rating":"12","descriptors":"Fantasy-Gewalt"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "January 1, 2099"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"1","name":"Survival"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"121","name":"Character Customization"},{"id":"125","name":"Crafting"},{"id":"110","name":"Cinematic"},{"id":"1465","name":"combat"},{"id":"39","name":"Building"},{"id":"180","name":"Base Building"},{"id":"196","name":"Procedural Generation"},{"id":"91686","name":"Family Sharing"},{"id":"49954","name":"Open World Survival Craft"},{"id":"628","name":"dwarf"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "36½ Hours"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Lord_of_the_Rings:_Return_to_Moria"
 metacritic_score: 59
 metacritic_url: "https://www.metacritic.com/game/the-lord-of-the-rings-return-to-moria/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15718"
+opencritic_url: "https://opencritic.com/game/15718/-"
+opencritic_score: 60
+opencritic_review_count: 37
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10008445"
+playstation_url: "https://store.playstation.com/en-us/concept/10008445"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! You may need to install C++ Runtime for the Decky version."

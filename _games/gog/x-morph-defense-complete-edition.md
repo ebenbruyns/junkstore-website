@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/x-morph-defense-complete-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.65
+protondb_total: 39
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: EXOR Studios
 developer: Exor Studios
 genre: Strategy, Indie, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Mild Language"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "August 30, 2017"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Co-op","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese","Japanese","Korean","Portuguese - Brazil","Hungarian"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"411","name":"cooperative"},{"id":"40850","name":"Steam Leaderboards"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"65","name":"Tower Defense"}]
+size: "4335 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11.5 hrs"
 hltb_main_extra: "16.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/xmorph_defense_complete_edition"
 protondb_url: "https://www.protondb.com/app/408410"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/X-Morph%3A_Defense"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/x-morph-defense/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4776"
+opencritic_url: "https://opencritic.com/game/4776/-"
+opencritic_score: 78
+opencritic_review_count: 28
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

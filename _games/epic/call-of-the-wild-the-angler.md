@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/call-of-the-wild-the-angler/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.43
+protondb_total: 26
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Expansive Worlds
 developer: Expansive Worlds
 genre: Casual, Simulation, Open World
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: E (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"E","descriptors":"Violent References, Mild Language, Tobacco Reference"},"pegi":{"rating":"7","descriptors":"Fear, In-game purchases"},"usk":{"rating":"6"},"oflc":{"rating":"G","descriptors":"General, Online interactivity, In-game purchases"},"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "August 31, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Polish","Russian","Simplified Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1124","name":"FISHING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-03-20T15:00:00.000Z","end":"2024-03-27T15:00:00.000Z","type":null,"id":"e5cfeb2ef72e4cae8a237317fed902ee"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "11.6 hrs"
 hltb_main_extra: "20 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_the_Wild:_The_Angle
 metacritic_score: 63
 metacritic_url: "https://www.metacritic.com/game/call-of-the-wild-the-angler/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13603"
+opencritic_url: "https://opencritic.com/game/13603/-"
+opencritic_score: 63
+opencritic_review_count: 7
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003945"
+playstation_url: "https://store.playstation.com/en-us/concept/10003945"
+xbox_id: "9NDC5LJS839S"
+xbox_url: "https://www.xbox.com/games/store/-/9NDC5LJS839S"
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-From the creators of theHunter: Call of the Wild comes a genre-defying fishing experience! Explore a vast and atmospheric open world in search of the perfect fishing spot. Ride the open waters alone or with friends and embark on your journey to become a master angler.
+From the creators of theHunter: Call of the Wild comes a genre-defying fishing experience! Explore a vast open world in search of the perfect fishing spot. Ride the open waters alone or with friends and embark on your journey to become a master angler.

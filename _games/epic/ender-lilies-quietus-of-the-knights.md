@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/ender-lilies-quietus-of-the-knights/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.9
+protondb_total: 72
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Binary Haze Interactive
 developer: Live Wire, Adglobe
 genre: Exploration, RPG, Action-Adventure
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence"},"pegi":{"rating":"12","descriptors":"軽い暴力"},"usk":{"rating":"12","descriptors":"暴力、恐怖を感じさせる状況"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência, Medo"}}
 release_date: "January 22, 2025"
 game_modes: ["Single Player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Japanese","Korean","Traditional Chinese"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12.5 hrs"
 hltb_main_extra: "18.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1369630"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ender_Lilies%3A_Quietus_of_the_Knights"
 metacritic_score: 86
-metacritic_url: "https://www.metacritic.com/game/pc/ender-lilies-quietus-of-the-knights?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/ender-lilies-quietus-of-the-knights/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10886"
+opencritic_url: "https://opencritic.com/game/10886/-"
+opencritic_score: 85
+opencritic_review_count: 65
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Ender Lilies is a dark fantasy 2D Action RPG about unraveling the mysteries of a nation destroyed by a cataclysmic event. The fallen Kingdom of End is a tragic and beautiful world featuring a majestic castle, submerged forests and forbidden underground areas.
-
-On this sorrowful journey, encounter horrific enemies against whom a moment of inattention could be fatal. By releasing foes from their undying curse, you may gain their strength. Overcome the hardships of your journey and uncover the truth with the aid of the fallen knights.
+ENDER LILIES is a dark fantasy 2D action RPG about unraveling the mysteries of a destroyed kingdom. On this sorrowful journey, encounter horrific enemies against whom a moment of inattention could be fatal.

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/electrician-simulator/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.72
+protondb_total: 16
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Gaming Factory, Ultimate Games S.A.
@@ -19,10 +27,15 @@ developer: "Take IT Studio!"
 genre: First Person, Indie, Simulation
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "August 4, 2023"
 game_modes: ["Single player"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Japanese"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Japanese","Russian","Turkish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1263","name":"Indie"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "7805 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-03-19T15:00:00.000Z","end":"2026-03-26T15:00:00.000Z","type":null,"id":"b3d56c3e27fc4816bf6cc0cefecd4948"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7 hrs"
 hltb_main_extra: "9 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Electrician_Simulator"
 metacritic_score: 60
 metacritic_url: "https://www.metacritic.com/game/electrician-simulator/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13824"
+opencritic_url: "https://opencritic.com/game/13824/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10008320"
+playstation_url: "https://store.playstation.com/en-us/concept/10008320"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Take over the family business from your Dad and become an electrician. Learn the basics and test your skills in the Electrician Simulator. Repair and assemble sockets, panels, strips, plugs, chandeliers and even change light bulbs. Oh... and don't mix up the wires! Results might be shocking.
+Take on the electrician role and learn the profession's basics! Install sockets, repair worn-out equipment, assemble broken appliances, replace light bulbs, and lay wires at your customers' homes. Be sure to check everything twice, with electricity there are no jokes!

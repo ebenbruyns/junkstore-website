@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/deliver-us-mars/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.74
+protondb_total: 24
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Frontier Foundry
 developer: KeokeN Interactive
 genre: Action, Indie, Adventure
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Mild Blood"},"pegi":{"rating":"12","descriptors":"Bad Language, Horror"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "February 2, 2023"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Polish"]
+languages_audio: ["English","French","German","Japanese","Russian","Simplified Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: [{"rawg_id":43608,"slug":"deliver-us-the-moon","name":"Deliver Us the Moon"}]
+franchise_slug: "deliver-us-mars|deliver-us-the-moon"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-11-22T15:00:00.000Z","end":"2023-11-29T15:00:00.000Z","type":null,"id":"34c8b5efd29f48209928d74752584426"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "9 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deliver_Us_Mars"
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/deliver-us-mars/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13379"
+opencritic_url: "https://opencritic.com/game/13379/-"
+opencritic_score: 68
+opencritic_review_count: 55
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003378"
+playstation_url: "https://store.playstation.com/en-us/concept/10003378"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Needs C++ Runtime, otherwise no extra setup required."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Deliver Us Mars is a sci-fi adventure game developed by KeokeN Interactive and released in 2023. It is a sequel to Deliver Us the Moon and follows the story of astronaut Kathy Johanson as she embarks on a mission to Mars to recover powerful colony ships known as the ARKs, which were stolen by a group called the Outward. The game combines exploration, puzzle-solving, and platforming elements as players navigate the harsh Martian environment and uncover the mysteries surrounding the disappearance of the ARKs.
+Deliver Us Mars is an atmospheric sci-fi adventure taking you on a suspense-fuelled, high-stakes mission to recover the ARK colony ships stolen by the mysterious Outward.

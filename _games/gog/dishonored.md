@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dishonored/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.9
+protondb_total: 566
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Bethesda Softworks
 developer: Arkane Studios
 genre: Role-playing (RPG), Adventure, Puzzle
 franchise: Dishonored -
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"bbfc":{"rating":"18"}}
 release_date: "October 9, 2012"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","German","French","Italian","Spanish - Spain"]
+languages_audio: ["English","German","French","Italian","Spanish - Spain"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "14719 MB"
+franchise_siblings: [{"rawg_id":29173,"slug":"dishonored-death-of-the-outsider","name":"Dishonored: Death of the Outsider"},{"rawg_id":864,"slug":"dishonored-2","name":"Dishonored 2"}]
+franchise_slug: "dishonored|dishonored-2|dishonored-death-of-the-outsid"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,19 +68,36 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12 hrs"
 hltb_main_extra: "22 hrs"
 hltb_completionist: "46.5 hrs"
-hltb_url: "https://howlongtobeat.com/game/22849"
+hltb_url: "https://howlongtobeat.com/game/2602"
 
 # Links
 store_url: "https://www.gog.com/en/game/dishonored_definitive_edition"
 protondb_url: "https://www.protondb.com/app/205100"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dishonored"
-metacritic_score: 91
-metacritic_url: "https://www.metacritic.com/game/pc/dishonored?ftag=MCD-06-10aaa1f"
+metacritic_score: 88
+metacritic_url: "https://www.metacritic.com/game/dishonored/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1848"
+opencritic_url: "https://opencritic.com/game/1848/-"
+opencritic_score: 78
+opencritic_review_count: 35
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9P1N07XDL1D4"
+xbox_url: "https://www.xbox.com/games/store/-/9P1N07XDL1D4"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Dishonored is an immersive first-person action game that casts you as a supernatural assassin driven by revenge. With Dishonored’s flexible combat system, creatively eliminate your targets as you combine the supernatural abilities, weapons and unusual gadgets at your disposal. Pursue your enemies under the cover of darkness or ruthlessly attack them head on with weapons drawn. The outcome of each mission plays out based on the choices you make.
+Dishonored 2 is set 15 years after the Lord Regent has been vanquished. An otherworldly usurper has seized Empress Emily Kaldwin’s throne. As Emily or Corvo, travel to Karnaca to track down your enemies and take back what’s rightfully yours. 

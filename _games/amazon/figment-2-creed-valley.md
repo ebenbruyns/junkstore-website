@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/figment-2-creed-valley/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 12
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Bedtime Digital Games
@@ -19,10 +27,15 @@ developer: Bedtime Digital Games
 genre: Adventure, Indie, Puzzle, Music
 franchise: Figment
 age_rating_summary: ESRB Everyone 10+
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Linguagem imprópria"}}
 release_date: "March 9, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Arabic","Danish","Japanese","Korean","Polish"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1298","name":"Puzzle"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "4.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment_2%3A_Creed_Valley"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/figment-2-creed-valley/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14414"
+opencritic_url: "https://opencritic.com/game/14414/-"
+opencritic_score: 72
+opencritic_review_count: 18
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004222"
+playstation_url: "https://store.playstation.com/en-us/concept/10004222"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: 
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Figment 2: Creed Valley is an encore to Figment. Dusty and Piper have restored peace in The Mind, however, a new adversary is threatening its balance. Our two heroes must travel to Creed Valley, where The Mind’s beliefs and ideals are formed, to face their most menacing and theatrical foe so far.
+Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.

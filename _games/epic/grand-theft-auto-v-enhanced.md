@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/grand-theft-auto-v-enhanced/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "red"
 standalone_rating: "red"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.61
+protondb_total: 348
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Rockstar Games  
 developer: Rockstar North
 genre: Action, Open World, Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Nudity, Mature Humor, Strong Language, Strong Sexual Content, Use of Drugs and Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Online Play,, Strong Language"},"usk":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Drogas ilícitas, Nudez, Violência"}}
 release_date: "March 4, 2025"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: true
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "32 hrs"
 hltb_main_extra: "51.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/grand-theft-auto-v"
 protondb_url: "https://www.protondb.com/app/3240220"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_V_Enhanced"
-metacritic_score: 
-metacritic_url: "https://www.metacritic.com/game/grand-theft-auto-v-enhanced/"
+metacritic_score: 97
+metacritic_url: "https://www.metacritic.com/game/grand-theft-auto-v/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "163"
+opencritic_url: "https://opencritic.com/game/163/-"
+opencritic_score: 92
+opencritic_review_count: 138
+twitch_id: "32982"
+twitch_url: ""
+playstation_id: "201930"
+playstation_url: "https://store.playstation.com/en-us/concept/201930"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Read this [tutorial](https://www.reddit.com/r/JunkStore/comments/1j5d1f8/running_gtav_enhanced_edition_on_steam_deck_from/)"
@@ -82,5 +112,3 @@ owned: true
 ---
 
 Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players.
-
-Current PC players can transfer both GTAV Story Mode progress and GTA Online characters and progression with a one-time migration from the legacy version of GTAV to GTAV Enhanced.

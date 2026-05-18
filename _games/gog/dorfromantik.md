@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dorfromantik/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "unknown"
 standalone_rating: "green"
 date_tested: "Sep '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.85
+protondb_total: 142
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Toukana Interactive
 developer: Toukana Interactive
 genre: Casual, Indie, Simulation, Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: 0 (USK)
+age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"L"}}
 release_date: "March 1, 2021"
-game_modes: ["Single-player"]
-languages: ["English","German","French","Italian","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Polish"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","German","French","Italian","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Polish","Swedish","Spanish - Spain","Turkish","Arabic","Dutch","Hungarian","Japanese","Norwegian","Portuguese - Portugal","Ukrainian","Korean","Czech"]
+languages_audio: []
 tags_structured: []
+size: "333 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "18 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dorfromantik"
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/dorfromantik/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11335"
+opencritic_url: "https://opencritic.com/game/11335/-"
+opencritic_score: 83
+opencritic_review_count: 30
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10014511"
+playstation_url: "https://store.playstation.com/en-us/concept/10014511"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Not tested**. **Pro Version: Works out of the box**."

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/killing-floor-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.82
+protondb_total: 453
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Deep Silver, Iceberg Interactive, Tripwire Interactive
 developer: Tripwire Interactive
 genre: Action, Horror, First Person, Survival, Shooter
 franchise: Killing Floor
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, In-Game Purchases, In-Game Purchases(Includes Random Items)"},"usk":{"rating":"18"}}
 release_date: "July 9, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Portuguese - Brazil","Japanese","Simplified Chinese","Korean","Traditional Chinese"]
+languages_audio: ["English","French","German","Spanish - Spain","Russian","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":17352,"slug":"killing-floor","name":"Killing Floor"}]
+franchise_slug: "killing-floor|killing-floor-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-07-06T15:00:00.000Z","end":"2022-07-13T15:00:00.000Z","type":null,"id":"85f5ff10c31c4cd99978f4d57d3ec97a"},{"start":"2020-07-08T15:00:00.000Z","end":"2020-07-15T15:00:00.000Z","type":null,"id":"85f5ff10c31c4cd99978f4d57d3ec97a"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "16.5 hrs"
 hltb_main_extra: "90 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/232090"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Killing_Floor_2"
 metacritic_score: 75
-metacritic_url: "https://www.metacritic.com/game/pc/killing-floor-2?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/killing-floor-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "3282"
+opencritic_url: "https://opencritic.com/game/3282/-"
+opencritic_score: 78
+opencritic_review_count: 62
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Multiplayer not supported due to anti-cheat."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-In Killing Floor 2 players descend into Europe where the Zed outbreak has quickly spread and gained unstoppable momentum. Just one month after the conclusion of the events in the original Killing Floor, the clones are everywhere and civilization is in disarray; governments have collapsed, and military forces are gone.
+In KILLING FLOOR 2, players descend into continental Europe after it has been overrun by horrific, murderous clones called Zeds that were created by rogue elements of the Horzine Corporation. 6-player Co-Op & 12-player VS Zed-slaughtering mayhem.

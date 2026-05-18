@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-operator/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.74
+protondb_total: 13
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Bureau 81, indienova
@@ -19,10 +27,15 @@ developer: Bureau 81
 genre: Puzzle, Narration, Indie
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Atos criminosos"}}
 release_date: "June 19, 2025"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Russian"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1395","name":"Narration"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
+size: "1309 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-06-19T15:00:00.000Z","end":"2025-06-26T15:00:00.000Z","type":null,"id":"e462627d3a864052a6b5fe2c0eaf0ba8"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "3.6 hrs"
 hltb_main_extra: "4.2 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1771980"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Operator"
 metacritic_score: 78
-metacritic_url: "https://www.metacritic.com/game/pc/the-operator?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/the-operator/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17026"
+opencritic_url: "https://opencritic.com/game/17026/-"
+opencritic_score: 78
+opencritic_review_count: 13
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-As an Operator, you will assist FDI's field agents by analyzing evidence on your computer and making deductions. Help them solve impossible cases in this immersive interface game, full of plot twists and mysteries. Everything will be explained, you just have to ████ ██ ██████.
+Welcome to the FDI. As our newest Operator, your role is to use your detective skills to assist our field agents and investigate mysterious crimes. Use cutting-edge FDI software to dig for clues, solve puzzles, and uncover the truth.

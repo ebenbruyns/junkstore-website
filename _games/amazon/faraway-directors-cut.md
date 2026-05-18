@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/faraway-directors-cut/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Pine Studio
@@ -19,10 +27,15 @@ developer: Pine Studio
 genre: Adventure, Puzzle
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 22, 2020"
 game_modes: []
-languages: []
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Danish","Dutch","Finnish","Greek","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Swedish","Thai","Traditional Chinese","Turkish","Vietnamese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"6","name":"Exploration"},{"id":"107","name":"Family Friendly"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"138","name":"Relaxing"},{"id":"112","name":"Minimalist"},{"id":"575","name":"Logic"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "4 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Faraway:_Director%27s_Cut"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/faraway-directors-cut/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

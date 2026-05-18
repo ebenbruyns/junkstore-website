@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/grip/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.72
+protondb_total: 99
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Wired Productions
 developer: Caged Element
 genre: Indie, Shooter, Racing
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Online Interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild Violence, Online Interactivity"},"kgrb":{"rating":"12","descriptors":"Violence"},"dejus":{"rating":"L","descriptors":"Violence"}}
 release_date: "November 6, 2018"
-game_modes: ["Single player","Multiplayer","Split screen"]
-languages: ["English"]
+game_modes: ["Cloud saves","Controller support","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Hungarian"]
+languages_audio: []
 tags_structured: []
+size: "4946 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "13.5 hrs"
 hltb_main_extra: "17 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/grip"
 protondb_url: "https://www.protondb.com/app/396900"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/GRIP%3A_Combat_Racing"
-metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/grip?ftag=MCD-06-10aaa1f"
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/grip-combat-racing/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "6826"
+opencritic_url: "https://opencritic.com/game/6826/-"
+opencritic_score: 69
+opencritic_review_count: 62
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

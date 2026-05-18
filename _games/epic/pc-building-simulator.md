@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/pc-building-simulator/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.73
+protondb_total: 205
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: The Irregular Corporation
@@ -19,10 +27,15 @@ developer: The Irregular Corporation
 genre: Indie, Simulation
 franchise: PC Building Simulator
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "October 7, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Spain","Korean","Polish"]
+languages_audio: []
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":857635,"slug":"pc-building-simulator-2","name":"PC Building Simulator 2"}]
+franchise_slug: "pc-building-simulator|pc-building-simulator-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-10-06T15:00:00.000Z","end":"2021-10-13T15:00:00.000Z","type":null,"id":"7bfbb022d2fa4d67a4844631ecd5c027"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "23.5 hrs"
 hltb_main_extra: "57 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/PC_Building_Simulator"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/pc-building-simulator/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7249"
+opencritic_url: "https://opencritic.com/game/7249/-"
+opencritic_score: 70
+opencritic_review_count: 12
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-PC Building Simulator lets players get to grips and experiment with building their very own gaming PC, without the associated risks and costs. With tutorials to help master the basics and an array of accurate and lifelike components that function exactly as they would in real life.
+Build and grow your very own computer repair enterprise as you learn to diagnose, fix and build PCs. With real-world licensed components and comprehensive hardware and software simulation, you can plan and bring your ultimate PC to life.

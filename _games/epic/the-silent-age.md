@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-silent-age/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.57
+protondb_total: 18
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: House on Fire
@@ -19,10 +27,15 @@ developer: House On Fire
 genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Compras on-line"}}
 release_date: "May 2, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian","Polish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-03-29T15:00:00.000Z","end":"2023-04-05T15:00:00.000Z","type":null,"id":"9f476effdb174d789a6d7894d7c39dbb"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.5 hrs"
 hltb_main_extra: "3.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Silent_Age"
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/the-silent-age/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "3774"
+opencritic_url: "https://opencritic.com/game/3774/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,5 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Lose yourself in The Silent Age, the thrilling point-and-click adventure with over seven million mobile downloads, completely revamped and updated for PC.
-The Silent Age is an unforgettable experience. Can you, a simple janitor and literally, “the average Joe,” save humankind?
+Experience a post-apocalyptic world like never before in The Silent Age, a thrilling point-and-click adventure game. Use time travel to unravel the mystery behind humanity's disappearance and save the world from extinction. Start your journey now!

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/arcadegeddon/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.53
+protondb_total: 8
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: IllFonic Publishing
 developer: IllFonic
 genre: Shooter
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: M (OFLC)
+age_ratings: {"oflc":{"rating":"M","descriptors":"Violence, online interactivity and in-game purchases"},"kgrb":{"rating":"15","descriptors":"Violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "July 5, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Traditional Chinese","Simplified Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5.9 hrs"
 hltb_main_extra: "18 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Arcadegeddon"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/arcadegeddon/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13336"
+opencritic_url: "https://opencritic.com/game/13336/-"
+opencritic_score: 75
+opencritic_review_count: 23
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002495"
+playstation_url: "https://store.playstation.com/en-us/concept/10002495"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Rise up and play with up to three friends in this ever-evolving cooperative multiplayer, roguelite shooter. Explore multiple biomes, mini games, find hidden chests, and defeat numerous enemies and bosses.
+Rise up and play with up to three friends in this ever-evolving cooperative multiplayer shooter. Explore multiple biomes, mini games, find hidden chests, and defeat numerous enemies and bosses.

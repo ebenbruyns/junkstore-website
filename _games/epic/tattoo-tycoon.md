@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tattoo-tycoon/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: HandyGames
 developer: CrazyBunch
 genre: Simulation, Strategy, Indie
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 6 (USK)
+age_ratings: {"usk":{"rating":"6","descriptors":"Angedeutete Gewalt"},"dejus":{"rating":"14","descriptors":"Nudez, Drogas ilícitas, Linguagem imprópria"}}
 release_date: "October 24, 2025"
 game_modes: ["Single-player"]
-languages: ["English*","German","French","Spanish - Spain","Simplified Chinese*languages with full audio support"]
+languages: ["English","German","French","Spanish - Spain","Simplified Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"35244","name":"Epic Savings"},{"id":"1263","name":"Indie"}]
+size: "1755 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "--"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tattoo_Tycoon"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/tattoo-tycoon/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "19647"
+opencritic_url: "https://opencritic.com/game/19647/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10009381"
+playstation_url: "https://store.playstation.com/en-us/concept/10009381"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Become a tattoo artist and manage your own tattoo parlor. Find the perfect designs for your curious customers and turn their vague wishes into amazing skin art. Grow from a small personal studio to a multi-parlor business throughout the different districts of Tattuga Bay.
+Become a tattoo artist and manage your very own tattoo parlor. Find the best designs for your clients, turning their vague ideas into stunning works of body art. Expand from a cozy personal studio into a thriving multi-parlor business across the diverse districts of Tattuga Bay.

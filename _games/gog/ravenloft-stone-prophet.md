@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ravenloft-stone-prophet/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.21
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: SSI (Strategic Simulations, Inc.)
@@ -19,10 +27,15 @@ developer: DreamForge Intertainment
 genre: Role-playing (RPG), Adventure, Strategy
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "December 31, 1995"
-game_modes: ["Single player"]
-languages: ["English","German"]
+game_modes: ["Cloud saves","Single-player"]
+languages: ["English"]
+languages_audio: []
 tags_structured: []
+size: "321 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "16 hrs"
 hltb_main_extra: "17 hrs"
 hltb_completionist: ""
-hltb_url: "https://howlongtobeat.com/game/15299"
+hltb_url: "https://howlongtobeat.com/game/109076"
 
 # Links
 store_url: "https://www.gog.com/en/game/dungeons_dragons_ravenloft_series"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ravenloft:_Stone_Prophet"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/ravenloft-stone-prophet/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "You need to set the platform to DOSBox from the cog menu on the game screen: Game Configs > ADVANCED > platform > Dosbox. Save the config change and launch the game."

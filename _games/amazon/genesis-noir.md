@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/genesis-noir/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 12
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Fellow Traveller
@@ -19,10 +27,15 @@ developer: Feral Cat Den
 genre: Adventure, Indie, Point-and-click
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Conteúdo sexual, Drogas lícitas, Violência fantasiosa"}}
 release_date: "March 11, 2021"
 game_modes: ["Single player"]
-languages: ["English*","French","German","Japanese","Portuguese - Brazil","Russian","Italian","Korean","Simplified Chinese","Spanish - Latin America"]
-tags_structured: []
+languages: ["English","French","German","Japanese","Portuguese - Brazil","Russian","Italian","Korean","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"25","name":"Space"},{"id":"406","name":"Story"},{"id":"136","name":"Music"},{"id":"179","name":"Cartoon"},{"id":"295","name":"Soundtrack"},{"id":"774","name":"nature"},{"id":"1709","name":"work"},{"id":"1221","name":"history"},{"id":"626","name":"cats"},{"id":"3046","name":"destroy"},{"id":"2232","name":"journey"},{"id":"1626","name":"collection"},{"id":"1129","name":"art"},{"id":"892","name":"love"},{"id":"1081","name":"adult"},{"id":"753","name":"god"},{"id":"2774","name":"learn"},{"id":"1994","name":"tap"},{"id":"3598","name":"jazz"}]
+size: "3610 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/735290"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Genesis_Noir"
 metacritic_score: 77
-metacritic_url: "https://www.metacritic.com/game/pc/genesis-noir?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/genesis-noir/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11134"
+opencritic_url: "https://opencritic.com/game/11134/-"
+opencritic_score: 78
+opencritic_review_count: 39
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9MWGGC7JH35B"
+xbox_url: "https://www.xbox.com/games/store/-/9MWGGC7JH35B"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

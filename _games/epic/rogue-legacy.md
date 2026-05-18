@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/rogue-legacy/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.53
+protondb_total: 24
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Cellar Door Games
@@ -19,10 +27,15 @@ developer: Cellar Door Games
 genre: Action, Indie
 franchise: Rogue Legacy
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "April 7, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "417 MB"
+franchise_siblings: [{"rawg_id":428839,"slug":"rogue-legacy-2","name":"Rogue Legacy 2"}]
+franchise_slug: "rogue-legacy|rogue-legacy-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-04-06T15:00:00.000Z","end":"2022-04-13T15:00:00.000Z","type":null,"id":"cc8ecf10eb654f93bd1a61a466be2584"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "16.5 hrs"
 hltb_main_extra: "26.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/241600"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rogue_Legacy"
 metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/pc/rogue-legacy?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/rogue-legacy/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "233"
+opencritic_url: "https://opencritic.com/game/233/-"
+opencritic_score: 84
+opencritic_review_count: 43
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-You control a family of characters one at a time, and when your character dies, you choose who his or her successor is, whether it is a barbarian son of yours who has OCD, your daughter who became a ninja even though she can't see well, an assassin who is fighting for the gays, or a miner who wants to collect gold! Traits are randomized each time upon death, leading to multiple playthroughs with 35 traits, each character will be unique.
+A genealogical rogue-"LITE" where anyone can be a hero. Each time you die, your unique child will succeed you. One child might be colorblind, another might be a dwarf with vertigo. But that's OK, because no one is perfect, and you don't have to be to succeed.

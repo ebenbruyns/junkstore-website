@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/borderlands-the-pre-sequel/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.71
+protondb_total: 82
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: 2K Games, Take-Two Interactive, Aspyr Media
 developer: Gearbox Software, 2K Australia
 genre: Shooter
 franchise: Borderlands
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Language, Sexual Themes, Violence"},"pegi":{"rating":"18","descriptors":"Gambling, Bad Language, Violence, Online Gameplay"},"usk":{"rating":"18","descriptors":"Not approved for young persons aged under 18"},"oflc":{"rating":"ma15","descriptors":"Strong violence, Online interactivity"},"nzoflc":{"rating":"r13","descriptors":"Violence, offensive language &amp; content that may disturb"},"kgrb":{"rating":"18","descriptors":"Violence, Improper Language"},"fpb":{"rating":"18","descriptors":"SCENES CONTAINING IMAGES OF ILLEGAL DRUGS, SCENES OF HORROR, STRONG LANGUAGE (SWEAR-WORDS, THREATS, ABUSE OR PREJUDICE), SCENES SHOWING PICTURES OF VIOLENCE"},"csrr":{"rating":"R","descriptors":"Sex, Violence, Improper Language"},"mda":{"rating":"AA16"},"dejus":{"rating":"14","descriptors":"Violencia"}}
 release_date: "October 14, 2014"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Korean"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":836447,"slug":"new-tales-from-the-borderlands","name":"New Tales from the Borderlands"},{"rawg_id":692541,"slug":"tiny-tinas-assault-on-dragon-keep-a-wonderlands-on","name":"Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure"},{"rawg_id":58617,"slug":"borderlands-3","name":"Borderlands 3"},{"rawg_id":2100,"slug":"tales-from-the-borderlands","name":"Tales from the Borderlands: A Telltale Game Series"},{"rawg_id":330906,"slug":"borderlands-legends","name":"Borderlands Legends"},{"rawg_id":802,"slug":"borderlands-2","name":"Borderlands 2"},{"rawg_id":4828,"slug":"borderlands","name":"Borderlands"}]
+franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|borderlands-the-pre-sequel|new-tales-from-the-borderlands|tales-from-the-borderlands|tiny-tinas-assault-on-dragon-k"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "18.1 hrs"
 hltb_main_extra: "29.4 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/261640"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Borderlands%3A_The_Pre-Sequel"
 metacritic_score: 75
-metacritic_url: "https://www.metacritic.com/game/pc/borderlands-the-pre-sequel?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/borderlands-the-pre-sequel/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "942"
+opencritic_url: "https://opencritic.com/game/942/-"
+opencritic_score: 74
+opencritic_review_count: 53
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,6 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Shoot 'n' loot your way through a brand new adventure that rockets you onto Pandora's moon in Borderlands: The Pre-Sequel. Discover the story behind Borderlands 2’s villain, Handsome Jack, and his rise to power in this brand new game in the Borderlands series. Taking place between the original Borderlands and Borderlands 2, the Pre-Sequel gives you a whole lotta new gameplay featuring the genre fusion of shooter and RPG gameplay that players can’t get enough of.
-
-Get high in low gravity and launch across the moonscape to take enemies down from above using new ice and laser weapons. Catch-a-ride on the lunar landscape with new vehicles equipped with deadly weapons allowing for more levels of destructive mayhem. So grab a friend (or two, or three), strap on a rocket, and take off on a brand new Borderlands adventure
+LAUNCH INTO THE BORDERLANDS UNIVERSE AND SHOOT ‘N’ LOOT YOUR WAY THROUGH A BRAND NEW ADVENTURE THAT ROCKETS YOU ONTO PANDORA’S MOON IN BORDERLANDS: THE PRE-SEQUEL!

@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/saints-row/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.72
+protondb_total: 32
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Deep Silver
 developer: Deep Silver Volition
 genre: Action, Action-Adventure, Shooter, Open World, Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Violence,, Blood,, Sexual Themes,, Nudity,, Strong Language,, Use of Drugs"},"pegi":{"rating":"18","descriptors":"Violence,, Bad Language"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"「身体の分離・欠損描写」「死体描写」, 「殺傷」 「 犯罪 描写 」"},"oflc":{"rating":"ma15","descriptors":"Strong violence,, Coarse language and crude sexual humour,, Online interactivity"},"nzoflc":{"rating":"r16","descriptors":"Violence,, Offensive Language,, Sexual Material,, Content that may disturb"},"kgrb":{"rating":"18"},"fpb":{"rating":"18"},"csrr":{"rating":"R","descriptors":"暴力,菸酒,不當言語,反, 社會性"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Drogas ilícitas, Linguagem imprópria"}}
 release_date: "August 23, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Traditional Chinese","Simplified Chinese","Japanese","Korean","Russian"]
+languages: ["English","French","Italian","German","Spanish - Spain","Traditional Chinese","Simplified Chinese","Japanese","Korean","Russian","Portuguese - Brazil","Spanish - Latin America","Czech","Polish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21126","name":"Silly Community"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":650607,"slug":"saints-row-2022","name":"Saints Row (2022)"},{"rawg_id":3450,"slug":"saints-row-gat-out-of-hell","name":"Saints Row: Gat Out of Hell"},{"rawg_id":3931,"slug":"saints-row-iv","name":"Saints Row IV"},{"rawg_id":4386,"slug":"saints-row-the-third","name":"Saints Row: The Third"},{"rawg_id":4599,"slug":"saints-row-2","name":"Saints Row 2"}]
+franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-hell|saints-row-iv|saints-row-the-third"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-12-29T15:00:00.000Z","end":"2023-12-30T15:00:00.000Z","type":null,"id":"c8ae275e995940b0868d9f44e75d05d9"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12.5 hrs"
 hltb_main_extra: "27 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/saints-row"
 protondb_url: "https://www.protondb.com/app/742420"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 61
+metacritic_url: "https://www.metacritic.com/game/saints-row/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11879"
+opencritic_url: "https://opencritic.com/game/11879/-"
+opencritic_score: 63
+opencritic_review_count: 159
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002042"
+playstation_url: "https://store.playstation.com/en-us/concept/10002042"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

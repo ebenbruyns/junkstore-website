@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/elderborn/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.73
+protondb_total: 23
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Hyperstrange
@@ -19,10 +27,15 @@ developer: Hyperstrange
 genre: Action, Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "January 30, 2020"
-game_modes: ["Single-player"]
-languages: ["English*","Polish","French","Italian","German","Spanish - Spain","Hungarian","Russian","Spanish - Latin America","Simplified Chinese"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","Polish","French","Italian","German","Spanish - Spain","Hungarian","Russian","Spanish - Latin America","Simplified Chinese","Japanese","Korean","Portuguese - Brazil","Traditional Chinese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"49","name":"Difficult"},{"id":"48","name":"Dungeon Crawler"}]
+size: "2736 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4.5 hrs"
 hltb_main_extra: "6 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Elderborn"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/elderborn/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8954"
+opencritic_url: "https://opencritic.com/game/8954/-"
+opencritic_score: 68
+opencritic_review_count: 6
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10011340"
+playstation_url: "https://store.playstation.com/en-us/concept/10011340"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/shogun-showdown/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.68
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Goblinz Publishing, Gamera Games
@@ -19,10 +27,15 @@ developer: Roboatino
 genre: "Role-playing (RPG), Strategy, Turn-based strategy (TBS), Indie, Card & Board Game"
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "September 5, 2024"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: []
 tags_structured: []
+size: "109 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "9.5 hrs"
 hltb_main_extra: "19 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shogun_Showdown"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/shogun-showdown/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17254"
+opencritic_url: "https://opencritic.com/game/17254/-"
+opencritic_score: 87
+opencritic_review_count: 20
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10010714"
+playstation_url: "https://store.playstation.com/en-us/concept/10010714"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

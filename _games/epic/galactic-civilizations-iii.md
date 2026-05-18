@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/galactic-civilizations-iii/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.46
+protondb_total: 53
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Stardock
 developer: Stardock
 genre: Strategy
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: e10 (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Alcohol Reference, Fantasy Violence, Mild Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Non-realistic looking violence towards human characters., This game allows the player to interact with other players ONLINE."},"usk":{"rating":"6"},"kgrb":{"rating":"12","descriptors":"폭력성"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Drogas lícitas, Drogas ilícitas"}}
 release_date: "January 21, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","German","Russian"]
+languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1166","name":"4X"}]
+size: ""
+franchise_siblings: [{"rawg_id":36318,"slug":"galactic-civilizations-ii-dread-lords","name":"Galactic Civilizations II: Dread Lords"},{"rawg_id":34654,"slug":"galactic-civilizations-2003","name":"Galactic Civilizations (2003)"}]
+franchise_slug: "galactic-civilizations-2003|galactic-civilizations-ii-drea|galactic-civilizations-iii"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-01-12T15:00:00.000Z","end":"2022-01-19T15:00:00.000Z","type":null,"id":"5d63b78c08184c10933a47874117db8c"},{"start":"2021-01-20T15:00:00.000Z","end":"2021-01-27T15:00:00.000Z","type":null,"id":"5d63b78c08184c10933a47874117db8c"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "27.2 hrs"
 hltb_main_extra: "37.1 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/226860"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Galactic_Civilizations_III"
 metacritic_score: 81
-metacritic_url: "https://www.metacritic.com/game/pc/galactic-civilizations-iii?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/galactic-civilizations-iii/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1252"
+opencritic_url: "https://opencritic.com/game/1252/-"
+opencritic_score: 83
+opencritic_review_count: 19
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Galactic Civilizations III is the largest strategy sandbox ever made. Start with a single world and expand across the galaxy through diplomacy, trade, cultural hegemony or military conquest in this single-player or multiplayer 4X strategy game.
+Build a civilization that will stand the test of time! Choose from dozens of unique races and make a name for yourself across the galaxy through diplomacy, espionage, technological advances, and more.

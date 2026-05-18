@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/trinity-fusion/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.61
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Angry Mob Games
@@ -19,10 +27,15 @@ developer: Angry Mob Games
 genre: Role-playing (RPG), Indie, Platform, Fighting
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "December 15, 2023"
 game_modes: ["Single player"]
-languages: ["English*","French","German","Spanish - Spain","Japanese","Simplified Chinese","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America*languages with full audio support"]
-tags_structured: []
+languages: ["English","French","German","Spanish - Spain","Japanese","Simplified Chinese","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"189","name":"Female Protagonist"},{"id":"97","name":"Action RPG"},{"id":"14","name":"Early Access"},{"id":"41","name":"Dark"},{"id":"68","name":"Hack and Slash"},{"id":"167","name":"Futuristic"},{"id":"639","name":"Roguelike"},{"id":"203","name":"Beat 'em up"},{"id":"259","name":"Metroidvania"},{"id":"640","name":"Roguelite"},{"id":"116","name":"2.5D"},{"id":"59643","name":"Протагонистка"},{"id":"580","name":"Souls-like"},{"id":"49964","name":"Action Roguelike"}]
+size: "5316 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "13.5 hrs"
@@ -66,8 +82,22 @@ store_url: ""
 protondb_url: "https://www.protondb.com/app/1911360"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trinity_Fusion"
-metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/trinity-fusion?ftag=MCD-06-10aaa1f"
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/trinity-fusion/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15995"
+opencritic_url: "https://opencritic.com/game/15995/-"
+opencritic_score: 77
+opencritic_review_count: 21
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004850"
+playstation_url: "https://store.playstation.com/en-us/concept/10004850"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

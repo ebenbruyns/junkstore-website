@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/daemon-x-machina/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.84
+protondb_total: 20
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Nintendo, Marvelous, XSEED Games
@@ -19,10 +27,15 @@ developer: Marvelous First Studio
 genre: Action
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Interação de Usuários, Compras on-line"}}
 release_date: "January 27, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-01-26T15:00:00.000Z","end":"2022-02-02T15:00:00.000Z","type":null,"id":"f6d665930cc34c34ac69cfe52906a723"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "15.2 hrs"
 hltb_main_extra: "22.4 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/daemon-x-machina"
 protondb_url: "https://www.protondb.com/app/1167450"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Daemon_X_Machina"
-metacritic_score: 72
-metacritic_url: "https://www.metacritic.com/game/pc/daemon-x-machina?ftag=MCD-06-10aaa1f"
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/daemon-x-machina/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8250"
+opencritic_url: "https://opencritic.com/game/8250/-"
+opencritic_score: 70
+opencritic_review_count: 106
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Daemon X Machina is a third-person action-shooter game in which players; represented by their avatars called Outers, pilot highly customizable mechs known as Arsenals on missions to suppress various mechanized foes. Choose and equip your Arsenal with a multitude of weapons, obtain more from downed enemy Arsenals, and swap them on the fly to suit your strategy in the face of ever-changing threats.
+Pilot your fully customizable Arsenal mech and join your fellow mercenaries in defending humanity from the corrupted machines and gigantic robots in this post-apocalyptic action game!

@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/simcity-4-deluxe-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.71
+protondb_total: 114
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Electronic Arts, Aspyr Media
 developer: Maxis
 genre: strategy, simulator
 franchise: 
-age_rating_summary: ESRB 6
+age_rating_summary: E (ESRB) · 3 (PEGI)
+age_ratings: {"esrb":{"rating":"E","descriptors":"Violence"},"pegi":{"rating":"3"},"usk":{"rating":"6"},"oflc":{"rating":"M","descriptors":"Violence and sexual reference"},"kgrb":{"rating":"15"},"fpb":{"rating":"13"},"mda":{"rating":"AA16"},"dejus":{"rating":"12"}}
 release_date: "September 22, 2003"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["Danish","Dutch","English","French","German","Italian","Spanish - Spain","Swedish"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"193","name":"Classic"},{"id":"37","name":"Sandbox"},{"id":"79","name":"Free to Play"},{"id":"62","name":"Moddable"},{"id":"39","name":"Building"},{"id":"67","name":"Management"},{"id":"194","name":"Real-Time with Pause"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"}]
+size: "1054 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "15.5 hrs"
 hltb_main_extra: "16.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/simcity_4_deluxe_edition"
 protondb_url: "https://www.protondb.com/app/24780"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SimCity_4"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/simcity-4/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Does not work straight out the box! You need to do this small trick after download:<br><br>\n\nGo to Desktop Mode:<br>\n1. Head to /home/deck/Games/gog/SimCity 4 Deluxe Editon/Apps <br>\n2. Copy SimCity 4.exe to /home/deck/Games/gog/SimCity 4 Deluxe Editon/ <br>\n3. Head back to Game Mode, open Junk Store <br>\n4. From Simcity 4 Deluxe in Junk store, choose slidermenu and open exe in folder > choose SimCity4.exe and press X <br>\n5. Press Play!"

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/hardspace-shipbreaker/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.75
+protondb_total: 219
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Blackbird Interactive
@@ -19,10 +27,15 @@ developer: Blackbird Interactive
 genre: Exploration, Simulation
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "July 19, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Simplified Chinese","Russian","Italian","Spanish - Spain","Portuguese - Brazil","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "27 hrs"
 hltb_main_extra: "34.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1161580"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hardspace%3A_Shipbreaker"
 metacritic_score: 83
-metacritic_url: "https://www.metacritic.com/game/pc/hardspace-shipbreaker?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/hardspace-shipbreaker/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9668"
+opencritic_url: "https://opencritic.com/game/9668/-"
+opencritic_score: 84
+opencritic_review_count: 40
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10001523"
+playstation_url: "https://store.playstation.com/en-us/concept/10001523"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "You need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Welcome to LYNX, the galaxy’s leading ship-salvaging corporation! Across your career, you’ll have the privilege of paying your debt to us by purchasing salvaging rights to increasingly large and valuable ships. Cut them open and extract as much value as possible!
+Equipped with cutting-edge salvaging tech, carve & slice spaceships to recover valuable materials. Upgrade your gear to take on more lucrative contracts and pay your billion credits debt to LYNX Corp!

@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/star-wars-jedi-knight-mysteries-of-the-sith/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.66
+protondb_total: 43
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Disney
 developer: Lucasfilm
 genre: Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Animated Violence"},"pegi":{"rating":"12","descriptors":"Non realistic looking violence towards human characters"},"oflc":{"rating":"M","descriptors":"Medium level animated violence"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "February 24, 1998"
 game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","Spanish - Spain"]
+languages_audio: ["English","French","Italian","Spanish - Spain"]
 tags_structured: []
+size: "288 MB"
+franchise_siblings: [{"rawg_id":11970,"slug":"star-wars-jedi-knight-jedi-academy","name":"Star Wars Jedi Knight: Jedi Academy"},{"rawg_id":12018,"slug":"star-wars-jedi-knight-ii-jedi-outcast","name":"Star Wars Jedi Knight II: Jedi Outcast"},{"rawg_id":15852,"slug":"star-wars-jedi-knight-mysteries-of-the-sith","name":"STAR WARS Jedi Knight - Mysteries of the Sith"},{"rawg_id":15851,"slug":"star-wars-dark-forces-2","name":"Star Wars: Dark Forces"}]
+franchise_slug: "star-wars-dark-forces-2|star-wars-jedi-knight-dark-for|star-wars-jedi-knight-ii-jedi-|star-wars-jedi-knight-jedi-aca|star-wars-jedi-knight-mysterie"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,19 +68,36 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "9.5 hrs"
 hltb_completionist: "10 hrs"
-hltb_url: "https://howlongtobeat.com/game/9088"
+hltb_url: "https://howlongtobeat.com/game/9086"
 
 # Links
 store_url: "https://www.gog.com/en/game/star_wars_jedi_knight_dark_forces_ii"
 protondb_url: "https://www.protondb.com/app/32380"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars%3A_Jedi_Knight_-_Dark_Forces_II"
-metacritic_score: 
-metacritic_url: "https://www.metacritic.com/game/star-wars-jedi-knight-mysteries-of-the-sith/"
+metacritic_score: 91
+metacritic_url: "https://www.metacritic.com/game/star-wars-jedi-knight-dark-forces-ii/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8321"
+opencritic_url: "https://opencritic.com/game/8321/-"
+opencritic_score: 62
+opencritic_review_count: 18
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

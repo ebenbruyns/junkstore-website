@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/total-annihilation-commander-pack/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.72
+protondb_total: 19
+protondb_confidence: "good"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: GT Interactive Software
 developer: Cavedog Entertainment
 genre: Strategy
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: T (ESRB)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Animated Violence"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "September 30, 1997"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English**languages with full audio support"]
+game_modes: ["Multi-player","Single-player"]
+languages: ["English"]
+languages_audio: ["English"]
 tags_structured: []
+size: "1043 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "22.5 hrs"
 hltb_main_extra: "32 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/298030"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Total_Annihilation"
 metacritic_score: 86
-metacritic_url: "https://www.metacritic.com/game/pc/total-annihilation?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/total-annihilation/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box, just need to change the controller settings.

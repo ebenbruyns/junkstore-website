@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/morbid-the-seven-acolytes/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.61
+protondb_total: 6
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Silver Lining Interactive
@@ -19,10 +27,15 @@ developer: Still Running
 genre: Fantasy, Action-Adventure, Indie
 franchise: Morbid
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência fantasiosa, Violência, Medo, Violência Extrema, Linguagem imprópria"}}
 release_date: "September 19, 2024"
 game_modes: ["Single Player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Russian","Japanese","Simplified Chinese","Korean","Traditional Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: [{"rawg_id":979528,"slug":"morbid-the-lords-of-ire","name":"Morbid: The Lords of Ire"}]
+franchise_slug: "morbid-the-lords-of-ire|morbid-the-seven-acolytes"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7 hrs"
 hltb_main_extra: "9 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Morbid%3A_The_Seven_Acolyte
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/morbid-the-seven-acolytes/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10605"
+opencritic_url: "https://opencritic.com/game/10605/-"
+opencritic_score: 72
+opencritic_review_count: 27
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Morbid: The Seven Acolytes is a Horrorpunk Action RPG filled with Lovecraftian horrors and Cronenbergian gore, making it the most gruesome take on the isometric Souls-like genre yet!
+Morbid: The Seven Acolytes is a Horrorpunk Action RPG filled with Lovecraftian horrors and Cronenbergian gore, making it the most gruesome take on the isometric Souls-like genre yet!n is not set

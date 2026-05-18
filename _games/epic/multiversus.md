@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/multiversus/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.77
+protondb_total: 257
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: WB Games
 developer: Player First Games
 genre: Fighting
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Language, Fantasy Violence"},"pegi":{"rating":"12","descriptors":"Mild Swearing, In-Game Purchases"},"usk":{"rating":"6","descriptors":"Gelegentliches Fluchen, Abstrakte Gewalt, In-Game Purchases"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Online Interactivity, Mild Coarse Language, In-Game Purchases"},"kgrb":{"rating":"12","descriptors":"Language, In-Game Purchases"},"dejus":{"rating":"10","descriptors":"Violência, Compras on-line"}}
 release_date: "May 28, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Polish","Portuguese - Brazil*","Russian","Simplified Chinese","Spanish - Latin America*"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Japanese","Korean","Traditional Chinese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Spanish - Latin America"]
 tags_structured: [{"id":"1344","name":"Fighting"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6.1 hrs"
 hltb_main_extra: "58.2 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/MultiVersus"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/multiversus?ftag=MCD-06-10aaa1f"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!<br>\nCan play in Epic offline mode as it is no longer an online game."

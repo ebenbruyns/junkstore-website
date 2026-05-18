@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/book-of-demons/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.83
+protondb_total: 56
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: 505 Games, Thing Trunk
@@ -19,10 +27,15 @@ developer: Thing Trunk, SONKA
 genre: Role-playing (RPG), Adventure, Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "December 13, 2018"
-game_modes: ["Single player"]
-languages: ["English*","Polish","French","Italian","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","German","Turkish"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Leaderboards","Overlay","Single-player"]
+languages: ["English","Polish","French","Italian","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","German","Turkish","Spanish - Spain","Bulgarian","Korean","Ukrainian"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"115","name":"Controller"},{"id":"14","name":"Early Access"},{"id":"11669","name":"stats"},{"id":"468","name":"role-playing"},{"id":"68","name":"Hack and Slash"},{"id":"40","name":"Dark Fantasy"},{"id":"99","name":"Isometric"},{"id":"48","name":"Dungeon Crawler"},{"id":"187","name":"Demons"},{"id":"127","name":"Card Game"}]
+size: "770 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: "15.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/449960"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Book_of_Demons"
 metacritic_score: 72
-metacritic_url: "https://www.metacritic.com/game/pc/book-of-demons?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/book-of-demons/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7023"
+opencritic_url: "https://opencritic.com/game/7023/-"
+opencritic_score: 76
+opencritic_review_count: 34
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

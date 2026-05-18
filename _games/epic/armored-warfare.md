@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/armored-warfare/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.34
+protondb_total: 36
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: WL Games LTD
 developer: Obsidian Entertainment
 genre: Action, Simulation
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"7","descriptors":"The content of this game is suitable for persons aged 7 years and over only., It contains: Violence that is not shown but is implied"},"oflc":{"rating":"M","descriptors":"Violence, online interactivity"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "April 21, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
-languages: ["English"]
+languages: ["English","French","German","Polish","Russian"]
+languages_audio: ["English","French","German","Polish","Russian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "48 mins"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Armored_Warfare"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/armored-warfare/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1683"
+opencritic_url: "https://opencritic.com/game/1683/-"
+opencritic_score: 77
+opencritic_review_count: 5
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,19 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Armored Warfare, is a free-to-play massively multiplayer online tactical military video game that puts you in control of some of the most incredible, modern destructive machines to grace a battlefield. Drive modern tanks, armored vehicles and more.
-
-MODERN MILITARY HARDWARE
-Use steel giants to wipe the enemy from the face of the earth! Operate the most powerful tools of destruction invented by mankind: heavily armed tanks and artillery.In Armored Warfare you will be able to drive and do battle in the mightiest armored vehicles from dozens of countries around the world.
-
-JOIN CO-OP MISSIONS
-Team up with friends to carry out the most difficult missions sent down to you by command. These missions will differ depending on the vehicle selected. Only well coordinated squads will be able to outwit the enemy! The enemy's superior forces, controlled by artificial intelligence, will present a serious obstacle to victory.
-
-MODERN GRAPHICS
-Armored Warfare uses CryENGINE 3 technology, which ensures the feeling of complete immersion in the game. See the glare in the crosshairs, the spray from water hazards, drops of rain shrouding the enemy, smoking ruins and other obstacles - step into a virtual world that is in no way inferior to reality!
-
-LARGE-SCALE BATTLES
-Engage in challenging, fast-paced player versus player combat. Collaborate with your allies and execute clever tactics and maneuvers to emerge from battle victorious and your enemies ground beneath your treads. Armored Warfare is easy to learn, but challenging to master.
-
-MODERN BATTLEFIELD
-Fight in hotspots around the world from frozen tundras to sun-scorched deserts. Do battle in locations that might be the focus of a modern military conflict, such as oil refineries, port facilities and population centers. Bring the fight to the 21st Century.
+Armored Warfare is a free-to-play MMO where you can engage in explosive online tank battles against millions of players around the world.  With a force of the most powerful combat vehicles, take to the battlefield to wage war with over 100 powerful vehicles.

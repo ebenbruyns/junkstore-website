@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/nobody-wants-to-die/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.75
+protondb_total: 42
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: PLAION
@@ -19,10 +27,15 @@ developer: Critical Hit Games
 genre: Simulation, Narration, RPG
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"kgrb":{"rating":"19","descriptors":"선정성, 폭력성, 언어, 약물"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Temas sensíveis, Linguagem imprópria"}}
 release_date: "February 12, 2026"
 game_modes: ["Single-player"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+size: "25387 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-02-12T16:00:00.000Z","end":"2026-02-19T16:00:00.000Z","type":null,"id":"9da459f7c3984877bd5a12bdc3b6b3af"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Nobody_Wants_to_Die"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/nobody-wants-to-die/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17004"
+opencritic_url: "https://opencritic.com/game/17004/-"
+opencritic_score: 77
+opencritic_review_count: 65
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003635"
+playstation_url: "https://store.playstation.com/en-us/concept/10003635"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Lose yourself in the dystopian world of New York, 2329; immortality comes at a price that someone has to pay. In this interactive noir story, lead the investigation using advanced technology, as Detective James Karra who risks it all in pursuit of a serial killer targeting the city’s elite.
+Lose yourself in the dystopian world of New York, 2329. In this interactive noir story, lead the investigation using advanced technology as Detective James Karra, who risks it all in pursuit of a serial killer targeting the city’s elite.

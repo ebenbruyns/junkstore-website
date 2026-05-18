@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/king-of-seas/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.27
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Team17, 3DClouds
@@ -19,10 +27,15 @@ developer: 3DClouds
 genre: "Role-playing (RPG), Adventure, Strategy, Indie, Hack and slash/Beat 'em up, Fighting"
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "May 24, 2021"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Controller support","Single-player"]
 languages: ["English","Italian","French","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"97","name":"Action RPG"},{"id":"11669","name":"stats"},{"id":"468","name":"role-playing"},{"id":"68","name":"Hack and Slash"},{"id":"99","name":"Isometric"},{"id":"640","name":"Roguelite"},{"id":"171","name":"PvE"},{"id":"196","name":"Procedural Generation"},{"id":"164","name":"Cartoony"},{"id":"255","name":"Pirates"},{"id":"49964","name":"Action Roguelike"},{"id":"256","name":"Naval"},{"id":"257","name":"Sailing"},{"id":"49971","name":"Naval Combat"}]
+size: "1468 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "18 hrs"
 hltb_main_extra: "22 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/King_of_Seas"
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/king-of-seas/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11414"
+opencritic_url: "https://opencritic.com/game/11414/-"
+opencritic_score: 64
+opencritic_review_count: 47
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

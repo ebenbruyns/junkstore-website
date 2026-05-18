@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/still-life-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.22
+protondb_total: 14
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Meridian4, cdv Software Entertainment, Iceberg Interactive
 developer: Gameco Studios
 genre: Adventure, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Partial Nudity, Strong Language, Violence"},"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "March 1, 2009"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","German","Italian","Spanish - Spain"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"144","name":"Crime"},{"id":"142","name":"Detective"}]
+size: "3730 MB"
+franchise_siblings: [{"rawg_id":16437,"slug":"still-life","name":"Still Life"}]
+franchise_slug: "still-life|still-life-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: "10.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/46490"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Still_Life_2"
 metacritic_score: 67
-metacritic_url: "https://www.metacritic.com/game/pc/still-life-2?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/still-life-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

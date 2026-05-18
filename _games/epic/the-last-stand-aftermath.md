@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-last-stand-aftermath/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.62
+protondb_total: 19
+protondb_confidence: "good"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Armor Games Studios
@@ -19,10 +27,15 @@ developer: Con Artist Games
 genre: Action, Shooter
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "November 16, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Japanese","Spanish - Latin America"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"9549","name":"Controller Support"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-09-19T15:00:00.000Z","end":"2024-09-26T15:00:00.000Z","type":null,"id":"8f58067d08bb454ab0eb8907345b8c76"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "21.5 hrs"
 hltb_main_extra: "26 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Last_Stand%3A_Aftermath
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/the-last-stand-aftermath/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12337"
+opencritic_url: "https://opencritic.com/game/12337/-"
+opencritic_score: 78
+opencritic_review_count: 12
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003338"
+playstation_url: "https://store.playstation.com/en-us/concept/10003338"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-From the creators of The Last Stand: Union City and Dead Zone comes an all-new singleplayer rogue-lite action adventure. After you become infected by the zombie virus, you set out to explore the post-apocalypse and find hope for your fellow survivors. You can still make a difference. Don't give up.
+From the creators of The Last Stand: Union City comes a new singleplayer rogue-lite action adventure. After you are infected by the zombie virus, set out to explore the apocalypse and find hope for your colony. You can make a difference. Don't give up.

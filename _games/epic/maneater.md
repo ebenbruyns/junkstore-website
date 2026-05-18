@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/maneater/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.68
+protondb_total: 44
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Tripwire Interactive
 developer: Tripwire Interactive
 genre: Action, RPG
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Drug Reference, Intense Violence, Mature Humor, Mild Language"},"pegi":{"rating":"18","descriptors":"Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong themes, Violence"},"nzoflc":{"rating":"M","descriptors":"Bloody Violence &amp; Cruelty"},"csrr":{"rating":"R","descriptors":"Violence, Inappropriate Language"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Drogas lícitas"}}
 release_date: "May 22, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish"]
+languages_audio: ["English","German","Portuguese - Brazil","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-06-08T15:00:00.000Z","end":"2022-06-15T15:00:00.000Z","type":null,"id":"cf0f9c305d5d4dc9bd0fc4c14b5f2c5d"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "10 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/629820"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Maneater"
 metacritic_score: 70
-metacritic_url: "https://www.metacritic.com/game/pc/maneater?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/maneater/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9503"
+opencritic_url: "https://opencritic.com/game/9503/-"
+opencritic_score: 71
+opencritic_review_count: 168
+twitch_id: ""
+twitch_url: ""
+playstation_id: "233202"
+playstation_url: "https://store.playstation.com/en-us/concept/233202"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Cannot currently disable EGS cloud saves"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-You were cut from your mother's body and left to die in the unforgiving waters of the Gulf Coast. Your only tools are your wits, your jaws, and an uncanny ability to evolve as you feed. Anything and everything is on the menu... provided you kill it before it kills you.
+Experience the ultimate power fantasy as the apex predator of the seas - a terrifying SHARK! Maneater is a single player, open world action RPG (ShaRkPG) where YOU are the shark. Eat! Explore! Evolve!

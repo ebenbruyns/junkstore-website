@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/harold-halibut/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.31
+protondb_total: 8
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Slow Bros.
@@ -19,10 +27,15 @@ developer: Slow Bros.
 genre: Adventure, Casual, Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas, Medo"}}
 release_date: "April 16, 2024"
-game_modes: ["Single-player"]
-languages: ["English*","French","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Japanese","Korean","Russian","Turkish"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Japanese","Korean","Russian","Turkish","Italian"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"}]
+size: "48260 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "10.5 hrs"
 hltb_main_extra: "13.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/harold_halibut"
 protondb_url: "https://www.protondb.com/app/924750"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Harold_Halibut"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/harold-halibut/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16585"
+opencritic_url: "https://opencritic.com/game/16585/-"
+opencritic_score: 71
+opencritic_review_count: 58
+twitch_id: ""
+twitch_url: ""
+playstation_id: "232798"
+playstation_url: "https://store.playstation.com/en-us/concept/232798"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

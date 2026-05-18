@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/industria/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.62
+protondb_total: 30
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Headup
@@ -19,10 +27,15 @@ developer: Bleakmill
 genre: Action, Shooter, Adventure
 franchise: INDUSTRIA
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Linguagem imprópria"}}
 release_date: "September 30, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","German","French","Spanish - Spain","Russian","Portuguese - Portugal","Turkish","Japanese","Korean","Simplified Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+size: "9094 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-04-24T15:00:00.000Z","end":"2024-05-01T15:00:00.000Z","type":null,"id":"2dbb1debe54f4555805896caf7844470"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "3.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1172650"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Industria"
 metacritic_score: 67
-metacritic_url: "https://www.metacritic.com/game/pc/industria?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/industria/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004546"
+playstation_url: "https://store.playstation.com/en-us/concept/10004546"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. Community controller layout available. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. You need to either use the mouse or touch screen to get past main menu and into the game. If you want to, you can remap controls in game from the 'Options' menu. Community layout is for the 'Steam Controller'."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Industria is a first-person shooter that takes you from East Berlin into a parallel reality, shortly before the end of the Cold War. On the search for a missing work colleague, you decipher a dark past in a mysterious and surreal steampunk world.
+INDUSTRIA is a first-person shooter that takes you from East Berlin into a parallel reality, shortly before the end of the Cold War. On the search for a missing work colleague, you decypher a dark past in a mysterious parallel dimension.

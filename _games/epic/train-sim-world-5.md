@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/train-sim-world-5/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.81
+protondb_total: 26
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Dovetail Games
@@ -19,10 +27,15 @@ developer: Dovetail Games
 genre: Simulator
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 17, 2024"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Polish","Italian"]
+languages_audio: ["English","French","German"]
 tags_structured: [{"id":"9547","name":"Windows"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "16 Hours"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Train_Sim_World_5"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/train-sim-world-5/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17310"
+opencritic_url: "https://opencritic.com/game/17310/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10011130"
+playstation_url: "https://store.playstation.com/en-us/concept/10011130"
+xbox_id: "9N9FR8CSZP56"
+xbox_url: "https://www.xbox.com/games/store/-/9N9FR8CSZP56"
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-The Rails are Yours in Train Sim World 5! Take on new challenges and new roles as you master the tracks and trains of iconic cities across 3 new routes. Immerse yourself in the ultimate rail hobby and embark on your next journey.
+Experience the hustle and bustle of packed-in commuters, trains every few minutes, the echo of screeching rails in tunnels with the classic Bakerloo Line, rendered in its entirety within Train Sim World!

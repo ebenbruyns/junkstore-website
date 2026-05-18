@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/flashout-3d-enhanced-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Jujubee S.A.
@@ -19,10 +27,15 @@ developer: Jujubee S.A.
 genre: Racing
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "February 27, 2013"
-game_modes: ["Single player"]
-languages: ["English**languages with full audio support"]
-tags_structured: []
+game_modes: ["Achievements","Overlay","Single-player"]
+languages: ["English"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40845","name":"Partial Controller Support"},{"id":"115","name":"Controller"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"295","name":"Soundtrack"},{"id":"53","name":"Flight"},{"id":"49970","name":"Vehicular Combat"},{"id":"49961","name":"3D Fighter"},{"id":"56826","name":"3D-файтинг"},{"id":"49966","name":"Combat Racing"}]
+size: "383 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2 hrs"
 hltb_main_extra: "2.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Flashout_3D:_Enhanced_Edition"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/flashout-3d-enhanced-edition/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

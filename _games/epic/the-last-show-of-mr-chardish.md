@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-last-show-of-mr-chardish/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.21
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Anshar Publishing
@@ -19,10 +27,15 @@ developer: Punk Notion
 genre: Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "August 12, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Polish","French","Italian","German","Spanish - Spain","Simplified Chinese","Portuguese - Brazil","Russian","Japanese","Korean","Turkish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+size: "3221 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2 hrs"
 hltb_main_extra: "2.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1164060"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Last_Show_of_Mr._Chardish"
 metacritic_score: 79
-metacritic_url: "https://www.metacritic.com/game/pc/the-last-show-of-mr-chardish?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/the-last-show-of-mr-chardish/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10678"
+opencritic_url: "https://opencritic.com/game/10678/-"
+opencritic_score: 80
+opencritic_review_count: 3
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ runtime."

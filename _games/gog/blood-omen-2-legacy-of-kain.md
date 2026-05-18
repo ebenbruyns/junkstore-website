@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/blood-omen-2-legacy-of-kain/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "May '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.72
+protondb_total: 15
+protondb_confidence: "moderate"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Eidos Interactive
 developer: Crystal Dynamics
 genre: Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: M (ESRB) · 16 (USK)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Medium level animated violence"},"nzoflc":{"rating":"r16","descriptors":"Contains horror scenes. Contains violence."}}
 release_date: "March 21, 2002"
 game_modes: ["Single player"]
 languages: ["English"]
+languages_audio: ["English"]
 tags_structured: []
+size: "1144 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "13 hrs"
 hltb_main_extra: "14 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legacy_of_Kain%3A_Blood_Omen_2"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/blood-omen-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

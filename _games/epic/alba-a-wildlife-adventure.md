@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/alba-a-wildlife-adventure/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.85
+protondb_total: 21
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: PID Games
@@ -19,10 +27,15 @@ developer: ustwo games
 genre: Casual
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "November 10, 2022"
 game_modes: ["Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Portuguese - Portugal","Russian","Simplified Chinese"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Portuguese - Portugal","Russian","Simplified Chinese","Traditional Chinese","Turkish","Dutch","Korean"]
+languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "1.02 GB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-11-09T15:00:00.000Z","end":"2022-11-16T15:00:00.000Z","type":null,"id":"44a89fd06011419d9df5fe412ab305e1"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2.6 hrs"
 hltb_main_extra: "3.3 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1337010"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alba:_A_Wildlife_Adventure"
 metacritic_score: 79
-metacritic_url: "https://www.metacritic.com/game/pc/alba-a-wildlife-adventure?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/alba-a-wildlife-adventure/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10673"
+opencritic_url: "https://opencritic.com/game/10673/-"
+opencritic_score: 82
+opencritic_review_count: 28
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002528"
+playstation_url: "https://store.playstation.com/en-us/concept/10002528"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

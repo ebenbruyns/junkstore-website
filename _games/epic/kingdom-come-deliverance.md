@@ -7,22 +7,36 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/kingdom-come-deliverance/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.82
+protondb_total: 548
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Deep Silver
 developer: Warhorse Studios
 genre: Action, RPG, Open World, Adventure
 franchise: Kingdom Come
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Nudity, Strong Language, Strong Sexual Content, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"16"},"oflc":{"rating":"r18","descriptors":"High impact sex scenes and reference to sexual violence"},"nzoflc":{"rating":"r18","descriptors":"High impact sex scenes and reference to sexual violence"},"kgrb":{"rating":"18","descriptors":"＊ 과도한 폭력 표현, - 칼, 활 등을 이용한 전투 과정에서 선혈이 튀는 표현이 존재함, ＊직접적인 범죄 표현, -소매치기 기술을 배울 수 있으며, 게임에서 다름 사람의 물건을 훔칠 수 있음, ＊과도한 저속어, 비속어 및 욕설 표현, - f＊＊k, s＊＊t, d＊＊n 등의 표현이 빈번하게 발생함, ＊사실적인 사행행위 모사, -마을에서 주사위 게임을 할 수 있음. 게임에서 획득한 재화를 이용하여 베팅을 할 수 있음, ＊직접적인 약물류 표현, -게임 진행에 따라 술을 마시는 표현이 존재함"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Nudez"}}
 release_date: "February 13, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Czech","Polish","Russian","Italian","Simplified Chinese","Turkish","Korean","Ukrainian","Portuguese - Brazil","Japanese"]
+languages_audio: ["English","French","German","Czech","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21135","name":"Realistic Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"}]
+size: "60660732590
+"
+franchise_siblings: [{"rawg_id":980502,"slug":"kingdom-come-deliverance-ii","name":"Kingdom Come: Deliverance II"},{"rawg_id":926852,"slug":"kingdom-come-deliverance-goodie-pack","name":"Kingdom Come: Deliverance - Royal Edition"}]
+franchise_slug: "kingdom-come-deliverance|kingdom-come-deliverance-goodi|kingdom-come-deliverance-ii"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-01-01T16:00:00.000Z","end":"2025-01-02T16:00:00.000Z","type":null,"id":"bd15ffd61c1744a295de36c164694e40"},{"start":"2020-02-12T15:00:00.000Z","end":"2020-02-19T15:00:00.000Z","type":null,"id":"bd15ffd61c1744a295de36c164694e40"}]
@@ -55,6 +69,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "42.5 hrs"
 hltb_main_extra: "80.5 hrs"
@@ -67,7 +84,21 @@ protondb_url: "https://www.protondb.com/app/379430"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Kingdom_Come%3A_Deliverance"
 metacritic_score: 76
-metacritic_url: "https://www.metacritic.com/game/pc/kingdom-come-deliverance?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/kingdom-come-deliverance/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1561"
+opencritic_url: "https://opencritic.com/game/1561/-"
+opencritic_score: 72
+opencritic_review_count: 135
+twitch_id: ""
+twitch_url: ""
+playstation_id: "227410"
+playstation_url: "https://store.playstation.com/en-us/concept/227410"
+xbox_id: "BNBWFH89FCF1"
+xbox_url: "https://www.xbox.com/games/store/-/BNBWFH89FCF1"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +112,4 @@ is_featured: false
 owned: true
 ---
 
-Story-driven open-world RPG that immerses you in an epic adventure in the Holy Roman Empire. Avenge your parents' death as you battle invading forces, go on game-changing quests, and make influential choices. Explore castles, forests, villages and other realistic settings in medieval Bohemia!
+Kingdom Come: Deliverance is a story-driven open-world RPG that immerses you in an epic adventure in the Holy Roman Empire. Avenge your parents' death as you battle invading forces, go on game-changing quests, and make influential choices.

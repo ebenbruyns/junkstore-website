@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-adventure/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.65
+protondb_total: 29
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: 2K
 developer: Gearbox Software
 genre: RPG, Action-Adventure, Adventure
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Suggestive Themes, Language, Drug Reference, Use of Alcohol, Simulated Gambling"},"pegi":{"rating":"16","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"oflc":{"rating":"M","descriptors":"Mature themes, Violence, Simulated gambling, Online interactivity"},"nzoflc":{"rating":"M","descriptors":"Mature themes, Violence, Simulated gambling, Online interactivity"},"kgrb":{"rating":"15"},"fpb":{"rating":"16"},"csrr":{"rating":"C15"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "November 9, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English*","French*","Italian*","German","Spanish - Spain*","Japanese","Korean","Traditional Chinese*languages with full audio support"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Traditional Chinese"]
+languages_audio: ["English","French","Italian","Spanish - Spain"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":836447,"slug":"new-tales-from-the-borderlands","name":"New Tales from the Borderlands"},{"rawg_id":614962,"slug":"tiny-tinas-wonderlands","name":"Tiny Tina's Wonderlands"},{"rawg_id":58617,"slug":"borderlands-3","name":"Borderlands 3"},{"rawg_id":2100,"slug":"tales-from-the-borderlands","name":"Tales from the Borderlands: A Telltale Game Series"},{"rawg_id":3388,"slug":"borderlands-the-handsome-collection","name":"Borderlands: The Handsome Collection"},{"rawg_id":3543,"slug":"borderlands-the-pre-sequel","name":"Borderlands: The Pre-Sequel"},{"rawg_id":330906,"slug":"borderlands-legends","name":"Borderlands Legends"},{"rawg_id":802,"slug":"borderlands-2","name":"Borderlands 2"},{"rawg_id":4828,"slug":"borderlands","name":"Borderlands"}]
+franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|borderlands-the-handsome-colle|borderlands-the-pre-sequel|new-tales-from-the-borderlands|tales-from-the-borderlands|tiny-tinas-assault-on-dragon-k|tiny-tinas-wonderlands"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-11-10T15:00:00.000Z","end":"2021-11-17T15:00:00.000Z","type":null,"id":"e73c6b914a394bbface8847d75879492"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "11 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tiny_Tina%27s_Assault_on_Dr
 metacritic_score: 
 metacritic_url: ""
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12327"
+opencritic_url: "https://opencritic.com/game/12327/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -82,3 +112,4 @@ owned: true
 ---
 
 Smash skeletons, defeat dragons, and battle giant golems in Tiny Tina's Assault on Dragon Keep: A Wonderlands One-Shot Adventure. Experience the acclaimed 2013 quest jam-packed with fantasy, fun, and mountains of magical loot!
+

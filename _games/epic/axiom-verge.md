@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/axiom-verge/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "May '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Thomas Happ Games
 developer: Thomas Happ Games
 genre: Action, Platformer
 franchise: Axiom Verge
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence, Language"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"dejus":{"rating":"14","descriptors":"Animação de sangue, Linguagem imprópria, Violência"}}
 release_date: "May 14, 2015"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Japanese"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]
+size: ""
+franchise_siblings: [{"rawg_id":397479,"slug":"axiom-verge-2","name":"Axiom Verge 2"}]
+franchise_slug: "axiom-verge|axiom-verge-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "10.7 hrs"
 hltb_main_extra: "13.4 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/axiom-verge"
 protondb_url: "https://www.protondb.com/app/332200"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Axiom_Verge"
-metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/axiom-verge?ftag=MCD-06-10aaa1f"
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/axiom-verge/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "53"
+opencritic_url: "https://opencritic.com/game/53/-"
+opencritic_score: 85
+opencritic_review_count: 90
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-After a lab accident, a scientist awakens in a mysterious, alien world. Is this a distant planet? The far future? Or a complex virtual-reality computer simulation?
+“You think you know how Axiom Verge will play out. But you don't.” 5/5 Stars – Giant Bomb  “...simply one of the best games I've played in years.” 5/5 Stars – US Gamer  After a lab accident, a scientist awakens in a mysterious, alien world. Is this a distant planet? The far fu...

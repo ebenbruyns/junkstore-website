@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/gex/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: ""
+steam_deck_category: 
 
 # Game Info
 publisher: Square Enix, Square Enix, Square Enix, Square Enix, Square Enix
@@ -19,10 +27,15 @@ developer: Crystal Dynamics, Crystal Dynamics
 genre: Adventure, Adventure
 franchise: 
 age_rating_summary: ESRB 6
+age_ratings: {}
 release_date: "November 16, 1994"
 game_modes: ["Single player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"}]
+size: "92 MB"
+franchise_siblings: [{"rawg_id":718055,"slug":"gex-3-deep-pocket-gecko-gba","name":"Gex 3: Deep Pocket Gecko (GBA)"},{"rawg_id":52989,"slug":"gex-3-deep-cover-gecko","name":"Gex 3: Deep Cover Gecko (1999)"},{"rawg_id":52988,"slug":"gex-enter-the-gecko","name":"Gex: Enter the Gecko (1998)"}]
+franchise_slug: "gex|gex-3-deep-cover-gecko|gex-3-deep-pocket-gecko-gba|gex-enter-the-gecko"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "6.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gex"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/gex/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -7,22 +7,36 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/bioshock-infinite/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.69
+protondb_total: 141
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: 2K Games
 developer: Irrational Games
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Language, Mild Sexual Themes, Use of Alcohol and Tobacco"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"cero":{"rating":"D"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"r16"},"kgrb":{"rating":"18","descriptors":"내용정보표지사항: 폭력성, 약물, 제명:  바이오 쇼크 인피니트, 이용등급: 청소년이용불가, 등급분류번호: CC-NP-130109-008, 등급분류일자: 20130109, 상호: 테이크투인터렉티브유한회사, 제작.배급업 신고번호: 제 2009-00016호, ----------------------------------, Game Descriptive: Violence, Drug, Title Name: BioShock Infinite, Age: 18+, Certificate #: CC-NP-130109-008, Issue date: 20130109, Company Name:테이크투인터렉티브유한회사, Distributor No,: 제 2009-00016호"},"fpb":{"rating":"18"},"mda":{"rating":"M18"}}
 release_date: "February 26, 2013"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Italian","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese","Korean","Traditional Chinese"]
+languages_audio: ["English","French","German","Italian","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "42067504191
+"
+franchise_siblings: [{"rawg_id":884223,"slug":"bioshock-pinball","name":"Bioshock Pinball"},{"rawg_id":422857,"slug":"bioshock-2-minervas-den-remastered","name":"BioShock 2: Minerva's Den Remastered"},{"rawg_id":987520,"slug":"bioshock-2-the-protector-trials","name":"BioShock 2: The Protector Trials"},{"rawg_id":41962,"slug":"bioshock-2-sinclair-solutions-test-pack","name":"BioShock 2: Sinclair Solutions Test Pack"},{"rawg_id":4427,"slug":"bioshock-2","name":"BioShock 2"},{"rawg_id":987521,"slug":"bioshock-challenge-rooms","name":"BioShock: Challenge Rooms"},{"rawg_id":4286,"slug":"bioshock","name":"BioShock"},{"rawg_id":397468,"slug":"bioshock-4","name":"BioShock 4"}]
+franchise_slug: "bioshock|bioshock-2|bioshock-2-minervas-den-remast|bioshock-2-sinclair-solutions-|bioshock-2-the-protector-trial|bioshock-4|bioshock-challenge-rooms|bioshock-infinite|bioshock-pinball"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +69,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "11.5 hrs"
 hltb_main_extra: "16 hrs"
@@ -67,7 +84,21 @@ protondb_url: "https://www.protondb.com/app/8870"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/BioShock_Infinite"
 metacritic_score: 94
-metacritic_url: "https://www.metacritic.com/game/pc/bioshock-infinite?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/bioshock-infinite/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +112,4 @@ is_featured: false
 owned: true
 ---
 
-BioShock Infinite is the third game in the BioShock series. It is not a direct sequel/prequel to any of the previous BioShock games but takes place in an entirely different setting, although it shares similar features, gameplay and concepts with the previous games. BioShock Infinite features a range of environments that force the player to adapt, with different weapons and strategies for each situation. Interior spaces feature close combat with enemies, but unlike previous games set in Rapture, the setting of Infinite contains open spaces with emphasis on sniping and ranged combat against as many as fifteen enemies at once.
+Indebted to the wrong people, private investigator Booker DeWitt must take on an impossible task: travel to Columbia, a flying city above the clouds, and rescue a mysterious woman named Elizabeth. Includes Burial at Sea Episodes 1/2 and Clash in the Clouds.

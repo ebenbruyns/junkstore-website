@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/soulstice/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.71
+protondb_total: 21
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Maximum Entertainment LLC
@@ -19,10 +27,15 @@ developer: Reply Game Studios
 genre: Action, RPG
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Conteúdo sexual"}}
 release_date: "September 28, 2023"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Czech"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"20151","name":"Adjustable Text"},{"id":"20152","name":"Brightness Adjustments"},{"id":"20155","name":"Adjustable Color Options"},{"id":"20156","name":"Subtitles"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-09-27T15:00:00.000Z","end":"2023-10-04T15:00:00.000Z","type":null,"id":"4b19305fb8ec4640b4fa8d6ea5e5e3c4"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "16.5 hrs"
 hltb_main_extra: "20 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Soulstice"
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/soulstice/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13683"
+opencritic_url: "https://opencritic.com/game/13683/-"
+opencritic_score: 71
+opencritic_review_count: 79
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003036"
+playstation_url: "https://store.playstation.com/en-us/concept/10003036"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Explore a dark world brimming with hidden mysteries, master a diverse combat system, and inhabit the dual forces of two sisters in a coming-of-age fantasy story with fast-paced action, vicious enemies and breathtaking boss fights.
+Explore a dark world brimming with hidden mysteries, master a diverse combat system, and inhabit the dual forces of two sisters in a coming-of-age dark fantasy story with fast-paced action, vicious enemies, and spectacular boss fights.

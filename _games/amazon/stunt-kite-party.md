@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/stunt-kite-party/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.09
+protondb_total: 2
+protondb_confidence: "inadequate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: HandyGames
@@ -19,10 +27,15 @@ developer: HandyGames
 genre: Indie, Sport
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"6"}}
 release_date: "February 8, 2019"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"198","name":"Split Screen"},{"id":"72","name":"Local Multiplayer"},{"id":"11669","name":"stats"},{"id":"625","name":"party"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1.5 hrs"
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stunt_Kite_Party"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/stunt-kite-party/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "7316"
+opencritic_url: "https://opencritic.com/game/7316/-"
+opencritic_score: 70
+opencritic_review_count: 4
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-05-05T00:20:18.761Z",
-  "total_tested_games": 993,
-  "featured_games": 4,
+  "last_updated": "2026-05-18T08:29:08.226Z",
+  "total_tested_games": 1002,
+  "featured_games": 5,
   "storefronts": {
     "Epic": {
-      "total": 474,
+      "total": 480,
       "featured": 3,
       "directory": "epic"
     },
     "GOG": {
-      "total": 375,
+      "total": 377,
       "featured": 1,
       "directory": "gog"
     },
     "Amazon": {
-      "total": 73,
-      "featured": 0,
+      "total": 74,
+      "featured": 1,
       "directory": "amazon"
     },
     "itch.io": {
@@ -26,84 +26,84 @@
   },
   "recent_updates": [
     {
+      "title": "60 Minutes to Extinction: Escape Room",
+      "storefront": "GOG",
+      "slug": "60-minutes-to-extinction-escape-room",
+      "date_tested": "May '26",
+      "is_featured": true,
+      "updated_at": "2026-05-18T08:26:55.626Z"
+    },
+    {
+      "title": "Lethal Honor: Order of the Apocalypse",
+      "storefront": "Epic",
+      "slug": "lethal-honor-order-of-the-apocalypse",
+      "date_tested": "May '26",
+      "is_featured": true,
+      "updated_at": "2026-05-18T08:26:52.840Z"
+    },
+    {
+      "title": "Sunderfolk",
+      "storefront": "Epic",
+      "slug": "sunderfolk",
+      "date_tested": "May '26",
+      "is_featured": true,
+      "updated_at": "2026-05-18T08:26:50.217Z"
+    },
+    {
+      "title": "Batman: The Telltale Series",
+      "storefront": "Epic",
+      "slug": "batman-the-telltale-series",
+      "date_tested": "May '26",
+      "is_featured": false,
+      "updated_at": "2026-05-18T08:26:48.494Z"
+    },
+    {
+      "title": "Batman: The Telltale Series",
+      "storefront": "Epic",
+      "slug": "batman-the-telltale-series",
+      "date_tested": "May '26",
+      "is_featured": true,
+      "updated_at": "2026-05-18T08:26:46.321Z"
+    },
+    {
+      "title": "Survival: Fountain of Youth",
+      "storefront": "Amazon",
+      "slug": "survival-fountain-of-youth",
+      "date_tested": "May '26",
+      "is_featured": true,
+      "updated_at": "2026-05-18T07:52:09.012Z"
+    },
+    {
+      "title": "Fruitbus",
+      "storefront": "GOG",
+      "slug": "fruitbus",
+      "date_tested": "May '26",
+      "is_featured": false,
+      "updated_at": "2026-05-17T21:33:27.010Z"
+    },
+    {
+      "title": "Arranger: A Role-Puzzling Adventure",
+      "storefront": "Epic",
+      "slug": "arranger-a-role-puzzling-adventure",
+      "date_tested": "May '26",
+      "is_featured": false,
+      "updated_at": "2026-05-17T21:33:25.250Z"
+    },
+    {
+      "title": "Trash Goblin",
+      "storefront": "Epic",
+      "slug": "trash-goblin",
+      "date_tested": "May '26",
+      "is_featured": false,
+      "updated_at": "2026-05-17T21:33:23.483Z"
+    },
+    {
       "title": "Pinball Spire",
       "storefront": "GOG",
       "slug": "pinball-spire",
       "date_tested": "May '26",
-      "is_featured": true,
-      "updated_at": "2026-05-05T00:16:21.495Z"
-    },
-    {
-      "title": "Oddsparks: An Automation Adventure",
-      "storefront": "Epic",
-      "slug": "oddsparks-an-automation-adventure",
-      "date_tested": "May '26",
-      "is_featured": true,
-      "updated_at": "2026-05-04T23:14:23.385Z"
-    },
-    {
-      "title": "KinnikuNeko: Super Muscle Cat",
-      "storefront": "Epic",
-      "slug": "kinnikuneko-super-muscle-cat",
-      "date_tested": "May '26",
-      "is_featured": true,
-      "updated_at": "2026-05-04T22:11:20.559Z"
-    },
-    {
-      "title": "10 Flights of Ballooning",
-      "storefront": "itch.io",
-      "slug": "10-flights-of-ballooning",
-      "date_tested": "Aug '25",
       "is_featured": false,
-      "updated_at": "2026-05-04T21:39:22.081Z"
-    },
-    {
-      "title": "JDM: Rise of the Scorpion",
-      "storefront": "GOG",
-      "slug": "jdm-rise-of-the-scorpion",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-05-04T21:39:12.579Z"
-    },
-    {
-      "title": "Akalabeth: World of Doom",
-      "storefront": "GOG",
-      "slug": "akalabeth-world-of-doom",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2026-05-04T21:39:09.750Z"
-    },
-    {
-      "title": "Wuthering Waves",
-      "storefront": "Epic",
-      "slug": "wuthering-waves",
-      "date_tested": "",
-      "is_featured": false,
-      "updated_at": "2026-05-04T21:39:06.894Z"
-    },
-    {
-      "title": "Star Stable Online",
-      "storefront": "Epic",
-      "slug": "star-stable-online",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2026-05-04T21:39:02.935Z"
-    },
-    {
-      "title": "PUBG: Battlegrounds",
-      "storefront": "Epic",
-      "slug": "pubg-battlegrounds",
-      "date_tested": "",
-      "is_featured": false,
-      "updated_at": "2026-05-04T21:39:00.387Z"
-    },
-    {
-      "title": "OverTrip",
-      "storefront": "Epic",
-      "slug": "overtrip",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2026-05-04T21:38:57.617Z"
+      "updated_at": "2026-05-17T21:33:21.660Z"
     }
   ]
 }

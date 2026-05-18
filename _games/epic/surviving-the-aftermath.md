@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/surviving-the-aftermath/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.49
+protondb_total: 62
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Paradox Interactive
 developer: Iceflake Studios
 genre: Simulation, City Builder, Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12"},"kgrb":{"rating":"ALL","descriptors":"Violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "November 16, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1146","name":"City Builder"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":23322,"slug":"surviving-mars","name":"Surviving Mars"}]
+franchise_slug: "surviving-mars|surviving-the-aftermath"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-11-15T15:00:00.000Z","end":"2023-11-22T15:00:00.000Z","type":null,"id":"b9fc967981994ee2a546152e62634076"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "18 hrs"
 hltb_main_extra: "31 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Surviving_the_Aftermath"
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/surviving-the-aftermath/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12386"
+opencritic_url: "https://opencritic.com/game/12386/-"
+opencritic_score: 71
+opencritic_review_count: 8
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You do need to create an account with Paradox."
 controller_config: Native Steam Deck Controls
@@ -81,5 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Survive and thrive in a post-apocalyptic future - resources are scarce but opportunity calls. Build the ultimate disaster proof colony, protect your colonists and restore civilization to a devastated world. Remember: The end of the world is just the beginning.
-Build and manage a colony of survivors after a world-ending event. Construct more than 50 unique buildings to handle everything from resource collection and farming to exploration and security. Don’t forget to construct the Gate to venture into the savage world beyond your colony.
+Survive and thrive in a post-apocalyptic future — resources are scarce, but opportunity calls! Build the ultimate disaster proof colony, protect your colonists, and restore civilization to a devastated world.

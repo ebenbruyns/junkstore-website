@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/once-upon-a-jester/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Crunching Koalas
@@ -19,10 +27,15 @@ developer: Bonte Avond
 genre: Adventure, Indie, Platform, Puzzle, Arcade, Music
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa"}}
 release_date: "November 9, 2022"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Dutch","Portuguese - Brazil"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"69","name":"Action-Adventure"},{"id":"88","name":"Cute"},{"id":"5","name":"Replay Value"},{"id":"110","name":"Cinematic"},{"id":"113","name":"Side Scroller"},{"id":"136","name":"Music"},{"id":"209","name":"Drama"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"288","name":"Interactive Fiction"},{"id":"295","name":"Soundtrack"},{"id":"309","name":"Dynamic Narration"}]
+size: "250 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "3.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/once_upon_a_jester"
 protondb_url: "https://www.protondb.com/app/1668190"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Once_upon_a_Jester"
-metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/pc/once-upon-a-jester?ftag=MCD-06-10aaa1f"
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/once-upon-a-jester/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13997"
+opencritic_url: "https://opencritic.com/game/13997/-"
+opencritic_score: 83
+opencritic_review_count: 14
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10010552"
+playstation_url: "https://store.playstation.com/en-us/concept/10010552"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

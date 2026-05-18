@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/pubg-battlegrounds/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "not-supported"
 date_tested: ""
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "borked"
+protondb_score: 0
+protondb_total: 193
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: KRAFTON, Inc.
 developer: KRAFTON, Inc.
 genre: Shooter
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Users Interact"},"pegi":{"rating":"16"},"usk":{"rating":"16","descriptors":"Games in this category may contain more intense violence, including depictions of combat with realistic weapons or fighting. The game might have more serious, darker themes (e.g., crime, horror, or war) and could include some blood, crude humor, or stronger language. These elements should not be overly graphic, but the violence and tension are at a level inappropriate for younger players."},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"19","descriptors":"폭력성"},"csrr":{"rating":"C15"},"dejus":{"rating":"16"}}
 release_date: "December 6, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Battle Royale"]
-languages: ["English"]
+languages: ["English","Korean","Simplified Chinese","French","German","Spanish - Spain","Arabic","Japanese","Polish","Portuguese - Portugal","Russian","Turkish","Thai","Italian","Portuguese - Brazil","Traditional Chinese","Ukrainian"]
+languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21138","name":"Recommend this Game"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: ""
+franchise_siblings: [{"rawg_id":413100,"slug":"pubg-lite-pc","name":"PUBG Lite PC"}]
+franchise_slug: "playerunknowns-battlegrounds|pubg-lite-pc"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: true
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -69,8 +85,22 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/PUBG%3A_Battlegrounds"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/playerunknowns-battlegrounds/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4829"
+opencritic_url: "https://opencritic.com/game/4829/-"
+opencritic_score: 77
+opencritic_review_count: 78
+twitch_id: "493057"
+twitch_url: ""
+playstation_id: "232860"
+playstation_url: "https://store.playstation.com/en-us/concept/232860"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
-notes: "Anti-cheat prevents this game from running on Steam Deck."
+notes: Anti-cheat prevents this game from running on Steam Deck.
 controller_config: 
 performance_notes: 
 known_issues: 

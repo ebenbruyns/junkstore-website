@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/blood-omen-legacy-of-kain/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: ""
+steam_deck_category: 
 
 # Game Info
 publisher: Activision, Crystal Dynamics, Sony Computer Entertainment, Square Enix Europe
@@ -19,10 +27,15 @@ developer: Silicon Knights
 genre: Adventure
 franchise: 
 age_rating_summary: ESRB 17
+age_ratings: {}
 release_date: "November 1, 1996"
-game_modes: ["Single player"]
+game_modes: ["Cloud saves","Controller support","Single-player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"}]
+size: "583 MB"
+franchise_siblings: [{"rawg_id":1015975,"slug":"legacy-of-kain-ascendance","name":"Legacy of Kain: Ascendance"},{"rawg_id":1015978,"slug":"legacy-of-kain-defiance-remastered","name":"Legacy of Kain: Defiance Remastered"},{"rawg_id":989747,"slug":"legacy-of-kain-soul-reaver-12-remastered","name":"Legacy of Kain Soul Reaver 1&2 Remastered"},{"rawg_id":10118,"slug":"legacy-of-kain-defiance","name":"Legacy of Kain: Defiance"},{"rawg_id":22870,"slug":"legacy-of-kain-blood-omen-2","name":"Legacy of Kain: Blood Omen 2"},{"rawg_id":10119,"slug":"legacy-of-kain-soul-reaver-2","name":"Legacy of Kain: Soul Reaver 2"},{"rawg_id":5158,"slug":"legacy-of-kain-soul-reaver","name":"Legacy of Kain: Soul Reaver"},{"rawg_id":42391,"slug":"nosgoth","name":"Nosgoth"}]
+franchise_slug: "blood-omen-legacy-of-kain|legacy-of-kain-ascendance|legacy-of-kain-blood-omen-2|legacy-of-kain-defiance|legacy-of-kain-defiance-remast|legacy-of-kain-soul-reaver|legacy-of-kain-soul-reaver-12-|legacy-of-kain-soul-reaver-2|nosgoth"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12.5 hrs"
 hltb_main_extra: "14.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blood_Omen%3A_Legacy_of_Kain"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/blood-omen-legacy-of-kain/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

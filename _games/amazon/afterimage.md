@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/afterimage/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Sep '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.73
+protondb_total: 34
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Maximum Entertainment
@@ -19,10 +27,15 @@ developer: Aurogon Shanghai
 genre: Action, Adventure, Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "April 24, 2023"
 game_modes: ["Single-player"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Russian","Japanese*","Simplified Chinese*","Traditional Chinese*","Korean"]
+languages: ["English","French","Italian","German","Spanish - Spain","Russian","Japanese","Simplified Chinese","Traditional Chinese","Korean","Portuguese - Brazil"]
+languages_audio: ["English","Japanese","Simplified Chinese","Traditional Chinese"]
 tags_structured: []
+size: "4.58 GB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "25 hrs"
 hltb_main_extra: "34.5 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Afterimage"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/afterimage/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14839"
+opencritic_url: "https://opencritic.com/game/14839/-"
+opencritic_score: 77
+opencritic_review_count: 38
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10007477"
+playstation_url: "https://store.playstation.com/en-us/concept/10007477"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: This game can take a while to load on first launch.

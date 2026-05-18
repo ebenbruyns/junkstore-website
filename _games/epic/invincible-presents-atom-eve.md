@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/invincible-presents-atom-eve/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.65
+protondb_total: 7
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Skybound Games
@@ -19,10 +27,15 @@ developer: Terrible Posture Games
 genre: Narration, Adventure
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Medo"}}
 release_date: "November 14, 2023"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain"]
+languages_audio: []
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-17T15:00:00.000Z","end":"2024-10-24T15:00:00.000Z","type":null,"id":"d8abd7984d034e21acafbce5ba0cca9b"},{"start":"2024-03-20T15:00:00.000Z","end":"2024-03-27T15:00:00.000Z","type":null,"id":"d8abd7984d034e21acafbce5ba0cca9b"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4.5 hrs"
 hltb_main_extra: "6 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Invincible_Presents%3A_Atom
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/invincible-presents-atom-eve/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15845"
+opencritic_url: "https://opencritic.com/game/15845/-"
+opencritic_score: 80
+opencritic_review_count: 10
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -82,5 +112,3 @@ owned: true
 ---
 
 Become Atom Eve and take control of your own path as one of the most powerful superheroes in the Invincible universe! Unravel a mystery and balance the dangers and responsibilities of being a superhero with the relatable challenges of everyday life.
-
-Experience an original story with striking art directed by Rossi Gifford and creative direction by award-winning writer Jill Murray, and explore the life of Atom Eve in a world filled with beloved characters. Based on the comic book by Robert Kirkman, Cory Walker, and Ryan Ottley.

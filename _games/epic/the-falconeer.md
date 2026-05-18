@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-falconeer/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.7
+protondb_total: 10
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Wired Productions
 developer: Tomas Sala
 genre: Action, Open World, Indie
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Fantasy Violence"},"pegi":{"rating":"12","descriptors":"Language"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Violence"},"nzoflc":{"rating":"M","descriptors":"Violence"},"kgrb":{"rating":"12","descriptors":"Violence"},"dejus":{"rating":"L"}}
 release_date: "August 5, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil"]
+languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"},{"id":"1263","name":"Indie"}]
+size: "916 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9 hrs"
 hltb_main_extra: "11.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Falconeer"
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/the-falconeer/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10484"
+opencritic_url: "https://opencritic.com/game/10484/-"
+opencritic_score: 69
+opencritic_review_count: 89
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002246"
+playstation_url: "https://store.playstation.com/en-us/concept/10002246"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-The Falconeer is an open-world air combat game, featuring frenetic aerial dogfights and deep exploration of the mysterious open-world of The Great Ursee. Generations of poisonous decisions and treason swirl in the deep, as factions clash in a fight to preserve the past or flee its terrible consequences.
+Take to the skies aboard a feathered serpent and unleash fiery vengeance from above with The Hunter content pack. Includes a new ‘Mongres Hunter’ player Class.

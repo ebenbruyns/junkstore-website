@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/botany-manor/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.6
+protondb_total: 10
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Whitethorn Games
 developer: Balloon Studios
 genre: Puzzle, Adventure, Indie
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: 3 (PEGI)
+age_ratings: {"pegi":{"rating":"3"},"dejus":{"rating":"L"}}
 release_date: "February 5, 2026"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Japanese","Spanish - Latin America","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
+languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "3.4 hrs"
 hltb_main_extra: "3.9 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1425350"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Botany_Manor"
 metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/botany-manor?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/botany-manor/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16551"
+opencritic_url: "https://opencritic.com/game/16551/-"
+opencritic_score: 83
+opencritic_review_count: 48
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004416"
+playstation_url: "https://store.playstation.com/en-us/concept/10004416"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora. Grow each plant to discover the mysterious qualities they hold…
+Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora.

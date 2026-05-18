@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/wuthering-waves/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "not-supported"
 date_tested: ""
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.75
+protondb_total: 396
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: KURO GAMES
@@ -19,10 +27,15 @@ developer: KURO GAMES
 genre: Action, Open World, Adventure
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "May 23, 2024"
 game_modes: ["Single player","Co-operative"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese","Korean","Thai"]
+languages_audio: ["English","Japanese","Simplified Chinese","Korean"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: true
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "26 hrs"
 hltb_main_extra: "77.5 hrs"
@@ -69,8 +85,22 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wuthering_Waves"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/wuthering-waves/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16896"
+opencritic_url: "https://opencritic.com/game/16896/-"
+opencritic_score: 76
+opencritic_review_count: 10
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10010764"
+playstation_url: "https://store.playstation.com/en-us/concept/10010764"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
-notes: "Anti-cheat prevents this game from running on Steam Deck."
+notes: 
 controller_config: 
 performance_notes: 
 known_issues: 

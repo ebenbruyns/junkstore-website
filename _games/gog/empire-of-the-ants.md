@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/empire-of-the-ants/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.72
+protondb_total: 10
+protondb_confidence: "moderate"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Microids
@@ -19,10 +27,15 @@ developer: Tower Five
 genre: adventure, strategy, indie, real-time-strategy-rts
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "November 7, 2024"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Multi-player","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Simplified Chinese","Traditional Chinese","Korean","Portuguese - Brazil"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"80","name":"Tactical"},{"id":"157","name":"PvP"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"5","name":"Replay Value"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"77","name":"Realistic"},{"id":"168","name":"RTS"},{"id":"45878","name":"Online PvP"},{"id":"171","name":"PvE"},{"id":"147","name":"Resource Management"},{"id":"200","name":"Narration"},{"id":"91686","name":"Family Sharing"},{"id":"100","name":"Grand Strategy"},{"id":"774","name":"nature"},{"id":"247","name":"Real Time Tactics"},{"id":"104","name":"Wargame"},{"id":"49967","name":"Colony Sim"}]
+size: "36735 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "13.5 hrs"
 hltb_main_extra: "20.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/empire_of_the_ants"
 protondb_url: "https://www.protondb.com/app/2287330"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Empire_of_the_Ants_%282024%29"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/empire-of-the-ants/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17589"
+opencritic_url: "https://opencritic.com/game/17589/-"
+opencritic_score: 73
+opencritic_review_count: 41
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10007652"
+playstation_url: "https://store.playstation.com/en-us/concept/10007652"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

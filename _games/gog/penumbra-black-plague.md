@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/penumbra-black-plague/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "silver"
+protondb_score: 0.25
+protondb_total: 18
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Paradox Interactive
 developer: Frictional Games
 genre: Adventure, Indie, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"pegi":{"rating":"16"},"usk":{"rating":"16"}}
 release_date: "February 1, 2008"
 game_modes: ["Single player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"16","name":"Horror"},{"id":"73350","name":"survival-horror"}]
+size: "610 MB"
+franchise_siblings: [{"rawg_id":14001,"slug":"penumbra-requiem","name":"Penumbra: Requiem"},{"rawg_id":13999,"slug":"penumbra-overture","name":"Penumbra Overture"}]
+franchise_slug: "penumbra-black-plague|penumbra-overture|penumbra-requiem"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/22120"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Penumbra:_Black_Plague"
 metacritic_score: 78
-metacritic_url: "https://www.metacritic.com/game/pc/penumbra-black-plague?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/penumbra-black-plague/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Gameplay will be a black screen unless you disable Post Effects in the settings menu.

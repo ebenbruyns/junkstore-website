@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/train-valley-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.61
+protondb_total: 9
+protondb_confidence: "low"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: META Publishing
@@ -19,10 +27,15 @@ developer: Flazm
 genre: Simulation, Puzzle, Strategy
 franchise: Train Valley
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "June 8, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Korean","Turkish","Czech","Swedish"]
+languages_audio: []
 tags_structured: [{"id":"22978","name":"Post Meta Publisher Sale"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":15314,"slug":"train-valley","name":"Train Valley"}]
+franchise_slug: "train-valley|train-valley-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-07-12T15:00:00.000Z","end":"2023-07-19T15:00:00.000Z","type":null,"id":"e499fc9429044cda83c141213a831592"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "30.5 hrs"
 hltb_main_extra: "42 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Train_Valley_2"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/train-valley-2/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15902"
+opencritic_url: "https://opencritic.com/game/15902/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: Works out of the box, but need to map the controller.
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Drive forward the industrial revolution in our train tycoon management puzzle game. Build an efficient railroad, upgrade your locomotives, and keep trains on track without delays to meet the ever-growing demand of the cities and industries in your tiny valley. Choo-choo!
+Build even more complex railway networks than ever before! Building on the success of the original, you’ll get more of what you loved about the original and then some. With increasingly difficult and complex challenges from local industries, the Valley has never felt so vast!

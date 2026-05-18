@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/qube-10th-anniversary/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "May '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.49
+protondb_total: 7
+protondb_confidence: "low"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Toxic Games
 developer: Toxic Games
 genre: Puzzle, Action-Adventure, First Person
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: E (ESRB) · 3 (PEGI)
+age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Language, Mild Violence"},"pegi":{"rating":"3"},"dejus":{"rating":"L"}}
 release_date: "September 29, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21150","name":"Challenging Puzzles"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "8 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/qube-10th-anniversary-59e999"
 protondb_url: "https://www.protondb.com/app/1564220"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Q.U.B.E._10th_Anniversary"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/qube-10th-anniversary/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13679"
+opencritic_url: "https://opencritic.com/game/13679/-"
+opencritic_score: 82
+opencritic_review_count: 7
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003979"
+playstation_url: "https://store.playstation.com/en-us/concept/10003979"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Entirely rebuilt from the ground up, Q.U.B.E. 10th Anniversary is the ultimate celebration of the decade-old original, bringing refined visuals, completely redesigned and revised gameplay sections, and a whole new chapter to the award-winning, brain-twisting first-person puzzler.
+Entirely rebuilt from the ground up, Q.U.B.E. 10th Anniversary is the ultimate celebration of the decade-old original, bringing refined visuals, completely redesigned and revised gameplay sections, and a whole new chapter to the award-winning, brain-twisting first-person puzzler

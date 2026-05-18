@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/sable/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.67
+protondb_total: 63
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Raw Fury
@@ -19,10 +27,16 @@ developer: Shedworks
 genre: Indie, Open World, Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 23, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Japanese"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "1978704154
+"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-06-26T15:00:00.000Z","end":"2025-07-03T15:00:00.000Z","type":null,"id":"d19627e74ac445bcbcfc8157a35d6f80"},{"start":"2022-12-17T15:00:00.000Z","end":"2022-12-18T15:00:00.000Z","type":null,"id":"d19627e74ac445bcbcfc8157a35d6f80"}]
@@ -55,6 +69,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "14 hrs"
@@ -67,7 +84,21 @@ protondb_url: "https://www.protondb.com/app/757310"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sable"
 metacritic_score: 76
-metacritic_url: "https://www.metacritic.com/game/pc/sable?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/sable/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12008"
+opencritic_url: "https://opencritic.com/game/12008/-"
+opencritic_score: 75
+opencritic_review_count: 80
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10001007"
+playstation_url: "https://store.playstation.com/en-us/concept/10001007"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box.
@@ -81,4 +112,4 @@ is_featured: false
 owned: true
 ---
 
-Sable is a coming-of-age tale of discovery through exploration across a strikingly rendered open world desert. Go on a deeply personal journey across an alien planet while learning its history and discovering Sable’s place in the world.
+Embark on a unique and unforgettable journey and guide Sable through her Gliding; a rite of passage that will take her across vast deserts and mesmerizing landscapes, capped by the remains of spaceships and ancient wonders.

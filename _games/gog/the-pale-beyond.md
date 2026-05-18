@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-pale-beyond/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "April '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.7
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Surprise Attack Games
@@ -19,10 +27,15 @@ developer: Bellular Studios
 genre: Role-playing (RPG)
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Medo, Atos criminosos, Temas sensíveis, Linguagem imprópria, Drogas lícitas, Drogas ilícitas"}}
 release_date: "February 24, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Controller support","Single-player"]
 languages: ["English"]
+languages_audio: []
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"64","name":"Adjustable Text Size"},{"id":"67","name":"Camera Comfort"},{"id":"68","name":"Custom Volume Controls"},{"id":"78","name":"Adjustable Difficulty"},{"id":"75","name":"Keyboard Only Option"},{"id":"76","name":"Mouse Only Option"},{"id":"74","name":"Playable without Timed Input"},{"id":"69","name":"Stereo Sound"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
+size: "2021 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "9 hrs"
 hltb_main_extra: "14 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1266030"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Pale_Beyond"
 metacritic_score: 77
-metacritic_url: "https://www.metacritic.com/game/pc/the-pale-beyond?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/the-pale-beyond/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "14338"
+opencritic_url: "https://opencritic.com/game/14338/-"
+opencritic_score: 78
+opencritic_review_count: 16
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

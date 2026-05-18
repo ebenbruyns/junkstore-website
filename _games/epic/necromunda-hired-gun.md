@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/necromunda-hired-gun/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.58
+protondb_total: 50
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Focus Entertainment
@@ -19,10 +27,15 @@ developer: Streum On Studio
 genre: Action, Action-Adventure, Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria"}}
 release_date: "May 31, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "12 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Necromunda%3A_Hired_Gun"
 metacritic_score: 62
 metacritic_url: "https://www.metacritic.com/game/necromunda-hired-gun/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11460"
+opencritic_url: "https://opencritic.com/game/11460/-"
+opencritic_score: 58
+opencritic_review_count: 68
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10001848"
+playstation_url: "https://store.playstation.com/en-us/concept/10001848"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,13 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Pick your contracts. Hunt your targets. Collect the bounty.
-
-Navigate an ocean of crime and corruption to balance the bloody ecosystem of Necromunda as a merciless hired gun. The money’s good, the dog’s loyal, and the gun’s reliable – but can you survive the hunt? Necromunda: Hired Gun is an indie fast-paced, violent, and thrilling FPS set in the darkest reaches of Warhammer 40,000’s most infamous hive city.
-
-For the right price, eliminate the most notorious gangers and mutants. Your armory is a sprawling arsenal. Your body is enhanced with a dozen customizable augments to run on walls and leap over chasms. Your cyber-mastiff will sniff out and kill enemies for you, while your grappling hook allows quick, agile traversal of the massive environments.
-
-- An indie fast-paced FPS in the Warhammer 40,000 universe
-- Upgrade and fight alongside your loyal cyber-mastiff
-- Endless weapon and augment customization
-- Upgrade, advance, and level up as you collect bounties
+Become a Hired Gun. The money’s good, the dog’s loyal, and the gun’s reliable. Embark on an indie fast-paced, violent, and thrilling FPS set in the darkest reaches of Warhammer 40,000’s most infamous hive city.

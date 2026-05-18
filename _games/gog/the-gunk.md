@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-gunk/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 29
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Thunderful
@@ -19,10 +27,15 @@ developer: "Image & Form"
 genre: Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "December 16, 2021"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"25","name":"Space"},{"id":"107","name":"Family Friendly"},{"id":"165","name":"Colorful"},{"id":"259","name":"Metroidvania"},{"id":"138","name":"Relaxing"},{"id":"305","name":"Linear"},{"id":"59643","name":"Протагонистка"},{"id":"774","name":"nature"},{"id":"583","name":"Narrative"}]
+size: "6268 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4.5 hrs"
 hltb_main_extra: "5.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/the_gunk"
 protondb_url: "https://www.protondb.com/app/1087760"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Gunk"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 70
+metacritic_url: "https://www.metacritic.com/game/the-gunk/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "12486"
+opencritic_url: "https://opencritic.com/game/12486/-"
+opencritic_score: 71
+opencritic_review_count: 75
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9P008L2LS87F"
+xbox_url: "https://www.xbox.com/games/store/-/9P008L2LS87F"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

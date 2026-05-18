@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/goat-simulator-3/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "unknown"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.85
+protondb_total: 22
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Coffee Stain Publishing AB
@@ -19,10 +27,15 @@ developer: Coffee Stain North AB
 genre: Comedy, Adventure
 franchise: Goat Simulator
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "November 17, 2022"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
-languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21126","name":"Silly Community"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1400","name":"Physics"},{"id":"1370","name":"Single Player"},{"id":"1116","name":"Comedy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":1959,"slug":"goat-simulator","name":"Goat Simulator"}]
+franchise_slug: "goat-simulator|goat-simulator-3"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "12 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/goat-simulator-3"
 protondb_url: "https://www.protondb.com/app/850190"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Goat_Simulator_3"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 68
+metacritic_url: "https://www.metacritic.com/game/goat-simulator-3/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13689"
+opencritic_url: "https://opencritic.com/game/13689/-"
+opencritic_score: 72
+opencritic_review_count: 51
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003123"
+playstation_url: "https://store.playstation.com/en-us/concept/10003123"
+xbox_id: "9NL3468NRPBG"
+xbox_url: "https://www.xbox.com/games/store/-/9NL3468NRPBG"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.
+Pilgor’s baaack! Gather your herd and venture forth into Goat Simulator 3; a totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage together, or compete in mini-games and then not be friends.

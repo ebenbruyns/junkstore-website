@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/lego-builders-journey/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sep '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.82
+protondb_total: 27
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: LEGO Games
@@ -19,10 +27,15 @@ developer: Light Brick Studio
 genre: Casual, Puzzle, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "June 22, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Dutch","Japanese","Korean","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Dutch","Japanese","Korean","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21151","name":"Easy Puzzles"}]
+size: ""
+franchise_siblings: [{"rawg_id":833436,"slug":"lego-bricktales","name":"LEGO Bricktales"},{"rawg_id":330295,"slug":"lego-city-builder","name":"Lego City Builder"},{"rawg_id":58597,"slug":"lego-dc-super-villains","name":"LEGO DC Super-Villains"},{"rawg_id":58086,"slug":"lego-the-incredibles","name":"LEGO The Incredibles"},{"rawg_id":67971,"slug":"lego-city-game","name":"LEGO City game"},{"rawg_id":3729,"slug":"lego-the-hobbit","name":"LEGO The Hobbit"},{"rawg_id":27244,"slug":"lego-city-undercover-the-chase-begins-3ds","name":"LEGO City Undercover: The Chase Begins 3DS"},{"rawg_id":2597,"slug":"lego-lord-of-the-rings","name":"LEGO The Lord of the Rings"},{"rawg_id":53375,"slug":"lego-bionicle","name":"Lego Bionicle"},{"rawg_id":53376,"slug":"lego-racers-2-2001","name":"Lego Racers 2 (2001)"},{"rawg_id":32458,"slug":"lego-racers-2","name":"LEGO Racers 2"},{"rawg_id":32359,"slug":"lego-island-2-the-bricksters-revenge","name":"LEGO Island 2: The Brickster's Revenge"},{"rawg_id":32251,"slug":"lego-racers","name":"LEGO Racers"},{"rawg_id":330584,"slug":"lego-island","name":"LEGO Island"}]
+franchise_slug: "lego-bionicle|lego-bricktales|lego-builders-journey|lego-city-builder|lego-city-game|lego-city-undercover-the-chase|lego-dc-super-villains|lego-island|lego-island-2-the-bricksters-r|lego-lord-of-the-rings|lego-racers|lego-racers-2|lego-racers-2-2001|lego-the-hobbit|lego-the-incredibles"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-12-20T15:00:00.000Z","end":"2022-12-21T15:00:00.000Z","type":null,"id":"bd886035d7ee4eb1b886a5ada1358528"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2.4 hrs"
 hltb_main_extra: "2.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1544360"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_Builder%27s_Journey"
 metacritic_score: 79
-metacritic_url: "https://www.metacritic.com/game/pc/lego-builders-journey?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/lego-builders-journey/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11574"
+opencritic_url: "https://opencritic.com/game/11574/-"
+opencritic_score: 77
+opencritic_review_count: 29
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10003909"
+playstation_url: "https://store.playstation.com/en-us/concept/10003909"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "You may want to tweak the settings to help with initial low FPS: disable raytracing and tweak the graphics settings in game."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Builder’s Journey is a poetic puzzle that takes place in a LEGO brick world, brought to life with the most accurately rendered LEGO elements yet to feature on screens. Be taken through a breathtaking world filled with brick-by-brick effects, accompanied by a beautiful soundtrack.
+LEGO Builder’s Journey is an atmospheric, geometric puzzle game that asks us to sometimes follow the instructions… and sometimes to break the rules.

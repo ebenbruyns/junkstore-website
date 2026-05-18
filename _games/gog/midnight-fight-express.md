@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/midnight-fight-express/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.69
+protondb_total: 19
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Humble Games
@@ -19,10 +27,15 @@ developer: Jacob Dzwinel
 genre: "Adventure, Indie, Shooter, Hack and slash/Beat 'em up, Fighting"
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Conteúdo sexual, Drogas ilícitas"}}
 release_date: "August 23, 2022"
-game_modes: ["Single player"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
 languages: ["English","French","German","Japanese","Simplified Chinese","Spanish - Latin America","Polish","Russian","Portuguese - Brazil"]
-tags_structured: []
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"99","name":"Isometric"},{"id":"203","name":"Beat 'em up"},{"id":"166","name":"Stylized"},{"id":"151","name":"Modern"}]
+size: "5944 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "8.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1390410"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Midnight_Fight_Express"
 metacritic_score: 76
-metacritic_url: "https://www.metacritic.com/game/pc/midnight-fight-express?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/midnight-fight-express/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13546"
+opencritic_url: "https://opencritic.com/game/13546/-"
+opencritic_score: 76
+opencritic_review_count: 44
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

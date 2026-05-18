@@ -1,6 +1,56 @@
 {
-  "generated_at": "2026-05-14T20:30:21.406Z",
+  "generated_at": "2026-05-18T08:36:54.129Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "batman-the-telltale-series",
+      "featured_in": "2026-05-18",
+      "post_url": "/blog/games-tested-may-18/",
+      "title": "",
+      "standalone_rating": "",
+      "icon_image": "",
+      "vertical_artwork": ""
+    },
+    {
+      "store": "epic",
+      "slug": "sunderfolk",
+      "featured_in": "2026-05-18",
+      "post_url": "/blog/games-tested-may-18/",
+      "title": "Sunderfolk",
+      "standalone_rating": "green",
+      "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2414270/60c0c3f09f2e84a5b66b31faf8e488fbf1890480/capsule_184x69.jpg?t=1773940416",
+      "vertical_artwork": "https://images.gog.com/5e3c7975110f3ea1d9e56f23fe7c12e0247c964bcfe8121cd7f598734c73da8f.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "lethal-honor-order-of-the-apocalypse",
+      "featured_in": "2026-05-18",
+      "post_url": "/blog/games-tested-may-18/",
+      "title": "Lethal Honor: Order of the Apocalypse",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/dc8d698c8be3fe2822b30aa952763fdf0c1e072e1f9cf1b70d6733030e8467e5.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/cc0ad5d600548b8999e6ede3f0394d21285fe303c46f3142525818556037edbc.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "60-minutes-to-extinction-escape-room",
+      "featured_in": "2026-05-18",
+      "post_url": "/blog/games-tested-may-18/",
+      "title": "60 Minutes to Extinction: Escape Room",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/0c20da11c97fac3c3e50d13d7b712b1d52b12a1ae527c70fd759f6772079a459.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/566b348539a79ae799edd79eca7dd699935e7dae0b9715db80ca3b494122fd63.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "amazon",
+      "slug": "survival-fountain-of-youth",
+      "featured_in": "2026-05-18",
+      "post_url": "/blog/games-tested-may-18/",
+      "title": "Survival: Fountain of Youth",
+      "standalone_rating": "green",
+      "icon_image": "https://m.media-amazon.com/images/I/41Rk8aGJ44L.png",
+      "vertical_artwork": "https://m.media-amazon.com/images/I/91ENK-vkosL.jpg"
+    },
     {
       "store": "gog",
       "slug": "mafia-ii-definitive-edition",
@@ -70,56 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332950/capsule_184x69.jpg?t=1749585009",
       "vertical_artwork": "https://images.gog.com/e9a4a5a394252a881adb185b7666b2e9dcdd0e4b562032433230724be5f8f792.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "pinball-spire",
-      "featured_in": "2026-05-06",
-      "post_url": "/blog/games-tested-may-06/",
-      "title": "Pinball Spire",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/1b1f8b051c15fa2a9d216c7ea1cc0c1adda9098c491ab53b92182785d48fe9ed.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/767fc40365561f765f40f9bafe1a62c6d5e2df6126d18006b2d04c06a40f4e46.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "doomblade",
-      "featured_in": "2026-04-30",
-      "post_url": "/blog/games-tested-apr-30/",
-      "title": "DOOMBLADE",
-      "standalone_rating": "green",
-      "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/922050/capsule_184x69.jpg?t=1762953800",
-      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b442884/doomblade-1v156.jpg"
-    },
-    {
-      "store": "gog",
-      "slug": "the-pale-beyond",
-      "featured_in": "2026-04-30",
-      "post_url": "/blog/games-tested-apr-30/",
-      "title": "The Pale Beyond",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/feffd491f055a0bcdf9972876ee07f1bdbc31d5b904b8468170169fd5c6838d4.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/44f7aa48dbbd595dc470ee64d6320534dc8aec1a821ce4cabeb1828b5cdcb44a.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "neo-cab",
-      "featured_in": "2026-04-30",
-      "post_url": "/blog/games-tested-apr-30/",
-      "title": "Neo Cab",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/f1f0e2bfeefc84be76886c4c478afa6362fbb7bc970d783c92b2ebf26d4ad793.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/3b424f32c2c8848e3f137ef9d51fb922110cbeeecae2ba9fecead5f8d3588d77.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "the-whispering-valley",
-      "featured_in": "2026-04-30",
-      "post_url": "/blog/games-tested-apr-30/",
-      "title": "The Whispering Valley",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/3feed2c9964ff4e7f34b4fb7f78b31f152794aef0b17cfbd5c9e24509b97ed70.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/00a5557d5297739fc5ba6b493c265f75e66b2bfdb06245d70b956932d269758d.jpg?namespace=gamesdb"
     }
   ]
 }

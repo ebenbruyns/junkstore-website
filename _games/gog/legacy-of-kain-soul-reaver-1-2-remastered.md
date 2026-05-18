@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/legacy-of-kain-soul-reaver-1-2-remastered/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Feb '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.85
+protondb_total: 21
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Aspyr Media
@@ -19,10 +27,15 @@ developer: Crystal Dynamics
 genre: adventure, platform, puzzle
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "December 10, 2024"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Simplified Chinese"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian"]
 tags_structured: []
+size: "7996 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legacy_of_Kain%3A_Soul_Reaver_1_%26_2_Remastered"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/legacy-of-kain-soul-reaver-1-and-2-remastered/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "17733"
+opencritic_url: "https://opencritic.com/game/17733/-"
+opencritic_score: 75
+opencritic_review_count: 104
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10009063"
+playstation_url: "https://store.playstation.com/en-us/concept/10009063"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

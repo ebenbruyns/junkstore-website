@@ -7,22 +7,36 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/baldurs-gate-enhanced-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "yellow"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.75
+protondb_total: 46
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Atari, Beamdog
 developer: Overhaul Games
 genre: Role-playing (RPG), Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: T (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Animated Blood, Mild Language, Use of Alcohol and Tobacco"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"bbfc":{"rating":"12"},"oflc":{"rating":"PG"},"nzoflc":{"rating":"PG"},"dejus":{"rating":"12"}}
 release_date: "November 27, 2012"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","German","French","Spanish - Spain","Polish","Czech","Italian","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Turkish","Russian","Ukrainian","Hungarian"]
+languages_audio: ["English","German","French","Polish","Russian","Ukrainian"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"121","name":"Character Customization"},{"id":"40833","name":"Captions available"},{"id":"99","name":"Isometric"},{"id":"82","name":"Magic"},{"id":"271","name":"Remake"},{"id":"194","name":"Real-Time with Pause"},{"id":"60","name":"Touch-Friendly"},{"id":"238","name":"CRPG"},{"id":"206","name":"Party-Based RPG"},{"id":"574","name":"Dungeons & Dragons"}]
+size: "3335693569
+"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +69,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "31 hrs"
 hltb_main_extra: "54.5 hrs"
@@ -67,7 +84,21 @@ protondb_url: "https://www.protondb.com/app/228280"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Baldur%27s_Gate%3A_Enhanced_Edition"
 metacritic_score: 78
-metacritic_url: "https://www.metacritic.com/game/pc/baldurs-gate-enhanced-edition?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/baldurs-gate-enhanced-edition/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "545"
+opencritic_url: "https://opencritic.com/game/545/-"
+opencritic_score: 76
+opencritic_review_count: 34
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "9NCNBWZSHZR5"
+xbox_url: "https://www.xbox.com/games/store/-/9NCNBWZSHZR5"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Keyboard & mouse controls. **Decky Plugin: Not Supported**. **Pro Version: Some tinkering required**. Must run ./dependencies/oalinst.exe to install OpenAL32.dll first. May need to set ./Baldur.exe"

@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/darkwood/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.82
+protondb_total: 26
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Hooded Horse Inc.
@@ -19,10 +27,15 @@ developer: Acid Wizard Studio
 genre: Horror, Indie, Survival
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Drogas"}}
 release_date: "October 13, 2022"
 game_modes: ["Single player"]
-languages: ["English","Polish","Russian","German","Spanish - Spain","Portuguese - Brazil","Italian","Simplified Chinese","Turkish","Hungarian"]
+languages: ["English","Polish","Russian","German","Spanish - Spain","Portuguese - Brazil","Italian","Simplified Chinese","Turkish","Hungarian","French"]
+languages_audio: []
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+size: "2477 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-10-12T15:00:00.000Z","end":"2022-10-19T15:00:00.000Z","type":null,"id":"d00f7e0293ef44b8ab453294cc380a4d"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "18.4 hrs"
 hltb_main_extra: "27.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/274520"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Darkwood"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/darkwood?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/darkwood/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4738"
+opencritic_url: "https://opencritic.com/game/4738/-"
+opencritic_score: 77
+opencritic_review_count: 44
+twitch_id: ""
+twitch_url: ""
+playstation_id: "232700"
+playstation_url: "https://store.playstation.com/en-us/concept/232700"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,8 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Darkwood is a unforgiving survival horror with a procedurally generated, open world. By blending RPG, roguelike and adventure elements together with a challenging difficulty, Darkwood aims to please players craving for a deep and rewarding experience.
-
-The fear of unknown is powerful. Your senses will be deceived by Darkwood's surreal terrors. No answer will be given to you for free, yet somewhere in the woods lies the truth, an explanation to what has happened in this godforsaken place.
-
-By day, explore the randomly generated woods, scavenge for materials and weapons, discover secrets, solve mysteries and talk, trade with or kill the various inhabitants of Darkwood. By night, return to your hideout, barricade, set up traps and hide or defend yourself from the horrors that lurk in the dark.
+Darkwood - a new perspective on survival horror. Scavenge and explore a rich, ever-changing free-roam world by day, then hunker down in your hideout and pray for the morning light.

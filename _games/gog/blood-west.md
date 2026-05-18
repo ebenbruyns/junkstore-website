@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/blood-west/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.8
+protondb_total: 15
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: New Blood Interactive
@@ -19,10 +27,15 @@ developer: Hyperstrange
 genre: Role-playing (RPG), Shooter
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
 release_date: "December 5, 2023"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Achievements","Cloud saves","Controller support","Leaderboards","Single-player"]
+languages: ["English","German","Polish","Russian","Hungarian","Portuguese - Brazil"]
+languages_audio: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "3982 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "13.6 hrs"
 hltb_main_extra: "22 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1587130"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blood_West"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/blood-west?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/blood-west/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "15940"
+opencritic_url: "https://opencritic.com/game/15940/-"
+opencritic_score: 81
+opencritic_review_count: 12
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10012169"
+playstation_url: "https://store.playstation.com/en-us/concept/10012169"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Blood West is an immersive stealth shooter taking place in a nightmare version of a classic wild west setting. The player takes on the role of an outlawed gunslinger brought back to live by strange native spirits to find the root of a curse that has befallen the land. They will explore the dangerous frontier, gather supplies, expand their arsenal, and gain experience to unlock special traits, to best the many monsters and face off with challenging bosses.
+Weird west legends meet eldritch horror in BLOOD WEST, an immersive stealth FPS. Become the Undead Gunslinger, doomed to roam the barren lands until he manages to purge their curse, freeing his soul. 3 varied scenarios, perk-based progression, and 20+ hours of gameplay await you!

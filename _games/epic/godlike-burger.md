@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/godlike-burger/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.56
+protondb_total: 11
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Daedalic Entertainment
@@ -19,10 +27,15 @@ developer: Liquid Pug
 genre: Action, Indie, Rogue-Lite
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Atos criminosos"}}
 release_date: "April 21, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Russian","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish","Italian"]
+languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21126","name":"Silly Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "628 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-10-04T15:00:00.000Z","end":"2023-10-11T15:00:00.000Z","type":null,"id":"d9300ace164b41ac90a7b54e59d47953"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "30 hrs"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Godlike_Burger"
 metacritic_score: 60
 metacritic_url: "https://www.metacritic.com/game/godlike-burger/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13053"
+opencritic_url: "https://opencritic.com/game/13053/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004498"
+playstation_url: "https://store.playstation.com/en-us/concept/10004498"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Godlike Burger puts you in the shoes of a crazy chef who makes the best burgers in the universe. Secret ingredient? The clients themselves! Run the restaurant, create new recipes and kill delicious aliens! But be careful – leave no witnesses uncooked!
+In Godlike Burger you run the craziest restaurant of the galaxy! Stun, poison and kill customers in many devious ways… and turn them into burger meat! And don’t worry: Alien customers will keep coming if you are smart about it, because cannibalism is just too damn tasty.

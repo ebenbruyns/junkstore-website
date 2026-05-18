@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-coma-recut/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.21
+protondb_total: 4
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Digerati Distribution
 developer: Devespresso Games
 genre: Adventure, Indie
 franchise: 
-age_rating_summary: PEGI 12
+age_rating_summary: T (ESRB)
+age_ratings: {"esrb":{"rating":"T"},"kgrb":{"rating":"15"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "September 19, 2017"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Controller support","Overlay","Single-player"]
+languages: ["English","French","Japanese","Korean","Russian","Simplified Chinese","Thai","Turkish","Spanish - Spain","German","Ukrainian"]
+languages_audio: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"34","name":"Violent"},{"id":"40858","name":"Other"}]
+size: "279 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "4.5 hrs"
 hltb_main_extra: "5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/the_coma_recut"
 protondb_url: "https://www.protondb.com/app/600090"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Coma%3A_Recut"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 62
+metacritic_url: "https://www.metacritic.com/game/the-coma-recut/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4759"
+opencritic_url: "https://opencritic.com/game/4759/-"
+opencritic_score: 65
+opencritic_review_count: 19
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

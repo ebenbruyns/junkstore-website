@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/ghostbusters-spirits-unleashed/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.35
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: IllFonic
 developer: IllFonic
 genre: Horror, Shooter
 franchise: Ghostbusters
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: PG (OFLC)
+age_ratings: {"oflc":{"rating":"PG","descriptors":"Mild supernatural themes, violence, coarse language, online, interactivity"},"kgrb":{"rating":"12","descriptors":"Violence, Horror, Language, Drugs"},"dejus":{"rating":"10","descriptors":"Violência, Interação de usuários"}}
 release_date: "October 18, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Traditional Chinese"]
+languages_audio: ["English","Japanese"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1203","name":"Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghostbusters%3A_Spirits_Unl
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/ghostbusters-spirits-unleashed/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13842"
+opencritic_url: "https://opencritic.com/game/13842/-"
+opencritic_score: 72
+opencritic_review_count: 70
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10002507"
+playstation_url: "https://store.playstation.com/en-us/concept/10002507"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Needs C++ runtime."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-An all-ages take on its brand of four-versus-one asymmetric multiplayer games, where you play as your own original Ghostbusters team — or take on the role of a ghost hellbent on wreaking haunted havoc.
+Hunting or haunting! The choice is yours in the upcoming asymmetrical Ghostbusters game from IllFonic, Ghostbusters: Spirits Unleashed. Play with up to four friends or solo on multiple platforms.

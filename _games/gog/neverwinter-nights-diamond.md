@@ -7,11 +7,19 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/neverwinter-nights-diamond/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: ""
+steam_deck_category: 
 
 # Game Info
 publisher: Atari, Inc.
@@ -19,10 +27,15 @@ developer: BioWare
 genre: Role-playing (RPG), Adventure
 franchise: 
 age_rating_summary: ESRB 13
+age_ratings: {}
 release_date: "December 12, 2005"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Cloud saves","Multi-player","Single-player"]
 languages: ["English","French","German","Italian","Polish","Spanish"]
+languages_audio: []
 tags_structured: []
+size: "2508 MB"
+franchise_siblings: [{"rawg_id":30669,"slug":"neverwinter-nights-2","name":"Neverwinter Nights 2"}]
+franchise_slug: "neverwinter-nights-2|neverwinter-nights-2002"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "71 hrs"
 hltb_main_extra: "100 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Neverwinter_Nights"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/neverwinter-nights-diamond/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

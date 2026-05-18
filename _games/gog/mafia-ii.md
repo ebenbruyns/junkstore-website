@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/mafia-ii/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.59
+protondb_total: 101
+protondb_confidence: "strong"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: 2K Games, Take-Two Interactive
 developer: 2K Czech, Massive Bear Studios
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Nudity, Sexual Content, Strong Language, Use of Drugs and Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Violence, Coarse Language"},"kgrb":{"rating":"18","descriptors":"내용정보표지사항: 선정성, 폭력성, 언어의 부적절성, 약물, 범죄, 제명:  마피아 II, 이용등급: 청소년이용불가, 등급분류번호: CC-NP-100702-006, 등급분류일자: 20100702, 상호: ㈜에픽소프트 한국영업소, 제작.배급업 신고번호: 용산 제0023호, ----------------------------------, Game Descriptive: Sexual Content, Violence, Inappropriate language, Drug, Crime, Title Name: Mafia II, Age: 18+, Certificate #: CC-NP-100702-006, Issue date: 20100702, Company Name:㈜에픽소프트 한국영업소, Distributor No,: 용산 제0023호"}}
 release_date: "August 24, 2010"
-game_modes: ["Single player"]
-languages: ["Czech","English","French","German","Italian","Polish","Russian","Spanish"]
-tags_structured: []
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Italian","Spanish - Spain","Czech","Polish","Russian"]
+languages_audio: ["English","French","German","Italian","Spanish - Spain","Czech","Russian"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"193","name":"Classic"},{"id":"37","name":"Sandbox"},{"id":"150","name":"Third-Person Shooter"},{"id":"44","name":"Nudity"},{"id":"144","name":"Crime"},{"id":"130","name":"Driving"},{"id":"133","name":"3D Vision"},{"id":"136","name":"Music"},{"id":"78","name":"America"}]
+size: "7725 MB"
+franchise_siblings: [{"rawg_id":987515,"slug":"mafia-the-old-country","name":"Mafia: The Old Country"},{"rawg_id":442854,"slug":"mafia","name":"Mafia: Definitive Edition"},{"rawg_id":445430,"slug":"mafia-iii-definitive-edition","name":"Mafia III: Definitive Edition"},{"rawg_id":442855,"slug":"mafia-ii-definitive-edition","name":"Mafia II: Definitive Edition"},{"rawg_id":1169,"slug":"mafia-iii","name":"Mafia III"},{"rawg_id":30899,"slug":"mafia-the-city-of-lost-heaven","name":"Mafia: The City of Lost Heaven"}]
+franchise_slug: "mafia|mafia-ii|mafia-ii-definitive-edition|mafia-iii|mafia-iii-definitive-edition|mafia-the-city-of-lost-heaven|mafia-the-old-country"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12 hrs"
 hltb_main_extra: "16.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://www.gog.com/en/game/mafia_ii_definitive_edition"
 protondb_url: "https://www.protondb.com/app/50130"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mafia_II"
-metacritic_score: 77
-metacritic_url: "https://www.metacritic.com/game/pc/mafia-ii?ftag=MCD-06-10aaa1f"
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/mafia-ii/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: 

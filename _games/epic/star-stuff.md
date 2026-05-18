@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/star-stuff/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Animo Games Studio LLC
@@ -19,10 +27,15 @@ developer: Ánimo Games Studio
 genre: Casual, Puzzle, Platformer
 franchise: 
 age_rating_summary: ESRB Everyone
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "January 17, 2025"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","German","Japanese","Portuguese - Brazil","Simplified Chinese","Spanish - Spain"]
+languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"},{"id":"1151","name":"Platformer"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "6 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Stuff"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/star-stuff/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "16956"
+opencritic_url: "https://opencritic.com/game/16956/-"
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Star Stuff is a puzzle automation game that mixes bot programming with real time shenanigans. Play as Mija (me-ha), a cosmic employee on their first day at a star factory. Automate bots, interact in real time with bot actions to solve mind-bending puzzles, and save the ever-expanding universe while you're at it!
+Star Stuff is a deceptively cute programming puzzle game. Program and work alongside bots to tackle the most important (and undoubtedly safest) task in the galaxy: fixing a star factory. Ready for your first day on the job?

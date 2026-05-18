@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/crystal-of-atlan/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.44
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Skystone Games
@@ -19,10 +27,15 @@ developer: Nuverse Pte.Ltd.
 genre: Action, RPG, Adventure
 franchise: Crystal of Atlan
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"18"}}
 release_date: "May 27, 2025"
 game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
-languages: ["English"]
+languages: ["English","French","German","Indonesian","Japanese","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Vietnamese","Korean","Spanish - Spain"]
+languages_audio: ["English","Japanese","Simplified Chinese","Traditional Chinese","Korean"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7.1 hrs"
 hltb_main_extra: ""
@@ -69,6 +85,20 @@ pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/crystal-of-atlan/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10010036"
+playstation_url: "https://store.playstation.com/en-us/concept/10010036"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "There are a few steps to get this working in game mode. Best is to do this all in desktop/Big Picure mode through Junk Store before hopping back into Game mode. Tested with Proton Experimental.<br> - First download the game in Junk Store then launch the game once to set a prefix<br> - You then need to install  the pdh dependency, I used Protontricks from desktop mode<br> - Once the depedency is installed, go back into Big Picture mode and before launching the game set the exe to <strong>./Crystal of Atlan.exe</strong> (remember to push X to save) then launch the game.<br> - This next part took me a few goes. The game may load to a black screen and seem stuck, just be patient as it's loading and you'll see the game splash screen eventually.<br> - Once the game loads and says <em>Click anywhere to proceed</em> do that and then you need to wait for an age verification box to open. This is what didn't always load properly, you get a white screen and may need to move the mouse around for it to show. Once you click confirm for age verification the game should load and you can play.<br> - Once you get to playing the game in desktop/big picture mode it should now load without issue in game mode. It seems to have full controller support too."
 controller_config: 
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Crystal of Atlan is a Magipunk MMO Action RPG! As a member of the Adventurer's Guild, you'll be missioned to explore the world of Atlan and gradually unveil the mysteries around the Crystals of Atlan, the source of all energy in the world!
+Crystal of Atlan is a Magicpunk MMO Action RPG where you can immerse yourself in a Magicpunk world. Build your skills, fight and uncover the secrets of this world with your allies! Time to embark on a wondrous journey of Magic and Machinery!

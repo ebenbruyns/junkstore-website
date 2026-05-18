@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fate/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "May '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.73
+protondb_total: 28
+protondb_confidence: "good"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: WildTangent
 developer: WildTangent
 genre: Role-playing (RPG), Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB)
+age_ratings: {"esrb":{"rating":"e10"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "May 18, 2005"
-game_modes: ["Single player"]
+game_modes: ["Achievements","Cloud saves","Single-player"]
 languages: ["English"]
+languages_audio: ["English"]
 tags_structured: []
+size: "286 MB"
+franchise_siblings: [{"rawg_id":21347,"slug":"fate-the-cursed-king","name":"FATE: The Cursed King"},{"rawg_id":21315,"slug":"fate-the-traitor-soul","name":"FATE: The Traitor Soul"},{"rawg_id":20798,"slug":"fate-undiscovered-realms","name":"FATE: Undiscovered Realms"}]
+franchise_slug: "fate|fate-the-cursed-king|fate-the-traitor-soul|fate-undiscovered-realms"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "12.5 hrs"
 hltb_main_extra: "14 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/246840"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FATE"
 metacritic_score: 80
-metacritic_url: "https://www.metacritic.com/game/pc/fate?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/fate/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

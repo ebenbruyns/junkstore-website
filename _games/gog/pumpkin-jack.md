@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/pumpkin-jack/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
 date_tested: "Oct '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.8
+protondb_total: 39
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Headup Games, Thunderful, Beep Japan
 developer: Nicolas Meyssonnier
 genre: Adventure, Indie, Platform
 franchise: 
-age_rating_summary: PEGI 12
+age_rating_summary: 12 (PEGI)
+age_ratings: {"pegi":{"rating":"12"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "October 23, 2020"
-game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","Italian","German","Russian","Turkish","Arabic","Spanish - Latin America","Simplified Chinese","Portuguese - Brazil","Japanese"]
+languages_audio: ["English","French"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"41","name":"Dark"},{"id":"229","name":"3D Platformer"},{"id":"624","name":"Monsters"},{"id":"1652","name":"night"},{"id":"460","name":"Endless"},{"id":"5222","name":"avoid"},{"id":"832","name":"Halloween"}]
+size: "2058 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "4.5 hrs"
 hltb_main_extra: "5.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/1186640"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Pumpkin_Jack"
 metacritic_score: 71
-metacritic_url: "https://www.metacritic.com/game/pc/pumpkin-jack?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/pumpkin-jack/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10405"
+opencritic_url: "https://opencritic.com/game/10405/-"
+opencritic_score: 74
+opencritic_review_count: 71
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10001111"
+playstation_url: "https://store.playstation.com/en-us/concept/10001111"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Add -dx11 to the target line after the executable.

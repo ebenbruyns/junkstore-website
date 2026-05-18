@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/shores-unknown/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "pending"
+protondb_score: 0.21
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Hitcents
 developer: Vallynne
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Tactical
 franchise: 
-age_rating_summary: 
+age_rating_summary: RP (ESRB)
+age_ratings: {"esrb":{"rating":"RP"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Linguagem imprópria, Conteúdo sexual"}}
 release_date: "February 17, 2021"
-game_modes: ["Single player"]
+game_modes: ["Controller support","Single-player"]
 languages: ["English"]
-tags_structured: []
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"66","name":"Medieval"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"230","name":"Tactical RPG"}]
+size: "4450 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "1 hrs"
 hltb_main_extra: "2.5 hrs"
 hltb_completionist: "3 hrs"
-hltb_url: "https://howlongtobeat.com/game/90471"
+hltb_url: "https://howlongtobeat.com/game/98863"
 
 # Links
 store_url: "https://www.gog.com/en/game/shores_unknown_demo"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shores_Unknown"
 metacritic_score: 
 metacritic_url: ""
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

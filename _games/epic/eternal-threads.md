@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/eternal-threads/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.6
+protondb_total: 14
+protondb_confidence: "moderate"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Secret Mode
@@ -19,10 +27,15 @@ developer: Cosmonaut Studios
 genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Mature 17+
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Drogas lícitas"}}
 release_date: "October 19, 2023"
 game_modes: ["Single player"]
-languages: ["English*","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese*languages with full audio support"]
+languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-10-18T15:00:00.000Z","end":"2023-10-25T15:00:00.000Z","type":null,"id":"921e40c4c69f4d728914ca2a4f0aa407"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7 hrs"
 hltb_main_extra: "8.5 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/eternal-threads-197169"
 protondb_url: "https://www.protondb.com/app/1046790"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Eternal_Threads"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/eternal-threads/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "13156"
+opencritic_url: "https://opencritic.com/game/13156/-"
+opencritic_score: 74
+opencritic_review_count: 33
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10004064"
+playstation_url: "https://store.playstation.com/en-us/concept/10004064"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

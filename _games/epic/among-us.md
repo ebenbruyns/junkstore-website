@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/among-us/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "unknown"
 date_tested: "Nov '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Innersloth
@@ -19,10 +27,15 @@ developer: Innersloth
 genre: Casual
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "December 18, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","Portuguese - Brazil","Spanish - Latin America","Spanish - Spain","Korean","Russian","French","Italian","German","Dutch","Japanese","Portuguese - Portugal","Simplified Chinese","Traditional Chinese"]
+languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":1002772,"slug":"among-us-3d-2","name":"Among Us 3D"},{"rawg_id":705663,"slug":"among-us-vr","name":"Among Us VR"}]
+franchise_slug: "among-us|among-us-3d-2|among-us-vr"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8.8 hrs"
 hltb_main_extra: "16.1 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/945360"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Among_Us"
 metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/pc/among-us?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/among-us/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "10238"
+opencritic_url: "https://opencritic.com/game/10238/-"
+opencritic_score: 80
+opencritic_review_count: 15
+twitch_id: "510218"
+twitch_url: ""
+playstation_id: "10002811"
+playstation_url: "https://store.playstation.com/en-us/concept/10002811"
+xbox_id: "9NG07QJNK38J"
+xbox_url: "https://www.xbox.com/games/store/-/9NG07QJNK38J"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Play with 4-15 player online or via local WiFi as you attempt to prepare your spaceship for departure, but beware as one or more random players among the Crew are Impostors bent on killing everyone!
+Play with 4-10 players online or via local WiFi as you attempt to prepare your spaceship for departure, but beware as one or more random players among the Crew are Impostors bent on killing everyone!

@@ -7,11 +7,19 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/masterplan-tycoon/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: ""
+protondb_score: 
+protondb_total: 
+protondb_confidence: ""
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Ravenage Games
@@ -19,10 +27,15 @@ developer: Doyoyo Games, Bureau Bravin
 genre: Strategy, Indie
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "March 9, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","German","Polish","Russian","Simplified Chinese","Traditional Chinese"]
+languages_audio: []
 tags_structured: []
+size: "116 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,11 +68,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "10.5 hrs"
 hltb_main_extra: "12 hrs"
 hltb_completionist: "14.5 hrs"
-hltb_url: "https://howlongtobeat.com/game/114221"
+hltb_url: "https://howlongtobeat.com/game/151262"
 
 # Links
 store_url: ""
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/masterplan-tycoon/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: ""
+opencritic_url: ""
+opencritic_score: 
+opencritic_review_count: 
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

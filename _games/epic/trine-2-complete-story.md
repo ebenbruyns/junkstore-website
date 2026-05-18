@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/trine-2-complete-story/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.88
+protondb_total: 31
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Frozenbyte
 developer: Frozenbyte
 genre: Puzzle, Action-Adventure, Platformer
 franchise: Trine
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: e10 (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Animated Blood, Fantasy Violence"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"oflc":{"rating":"PG"}}
 release_date: "December 31, 2025"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
-languages: ["English*","Finnish","French*","German*","Italian","Spanish - Spain*","Czech","Hungarian","Korean","Portuguese - Brazil"]
+languages: ["English","Finnish","French","German","Italian","Spanish - Spain","Czech","Hungarian","Korean","Portuguese - Brazil","Romanian","Russian","Turkish","Polish","Traditional Chinese"]
+languages_audio: ["English","French","German","Spanish - Spain"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "9 Hours"
 hltb_main_extra: ""
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/35720"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trine_2"
 metacritic_score: 84
-metacritic_url: "https://www.metacritic.com/game/pc/trine-2?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/trine-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "315"
+opencritic_url: "https://opencritic.com/game/315/-"
+opencritic_score: 87
+opencritic_review_count: 12
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

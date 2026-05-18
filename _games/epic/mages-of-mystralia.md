@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/mages-of-mystralia/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "gold"
+protondb_score: 0.61
+protondb_total: 22
+protondb_confidence: "good"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Borealys Games
 developer: Borealys Games
 genre: Action, Adventure, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "December 27, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Hungarian","Japanese","Korean","Polish"]
+languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21136","name":"Playful Visuals"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
+size: "4472 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-02-27T16:00:00.000Z","end":"2025-03-06T16:00:00.000Z","type":null,"id":"464a19f4865248b5948c9514af11d563"},{"start":"2021-12-26T15:00:00.000Z","end":"2021-12-27T15:00:00.000Z","type":null,"id":"464a19f4865248b5948c9514af11d563"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "8.5 hrs"
 hltb_main_extra: "11.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/529660"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mages_of_Mystralia"
 metacritic_score: 74
-metacritic_url: "https://www.metacritic.com/game/pc/mages-of-mystralia?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/mages-of-mystralia/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "4356"
+opencritic_url: "https://opencritic.com/game/4356/-"
+opencritic_score: 74
+opencritic_review_count: 43
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. There is no sound for the opening cinematic scene, but this seems to be an old issue."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Accompany Zia as she strikes off to train and learn to control her magical abilities that had her exiled. Journey across the lands to meet other exiled mages and uncover runes with magical properties that can be combined into millions of different possibilities, letting you come up with completely new and incredible spells!
+In a world of magic, your mind is your greatest weapon. Learn the ways of magic and design your own spells to fight enemies, navigate treacherous terrain, and right past wrongs in the kingdom of Mystralia.

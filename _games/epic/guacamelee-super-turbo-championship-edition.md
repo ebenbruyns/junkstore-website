@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/guacamelee-super-turbo-championship-edition/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.85
+protondb_total: 70
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: DrinkBox Studios
 developer: DrinkBox Studios
 genre: Fighting, Action-Adventure, Platformer
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: e10 (ESRB)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Blood, Suggestive Themes, Language, Use of Alcohol"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "June 15, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Portuguese - Brazil","Spanish - Latin America"]
+languages_audio: []
 tags_structured: [{"id":"1344","name":"Fighting"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-06-14T15:00:00.000Z","end":"2023-06-21T15:00:00.000Z","type":null,"id":"825a2a7eb70b458ab5b3cd9f5b3fa014"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "7 hrs"
 hltb_main_extra: "10 hrs"
@@ -66,8 +82,22 @@ store_url: "https://store.epicgames.com/en-US/p/guacamelee-stce-7cdbc8"
 protondb_url: "https://www.protondb.com/app/275390"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Guacamelee%21_Super_Turbo_Championship_Edition"
-metacritic_score: 87
-metacritic_url: "https://www.metacritic.com/game/guacamelee-super-turbo-championship-edition/"
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/guacamelee/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "241"
+opencritic_url: "https://opencritic.com/game/241/-"
+opencritic_score: 89
+opencritic_review_count: 53
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account, may need to be done in desktop/BPM."
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-"Guacamelee! STCE is an enhanced version of Guacamelee! Gold Edition that adds in two huge new levels, an explosive new ‘Intenso’ power mode, 4-player local co-op support and more. You’ll need to use every bit of your skill and power to defeat STCE’s new challenges (including a scheming new boss- El Trio de la Muerte), in addition to everything the original game's sprawling world has to throw at you."
+Guacamelee! is a Metroidvania-style action-platformer set in a magical Mexican-inspired world. The game draws its inspiration from traditional Mexican culture and folklore, and features many interesting and unique characters.

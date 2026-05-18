@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/darq/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.9
+protondb_total: 39
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Unfold Games
@@ -19,10 +27,15 @@ developer: Unfold Games
 genre: Horror, Puzzle, Adventure
 franchise: 
 age_rating_summary: 
+age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "October 28, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Portuguese - Brazil","Simplified Chinese","Dutch","Greek","Norwegian","Portuguese - Portugal","Swedish","Turkish","Ukrainian","Hungarian"]
+languages_audio: []
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21150","name":"Challenging Puzzles"}]
+size: ""
+franchise_siblings: [{"rawg_id":988970,"slug":"darq-the-crypt","name":"DARQ - The Crypt"}]
+franchise_slug: "darq|darq-the-crypt"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-10-27T15:00:00.000Z","end":"2021-11-03T15:00:00.000Z","type":null,"id":"0af5da05c76943f8a7da7cc65949ffd4"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "2.1 hrs"
 hltb_main_extra: "3.5 hrs"
@@ -69,6 +85,20 @@ pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/DARQ"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/darq/"
 
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "8118"
+opencritic_url: "https://opencritic.com/game/8118/-"
+opencritic_score: 73
+opencritic_review_count: 19
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
+
 # Notes
 notes: "Works out of the box!"
 controller_config: Native Steam Deck Controls
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Darq tells the story of Lloyd, a boy who becomes aware of the fact that he is dreaming. To Lloyd's misfortune, the dream quickly turns into a nightmare and all attempts to wake up end in failure. While exploring the darkest corners of his subconscious, Lloyd learns how to survive the nightmare by bending the laws of physics and manipulating the fluid fabric of the dream world.
+DARQ tells the story of Lloyd, a boy who finds himself in the middle of a lucid nightmare. Unable to wake up, Lloyd has to face his fears and decipher the meaning of the dream.

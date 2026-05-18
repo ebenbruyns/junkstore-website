@@ -7,22 +7,35 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/max-the-curse-of-brotherhood/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "not-supported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 9
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Microsoft Studios, Wired Productions, Flashbulb Games, Stage Clear Studios
 developer: Press Play, Flashbulb Games, Stage Clear Studios
 genre: Adventure, Platform, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: e10 (ESRB) · 12 (PEGI)
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasty Violence, Mild Language"},"pegi":{"rating":"12","descriptors":"Bad Language, Violence"},"usk":{"rating":"6"},"cero":{"rating":"B"},"oflc":{"rating":"PG","descriptors":"Mild Violence"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"A","descriptors":"PG"},"csrr":{"rating":"C12","descriptors":"Violence and Inappropriate Language"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "December 20, 2013"
 game_modes: ["Single player"]
-languages: ["English"]
-tags_structured: []
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil"]
+languages_audio: ["English"]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"115","name":"Controller"},{"id":"82","name":"Magic"},{"id":"406","name":"Story"},{"id":"1867","name":"puzzles"},{"id":"624","name":"Monsters"},{"id":"2590","name":"fun"},{"id":"3068","name":"future"},{"id":"982","name":"run"},{"id":"8604","name":"kid"}]
+size: ""
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: false
+
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "8 hrs"
@@ -68,6 +84,20 @@ protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Max:_The_Curse_of_Brotherhood"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/max-the-curse-of-brotherhood/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "1450"
+opencritic_url: "https://opencritic.com/game/1450/-"
+opencritic_score: 69
+opencritic_review_count: 66
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: "C0SFCF4PBRSZ"
+xbox_url: "https://www.xbox.com/games/store/-/C0SFCF4PBRSZ"
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"

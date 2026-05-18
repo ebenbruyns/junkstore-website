@@ -7,22 +7,35 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/borderlands-2/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.83
+protondb_total: 368
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: 2K Games, Aspyr Media, Sony Computer Entertainment of America
 developer: Gearbox Software
 genre: Role-playing (RPG), Shooter
 franchise: Borderlands
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: M (ESRB) · 18 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Language, Sexual Themes, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, PEGI Online"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"18","descriptors":"내용정보표지사항: 폭력성, 제명:  보더랜드 2, 이용등급: 청소년이용불가, 등급분류번호: CC-NP-120706-004, 등급분류일자: 20120706, 상호: 테이크투인터렉티브유한회사, 제작.배급업 신고번호: 제 2009-00016호, ----------------------------------, Game Descriptive: Violence, Title Name: Borderlands 2, Age: 18+, Certificate #: CC-NP-120706-004, Issue date: 20120706, Company Name:테이크투인터렉티브유한회사, Distributor No,: 제 2009-00016호"},"dejus":{"rating":"16","descriptors":"Violence, Drugs, Sex"}}
 release_date: "September 18, 2012"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
-languages: ["English"]
+languages: ["English","French","German","Italian","Japanese","Spanish - Spain","Korean","Traditional Chinese"]
+languages_audio: ["English","French","German","Italian","Japanese","Spanish - Spain"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1333","name":"Action RPG"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: ""
+franchise_siblings: [{"rawg_id":836447,"slug":"new-tales-from-the-borderlands","name":"New Tales from the Borderlands"},{"rawg_id":614962,"slug":"tiny-tinas-wonderlands","name":"Tiny Tina's Wonderlands"},{"rawg_id":692541,"slug":"tiny-tinas-assault-on-dragon-keep-a-wonderlands-on","name":"Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure"},{"rawg_id":58617,"slug":"borderlands-3","name":"Borderlands 3"},{"rawg_id":2100,"slug":"tales-from-the-borderlands","name":"Tales from the Borderlands: A Telltale Game Series"},{"rawg_id":3388,"slug":"borderlands-the-handsome-collection","name":"Borderlands: The Handsome Collection"},{"rawg_id":3543,"slug":"borderlands-the-pre-sequel","name":"Borderlands: The Pre-Sequel"},{"rawg_id":330906,"slug":"borderlands-legends","name":"Borderlands Legends"},{"rawg_id":4828,"slug":"borderlands","name":"Borderlands"}]
+franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|borderlands-the-handsome-colle|borderlands-the-pre-sequel|new-tales-from-the-borderlands|tales-from-the-borderlands|tiny-tinas-assault-on-dragon-k|tiny-tinas-wonderlands"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "30.1 hrs"
 hltb_main_extra: "54.8 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/49520"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Borderlands_2"
 metacritic_score: 89
-metacritic_url: "https://www.metacritic.com/game/pc/borderlands-2?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/borderlands-2/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "9755"
+opencritic_url: "https://opencritic.com/game/9755/-"
+opencritic_score: 86
+opencritic_review_count: 23
+twitch_id: ""
+twitch_url: ""
+playstation_id: ""
+playstation_url: ""
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. UHD DLC not yet working in Junk-Store"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-A new era of shoot and loot is about to begin. Play as one of four new vault hunters facing off against a massive new world of creatures, psychos and the evil mastermind, Handsome Jack. Make new friends, arm them with a bazillion weapons and fight alongside them in 4 player co-op on a relentless quest for revenge and redemption across the undiscovered and unpredictable living planet.
+The time is now to take out Handsome Jack.  Gather up your friends as you run rampant through the world collecting bazillions of loot and guns in an effort to save Pandora from the evil grips of the Hyperion Corporation.

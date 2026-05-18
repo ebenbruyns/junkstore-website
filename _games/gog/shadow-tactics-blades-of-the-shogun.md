@@ -7,22 +7,35 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/shadow-tactics-blades-of-the-shogun/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.78
+protondb_total: 43
+protondb_confidence: "strong"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Daedalic Entertainment, Kalypso
 developer: Mimimi Games
 genre: Strategy, Tactical
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 16 (USK)
+age_ratings: {"usk":{"rating":"16"}}
 release_date: "December 6, 2016"
-game_modes: ["Single player"]
-languages: ["English*","French","German","Spanish - Spain","Japanese*","Polish","Russian","Korean","Simplified Chinese","Portuguese - Brazil"]
+game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+languages: ["English","French","German","Spanish - Spain","Japanese","Polish","Russian","Korean","Simplified Chinese","Portuguese - Brazil","Italian","Traditional Chinese","Turkish"]
+languages_audio: ["English","Japanese"]
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1120","name":"RTS"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "3958 MB"
+franchise_siblings: [{"rawg_id":598872,"slug":"shadow-tactics-blades-of-the-shogun-aikos-choice","name":"Shadow Tactics: Blades of the Shogun - Aiko's Choice"}]
+franchise_slug: "shadow-tactics|shadow-tactics-blades-of-the-s"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "24.5 hrs"
 hltb_main_extra: "30.5 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/418240"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shadow_Tactics:_Blades_of_the_Shogun"
 metacritic_score: 85
-metacritic_url: "https://www.metacritic.com/game/pc/shadow-tactics-blades-of-the-shogun?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/shadow-tactics-blades-of-the-shogun/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "3310"
+opencritic_url: "https://opencritic.com/game/3310/-"
+opencritic_score: 83
+opencritic_review_count: 77
+twitch_id: ""
+twitch_url: ""
+playstation_id: "227190"
+playstation_url: "https://store.playstation.com/en-us/concept/227190"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Shadow Tactics is a hardcore tactical stealth game set in Japan around the Edo period. A new Shogun seizes power over Japan and enforces nationwide peace. In his battle against conspiracy and rebellion, he recruits five specialists with extraordinary skills for assassination, sabotage and espionage.
+Shadow Tactics is a hardcore tactical stealth game set in Japan around the Edo period. A new Shogun seizes power over Japan and enforces nationwide peace. He recruits five specialists with extraordinary skills for assassination, sabotage and espionage.

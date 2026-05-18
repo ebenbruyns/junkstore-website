@@ -7,11 +7,19 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-darkside-detective-a-fumble-in-the-dark/
 
-# Compatibility
+# Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Feb '26"
 proton_version: ""
+
+# Compat ratings (community / Steam)
+protondb_tier: "platinum"
+protondb_score: 0.61
+protondb_total: 8
+protondb_confidence: "low"
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Akupara Games
@@ -19,10 +27,15 @@ developer: Spooky Doorway
 genre: Exploration, Comedy, Adventure
 franchise: 
 age_rating_summary: ESRB Teen
+age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas"}}
 release_date: "November 1, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Spanish - Spain","German","Simplified Chinese"]
+languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21126","name":"Silly Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1116","name":"Comedy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "338 MB"
+franchise_siblings: []
+franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-02-12T16:00:00.000Z","end":"2026-02-19T16:00:00.000Z","type":null,"id":"9e3c580751a94c6d8a1b8b08b2e3d21f"}]
@@ -55,6 +68,9 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# Native Linux support (Steam appdetails — Mac intentionally not tracked)
+native_linux: true
+
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "11 hrs"
@@ -67,7 +83,21 @@ protondb_url: "https://www.protondb.com/app/795420"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Darkside_Detective:_A_Fumble_in_the_Dark"
 metacritic_score: 84
-metacritic_url: "https://www.metacritic.com/game/pc/the-darkside-detective-a-fumble-in-the-dark?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/the-darkside-detective-a-fumble-in-the-dark/"
+
+# Cross-Catalog IDs (Game Catalog API)
+opencritic_id: "11221"
+opencritic_url: "https://opencritic.com/game/11221/-"
+opencritic_score: 81
+opencritic_review_count: 12
+twitch_id: ""
+twitch_url: ""
+playstation_id: "10001277"
+playstation_url: "https://store.playstation.com/en-us/concept/10001277"
+xbox_id: ""
+xbox_url: ""
+geforcenow_id: ""
+geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -81,4 +111,4 @@ is_featured: false
 owned: true
 ---
 
-Delouse your room with sage and pack up your travel-sized ouija board, it's time to re-enter Twin Lakes - America's 34th most haunted city. Join Detective McQueen as he puzzles his way through 6 chilling cases, risking life and pixelated limb to solve the macabre mysteries that plague the poor town.
+Join Detective McQueen as he puzzles his way through 6 cases, risking life and pixelated limb to solve the macabre mysteries that plague the poor town.
