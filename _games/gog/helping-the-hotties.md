@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez, Drogas ilícitas, Medo"}}
 release_date: "August 31, 2023"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","Simplified Chinese","Turkish","Russian","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","English","Russian","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"468","name":"role-playing"}]
 size: "5250 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3847d0c7fc37d7909292bef4e963e774d48cbb3ce23730bdd21a9d333154e01e.jpg?namespace=gamesdb"

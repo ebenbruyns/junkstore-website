@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Conteúdo sexual, Drogas ilícitas"}}
 release_date: "August 23, 2022"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Japanese","Simplified Chinese","Spanish - Latin America","Polish","Russian","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Latin American Spanish","French","Japanese","Polish","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"99","name":"Isometric"},{"id":"203","name":"Beat 'em up"},{"id":"166","name":"Stylized"},{"id":"151","name":"Modern"}]
 size: "5944 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7b61195ce8c1e958f04e8de1d93aa1547ad2b6de1d1fbdfa169ed33d83b8b1d4.jpg?namespace=gamesdb"

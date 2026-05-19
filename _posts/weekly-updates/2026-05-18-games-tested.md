@@ -1,15 +1,14 @@
 ---
 layout: junkstore-post
-title: "Batman: The Telltale Series & Batman: The Telltale Series + 4 More - Steam Deck Tested | May 18"
-date: 2026-05-18 12:00:00 +1200
+title: "The Telltale Batman: Shadows Edition + 4 More - Steam Deck Tested | May 20"
+date: 2026-05-20 08:00:00 +1200
 categories: [Weekly Update, Game Compatibility]
 tags: [junk-store, steam-deck]
-slug: "games-tested-may-18"
-excerpt: "Steam Deck compatibility: Batman: The Telltale Series, Batman: The Telltale Series, Sunderfolk + 3 more. Tested with GE-Proton - Junk Store Game Mode setup included."
-description: "6 Epic, GOG & Amazon games tested on Steam Deck this week: Batman: The Telltale Series, Batman: The Telltale Series, Sunderfolk. Get working Proton settings and compatibility notes for Game Mode play."
+slug: "games-tested-may-20"
+excerpt: "Steam Deck compatibility: The Telltale Batman: Shadows Edition, Sunderfolk + 3 more. Tested with GE-Proton - Junk Store Game Mode setup included."
+description: "5 Epic, GOG & Amazon games tested on Steam Deck this week: The Telltale Batman: Shadows Edition, Sunderfolk. Get working Proton settings and compatibility notes for Game Mode play."
 featured_games:
-  - { store: epic, slug: batman-the-telltale-series }
-  - { store: epic, slug: batman-the-telltale-series }
+  - { store: epic, slug: the-telltale-batman-shadows-edition }
   - { store: epic, slug: sunderfolk }
   - { store: epic, slug: lethal-honor-order-of-the-apocalypse }
   - { store: gog, slug: 60-minutes-to-extinction-escape-room }
@@ -22,23 +21,15 @@ toc: true
 
 Kia ora Everyone!
 
-[This will be a placeholder for a personal update about boat life, travel, or current situation - keep it conversational and authentic]
+We've had one stunner of a week weatherwise! Crisp, clear autumn days, blue skies and sun shining! Unfortunately we've got rain forecast for the next couple of days, and today is already threatening rain and overcast. All good though, we're rugged up on the boat, cranking away on our own tasks.
 
-[IMPORTANT STYLE NOTES: Keep it clear, concise, and well-paced. No waffle. Cut unnecessary words. Make it flow smoothly. Edit for clarity and readability - not just typos/grammar.]
-
-## Housekeeping Notes
-
-A few quick updates before we dive into the games:
-
-* **Junk Store Pro 3.0 Released:** The big update is here! Highlights include built-in SteamGridDB support, a File Manager, Disk Analyser, and Process Manager. <a href="/blog/junk-store-3-release/" target="_blank" rel="noopener">Read the full announcement →</a>
-* **Decky Loader Conflict Resolved:** The conflict has been resolved in version 3.0. You can now download from Stable without issue.
-* **GOG Extension:** Exclusively available through the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a>.
+While Eben has been coding his butt off, I've been steadily working on the new individual game pages, improving metadata and tidying up other bits of the website. Would be nice to step away for a bit, but we both feel guilty when we do. If we do sneak in a break, we end up thinking about all the stuff we <em>should</em> be doing instead. Catch-22 if ever there was one. Anyway, there are some fun games this week, a few from my fave genre, which made testing even more enjoyable. Hope you all had an awesome weekend and that you're having a fantastic week so far!
 
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: v3.0.1.0 (Stable Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)
 * **GOG Extension**: v0.1.11 (can be purchased from the [Junk Store Portal](https://portal.junkstore.xyz/))
-* **Decky Loader**: v3.2.3 (Prerelease)
+* **Decky Loader**: v3.2.4 (Prerelease)
 * **Proton**: GE-Proton 10.26
 * **SteamOS**: v3.7.24 (Stable)
 
@@ -46,23 +37,14 @@ A few quick updates before we dive into the games:
 
 ### Epic Games Giveaway
 
-This week featuring Batman: The Telltale Series, Batman: The Telltale Series, Sunderfolk.
+This week featuring The Telltale Batman: Shadows Edition and Sunderfolk.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/250ccff8d12d830837fd02af300378681caaa8ce4f85b9c462ef20a4c4471393.jpg?namespace=gamesdb" alt="Batman: The Telltale Series" class="game-thumbnail">
+  <img src="https://images.gog.com/250ccff8d12d830837fd02af300378681caaa8ce4f85b9c462ef20a4c4471393.jpg?namespace=gamesdb" alt="The Telltale Batman: Shadows Edition" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/epic/batman-the-telltale-series/">Batman: The Telltale Series</a></strong> <span class="store-badge epic">Epic</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
-    <a href="/games/epic/batman-the-telltale-series/" class="view-details">View compatibility details →</a>
-  </div>
-</div>
-
-<div class="game-entry">
-  <img src="https://images.gog.com/250ccff8d12d830837fd02af300378681caaa8ce4f85b9c462ef20a4c4471393.jpg?namespace=gamesdb" alt="Batman: The Telltale Series" class="game-thumbnail">
-  <div class="game-details">
-    <strong><a href="/games/epic/batman-the-telltale-series/">Batman: The Telltale Series</a></strong> <span class="store-badge epic">Epic</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
-    <a href="/games/epic/batman-the-telltale-series/" class="view-details">View compatibility details →</a>
+    <strong><a href="/games/epic/the-telltale-batman-shadows-edition/">The Telltale Batman: Shadows Edition</a></strong> <span class="store-badge epic">Epic</span>
+    <p class="game-blurb">Worked out of the box and ran smoothly in testing. Not really my genre, so I won't pretend to be a fan. But with both seasons (10 episodes!) plus the new Shadows Mode all bundled together, it looks like a decent pickup for any Batman fan!</p>
+    <a href="/games/epic/the-telltale-batman-shadows-edition/" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
@@ -70,7 +52,7 @@ This week featuring Batman: The Telltale Series, Batman: The Telltale Series, Su
   <img src="https://images.gog.com/5e3c7975110f3ea1d9e56f23fe7c12e0247c964bcfe8121cd7f598734c73da8f.jpg?namespace=gamesdb" alt="Sunderfolk" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/epic/sunderfolk/">Sunderfolk</a></strong> <span class="store-badge epic">Epic</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
+    <p class="game-blurb">I really enjoyed testing this one. Then again, I'm biased: I loved playing Gloomhaven, and Sunderfolk is very similar in both look and mechanics. If you like that sort of thing, you'll enjoy this too. Solo testing was fun, but I'll need to get Eben to tear himself away from coding for a proper gaming session.</p>
     <a href="/games/epic/sunderfolk/" class="view-details">View compatibility details →</a>
   </div>
 </div>
@@ -83,7 +65,7 @@ This week featuring Lethal Honor: Order of the Apocalypse, 60 Minutes to Extinct
   <img src="https://images.gog.com/cc0ad5d600548b8999e6ede3f0394d21285fe303c46f3142525818556037edbc.jpg?namespace=gamesdb" alt="Lethal Honor: Order of the Apocalypse" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/epic/lethal-honor-order-of-the-apocalypse/">Lethal Honor: Order of the Apocalypse</a></strong> <span class="store-badge epic">Epic</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
+    <p class="game-blurb">What a potty-mouthed superhero! I felt like I was playing some kind of Deadpool game, and it was crack-up. The graphic novel artwork, commentary, and gameplay are all fun and easy to pick up. Keen to play more and chase down some achievements.</p>
     <a href="/games/epic/lethal-honor-order-of-the-apocalypse/" class="view-details">View compatibility details →</a>
   </div>
 </div>
@@ -92,7 +74,7 @@ This week featuring Lethal Honor: Order of the Apocalypse, 60 Minutes to Extinct
   <img src="https://images.gog.com/566b348539a79ae799edd79eca7dd699935e7dae0b9715db80ca3b494122fd63.jpg?namespace=gamesdb" alt="60 Minutes to Extinction: Escape Room" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/gog/60-minutes-to-extinction-escape-room/">60 Minutes to Extinction: Escape Room</a></strong> <span class="store-badge gog">GOG</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
+    <p class="game-blurb">I was hooked at the first puzzle! This one's staying on my Steam Deck until I manage to play through it! I've said it before, so forgive me, but I LOVE these types of games! I showed restraint and didn't go above my allotted testing time. The game itself gives you 60 minutes to complete it. Might give it another crack tonight to see if I can!</p>
     <a href="/games/gog/60-minutes-to-extinction-escape-room/" class="view-details">View compatibility details →</a>
   </div>
 </div>
@@ -101,7 +83,7 @@ This week featuring Lethal Honor: Order of the Apocalypse, 60 Minutes to Extinct
   <img src="https://m.media-amazon.com/images/I/91ENK-vkosL.jpg" alt="Survival: Fountain of Youth" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/amazon/survival-fountain-of-youth/">Survival: Fountain of Youth</a></strong> <span class="store-badge amazon">Amazon</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
+    <p class="game-blurb">This one got me hook, line, and sinker, but then again I do LOVE this genre. I gathered up so much stuff I overburdened myself too many times to count. I had a lot of trouble trying to spear a crab. I think it took me 30 minutes, on and off, before I finally got one. Those suckers are fast! Heads up for GOG fans: this is on the Dreamlist right now, so go cast your vote!</p>
     <a href="/games/amazon/survival-fountain-of-youth/" class="view-details">View compatibility details →</a>
   </div>
 </div>
@@ -113,14 +95,15 @@ This week featuring Lethal Honor: Order of the Apocalypse, 60 Minutes to Extinct
 Next up on the free games front:
 
 **Epic Games:**
-<!-- EPIC: Replace GAME-SLUG and Game Title -->
-Epic's got <a href="https://store.epicgames.com/en-US/p/GAME-SLUG" target="_blank" rel="noopener">Game Title</a> coming this week.
+Epic has 2 mystery games this week, just like last. Wonder what they'll be?
 
 **Amazon Prime Gaming:**
-<!-- PRIME GOG: Replace game-slug and Game Title -->
-Amazon Prime Gaming has a couple worth grabbing too: a GOG code for <a href="https://www.gog.com/en/game/game-slug" target="_blank" rel="noopener">Game Title</a>
-<!-- PRIME EPIC: Replace game-slug and Game Title -->
-and an Epic code for <a href="https://store.epicgames.com/en-US/p/game-slug" target="_blank" rel="noopener">Game Title</a>. We'll get these tested once they're live.
+Three GOG codes dropping on May 21:
+- <a href="https://www.gog.com/en/game/space_grunts" target="_blank" rel="noopener">Space Grunts</a>
+- <a href="https://www.gog.com/en/game/palindrome_syndrome_escape_room" target="_blank" rel="noopener">Palindrome Syndrome: Escape Room</a> (whoop whoop, another escape room game!)
+- <a href="https://www.gog.com/en/game/hot_brass" target="_blank" rel="noopener">Hot Brass</a>
+
+We'll get these tested once they're live.
 
 Got questions or want to share what you're keen to try? Flick us a message on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a> or <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a>
 

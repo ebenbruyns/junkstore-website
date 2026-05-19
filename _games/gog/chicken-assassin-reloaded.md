@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Mild Blood, Suggestive Themes, Use of Tobacco"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12","descriptors":"Violence, Sexual Innuendo, Tobacco Use"},"dejus":{"rating":"14","descriptors":"Violência, Drogas lícitas, Conteúdo sexual"}}
 release_date: "June 27, 2016"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Russian"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Russian"]
 languages_audio: []
 tags_structured: []
 size: "337 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6de07b1ba8163cebdd1f15959b4f4984e6dd51bee7b4a76b9b632458c9893039.jpg?namespace=gamesdb"

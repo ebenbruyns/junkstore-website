@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Conteúdo sexual, Drogas lícitas, Violência fantasiosa"}}
 release_date: "March 11, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Japanese","Portuguese - Brazil","Russian","Italian","Korean","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"25","name":"Space"},{"id":"406","name":"Story"},{"id":"136","name":"Music"},{"id":"179","name":"Cartoon"},{"id":"295","name":"Soundtrack"},{"id":"774","name":"nature"},{"id":"1709","name":"work"},{"id":"1221","name":"history"},{"id":"626","name":"cats"},{"id":"3046","name":"destroy"},{"id":"2232","name":"journey"},{"id":"1626","name":"collection"},{"id":"1129","name":"art"},{"id":"892","name":"love"},{"id":"1081","name":"adult"},{"id":"753","name":"god"},{"id":"2774","name":"learn"},{"id":"1994","name":"tap"},{"id":"3598","name":"jazz"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a771450f277c5f0b0458465558ad6aa295cc92c403c1c0c1681195d44c2649dd.jpg?namespace=gamesdb"

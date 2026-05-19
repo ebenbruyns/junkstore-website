@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 16 (USK)
 age_ratings: {"usk":{"rating":"16"},"dejus":{"rating":"6"}}
 release_date: "December 14, 2016"
-game_modes: ["Achievements","Controller support","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Korean"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Korean","Russian"]
 languages_audio: ["English"]
 tags_structured: []
 size: "18232 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/08086b0642fa0517a2248d058053788cd30de9857751be9de7f407d517390015.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 7 (PEGI) · 6 (USK)
 age_ratings: {"pegi":{"rating":"7"},"usk":{"rating":"6"},"dejus":{"rating":"L"}}
 release_date: "January 29, 2016"
-game_modes: ["Achievements","Controller support","Multi-player","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Japanese"]
+game_modes: ["Multi-player","Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"16","name":"Horror"},{"id":"4","name":"Funny"},{"id":"49","name":"Difficult"},{"id":"397","name":"Online multiplayer"},{"id":"14","name":"Early Access"},{"id":"11669","name":"stats"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"107","name":"Family Friendly"},{"id":"114","name":"Physics"},{"id":"120","name":"Memes"},{"id":"178","name":"Illuminati"},{"id":"625","name":"party"},{"id":"161","name":"Golf"},{"id":"23","name":"Mini Golf"}]
 size: "4947 MB"
@@ -39,6 +39,7 @@ franchise_slug: "golf-with-your-friends|golf-with-your-friends-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/5e108e41584351b1d7a2a8c90eae1b198ab0cec7698e402c4001e8409fa283f5.jpg?namespace=gamesdb"

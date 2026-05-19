@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Language"},"pegi":{"rating":"16","descriptors":"Bad language"},"cero":{"rating":"B","descriptors":"Violence"},"oflc":{"rating":"M","descriptors":"Violence, Coarse language"},"nzoflc":{"rating":"M","descriptors":"Violence, Coarse language"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "April 25, 2017"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Portuguese - Portugal","Simplified Chinese","Polish","Korean"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Japanese","Korean","Polish","Portuguese","Russian"]
 languages_audio: ["English"]
 tags_structured: []
 size: "1761 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b15dbf73a2de6300ea9ab7d2796bc7d23629255a5cfbd3b2f0b1176f85fcba47.jpg?namespace=gamesdb"

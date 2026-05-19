@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Mild Violence, Mild Language, Alcohol Reference"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Mild themes and battle violence, online interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild themes and battle violence, online interactivity"},"kgrb":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "November 18, 2021"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player","Multi-player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Korean","Italian","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"397","name":"Online multiplayer"},{"id":"89","name":"Historical"},{"id":"101","name":"Turn-Based Strategy"},{"id":"212","name":"4X"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7a909f1134eaee90d4756c48706e9682e8eff34bf4f13474f0d85a57626c31ee.jpg?namespace=gamesdb"

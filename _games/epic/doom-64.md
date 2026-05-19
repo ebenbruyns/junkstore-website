@@ -29,7 +29,7 @@ franchise: DOOM
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence"},"usk":{"rating":"18","descriptors":"Explicit Violence"},"oflc":{"rating":"ma15","descriptors":"Strong Themes, Strong Violence"},"csrr":{"rating":"R","descriptors":"Anti-social Characteristics, Violence"},"dejus":{"rating":"16","descriptors":"Inappropriate Language, Violence"}}
 release_date: "August 18, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1198","name":"Retro"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "doom|doom-2|doom-3|doom-3-resurrection-of-evil|doom-64|doom-ete
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-08-17T15:00:00.000Z","end":"2022-08-24T15:00:00.000Z","type":null,"id":"4d14124e8e9c484381db3be1e2118e8a"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/18ec6024b64845034fac0fd1366740da096322c4eea93d4d98fcf8f8bc2ea7b8.jpg?namespace=gamesdb"

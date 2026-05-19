@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Violence"},"pegi":{"rating":"16","descriptors":"Realistic looking violence - Strong language - Encouragement of the use of alcohol/tobacco - Use of illegal drugs"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Medium level animated violence"},"nzoflc":{"rating":"M"},"csrr":{"rating":"R"},"dejus":{"rating":"18"}}
 release_date: "December 2, 2003"
-game_modes: ["Cloud saves","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"15","name":"Stealth"},{"id":"97","name":"Action RPG"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"178","name":"Illuminati"},{"id":"42473","name":"Immersive Sim"},{"id":"291","name":"Conspiracy"},{"id":"301","name":"Transhumanism"}]
@@ -39,6 +39,7 @@ franchise_slug: "deus-ex|deus-ex-2-invisible-war|deus-ex-go|deus-ex-human-revolu
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/482d5f3bfd82414b93b6b5ebc479ed25c38b5081e586b774a01041f87b0b8ddf.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Language, Nudity, Strong Sexual Content"},"pegi":{"rating":"18"},"usk":{"rating":"16"},"oflc":{"rating":"r18"},"nzoflc":{"rating":"r16"},"dejus":{"rating":"18"}}
 release_date: "February 26, 2016"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Greek","Portuguese - Brazil","Ukrainian","Spanish - Spain","Simplified Chinese","Traditional Chinese","Japanese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Greek","Italian","Japanese","Ukrainian","Chinese Traditional"]
 languages_audio: ["English","Italian","German","Japanese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"44","name":"Nudity"},{"id":"117","name":"Mystery"},{"id":"89","name":"Historical"},{"id":"33","name":"VR"},{"id":"91","name":"Walking Simulator"},{"id":"50","name":"Sexual Content"},{"id":"209","name":"Drama"},{"id":"200","name":"Narration"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"285","name":"Psychological"},{"id":"309","name":"Dynamic Narration"}]
 size: "3787 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/46702506e033775fbc1cbdaee01f60dcae59cfa571d36c38a76ed66c4791786d.jpg?namespace=gamesdb"

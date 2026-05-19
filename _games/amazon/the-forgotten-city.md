@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 16 (PEGI) · 16 (USK)
 age_ratings: {"pegi":{"rating":"16"},"usk":{"rating":"16"},"cero":{"rating":"Z"},"oflc":{"rating":"M","descriptors":"Mature themes, violence, coarse language"},"csrr":{"rating":"C15","descriptors":"Anti-social characteristics, Inappropriate language, sex, tobacco alcohol, violence"},"dejus":{"rating":"16","descriptors":"Drogas lícitas, Conteúdo sexual, Violência"}}
 release_date: "July 28, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","German","French","Spanish - Spain","Simplified Chinese","Russian","Japanese","Korean"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"6","name":"Exploration"},{"id":"40833","name":"Captions available"},{"id":"145","name":"Choices Matter"},{"id":"218","name":"Multiple Endings"},{"id":"271","name":"Remake"},{"id":"317","name":"Time Travel"},{"id":"108","name":"Mythology"},{"id":"319","name":"Silent Protagonist"},{"id":"302","name":"Time Manipulation"},{"id":"281","name":"Philisophical"},{"id":"292","name":"Rome"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/5ef9bb244635d784c999df8b94ae955202347102ec55e1cee7f02e329c3cc236.jpg?namespace=gamesdb"

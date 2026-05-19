@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 3 (PEGI)
 age_ratings: {"pegi":{"rating":"3"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "June 21, 2022"
-game_modes: ["Co-operative","Multiplayer","Battle Royale"]
+game_modes: ["Co-op","Multi-player","Battle Royale"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"39070","name":"iOS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/251b67d385f25865a1fbd90c7cbc9829b42567ef151f13890918813cda9fa2eb.jpg?namespace=gamesdb"

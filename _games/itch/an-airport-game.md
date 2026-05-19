@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "December 29, 2019"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"122","name":"Pixel Graphics"},{"id":"61","name":"Top-Down"},{"id":"14653","name":"wholesome"},{"id":"584","name":"Top Down Adventure"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn2.steamgriddb.com/logo_thumb/85db553d33449400ad49117cfd638a08.png"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Atos criminosos, Medo"}}
 release_date: "December 21, 2008"
-game_modes: ["Controller support","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: []
 size: "148 MB"
@@ -39,6 +39,7 @@ franchise_slug: "spelunky|spelunky-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/219a5aa29523249d3361af07426a4f348553d59ed9c0685cab10d158a2d00b58.jpg?namespace=gamesdb"

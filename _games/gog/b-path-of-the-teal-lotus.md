@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: E (ESRB)
 age_ratings: {"esrb":{"rating":"E"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "July 17, 2024"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Japanese","Simplified Chinese","Spanish - Latin America","Korean","Traditional Chinese","Ukrainian","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Latin American Spanish","French","Japanese","Korean","Ukrainian","Chinese Traditional"]
 languages_audio: []
 tags_structured: []
 size: ""
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1614440/library_hero.jpg"

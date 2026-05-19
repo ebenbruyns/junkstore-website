@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência, Medo"}}
 release_date: "August 25, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","French","German","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-08-24T15:00:00.000Z","end":"2022-08-31T15:00:00.000Z","type":null,"id":"4b5ba08363b5472f8c061d92c9a849db"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6da5d39f23e324e00db207860dbd0e92b029af6b1b6f44d862d56f51eaa17dfa.jpg?namespace=gamesdb"

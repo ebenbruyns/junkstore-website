@@ -27,7 +27,7 @@ developer: Critical Hit Games
 genre: Simulation, Narration, RPG
 franchise: 
 age_rating_summary: ESRB Mature 17+
-age_ratings: {"kgrb":{"rating":"19","descriptors":"선정성, 폭력성, 언어, 약물"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Temas sensíveis, Linguagem imprópria"}}
+age_ratings: {"kgrb":{"rating":"19"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Temas sensíveis, Linguagem imprópria"}}
 release_date: "February 12, 2026"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-02-12T16:00:00.000Z","end":"2026-02-19T16:00:00.000Z","type":null,"id":"9da459f7c3984877bd5a12bdc3b6b3af"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1939970/library_hero.jpg"

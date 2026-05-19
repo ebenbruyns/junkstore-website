@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "August 5, 2022"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"6","name":"Exploration"},{"id":"14","name":"Early Access"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"117","name":"Mystery"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"91","name":"Walking Simulator"},{"id":"138","name":"Relaxing"},{"id":"166","name":"Stylized"},{"id":"140","name":"Hidden Object"},{"id":"326","name":"Investigation"},{"id":"49955","name":"Puzzle Platformer"},{"id":"323","name":"Word Game"},{"id":"1234","name":"ambient"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/5faf0090fee453b76849dedc8e91d0fa2d381a4c92ac69d7fb0ffc0edb27dd10.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/1945780"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Under_The_Moon"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/under-the-moon/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: "14089"

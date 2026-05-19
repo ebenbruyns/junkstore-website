@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Drug Reference, Blood, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, In-Game Purchases"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence, Crime"},"oflc":{"rating":"ma15","descriptors":"Strong violence, online interactivity and in-game purchases"},"nzoflc":{"rating":"r18","descriptors":"Contains Violence"},"kgrb":{"rating":"19"},"fpb":{"rating":"18"},"csrr":{"rating":"R","descriptors":"Drugs, Objectionable Language, Alcohol and Tobacco, Violence"},"dejus":{"rating":"18","descriptors":"Linguagem imprópria, Drogas, Violência Extrema"}}
 release_date: "January 20, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1179","name":"VR"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "hitman|hitman-2|hitman-2-silent-assassin|hitman-3|hitman-3-cont
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/42e78663ea31db20b10173555c8c418be304bd60f3195fe9cd301851aa436ad0.jpg?namespace=gamesdb"

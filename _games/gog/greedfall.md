@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (USK)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Language, Partial Nudity, Suggestive Themes, Violence"},"usk":{"rating":"16"},"dejus":{"rating":"16","descriptors":"Violência, Drogas lícitas"}}
 release_date: "September 9, 2019"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"468","name":"role-playing"}]
 size: "19758 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3f4c1de3439c1f2eb2e1cdcce031b0f5463a0529de4cd649e96744a3c5c75d06.jpg?namespace=gamesdb"

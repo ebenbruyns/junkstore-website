@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "October 4, 2023"
-game_modes: ["Single-player","Multi-player","Co-op"]
+game_modes: ["Single-player","Online Multi-player","Local Multi-player","Co-op"]
 languages: ["English","Czech","Slovak","French","German","Spanish - Spain","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America","Russian","Traditional Chinese","Simplified Chinese"]
 languages_audio: ["English","Czech","Slovak","French","German","Spanish - Spain","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America","Russian","Traditional Chinese","Simplified Chinese"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1264","name":"Co-op"},{"id":"1283","name":"Sports"},{"id":"1299","name":"Competitive"},{"id":"19847","name":"Achievements"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/6666791b9d354f288ae95f6c243d45ff/lucky-goal-om9ft.png"

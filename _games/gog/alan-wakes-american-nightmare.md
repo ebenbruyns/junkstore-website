@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: ESRB 13
 age_ratings: {"dejus":{"rating":"14","descriptors":"Medo, Violência, Linguagem imprópria"}}
 release_date: "May 22, 2012"
-game_modes: ["Controller support","Single-player"]
-languages: ["English","German","French","Italian","Spanish - Spain","Japanese","Czech","Hungarian","Polish","Russian"]
+game_modes: ["Single-player"]
+languages: ["Czech","German","English","Spanish","French","Hungarian","Italian","Japanese","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"1","name":"Survival"},{"id":"115","name":"Controller"},{"id":"150","name":"Third-Person Shooter"},{"id":"17","name":"Survival Horror"},{"id":"336","name":"controller support"},{"id":"117","name":"Mystery"},{"id":"111","name":"Short"},{"id":"110","name":"Cinematic"},{"id":"142","name":"Detective"},{"id":"279","name":"Supernatural"},{"id":"183","name":"Thriller"}]
 size: "2381264613
@@ -40,6 +40,7 @@ franchise_slug: "alan-wake|alan-wake-2|alan-wakes-american-nightmare"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/202750/library_hero.jpg"

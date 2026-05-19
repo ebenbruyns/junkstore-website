@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "September 14, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"189","name":"Female Protagonist"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"167","name":"Futuristic"},{"id":"164","name":"Cartoony"},{"id":"59643","name":"Протагонистка"},{"id":"265","name":"Class-Based"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"310","name":"Runner"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn2.steamgriddb.com/logo_thumb/1c6ea3cdbb4eb6ec13bd3f42d635a140.png"

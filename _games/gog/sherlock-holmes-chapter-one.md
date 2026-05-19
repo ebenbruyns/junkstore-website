@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Sexual Content, Violence"},"pegi":{"rating":"16","descriptors":"Violence, Sex"},"usk":{"rating":"16","descriptors":"Referenced Sexual Violence, Sexual Innuendo, Violence"},"kgrb":{"rating":"18","descriptors":"Alcohol, Tobacco, Drug"},"dejus":{"rating":"14","descriptors":"Atos criminosos, Violência, Drogas lícitas"}}
 release_date: "November 1, 2021"
-game_modes: ["Achievements","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Turkish","Ukrainian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"117","name":"Mystery"},{"id":"145","name":"Choices Matter"},{"id":"1465","name":"combat"},{"id":"218","name":"Multiple Endings"},{"id":"144","name":"Crime"},{"id":"406","name":"Story"},{"id":"40937","name":"Steam Trading Cards"},{"id":"142","name":"Detective"},{"id":"209","name":"Drama"},{"id":"200","name":"Narration"},{"id":"572","name":"Emotional"},{"id":"2030","name":"city"},{"id":"285","name":"Psychological"},{"id":"183","name":"Thriller"},{"id":"207","name":"Rhythm"},{"id":"326","name":"Investigation"},{"id":"3109","name":"weapons"},{"id":"997","name":"island"},{"id":"1079","name":"environment"},{"id":"654","name":"blocks"}]
 size: "27146 MB"
@@ -39,6 +39,7 @@ franchise_slug: "sherlock-holmes-chapter-one|sherlock-holmes-the-awakened-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e1f5900921de222aee97305e10a2e2faf4783afe51630b515cb99290116d0c70.jpg?namespace=gamesdb"

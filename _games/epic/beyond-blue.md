@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Blood, Violent References"},"pegi":{"rating":"7"},"dejus":{"rating":"L"}}
 release_date: "June 11, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Dutch","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-02-06T16:00:00.000Z","end":"2025-02-13T16:00:00.000Z","type":null,"id":"c3006006e4c74c4d8316ff09fb8dcc8d"},{"start":"2023-04-19T15:00:00.000Z","end":"2023-04-26T15:00:00.000Z","type":null,"id":"c3006006e4c74c4d8316ff09fb8dcc8d"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6a760d12b1f5b37e91be7f88ec50b40eb9cdbf9990b15093357f640ecc1cf689.jpg?namespace=gamesdb"

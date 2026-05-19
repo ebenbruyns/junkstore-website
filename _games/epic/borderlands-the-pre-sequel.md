@@ -29,7 +29,7 @@ franchise: Borderlands
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Language, Sexual Themes, Violence"},"pegi":{"rating":"18","descriptors":"Gambling, Bad Language, Violence, Online Gameplay"},"usk":{"rating":"18","descriptors":"Not approved for young persons aged under 18"},"oflc":{"rating":"ma15","descriptors":"Strong violence, Online interactivity"},"nzoflc":{"rating":"r13","descriptors":"Violence, offensive language &amp; content that may disturb"},"kgrb":{"rating":"18","descriptors":"Violence, Improper Language"},"fpb":{"rating":"18","descriptors":"SCENES CONTAINING IMAGES OF ILLEGAL DRUGS, SCENES OF HORROR, STRONG LANGUAGE (SWEAR-WORDS, THREATS, ABUSE OR PREJUDICE), SCENES SHOWING PICTURES OF VIOLENCE"},"csrr":{"rating":"R","descriptors":"Sex, Violence, Improper Language"},"mda":{"rating":"AA16"},"dejus":{"rating":"14","descriptors":"Violencia"}}
 release_date: "October 14, 2014"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Korean"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|bor
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e9342572d8a2d3f62cb1cc3ded2ebe23f91a222a665cedfc481990ee3683960a.jpg?namespace=gamesdb"

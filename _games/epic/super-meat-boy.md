@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
 release_date: "October 20, 2010"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Russian"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
@@ -39,6 +39,7 @@ franchise_slug: "meat-boy|meat-boy-map-pack|super-meat-boy|super-meat-boy-foreve
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2018-12-27T15:00:00.000Z","end":"2019-01-09T15:00:00.000Z","type":null,"id":"58f2e8dff4a84c5796ebcbdd5d10fe34"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f5c3d428238480af0f36aabb18d0e5353c865151e7de6856575750dac1690b04.jpg?namespace=gamesdb"

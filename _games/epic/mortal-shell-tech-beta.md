@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1110910/library_hero.jpg"
@@ -82,7 +83,7 @@ store_url: "https://store.epicgames.com/en-US/p/mortal-shell"
 protondb_url: "https://www.protondb.com/app/1110910"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mortal_Shell"
-metacritic_score: 76
+metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/mortal-shell/"
 
 # Cross-Catalog IDs (Game Catalog API)

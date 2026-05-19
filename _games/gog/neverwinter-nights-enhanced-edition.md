@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Conteúdo sexual, Drogas lícitas, Linguagem imprópria"}}
 release_date: "March 27, 2018"
-game_modes: ["Cloud saves","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["German","English","Spanish","French","Italian","Polish"]
 languages_audio: ["English","French","German","Polish"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"411","name":"cooperative"},{"id":"9","name":"Online Co-Op"},{"id":"397","name":"Online multiplayer"},{"id":"574","name":"Dungeons & Dragons"}]
 size: "3282 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/fbbfef6da3721c646de8859e8fd6748016fa1d897a06a061c00ded562409bd8f.jpg?namespace=gamesdb"

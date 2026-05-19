@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: PEGI 7
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violence"}}
 release_date: "May 29, 2018"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Japanese","Polish","Russian","Korean","Portuguese - Brazil","Italian","Turkish","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Japanese","Korean","Polish","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"},{"id":"122","name":"Pixel Graphics"},{"id":"468","name":"role-playing"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"}]
 size: "677 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4a9cc8c7720bda3079c303ad0da5149d862509cb9a1e0ada5ddcf9ce89e30bb9.jpg?namespace=gamesdb"

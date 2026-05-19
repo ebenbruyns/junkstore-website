@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "October 10, 2024"
-game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
+game_modes: ["Single-player","Online Multi-player","Local Multi-player","Co-op"]
 languages: ["English","German","French","Russian","Italian","Portuguese - Brazil","Simplified Chinese","Greek"]
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1121","name":"Space"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1183","name":"Local Multiplayer"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-10T15:00:00.000Z","end":"2024-10-17T15:00:00.000Z","type":null,"id":"5d79a38c99e9432f8dec6288a17595ab"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ff04be25cc6a184f51483d25d6e530acb54015a5144db72d5eb4bd864f553a3c.jpg?namespace=gamesdb"

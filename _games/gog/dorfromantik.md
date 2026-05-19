@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 0 (USK)
 age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"L"}}
 release_date: "March 1, 2021"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","German","French","Italian","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Polish","Swedish","Spanish - Spain","Turkish","Arabic","Dutch","Hungarian","Japanese","Norwegian","Portuguese - Portugal","Ukrainian","Korean","Czech"]
+game_modes: ["Single-player"]
+languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Hungarian","Italian","Japanese","Dutch","Norwegian","Polish","Portuguese","Russian","Swedish","Turkish","Ukrainian","Chinese Traditional"]
 languages_audio: []
 tags_structured: []
 size: "333 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1455840/library_hero.jpg"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong violence, gaming experience may change online"},"nzoflc":{"rating":"r18"},"dejus":{"rating":"18","descriptors":"Sexo Explícito, Drogas ilícitas, Violência"}}
 release_date: "December 8, 2022"
-game_modes: ["Single player","Co-operative"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Italian","Spanish - Spain","Polish","Russian","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-h
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-12-07T15:00:00.000Z","end":"2022-12-14T15:00:00.000Z","type":null,"id":"23ea1157ec89467d99f9b0fdf0ddb89b"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e68b6f7a69a6b57822d20b320133be9a730c5723845064a19dbe437f22f2c7b8.jpg?namespace=gamesdb"

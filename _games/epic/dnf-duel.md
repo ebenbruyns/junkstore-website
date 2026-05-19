@@ -27,9 +27,9 @@ developer: NEOPLE Inc., Arc System Works, EIGHTING Co., Ltd.,
 genre: Fighting
 franchise: 
 age_rating_summary: 12 (USK) · M (OFLC)
-age_ratings: {"usk":{"rating":"12","descriptors":"Freigegeben ab 12 (zwölf) Jahren gemäß § 14 JuSchG"},"oflc":{"rating":"M","descriptors":"Fantasy themes and violence, online interactivity"},"kgrb":{"rating":"12","descriptors":"제명 : 던전앤파이터 듀얼(DNF DUEL), 이용등급 : 12세이용가, 내용정보표지사항 : 폭력성, 약물, 등급분류일자 : 2021.11.26, 등급분류번호 : GC-CC-NP-211126-006, 게임제작업자신고번호 : 성남시청 제2013-000044호, 대상 등급 기관 : GCRB 게임콘텐츠등급분류위원회"},"csrr":{"rating":"C12","descriptors":"遊戲情節：暴力,恐怖"},"dejus":{"rating":"12","descriptors":"Violência"}}
+age_ratings: {"usk":{"rating":"12","descriptors":"Freigegeben ab 12 (zwölf) Jahren gemäß § 14 JuSchG"},"oflc":{"rating":"M","descriptors":"Fantasy themes and violence, online interactivity"},"kgrb":{"rating":"12"},"csrr":{"rating":"C12"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "December 18, 2023"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player","Online Multi-player"]
 languages: ["English","Japanese","Korean","Simplified Chinese","German","Spanish - Spain","Traditional Chinese"]
 languages_audio: ["Japanese","Korean","Simplified Chinese"]
 tags_structured: [{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-08-08T15:00:00.000Z","end":"2024-08-15T15:00:00.000Z","type":null,"id":"9f314276c254423bb9b145480b5b150b"},{"start":"2023-12-19T15:00:00.000Z","end":"2023-12-20T15:00:00.000Z","type":null,"id":"9f314276c254423bb9b145480b5b150b"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/665ddc45adbcf76968efda55ab9314d545e75bdf1040a40683a05ec2a3bb35d9.jpg?namespace=gamesdb"

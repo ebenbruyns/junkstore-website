@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "December 22, 2024"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Local Multi-player","Co-op"]
 languages: ["English","Japanese","Korean","Simplified Chinese","French","German","Russian","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-12-22T16:00:00.000Z","end":"2024-12-23T16:00:00.000Z","type":null,"id":"9ac7a7323fb2401f92560174d5a384ff"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/00f7227ad310ef4efaab17b888cc07d44a4a0511ce35b7d9fc61a9cf9507a38a.jpg?namespace=gamesdb"

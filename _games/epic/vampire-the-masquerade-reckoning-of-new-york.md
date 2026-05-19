@@ -40,6 +40,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2658720/library_hero.jpg"
@@ -84,7 +85,7 @@ protondb_url: "https://www.protondb.com/app/2658720"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vampire:_The_Masquerade_-_Reckoning_of_New_York"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/vampire-the-masquerade-reckoning-of-new-york/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: "17511"

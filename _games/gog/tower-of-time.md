@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "April 12, 2018"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","German","Polish","Russian","French","Turkish","Simplified Chinese","Traditional Chinese","Italian"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","French","Italian","Polish","Russian","Turkish","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"14","name":"Early Access"},{"id":"468","name":"role-playing"},{"id":"77","name":"Realistic"},{"id":"48","name":"Dungeon Crawler"},{"id":"194","name":"Real-Time with Pause"},{"id":"205","name":"Lore-Rich"},{"id":"247","name":"Real Time Tactics"}]
 size: "5854 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/780130586ec53a743abed9b57cb0a3e7eb3a6bae08cef6c1310156c3e565a4f8.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 0 (USK)
 age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "February 10, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Spanish - Spain","Japanese","Simplified Chinese","Russian"]
 languages_audio: []
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-17T15:00:00.000Z","end":"2024-10-24T15:00:00.000Z","type":null,"id":"747d522e0451439590fa6647ae67f58a"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/712a3b54c0fb579e42e972a878852f951ae00750d022699abe3025eba873006a.jpg?namespace=gamesdb"

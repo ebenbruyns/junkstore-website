@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "March 21, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/425448b18315084765d0933ba78ddc231c5bd4690fd907bf0a75c5e967f8f300.jpg?namespace=gamesdb"

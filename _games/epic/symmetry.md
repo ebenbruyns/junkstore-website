@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/12979c6c16ec4c6a8d7735b4a821c443/symmetry-offer-1tgcn.png"

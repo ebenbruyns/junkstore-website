@@ -29,8 +29,8 @@ franchise: Kerbal Space Program
 age_rating_summary: E (ESRB) · PG (OFLC)
 age_ratings: {"esrb":{"rating":"E"},"oflc":{"rating":"PG","descriptors":"Mild themes"},"kgrb":{"rating":"ALL"},"dejus":{"rating":"L"}}
 release_date: "April 27, 2015"
-game_modes: ["Cloud saves","Overlay","Single-player"]
-languages: ["English","Spanish - Spain","Simplified Chinese","Japanese","Russian","French","Italian","German","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Russian"]
 languages_audio: []
 tags_structured: [{"id":"1281","name":"Space Sim"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21127","name":"Creative Community"},{"id":"1400","name":"Physics"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"}]
 size: "2033 MB"
@@ -39,6 +39,7 @@ franchise_slug: "kerbal-space-program|kerbal-space-program-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4d2680caf0bda7eeb4f90e3d9bccba500629cb0ec267dd1ec15bd38c9edcfec0.jpg?namespace=gamesdb"

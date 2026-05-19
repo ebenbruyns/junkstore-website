@@ -30,7 +30,7 @@ age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Violence"},"pegi":{"rating":"3"},"usk":{"rating":"6"},"oflc":{"rating":"M","descriptors":"Violence and sexual reference"},"kgrb":{"rating":"15"},"fpb":{"rating":"13"},"mda":{"rating":"AA16"},"dejus":{"rating":"12"}}
 release_date: "September 22, 2003"
 game_modes: ["Single-player"]
-languages: ["Danish","Dutch","English","French","German","Italian","Spanish - Spain","Swedish"]
+languages: ["Danish","German","English","Spanish","Finnish","French","Italian","Dutch","Norwegian","Polish","Portuguese","Swedish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"193","name":"Classic"},{"id":"37","name":"Sandbox"},{"id":"79","name":"Free to Play"},{"id":"62","name":"Moddable"},{"id":"39","name":"Building"},{"id":"67","name":"Management"},{"id":"194","name":"Real-Time with Pause"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"}]
 size: "1054 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d17a8f5a5c7022e84f6151c8f653497094160c1a8a206dbf17777728e52fb4cf.jpg?namespace=gamesdb"

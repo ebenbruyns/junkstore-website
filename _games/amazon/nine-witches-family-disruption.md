@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Crude Humor, Suggestive Themes, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence"},"usk":{"rating":"18","descriptors":"No Youth"},"oflc":{"rating":"ma15","descriptors":"Strong Crude Humor"},"kgrb":{"rating":"15","descriptors":"Alcohol, Tobacco, Drug, Violence"},"csrr":{"rating":"C15","descriptors":"Anti-Social Characteristics, Inappropriate Language, Sex, Violence"},"dejus":{"rating":"16","descriptors":"Inappropriate Language, Sexual Content, Violence"}}
 release_date: "December 3, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Spanish - Spain","French","German","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Japanese"]
 languages_audio: []
 tags_structured: []
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/22ef50b9bb659c874278feae4e884d1cf80c8811afb86889e79b0c196d7ee550.jpg?namespace=gamesdb"

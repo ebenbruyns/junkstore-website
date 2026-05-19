@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "March 27, 2023"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Spanish - Latin America","French","German","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["English","Latin American Spanish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"113","name":"Side Scroller"},{"id":"82","name":"Magic"},{"id":"259","name":"Metroidvania"},{"id":"205","name":"Lore-Rich"},{"id":"59643","name":"Протагонистка"},{"id":"40855","name":"Un jugador"},{"id":"60876","name":"Compat. total con mando"}]
 size: "1356 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/5a81fcaf2a7d39f552a9e9576e94ffe023c8ee6c87492fc13124b526a2b5d936.jpg?namespace=gamesdb"

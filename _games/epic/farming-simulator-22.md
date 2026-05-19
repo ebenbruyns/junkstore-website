@@ -29,7 +29,7 @@ franchise: Farming Simulator
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"cero":{"rating":"A"},"oflc":{"rating":"G"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"A"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
 release_date: "November 22, 2021"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Danish","Dutch","Finnish","Hungarian","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Swedish","Traditional Chinese","Turkish","Norwegian","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "farming-simulator|farming-simulator-14|farming-simulator-15|far
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-05-22T15:00:00.000Z","end":"2024-05-29T15:00:00.000Z","type":null,"id":"91468918931c44148b837e76d34bf75a"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9267539bb51e117b5365b99763608d34daf2d596926eca8027135cbdaea77af9.jpg?namespace=gamesdb"

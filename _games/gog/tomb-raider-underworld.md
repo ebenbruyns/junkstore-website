@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood,, Mild Language,, Mild Suggestive Themes,, Violence"},"pegi":{"rating":"16","descriptors":"Realistic looking violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Violence"},"nzoflc":{"rating":"M"},"kgrb":{"rating":"12"},"csrr":{"rating":"C15"},"dejus":{"rating":"12"}}
 release_date: "November 18, 2008"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Dutch"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"149","name":"Third Person"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"150","name":"Third-Person Shooter"},{"id":"188","name":"Parkour"},{"id":"133","name":"3D Vision"},{"id":"306","name":"Lara Croft"}]
 size: "6992 MB"
@@ -39,6 +39,7 @@ franchise_slug: "lara-croft-and-the-temple-of-o|lara-croft-go|lara-croft-gol|lar
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/429e15491fbd6cac76624d32fd3a7e7d2902c8ed0de9906fb954fd3835b84130.jpg?namespace=gamesdb"

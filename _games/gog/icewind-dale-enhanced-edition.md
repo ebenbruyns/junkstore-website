@@ -30,7 +30,7 @@ age_rating_summary: PEGI 12
 age_ratings: {"dejus":{"rating":"14","descriptors":"Conteúdo sexual, Linguagem imprópria, Violência fantasiosa"}}
 release_date: "October 30, 2014"
 game_modes: ["Co-op","Multi-player","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Turkish","Korean","Russian","Czech","Portuguese - Brazil","Simplified Chinese"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Italian","Korean","Polish","Russian","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"121","name":"Character Customization"},{"id":"99","name":"Isometric"},{"id":"194","name":"Real-Time with Pause"},{"id":"238","name":"CRPG"},{"id":"206","name":"Party-Based RPG"},{"id":"574","name":"Dungeons & Dragons"}]
 size: "2590 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b18034ce5cff70163c1134cba1edd00f204264c3610868486c3d1ce27ee59bf0.jpg?namespace=gamesdb"

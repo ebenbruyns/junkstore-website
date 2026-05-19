@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {}
 release_date: "September 4, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Turkish","Welsh","Vietnamese","Ukrainian","Swedish","Spanish (Latin America)","Slovak","Russian","Romanian","Portuguese (Brazil)","Portuguese","Polish","Serbian","Spanish (Spain)","Tagalog","Thai","Malay","Lithuanian","Korean","Japanese","Italian","Indonesian","Hungarian","Hindi","Hebrew","Greek","German","French","Finnish","Dutch","Croatian","Chinese (Traditional)","Chinese (Simplified)","Catalan","Arabic","Bulgarian","Danish","Czech","Norwegian"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/7ceb18d65aee4c36b5be5c745921b2f8/evergreen-valley-the-parkour-game-21pj0.png"

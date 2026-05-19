@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Drogas lícitas"}}
 release_date: "November 16, 2021"
-game_modes: ["Achievements","Co-op","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Japanese","Polish","Portuguese - Brazil"]
+game_modes: ["Co-op","Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Polish","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"64","name":"Fantasy"},{"id":"37","name":"Sandbox"},{"id":"1","name":"Survival"},{"id":"125","name":"Crafting"},{"id":"39","name":"Building"},{"id":"67","name":"Management"},{"id":"180","name":"Base Building"},{"id":"196","name":"Procedural Generation"},{"id":"194","name":"Real-Time with Pause"},{"id":"147","name":"Resource Management"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"}]
 size: "1745 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/214c5db887d358e4d2ce3fff0dd50c0272fe0fdac3303ae5a1c181ab4956006f.jpg?namespace=gamesdb"

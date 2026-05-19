@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 16 (USK)
 age_ratings: {"usk":{"rating":"16"}}
 release_date: "December 6, 2016"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Polish","Russian","Korean","Simplified Chinese","Portuguese - Brazil","Italian","Traditional Chinese","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Turkish","Chinese Traditional"]
 languages_audio: ["English","Japanese"]
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1120","name":"RTS"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "3958 MB"
@@ -39,6 +39,7 @@ franchise_slug: "shadow-tactics|shadow-tactics-blades-of-the-s"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/316714fc01d0c9678d119d2a9c096967483d22d5adfb593cb56fe5c45a28b8bd.jpg?namespace=gamesdb"

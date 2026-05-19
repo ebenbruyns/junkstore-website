@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 6 (USK)
 age_ratings: {"usk":{"rating":"6"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 9, 2023"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","German","French","Italian","Spanish - Spain","Japanese","Simplified Chinese"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese"]
 languages_audio: []
 tags_structured: []
 size: "1735 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a9c611f1e7e9411fa4fd31700c7b8c8162185d2dc0bfae394303c013f93937c8.jpg?namespace=gamesdb"

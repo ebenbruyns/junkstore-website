@@ -37,8 +37,9 @@ size: ""
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"_id":"69f36ee8175a0ecbe8ddcbf3","id":"40980262fdb24c149094f3febfe84cb6","namespace":"f14e8d865ad04b93a5df850ce7a59fe2","startDate":"2026-05-07T15:00:00.000Z","endDate":"2026-05-14T15:00:00.000Z","title":"Trash Goblin","__v":0}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/bfb6c5d24ffc0cec9a33b0c01d5fc2db56f1b8e2d53609541b7e8c981d0f791f.jpg?namespace=gamesdb"

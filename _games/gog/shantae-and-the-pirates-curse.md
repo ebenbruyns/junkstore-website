@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Violence, Sex"},"usk":{"rating":"6"},"oflc":{"rating":"G","descriptors":"Very Mild Violence"},"nzoflc":{"rating":"G","descriptors":"Very Mild Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Nudez, Violência"}}
 release_date: "October 22, 2014"
-game_modes: ["Controller support","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Japanese"]
 languages_audio: ["English"]
 tags_structured: []
 size: "441 MB"
@@ -39,6 +39,7 @@ franchise_slug: "shantae|shantae-and-the-pirates-curse|shantae-and-the-seven-sir
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/cf542305a5653970bd93093e9279fdf24ea12ec40f0ef20eefde120575f65faf.jpg?namespace=gamesdb"

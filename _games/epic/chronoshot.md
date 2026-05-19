@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "August 7, 2024"
-game_modes: ["Online Multiplayer","Single Player"]
+game_modes: ["Single-player","Online Multi-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/91abea567e824d16ab4b93c780573c1d/chronoshot-1p4mv.png"

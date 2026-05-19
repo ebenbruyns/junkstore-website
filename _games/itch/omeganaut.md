@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "May 2, 2019"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"25","name":"Space"},{"id":"571","name":"3D"},{"id":"639","name":"Roguelike"},{"id":"33","name":"VR"},{"id":"56","name":"Shoot 'Em Up"},{"id":"460","name":"Endless"},{"id":"1162","name":"Asteroids"},{"id":"1326","name":"flat-shading"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8f2eb8f459c2c5ca0ab8171e3a240477b90ddae630ef27ca3a25e8746bedc7ec.jpg?namespace=gamesdb"

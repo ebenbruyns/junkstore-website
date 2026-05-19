@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Tobacco Reference, Mild Suggestive Themes, Violence"},"pegi":{"rating":"16"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Drogas ilícitas, Linguagem imprópria, Violência"}}
 release_date: "August 26, 2011"
-game_modes: ["Single player"]
-languages: ["English","French","German","Italian","Spanish - Spain","Korean"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Korean","Polish"]
 languages_audio: ["English","French","German","Italian","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"4","name":"Funny"},{"id":"37","name":"Sandbox"},{"id":"123","name":"Comedy"},{"id":"39","name":"Building"},{"id":"168","name":"RTS"},{"id":"67","name":"Management"},{"id":"194","name":"Real-Time with Pause"},{"id":"147","name":"Resource Management"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"},{"id":"287","name":"Political"},{"id":"251","name":"Cold War"},{"id":"219","name":"Politics"},{"id":"214","name":"God Game"},{"id":"262","name":"Capitalism"}]
 size: "4766 MB"
@@ -39,6 +39,7 @@ franchise_slug: "tropico|tropico-2-pirate-cove|tropico-3|tropico-4|tropico-5|tro
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d28f6079ffde1ec6142b82ed1388f793d76c485de10d65d68e033fcb6268d23a.jpg?namespace=gamesdb"

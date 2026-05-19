@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "October 25, 2024"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Local Multi-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Italian","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-11-28T16:00:00.000Z","end":"2024-12-05T16:00:00.000Z","type":null,"id":"3fe7eaeca2fa474187fc338a5324ae11"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/cdb09372bd5a58b63f6bade97d4c25e68c5e2e268e3c172f92d759be4b190f5f.jpg?namespace=gamesdb"

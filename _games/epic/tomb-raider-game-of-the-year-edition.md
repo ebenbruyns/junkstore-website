@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"cero":{"rating":"Z","descriptors":"[img]http://media.steampowered.com/store/Ratings/CERO/violence.png[/img]"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Online Interactivity"},"nzoflc":{"rating":"r16","descriptors":"Violence, Offensive language, Content that may disturb"},"kgrb":{"rating":"18","descriptors":"Violence, Language"},"fpb":{"rating":"18"},"csrr":{"rating":"R","descriptors":"Violence, Improper Language"},"mda":{"rating":"M18","descriptors":"Violence, Coarse Language"},"dejus":{"rating":"16","descriptors":"Conteúdo impactante, Linguagem Imprópria, Violência"}}
 release_date: "December 30, 2021"
-game_modes: ["Single player","Co-operative"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Arabic"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Arabic"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "lara-croft-and-the-temple-of-o|lara-croft-go|lara-croft-gol|lar
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-12-30T15:00:00.000Z","end":"2022-01-05T15:00:00.000Z","type":null,"id":"1c5143aeec774495a5acc9d613af181b"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/19c3f0fea64bb07ed55b90ccf3490a79fe194089a7b8cef31ec325fc0a1d95a9.jpg?namespace=gamesdb"

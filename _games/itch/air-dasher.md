@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "December 19, 2016"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"45","name":"2D"},{"id":"83","name":"Puzzle-Platformer"},{"id":"1333","name":"android"},{"id":"2743","name":"dash"},{"id":"2770","name":"ios"},{"id":"3376","name":"iphone"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn2.steamgriddb.com/thumb/1cc27a2a5e7bda9a185761ea00c4164c.jpg"

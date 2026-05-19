@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "February 10, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"45","name":"2D"},{"id":"88","name":"Cute"},{"id":"220","name":"Experimental"},{"id":"7486","name":"larp"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: ""

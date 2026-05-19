@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "December 19, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Czech"]
 languages_audio: ["English","Polish"]
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"1127","name":"Investigation"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-04-06T15:00:00.000Z","end":"2022-04-13T15:00:00.000Z","type":null,"id":"bdea68145b61462f9cd17068e835aadf"},{"start":"2021-12-18T15:00:00.000Z","end":"2021-12-19T15:00:00.000Z","type":null,"id":"bdea68145b61462f9cd17068e835aadf"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/84daca4b918390739f3e7a6cce8b66d1095f1040649d92cf31edd4f47916879c.jpg?namespace=gamesdb"

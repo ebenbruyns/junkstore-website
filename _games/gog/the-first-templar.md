@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: ESRB 13
 age_ratings: {"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "May 6, 2011"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Overlay","Single-player"]
-languages: ["English","French","German"]
+game_modes: ["Co-op","Single-player"]
+languages: ["German","English","French"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"75","name":"Local Co-Op"},{"id":"68","name":"Hack and Slash"},{"id":"66","name":"Medieval"}]
 size: "4341 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d3385d04ddae9feb061e2f9bb8765f65f7fdc9b9e30fd3e40931b1383b637a19.jpg?namespace=gamesdb"

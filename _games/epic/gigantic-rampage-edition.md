@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "April 9, 2024"
-game_modes: ["Online Multiplayer"]
+game_modes: ["Online Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English","French","German","Korean","Simplified Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"39940","name":"Gift A Game"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-08-22T15:00:00.000Z","end":"2024-08-29T15:00:00.000Z","type":null,"id":"5a387d243a05401b926575736262a929"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/6630e3dcc72a4e2285e91ca48aa0eb4b/gigantic-rampage-edition-1nkcs.jpg"

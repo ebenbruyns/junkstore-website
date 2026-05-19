@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Drogas ilícitas"}}
 release_date: "April 18, 2019"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","French","German","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","French","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"40850","name":"Steam Leaderboards"},{"id":"70","name":"War"},{"id":"102","name":"Turn-Based"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"808","name":"character"},{"id":"2889","name":"balance"},{"id":"2689","name":"rocket"},{"id":"1724","name":"Superpowers"},{"id":"836","name":"drone"}]
 size: "609 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8329b7b3bfff362030cce96a61628f0687e834aaff7f5b543de7998902a9a124.jpg?namespace=gamesdb"

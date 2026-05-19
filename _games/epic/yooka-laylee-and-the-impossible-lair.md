@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild cartoon violence"},"pegi":{"rating":"3"},"usk":{"rating":"6"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Conteúdo sexual"}}
 release_date: "April 11, 2017"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Simplified Chinese","Polish"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "yooka-laylee|yooka-laylee-and-the-impossibl"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-02-02T15:00:00.000Z","end":"2022-02-09T15:00:00.000Z","type":null,"id":"617b64a9631c4df0a66ea8fca480d2b9"},{"start":"2019-12-30T15:00:00.000Z","end":"2019-12-31T15:00:00.000Z","type":null,"id":"617b64a9631c4df0a66ea8fca480d2b9"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d01a503bdde948bb216cccbf4dcf639fcf4423b91992f7a347190f7041cdf10b.jpg?namespace=gamesdb"

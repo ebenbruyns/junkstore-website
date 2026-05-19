@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence"},"pegi":{"rating":"7"},"usk":{"rating":"12"},"dejus":{"rating":"L"}}
 release_date: "November 13, 2012"
-game_modes: ["Achievements","Cloud saves","Co-op","Overlay","Single-player"]
-languages: ["Danish","Dutch","English","French","German","Italian","Polish","Russian","Spanish - Spain"]
+game_modes: ["Co-op","Single-player"]
+languages: ["Portuguese (brazilian)","Danish","German","English","Spanish","French","Italian","Dutch","Polish","Portuguese","Russian"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"107","name":"Family Friendly"},{"id":"133","name":"3D Vision"},{"id":"297","name":"LEGO"}]
 size: "5894 MB"
@@ -39,6 +39,7 @@ franchise_slug: "lego-bionicle|lego-bricktales|lego-builders-journey|lego-city-b
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9f6f03d2208f3585a9ea49017fb4fd4be18c114ff74a944192ccd11d8901fc90.jpg?namespace=gamesdb"

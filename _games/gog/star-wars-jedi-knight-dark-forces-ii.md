@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Animated Violence"},"pegi":{"rating":"12","descriptors":"Non realistic looking violence towards human characters"},"oflc":{"rating":"M","descriptors":"Medium level animated violence"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "September 30, 1997"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English","French","Italian","Spanish - Spain"]
+game_modes: ["Single-player","Multi-player"]
+languages: ["English","Spanish","French","Italian"]
 languages_audio: ["English","French","Italian","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"8","name":"First-Person"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"40845","name":"Partial Controller Support"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"72","name":"Local Multiplayer"},{"id":"74","name":"Retro"},{"id":"25","name":"Space"},{"id":"318","name":"Star Wars"},{"id":"290","name":"FMV"}]
 size: "716 MB"
@@ -39,6 +39,7 @@ franchise_slug: "star-wars-dark-forces-2|star-wars-jedi-knight-dark-for|star-war
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ed43aa8e85a4656b770a6a758e3cc0be5812b4f1e5d8e75c1f7c85d970af12fb.jpg?namespace=gamesdb"

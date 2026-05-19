@@ -29,7 +29,7 @@ franchise: Rise of Industry
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"10"}}
 release_date: "August 11, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-03-01T15:00:00.000Z","end":"2023-03-08T15:00:00.000Z","type":null,"id":"c04a2ab8ff4442cba0a41fb83453e701"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6161708f7319def77f5f1a207e17512cc420b9345b6d4216988111bd68e6ada0.jpg?namespace=gamesdb"

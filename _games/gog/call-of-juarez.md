@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Language, Sexual Themes"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Drogas lícitas"}}
 release_date: "September 5, 2006"
-game_modes: ["Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Russian"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Polish","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"15","name":"Stealth"},{"id":"152","name":"Western"}]
 size: "2721 MB"
@@ -39,6 +39,7 @@ franchise_slug: "call-of-juarez|call-of-juarez-2|call-of-juarez-gunslinger|call-
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4e4033af40398ac8f46244c8656d1272db4f020e0be319d72869d29ac47b6126.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise: The Jackbox Party Pack
 age_rating_summary: T (ESRB) · 12 (USK)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Sexual Themes, Drug Reference, Mild Language, Crude Humor"},"usk":{"rating":"12","descriptors":"Sexuelle Andeutungen, Drogenkonsum"},"dejus":{"rating":"14","descriptors":"Violência, Temas sensíveis, Linguagem imprópria"}}
 release_date: "October 19, 2017"
-game_modes: ["Multi-player","Co-op","Shared/Split Screen Co-op"]
+game_modes: ["Local Multi-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1299","name":"Competitive"},{"id":"1110","name":"Party"},{"id":"1318","name":"Trivia"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: "the-jackbox-party-pack|the-jackbox-party-pack-2|the-jackbox-par
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-04T16:00:00.000Z","end":"2025-12-11T16:00:00.000Z","type":null,"id":"da763a33956745888bea060de7ecf059"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/610180/library_hero.jpg"

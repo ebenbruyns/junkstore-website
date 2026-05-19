@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Language"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong horror themes and violence"},"nzoflc":{"rating":"r16","descriptors":"Violence &amp; horror"},"csrr":{"rating":"R","descriptors":"Violence, Horror, Improper Language"},"dejus":{"rating":"18","descriptors":"Violência"}}
 release_date: "May 2, 2019"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Korean","Japanese","Polish","Russian","Hungarian"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Hungarian","Italian","Japanese","Korean","Polish","Russian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"8","name":"First-Person"},{"id":"26","name":"Gore"},{"id":"6","name":"Exploration"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"41","name":"Dark"},{"id":"192","name":"Mature"},{"id":"154","name":"Steampunk"},{"id":"270","name":"Blood"},{"id":"289","name":"Noir"},{"id":"40858","name":"Other"},{"id":"88536","name":"statement "}]
 size: "20554 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1845a1df807126a4cd2f0c981f7f4a5cd3774cca2ab764826ad082930e60d530.jpg?namespace=gamesdb"

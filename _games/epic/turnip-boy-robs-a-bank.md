@@ -39,6 +39,7 @@ franchise_slug: "turnip-boy-commits-tax-evasion|turnip-boy-robs-a-bank"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-03-05T16:00:00.000Z","end":"2026-03-12T16:00:00.000Z","type":null,"id":"68d9f0e261464ba284e10418d98532ea"},{"start":"2026-03-05T16:00:00.000Z","end":"2026-03-12T15:00:00.000Z","type":null,"id":"68d9f0e261464ba284e10418d98532ea"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2097230/library_hero.jpg"

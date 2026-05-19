@@ -29,7 +29,7 @@ franchise: Amnesia
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"14","descriptors":"Nudez, Linguagem imprópria, Violência"}}
 release_date: "October 15, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Hungarian","Polish","Portuguese - Brazil","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|a
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-10-14T15:00:00.000Z","end":"2020-10-21T15:00:00.000Z","type":null,"id":"8080b4a777b54ec8a1ded2c8e7ec40a4"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4ea58fc585d9489c56c49c30df97b44982af79c2af8a2664fd89a231607007cb.jpg?namespace=gamesdb"

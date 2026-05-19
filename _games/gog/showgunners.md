@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria, Drogas ilícitas"}}
 release_date: "May 2, 2023"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Ukrainian"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Polish","Portuguese","Russian","Ukrainian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"6","name":"Exploration"},{"id":"80","name":"Tactical"},{"id":"41","name":"Dark"},{"id":"121","name":"Character Customization"},{"id":"145","name":"Choices Matter"},{"id":"1465","name":"combat"},{"id":"101","name":"Turn-Based Strategy"},{"id":"61","name":"Top-Down"},{"id":"119","name":"Dystopian"},{"id":"305","name":"Linear"},{"id":"243","name":"1990's"},{"id":"171","name":"PvE"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"247","name":"Real Time Tactics"},{"id":"230","name":"Tactical RPG"},{"id":"290","name":"FMV"}]
 size: "10286 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b5056ec30873866bc72cc074ed04958afc1865d57c4b183e48e40631902cecd8.jpg?namespace=gamesdb"

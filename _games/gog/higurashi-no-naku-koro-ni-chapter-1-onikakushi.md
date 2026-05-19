@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Medo"}}
 release_date: "August 10, 2002"
-game_modes: ["Cloud saves","Overlay","Single-player"]
-languages: ["English","Japanese","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["English","Japanese"]
 languages_audio: []
 tags_structured: []
 size: "273 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/de19fa848303b75bd354e5b7a65b35bc41cdcb6005027ac78dda23a1796d000f.jpg?namespace=gamesdb"

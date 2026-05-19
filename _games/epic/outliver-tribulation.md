@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Mature 17+
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "July 18, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-10T15:00:00.000Z","end":"2024-10-17T15:00:00.000Z","type":null,"id":"a4d3ae371e674ce3b2892d63c8bb4041"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2881d09920792f3f9aff2070ea96589a6d38abc7d90cf097ccee4fc9ff871737.jpg?namespace=gamesdb"

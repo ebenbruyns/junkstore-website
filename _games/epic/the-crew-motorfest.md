@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"6"}}
 release_date: "July 4, 2024"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Simplified Chinese","Traditional Chinese","Korean","Japanese","Polish","Portuguese - Brazil","Russian"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "the-crew|the-crew-2|the-crew-motorfest"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/daa0c8023c36e16b1259ef9da75796f39f6f675c45dfd80bbb3438c6ececd5df.jpg?namespace=gamesdb"

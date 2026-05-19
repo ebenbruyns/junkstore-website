@@ -27,9 +27,9 @@ developer: Paradox Development Studio
 genre: Simulation, Strategy
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
-age_ratings: {"esrb":{"rating":"T","descriptors":"Drug Reference, Mild Language, Mild Sexual Themes, Mild Violence"},"pegi":{"rating":"12","descriptors":"Bad Language, Violence, Online Gameplay, In-Game Purchases"},"usk":{"rating":"6"},"kgrb":{"rating":"12","descriptors":"폭력성 (Violence)"},"dejus":{"rating":"12","descriptors":"Drogas ilícitas, Conteúdo sexual, Linguagem imprópria"}}
+age_ratings: {"esrb":{"rating":"T","descriptors":"Drug Reference, Mild Language, Mild Sexual Themes, Mild Violence"},"pegi":{"rating":"12","descriptors":"Bad Language, Violence, Online Gameplay, In-Game Purchases"},"usk":{"rating":"6"},"kgrb":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Drogas ilícitas, Conteúdo sexual, Linguagem imprópria"}}
 release_date: "September 30, 2021"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","German","French","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-08-09T15:00:00.000Z","end":"2023-08-16T15:00:00.000Z","type":null,"id":"45b82cb4454b40439b61ba126adfabec"},{"start":"2021-09-29T15:00:00.000Z","end":"2021-10-06T15:00:00.000Z","type":null,"id":"45b82cb4454b40439b61ba126adfabec"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/76df5b68a450e2bc43ca12b59b27f54243015c6ef7cf63f5ba6711f961c1d958.jpg?namespace=gamesdb"

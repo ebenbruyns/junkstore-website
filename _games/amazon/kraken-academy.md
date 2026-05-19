@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Linguagem imprópria"}}
 release_date: "September 10, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Simplified Chinese","Japanese","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"144","name":"Crime"},{"id":"136","name":"Music"},{"id":"209","name":"Drama"},{"id":"625","name":"party"},{"id":"1709","name":"work"},{"id":"1129","name":"art"},{"id":"712","name":"school"},{"id":"2865","name":"girl"},{"id":"2384","name":"rock"},{"id":"663","name":"Ghosts"},{"id":"2774","name":"learn"},{"id":"684","name":"children"},{"id":"3735","name":"loop"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/766dabd60e950ad477d6468526205ac220f219e558e954883dde53886c9a1457.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "October 7, 2025"
-game_modes: ["Achievements","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Portuguese - Portugal","Simplified Chinese","Spanish - Latin Americalanguages With Full Audio Support"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Portuguese"]
 languages_audio: []
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"62","name":"Family Sharing"}]
 size: ""
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/403b3b3503f4b613fa67ea785b4090f56a22f80c827b510c761e0d0e5634a989.jpg?namespace=gamesdb"

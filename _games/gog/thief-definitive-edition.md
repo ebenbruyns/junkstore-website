@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Nudity, Strong Language, Strong Sexual Content, Use of Drugs, and Violence"},"pegi":{"rating":"16","descriptors":"Drugs, Bad Language, Sex and Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"strong sexual references and violence"},"nzoflc":{"rating":"r13","descriptors":"violence, offensive language and sex scenes"},"kgrb":{"rating":"18","descriptors":"Violence, Crime, Language"},"fpb":{"rating":"16","descriptors":"strong language, nudity and violence"}}
 release_date: "February 28, 2014"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","German","French","Italian","Spanish - Spain","Polish","Russian","Czech"]
+game_modes: ["Single-player"]
+languages: ["Czech","German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English","German","French","Italian","Spanish - Spain","Russian"]
 tags_structured: []
 size: "594653473"
@@ -39,6 +39,7 @@ franchise_slug: "thief|thief-3-deadly-shadows|thief-ii-the-metal-age|thief-the-d
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/59214636c8f1919dc14cbf47eb14e2b380332d34d467f10ffc74e50e3465f17a.jpg?namespace=gamesdb.jpg?namespace=gamesdb"

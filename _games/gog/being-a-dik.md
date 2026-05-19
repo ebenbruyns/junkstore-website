@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência, Atos criminosos, Linguagem imprópria, Conteúdo sexual, Nudez, Sexo Explícito, Drogas lícitas, Drogas, Drogas ilícitas"}}
 release_date: "February 14, 2020"
-game_modes: ["Cloud saves","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"468","name":"role-playing"},{"id":"785","name":"Erotic"},{"id":"1402","name":"porn"},{"id":"45207","name":"porn-game"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/442772e774cc8e907f9f55c7df4da01b6e02cee879cafb843a2e30b94bd47826.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB 17
 age_ratings: {}
 release_date: "September 1, 2024"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"5641","name":"bundle"},{"id":"3345","name":"dino"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://items.gog.com/dino_crisis_bundle/2.png"

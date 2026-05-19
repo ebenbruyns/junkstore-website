@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Violence"},"pegi":{"rating":"12"},"usk":{"rating":"16"}}
 release_date: "October 21, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Norwegian","Russian","Czech","Hungarian","Turkish","Ukrainian","Arabic","Dutch","Portuguese - Brazil","Simplified Chinese","Polish","Japanese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-10-20T15:00:00.000Z","end":"2021-10-27T15:00:00.000Z","type":null,"id":"2a112cd37b774426990583a259e25ef9"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3ece1b173d341483a625f3c2be6837ddcd887bc3eac75e8c125e1b62e45bc5b4.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "September 30, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"134","name":"Anime"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"133","name":"3D Vision"},{"id":"243","name":"1990's"},{"id":"166","name":"Stylized"},{"id":"229","name":"3D Platformer"},{"id":"164","name":"Cartoony"},{"id":"286","name":"Psychedelic"},{"id":"570","name":"Old School"},{"id":"49963","name":"Precision Platformer"},{"id":"631","name":"Low-poly"},{"id":"762","name":"psx"},{"id":"39234","name":"sega-saturn"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1722620/library_hero.jpg"

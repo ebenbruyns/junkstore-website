@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "June 23, 2020"
-game_modes: ["Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["English","French"]
 languages_audio: []
 tags_structured: []
 size: "524 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6e6ec4ef194b95f52022d122785c0c70e5464e41e2d0e331e39cc746acf5da3a.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise: Spirit of the North
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "April 19, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Korean"]
 languages_audio: []
 tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "spirit-of-the-north|spirit-of-the-north-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-09-14T15:00:00.000Z","end":"2022-09-21T15:00:00.000Z","type":null,"id":"4460a8fcdc3e4f48a11f3174656f8a96"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/dff17a7e5242b5c3fc8948f0548f152ed08c7e9987783d5c0c1c75b803af23dc.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T"},"kgrb":{"rating":"15"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "September 19, 2017"
-game_modes: ["Controller support","Overlay","Single-player"]
-languages: ["English","French","Japanese","Korean","Russian","Simplified Chinese","Thai","Turkish","Spanish - Spain","German","Ukrainian"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","English","Spanish","French","Japanese","Korean","Russian","Thai","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"34","name":"Violent"},{"id":"40858","name":"Other"}]
 size: "279 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/76fcc9b779f14e6da5656178754f7377747c7a2b8a760daa897614942f9aa658.jpg?namespace=gamesdb"

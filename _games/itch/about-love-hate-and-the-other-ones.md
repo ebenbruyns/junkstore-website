@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "October 23, 2012"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/277680/library_hero.jpg"

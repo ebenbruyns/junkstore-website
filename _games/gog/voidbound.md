@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez"}}
 release_date: "May 24, 2024"
-game_modes: ["Controller support","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"14","name":"Early Access"},{"id":"134","name":"Anime"},{"id":"167","name":"Futuristic"},{"id":"172","name":"Aliens"},{"id":"101","name":"Turn-Based Strategy"},{"id":"50","name":"Sexual Content"},{"id":"226","name":"Cyberpunk"},{"id":"90","name":"Visual Novel"},{"id":"48","name":"Dungeon Crawler"},{"id":"91686","name":"Family Sharing"},{"id":"59643","name":"Протагонистка"},{"id":"247","name":"Real Time Tactics"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"},{"id":"786","name":"hentai"},{"id":"58128","name":"Хентай"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8d6c27b0b2119525ac7b1aa4fee080316d1fc7e4bdb6b681d0c8c605f2b6c016.jpg?namespace=gamesdb"

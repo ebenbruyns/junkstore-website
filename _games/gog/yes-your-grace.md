@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 12 (PEGI)
 age_ratings: {"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"dejus":{"rating":"12","descriptors":"Drogas ilícitas, Violência fantasiosa"}}
 release_date: "March 6, 2020"
-game_modes: ["Cloud saves","Overlay","Single-player"]
-languages: ["English","Simplified Chinese","French","German","Russian","Polish","Japanese","Italian","Spanish - Spain","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","French","Polish","Russian"]
 languages_audio: ["English","Simplified Chinese","French","German","Russian","Polish","Japanese","Italian","Spanish - Spain","Portuguese - Brazil"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"468","name":"role-playing"},{"id":"141","name":"Point & Click"},{"id":"70","name":"War"},{"id":"89","name":"Historical"},{"id":"639","name":"Roguelike"},{"id":"66","name":"Medieval"},{"id":"67","name":"Management"},{"id":"180","name":"Base Building"},{"id":"147","name":"Resource Management"},{"id":"208","name":"Alternate History"},{"id":"287","name":"Political"},{"id":"272","name":"Inventory Management"}]
 size: "353 MB"
@@ -39,6 +39,7 @@ franchise_slug: "yes-your-grace|yes-your-grace-snowfall"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/cb6f5f5acaa94f87667c1f6b582271b1f8180ef2cfa0a63e10552c55255be840.jpg?namespace=gamesdb"

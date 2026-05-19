@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 0 (USK)
 age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "March 25, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Simplified Chinese","Korean","Spanish - Latin America","Japanese","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-03-24T15:00:00.000Z","end":"2021-03-31T15:00:00.000Z","type":null,"id":"000f9a594ed44b3981272946d330d968"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d3cb527298a645dae23380c0d7ecdc84ad6c8e8eacd8abdc12b16f3e6f0f1ff2.jpg?namespace=gamesdb"

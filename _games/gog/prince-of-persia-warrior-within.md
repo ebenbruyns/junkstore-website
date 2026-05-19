@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore<br>, Intense Violence<br>, Sexual Themes<br>"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Conteúdo sexual"}}
 release_date: "November 30, 2004"
-game_modes: ["Controller support","Single-player"]
-languages: ["English","German","Italian","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","French","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"26","name":"Gore"},{"id":"193","name":"Classic"},{"id":"41","name":"Dark"},{"id":"68","name":"Hack and Slash"},{"id":"336","name":"controller support"},{"id":"188","name":"Parkour"},{"id":"317","name":"Time Travel"},{"id":"302","name":"Time Manipulation"}]
 size: "3176 MB"
@@ -39,6 +39,7 @@ franchise_slug: "prince-of-persia|prince-of-persia-2-the-shadow-|prince-of-persi
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/50fc917b8082b4f27400442acaad41d3a3b8fb402c25c89311a379269c49af27.jpg?namespace=gamesdb"

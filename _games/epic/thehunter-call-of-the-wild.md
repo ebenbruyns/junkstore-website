@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood,, Violence"},"pegi":{"rating":"16","descriptors":"Violence, Online Game, In-Game Purchases"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Hunting violence, online interactivity"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "November 25, 2021"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Online Multi-player","Co-op"]
 languages: ["English","French","German","Portuguese - Brazil","Russian","Spanish - Spain","Czech","Polish","Simplified Chinese","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-06-21T15:00:00.000Z","end":"2023-06-28T15:00:00.000Z","type":null,"id":"7b0d120a875547e9bec70192ddcc96e2"},{"start":"2021-11-24T15:00:00.000Z","end":"2021-12-01T15:00:00.000Z","type":null,"id":"7b0d120a875547e9bec70192ddcc96e2"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7866c86d9e58b7528603f8b83c6b99f02a53898a78415db982803424299eae7a.jpg?namespace=gamesdb"

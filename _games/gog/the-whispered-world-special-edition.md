@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: E (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Alcohol Reference, Mild Fantasy Violence, Mild Language"},"pegi":{"rating":"12"},"usk":{"rating":"6"}}
 release_date: "May 6, 2014"
-game_modes: ["Achievements","Overlay","Single-player"]
-languages: ["English","Italian","German","Spanish - Spain","Polish","Russian"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","Italian","Polish","Russian"]
 languages_audio: ["English","German","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"64","name":"Fantasy"},{"id":"141","name":"Point & Click"},{"id":"40834","name":"Commentary available"}]
 size: "2097 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4c9d8274d4b6ca396955b6498b69e0ccd494ae11ee6069d8ad9b269967ebb50d.jpg?namespace=gamesdb"

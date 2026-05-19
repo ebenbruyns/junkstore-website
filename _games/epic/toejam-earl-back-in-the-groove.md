@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Crude Humor, Mild Cartoon Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "October 13, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
+game_modes: ["Co-op"]
 languages: ["English","French","Italian","German","Portuguese - Brazil","Spanish - Latin America","Japanese","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: "svc-toejam-earl|toejam-earl|toejam-earl-2-panic-on-funkotr|toej
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-10-12T15:00:00.000Z","end":"2022-10-19T15:00:00.000Z","type":null,"id":"db9725548f40419cac7d1c10f94c0736"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e26f8426ccecd58d27019f42e694e777f62e50d684badf9823d82264054f03d8.jpg?namespace=gamesdb"

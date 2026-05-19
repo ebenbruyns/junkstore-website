@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"16","descriptors":"Violence, Bad Language, Sex, Drugs"},"usk":{"rating":"16"},"oflc":{"rating":"ma15"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Atos criminosos, Violência, Linguagem imprópria, Nudez, Drogas lícitas, Drogas ilícitas"}}
 release_date: "November 5, 2019"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Russian","Dutch","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Dutch","Russian"]
 languages_audio: ["English","French","German","Spanish - Spain","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"41","name":"Dark"},{"id":"142","name":"Detective"},{"id":"2030","name":"city"},{"id":"269","name":"Quick-Time Events"},{"id":"289","name":"Noir"},{"id":"326","name":"Investigation"},{"id":"2184","name":"hunt"},{"id":"1943","name":"boxing"},{"id":"1158","name":"creative"}]
 size: "12859 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/5da598b8d741d8dce9b71cbf9bf62cea893e1276460f840892541fe04d11fcae.jpg?namespace=gamesdb"

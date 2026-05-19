@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: ESRB 17
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Drogas, Conteúdo sexual"}}
 release_date: "February 1, 2016"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Russian","French","German","Spanish - Spain","Simplified Chinese","Japanese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Japanese","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"117","name":"Mystery"},{"id":"111","name":"Short"},{"id":"165","name":"Colorful"},{"id":"192","name":"Mature"},{"id":"91","name":"Walking Simulator"},{"id":"90","name":"Visual Novel"},{"id":"209","name":"Drama"},{"id":"288","name":"Interactive Fiction"},{"id":"183","name":"Thriller"},{"id":"43576","name":"interactive movie"},{"id":"91217","name":"interactive game"}]
 size: "2124 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2c8c5e36211b0b1ddca109da49c18988d60d623085b776c0881d313532a1f84b.jpg?namespace=gamesdb"

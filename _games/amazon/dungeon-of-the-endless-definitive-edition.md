@@ -27,9 +27,9 @@ developer: Amplitude Studios
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Platform, Real Time Strategy (RTS)
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
-age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Blood"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B","descriptors":"暴力"},"oflc":{"rating":"M","descriptors":"Science fiction violence, online interactivity and chat"},"kgrb":{"rating":"12","descriptors":"Violence"},"csrr":{"rating":"C12","descriptors":"暴力"},"mda":{"rating":"AA16"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Drogas lícitas, Violência"}}
+age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Blood"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B"},"oflc":{"rating":"M","descriptors":"Science fiction violence, online interactivity and chat"},"kgrb":{"rating":"12","descriptors":"Violence"},"csrr":{"rating":"C12"},"mda":{"rating":"AA16"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Drogas lícitas, Violência"}}
 release_date: "October 27, 2014"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Polish","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Russian"]
 languages_audio: ["English","Japanese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"32","name":"Sci-fi"},{"id":"9","name":"Online Co-Op"},{"id":"97","name":"Action RPG"},{"id":"5","name":"Replay Value"},{"id":"571","name":"3D"},{"id":"639","name":"Roguelike"},{"id":"61","name":"Top-Down"},{"id":"40937","name":"Steam Trading Cards"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"171","name":"PvE"},{"id":"196","name":"Procedural Generation"},{"id":"65","name":"Tower Defense"},{"id":"295","name":"Soundtrack"},{"id":"201","name":"Twin Stick Shooter"},{"id":"230","name":"Tactical RPG"},{"id":"49964","name":"Action Roguelike"},{"id":"329","name":"Mystery Dungeon"}]
@@ -39,6 +39,7 @@ franchise_slug: "dungeon-of-the-endless|endless-dungeons|endless-legend|endless-
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/62567cb03b930fcc01784ef299ab1dc174671bfce46195c80069504f0aa7a738.jpg?namespace=gamesdb"

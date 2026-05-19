@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Mature 17+
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Temas sensíveis, Medo"}}
 release_date: "March 31, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Indonesian"]
 languages_audio: ["Indonesian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/197d41b5a36c6353f3b9d1a448afc329517b33d269a9edadd20c360bb8e437f1.jpg?namespace=gamesdb"

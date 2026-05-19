@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria"}}
 release_date: "May 31, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c3f2acfed775bd44fa8cd84547b67bb90d1dd84b2de73b1b6fea8bdc2f6e6cbd.jpg?namespace=gamesdb"

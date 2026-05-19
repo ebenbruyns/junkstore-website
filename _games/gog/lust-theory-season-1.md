@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez, Linguagem imprópria, Drogas lícitas"}}
 release_date: "March 19, 2022"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Spanish - Spain","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","English","Spanish","Russian"]
 languages_audio: ["English"]
 tags_structured: []
 size: "5727 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e443fc9bab4cfba79434c6648976aed0a64f377a5f2686311c9117c95b06f395.jpg?namespace=gamesdb"

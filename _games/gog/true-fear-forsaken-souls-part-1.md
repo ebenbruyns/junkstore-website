@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"cero":{"rating":"B"},"bbfc":{"rating":"12"},"oflc":{"rating":"M"},"nzoflc":{"rating":"M"},"kgrb":{"rating":"12"},"fpb":{"rating":"13"},"csrr":{"rating":"C12"},"mda":{"rating":"AA16"},"dejus":{"rating":"12"}}
 release_date: "October 19, 2016"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Russian","Ukrainian","Romanian","Czech","Korean","Japanese","Arabic","Portuguese - Brazil","Traditional Chinese","Simplified Chinese","Turkish","Polish"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Italian","Japanese","Korean","Dutch","Romanian","Russian","Turkish","Ukrainian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"16","name":"Horror"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"40833","name":"Captions available"},{"id":"140","name":"Hidden Object"},{"id":"2114","name":"psychological-horror"}]
 size: "476564186
@@ -40,6 +40,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/440420/library_hero.jpg"

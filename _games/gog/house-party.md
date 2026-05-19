@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (USK)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Strong Sexual Content, Nudity, Strong Language, Use of Alcohol, Use of Drugs, Mature Humor"},"usk":{"rating":"18","descriptors":"keine Jugendfreigabe gemäß§14 JuSchG"},"dejus":{"rating":"16","descriptors":"Violência fantasiosa, Violência, Linguagem imprópria, Conteúdo sexual, Nudez, Drogas lícitas, Drogas ilícitas"}}
 release_date: "July 15, 2022"
-game_modes: ["Achievements","Controller support","Overlay","Single-player"]
-languages: ["English","Simplified Chinese","French","Russian","Spanish - Latin America","German","Turkish","Italian","Polish","Czech"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Latin American Spanish","French","Italian","Polish","Russian","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"8","name":"First-Person"},{"id":"14","name":"Early Access"},{"id":"44","name":"Nudity"},{"id":"192","name":"Mature"},{"id":"120","name":"Memes"},{"id":"50","name":"Sexual Content"},{"id":"160","name":"Dating Sim"},{"id":"312","name":"NSFW"},{"id":"1081","name":"adult"},{"id":"785","name":"Erotic"}]
 size: "2911 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a5d39b6683a746876ca0a6100fd0b3ce448013933dd360499d0819e14bfb385f.jpg?namespace=gamesdb"

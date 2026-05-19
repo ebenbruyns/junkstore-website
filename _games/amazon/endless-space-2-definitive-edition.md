@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Suggestive Themes"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Online Interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild Violence, Online Interactivity"},"dejus":{"rating":"L","descriptors":"In-App Purchase, Users Interact"}}
 release_date: "January 21, 2021"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: []
@@ -39,6 +39,7 @@ franchise_slug: "dungeon-of-the-endless|endless-dungeons|endless-legend|endless-
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3afd55dc3f68e709e341c64189eb0c0edd10e893fdae25e177ecf450ec2deea5.jpg?namespace=gamesdb"

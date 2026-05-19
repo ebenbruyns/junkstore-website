@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "November 7, 2024"
-game_modes: ["Achievements","Cloud saves","Controller support","Multi-player","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Simplified Chinese","Traditional Chinese","Korean","Portuguese - Brazil"]
+game_modes: ["Multi-player","Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"80","name":"Tactical"},{"id":"157","name":"PvP"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"5","name":"Replay Value"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"77","name":"Realistic"},{"id":"168","name":"RTS"},{"id":"45878","name":"Online PvP"},{"id":"171","name":"PvE"},{"id":"147","name":"Resource Management"},{"id":"200","name":"Narration"},{"id":"91686","name":"Family Sharing"},{"id":"100","name":"Grand Strategy"},{"id":"774","name":"nature"},{"id":"247","name":"Real Time Tactics"},{"id":"104","name":"Wargame"},{"id":"49967","name":"Colony Sim"}]
 size: "36735 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d237f9a6130f3546a61b19fdd59a0fc67a71f10f3b21c565d75dea13055ebff7.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 7 (PEGI) · 6 (USK)
 age_ratings: {"pegi":{"rating":"7","descriptors":"Mild Violence"},"usk":{"rating":"6","descriptors":"Abstract Violence"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Scary Scenes"},"csrr":{"rating":"C12","descriptors":"Horror, Violence"},"dejus":{"rating":"L","descriptors":"Violence"}}
 release_date: "May 10, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1218","name":"Horror"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-03-23T15:00:00.000Z","end":"2022-03-30T15:00:00.000Z","type":null,"id":"08f2539567df4d43a1b0f8a5196f43cc"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/dbe7e2b3d51ccf17b22686e9dbf2ad37be4286224523159a143a41394efc7531.jpg?namespace=gamesdb"

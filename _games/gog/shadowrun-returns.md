@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: PEGI 12
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Temas sensíveis, Linguagem imprópria"}}
 release_date: "July 25, 2013"
-game_modes: ["Cloud saves","Single-player"]
-languages: ["English","French","Italian","Spanish - Spain","German","Russian"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"64","name":"Fantasy"},{"id":"189","name":"Female Protagonist"},{"id":"80","name":"Tactical"},{"id":"40838","name":"Includes level editor"},{"id":"62","name":"Moddable"},{"id":"102","name":"Turn-Based"},{"id":"99","name":"Isometric"},{"id":"101","name":"Turn-Based Strategy"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"96","name":"Kickstarter"},{"id":"238","name":"CRPG"},{"id":"59","name":"Crowdfunded"}]
 size: "899 MB"
@@ -39,6 +39,7 @@ franchise_slug: "shadowrun|shadowrun-1993|shadowrun-1994|shadowrun-1996|shadowru
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/96fce3b78782f41e780c8dd98295fcdf6df63823b842467d3dd84882bd57c173.jpg?namespace=gamesdb"

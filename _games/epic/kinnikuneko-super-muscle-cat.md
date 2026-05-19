@@ -26,10 +26,10 @@ publisher: Mameshiba Games
 developer: Kamotachi
 genre: Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Conteúdo sexual, Drogas lícitas"}}
 release_date: "March 19, 2024"
-game_modes: []
+game_modes: ["Single-player"]
 languages: ["English","Spanish - Spain","Japanese","French","Italian","German","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil","Portuguese - Portugal","Russian"]
 languages_audio: ["English","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a9b469c6ef45759efcb2e8cfb0dd73a0bba4e08afaa994d7db2bf6a129a8f67d.jpg?namespace=gamesdb"

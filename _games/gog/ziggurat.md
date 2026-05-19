@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Violence"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "October 23, 2014"
-game_modes: ["Achievements","Overlay","Single-player"]
-languages: ["English","Spanish - Spain","Hungarian","French","German","Italian","Russian","Swedish","Portuguese - Brazil","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Spanish","French","Hungarian","Italian","Russian","Swedish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"40850","name":"Steam Leaderboards"},{"id":"11669","name":"stats"},{"id":"468","name":"role-playing"},{"id":"5","name":"Replay Value"},{"id":"639","name":"Roguelike"},{"id":"131","name":"Fast-Paced"},{"id":"82","name":"Magic"},{"id":"218","name":"Multiple Endings"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"334","name":"achievements"},{"id":"98","name":"Loot"},{"id":"196","name":"Procedural Generation"},{"id":"164","name":"Cartoony"},{"id":"124","name":"Perma Death"},{"id":"52","name":"Arena Shooter"}]
 size: "663 MB"
@@ -39,6 +39,7 @@ franchise_slug: "ziggurat|ziggurat-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ffc092094f5230f81fe93b6d71171aac0214fb6fd0c3e423fffc395d6d2c5266.jpg?namespace=gamesdb"

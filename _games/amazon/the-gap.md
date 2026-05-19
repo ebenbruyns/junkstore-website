@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "June 6, 2024"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: []
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b18c6decf036281811a4bf437ba49b286fe6eecb59b32690a5a14b9297b0f373.jpg?namespace=gamesdb"

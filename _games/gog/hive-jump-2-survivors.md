@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "September 10, 2024"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Korean","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"14","name":"Early Access"},{"id":"25","name":"Space"},{"id":"172","name":"Aliens"},{"id":"61","name":"Top-Down"},{"id":"640","name":"Roguelite"},{"id":"57","name":"Bullet Hell"},{"id":"91686","name":"Family Sharing"},{"id":"236","name":"Top-Down Shooter"},{"id":"201","name":"Twin Stick Shooter"},{"id":"49964","name":"Action Roguelike"},{"id":"274","name":"Gun Customization"}]
 size: "159 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/446857b0fb7e0b5d5ba2e600f8c3a2f1080e8a487dec7c90c3d5185776729853.jpg?namespace=gamesdb"

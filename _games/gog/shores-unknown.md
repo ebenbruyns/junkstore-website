@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: RP (ESRB)
 age_ratings: {"esrb":{"rating":"RP"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Linguagem imprópria, Conteúdo sexual"}}
 release_date: "February 17, 2021"
-game_modes: ["Controller support","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"66","name":"Medieval"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"230","name":"Tactical RPG"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: ""
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/899460"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shores_Unknown"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/shores-unknown/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

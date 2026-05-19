@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (USK)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Language, Mild Sexual Themes, Mild Violence"},"usk":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "December 11, 2014"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Russian","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Czech"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"115","name":"Controller"},{"id":"40852","name":"Steam Workshop"},{"id":"40838","name":"Includes level editor"},{"id":"43","name":"Post-apocalyptic"},{"id":"117","name":"Mystery"},{"id":"91","name":"Walking Simulator"},{"id":"218","name":"Multiple Endings"},{"id":"197","name":"Robots"},{"id":"281","name":"Philisophical"}]
 size: "6549 MB"
@@ -39,6 +39,7 @@ franchise_slug: "talos-principle-2|the-talos-principle"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d507cf9447626ffcd925d2d808a39146f9543f15552ce6aec2915a4ec0870f75.jpg?namespace=gamesdb"

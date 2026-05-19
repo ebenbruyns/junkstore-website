@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "March 11, 2014"
-game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
+game_modes: ["Single-player","Multi-player","Co-op","Split Screen Co-op"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"49","name":"Difficult"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"11669","name":"stats"},{"id":"74","name":"Retro"},{"id":"182","name":"4 Player Local"},{"id":"625","name":"party"},{"id":"87822","name":"4 giocatori divano"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/251470/library_hero.jpg"

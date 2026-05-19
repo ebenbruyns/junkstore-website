@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência, Medo"}}
 release_date: "March 18, 2021"
-game_modes: ["Cloud saves","Overlay","Single-player"]
-languages: ["English","French","German","Japanese","Russian","Simplified Chinese","Korean","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","French","Japanese","Korean","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"11669","name":"stats"},{"id":"41","name":"Dark"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"5","name":"Replay Value"},{"id":"639","name":"Roguelike"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"196","name":"Procedural Generation"},{"id":"175","name":"Turn-Based Combat"},{"id":"808","name":"character"},{"id":"127","name":"Card Game"},{"id":"285","name":"Psychological"},{"id":"47","name":"Lovecraftian"},{"id":"624","name":"Monsters"},{"id":"740","name":"demo"},{"id":"4934","name":"health"}]
 size: "245 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1253860/library_hero.jpg"

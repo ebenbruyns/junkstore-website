@@ -29,7 +29,7 @@ franchise: Figment
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Linguagem imprópria"}}
 release_date: "March 9, 2023"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1298","name":"Puzzle"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-10T15:00:00.000Z","end":"2025-07-17T15:00:00.000Z","type":null,"id":"1fb78130d9804fc6801fb2d6ab642721"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c75ba15ba99f35ed031f0c7ae85a63b0eff03f625e7aa2d5c9cbdf6114275a44.jpg?namespace=gamesdb"

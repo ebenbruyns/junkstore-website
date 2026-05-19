@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Language, Alcohol Reference, Crude Humor, Animated Blood"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"6"},"bbfc":{"rating":"12"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"},"kgrb":{"rating":"12"},"fpb":{"rating":"A"},"csrr":{"rating":"G"},"dejus":{"rating":"10"}}
 release_date: "March 13, 2018"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Russian"]
 languages_audio: []
 tags_structured: []
 size: "2812 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c05ed968a4760d7492c9da97d31fa7f46a2c50df1d2372ccc8a8f04fa0cab440.jpg?namespace=gamesdb"

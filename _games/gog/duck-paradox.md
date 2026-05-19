@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "October 9, 2024"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Japanese","Korean","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"32","name":"Sci-fi"},{"id":"37","name":"Sandbox"},{"id":"1","name":"Survival"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"14","name":"Early Access"},{"id":"88","name":"Cute"},{"id":"114","name":"Physics"},{"id":"113","name":"Side Scroller"},{"id":"56","name":"Shoot 'Em Up"},{"id":"57","name":"Bullet Hell"},{"id":"317","name":"Time Travel"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"87","name":"Science"},{"id":"308","name":"Bullet Time"},{"id":"607","name":"Unity"},{"id":"1965","name":"duck"},{"id":"12867","name":"adaptive-music"}]
 size: "214 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/324d21b60ef49e79bac45e1a97340b97d9acca67a494ed6819fa6c8485247543.jpg?namespace=gamesdb"

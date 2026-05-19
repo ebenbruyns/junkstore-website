@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: PEGI 16
 age_ratings: {"dejus":{"rating":"14","descriptors":"Drogas ilícitas, Linguagem imprópria, Atos criminosos"}}
 release_date: "October 22, 2018"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Simplified Chinese","Russian","German","Korean","Polish","Spanish - Spain","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","Korean","Polish","Russian","Turkish"]
 languages_audio: ["English","Simplified Chinese","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"34","name":"Violent"}]
 size: "1276 MB"
@@ -39,6 +39,7 @@ franchise_slug: "beholder|beholder-2|beholder-3"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d0f1f5ce9018bc9bcb9d3c74a4f4e3cead64a6bd69e2d8f84cd020cd50ee5713.jpg?namespace=gamesdb"

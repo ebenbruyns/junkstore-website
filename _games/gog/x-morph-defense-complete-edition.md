@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Mild Language"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "August 30, 2017"
-game_modes: ["Cloud saves","Controller support","Co-op","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese","Japanese","Korean","Portuguese - Brazil","Hungarian"]
+game_modes: ["Co-op","Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Hungarian","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"411","name":"cooperative"},{"id":"40850","name":"Steam Leaderboards"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"65","name":"Tower Defense"}]
 size: "4335 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/56ffb224aacd2bdf0c9a4920ec7d4e03ddd8cd2b887c9b2e693efeaef0167385.jpg?namespace=gamesdb"

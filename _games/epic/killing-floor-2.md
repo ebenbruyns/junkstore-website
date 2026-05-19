@@ -29,7 +29,7 @@ franchise: Killing Floor
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, In-Game Purchases, In-Game Purchases(Includes Random Items)"},"usk":{"rating":"18"}}
 release_date: "July 9, 2020"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Portuguese - Brazil","Japanese","Simplified Chinese","Korean","Traditional Chinese"]
 languages_audio: ["English","French","German","Spanish - Spain","Russian","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "killing-floor|killing-floor-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-07-06T15:00:00.000Z","end":"2022-07-13T15:00:00.000Z","type":null,"id":"85f5ff10c31c4cd99978f4d57d3ec97a"},{"start":"2020-07-08T15:00:00.000Z","end":"2020-07-15T15:00:00.000Z","type":null,"id":"85f5ff10c31c4cd99978f4d57d3ec97a"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8a3d6bed3d9ec99283bbb548a135ad980cf278140326b44dba87e523bd51ee1e.jpg?namespace=gamesdb"

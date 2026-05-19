@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "March 6, 2024"
-game_modes: ["Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Japanese","Korean","Russian","Simplified Chinese","Portuguese - Brazil","Spanish - Latin America"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Latin American Spanish","Italian","Japanese","Korean","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"70","name":"War"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"167","name":"Futuristic"},{"id":"259","name":"Metroidvania"},{"id":"136","name":"Music"},{"id":"243","name":"1990's"},{"id":"981","name":"battle"},{"id":"2030","name":"city"},{"id":"91686","name":"Family Sharing"},{"id":"224","name":"1980s"},{"id":"295","name":"Soundtrack"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"1529","name":"fight"},{"id":"1309","name":"hero"},{"id":"570","name":"Old School"},{"id":"1105","name":"planet"},{"id":"1897","name":"fire"},{"id":"749","name":"army"},{"id":"1986","name":"ice"},{"id":"2483","name":"nostalgia"},{"id":"2743","name":"dash"},{"id":"8949","name":"attack"},{"id":"6287","name":"slide"},{"id":"17813","name":"merge"}]
 size: "232 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2b12ff7571dcb4c1d81361b867590f1d08f2aa773038dea3e143db0be8877393.jpg?namespace=gamesdb"

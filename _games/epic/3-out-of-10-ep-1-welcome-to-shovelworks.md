@@ -29,7 +29,7 @@ franchise: 3 out of 10, EP
 age_rating_summary: 
 age_ratings: {}
 release_date: "August 6, 2020"
-game_modes: ["Single Player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1141","name":"Free to Play"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: "3-out-of-10|3-out-of-10-season-two"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-08-05T15:00:00.000Z","end":"2020-08-12T15:00:00.000Z","type":null,"id":"eb38399025864ffb88a7e027d02502a8"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/77861f38eb0bdc97b5fd50a0d539cf888b19c61a828532e78259d89f67521e55.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "June 9, 2023"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"25","name":"Space"},{"id":"110","name":"Cinematic"},{"id":"172","name":"Aliens"},{"id":"90","name":"Visual Novel"},{"id":"305","name":"Linear"},{"id":"258","name":"Hand-drawn"},{"id":"205","name":"Lore-Rich"},{"id":"572","name":"Emotional"},{"id":"208","name":"Alternate History"},{"id":"774","name":"nature"},{"id":"87","name":"Science"},{"id":"220","name":"Experimental"},{"id":"250","name":"Underwater"},{"id":"2197","name":"submarine"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/846fce2bc3d639629d04b3c2e8b90de4988c2b5e7f195335c9ceed444a648580.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/2443110"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/south-scrimshaw-part-one/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

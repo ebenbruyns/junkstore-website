@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 12 (PEGI)
 age_ratings: {"pegi":{"rating":"12","descriptors":"Violence, Bad language"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência, Linguagem imprópria"}}
 release_date: "September 26, 2018"
-game_modes: ["Achievements","Controller support","Overlay","Single-player"]
-languages: ["English","Russian","French","German","Spanish - Spain","Polish","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Polish","Russian"]
 languages_audio: []
 tags_structured: []
 size: "957 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/21cd60fb9287e3e5ebf58798cce3c7ee1daf9e8f8ddb7ed5972bc18274a5bc55.jpg?namespace=gamesdb"

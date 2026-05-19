@@ -118,6 +118,14 @@ notes:
     date: "2026-05-14T00:00:00"
     type: "client-beta"
     text: "No issues or breakages - [Steam Deck Beta Client Update: May 13th](https://store.steampowered.com/news/app/1675200/view/702141807556822811)"
+  - id: "1778874850501"
+    date: "2026-05-15T00:00:00"
+    type: "client-beta"
+    text: "No issues or breakages - [Steam Deck Beta Client Update: May 14th](https://store.steampowered.com/news/app/1675200/view/672869045073084967)"
+  - id: "1779233536707"
+    date: "2026-05-18T00:00:00"
+    type: "client-beta"
+    text: "No issues or breakages - [Steam Deck Beta Client Update: May 18th](https://store.steampowered.com/news/app/1675200/view/672869045073086088)"
 
 breakHistory:
   []

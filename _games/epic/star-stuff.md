@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "January 17, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","German","Japanese","Portuguese - Brazil","Simplified Chinese","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"},{"id":"1151","name":"Platformer"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/cc0abf3784598a9214785a3afb8ef0a461adc51ce63fe5083d6ab3bedfec3970.jpg?namespace=gamesdb"

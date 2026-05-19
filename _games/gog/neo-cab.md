@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Sexual Content, Inappropriate Language"}}
 release_date: "October 3, 2019"
-game_modes: ["Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Arabic"]
+game_modes: ["Single-player"]
+languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Dutch","Russian","Turkish","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"13","name":"Captions available"},{"id":"68","name":"Custom Volume Controls"},{"id":"76","name":"Mouse Only Option"},{"id":"23","name":"Steam Cloud"},{"id":"41","name":"Remote Play on Phone"},{"id":"42","name":"Remote Play on Tablet"},{"id":"62","name":"Family Sharing"}]
 size: ""
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/049087b24c0dbb85d27354c7d5ceb1d4854f8a93d8c7930ad391a4f00484c18b.jpg?namespace=gamesdb"

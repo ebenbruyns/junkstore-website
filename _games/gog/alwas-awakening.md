@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: E (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"6"},"cero":{"rating":"A"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "February 2, 2017"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Swedish","German","Spanish - Spain","Portuguese - Brazil","French","Italian","Russian"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Spanish","French","Italian","Russian","Swedish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"45","name":"2D"},{"id":"189","name":"Female Protagonist"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"40833","name":"Captions available"},{"id":"259","name":"Metroidvania"}]
 size: "104 MB"
@@ -39,6 +39,7 @@ franchise_slug: "alwas-awakening|alwas-legacy"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c5860c0dbaabb986bba6cb7f2479c9aa02666f20ceb75948df716505ea782f5c.jpg?namespace=gamesdb"

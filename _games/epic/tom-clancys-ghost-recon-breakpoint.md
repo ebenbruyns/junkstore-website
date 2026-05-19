@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Strong Language, Mild Sexual Themes"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, In-Game Purchases"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence, Crime"},"oflc":{"rating":"ma15","descriptors":"Online interactivity, Strong themes, Strong violence"},"nzoflc":{"rating":"r16","descriptors":"Violence, Offensive language"},"kgrb":{"rating":"18","descriptors":"Violence, Language"},"dejus":{"rating":"16","descriptors":"Drogas lícitas, Linguagem imprópria, Violência"}}
 release_date: "October 4, 2019"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1370","name":"Single Player"},{"id":"1210","name":"Shooter"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
@@ -39,6 +39,7 @@ franchise_slug: "ghost-recon-future-soldier|tcs-graw|tcs-graw2|tom-clancys-ghost
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/5e6ba7885094f879d710a68c598d90bb3aa0cb7135d38e1229decde10a77b2c8.jpg?namespace=gamesdb"

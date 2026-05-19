@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "August 3, 1993"
-game_modes: ["Cloud saves","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"193","name":"Classic"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1268f8fcd673cc911a83597e7583adf6deaae6dd6e477386b2fc54d6e8d51cfc.jpg?namespace=gamesdb"

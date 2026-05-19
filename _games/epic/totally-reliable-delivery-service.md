@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa, Compras on-line"}}
 release_date: "April 1, 2020"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Traditional Chinese","Korean","Japanese","Portuguese - Brazil","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1400","name":"Physics"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-03-31T15:00:00.000Z","end":"2020-04-07T15:00:00.000Z","type":null,"id":"4f480f675a6c4947b1bbfbc73a7d3a93"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/db19dcbdfd80232cf538d1aa4e00bd23f4664941f70a07315fa2ff03863885fe.jpg?namespace=gamesdb"

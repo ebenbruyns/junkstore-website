@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Conteúdo sexual, Linguagem imprópria"}}
 release_date: "February 12, 2019"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"121","name":"Character Customization"},{"id":"145","name":"Choices Matter"},{"id":"192","name":"Mature"},{"id":"50","name":"Sexual Content"},{"id":"90","name":"Visual Novel"},{"id":"217","name":"Romance"},{"id":"160","name":"Dating Sim"},{"id":"42410","name":"LGBTQ+"},{"id":"40858","name":"Other"},{"id":"585","name":"LGBT"}]
@@ -39,6 +39,7 @@ franchise_slug: "arcade-spirits|arcade-spirits-the-new-challen"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/910630/library_hero.jpg"

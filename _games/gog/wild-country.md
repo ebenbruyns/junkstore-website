@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6"}}
 release_date: "November 25, 2024"
-game_modes: ["Overlay","Single-player"]
-languages: ["English","Simplified Chinese","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"115","name":"Controller"},{"id":"80","name":"Tactical"},{"id":"157","name":"PvP"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"1465","name":"combat"},{"id":"170","name":"Competitive"},{"id":"45878","name":"Online PvP"},{"id":"213","name":"City Builder"},{"id":"127","name":"Card Game"},{"id":"91686","name":"Family Sharing"},{"id":"162","name":"Board Game"},{"id":"774","name":"nature"},{"id":"103","name":"Hex Grid"},{"id":"235","name":"Trading Card Game"},{"id":"49950","name":"Card Battler"},{"id":"4880","name":"tabletop"}]
 size: "831 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ff0abc28d9168d129bfa0da7f873a90cd8c586fb93a920ef06c5456463e374a8.jpg?namespace=gamesdb"

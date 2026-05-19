@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: ESRB Mature 17+
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
 release_date: "December 5, 2023"
-game_modes: ["Achievements","Cloud saves","Controller support","Leaderboards","Single-player"]
-languages: ["English","German","Polish","Russian","Hungarian","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Hungarian","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "3982 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2dc96210c629498a2b278954d6dd0f48ec7a7b5c3b99a7d8ce290fec90f311c2.jpg?namespace=gamesdb"

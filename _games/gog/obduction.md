@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: e10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Language"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "August 24, 2016"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Polish","Dutch","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Dutch","Polish","Portuguese","Russian","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
 size: "4853 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0ae9bcc5e56fbcb9b8aacd93891b596bf7b7ed8bca5872ad77170ade2f3eb412.jpg?namespace=gamesdb"

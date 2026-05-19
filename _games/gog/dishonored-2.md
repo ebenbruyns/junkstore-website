@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language, Suggestive Themes"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong bloody violence"},"nzoflc":{"rating":"r16","descriptors":"Graphic Violence"},"fpb":{"rating":"18"},"dejus":{"rating":"16"}}
 release_date: "November 11, 2016"
-game_modes: ["Achievements","Cloud saves","Controller support","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Spanish","French","Italian","Japanese","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"26","name":"Gore"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"15","name":"Stealth"},{"id":"82","name":"Magic"},{"id":"188","name":"Parkour"},{"id":"119","name":"Dystopian"},{"id":"154","name":"Steampunk"},{"id":"278","name":"Assassin"},{"id":"178","name":"Illuminati"},{"id":"216","name":"Heist"},{"id":"279","name":"Supernatural"},{"id":"42473","name":"Immersive Sim"}]
 size: "40514 MB"
@@ -39,6 +39,7 @@ franchise_slug: "dishonored|dishonored-2|dishonored-death-of-the-outsid"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/758323c46a96995469cd6a7018e7044fa4b9b48ed171317b86e528fae97de103.jpg?namespace=gamesdb"

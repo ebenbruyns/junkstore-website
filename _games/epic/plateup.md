@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas"}}
 release_date: "October 16, 2025"
-game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
+game_modes: ["Single-player","Online Multi-player","Local Multi-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Korean","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"39940","name":"Gift A Game"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1599600/library_hero.jpg"

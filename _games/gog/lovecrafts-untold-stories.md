@@ -29,8 +29,8 @@ franchise: "Lovecraft's Untold Stories"
 age_rating_summary: 16 (PEGI)
 age_ratings: {"pegi":{"rating":"16","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Violência, Atos criminosos"}}
 release_date: "January 31, 2019"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Spanish - Spain","Russian","German","Italian","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Spanish","Italian","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
 size: "337 MB"
@@ -39,6 +39,7 @@ franchise_slug: "lovecrafts-untold-stories|lovecrafts-untold-stories-2-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6b34f034a5f7b0932806ddd7fefdef48ea773be395f13763a8cf30e10b8d154f.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Language, Use of Alcohol, Violence"},"pegi":{"rating":"18","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Strong Violence"},"nzoflc":{"rating":"r13","descriptors":"Violence, horror scenes &amp; offensive language"},"csrr":{"rating":"R"},"dejus":{"rating":"14","descriptors":"Drogas Lícitas, Linguagem Imprópria, Violência"}}
 release_date: "September 9, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese","Simplified Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "prey|prey-2|prey-2006|prey-invasion"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-05-11T15:00:00.000Z","end":"2022-05-18T15:00:00.000Z","type":null,"id":"ed17077691c541c19dc95e47fdd1cfd5"},{"start":"2021-12-24T15:00:00.000Z","end":"2021-12-25T15:00:00.000Z","type":null,"id":"ed17077691c541c19dc95e47fdd1cfd5"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/23f97227d0a8d9bc48ab688c71dfc32877c900220e7f9000e9a0eca4a9ee1e0f.jpg?namespace=gamesdb"

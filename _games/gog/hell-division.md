@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "June 3, 2022"
-game_modes: ["Overlay","Single-player"]
-languages: ["English","Russian","French","Italian","German","Spanish - Spain","Traditional Chinese","Simplified Chinese","Korean","Polish","Turkish","Japanese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Turkish","Chinese Traditional"]
 languages_audio: []
 tags_structured: []
 size: "2632 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/10bb0ee2e1778ca1ba6ce2cfef3e72eb3a156fdee136d786c2ccd1e62d73381e.jpg?namespace=gamesdb"

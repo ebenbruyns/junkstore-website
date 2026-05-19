@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Strong Language, Suggestive Themes, Violence"},"oflc":{"descriptors":"%oflcDescriptors%"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Atos criminosos"}}
 release_date: "June 30, 2009"
-game_modes: ["Cloud saves","Controller support","Multi-player","Overlay","Single-player"]
-languages: ["English","French","German","Italian","Spanish - Spain"]
+game_modes: ["Multi-player","Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"89","name":"Historical"},{"id":"152","name":"Western"},{"id":"308","name":"Bullet Time"}]
 size: "3761 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2afe3c072092fbd0adb7b58838bd2adcb20060376bed48309c28d4fd0400c89f.jpg?namespace=gamesdb"

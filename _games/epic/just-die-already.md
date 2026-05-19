@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência fantasiosa, Atos criminosos, Violência Extrema, Violência, Temas sensíveis, Linguagem imprópria, Nudez, Drogas ilícitas"}}
 release_date: "May 20, 2021"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21126","name":"Silly Community"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1116","name":"Comedy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-04-27T15:00:00.000Z","end":"2022-05-04T15:00:00.000Z","type":null,"id":"fd05ded73f7944798434bd7ee7b39e9c"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/56d0b7e66187906b17f7028e46abceacb88da3f9cbf0c88dba1257b6d9938c9a.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "January 27, 2023"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"26","name":"Gore"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"1465","name":"combat"},{"id":"61","name":"Top-Down"},{"id":"259","name":"Metroidvania"},{"id":"57","name":"Bullet Hell"},{"id":"187","name":"Demons"},{"id":"580","name":"Souls-like"},{"id":"204","name":"Gothic"},{"id":"201","name":"Twin Stick Shooter"},{"id":"146","name":"Nonlinear"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b48f1485bd06d669cd1eb74dd7624f16dcb1f8c84f061cfd98b3a841c1982a61.jpg?namespace=gamesdb"

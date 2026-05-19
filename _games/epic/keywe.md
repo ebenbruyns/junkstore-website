@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "April 28, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"1203","name":"Multiplayer"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1f1306c5385423af5529a4b8f99f1f85ac40979ceac128daa3f4e8c27ec0ec13.jpg?namespace=gamesdb"

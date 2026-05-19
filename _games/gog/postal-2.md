@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · ma15 (OFLC)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood &amp; Gore, Intense Violence, Mature Humor, Strong Language, Use of Drugs, Mature Sexual Themes"},"oflc":{"rating":"ma15","descriptors":"Strong crude humour, violence, coarse language and suicide scenes, online interactivity and chat"},"dejus":{"rating":"18","descriptors":"Drogas ilícitas, Violência, Temas sensíveis"}}
 release_date: "April 14, 2003"
-game_modes: ["Cloud saves","Controller support","Multi-player","Single-player"]
-languages: ["English","Russian","Simplified Chinese","Spanish - Spain","Turkish"]
+game_modes: ["Multi-player","Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","English","Spanish","Polish","Portuguese","Turkish"]
 languages_audio: ["English","Russian","Simplified Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"4","name":"Funny"},{"id":"26","name":"Gore"},{"id":"193","name":"Classic"},{"id":"37","name":"Sandbox"},{"id":"123","name":"Comedy"},{"id":"34","name":"Violent"},{"id":"40852","name":"Steam Workshop"},{"id":"40838","name":"Includes level editor"},{"id":"62","name":"Moddable"},{"id":"107","name":"Family Friendly"},{"id":"37796","name":"exclusive"},{"id":"192","name":"Mature"},{"id":"37797","name":"true exclusive"},{"id":"148","name":"Dark Humor"},{"id":"153","name":"Satire"}]
 size: "2434 MB"
@@ -39,6 +39,7 @@ franchise_slug: "poostall-royale|postal|postal-2|postal-3|postal-4-no-regerts|po
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d13f803f3f806b8fe6513fa5a246cdeb015e3f5d96ed2bb8d97be168538ae1f0.jpg?namespace=gamesdb"

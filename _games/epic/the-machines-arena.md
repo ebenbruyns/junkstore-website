@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa"}}
 release_date: "April 23, 2024"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Online Multi-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1310","name":"EARLY ACCESS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0f2ab7819dbf1039a27bcf6a47f8543fb4b4cfcb0bc4a7c9118544bde7d1683b.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/1539860"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/the-machines-arena/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

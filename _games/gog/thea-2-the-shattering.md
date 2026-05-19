@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Nudez, Violência"}}
 release_date: "May 13, 2019"
-game_modes: ["Achievements","Cloud saves","Co-op","Multi-player","Overlay","Single-player"]
+game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"1","name":"Survival"},{"id":"14","name":"Early Access"},{"id":"44","name":"Nudity"},{"id":"102","name":"Turn-Based"},{"id":"40","name":"Dark Fantasy"},{"id":"125","name":"Crafting"},{"id":"639","name":"Roguelike"},{"id":"101","name":"Turn-Based Strategy"},{"id":"50","name":"Sexual Content"},{"id":"640","name":"Roguelite"},{"id":"127","name":"Card Game"},{"id":"212","name":"4X"}]
@@ -39,6 +39,7 @@ franchise_slug: "thea-2-the-shattering|thea-the-awakening"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4c18c50d766dabd2e699bbfba63aeb9b259c724fdb7b09647b8b6ae6b82146f7.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/606230"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thea_2%3A_The_Shattering"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/thea-2-the-shattering/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: "7749"

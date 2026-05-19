@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "April 5, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Korean","Polish","Russian","Traditional Chinese","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"1","name":"Survival"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"11669","name":"stats"},{"id":"1465","name":"combat"},{"id":"113","name":"Side Scroller"},{"id":"639","name":"Roguelike"},{"id":"172","name":"Aliens"},{"id":"67","name":"Management"},{"id":"640","name":"Roguelite"},{"id":"196","name":"Procedural Generation"},{"id":"147","name":"Resource Management"},{"id":"65","name":"Tower Defense"},{"id":"184","name":"Mechs"},{"id":"1529","name":"fight"},{"id":"3109","name":"weapons"},{"id":"624","name":"Monsters"},{"id":"1652","name":"night"},{"id":"1753","name":"guns"},{"id":"3117","name":"shoot"},{"id":"316","name":"Mining"},{"id":"3680","name":"defense"},{"id":"5559","name":"elements"},{"id":"2286","name":"tower"},{"id":"8949","name":"attack"},{"id":"1310","name":"machine"},{"id":"2629","name":"mine"},{"id":"2888","name":"hack"},{"id":"7270","name":"find"},{"id":"1957","name":"weather"},{"id":"675","name":"creatures"},{"id":"2092","name":"rogue"},{"id":"3187","name":"break"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f2e3c8e39783477ec0b6a39c0707858fc6b27302cbf1f74f8cb526eb05744dd9.jpg?namespace=gamesdb"

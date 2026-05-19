@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {}
 release_date: "July 21, 2017"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen","Battle Royale"]
+game_modes: ["Single-player","Online Multi-player","Co-op"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1187","name":"THIRD-PERSON SHOOTER"},{"id":"21125","name":"Competitive Community"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1141","name":"Free to Play"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"39070","name":"iOS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/cd801498cd1f3b53da4838b118a23d132c4ec4db4ce8079081f814466b91104a.jpg?namespace=gamesdb"

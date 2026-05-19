@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "April 21, 2020"
-game_modes: ["Controller support","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"70","name":"War"},{"id":"1465","name":"combat"},{"id":"172","name":"Aliens"},{"id":"61","name":"Top-Down"},{"id":"2184","name":"hunt"},{"id":"2191","name":"alien"},{"id":"3680","name":"defense"},{"id":"691","name":"quick"},{"id":"307","name":"Gaming"},{"id":"1549","name":"snake"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/97ba184cb31f9971c70f96b9b1cf33fde9ea91b2395d6714e87f960dd8a0e087.jpg?namespace=gamesdb"

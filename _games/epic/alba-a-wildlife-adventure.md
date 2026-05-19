@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-11-09T15:00:00.000Z","end":"2022-11-16T15:00:00.000Z","type":null,"id":"44a89fd06011419d9df5fe412ab305e1"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0dc6a1a878062b98b44e00d4fd0e3ee504feb11bd1fa3fae6e6519995e875d40.jpg?namespace=gamesdb"

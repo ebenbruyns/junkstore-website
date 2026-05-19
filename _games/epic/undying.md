@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "October 19, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Japanese","French","German","Korean","Russian","Traditional Chinese","Spanish - Spain","Portuguese - Brazil","Italian","Turkish"]
 languages_audio: ["English","Simplified Chinese"]
 tags_structured: [{"id":"21137","name":"Unique Visuals"},{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-01-30T16:00:00.000Z","end":"2025-02-06T16:00:00.000Z","type":null,"id":"c9d2e42d8b404add9390c0182093abbd"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/71c0acc2c7d2be877845de72a864c0792fd821b0286a48474c4707cf4b05979b.jpg?namespace=gamesdb"

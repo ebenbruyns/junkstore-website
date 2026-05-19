@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 3 (PEGI) · 6 (USK)
 age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"6","descriptors":"Abstract Violence"},"oflc":{"rating":"PG","descriptors":"Mild Coarse Language"},"nzoflc":{"rating":"PG","descriptors":"Mild Coarse Language"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência, Atos criminosos"}}
 release_date: "March 24, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: "turnip-boy-commits-tax-evasion|turnip-boy-robs-a-bank"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-11-01T15:00:00.000Z","end":"2023-11-08T15:00:00.000Z","type":null,"id":"e0282b701ea04c42ac1b5a55c1a3bfde"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9d9d82290a3a9b250d4e67add5257fde089d022b99a435237f76af46c3de3302.jpg?namespace=gamesdb"

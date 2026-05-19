@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria"}}
 release_date: "March 24, 2023"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"41","name":"Dark"},{"id":"571","name":"3D"},{"id":"131","name":"Fast-Paced"},{"id":"56","name":"Shoot 'Em Up"},{"id":"57","name":"Bullet Hell"},{"id":"187","name":"Demons"},{"id":"236","name":"Top-Down Shooter"},{"id":"201","name":"Twin Stick Shooter"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b7150a388fa89f71aae621196a792cca4338e4d01b4490269216829221834116.jpg?namespace=gamesdb"

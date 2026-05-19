@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "April 1, 2017"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"74","name":"Retro"},{"id":"54","name":"Score Attack"},{"id":"460","name":"Endless"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/905bea3aaf803e06104b6a351be3e7c99754978366483f5e1883cb9dd6160625.jpg?namespace=gamesdb"

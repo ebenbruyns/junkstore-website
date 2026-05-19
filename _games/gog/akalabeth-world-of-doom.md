@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "June 30, 1979"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"468","name":"role-playing"}]
@@ -39,6 +39,7 @@ franchise_slug: "akalabeth-world-of-doom-2|ultima|ultima-4-quest-of-the-avatar|u
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/91146cec4a57fd6bbd3411d4348fb56b704cd6354ceb951760d54907cfe5b820.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "March 1, 2020"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Overlay","Single-player"]
-languages: ["English","Simplified Chinese","Spanish - Spain","Korean","French","German","Japanese","Spanish - Latin America","Traditional Chinese","Turkish","Portuguese - Brazil","Russian","Polish"]
+game_modes: ["Co-op","Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Japanese","Korean","Polish","Russian","Turkish","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"18","name":"Co-op"},{"id":"45","name":"2D"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"122","name":"Pixel Graphics"},{"id":"72","name":"Local Multiplayer"},{"id":"40852","name":"Steam Workshop"},{"id":"468","name":"role-playing"},{"id":"639","name":"Roguelike"},{"id":"127","name":"Card Game"},{"id":"1317","name":"Deck Building"}]
 size: "416 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0b941e3afe78e370347c8609d7dbb16d298ecf565b215955cb8ce5a20bb4c19c.jpg?namespace=gamesdb"

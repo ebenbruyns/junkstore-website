@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6"}}
 release_date: "March 14, 2004"
-game_modes: ["Cloud saves","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Thai","Traditional Chinese","Turkish","Ukrainian","Vietnamese"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["Arabic","Belarusian","Bulgarian","Portuguese (brazilian)","Catalan","Chinese Simplified","Czech","Danish","German","English","Spanish","Latin American Spanish","Estonian","Finnish","French","Greek","Hebrew","Hungarian","Icelandic","Italian","Japanese","Korean","Dutch","Norwegian","Polish","Portuguese","Romanian","Russian","Serbian","Slovak","Swedish","Thai","Turkish","Ukrainian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"9","name":"Online Co-Op"},{"id":"37","name":"Sandbox"},{"id":"79","name":"Free to Play"},{"id":"157","name":"PvP"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"62","name":"Moddable"},{"id":"99","name":"Isometric"},{"id":"39","name":"Building"},{"id":"45878","name":"Online PvP"},{"id":"67","name":"Management"},{"id":"147","name":"Resource Management"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"},{"id":"139","name":"Trains"},{"id":"46115","name":"LAN Co-op"},{"id":"46113","name":"LAN PvP"},{"id":"4270","name":"transportation"}]
 size: "31 MB"
@@ -39,6 +39,7 @@ franchise_slug: "openttd|transport-tycoon-deluxe"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d028169fb21dee214d2bb9a5af9db8f2cc5697c211d6131c6b33e0106d2b65ee.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/1536610"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/OpenTTD"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/openttd/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

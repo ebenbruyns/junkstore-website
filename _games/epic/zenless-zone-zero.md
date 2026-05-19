@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Suggestive Themes"},"pegi":{"rating":"12"},"usk":{"rating":"16"},"kgrb":{"rating":"15"},"dejus":{"rating":"18","descriptors":"Violência"}}
 release_date: "July 2, 2024"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Korean","French","German","Spanish - Spain","Russian","Indonesian","Japanese","Thai","Traditional Chinese","Vietnamese","Portuguese - Brazil"]
 languages_audio: ["English","Simplified Chinese","Korean","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/511592cf8c85893f75ac49d453ce959d015b5c60a3fa3447f52a436677de78af.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 0 (USK)
 age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa"}}
 release_date: "March 26, 2024"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Online Multi-player"]
 languages: ["English","German","Simplified Chinese","Turkish","French","Italian","Dutch","Russian","Portuguese - Brazil","Romanian","Traditional Chinese","Czech","Spanish - Spain","Korean","Danish","Swedish","Ukrainian","Hungarian","Galician","Japanese","Polish","Basque"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-31T15:00:00.000Z","end":"2024-11-07T15:00:00.000Z","type":null,"id":"d2db7ad960a84551825707261c8437c4"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1591a7cc7cf93809259163622736e2654a04ea6ed8ac9e2a50af07cff397870f.jpg?namespace=gamesdb"

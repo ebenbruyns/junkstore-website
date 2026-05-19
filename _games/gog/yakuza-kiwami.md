@@ -27,9 +27,9 @@ developer: Ryū Ga Gotoku Studios
 genre: role-playing-rpg, adventure, hack-and-slash-beat-em-up
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
-age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Partial Nudity, Sexual Themes, Strong Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Gambling"},"usk":{"rating":"18"},"cero":{"rating":"D","descriptors":"セクシャル, 暴力, ギャンブル, 犯罪"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence."},"kgrb":{"rating":"19","descriptors":"선정성, 폭력성, 언어의 부적절성, 약물, 사행성"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Drogas lícitas"}}
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Partial Nudity, Sexual Themes, Strong Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Gambling"},"usk":{"rating":"18"},"cero":{"rating":"D"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence."},"kgrb":{"rating":"19"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Drogas lícitas"}}
 release_date: "January 21, 2016"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English","Japanese"]
 languages_audio: ["Japanese"]
 tags_structured: [{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"203","name":"Beat 'em up"},{"id":"144","name":"Crime"},{"id":"40937","name":"Steam Trading Cards"},{"id":"569","name":"Minigames"},{"id":"425","name":"Single player only"}]
@@ -39,6 +39,7 @@ franchise_slug: "kurohyo-ryu-ga-gotoku-shinsho|kurohyou-2-ryu-ga-gotoku-ashur|ya
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1de10c293238351862a0da95aabf84ca8552d2ebfb6f09f4d66900cc2e07135a.jpg?namespace=gamesdb"

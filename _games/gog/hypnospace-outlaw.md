@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas ilícitas, Conteúdo sexual, Medo"}}
 release_date: "March 12, 2019"
-game_modes: ["Cloud saves","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"141","name":"Point & Click"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/cba1be9225184f5e4faeced1d02cfbf9ae2b51606c0c635172a2140be279f970.jpg?namespace=gamesdb"

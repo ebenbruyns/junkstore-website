@@ -29,7 +29,7 @@ franchise: shapez
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "October 31, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Czech","German","Korean","Spanish - Spain","Dutch","Polish","Portuguese - Portugal","Russian","Norwegian","Japanese","Portuguese - Brazil","Spanish - Latin America","Simplified Chinese","Traditional Chinese","Danish","Italian","Finnish","Hungarian","Romanian","Swedish","Turkish","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-04-05T15:00:00.000Z","end":"2023-04-12T15:00:00.000Z","type":null,"id":"35f8d25247154fca9b900c13d2be04f6"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d7feb650e03ad7a4dfd763f15eee81ce30217057ba2d7538ef483426ffa9a7a2.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/1318690"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shapez"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/shapez/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

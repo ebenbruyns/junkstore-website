@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-09-18T15:00:00.000Z","end":"2025-09-25T15:00:00.000Z","type":null,"id":"15176675e3bd4fcc98949566caa754e4"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/40720/library_hero.jpg"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/40720"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Samorost_2"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/samorost-2/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

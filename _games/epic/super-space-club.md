@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "January 23, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1121","name":"Space"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c1d54691091d30e63951c2d052457d743f8f1c4120efaae2a0c4e28b9bdd0ca6.jpg?namespace=gamesdb"

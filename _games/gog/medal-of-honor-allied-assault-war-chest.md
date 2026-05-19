@@ -39,6 +39,7 @@ franchise_slug: "medal-of-honor|medal-of-honor-1999|medal-of-honor-above-and-bey
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3fdb818845e1c0cda67284f8d82c78bd24c8c559b03f0c3a2e9c8e94c9cd6bbf.jpg?namespace=gamesdb"

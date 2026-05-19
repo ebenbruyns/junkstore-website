@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "June 23, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Hungarian","Japanese","Polish","Russian","Simplified Chinese","Turkish","Portuguese - Portugal","Greek","Portuguese - Brazil","Finnish","Korean"]
 languages_audio: []
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21127","name":"Creative Community"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-06-22T15:00:00.000Z","end":"2022-06-29T15:00:00.000Z","type":null,"id":"5eb27cf1747c40b5a0d4f5492774678d"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d211fdb7009fd246d1846981e8c6acd685dea6dd2c56c6d3856b6cc00aab7d31.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "October 8, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Spanish - Latin America","Italian","Simplified Chinese","Traditional Chinese","Russian","Spanish - Spain","French","German","Japanese","Korean","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"88","name":"Cute"},{"id":"117","name":"Mystery"},{"id":"145","name":"Choices Matter"},{"id":"165","name":"Colorful"},{"id":"138","name":"Relaxing"},{"id":"46","name":"Surreal"},{"id":"572","name":"Emotional"},{"id":"295","name":"Soundtrack"},{"id":"583","name":"Narrative"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/99228f1eb5bc7a0ffe7353b40d95e28fe97e864bdafa0569097d6550c67e9e99.jpg?namespace=gamesdb"

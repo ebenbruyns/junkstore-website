@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Strong Language"},"dejus":{"rating":"14","descriptors":"Violência, Medo, Linguagem imprópria"}}
 release_date: "January 24, 2017"
-game_modes: ["Single player"]
-languages: ["English","French","German","Russian","Italian","Polish","Turkish","Spanish - Spain","Hungarian","Japanese","Portuguese - Brazil","Portuguese - Portugal"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Polish","Russian","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"189","name":"Female Protagonist"},{"id":"34","name":"Violent"},{"id":"79","name":"Free to Play"},{"id":"141","name":"Point & Click"},{"id":"99","name":"Isometric"}]
 size: "2027 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3cdd49c28c9d328531ed2c591fb21cad6bd9e3f60540a66ac34be3b3d3b67f09.jpg?namespace=gamesdb"

@@ -26,10 +26,10 @@ publisher: Dreamhaven
 developer: Secret Door
 genre: Role-playing (RPG)
 franchise: 
-age_rating_summary: 
+age_rating_summary: 10 (ESRB)
 age_ratings: {}
 release_date: "April 23, 2025"
-game_modes: ["Multi-player","Co-op","Shared/Split Screen Co-op"]
+game_modes: ["Local Multi-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Polishlanguages With Full Audio Support"]
 languages_audio: []
 tags_structured: [{"id":"1","name":"Multi-player"},{"id":"9","name":"Co-op"},{"id":"39","name":"Shared/Split Screen Co-op"},{"id":"24","name":"Shared/Split Screen"},{"id":"22","name":"Steam Achievements"},{"id":"23","name":"Steam Cloud"},{"id":"43","name":"Remote Play on TV"},{"id":"44","name":"Remote Play Together"},{"id":"62","name":"Family Sharing"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/713930faaa50b3ef3aada9900f18cbf42a44e395d660f68323fbdc02f828072c.jpg?namespace=gamesdb"

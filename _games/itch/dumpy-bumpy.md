@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "May 27, 2021"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Danish","Dutch","Finnish","Japanese","Korean","Norwegian","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"18","name":"Co-op"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"157","name":"PvP"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"61","name":"Top-Down"},{"id":"215","name":"Dragons"},{"id":"45201","name":"Remote Play Together"},{"id":"46112","name":"Shared/Split Screen Co-op"},{"id":"126","name":"Dinosaurs"},{"id":"46114","name":"Shared/Split Screen PvP"},{"id":"570","name":"Old School"},{"id":"575","name":"Logic"},{"id":"654","name":"blocks"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1631500/library_hero.jpg"

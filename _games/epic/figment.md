@@ -29,7 +29,7 @@ franchise: Figment
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Language, Crude Humor"},"pegi":{"rating":"12","descriptors":"Mild Swearing"},"usk":{"rating":"6","descriptors":"Abstract Violence, Occasional Swearing"},"oflc":{"rating":"M","descriptors":"Coarse Language"},"dejus":{"rating":"10","descriptors":"Linguagem imprópria"}}
 release_date: "March 26, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian","Portuguese - Brazil"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-03T15:00:00.000Z","end":"2025-07-10T15:00:00.000Z","type":null,"id":"addd4e86c4d746ab86f21606bdadce7d"},{"start":"2020-03-25T15:00:00.000Z","end":"2020-04-01T15:00:00.000Z","type":null,"id":"addd4e86c4d746ab86f21606bdadce7d"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/fae02216d95ec1ff3c204a25f3354e0af65196eebbe485a47c1dfb0d77a1f849.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
 release_date: "September 30, 1997"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Ukrainian","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Ukrainian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"122","name":"Pixel Graphics"},{"id":"41","name":"Dark"},{"id":"74","name":"Retro"},{"id":"40","name":"Dark Fantasy"},{"id":"1465","name":"combat"},{"id":"46","name":"Surreal"},{"id":"243","name":"1990's"},{"id":"570","name":"Old School"},{"id":"49953","name":"Hero Shooter"}]
 size: "763 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/64238debb69b316c57658654f4c63ffe57de04013fadf8dda76839c0e355e184.jpg?namespace=gamesdb"

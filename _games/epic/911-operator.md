@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Atos criminosos, Linguagem imprópria, Drogas ilícitas"}}
 release_date: "April 23, 2026"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Simplified Chinese","Russian","Japanese","Czech","Korean","Portuguese - Brazil","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/806d406fd0a97632e748a221ff6216900bd1abf56147b5e27c9fc2eede018c0a.jpg?namespace=gamesdb"

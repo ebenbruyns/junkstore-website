@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "January 11, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"118","name":"Story Rich"},{"id":"6","name":"Exploration"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"91","name":"Walking Simulator"},{"id":"196","name":"Procedural Generation"},{"id":"597","name":"artgame"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn2.steamgriddb.com/thumb/c0de4e45de9e9654ddf8fb2a76257580.jpg"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"High impact violence, blood and gore, online interactivity"},"nzoflc":{"rating":"r16","descriptors":"graphic violence, horror"},"fpb":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Extreme Violence"}}
 release_date: "May 1, 2016"
-game_modes: ["Achievements","Cloud saves","Controller support","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Spanish","French","Italian","Japanese","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian"]
 tags_structured: []
 size: "63434 MB"
@@ -39,6 +39,7 @@ franchise_slug: "doom|doom-2|doom-3|doom-3-resurrection-of-evil|doom-64|doom-ete
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7de6eafaab82033d8fc39f4a201f385fc00bd2410bcede1cb0cbb337e65308c5.jpg?namespace=gamesdb"

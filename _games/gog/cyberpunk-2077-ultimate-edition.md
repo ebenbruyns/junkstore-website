@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Nudity, Strong Language, Strong Sexual Content, Use of Drugs, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Sex, Bad Language"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"High impact themes, Sex, Violence, References to sexual violence"},"nzoflc":{"rating":"r18","descriptors":"Violence, Offensive language, Sex scenes"},"kgrb":{"rating":"18","descriptors":"Sexuality, Violence, Crude Language, Usage of Drugs"},"csrr":{"rating":"R","descriptors":"Sex, Violence, Tabacco, Alcohol"},"mda":{"rating":"M18","descriptors":"Violence, Sexual scenes, Coarse language"},"dejus":{"rating":"18","descriptors":"Conteúdo sexual, Drogas, Violência Extrema"}}
 release_date: "December 10, 2020"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Hungarian","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese","Turkish","Ukrainian"]
+game_modes: ["Single-player"]
+languages: ["English"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
 tags_structured: []
 size: "60.3 GB"
@@ -39,6 +39,7 @@ franchise_slug: "cyberpunk-2077|cyberpunk-the-arasakas-plot"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1091500/library_hero.jpg"

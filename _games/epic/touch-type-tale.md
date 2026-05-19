@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 6 (USK)
 age_ratings: {"usk":{"rating":"6"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "March 28, 2023"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-08T15:00:00.000Z","end":"2025-05-15T15:00:00.000Z","type":null,"id":"ac63bc06c6d44a5d8c423675bd7208d9"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ece2157005bd5984cb2ac89badeb94119de8bc9cf65f754e7de9f73f1dce3bee.jpg?namespace=gamesdb"

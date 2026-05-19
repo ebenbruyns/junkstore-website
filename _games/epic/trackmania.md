@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 3 (PEGI) · 0 (USK)
 age_ratings: {"pegi":{"rating":"3","descriptors":"In-Game Purchases"},"usk":{"rating":"0"},"cero":{"rating":"A"},"oflc":{"rating":"G","descriptors":"General, online interactivity, In-game purchases"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
 release_date: "July 1, 2020"
-game_modes: ["Single player","Multiplayer","Split screen"]
+game_modes: ["Single-player","Multi-player","Split Screen"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Turkish","Japanese","Dutch","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"1203","name":"Multiplayer"},{"id":"1159","name":"Arcade"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"1279","name":"Vampire"}]
@@ -39,6 +39,7 @@ franchise_slug: "trackmania-2003|trackmania-2010|trackmania-2020|trackmania-ds|t
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ca5912a2528b8e61087be1e441ef16f09602099d7b0586ba7a8d3732034641c4.jpg?namespace=gamesdb"

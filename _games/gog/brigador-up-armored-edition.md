@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência"}}
 release_date: "June 2, 2016"
-game_modes: ["Achievements","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Italian","Simplified Chinese","Traditional Chinese","Polish","Korean"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: []
 size: "638 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/274500/library_hero.jpg"

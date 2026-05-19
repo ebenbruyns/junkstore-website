@@ -29,7 +29,7 @@ franchise: River City Girls
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Language, Mild Blood, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B","descriptors":"Violence"},"oflc":{"rating":"PG","descriptors":"Mild themes, Violence, Course Language"},"dejus":{"rating":"12","descriptors":"Violência, Conteúdo sexual"}}
 release_date: "January 10, 2024"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Local Multi-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Korean","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "crash-n-the-boys-street-challe|downtown-nekketsu-jidaigeki|down
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-04-10T15:00:00.000Z","end":"2025-04-17T15:00:00.000Z","type":null,"id":"ceea8c3f2f0b48dfbd5c658c3cb6d1b0"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4524b8a36adac57aae5680b6a95d8296b9ed2a94a8085bde857a2ce5983b2c44.jpg?namespace=gamesdb"

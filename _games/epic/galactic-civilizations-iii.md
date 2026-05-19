@@ -27,9 +27,9 @@ developer: Stardock
 genre: Strategy
 franchise: 
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
-age_ratings: {"esrb":{"rating":"e10","descriptors":"Alcohol Reference, Fantasy Violence, Mild Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Non-realistic looking violence towards human characters., This game allows the player to interact with other players ONLINE."},"usk":{"rating":"6"},"kgrb":{"rating":"12","descriptors":"폭력성"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Drogas lícitas, Drogas ilícitas"}}
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Alcohol Reference, Fantasy Violence, Mild Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Non-realistic looking violence towards human characters., This game allows the player to interact with other players ONLINE."},"usk":{"rating":"6"},"kgrb":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Drogas lícitas, Drogas ilícitas"}}
 release_date: "January 21, 2021"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","German","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1166","name":"4X"}]
@@ -39,6 +39,7 @@ franchise_slug: "galactic-civilizations-2003|galactic-civilizations-ii-drea|gala
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-01-12T15:00:00.000Z","end":"2022-01-19T15:00:00.000Z","type":null,"id":"5d63b78c08184c10933a47874117db8c"},{"start":"2021-01-20T15:00:00.000Z","end":"2021-01-27T15:00:00.000Z","type":null,"id":"5d63b78c08184c10933a47874117db8c"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7be764c980273f76b4dcfe833f4f38529a3c6eab5086974426b91cd7ec7d981b.jpg?namespace=gamesdb"

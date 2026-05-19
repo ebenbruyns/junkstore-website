@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez, Drogas ilícitas, Linguagem imprópria"}}
 release_date: "January 19, 2015"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"123","name":"Comedy"},{"id":"134","name":"Anime"},{"id":"141","name":"Point & Click"},{"id":"44","name":"Nudity"},{"id":"88","name":"Cute"},{"id":"192","name":"Mature"},{"id":"120","name":"Memes"},{"id":"50","name":"Sexual Content"},{"id":"217","name":"Romance"},{"id":"160","name":"Dating Sim"},{"id":"299","name":"Match 3"}]
@@ -39,6 +39,7 @@ franchise_slug: "huniepop|huniepop-2-double-date"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/fa2288afb27ad0eca4649f958c31ce6c05753d3345ffb566fd1dadd3c99c0b72.jpg?namespace=gamesdb"

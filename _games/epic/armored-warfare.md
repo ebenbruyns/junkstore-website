@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"7","descriptors":"The content of this game is suitable for persons aged 7 years and over only., It contains: Violence that is not shown but is implied"},"oflc":{"rating":"M","descriptors":"Violence, online interactivity"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "April 21, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Polish","Russian"]
 languages_audio: ["English","French","German","Polish","Russian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/25ba47389cc08f07f1d0bbbfd74202a0999e628eac3859e3a14e85ac5eb6ff6f.jpg?namespace=gamesdb"

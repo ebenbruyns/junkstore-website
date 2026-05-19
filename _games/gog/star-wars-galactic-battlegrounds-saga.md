@@ -30,7 +30,7 @@ age_rating_summary: T (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"7","descriptors":"Non realistic looking violence towards human characters"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Low level animated violence"}}
 release_date: "November 9, 2001"
 game_modes: ["Multi-player","Single-player"]
-languages: ["English","French","German","Spanish - Spain"]
+languages: ["German","English","Spanish","French"]
 languages_audio: ["English","French","German","Spanish - Spain"]
 tags_structured: []
 size: "544 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c5c93eba44b9e5ed56104d1944df5aedfdd2dfc476e50c4fa55db2b98c65bb84.jpg?namespace=gamesdb"

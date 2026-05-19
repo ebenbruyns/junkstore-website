@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 3 (PEGI) · 0 (USK)
 age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"0"},"kgrb":{"rating":"ALL"},"dejus":{"rating":"L"}}
 release_date: "August 4, 2021"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: []
 size: "205 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/57e2fd16d796345e8d9a48a4cf16d875ea65cd130c6b861bdf6ea8aeb7b9816e.jpg?namespace=gamesdb"

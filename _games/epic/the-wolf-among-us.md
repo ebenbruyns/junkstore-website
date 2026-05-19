@@ -29,7 +29,7 @@ franchise: The Wolf Among Us
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Sexual Themes, Partial Nudity, Drug Reference, Strong Language, Use of Alcohol and Tobacco"},"pegi":{"rating":"16","descriptors":"Bad Language, Violence, Sex"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Coarse Language"},"nzoflc":{"rating":"r16","descriptors":"Violence, Offensive Language, Sexual Themes"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Drogas ilícitas, Linguagem imprópria"}}
 release_date: "December 1, 2019"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
@@ -39,6 +39,7 @@ franchise_slug: "the-wolf-among-us|wolf-among-us-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2019-12-11T15:00:00.000Z","end":"2019-12-18T15:00:00.000Z","type":null,"id":"ea40bbb5451649e38472912b11f338b8"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/69063ca937da983e467d6c5e035942e19067b3a01be968b93b7fdeead33c051e.jpg?namespace=gamesdb"

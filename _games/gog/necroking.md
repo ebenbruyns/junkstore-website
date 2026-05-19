@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: PEGI 7
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "September 1, 2024"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Polish","Korean"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"122","name":"Pixel Graphics"},{"id":"80","name":"Tactical"},{"id":"41","name":"Dark"},{"id":"639","name":"Roguelike"},{"id":"82","name":"Magic"},{"id":"640","name":"Roguelite"},{"id":"981","name":"battle"},{"id":"51","name":"Destruction"},{"id":"196","name":"Procedural Generation"},{"id":"176","name":"Turn-Based Tactics"},{"id":"127","name":"Card Game"},{"id":"49964","name":"Action Roguelike"},{"id":"974","name":"death"},{"id":"2232","name":"journey"},{"id":"575","name":"Logic"},{"id":"14194","name":"deckbuilding"},{"id":"49950","name":"Card Battler"},{"id":"691","name":"quick"},{"id":"2863","name":"darkness"},{"id":"749","name":"army"},{"id":"5559","name":"elements"},{"id":"49968","name":"Auto Battler"},{"id":"627","name":"Skeletons"},{"id":"58271","name":"Автобаттлер"},{"id":"1117","name":"chaos"},{"id":"55322","name":"Roguelike Deckbuilder"},{"id":"6581","name":"enemies"},{"id":"2503","name":"intense"},{"id":"2786","name":"skills"},{"id":"7207","name":"graphics"},{"id":"91930","name":"シングルプレイヤー"},{"id":"91933","name":"ファミリーシェアリング"},{"id":"91932","name":"Steamクラウド"},{"id":"4413","name":"reflexes"},{"id":"91931","name":"Steam実績"}]
 size: "210 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/957af989720a3e6982271b79e406566b55b6a88a8cf65ea23aaff23905f7b9b5.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/2852980"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/necroking/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

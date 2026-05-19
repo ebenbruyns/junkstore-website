@@ -26,7 +26,7 @@ publisher: Telltale Games
 developer: Telltale Games
 genre: Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: 17 (ESRB)
 age_ratings: {}
 release_date: "August 2, 2016"
 game_modes: ["Single-player"]
@@ -39,6 +39,7 @@ franchise_slug: "adventures-of-batman-robin|batman|batman-and-the-flash-hero-run
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4904f71e07767534ebd83106ec05263b61b072a3040b18b38c603a8485e8a97c.jpg?namespace=gamesdb"
@@ -82,7 +83,7 @@ store_url: "https://store.epicgames.com/p/the-telltale-batman"
 protondb_url: "https://www.protondb.com/app/498240"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Special:Search?search=498240"
-metacritic_score: 
+metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/batman-the-telltale-series/"
 
 # Cross-Catalog IDs (Game Catalog API)

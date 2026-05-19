@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Drogas ilícitas, Atos criminosos"}}
 release_date: "November 19, 2002"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Russian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"69","name":"Action-Adventure"},{"id":"150","name":"Third-Person Shooter"},{"id":"41","name":"Dark"},{"id":"25","name":"Space"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"167","name":"Futuristic"},{"id":"197","name":"Robots"},{"id":"413","name":"online"},{"id":"278","name":"Assassin"},{"id":"229","name":"3D Platformer"},{"id":"91686","name":"Family Sharing"},{"id":"6903","name":"galaxy"}]
 size: "9105 MB"
@@ -39,6 +39,7 @@ franchise_slug: "star-wars-anakins-speedway|star-wars-bounty-hunter|star-wars-de
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/47e64dc540de0dbe73915e8bed77bf213fddc20e08a7e8908537fb2ca4bdf31f.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Atos criminosos, Violência, Conteúdo sexual, Drogas lícitas"}}
 release_date: "August 18, 2021"
-game_modes: ["Cloud saves","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"189","name":"Female Protagonist"},{"id":"89","name":"Historical"},{"id":"217","name":"Romance"},{"id":"160","name":"Dating Sim"},{"id":"293","name":"Otome"},{"id":"42220","name":"Meaningful Choices"},{"id":"7322","name":"lgbtq"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/949200/library_hero.jpg"

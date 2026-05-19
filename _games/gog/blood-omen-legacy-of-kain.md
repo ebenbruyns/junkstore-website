@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB 17
 age_ratings: {}
 release_date: "November 1, 1996"
-game_modes: ["Cloud saves","Controller support","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"}]
@@ -39,6 +39,7 @@ franchise_slug: "blood-omen-legacy-of-kain|legacy-of-kain-ascendance|legacy-of-k
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3cfa18143141a03d4d3f95971462cd1bde39966e5815286d02cebc2acc7725af.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "September 24, 2024"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"43","name":"Post-apocalyptic"},{"id":"117","name":"Mystery"},{"id":"1465","name":"combat"},{"id":"99","name":"Isometric"},{"id":"101","name":"Turn-Based Strategy"},{"id":"233","name":"JRPG"},{"id":"171","name":"PvE"},{"id":"51","name":"Destruction"},{"id":"175","name":"Turn-Based Combat"},{"id":"808","name":"character"},{"id":"205","name":"Lore-Rich"},{"id":"127","name":"Card Game"},{"id":"91686","name":"Family Sharing"},{"id":"625","name":"party"},{"id":"206","name":"Party-Based RPG"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"},{"id":"1709","name":"work"},{"id":"974","name":"death"},{"id":"64326","name":"Постапокалипсис"},{"id":"1411","name":"build"},{"id":"2232","name":"journey"},{"id":"1105","name":"planet"},{"id":"14194","name":"deckbuilding"},{"id":"6903","name":"galaxy"},{"id":"316","name":"Mining"},{"id":"1527","name":"rain"},{"id":"49950","name":"Card Battler"},{"id":"3584","name":"characters"},{"id":"944","name":"wolf"},{"id":"6581","name":"enemies"},{"id":"827","name":"choice"},{"id":"10790","name":"spaceships"},{"id":"3718","name":"effects"},{"id":"5394","name":"magnet"}]
 size: "1928 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/68caa08f55dda829a391ff403d0a0530f347a03c8d9ca295a63d0c9864d540e4.jpg?namespace=gamesdb"

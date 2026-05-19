@@ -27,9 +27,9 @@ developer: Thunder Lotus Games
 genre: Action, Adventure, Indie
 franchise: 
 age_rating_summary: 12 (PEGI) · 12 (USK)
-age_ratings: {"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B","descriptors":"暴力"},"dejus":{"rating":"12","descriptors":"Violência"}}
+age_ratings: {"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "December 6, 2019"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Icelandic","Korean","Traditional Chinese"]
 languages_audio: ["Icelandic"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-05-11T15:00:00.000Z","end":"2022-05-18T15:00:00.000Z","type":null,"id":"cbbde99547d54f41b8f7bd5fc46726c5"},{"start":"2019-12-05T15:00:00.000Z","end":"2019-12-11T15:00:00.000Z","type":null,"id":"cbbde99547d54f41b8f7bd5fc46726c5"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/10013a47186d76c3b39f7396d1dc979b082aa04b645a938bc8b11e53e12af535.jpg?namespace=gamesdb"

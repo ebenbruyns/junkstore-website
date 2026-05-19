@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "November 16, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Japanese","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"9549","name":"Controller Support"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-09-19T15:00:00.000Z","end":"2024-09-26T15:00:00.000Z","type":null,"id":"8f58067d08bb454ab0eb8907345b8c76"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1ebb960707c688a20d69bbf44bab79e5661c8bcc1f7481c9b8f22b71fd488c96.jpg?namespace=gamesdb"

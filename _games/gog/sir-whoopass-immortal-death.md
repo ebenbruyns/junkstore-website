@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "August 19, 2022"
-game_modes: ["Achievements","Cloud saves","Leaderboards","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Polish","Hungarian","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Hungarian","Polish"]
 languages_audio: ["English"]
 tags_structured: []
 size: "10589 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a73632186d5bb21613b1b7826b391587d876a25de82059c0da70366bd3924b60.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/1240590"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sir_Whoopass"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/sir-whoopass-immortal-death/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

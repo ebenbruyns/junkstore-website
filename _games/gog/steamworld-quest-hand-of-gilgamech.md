@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "April 25, 2019"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Russian"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"468","name":"role-playing"},{"id":"3731","name":"role-playing-game"}]
 size: "1033 MB"
@@ -39,6 +39,7 @@ franchise_slug: "steamworld-build|steamworld-dig|steamworld-dig-2|steamworld-hei
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b25f24d9aa1458db8de89a8fc3777b88a7aca7c5377006ccd0b950b1292befd8.jpg?namespace=gamesdb"

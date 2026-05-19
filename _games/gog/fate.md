@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "May 18, 2005"
-game_modes: ["Achievements","Cloud saves","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: []
@@ -39,6 +39,7 @@ franchise_slug: "fate|fate-the-cursed-king|fate-the-traitor-soul|fate-undiscover
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/10dc8f2e5da707cb629f6729878c59f106ef41e446aff591fb6380c706ccf259.jpg?namespace=gamesdb"

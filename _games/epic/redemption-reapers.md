@@ -27,9 +27,9 @@ developer: Adglobe
 genre: Simulation
 franchise: 
 age_rating_summary: T (ESRB) · D (CERO)
-age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Language, Violence"},"cero":{"rating":"D","descriptors":"暴力"},"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Language, Violence"},"cero":{"rating":"D"},"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
 release_date: "February 19, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Traditional Chinese","Japanese","Korean","Russian","Portuguese - Brazil"]
 languages_audio: ["English","Japanese"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21122","name":"Diverse Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/bafbe0ca628e33750726b720327aab30773ab79bcb77ce364dc91f3a68caed99.jpg?namespace=gamesdb"

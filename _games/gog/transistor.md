@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"12","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
 release_date: "May 1, 2014"
-game_modes: ["Cloud saves","Controller support","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"189","name":"Female Protagonist"},{"id":"97","name":"Action RPG"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"68","name":"Hack and Slash"},{"id":"102","name":"Turn-Based"},{"id":"111","name":"Short"},{"id":"99","name":"Isometric"},{"id":"226","name":"Cyberpunk"},{"id":"136","name":"Music"},{"id":"258","name":"Hand-drawn"},{"id":"200","name":"Narration"},{"id":"583","name":"Narrative"}]
 size: "2472 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d70c02f6be0edd48f93d4b36007e3f927845023cdea27f630507efce8f64511b.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise: Escape Academy
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "July 14, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
+game_modes: ["Single-player","Online Multi-player","Local Multi-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1183","name":"Local Multiplayer"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-01-16T16:00:00.000Z","end":"2025-01-23T16:00:00.000Z","type":null,"id":"224ed07084444c619cedc473c7cd1498"},{"start":"2023-12-31T15:00:00.000Z","end":"2024-01-01T15:00:00.000Z","type":null,"id":"224ed07084444c619cedc473c7cd1498"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e50b56f70c4ef3b03707d4c41e116e7a4ab8f027c18b51dde6bc6ae78d6d43e0.jpg?namespace=gamesdb"

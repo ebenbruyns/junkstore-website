@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 9, 2021"
-game_modes: ["Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Danish","Japanese","Dutch","Polish","Portuguese - Portugal","Russian"]
+game_modes: ["Single-player"]
+languages: ["Danish","German","English","Spanish","French","Italian","Japanese","Dutch","Polish","Portuguese","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"5","name":"Replay Value"},{"id":"165","name":"Colorful"},{"id":"125","name":"Crafting"},{"id":"167","name":"Futuristic"},{"id":"172","name":"Aliens"},{"id":"640","name":"Roguelite"},{"id":"164","name":"Cartoony"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"49955","name":"Puzzle Platformer"},{"id":"49954","name":"Open World Survival Craft"}]
 size: "105832707
@@ -40,6 +40,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1290780/library_hero.jpg"

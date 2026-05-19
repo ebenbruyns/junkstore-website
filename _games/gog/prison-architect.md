@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Partial Nudity, Sexual Content, Strong Language"},"pegi":{"rating":"16","descriptors":"Moderate Violence, Sexual Nudity, Strong Language"},"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Linguagem imprópria, Nudez, Drogas ilícitas"}}
 release_date: "October 6, 2015"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Spain","Dutch","Japanese","Swedish","Traditional Chinese","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Bulgarian","Portuguese (brazilian)","Chinese Simplified","Czech","Danish","German","English","Finnish","French","Hungarian","Italian","Korean","Dutch","Norwegian","Polish","Russian","Thai","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1123","name":"2D"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1293","name":"SANDBOX"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "527 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ab679758906a2b48a4e3cfda684cf78288aef89a4fbc39331a6e6d89787eb7e9.jpg?namespace=gamesdb"

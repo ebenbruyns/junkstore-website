@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "August 1, 2024"
-game_modes: ["Single player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Polish","Ukrainian"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Polish","Russian","Ukrainian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"123","name":"Comedy"},{"id":"97","name":"Action RPG"},{"id":"80","name":"Tactical"},{"id":"165","name":"Colorful"},{"id":"101","name":"Turn-Based Strategy"},{"id":"154","name":"Steampunk"},{"id":"166","name":"Stylized"},{"id":"164","name":"Cartoony"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"91686","name":"Family Sharing"},{"id":"230","name":"Tactical RPG"}]
 size: "1765 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/5942f073ca90ff2b07242953a284fef23e9d3d3388f0d20bfcae01a1d438e725.jpg?namespace=gamesdb"

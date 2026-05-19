@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "April 18, 2024"
-game_modes: ["Co-operative","Multiplayer"]
+game_modes: ["Online Multi-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Turkish","Thai","Vietnamese"]
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-04-17T15:00:00.000Z","end":"2024-04-24T15:00:00.000Z","type":null,"id":"f4c04d050f8c459ab1261ecbeeb5720a"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ed86f4499544d91fc140024019d4d9a3695959fdddd5986ce15b2d19289db51d.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/2140510"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/town-of-salem-2/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

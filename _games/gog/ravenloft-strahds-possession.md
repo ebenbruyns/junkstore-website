@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "December 31, 1994"
-game_modes: ["Cloud saves","Single-player"]
-languages: ["English"]
+game_modes: ["Single-player"]
+languages: ["German","English"]
 languages_audio: []
 tags_structured: []
 size: "180 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/67f0709d1c2f2b91704a6cae880b2c13c9e9aac64ac45f751b23f2943100f474.jpg?namespace=gamesdb"

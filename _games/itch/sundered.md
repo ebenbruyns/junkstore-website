@@ -27,9 +27,9 @@ developer: Thunder Lotus
 genre: Adventure, Indie, Platform
 franchise: 
 age_rating_summary: 12 (PEGI) · 12 (USK)
-age_ratings: {"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B","descriptors":"暴力"},"oflc":{"rating":"M","descriptors":"Violence, Horror Themes"},"kgrb":{"rating":"12","descriptors":"폭력성"},"csrr":{"rating":"C12","descriptors":"暴力"},"dejus":{"rating":"10","descriptors":"Violência"}}
+age_ratings: {"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B"},"oflc":{"rating":"M","descriptors":"Violence, Horror Themes"},"kgrb":{"rating":"12"},"csrr":{"rating":"C12"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "July 28, 2017"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Japanese","Korean","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"336","name":"controller support"},{"id":"113","name":"Side Scroller"},{"id":"639","name":"Roguelike"},{"id":"259","name":"Metroidvania"},{"id":"258","name":"Hand-drawn"},{"id":"47","name":"Lovecraftian"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/535480/library_hero.jpg"

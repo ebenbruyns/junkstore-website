@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 26, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"21151","name":"Easy Puzzles"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-09-26T15:00:00.000Z","end":"2024-10-03T15:00:00.000Z","type":null,"id":"b9763cf171e446d5864cfa0b8fe8b9bb"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c970aaf037a94376a30f17bd7866d092214936f9753926ed93e72c6dc4890a7d.jpg?namespace=gamesdb"

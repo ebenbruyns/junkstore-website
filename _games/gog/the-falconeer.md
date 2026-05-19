@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Fantasy Violence"},"pegi":{"rating":"12","descriptors":"Language"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Violence"},"nzoflc":{"rating":"M","descriptors":"Violence"},"kgrb":{"rating":"12","descriptors":"Violence"},"dejus":{"rating":"L"}}
 release_date: "November 10, 2020"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"},{"id":"1263","name":"Indie"}]
 size: "916 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c5dba929c2c1d4e9cafb1e8aa999c6b1243a4b3118142d92f4dc7f76cb952e16.jpg?namespace=gamesdb"

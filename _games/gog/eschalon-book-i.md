@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"oflc":{"descriptors":"%oflcDescriptors%"},"nzoflc":{"descriptors":"%NZoflcDescriptors%"},"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "November 19, 2007"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"99","name":"Isometric"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/83762dbbd7ac18d02cb40ff275cc8ef6760e8a3e9a4d22b7cba543474fe08f7a.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Drug Reference, Intense Violence, Sexual Themes, Strong Language, Use of Alcohol, Use of Tobacco"},"pegi":{"rating":"18","descriptors":"Gambling, Bad Language, Violence"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Strong fantasy themes, Violence, Coarse language"},"nzoflc":{"rating":"r16","descriptors":"Horror, Graphic Violence, Offensive Language"},"kgrb":{"rating":"18","descriptors":"Violence, Fear, Horror, Threatening, Alcohol, Tobacco, Drug"},"csrr":{"rating":"R","descriptors":"Violence, Improper Language, Cigarettes or Alcohol"},"mda":{"rating":"M18","descriptors":"Violence, Mature Themes, Coarse Language"},"dejus":{"rating":"18","descriptors":"Sexual Content, Usage of illicit drug, Violence"}}
 release_date: "September 15, 2016"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","English","Spanish","French","Italian","Japanese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "15017 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/fe457fa38ece7c93436c6aa9f2ca789afdb9df872eb5bb8b8eb47e918a222285.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 18 (PEGI) · 18 (USK)
 age_ratings: {"pegi":{"rating":"18"},"usk":{"rating":"18"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Violência"}}
 release_date: "August 25, 2014"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Czech","Dutch","Polish","Russian","Ukrainian"]
+game_modes: ["Single-player"]
+languages: ["Czech","German","English","Spanish","French","Italian","Dutch","Polish","Russian","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"26","name":"Gore"},{"id":"193","name":"Classic"},{"id":"1","name":"Survival"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"17","name":"Survival Horror"},{"id":"43","name":"Post-apocalyptic"},{"id":"192","name":"Mature"},{"id":"337","name":"overlay"},{"id":"271","name":"Remake"},{"id":"413","name":"online"},{"id":"2030","name":"city"},{"id":"283","name":"Based On A Novel"},{"id":"1897","name":"fire"},{"id":"3397","name":"light"}]
 size: "7321 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e755f671c9b43a2a4ff738a4118c2be5322542336c11b75db6a180eae0d0161c.jpg?namespace=gamesdb"

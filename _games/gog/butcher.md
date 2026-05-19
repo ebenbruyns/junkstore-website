@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria"}}
 release_date: "October 5, 2016"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Spanish","French","Portuguese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"8","name":"First-Person"},{"id":"45","name":"2D"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"40850","name":"Steam Leaderboards"},{"id":"34","name":"Violent"},{"id":"122","name":"Pixel Graphics"},{"id":"41","name":"Dark"},{"id":"74","name":"Retro"},{"id":"40852","name":"Steam Workshop"},{"id":"40838","name":"Includes level editor"}]
 size: "104 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/498362c090775d1650712c91576e2c5ff4a6849748ed5f8ca2dbcef5c2304bfc.jpg?namespace=gamesdb"

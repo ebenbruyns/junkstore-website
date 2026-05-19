@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://shared.steamstatic.com/store_item_assets/steam/apps/4282590/c8052054406fce79ff1134ea7224eef5ac74d50a/library_hero_2x.jpg?t=1768233869"

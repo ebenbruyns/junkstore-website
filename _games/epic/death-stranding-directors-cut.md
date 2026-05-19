@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Partial Nudity, Strong Language"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "March 30, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Greek","Hungarian","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Greek","Japanese","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2a49779fdfc1425acdabd887a7cbf98f40560e69d8aad9edc511f676ebc96ba1.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria"}}
 release_date: "May 7, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","French"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a9b464c1d2458d281bbb60eb71a4457ebc4ad44ae87e0d7eb5395af942ac33a7.jpg?namespace=gamesdb"

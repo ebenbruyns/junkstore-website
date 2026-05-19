@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Mild Violence"},"pegi":{"rating":"7","descriptors":"Violence, In-Game Purchases"},"usk":{"rating":"6"},"cero":{"rating":"A"},"oflc":{"rating":"G","descriptors":"Very mild violence, Online interactivity, In-game purchases"},"kgrb":{"rating":"ALL","descriptors":"Violence"},"csrr":{"rating":"G"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "June 23, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Turkish","Portuguese - Brazil"]
 languages_audio: ["English","French"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21125","name":"Competitive Community"},{"id":"21141","name":"Extremely Fun"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/5cc9699539b5eaa1cde3630d4409df473be9a11a668d83c85e0f4cb73e082c86.jpg?namespace=gamesdb"

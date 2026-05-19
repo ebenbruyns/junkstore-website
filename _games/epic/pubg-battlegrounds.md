@@ -27,9 +27,9 @@ developer: KRAFTON, Inc.
 genre: Shooter
 franchise: 
 age_rating_summary: T (ESRB) · 16 (PEGI)
-age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Users Interact"},"pegi":{"rating":"16"},"usk":{"rating":"16","descriptors":"Games in this category may contain more intense violence, including depictions of combat with realistic weapons or fighting. The game might have more serious, darker themes (e.g., crime, horror, or war) and could include some blood, crude humor, or stronger language. These elements should not be overly graphic, but the violence and tension are at a level inappropriate for younger players."},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"19","descriptors":"폭력성"},"csrr":{"rating":"C15"},"dejus":{"rating":"16"}}
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Users Interact"},"pegi":{"rating":"16"},"usk":{"rating":"16","descriptors":"Games in this category may contain more intense violence, including depictions of combat with realistic weapons or fighting. The game might have more serious, darker themes (e.g., crime, horror, or war) and could include some blood, crude humor, or stronger language. These elements should not be overly graphic, but the violence and tension are at a level inappropriate for younger players."},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"19"},"csrr":{"rating":"C15"},"dejus":{"rating":"16"}}
 release_date: "December 6, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer","Battle Royale"]
+game_modes: ["Online Multi-player"]
 languages: ["English","Korean","Simplified Chinese","French","German","Spanish - Spain","Arabic","Japanese","Polish","Portuguese - Portugal","Russian","Turkish","Thai","Italian","Portuguese - Brazil","Traditional Chinese","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21138","name":"Recommend this Game"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "playerunknowns-battlegrounds|pubg-lite-pc"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4c9c8800ba351ae7300756ef2f1e27588e40ce7cd29c1bc00b084dcdca18b0c9.jpg?namespace=gamesdb"

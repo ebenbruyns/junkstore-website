@@ -27,10 +27,10 @@ developer: 2K Czech, Massive Bear Studios
 genre: Adventure, Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
-age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Nudity, Sexual Content, Strong Language, Use of Drugs and Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Violence, Coarse Language"},"kgrb":{"rating":"18","descriptors":"내용정보표지사항: 선정성, 폭력성, 언어의 부적절성, 약물, 범죄, 제명:  마피아 II, 이용등급: 청소년이용불가, 등급분류번호: CC-NP-100702-006, 등급분류일자: 20100702, 상호: ㈜에픽소프트 한국영업소, 제작.배급업 신고번호: 용산 제0023호, ----------------------------------, Game Descriptive: Sexual Content, Violence, Inappropriate language, Drug, Crime, Title Name: Mafia II, Age: 18+, Certificate #: CC-NP-100702-006, Issue date: 20100702, Company Name:㈜에픽소프트 한국영업소, Distributor No,: 용산 제0023호"}}
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Nudity, Sexual Content, Strong Language, Use of Drugs and Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Violence, Coarse Language"},"kgrb":{"rating":"18"}}
 release_date: "August 24, 2010"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Italian","Spanish - Spain","Czech","Polish","Russian"]
+game_modes: ["Single-player"]
+languages: ["Czech","German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English","French","German","Italian","Spanish - Spain","Czech","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"193","name":"Classic"},{"id":"37","name":"Sandbox"},{"id":"150","name":"Third-Person Shooter"},{"id":"44","name":"Nudity"},{"id":"144","name":"Crime"},{"id":"130","name":"Driving"},{"id":"133","name":"3D Vision"},{"id":"136","name":"Music"},{"id":"78","name":"America"}]
 size: "7725 MB"
@@ -39,6 +39,7 @@ franchise_slug: "mafia|mafia-ii|mafia-ii-definitive-edition|mafia-iii|mafia-iii-
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f777929622b771a44cdc4a3b119f81f013497bdd597665ebc6f835a1163abe89.jpg?namespace=gamesdb"

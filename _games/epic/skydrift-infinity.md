@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "May 6, 2022"
-game_modes: ["Multiplayer","Split screen"]
+game_modes: ["Multi-player","Split Screen"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1299","name":"Competitive"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/21a742251a48017de4389403ce39b544f59e1e1f94e88e154cacfd6aa86662ef.jpg?namespace=gamesdb"

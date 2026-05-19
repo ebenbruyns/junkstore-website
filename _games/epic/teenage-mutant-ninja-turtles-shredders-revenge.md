@@ -29,7 +29,7 @@ franchise: Teenage Mutant Ninja Turtles
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "July 2, 2024"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Traditional Chinese","Korean","Japanese","Portuguese - Brazil"]
 languages_audio: ["English","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c6ea136d6424e8de7e62a956faed18987bacabe2c98853be9248343b4f036385.jpg?namespace=gamesdb"

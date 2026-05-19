@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Fantasy Violence, Partial Nudity"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B"},"oflc":{"rating":"PG","descriptors":"Mild Fantasy Themes, Violence"},"kgrb":{"rating":"12","descriptors":"Violence"},"fpb":{"rating":"13"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "November 14, 2024"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1198","name":"Retro"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-11-14T16:00:00.000Z","end":"2024-11-21T16:00:00.000Z","type":null,"id":"8f80897c0b6e4e678fed08da169d44be"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f3dc5910382a610f92b15d6b375b7bb507aafa3e80c162359c7a75c44985fd12.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 7 (PEGI)
 age_ratings: {"pegi":{"rating":"7"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 10, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Portugal","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Rich"},{"id":"4","name":"Funny"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"61","name":"Top-Down"},{"id":"197","name":"Robots"},{"id":"305","name":"Linear"},{"id":"1867","name":"puzzles"},{"id":"744","name":"friends"},{"id":"295","name":"Soundtrack"},{"id":"140","name":"Hidden Object"},{"id":"2590","name":"fun"},{"id":"49955","name":"Puzzle Platformer"},{"id":"575","name":"Logic"},{"id":"822","name":"escape"},{"id":"68059","name":"Escape Room"},{"id":"6706","name":"connect"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/706ea5bf04faef24777d4f7b3ff74c9f562187ef5dd4c3fb62d36174664e1961.jpg?namespace=gamesdb"

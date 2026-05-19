@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12","descriptors":"Fantasy-Gewalt"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "January 1, 2099"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"1","name":"Survival"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"121","name":"Character Customization"},{"id":"125","name":"Crafting"},{"id":"110","name":"Cinematic"},{"id":"1465","name":"combat"},{"id":"39","name":"Building"},{"id":"180","name":"Base Building"},{"id":"196","name":"Procedural Generation"},{"id":"91686","name":"Family Sharing"},{"id":"49954","name":"Open World Survival Craft"},{"id":"628","name":"dwarf"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/49963c07d0f457026d00f4531de453f92865d91c175308641c33d615699cf840.jpg?namespace=gamesdb"

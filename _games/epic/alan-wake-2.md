@@ -29,7 +29,7 @@ franchise: Alan Wake
 age_rating_summary: ESRB Mature 17+
 age_ratings: {}
 release_date: "October 27, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","German","Spanish - Spain","Japanese","French"]
 languages_audio: []
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "alan-wake|alan-wake-2|alan-wakes-american-nightmare"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a82c974a9e2911c004b9bd6aa126b5126d97d59f9914e57dcea53640b9c3af3e.jpg?namespace=gamesdb"

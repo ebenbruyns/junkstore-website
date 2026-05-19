@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Crude Humor, Mild Language, Mild Violence, Suggestive Themes, Use of Alcohol and Tobacco"},"pegi":{"rating":"12","descriptors":"Horror, Sex"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Nudez, Violência"}}
 release_date: "February 25, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Russian","French","German","Simplified Chinese","Japanese","Korean","Polish","Portuguese - Brazil","Spanish - Latin America","Turkish"]
 languages_audio: ["English","Russian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1281","name":"Space Sim"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-04-26T15:00:00.000Z","end":"2023-05-03T15:00:00.000Z","type":null,"id":"8401414902e84f2cb9afa9142f051d32"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/789fc18ef66dd688dbf62317714b046175963e3ecc64eef7dfefd903207c83db.jpg?namespace=gamesdb"

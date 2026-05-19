@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence, In-Game Purchases"},"usk":{"rating":"6","descriptors":"Handlunsdruck, Schreckmomente"},"oflc":{"rating":"G","descriptors":"Very mild crude humour, violence and coarse language, online interactivity"},"nzoflc":{"rating":"G","descriptors":"Very mild crude humour, violence and coarse language, online interactivity"},"kgrb":{"rating":"ALL","descriptors":"Violence"},"fpb":{"rating":"7-9PG"},"csrr":{"rating":"P6","descriptors":"Violence"},"dejus":{"rating":"L","descriptors":"Violência Fantasiosa"}}
 release_date: "May 19, 2023"
-game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Danish","Dutch","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Spanish - Latin America"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1451810/library_hero.jpg"

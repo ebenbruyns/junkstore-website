@@ -29,7 +29,7 @@ franchise: Trine
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa"}}
 release_date: "December 31, 2025"
-game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
+game_modes: ["Single-player","Online Multi-player","Local Multi-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Danish","Norwegian","Russian","Swedish","Portuguese - Brazil","Japanese","Simplified Chinese","Finnish"]
 languages_audio: ["English","French","German","Spanish - Spain","Russian","Portuguese - Brazil","Japanese"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"}]
@@ -39,6 +39,7 @@ franchise_slug: "trine|trine-2|trine-3-the-artifacts-of-power|trine-4-the-nightm
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/319910/library_hero.jpg"

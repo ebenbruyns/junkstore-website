@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 14, 2022"
-game_modes: ["Cloud saves","Overlay","Single-player"]
-languages: ["English","German","Danish","French","Dutch","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","Danish","German","English","Spanish","French","Italian","Dutch","Portuguese","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"14","name":"Early Access"}]
 size: "2309 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/968250/library_hero.jpg"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/968250"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/King_of_Retail"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/king-of-retail/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

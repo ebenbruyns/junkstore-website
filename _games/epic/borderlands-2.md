@@ -27,9 +27,9 @@ developer: Gearbox Software
 genre: Role-playing (RPG), Shooter
 franchise: Borderlands
 age_rating_summary: M (ESRB) · 18 (PEGI)
-age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Language, Sexual Themes, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, PEGI Online"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"18","descriptors":"내용정보표지사항: 폭력성, 제명:  보더랜드 2, 이용등급: 청소년이용불가, 등급분류번호: CC-NP-120706-004, 등급분류일자: 20120706, 상호: 테이크투인터렉티브유한회사, 제작.배급업 신고번호: 제 2009-00016호, ----------------------------------, Game Descriptive: Violence, Title Name: Borderlands 2, Age: 18+, Certificate #: CC-NP-120706-004, Issue date: 20120706, Company Name:테이크투인터렉티브유한회사, Distributor No,: 제 2009-00016호"},"dejus":{"rating":"16","descriptors":"Violence, Drugs, Sex"}}
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Language, Sexual Themes, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, PEGI Online"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Violence, Drugs, Sex"}}
 release_date: "September 18, 2012"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
+game_modes: ["Co-op"]
 languages: ["English","French","German","Italian","Japanese","Spanish - Spain","Korean","Traditional Chinese"]
 languages_audio: ["English","French","German","Italian","Japanese","Spanish - Spain"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1333","name":"Action RPG"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|bor
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8159403e4e5a646db9d5d5f87d1e37f4570f56b8c087bd9b0689c6f15800af87.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise: "Overcooked!"
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"6"}}
 release_date: "August 3, 2016"
-game_modes: ["Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Japanese"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"39940","name":"Gift A Game"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: "301 MB"
@@ -39,6 +39,7 @@ franchise_slug: "overcooked|overcooked-2|overcooked-all-you-can-eat"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/22c16a18a67905b71b0c86d864d70968a8f8f2754ab902b52211491db8c54172.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 7 (PEGI)
 age_ratings: {"pegi":{"rating":"7","descriptors":"Mild Violence"},"dejus":{"rating":"L"}}
 release_date: "May 3, 2022"
-game_modes: ["Cloud saves","Overlay","Single-player"]
-languages: ["English","French","German","Polish","Simplified Chinese","Japanese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","French","Japanese","Polish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"14","name":"Early Access"},{"id":"102","name":"Turn-Based"},{"id":"165","name":"Colorful"},{"id":"82","name":"Magic"},{"id":"101","name":"Turn-Based Strategy"},{"id":"640","name":"Roguelite"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"127","name":"Card Game"},{"id":"162","name":"Board Game"},{"id":"103","name":"Hex Grid"},{"id":"14194","name":"deckbuilding"},{"id":"49950","name":"Card Battler"},{"id":"4880","name":"tabletop"}]
 size: "928 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e8b71c57f681036d180a4b887b99b5f93018b4250df073666d7339e287f97d7a.jpg?namespace=gamesdb"

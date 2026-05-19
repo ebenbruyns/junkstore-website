@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "October 1, 2020"
-game_modes: ["Achievements","Cloud saves","Controller support","Leaderboards","Multi-player","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Korean","Japanese","Portuguese - Brazil"]
+game_modes: ["Multi-player","Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"198","name":"Split Screen"},{"id":"157","name":"PvP"},{"id":"182","name":"4 Player Local"},{"id":"45201","name":"Remote Play Together"},{"id":"46114","name":"Shared/Split Screen PvP"},{"id":"299","name":"Match 3"}]
 size: "220 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c36bdcadaaee869ebb7684271972e3ae2d3eb6df06e6e0baed71912426887fe5.jpg?namespace=gamesdb"

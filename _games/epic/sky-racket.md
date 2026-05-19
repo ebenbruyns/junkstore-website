@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Mild Violence"},"usk":{"rating":"6","descriptors":"Abstract Violence"},"oflc":{"rating":"PG","descriptors":"Scary Scenes"},"kgrb":{"rating":"ALL","descriptors":"Violence, Fear"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "September 21, 2021"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Co-op"]
 languages: ["English","Portuguese - Brazil","Portuguese - Portugal","Spanish - Spain","Spanish - Latin America","Russian","Japanese","Simplified Chinese","Korean"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"1283","name":"Sports"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-10T15:00:00.000Z","end":"2025-07-17T15:00:00.000Z","type":null,"id":"4d83f5e4aa8d42bdb2bdda9081a13ef3"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/64a105ef4251912497f860f72c75fec4fa1adb28840035b34ae737507402527b.jpg?namespace=gamesdb"

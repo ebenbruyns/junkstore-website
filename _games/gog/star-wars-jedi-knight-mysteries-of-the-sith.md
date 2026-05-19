@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Animated Violence"},"pegi":{"rating":"12","descriptors":"Non realistic looking violence towards human characters"},"oflc":{"rating":"M","descriptors":"Medium level animated violence"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "February 24, 1998"
-game_modes: ["Single player","Multiplayer"]
-languages: ["English","French","Italian","Spanish - Spain"]
+game_modes: ["Single-player","Multi-player"]
+languages: ["English","Spanish","French","Italian"]
 languages_audio: ["English","French","Italian","Spanish - Spain"]
 tags_structured: []
 size: "288 MB"
@@ -39,6 +39,7 @@ franchise_slug: "star-wars-dark-forces-2|star-wars-jedi-knight-dark-for|star-war
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/26b1f2f4eb622fb14ca161bf54ce57597fbc93a4d58730944fcbcd3b9a696dde.jpg?namespace=gamesdb"

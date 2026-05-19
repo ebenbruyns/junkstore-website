@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Temas sensíveis, Drogas lícitas"}}
 release_date: "December 1, 2023"
-game_modes: ["Achievements","Cloud saves","Co-op","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Japanese","Turkish"]
+game_modes: ["Co-op","Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Japanese","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"9","name":"Online Co-Op"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"97","name":"Action RPG"},{"id":"115","name":"Controller"},{"id":"80","name":"Tactical"},{"id":"40852","name":"Steam Workshop"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"25","name":"Space"},{"id":"468","name":"role-playing"},{"id":"121","name":"Character Customization"},{"id":"145","name":"Choices Matter"},{"id":"165","name":"Colorful"},{"id":"1465","name":"combat"},{"id":"167","name":"Futuristic"},{"id":"99","name":"Isometric"},{"id":"218","name":"Multiple Endings"},{"id":"40937","name":"Steam Trading Cards"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"238","name":"CRPG"},{"id":"59643","name":"Протагонистка"},{"id":"230","name":"Tactical RPG"},{"id":"2896","name":"collectathon"}]
 size: "30459 MB"
@@ -39,6 +39,7 @@ franchise_slug: "adeptus-titanicus-dominus|warhammer-40-000-storm-of-veng|warham
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4a4a32ec7dc340978c629ca47a8f207fe6834eed83a29b3e0b873e399be9c9f4.jpg?namespace=gamesdb"

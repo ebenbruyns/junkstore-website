@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Language, Fantasy Violence"},"pegi":{"rating":"12","descriptors":"Mild Swearing, In-Game Purchases"},"usk":{"rating":"6","descriptors":"Gelegentliches Fluchen, Abstrakte Gewalt, In-Game Purchases"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Online Interactivity, Mild Coarse Language, In-Game Purchases"},"kgrb":{"rating":"12","descriptors":"Language, In-Game Purchases"},"dejus":{"rating":"10","descriptors":"Violência, Compras on-line"}}
 release_date: "May 28, 2024"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Japanese","Korean","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Spanish - Latin America"]
 tags_structured: [{"id":"1344","name":"Fighting"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8911efde21f0ea432e0e48ba914cf490e002e251dd3d1c575aa991401b6fa709.jpg?namespace=gamesdb"

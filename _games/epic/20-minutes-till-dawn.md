@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "January 2, 2024"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Japanese","Simplified Chinese","Portuguese - Brazil","French","Italian","German","Spanish - Spain","Polish","Russian","Spanish - Latin America","Traditional Chinese","Turkish","Hungarian","Korean"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-01-01T15:00:00.000Z","end":"2024-01-02T15:00:00.000Z","type":null,"id":"9758dccdbda54c1387f732d0d7d03b3b"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a9496a68e60138bc54514978d4255d1bb41ccd69639cf6846fb8b52f2538ee6f.jpg?namespace=gamesdb"

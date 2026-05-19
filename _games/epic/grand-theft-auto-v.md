@@ -27,9 +27,9 @@ developer: Rockstar North
 genre: Adventure, Shooter, Racing
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
-age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Nudity, Mature Humor, Strong Language, Strong Sexual Content, Use of Drugs and Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Online Play,, Strong Language"},"usk":{"rating":"18"},"kgrb":{"rating":"18","descriptors":"Game Descriptive: Sexual Content, Violence, Inappropriate Language, Drug, Crime, Gambling, Title Name: Grand Theft Auto V, Age: 18+, Certificate #: CC-NP-150205-002 호, Issue date: 20150205, Company Name:테이크투인터렉티브유한회사, Distributor No,: 제 2009-00016호, ----------------------------------, 내용정보표지사항: 선정성, 폭력성, 언어의 부적절성, 약물, 범죄, 사행성, 제명: 그랜드 테프트 오토 V, 이용등급: 청소년이용불가, 등급분류번호: CC-NP-150205-002 호, 등급분류일자: 20150205, 상호: 테이크투인터렉티브유한회사, 제작.배급업 신고번호: 제 2009-00016호"}}
+age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Nudity, Mature Humor, Strong Language, Strong Sexual Content, Use of Drugs and Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Online Play,, Strong Language"},"usk":{"rating":"18"},"kgrb":{"rating":"18"}}
 release_date: "January 1, 2099"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese","Simplified Chinese","Spanish - Latin America"]
 languages_audio: ["English"]
 tags_structured: [{"id":"11631","name":"Requires 2FA"}]
@@ -39,6 +39,7 @@ franchise_slug: "grand-theft-aito-vi|grand-theft-auto-1998|grand-theft-auto-2-19
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/79b33f20eeb88783a4bdcafd659e07f0cb8f21ad7fe075c609c00bb1f0c0a7d2.jpg?namespace=gamesdb"

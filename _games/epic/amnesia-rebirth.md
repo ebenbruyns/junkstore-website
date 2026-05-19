@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Mature 17+
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Violência Extrema, Medo, Linguagem imprópria, Nudez"}}
 release_date: "January 1, 2099"
-game_modes: ["Single Player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|a
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/584db6f4c45c4a08d46424df82e27e97a1f3b52f250038675d123e00f51018b9.jpg?namespace=gamesdb"

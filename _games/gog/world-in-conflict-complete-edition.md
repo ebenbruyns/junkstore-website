@@ -30,7 +30,7 @@ age_rating_summary: ESRB 13
 age_ratings: {}
 release_date: "September 1, 2007"
 game_modes: ["Multi-player","Single-player"]
-languages: ["English","French","German","Italian","Spanish"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"70","name":"War"},{"id":"210","name":"Real-Time"},{"id":"151","name":"Modern"}]
 size: "5943 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a13286653aca5db4ba3360eb84ce99f409b61804b1fddb13611d6edb83452e78.jpg?namespace=gamesdb"

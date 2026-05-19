@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez, Violência Extrema, Drogas ilícitas"}}
 release_date: "July 21, 2022"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","German","French","Spanish - Spain","Japanese","Russian","Simplified Chinese","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Japanese","Russian"]
 languages_audio: []
 tags_structured: []
 size: "4086 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/57fad6e959f1f6c52b7acc7fd516db53c98c737460c21c6e823a5dc78727606a.jpg?namespace=gamesdb"

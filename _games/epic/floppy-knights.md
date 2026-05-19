@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 7 (PEGI) · 6 (USK)
 age_ratings: {"pegi":{"rating":"7","descriptors":"Mild Violence"},"usk":{"rating":"6","descriptors":"Abstract Violence"},"oflc":{"rating":"PG","descriptors":"Mild Violence"},"kgrb":{"rating":"ALL","descriptors":"Fear / Horror / Threatening, Violence"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "July 11, 2024"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-07-10T15:00:00.000Z","end":"2024-07-17T15:00:00.000Z","type":null,"id":"2e84cea730144ac79c3b7f34a2e20d3f"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4b1d18288e72f0a3adce82bba9db8c0b7071a70a037316b48268b3eec877f9b2.jpg?namespace=gamesdb"

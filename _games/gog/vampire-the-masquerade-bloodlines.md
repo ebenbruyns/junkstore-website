@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Themes, Strong Language"}}
 release_date: "November 1, 2004"
-game_modes: ["Cloud saves","Single-player"]
-languages: ["English","French","German"]
+game_modes: ["Single-player"]
+languages: ["German","English","French"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"15","name":"Stealth"},{"id":"97","name":"Action RPG"},{"id":"41","name":"Dark"},{"id":"284","name":"Cult Classic"},{"id":"279","name":"Supernatural"},{"id":"204","name":"Gothic"},{"id":"338","name":"cloud saves"},{"id":"300","name":"Vampire"}]
 size: "2659 MB"
@@ -39,6 +39,7 @@ franchise_slug: "bloodhunt|vampire-the-masquerade-bloodli|vampire-the-masquerade
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/eb098ba22805bd2f557d219cb2ec8e95615dfec5f28d4c311fc56dabfae080d4.jpg?namespace=gamesdb"

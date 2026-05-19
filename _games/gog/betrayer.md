@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "March 24, 2014"
-game_modes: ["Cloud saves","Controller support","Single-player"]
-languages: ["English","French","Hungarian","Italian","German","Spanish - Spain","Russian"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Hungarian","Italian","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"6","name":"Exploration"},{"id":"1","name":"Survival"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"17","name":"Survival Horror"},{"id":"89","name":"Historical"},{"id":"66","name":"Medieval"},{"id":"91","name":"Walking Simulator"}]
 size: "2943 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/01be8d3973d1db6d6a80d467825f063b2f7579a77e2fd9f59338873ea894ab7a.jpg?namespace=gamesdb"

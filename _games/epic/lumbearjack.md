@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "June 11, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Russian","Italian","Arabic","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Simplified Chinese","Spanish - Latin America","Swedish","Thai","Traditional Chinese","Turkish","Ukrainian","Vietnamese"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21151","name":"Easy Puzzles"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-08-01T15:00:00.000Z","end":"2024-08-08T15:00:00.000Z","type":null,"id":"ed744042986f41f791d295459d75725f"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/42e3879965fc9cdba1cc95e81f98458b15dbc2a5da9a968bad13690ea598d8a4.jpg?namespace=gamesdb"

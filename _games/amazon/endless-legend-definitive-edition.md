@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Mild Blood"},"pegi":{"rating":"12","descriptors":"Online, Violence"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violence, User Interact"}}
 release_date: "September 18, 2014"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player","Multi-player"]
 languages: ["English","French","German","Polish","Russian","Italian","Spanish - Spain","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: []
@@ -39,6 +39,7 @@ franchise_slug: "dungeon-of-the-endless|endless-dungeons|endless-legend|endless-
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/261a9077e27c55e7a882bfbaca8e2f17a89cdfaaf254c7b8f159ab45791bcbf4.jpg?namespace=gamesdb"

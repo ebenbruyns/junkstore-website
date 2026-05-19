@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas, Violência fantasiosa"}}
 release_date: "June 16, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1181","name":"Card Game"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-31T15:00:00.000Z","end":"2025-08-07T15:00:00.000Z","type":null,"id":"605ced56db424539ba3ac26f904a83f2"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f6026ca5614250c2138ca7b8ae0640424db340a31e0419120b438192719fc681.jpg?namespace=gamesdb"

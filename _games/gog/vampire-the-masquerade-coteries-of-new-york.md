@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 16 (PEGI) · 16 (USK)
 age_ratings: {"pegi":{"rating":"16"},"usk":{"rating":"16"},"dejus":{"rating":"14","descriptors":"Medo, Violência, Temas sensíveis, Linguagem imprópria, Conteúdo sexual, Drogas lícitas, Drogas ilícitas"}}
 release_date: "December 1, 2019"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Portuguese - Brazil","Russian","Simplified Chinese","Italian","Spanish - Spain","German"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"468","name":"role-playing"},{"id":"192","name":"Mature"},{"id":"808","name":"character"},{"id":"288","name":"Interactive Fiction"},{"id":"300","name":"Vampire"},{"id":"1652","name":"night"},{"id":"1746","name":"dialogue"}]
 size: "1677 MB"
@@ -39,6 +39,7 @@ franchise_slug: "bloodhunt|vampire-the-masquerade-bloodli|vampire-the-masquerade
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a996ff1207c542a3677e313f00c77cbdd2c80e587bf079ed02adc8aece090f2c.jpg?namespace=gamesdb"

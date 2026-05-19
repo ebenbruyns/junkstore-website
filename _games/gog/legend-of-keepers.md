@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência fantasiosa, Violência, Violência Extrema, Drogas lícitas"}}
 release_date: "March 19, 2020"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil","Spanish - Spain","Polish","Russian","Japanese","Korean","Traditional Chinese","Turkish","Czech"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Polish","Russian","Turkish","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"40850","name":"Steam Leaderboards"},{"id":"122","name":"Pixel Graphics"},{"id":"11669","name":"stats"},{"id":"74","name":"Retro"},{"id":"102","name":"Turn-Based"},{"id":"639","name":"Roguelike"},{"id":"233","name":"JRPG"},{"id":"48","name":"Dungeon Crawler"}]
 size: "658 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6b2875de0ac2c982ff99fff4c69fc6c376c6714c9ad8929b9d92ea3142e63930.jpg?namespace=gamesdb"

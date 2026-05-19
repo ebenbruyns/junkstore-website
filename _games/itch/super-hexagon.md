@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "August 1, 2012"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"45","name":"2D"},{"id":"49","name":"Difficult"},{"id":"115","name":"Controller"},{"id":"336","name":"controller support"},{"id":"5","name":"Replay Value"},{"id":"165","name":"Colorful"},{"id":"131","name":"Fast-Paced"},{"id":"136","name":"Music"},{"id":"57","name":"Bullet Hell"},{"id":"112","name":"Minimalist"},{"id":"207","name":"Rhythm"},{"id":"54","name":"Score Attack"},{"id":"286","name":"Psychedelic"},{"id":"84","name":"Abstract"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/221640/library_hero.jpg"

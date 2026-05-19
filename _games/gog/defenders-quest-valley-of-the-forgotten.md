@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"kgrb":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "October 1, 2012"
-game_modes: ["Controller support","Single-player"]
-languages: ["English","Czech","German","Japanese","Russian","Korean","Spanish - Spain","Italian","French","Simplified Chinese","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","Czech","German","English","Spanish","French","Italian","Japanese","Korean","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"40852","name":"Steam Workshop"},{"id":"63","name":"Zombies"},{"id":"40838","name":"Includes level editor"},{"id":"62","name":"Moddable"},{"id":"66","name":"Medieval"},{"id":"233","name":"JRPG"},{"id":"194","name":"Real-Time with Pause"},{"id":"65","name":"Tower Defense"},{"id":"60","name":"Touch-Friendly"},{"id":"231","name":"Strategy RPG"},{"id":"4337","name":"real-time-with-pause"}]
 size: "516 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/587b853226fc19d32a44c6eefdf82ffdede50368d4aef2b101c5b5938ff82cd8.jpg?namespace=gamesdb"

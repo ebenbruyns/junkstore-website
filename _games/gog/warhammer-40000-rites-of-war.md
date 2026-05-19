@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: ESRB 13
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "July 23, 1999"
-game_modes: ["Achievements","Cloud saves","Multi-player","Single-player"]
-languages: ["English","German"]
+game_modes: ["Multi-player","Single-player"]
+languages: ["German","English"]
 languages_audio: ["English","German"]
 tags_structured: []
 size: "350 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1145482a73da7c910297ae4ecd8eaa01c9f1ebdeaf95a020b4de24aa1df079bd.jpg?namespace=gamesdb"

@@ -39,6 +39,7 @@ franchise_slug: "harry-potter-and-the-chamber-o|harry-potter-and-the-deathly-h|h
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"id":"manual_1777580091980_hogwarts-legacy","start":"2026-04-30T08:14:53.000Z","end":"2026-05-03T12:00:00.000Z","type":null},{"start":"2025-12-12T02:23:00.000Z","end":"2025-12-18T16:00:00.000Z","type":null,"id":"a31950aa730b4ae391e42a1c3f26b839"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/990080/library_hero.jpg"

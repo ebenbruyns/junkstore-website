@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "July 29, 2015"
-game_modes: ["Achievements","Cloud saves","Controller support","Leaderboards","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f9875e4f9f2125007f6a7969b5c101850e9c4d1c8fe069dc82c4bb60ebc413ad.jpg?namespace=gamesdb"

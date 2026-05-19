@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "June 26, 2018"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Italian","Simplified Chinese","Traditional Chinese","Ukrainian"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Ukrainian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"149","name":"Third Person"},{"id":"4","name":"Funny"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"69","name":"Action-Adventure"},{"id":"107","name":"Family Friendly"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"114","name":"Physics"},{"id":"1465","name":"combat"},{"id":"89","name":"Historical"},{"id":"188","name":"Parkour"},{"id":"203","name":"Beat 'em up"},{"id":"166","name":"Stylized"},{"id":"164","name":"Cartoony"},{"id":"59643","name":"Протагонистка"},{"id":"185","name":"Swordplay"},{"id":"254","name":"Spectacle fighter"},{"id":"835","name":"Swords"},{"id":"591","name":"Unreal Engine"}]
 size: "6949 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/aea6b53bf93707d577a24491a60b062a234a55787ca3ed1848f213332526b0a0.jpg?namespace=gamesdb"

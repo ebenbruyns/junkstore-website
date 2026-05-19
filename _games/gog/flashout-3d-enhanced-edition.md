@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "February 27, 2013"
-game_modes: ["Achievements","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40845","name":"Partial Controller Support"},{"id":"115","name":"Controller"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"295","name":"Soundtrack"},{"id":"53","name":"Flight"},{"id":"49970","name":"Vehicular Combat"},{"id":"49961","name":"3D Fighter"},{"id":"56826","name":"3D-файтинг"},{"id":"49966","name":"Combat Racing"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/40cc702b0a2574359273d37ff40da0ace005be686c0d048941283572a183399a.jpg?namespace=gamesdb"

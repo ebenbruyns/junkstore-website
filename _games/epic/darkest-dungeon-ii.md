@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Blood and Gore, Mild Language, Partial Nudity, Suggestive Themes, Violence"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Mature themes and violence"},"dejus":{"rating":"12","descriptors":"Drogas lícitas, Linguagem imprópria, Medo"}}
 release_date: "October 26, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Czech","Polish","Portuguese - Brazil","Russian","Italian","Simplified Chinese","Korean","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: "darkest-dungeon|darkest-dungeon-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/103f229fd63d0cb43a25b03c176fe4e450053cba845e458c81a08f30a3228064.jpg?namespace=gamesdb"

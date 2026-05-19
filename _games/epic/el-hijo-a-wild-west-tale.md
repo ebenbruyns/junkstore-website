@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 6 (USK)
 age_ratings: {"usk":{"rating":"6"},"dejus":{"rating":"L"}}
 release_date: "March 11, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Swedish","Thai","Traditional Chinese","Turkish","Vietnamese"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/047f2337a6803765a0f0fd3a3e907022bbc3de6cd5424717a7a4aeb8e8e76298.jpg?namespace=gamesdb"

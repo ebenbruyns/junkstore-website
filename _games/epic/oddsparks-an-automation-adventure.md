@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 6 (USK)
 age_ratings: {"usk":{"rating":"6","descriptors":"Angedeutete Gewalt"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "May 27, 2025"
-game_modes: []
+game_modes: ["Single-player","Online Multi-player","Co-op"]
 languages: ["English","French","German","Japanese","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"1","name":"Multi-player"},{"id":"9","name":"Co-op"},{"id":"38","name":"Online Co-op"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"29","name":"Steam Trading Cards"},{"id":"30","name":"Steam Workshop"},{"id":"64","name":"Adjustable Text Size"},{"id":"67","name":"Camera Comfort"},{"id":"66","name":"Color Alternatives"},{"id":"68","name":"Custom Volume Controls"},{"id":"78","name":"Adjustable Difficulty"},{"id":"74","name":"Playable without Timed Input"},{"id":"79","name":"Save Anytime"},{"id":"69","name":"Stereo Sound"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"id":"epic_102da1ac6e864d7f84889f2c0a107ee2","start":"2026-04-30T07:32:49.000Z","end":"2026-05-07T15:00:00.000Z","type":null},{"id":"gp_3616","start":"2026-05-05T09:54:31.000Z","end":"2026-05-07T15:00:00.000Z","type":null}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/18485275fe71ab4a00ba9a989ce2ef4f69f132ed06c61ea28435eec0a7a4ecd2.jpg?namespace=gamesdb"

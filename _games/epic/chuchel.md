@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "March 25, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Swedish","Thai","Traditional Chinese","Turkish","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Swedish","Thai","Traditional Chinese","Turkish","Ukrainian"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3fae0d003e508e5b78207a2d0bdd1f3993db3977f0855854f96a32cade078ec7.jpg?namespace=gamesdb"

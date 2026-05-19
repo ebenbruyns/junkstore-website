@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Crude Humor, Language"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"usk":{"rating":"16","descriptors":"Violence"},"cero":{"rating":"C","descriptors":"Crime, Violence"},"oflc":{"rating":"PG","descriptors":"Mild themes, violence and coarse language"},"kgrb":{"rating":"15","descriptors":"Violence, Bad Language"},"fpb":{"rating":"16","descriptors":"Mild Language, Low impact Violence, Photo Pattern Sensitivity, Competative intensity."},"csrr":{"rating":"C12"},"dejus":{"rating":"14","descriptors":"Violência,, Linguagem Imprópria"}}
 release_date: "May 22, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Spanish - Latin America","Japanese","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"1395","name":"Narration"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-22T15:00:00.000Z","end":"2025-05-29T15:00:00.000Z","type":null,"id":"75a9f751a9964f46b3a37b396d2edc52"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8affe9c41e93e91012f66b0404224b0bc7ad69017c4f97f39dddf92c9ac5d75b.jpg?namespace=gamesdb"

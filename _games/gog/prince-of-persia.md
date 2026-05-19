@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Mild Language, Mild Suggestive Themes, Violence"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "December 2, 2008"
-game_modes: ["Controller support","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Dutch","Russian"]
 languages_audio: []
 tags_structured: []
 size: "7242 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c5b37d2b720c5f053c85ab7ba338298c1f7055b6db26621c732bbbce4bf53760.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language, Drug Reference"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, In-Game Purchases"},"usk":{"rating":"16","descriptors":"Gewalt"},"cero":{"rating":"Z","descriptors":"Crime, Violence"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Online Interactivity, In-Game Purchases"},"nzoflc":{"rating":"r13","descriptors":"Bloody violence"},"kgrb":{"rating":"19","descriptors":"Violence, Language, Drugs, Crime"},"fpb":{"rating":"18","descriptors":"Criminal Techniques, Drugs &amp; Alcohol, Bad Language, Violence, Photo Pattern Sensitivity, Competitive Intensity"},"csrr":{"rating":"R","descriptors":"Violence, Language, Anti-social"},"dejus":{"rating":"16","descriptors":"Drogas, Violência, Linguagem imprópria"}}
 release_date: "October 5, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Italian","German","Spanish - Spain","Arabic","Simplified Chinese","Traditional Chinese","Korean","Spanish - Latin America","Japanese","Polish","Portuguese - Brazil","Russian","French"]
 languages_audio: ["English","Italian","German","Spanish - Spain","Arabic","Japanese","Portuguese - Brazil","French"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
@@ -39,6 +39,7 @@ franchise_slug: "assassins-creed|assassins-creed-back-flag-resy|assassins-creed-
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f14c3615f3f9e6730febeaca5bfd44050325b9eb408b5c28761b88f89c7eb374.jpg?namespace=gamesdb"

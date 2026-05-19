@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "December 29, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-11-14T16:00:00.000Z","end":"2024-11-21T16:00:00.000Z","type":null,"id":"fddca2297b9a4354b59f8f83d4975c90"},{"start":"2023-12-28T15:00:00.000Z","end":"2023-12-29T15:00:00.000Z","type":null,"id":"fddca2297b9a4354b59f8f83d4975c90"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9ce1b788995cec5e86df4c68b648cf741b1934c7ea02b108a821bdb76006ae03.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "August 5, 2021"
-game_modes: ["Achievements","Controller support","Overlay","Single-player"]
-languages: ["English","German","Polish"]
+game_modes: ["Single-player"]
+languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"32","name":"Sci-fi"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"639","name":"Roguelike"}]
 size: "2102574162
@@ -40,6 +40,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a486dd1769f413e7e9909d579ccaf0f598265cc87120909a83e4c507398e2bf5.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Nudez"}}
 release_date: "November 3, 2022"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Japanese","Korean","Russian","Simplified Chinese","Spanish - Latin America"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Latin American Spanish","French","Japanese","Korean","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"32","name":"Sci-fi"},{"id":"259","name":"Metroidvania"}]
 size: "1399 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a64dbefdf9b53c93676f5764e14b5ec7d8e1725983acf7a0ce6240133437473a.jpg?namespace=gamesdb"

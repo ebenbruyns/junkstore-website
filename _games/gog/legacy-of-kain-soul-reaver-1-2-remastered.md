@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "December 10, 2024"
-game_modes: ["Achievements","Cloud saves","Controller support","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Portuguese","Russian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian"]
 tags_structured: []
 size: "7996 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/82ee19bed38fd484b42815a921779bce61c81fe1245147cf239170a6daef995b.jpg?namespace=gamesdb"

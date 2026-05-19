@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Animated blood, Crude Humor"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "February 13, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Korean"]
 languages_audio: ["English","German","Simplified Chinese"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-06-12T15:00:00.000Z","end":"2025-06-19T15:00:00.000Z","type":null,"id":"1078bc6439ab4b92b8786695e5f7f37d"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/de8d34e084799165a8b2156990d02884ef93d66bd694c0d0bd8b1731fb5a8ccb.jpg?namespace=gamesdb"

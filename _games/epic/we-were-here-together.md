@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 0 (USK)
 age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"12","descriptors":"Violência, Interação de Usuários"}}
 release_date: "December 4, 2025"
-game_modes: ["Multi-player","Co-op"]
+game_modes: ["Online Multi-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Dutch","Italian","Arabic","Czech","Danish","Finnish","Norwegian","Portuguese - Portugal","Portuguese - Brazil","Swedish","Thai","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"39940","name":"Gift A Game"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: "we-were-here|we-were-here-forever|we-were-here-together|we-were
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-26T16:00:00.000Z","end":"2025-12-27T16:00:00.000Z","type":null,"id":"231e8f6d250a453f9c44c0adf3a34656"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/865360/library_hero.jpg"

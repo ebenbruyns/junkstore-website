@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: e10 (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence"},"pegi":{"rating":"3"},"usk":{"rating":"6"},"bbfc":{"rating":"PG"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Mild Crude Humour"},"nzoflc":{"rating":"PG"}}
 release_date: "November 6, 2007"
-game_modes: ["Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"32","name":"Sci-fi"},{"id":"4","name":"Funny"},{"id":"193","name":"Classic"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"25","name":"Space"},{"id":"107","name":"Family Friendly"},{"id":"318","name":"Star Wars"},{"id":"297","name":"LEGO"}]
 size: "4462 MB"
@@ -39,6 +39,7 @@ franchise_slug: "lego-star-wars|lego-star-wars-2-the-original-|lego-star-wars-ca
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/dc35ab6cee58915b1ff06d41013b03d118861be906767abd50468a5e436ceb64.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 6 (USK)
 age_ratings: {"usk":{"rating":"6","descriptors":"Sexual Innuendo, Tobacco Use, Occasional Swearing"},"dejus":{"rating":"14","descriptors":"Nudez, Linguagem imprópria, Medo"}}
 release_date: "September 19, 2019"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Danish","French","Italian","German","Dutch","Portuguese - Brazil","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese","Turkish","Arabic"]
+game_modes: ["Single-player"]
+languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","Danish","German","English","Spanish","French","Italian","Japanese","Korean","Dutch","Russian","Turkish","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"}]
 size: "2198 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9c81279da9d22a71d274dba03fdc4aac75770f2e853aa83e4f89a5eed2a8930e.jpg?namespace=gamesdb"

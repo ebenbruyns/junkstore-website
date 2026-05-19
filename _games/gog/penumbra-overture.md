@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Language"},"oflc":{"descriptors":"%oflcDescriptors%"},"nzoflc":{"descriptors":"%NZoflcDescriptors%"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "March 1, 2007"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"1","name":"Survival"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"17","name":"Survival Horror"},{"id":"40833","name":"Captions available"},{"id":"47","name":"Lovecraftian"},{"id":"62349","name":"vr mod"}]
@@ -39,6 +39,7 @@ franchise_slug: "penumbra-black-plague|penumbra-overture|penumbra-requiem"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8a0b418b19a06924d3539ccb0963b25b19ee810a26842c5916d3f2dc5ff2b05e.jpg?namespace=gamesdb"

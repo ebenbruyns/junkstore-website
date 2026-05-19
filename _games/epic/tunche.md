@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 2, 2021"
-game_modes: ["Single player","Co-operative"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-03-29T15:00:00.000Z","end":"2023-04-05T15:00:00.000Z","type":null,"id":"1cfc3e68b14940719bbc0bce58fae8a4"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ecd4a6fef7c24663e12de51b5d82279411d55d394bdd6a3af9a12aed5b97f15c.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood and Gore, Language, Use of Alcohol"},"pegi":{"rating":"16","descriptors":"Strong Violence"},"usk":{"rating":"16"}}
 release_date: "July 25, 2024"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Portuguese - Brazil","Spanish - Latin America","Russian","Japanese","Korean","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-08-15T15:00:00.000Z","end":"2024-08-22T15:00:00.000Z","type":null,"id":"15ffd983174241ae8a00033f5f23f060"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/58c8925d94e440c7b0b4206635272579/deaths-gambit--afterlife-1v244.jpg"

@@ -29,7 +29,7 @@ franchise: Sniper Ghost Warrior Contracts
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"r16"},"csrr":{"rating":"R"},"dejus":{"rating":"16"}}
 release_date: "September 5, 2024"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Traditional Chinese","Simplified Chinese","Polish","Portuguese - Brazil","Russian","Czech","Korean","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21135","name":"Realistic Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "sniper-ghost-warrior|sniper-ghost-warrior-2-2|sniper-ghost-warr
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-09-05T15:00:00.000Z","end":"2024-09-12T15:00:00.000Z","type":null,"id":"20f88d53af6e4e59876ed82749db4ee5"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d160eb6336812c4dea57b2aa21f6dd70c8709a5e1f4aff60058d9e1f312fe7dd.jpg?namespace=gamesdb"

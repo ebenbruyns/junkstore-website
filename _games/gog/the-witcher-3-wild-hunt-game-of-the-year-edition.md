@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Nudity, Strong Language, Strong Sexual Content, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad language"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"High impact violence and sex"},"nzoflc":{"rating":"r16","descriptors":"Violence, Sexual violence, Offensive language and sex scenes"},"kgrb":{"rating":"18","descriptors":"Sexuality, Violence, Language, Drugs"},"fpb":{"rating":"18","descriptors":"SCENES CONTAINING IMAGES OF ILLEGAL DRUGS, SCENES OF HORROR, STRONG LANGUAGE (SWEAR-WORDS, THREATS, ABUSE OR PREJUDICE), GRAPHIC OR PROLONGED PICTURES OF NUDITY, THERE MAY BE BRIEF SCENES OF SEXUAL ACTIVITY, SCENES SHOWING PICTURES OF VIOLENCE"},"csrr":{"rating":"R"},"mda":{"rating":"M18","descriptors":"STRONG VIOLENCE, NUDITY AND SEXUAL SCENES"},"dejus":{"rating":"16","descriptors":"Conteúdo Sexual, Drogas Lícitas, Violência"}}
 release_date: "August 1, 2016"
-game_modes: ["Achievements","Cloud saves","Controller support","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Hungarian","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Turkish","Simplified Chinese","Spanish - Latin America"]
+game_modes: ["Single-player"]
+languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","Latin American Spanish","French","Hungarian","Italian","Japanese","Korean","Polish","Russian","Turkish","Chinese Traditional"]
 languages_audio: ["English","French","German","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
 tags_structured: []
 size: ""
@@ -39,6 +39,7 @@ franchise_slug: "gwent-rogue-mage|gwent-the-witcher-card-game|gwent-thronebreake
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d4dcbad8151f8acf3d8316c82c62a9f132833d77a384c5523cac0e0bcea80f06.jpg?namespace=gamesdb"

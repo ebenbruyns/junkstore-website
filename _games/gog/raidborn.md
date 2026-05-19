@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "March 1, 2023"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","German","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"8","name":"First-Person"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"97","name":"Action RPG"},{"id":"14","name":"Early Access"},{"id":"468","name":"role-playing"},{"id":"68","name":"Hack and Slash"},{"id":"571","name":"3D"},{"id":"114","name":"Physics"},{"id":"1465","name":"combat"},{"id":"66","name":"Medieval"},{"id":"406","name":"Story"},{"id":"48","name":"Dungeon Crawler"},{"id":"98","name":"Loot"},{"id":"196","name":"Procedural Generation"},{"id":"808","name":"character"},{"id":"185","name":"Swordplay"},{"id":"1529","name":"fight"},{"id":"3109","name":"weapons"},{"id":"2590","name":"fun"},{"id":"1484","name":"skill"},{"id":"1500","name":"immersive"},{"id":"3612","name":"match"},{"id":"18426","name":"enemy"},{"id":"3626","name":"treasure"},{"id":"1746","name":"dialogue"},{"id":"1796","name":"dungeon"},{"id":"3584","name":"characters"},{"id":"1642","name":"melee"},{"id":"6581","name":"enemies"},{"id":"2786","name":"skills"},{"id":"2092","name":"rogue"}]
 size: "862 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b0e310d6d8559a64417851fc9d78023fae0cfa58fbecd68fe02ad529116dc4f4.jpg?namespace=gamesdb"

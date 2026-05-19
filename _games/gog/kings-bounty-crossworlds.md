@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 12 (PEGI)
 age_ratings: {"pegi":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 19, 2009"
-game_modes: ["Cloud saves","Overlay","Single-player"]
-languages: ["English","Russian","German","Italian","Spanish - Spain","Czech","Polish"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","Czech","German","English","Spanish","Italian","Polish","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"189","name":"Female Protagonist"},{"id":"40838","name":"Includes level editor"},{"id":"102","name":"Turn-Based"},{"id":"101","name":"Turn-Based Strategy"},{"id":"103","name":"Hex Grid"}]
 size: "3098 MB"
@@ -39,6 +39,7 @@ franchise_slug: "kings-bounty|kings-bounty-armored-princess|kings-bounty-crosswo
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2f205d46205d590058389ec7659cb4349799272dd66714ed4ae63dbf25da4de2.jpg?namespace=gamesdb"

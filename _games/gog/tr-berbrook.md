@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "March 12, 2019"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","German","French","Spanish - Spain","Russian","Ukrainian","Japanese","Korean","Polish","Traditional Chinese","Czech","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","Czech","German","English","Spanish","French","Japanese","Korean","Polish","Russian","Ukrainian","Chinese Traditional"]
 languages_audio: ["English","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"141","name":"Point & Click"},{"id":"3394","name":"germany"},{"id":"13593","name":"1960s"}]
 size: "2215 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b55d72321e04a03d6b8c5594910e334df043785036429d4805ad33f631792d80.jpg?namespace=gamesdb"

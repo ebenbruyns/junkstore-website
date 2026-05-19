@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Violent References"},"pegi":{"rating":"7","descriptors":"Fear"},"usk":{"rating":"6","descriptors":"Abstract violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "March 9, 2011"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Leaderboards","Multi-player","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"40850","name":"Steam Leaderboards"},{"id":"75","name":"Local Co-Op"},{"id":"72","name":"Local Multiplayer"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"102","name":"Turn-Based"},{"id":"127","name":"Card Game"},{"id":"60","name":"Touch-Friendly"},{"id":"162","name":"Board Game"},{"id":"29","name":"Games Workshop"}]
 size: "1020 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/63e7d15136e453a16b1a6eee6b2b05a435beb92a62f09826161cea31c5c3b850.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "October 12, 2023"
-game_modes: ["Co-operative","Multiplayer","Battle Royale"]
+game_modes: ["Online Multi-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Dutch","Japanese","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish","Polish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-10-11T15:00:00.000Z","end":"2023-10-18T15:00:00.000Z","type":null,"id":"363d0be3b57d4741a046d38da0e6355e"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/20fc1cd38767aa55473f32f6dbbaa74901820fc2e8a575e5f4581bb1a0136472.jpg?namespace=gamesdb"

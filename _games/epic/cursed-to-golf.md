@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "January 1, 2099"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Portuguese - Brazil","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"121","name":"Character Customization"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"114","name":"Physics"},{"id":"113","name":"Side Scroller"},{"id":"639","name":"Roguelike"},{"id":"640","name":"Roguelite"},{"id":"413","name":"online"},{"id":"48","name":"Dungeon Crawler"},{"id":"176","name":"Turn-Based Tactics"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"54","name":"Score Attack"},{"id":"2326","name":"explore"},{"id":"1863","name":"challenge"},{"id":"161","name":"Golf"},{"id":"1796","name":"dungeon"},{"id":"4451","name":"obstacles"},{"id":"15556","name":"catch"},{"id":"2581","name":"spikes"}]
@@ -39,6 +39,7 @@ franchise_slug: "cursed-to-golf|cursed-to-golf-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7fa0effed4c6443571844a5c045e088c1b0fa21c8954a963760a35a76ae46453.jpg?namespace=gamesdb"

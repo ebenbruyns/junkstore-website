@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "September 4, 2013"
-game_modes: ["Controller support","Co-op","Overlay","Single-player"]
+game_modes: ["Co-op","Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"198","name":"Split Screen"},{"id":"639","name":"Roguelike"},{"id":"48","name":"Dungeon Crawler"},{"id":"98","name":"Loot"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6cc12a98be34e9643f38d6a0a35e86a437c9aa055599c815e6a7cecbe73ff68c.jpg?namespace=gamesdb"

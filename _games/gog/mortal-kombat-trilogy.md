@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "October 10, 1996"
-game_modes: ["Controller support","Co-op","Single-player"]
+game_modes: ["Co-op","Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"37796","name":"exclusive"},{"id":"418","name":"2 players"}]
@@ -39,6 +39,7 @@ franchise_slug: "mortal-kombat|mortal-kombat-1-2023|mortal-kombat-11|mortal-komb
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/27993bbce385e95d6d2a08397f11d810d13cb5ccd41c132e11ea006eed2ec1db.jpg?namespace=gamesdb"

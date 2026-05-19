@@ -29,8 +29,8 @@ franchise: Figment
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Language, Crude Humor"},"pegi":{"rating":"12","descriptors":"Mild Swearing"},"usk":{"rating":"6","descriptors":"Abstract Violence, Occasional Swearing"},"oflc":{"rating":"M","descriptors":"Coarse Language"},"dejus":{"rating":"10","descriptors":"Linguagem imprópria"}}
 release_date: "September 22, 2017"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Arabic","Chinese Simplified","Danish","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Portuguese","Russian","Turkish","Ukrainian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: "725 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/fae02216d95ec1ff3c204a25f3354e0af65196eebbe485a47c1dfb0d77a1f849.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "October 21, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Portugal","Czech","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-10-25T15:00:00.000Z","end":"2023-11-01T15:00:00.000Z","type":null,"id":"9142916d80f54720b01f8f62b21014be"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f276764d8ba61ab700547bc7b001f3b7fc0d4b01815bba99853a704df76a5f7a.jpg?namespace=gamesdb"

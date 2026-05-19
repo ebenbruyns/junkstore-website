@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Medo, Atos criminosos, Violência, Temas sensíveis, Linguagem imprópria, Conteúdo sexual, Drogas lícitas, Drogas, Drogas ilícitas"}}
 release_date: "May 1, 2020"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Russian","Simplified Chinese","Spanish - Spain","Traditional Chinese","French","Japanese","Polish","Ukrainian","Portuguese - Brazil","Italian","German","Czech"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","English","Spanish","French","Japanese","Polish","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"26","name":"Gore"},{"id":"6","name":"Exploration"},{"id":"193","name":"Classic"},{"id":"1","name":"Survival"},{"id":"34","name":"Violent"},{"id":"80","name":"Tactical"},{"id":"14","name":"Early Access"},{"id":"25","name":"Space"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"43","name":"Post-apocalyptic"},{"id":"5","name":"Replay Value"},{"id":"145","name":"Choices Matter"},{"id":"1465","name":"combat"},{"id":"99","name":"Isometric"},{"id":"50","name":"Sexual Content"},{"id":"119","name":"Dystopian"},{"id":"406","name":"Story"},{"id":"175","name":"Turn-Based Combat"},{"id":"808","name":"character"},{"id":"2030","name":"city"},{"id":"238","name":"CRPG"},{"id":"1529","name":"fight"},{"id":"326","name":"Investigation"},{"id":"1309","name":"hero"},{"id":"3046","name":"destroy"},{"id":"1746","name":"dialogue"}]
 size: "9433 MB"
@@ -39,6 +39,7 @@ franchise_slug: "atom-rpg|atom-rpg-trudograd"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4f920e65828b7b79809d74e9045b18144dd1dcc8b401844f923a2977db98d5d5.jpg?namespace=gamesdb"

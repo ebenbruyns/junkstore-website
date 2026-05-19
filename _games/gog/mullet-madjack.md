@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Drogas lícitas"}}
 release_date: "May 1, 2024"
-game_modes: ["Achievements","Cloud saves","Controller support","Leaderboards","Overlay","Single-player"]
-languages: ["English","Japanese","Portuguese - Brazil","Spanish - Spain","Russian","Korean","Polish","Simplified Chinese","Traditional Chinese","Spanish - Latin America","Ukrainian","French","Italian"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","English","Spanish","Latin American Spanish","Japanese","Korean","Polish","Russian","Ukrainian","Chinese Traditional"]
 languages_audio: ["English","Portuguese - Brazil"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"40850","name":"Steam Leaderboards"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"571","name":"3D"},{"id":"131","name":"Fast-Paced"},{"id":"226","name":"Cyberpunk"},{"id":"640","name":"Roguelite"},{"id":"197","name":"Robots"},{"id":"243","name":"1990's"},{"id":"166","name":"Stylized"},{"id":"116","name":"2.5D"},{"id":"91686","name":"Family Sharing"},{"id":"224","name":"1980s"},{"id":"54","name":"Score Attack"},{"id":"88047","name":"boomer shooter"}]
 size: "3670 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/5b5466310e3f3ac16a6e22b54f48787accf7d550985128d589cfd886d4aaedce.jpg?namespace=gamesdb"

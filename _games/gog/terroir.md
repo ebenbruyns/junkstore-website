@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10"}}
 release_date: "May 17, 2017"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","Simplified Chinese","German"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"14","name":"Early Access"},{"id":"67","name":"Management"},{"id":"195","name":"Economy"}]
 size: "527 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0d4716fee921e72a8fa6c934228b9231cd6af47ddc3a152ceb3adb9df5fd79ac.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/559910"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Terroir"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/terroir/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: "4983"

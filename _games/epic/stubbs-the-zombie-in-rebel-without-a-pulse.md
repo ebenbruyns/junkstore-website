@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Crude Humor, Intense Violence, Language, Suggestive Themes, Sexual Themes, Use of Tobacco"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Drogas Lícitas, Conteúdo Sexual"}}
 release_date: "October 14, 2021"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1137","name":"3D"},{"id":"1220","name":"ZOMBIES"},{"id":"1301","name":"FUNNY"},{"id":"21109","name":"Great Boss Battles"},{"id":"1161","name":"VIOLENT"},{"id":"1306","name":"VILLAIN PROTAGONIST"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-10-13T15:00:00.000Z","end":"2021-10-20T15:00:00.000Z","type":null,"id":"f060c900b80441fda67a7d986c327905"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/57bbbd381c22aa5efd123f7111b7d5a9ee4074ab1d121e3e101ca7b81899db53.jpg?namespace=gamesdb"

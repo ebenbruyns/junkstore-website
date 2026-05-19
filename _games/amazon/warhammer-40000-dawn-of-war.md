@@ -39,6 +39,7 @@ franchise_slug: "adeptus-titanicus-dominus|warhammer-40-000-storm-of-veng|warham
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2ab54bb37788db58246d6f6137d0b747848c3e00eec0371667e79a5d5d0a1715.jpg?namespace=gamesdb"

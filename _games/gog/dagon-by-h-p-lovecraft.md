@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Drogas"}}
 release_date: "August 24, 2021"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Polish","Portuguese - Brazil","Russian","Turkish","Japanese","Czech","Korean","Arabic","Ukrainian"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"41","name":"Dark"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"77","name":"Realistic"},{"id":"91","name":"Walking Simulator"},{"id":"90","name":"Visual Novel"},{"id":"200","name":"Narration"},{"id":"205","name":"Lore-Rich"},{"id":"572","name":"Emotional"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"288","name":"Interactive Fiction"},{"id":"47","name":"Lovecraftian"},{"id":"303","name":"Text-Based"}]
 size: "1439 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ac45079ac2c97d5523c8c31df1126d35c622e5144ca9709e4e3b72374fee354c.jpg?namespace=gamesdb"

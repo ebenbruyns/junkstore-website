@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "June 2, 2021"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","German","Spanish - Spain","Russian","Dutch","Finnish","Portuguese - Brazil","Spanish - Latin America","Japanese","Simplified Chinese","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Spanish","Finnish","Dutch","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"118","name":"Story Rich"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"74","name":"Retro"},{"id":"88","name":"Cute"},{"id":"40833","name":"Captions available"},{"id":"113","name":"Side Scroller"},{"id":"406","name":"Story"},{"id":"305","name":"Linear"},{"id":"270","name":"Blood"},{"id":"1867","name":"puzzles"},{"id":"234","name":"Superhero"},{"id":"59643","name":"Протагонистка"},{"id":"295","name":"Soundtrack"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"1309","name":"hero"},{"id":"49955","name":"Puzzle Platformer"},{"id":"2232","name":"journey"},{"id":"49963","name":"Precision Platformer"},{"id":"2528","name":"brain"},{"id":"1746","name":"dialogue"},{"id":"844","name":"simulator"},{"id":"2631","name":"cat"},{"id":"402","name":"Training"},{"id":"573","name":"Unforgiving"},{"id":"2581","name":"spikes"},{"id":"4891","name":"Boring"}]
 size: "105 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c58847415b5bba64e50926f21e50bb4e00adacfba2930b1a0c23c16b2f21c22e.jpg?namespace=gamesdb"

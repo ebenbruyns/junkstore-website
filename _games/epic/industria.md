@@ -29,7 +29,7 @@ franchise: INDUSTRIA
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Linguagem imprópria"}}
 release_date: "September 30, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","German","French","Spanish - Spain","Russian","Portuguese - Portugal","Turkish","Japanese","Korean","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-04-24T15:00:00.000Z","end":"2024-05-01T15:00:00.000Z","type":null,"id":"2dbb1debe54f4555805896caf7844470"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ac75ef435d8514fef4a822c65a95e8ba37156b02e6926714e5d837b1d7b13e54.jpg?namespace=gamesdb"

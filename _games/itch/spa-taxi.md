@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "December 21, 2019"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"42","name":"Great Soundtrack"},{"id":"40845","name":"Partial Controller Support"},{"id":"193","name":"Classic"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"74","name":"Retro"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1206770/library_hero.jpg"

@@ -29,7 +29,7 @@ franchise: Football Manager
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"In-Game Purchases"},"pegi":{"rating":"3","descriptors":"In-Game Purchases"},"usk":{"rating":"0"},"cero":{"rating":"A"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"G"},"dejus":{"rating":"6"}}
 release_date: "November 6, 2023"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Danish","Dutch","Greek","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Swedish","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-09-05T15:00:00.000Z","end":"2024-09-12T15:00:00.000Z","type":null,"id":"d0ec3758eb4b4224a2037cd438d51cc1"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0d34c456880db7082c86b1496835aef3d12f1d04aa4662108445f11d75a8a0ef.jpg?namespace=gamesdb"

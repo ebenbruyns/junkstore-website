@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "December 23, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Japanese","Polish","Russian","Arabic","Danish","Finnish","Korean","Norwegian","Swedish","Czech","Hungarian","Portuguese - Portugal"]
 languages_audio: ["English","German","Spanish - Spain"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c6ebfbcc895bf169c00ee6d2683543e37f92f8b8f4e37cdffc30de0fb67a2384.jpg?namespace=gamesdb"

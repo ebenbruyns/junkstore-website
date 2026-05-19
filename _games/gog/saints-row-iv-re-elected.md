@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong violence, gaming experience may change online"},"nzoflc":{"rating":"r18"},"dejus":{"rating":"18","descriptors":"Sexo Explícito, Drogas ilícitas, Violência"}}
 release_date: "May 9, 2014"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","French","German","Italian","Spanish - Spain","Polish","Russian","Japanese"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["German","English","Spanish","French","Italian","Japanese","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "12698 MB"
@@ -39,6 +39,7 @@ franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-h
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/94a0d6b3fedfaa6d9e1a02e27dc334f35bc30c13455520a1a394d7ac6b3a50fd.jpg?namespace=gamesdb"

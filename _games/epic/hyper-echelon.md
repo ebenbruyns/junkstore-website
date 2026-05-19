@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "December 11, 2025"
-game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
+game_modes: ["Single-player","Local Multi-player","Co-op"]
 languages: ["English","German","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1121","name":"Space"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1198","name":"Retro"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-03-26T15:00:00.000Z","end":"2026-04-02T15:00:00.000Z","type":null,"id":"5d15c054641543c9a535b3b4ac29e843"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/953330/library_hero.jpg"

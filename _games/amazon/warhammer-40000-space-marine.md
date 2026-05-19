@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence"},"dejus":{"rating":"18","descriptors":"Violência Extrema"}}
 release_date: "September 6, 2011"
-game_modes: ["Single player","Multiplayer","Massively Multiplayer Online (MMO)"]
+game_modes: ["Single-player","Multi-player","MMO"]
 languages: ["English","French","German","Italian","Spanish - Spain","Russian","Czech","Polish","Dutch"]
 languages_audio: ["English","French","German","Italian","Spanish - Spain","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"9","name":"Online Co-Op"},{"id":"26","name":"Gore"},{"id":"40850","name":"Steam Leaderboards"},{"id":"115","name":"Controller"},{"id":"150","name":"Third-Person Shooter"},{"id":"68","name":"Hack and Slash"},{"id":"167","name":"Futuristic"},{"id":"119","name":"Dystopian"},{"id":"29","name":"Games Workshop"},{"id":"27","name":"Warhammer 40K"}]
@@ -39,6 +39,7 @@ franchise_slug: "adeptus-titanicus-dominus|warhammer-40-000-storm-of-veng|warham
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b686f6b5f8b81666672d7219b4c76a5e62404d0101e4fea53f1a3b9e1c9bd6dd.jpg?namespace=gamesdb"

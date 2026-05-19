@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Content, Strong Language, Use of Drugs"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Drogas ilícitas, Conteúdo sexual, Violência Extrema"}}
 release_date: "October 14, 2008"
-game_modes: ["Cloud saves","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","French","German","Italian","Spanish - Spain","Dutch","Danish","Swedish","Russian"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["Chinese Simplified","Czech","Danish","German","English","Spanish","French","Italian","Japanese","Dutch","Polish","Russian","Swedish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"9","name":"Online Co-Op"},{"id":"4","name":"Funny"},{"id":"37","name":"Sandbox"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"150","name":"Third-Person Shooter"},{"id":"62","name":"Moddable"},{"id":"121","name":"Character Customization"},{"id":"5","name":"Replay Value"},{"id":"144","name":"Crime"},{"id":"337","name":"overlay"},{"id":"163","name":"Co-op Campaign"}]
 size: "6093 MB"
@@ -39,6 +39,7 @@ franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-h
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7c145ebbab453860f0ea02d907f4d964e8fdba5915af074238c6db9f18ddd2a8.jpg?namespace=gamesdb"

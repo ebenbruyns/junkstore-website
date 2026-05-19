@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "August 11, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Japanese","Korean"]
 languages_audio: []
 tags_structured: [{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
@@ -39,6 +39,7 @@ franchise_slug: "adeptus-titanicus-dominus|warhammer-40-000-storm-of-veng|warham
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7e7bb4fffb96ed4573bbeb829a4461f1f55121929e716544fd980f217fa5ab71.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "June 5, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Danish","Portuguese - Portugal","Portuguese - Brazil","Russian","Spanish - Latin America","Swedish","Japanese","Simplified Chinese","Traditional Chinese","Korean"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"138","name":"Relaxing"},{"id":"258","name":"Hand-drawn"},{"id":"577","name":"Beautiful"},{"id":"774","name":"nature"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"220","name":"Experimental"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1b4e48c7e242ca89ba21f096e955886c1f6fb59e5aac7d46adbe65c73ce5dd86.jpg?namespace=gamesdb"

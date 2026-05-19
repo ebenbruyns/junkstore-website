@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (USK)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Medium level animated violence"},"nzoflc":{"rating":"r16","descriptors":"Contains horror scenes. Contains violence."}}
 release_date: "March 21, 2002"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Single-player"]
+languages: ["German","English"]
 languages_audio: ["English"]
 tags_structured: []
 size: "1144 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/53d93e803b756abdac9c912ed6006dd50b1b41efcf003a025f0851e4d0e53a49.jpg?namespace=gamesdb"

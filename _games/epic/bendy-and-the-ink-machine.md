@@ -39,6 +39,7 @@ franchise_slug: "bendy-and-the-dark-revival|bendy-and-the-ink-machine|bendy-in-n
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-10-30T15:00:00.000Z","end":"2025-11-06T16:00:00.000Z","type":null,"id":"fb722544c8314c45bf9a42c66b2a5a73"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/622650/library_hero.jpg"

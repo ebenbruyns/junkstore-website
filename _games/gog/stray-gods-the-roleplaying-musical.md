@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "August 10, 2023"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Japanese","Simplified Chinese","Spanish - Latin America"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Latin American Spanish","French","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"468","name":"role-playing"},{"id":"145","name":"Choices Matter"},{"id":"110","name":"Cinematic"},{"id":"218","name":"Multiple Endings"},{"id":"136","name":"Music"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"217","name":"Romance"},{"id":"268","name":"Comic Book"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"288","name":"Interactive Fiction"},{"id":"59643","name":"Протагонистка"},{"id":"108","name":"Mythology"},{"id":"66536","name":"Романтика"}]
 size: "7784796950
@@ -40,6 +40,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/461d685e1bbb49c40f86e17f723749de14003c2371e94f53a6468df8830ffae6.jpg?namespace=gamesdb"

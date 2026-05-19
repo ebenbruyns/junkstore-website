@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10"},"pegi":{"rating":"7"},"usk":{"rating":"6"},"bbfc":{"rating":"PG"},"oflc":{"rating":"PG"},"nzoflc":{"rating":"PG"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"A"},"csrr":{"rating":"C12"},"mda":{"rating":"AA16"},"dejus":{"rating":"10"}}
 release_date: "July 17, 2023"
-game_modes: ["Multiplayer","Massively Multiplayer Online (MMO)"]
+game_modes: ["Multi-player","MMO"]
 languages: ["English","French","Italian","German","Spanish - Spain","Ukrainian","Russian","Turkish","Japanese","Polish","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Portugal","Vietnamese","Arabic","Korean","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21125","name":"Competitive Community"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"33639","name":"Promotional Content"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c3d689d869bcc7ce653343ac67cdf5efa45eeed441cf4dfe751b3d7395036fe1.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/1041320"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lords_Mobile"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/lords-mobile/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

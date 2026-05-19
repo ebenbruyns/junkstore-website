@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"cero":{"rating":"A"},"oflc":{"rating":"G","descriptors":"General, Online interaction"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
 release_date: "December 9, 2021"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1203","name":"Multiplayer"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/23a9129548cbba90f5e444bde93417281ea49a522e80609556f7ad5fd50e5e96.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/2383760"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Monopoly_Madness"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/monopoly-madness/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: "12482"

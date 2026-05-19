@@ -29,7 +29,7 @@ franchise: Fallout
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Content, Strong Language, Use of Drugs"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Drug References, Coarse Language"}}
 release_date: "June 1, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Italian","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -40,6 +40,7 @@ franchise_slug: "capital-wasteland|fallout-2-a-post-nuclear-role-|fallout-3|fall
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e2e63bb22e866c8563f002850c3dd345721c1eb50a54ee141569fbe60f544fd8.jpg?namespace=gamesdb"

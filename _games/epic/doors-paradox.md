@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "May 26, 2023"
-game_modes: ["Single Player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Portugal","Russian","Korean","Simplified Chinese","Traditional Chinese","Turkish","Indonesian"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-01-31T15:00:00.000Z","end":"2024-02-07T15:00:00.000Z","type":null,"id":"b8dee54bce824477bc0b7cb298f9f9a9"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f77c99032711ce69a39d52f95bccdae87a1e2a72c8f089636724c25c6f28bc5a.jpg?namespace=gamesdb"

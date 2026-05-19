@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "March 9, 2023"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","Simplified Chinese","Traditional Chinese","French","Japanese","German","Spanish - Spain","Korean","Russian","Ukrainian","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Japanese","Korean","Portuguese","Russian","Ukrainian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"49","name":"Difficult"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"43","name":"Post-apocalyptic"},{"id":"40","name":"Dark Fantasy"},{"id":"99","name":"Isometric"},{"id":"640","name":"Roguelite"},{"id":"176","name":"Turn-Based Tactics"},{"id":"230","name":"Tactical RPG"}]
 size: "1563 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9f8813bf0b7e467f0c32e5d76ede9248cbd6e3826955072eea6920b9018eff0e.jpg?namespace=gamesdb"

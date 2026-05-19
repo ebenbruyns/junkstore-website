@@ -39,6 +39,7 @@ franchise_slug: "beholder|beholder-2|beholder-3"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/48f6cdd4640f73d1a1f195e0c758f7695d1648b9a84e35c4b482515f6a5d0d24.jpg?namespace=gamesdb"

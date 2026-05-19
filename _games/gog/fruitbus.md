@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "October 28, 2024"
-game_modes: ["Achievements","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Korean","Norwegian","Portuguese - Brazil","Polish","Russian","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Norwegian","Polish","Russian","Turkish"]
 languages_audio: ["English","French","German","Japanese","Simplified Chinese","Norwegian"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
 size: ""
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ae93f2d39bca80a254ae1c72dba3c99be9f6f5479374de565dcdb3a3c0c8a0f6.jpg?namespace=gamesdb"

@@ -30,7 +30,7 @@ age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "November 1, 2004"
 game_modes: ["Single-player"]
-languages: ["English","French","German","Italian","Spanish - Spain","Czech","Hungarian","Polish","Russian","Simplified Chinese","Traditional Chinese"]
+languages: ["English","Spanish","French","Italian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"42","name":"Great Soundtrack"},{"id":"4","name":"Funny"},{"id":"193","name":"Classic"},{"id":"130","name":"Driving"},{"id":"51","name":"Destruction"}]
 size: "924 MB"
@@ -39,6 +39,7 @@ franchise_slug: "flatout|flatout-2|flatout-3-chaos-destruction|flatout-4-total-i
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/95b6235b1dfad1c1cc09f5075929debce5b19e935f19c081b93d448d20969cd0.jpg?namespace=gamesdb"

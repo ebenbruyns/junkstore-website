@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-11-20T16:00:00.000Z","end":"2025-11-27T16:00:00.000Z","type":null,"id":"88a37c5ab8db412380708a2b9933d626"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2439780/library_hero.jpg"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/2439780"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Godzilla_Voxel_Wars"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/godzilla-voxel-wars/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: "15826"

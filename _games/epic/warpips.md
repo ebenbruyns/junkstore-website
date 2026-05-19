@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "April 21, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Japanese","Russian","Simplified Chinese","Traditional Chinese","Polish","Portuguese - Brazil","Turkish","Spanish - Spain","Korean"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-02-15T15:00:00.000Z","end":"2023-02-22T15:00:00.000Z","type":null,"id":"f6e75092c08045afa343fb5c5aa817ae"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d3fc470055cce4a9baf9b4b42d682220f0fc0866a759b31be737c7b24ff874ea.jpg?namespace=gamesdb"

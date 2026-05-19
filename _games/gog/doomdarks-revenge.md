@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: PEGI 7
 age_ratings: {}
 release_date: "December 1, 1984"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"468","name":"role-playing"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1c7f4816a1ef1a0e4a718da2d39720aa6d9a1d73fac1df4efcc5946761950bea.jpg?namespace=gamesdb"

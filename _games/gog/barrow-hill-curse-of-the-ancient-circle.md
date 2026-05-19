@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 7 (PEGI)
 age_ratings: {"pegi":{"rating":"7","descriptors":"Fear"},"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "October 1, 2006"
-game_modes: ["Single player"]
-languages: ["English","German"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "1249 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7ff3fe2295cbd79a984d984985af95c25866846ec5585c1048337fc3bbe8e660.jpg?namespace=gamesdb"

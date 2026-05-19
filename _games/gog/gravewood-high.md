@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência, Medo"}}
 release_date: "May 3, 2023"
-game_modes: ["Cloud saves","Overlay","Single-player"]
-languages: ["English","Simplified Chinese","Traditional Chinese","French","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Japanese","Polish","Russian","Turkish","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"117","name":"Mystery"}]
 size: "3004 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/77f62db3cf133587357795800cb117d8e6ac9c790f4940586b4287dd1644539a.jpg?namespace=gamesdb"

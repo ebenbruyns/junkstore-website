@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "July 30, 2020"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Italian","Portuguese - Brazil"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Portuguese","Russian"]
 languages_audio: []
 tags_structured: []
 size: "5554 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c42c124612fc50c359283eaa24a875139f9159d907300b43610daabc67e2b736.jpg?namespace=gamesdb"

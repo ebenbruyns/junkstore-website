@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Drogas lícitas"}}
 release_date: "November 15, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"123","name":"Comedy"},{"id":"107","name":"Family Friendly"},{"id":"5","name":"Replay Value"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"66","name":"Medieval"},{"id":"39","name":"Building"},{"id":"67","name":"Management"},{"id":"180","name":"Base Building"},{"id":"164","name":"Cartoony"},{"id":"147","name":"Resource Management"},{"id":"200","name":"Narration"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/123fa7d37d19b40e37015312895e61a0db1333a7fae95cf722f4e2088f72c1bf.jpg?namespace=gamesdb"

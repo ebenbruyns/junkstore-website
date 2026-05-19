@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 16 (USK)
 age_ratings: {"usk":{"rating":"16"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "January 29, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-01-05T15:00:00.000Z","end":"2022-01-12T15:00:00.000Z","type":null,"id":"5207cdd79e9145d0bbb947c6bd3699a3"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8cc5b4be27fd5e9aeb6948af76eabb03693254d98e8827f4e7ca2db39f3a1d3a.jpg?namespace=gamesdb"

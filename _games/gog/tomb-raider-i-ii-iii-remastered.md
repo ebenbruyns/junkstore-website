@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Drogas lícitas"}}
 release_date: "February 14, 2024"
-game_modes: ["Achievements","Cloud saves","Controller support","Single-player"]
-languages: ["English","French","German","Russian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Polish","Portuguese - Brazil","Swedish","Turkish","Ukrainian","Slovak","Japanese","Simplified Chinese","Italian","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","Danish","German","English","Spanish","Finnish","French","Greek","Hungarian","Italian","Japanese","Dutch","Polish","Russian","Slovak","Swedish","Turkish","Ukrainian"]
 languages_audio: ["English","French","German","Russian","Japanese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"571","name":"3D"},{"id":"40937","name":"Steam Trading Cards"},{"id":"271","name":"Remake"},{"id":"59643","name":"Протагонистка"},{"id":"570","name":"Old School"},{"id":"78619","name":"Ремейк"}]
 size: "4365129037
@@ -40,6 +40,7 @@ franchise_slug: "tomb-raider-i-iii-remastered|tomb-raider-i-vi-remastered|tomb-r
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/deaea876cba95928aab77b3c5571979b7e3009284227321165e71a7e7b5abc9e.jpg?namespace=gamesdb"

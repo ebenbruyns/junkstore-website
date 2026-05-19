@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence"},"pegi":{"rating":"18"},"usk":{"rating":"16"},"cero":{"rating":"Z"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"r13"},"kgrb":{"rating":"18"},"fpb":{"rating":"18"},"csrr":{"rating":"R"},"mda":{"rating":"M18"},"dejus":{"rating":"18"}}
 release_date: "September 30, 2014"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"26","name":"Gore"},{"id":"37","name":"Sandbox"},{"id":"15","name":"Stealth"},{"id":"97","name":"Action RPG"},{"id":"68","name":"Hack and Slash"},{"id":"40","name":"Dark Fantasy"},{"id":"82","name":"Magic"},{"id":"188","name":"Parkour"},{"id":"278","name":"Assassin"},{"id":"205","name":"Lore-Rich"},{"id":"283","name":"Based On A Novel"},{"id":"5842","name":"steam"},{"id":"7517","name":"category"},{"id":"44631","name":"microtranzations"}]
 size: "54741 MB"
@@ -39,6 +39,7 @@ franchise_slug: "middle-earth-shadow-of-war|shadow-of-mordor"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9700138fd9eb99dee4e8a7936362fd01b1b645430328434c96f366d8ff0c5d0e.jpg?namespace=gamesdb"

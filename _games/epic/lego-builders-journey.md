@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "June 22, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Dutch","Japanese","Korean","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Dutch","Japanese","Korean","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21151","name":"Easy Puzzles"}]
@@ -39,6 +39,7 @@ franchise_slug: "lego-bionicle|lego-bricktales|lego-builders-journey|lego-city-b
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-12-20T15:00:00.000Z","end":"2022-12-21T15:00:00.000Z","type":null,"id":"bd886035d7ee4eb1b886a5ada1358528"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/122a4362c4563b1a6e6534b8cf26adf7bd055015be813b8876487437d1011953.jpg?namespace=gamesdb"

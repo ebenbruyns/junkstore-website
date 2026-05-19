@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "October 16, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Dutch","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"8","name":"First-Person"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"111","name":"Short"},{"id":"571","name":"3D"},{"id":"91","name":"Walking Simulator"},{"id":"138","name":"Relaxing"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"91686","name":"Family Sharing"},{"id":"1452","name":"philosophical"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/5ac8c58d9c54a960b36c1d609f329df67bdb9eb7b5ae3d787007aa30e6ea0b04.jpg?namespace=gamesdb"

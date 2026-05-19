@@ -27,7 +27,7 @@ developer: Firaxis Games
 genre: Strategy, Simulator
 franchise: 
 age_rating_summary: E (ESRB) · 12 (PEGI)
-age_ratings: {"esrb":{"rating":"E","descriptors":"Animated Blood, Violence"},"pegi":{"rating":"12"},"kgrb":{"rating":"ALL","descriptors":"내용정보표지사항: -, 제명:  문명 3 컴플리트 에디션, 이용등급: 전체이용가, 등급분류번호: CC-NP-120406-008, 등급분류일자: 20120406, 상호: 테이크투인터렉티브유한회사, 제작.배급업 신고번호: 제 2009-00016호, ----------------------------------, Game Descriptive: -, Title Name: Sid Meier's Civilization III: Complete, Age: All Age, Certificate #: CC-NP-120406-008, Issue date: 20120406, Company Name:테이크투인터렉티브유한회사, Distributor No,: 제 2009-00016호"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
+age_ratings: {"esrb":{"rating":"E","descriptors":"Animated Blood, Violence"},"pegi":{"rating":"12"},"kgrb":{"rating":"ALL"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "September 14, 2004"
 game_modes: ["Single-player"]
 languages: ["English"]
@@ -39,6 +39,7 @@ franchise_slug: "civilization-v|civilization-vi|sid-meiers-civilization|sid-meie
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/dd06cc7ab1cb3fb3e0ac1da277eed322af404818017e1079b99a5c6c381719b2.jpg?namespace=gamesdb.jpg?namespace=gamesdb"

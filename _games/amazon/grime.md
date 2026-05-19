@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (USK)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Animated Blood"},"usk":{"rating":"16","descriptors":"Violence, Scary Content, Sexual Innuendo"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "August 2, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Korean","Portuguese - Brazil","Russian","Hebrew"]
 languages_audio: []
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]
@@ -39,6 +39,7 @@ franchise_slug: "grime|grime-ii"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6755f39d7c413e430baa78d775d543e228e58b75775fc71c993cb0a5ebdbff8c.jpg?namespace=gamesdb"

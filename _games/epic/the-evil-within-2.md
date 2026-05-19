@@ -29,7 +29,7 @@ franchise: The Evil Within
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Partial Nudity, Strong Language"},"pegi":{"rating":"18","descriptors":"Linguagem Imprópria, Violência Extrema"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"High Impact Horror Violence, Blood and Gore"},"nzoflc":{"rating":"r16","descriptors":"Horror, graphic violence, offensive language"},"fpb":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Linguagem Imprópria, Violência Extrema"}}
 release_date: "August 2, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Korean","Polish","Portuguese - Brazil","Traditional Chinese","Simplified Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Portuguese - Brazil"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "the-evil-within|the-evil-within-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-10-25T15:00:00.000Z","end":"2023-11-01T15:00:00.000Z","type":null,"id":"77693e5298d94911a0edd2492203d9ea"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2a9ca6560a433d3c0afcb102deb94f444dc74b429151ac2d13f0922a53e8f622.jpg?namespace=gamesdb"

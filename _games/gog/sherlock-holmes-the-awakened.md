@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Violence, Drug Reference"},"pegi":{"rating":"16","descriptors":"Strong Violence"},"usk":{"rating":"16","descriptors":"Scary Content, Violence"},"oflc":{"rating":"M","descriptors":"Horror Themes, Mature Themes, Violence"},"nzoflc":{"rating":"M"},"dejus":{"rating":"12","descriptors":"Violência, Drogas lícitas, Medo"}}
 release_date: "February 1, 2007"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian"]
+game_modes: ["Single-player"]
+languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Turkish","Ukrainian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: []
 size: "26361 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b09df46a13d7d8f09272f633da0435d8d1837f2a50fd01345a508767a73cc16c.jpg?namespace=gamesdb"

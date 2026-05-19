@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Conteúdo sexual"}}
 release_date: "September 16, 2021"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Polish","German","Simplified Chinese","Russian","French","Spanish - Spain","Traditional Chinese","Korean","Turkish","Japanese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Polish","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "9109 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3f954ec469c255477be0b59d751ff2f41f47399c83f787e748f01b5aaa2fdd66.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Sexual Content, Use of Drugs, Strong Language, Intense Violence"},"dejus":{"rating":"18","descriptors":"Medo, Atos criminosos, Violência, Temas sensíveis, Violência Extrema, Linguagem imprópria, Conteúdo sexual, Drogas lícitas"}}
 release_date: "August 1, 2020"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Polish","Russian","Italian","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"26","name":"Gore"},{"id":"6","name":"Exploration"},{"id":"34","name":"Violent"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"70","name":"War"},{"id":"102","name":"Turn-Based"},{"id":"1465","name":"combat"},{"id":"99","name":"Isometric"},{"id":"50","name":"Sexual Content"},{"id":"406","name":"Story"},{"id":"981","name":"battle"},{"id":"238","name":"CRPG"},{"id":"684","name":"children"}]
 size: "14899 MB"
@@ -39,6 +39,7 @@ franchise_slug: "fountain-of-dreams|wasteland|wasteland-2|wasteland-3"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/dba4016c62b1fbca6b661cacb43178f282162f93f37bd451b544a66d217c8092.jpg?namespace=gamesdb"

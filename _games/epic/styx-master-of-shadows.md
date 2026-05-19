@@ -39,6 +39,7 @@ franchise_slug: "of-orcs-and-men|styx-blades-of-greed|styx-master-of-shadows|sty
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-01-15T16:00:00.000Z","end":"2026-01-22T16:00:00.000Z","type":null,"id":"ed109adce3c042f792f48d629221ac8b"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/242640/library_hero.jpg"

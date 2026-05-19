@@ -30,7 +30,7 @@ age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Language, Violence, Online Interactions Not Rated by the ESRB"},"pegi":{"rating":"12"},"usk":{"rating":"16"},"oflc":{"rating":"M"},"nzoflc":{"rating":"M"}}
 release_date: "October 31, 2005"
 game_modes: ["Multi-player","Single-player"]
-languages: ["English"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English"]
 tags_structured: []
 size: "6415 MB"
@@ -39,6 +39,7 @@ franchise_slug: "star-wars-battlefront|star-wars-battlefront-2|star-wars-battlef
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8baf583bf9e8b070e0ef2a1cdc39892637f008ce4e2795999ebce5144d1ed6a5.jpg?namespace=gamesdb"

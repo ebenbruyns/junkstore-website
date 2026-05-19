@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Sex, In-Game Purchases (Includes Random Items)"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Chance-based and in-game purchases, online interactivity and chat"},"kgrb":{"rating":"12","descriptors":"Sexy/Nudity"},"csrr":{"rating":"C15","descriptors":"Anti-Social Characteristics, Sex"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "March 18, 2021"
-game_modes: ["Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
+game_modes: ["Online Multi-player","Co-op"]
 languages: ["English","French","German","Czech","Japanese","Polish","Russian","Thai","Turkish","Spanish - Spain","Korean","Portuguese - Brazil","Traditional Chinese","Italian","Simplified Chinese","Ukrainian","Dutch","Spanish - Latin America"]
 languages_audio: ["English","French","German","Japanese","Polish","Russian","Spanish - Spain","Korean","Portuguese - Brazil","Traditional Chinese","Italian","Simplified Chinese","Dutch","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1088","name":"Turn-Based Strategy"},{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21135","name":"Realistic Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "world-of-warships|world-of-warships-blitz-mmo|world-of-warships
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0098df493a3e99bc194a998c96ad389b13a336e08cce90abba6a2570242e41a5.jpg?namespace=gamesdb"

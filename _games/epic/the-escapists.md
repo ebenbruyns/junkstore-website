@@ -29,7 +29,7 @@ franchise: The Escapists
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"10","descriptors":"Atos criminosos, Violência"}}
 release_date: "December 12, 2019"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Italian"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-09-22T15:00:00.000Z","end":"2021-09-29T15:00:00.000Z","type":null,"id":"409270ba4b814c20a761407ab7a49dbd"},{"start":"2019-12-11T15:00:00.000Z","end":"2019-12-18T15:00:00.000Z","type":null,"id":"409270ba4b814c20a761407ab7a49dbd"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2eec70541ed619271b60924d7f06fec1198d283c72f601ba954290ec14ed8b5c.jpg?namespace=gamesdb"

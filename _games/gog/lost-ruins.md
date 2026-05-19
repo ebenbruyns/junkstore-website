@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "May 13, 2021"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Spanish - Latin America"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","English","Spanish","French","Japanese","Korean","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"41","name":"Dark"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"68","name":"Hack and Slash"},{"id":"121","name":"Character Customization"},{"id":"88","name":"Cute"},{"id":"1465","name":"combat"},{"id":"113","name":"Side Scroller"},{"id":"50","name":"Sexual Content"},{"id":"259","name":"Metroidvania"},{"id":"981","name":"battle"},{"id":"808","name":"character"},{"id":"2326","name":"explore"},{"id":"272","name":"Inventory Management"},{"id":"820","name":"secrets"},{"id":"624","name":"Monsters"},{"id":"974","name":"death"},{"id":"1079","name":"environment"},{"id":"2232","name":"journey"},{"id":"1897","name":"fire"},{"id":"1807","name":"water"},{"id":"712","name":"school"},{"id":"3728","name":"memory"},{"id":"2865","name":"girl"},{"id":"835","name":"Swords"},{"id":"5559","name":"elements"},{"id":"1796","name":"dungeon"},{"id":"1429","name":"girls"},{"id":"1864","name":"spells"},{"id":"2888","name":"hack"}]
 size: "384 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/40d112a44ea3ed806a19cf1ab3a00ed7cfefd736b7541e87c5c9fb1c47ed04e3.jpg?namespace=gamesdb"

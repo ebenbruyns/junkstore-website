@@ -29,7 +29,7 @@ franchise: Amnesia
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Nudity, Language, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence, Strong Language"},"dejus":{"rating":"18","descriptors":"Violência, Medo, Nudez"}}
 release_date: "April 30, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Italian","Spanish - Spain","Russian","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"11631","name":"Requires 2FA"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|a
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-04-29T15:00:00.000Z","end":"2020-05-06T15:00:00.000Z","type":null,"id":"785b37a897c14ad589d2d5f79aaf372e"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/26960cb6d47a6a0709e2644c1626a780fabccf5c65741fd033abfd50f1024657.jpg?namespace=gamesdb"

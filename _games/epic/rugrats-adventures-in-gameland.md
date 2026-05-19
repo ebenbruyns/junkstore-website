@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"6"}}
 release_date: "September 12, 2024"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-09-12T15:00:00.000Z","end":"2024-09-19T15:00:00.000Z","type":null,"id":"03fa35d7ade24540b5902b662570a270"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/389d2a794f63433d3a058117b64f9a6b32030da0e0d89224d9545a8271a4fc8f.jpg?namespace=gamesdb"

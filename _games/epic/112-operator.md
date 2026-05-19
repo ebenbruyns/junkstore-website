@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Mature 17+
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência, Atos criminosos, Linguagem imprópria"}}
 release_date: "August 7, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Korean","Japanese","Portuguese - Brazil"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-08-07T15:00:00.000Z","end":"2025-08-14T15:00:00.000Z","type":null,"id":"913af1ed18e24007ab5fd2bc2092c175"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3389d8098c4710422f5ec78e00e2bc009e8f7520e49035ce808fc366ea0174ce.jpg?namespace=gamesdb.jpg?namespace=gamesdb"

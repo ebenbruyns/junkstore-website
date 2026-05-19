@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Mature 17+
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Atos criminosos"}}
 release_date: "July 3, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3f79882d2a39357528240050795242158d0b610d69e7db555e7c099cd67c8278.jpg?namespace=gamesdb"

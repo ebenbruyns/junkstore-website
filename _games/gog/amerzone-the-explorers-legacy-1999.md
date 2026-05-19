@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: ESRB 6
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "March 18, 1999"
-game_modes: ["Single player"]
-languages: ["English","French","Italian","German","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"8","name":"First-Person"},{"id":"141","name":"Point & Click"}]
 size: "1800 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a9d1997860c90251dc167fe017674e7d169a8e608b7d6e51f9379320b4fb2c45.jpg?namespace=gamesdb"

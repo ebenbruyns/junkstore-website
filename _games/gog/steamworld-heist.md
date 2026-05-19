@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Language"},"pegi":{"rating":"7"},"usk":{"rating":"12"},"oflc":{"rating":"PG"},"nzoflc":{"rating":"PG"},"dejus":{"rating":"10"}}
 release_date: "December 9, 2015"
-game_modes: ["Controller support","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Russian"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Japanese","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"189","name":"Female Protagonist"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"336","name":"controller support"},{"id":"197","name":"Robots"},{"id":"154","name":"Steampunk"},{"id":"176","name":"Turn-Based Tactics"},{"id":"216","name":"Heist"}]
 size: "357 MB"
@@ -39,6 +39,7 @@ franchise_slug: "steamworld-build|steamworld-dig|steamworld-dig-2|steamworld-hei
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f70de6d797242bfd2f5075848be2da8af5e99697ad4e311e9059ede0ad713e47.jpg?namespace=gamesdb"

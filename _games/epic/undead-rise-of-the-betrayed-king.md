@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/e0b2ef75c4ca470eae076d9d54087eb4/undead-rise-of-the-betrayed-king-1qh79.jpg"

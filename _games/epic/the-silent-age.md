@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Compras on-line"}}
 release_date: "May 2, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian","Polish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-03-29T15:00:00.000Z","end":"2023-04-05T15:00:00.000Z","type":null,"id":"9f476effdb174d789a6d7894d7c39dbb"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f59825b5613d4980bd4aefa1059cf68a8b7ffacaf6cd4a10dd646a1ba3dd945d.jpg?namespace=gamesdb"

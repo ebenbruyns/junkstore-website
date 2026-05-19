@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Nudez, Violência fantasiosa"}}
 release_date: "June 3, 2014"
-game_modes: ["Cloud saves","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"49","name":"Difficult"},{"id":"79","name":"Free to Play"},{"id":"80","name":"Tactical"},{"id":"134","name":"Anime"},{"id":"25","name":"Space"},{"id":"44","name":"Nudity"},{"id":"102","name":"Turn-Based"},{"id":"101","name":"Turn-Based Strategy"},{"id":"90","name":"Visual Novel"},{"id":"217","name":"Romance"},{"id":"184","name":"Mechs"},{"id":"103","name":"Hex Grid"},{"id":"312","name":"NSFW"},{"id":"1081","name":"adult"}]
@@ -39,6 +39,7 @@ franchise_slug: "sunrider-academy|sunrider-first-arrival|sunrider-liberation-day
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a0bc7e93a7ac4c99f102c36d90a1a0cda22736164bbf3031ead6267e93bf3b7d.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/313730"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sunrider%3A_Mask_of_Arcadius"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/sunrider-mask-of-arcadius/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

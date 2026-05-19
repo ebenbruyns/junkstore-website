@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Suggestive Themes, Violence"},"pegi":{"rating":"16","descriptors":"Realistic looking violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Moderate Violence"},"nzoflc":{"rating":"M"},"kgrb":{"rating":"12"},"csrr":{"rating":"R"}}
 release_date: "June 1, 2007"
-game_modes: ["Cloud saves","Controller support","Single-player"]
-languages: ["English","French","German","Italian","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"150","name":"Third-Person Shooter"},{"id":"188","name":"Parkour"},{"id":"271","name":"Remake"},{"id":"133","name":"3D Vision"},{"id":"126","name":"Dinosaurs"},{"id":"306","name":"Lara Croft"}]
 size: "2957 MB"
@@ -39,6 +39,7 @@ franchise_slug: "lara-croft-and-the-temple-of-o|lara-croft-go|lara-croft-gol|lar
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3482f5bff4573830a016486b43a6bc9852216b1e71eae4f920ac6da980f295fb.jpg?namespace=gamesdb"

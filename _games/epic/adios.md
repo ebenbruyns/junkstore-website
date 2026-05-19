@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "June 29, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1294","name":"First Person"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-01-25T15:00:00.000Z","end":"2023-02-01T15:00:00.000Z","type":null,"id":"7334a6f04f5b47218e691f805891bc5d"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e6030f1211af2baa459fe5a8c7ae04f1e1e16f9b1b9c8a692e0788901eba6af8.jpg?namespace=gamesdb"

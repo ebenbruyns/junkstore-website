@@ -29,7 +29,7 @@ franchise: Total War
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"16"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Fantasy themes, Battle Violence, Online Interactivity"},"kgrb":{"rating":"12"},"fpb":{"rating":"16"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "December 18, 2025"
-game_modes: ["Single-player","Multi-player","Co-op"]
+game_modes: ["Single-player","Online Multi-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: ["English","French","German","Korean","Russian","Simplified Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "empire-total-war|medieval-ii-total-war|medieval-total-war|napol
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/779340/library_hero.jpg"

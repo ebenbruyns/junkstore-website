@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Nudity, Sexual Themes, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong bloody violence, coarse language, sexual references and, nudity"},"nzoflc":{"rating":"ma15","descriptors":"Strong bloody violence, coarse language, sexual references and, nudity"},"fpb":{"rating":"18"}}
 release_date: "November 1, 2009"
-game_modes: ["Single player"]
-languages: ["English","French","German","Italian","Polish","Russian"]
+game_modes: ["Single-player"]
+languages: ["German","English","French","Italian","Polish","Russian"]
 languages_audio: ["English","French","German","Italian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"15","name":"Stealth"},{"id":"69","name":"Action-Adventure"},{"id":"478","name":"3rd-Person Perspective"},{"id":"105","name":"World War II"},{"id":"91686","name":"Family Sharing"}]
 size: "6653 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/14ca8f18e415dc7491f3721c20dba94b04fca72d5ce76e5f6fb525e8027ee0da.jpg?namespace=gamesdb"

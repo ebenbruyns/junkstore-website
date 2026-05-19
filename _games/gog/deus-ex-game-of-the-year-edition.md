@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Animated Blood, Animated Violence"},"pegi":{"rating":"16","descriptors":"Realistic looking violence, encouragement of the use of alcohol/tobacco, use of illegal drugs"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Medium level animated violence; Adult themes"},"nzoflc":{"rating":"ma15","descriptors":"Medium level animated violence; Adult themes"},"dejus":{"rating":"18"}}
 release_date: "June 22, 2000"
-game_modes: ["Cloud saves","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: []
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4ac381235d5f48870fc757d99e3d5ad6c629f38e6c18f36e733413de007919d1.jpg?namespace=gamesdb"

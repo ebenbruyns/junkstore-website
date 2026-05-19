@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0b41683ad50e7edea6c0f2407fa394952e7db90ad771066c195c5794183eac38.jpg?namespace=gamesdb"

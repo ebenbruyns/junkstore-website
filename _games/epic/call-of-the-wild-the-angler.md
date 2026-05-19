@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Violent References, Mild Language, Tobacco Reference"},"pegi":{"rating":"7","descriptors":"Fear, In-game purchases"},"usk":{"rating":"6"},"oflc":{"rating":"G","descriptors":"General, Online interactivity, In-game purchases"},"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "August 31, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Polish","Russian","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1124","name":"FISHING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-03-20T15:00:00.000Z","end":"2024-03-27T15:00:00.000Z","type":null,"id":"e5cfeb2ef72e4cae8a237317fed902ee"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/928182a0fe6a162ad81b52114e6b8d3ad6f6f191ebf2108066303d694257b3f8.jpg?namespace=gamesdb"

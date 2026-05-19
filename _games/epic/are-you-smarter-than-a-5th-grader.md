@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3","descriptors":"In-Game Purchases"},"oflc":{"rating":"G","descriptors":"General, in-game purchases"},"dejus":{"rating":"L"}}
 release_date: "August 23, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Co-op"]
 languages: ["English","French"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1318","name":"Trivia"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1521160/library_hero.jpg"

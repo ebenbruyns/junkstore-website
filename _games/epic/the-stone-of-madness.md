@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"id":"epic_3d11f228c8a442318bc17abf13f7db3b","start":"2026-04-22T14:18:12.000Z","end":"2026-04-23T15:00:00.000Z","type":null}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-11a59.jpg"

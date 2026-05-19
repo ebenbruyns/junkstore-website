@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "May 6, 2014"
-game_modes: ["Controller support","Co-op","Multi-player","Single-player"]
+game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"122","name":"Pixel Graphics"},{"id":"11669","name":"stats"},{"id":"336","name":"controller support"},{"id":"40","name":"Dark Fantasy"},{"id":"639","name":"Roguelike"},{"id":"82","name":"Magic"},{"id":"203","name":"Beat 'em up"},{"id":"61","name":"Top-Down"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"171","name":"PvE"},{"id":"196","name":"Procedural Generation"},{"id":"57","name":"Bullet Hell"},{"id":"124","name":"Perma Death"},{"id":"91686","name":"Family Sharing"},{"id":"236","name":"Top-Down Shooter"},{"id":"204","name":"Gothic"},{"id":"49964","name":"Action Roguelike"},{"id":"274","name":"Gun Customization"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4b76553845c101c50bcea50941073af31d979b57055830fcb67003f63168b6d7.jpg?namespace=gamesdb"

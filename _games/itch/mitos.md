@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "December 31, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"122","name":"Pixel Graphics"},{"id":"88","name":"Cute"},{"id":"668","name":"creepy"},{"id":"706","name":"gamepad"},{"id":"1150","name":"godot"},{"id":"1872","name":"godot-engine"},{"id":"30109","name":"microbe"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/36f72fd7a6c8f18c5bb058998a1386a9fb02a5a336cf52ed82bba9139e51139f.jpg?namespace=gamesdb"

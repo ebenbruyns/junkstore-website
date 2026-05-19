@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência fantasiosa, Violência, Atos criminosos, Temas sensíveis, Linguagem imprópria, Conteúdo sexual"}}
 release_date: "February 21, 2020"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40845","name":"Partial Controller Support"},{"id":"90","name":"Visual Novel"},{"id":"148","name":"Dark Humor"},{"id":"187","name":"Demons"},{"id":"744","name":"friends"},{"id":"291","name":"Conspiracy"},{"id":"712","name":"school"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8b6910d94aa5a6d4cfecbe5fb3d7501a20c53f7d6ee02acbd2fcf4dffce4ed41.jpg?namespace=gamesdb"

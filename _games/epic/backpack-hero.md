@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 14, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","German","Czech","Dutch","Polish","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Spanish - Latin America","Turkish","Japanese","Korean","Italian","French","Traditional Chinese","Ukrainian","Irish"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-03T15:00:00.000Z","end":"2025-07-10T15:00:00.000Z","type":null,"id":"d95cc849f45e406e88c1c371c7af309f"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a0e6c7abe58cc4da7c99d42a30bef3f17fc40a667d1ac7439d1d5f0f5747943e.jpg?namespace=gamesdb"

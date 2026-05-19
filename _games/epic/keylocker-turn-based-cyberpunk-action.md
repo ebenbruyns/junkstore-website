@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "July 31, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-31T15:00:00.000Z","end":"2025-08-07T15:00:00.000Z","type":null,"id":"3de25d0eaa7f4b9dbb3fa3f08fd55746"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/57b2189d556d7032b5a6f6930fe958aee17f09488b8e62d45a08f960b750fb1c.jpg?namespace=gamesdb"

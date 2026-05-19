@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Atos criminosos"}}
 release_date: "December 1, 2012"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Italian","Hungarian","Turkish"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Hungarian","Italian","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"122","name":"Pixel Graphics"},{"id":"41","name":"Dark"},{"id":"74","name":"Retro"},{"id":"141","name":"Point & Click"},{"id":"43","name":"Post-apocalyptic"},{"id":"145","name":"Choices Matter"},{"id":"218","name":"Multiple Endings"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"197","name":"Robots"},{"id":"154","name":"Steampunk"},{"id":"289","name":"Noir"}]
 size: "1103 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ade45b0507e40543590b16c1429bbb56b4c0b8e00b012fac975b3c38bc7f358a.jpg?namespace=gamesdb"

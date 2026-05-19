@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Suggestive Themes, Mild Languages"},"pegi":{"rating":"7","descriptors":"Violence, Fear"},"usk":{"rating":"12","descriptors":"Handlungsdruck"},"cero":{"rating":"B","descriptors":"Sexual Content"},"oflc":{"rating":"PG","descriptors":"Mild science fiction violence, online interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild science fiction violence, online interactivity"},"kgrb":{"rating":"12","descriptors":"Mild Sexual, Mild Violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "August 5, 2024"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Polish","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","German","Japanese","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-08-08T15:00:00.000Z","end":"2024-08-15T15:00:00.000Z","type":null,"id":"ce86ed5a3c0d48eaa5326dda50105a9b"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2effcc69bb445f55bae7907fbbf76daabfe64523a2ed5edaf5ff4a0aa25a8a74.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Atos criminosos"}}
 release_date: "December 16, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese"]
 languages_audio: []
 tags_structured: []
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1835810/library_hero.jpg"

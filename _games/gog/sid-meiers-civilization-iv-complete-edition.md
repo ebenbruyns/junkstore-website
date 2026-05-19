@@ -27,10 +27,10 @@ developer: Firaxis Games
 genre: Strategy, Simulator
 franchise: 
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
-age_ratings: {"esrb":{"rating":"e10","descriptors":"Alcohol and Tobacco Reference, Violence"},"pegi":{"rating":"12"},"usk":{"rating":"6"},"oflc":{"rating":"PG","descriptors":"Mild violence, Mild themes"},"nzoflc":{"rating":"PG","descriptors":"Mild violence, Mild themes"},"kgrb":{"rating":"12","descriptors":"내용정보표지사항: -, 제명:  문명 4 컴플리트 에디션, 이용등급: 12세이용가, 등급분류번호: CC-NP-120323-005, 등급분류일자: 20120323, 상호: 테이크투인터렉티브유한회사, 제작.배급업 신고번호: 제 2009-00016호, ----------------------------------, Game Descriptive: -, Title Name: Sid Meier's Civilization IV: The Complete Edition, Age: 12+, Certificate #: CC-NP-120323-005, Issue date: 20120323, Company Name:테이크투인터렉티브유한회사, Distributor No,: 제 2009-00016호"}}
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Alcohol and Tobacco Reference, Violence"},"pegi":{"rating":"12"},"usk":{"rating":"6"},"oflc":{"rating":"PG","descriptors":"Mild violence, Mild themes"},"nzoflc":{"rating":"PG","descriptors":"Mild violence, Mild themes"},"kgrb":{"rating":"12"}}
 release_date: "May 12, 2009"
-game_modes: ["Single player"]
-languages: ["English","French","German","Italian","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: []
 size: "3041 MB"
@@ -39,6 +39,7 @@ franchise_slug: "civilization-v|civilization-vi|sid-meiers-civilization|sid-meie
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f14746763e92637c6a31aa3e1db36c499bea98a91a0f38e36790b5d8443677f1.jpg?namespace=gamesdb"

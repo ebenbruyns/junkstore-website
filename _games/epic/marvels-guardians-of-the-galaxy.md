@@ -27,9 +27,9 @@ developer: Eidos Montréal
 genre: Action, Action-Adventure, Adventure
 franchise: 
 age_rating_summary: T (ESRB) · 16 (PEGI)
-age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Mild Blood, Mild Suggestive Themes, Language, Use of Alcohol"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"C","descriptors":"[img]http://media.steampowered.com/store/Ratings/CERO/violence.png[/img]"},"oflc":{"rating":"M","descriptors":"Mature themes, Violence, Online interactivity"},"kgrb":{"rating":"15","descriptors":"폭력성"},"fpb":{"rating":"13","descriptors":"Horror,, Language, Violence, Photo Pattern Sensitivity, Competitive Intensity"},"csrr":{"rating":"C15","descriptors":"Violence, Improper Language, Tobacco &amp; Alcohol"},"dejus":{"rating":"14","descriptors":"Violência"}}
+age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Mild Blood, Mild Suggestive Themes, Language, Use of Alcohol"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"C","descriptors":"[img]http://media.steampowered.com/store/Ratings/CERO/violence.png[/img]"},"oflc":{"rating":"M","descriptors":"Mature themes, Violence, Online interactivity"},"kgrb":{"rating":"15"},"fpb":{"rating":"13","descriptors":"Horror,, Language, Violence, Photo Pattern Sensitivity, Competitive Intensity"},"csrr":{"rating":"C15","descriptors":"Violence, Improper Language, Tobacco &amp; Alcohol"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "October 26, 2021"
-game_modes: ["Single Player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "daredevil|deadpool|ghost-rider|guardians-of-the-galaxy|howard-t
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-01-03T15:00:00.000Z","end":"2024-01-10T15:00:00.000Z","type":null,"id":"a2fc9e21ab4e416680c2b9597b7f6eaf"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9c334fd86853fd31774cd91771a404a5200f956d19b40a3b27435825a08945a6.jpg?namespace=gamesdb"

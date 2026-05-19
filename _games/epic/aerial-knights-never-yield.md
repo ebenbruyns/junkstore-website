@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "May 19, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Japanese","French","German","Korean","Simplified Chinese","Traditional Chinese","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-02-28T15:00:00.000Z","end":"2024-03-06T15:00:00.000Z","type":null,"id":"2fecb1793ce446408cd869611400a797"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/570e3b3b8514b27a2ebe5135be3de7a4db46abbda7673528a9f3403d70332cce.jpg?namespace=gamesdb"

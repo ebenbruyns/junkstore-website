@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Language"},"pegi":{"rating":"3"},"usk":{"rating":"0"}}
 release_date: "August 4, 2021"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-09-28T15:00:00.000Z","end":"2022-10-05T15:00:00.000Z","type":null,"id":"1578c50f725742fab1863952e01efc52"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/26899baba45a22caf662a08f027dbf57c1c6a796f9d574f7ee07d3f70ad719fb.jpg?namespace=gamesdb"

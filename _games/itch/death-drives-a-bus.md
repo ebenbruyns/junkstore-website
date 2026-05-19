@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "June 14, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"123","name":"Comedy"},{"id":"122","name":"Pixel Graphics"},{"id":"80","name":"Tactical"},{"id":"74","name":"Retro"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"138","name":"Relaxing"},{"id":"164","name":"Cartoony"},{"id":"176","name":"Turn-Based Tactics"},{"id":"112","name":"Minimalist"},{"id":"100","name":"Grand Strategy"},{"id":"220","name":"Experimental"},{"id":"84","name":"Abstract"},{"id":"570","name":"Old School"},{"id":"575","name":"Logic"},{"id":"298","name":"Grid-Based Movement"},{"id":"617","name":"weird"},{"id":"590","name":"Non violent"},{"id":"859","name":"Commodore 64"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1400210/library_hero.jpg"

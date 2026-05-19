@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Partial Nudity, Sexual Themes, Strong Language, Violence"},"pegi":{"rating":"16","descriptors":"Bad Language, Violence, Online Gameplay"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong violence, Coarse language, Online interactivity"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Drogas lícitas"}}
 release_date: "January 20, 2015"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"8","name":"First-Person"},{"id":"149","name":"Third Person"},{"id":"9","name":"Online Co-Op"},{"id":"4","name":"Funny"},{"id":"26","name":"Gore"},{"id":"37","name":"Sandbox"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"150","name":"Third-Person Shooter"},{"id":"336","name":"controller support"},{"id":"192","name":"Mature"},{"id":"337","name":"overlay"},{"id":"334","name":"achievements"},{"id":"148","name":"Dark Humor"},{"id":"187","name":"Demons"},{"id":"338","name":"cloud saves"}]
 size: "5126 MB"
@@ -39,6 +39,7 @@ franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-h
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6fd7f2f842a96c5be506444d83bfd0c3c5175bf67e9b9f86941d8783181f37a4.jpg?namespace=gamesdb"

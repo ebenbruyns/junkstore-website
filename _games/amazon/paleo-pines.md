@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 26, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Italian","Korean","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"36","name":"Open World"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"121","name":"Character Customization"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"40937","name":"Steam Trading Cards"},{"id":"138","name":"Relaxing"},{"id":"126","name":"Dinosaurs"},{"id":"49960","name":"Life Sim"},{"id":"159","name":"Agriculture"},{"id":"49969","name":"Farming Sim"},{"id":"55320","name":"Creature Collector"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/64d4a8b86a955d85ea84841ab71547a8f013d7f52d0aeef4fa9ea70694ddea29.jpg?namespace=gamesdb"

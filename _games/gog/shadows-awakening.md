@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Mild Language, Sexual Themes, Use of Alcohol, Violence, May contain content inappropriate for children., Visit esrb.org for rating information."},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Fantasy themes, Violence"},"dejus":{"rating":"14","descriptors":"Violência, Conteúdo sexual, Drogas lícitas"}}
 release_date: "August 30, 2018"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Russian","Spanish - Spain","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Russian"]
 languages_audio: ["English","German"]
 tags_structured: []
 size: "8253 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8166a2c8c245e483d7741d084e6904bf815db79e6c4997333e321f0de38fcf58.jpg?namespace=gamesdb"

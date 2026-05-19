@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "May 8, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-08T15:00:00.000Z","end":"2025-05-15T15:00:00.000Z","type":null,"id":"cff516f0708444ee8ee06a96e6986b34"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6ac842af6c826128ef41b503f0707c399d489fb24cf7c2b4bb9ba183030d22fc.jpg?namespace=gamesdb"

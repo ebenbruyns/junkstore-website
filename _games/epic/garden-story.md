@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 7 (PEGI) · 6 (USK)
 age_ratings: {"pegi":{"rating":"7","descriptors":"Mild Violence, Fear"},"usk":{"rating":"6","descriptors":"Abstract Violence, Rare Scary Situations"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "August 11, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-02-20T16:00:00.000Z","end":"2025-02-27T16:00:00.000Z","type":null,"id":"794bbf45d5fe451d9f805d99d30bbbd0"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/93537aadeaf82cc8c9a4e4434920081f0ebb3f67fab864679fb356f29dd842ff.jpg?namespace=gamesdb"

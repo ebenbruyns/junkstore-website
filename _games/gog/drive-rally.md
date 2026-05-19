@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "April 1, 2025"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Czech","Hungarian","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Turkish","Ukrainian"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Hungarian","Italian","Japanese","Korean","Polish","Portuguese","Russian","Turkish","Ukrainian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"4","name":"Funny"},{"id":"40850","name":"Steam Leaderboards"},{"id":"115","name":"Controller"},{"id":"14","name":"Early Access"},{"id":"11669","name":"stats"},{"id":"74","name":"Retro"},{"id":"121","name":"Character Customization"},{"id":"114","name":"Physics"},{"id":"130","name":"Driving"},{"id":"243","name":"1990's"},{"id":"166","name":"Stylized"},{"id":"91686","name":"Family Sharing"},{"id":"744","name":"friends"},{"id":"224","name":"1980s"},{"id":"273","name":"Parody"},{"id":"1221","name":"history"},{"id":"2232","name":"journey"},{"id":"132","name":"Offroad"},{"id":"1632","name":"cars"},{"id":"3758","name":"speed"},{"id":"1497","name":"car"},{"id":"3728","name":"memory"},{"id":"49951","name":"Automobile Sim"},{"id":"2483","name":"nostalgia"},{"id":"604","name":"simple"},{"id":"15128","name":"community"},{"id":"3278","name":"rally"},{"id":"5479","name":"drive"},{"id":"1412","name":"design"}]
 size: "1351 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0b139a60510a2ac685b2cdb28875fbe6dc9faaafc08abe3a6c90f2df62e2c838.jpg?namespace=gamesdb"

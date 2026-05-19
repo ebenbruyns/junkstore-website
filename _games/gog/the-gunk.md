@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "December 16, 2021"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"25","name":"Space"},{"id":"107","name":"Family Friendly"},{"id":"165","name":"Colorful"},{"id":"259","name":"Metroidvania"},{"id":"138","name":"Relaxing"},{"id":"305","name":"Linear"},{"id":"59643","name":"Протагонистка"},{"id":"774","name":"nature"},{"id":"583","name":"Narrative"}]
 size: "6268 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a40702379cf3a1e21dffce391a8fe9e4fcdb7a163092f3ef8a5dbc4531c2f23e.jpg?namespace=gamesdb"

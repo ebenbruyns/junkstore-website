@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
 release_date: "October 31, 2023"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","German","Spanish - Spain","Simplified Chinese","Hungarian"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","Hungarian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"8","name":"First-Person"},{"id":"45","name":"2D"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"115","name":"Controller"},{"id":"41","name":"Dark"},{"id":"63","name":"Zombies"},{"id":"17","name":"Survival Horror"},{"id":"145","name":"Choices Matter"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"218","name":"Multiple Endings"},{"id":"61","name":"Top-Down"}]
 size: "963630083
@@ -40,6 +40,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1446350/library_hero.jpg"

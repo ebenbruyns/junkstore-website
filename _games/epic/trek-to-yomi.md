@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 16 (USK)
 age_ratings: {"usk":{"rating":"16","descriptors":"Gewalt"},"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
 release_date: "May 5, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Italian","Polish"]
 languages_audio: ["Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0880fdf579863e831cfbb2a240bf3ce0b5ffeeeb3ec853a67d17bfaf3a80c033.jpg?namespace=gamesdb"

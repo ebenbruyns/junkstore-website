@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Strong Language"},"pegi":{"rating":"12","descriptors":"Bad Language"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "September 16, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-09-15T15:00:00.000Z","end":"2021-09-22T15:00:00.000Z","type":null,"id":"0c7924b21589422581c7cbe8d5a336c5"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4c8d33807cf3f2aab31d051e4d76ec3261555720491f0618b73ec9fd9c1330ba.jpg?namespace=gamesdb"
@@ -111,4 +112,4 @@ is_featured: false
 owned: true
 ---
 
-Tharsis is a turn-based space strategy game. With dice. And cannibalism. It puts you in control of humanity’s first mission to Mars, just as it’s struck by a micrometeorite storm.
+Tharsis is a turn-based space strategy game. With dice. And cannibalism. It puts you in control of humanity’s first mission to Mars, just as it’s struck by a micrometeorite storm. 

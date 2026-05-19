@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 12 (PEGI)
 age_ratings: {"pegi":{"rating":"12"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "October 23, 2020"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Russian","Turkish","Arabic","Spanish - Latin America","Simplified Chinese","Portuguese - Brazil","Japanese"]
+game_modes: ["Single-player"]
+languages: ["Arabic","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Russian","Turkish"]
 languages_audio: ["English","French"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"41","name":"Dark"},{"id":"229","name":"3D Platformer"},{"id":"624","name":"Monsters"},{"id":"1652","name":"night"},{"id":"460","name":"Endless"},{"id":"5222","name":"avoid"},{"id":"832","name":"Halloween"}]
 size: "2058 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/29bf3e36e5180f4ebe89a74f42807fad43a16f30b7c81a928a104e13f18a080e.jpg?namespace=gamesdb"

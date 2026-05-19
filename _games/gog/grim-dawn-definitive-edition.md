@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
 release_date: "February 1, 2016"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Czech","Japanese","Russian","Simplified Chinese","Portuguese - Brazil","Italian","Korean","Vietnamese","Polish"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Vietnamese","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: []
 size: ""
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/219990/header.jpg"

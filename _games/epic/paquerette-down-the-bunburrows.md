@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "August 2, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Simplified Chinese","Japanese","Italian","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ca2ad68ed78a2d2a6215ff717e558b49bfca478e05317b0b4f0b33500ec22d81.jpg?namespace=gamesdb"

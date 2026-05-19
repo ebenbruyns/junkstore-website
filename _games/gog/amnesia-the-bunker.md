@@ -29,8 +29,8 @@ franchise: Amnesia
 age_rating_summary: ESRB Mature 17+
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo"}}
 release_date: "June 6, 2023"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"}]
 size: "8804 MB"
@@ -39,6 +39,7 @@ franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|a
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0a6aa78d9569b87f775683993bf0f06e5e554dd4578083e8533c571336397e59.jpg?namespace=gamesdb"

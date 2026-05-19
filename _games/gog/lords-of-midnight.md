@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: PEGI 7
 age_ratings: {}
 release_date: "December 31, 1995"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"468","name":"role-playing"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f70512f84fb86670e18530489dee27e6a937317310dd9d86b50b8c74f40ddd55.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: Z (CERO)
 age_ratings: {"cero":{"rating":"Z"},"dejus":{"rating":"18","descriptors":"Violência fantasiosa, Medo, Violência, Violência Extrema, Conteúdo sexual, Nudez"}}
 release_date: "February 21, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Russian","Simplified Chinese","Spanish - Spain","Hungarian","Indonesian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"16","name":"Horror"},{"id":"34","name":"Violent"},{"id":"50","name":"Sexual Content"}]
@@ -39,6 +39,7 @@ franchise_slug: "dreadeye-vr|dreadout|dreadout-2|dreadout-keepers-of-the-dark"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/34a779fd18f8cf8a9f86a4447b76a9adf244baea2ab851d73542b8ea5ca8c030.jpg?namespace=gamesdb"

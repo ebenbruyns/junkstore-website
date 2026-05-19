@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 18 (PEGI) · 18 (USK)
 age_ratings: {"pegi":{"rating":"18"},"usk":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Violência, Temas sensíveis, Drogas ilícitas"}}
 release_date: "August 26, 2014"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Czech","Dutch","Polish","Russian","Ukrainian"]
+game_modes: ["Single-player"]
+languages: ["Czech","German","English","Spanish","French","Italian","Dutch","Polish","Russian","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"}]
 size: "8695 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/80496b9540e10004637cada016191f5f78235c8f5a98c2aae17dcb7193df76b2.jpg?namespace=gamesdb"

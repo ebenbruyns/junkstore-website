@@ -27,10 +27,10 @@ developer: Devespresso Games
 genre: adventure, strategy, indie, visual novel
 franchise: 
 age_rating_summary: 
-age_ratings: {"kgrb":{"rating":"15","descriptors":"GCRB 심사에 의해 이 게임은 15세로 등급분류 되었습니다."},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Medo, Linguagem imprópria"}}
+age_ratings: {"kgrb":{"rating":"15"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Medo, Linguagem imprópria"}}
 release_date: "January 1, 2020"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Korean","French","German","Russian","Simplified Chinese","Ukrainian","Spanish - Spain","Thai","Portuguese - Portugal","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Spanish","French","Korean","Portuguese","Russian","Thai","Ukrainian"]
 languages_audio: ["Korean"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"40858","name":"Other"}]
 size: "1332 MB"
@@ -39,6 +39,7 @@ franchise_slug: "the-coma-2-vicious-sisters|the-coma-cutting-class"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/502f9f2555978c67e14fa2db91826c1b2987305703777ea67d0f2074a7cc1d3f.jpg?namespace=gamesdb"

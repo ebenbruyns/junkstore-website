@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Conteúdo sexual"}}
 release_date: "April 18, 2024"
-game_modes: ["Controller support","Overlay","Single-player"]
-languages: ["English","Simplified Chinese","Traditional Chinese","Japanese","Korean"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","English","Japanese","Chinese Traditional"]
 languages_audio: ["Japanese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"123","name":"Comedy"},{"id":"115","name":"Controller"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"50","name":"Sexual Content"},{"id":"229","name":"3D Platformer"},{"id":"91686","name":"Family Sharing"},{"id":"160","name":"Dating Sim"}]
 size: "1400 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7a7b93e3a2cc8720fbf3d20d7c04f2e18088c0359af21a5a198f51bbcf805d5c.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/2654470"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bunny_Garden"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/bunny-garden/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

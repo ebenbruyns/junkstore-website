@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Partial Nudity, Blood and Gore, Drug Reference, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Language"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Blood and Gore, Online Interactivity, Violence"},"nzoflc":{"rating":"r16","descriptors":"Graphic Violence"},"kgrb":{"rating":"18","descriptors":"Violence, Language"},"fpb":{"rating":"18"},"csrr":{"rating":"R"},"mda":{"rating":"M18"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria"}}
 release_date: "December 31, 2020"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Dutch","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1090","name":"Tactical"},{"id":"1203","name":"Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: "alien-atari-2600|alien-blackout|alien-isolation|alien-resurrect
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/eb3f891e8e290eb90570ed81a23a0de4afee01c965449f5125abc4e0d9b6a700.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Mild Language, Mild Violence, Sexual Themes"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language, Sex"},"dejus":{"rating":"12","descriptors":"Conteúdo sexual, Linguagem imprópria, Violência"}}
 release_date: "February 3, 2012"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"37","name":"Sandbox"},{"id":"62","name":"Moddable"},{"id":"121","name":"Character Customization"},{"id":"5","name":"Replay Value"},{"id":"89","name":"Historical"},{"id":"66","name":"Medieval"},{"id":"168","name":"RTS"},{"id":"194","name":"Real-Time with Pause"},{"id":"100","name":"Grand Strategy"},{"id":"86","name":"Education"},{"id":"287","name":"Political"},{"id":"211","name":"Diplomacy"},{"id":"219","name":"Politics"}]
 size: "1420 MB"
@@ -39,6 +39,7 @@ franchise_slug: "crusader-kings|crusader-kings-ii|crusader-kings-iii"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d4ff1f39b3a36585cbd23b0c01a7083403f783cc7b3fd46224eb771113b40433.jpg?namespace=gamesdb"

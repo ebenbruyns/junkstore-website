@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasty Violence, Mild Language"},"pegi":{"rating":"12","descriptors":"Bad Language, Violence"},"usk":{"rating":"6"},"cero":{"rating":"B"},"oflc":{"rating":"PG","descriptors":"Mild Violence"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"A","descriptors":"PG"},"csrr":{"rating":"C12","descriptors":"Violence and Inappropriate Language"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "December 20, 2013"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"115","name":"Controller"},{"id":"82","name":"Magic"},{"id":"406","name":"Story"},{"id":"1867","name":"puzzles"},{"id":"624","name":"Monsters"},{"id":"2590","name":"fun"},{"id":"3068","name":"future"},{"id":"982","name":"run"},{"id":"8604","name":"kid"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0ec264971e7d788995e6a80ea04dedba9ccd3a8f12b0f05efcd3fb8640fc5031.jpg?namespace=gamesdb"

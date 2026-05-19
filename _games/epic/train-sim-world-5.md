@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 17, 2024"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Polish","Italian"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3abeddf2a60e1a3f54c6a1554d74b197b1124620df309fc7995a85d0f59588f0.jpg?namespace=gamesdb"

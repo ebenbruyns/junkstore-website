@@ -29,7 +29,7 @@ franchise: Warhammer 40,000
 age_rating_summary: 6 (USK)
 age_ratings: {"usk":{"rating":"6"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "November 12, 2020"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Online Multi-player","Co-op"]
 languages: ["English","German","Spanish - Spain","Russian","Simplified Chinese","French"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"1166","name":"4X"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "adeptus-titanicus-dominus|warhammer-40-000-storm-of-veng|warham
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-03-15T15:00:00.000Z","end":"2023-03-22T15:00:00.000Z","type":null,"id":"0fffb527a35441b08505c018dc1812bd"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6b9d27761210c58edbb34b740941443813805b591fa51342f26fd73d1832c99c.jpg?namespace=gamesdb"

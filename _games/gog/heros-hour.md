@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo, Atos criminosos"}}
 release_date: "June 12, 2021"
-game_modes: ["Cloud saves","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","Spanish - Spain","French","German","Japanese","Korean","Polish","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"122","name":"Pixel Graphics"},{"id":"80","name":"Tactical"},{"id":"11669","name":"stats"},{"id":"157","name":"PvP"},{"id":"468","name":"role-playing"},{"id":"40838","name":"Includes level editor"},{"id":"102","name":"Turn-Based"},{"id":"101","name":"Turn-Based Strategy"},{"id":"981","name":"battle"},{"id":"196","name":"Procedural Generation"},{"id":"176","name":"Turn-Based Tactics"},{"id":"100","name":"Grand Strategy"},{"id":"212","name":"4X"},{"id":"266","name":"Level Editor"},{"id":"45201","name":"Remote Play Together"},{"id":"46112","name":"Shared/Split Screen Co-op"},{"id":"1529","name":"fight"},{"id":"2326","name":"explore"},{"id":"231","name":"Strategy RPG"},{"id":"1309","name":"hero"},{"id":"46114","name":"Shared/Split Screen PvP"},{"id":"1411","name":"build"},{"id":"6465","name":"unique"},{"id":"894","name":"Classes"},{"id":"749","name":"army"},{"id":"49968","name":"Auto Battler"},{"id":"58271","name":"Автобаттлер"},{"id":"1864","name":"spells"},{"id":"1699","name":"town"}]
 size: "306 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/aaee0a7c24481b7c34a4339e8c79986e5dc958f2ac4a8792965d504d740e3bde.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Linguagem imprópria, Nudez"}}
 release_date: "September 27, 2022"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Japanese","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil","Turkish","Ukrainian"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Latin American Spanish","French","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"68","name":"Hack and Slash"},{"id":"113","name":"Side Scroller"},{"id":"259","name":"Metroidvania"},{"id":"166","name":"Stylized"},{"id":"59643","name":"Протагонистка"},{"id":"580","name":"Souls-like"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"}]
 size: "260 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/657e8876fd343efa67f39264c86387f7daf51739be3fdde3e6a494b06bf898f3.jpg?namespace=gamesdb"

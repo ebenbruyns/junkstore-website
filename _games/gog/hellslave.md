@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "May 26, 2022"
-game_modes: ["Cloud saves","Overlay","Single-player"]
-languages: ["English","French","German","Simplified Chinese","Polish"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","French"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"41","name":"Dark"},{"id":"63","name":"Zombies"},{"id":"468","name":"role-playing"},{"id":"40","name":"Dark Fantasy"},{"id":"48","name":"Dungeon Crawler"},{"id":"258","name":"Hand-drawn"},{"id":"175","name":"Turn-Based Combat"},{"id":"808","name":"character"},{"id":"187","name":"Demons"},{"id":"1529","name":"fight"},{"id":"1484","name":"skill"},{"id":"3046","name":"destroy"},{"id":"2232","name":"journey"},{"id":"1129","name":"art"},{"id":"1190","name":"hell"},{"id":"663","name":"Ghosts"},{"id":"1796","name":"dungeon"},{"id":"3768","name":"demon"},{"id":"4336","name":"invaders"},{"id":"4027","name":"travel"},{"id":"6404","name":"devil"},{"id":"5878","name":"invasion"}]
 size: "642445889
@@ -40,6 +40,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1608450/library_hero.jpg"
@@ -84,7 +85,7 @@ protondb_url: "https://www.protondb.com/app/1608450"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hellslave"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/hellslave/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: "13180"

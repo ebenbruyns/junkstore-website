@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"cero":{"rating":"B"},"bbfc":{"rating":"12"},"oflc":{"rating":"M"},"nzoflc":{"rating":"M"},"kgrb":{"rating":"12"},"fpb":{"rating":"13"},"csrr":{"rating":"C12"},"mda":{"rating":"AA16"},"dejus":{"rating":"12"}}
 release_date: "November 2, 2018"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Russian","French","German","Spanish - Spain","Dutch","Ukrainian","Portuguese - Brazil","Italian","Romanian","Czech","Korean","Traditional Chinese","Simplified Chinese","Arabic","Turkish","Polish","Japanese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Italian","Korean","Dutch","Romanian","Russian","Ukrainian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "649773427
@@ -40,6 +40,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/935580/library_hero.jpg"
@@ -84,7 +85,7 @@ protondb_url: "https://www.protondb.com/app/935580"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/True_Fear:_Forsaken_Souls_Part_2"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/true-fear-forsaken-souls-part-2/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: "8666"

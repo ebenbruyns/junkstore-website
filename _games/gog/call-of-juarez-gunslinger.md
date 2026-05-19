@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Suggestive Themes, Strong Language"},"pegi":{"rating":"16","descriptors":"Bad Language, Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong violence"},"nzoflc":{"rating":"ma15","descriptors":"Strong violence"}}
 release_date: "May 22, 2013"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","German","French","Italian","Spanish - Spain","Russian","Japanese","Polish","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Spanish","French","Italian","Japanese","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"4","name":"Funny"},{"id":"26","name":"Gore"},{"id":"40850","name":"Steam Leaderboards"},{"id":"123","name":"Comedy"},{"id":"89","name":"Historical"},{"id":"305","name":"Linear"},{"id":"200","name":"Narration"},{"id":"208","name":"Alternate History"},{"id":"152","name":"Western"},{"id":"308","name":"Bullet Time"},{"id":"309","name":"Dynamic Narration"}]
 size: "4453 MB"
@@ -39,6 +39,7 @@ franchise_slug: "call-of-juarez|call-of-juarez-2|call-of-juarez-gunslinger|call-
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3a9fccbeba52db60fd9bbe32e7b72b2ea3258fc2b45703d84bf2c3b607cf1383.jpg?namespace=gamesdb"

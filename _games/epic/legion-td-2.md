@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"kgrb":{"rating":"12"},"dejus":{"rating":"L"}}
 release_date: "October 22, 2024"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Online Multi-player","Co-op"]
 languages: ["English","German","Spanish - Spain","Dutch","Portuguese - Brazil","Russian","Swedish","French","Polish","Turkish","Spanish - Latin America","Simplified Chinese","Traditional Chinese","Japanese","Korean","Norwegian","Ukrainian","Italian","Czech","Hungarian","Romanian","Arabic","Bulgarian","Danish","Finnish","Indonesian","Portuguese - Portugal","Vietnamese","Afrikaans","Slovak"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"33639","name":"Promotional Content"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -40,6 +40,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-24T15:00:00.000Z","end":"2025-07-31T15:00:00.000Z","type":null,"id":"71f1c64e7e41477ca09228c1253c9ce7"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ef28e1d69d5f26e766eb6681d4109fe93b02581999d9bde9ce4a1f93200cac97.jpg?namespace=gamesdb"

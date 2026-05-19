@@ -29,7 +29,7 @@ franchise: Jurassic World Evolution
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Mild Blood"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Violence"},"nzoflc":{"rating":"M","descriptors":"Violence"},"kgrb":{"rating":"12"},"csrr":{"rating":"C15"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 9, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "jurassic-park|jurassic-park-2-the-chaos-cont|jurassic-park-3-da
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-03-20T15:00:00.000Z","end":"2025-03-27T15:00:00.000Z","type":null,"id":"47dfc9b69a9f44a5a47fa3d182f4d599"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/66e78c6ee3992577678db917da7d34522aa4330d00c1c8cbc9714df845d3d27a.jpg?namespace=gamesdb"

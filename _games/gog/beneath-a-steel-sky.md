@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: ESRB 13
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Medo"}}
 release_date: "March 1, 1994"
-game_modes: ["Cloud saves","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Swedish"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"4","name":"Funny"},{"id":"79","name":"Free to Play"},{"id":"122","name":"Pixel Graphics"},{"id":"141","name":"Point & Click"},{"id":"43","name":"Post-apocalyptic"},{"id":"145","name":"Choices Matter"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"284","name":"Cult Classic"},{"id":"227","name":"Hacking"}]
 size: "66.3 MB"
@@ -39,6 +39,7 @@ franchise_slug: "beneath-a-steel-sky|beyond-a-steel-sky"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2ddb74da4bb18466ea716abfa56674d48858483f6a07e94f16792b4304e16b0c.jpg?namespace=gamesdb"

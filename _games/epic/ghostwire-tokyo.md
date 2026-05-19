@@ -29,7 +29,7 @@ franchise: Ghostwire
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Language"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language, Horror"},"usk":{"rating":"16"},"oflc":{"rating":"M","descriptors":"Supernatural Themes and Violence"},"nzoflc":{"rating":"M","descriptors":"Supernatural Themes and Violence"},"kgrb":{"rating":"15","descriptors":"Violence"},"fpb":{"rating":"16"},"csrr":{"rating":"C15","descriptors":"Violence, Innapropriate Language"},"dejus":{"rating":"14","descriptors":"Linguagem Imprópria, Violência"}}
 release_date: "March 25, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Spanish - Latin America","Portuguese - Brazil","Polish","Russian","Simplified Chinese","Traditional Chinese","Japanese","Korean"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America","Portuguese - Brazil","Polish","Russian","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-31T15:00:00.000Z","end":"2024-11-07T16:00:00.000Z","type":null,"id":"53a6356d1f4945e58d8c8e9f511c3c9d"},{"start":"2023-12-23T15:00:00.000Z","end":"2023-12-24T15:00:00.000Z","type":null,"id":"53a6356d1f4945e58d8c8e9f511c3c9d"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9137f9547c358e01313fc9e58ac5cf31737bba8140ca68a9f784b62e4ea2665d.jpg?namespace=gamesdb"

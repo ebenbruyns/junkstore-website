@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "February 25, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Danish","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1129","name":"Music"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"39070","name":"iOS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/5c9d5274dfd855ce705190d0c6372f85f1e6aa0015a96899d14b7ddc39453111.jpg?namespace=gamesdb"

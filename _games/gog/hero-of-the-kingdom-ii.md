@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "February 20, 2015"
-game_modes: ["Cloud saves","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Russian","Turkish","Czech","Portuguese - Brazil","Hungarian","Polish","Italian","Dutch","Ukrainian","Danish","Simplified Chinese","Slovak"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","Danish","German","English","Spanish","French","Hungarian","Italian","Dutch","Polish","Russian","Slovak","Turkish","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"141","name":"Point & Click"},{"id":"99","name":"Isometric"},{"id":"140","name":"Hidden Object"},{"id":"255","name":"Pirates"}]
 size: "272 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/11666434ca63e41a1bc7d07a91d0aa50c2a014dcf89d24d95614b0d2ae9aedea.jpg?namespace=gamesdb"

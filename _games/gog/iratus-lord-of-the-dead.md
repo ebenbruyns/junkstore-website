@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "April 23, 2020"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","Russian","French","German","Spanish - Spain","Korean","Simplified Chinese","Traditional Chinese","Japanese","Polish","Turkish","Hungarian"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Hungarian","Japanese","Korean","Polish","Russian","Turkish","Chinese Traditional"]
 languages_audio: ["English","Russian","French","German","Simplified Chinese","Traditional Chinese","Japanese"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
 size: "1790 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f14a1365fc20e175a451c24173372c9a746a8fc8934cdf4537c7e4f5df81d09e.jpg?namespace=gamesdb"

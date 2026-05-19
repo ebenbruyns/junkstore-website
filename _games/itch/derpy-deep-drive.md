@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "April 26, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"460","name":"Endless"},{"id":"591","name":"Unreal Engine"},{"id":"4834","name":"blender"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/98f4df60921fe573c374798051cb4a808d05a79ae3139a2bf7165dcef87df55c.jpg?namespace=gamesdb"

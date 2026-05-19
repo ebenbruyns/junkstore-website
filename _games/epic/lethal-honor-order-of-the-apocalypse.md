@@ -26,7 +26,7 @@ publisher: HandyGames
 developer: Viral Studios
 genre: Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: 17 (ESRB)
 age_ratings: {}
 release_date: "October 7, 2025"
 game_modes: ["Single-player"]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6ec47bb921ab3ce7301f293d76b015c574d89d848c2055f2dfae663ca2fd28f2.jpg?namespace=gamesdb"

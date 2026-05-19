@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "May 6, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish","Ukrainian"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-15T15:00:00.000Z","end":"2025-05-22T15:00:00.000Z","type":null,"id":"431ef6a0c3fd4aaab390ceb2f1904bc3"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/afeb721e4b3d56411915cd9f31ddf28c1b458123e1d01d1798b87e9b01038dcf.jpg?namespace=gamesdb"

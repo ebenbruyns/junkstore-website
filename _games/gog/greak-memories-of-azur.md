@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "August 16, 2021"
-game_modes: ["Achievements","Controller support","Single-player"]
-languages: ["English","French","Italian","German","Japanese","Russian","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Latin American Spanish","French","Italian","Japanese","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"134","name":"Anime"},{"id":"68","name":"Hack and Slash"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"40937","name":"Steam Trading Cards"},{"id":"259","name":"Metroidvania"},{"id":"258","name":"Hand-drawn"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"49955","name":"Puzzle Platformer"}]
 size: "1141 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a2017103a60519125b7c03fd315b6f80feb4cb21553827d55b88b983c60b4c5f.jpg?namespace=gamesdb"

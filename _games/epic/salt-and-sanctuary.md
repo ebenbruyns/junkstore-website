@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Partial Nudity, Violence"},"pegi":{"rating":"16","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "December 29, 2021"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","German","Japanese","French","Italian","Spanish - Spain","Korean","Portuguese - Brazil","Polish","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1333","name":"Action RPG"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "salt-and-sanctuary|salt-sacrifice"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-12-28T15:00:00.000Z","end":"2021-12-29T15:00:00.000Z","type":null,"id":"b69fb17fe548401297c61f0e88807031"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/69cd47e809a4c6a239243e6c8819411b7c7aee452fa687d2240dec0ed45be85a.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"pegi":{"rating":"16"},"usk":{"rating":"16"}}
 release_date: "February 1, 2008"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"16","name":"Horror"},{"id":"73350","name":"survival-horror"}]
@@ -39,6 +39,7 @@ franchise_slug: "penumbra-black-plague|penumbra-overture|penumbra-requiem"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8441d4ade3a79b8e66260b4df73993652451f031ef93d8ce1d3ba2c35863d71a.jpg?namespace=gamesdb"

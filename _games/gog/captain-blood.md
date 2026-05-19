@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Conteúdo sexual, Linguagem imprópria"}}
 release_date: "May 6, 2025"
-game_modes: ["Achievements","Cloud saves","Controller support","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Ukrainian","Hungarian","Thai","Turkish","Vietnamese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Portuguese","Russian","Ukrainian","Chinese Traditional"]
 languages_audio: ["English","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"255","name":"Pirates"},{"id":"764","name":"slasher"}]
 size: "6307 MB"
@@ -39,6 +39,7 @@ franchise_slug: "age-of-pirates-captain-blood|captain-blood|commander-blood"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/3040220/library_hero.jpg"

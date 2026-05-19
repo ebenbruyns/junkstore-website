@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Drug Reference, Language"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Atos criminosos, Violência fantasiosa"}}
 release_date: "October 20, 2015"
-game_modes: ["Achievements","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Japanese","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1281","name":"Space Sim"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "2354 MB"
@@ -39,6 +39,7 @@ franchise_slug: "rebel-galaxy|rebel-galaxy-outlaw"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/290300/library_hero.jpg"

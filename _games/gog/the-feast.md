@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "December 15, 2022"
-game_modes: ["Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English","Russian"]
 languages_audio: []
 tags_structured: []
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/399d960d04e1f244b56ec4f6eee250bc019deba7b7e1e9061582b94bc5522d18.jpg?namespace=gamesdb"

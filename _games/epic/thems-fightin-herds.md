@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "December 19, 2022"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player","Online Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-03-06T16:00:00.000Z","end":"2025-03-13T15:00:00.000Z","type":null,"id":"1f723b00df58467998c4984ca39915ad"},{"start":"2022-12-18T15:00:00.000Z","end":"2022-12-19T15:00:00.000Z","type":null,"id":"1f723b00df58467998c4984ca39915ad"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e8a51309356bb56ecb3ddc06210308a5cb155675d547f419be2ba0f44b38b9d3.jpg?namespace=gamesdb"

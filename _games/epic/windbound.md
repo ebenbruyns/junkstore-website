@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: PG (OFLC)
 age_ratings: {"oflc":{"rating":"PG"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "August 28, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1367","name":"RPG"},{"id":"1080","name":"Survival"},{"id":"1336","name":"Action-Adventure"},{"id":"1289","name":"CRAFTING"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8539298f57cebc591fa3d736bf9be48d5cd5589cbb1177cf32af5f8924eafafa.jpg?namespace=gamesdb"

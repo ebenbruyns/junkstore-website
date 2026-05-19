@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Linguagem imprópria"}}
 release_date: "October 16, 2023"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Italian","German","Russian","French","Spanish - Spain","Japanese","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"40850","name":"Steam Leaderboards"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"41","name":"Dark"},{"id":"74","name":"Retro"},{"id":"17","name":"Survival Horror"},{"id":"1465","name":"combat"},{"id":"639","name":"Roguelike"},{"id":"61","name":"Top-Down"},{"id":"640","name":"Roguelite"},{"id":"49964","name":"Action Roguelike"},{"id":"570","name":"Old School"}]
 size: "127 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2243110/library_hero.jpg"

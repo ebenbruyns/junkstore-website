@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência fantasiosa"}}
 release_date: "January 24, 2025"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Online Multi-player","Co-op"]
 languages: ["English","French","Italian","German","Danish","Finnish","Japanese","Korean","Norwegian","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Traditional Chinese","Turkish","Polish","Spanish - Spain","Arabic","Dutch","Thai"]
 languages_audio: []
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"39070","name":"iOS"}]
@@ -39,6 +39,7 @@ franchise_slug: "bloons-td|bloons-td-4|bloons-td-5|bloons-td-6|bloons-tower-defe
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/73863367281f838d6da960e0c19d7662ea1e2c84512ff8bd82c822ba2dc05c12.jpg?namespace=gamesdb"

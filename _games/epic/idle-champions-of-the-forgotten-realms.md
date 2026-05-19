@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Mild Language"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Atos criminosos, Medo"}}
 release_date: "February 16, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"21136","name":"Playful Visuals"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"1141","name":"Free to Play"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-03-05T16:00:00.000Z","end":"2026-03-12T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2025-11-06T16:00:00.000Z","end":"2025-11-13T16:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2025-04-10T15:00:00.000Z","end":"2025-04-17T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2024-06-12T15:00:00.000Z","end":"2024-06-19T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2023-06-21T15:00:00.000Z","end":"2023-06-28T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2021-04-28T15:00:00.000Z","end":"2021-05-05T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/49d7bb80fc09d3edab881722e18e1b73e63a671edc44f0ac969303fcb1ab67a1.jpg?namespace=gamesdb"

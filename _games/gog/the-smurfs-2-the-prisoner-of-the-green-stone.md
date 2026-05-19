@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "November 2, 2023"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Czech","Dutch","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Arabic"]
+game_modes: ["Co-op","Single-player"]
+languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Italian","Japanese","Korean","Dutch","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"75","name":"Local Co-Op"},{"id":"69","name":"Action-Adventure"},{"id":"72","name":"Local Multiplayer"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"1465","name":"combat"},{"id":"138","name":"Relaxing"},{"id":"229","name":"3D Platformer"},{"id":"744","name":"friends"},{"id":"45201","name":"Remote Play Together"},{"id":"774","name":"nature"},{"id":"49955","name":"Puzzle Platformer"},{"id":"1743","name":"collect"},{"id":"3103","name":"evil"},{"id":"3748","name":"terror"},{"id":"1117","name":"chaos"},{"id":"4909","name":"village"},{"id":"4027","name":"travel"},{"id":"5459","name":"key"},{"id":"3389","name":"green"}]
 size: "8970 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b7b75ee3133c6c0e1d34b2c98e38f2f5fb131d29f1655d1220a69de1325c8900.jpg?namespace=gamesdb"

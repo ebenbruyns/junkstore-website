@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 16 (PEGI) · 16 (USK)
 age_ratings: {"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"16"},"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "December 4, 2009"
-game_modes: ["Single player"]
-languages: ["English","French","Italian","German"]
+game_modes: ["Single-player"]
+languages: ["English"]
 languages_audio: ["English","French","Italian","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "1267 MB"
@@ -39,6 +39,7 @@ franchise_slug: "dark-fall-2-lights-out|dark-fall-3-lost-souls|dark-fall-the-jou
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/38900fdb3d8962665baccc855a29febde46ae191cccd982842355252a9b02c20.jpg?namespace=gamesdb"

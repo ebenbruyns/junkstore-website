@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Use of Drugs, Strong Language, Intense Violence"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Crime, Violence"},"oflc":{"rating":"ma15","descriptors":"Strong Violence"},"nzoflc":{"rating":"r18","descriptors":"Graphic Violence, Offensive Language"},"fpb":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Extreme Violence, Illegal Drugs, Inappropriate Language"}}
 release_date: "November 9, 2015"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese"]
 tags_structured: []
 size: "32974 MB"
@@ -39,6 +39,7 @@ franchise_slug: "capital-wasteland|fallout-2-a-post-nuclear-role-|fallout-3|fall
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/377160/library_hero.jpg"

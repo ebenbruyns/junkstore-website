@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Language"},"pegi":{"rating":"18","descriptors":"Violence"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Online Interactivity and Chat"},"nzoflc":{"rating":"r13","descriptors":"Violence"},"csrr":{"rating":"R","descriptors":"Violence, Inappropriate Language"},"dejus":{"rating":"18","descriptors":"Violência Extrema"}}
 release_date: "December 9, 1997"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Russian"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["German","English","Spanish","French","Italian","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"26","name":"Gore"},{"id":"193","name":"Classic"},{"id":"74","name":"Retro"},{"id":"62","name":"Moddable"},{"id":"131","name":"Fast-Paced"},{"id":"243","name":"1990's"},{"id":"52","name":"Arena Shooter"},{"id":"62349","name":"vr mod"}]
 size: "3612 MB"
@@ -39,6 +39,7 @@ franchise_slug: "enemy-territory-quake-wars|quake|quake-2|quake-champions|quake-
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a4561c191b7a733c446ca1a18a41622428cf64efaec95ef5e8f13d423d6dfd8e.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Conteúdo sexual"}}
 release_date: "August 15, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Simplified Chinese","Russian","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1185","name":"FPS"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a7580bccff1c65035436a9b0ba644663c2844b72780e44eb65b685036c8b27fc.jpg?namespace=gamesdb"

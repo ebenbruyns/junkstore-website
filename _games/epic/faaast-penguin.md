@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: A (CERO)
 age_ratings: {"cero":{"rating":"A"},"dejus":{"rating":"14"}}
 release_date: "September 20, 2024"
-game_modes: ["Single-player","Multi-player"]
+game_modes: ["Online Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Japanese","Korean"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Japanese","Korean"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -40,6 +40,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2590150/library_hero.jpg"
@@ -84,7 +85,7 @@ protondb_url: "https://www.protondb.com/app/2590150"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Faaast_Penguin"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/faaast-penguin/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: "17439"

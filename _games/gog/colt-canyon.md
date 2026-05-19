@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "June 16, 2020"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Russian","Simplified Chinese","Italian","Traditional Chinese","Polish"]
+game_modes: ["Co-op","Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"45","name":"2D"},{"id":"72","name":"Local Multiplayer"},{"id":"56","name":"Shoot 'Em Up"}]
 size: "519 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d019c24dcf16e17c0afbc06d933e91edfa969adc8c7e2a4040c1584409b6d075.jpg?namespace=gamesdb"

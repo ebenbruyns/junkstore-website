@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "December 31, 2019"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"25","name":"Space"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"46","name":"Surreal"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"116","name":"2.5D"},{"id":"572","name":"Emotional"},{"id":"91686","name":"Family Sharing"},{"id":"288","name":"Interactive Fiction"},{"id":"774","name":"nature"},{"id":"42410","name":"LGBTQ+"},{"id":"207","name":"Rhythm"},{"id":"84","name":"Abstract"},{"id":"174","name":"Audio Production"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2187450/library_hero.jpg"

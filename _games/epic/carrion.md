@@ -29,7 +29,7 @@ franchise: CARRION
 age_rating_summary: 16 (USK)
 age_ratings: {"usk":{"rating":"16"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Violência, Medo"}}
 release_date: "October 29, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1218","name":"Horror"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/18b7f41792d8f101f0299c912449f4ca9d9ba7ea0f5ee73093dc67d459487fb7.jpg?namespace=gamesdb"

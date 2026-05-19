@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas"}}
 release_date: "July 31, 2023"
-game_modes: ["Controller support","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"189","name":"Female Protagonist"},{"id":"145","name":"Choices Matter"},{"id":"125","name":"Crafting"},{"id":"110","name":"Cinematic"},{"id":"90","name":"Visual Novel"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"572","name":"Emotional"},{"id":"288","name":"Interactive Fiction"},{"id":"59643","name":"Протагонистка"},{"id":"224","name":"1980s"},{"id":"295","name":"Soundtrack"},{"id":"583","name":"Narrative"},{"id":"342","name":"Conversation"},{"id":"666","name":"cooking"},{"id":"66655","name":"Кулинария"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/db2a7b2f8851710500392ddb9055dec5f1dd57c82e5ace15fdab64f3cbab2a90.jpg?namespace=gamesdb"

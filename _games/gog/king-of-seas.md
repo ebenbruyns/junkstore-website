@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "May 24, 2021"
-game_modes: ["Controller support","Single-player"]
-languages: ["English","Italian","French","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"97","name":"Action RPG"},{"id":"11669","name":"stats"},{"id":"468","name":"role-playing"},{"id":"68","name":"Hack and Slash"},{"id":"99","name":"Isometric"},{"id":"640","name":"Roguelite"},{"id":"171","name":"PvE"},{"id":"196","name":"Procedural Generation"},{"id":"164","name":"Cartoony"},{"id":"255","name":"Pirates"},{"id":"49964","name":"Action Roguelike"},{"id":"256","name":"Naval"},{"id":"257","name":"Sailing"},{"id":"49971","name":"Naval Combat"}]
 size: "1468 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/294c3e887d734d8726d0bebbc4a753d115e080dacf6022b353b74893d68be002.jpg?namespace=gamesdb"

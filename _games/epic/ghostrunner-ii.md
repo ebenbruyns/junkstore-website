@@ -29,7 +29,7 @@ franchise: Ghostrunner
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18","descriptors":"Drastische Gewalt"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria"}}
 release_date: "October 26, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Ukrainian"]
 languages_audio: ["English","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "ghostrunner|ghostrunner-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-09-11T15:00:00.000Z","end":"2025-09-18T15:00:00.000Z","type":null,"id":"be5600439b434624802764f704755cde"},{"start":"2024-12-26T16:00:00.000Z","end":"2024-12-27T16:00:00.000Z","type":null,"id":"be5600439b434624802764f704755cde"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/92a57ab47ef2534d85be17e501f20ec17abbef1c4de0c90dc39b66737e16d9e3.jpg?namespace=gamesdb"

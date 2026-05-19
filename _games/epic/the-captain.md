@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Temas sensíveis, Drogas ilícitas"}}
 release_date: "December 3, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Japanese","Korean","Traditional Chinese","German","Spanish - Spain","Simplified Chinese","French"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-09-14T15:00:00.000Z","end":"2022-09-21T15:00:00.000Z","type":null,"id":"80fb2028e27b489988bcd2c242b8caf0"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8ae113852f4422e1abd832db7b19094f80e08389b7c5de9b8d1e844e8996f168.jpg?namespace=gamesdb"

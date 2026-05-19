@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Strong Language, Drug Reference"},"pegi":{"rating":"16","descriptors":"Violence, Bad language, In-game purchases"},"usk":{"rating":"16"},"cero":{"rating":"C","descriptors":"Crime, Violence"},"kgrb":{"rating":"18","descriptors":"Violence, Bad language"},"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
 release_date: "January 20, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Simplified Chinese","Traditional Chinese","Korean","Spanish - Latin America","Japanese","Polish","Portuguese - Brazil","Russian","Thai","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America","Japanese","Portuguese - Brazil","Russian"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/fcb7b8f1bd784c7a9b86b1796925487ab4f75cebf5ff007bfb7eadd5b2f5a78b.jpg?namespace=gamesdb"

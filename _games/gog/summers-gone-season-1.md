@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 18 (USK)
 age_ratings: {"usk":{"rating":"18","descriptors":"Sexuelle Inhalte, Sexualisierte Rollenbilder"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Nudez, Violência"}}
 release_date: "May 10, 2024"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Spanish - Spain","Russian"]
+game_modes: ["Single-player"]
+languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"44","name":"Nudity"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"77","name":"Realistic"},{"id":"192","name":"Mature"},{"id":"110","name":"Cinematic"},{"id":"90","name":"Visual Novel"},{"id":"209","name":"Drama"},{"id":"217","name":"Romance"},{"id":"572","name":"Emotional"},{"id":"91686","name":"Family Sharing"},{"id":"160","name":"Dating Sim"},{"id":"288","name":"Interactive Fiction"},{"id":"42473","name":"Immersive Sim"},{"id":"309","name":"Dynamic Narration"},{"id":"312","name":"NSFW"},{"id":"66536","name":"Романтика"}]
 size: "9229 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c92cebc8ee0eb653588c92ee3389e2b7080472291c689485b403c8e7b970eb09.jpg?namespace=gamesdb"

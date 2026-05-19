@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Linguagem imprópria"}}
 release_date: "October 24, 2023"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Leaderboards","Multi-player","Overlay","Single-player"]
-languages: ["English","French","German","Polish","Russian","Simplified Chinese","Turkish","Spanish - Latin America","Italian","Portuguese - Brazil","Japanese"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["Chinese Simplified","German","English","Latin American Spanish","French","Polish","Russian","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"9","name":"Online Co-Op"},{"id":"40850","name":"Steam Leaderboards"},{"id":"397","name":"Online multiplayer"},{"id":"72","name":"Local Multiplayer"},{"id":"40852","name":"Steam Workshop"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"77","name":"Realistic"},{"id":"205","name":"Lore-Rich"},{"id":"206","name":"Party-Based RPG"},{"id":"247","name":"Real Time Tactics"},{"id":"230","name":"Tactical RPG"}]
 size: "38161 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/aa3992294d7f2c24e613d31a809980b42f40216911f14cea23eff672f31e0884.jpg?namespace=gamesdb"

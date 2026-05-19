@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Fantasy Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"16","descriptors":"Bad Language"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Mild Coarse Language"},"dejus":{"rating":"16","descriptors":"Violência, Temas sensíveis, Linguagem imprópria"}}
 release_date: "July 31, 2017"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Portugal","Portuguese - Brazil","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"8","name":"First-Person"},{"id":"40850","name":"Steam Leaderboards"},{"id":"75","name":"Local Co-Op"},{"id":"72","name":"Local Multiplayer"},{"id":"113","name":"Side Scroller"},{"id":"56","name":"Shoot 'Em Up"},{"id":"57","name":"Bullet Hell"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/42800e8d721ae658713d496bca6af849c770a30f832a0d6d7f7bb50a4fc23107.jpg?namespace=gamesdb"

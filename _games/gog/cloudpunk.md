@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Medo, Linguagem imprópria, Drogas ilícitas"}}
 release_date: "April 1, 2020"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Hungarian","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Hungarian","Italian","Japanese","Korean","Russian","Turkish","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"167","name":"Futuristic"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"209","name":"Drama"}]
 size: "3930 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a0e5b4817eb3cced67307d9df98c998dfcbece6507f66184a4f40909582079e9.jpg?namespace=gamesdb"

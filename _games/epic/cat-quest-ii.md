@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "May 2, 2024"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Dutch","Korean","Thai","Traditional Chinese","Turkish","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "cat-quest|cat-quest-ii|cat-quest-iii"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-04-03T15:00:00.000Z","end":"2025-04-10T15:00:00.000Z","type":null,"id":"2a8398bbcb524c379ab21e31f0be5aeb"},{"start":"2024-05-01T15:00:00.000Z","end":"2024-05-08T15:00:00.000Z","type":null,"id":"2a8398bbcb524c379ab21e31f0be5aeb"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0486b4701bc778cd8f2e1b3d37e5aae6ca38e48dcdfa6997cf1d4374c6c2adef.jpg?namespace=gamesdb"

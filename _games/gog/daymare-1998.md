@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"dejus":{"rating":"16","descriptors":"Medo, Violência Extrema, Linguagem imprópria"}}
 release_date: "September 17, 2019"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Italian","German","Russian","French","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Arabic","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"}]
 size: "22025 MB"
@@ -39,6 +39,7 @@ franchise_slug: "daymare-1994-sandcastle|daymare-1998"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/202df2f1f27bc9c7f6e40b4818dfee332b9d9204b8171c59d84f1ae87debb228.jpg?namespace=gamesdb"

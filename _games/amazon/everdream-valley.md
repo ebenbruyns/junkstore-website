@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "May 30, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Polish","Korean","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"69","name":"Action-Adventure"},{"id":"125","name":"Crafting"},{"id":"138","name":"Relaxing"},{"id":"164","name":"Cartoony"},{"id":"179","name":"Cartoon"},{"id":"304","name":"Character Action Game"},{"id":"231","name":"Strategy RPG"},{"id":"626","name":"cats"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/47a2d5f2acff19aba74f7436a0a00cf150c5a4d3fc0571147fd70dbf85da30a7.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Partial Nudity, Strong Language, Violence"},"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "March 1, 2009"
-game_modes: ["Single player"]
-languages: ["English","French","German","Italian","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"144","name":"Crime"},{"id":"142","name":"Detective"}]
 size: "3730 MB"
@@ -39,6 +39,7 @@ franchise_slug: "still-life|still-life-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/65492e8125f9bade2765e637aefcaac04c04203685116f9270e094607f3930f2.jpg?namespace=gamesdb"

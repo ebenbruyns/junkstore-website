@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence, Comic Mischief"},"pegi":{"rating":"7","descriptors":"Any game that would normally be rated at 3 but contains some possibly frightening scenes or sounds may be considered suitable in this category. Some scenes of partial nudity may be permitted but never in a sexual context."},"usk":{"rating":"6","descriptors":"Restricted for those below the age of 6.  Games with this rating may be of an abstract or comical nature, may have a darker theme or may be too involving for children under the age of 6."},"oflc":{"rating":"PG","descriptors":"PG - Parental Guidence Recommened. The content is mild."},"fpb":{"rating":"A","descriptors":"Parental Guidance. May contain classifiable elements that may be disturbing or harmful for sensitive young viewers. May depict mild comic-mischief and Low-stylized violence."},"mda":{"descriptors":"Suitable for General Audience"},"dejus":{"rating":"L","descriptors":"Contains no objectionable content and can be viewed by all ages."}}
 release_date: "April 8, 2014"
-game_modes: ["Achievements","Cloud saves","Co-op","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Danish","Dutch","Russian","Portuguese - Brazil","Polish"]
+game_modes: ["Co-op","Single-player"]
+languages: ["Portuguese (brazilian)","Danish","German","English","Spanish","French","Italian","Dutch","Polish","Russian"]
 languages_audio: ["English","French","German","Spanish - Spain","Portuguese - Brazil"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"107","name":"Family Friendly"},{"id":"297","name":"LEGO"}]
 size: "7707 MB"
@@ -39,6 +39,7 @@ franchise_slug: "lego-bionicle|lego-bricktales|lego-builders-journey|lego-city-b
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e00b8bc67fd9edc4e1cbb6f3dfa88e8c59f8c204efd0fff5f371a559f49c1653.jpg?namespace=gamesdb"

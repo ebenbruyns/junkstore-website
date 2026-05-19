@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 6 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"6","descriptors":"Fear, Violence"},"usk":{"rating":"6"}}
 release_date: "May 26, 2017"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Polish","Portuguese - Brazil","Russian"]
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21151","name":"Easy Puzzles"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2019-05-22T15:00:00.000Z","end":"2019-05-29T15:00:00.000Z","type":null,"id":"afaa5744cbcd46caa500e342f9f47d84"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d365f1bd60edfb60e37b292890715e057b9a9ce5e3ec521020b3e353d674d698.jpg?namespace=gamesdb"

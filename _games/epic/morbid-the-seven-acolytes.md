@@ -29,7 +29,7 @@ franchise: Morbid
 age_rating_summary: ESRB Mature 17+
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência fantasiosa, Violência, Medo, Violência Extrema, Linguagem imprópria"}}
 release_date: "September 19, 2024"
-game_modes: ["Single Player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Russian","Japanese","Simplified Chinese","Korean","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: "morbid-the-lords-of-ire|morbid-the-seven-acolytes"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9177601a3f6e9bdad2d87f0f48f1444895dc683a308dab0c95697d94a5bf95b5.jpg?namespace=gamesdb"

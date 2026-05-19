@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "August 11, 2014"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"45","name":"2D"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"639","name":"Roguelike"},{"id":"196","name":"Procedural Generation"},{"id":"717","name":"jumping"},{"id":"882","name":"Game Boy"},{"id":"887","name":"GBJam"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn2.steamgriddb.com/thumb/13962f26b05bdcb92c542be519a32320.jpg"

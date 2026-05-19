@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 16 (USK)
 age_ratings: {"usk":{"rating":"16"}}
 release_date: "November 1, 2015"
-game_modes: ["Achievements","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Polish","Russian"]
+game_modes: ["Single-player"]
+languages: ["German","English","French","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"36","name":"Open World"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"336","name":"controller support"},{"id":"99","name":"Isometric"},{"id":"101","name":"Turn-Based Strategy"},{"id":"334","name":"achievements"},{"id":"96","name":"Kickstarter"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"152","name":"Western"}]
 size: "3443 MB"
@@ -39,6 +39,7 @@ franchise_slug: "hard-west|hard-west-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/944e694d9f83b6dd1a966ddaf61055e5c5fdad587895971361fadbbd057ab1e7.jpg?namespace=gamesdb"

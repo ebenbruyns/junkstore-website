@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"10","descriptors":"Atos criminosos, Violência fantasiosa"}}
 release_date: "April 4, 2023"
-game_modes: ["Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Simplified Chinese"]
 languages_audio: ["English","French","German","Spanish - Spain","Simplified Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/aa85be33107f5f711548ea49a13355181519f5b1b4e5fb30ab8b09b61d0549f1.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise: Crystal of Atlan
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"18"}}
 release_date: "May 27, 2025"
-game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
+game_modes: ["Online Multi-player"]
 languages: ["English","French","German","Indonesian","Japanese","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Vietnamese","Korean","Spanish - Spain"]
 languages_audio: ["English","Japanese","Simplified Chinese","Traditional Chinese","Korean"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9237b6da59b85253592f2475683766baa7ff7de3b93180116adf9226936c89f8.jpg?namespace=gamesdb"

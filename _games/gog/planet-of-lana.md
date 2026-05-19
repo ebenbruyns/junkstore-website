@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo, Violência fantasiosa"}}
 release_date: "May 23, 2023"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Portuguese - Brazil","Ukrainian","Czech","Danish","Dutch","Greek","Hungarian","Norwegian","Polish","Portuguese - Portugal","Romanian","Swedish","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Russian","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"115","name":"Controller"},{"id":"134","name":"Anime"},{"id":"107","name":"Family Friendly"},{"id":"165","name":"Colorful"},{"id":"110","name":"Cinematic"},{"id":"113","name":"Side Scroller"},{"id":"167","name":"Futuristic"},{"id":"40937","name":"Steam Trading Cards"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"572","name":"Emotional"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"49955","name":"Puzzle Platformer"},{"id":"202","name":"Artificial Intelligence"}]
 size: "6228 MB"
@@ -39,6 +39,7 @@ franchise_slug: "planet-of-lana|planet-of-lana-2-children-of-t"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/95ca7de25c6ecd4e689a2909435cdd9c35d89b2ed6bbafdd4d7cdcbff1e460ec.jpg?namespace=gamesdb"

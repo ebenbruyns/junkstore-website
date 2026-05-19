@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Animated Blood, Animated Violence"},"pegi":{"rating":"12"},"usk":{"rating":"16","descriptors":"Medium level animated violence"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"M"},"dejus":{"rating":"18"}}
 release_date: "March 21, 2000"
-game_modes: ["Cloud saves","Single-player"]
-languages: ["English"]
+game_modes: ["Single-player"]
+languages: ["English","French"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"40","name":"Dark Fantasy"},{"id":"66","name":"Medieval"},{"id":"154","name":"Steampunk"},{"id":"284","name":"Cult Classic"},{"id":"42473","name":"Immersive Sim"}]
 size: "824 MB"
@@ -39,6 +39,7 @@ franchise_slug: "thief|thief-3-deadly-shadows|thief-ii-the-metal-age|thief-the-d
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c5f3a16f83ccec201b506cc5261a3d36f3b5f6f274785ad7850b68cd4c1cfaac.jpg?namespace=gamesdb"

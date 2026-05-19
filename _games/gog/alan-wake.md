@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Language, Use of Alcohol and Tobacco, Violence"},"dejus":{"rating":"14","descriptors":"Medo, Violência, Linguagem imprópria"}}
 release_date: "May 1, 2010"
-game_modes: ["Controller support","Single-player"]
-languages: ["English","German","French","Italian","Korean","Spanish - Spain","Russian","Japanese","Polish","Traditional Chinese","Spanish - Latin America"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian"]
 languages_audio: ["English","German","French","Italian","Spanish - Spain","Japanese","Spanish - Latin America"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"1","name":"Survival"},{"id":"150","name":"Third-Person Shooter"},{"id":"41","name":"Dark"},{"id":"17","name":"Survival Horror"},{"id":"336","name":"controller support"},{"id":"117","name":"Mystery"},{"id":"110","name":"Cinematic"},{"id":"232","name":"Episodic"},{"id":"200","name":"Narration"},{"id":"279","name":"Supernatural"},{"id":"183","name":"Thriller"},{"id":"36002","name":"psycholoical-horror"},{"id":"7629","name":"enviroment"}]
 size: "7973 MB"
@@ -39,6 +39,7 @@ franchise_slug: "alan-wake|alan-wake-2|alan-wakes-american-nightmare"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b3fd290f242f68df4c765b2f8482a5053dbeb67100805adf56934fa3a0b53029.jpg?namespace=gamesdb"

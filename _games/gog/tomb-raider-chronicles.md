@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Animated Blood, Animated Violence"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Medium level animated violence"},"nzoflc":{"rating":"M"},"dejus":{"rating":"14"}}
 release_date: "November 17, 2000"
-game_modes: ["Single player"]
-languages: ["English"]
+game_modes: ["Single-player"]
+languages: ["German","English","French"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"149","name":"Third Person"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"306","name":"Lara Croft"},{"id":"425","name":"Single player only"}]
 size: "444 MB"
@@ -39,6 +39,7 @@ franchise_slug: "lara-croft-and-the-temple-of-o|lara-croft-go|lara-croft-gol|lar
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/982e2127ca094c5b67b0b1c8e01a246a7935fe5b87717cc154a230bfb4b2debd.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "December 15, 2023"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Simplified Chinese","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Japanese","Portuguese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"189","name":"Female Protagonist"},{"id":"97","name":"Action RPG"},{"id":"14","name":"Early Access"},{"id":"41","name":"Dark"},{"id":"68","name":"Hack and Slash"},{"id":"167","name":"Futuristic"},{"id":"639","name":"Roguelike"},{"id":"203","name":"Beat 'em up"},{"id":"259","name":"Metroidvania"},{"id":"640","name":"Roguelite"},{"id":"116","name":"2.5D"},{"id":"59643","name":"Протагонистка"},{"id":"580","name":"Souls-like"},{"id":"49964","name":"Action Roguelike"}]
 size: "5316 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e72e23c08281666963d13b9ebf1f0fb580873ab664c98da636f2ea96ce330f6b.jpg?namespace=gamesdb"

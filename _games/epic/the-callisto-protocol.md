@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"High impact bloody violence"},"nzoflc":{"rating":"r18","descriptors":"Violence and horror"},"kgrb":{"rating":"18","descriptors":"Violence, Language, Horror"},"csrr":{"rating":"R","descriptors":"Violence and Offensive Language"},"mda":{"rating":"M18","descriptors":"Violence and Gore"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Medo"}}
 release_date: "January 1, 2099"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Russian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"150","name":"Third-Person Shooter"},{"id":"41","name":"Dark"},{"id":"25","name":"Space"},{"id":"17","name":"Survival Horror"},{"id":"571","name":"3D"},{"id":"77","name":"Realistic"},{"id":"110","name":"Cinematic"},{"id":"167","name":"Futuristic"},{"id":"197","name":"Robots"},{"id":"305","name":"Linear"},{"id":"171","name":"PvE"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/705aa940d4a47145fd5d216a8b555bb68dffa58b49f50e2ad179b1a492243b1b.jpg?namespace=gamesdb"

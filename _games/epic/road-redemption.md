@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Mature 17+
 age_ratings: {"dejus":{"rating":"14","descriptors":"Atos criminosos, Violência, Temas sensíveis, Linguagem imprópria"}}
 release_date: "August 7, 2025"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
+game_modes: ["Single-player","Local Multi-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-08-07T15:00:00.000Z","end":"2025-08-14T15:00:00.000Z","type":null,"id":"91a0b419d5b741c39cc35ce3a35138c0"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/95c29bc14adf89c953c23d3ffd84b864903ea6dc7416dd63d9bd09dc58fd65e8.jpg?namespace=gamesdb.jpg?namespace=gamesdb"

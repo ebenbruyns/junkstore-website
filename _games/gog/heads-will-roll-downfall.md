@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Nudez, Violência"}}
 release_date: "October 20, 2022"
-game_modes: ["Cloud saves","Overlay","Single-player"]
-languages: ["Russian","English"]
+game_modes: ["Single-player"]
+languages: ["English","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"1","name":"Survival"},{"id":"145","name":"Choices Matter"},{"id":"192","name":"Mature"},{"id":"1465","name":"combat"},{"id":"639","name":"Roguelike"},{"id":"66","name":"Medieval"},{"id":"101","name":"Turn-Based Strategy"},{"id":"218","name":"Multiple Endings"},{"id":"98","name":"Loot"},{"id":"176","name":"Turn-Based Tactics"},{"id":"217","name":"Romance"},{"id":"238","name":"CRPG"},{"id":"185","name":"Swordplay"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"},{"id":"66536","name":"Романтика"}]
 size: "358 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1c704e4637b288254a91b88587ca77ba4a312f8bb8a3919434591e14773f7e1b.jpg?namespace=gamesdb"

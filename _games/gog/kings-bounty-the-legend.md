@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Drug Reference, Language, Mild Fantasy Violence"},"pegi":{"rating":"12","descriptors":"Violence"},"oflc":{"descriptors":"%oflcDescriptors%"},"nzoflc":{"descriptors":"%NZoflcDescriptors%"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "September 23, 2008"
-game_modes: ["Cloud saves","Overlay","Single-player"]
-languages: ["English","Russian","French","Italian","German","Spanish - Spain","Czech","Japanese","Hungarian","Polish"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","Czech","German","English","Spanish","French","Hungarian","Italian","Japanese","Polish","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"36","name":"Open World"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"101","name":"Turn-Based Strategy"},{"id":"175","name":"Turn-Based Combat"},{"id":"230","name":"Tactical RPG"},{"id":"103","name":"Hex Grid"}]
 size: "3487 MB"
@@ -39,6 +39,7 @@ franchise_slug: "kings-bounty|kings-bounty-armored-princess|kings-bounty-crosswo
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/964e2d93d0afbf2e4c4687b11a0c1bc7d8f3210a3ff1b8b2a70fc8a1b84baf0c.jpg?namespace=gamesdb"

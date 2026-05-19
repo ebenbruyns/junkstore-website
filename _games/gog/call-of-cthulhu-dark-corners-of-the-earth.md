@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language, Use of Drugs and Alcohol"},"oflc":{"descriptors":"%oflcDescriptors%"},"nzoflc":{"descriptors":"%NZoflcDescriptors%"},"dejus":{"rating":"16","descriptors":"Drogas ilícitas, Violência, Temas sensíveis"}}
 release_date: "April 26, 2006"
-game_modes: ["Overlay","Single-player"]
-languages: ["English"]
+game_modes: ["Single-player"]
+languages: ["German","English","French"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"193","name":"Classic"},{"id":"1","name":"Survival"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"17","name":"Survival Horror"},{"id":"47","name":"Lovecraftian"},{"id":"283","name":"Based On A Novel"}]
 size: ""
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: ""

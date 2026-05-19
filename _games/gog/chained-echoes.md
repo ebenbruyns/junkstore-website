@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, conteúdo sexual, linguagem imprópria"}}
 release_date: "December 8, 2022"
-game_modes: ["Single player"]
-languages: ["English","French","German","Korean","Japanese","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","French","Japanese","Korean"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"6","name":"Exploration"},{"id":"122","name":"Pixel Graphics"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"}]
 size: "792 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8865e3fa16f38501662caa8d1ccb15ac7e607c2b904f0e4d37a567be345fc45b.jpg?namespace=gamesdb"

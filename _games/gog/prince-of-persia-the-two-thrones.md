@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore<br>, Intense Violence<br>"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "December 1, 2005"
-game_modes: ["Controller support","Single-player"]
-languages: ["English","French","German","Italian","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","French","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"15","name":"Stealth"},{"id":"68","name":"Hack and Slash"},{"id":"336","name":"controller support"},{"id":"188","name":"Parkour"},{"id":"317","name":"Time Travel"},{"id":"302","name":"Time Manipulation"}]
 size: "1375 MB"
@@ -39,6 +39,7 @@ franchise_slug: "prince-of-persia|prince-of-persia-2-the-shadow-|prince-of-persi
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a762ee88b7e9df5774215d0345b996bb22e92ba6b85823c34ec3ae9de25f2341.jpg?namespace=gamesdb"

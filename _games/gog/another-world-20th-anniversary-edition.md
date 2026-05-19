@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B"},"bbfc":{"rating":"12"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"},"kgrb":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violência, Nudez"}}
 release_date: "April 4, 2013"
-game_modes: ["Achievements","Controller support","Single-player"]
-languages: ["English","German","French","Italian","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Korean","Polish","Portuguese - Portugal","Russian","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Korean","Polish","Portuguese","Russian","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"49","name":"Difficult"},{"id":"193","name":"Classic"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"74","name":"Retro"},{"id":"25","name":"Space"},{"id":"110","name":"Cinematic"},{"id":"172","name":"Aliens"},{"id":"271","name":"Remake"},{"id":"334","name":"achievements"},{"id":"624","name":"Monsters"},{"id":"2191","name":"alien"},{"id":"2075","name":"sound"},{"id":"2489","name":"dodge"}]
 size: "117 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/233550/library_hero.jpg"

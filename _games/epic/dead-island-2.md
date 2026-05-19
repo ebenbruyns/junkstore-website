@@ -27,9 +27,9 @@ developer: Deep Silver Dambuster Studios
 genre: Action, Horror
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
-age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Suggestive Themes, Strong Language, Use of Drugs"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"Contains graphic violence &amp; gore."},"nzoflc":{"rating":"r18","descriptors":"Contains graphic violence &amp; gore."},"kgrb":{"rating":"18","descriptors":"Violence, Drugs, Bad Language"},"fpb":{"rating":"18"},"csrr":{"rating":"R","descriptors":"暴力,菸酒,毒品,不當言, 語"},"dejus":{"rating":"18","descriptors":"Drogas, Linguagem Imprópria, Violência Extrema"}}
+age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Suggestive Themes, Strong Language, Use of Drugs"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"Contains graphic violence &amp; gore."},"nzoflc":{"rating":"r18","descriptors":"Contains graphic violence &amp; gore."},"kgrb":{"rating":"18","descriptors":"Violence, Drugs, Bad Language"},"fpb":{"rating":"18"},"csrr":{"rating":"R"},"dejus":{"rating":"18","descriptors":"Drogas, Linguagem Imprópria, Violência Extrema"}}
 release_date: "April 21, 2023"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: "dead-island|dead-island-2|dead-island-bloodbath-arena|dead-isla
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-15T15:00:00.000Z","end":"2025-05-22T15:00:00.000Z","type":null,"id":"29cfc63ad4074333bc6e3f7efb6fab3a"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7d985a4d912572bc5daa8401a84a87207eb4b2814af951b2c53427219479da60.jpg?namespace=gamesdb"

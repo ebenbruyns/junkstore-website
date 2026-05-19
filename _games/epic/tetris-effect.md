@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: G (OFLC)
 age_ratings: {"oflc":{"rating":"G"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
 release_date: "July 23, 2019"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Thai","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1159","name":"Arcade"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1179","name":"VR"}]
@@ -39,6 +39,7 @@ franchise_slug: "tetris-effect|tetris-effect-connected"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/72a8338c4bd59b96b661db3a120810f87b3ccb26da05f414610db3fac750a25d.jpg?namespace=gamesdb"

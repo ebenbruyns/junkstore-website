@@ -29,7 +29,7 @@ franchise: Guild of Dungeoneering
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 18, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Japanese","Korean","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1181","name":"Card Game"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f55298896a1b8a9b8ce949be5ae090690a0d33d0f269d5f7c4959d2a758785df.jpg?namespace=gamesdb"

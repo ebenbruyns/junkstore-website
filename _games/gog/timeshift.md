@@ -30,7 +30,7 @@ age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Language"},"pegi":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"descriptors":"%NZoflcDescriptors%"}}
 release_date: "October 1, 2007"
 game_modes: ["Multi-player","Single-player"]
-languages: ["English"]
+languages: ["English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"8","name":"First-Person"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"122","name":"Pixel Graphics"},{"id":"114","name":"Physics"},{"id":"167","name":"Futuristic"},{"id":"572","name":"Emotional"},{"id":"317","name":"Time Travel"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"308","name":"Bullet Time"},{"id":"302","name":"Time Manipulation"},{"id":"49955","name":"Puzzle Platformer"}]
 size: "2828 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4c1d0022dbb1f9d708bd5f297f444914c7bf287c2bbbaf55f8eba9194ba05146.jpg?namespace=gamesdb"

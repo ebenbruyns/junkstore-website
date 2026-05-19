@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "December 1, 2020"
-game_modes: ["Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English","Russian"]
 languages_audio: []
 tags_structured: []
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/fc5069d9a9c84764014737233adf605970a6217f66b7e07003a2271cad22a9be.jpg?namespace=gamesdb"

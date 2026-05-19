@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence, Partial Nudity, Suggestive Themes, Strong Language"},"pegi":{"rating":"16","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong violence, Online interactivity"}}
 release_date: "April 18, 2019"
-game_modes: ["Cloud saves","Controller support","Co-op","Overlay","Single-player"]
-languages: ["English","Polish","Italian","German","Spanish - Spain","Russian","Simplified Chinese","French","Japanese","Portuguese - Brazil"]
+game_modes: ["Co-op","Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"9","name":"Online Co-Op"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"75","name":"Local Co-Op"},{"id":"131","name":"Fast-Paced"},{"id":"163","name":"Co-op Campaign"}]
 size: "3335 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/90f489c70ed6ffe9f1052df82b65f2b29aca0a37f13f9060ef377dc8d546e553.jpg?namespace=gamesdb"

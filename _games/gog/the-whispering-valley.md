@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Temas sensíveis, Medo"}}
 release_date: "November 30, 2022"
-game_modes: ["Cloud saves","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English","French"]
 languages_audio: ["French"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"62","name":"Family Sharing"}]
@@ -39,6 +39,7 @@ franchise_slug: "the-whisperer-le-murmureur|the-whispering-valley"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"id":"gp_3597","start":"2026-04-22T14:18:12.000Z","end":"2026-04-28T11:59:00.000Z","type":null}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4dba23ddcb615804be388650a2aca96c864c421bac153d140959abd231ebcafd.jpg?namespace=gamesdb"

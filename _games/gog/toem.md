@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: E (ESRB)
 age_ratings: {"esrb":{"rating":"E"},"dejus":{"rating":"L"}}
 release_date: "September 17, 2021"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Japanese","Russian","Korean","Portuguese - Brazil","Swedish","Traditional Chinese","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Japanese","Korean","Portuguese","Russian","Swedish","Turkish","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"}]
 size: "294 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b1207278fcde3385962e8b2009a468aa86c0eda59d8f5614971a3e03b790eceb.jpg?namespace=gamesdb"

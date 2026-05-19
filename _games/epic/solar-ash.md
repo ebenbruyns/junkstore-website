@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Blood, Mild Language"},"pegi":{"rating":"12","descriptors":"Horror"},"usk":{"rating":"12","descriptors":"Belastende Themen, Fantasy-Gewalt"},"oflc":{"rating":"M","descriptors":"Fantasy violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "December 2, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c731aa9a2c7286365052ad2d0aef5d9fdf372ff8e214108b6c88de3057f02d1f.jpg?namespace=gamesdb"

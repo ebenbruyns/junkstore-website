@@ -29,7 +29,7 @@ franchise: Limbo
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "July 18, 2019"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Italian","Japanese","Korean","Portuguese - Portugal","Spanish - Spain","Traditional Chinese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-29T15:00:00.000Z","end":"2025-06-05T15:00:00.000Z","type":null,"id":"49bdb24baa564f8c92848abe14112436"},{"start":"2019-07-16T15:00:00.000Z","end":"2019-07-24T15:00:00.000Z","type":null,"id":"49bdb24baa564f8c92848abe14112436"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9dcb9e88e569817107dfdf42ae1e9b9d847fdcce888faf1e4b0808fce8f98bb0.jpg?namespace=gamesdb"

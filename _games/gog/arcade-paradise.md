@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Lyrics, Blood"},"pegi":{"rating":"12","descriptors":"Bad Language, Violence, In-Game Purchases"},"usk":{"rating":"12","descriptors":"Violence, Occasional Swearing"},"oflc":{"rating":"PG","descriptors":"Online Interactivity, Mild Violence, Mild Themes, Mild Coarse Language, Mild Crude Humour, In-Game Purchases"},"kgrb":{"rating":"12","descriptors":"Language, Violence"},"dejus":{"rating":"10","descriptors":"Violence, Inappropriate Language, In-Game Purchases"}}
 release_date: "August 11, 2022"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Leaderboards","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese"]
+game_modes: ["Co-op","Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
 size: "2592 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/576cc9415566d07ab66a9e52bd0c9db21425dbd67bff2952d7a276e9cc9c52e9.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: ESRB 13
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "September 1, 2016"
-game_modes: ["Single player"]
-languages: ["English","German"]
+game_modes: ["Single-player"]
+languages: ["German","English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "3434 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d6843d315904f42d615234122aec558923b3dfd75453e5a1d3ac78972127c92c.jpg?namespace=gamesdb"

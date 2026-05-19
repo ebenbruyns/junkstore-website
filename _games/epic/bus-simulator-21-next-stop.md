@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"oflc":{"rating":"G"},"dejus":{"rating":"6"}}
 release_date: "May 16, 2023"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Korean","Polish","Russian","Traditional Chinese","Turkish","Simplified Chinese","Spanish - Latin America"]
 languages_audio: ["English","German","Simplified Chinese"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-12-05T16:00:00.000Z","end":"2024-12-12T16:00:00.000Z","type":null,"id":"10adac482d1647e1afc237b66dc45066"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ec43d7b7929a83417fb2730120ab9970b8ff9d9a584ddaae7ef52219d9fc4e75.jpg?namespace=gamesdb"

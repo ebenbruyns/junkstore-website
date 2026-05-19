@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "September 1, 2009"
-game_modes: ["Achievements","Cloud saves","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"40850","name":"Steam Leaderboards"},{"id":"97","name":"Action RPG"},{"id":"468","name":"role-playing"},{"id":"68","name":"Hack and Slash"},{"id":"48","name":"Dungeon Crawler"},{"id":"98","name":"Loot"}]
@@ -39,6 +39,7 @@ franchise_slug: "fate|fate-the-cursed-king|fate-the-traitor-soul|fate-undiscover
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2c1df3c3e4fa2e486216f3b0ed25ac7e98334aa87e59b5be69e40890e7139a51.jpg?namespace=gamesdb"

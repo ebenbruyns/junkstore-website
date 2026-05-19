@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood<br>, Suggestive Themes<br>, Violence<br>"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "November 11, 2003"
-game_modes: ["Single player"]
-languages: ["English","French","German","Italian","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","French","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"68","name":"Hack and Slash"},{"id":"336","name":"controller support"},{"id":"188","name":"Parkour"},{"id":"83","name":"Puzzle-Platformer"},{"id":"317","name":"Time Travel"},{"id":"302","name":"Time Manipulation"}]
 size: "1221 MB"
@@ -39,6 +39,7 @@ franchise_slug: "prince-of-persia|prince-of-persia-2-the-shadow-|prince-of-persi
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d730809f928f1c3a3faca792921660dea689b14f19e3e0c080db46c663acc3c5.jpg?namespace=gamesdb"

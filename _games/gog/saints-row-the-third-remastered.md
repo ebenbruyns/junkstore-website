@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Drug Reference, Intense Violence, Sexual Content, Partial Nudity, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Violência fantasiosa, Atos criminosos, Violência, Violência Extrema, Temas sensíveis, Drogas lícitas, Drogas, Drogas ilícitas, Linguagem imprópria, Conteúdo sexual, Nudez"}}
 release_date: "May 22, 2020"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Czech","Dutch"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["Czech","German","English","Spanish","French","Italian","Japanese","Dutch","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"9","name":"Online Co-Op"},{"id":"4","name":"Funny"},{"id":"37","name":"Sandbox"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"69","name":"Action-Adventure"},{"id":"150","name":"Third-Person Shooter"},{"id":"121","name":"Character Customization"},{"id":"571","name":"3D"},{"id":"130","name":"Driving"},{"id":"56","name":"Shoot 'Em Up"},{"id":"148","name":"Dark Humor"},{"id":"229","name":"3D Platformer"},{"id":"51","name":"Destruction"},{"id":"2030","name":"city"},{"id":"59643","name":"Протагонистка"},{"id":"153","name":"Satire"},{"id":"49960","name":"Life Sim"},{"id":"1753","name":"guns"},{"id":"5488","name":"tank"},{"id":"1131","name":"sex"},{"id":"1876","name":"drugs"}]
 size: "42797 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1fff3b68987b8929a06688cc6c9676f74b845d0c69def1e91259f4726de61e75.jpg?namespace=gamesdb"

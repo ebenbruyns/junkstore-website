@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Suggestive Themes"},"pegi":{"rating":"12"},"usk":{"rating":"12","descriptors":"Scary Content, Abstract Violence, Sexual Innuendo"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Drogas lícitas, Conteúdo sexual"}}
 release_date: "May 17, 2014"
-game_modes: ["Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Russian","Polish","Ukrainian","Portuguese - Brazil","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Polish","Russian","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"189","name":"Female Protagonist"},{"id":"134","name":"Anime"},{"id":"141","name":"Point & Click"},{"id":"40833","name":"Captions available"},{"id":"279","name":"Supernatural"},{"id":"663","name":"Ghosts"},{"id":"597","name":"artgame"}]
 size: "681 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/77cc298fc9435d0eeac5d5aad24988b87012655dbaf794b5285e7081972802ab.jpg?namespace=gamesdb"

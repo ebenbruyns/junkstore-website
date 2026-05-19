@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "October 23, 2021"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","German","Simplified Chinese","French","Spanish - Spain","Spanish - Latin America","Russian"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"32","name":"Sci-fi"},{"id":"40850","name":"Steam Leaderboards"},{"id":"11669","name":"stats"},{"id":"107","name":"Family Friendly"},{"id":"167","name":"Futuristic"},{"id":"101","name":"Turn-Based Strategy"},{"id":"67","name":"Management"},{"id":"138","name":"Relaxing"},{"id":"640","name":"Roguelite"},{"id":"166","name":"Stylized"},{"id":"147","name":"Resource Management"},{"id":"213","name":"City Builder"},{"id":"212","name":"4X"},{"id":"774","name":"nature"},{"id":"241","name":"Space Sim"},{"id":"263","name":"Mars"},{"id":"4880","name":"tabletop"},{"id":"49967","name":"Colony Sim"}]
 size: "1185 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d681c36f47bd73577fdaf4312b786cb9279486dde2d4a5d2c02a7afa2ef9e754.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/1557040"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Terraformers"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/terraformers-first-steps-on-mars/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

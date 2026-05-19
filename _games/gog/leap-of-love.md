@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez, Violência, Temas sensíveis"}}
 release_date: "December 31, 2020"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","Russian","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","English","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"468","name":"role-playing"},{"id":"44","name":"Nudity"},{"id":"145","name":"Choices Matter"},{"id":"50","name":"Sexual Content"},{"id":"406","name":"Story"},{"id":"67","name":"Management"},{"id":"90","name":"Visual Novel"},{"id":"334","name":"achievements"},{"id":"808","name":"character"},{"id":"160","name":"Dating Sim"},{"id":"2590","name":"fun"},{"id":"1709","name":"work"},{"id":"312","name":"NSFW"},{"id":"303","name":"Text-Based"},{"id":"892","name":"love"},{"id":"786","name":"hentai"},{"id":"58128","name":"Хентай"},{"id":"1156","name":"princess"},{"id":"2743","name":"dash"},{"id":"4132","name":"wizard"},{"id":"3729","name":"choices"},{"id":"1131","name":"sex"},{"id":"15556","name":"catch"},{"id":"2169","name":"kingdom"},{"id":"2791","name":"king"},{"id":"2110","name":"novel"}]
 size: "322 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/93e8a964ed0a9a27489564b18b3f2d667de4424ad249019b1cb9be0c4a721cc9.jpg?namespace=gamesdb"

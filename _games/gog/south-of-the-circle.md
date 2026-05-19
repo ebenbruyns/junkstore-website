@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Drogas lícitas, Violência"}}
 release_date: "October 30, 2020"
-game_modes: ["Achievements","Cloud saves","Overlay"]
-languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Dutch","Japanese","Korean","Portuguese - Portugal","Russian","Simplified Chinese","Traditional Chinese","Turkish","Portuguese - Brazil"]
+game_modes: []
+languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"141","name":"Point & Click"},{"id":"110","name":"Cinematic"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"209","name":"Drama"},{"id":"217","name":"Romance"},{"id":"200","name":"Narration"},{"id":"572","name":"Emotional"},{"id":"112","name":"Minimalist"},{"id":"288","name":"Interactive Fiction"},{"id":"295","name":"Soundtrack"},{"id":"251","name":"Cold War"},{"id":"66536","name":"Романтика"}]
 size: "1077 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1811040/library_hero.jpg"

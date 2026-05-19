@@ -27,9 +27,9 @@ developer: Live Wire, Adglobe
 genre: Exploration, RPG, Action-Adventure
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
-age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence"},"pegi":{"rating":"12","descriptors":"軽い暴力"},"usk":{"rating":"12","descriptors":"暴力、恐怖を感じさせる状況"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência, Medo"}}
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência, Medo"}}
 release_date: "January 22, 2025"
-game_modes: ["Single Player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Japanese","Korean","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/fce02d71e2550473a1bf6e4f0903e8585cd27bfed0402dadc89033d259a812fb.jpg?namespace=gamesdb"

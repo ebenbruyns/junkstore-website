@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
 release_date: "October 14, 2021"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"123","name":"Comedy"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"14","name":"Early Access"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"40937","name":"Steam Trading Cards"},{"id":"259","name":"Metroidvania"},{"id":"164","name":"Cartoony"},{"id":"179","name":"Cartoon"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"}]
 size: "690 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/04f6b09255490588dfb8b1db0e8f5554ebcc072aee6097d40da37c6fefda12cb.jpg?namespace=gamesdb"

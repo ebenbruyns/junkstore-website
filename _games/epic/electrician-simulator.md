@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "August 4, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Japanese","Russian","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1263","name":"Indie"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-03-19T15:00:00.000Z","end":"2026-03-26T15:00:00.000Z","type":null,"id":"b3d56c3e27fc4816bf6cc0cefecd4948"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b67a8ba93168c79871ee5c303c415e1f7a0cca58f96e2a031732aee1060a58c0.jpg?namespace=gamesdb"

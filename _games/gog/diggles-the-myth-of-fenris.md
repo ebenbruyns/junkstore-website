@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Drogas lícitas, Violência fantasiosa"}}
 release_date: "September 27, 2001"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","German","Polish","Russian"]
+game_modes: ["Single-player"]
+languages: ["German","English","Polish","Russian"]
 languages_audio: ["English","German","Polish","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"123","name":"Comedy"},{"id":"121","name":"Character Customization"},{"id":"165","name":"Colorful"},{"id":"125","name":"Crafting"},{"id":"1465","name":"combat"},{"id":"39","name":"Building"},{"id":"82","name":"Magic"},{"id":"67","name":"Management"},{"id":"116","name":"2.5D"},{"id":"147","name":"Resource Management"},{"id":"195","name":"Economy"},{"id":"108","name":"Mythology"},{"id":"272","name":"Inventory Management"},{"id":"316","name":"Mining"},{"id":"49967","name":"Colony Sim"},{"id":"329","name":"Mystery Dungeon"}]
 size: "511 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/bc3b23034e7c7486bc394f19ed471633e8a2df98c38a05d4d8d4c84e3042d8fc.jpg?namespace=gamesdb"

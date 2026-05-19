@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Language, Crude Humor"},"pegi":{"rating":"12","descriptors":"Violence, Horror, Bad Language"},"oflc":{"rating":"PG","descriptors":"Mild themes, Violence and coarse language, Online interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild themes, Violence and coarse language, Online interactivity"},"kgrb":{"rating":"12","descriptors":"Mild Sexual Content, Mild Violence, Mild use of substances"},"csrr":{"rating":"C15","descriptors":"Violence, Tobacco and Alcohol, Improper Language"},"dejus":{"rating":"12","descriptors":"Violencia"}}
 release_date: "October 23, 2018"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Spanish - Latin America","Simplified Chinese","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Spanish - Latin America","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"189","name":"Female Protagonist"},{"id":"468","name":"role-playing"},{"id":"99","name":"Isometric"},{"id":"127","name":"Card Game"}]
 size: "6246 MB"
@@ -39,6 +39,7 @@ franchise_slug: "gwent-rogue-mage|gwent-the-witcher-card-game|gwent-thronebreake
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/16843844477c8ea9959094f012dd7fd9c4610735debe447b840a094812223d82.jpg?namespace=gamesdb"

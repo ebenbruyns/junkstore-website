@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"12","descriptors":"Non-realistic looking violence towards fantasy characters - Realistic looking violence"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Medium Level Animated Violence"},"nzoflc":{"rating":"PG","descriptors":"Medium Level Animated Violence"}}
 release_date: "July 1, 2003"
-game_modes: ["Cloud saves","Single-player"]
-languages: ["English","German","Spanish - Spain","Italian","French"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","German","French"]
 tags_structured: [{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"25","name":"Space"},{"id":"468","name":"role-playing"},{"id":"62","name":"Moddable"},{"id":"102","name":"Turn-Based"},{"id":"145","name":"Choices Matter"},{"id":"194","name":"Real-Time with Pause"},{"id":"206","name":"Party-Based RPG"},{"id":"318","name":"Star Wars"},{"id":"425","name":"Single player only"}]
 size: "2479 MB"
@@ -39,6 +39,7 @@ franchise_slug: "kotor-ii|star-wars-knights-of-the-old-r|star-wars-the-old-repub
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d721c6891571fac1a8d618c7ba34ffdc138a27c3291896e79f92f81fb0d3dca0.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Intense Violence, Nudity, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"nzoflc":{"rating":"r13","descriptors":"Violence, Horror, Content that may disturb"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "August 1, 2017"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Dutch","Finnish","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Swedish","Traditional Chinese","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","Danish","German","English","Spanish","Latin American Spanish","Finnish","French","Italian","Japanese","Korean","Dutch","Norwegian","Polish","Portuguese","Russian","Swedish","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"64","name":"Fantasy"},{"id":"189","name":"Female Protagonist"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"41","name":"Dark"},{"id":"68","name":"Hack and Slash"},{"id":"40","name":"Dark Fantasy"},{"id":"77","name":"Realistic"},{"id":"91","name":"Walking Simulator"},{"id":"270","name":"Blood"},{"id":"285","name":"Psychological"},{"id":"108","name":"Mythology"}]
 size: ""
@@ -39,6 +39,7 @@ franchise_slug: "hellblade-senuas-sacrifice|senuas-saga-hellblade-ii"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: ""

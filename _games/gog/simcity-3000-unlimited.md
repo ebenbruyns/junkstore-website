@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: E (ESRB) · 6 (USK)
 age_ratings: {"esrb":{"rating":"E"},"usk":{"rating":"6","descriptors":"Angedeutete Gewalt"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"7-9PG"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
 release_date: "March 1, 2000"
-game_modes: ["Cloud saves","Single-player"]
-languages: ["English","French","Italian","German","Dutch","Swedish"]
+game_modes: ["Single-player"]
+languages: ["German","English","French","Italian","Dutch","Swedish"]
 languages_audio: ["English","French","Italian","German","Dutch","Swedish"]
 tags_structured: []
 size: "536 MB"
@@ -39,6 +39,7 @@ franchise_slug: "simcity|simcity-2000|simcity-2013|simcity-3000|simcity-4|simcit
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/31edf89b9a219552f97428508d58bc4f28d528165e3640aeb4ac80692df91c99.jpg?namespace=gamesdb"

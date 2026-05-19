@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Animated Blood, Fantasy Violence, Language"},"pegi":{"rating":"12","descriptors":"Bad Language"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "December 19, 2019"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Arabic","Korean","Spanish - Latin America","Swedish","Thai","Traditional Chinese","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Arabic","Korean","Spanish - Latin America","Swedish","Thai","Traditional Chinese","Turkish"]
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-09-02T15:00:00.000Z","end":"2020-09-09T15:00:00.000Z","type":null,"id":"a08681e2143d4c218167e45d76db8de0"},{"start":"2019-12-18T15:00:00.000Z","end":"2019-12-19T15:00:00.000Z","type":null,"id":"a08681e2143d4c218167e45d76db8de0"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0c98cf3a3b2dd046cdebec0c3fa4df7dd711160437eceead54c44582ba6cca34.jpg?namespace=gamesdb"

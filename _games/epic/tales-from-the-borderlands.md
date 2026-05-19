@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Drug Reference, Sexual Themes, Strong Language, Violence"},"pegi":{"rating":"18","descriptors":"Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong Violence"},"nzoflc":{"rating":"r13","descriptors":"Violence"},"dejus":{"rating":"16"}}
 release_date: "February 17, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
@@ -39,6 +39,7 @@ franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|bor
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4d0facf5344f10594b2a04a50c7accfbefdb1a7f0a8af56c0c5a2c42d408dc94.jpg?namespace=gamesdb"

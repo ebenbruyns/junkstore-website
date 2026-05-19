@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"6"}}
 release_date: "June 3, 2024"
-game_modes: ["Single player","Multiplayer","Massively Multiplayer Online (MMO)"]
+game_modes: ["Single-player","Online Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Dutch","Hungarian","Portuguese - Brazil","Swedish","Danish","Finnish","Greek","Japanese","Polish","Romanian","Russian","Spanish - Latin America","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"22775","name":"MMO"},{"id":"33639","name":"Promotional Content"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/156198c93f6de0321637da93054c10e87f2d1afbea1b032c6d16c25b9661e137.jpg?namespace=gamesdb"

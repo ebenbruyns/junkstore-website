@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "August 17, 2021"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Traditional Chinese","Korean","Japanese","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"198","name":"Split Screen"},{"id":"97","name":"Action RPG"},{"id":"68","name":"Hack and Slash"},{"id":"121","name":"Character Customization"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"203","name":"Beat 'em up"},{"id":"48","name":"Dungeon Crawler"},{"id":"98","name":"Loot"},{"id":"179","name":"Cartoon"},{"id":"580","name":"Souls-like"},{"id":"45201","name":"Remote Play Together"},{"id":"46112","name":"Shared/Split Screen Co-op"},{"id":"309","name":"Dynamic Narration"},{"id":"163","name":"Co-op Campaign"},{"id":"1252","name":"portal"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d38aead37277a62e50c7060493905dc431d2127a721573088fb5a6f324dfbe60.jpg?namespace=gamesdb"

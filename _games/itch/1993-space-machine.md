@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "March 1, 2016"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
+game_modes: ["Single-player","Co-op","Multi-player","Split Screen"]
 languages: ["English","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"75","name":"Local Co-Op"},{"id":"56","name":"Shoot 'Em Up"},{"id":"57","name":"Bullet Hell"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f7cbdec636bda1742fa075111553bee11514f59b5f2d7ca83cccb9a9426f3434.jpg?namespace=gamesdb"

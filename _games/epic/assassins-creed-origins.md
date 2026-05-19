@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood &amp; gore, drug reference, intense violence, nudity, sexual content, strong language, alcohol usage"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Sex"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong violence, sex and coarse language, online interactivity"},"nzoflc":{"rating":"r13","descriptors":"Strong violence &amp; offensive language"},"kgrb":{"rating":"18","descriptors":"Sexuality, Violence, Language, and Crime"},"fpb":{"rating":"18","descriptors":"N, S, V, CI"},"csrr":{"rating":"C15","descriptors":"Violence"},"dejus":{"rating":"16","descriptors":"Sexual content, Improper language, Violence"}}
 release_date: "October 27, 2017"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Dutch","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
@@ -39,6 +39,7 @@ franchise_slug: "assassins-creed|assassins-creed-back-flag-resy|assassins-creed-
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b0d8f487bffd9b84f7bbd87f833a1da60906c8c6390885ef1150c3609d0d4d44.jpg?namespace=gamesdb"

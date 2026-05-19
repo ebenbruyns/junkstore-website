@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Crude Humor"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M"},"kgrb":{"rating":"15"},"fpb":{"rating":"13"},"dejus":{"rating":"10"}}
 release_date: "February 17, 2022"
-game_modes: ["Single player","Co-operative"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-02-16T15:00:00.000Z","end":"2022-02-23T15:00:00.000Z","type":null,"id":"751c3ae311cf48e1926233fdddae9cb8"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6584ff191a6504bd115342446aeaf5368ca9c5d893bb8e16244bcba6f5a5a043.jpg?namespace=gamesdb"

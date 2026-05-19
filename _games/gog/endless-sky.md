@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas ilícitas"}}
 release_date: "October 30, 2015"
-game_modes: ["Cloud saves","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"24","name":"RPG"},{"id":"36","name":"Open World"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"79","name":"Free to Play"},{"id":"25","name":"Space"},{"id":"245","name":"Trading"},{"id":"241","name":"Space Sim"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/443fa45e5a21747ce70d69c7cfec0576dd3f735385561531abd4e3f9dfecc012.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence, Comic Mischief"},"pegi":{"rating":"7","descriptors":"Violence, Fear, In-Game Purchases"},"usk":{"rating":"12"},"cero":{"rating":"B","descriptors":"Violence, Criminal Acts"},"oflc":{"rating":"PG","descriptors":"Mild science fiction violence"},"kgrb":{"rating":"12","descriptors":"Violence"},"csrr":{"rating":"P6","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa"}}
 release_date: "April 5, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Dutch","Korean","Polish","Portuguese - Brazil","Russian","Spanish - Latin America","Traditional Chinese","Japanese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Spanish - Latin America","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "lego-star-wars|lego-star-wars-2-the-original-|lego-star-wars-ca
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-04T15:00:00.000Z","end":"2025-05-05T15:00:00.000Z","type":null,"id":"283939b792814f5e87d8bdd5a8375fac"},{"start":"2024-12-05T16:00:00.000Z","end":"2024-12-12T16:00:00.000Z","type":null,"id":"283939b792814f5e87d8bdd5a8375fac"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/eb44ac521a572e8e9a679e34eeb35afec305b6ef52c14a26b14f52d0661672c1.jpg?namespace=gamesdb"

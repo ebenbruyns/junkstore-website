@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Interação de Usuários, Compras on-line"}}
 release_date: "January 27, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-01-26T15:00:00.000Z","end":"2022-02-02T15:00:00.000Z","type":null,"id":"f6d665930cc34c34ac69cfe52906a723"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/51a78aff25a7e1cb493d51606938f6aa86c38e2d7646f634af936f888d36b02e.jpg?namespace=gamesdb"

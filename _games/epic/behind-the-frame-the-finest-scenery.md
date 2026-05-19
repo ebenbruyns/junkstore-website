@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "August 25, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Traditional Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"21151","name":"Easy Puzzles"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-01-23T16:00:00.000Z","end":"2025-01-30T16:00:00.000Z","type":null,"id":"ade0eed6f17a412b97d29a992b35754c"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d57bf01a920499c0d001aaa2848117618d12420fad32216ac685162d91acd88b.jpg?namespace=gamesdb"

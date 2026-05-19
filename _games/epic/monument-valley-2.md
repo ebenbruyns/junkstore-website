@@ -39,6 +39,7 @@ franchise_slug: "monument-valley|monument-valley-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-09-11T15:00:00.000Z","end":"2025-09-18T15:00:00.000Z","type":null,"id":"d09a24a332c94549b2144f962231c394"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1927740/library_hero.jpg"

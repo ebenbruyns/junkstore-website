@@ -29,7 +29,7 @@ franchise: Loop Hero
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12"},"kgrb":{"rating":"ALL","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Drogas lícitas"}}
 release_date: "March 4, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Italian","Dutch","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-08-02T15:00:00.000Z","end":"2023-08-09T15:00:00.000Z","type":null,"id":"db122f42b41f4dec927e0f280cf653bd"},{"start":"2021-12-19T15:00:00.000Z","end":"2021-12-20T15:00:00.000Z","type":null,"id":"db122f42b41f4dec927e0f280cf653bd"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c6600bc7e19e367f36734acc5fe74f7fbaf097a0bb14079db123e19ec2c2ac6c.jpg?namespace=gamesdb"

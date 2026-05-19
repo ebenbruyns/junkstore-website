@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Linguagem imprópria"}}
 release_date: "August 22, 2023"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Japanese","Italian"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Japanese","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"25","name":"Space"},{"id":"110","name":"Cinematic"},{"id":"91","name":"Walking Simulator"},{"id":"40937","name":"Steam Trading Cards"},{"id":"305","name":"Linear"},{"id":"209","name":"Drama"},{"id":"200","name":"Narration"},{"id":"269","name":"Quick-Time Events"},{"id":"288","name":"Interactive Fiction"},{"id":"183","name":"Thriller"},{"id":"583","name":"Narrative"},{"id":"263","name":"Mars"},{"id":"1500","name":"immersive"},{"id":"5468","name":"qte"}]
 size: "6259 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1931730/library_hero.jpg"

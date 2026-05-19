@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Mild Blood, Language, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language, In-Game Purchases"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Mature themes and supernatural violence, in-game purchases"},"nzoflc":{"rating":"M","descriptors":"Mature themes and supernatural violence, in-game purchases"},"kgrb":{"rating":"15"},"fpb":{"rating":"16"},"csrr":{"rating":"C15","descriptors":"Violence, Inappropriate Speech"},"mda":{"rating":"AA16"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "December 2, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","French","German","Spanish - Spain","Japanese","Korean","Simplified Chinese"]
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1254","name":"TACTICAL RPG"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1228","name":"STRATEGY RPG"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "daredevil|deadpool|ghost-rider|guardians-of-the-galaxy|howard-t
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b89dba24cea868264073aeebb544df7a9ca20b33afe49626b4bad37a9f2f9ac6.jpg?namespace=gamesdb"

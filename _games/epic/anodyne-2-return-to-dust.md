@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Medo"}}
 release_date: "February 28, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Portuguese - Brazil","French","German","Spanish - Spain","Spanish - Latin America","Japanese","Russian","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3bab557db954dcee893d33f23f79f6b50ba32e9f2774e496e31f65ea319bcfb2.jpg?namespace=gamesdb"

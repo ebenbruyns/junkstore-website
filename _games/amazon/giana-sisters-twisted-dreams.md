@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Fear"},"usk":{"rating":"6"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"}}
 release_date: "October 22, 2012"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player","Multi-player"]
 languages: ["English","German","French","Italian","Spanish - Spain","Japanese","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"40850","name":"Steam Leaderboards"},{"id":"189","name":"Female Protagonist"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"336","name":"controller support"},{"id":"113","name":"Side Scroller"},{"id":"116","name":"2.5D"},{"id":"96","name":"Kickstarter"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c841c264579dae5daf855d975611441c548007449bb11f2a1fc8fa31b89be96f.jpg?namespace=gamesdb"

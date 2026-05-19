@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 16 (PEGI) · 12 (USK)
 age_ratings: {"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"}}
 release_date: "June 22, 2012"
-game_modes: ["Achievements","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Italian","Russian","Polish","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"64","name":"Fantasy"},{"id":"141","name":"Point & Click"},{"id":"40","name":"Dark Fantasy"}]
 size: "2532 MB"
@@ -39,6 +39,7 @@ franchise_slug: "blackguards|blackguards-2|memoria|the-dark-eye-chains-of-satina
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d1e09be2b914be344425140151ec28de7f54db6b5cc4a31ec63c97e3cc294418.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB 6
 age_ratings: {}
 release_date: "November 16, 1994"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"}]
@@ -39,6 +39,7 @@ franchise_slug: "gex|gex-3-deep-cover-gecko|gex-3-deep-pocket-gecko-gba|gex-ente
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d6febc78cd4e945ea89c8c14ef69f59bdfe5973dd31f871cc8768dcd373eb920.jpg?namespace=gamesdb"

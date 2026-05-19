@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone 10+
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "June 13, 2024"
-game_modes: ["Multiplayer"]
+game_modes: ["Online Multi-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2018320/library_hero.jpg"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/2018320"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/war-tanks/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

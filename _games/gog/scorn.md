@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: PEGI 18
 age_ratings: {"kgrb":{"rating":"18","descriptors":"Fear / Horror / Threatening, Sexuality, Violence"},"dejus":{"rating":"18","descriptors":"Violência Extrema"}}
 release_date: "October 14, 2022"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Traditional Chinese","Turkish","Ukrainian","Vietnamese","Arabic","Thai"]
+game_modes: ["Single-player"]
+languages: ["Bulgarian","Portuguese (brazilian)","Chinese Simplified","Czech","Danish","German","English","Spanish","Latin American Spanish","Finnish","French","Greek","Hungarian","Italian","Japanese","Korean","Dutch","Norwegian","Polish","Portuguese","Romanian","Russian","Swedish","Turkish","Ukrainian","Vietnamese","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"44","name":"Nudity"}]
 size: "17757 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/bcddaa6e380e540ff2a9273e83dba16eaccd95490d8481e18a66d9124525a956.jpg?namespace=gamesdb"

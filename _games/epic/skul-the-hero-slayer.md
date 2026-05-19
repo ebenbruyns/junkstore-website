@@ -27,9 +27,9 @@ developer: NEOWIZ
 genre: Action, Action-Adventure, Adventure
 franchise: Skul
 age_rating_summary: ESRB Teen
-age_ratings: {"kgrb":{"rating":"12","descriptors":"게임물 제명 : 스컬:더 히어로 슬레이어, 이용등급 : 12세이용가, 내용정보표지사항 : 폭력표현, 등급분류일자 : 2020.01.28, 등급분류번호 : GC-CC-NP-200128-006, 신고/등록번호 : 2010-000002호, 대상 등급 기관 : GCRB 게임콘텐츠등급분류위원회"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
+age_ratings: {"kgrb":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "January 1, 2026"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Japanese","Korean","Simplified Chinese","German","French","Spanish - Spain","Russian","Traditional Chinese","Portuguese - Brazil","Polish"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"39070","name":"iOS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/fc0e33cec6d0501d478ac00b56a21797ddc71210324f86583e01bdbd5405e120.jpg?namespace=gamesdb"

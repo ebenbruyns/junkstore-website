@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Fear, Violence"},"usk":{"rating":"6"},"mda":{"descriptors":"Violência"},"dejus":{"rating":"L"}}
 release_date: "August 2, 2016"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-10-07T15:00:00.000Z","end":"2020-10-14T15:00:00.000Z","type":null,"id":"dedd448c38d947ab90291540f183378b"},{"start":"2019-09-04T15:00:00.000Z","end":"2019-09-11T15:00:00.000Z","type":null,"id":"dedd448c38d947ab90291540f183378b"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/5472edaf333ac08030cc159aee1a9e3f81074890913bf7204fa45b2d7752a3a4.jpg?namespace=gamesdb"

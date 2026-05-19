@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"dejus":{"rating":"18","descriptors":"Violência Extrema"}}
 release_date: "February 19, 2009"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","German","Italian","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"32","name":"Sci-fi"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"26","name":"Gore"},{"id":"80","name":"Tactical"},{"id":"25","name":"Space"},{"id":"70","name":"War"},{"id":"167","name":"Futuristic"},{"id":"168","name":"RTS"},{"id":"270","name":"Blood"},{"id":"981","name":"battle"},{"id":"581","name":"Epic"},{"id":"210","name":"Real-Time"},{"id":"87","name":"Science"},{"id":"29","name":"Games Workshop"},{"id":"163","name":"Co-op Campaign"},{"id":"27","name":"Warhammer 40K"},{"id":"2129","name":"interactive"},{"id":"1328","name":"office"}]
@@ -39,6 +39,7 @@ franchise_slug: "adeptus-titanicus-dominus|warhammer-40-000-storm-of-veng|warham
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/62b6c82216ed06c1597e39697d8ba948fabdd09a807159d449bd77a3ad72d6e7.jpg?namespace=gamesdb"

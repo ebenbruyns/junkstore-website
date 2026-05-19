@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Violent References, Alcohol Reference, Users Interact"},"pegi":{"rating":"3","descriptors":"Users Interact"},"usk":{"rating":"6","descriptors":"Abstract Violence, Users Interact"},"oflc":{"rating":"PG","descriptors":"Mild Themes, Online Interactivity, Users Interact"}}
 release_date: "November 21, 2017"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: []
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1128180/library_hero.jpg"

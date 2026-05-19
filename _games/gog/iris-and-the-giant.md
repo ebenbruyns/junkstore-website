@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "February 27, 2020"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Simplified Chinese","Russian","Japanese","Portuguese - Brazil","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Japanese","Russian"]
 languages_audio: []
 tags_structured: []
 size: "404 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d65aea7d7fa4cb586cb9a39134ac84440c3f9227963687f39bc9c3535ff5e552.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Strong Language"},"pegi":{"rating":"16","descriptors":"Gambling, Bad Language, Violence"},"usk":{"rating":"16"}}
 release_date: "October 20, 2022"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","German"]
 languages_audio: []
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "capital-wasteland|fallout-2-a-post-nuclear-role-|fallout-3|fall
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-12-21T15:00:00.000Z","end":"2022-12-22T15:00:00.000Z","type":null,"id":"550b1ad4adcc414a966d459587bcdb30"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6ffa0c1b1ea418b043a2a360baca479b2945f5ffce044ebd64c4c78992b421f5.jpg?namespace=gamesdb"

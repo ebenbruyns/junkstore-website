@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Atos criminosos"}}
 release_date: "December 21, 2020"
-game_modes: ["Achievements","Controller support","Multi-player","Overlay","Single-player"]
-languages: ["English","French","German","Portuguese - Brazil","Spanish - Spain","Italian","Russian","Japanese","Korean","Simplified Chinese","Arabic","Indonesian","Spanish - Latin America","Traditional Chinese","Turkish","Vietnamese","Dutch","Thai"]
+game_modes: ["Multi-player","Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"122","name":"Pixel Graphics"},{"id":"134","name":"Anime"},{"id":"121","name":"Character Customization"},{"id":"102","name":"Turn-Based"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"233","name":"JRPG"},{"id":"581","name":"Epic"}]
 size: "889 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9d23001b7906600e83203b92c26f44a5081040d66e3044b16f951bc953694155.jpg?namespace=gamesdb"

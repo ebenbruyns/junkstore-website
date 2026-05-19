@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Language, Drug Reference"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Mature themes"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Drogas ilícitas, Violência"}}
 release_date: "April 25, 2017"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Italian","Korean"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1395","name":"Narration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2019-01-10T15:00:00.000Z","end":"2019-01-23T15:00:00.000Z","type":null,"id":"b1f4888a7c9b4449b6bfbace4de24a9c"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/014efe0206ccc4357c6f7999b05708c3a400b513beb778abece17f2d876f7a05.jpg?namespace=gamesdb"

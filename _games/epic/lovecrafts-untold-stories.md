@@ -39,6 +39,7 @@ franchise_slug: "lovecrafts-untold-stories|lovecrafts-untold-stories-2-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6b34f034a5f7b0932806ddd7fefdef48ea773be395f13763a8cf30e10b8d154f.jpg?namespace=gamesdb"

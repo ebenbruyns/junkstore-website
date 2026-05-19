@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "April 17, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Hungarian","Indonesian","Japanese","Korean","Norwegian","Polish","Portuguese - Brazil","Russian","Swedish","Turkish","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21150","name":"Challenging Puzzles"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f3570f05a8d4e63f4176657a722585c907bf63af8f365849bb29997eab4230fa.jpg?namespace=gamesdb"

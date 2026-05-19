@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3","descriptors":"In-Game purchases"},"usk":{"rating":"0"},"oflc":{"rating":"G","descriptors":"Online interactivity"},"nzoflc":{"rating":"G","descriptors":"Online interactivity"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
 release_date: "September 30, 2021"
-game_modes: ["Single player","Multiplayer","Split screen"]
+game_modes: ["Single-player","Online Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese","Portuguese - Brazil","Korean"]
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"35244","name":"Epic Savings"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "hot-wheels-all-out|hot-wheels-bash-arena|hot-wheels-battle-forc
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-12-27T16:00:00.000Z","end":"2024-12-28T16:00:00.000Z","type":null,"id":"7626d56f226c49c5af79685abf167cb6"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ca8156f3a605423a3cabadf076285516f40760a893c45990da3539360f534bb7.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence, Use of Alcohol/Tobacco"},"usk":{"rating":"16","descriptors":"Gewalt"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence"},"csrr":{"rating":"R"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "August 18, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Portugal","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Russian","Ukrainian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-03-13T15:00:00.000Z","end":"2025-03-20T15:00:00.000Z","type":null,"id":"10c62ba6044c4cbba8b50ad16dc58c4d"},{"start":"2022-12-27T15:00:00.000Z","end":"2022-12-28T15:00:00.000Z","type":null,"id":"10c62ba6044c4cbba8b50ad16dc58c4d"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/5b7bd64fc88d31c49123baeaf1e986e0136c0fab6c44ef8c275a358d2a58dbef.jpg?namespace=gamesdb"

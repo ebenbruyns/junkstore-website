@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Language, Use of Alcohol And Tobacco"},"pegi":{"rating":"7","descriptors":"Fear, Violence"},"usk":{"rating":"12","descriptors":"Violence"},"oflc":{"rating":"PG","descriptors":"Mild Themes, Scary Scenes, Mild Coarse Language"},"nzoflc":{"rating":"PG","descriptors":"Mild Themes"},"kgrb":{"rating":"ALL","descriptors":"Violence"},"csrr":{"rating":"C12","descriptors":"Horror, Inappropriate Language, Tobacco and Alcohol"},"dejus":{"rating":"10","descriptors":"Violence, Inappropriate Language"}}
 release_date: "September 29, 2017"
-game_modes: ["Achievements","Cloud saves","Controller support","Co-op","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
+game_modes: ["Co-op","Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Polish","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"49","name":"Difficult"},{"id":"75","name":"Local Co-Op"},{"id":"74","name":"Retro"},{"id":"40833","name":"Captions available"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"56","name":"Shoot 'Em Up"},{"id":"258","name":"Hand-drawn"},{"id":"164","name":"Cartoony"},{"id":"57","name":"Bullet Hell"},{"id":"179","name":"Cartoon"}]
 size: "3408 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/eb9a2926866d526ea39695e603ce585f3e6c63d01bf610d630f225377a648be4.jpg?namespace=gamesdb"

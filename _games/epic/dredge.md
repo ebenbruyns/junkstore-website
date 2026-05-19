@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "December 24, 2024"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Polish"]
 languages_audio: []
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-12-24T16:00:00.000Z","end":"2024-12-25T16:00:00.000Z","type":null,"id":"c52eda250c0043358ee825b870d49fcd"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/28ee273dabe02b6f455b2f95168bf002d9e97ad37e934178250833e85d4db3cc.jpg?namespace=gamesdb"

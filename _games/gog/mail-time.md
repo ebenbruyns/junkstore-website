@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "April 27, 2023"
-game_modes: ["Cloud saves","Controller support","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Japanese","Korean"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"138","name":"Relaxing"},{"id":"166","name":"Stylized"},{"id":"164","name":"Cartoony"},{"id":"572","name":"Emotional"},{"id":"59643","name":"Протагонистка"},{"id":"42410","name":"LGBTQ+"},{"id":"146","name":"Nonlinear"},{"id":"342","name":"Conversation"}]
 size: "718 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d316688134a426195f3433a80907de5689ced4d16477483472f8e31b5b3d59a7.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "March 21, 2023"
-game_modes: ["Co-operative","Multiplayer"]
+game_modes: ["Co-op","Multi-player"]
 languages: ["English","French","German","Japanese","Korean","Russian","Traditional Chinese","Spanish - Spain","Simplified Chinese","Spanish - Latin America"]
 languages_audio: ["English","French"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-11-07T16:00:00.000Z","end":"2024-11-14T16:00:00.000Z","type":null,"id":"327e2f6dbe2b4859b3e1ba4f69dff5c2"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/adad0744921476ba3e9a65eed9eef7e39dfdff19de770df47a28c622051f2a0d.jpg?namespace=gamesdb"

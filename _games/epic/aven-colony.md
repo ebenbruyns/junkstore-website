@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Language, Mild Blood"},"pegi":{"rating":"12","descriptors":"Bad Language"},"usk":{"rating":"0"},"nzoflc":{"rating":"PG"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 4, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Italian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21127","name":"Creative Community"},{"id":"1146","name":"City Builder"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-11-03T15:00:00.000Z","end":"2021-11-10T15:00:00.000Z","type":null,"id":"408e1dacff9c4ddabecb93b1e6183db9"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d6aef5b0ae89cd976e6697deb70bec0f6d6eae27994f7c6dd4540128440b2187.jpg?namespace=gamesdb"

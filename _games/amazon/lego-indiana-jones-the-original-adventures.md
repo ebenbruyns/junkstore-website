@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence"},"pegi":{"rating":"7","descriptors":"Contains depictions of violence"},"usk":{"rating":"6"},"bbfc":{"rating":"U"},"oflc":{"rating":"PG","descriptors":"Mild violence"}}
 release_date: "June 2, 2008"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
+game_modes: ["Single-player","Co-op","Multi-player","Split Screen"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"40845","name":"Partial Controller Support"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"107","name":"Family Friendly"},{"id":"297","name":"LEGO"}]
@@ -39,6 +39,7 @@ franchise_slug: "lego-indiana-jones|lego-indiana-jones-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7eef27df98190923e855f0710ccbe4e7be5b725768d1eec76f91ec8396e9e72c.jpg?namespace=gamesdb"

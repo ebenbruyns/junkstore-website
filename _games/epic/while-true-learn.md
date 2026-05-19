@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "December 2, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Russian","German","Hungarian","Korean","Greek","Portuguese - Brazil","Simplified Chinese","Polish","French","Italian","Spanish - Spain","Czech","Japanese","Spanish - Latin America","Traditional Chinese","Turkish","Vietnamese","Arabic","Bulgarian","Danish","Dutch","Finnish","Indonesian","Portuguese - Portugal","Romanian","Swedish","Thai","Ukrainian","Hebrew","Norwegian","Malay"]
 languages_audio: []
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1102","name":"Programming"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-12-01T15:00:00.000Z","end":"2021-12-08T15:00:00.000Z","type":null,"id":"154108003e4e4f099634188deb9a01b8"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/df55f7d291e1b1c4885f77611e7e02cbe5518c97e65fbc46ed201b66ff126348.jpg?namespace=gamesdb"

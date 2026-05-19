@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Strong Language, Use of Alcohol, Violence"},"pegi":{"rating":"16"},"dejus":{"rating":"16","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "March 31, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Russian","Simplified Chinese","Traditional Chinese","Korean","Portuguese - Brazil"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"21139","name":"Amazing Characters"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/09bb30e47a0d9bba6031d4597b6b4bc003c62450061e5dd55d0ace0c081bb0e5.jpg?namespace=gamesdb"

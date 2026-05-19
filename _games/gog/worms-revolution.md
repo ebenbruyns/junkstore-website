@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence, Comic Mischief, Mild Language."},"pegi":{"rating":"12","descriptors":"Bad Language, Violence."},"usk":{"rating":"6"},"oflc":{"rating":"PG","descriptors":"Mild comedic violence, crude humour and coarse language, Gaming experience may change online"}}
 release_date: "October 9, 2012"
-game_modes: ["Achievements","Cloud saves","Controller support","Multi-player","Single-player"]
-languages: ["English","German","French","Italian","Spanish - Spain","Polish","Russian","Czech"]
+game_modes: ["Multi-player","Single-player"]
+languages: ["Czech","German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"4","name":"Funny"},{"id":"40850","name":"Steam Leaderboards"},{"id":"193","name":"Classic"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"80","name":"Tactical"},{"id":"72","name":"Local Multiplayer"},{"id":"107","name":"Family Friendly"},{"id":"102","name":"Turn-Based"},{"id":"114","name":"Physics"},{"id":"113","name":"Side Scroller"},{"id":"11","name":"Team-Based"},{"id":"101","name":"Turn-Based Strategy"},{"id":"116","name":"2.5D"},{"id":"182","name":"4 Player Local"}]
 size: "1393 MB"
@@ -39,6 +39,7 @@ franchise_slug: "worms|worms-2|worms-2-armageddon|worms-3d|worms-4|worms-4-mayhe
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7026f5ad399e601ae8cc53f67d18bf32ccdf04cc0ec6de7f33a84d3ad561ea16.jpg?namespace=gamesdb"

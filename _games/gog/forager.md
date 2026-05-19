@@ -27,10 +27,10 @@ developer: Hop Frog, HopFrog
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Puzzle, Simulator
 franchise: 
 age_rating_summary: e10 (ESRB) · 3 (PEGI)
-age_ratings: {"esrb":{"rating":"e10","descriptors":"Crude Humor, Fantasy Violence, Blood"},"pegi":{"rating":"3"},"kgrb":{"rating":"12","descriptors":"내용정보표지사항: 사행성, 제명: Forager, 이용등급: 12세이용가, 등급분류번호: GC-CC-NP-200626-016, 등급분류일자: 20200626, 상호: 바다게임즈, 제작업 신고번호: 제2019-000003호, 배급업 신고번호: 제2019-000001호"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
+age_ratings: {"esrb":{"rating":"e10","descriptors":"Crude Humor, Fantasy Violence, Blood"},"pegi":{"rating":"3"},"kgrb":{"rating":"12"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "April 18, 2019"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","German","Spanish - Spain","Simplified Chinese","Portuguese - Brazil","Japanese","Korean","Russian","Thai","Turkish","French"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Japanese","Korean","Russian","Thai","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"36","name":"Open World"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"5","name":"Replay Value"},{"id":"125","name":"Crafting"},{"id":"39","name":"Building"},{"id":"67","name":"Management"},{"id":"138","name":"Relaxing"},{"id":"180","name":"Base Building"},{"id":"147","name":"Resource Management"},{"id":"159","name":"Agriculture"}]
 size: "134 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2b29c682e62499dd223e658d7f8bb0f44fec12778762d007097f3c230904c0d2.jpg?namespace=gamesdb"

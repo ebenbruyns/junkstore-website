@@ -26,7 +26,7 @@ publisher: Iceberg Interactive
 developer: Iceberg Interactive
 genre: Action, Adventure, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "May 31, 2023"
 game_modes: ["Single-player"]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"id":"epic_9e7d6a034aaf450dacda4b51695d113a","start":"2026-04-23T07:23:01.000Z","end":"2026-04-30T15:00:00.000Z","type":null}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b442884/doomblade-1luo5.jpg"

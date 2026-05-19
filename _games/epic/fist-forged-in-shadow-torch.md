@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "December 14, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Japanese","Traditional Chinese","French","German","Spanish - Spain","Russian","Portuguese - Brazil"]
 languages_audio: ["English","Simplified Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-07-24T15:00:00.000Z","end":"2024-07-31T15:00:00.000Z","type":null,"id":"6e708b1e608f446eaa80488d26b7444b"},{"start":"2022-12-25T15:00:00.000Z","end":"2022-12-26T15:00:00.000Z","type":null,"id":"6e708b1e608f446eaa80488d26b7444b"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/cef636c15fe822617f9b08df5112b7b5915766346b2c99e9958127ba8f2b87ed.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 16 (PEGI) · 16 (USK)
 age_ratings: {"pegi":{"rating":"16"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong Coarse Language, Strong Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Atos criminosos"}}
 release_date: "August 19, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-08-18T15:00:00.000Z","end":"2021-08-25T15:00:00.000Z","type":null,"id":"c1bb7eb3554b42f0957cc87363e59e1d"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/20b55a320faf94468a4ec7208da34241561a26f43d2ee659fe291cf71b401122.jpg?namespace=gamesdb"

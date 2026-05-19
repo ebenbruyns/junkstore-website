@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "June 1, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"138","name":"Relaxing"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"116","name":"2.5D"},{"id":"200","name":"Narration"},{"id":"268","name":"Comic Book"},{"id":"179","name":"Cartoon"},{"id":"140","name":"Hidden Object"},{"id":"2896","name":"collectathon"},{"id":"607","name":"Unity"},{"id":"55320","name":"Creature Collector"},{"id":"5357","name":"comics"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1421790/library_hero.jpg"

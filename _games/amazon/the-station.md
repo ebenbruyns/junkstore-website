@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Use of Alcohol"}}
 release_date: "February 19, 2018"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Spanish - Spain","Russian","Italian","German"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/27dc51bee171fd6e452d34cee7472425e4f8817f69a5908db57c84331a085973.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise: Ghostbusters
 age_rating_summary: PG (OFLC)
 age_ratings: {"oflc":{"rating":"PG","descriptors":"Mild supernatural themes, violence, coarse language, online, interactivity"},"kgrb":{"rating":"12","descriptors":"Violence, Horror, Language, Drugs"},"dejus":{"rating":"10","descriptors":"Violência, Interação de usuários"}}
 release_date: "October 18, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Traditional Chinese"]
 languages_audio: ["English","Japanese"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1203","name":"Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/123ad9b540cbe6dc28ea5e7ea039b8bc189b74d90cf6bddec8cd5d6ac46704e6.jpg?namespace=gamesdb"
@@ -112,3 +113,4 @@ owned: true
 ---
 
 Hunting or haunting! The choice is yours in the upcoming asymmetrical Ghostbusters game from IllFonic, Ghostbusters: Spirits Unleashed. Play with up to four friends or solo on multiple platforms.
+

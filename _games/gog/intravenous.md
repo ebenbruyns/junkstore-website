@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Drogas ilícitas, Violência, Linguagem imprópria"}}
 release_date: "July 26, 2021"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","Russian","Spanish - Spain","German","Turkish","Spanish - Latin America","Portuguese - Brazil","Korean"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Spanish","Latin American Spanish","Korean","Russian","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"45","name":"2D"},{"id":"30","name":"FPS"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"15","name":"Stealth"},{"id":"122","name":"Pixel Graphics"},{"id":"80","name":"Tactical"},{"id":"1465","name":"combat"},{"id":"144","name":"Crime"},{"id":"61","name":"Top-Down"},{"id":"406","name":"Story"},{"id":"278","name":"Assassin"},{"id":"744","name":"friends"},{"id":"236","name":"Top-Down Shooter"},{"id":"289","name":"Noir"},{"id":"3109","name":"weapons"},{"id":"2590","name":"fun"},{"id":"1079","name":"environment"},{"id":"2906","name":"police"},{"id":"1753","name":"guns"},{"id":"892","name":"love"},{"id":"3117","name":"shoot"},{"id":"712","name":"school"},{"id":"1303","name":"Shadows"},{"id":"3076","name":"rush"}]
 size: "660 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a9fccfeaebbafd6a3232b5e36de72ed5e6939b45773363c6edc986da5849d254.jpg?namespace=gamesdb"

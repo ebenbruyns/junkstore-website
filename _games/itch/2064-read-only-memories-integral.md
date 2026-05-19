@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Suggestive Themes, Strong Language"},"pegi":{"rating":"16","descriptors":"Strong Language"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Drogas lícitas"}}
 release_date: "August 14, 2018"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"141","name":"Point & Click"},{"id":"165","name":"Colorful"},{"id":"226","name":"Cyberpunk"},{"id":"90","name":"Visual Novel"},{"id":"197","name":"Robots"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"96","name":"Kickstarter"},{"id":"42410","name":"LGBTQ+"},{"id":"309","name":"Dynamic Narration"},{"id":"151","name":"Modern"},{"id":"904","name":"Gay"},{"id":"1916","name":"memories"},{"id":"893","name":"queer"},{"id":"1918","name":"read"},{"id":"1919","name":"san-francisco"},{"id":"1917","name":"only"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/330820/library_hero.jpg"

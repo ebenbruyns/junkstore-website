@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência, Medo, Atos criminosos, Linguagem imprópria, Conteúdo sexual, Nudez, Sexo Explícito, Drogas lícitas"}}
 release_date: "July 27, 2020"
-game_modes: ["Overlay","Single-player"]
-languages: ["English","Italian","German","Spanish - Spain","Spanish - Latin America","Simplified Chinese","Portuguese - Brazil","Malay","Turkish","Korean","French"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Korean","Turkish"]
 languages_audio: []
 tags_structured: []
 size: "1896 MB"
@@ -39,6 +39,7 @@ franchise_slug: "fetish-locator|fetish-locator-week-one-extend|fetish-locator-we
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d8704ec386468a5d6cc74c3ff38906678831760ceaae7fbdbf802b4a215c2be8.jpg?namespace=gamesdb"

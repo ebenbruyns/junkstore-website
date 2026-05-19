@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "May 24, 2018"
-game_modes: ["Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"141","name":"Point & Click"},{"id":"88","name":"Cute"},{"id":"117","name":"Mystery"},{"id":"639","name":"Roguelike"},{"id":"138","name":"Relaxing"},{"id":"640","name":"Roguelite"},{"id":"98","name":"Loot"},{"id":"164","name":"Cartoony"},{"id":"116","name":"2.5D"},{"id":"238","name":"CRPG"},{"id":"227","name":"Hacking"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"},{"id":"624","name":"Monsters"},{"id":"1315","name":"room"},{"id":"1454","name":"quest"},{"id":"1796","name":"dungeon"},{"id":"329","name":"Mystery Dungeon"},{"id":"49965","name":"Traditional Roguelike"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2124790/library_hero.jpg"

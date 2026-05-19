@@ -29,8 +29,8 @@ franchise: A Plague Tale
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Strong Language, Violence"},"pegi":{"rating":"18","descriptors":"Bad Language"},"usk":{"rating":"16"},"cero":{"rating":"Z","descriptors":"Violence"},"bbfc":{"rating":"18","descriptors":"Violence, Bad Language"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence"},"nzoflc":{"rating":"r16","descriptors":"Violence, Offensive Language, Content that may disturb"},"kgrb":{"rating":"18","descriptors":"Violence, Horror and Strong Language"},"dejus":{"rating":"18","descriptors":"Linguagem imprópria, Violência extrema"}}
 release_date: "May 14, 2019"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Czech","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Korean","Japanese","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "36263 MB"
@@ -39,6 +39,7 @@ franchise_slug: "a-plague-tale-innocence|a-plague-tale-requiem"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2ca4dee8e58745546bfd9305dc38e16e4fe699bca0bd3297fc835fdd0fc00e3b.jpg?namespace=gamesdb"

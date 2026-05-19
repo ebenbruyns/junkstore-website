@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "December 3, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
@@ -39,6 +39,7 @@ franchise_slug: "cave-story|cave-story-3d|cave-story-doukutsu-monogatari|cave-st
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-08-30T15:00:00.000Z","end":"2023-09-06T15:00:00.000Z","type":null,"id":"be3de140fc3749b28215da1626cce8bc"},{"start":"2020-12-02T15:00:00.000Z","end":"2020-12-09T15:00:00.000Z","type":null,"id":"be3de140fc3749b28215da1626cce8bc"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d3e5428cedaa88c9cff00b2d86919b1b3d50373797f2a3da6eca352b36853761.jpg?namespace=gamesdb"

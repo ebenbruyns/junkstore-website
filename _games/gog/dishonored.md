@@ -29,8 +29,8 @@ franchise: Dishonored -
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"bbfc":{"rating":"18"}}
 release_date: "October 9, 2012"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","German","French","Italian","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["Czech","German","English","Spanish","French","Hungarian","Italian","Polish","Russian"]
 languages_audio: ["English","German","French","Italian","Spanish - Spain"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "14719 MB"
@@ -39,6 +39,7 @@ franchise_slug: "dishonored|dishonored-2|dishonored-death-of-the-outsid"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e7e3e77d454e80f12093f67dcf4c095d2502cb617a176ce6e6600c2b1fa6ca2c.jpg?namespace=gamesdb"

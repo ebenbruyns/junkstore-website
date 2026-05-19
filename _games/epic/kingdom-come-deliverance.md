@@ -27,9 +27,9 @@ developer: Warhorse Studios
 genre: Action, RPG, Open World, Adventure
 franchise: Kingdom Come
 age_rating_summary: M (ESRB) · 18 (PEGI)
-age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Nudity, Strong Language, Strong Sexual Content, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"16"},"oflc":{"rating":"r18","descriptors":"High impact sex scenes and reference to sexual violence"},"nzoflc":{"rating":"r18","descriptors":"High impact sex scenes and reference to sexual violence"},"kgrb":{"rating":"18","descriptors":"＊ 과도한 폭력 표현, - 칼, 활 등을 이용한 전투 과정에서 선혈이 튀는 표현이 존재함, ＊직접적인 범죄 표현, -소매치기 기술을 배울 수 있으며, 게임에서 다름 사람의 물건을 훔칠 수 있음, ＊과도한 저속어, 비속어 및 욕설 표현, - f＊＊k, s＊＊t, d＊＊n 등의 표현이 빈번하게 발생함, ＊사실적인 사행행위 모사, -마을에서 주사위 게임을 할 수 있음. 게임에서 획득한 재화를 이용하여 베팅을 할 수 있음, ＊직접적인 약물류 표현, -게임 진행에 따라 술을 마시는 표현이 존재함"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Nudez"}}
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Nudity, Strong Language, Strong Sexual Content, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"16"},"oflc":{"rating":"r18","descriptors":"High impact sex scenes and reference to sexual violence"},"nzoflc":{"rating":"r18","descriptors":"High impact sex scenes and reference to sexual violence"},"kgrb":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Nudez"}}
 release_date: "February 13, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Czech","Polish","Russian","Italian","Simplified Chinese","Turkish","Korean","Ukrainian","Portuguese - Brazil","Japanese"]
 languages_audio: ["English","French","German","Czech","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21135","name":"Realistic Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"}]
@@ -40,6 +40,7 @@ franchise_slug: "kingdom-come-deliverance|kingdom-come-deliverance-goodi|kingdom
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-01-01T16:00:00.000Z","end":"2025-01-02T16:00:00.000Z","type":null,"id":"bd15ffd61c1744a295de36c164694e40"},{"start":"2020-02-12T15:00:00.000Z","end":"2020-02-19T15:00:00.000Z","type":null,"id":"bd15ffd61c1744a295de36c164694e40"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/06da8ac03b7c4cb90ad86b511919b6895adde6a1c393411a4a280e072c693186.jpg?namespace=gamesdb"

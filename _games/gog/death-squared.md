@@ -30,7 +30,7 @@ age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Alcohol reference"},"pegi":{"rating":"3","descriptors":"NONE"},"usk":{"rating":"0"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"A"},"csrr":{"rating":"G"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "March 13, 2017"
 game_modes: ["Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Japanese","Korean","Russian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"4","name":"Funny"},{"id":"49","name":"Difficult"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"11669","name":"stats"},{"id":"107","name":"Family Friendly"},{"id":"165","name":"Colorful"},{"id":"197","name":"Robots"},{"id":"148","name":"Dark Humor"},{"id":"1867","name":"puzzles"},{"id":"116","name":"2.5D"},{"id":"182","name":"4 Player Local"},{"id":"112","name":"Minimalist"},{"id":"625","name":"party"},{"id":"153","name":"Satire"},{"id":"309","name":"Dynamic Narration"},{"id":"163","name":"Co-op Campaign"},{"id":"202","name":"Artificial Intelligence"},{"id":"332","name":"Intentionally Awkward Controls"}]
 size: "136 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/80f83667bc3d0aed168fbefefefaece36daa38ed48071adf3f9cd60d38238e79.jpg?namespace=gamesdb"

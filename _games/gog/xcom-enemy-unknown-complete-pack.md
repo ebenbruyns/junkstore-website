@@ -27,10 +27,10 @@ developer: Firaxis Games
 genre: Strategy
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
-age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Strong Language, Violence"},"pegi":{"rating":"18"},"usk":{"rating":"16"},"bbfc":{"rating":"12"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"18","descriptors":"내용정보표지사항: 폭력성, 제명:  엑스컴: 에너미 언노운, 이용등급: 청소년이용불가, 등급분류번호: CC-NP-120713-004, 등급분류일자: 20120713, 상호: 테이크투인터렉티브유한회사, 제작.배급업 신고번호: 제 2009-00016호, ----------------------------------, Game Descriptive: Violence, Title Name: XCOM: Enemy Unknown, Age: 18+, Certificate #: CC-NP-120713-004, Issue date: 20120713, Company Name:테이크투인터렉티"},"dejus":{"rating":"14"}}
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Strong Language, Violence"},"pegi":{"rating":"18"},"usk":{"rating":"16"},"bbfc":{"rating":"12"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"18"},"dejus":{"rating":"14"}}
 release_date: "October 11, 2012"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","German","French","Italian","Korean","Spanish - Spain","Russian","Japanese","Polish","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English","German","French","Italian","Spanish - Spain","Russian","Polish"]
 tags_structured: []
 size: "18986 MB"
@@ -39,6 +39,7 @@ franchise_slug: "the-bureau-xcom-declassified|ufo-enemy-unknown|x-com-alliance|x
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/200510/library_hero.jpg"

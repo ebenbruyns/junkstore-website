@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Nudity, Strong Language, Strong Sexual Content, Use of Drugs"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence, Crime"},"oflc":{"rating":"r18","descriptors":"High impact sex, Nudity, Coarse language, Drug use, Themes and violence"},"nzoflc":{"rating":"r18","descriptors":"Violence, Offensive Language, Sex Scenes"},"fpb":{"rating":"18"},"csrr":{"rating":"R","descriptors":"Sex, Violence, Tobacco &amp; Alcohol, Drugs, Improper Language"},"mda":{"rating":"M18","descriptors":"Violence, Sex, Nudity, Coarse Language"},"dejus":{"rating":"18","descriptors":"Elicit drugs, Inappropriate Language, Violence"}}
 release_date: "May 19, 2020"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Czech","Russian","Japanese","Simplified Chinese","Traditional Chinese","Korean"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain"]
 tags_structured: []
 size: "52061 MB"
@@ -39,6 +39,7 @@ franchise_slug: "mafia|mafia-ii|mafia-ii-definitive-edition|mafia-iii|mafia-iii-
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a2e97aa46dcf268f9b7ef3d25cafb2d7357b89e51f7f9c8ecd43289b0cb5f931.jpg?namespace=gamesdb"

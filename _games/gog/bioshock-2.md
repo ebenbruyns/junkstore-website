@@ -27,10 +27,10 @@ developer: 2K Marin
 genre: Role-playing (RPG), Adventure, Puzzle, Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
-age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"cero":{"rating":"Z"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"18","descriptors":"내용정보표지사항: 폭력성, 공포, 약물, 제명:  바이오 쇼크 2, 이용등급: 청소년이용불가, 등급분류번호: CC-NP-120316-015, 등급분류일자: 20120316, 상호: 테이크투인터렉티브유한회사, 제작.배급업 신고번호: 제 2009-00016호, ----------------------------------, Game Descriptive: Violence, Horror, Drug, Title Name: BioShock 2, Age: 18+, Certificate #: CC-NP-120316-015, Issue date: 20120316, Company Name:테이크투인터렉티브유한회사, Distributor No,: 제 2009-00016호"}}
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"cero":{"rating":"Z"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"18"}}
 release_date: "February 9, 2010"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Italian","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","French","German","Italian","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"97","name":"Action RPG"},{"id":"41","name":"Dark"},{"id":"119","name":"Dystopian"},{"id":"305","name":"Linear"},{"id":"154","name":"Steampunk"},{"id":"250","name":"Underwater"},{"id":"281","name":"Philisophical"}]
 size: "6.99 GB"
@@ -39,6 +39,7 @@ franchise_slug: "bioshock|bioshock-2|bioshock-2-minervas-den-remast|bioshock-2-s
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b1ba7d737245c994a6b50cb2a1d140e7642d3089006d7b8102f055136b3615a6.jpg?namespace=gamesdb"

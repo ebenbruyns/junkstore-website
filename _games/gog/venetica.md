@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Mild Blood, Mild Suggestive Themes, Violence"},"pegi":{"rating":"16","descriptors":"Realistic looking violence"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Nudez, Violência"}}
 release_date: "September 4, 2009"
-game_modes: ["Cloud saves","Single-player"]
-languages: ["English","German","French","Italian","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","German"]
 tags_structured: []
 size: "6353 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/3d5851ad3902bf7c1bae2ada0ad90f5c3db3fab8944ba2bedcff7b23f09c55c4.jpg?namespace=gamesdb"

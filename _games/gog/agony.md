@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Strong Sexual Content, Nudity, Strong Language, Intense Violence, Blood and Gore"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"oflc":{"rating":"r18"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Temas sensíveis, Linguagem imprópria"}}
 release_date: "May 29, 2018"
-game_modes: ["Achievements","Cloud saves","Controller support","Single-player"]
-languages: ["English","French","German","Polish","Italian","Spanish - Spain","Japanese","Korean","Portuguese - Portugal","Russian","Simplified Chinese","Turkish"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Portuguese","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"40850","name":"Steam Leaderboards"},{"id":"1","name":"Survival"},{"id":"34","name":"Violent"},{"id":"41","name":"Dark"},{"id":"44","name":"Nudity"},{"id":"17","name":"Survival Horror"},{"id":"50","name":"Sexual Content"},{"id":"187","name":"Demons"},{"id":"286","name":"Psychedelic"}]
 size: "13148 MB"
@@ -39,6 +39,7 @@ franchise_slug: "agony|succubus"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/487720/library_hero.jpg"

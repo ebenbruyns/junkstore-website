@@ -39,6 +39,7 @@ franchise_slug: "tormented-souls|tormented-souls-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1367590/library_hero.jpg"

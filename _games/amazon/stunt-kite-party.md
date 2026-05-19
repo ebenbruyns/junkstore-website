@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6"}}
 release_date: "February 8, 2019"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player","Multi-player"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"198","name":"Split Screen"},{"id":"72","name":"Local Multiplayer"},{"id":"11669","name":"stats"},{"id":"625","name":"party"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/275e5e4476ca970cc266e0619bcc7d51c9e00c1d4fb1662632387a71534e0d96.jpg?namespace=gamesdb"

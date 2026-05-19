@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "June 11, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"8","name":"First-Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"16","name":"Horror"},{"id":"4","name":"Funny"},{"id":"122","name":"Pixel Graphics"},{"id":"14","name":"Early Access"},{"id":"74","name":"Retro"},{"id":"17","name":"Survival Horror"},{"id":"639","name":"Roguelike"},{"id":"640","name":"Roguelite"},{"id":"46","name":"Surreal"},{"id":"243","name":"1990's"},{"id":"153","name":"Satire"},{"id":"273","name":"Parody"},{"id":"570","name":"Old School"},{"id":"579","name":"Addictive"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1275890/library_hero.jpg"

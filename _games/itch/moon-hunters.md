@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Blood"},"pegi":{"rating":"7","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "March 10, 2016"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Italian","Japanese","Simplified Chinese"]
 languages_audio: ["English","French"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"468","name":"role-playing"},{"id":"40833","name":"Captions available"},{"id":"639","name":"Roguelike"},{"id":"337","name":"overlay"},{"id":"334","name":"achievements"},{"id":"96","name":"Kickstarter"},{"id":"182","name":"4 Player Local"},{"id":"625","name":"party"},{"id":"108","name":"Mythology"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/320040/library_hero.jpg"

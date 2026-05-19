@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Language, Violence"},"pegi":{"rating":"16","descriptors":"Violence, In game purchases"},"usk":{"rating":"16"},"cero":{"rating":"D","descriptors":"Violence"},"bbfc":{"descriptors":"Blood, Language, Violence"},"oflc":{"rating":"M","descriptors":"Science Fiction Themes, Science Fiction Violence, Online Interactivity"},"nzoflc":{"rating":"M","descriptors":"Science Fiction Themes, Science Fiction Violence, Online Interactivity"},"kgrb":{"rating":"15","descriptors":"Violence"},"fpb":{"rating":"16"},"csrr":{"rating":"C15","descriptors":"Violence, Terror, Inappropriate Language"},"mda":{"rating":"AA16"},"dejus":{"rating":"14","descriptors":"Violence"}}
 release_date: "August 23, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "destiny|destiny-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/04d1902d0c06cfb8eec473208dce5cd6fca52b8a2ba20ddfe8ec8b92d68afbd0.jpg?namespace=gamesdb"

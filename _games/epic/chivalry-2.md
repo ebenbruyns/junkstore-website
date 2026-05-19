@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Mild Sexual Themes, Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, In-Game Purchases"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"r18","descriptors":"In-Game Purchases, Online Interactivity, High Impact Violence"},"kgrb":{"rating":"18","descriptors":"Violence"},"csrr":{"rating":"R","descriptors":"Violence"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Drogas lícitas, Compras on-line"}}
 release_date: "June 8, 2021"
-game_modes: ["Multiplayer"]
+game_modes: ["Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "age-of-chivalry|chivalry-2|chivalry-medieval-warfare"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-31T16:00:00.000Z","end":"2026-01-01T16:00:00.000Z","type":null,"id":"79e93c9a70b14b1cba2c8c9b45a1c36b"},{"start":"2024-05-29T15:00:00.000Z","end":"2024-06-05T15:00:00.000Z","type":null,"id":"79e93c9a70b14b1cba2c8c9b45a1c36b"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d463f92ac891cc4ac32b33c3a2f7ef3838022fe87e30812bc352987ecbc0904b.jpg?namespace=gamesdb"

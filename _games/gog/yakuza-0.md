@@ -27,9 +27,9 @@ developer: Ryu Ga Gotoku Studios, Sega Games
 genre: role-playing-rpg, adventure, simulator, hack-and-slash-beat-em-up
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
-age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Sexual Content, Strong Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Gambling"},"usk":{"rating":"18"},"cero":{"rating":"D","descriptors":"セクシャル, 暴力, ギャンブル, 犯罪"},"kgrb":{"rating":"19","descriptors":"선정성, 폭력성, 언어의 부적절성, 약물, 사행성"},"dejus":{"rating":"18","descriptors":"Violência, Temas sensíveis, Linguagem imprópria"}}
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Sexual Content, Strong Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Gambling"},"usk":{"rating":"18"},"cero":{"rating":"D"},"kgrb":{"rating":"19"},"dejus":{"rating":"18","descriptors":"Violência, Temas sensíveis, Linguagem imprópria"}}
 release_date: "March 12, 2015"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English","Japanese"]
 languages_audio: ["Japanese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"4","name":"Funny"},{"id":"40850","name":"Steam Leaderboards"},{"id":"123","name":"Comedy"},{"id":"34","name":"Violent"},{"id":"397","name":"Online multiplayer"},{"id":"72","name":"Local Multiplayer"},{"id":"134","name":"Anime"},{"id":"192","name":"Mature"},{"id":"50","name":"Sexual Content"},{"id":"203","name":"Beat 'em up"},{"id":"144","name":"Crime"},{"id":"209","name":"Drama"},{"id":"160","name":"Dating Sim"},{"id":"569","name":"Minigames"}]
@@ -39,6 +39,7 @@ franchise_slug: "kurohyo-ryu-ga-gotoku-shinsho|kurohyou-2-ryu-ga-gotoku-ashur|ya
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1b57f4bb3a0ce35f0d1652bb81fa64f0054c424007223396e8993e9ff46beb9e.jpg?namespace=gamesdb"

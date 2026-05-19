@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB)
 age_ratings: {"esrb":{"rating":"E"},"dejus":{"rating":"L"}}
 release_date: "May 5, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Online Multi-player","Local Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Swedish"]
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-05-04T15:00:00.000Z","end":"2022-05-11T15:00:00.000Z","type":null,"id":"f2496286331e405793d69807755b7b23"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/0221c50d07018c1013b13fe8ef4185ed548e673ad339fd9b94027e988ecf6693.jpg?namespace=gamesdb"

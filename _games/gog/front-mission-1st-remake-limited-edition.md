@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: PEGI 12
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 1, 2023"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Portugal","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Japanese","Polish","Portuguese","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"32","name":"Sci-fi"},{"id":"4","name":"Funny"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"43","name":"Post-apocalyptic"},{"id":"571","name":"3D"},{"id":"77","name":"Realistic"},{"id":"167","name":"Futuristic"},{"id":"101","name":"Turn-Based Strategy"},{"id":"81","name":"Military"},{"id":"67","name":"Management"},{"id":"271","name":"Remake"},{"id":"233","name":"JRPG"},{"id":"197","name":"Robots"},{"id":"176","name":"Turn-Based Tactics"},{"id":"184","name":"Mechs"},{"id":"55","name":"Tanks"},{"id":"64326","name":"Постапокалипсис"},{"id":"78619","name":"Ремейк"}]
 size: "13466 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1e09a2f90a49c559dab3eac3badcba8ff84eb4feb147ed5a12554fcf86428795.jpg?namespace=gamesdb"

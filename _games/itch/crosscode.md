@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Language"},"pegi":{"rating":"12","descriptors":"Mild Swearing"},"usk":{"rating":"6","descriptors":"Abstract Violence, Occasional Swearing"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
 release_date: "September 1, 2018"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","German","Simplified Chinese","Japanese","Korean"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"14","name":"Early Access"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"468","name":"role-playing"},{"id":"336","name":"controller support"},{"id":"226","name":"Cyberpunk"},{"id":"337","name":"overlay"},{"id":"233","name":"JRPG"},{"id":"143","name":"RPGMaker"},{"id":"340","name":"in development"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/368340/library_hero.jpg"

@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-01-01T16:00:00.000Z","end":"2026-01-08T16:00:00.000Z","type":null,"id":"acd0b5048a0d43ec80909788a388964a"}]
+free_games_aliases: []
 
 # Images
 banner_image: ""

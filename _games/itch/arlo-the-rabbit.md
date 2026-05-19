@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Cartoon Violence"}}
 release_date: "May 23, 2018"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/854450/library_hero.jpg"

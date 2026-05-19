@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 22, 2020"
-game_modes: []
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Danish","Dutch","Finnish","Greek","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Swedish","Thai","Traditional Chinese","Turkish","Vietnamese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"6","name":"Exploration"},{"id":"107","name":"Family Friendly"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"138","name":"Relaxing"},{"id":"112","name":"Minimalist"},{"id":"575","name":"Logic"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a467a8e5b752559519e22222992aa3d2a748e1e4420530f3d5c55189e4d89f9b.jpg?namespace=gamesdb"

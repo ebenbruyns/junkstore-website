@@ -27,10 +27,10 @@ developer: 2K Boston, 2K Australia
 genre: Role-playing (RPG), Adventure, Puzzle, Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
-age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Drug Reference, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"strong horror violence and themes"},"nzoflc":{"rating":"ma15","descriptors":"strong horror violence and themes"},"kgrb":{"rating":"18","descriptors":"내용정보표지사항: 폭력성, 공포, 약물, 제명:  바이오 쇼크, 이용등급: 청소년이용불가, 등급분류번호: CC-NP-120316-014, 등급분류일자: 20120316, 상호: 테이크투인터렉티브유한회사, 제작.배급업 신고번호: 제 2009-00016호, ----------------------------------, Game Descriptive: Violence, Horror,Drug, Title Name: BioShock, Age: 18+, Certificate #: CC-NP-120316-014, Issue date: 20120316, Company Name:테이크투인터렉티브유한회사, Distributor No,: 제 2009-00016호"}}
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Drug Reference, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"strong horror violence and themes"},"nzoflc":{"rating":"ma15","descriptors":"strong horror violence and themes"},"kgrb":{"rating":"18"}}
 release_date: "August 21, 2007"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Italian","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","French","German","Italian","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"40845","name":"Partial Controller Support"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"97","name":"Action RPG"},{"id":"41","name":"Dark"},{"id":"119","name":"Dystopian"},{"id":"154","name":"Steampunk"},{"id":"208","name":"Alternate History"},{"id":"287","name":"Political"},{"id":"250","name":"Underwater"}]
 size: "3947 MB"
@@ -39,6 +39,7 @@ franchise_slug: "bioshock|bioshock-2|bioshock-2-minervas-den-remast|bioshock-2-s
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/cca07f661b51e7a6493f63313c513e51a268ef5d43ac3cb73d68ed36e80490e9.jpg?namespace=gamesdb"

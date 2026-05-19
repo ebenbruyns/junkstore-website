@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: PEGI 12
 age_ratings: {"kgrb":{"rating":"15"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "May 28, 2019"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","Korean","French","German","Russian","Simplified Chinese","Ukrainian","Spanish - Latin America"]
+game_modes: ["Single-player"]
+languages: ["Chinese Simplified","German","English","Latin American Spanish","French","Korean","Russian","Ukrainian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"189","name":"Female Protagonist"},{"id":"468","name":"role-playing"},{"id":"48","name":"Dungeon Crawler"},{"id":"258","name":"Hand-drawn"}]
 size: "2605 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1f0acd9d2aef93e05b664515bda091adee9d2605689be76d8ffd463b0c398b0e.jpg?namespace=gamesdb"

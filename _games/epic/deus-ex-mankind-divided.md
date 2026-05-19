@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Drug Reference, Intense Violence, Partial Nudity, Sexual Themes, Strong Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence, Online interactivity"},"nzoflc":{"rating":"r16","descriptors":"Violence, Offensive Language, Sexual Themes"},"kgrb":{"rating":"18","descriptors":"Violence, Drug Reference, Offensive Language"},"fpb":{"rating":"18"},"csrr":{"rating":"R"},"mda":{"rating":"M18","descriptors":"STRONG COARSE LANGUAGE, VIOLENCE"},"dejus":{"rating":"14","descriptors":"Violence"}}
 release_date: "December 13, 2023"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "deus-ex|deus-ex-2-invisible-war|deus-ex-go|deus-ex-human-revolu
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-03-13T15:00:00.000Z","end":"2024-03-20T15:00:00.000Z","type":null,"id":"6e41bd515f5e4c93bc7888b582e88865"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/21ec85441cb163bf77f5b5934854b35d50df833d6233a702f3b5d995f4bd65fd.jpg?namespace=gamesdb"

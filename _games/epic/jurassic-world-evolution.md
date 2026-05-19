@@ -29,7 +29,7 @@ franchise: Jurassic World Evolution
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Blood, Violence"},"pegi":{"rating":"16"},"usk":{"rating":"12"}}
 release_date: "December 31, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Italian","Korean","Spanish - Latin America"]
 languages_audio: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Italian","Korean","Spanish - Latin America"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "jurassic-park|jurassic-park-2-the-chaos-cont|jurassic-park-3-da
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-12-30T15:00:00.000Z","end":"2021-01-06T15:00:00.000Z","type":null,"id":"d5a8d607058f4accb71aa406dc8cece0"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/25bdfb52b92a1e2d5898f8b190ca3a71016aa1b1165fa6982886573945721fec.jpg?namespace=gamesdb"

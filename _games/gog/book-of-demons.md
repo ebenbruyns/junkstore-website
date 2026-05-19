@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "December 13, 2018"
-game_modes: ["Achievements","Cloud saves","Controller support","Leaderboards","Overlay","Single-player"]
-languages: ["English","Polish","French","Italian","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","German","Turkish","Spanish - Spain","Bulgarian","Korean","Ukrainian"]
+game_modes: ["Single-player"]
+languages: ["Belarusian","Bulgarian","Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"115","name":"Controller"},{"id":"14","name":"Early Access"},{"id":"11669","name":"stats"},{"id":"468","name":"role-playing"},{"id":"68","name":"Hack and Slash"},{"id":"40","name":"Dark Fantasy"},{"id":"99","name":"Isometric"},{"id":"48","name":"Dungeon Crawler"},{"id":"187","name":"Demons"},{"id":"127","name":"Card Game"}]
 size: "770 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/bc782bab7c6089b16374c80fae734a9b68bd66f8babed86375df7e758926f3f1.jpg?namespace=gamesdb"

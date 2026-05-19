@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-18T08:36:54.129Z",
+  "generated_at": "2026-05-19T22:30:35.214Z",
   "games": [
     {
       "store": "epic",
-      "slug": "batman-the-telltale-series",
-      "featured_in": "2026-05-18",
-      "post_url": "/blog/games-tested-may-18/",
-      "title": "",
-      "standalone_rating": "",
-      "icon_image": "",
-      "vertical_artwork": ""
+      "slug": "the-telltale-batman-shadows-edition",
+      "featured_in": "2026-05-20",
+      "post_url": "/blog/games-tested-may-20/",
+      "title": "The Telltale Batman: Shadows Edition",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/49d691510897b2bfee5f71cb493fa1283f6bb4b5d5b140ce9efbf09728b8e8df.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/250ccff8d12d830837fd02af300378681caaa8ce4f85b9c462ef20a4c4471393.jpg?namespace=gamesdb"
     },
     {
       "store": "epic",
       "slug": "sunderfolk",
-      "featured_in": "2026-05-18",
-      "post_url": "/blog/games-tested-may-18/",
+      "featured_in": "2026-05-20",
+      "post_url": "/blog/games-tested-may-20/",
       "title": "Sunderfolk",
       "standalone_rating": "green",
       "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2414270/60c0c3f09f2e84a5b66b31faf8e488fbf1890480/capsule_184x69.jpg?t=1773940416",
@@ -24,8 +24,8 @@
     {
       "store": "epic",
       "slug": "lethal-honor-order-of-the-apocalypse",
-      "featured_in": "2026-05-18",
-      "post_url": "/blog/games-tested-may-18/",
+      "featured_in": "2026-05-20",
+      "post_url": "/blog/games-tested-may-20/",
       "title": "Lethal Honor: Order of the Apocalypse",
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/dc8d698c8be3fe2822b30aa952763fdf0c1e072e1f9cf1b70d6733030e8467e5.jpg?namespace=gamesdb",
@@ -34,8 +34,8 @@
     {
       "store": "gog",
       "slug": "60-minutes-to-extinction-escape-room",
-      "featured_in": "2026-05-18",
-      "post_url": "/blog/games-tested-may-18/",
+      "featured_in": "2026-05-20",
+      "post_url": "/blog/games-tested-may-20/",
       "title": "60 Minutes to Extinction: Escape Room",
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/0c20da11c97fac3c3e50d13d7b712b1d52b12a1ae527c70fd759f6772079a459.jpg?namespace=gamesdb",
@@ -44,8 +44,8 @@
     {
       "store": "amazon",
       "slug": "survival-fountain-of-youth",
-      "featured_in": "2026-05-18",
-      "post_url": "/blog/games-tested-may-18/",
+      "featured_in": "2026-05-20",
+      "post_url": "/blog/games-tested-may-20/",
       "title": "Survival: Fountain of Youth",
       "standalone_rating": "green",
       "icon_image": "https://m.media-amazon.com/images/I/41Rk8aGJ44L.png",

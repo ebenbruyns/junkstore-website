@@ -29,7 +29,7 @@ franchise: Borderlands
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Gambling, In-Game Purchases"},"usk":{"rating":"18"},"nzoflc":{"rating":"r16","descriptors":"Violence"},"kgrb":{"rating":"18","descriptors":"Violence, Language"},"csrr":{"rating":"R","descriptors":"Sex, Violence, Improper Language"},"mda":{"rating":"M18","descriptors":"Violence and Coarse Language"},"dejus":{"rating":"16","descriptors":"Arma com violência (10 anos);, Ossada ou esqueleto com resquício de violência (10 anos);, Ato violento (12 anos);, Descrição de violência (12 anos);, Exposição de cadáver (12 anos);, Linguagem chula (12 anos);, Presença de sangue (12 anos);, Morte intencional (14 anos);, Banalização da violência (16 anos);, Mutilação (16 anos);"}}
 release_date: "September 13, 2019"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|bor
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-05-18T15:00:00.000Z","end":"2022-05-25T15:00:00.000Z","type":null,"id":"dd845909e1504c048c14499eab60ec62"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1b0b3c7ef6b527c726b0d9caaf13bdf9f86027a0b51dbac7d7fba7c0a2f8ebfb.jpg?namespace=gamesdb"

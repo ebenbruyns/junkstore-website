@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: PEGI 16
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "March 14, 2017"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Korean","Japanese"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Korean","Polish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"123","name":"Comedy"},{"id":"34","name":"Violent"},{"id":"15","name":"Stealth"},{"id":"40","name":"Dark Fantasy"},{"id":"120","name":"Memes"},{"id":"188","name":"Parkour"},{"id":"154","name":"Steampunk"},{"id":"148","name":"Dark Humor"},{"id":"278","name":"Assassin"}]
 size: "10731 MB"
@@ -39,6 +39,7 @@ franchise_slug: "of-orcs-and-men|styx-blades-of-greed|styx-master-of-shadows|sty
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/89ea5b71fdd0f8394f67970dd53228292efd550f934f946e79bdd3a7d1f2ee13.jpg?namespace=gamesdb"

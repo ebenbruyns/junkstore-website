@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Mature 17+
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Atos criminosos, Temas sensíveis, Drogas ilícitas"}}
 release_date: "November 13, 2025"
-game_modes: ["Single-player","Multi-player","Co-op"]
+game_modes: ["Single-player","Online Multi-player","Co-op"]
 languages: ["English","French","Spanish - Spain","Japanese","Russian","Simplified Chinese"]
 languages_audio: ["English","French"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21135","name":"Realistic Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-11-13T16:00:00.000Z","end":"2025-11-20T16:00:00.000Z","type":null,"id":"639547f643c4440db499878634c22dd1"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1359090/library_hero.jpg"

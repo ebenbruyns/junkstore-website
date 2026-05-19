@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 12 (PEGI)
 age_ratings: {"pegi":{"rating":"12"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "November 15, 2019"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op","Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Japanese"]
 languages_audio: []
 tags_structured: []
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2614640/library_hero.jpg"

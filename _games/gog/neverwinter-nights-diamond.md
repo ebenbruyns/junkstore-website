@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: ESRB 13
 age_ratings: {}
 release_date: "December 12, 2005"
-game_modes: ["Cloud saves","Multi-player","Single-player"]
-languages: ["English","French","German","Italian","Polish","Spanish"]
+game_modes: ["Multi-player","Single-player"]
+languages: ["German","English","Spanish","French","Italian","Polish"]
 languages_audio: []
 tags_structured: []
 size: "2508 MB"
@@ -39,6 +39,7 @@ franchise_slug: "neverwinter-nights-2|neverwinter-nights-2002"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/fd4c34c4059a37cf2a27f749ddcf0227be3af162771289f255fe2db4f6e0a4b9.jpg?namespace=gamesdb"

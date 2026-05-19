@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Teen
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "September 26, 2024"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Polish"]
 languages_audio: ["English","Polish"]
 tags_structured: [{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1116","name":"Comedy"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/8ee5bb2ad9feda38e479d2c90653040cf75eaef0f4e9fe7ca57872820dc98efd.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "July 1, 2018"
-game_modes: ["Local multiplayer"]
+game_modes: ["Local Multi-player"]
 languages: []
 languages_audio: []
 tags_structured: [{"id":"7","name":"Multiplayer"},{"id":"45","name":"2D"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"266","name":"Level Editor"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: ""

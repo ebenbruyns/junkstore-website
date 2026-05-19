@@ -29,7 +29,7 @@ franchise: Axiom Verge
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence, Language"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"dejus":{"rating":"14","descriptors":"Animação de sangue, Linguagem imprópria, Violência"}}
 release_date: "May 14, 2015"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]
@@ -39,6 +39,7 @@ franchise_slug: "axiom-verge|axiom-verge-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/89e5474473ffd7f1dbf55915ea180a37f80cce63dd29d2985b3b0c4ac94fb3c3.jpg?namespace=gamesdb"

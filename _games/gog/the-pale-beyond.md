@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Medo, Atos criminosos, Temas sensíveis, Linguagem imprópria, Drogas lícitas, Drogas ilícitas"}}
 release_date: "February 24, 2023"
-game_modes: ["Controller support","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"64","name":"Adjustable Text Size"},{"id":"67","name":"Camera Comfort"},{"id":"68","name":"Custom Volume Controls"},{"id":"78","name":"Adjustable Difficulty"},{"id":"75","name":"Keyboard Only Option"},{"id":"76","name":"Mouse Only Option"},{"id":"74","name":"Playable without Timed Input"},{"id":"69","name":"Stereo Sound"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/efa3e8b2ad0b4becffb5a5d05cc19cb0264dd9c302ca61c6b6feb3cb113224e3.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Lyrics"},"pegi":{"rating":"3","descriptors":"Online Interactivity."},"usk":{"rating":"6"},"oflc":{"rating":"G","descriptors":"Online interactivity."},"nzoflc":{"rating":"G","descriptors":"Online interactivity."},"fpb":{"rating":"A"},"dejus":{"rating":"L"}}
 release_date: "September 23, 2020"
-game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Portuguese - Portugal","Japanese","Korean","Russian","Turkish","Polish"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1141","name":"Free to Play"},{"id":"1205","name":"DRIVING"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"}]
@@ -39,6 +39,7 @@ franchise_slug: "rocket-league|rocket-league-sideswipe"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ca8df85fb30e736ecb20f757e33255f6b5eaae65fa1fbf24237e6297decf2c97.jpg?namespace=gamesdb"

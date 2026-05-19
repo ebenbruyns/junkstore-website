@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Suggestive Themes, Language, Drug Reference, Use of Alcohol, Simulated Gambling"},"pegi":{"rating":"16","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"oflc":{"rating":"M","descriptors":"Mature themes, Violence, Simulated gambling, Online interactivity"},"nzoflc":{"rating":"M","descriptors":"Mature themes, Violence, Simulated gambling, Online interactivity"},"kgrb":{"rating":"15"},"fpb":{"rating":"16"},"csrr":{"rating":"C15"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "November 9, 2021"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Traditional Chinese"]
 languages_audio: ["English","French","Italian","Spanish - Spain"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|bor
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-11-10T15:00:00.000Z","end":"2021-11-17T15:00:00.000Z","type":null,"id":"e73c6b914a394bbface8847d75879492"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/df84f412beeea15e6b3161365af7ccd74027c949ae339a7c6ba2ae3c0a4cc879.jpg?namespace=gamesdb"

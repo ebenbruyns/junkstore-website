@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 7 (PEGI)
 age_ratings: {"pegi":{"rating":"7","descriptors":"Fear"},"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "November 15, 2013"
-game_modes: ["Cloud saves","Co-op","Multi-player","Overlay","Single-player"]
-languages: ["English","German"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Korean","Polish","Russian"]
 languages_audio: ["English","German"]
 tags_structured: []
 size: "3.13 GB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/fb479b4f352dbd5e537fbf08bb5e299dd18b855a96f0d1e0a34a82f12bcf99e3.jpg?namespace=gamesdb"

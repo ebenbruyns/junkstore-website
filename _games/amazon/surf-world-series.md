@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"oflc":{"rating":"G","descriptors":"Very mild themes, online interactivity"},"dejus":{"rating":"L"}}
 release_date: "August 29, 2017"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player","Multi-player"]
 languages: ["English","French","Italian","German","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6cd4c3188fff01db442fb624cf93825aea159047eac4137b2a068e53f82b5458.jpg?namespace=gamesdb"

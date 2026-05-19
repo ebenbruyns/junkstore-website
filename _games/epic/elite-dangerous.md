@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Drug Reference, Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence, Online Gameplay"},"dejus":{"rating":"10","descriptors":"Atos criminosos, Violência fantasiosa"}}
 release_date: "November 19, 2020"
-game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
+game_modes: ["Single-player","Online Multi-player"]
 languages: ["English","French","German","Russian","Spanish - Spain","Portuguese - Brazil"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"1121","name":"Space"},{"id":"1281","name":"Space Sim"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"217","name":"SPACE SIMULATION"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1279","name":"Vampire"}]
@@ -39,6 +39,7 @@ franchise_slug: "elite|elite-dangerous|frontier-elite-2|frontier-first-encounter
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-11-18T15:00:00.000Z","end":"2020-11-25T15:00:00.000Z","type":null,"id":"7b002177046841a69da1adc0e1d0c98f"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a91d3e790a39ea918723598e6c95c0816486af70442f3de028f548336c10e2c4.jpg?namespace=gamesdb"

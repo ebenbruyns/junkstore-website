@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Everyone
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "November 15, 2022"
-game_modes: ["Single player","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-02-14T15:00:00.000Z","end":"2024-02-21T15:00:00.000Z","type":null,"id":"aca45f8a6b124590af039f97e148bd89"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d80091ad24b3b7f17245a3a3cbd1a2d345700b3b0327b9aa71a240435e792e30.jpg?namespace=gamesdb"

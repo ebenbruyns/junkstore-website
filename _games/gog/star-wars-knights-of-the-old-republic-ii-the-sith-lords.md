@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"12","descriptors":"Realistic looking violence - Mild bad language"},"usk":{"rating":"12"}}
 release_date: "December 6, 2004"
-game_modes: ["Cloud saves","Single-player"]
-languages: ["English","French","German","Italian","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"40852","name":"Steam Workshop"},{"id":"25","name":"Space"},{"id":"468","name":"role-playing"},{"id":"62","name":"Moddable"},{"id":"121","name":"Character Customization"},{"id":"102","name":"Turn-Based"},{"id":"145","name":"Choices Matter"},{"id":"218","name":"Multiple Endings"},{"id":"175","name":"Turn-Based Combat"},{"id":"194","name":"Real-Time with Pause"},{"id":"206","name":"Party-Based RPG"},{"id":"318","name":"Star Wars"}]
 size: "4909059061
@@ -40,6 +40,7 @@ franchise_slug: "kotor-ii|star-wars-knights-of-the-old-r|star-wars-the-old-repub
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b72dfc5471dd7c8a1205f887498f20b658dbd0f4197589f36352dfab0cb7b612.jpg?namespace=gamesdb"

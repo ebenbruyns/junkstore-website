@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Strong Sexual Content, Strong Language, Violence, Blood and Gore, Nudity"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"kgrb":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Nudez"}}
 release_date: "September 16, 2008"
-game_modes: ["Cloud saves","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Italian","Czech","Russian","Hungarian","Polish","Traditional Chinese (text Only)"]
+game_modes: ["Single-player"]
+languages: ["Czech","German","English","Spanish","French","Hungarian","Italian","Polish","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"97","name":"Action RPG"},{"id":"44","name":"Nudity"},{"id":"145","name":"Choices Matter"},{"id":"40","name":"Dark Fantasy"},{"id":"192","name":"Mature"},{"id":"66","name":"Medieval"},{"id":"82","name":"Magic"},{"id":"218","name":"Multiple Endings"},{"id":"283","name":"Based On A Novel"}]
 size: "10334069000
@@ -40,6 +40,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/fc1c44b2252e3200db66872630f7e21687bba217b6eabb188451556b5941cf63.jpg?namespace=gamesdb"

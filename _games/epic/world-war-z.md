@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: ESRB Mature 17+
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
 release_date: "April 16, 2019"
-game_modes: ["Co-op","Multiplayer","Single Player"]
+game_modes: ["Single-player","Co-op"]
 languages: ["Russian","English","Spanish - Spain","Traditional Chinese","French","Italian","German","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"39940","name":"Gift A Game"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1279","name":"Vampire"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/084634797ec3bd8a1aaaf7de443fc811c36f0ad20530b706d227ed41dcb778b9.jpg?namespace=gamesdb"

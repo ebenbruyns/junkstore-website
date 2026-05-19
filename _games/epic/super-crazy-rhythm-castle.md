@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Lyrics, Mild Blood"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12","descriptors":"Handlungsdruck"},"cero":{"rating":"A"},"oflc":{"rating":"PG","descriptors":"Mild fantasy themes, violence and occasional coarse language, online, interactivity"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"P6","descriptors":"DGSC"},"dejus":{"rating":"12","descriptors":"Violence, Innapropiate Language"}}
 release_date: "August 15, 2024"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Online Multi-player","Local Multi-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Korean","Simplified Chinese","Traditional Chinese","Japanese","Polish","Portuguese - Brazil","Russian","Spanish - Latin America","Italian"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1183","name":"Local Multiplayer"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-09-12T15:00:00.000Z","end":"2024-09-19T15:00:00.000Z","type":null,"id":"c1480c18d56f476c96b36037f2a81f51"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1a27adc59b4c52ea647b1a739b7a382414da88e30d33625c8296fe3ed472bf72.jpg?namespace=gamesdb"

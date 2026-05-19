@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "April 11, 2019"
-game_modes: ["Achievements","Overlay","Single-player"]
-languages: ["English"]
+game_modes: ["Single-player"]
+languages: ["English","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"79","name":"Free to Play"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"40","name":"Dark Fantasy"},{"id":"125","name":"Crafting"},{"id":"639","name":"Roguelike"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"231","name":"Strategy RPG"}]
 size: "277 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c76b45d19227d9be59622b64999cf0d0591e3589cc7a10fd5570f3cd75fae267.jpg?namespace=gamesdb"

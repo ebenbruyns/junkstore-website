@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Violence, Nudity, Sexual Content, Strong Language, Use of Drugs, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Drugs, In-Game Purchases"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence, Crime"},"oflc":{"rating":"r18","descriptors":"References to sexual violence and nudity related to incentives and rewards"},"nzoflc":{"rating":"r18","descriptors":"Violence, Sexual Themes, Offensive Language"},"kgrb":{"rating":"18","descriptors":"Sexually Suggestive, Violence, Inappropriate Language, Drugs, Crime"},"csrr":{"rating":"R","descriptors":"Sex, Violence, Cigarettes or Alcohol, Drugs, Improper Languages"},"mda":{"rating":"M18","descriptors":"Strong violence, Sexual content, Nudity, Drug references"},"dejus":{"rating":"18","descriptors":"Murder, Consumption of Legal Drugs, Cruelty"}}
 release_date: "May 19, 2020"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Czech","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"150","name":"Third-Person Shooter"},{"id":"44","name":"Nudity"},{"id":"50","name":"Sexual Content"},{"id":"144","name":"Crime"},{"id":"130","name":"Driving"},{"id":"289","name":"Noir"},{"id":"4458","name":"mafia"}]
 size: "36716 MB"
@@ -39,6 +39,7 @@ franchise_slug: "mafia|mafia-ii|mafia-ii-definitive-edition|mafia-iii|mafia-iii-
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/95ba65daeb5487d635a49ea90ad82c7b973b9c33e547649072272c0dc7238ed9.jpg?namespace=gamesdb"

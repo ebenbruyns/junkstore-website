@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Sexual Themes, Strong Language, Violence"},"pegi":{"rating":"16","descriptors":"Blood, Sexual Themes, Strong Language, Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Violência"}}
 release_date: "November 15, 2017"
-game_modes: ["Achievements","Cloud saves","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Russian","Polish"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Korean","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: []
 size: ""
@@ -39,6 +39,7 @@ franchise_slug: "pillars-of-eternity|pillars-of-eternity-ii-deadfir"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/804d24c4e365fbb9c4f1ee7d1f87ba70d356b462c0665ad01a1bf4d49258a8a9.jpg?namespace=gamesdb"

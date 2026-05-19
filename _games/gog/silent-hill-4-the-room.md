@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: ESRB 17
 age_ratings: {}
 release_date: "June 1, 2004"
-game_modes: ["Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Italian","Spanish"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: []
 size: "2421 MB"
@@ -39,6 +39,7 @@ franchise_slug: "pt|silent-hill|silent-hill-2|silent-hill-3|silent-hill-4-the-ro
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e57f067f0ecaab5f8b959ba45edd0890268482528fe9eb41e18f50ea3871af01.jpg?namespace=gamesdb"

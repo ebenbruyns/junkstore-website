@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Content, Strong Language, Use of Drugs"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Drug References, Coarse Language"}}
 release_date: "October 19, 2010"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Italian","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["Czech","German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: []
 tags_structured: []
 size: "2.96 GB"
@@ -39,6 +39,7 @@ franchise_slug: "capital-wasteland|fallout-2-a-post-nuclear-role-|fallout-3|fall
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/22380/library_hero.jpg"

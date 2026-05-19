@@ -29,7 +29,7 @@ franchise: Rogue Legacy
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "April 7, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "rogue-legacy|rogue-legacy-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-04-06T15:00:00.000Z","end":"2022-04-13T15:00:00.000Z","type":null,"id":"cc8ecf10eb654f93bd1a61a466be2584"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/cbb834b9b4ba2d492448e18ce747560607206f4977aebef93107b48601440858.jpg?namespace=gamesdb"

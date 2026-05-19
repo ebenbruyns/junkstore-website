@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: PEGI 16
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "November 19, 2015"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"115","name":"Controller"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"40","name":"Dark Fantasy"},{"id":"66","name":"Medieval"},{"id":"101","name":"Turn-Based Strategy"},{"id":"170","name":"Competitive"},{"id":"196","name":"Procedural Generation"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"124","name":"Perma Death"},{"id":"162","name":"Board Game"},{"id":"230","name":"Tactical RPG"},{"id":"29","name":"Games Workshop"}]
 size: "4973 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b45df63e2a7d0a8f98a81242b706a3bcc1e09881633824e4d7660ffb938e3c5f.jpg?namespace=gamesdb"

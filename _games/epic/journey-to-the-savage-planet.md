@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "January 28, 2020"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Spanish - Latin America"]
 languages_audio: ["English","French"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1381","name":"Exploration"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/fa0962f17ce6d095cf17181117574b7851b3313912a93a4ba71443193d268da7.jpg?namespace=gamesdb"

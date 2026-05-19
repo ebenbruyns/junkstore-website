@@ -29,7 +29,7 @@ franchise: Monument Valley
 age_rating_summary: 3 (PEGI)
 age_ratings: {"pegi":{"rating":"3"},"dejus":{"rating":"L"}}
 release_date: "September 4, 2025"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Portuguese - Portugal","Russian","Simplified Chinese","Swedish","Traditional Chinese","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Portuguese - Portugal","Russian","Simplified Chinese","Swedish","Traditional Chinese","Turkish"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
@@ -39,6 +39,7 @@ franchise_slug: "monument-valley|monument-valley-2"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-09-04T15:00:00.000Z","end":"2025-09-11T15:00:00.000Z","type":null,"id":"f967cff9761c4198b4e972cfd71e40d7"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1927720/library_hero.jpg"

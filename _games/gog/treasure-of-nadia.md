@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez, Violência, Linguagem imprópria"}}
 release_date: "February 16, 2022"
-game_modes: ["Cloud saves","Controller support","Single-player"]
-languages: ["English","French","Spanish - Spain","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"123","name":"Comedy"},{"id":"141","name":"Point & Click"},{"id":"44","name":"Nudity"},{"id":"117","name":"Mystery"},{"id":"192","name":"Mature"},{"id":"50","name":"Sexual Content"},{"id":"61","name":"Top-Down"},{"id":"90","name":"Visual Novel"},{"id":"209","name":"Drama"},{"id":"217","name":"Romance"},{"id":"312","name":"NSFW"},{"id":"66536","name":"Романтика"},{"id":"1081","name":"adult"},{"id":"89966","name":"adventures"}]
 size: "7731 MB"
@@ -39,6 +39,7 @@ franchise_slug: "lust-epidemic|my-summer-with-mom-sis|the-genesis-order|treasure
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6088da580c28730898ed6a772a44eaf7be4dcfee0ecf7a154a1cde3daf1ed521.jpg?namespace=gamesdb"

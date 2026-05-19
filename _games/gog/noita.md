@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "September 1, 2019"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Italian","Polish"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"40","name":"Dark Fantasy"},{"id":"114","name":"Physics"},{"id":"639","name":"Roguelike"},{"id":"640","name":"Roguelite"}]
 size: "1437 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/70b4c17fe152f443e61c997de349aefe9de0a4e302a59d2ecaacb37ca752abab.jpg?namespace=gamesdb"

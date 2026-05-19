@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "November 18, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-11-17T15:00:00.000Z","end":"2021-11-24T15:00:00.000Z","type":null,"id":"b8bf369a354e4a01b01d61d750b1bc6d"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1f2ea0d891bcba7c701f565c2cb09dbee4422f26ef7da3a4ddcff2e200251ca0.jpg?namespace=gamesdb"

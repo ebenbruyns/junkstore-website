@@ -29,8 +29,8 @@ franchise: Styx
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Sexual Themes, Language and Crude Humor"},"pegi":{"rating":"16","descriptors":"Bad Language and Violence"},"usk":{"rating":"16"}}
 release_date: "October 7, 2014"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Russian"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1287","name":"Fantasy"},{"id":"1336","name":"Action-Adventure"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "6203 MB"
@@ -39,6 +39,7 @@ franchise_slug: "of-orcs-and-men|styx-blades-of-greed|styx-master-of-shadows|sty
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1917d1c5f6fbba554789d5ff1348560903de2f8a6a6698b2d719d3f04f3e1151.jpg?namespace=gamesdb"

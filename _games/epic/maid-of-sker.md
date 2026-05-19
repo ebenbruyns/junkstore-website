@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"dejus":{"rating":"16","descriptors":"Violência, Medo, Violência Extrema, Linguagem imprópria, Nudez"}}
 release_date: "October 27, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Arabic","Turkish","Polish","Hungarian","Japanese","Welsh"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-07-17T15:00:00.000Z","end":"2024-07-24T15:00:00.000Z","type":null,"id":"3795a845a05d4b3baacb8126635ffd74"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/a641a0409487ca6af7c6f1a44fbcc037f30d364edffacc835a7280b2c96965c9.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Atos criminosos"}}
 release_date: "February 6, 2019"
-game_modes: ["Achievements","Controller support","Co-op","Multi-player","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Simplified Chinese"]
+game_modes: ["Co-op","Multi-player","Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","Italian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"18","name":"Co-op"},{"id":"45","name":"2D"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"122","name":"Pixel Graphics"},{"id":"72","name":"Local Multiplayer"},{"id":"40838","name":"Includes level editor"},{"id":"89","name":"Historical"},{"id":"287","name":"Political"}]
 size: "1049 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ab2a31178c1ad29c5c2cc5b1f69952ab10a363df7d133515cca3551bd613e04a.jpg?namespace=gamesdb"

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "April 30, 1997"
-game_modes: ["Single player"]
-languages: ["English","French","German","Italian","Polish","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Polish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"193","name":"Classic"},{"id":"150","name":"Third-Person Shooter"}]
 size: "200 MB"
@@ -39,6 +39,7 @@ franchise_slug: "mdk|mdk2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c65d0f6c97ff8f1fcb1a22efb0547a55c40960a0b25cad310d1a91ec069dbe48.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/38450"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/MDK"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/mdk/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa"}}
 release_date: "November 9, 2022"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Dutch","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","German","English","Spanish","French","Dutch"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"69","name":"Action-Adventure"},{"id":"88","name":"Cute"},{"id":"5","name":"Replay Value"},{"id":"110","name":"Cinematic"},{"id":"113","name":"Side Scroller"},{"id":"136","name":"Music"},{"id":"209","name":"Drama"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"288","name":"Interactive Fiction"},{"id":"295","name":"Soundtrack"},{"id":"309","name":"Dynamic Narration"}]
 size: "250 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c167b9ca8db3e0c244c78f31db444b42d2ee48f288b2580ac43146bc158bf801.jpg?namespace=gamesdb"

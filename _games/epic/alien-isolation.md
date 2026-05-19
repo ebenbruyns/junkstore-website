@@ -29,7 +29,7 @@ franchise: Alien
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Strong Language, Violence"},"pegi":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria, Medo"}}
 release_date: "December 21, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Polish","Russian","Portuguese - Brazil"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Portuguese - Brazil"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"29899","name":"Deals of the Week"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
@@ -39,6 +39,7 @@ franchise_slug: "alien-atari-2600|alien-blackout|alien-isolation|alien-resurrect
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-04-21T15:00:00.000Z","end":"2021-04-28T15:00:00.000Z","type":null,"id":"d37f3694e7a04edb8347f3cb6320f9d3"},{"start":"2020-12-20T15:00:00.000Z","end":"2020-12-21T15:00:00.000Z","type":null,"id":"d37f3694e7a04edb8347f3cb6320f9d3"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2a279020ae560b75e393e0fb185c1e037b35c8ee12f27ae04e606ee3952f5137.jpg?namespace=gamesdb"

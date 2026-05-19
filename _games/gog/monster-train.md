@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "May 21, 2020"
-game_modes: ["Achievements","Cloud saves","Multi-player","Overlay","Single-player"]
-languages: ["English","French","German","Portuguese - Brazil","Russian","Simplified Chinese"]
+game_modes: ["Multi-player","Single-player"]
+languages: ["Chinese Simplified","German","English","French","Portuguese","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"157","name":"PvP"},{"id":"639","name":"Roguelike"},{"id":"45878","name":"Online PvP"},{"id":"175","name":"Turn-Based Combat"},{"id":"127","name":"Card Game"},{"id":"14194","name":"deckbuilding"},{"id":"49950","name":"Card Battler"}]
 size: "651 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1f2ed303807e54f4d814d603f5e6998f35cb92795fb5086aea4fdb8a5b589ed1.jpg?namespace=gamesdb"

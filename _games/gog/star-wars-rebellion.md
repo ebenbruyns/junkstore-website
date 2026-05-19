@@ -30,7 +30,7 @@ age_rating_summary: E (ESRB) · 6 (USK)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Animated Violence"},"usk":{"rating":"6"}}
 release_date: "February 28, 1998"
 game_modes: ["Multi-player","Single-player"]
-languages: ["English","German","Spanish - Spain"]
+languages: ["German","English","Spanish"]
 languages_audio: ["English","German","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"193","name":"Classic"},{"id":"72","name":"Local Multiplayer"},{"id":"100","name":"Grand Strategy"},{"id":"212","name":"4X"},{"id":"318","name":"Star Wars"}]
 size: "473 MB"
@@ -39,6 +39,7 @@ franchise_slug: "star-wars-anakins-speedway|star-wars-bounty-hunter|star-wars-de
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/7f24df5037946f8b43817d11d9c78c4b96fcf5a1b803197a8fc36b98c5914c66.jpg?namespace=gamesdb"

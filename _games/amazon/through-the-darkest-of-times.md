@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 16 (PEGI) · 12 (USK)
 age_ratings: {"pegi":{"rating":"16","descriptors":"Bad Language"},"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Medo, Violência, Temas sensíveis"}}
 release_date: "January 30, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","German","French","Spanish - Spain","Japanese","Russian","Simplified Chinese"]
 languages_audio: ["English","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/66b1aa5d839e3dca95b2c9ed792b787103b164b0091d49992f6db66d7c3f39c6.jpg?namespace=gamesdb"

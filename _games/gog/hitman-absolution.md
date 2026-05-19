@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Partial Nudity, Sexual Themes, Strong Language, Use of Drugs"},"pegi":{"rating":"18","descriptors":"Blood and Gore, Intense Violence, Partial Nudity, Sexual Themes, Strong Language, Use of Drugs"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"[img]http://media.steampowered.com/store/Ratings/CERO/violence.png[/img], [img]http://media.steampowered.com/store/Ratings/CERO/crime.png[/img]"},"oflc":{"rating":"ma15","descriptors":"&quot;Strong violence, coarse language and sexual references, Gaming, experience may change online&quot;"},"nzoflc":{"rating":"ma15","descriptors":"&quot;Strong violence, coarse language and sexual references, Gaming, experience may change online&quot;"},"kgrb":{"rating":"18"},"csrr":{"rating":"R"},"mda":{"rating":"M18"},"dejus":{"rating":"18"}}
 release_date: "November 19, 2012"
-game_modes: ["Cloud saves","Overlay","Single-player"]
-languages: ["English","French","German","Italian","Spanish - Spain","Polish","Russian","Turkish"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian","Japanese","Polish","Russian","Turkish"]
 languages_audio: ["English","French","German","Italian","Spanish - Spain","Polish","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"49","name":"Difficult"},{"id":"15","name":"Stealth"},{"id":"115","name":"Controller"},{"id":"80","name":"Tactical"},{"id":"150","name":"Third-Person Shooter"},{"id":"5","name":"Replay Value"},{"id":"110","name":"Cinematic"},{"id":"144","name":"Crime"},{"id":"305","name":"Linear"},{"id":"278","name":"Assassin"},{"id":"54","name":"Score Attack"}]
 size: "12513 MB"
@@ -39,6 +39,7 @@ franchise_slug: "hitman|hitman-2|hitman-2-silent-assassin|hitman-3|hitman-3-cont
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/f9e4f7d922eb174aadaa7c55804c139b27d938bf19021a41248ffa99c827dc53.jpg?namespace=gamesdb"

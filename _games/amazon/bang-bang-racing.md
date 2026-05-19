@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"}}
 release_date: "May 13, 2011"
-game_modes: ["Single player","Multiplayer","Split screen"]
+game_modes: ["Single-player","Multi-player","Split Screen"]
 languages: ["English","German","French","Italian","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"40845","name":"Partial Controller Support"},{"id":"40850","name":"Steam Leaderboards"},{"id":"198","name":"Split Screen"},{"id":"72","name":"Local Multiplayer"},{"id":"61","name":"Top-Down"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d3cfc9f592a0f7a5fb690d1bb931e67e73544245332b2e2283e566e9f9869f5e.jpg?namespace=gamesdb"

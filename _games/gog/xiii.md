@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Strong Language, Violence"},"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "October 1, 2003"
-game_modes: ["Cloud saves","Single-player"]
-languages: ["English","French","Italian","Spanish - Spain","German"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","French","Italian","Spanish - Spain","German"]
 tags_structured: []
 size: "2124 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c0f10578f31d22c4a26bca98a15f4f2b310411320cf52633d25b1a1a129d1028.jpg?namespace=gamesdb"

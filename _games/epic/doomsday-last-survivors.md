@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 12 (PEGI) · 16 (USK)
 age_ratings: {"pegi":{"rating":"12"},"usk":{"rating":"16"},"bbfc":{"rating":"PG"},"oflc":{"rating":"M"},"nzoflc":{"rating":"M"},"fpb":{"rating":"A"},"csrr":{"rating":"C12"},"mda":{"rating":"AA16"},"dejus":{"rating":"14"}}
 release_date: "June 30, 2023"
-game_modes: ["Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
+game_modes: ["Co-op","Multi-player","MMO"]
 languages: ["English","French","Italian","German","Russian","Turkish","Japanese","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Portugal","Spanish - Latin America","Vietnamese","Arabic","Korean","Indonesian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1120","name":"RTS"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/e0ed6cd9e021ead8141c67f1a9023369608939bf1768570b3fc15c51c5e47652.jpg?namespace=gamesdb"
@@ -83,7 +84,7 @@ protondb_url: "https://www.protondb.com/app/2439510"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/doomsday-last-survivors/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""
@@ -111,4 +112,4 @@ is_featured: false
 owned: true
 ---
 
-Doomsday: Last Survivors is a zombie survival game with multiplayer online competition and real-time strategy elements.
+Fight the Post-Human crisis in the Ghost in the Shell collab!

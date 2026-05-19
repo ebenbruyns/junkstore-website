@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: PEGI 12
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 1, 2024"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Japanese","Korean","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"80","name":"Tactical"},{"id":"74","name":"Retro"},{"id":"70","name":"War"},{"id":"102","name":"Turn-Based"},{"id":"1465","name":"combat"},{"id":"81","name":"Military"},{"id":"67","name":"Management"},{"id":"640","name":"Roguelite"},{"id":"91686","name":"Family Sharing"},{"id":"184","name":"Mechs"},{"id":"55","name":"Tanks"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"}]
 size: "1279 MB"
@@ -39,6 +39,7 @@ franchise_slug: "metal-slug|metal-slug-1st-mission|metal-slug-2|metal-slug-2nd-m
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4d390717f3253d98e8a5deb4d90543c696ab806a4428208270aab80778436b0b.jpg?namespace=gamesdb"

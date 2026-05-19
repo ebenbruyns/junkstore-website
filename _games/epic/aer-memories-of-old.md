@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7"},"usk":{"rating":"0"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"},"dejus":{"rating":"L"}}
 release_date: "June 25, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","German","Spanish - Spain","French","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Italian","Traditional Chinese","Polish"]
 languages_audio: []
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
@@ -39,6 +39,7 @@ franchise_slug: "aer|aery|aery-a-new-frontier|aery-broken-memories|aery-calm-min
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-06-24T15:00:00.000Z","end":"2020-07-01T15:00:00.000Z","type":null,"id":"ddbac5b8afd64e36a63d6904e0ef7e41"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/d301a4613ccfd29484848ce062b1ec65114e5f302f680ed16639560760cb43e5.jpg?namespace=gamesdb"

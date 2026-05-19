@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "June 1, 2019"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"42","name":"Great Soundtrack"},{"id":"40845","name":"Partial Controller Support"},{"id":"30","name":"FPS"},{"id":"64","name":"Fantasy"},{"id":"189","name":"Female Protagonist"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"98","name":"Loot"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/2d6284cd6ee6d2d8d31b1757f9f850fba308c0d90b6097586e8b9e651aefe1e8.jpg?namespace=gamesdb"

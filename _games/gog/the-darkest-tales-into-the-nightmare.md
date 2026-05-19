@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 16 (PEGI) · 16 (USK)
 age_ratings: {"pegi":{"rating":"16"},"usk":{"rating":"16"},"cero":{"rating":"D"},"kgrb":{"rating":"18"},"fpb":{"rating":"16"},"csrr":{"rating":"C15"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
 release_date: "October 14, 2021"
-game_modes: ["Controller support","Overlay","Single-player"]
-languages: ["English","Italian","Russian","French","German","Simplified Chinese","Japanese","Korean","Spanish - Latin America","Portuguese - Brazil"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Russian"]
 languages_audio: ["English","Russian"]
 tags_structured: []
 size: "3034 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/ad016e3fb80d69d0e84ab69ef01e4337839b020d07a5ee8749db4e12420bed6d.jpg?namespace=gamesdb"

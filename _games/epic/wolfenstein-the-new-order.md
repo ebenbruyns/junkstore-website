@@ -29,7 +29,7 @@ franchise: Wolfenstein
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language, Strong Sexual Content, Use of Drugs"},"pegi":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"High Impact Themes and Violence, Blood and Gore"},"nzoflc":{"rating":"r18","descriptors":"Contains Graphic Language and Offensive Language"},"fpb":{"rating":"16","descriptors":"THE MATERIAL IS NOT SUITABLE FOR CHILDREN UNDER THE AGE OF 16 YEARS,, SCENES OF HORROR,, SOME SCENES SHOWING BIAS OR NEGATIVE STEREOTYPING MAY OCCUR , SCENES SHOWING PICTURES OF VIOLENCE"},"csrr":{"rating":"R","descriptors":"Violence, Improper Language"},"dejus":{"rating":"18","descriptors":"Extreme Violence"}}
 release_date: "September 9, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","Spanish - Spain","Japanese","Polish","Russian"]
 languages_audio: ["English","French","Italian","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "castle-wolfenstein|return-to-castle-wolfenstein|wolfenstein|wol
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-12-19T15:00:00.000Z","end":"2022-12-20T15:00:00.000Z","type":null,"id":"52a32a3469dd4a2ca20bfff0c6a66486"},{"start":"2022-06-01T15:00:00.000Z","end":"2022-06-08T15:00:00.000Z","type":null,"id":"52a32a3469dd4a2ca20bfff0c6a66486"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/cc547caac9de4c7a08099b6cbf9812dc2f8b7adb724cf2b615352885870e0455.jpg?namespace=gamesdb"

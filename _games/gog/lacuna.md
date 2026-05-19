@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Atos criminosos, Linguagem imprópria, Drogas lícitas"}}
 release_date: "May 20, 2021"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","German","Simplified Chinese","Japanese","Russian","Korean","Traditional Chinese","Malay"]
+game_modes: ["Single-player"]
+languages: ["German","English","Korean","Russian"]
 languages_audio: []
 tags_structured: []
 size: "560 MB"
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/41fb34a418c13d27c9ae4a503ab1c504eaacda4d1e8ba0bfedd310424ba7fa7a.jpg?namespace=gamesdb"

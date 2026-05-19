@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Language, Suggestive Themes, Violence"},"pegi":{"rating":"16","descriptors":"Realistic looking violence"},"usk":{"rating":"16"},"oflc":{"rating":"M","descriptors":"Moderate violence"},"nzoflc":{"rating":"M"},"csrr":{"rating":"R"},"dejus":{"rating":"16"}}
 release_date: "April 7, 2006"
-game_modes: ["Cloud saves","Controller support","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain"]
+game_modes: ["Single-player"]
+languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"150","name":"Third-Person Shooter"},{"id":"306","name":"Lara Croft"}]
 size: "5077 MB"
@@ -39,6 +39,7 @@ franchise_slug: "lara-croft-and-the-temple-of-o|lara-croft-go|lara-croft-gol|lar
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/6599aeedcca625f189a1023b7f5f5f241a311a9c491194e76271bf7ac7bdf7c0.jpg?namespace=gamesdb"

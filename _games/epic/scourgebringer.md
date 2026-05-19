@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-11-13T16:00:00.000Z","end":"2025-11-20T16:00:00.000Z","type":null,"id":"786eacc66b8b4075bf7c8684930127d3"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1037020/library_hero.jpg"

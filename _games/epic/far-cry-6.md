@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language, Use of Alcohol, Use of Drugs, Mild Sexual Themes"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, In-Game Purchases"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence, Crime"},"oflc":{"rating":"ma15","descriptors":"Strong themes and bloody violence, Online interactivity, In-game purchases"},"nzoflc":{"rating":"r16","descriptors":"Violence, Cruelty, Offensive language"},"kgrb":{"rating":"18","descriptors":"Violence, Language, Alcohol, Tobacco, Drugs, Crime, Anti-Social"},"fpb":{"rating":"18","descriptors":"V (Violence), L (Bad Language), S (Sexual Conduct / Activity), H (Horror), D (Drugs &amp; Alcohol), P (Prejudice), CI (Competitive Intensity), PPS (Photo Pattern Sensitivity)"},"csrr":{"rating":"R","descriptors":"Violence, Inappropriate language, Anti-social"},"dejus":{"rating":"18","descriptors":"Illegal Drugs, Extreme Violence, Sexual Content"}}
 release_date: "November 29, 2022"
-game_modes: ["Single player","Co-operative","Multiplayer"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese"]
 languages_audio: ["English","French","German","Japanese","Portuguese - Brazil","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "far-cry|far-cry-2-fortunes-edition|far-cry-3|far-cry-4|far-cry-
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/044da901b31c1cd6cab98b5ad5d740dd37a564096e0362a39197dfa1167ebccc.jpg?namespace=gamesdb"

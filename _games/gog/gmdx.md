@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "January 1, 2017"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"3605","name":"tool"},{"id":"891","name":"jam"},{"id":"973","name":"libGDX"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/aa0965523261e8f0d36096172512047bbbb95a6f3b5835a290fb25ef63c65b2e.jpg?namespace=gamesdb"

@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "October 28, 2021"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Portuguese - Brazil","Simplified Chinese","Dutch","Greek","Norwegian","Portuguese - Portugal","Swedish","Turkish","Ukrainian","Hungarian"]
 languages_audio: []
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21150","name":"Challenging Puzzles"}]
@@ -39,6 +39,7 @@ franchise_slug: "darq|darq-the-crypt"
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-10-27T15:00:00.000Z","end":"2021-11-03T15:00:00.000Z","type":null,"id":"0af5da05c76943f8a7da7cc65949ffd4"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b77c85adcb94654d3ebb77af55cb252013b67e089baf6c05d7d16752f2c6507f.jpg?namespace=gamesdb"

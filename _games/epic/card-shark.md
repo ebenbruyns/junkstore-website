@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Atos criminosos"}}
 release_date: "June 2, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese","Korean","Portuguese - Brazil","Russian"]
 languages_audio: []
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/96b510a5bf9686953c1d9cd90e6ac524256e8ccebb7a38fbd4e6563207756718.jpg?namespace=gamesdb"

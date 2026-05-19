@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Drug Reference, Intense Violence, Mature Humor, Mild Language"},"pegi":{"rating":"18","descriptors":"Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong themes, Violence"},"nzoflc":{"rating":"M","descriptors":"Bloody Violence &amp; Cruelty"},"csrr":{"rating":"R","descriptors":"Violence, Inappropriate Language"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Drogas lícitas"}}
 release_date: "May 22, 2020"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish"]
 languages_audio: ["English","German","Portuguese - Brazil","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-06-08T15:00:00.000Z","end":"2022-06-15T15:00:00.000Z","type":null,"id":"cf0f9c305d5d4dc9bd0fc4c14b5f2c5d"}]
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/08246dbabc060f1ca40d8ca67791dac92b4039ea783e18e35845377edbca32da.jpg?namespace=gamesdb"

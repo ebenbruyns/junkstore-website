@@ -27,10 +27,10 @@ developer: Obsidian Entertainment
 genre: Role-playing (RPG), Adventure, Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
-age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence"},"nzoflc":{"rating":"r16","descriptors":"Violence"},"kgrb":{"rating":"18","descriptors":"폭력성, 언어의부적절성, 약물"},"fpb":{"rating":"18","descriptors":"D, L, V, (CI)"},"csrr":{"rating":"R","descriptors":"Violence, Improper Language"},"mda":{"rating":"M18","descriptors":"Violence"},"dejus":{"rating":"16","descriptors":"Violência, Linguagem imprópria"}}
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence"},"nzoflc":{"rating":"r16","descriptors":"Violence"},"kgrb":{"rating":"18"},"fpb":{"rating":"18","descriptors":"D, L, V, (CI)"},"csrr":{"rating":"R","descriptors":"Violence, Improper Language"},"mda":{"rating":"M18","descriptors":"Violence"},"dejus":{"rating":"16","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "October 25, 2019"
-game_modes: ["Achievements","Cloud saves","Controller support","Overlay","Single-player"]
-languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Portuguese - Brazil","Simplified Chinese"]
+game_modes: ["Single-player"]
+languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"30","name":"FPS"},{"id":"97","name":"Action RPG"},{"id":"25","name":"Space"},{"id":"468","name":"role-playing"},{"id":"145","name":"Choices Matter"}]
 size: "55952 MB"
@@ -39,6 +39,7 @@ franchise_slug: "the-outer-worlds|the-outer-worlds-2"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/b9c7a3b16f80b1954075f97b1a0cf780ba03d7437f69e85068846cbb7759810a.jpg?namespace=gamesdb"

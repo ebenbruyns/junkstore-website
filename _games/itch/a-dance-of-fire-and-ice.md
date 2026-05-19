@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "October 4, 2014"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","Spanish - Spain","Korean","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Japanese","Spanish - Latin America","Polish","Romanian","Russian","Vietnamese","Czech","French","German"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"}]
@@ -39,6 +39,7 @@ franchise_slug: ""
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/977950/library_hero.jpg"

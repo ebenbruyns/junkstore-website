@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Lyrics"},"pegi":{"rating":"12","descriptors":"Bad Language"},"usk":{"rating":"6"},"cero":{"rating":"B"},"oflc":{"rating":"M","descriptors":"Coarse language, online interactivity"},"fpb":{"rating":"16"},"csrr":{"rating":"C12","descriptors":"Inappropriate language"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
 release_date: "September 4, 2020"
-game_modes: ["Single player","Multiplayer","Split screen"]
+game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Spanish - Latin America","Portuguese - Brazil"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1283","name":"Sports"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"1160","name":"SKATEBOARDING"},{"id":"1321","name":"GREAT SOUNDTRACK"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -39,6 +39,7 @@ franchise_slug: "tony-hawk-ride|tony-hawk-shred|tony-hawks-american-sk8land|tony
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/9fffc06e830ca42dda12997f6c82644668e01a655f46e6a640aba76d21fedd2e.jpg?namespace=gamesdb"

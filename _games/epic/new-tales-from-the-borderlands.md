@@ -39,6 +39,7 @@ franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|bor
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/4aa4e4da8bebe9366bbd8d2b949658739ee1dd7b73d5d36957d22909569a734f.jpg?namespace=gamesdb"

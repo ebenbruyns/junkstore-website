@@ -27,9 +27,9 @@ developer: Mass Media Games
 genre: Action, Horror
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
-age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Language, Mild Sexual Themes, Use of Alcohol and Tobacco"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"cero":{"rating":"D"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"r16"},"kgrb":{"rating":"18","descriptors":"내용정보표지사항: 폭력성, 약물, 제명:  바이오 쇼크 인피니트, 이용등급: 청소년이용불가, 등급분류번호: CC-NP-130109-008, 등급분류일자: 20130109, 상호: 테이크투인터렉티브유한회사, 제작.배급업 신고번호: 제 2009-00016호, ----------------------------------, Game Descriptive: Violence, Drug, Title Name: BioShock Infinite, Age: 18+, Certificate #: CC-NP-130109-008, Issue date: 20130109, Company Name:테이크투인터렉티브유한회사, Distributor No,: 제 2009-00016호"},"fpb":{"rating":"18"},"mda":{"rating":"M18"}}
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Language, Mild Sexual Themes, Use of Alcohol and Tobacco"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"cero":{"rating":"D"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"r16"},"kgrb":{"rating":"18"},"fpb":{"rating":"18"},"mda":{"rating":"M18"}}
 release_date: "June 2, 2022"
-game_modes: ["Single player"]
+game_modes: ["Single-player"]
 languages: ["English","French","German","Italian","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese","Korean","Traditional Chinese"]
 languages_audio: ["English","French","German","Italian","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -40,6 +40,7 @@ franchise_slug: "bioshock|bioshock-2|bioshock-2-minervas-den-remast|bioshock-2-s
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/1712b2e8feb95e9e8237299d08168c2ad9aa1c7620b3463367260b0403faab6a.jpg?namespace=gamesdb"

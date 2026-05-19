@@ -29,8 +29,8 @@ franchise:
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence"},"pegi":{"rating":"16"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Medium level animated violence"}}
 release_date: "November 11, 2003"
-game_modes: ["Cloud saves","Controller support","Single-player"]
-languages: ["English"]
+game_modes: ["Single-player"]
+languages: ["German","English","French"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"68","name":"Hack and Slash"},{"id":"40","name":"Dark Fantasy"},{"id":"204","name":"Gothic"},{"id":"300","name":"Vampire"}]
 size: "1420 MB"
@@ -39,6 +39,7 @@ franchise_slug: "blood-omen-legacy-of-kain|legacy-of-kain-ascendance|legacy-of-k
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
+free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/cb5d7d867e42ee43387b96cb649f95b39c555627fb2a60292d4c66ef2c74587d.jpg?namespace=gamesdb"
