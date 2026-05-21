@@ -11,19 +11,25 @@ sitemap: false
   <link rel="canonical" href="https://www.junkstore.xyz/games/tested/">
   <title>Redirecting to Games Database</title>
   <script>
-    // Smart redirect: if ?game=<slug> is present, look it up in games-table.json
-    // and route to the proper individual game page (/games/{store}/{slug}/).
-    // Otherwise fall back to the games-tested hub.
+    // Smart redirect: if ?game=<value> is present, look it up in games-table.json
+    // (by slug first, then by title for legacy links) and route to the proper
+    // individual game page (/games/{store}/{slug}/). Otherwise fall back to hub.
     (async function () {
-      const slug = new URLSearchParams(window.location.search).get('game');
-      if (!slug) {
+      const param = new URLSearchParams(window.location.search).get('game');
+      if (!param) {
         window.location.replace('/games/tested/');
         return;
       }
+      const normalize = (s) => (s || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+      const target = normalize(param);
       try {
         const res = await fetch('/assets/data/games-table.json');
         const data = await res.json();
-        const match = data.games && data.games.find(g => g.slug === slug);
+        const games = (data && data.games) || [];
+        const match =
+          games.find(g => g.slug === param) ||
+          games.find(g => normalize(g.slug) === target) ||
+          games.find(g => normalize(g.title) === target);
         if (match && match.storefront && match.slug) {
           window.location.replace('/games/' + match.storefront.toLowerCase() + '/' + match.slug + '/');
           return;
