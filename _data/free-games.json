@@ -1,52 +1,16 @@
 {
-  "generated_at": "2026-05-20T21:55:59.048Z",
+  "generated_at": "2026-05-22T01:08:26.791Z",
   "games": [
     {
-      "id": "gp_3622",
-      "title": "Another World Adventures",
-      "storefront": "itchio",
-      "website_slug": null,
-      "store_url": "https://www.gamerpower.com/open/another-world-adventures-itch-io-giveaway",
-      "image": "https://www.gamerpower.com/offers/1b/69f9d9efbd1ef.jpg",
-      "end_date": "2026-05-20 23:59:00",
-      "end_date_formatted": "Wed, 20 May · 23:59 UTC",
-      "first_seen": "2026-05-05 19:59:20",
-      "original_price": "$5.99"
-    },
-    {
-      "id": "gp_3638",
-      "title": "The Telltale Batman Shadows Edition",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://www.gamerpower.com/open/the-telltale-batman-shadows-edition-epic-games-giveaway",
-      "image": "https://www.gamerpower.com/offers/1b/6a05e70b11ee4.jpg",
-      "end_date": "2026-05-21T15:00:00.000Z",
-      "end_date_formatted": "Thu, 21 May · 15:00 UTC",
-      "first_seen": "2026-05-14 20:11:13",
-      "original_price": "$29.96"
-    },
-    {
-      "id": "gp_3637",
-      "title": "Sunderfolk",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://www.gamerpower.com/open/sunderfolk-epic-games-giveaway",
-      "image": "https://www.gamerpower.com/offers/1b/6a05e527f12f1.jpg",
-      "end_date": "2026-05-21T15:00:00.000Z",
-      "end_date_formatted": "Thu, 21 May · 15:00 UTC",
-      "first_seen": "2026-05-14 20:11:13",
-      "original_price": "$49.99"
-    },
-    {
-      "id": "gp_3642",
+      "id": "gp-3642",
       "title": "Back to Modern World - Fantasy Hero",
       "storefront": "itchio",
       "website_slug": null,
-      "store_url": "https://www.gamerpower.com/open/back-to-modern-world-fantasy-hero-itch-io-giveaway",
+      "store_url": "https://s-xavier-uy.itch.io/back-to-modern-world-fantasy-hero",
       "image": "https://www.gamerpower.com/offers/1b/6a064aa563481.jpg",
-      "end_date": "2026-05-24 23:59:00",
+      "end_date": "2026-05-24T23:59:00Z",
       "end_date_formatted": "Sun, 24 May · 23:59 UTC",
-      "first_seen": "2026-05-14 23:16:54",
+      "first_seen": "2026-05-19 22:00:00",
       "original_price": "$6.50"
     },
     {
@@ -74,6 +38,30 @@
       "original_price": "$19.99"
     },
     {
+      "id": "gp-3650",
+      "title": "Tomb Raider 1-3 Remastered Starring Lara Croft",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/tomb-raider-iiii-remastered-538640",
+      "image": "https://www.gamerpower.com/offers/1b/6a0f20569a02f.jpg",
+      "end_date": "2026-05-28T15:00:00.000Z",
+      "end_date_formatted": "Thu, 28 May · 15:00 UTC",
+      "first_seen": "2026-05-21 21:00:26",
+      "original_price": "$29.99"
+    },
+    {
+      "id": "gp-3649",
+      "title": "Down in Bermuda",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/down-in-bermuda",
+      "image": "https://www.gamerpower.com/offers/1b/6a0f1f119c18a.jpg",
+      "end_date": "2026-05-28T15:00:00.000Z",
+      "end_date_formatted": "Thu, 28 May · 15:00 UTC",
+      "first_seen": "2026-05-21 21:00:26",
+      "original_price": "$19.99"
+    },
+    {
       "id": "manual_1777579884068_fantasy-general-ii-invasion",
       "title": "Fantasy General II - Invasion",
       "storefront": "amazon",
@@ -86,15 +74,15 @@
       "original_price": "$39.99"
     },
     {
-      "id": "gp_3394",
+      "id": "gp-3394",
       "title": "Rose and Cross",
       "storefront": "itchio",
       "website_slug": null,
-      "store_url": "https://www.gamerpower.com/open/rose-and-cross-itch-io-giveaway",
+      "store_url": "https://zv-games.itch.io/roseandcross",
       "image": "https://www.gamerpower.com/offers/1b/6930a11f989ac.jpg",
-      "end_date": "2026-05-31 23:59:53",
+      "end_date": "2026-05-31T23:59:53Z",
       "end_date_formatted": "Sun, 31 May · 23:59 UTC",
-      "first_seen": "2026-04-23 02:18:12",
+      "first_seen": "2026-05-19 22:00:00",
       "original_price": "$6.99"
     },
     {
@@ -107,18 +95,18 @@
       "end_date": "2026-06-01T11:59:59.000Z",
       "end_date_formatted": "Mon, 1 Jun · 11:59 UTC",
       "first_seen": "2026-04-30 20:11:24",
-      "original_price": "NZ$26.49"
+      "original_price": "$26.49"
     },
     {
-      "id": "gp_905",
+      "id": "gp-905",
       "title": "Larger Than Light",
       "storefront": "itchio",
       "website_slug": null,
-      "store_url": "https://www.gamerpower.com/open/free-larger-than-light",
+      "store_url": "https://1010meha.itch.io/larger-than-light",
       "image": "https://www.gamerpower.com/offers/1b/60b608dd99d89.jpg",
-      "end_date": "2026-06-01 23:59:59",
+      "end_date": "2026-06-01T23:59:59Z",
       "end_date_formatted": "Mon, 1 Jun · 23:59 UTC",
-      "first_seen": "2026-05-08 21:59:31",
+      "first_seen": "2026-05-19 22:00:00",
       "original_price": "$5.00"
     },
     {
@@ -158,6 +146,18 @@
       "original_price": "$29.99"
     },
     {
+      "id": "manual_1779403728927_palindrome-syndrome-escape-room",
+      "title": "Palindrome Syndrome: Escape Room",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/palindrome-syndrome-escape-room-gog/dp/amzn1.pg.item.2636d5ae-477e-4010-82f4-a3440c877f67?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2FA1crMk7BwfL.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-06-21T00:00:00.000Z",
+      "end_date_formatted": "Sun, 21 Jun · 00:00 UTC",
+      "first_seen": "2026-05-21 22:48:48",
+      "original_price": "$8.19"
+    },
+    {
       "id": "manual_1778790558547_60-minutes-to-extinction-escape-room",
       "title": "60 Minutes to Extinction: Escape Room",
       "storefront": "amazon",
@@ -191,19 +191,43 @@
       "end_date": "2026-06-24T11:59:59.000Z",
       "end_date_formatted": "Wed, 24 Jun · 11:59 UTC",
       "first_seen": "2026-05-14 20:29:19",
-      "original_price": "NZ$42.49"
+      "original_price": "$42.49"
     },
     {
-      "id": "gp_3096",
+      "id": "manual_1779403835841_hot-brass",
+      "title": "Hot Brass",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/hot-brass-gog/dp/amzn1.pg.item.cbedd50b-8e66-4f96-9d47-a9773837afe8?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F919pN7LwLqL.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-06-25T00:00:00.000Z",
+      "end_date_formatted": "Thu, 25 Jun · 00:00 UTC",
+      "first_seen": "2026-05-21 22:50:35",
+      "original_price": "$12.49"
+    },
+    {
+      "id": "gp-3096",
       "title": "Madness Inside",
       "storefront": "itchio",
       "website_slug": null,
-      "store_url": "https://www.gamerpower.com/open/madness-inside-itch-io-giveaway",
+      "store_url": "https://zv-games.itch.io/madness-inside",
       "image": "https://www.gamerpower.com/offers/1b/67c76007697b3.jpg",
-      "end_date": "2026-08-01 23:59:59",
+      "end_date": "2026-08-01T23:59:59Z",
       "end_date_formatted": "Sat, 1 Aug · 23:59 UTC",
-      "first_seen": "2026-04-23 02:18:12",
+      "first_seen": "2026-05-19 22:00:00",
       "original_price": "$6.99"
+    },
+    {
+      "id": "manual_1779403784757_space-grunts",
+      "title": "Space Grunts",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/space-grunts-gog/dp/amzn1.pg.item.d6b4b6c3-ad9d-4e5d-9914-48c500b7be97?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F91RdJn9N3QL.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-08-20T00:00:00.000Z",
+      "end_date_formatted": "Thu, 20 Aug · 00:00 UTC",
+      "first_seen": "2026-05-21 22:49:44",
+      "original_price": "$9.99"
     },
     {
       "id": "gp_3630",
@@ -228,6 +252,42 @@
       "end_date_formatted": "Sun, 4 Oct · 11:00 UTC",
       "first_seen": "2026-05-08 21:59:32",
       "original_price": "$1.99"
+    },
+    {
+      "id": "gp_3646",
+      "title": "Spirit Catcher 93'",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/spirit-catcher-93-ee155d",
+      "image": "https://www.gamerpower.com/offers/1b/6a08f8b2123a0.jpg",
+      "end_date": "2026-05-28T15:00:00.000Z",
+      "end_date_formatted": "Thu, 28 May · 15:00 UTC",
+      "first_seen": "2026-05-16 23:40:50",
+      "original_price": "$14.99"
+    },
+    {
+      "id": "gp-2204",
+      "title": "Dual Chroma: Academy Carols",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://galengames.itch.io/academy-carols",
+      "image": "https://www.gamerpower.com/offers/1b/63c6f67bb9c8b.jpg",
+      "end_date": null,
+      "end_date_formatted": null,
+      "first_seen": "2026-05-19 22:00:00",
+      "original_price": "$2.00"
+    },
+    {
+      "id": "gp-1604",
+      "title": "Dora Diginoid: Metroidvania sci-fi adventure game",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://hedi-dev-studio.itch.io/dora-diginoid-metroidvania-game-made-in-godot-engine",
+      "image": "https://www.gamerpower.com/offers/1b/62dec9fa9312b.jpg",
+      "end_date": null,
+      "end_date_formatted": null,
+      "first_seen": "2026-05-19 22:00:00",
+      "original_price": "$6.00"
     }
   ]
 }
