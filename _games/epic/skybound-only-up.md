@@ -26,9 +26,9 @@ publisher: Astralium Games
 developer: Astralium Games
 genre: Platformer
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "July 1, 2024"
+release_date: "January 1, 2099"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []

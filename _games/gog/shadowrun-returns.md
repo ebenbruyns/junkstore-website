@@ -26,7 +26,7 @@ publisher: Harebrained Schemes
 developer: Harebrained Schemes
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: PEGI 12
+age_rating_summary: 12 (PEGI)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Temas sensíveis, Linguagem imprópria"}}
 release_date: "July 25, 2013"
 game_modes: ["Single-player"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospher
 size: "899 MB"
 franchise_siblings: [{"rawg_id":43125,"slug":"shadowrun-hong-kong","name":"Shadowrun: Hong Kong"},{"rawg_id":42341,"slug":"shadowrun-returns-dragonfall","name":"Shadowrun Returns: Dragonfall"},{"rawg_id":28312,"slug":"shadowrun","name":"Shadowrun"},{"rawg_id":54308,"slug":"shadowrun-1996","name":"Shadowrun (1996)"},{"rawg_id":369068,"slug":"shadowrun-1994","name":"Shadowrun (1994)"},{"rawg_id":369069,"slug":"shadowrun-1993","name":"Shadowrun (1993)"}]
 franchise_slug: "shadowrun|shadowrun-1993|shadowrun-1994|shadowrun-1996|shadowrun-hong-kong|shadowrun-returns|shadowrun-returns-dragonfall"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/shadowrun-returns"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

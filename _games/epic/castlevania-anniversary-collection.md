@@ -28,17 +28,17 @@ genre: Action, Retro, Platformer
 franchise: 
 age_rating_summary: T (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Fantasy Violence, Partial Nudity"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B"},"oflc":{"rating":"PG","descriptors":"Mild Fantasy Themes, Violence"},"kgrb":{"rating":"12","descriptors":"Violence"},"fpb":{"rating":"13"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "November 14, 2024"
+release_date: "May 16, 2019"
 game_modes: ["Single-player"]
 languages: ["English","Japanese"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1198","name":"Retro"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1198","name":"Retro"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/116138"
 was_free_before: true
-giveaway_events: [{"start":"2024-11-14T16:00:00.000Z","end":"2024-11-21T16:00:00.000Z","type":null,"id":"8f80897c0b6e4e678fed08da169d44be"}]
+giveaway_events: [{"_id":"672cdd71b420bbe30568932e","id":"8f80897c0b6e4e678fed08da169d44be","namespace":"247d4d4b4e424afd9b474334fe450a43","startDate":"2024-11-14T16:00:00.000Z","endDate":"2024-11-21T16:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

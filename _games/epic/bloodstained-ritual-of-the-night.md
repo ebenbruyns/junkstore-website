@@ -28,17 +28,17 @@ genre: Fantasy, RPG, Action-Adventure
 franchise: Bloodstained
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence, Partial Nudity"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Conteúdo sexual"}}
-release_date: "December 23, 2025"
-game_modes: ["Single-player","Online Multi-player","Local Multi-player","Co-op"]
+release_date: "June 18, 2019"
+game_modes: ["Single-player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["Japanese","English","French","Italian","German","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Spanish - Latin America"]
 languages_audio: ["Japanese","English"]
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: [{"rawg_id":460404,"slug":"bloodstained-curse-of-the-moon-2","name":"Bloodstained: Curse of the Moon 2"},{"rawg_id":58498,"slug":"bloodstained-curse-of-the-moon","name":"Bloodstained: Curse of the Moon"}]
 franchise_slug: "bloodstained-curse-of-the-moon|bloodstained-curse-of-the-moon|bloodstained-ritual-of-the-nig"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/bloodstained-ritual-of-the-night"
 was_free_before: true
-giveaway_events: [{"start":"2025-12-23T16:00:00.000Z","end":"2025-12-24T16:00:00.000Z","type":null,"id":"4e037f816bfa4e4f9fcfdfa29ad383e6"}]
+giveaway_events: [{"_id":"69496348806274f124640f2b","id":"4e037f816bfa4e4f9fcfdfa29ad383e6","namespace":"57da9a65dbf54e5c97a60f224393ab2f","startDate":"2025-12-23T16:00:00.000Z","endDate":"2025-12-24T16:00:00.000Z","title":"Bloodstained: Ritual of the Night","__v":0}]
 free_games_aliases: []
 
 # Images

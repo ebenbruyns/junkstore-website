@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "2532 MB"
 franchise_siblings: [{"rawg_id":16711,"slug":"blackguards-2","name":"Blackguards 2"},{"rawg_id":12166,"slug":"blackguards","name":"Blackguards"},{"rawg_id":16253,"slug":"memoria","name":"Memoria"}]
 franchise_slug: "blackguards|blackguards-2|memoria|the-dark-eye-chains-of-satinav"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-dark-eye-chains-of-satinav"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "9.5 hrs"
 hltb_main_extra: "12 hrs"
-hltb_completionist: "12.5 hrs"
+hltb_completionist: "11 Hours"
 hltb_url: "https://howlongtobeat.com/game/9826"
 
 # Links

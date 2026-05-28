@@ -3,12 +3,12 @@ layout: game-page
 title: "Roguelight - Steam Deck Compatibility"
 game_title: "Roguelight"
 slug: "roguelight"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/roguelight/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "August 11, 2014"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"45","name":"2D"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"639","name":"Roguelike"},{"id":"196","name":"Procedural Generation"},{"id":"717","name":"jumping"},{"id":"882","name":"Game Boy"},{"id":"887","name":"GBJam"}]

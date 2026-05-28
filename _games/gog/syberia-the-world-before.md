@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full c
 size: "14386 MB"
 franchise_siblings: [{"rawg_id":10986,"slug":"syberia-3","name":"Syberia 3"},{"rawg_id":22781,"slug":"syberia-2","name":"Syberia 2"},{"rawg_id":3486,"slug":"syberia","name":"Syberia"}]
 franchise_slug: "syberia|syberia-2|syberia-3|syberia-the-world-before"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/syberia-the-world-before"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -28,7 +28,7 @@ genre: Shooter
 franchise: Borderlands
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Language, Sexual Themes, Violence"},"pegi":{"rating":"18","descriptors":"Gambling, Bad Language, Violence, Online Gameplay"},"usk":{"rating":"18","descriptors":"Not approved for young persons aged under 18"},"oflc":{"rating":"ma15","descriptors":"Strong violence, Online interactivity"},"nzoflc":{"rating":"r13","descriptors":"Violence, offensive language &amp; content that may disturb"},"kgrb":{"rating":"18","descriptors":"Violence, Improper Language"},"fpb":{"rating":"18","descriptors":"SCENES CONTAINING IMAGES OF ILLEGAL DRUGS, SCENES OF HORROR, STRONG LANGUAGE (SWEAR-WORDS, THREATS, ABUSE OR PREJUDICE), SCENES SHOWING PICTURES OF VIOLENCE"},"csrr":{"rating":"R","descriptors":"Sex, Violence, Improper Language"},"mda":{"rating":"AA16"},"dejus":{"rating":"14","descriptors":"Violencia"}}
-release_date: "October 14, 2014"
+release_date: "October 15, 2014"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Korean"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name"
 size: ""
 franchise_siblings: [{"rawg_id":836447,"slug":"new-tales-from-the-borderlands","name":"New Tales from the Borderlands"},{"rawg_id":692541,"slug":"tiny-tinas-assault-on-dragon-keep-a-wonderlands-on","name":"Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure"},{"rawg_id":58617,"slug":"borderlands-3","name":"Borderlands 3"},{"rawg_id":2100,"slug":"tales-from-the-borderlands","name":"Tales from the Borderlands: A Telltale Game Series"},{"rawg_id":330906,"slug":"borderlands-legends","name":"Borderlands Legends"},{"rawg_id":802,"slug":"borderlands-2","name":"Borderlands 2"},{"rawg_id":4828,"slug":"borderlands","name":"Borderlands"}]
 franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|borderlands-the-pre-sequel|new-tales-from-the-borderlands|tales-from-the-borderlands|tiny-tinas-assault-on-dragon-k"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/borderlands-the-pre-sequel"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

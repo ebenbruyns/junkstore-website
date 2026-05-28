@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Conteúdo sexual"}}
 release_date: "September 16, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","Polish","German","Simplified Chinese","Russian","French","Spanish - Spain","Traditional Chinese","Korean","Turkish","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "9109 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/gamedec"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

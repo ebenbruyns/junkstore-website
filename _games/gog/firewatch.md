@@ -9,7 +9,7 @@ permalink: /games/gog/firewatch/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -26,9 +26,9 @@ publisher: Panic
 developer: Campo Santo
 genre: adventure, indie
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: 17 (ESRB) · 16 (PEGI)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Drogas, Conteúdo sexual"}}
-release_date: "February 1, 2016"
+release_date: "February 9, 2016"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Japanese","Russian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soun
 size: "2124 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/firewatch"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1459256379"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Firewatch is a single-player first-person video game where you, as a man named Henry, explore the Wyoming wilderness after taking a summer job as a fire lookout.

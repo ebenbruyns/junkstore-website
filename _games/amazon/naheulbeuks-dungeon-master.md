@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/naheulbeuks-dungeon-master/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Drogas lícitas"}}
 release_date: "November 15, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"123","name":"Comedy"},{"id":"107","name":"Family Friendly"},{"id":"5","name":"Replay Value"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"66","name":"Medieval"},{"id":"39","name":"Building"},{"id":"67","name":"Management"},{"id":"180","name":"Base Building"},{"id":"164","name":"Cartoony"},{"id":"147","name":"Resource Management"},{"id":"200","name":"Narration"}]
 size: "3913 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/naheulbeuks-dungeon-master"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

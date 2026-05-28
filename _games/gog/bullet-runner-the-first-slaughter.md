@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full c
 size: "2149 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/bullet-runner-the-first-slaughter"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "30 mins"
 hltb_main_extra: ""
-hltb_completionist: ""
+hltb_completionist: "0.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/126020"
 
 # Links

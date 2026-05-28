@@ -28,15 +28,15 @@ genre: Adventure, Shooter, Racing
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Nudity, Mature Humor, Strong Language, Strong Sexual Content, Use of Drugs and Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Online Play,, Strong Language"},"usk":{"rating":"18"},"kgrb":{"rating":"18"}}
-release_date: "January 1, 2099"
-game_modes: ["Single-player","Co-op","Multi-player"]
+release_date: "April 13, 2015"
+game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese","Simplified Chinese","Spanish - Latin America"]
 languages_audio: ["English"]
 tags_structured: [{"id":"11631","name":"Requires 2FA"}]
 size: ""
 franchise_siblings: [{"rawg_id":972995,"slug":"grand-theft-aito-vi","name":"Grand Theft Auto VI"},{"rawg_id":5200,"slug":"gta-chinatown-wars","name":"Grand Theft Auto: Chinatown Wars"},{"rawg_id":4459,"slug":"grand-theft-auto-iv","name":"Grand Theft Auto IV"},{"rawg_id":4059,"slug":"grand-theft-auto-vice-city-stories","name":"Grand Theft Auto: Vice City Stories"},{"rawg_id":979345,"slug":"san-andreas-multiplayer-sa-mp","name":"San Andreas Multiplayer (SA-MP)"},{"rawg_id":4058,"slug":"gta-liberty-city-stories","name":"Grand Theft Auto: Liberty City Stories"},{"rawg_id":59122,"slug":"grand-theft-auto-advance","name":"Grand Theft Auto Advance"},{"rawg_id":416,"slug":"grand-theft-auto-san-andreas","name":"Grand Theft Auto: San Andreas"},{"rawg_id":430,"slug":"grand-theft-auto-vice-city","name":"Grand Theft Auto: Vice City"},{"rawg_id":432,"slug":"grand-theft-auto-iii","name":"Grand Theft Auto III"},{"rawg_id":52997,"slug":"grand-theft-auto-2-1999","name":"Grand Theft Auto 2"},{"rawg_id":52998,"slug":"grand-theft-auto-1998","name":"Grand Theft Auto"}]
 franchise_slug: "grand-theft-aito-vi|grand-theft-auto-1998|grand-theft-auto-2-1999|grand-theft-auto-advance|grand-theft-auto-iii|grand-theft-auto-iv|grand-theft-auto-san-andreas|grand-theft-auto-v|grand-theft-auto-vice-city|grand-theft-auto-vice-city-sto|gta-chinatown-wars|gta-liberty-city-stories|san-andreas-multiplayer-sa-mp"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/grand-theft-auto-v"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -82,7 +82,7 @@ hltb_url: "https://howlongtobeat.com/game/4064"
 store_url: "https://store.epicgames.com/en-US/p/grand-theft-auto-v"
 protondb_url: "https://www.protondb.com/app/271590"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_V"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_V_Enhanced"
 metacritic_score: 97
 metacritic_url: "https://www.metacritic.com/game/grand-theft-auto-v/"
 

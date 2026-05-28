@@ -9,7 +9,7 @@ permalink: /games/epic/solar-ash/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "May '24"
 proton_version: ""
 
@@ -28,15 +28,15 @@ genre: Action, Adventure, Indie
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Blood, Mild Language"},"pegi":{"rating":"12","descriptors":"Horror"},"usk":{"rating":"12","descriptors":"Belastende Themen, Fantasy-Gewalt"},"oflc":{"rating":"M","descriptors":"Fantasy violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "December 2, 2021"
-game_modes: ["Single-player"]
+release_date: "December 8, 2022"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/solar-ash--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1867530"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Journey through a surreal, vivid and highly stylized world filled with mystery, wild high-speed traversal...

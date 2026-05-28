@@ -26,7 +26,7 @@ publisher: Grey Alien Games
 developer: Grey Alien Games
 genre: "Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie, Card & Board Game"
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: Teen (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Medo, Atos criminosos"}}
 release_date: "April 9, 2020"
 game_modes: ["Single-player"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138"
 size: "131 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/ancient-enemy"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

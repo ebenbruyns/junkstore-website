@@ -26,17 +26,17 @@ publisher: RedForge
 developer: RedForge
 genre: Action, Horror, Exploration
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Temas sensíveis, Medo"}}
-release_date: "May 27, 2025"
-game_modes: ["Online Multi-player","Co-op"]
+release_date: "January 19, 2025"
+game_modes: ["Online Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese","Turkish","Ukrainian"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1218","name":"Horror"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1218","name":"Horror"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/together-after-dark"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

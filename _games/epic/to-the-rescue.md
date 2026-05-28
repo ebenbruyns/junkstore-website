@@ -26,17 +26,17 @@ publisher: Freedom Games
 developer: Little Rock Games
 genre: Casual, Simulation, Indie
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "November 2, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: "227 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/91306"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -76,7 +76,7 @@ native_linux: false
 hltb_main: "6 hrs"
 hltb_main_extra: "7 hrs"
 hltb_completionist: "8 hrs"
-hltb_url: "https://howlongtobeat.com/game/94006"
+hltb_url: "https://howlongtobeat.com/game/10588"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/to-the-rescue-a6c254"

@@ -28,7 +28,7 @@ genre: Adventure, Indie, Visual Novel
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Medo"}}
-release_date: "August 10, 2002"
+release_date: "May 15, 2015"
 game_modes: ["Single-player"]
 languages: ["English","Japanese"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: []
 size: "273 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/higurashi-when-they-cry-hou-ch-dot-1-onikakushi"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

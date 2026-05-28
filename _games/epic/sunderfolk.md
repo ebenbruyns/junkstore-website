@@ -18,8 +18,8 @@ protondb_tier: "gold"
 protondb_score: 0.41
 protondb_total: 17
 protondb_confidence: "good"
-steam_deck_verified: ""
-steam_deck_category: 
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: Dreamhaven
@@ -27,16 +27,16 @@ developer: Secret Door
 genre: Role-playing (RPG)
 franchise: 
 age_rating_summary: 10 (ESRB)
-age_ratings: {}
+age_ratings: {"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "April 23, 2025"
-game_modes: ["Local Multi-player","Co-op"]
-languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Polishlanguages With Full Audio Support"]
-languages_audio: []
-tags_structured: [{"id":"1","name":"Multi-player"},{"id":"9","name":"Co-op"},{"id":"39","name":"Shared/Split Screen Co-op"},{"id":"24","name":"Shared/Split Screen"},{"id":"22","name":"Steam Achievements"},{"id":"23","name":"Steam Cloud"},{"id":"43","name":"Remote Play on TV"},{"id":"44","name":"Remote Play Together"},{"id":"62","name":"Family Sharing"}]
+game_modes: ["Local Multiplayer","Co-op"]
+languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Polish"]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish"]
+tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"1183","name":"Local Multiplayer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sunderfolk"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -82,7 +82,7 @@ hltb_url: "https://howlongtobeat.com/game/157937"
 store_url: "https://store.epicgames.com/p/sunderfolk-7300c3"
 protondb_url: "https://www.protondb.com/app/2414270"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Special:Search?search=2414270"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sunderfolk"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/sunderfolk/"
 

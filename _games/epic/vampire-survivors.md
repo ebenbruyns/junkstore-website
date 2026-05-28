@@ -26,19 +26,19 @@ publisher: Poncle
 developer: Poncle
 genre: Indie, Action-Adventure, Rogue-Lite
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa"}}
-release_date: "December 19, 2024"
-game_modes: ["Local Multi-player","Co-op"]
+release_date: "October 20, 2022"
+game_modes: ["Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Turkish","Ukrainian","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/vampire-survivors"
 was_free_before: true
-giveaway_events: [{"start":"2024-12-19T16:00:00.000Z","end":"2024-12-20T16:00:00.000Z","type":null,"id":"9b6d6cc0e10a42a3a0aa4fe02f5dbee5"}]
+giveaway_events: [{"_id":"676448407d0651036b1845be","id":"9b6d6cc0e10a42a3a0aa4fe02f5dbee5","namespace":"a4e77bc04aa440a096962c14b63a41e8","startDate":"2024-12-19T16:00:00.000Z","endDate":"2024-12-20T16:00:00.000Z","title":"Vampire Survivors","__v":0}]
 free_games_aliases: []
 
 # Images

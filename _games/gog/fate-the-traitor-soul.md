@@ -28,12 +28,12 @@ genre: Role-playing (RPG), Adventure
 franchise: 
 age_rating_summary: e10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "September 1, 2009"
+release_date: "August 27, 2014"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"40850","name":"Steam Leaderboards"},{"id":"97","name":"Action RPG"},{"id":"468","name":"role-playing"},{"id":"68","name":"Hack and Slash"},{"id":"48","name":"Dungeon Crawler"},{"id":"98","name":"Loot"}]
-size: "414 MB"
+size: "493 MB"
 franchise_siblings: [{"rawg_id":21347,"slug":"fate-the-cursed-king","name":"FATE: The Cursed King"},{"rawg_id":20798,"slug":"fate-undiscovered-realms","name":"FATE: Undiscovered Realms"},{"rawg_id":36649,"slug":"fate","name":"Fate (2005)"}]
 franchise_slug: "fate|fate-the-cursed-king|fate-the-traitor-soul|fate-undiscovered-realms"
 igdb_url: ""

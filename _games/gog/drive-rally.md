@@ -9,7 +9,7 @@ permalink: /games/gog/drive-rally/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: indie, sport, arcade, racing
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "April 1, 2025"
+release_date: "April 16, 2025"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Hungarian","Italian","Japanese","Korean","Polish","Portuguese","Russian","Turkish","Ukrainian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1351 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/number-drive-rally"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1511212118"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Drive Rally lets you relive the 90s in the most exciting era in motorsport history, where dust, mud, and snow are badges of honor.

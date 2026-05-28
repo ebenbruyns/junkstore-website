@@ -26,17 +26,17 @@ publisher: Amanita Design
 developer: Amanita Design
 genre: Puzzle, Adventure, Indie
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "March 25, 2025"
-game_modes: ["Single-player"]
+release_date: "March 7, 2018"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Swedish","Thai","Traditional Chinese","Turkish","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Swedish","Thai","Traditional Chinese","Turkish","Ukrainian"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
 size: "673 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/chuchel"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

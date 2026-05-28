@@ -9,7 +9,7 @@ permalink: /games/gog/sherlock-holmes-the-awakened/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: adventure
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Violence, Drug Reference"},"pegi":{"rating":"16","descriptors":"Strong Violence"},"usk":{"rating":"16","descriptors":"Scary Content, Violence"},"oflc":{"rating":"M","descriptors":"Horror Themes, Mature Themes, Violence"},"nzoflc":{"rating":"M"},"dejus":{"rating":"12","descriptors":"Violência, Drogas lícitas, Medo"}}
-release_date: "February 1, 2007"
+release_date: "April 11, 2023"
 game_modes: ["Single-player"]
 languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Turkish","Ukrainian","Chinese Traditional"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: "26361 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sherlock-holmes-the-awakened--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1430061181"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Experience a nerve-racking Lovecraftian adventure, rebuilt from the ground up with modern graphics and gameplay. Become Sherlock Holmes...

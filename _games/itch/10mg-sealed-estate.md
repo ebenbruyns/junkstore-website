@@ -3,12 +3,12 @@ layout: game-page
 title: "10mg: Sealed Estate - Steam Deck Compatibility"
 game_title: "10mg: Sealed Estate"
 slug: "10mg-sealed-estate"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/10mg-sealed-estate/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Adventure, Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
-release_date: "October 1, 2020"
-game_modes: ["Single-player"]
+release_date: "October 15, 2020"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"122","name":"Pixel Graphics"},{"id":"40","name":"Dark Fantasy"},{"id":"144","name":"Crime"},{"id":"61","name":"Top-Down"},{"id":"90","name":"Visual Novel"},{"id":"166","name":"Stylized"},{"id":"112","name":"Minimalist"},{"id":"269","name":"Quick-Time Events"},{"id":"285","name":"Psychological"},{"id":"291","name":"Conspiracy"},{"id":"220","name":"Experimental"},{"id":"326","name":"Investigation"},{"id":"309","name":"Dynamic Narration"},{"id":"84","name":"Abstract"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/10mg-sealed-estate"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

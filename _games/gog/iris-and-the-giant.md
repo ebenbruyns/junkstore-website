@@ -36,7 +36,7 @@ tags_structured: []
 size: "404 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/iris-and-the-giant"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "9 hrs"
-hltb_completionist: "17 hrs"
+hltb_completionist: "7 Hours"
 hltb_url: "https://howlongtobeat.com/game/75608"
 
 # Links

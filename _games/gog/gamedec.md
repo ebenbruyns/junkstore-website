@@ -36,7 +36,7 @@ tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"}
 size: "9109 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/gamedec"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

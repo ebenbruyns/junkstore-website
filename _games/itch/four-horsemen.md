@@ -3,12 +3,12 @@ layout: game-page
 title: "Four Horsemen - Steam Deck Compatibility"
 game_title: "Four Horsemen"
 slug: "four-horsemen"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/four-horsemen/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Drogas ilícitas, Violência, Temas sensíveis"}}
 release_date: "September 1, 2017"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"90","name":"Visual Novel"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/four-horsemen"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

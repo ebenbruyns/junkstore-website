@@ -28,15 +28,15 @@ genre: Role-playing (RPG), Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"oflc":{"descriptors":"%oflcDescriptors%"},"nzoflc":{"descriptors":"%NZoflcDescriptors%"},"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "November 19, 2007"
-game_modes: ["Single-player"]
+release_date: "February 10, 2009"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"99","name":"Isometric"}]
 size: "105 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/eschalon-book-i"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

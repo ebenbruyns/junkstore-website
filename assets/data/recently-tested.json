@@ -1,6 +1,56 @@
 {
-  "generated_at": "2026-05-19T22:30:35.214Z",
+  "generated_at": "2026-05-28T03:28:18.892Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "down-in-bermuda",
+      "featured_in": "2026-05-28",
+      "post_url": "/blog/games-tested-2026-05-28/",
+      "title": "Down in Bermuda",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/3ac24b55fb4e39bd00fd97d8b8b5a6033831b9aefd85bd51f895d76da5aea8eb.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/6cc00a1162dbb0a5c59bcc8bad932c0feb67ece2340bcd169944be0d99c6af67.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "hot-brass",
+      "featured_in": "2026-05-28",
+      "post_url": "/blog/games-tested-2026-05-28/",
+      "title": "Hot Brass",
+      "standalone_rating": "green",
+      "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892860/capsule_184x69.jpg?t=1761641133",
+      "vertical_artwork": "https://images.gog.com/69e538b974ad9326b89a33ff61b9e73355d6a4f83f0db886b9c1ebf9fdfcf3d9.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "palindrome-syndrome-escape-room",
+      "featured_in": "2026-05-28",
+      "post_url": "/blog/games-tested-2026-05-28/",
+      "title": "Palindrome Syndrome: Escape Room",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/5f9289c62e12a2e5dd3cad3cd15d823a71f93da9dd396937a5f90e6d0731135f.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/35c0ed4bdaa82c98b10416069e58e9f9aa4f03468161ff53f4fe0942e6d71100.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "space-grunts",
+      "featured_in": "2026-05-28",
+      "post_url": "/blog/games-tested-2026-05-28/",
+      "title": "Space Grunts",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/d5f73d05fb0c5218d13660eb08240796219bf3b1edb21466ebbf2713e4ddc71b.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/6a7fb41758bacf2ed66b28dc08f3fd35609127d0d70d6f59f354b940fa5d7170.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "tomb-raider-i-iii-remastered-starring-lara-croft",
+      "featured_in": "2026-05-28",
+      "post_url": "/blog/games-tested-2026-05-28/",
+      "title": "Tomb Raider I-III Remastered Starring Lara Croft",
+      "standalone_rating": "green",
+      "icon_image": "",
+      "vertical_artwork": "https://images.gog.com/804bc8bb865bf856939465a5724a63b98062bc4285e46f41e24c977fcc99d692.jpg?namespace=gamesdb"
+    },
     {
       "store": "epic",
       "slug": "the-telltale-batman-shadows-edition",
@@ -70,56 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2407830/b5f73d55cbca5df86e2feb1a92636ce62bb1439e/capsule_184x69.jpg?t=1778170992",
       "vertical_artwork": "https://images.gog.com/f56bc59e1c4b0b07bfa19e8dde261309840074babd7d3c0e02612f6dd94d64b6.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "arranger-a-role-puzzling-adventure",
-      "featured_in": "2026-05-11",
-      "post_url": "/blog/games-tested-may-11/",
-      "title": "Arranger: A Role-Puzzling Adventure",
-      "standalone_rating": "green",
-      "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2596420/capsule_184x69.jpg?t=1745972134",
-      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-1yn2m.jpg"
-    },
-    {
-      "store": "gog",
-      "slug": "fruitbus",
-      "featured_in": "2026-05-11",
-      "post_url": "/blog/games-tested-may-11/",
-      "title": "Fruitbus",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/3a867b4348ca83f6c30bde86b483b5935cb431bab515ddc69feacd106c39c4e7.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/e681bada9d65113f40be2c15e72ab90a215e11be42343b41e5debf86c9541aca.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "hogwarts-legacy",
-      "featured_in": "2026-05-06",
-      "post_url": "/blog/games-tested-may-06/",
-      "title": "Hogwarts Legacy",
-      "standalone_rating": "green",
-      "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/990080/capsule_231x87.jpg",
-      "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/990080/library_600x900.jpg"
-    },
-    {
-      "store": "epic",
-      "slug": "oddsparks-an-automation-adventure",
-      "featured_in": "2026-05-06",
-      "post_url": "/blog/games-tested-may-06/",
-      "title": "Oddsparks: An Automation Adventure",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/575e2f2892626c038e7a544f81d33756c9300e7485c909e1047d199654dc0d66.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/43acd700c002a17a40c6b6866738e27c7c28cbb19e5bcddd7e4219a036768e99.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "kinnikuneko-super-muscle-cat",
-      "featured_in": "2026-05-06",
-      "post_url": "/blog/games-tested-may-06/",
-      "title": "KinnikuNeko: Super Muscle Cat",
-      "standalone_rating": "green",
-      "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332950/capsule_184x69.jpg?t=1749585009",
-      "vertical_artwork": "https://images.gog.com/e9a4a5a394252a881adb185b7666b2e9dcdd0e4b562032433230724be5f8f792.jpg?namespace=gamesdb"
     }
   ]
 }

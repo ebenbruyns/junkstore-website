@@ -8,7 +8,7 @@ storefront_key: "gog"
 permalink: /games/gog/60-parsecs/
 
 # Compatibility (Junk Store testing)
-decky_rating: "unknown"
+decky_rating: ""
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
@@ -36,7 +36,7 @@ tags_structured: []
 size: "831 MB"
 franchise_siblings: [{"rawg_id":349109,"slug":"60-seconds-reatomized","name":"60 Seconds! Reatomized"}]
 franchise_slug: "60-parsecs|60-seconds-reatomized"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/60-parsecs"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1135130303"
 is_featured: false
-owned: true
+owned: false
 ---
 
 60 Parsecs! is an Atomic Space Age adventure of scavenge and survival. Keep your crew alive and ready for action. Make difficult choices, face soup shortages and other horrors of outer space. And maybe reach your destination. Or not.

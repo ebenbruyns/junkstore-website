@@ -3,12 +3,12 @@ layout: game-page
 title: "A Light Long Gone - Steam Deck Compatibility"
 game_title: "A Light Long Gone"
 slug: "a-light-long-gone"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/a-light-long-gone/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "May 15, 2020"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"111","name":"Short"},{"id":"136","name":"Music"},{"id":"1363","name":"Visualization"}]

@@ -28,7 +28,7 @@ genre: Strategy, Indie, Simulator
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Atos criminosos"}}
-release_date: "February 6, 2019"
+release_date: "February 12, 2019"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","Italian"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1049 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/riot-civil-unrest"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

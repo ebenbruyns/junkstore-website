@@ -26,10 +26,10 @@ publisher: Iceberg Interactive
 developer: Bad Viking
 genre: Exploration, Simulation, Puzzle
 franchise: Strange Horticulture
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "January 21, 2022"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","German","Russian","Simplified Chinese","French","Italian","Spanish - Spain","Korean","Japanese","Traditional Chinese","Czech","Dutch","Polish","Portuguese - Brazil","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -37,9 +37,9 @@ size: "283214202
 "
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/strange-horticulture"
 was_free_before: true
-giveaway_events: [{"start":"2025-08-21T15:00:00.000Z","end":"2025-08-28T15:00:00.000Z","type":null,"id":"0d9a533f0e684cc18620a8f408e8e72c"}]
+giveaway_events: [{"_id":"689ca565c96b425098fc25a8","id":"0d9a533f0e684cc18620a8f408e8e72c","namespace":"c9d0a59bf89c45ceadc5960d6bc1ae4c","startDate":"2025-08-21T15:00:00.000Z","endDate":"2025-08-28T15:00:00.000Z","title":"Strange Horticulture","__v":0}]
 free_games_aliases: []
 
 # Images

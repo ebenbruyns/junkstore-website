@@ -28,15 +28,15 @@ genre: Action, Strategy
 franchise: Total War
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Mild Language, Alcohol Reference"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Mature themes and violence, online interactvity and chat"},"kgrb":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "February 11, 2026"
-game_modes: ["Single-player","Online Multi-player","Co-op"]
+release_date: "July 25, 2024"
+game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"16011","name":"Epic MEGA Sale"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/250531"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

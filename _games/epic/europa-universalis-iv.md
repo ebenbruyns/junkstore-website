@@ -28,7 +28,7 @@ genre: Simulation, Strategy
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Drug Reference, Mild Language, Mild Sexual Themes, Mild Violence"},"pegi":{"rating":"12","descriptors":"Bad Language, Violence, Online Gameplay, In-Game Purchases"},"usk":{"rating":"6"},"kgrb":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Drogas ilícitas, Conteúdo sexual, Linguagem imprópria"}}
-release_date: "September 30, 2021"
+release_date: "August 13, 2013"
 game_modes: ["Single-player"]
 languages: ["English","German","French","Spanish - Spain"]
 languages_audio: []
@@ -36,9 +36,9 @@ tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name"
 size: "1815 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/europa-universalis-iv"
 was_free_before: true
-giveaway_events: [{"start":"2023-08-09T15:00:00.000Z","end":"2023-08-16T15:00:00.000Z","type":null,"id":"45b82cb4454b40439b61ba126adfabec"},{"start":"2021-09-29T15:00:00.000Z","end":"2021-10-06T15:00:00.000Z","type":null,"id":"45b82cb4454b40439b61ba126adfabec"}]
+giveaway_events: [{"_id":"66abf1d13631f27c961ebaa1","id":"45b82cb4454b40439b61ba126adfabec","namespace":"80d3aeb1d7c3434981e0bcbc47700a83","startDate":"2023-08-09T15:00:00.000Z","endDate":"2023-08-16T15:00:00.000Z","__v":0},{"_id":"66abf1e43631f27c961ebf88","id":"45b82cb4454b40439b61ba126adfabec","namespace":"80d3aeb1d7c3434981e0bcbc47700a83","startDate":"2021-09-29T15:00:00.000Z","endDate":"2021-10-06T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

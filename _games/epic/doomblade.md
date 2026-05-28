@@ -32,13 +32,13 @@ release_date: "May 31, 2023"
 game_modes: ["Single-player"]
 languages: ["English","German","Russian","Simplified Chinese","French","Spanish - Spain","Portuguese - Brazil","Dutch"]
 languages_audio: ["English"]
-tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"29","name":"Steam Trading Cards"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
 size: "2666 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/doomblade"
 was_free_before: true
-giveaway_events: [{"id":"epic_9e7d6a034aaf450dacda4b51695d113a","start":"2026-04-23T07:23:01.000Z","end":"2026-04-30T15:00:00.000Z","type":null}]
+giveaway_events: [{"_id":"69e0e3a411c56b4e7a4516e4","id":"9e7d6a034aaf450dacda4b51695d113a","namespace":"12a3a68913864eaa8420e575eb6dbd42","startDate":"2026-04-23T15:00:00.000Z","endDate":"2026-04-30T15:00:00.000Z","title":"DOOMBLADE","__v":0}]
 free_games_aliases: []
 
 # Images

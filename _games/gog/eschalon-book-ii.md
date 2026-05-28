@@ -28,15 +28,15 @@ genre: Role-playing (RPG), Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "May 12, 2010"
-game_modes: ["Single-player"]
+release_date: "July 12, 2010"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"99","name":"Isometric"}]
 size: "285 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/eschalon-book-ii"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "18.5 hrs"
 hltb_main_extra: "39 hrs"
-hltb_completionist: "67.5 hrs"
+hltb_completionist: "27.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/3160"
 
 # Links

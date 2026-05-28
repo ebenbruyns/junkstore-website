@@ -9,7 +9,7 @@ permalink: /games/gog/simcity-3000-unlimited/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Dec '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: strategy, simulator
 franchise: 
 age_rating_summary: E (ESRB) · 6 (USK)
 age_ratings: {"esrb":{"rating":"E"},"usk":{"rating":"6","descriptors":"Angedeutete Gewalt"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"7-9PG"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
-release_date: "March 1, 2000"
+release_date: "March 7, 2024"
 game_modes: ["Single-player"]
 languages: ["German","English","French","Italian","Dutch","Swedish"]
 languages_audio: ["English","French","Italian","German","Dutch","Swedish"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: "536 MB"
 franchise_siblings: [{"rawg_id":1690,"slug":"simcity-buildit","name":"SimCity BuildIt"},{"rawg_id":41324,"slug":"simcity-2013","name":"SimCity (2013)"},{"rawg_id":35736,"slug":"simcity-societies","name":"SimCity Societies"},{"rawg_id":24872,"slug":"simcity-ds","name":"SimCity DS"},{"rawg_id":31510,"slug":"simcity-4","name":"SimCity 4"},{"rawg_id":5360,"slug":"simcity-2000","name":"SimCity 2000"},{"rawg_id":54172,"slug":"simcity","name":"SimCity"}]
 franchise_slug: "simcity|simcity-2000|simcity-2013|simcity-3000|simcity-4|simcity-buildit|simcity-ds|simcity-societies"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/simcity-3000"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "2086050016"
 is_featured: false
-owned: true
+owned: false
 ---
 
 In 2000, SimCity 3000 was re-released under different names in different regions, adding East Asian and European building sets, terrain colors, and other features.

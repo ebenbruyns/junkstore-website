@@ -28,23 +28,23 @@ genre: Fighting, Action-Adventure, Platformer
 franchise: 
 age_rating_summary: e10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Blood, Suggestive Themes, Language, Use of Alcohol"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "June 15, 2023"
+release_date: "August 21, 2014"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Portuguese - Brazil","Spanish - Latin America"]
 languages_audio: []
-tags_structured: [{"id":"1344","name":"Fighting"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1344","name":"Fighting"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/guacamelee-gold-edition"
 was_free_before: true
-giveaway_events: [{"start":"2023-06-14T15:00:00.000Z","end":"2023-06-21T15:00:00.000Z","type":null,"id":"825a2a7eb70b458ab5b3cd9f5b3fa014"}]
+giveaway_events: [{"_id":"66abf1d23631f27c961ebb0b","id":"825a2a7eb70b458ab5b3cd9f5b3fa014","namespace":"f5d9b93771214e4cbd60506539d1cfc6","startDate":"2023-06-14T15:00:00.000Z","endDate":"2023-06-21T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/c1ffa2cef30212a7e557c38eca632e6177d200a696c78844be86b779324b242b.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/aa1ae4f60aa63548d9fef17cea0c2ac24d87a837398c2071d43ae429e17db504.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/275390/header.jpg"
 
 # Technical Details
 controller_input: ""

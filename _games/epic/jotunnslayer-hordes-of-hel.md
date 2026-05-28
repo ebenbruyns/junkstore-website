@@ -9,7 +9,7 @@ permalink: /games/epic/jotunnslayer-hordes-of-hel/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Dec '25"
 proton_version: ""
 
@@ -26,9 +26,9 @@ publisher: Grindstone
 developer: Games Farm
 genre: Action, Indie, RPG
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
-release_date: "January 21, 2025"
+release_date: "September 3, 2025"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean","Slovak","Portuguese - Brazil","Russian"]
 languages_audio: []
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Ch
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/jotunnslayer-hordes-of-hel"
 was_free_before: true
-giveaway_events: [{"start":"2025-12-18T16:00:00.000Z","end":"2025-12-19T16:00:00.000Z","type":null,"id":"1f5e404bb1144fecb8616c2c7bdf3ac6"}]
+giveaway_events: [{"_id":"693ae28b3675276c86d2f86b","id":"1f5e404bb1144fecb8616c2c7bdf3ac6","namespace":"d8a39ea2f35e49b58f18c2b96aec276a","startDate":"2025-12-18T16:00:00.000Z","endDate":"2025-12-19T16:00:00.000Z","title":"Jotunnslayer: Hordes of Hel","__v":0}]
 free_games_aliases: []
 
 # Images

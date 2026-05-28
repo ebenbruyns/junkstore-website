@@ -28,7 +28,7 @@ genre: Strategy
 franchise: 
 age_rating_summary: E (ESRB) · 6 (USK)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Animated Violence"},"usk":{"rating":"6"}}
-release_date: "February 28, 1998"
+release_date: "March 1, 2016"
 game_modes: ["Multi-player","Single-player"]
 languages: ["German","English","Spanish"]
 languages_audio: ["English","German","Spanish - Spain"]
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/7f24df5037946f8b43817d11d9c78c4b96fcf5a1b803197a8fc36b98c5914c66.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/701b983707411d16b765b0db7be28e294364b00cb0e19de0365ea7fd2136dd9d.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/441550/header.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"

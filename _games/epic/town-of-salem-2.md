@@ -26,19 +26,19 @@ publisher: Digital Bandidos
 developer: BlankMediaGames
 genre: Casual, Party, Strategy
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "April 18, 2024"
-game_modes: ["Online Multi-player","Co-op"]
+release_date: "August 25, 2023"
+game_modes: ["Online Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Turkish","Thai","Vietnamese"]
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/town-of-salem-2"
 was_free_before: true
-giveaway_events: [{"start":"2024-04-17T15:00:00.000Z","end":"2024-04-24T15:00:00.000Z","type":null,"id":"f4c04d050f8c459ab1261ecbeeb5720a"}]
+giveaway_events: [{"_id":"66abf1cb3631f27c961eb8a8","id":"f4c04d050f8c459ab1261ecbeeb5720a","namespace":"ab9f1f7354a8418388b43132d420524a","startDate":"2024-04-17T15:00:00.000Z","endDate":"2024-04-24T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

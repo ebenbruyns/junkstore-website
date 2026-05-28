@@ -28,7 +28,7 @@ genre: Action
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Interação de Usuários, Compras on-line"}}
-release_date: "January 27, 2022"
+release_date: "February 13, 2020"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","Japanese"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for 
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/daemon-x-machina"
 was_free_before: true
-giveaway_events: [{"start":"2022-01-26T15:00:00.000Z","end":"2022-02-02T15:00:00.000Z","type":null,"id":"f6d665930cc34c34ac69cfe52906a723"}]
+giveaway_events: [{"_id":"66abf1e03631f27c961ebe88","id":"f6d665930cc34c34ac69cfe52906a723","namespace":"0dc18227b3f14162968d8e7969e454ef","startDate":"2022-01-26T15:00:00.000Z","endDate":"2022-02-02T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -26,17 +26,17 @@ publisher: Headup Games
 developer: Bleakmill
 genre: Adventure, Indie, Puzzle, Shooter
 franchise: INDUSTRIA
-age_rating_summary: ESRB Teen
+age_rating_summary: Teen (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Linguagem imprópria"}}
 release_date: "September 30, 2021"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Russian"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"}]
 size: "9094 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/industria"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

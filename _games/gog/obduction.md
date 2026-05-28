@@ -36,7 +36,7 @@ tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Save
 size: "4853 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/obduction"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -93,8 +93,8 @@ opencritic_score: 72
 opencritic_review_count: 37
 twitch_id: ""
 twitch_url: ""
-playstation_id: ""
-playstation_url: ""
+playstation_id: "228818"
+playstation_url: "https://store.playstation.com/en-us/concept/228818"
 xbox_id: ""
 xbox_url: ""
 geforcenow_id: ""

@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "40514 MB"
 franchise_siblings: [{"rawg_id":29173,"slug":"dishonored-death-of-the-outsider","name":"Dishonored: Death of the Outsider"},{"rawg_id":4248,"slug":"dishonored","name":"Dishonored"}]
 franchise_slug: "dishonored|dishonored-2|dishonored-death-of-the-outsid"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/dishonored-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "12.5 hrs"
 hltb_main_extra: "22.5 hrs"
-hltb_completionist: "46 hrs"
+hltb_completionist: "21 Hours"
 hltb_url: "https://howlongtobeat.com/game/26731"
 
 # Links

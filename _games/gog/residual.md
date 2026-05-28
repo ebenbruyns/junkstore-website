@@ -33,11 +33,10 @@ game_modes: ["Single-player"]
 languages: ["Danish","German","English","Spanish","French","Italian","Japanese","Dutch","Polish","Portuguese","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"5","name":"Replay Value"},{"id":"165","name":"Colorful"},{"id":"125","name":"Crafting"},{"id":"167","name":"Futuristic"},{"id":"172","name":"Aliens"},{"id":"640","name":"Roguelite"},{"id":"164","name":"Cartoony"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"49955","name":"Puzzle Platformer"},{"id":"49954","name":"Open World Survival Craft"}]
-size: "105832707
-"
+size: "106 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/residual"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -76,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: ""
-hltb_completionist: ""
+hltb_completionist: "3 Hours"
 hltb_url: "https://howlongtobeat.com/game/123438"
 
 # Links

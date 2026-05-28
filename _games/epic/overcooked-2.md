@@ -9,15 +9,15 @@ permalink: /games/epic/overcooked-2/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "May '24"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
+protondb_tier: "platinum"
+protondb_score: 0.85
+protondb_total: 81
+protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
 
@@ -26,19 +26,19 @@ publisher: Team17 Digital Ltd
 developer: Ghost Town Games and Team17 Digital Ltd
 genre: Simulation
 franchise: "Overcooked!"
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"6"}}
-release_date: "June 17, 2021"
-game_modes: ["Online Multi-player","Local Multi-player","Co-op"]
+release_date: "August 7, 2018"
+game_modes: ["Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Korean","Polish","Portuguese - Brazil","Traditional Chinese","Russian"]
 languages_audio: []
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
 size: "6937 MB"
 franchise_siblings: [{"rawg_id":517399,"slug":"overcooked-all-you-can-eat","name":"Overcooked! All You Can Eat"},{"rawg_id":2115,"slug":"overcooked","name":"Overcooked"}]
 franchise_slug: "overcooked|overcooked-2|overcooked-all-you-can-eat"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/overcooked-2"
 was_free_before: true
-giveaway_events: [{"start":"2021-06-16T15:00:00.000Z","end":"2021-06-23T15:00:00.000Z","type":null,"id":"0fd170f41c284239a6a6e0be2df3b8e5"}]
+giveaway_events: [{"_id":"66abf1e73631f27c961ec04e","id":"0fd170f41c284239a6a6e0be2df3b8e5","namespace":"2d94b7b33d7f4d02a8fff6fbf71ac7ab","startDate":"2021-06-16T15:00:00.000Z","endDate":"2021-06-23T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "Potoo"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Overcooked returns with a brand-new helping of chaotic cooking action! Journey back to the Onion Kingdom and assemble your team of chefs in classic couch co-op or online play for up to four players. Hold onto your aprons … it’s time to save the world (again!)

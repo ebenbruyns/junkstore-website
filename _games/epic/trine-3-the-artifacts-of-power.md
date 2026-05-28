@@ -26,17 +26,17 @@ publisher: Frozenbyte
 developer: Frozenbyte
 genre: Puzzle, Action-Adventure, Platformer
 franchise: Trine
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa"}}
-release_date: "December 31, 2025"
-game_modes: ["Single-player","Online Multi-player","Local Multi-player","Co-op"]
+release_date: "August 20, 2015"
+game_modes: ["Single-player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Danish","Norwegian","Russian","Swedish","Portuguese - Brazil","Japanese","Simplified Chinese","Finnish"]
 languages_audio: ["English","French","German","Spanish - Spain","Russian","Portuguese - Brazil","Japanese"]
-tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"}]
+tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"}]
 size: ""
 franchise_siblings: [{"rawg_id":257252,"slug":"trine-4-the-nightmare-prince","name":"Trine 4: The Nightmare Prince"},{"rawg_id":4519,"slug":"trine-2","name":"Trine 2"},{"rawg_id":5196,"slug":"trine","name":"Trine"}]
 franchise_slug: "trine|trine-2|trine-3-the-artifacts-of-power|trine-4-the-nightmare-prince"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/trine-3-the-artifacts-of-power"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

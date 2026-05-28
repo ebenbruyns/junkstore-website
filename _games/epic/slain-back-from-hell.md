@@ -26,25 +26,25 @@ publisher: Digerati
 developer: Steel Mantis
 genre: Action, Platformer, Indie
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Nudez, Linguagem imprópria"}}
-release_date: "October 6, 2022"
-game_modes: ["Single-player"]
+release_date: "March 24, 2016"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: [{"rawg_id":29228,"slug":"valfaris","name":"Valfaris"}]
 franchise_slug: "slain-back-from-hell|valfaris"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/slain-back-from-hell"
 was_free_before: true
-giveaway_events: [{"start":"2022-10-05T15:00:00.000Z","end":"2022-10-12T15:00:00.000Z","type":null,"id":"e5267e621ed14b84829c82a69e289c8e"}]
+giveaway_events: [{"_id":"66abf1da3631f27c961ebd02","id":"e5267e621ed14b84829c82a69e289c8e","namespace":"5a85738bd9e74940ad8409ed8a2c680a","startDate":"2022-10-05T15:00:00.000Z","endDate":"2022-10-12T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/878ccf1f170e0ba4f62bbb835e61ae00767cbdcf6960647060e5bef7efe00152.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/07fb597cdc7723ebdae42cfc91cd20a99700ad82e1a7ea5cdcf2f74db12df252.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/369070/header.jpg"
 
 # Technical Details
 controller_input: "native"

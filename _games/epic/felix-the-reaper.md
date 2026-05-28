@@ -28,7 +28,7 @@ genre: Puzzle, Indie
 franchise: 
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Conteúdo sexual"}}
-release_date: "November 6, 2099"
+release_date: "October 17, 2019"
 game_modes: ["Single-player"]
 languages: ["English","German","French","Italian","Spanish - Spain","Portuguese - Brazil","Japanese","Korean","Polish","Russian","Traditional Chinese","Turkish","Simplified Chinese","Danish"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievemen
 size: "2.51 GB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/felix-the-reaper"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

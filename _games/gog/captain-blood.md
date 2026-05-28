@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"255","name":"Pirates"
 size: "6307 MB"
 franchise_siblings: [{"rawg_id":34460,"slug":"commander-blood","name":"Commander Blood"},{"rawg_id":32031,"slug":"captain-blood","name":"Captain Blood (1988)"}]
 franchise_slug: "age-of-pirates-captain-blood|captain-blood|commander-blood"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/captain-blood--2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

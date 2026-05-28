@@ -26,19 +26,19 @@ publisher: "Barrel Roll Games GmbH & Co. KG"
 developer: "Barrel Roll Games GmbH & Co. KG"
 genre: Action, Casual, Fighting
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa"}}
 release_date: "April 9, 2026"
-game_modes: ["Online Multi-player"]
+game_modes: ["Online Multiplayer"]
 languages: ["English","German"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1296","name":"Casual"},{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"19847","name":"Achievements"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1296","name":"Casual"},{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/prop-sumo"
 was_free_before: true
-giveaway_events: [{"start":"2026-04-09T15:00:00.000Z","end":"2026-04-16T15:00:00.000Z","type":null,"id":"bc9b3091841840ad974ff525873d48c1"}]
+giveaway_events: [{"_id":"69ce769c2d378580942c24a4","id":"bc9b3091841840ad974ff525873d48c1","namespace":"a01818d165284996896acce560c669fa","startDate":"2026-04-09T15:00:00.000Z","endDate":"2026-04-16T15:00:00.000Z","title":"Prop Sumo","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -9,7 +9,7 @@ permalink: /games/gog/kerbal-space-program/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Sept '24"
 proton_version: ""
 
@@ -32,11 +32,11 @@ release_date: "April 27, 2015"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Russian"]
 languages_audio: []
-tags_structured: [{"id":"1281","name":"Space Sim"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21127","name":"Creative Community"},{"id":"1400","name":"Physics"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"}]
+tags_structured: [{"id":"1281","name":"Space Sim"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1400","name":"Physics"},{"id":"21146","name":"Educational"},{"id":"10719","name":"Mac OS"}]
 size: "2033 MB"
 franchise_siblings: [{"rawg_id":366877,"slug":"kerbal-space-program-2","name":"Kerbal Space Program 2"}]
 franchise_slug: "kerbal-space-program|kerbal-space-program-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/kerbal-space-program"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "113 hrs"
 hltb_main_extra: "233 hrs"
-hltb_completionist: "601 hrs"
+hltb_completionist: "246.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/12079"
 
 # Links

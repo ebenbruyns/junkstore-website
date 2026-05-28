@@ -32,11 +32,11 @@ release_date: "October 20, 2015"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Japanese","Russian"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1281","name":"Space Sim"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1281","name":"Space Sim"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "2354 MB"
 franchise_siblings: [{"rawg_id":247058,"slug":"rebel-galaxy-outlaw","name":"Rebel Galaxy Outlaw"}]
 franchise_slug: "rebel-galaxy|rebel-galaxy-outlaw"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/rebel-galaxy"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "22 hrs"
 hltb_main_extra: "31 hrs"
-hltb_completionist: "53 hrs"
+hltb_completionist: "32.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/30944"
 
 # Links
@@ -93,8 +93,8 @@ opencritic_score: 74
 opencritic_review_count: 32
 twitch_id: ""
 twitch_url: ""
-playstation_id: ""
-playstation_url: ""
+playstation_id: "203666"
+playstation_url: "https://store.playstation.com/en-us/concept/203666"
 xbox_id: ""
 xbox_url: ""
 geforcenow_id: ""

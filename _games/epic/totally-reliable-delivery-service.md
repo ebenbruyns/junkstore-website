@@ -28,7 +28,7 @@ genre: Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa, Compras on-line"}}
-release_date: "April 1, 2020"
+release_date: "April 1, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Traditional Chinese","Korean","Japanese","Portuguese - Brazil","Russian"]
 languages_audio: ["English"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1400","name":"Physics"},{"id":"1370","name":"Single Pla
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/totally-reliable-delivery-service"
 was_free_before: true
-giveaway_events: [{"start":"2020-03-31T15:00:00.000Z","end":"2020-04-07T15:00:00.000Z","type":null,"id":"4f480f675a6c4947b1bbfbc73a7d3a93"}]
+giveaway_events: [{"_id":"66abf1f43631f27c961ec369","id":"4f480f675a6c4947b1bbfbc73a7d3a93","namespace":"epic","startDate":"2020-03-31T15:00:00.000Z","endDate":"2020-04-07T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

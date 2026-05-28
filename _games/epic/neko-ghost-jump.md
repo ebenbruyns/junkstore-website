@@ -26,19 +26,19 @@ publisher: Burgos Games
 developer: Burgos Games
 genre: Action, Puzzle, Platformer
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "January 11, 2022"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1298","name":"Puzzle"},{"id":"1299","name":"Competitive"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"},{"id":"1151","name":"Platformer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/126329"
 was_free_before: true
-giveaway_events: [{"start":"2025-03-27T15:00:00.000Z","end":"2025-04-03T15:00:00.000Z","type":null,"id":"8c06c52475f04adb9cdfea4c0a50f734"}]
+giveaway_events: [{"_id":"67e56251851069296359f184","id":"8c06c52475f04adb9cdfea4c0a50f734","namespace":"c4c7d3cd0a2f4ea2bf7d4a57e46e8d68","startDate":"2025-03-27T15:00:00.000Z","endDate":"2025-04-03T15:00:00.000Z","title":"Neko Ghost, Jump!","__v":0}]
 free_games_aliases: []
 
 # Images

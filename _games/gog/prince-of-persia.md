@@ -28,15 +28,15 @@ genre: Adventure, Platform, Puzzle
 franchise: 
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Mild Language, Mild Suggestive Themes, Violence"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "December 2, 2008"
+release_date: "December 10, 2008"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Italian","Dutch","Russian"]
 languages_audio: []
-tags_structured: []
+tags_structured: [{"id":"1333","name":"android"}]
 size: "7242 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/prince-of-persia"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

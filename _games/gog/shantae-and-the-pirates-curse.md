@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Indie, Platform
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Violence, Sex"},"usk":{"rating":"6"},"oflc":{"rating":"G","descriptors":"Very Mild Violence"},"nzoflc":{"rating":"G","descriptors":"Very Mild Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Nudez, Violência"}}
-release_date: "October 22, 2014"
+release_date: "April 23, 2015"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Italian","Japanese"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: "441 MB"
 franchise_siblings: [{"rawg_id":366894,"slug":"shantae-and-the-seven-sirens","name":"Shantae and the Seven Sirens"},{"rawg_id":607,"slug":"shantae-half-genie-hero","name":"Shantae: Half-Genie Hero"},{"rawg_id":239252,"slug":"watch-quest-heroes-of-time","name":"Watch Quest! Heroes of Time"},{"rawg_id":1693,"slug":"shantae-riskys-revenge","name":"Shantae: Risky's Revenge"},{"rawg_id":24077,"slug":"shantae","name":"Shantae"}]
 franchise_slug: "shantae|shantae-and-the-pirates-curse|shantae-and-the-seven-sirens|shantae-half-genie-hero|shantae-riskys-revenge|watch-quest-heroes-of-time"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/shantae-and-the-pirates-curse"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

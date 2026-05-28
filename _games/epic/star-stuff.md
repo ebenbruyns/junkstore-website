@@ -26,17 +26,17 @@ publisher: Animo Games Studio LLC
 developer: Ánimo Games Studio
 genre: Casual, Puzzle, Platformer
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "January 17, 2025"
-game_modes: ["Single-player"]
+release_date: "June 7, 2024"
+game_modes: ["Single player"]
 languages: ["English","German","Japanese","Portuguese - Brazil","Simplified Chinese","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"},{"id":"1151","name":"Platformer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/star-stuff"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

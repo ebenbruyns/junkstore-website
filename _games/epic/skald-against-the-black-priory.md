@@ -26,19 +26,19 @@ publisher: Raw Fury
 developer: High North Studios AS
 genre: Indie, RPG
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Medo"}}
-release_date: "November 4, 2025"
+release_date: "May 30, 2024"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "366 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/skald-against-the-black-priory"
 was_free_before: true
-giveaway_events: [{"start":"2025-12-28T16:00:00.000Z","end":"2025-12-29T16:00:00.000Z","type":null,"id":"ad8e81ea170542c5a802c2337878712d"}]
+giveaway_events: [{"_id":"694ffa8c62f15dce5b0a2035","id":"ad8e81ea170542c5a802c2337878712d","namespace":"18cec32f6f994aad963423441a42a931","startDate":"2025-12-28T16:00:00.000Z","endDate":"2025-12-29T16:00:00.000Z","title":"SKALD Against the Black Priory","__v":0}]
 free_games_aliases: []
 
 # Images

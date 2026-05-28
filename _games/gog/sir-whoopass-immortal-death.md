@@ -28,7 +28,7 @@ genre: "Role-playing (RPG), Adventure, Indie, Hack and slash/Beat 'em up, Fighti
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "August 19, 2022"
+release_date: "August 18, 2022"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Hungarian","Polish"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: "10589 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sir-whoopass-immortal-death"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

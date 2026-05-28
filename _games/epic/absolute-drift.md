@@ -9,7 +9,7 @@ permalink: /games/epic/absolute-drift/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "May '24"
 proton_version: ""
 
@@ -28,17 +28,17 @@ genre: Racing, Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "February 18, 2021"
-game_modes: ["Single-player"]
+release_date: "July 29, 2015"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
-tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1212","name":"Racing"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
 size: "155 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/absolute-drift"
 was_free_before: true
-giveaway_events: [{"start":"2021-02-17T15:00:00.000Z","end":"2021-02-24T15:00:00.000Z","type":null,"id":"0c90d229f27a4251beee8b4776a8fb44"}]
+giveaway_events: [{"_id":"66abf1ea3631f27c961ec0f3","id":"0c90d229f27a4251beee8b4776a8fb44","namespace":"9d2f484bbec64aa8ad234b3199dcaf1c","startDate":"2021-02-17T15:00:00.000Z","endDate":"2021-02-24T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "19927295d6e3467887d4e830d8c85963"
 is_featured: false
-owned: true
+owned: false
 ---
 
 This is a drifting experience like no other. Journey from apprentice to master as you hone your skill in a gorgeous minimalist world. Push yourself to the limit on drifting tracks and wild mountain roads until you finally master the art of drifting.

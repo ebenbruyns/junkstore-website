@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure
 franchise: 
 age_rating_summary: e10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "August 8, 2008"
+release_date: "April 17, 2014"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]

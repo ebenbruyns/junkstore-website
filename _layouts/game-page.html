@@ -398,37 +398,16 @@ layout: null
       </div>
       {% endif %}
       {% if page.languages.size > 0 %}
-      {% assign has_audio_lang = false %}
-      {% assign lang_count = 0 %}
-      {% for lang in page.languages %}
-        {% unless lang == "*languages with full audio support" or lang contains "*languages with full audio support" %}
-          {% assign lang_count = lang_count | plus: 1 %}
-          {% if lang contains "*" %}
-            {% assign has_audio_lang = true %}
-          {% endif %}
-        {% endunless %}
-        {% if lang contains "*languages with full audio support" and lang != "*languages with full audio support" %}
-          {% assign lang_count = lang_count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
       <div class="info-item info-item--languages">
-        <div class="info-label">Languages ({{ lang_count }})</div>
+        <div class="info-label">Languages ({{ page.languages.size }})</div>
         <div class="language-tags">
           {% for lang in page.languages %}
-            {% unless lang == "*languages with full audio support" %}
-              {% assign clean_lang = lang | replace: "*languages with full audio support", "" %}
-              {% assign has_audio = false %}
-              {% unless lang contains "*languages with full audio support" %}
-                {% if clean_lang contains "*" %}
-                  {% assign has_audio = true %}
-                  {% assign clean_lang = clean_lang | replace: "*", "" %}
-                {% endif %}
-              {% endunless %}
-              <span class="language-tag{% if has_audio %} language-tag--audio{% endif %}">{{ clean_lang }}{% if has_audio %}*{% endif %}</span>
-            {% endunless %}
+            {% assign is_audio = false %}
+            {% if page.languages_audio contains lang %}{% assign is_audio = true %}{% endif %}
+            <span class="language-tag{% if is_audio %} language-tag--audio{% endif %}">{{ lang }}{% if is_audio %}*{% endif %}</span>
           {% endfor %}
         </div>
-        {% if has_audio_lang %}
+        {% if page.languages_audio.size > 0 %}
         <div class="language-legend">* Full audio support</div>
         {% endif %}
       </div>

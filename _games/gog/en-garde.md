@@ -28,7 +28,7 @@ genre: Adventure, Indie, Fighting
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "June 26, 2018"
+release_date: "August 16, 2023"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Ukrainian","Chinese Traditional"]
 languages_audio: ["English"]

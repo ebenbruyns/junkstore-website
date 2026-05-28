@@ -9,7 +9,7 @@ permalink: /games/epic/creature-in-the-well/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "June '24"
 proton_version: ""
 
@@ -28,17 +28,17 @@ genre: Action, Indie
 franchise: 
 age_rating_summary: 0 (USK)
 age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "March 25, 2021"
-game_modes: ["Single-player"]
+release_date: "September 6, 2019"
+game_modes: ["Single player"]
 languages: ["English","French","German","Simplified Chinese","Korean","Spanish - Latin America","Japanese","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]
 size: "763 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/creature-in-the-well"
 was_free_before: true
-giveaway_events: [{"start":"2021-03-24T15:00:00.000Z","end":"2021-03-31T15:00:00.000Z","type":null,"id":"000f9a594ed44b3981272946d330d968"}]
+giveaway_events: [{"_id":"66abf1e93631f27c961ec0c3","id":"000f9a594ed44b3981272946d330d968","namespace":"e4ac2f8cd49b42f18821f3fc3b6fc1b6","startDate":"2021-03-24T15:00:00.000Z","endDate":"2021-03-31T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "a579a08e71b341e6af106dbd170e2ab2"
 is_featured: false
-owned: true
+owned: false
 ---
 
 As the last remaining BOT-C unit, venture deep into a desert mountain to restore power to an ancient facility, haunted by a desperate Creature. Uncover and upgrade powerful gear in order to free the city of Mirage from a deadly sandstorm.

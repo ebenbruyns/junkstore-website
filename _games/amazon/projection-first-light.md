@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/projection-first-light/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Adventure, Indie, Platform, Puzzle
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "September 19, 2019"
-game_modes: ["Single-player"]
+release_date: "September 29, 2020"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Arabic"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"2865","name":"girl"}]
 size: "1.28 GB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/projection-first-light"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

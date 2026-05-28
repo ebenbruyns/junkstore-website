@@ -26,17 +26,17 @@ publisher: Ninja Kiwi
 developer: Ninja Kiwi
 genre: Strategy
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência fantasiosa"}}
-release_date: "January 24, 2025"
-game_modes: ["Single-player","Online Multi-player","Co-op"]
+release_date: "December 17, 2018"
+game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Danish","Finnish","Japanese","Korean","Norwegian","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Traditional Chinese","Turkish","Polish","Spanish - Spain","Arabic","Dutch","Thai"]
 languages_audio: []
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"39070","name":"iOS"}]
 size: ""
 franchise_siblings: [{"rawg_id":6898,"slug":"bloons-td-5","name":"Bloons TD 5"},{"rawg_id":6498,"slug":"bloons-td-4","name":"Bloons TD 4"},{"rawg_id":1621,"slug":"bloons-td","name":"Bloons TD"},{"rawg_id":407890,"slug":"bloons-tower-defense-3","name":"Bloons Tower Defense 3"},{"rawg_id":407888,"slug":"bloons-tower-defense-2","name":"Bloons Tower Defense 2"}]
 franchise_slug: "bloons-td|bloons-td-4|bloons-td-5|bloons-td-6|bloons-tower-defense-2|bloons-tower-defense-3"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/bloons-td-6"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

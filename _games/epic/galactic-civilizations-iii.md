@@ -28,17 +28,17 @@ genre: Strategy
 franchise: 
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Alcohol Reference, Fantasy Violence, Mild Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Non-realistic looking violence towards human characters., This game allows the player to interact with other players ONLINE."},"usk":{"rating":"6"},"kgrb":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Drogas lícitas, Drogas ilícitas"}}
-release_date: "January 21, 2021"
-game_modes: ["Single-player","Co-op","Multi-player"]
+release_date: "May 14, 2015"
+game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","German","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1166","name":"4X"}]
 size: ""
 franchise_siblings: [{"rawg_id":36318,"slug":"galactic-civilizations-ii-dread-lords","name":"Galactic Civilizations II: Dread Lords"},{"rawg_id":34654,"slug":"galactic-civilizations-2003","name":"Galactic Civilizations (2003)"}]
 franchise_slug: "galactic-civilizations-2003|galactic-civilizations-ii-drea|galactic-civilizations-iii"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/galactic-civilizations-iii"
 was_free_before: true
-giveaway_events: [{"start":"2022-01-12T15:00:00.000Z","end":"2022-01-19T15:00:00.000Z","type":null,"id":"5d63b78c08184c10933a47874117db8c"},{"start":"2021-01-20T15:00:00.000Z","end":"2021-01-27T15:00:00.000Z","type":null,"id":"5d63b78c08184c10933a47874117db8c"}]
+giveaway_events: [{"_id":"66abf1e13631f27c961ebe96","id":"5d63b78c08184c10933a47874117db8c","namespace":"3c52fbac843d4375803187739db84801","startDate":"2022-01-12T15:00:00.000Z","endDate":"2022-01-19T15:00:00.000Z","__v":0},{"_id":"66abf1ea3631f27c961ec117","id":"5d63b78c08184c10933a47874117db8c","namespace":"3c52fbac843d4375803187739db84801","startDate":"2021-01-20T15:00:00.000Z","endDate":"2021-01-27T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

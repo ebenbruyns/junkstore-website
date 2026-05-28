@@ -26,17 +26,17 @@ publisher: Abiding Bridge
 developer: Bunstack
 genre: Exploration
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "August 2, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Simplified Chinese","Japanese","Italian","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Turkish"]
 languages_audio: []
-tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"}]
 size: "166 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/paquerette-down-the-bunburrows"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

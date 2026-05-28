@@ -26,17 +26,17 @@ publisher: Outsider Games
 developer: Outsider Games
 genre: Narration, Adventure, Indie
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Nudez, Violência, Drogas lícitas"}}
-release_date: "June 9, 2023"
-game_modes: ["Single-player"]
+release_date: "October 18, 2022"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/jennifer-wilde-unlikely-revolutionaries"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

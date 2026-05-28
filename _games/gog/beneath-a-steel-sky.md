@@ -8,7 +8,7 @@ storefront_key: "gog"
 permalink: /games/gog/beneath-a-steel-sky/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
@@ -26,17 +26,17 @@ publisher: Virgin Interactive Entertainment (Europe) Ltd., Virgin Interactive En
 developer: Revolution Software
 genre: Adventure, Indie, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Medo"}}
-release_date: "March 1, 1994"
+release_date: "July 27, 2020"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"4","name":"Funny"},{"id":"79","name":"Free to Play"},{"id":"122","name":"Pixel Graphics"},{"id":"141","name":"Point & Click"},{"id":"43","name":"Post-apocalyptic"},{"id":"145","name":"Choices Matter"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"284","name":"Cult Classic"},{"id":"227","name":"Hacking"}]
-size: "66.3 MB"
+size: "87 MB"
 franchise_siblings: [{"rawg_id":304182,"slug":"beyond-a-steel-sky","name":"Beyond a Steel Sky"}]
 franchise_slug: "beneath-a-steel-sky|beyond-a-steel-sky"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/beneath-a-steel-sky"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

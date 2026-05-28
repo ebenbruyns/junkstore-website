@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Indie, Platform, Puzzle
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "August 16, 2021"
+release_date: "August 17, 2021"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Latin American Spanish","French","Italian","Japanese","Russian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1141 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/greak-memories-of-azur"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "6.5 hrs"
 hltb_main_extra: "8 hrs"
-hltb_completionist: "10 hrs"
+hltb_completionist: "7.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/83340"
 
 # Links

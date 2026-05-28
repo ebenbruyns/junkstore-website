@@ -26,9 +26,9 @@ publisher: EXBO
 developer: EXBO
 genre: Shooter, Open World, First Person
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
-release_date: "February 19, 2026"
+release_date: "December 9, 2022"
 game_modes: ["Co-op"]
 languages: ["English","Russian","Spanish - Spain","French","Korean"]
 languages_audio: ["Russian"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visu
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/stalcraft-x"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

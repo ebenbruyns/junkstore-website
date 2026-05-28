@@ -26,7 +26,7 @@ publisher: New Blood Interactive
 developer: Hyperstrange
 genre: Role-playing (RPG), Shooter
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: Mature 17+ (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
 release_date: "December 5, 2023"
 game_modes: ["Single-player"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achi
 size: "3982 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/blood-west"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

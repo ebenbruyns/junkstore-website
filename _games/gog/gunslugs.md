@@ -26,17 +26,17 @@ publisher: Orangepixel
 developer: Orangepixel
 genre: Action, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "June 2, 2015"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["English"]
-languages_audio: []
+languages_audio: ["English","Japanese","Simplified Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"7808","name":"steam-trading-cards"},{"id":"40850","name":"Steam Leaderboards"},{"id":"198","name":"Split Screen"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"}]
 size: "70 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/gunslugs"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

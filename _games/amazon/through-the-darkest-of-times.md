@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/through-the-darkest-of-times/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 16 (PEGI) · 12 (USK)
 age_ratings: {"pegi":{"rating":"16","descriptors":"Bad Language"},"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Medo, Violência, Temas sensíveis"}}
 release_date: "January 30, 2020"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","German","French","Spanish - Spain","Japanese","Russian","Simplified Chinese"]
 languages_audio: ["English","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"}]
 size: "1292 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/through-the-darkest-of-times"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/66b1aa5d839e3dca95b2c9ed792b787103b164b0091d49992f6db66d7c3f39c6.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/5e1ae178554be0aed43e7bcd11e7314aad151dece75c91d5a40aa3f23b8929a0.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1003090/header.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"

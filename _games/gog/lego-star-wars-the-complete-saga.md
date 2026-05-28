@@ -28,15 +28,15 @@ genre: Adventure, Platform
 franchise: 
 age_rating_summary: e10 (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence"},"pegi":{"rating":"3"},"usk":{"rating":"6"},"bbfc":{"rating":"PG"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Mild Crude Humour"},"nzoflc":{"rating":"PG"}}
-release_date: "November 6, 2007"
+release_date: "November 12, 2009"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["German","English","Spanish","French","Italian"]
-languages_audio: []
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Spanish - Latin America","Japanese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"32","name":"Sci-fi"},{"id":"4","name":"Funny"},{"id":"193","name":"Classic"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"25","name":"Space"},{"id":"107","name":"Family Friendly"},{"id":"318","name":"Star Wars"},{"id":"297","name":"LEGO"}]
 size: "4462 MB"
 franchise_siblings: [{"rawg_id":326239,"slug":"lego-star-wars-the-sywalker-saga","name":"Lego Star Wars: The Skywalker Saga"},{"rawg_id":717012,"slug":"lego-star-wars-castaways","name":"LEGO Star Wars: Castaways"},{"rawg_id":632559,"slug":"lego-star-wars-the-skywalker-saga-prototype","name":"LEGO Star Wars: The Skywalker Saga Prototype"},{"rawg_id":612434,"slug":"lego-star-wars-the-last-jedi","name":"Lego Star Wars: The Last Jedi"},{"rawg_id":1935,"slug":"lego-star-wars-tfa","name":"LEGO Star Wars: The Force Awakens"},{"rawg_id":12729,"slug":"lego-star-wars-iii","name":"LEGO Star Wars III - The Clone Wars"},{"rawg_id":42176,"slug":"lego-star-wars-the-quest-for-r2-d2","name":"LEGO Star Wars: The Quest for R2-D2"},{"rawg_id":270713,"slug":"lego-star-wars-ii","name":"LEGO Star Wars II"},{"rawg_id":53378,"slug":"lego-star-wars-2-the-original-trilogy","name":"Lego Star Wars II: The Original Trilogy"},{"rawg_id":53377,"slug":"lego-star-wars","name":"Lego Star Wars: The Video Game"}]
 franchise_slug: "lego-star-wars|lego-star-wars-2-the-original-|lego-star-wars-castaways|lego-star-wars-ii|lego-star-wars-iii|lego-star-wars-tcs|lego-star-wars-tfa|lego-star-wars-the-last-jedi|lego-star-wars-the-quest-for-r|lego-star-wars-the-skywalker-s|lego-star-wars-the-sywalker-sa"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/lego-star-wars-the-complete-saga"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

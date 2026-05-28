@@ -3,12 +3,12 @@ layout: game-page
 title: "Derpy Deep Drive - Steam Deck Compatibility"
 game_title: "Derpy Deep Drive"
 slug: "derpy-deep-drive"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/derpy-deep-drive/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "April 26, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"460","name":"Endless"},{"id":"591","name":"Unreal Engine"},{"id":"4834","name":"blender"}]

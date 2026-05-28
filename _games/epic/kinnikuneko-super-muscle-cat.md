@@ -32,11 +32,11 @@ release_date: "March 19, 2024"
 game_modes: ["Single-player"]
 languages: ["English","Spanish - Spain","Japanese","French","Italian","German","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil","Portuguese - Portugal","Russian"]
 languages_audio: ["English","Spanish - Spain","Japanese"]
-tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/kinnikuneko-super-muscle-cat"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

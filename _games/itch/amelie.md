@@ -3,12 +3,12 @@ layout: game-page
 title: "Amelie - Steam Deck Compatibility"
 game_title: "Amelie"
 slug: "amelie"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/amelie/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Indie, Simulator, Visual Novel
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Atos criminosos"}}
-release_date: "December 16, 2021"
-game_modes: ["Single-player"]
+release_date: "December 15, 2021"
+game_modes: ["Single player"]
 languages: ["English","Simplified Chinese"]
 languages_audio: []
 tags_structured: []
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/amelie"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

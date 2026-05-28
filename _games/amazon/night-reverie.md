@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/night-reverie/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "October 8, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","Spanish - Latin America","Italian","Simplified Chinese","Traditional Chinese","Russian","Spanish - Spain","French","German","Japanese","Korean","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"88","name":"Cute"},{"id":"117","name":"Mystery"},{"id":"145","name":"Choices Matter"},{"id":"165","name":"Colorful"},{"id":"138","name":"Relaxing"},{"id":"46","name":"Surreal"},{"id":"572","name":"Emotional"},{"id":"295","name":"Soundtrack"},{"id":"583","name":"Narrative"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/night-reverie"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

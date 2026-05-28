@@ -26,19 +26,19 @@ publisher: Amanita Design
 developer: Amanita Design
 genre: Horror, Puzzle, Adventure
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
-release_date: "May 6, 2025"
-game_modes: ["Single-player"]
+release_date: "October 28, 2021"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish","Ukrainian"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/happy-game"
 was_free_before: true
-giveaway_events: [{"start":"2025-05-15T15:00:00.000Z","end":"2025-05-22T15:00:00.000Z","type":null,"id":"431ef6a0c3fd4aaab390ceb2f1904bc3"}]
+giveaway_events: [{"_id":"6825f9b5a9f7ba0ebca35c5f","id":"431ef6a0c3fd4aaab390ceb2f1904bc3","namespace":"0024d18025a544fd99b2ee8dee87baaf","startDate":"2025-05-15T15:00:00.000Z","endDate":"2025-05-22T15:00:00.000Z","title":"Happy Game","__v":0}]
 free_games_aliases: []
 
 # Images

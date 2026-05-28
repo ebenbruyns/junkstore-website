@@ -9,7 +9,7 @@ permalink: /games/gog/metal-slug-tactics/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Nov '24"
 proton_version: ""
 
@@ -26,9 +26,9 @@ publisher: DotEmu
 developer: Leikir Studio
 genre: role-playing, strategy, indie
 franchise: 
-age_rating_summary: PEGI 12
+age_rating_summary: 12 (PEGI)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "November 1, 2024"
+release_date: "November 5, 2024"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Japanese","Korean","Chinese Traditional"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1279 MB"
 franchise_siblings: [{"rawg_id":651393,"slug":"metal-slug-commander","name":"Metal Slug: Commander"},{"rawg_id":7426,"slug":"metal-slug-attack","name":"METAL SLUG ATTACK"},{"rawg_id":215,"slug":"metal-slug-defence","name":"METAL SLUG DEFENSE"},{"rawg_id":4985,"slug":"metal-slug-xx","name":"METAL SLUG XX"},{"rawg_id":24654,"slug":"metal-slug-7","name":"Metal Slug 7"},{"rawg_id":2246,"slug":"metal-slug-anthology","name":"Metal Slug Anthology"},{"rawg_id":359207,"slug":"metal-slug-6","name":"Metal Slug 6"},{"rawg_id":53419,"slug":"metal-slug-advance","name":"Metal Slug Advance"},{"rawg_id":311734,"slug":"metal-slug-5","name":"Metal Slug 5"},{"rawg_id":26941,"slug":"metal-slug-4","name":"Metal Slug 4"},{"rawg_id":460423,"slug":"metal-slug-2nd-mission","name":"Metal Slug: 2nd Mission"},{"rawg_id":1488,"slug":"metal-slug-3","name":"METAL SLUG 3"},{"rawg_id":816304,"slug":"metal-slug-1st-mission","name":"Metal Slug: 1st Mission"},{"rawg_id":4808,"slug":"metal-slug-x","name":"Metal Slug X"},{"rawg_id":6256,"slug":"metal-slug-2","name":"METAL SLUG 2"},{"rawg_id":14948,"slug":"metal-slug","name":"METAL SLUG"}]
 franchise_slug: "metal-slug|metal-slug-1st-mission|metal-slug-2|metal-slug-2nd-mission|metal-slug-3|metal-slug-4|metal-slug-5|metal-slug-6|metal-slug-7|metal-slug-advance|metal-slug-anthology|metal-slug-attack|metal-slug-commander|metal-slug-defence|metal-slug-tactics|metal-slug-x|metal-slug-xx"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/metal-slug-tactics"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1366624267"
 is_featured: false
-owned: true
+owned: false
 ---
 
 METAL SLUG is back with a brand new entry in the METAL SLUG universe. Discover a new side of the emblematic run'n'gun and jump into a dynamic tactical RPG with roguelike elements!

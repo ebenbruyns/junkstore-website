@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/samurai-bringer/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: "Role-playing (RPG), Adventure, Indie, Puzzle, Arcade, Hack and slash/Bea
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "April 20, 2022"
-game_modes: ["Single-player"]
+release_date: "April 21, 2022"
+game_modes: ["Single player"]
 languages: ["English","Japanese","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"68","name":"Hack and Slash"},{"id":"121","name":"Character Customization"},{"id":"88","name":"Cute"},{"id":"89","name":"Historical"},{"id":"99","name":"Isometric"},{"id":"61","name":"Top-Down"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"196","name":"Procedural Generation"},{"id":"116","name":"2.5D"},{"id":"205","name":"Lore-Rich"},{"id":"179","name":"Cartoon"},{"id":"186","name":"Ninja"},{"id":"108","name":"Mythology"},{"id":"49964","name":"Action Roguelike"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/samurai-bringer"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

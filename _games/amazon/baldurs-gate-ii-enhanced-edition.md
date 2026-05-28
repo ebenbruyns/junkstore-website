@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/baldurs-gate-ii-enhanced-edition/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "yellow"
 date_tested: "July '25"
 proton_version: ""
@@ -29,15 +29,15 @@ franchise:
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Animated Blood, Mild Language, Use of Alcohol and Tobacco"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Nudez"}}
 release_date: "November 15, 2013"
-game_modes: ["Single-player","Co-op","Multi-player"]
+game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","German","Spanish - Spain","Italian","Korean","Polish","Simplified Chinese","Russian","French"]
-languages_audio: ["English"]
+languages_audio: ["English","German","French","Polish","Russian","Ukrainian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"41","name":"Dark"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"121","name":"Character Customization"},{"id":"40833","name":"Captions available"},{"id":"99","name":"Isometric"},{"id":"82","name":"Magic"},{"id":"271","name":"Remake"},{"id":"270","name":"Blood"},{"id":"981","name":"battle"},{"id":"194","name":"Real-Time with Pause"},{"id":"808","name":"character"},{"id":"217","name":"Romance"},{"id":"215","name":"Dragons"},{"id":"238","name":"CRPG"},{"id":"206","name":"Party-Based RPG"},{"id":"574","name":"Dungeons & Dragons"},{"id":"704","name":"Traps"},{"id":"3680","name":"defense"},{"id":"712","name":"school"},{"id":"920","name":"murder"},{"id":"2489","name":"dodge"},{"id":"5506","name":"wizards"}]
 size: "3804678799
 "
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/baldur-s-gate-ii-enhanced-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -45,7 +45,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/fb479b4f352dbd5e537fbf08bb5e299dd18b855a96f0d1e0a34a82f12bcf99e3.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/b1cc07ce74fbb022e41ab2828edd3258bb033d7e051ec33ba9f3906ca8537df3.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/257350/header.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"

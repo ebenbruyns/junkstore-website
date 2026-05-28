@@ -28,15 +28,15 @@ genre: Action, Adventure
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Strong Language, Use of Drugs"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Drugs"},"usk":{"rating":"16"},"cero":{"rating":"D","descriptors":"Violence, Drugs"},"oflc":{"rating":"M","descriptors":"Mature themes, Violence, Drug Use, Coarse Language and sexual references"},"nzoflc":{"rating":"M","descriptors":"Violence, Offensive Language &amp; Content that may disturb"},"kgrb":{"rating":"18","descriptors":"Drugs, Violence"},"fpb":{"rating":"18","descriptors":"D (Substance abuse), L (Language), V (Violence), PPS (Photo Pattern Sensitivity), CI (Competitive Intensity)"},"csrr":{"rating":"R","descriptors":"Violence, Language, Drugs"},"dejus":{"rating":"16","descriptors":"Drogas, Violência"}}
-release_date: "February 16, 2024"
+release_date: "August 22, 2024"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Arabic","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Italian","Polish"]
 languages_audio: ["English","French","German","Spanish - Spain","Japanese"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/skull-and-bones"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

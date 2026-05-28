@@ -9,7 +9,7 @@ permalink: /games/gog/kings-bounty-crossworlds/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "March '25"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: role-playing, strategy
 franchise: 
 age_rating_summary: 12 (PEGI)
 age_ratings: {"pegi":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "November 19, 2009"
+release_date: "September 17, 2010"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","Czech","German","English","Spanish","Italian","Polish","Russian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam 
 size: "3098 MB"
 franchise_siblings: [{"rawg_id":364807,"slug":"kings-bounty-ii","name":"King's Bounty II"},{"rawg_id":18000,"slug":"kings-bounty-dark-side","name":"King's Bounty: Dark Side"},{"rawg_id":15198,"slug":"kings-bounty-warriors-of-the-north","name":"King's Bounty: Warriors of the North"},{"rawg_id":17739,"slug":"kings-bounty-legions","name":"King’s Bounty: Legions"},{"rawg_id":17698,"slug":"kings-bounty-armored-princess","name":"King's Bounty: Armored Princess"},{"rawg_id":12022,"slug":"kings-bounty-the-legend","name":"King's Bounty: The Legend"},{"rawg_id":32001,"slug":"kings-bounty","name":"King's Bounty"}]
 franchise_slug: "kings-bounty|kings-bounty-armored-princess|kings-bounty-crossworlds|kings-bounty-dark-side|kings-bounty-ii|kings-bounty-legions|kings-bounty-the-legend|kings-bounty-warriors-of-the-n"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/kings-bounty-crossworlds-game-of-the-year-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1207659154"
 is_featured: false
-owned: true
+owned: false
 ---
 
 King's Bounty: Crossworlds is the expansion for the famous King's Bounty: Armored Princess role-playing game.

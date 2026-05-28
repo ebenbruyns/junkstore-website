@@ -26,19 +26,19 @@ publisher: Atari
 developer: Nickervision Studios
 genre: Action, Shooter
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "October 28, 2021"
-game_modes: ["Single-player","Multi-player","Co-op","Split Screen Co-op","Split Screen","Remote Play Together"]
+game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op","Shared/Split Screen","Remote Play Together"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/black-widow-recharged"
 was_free_before: true
-giveaway_events: [{"start":"2022-03-02T15:00:00.000Z","end":"2022-03-09T15:00:00.000Z","type":null,"id":"2dd7498ffb08433ca9b7c20946787e1f"}]
+giveaway_events: [{"_id":"66abf1e03631f27c961ebe68","id":"2dd7498ffb08433ca9b7c20946787e1f","namespace":"a25444fc25e9498781983b58ceba30c5","startDate":"2022-03-02T15:00:00.000Z","endDate":"2022-03-09T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

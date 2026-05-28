@@ -28,7 +28,7 @@ genre: Action, Simulation, Strategy
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Use of Alcohol, Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Mild Violence"},"usk":{"rating":"6","descriptors":"Abstrakte Gewalt"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "August 11, 2022"
+release_date: "October 14, 2020"
 game_modes: ["Single-player","Co-op"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for 
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/cook-serve-delicious-3"
 was_free_before: true
-giveaway_events: [{"start":"2022-08-10T15:00:00.000Z","end":"2022-08-17T15:00:00.000Z","type":null,"id":"41a886d5d37646bfb3d30842cc8f34d2"}]
+giveaway_events: [{"_id":"66abf1dc3631f27c961ebd60","id":"41a886d5d37646bfb3d30842cc8f34d2","namespace":"b29663f909b94b0b83deb76f147e9e4f","startDate":"2022-08-10T15:00:00.000Z","endDate":"2022-08-17T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

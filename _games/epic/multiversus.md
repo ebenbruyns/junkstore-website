@@ -28,7 +28,7 @@ genre: Fighting
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Language, Fantasy Violence"},"pegi":{"rating":"12","descriptors":"Mild Swearing, In-Game Purchases"},"usk":{"rating":"6","descriptors":"Gelegentliches Fluchen, Abstrakte Gewalt, In-Game Purchases"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Online Interactivity, Mild Coarse Language, In-Game Purchases"},"kgrb":{"rating":"12","descriptors":"Language, In-Game Purchases"},"dejus":{"rating":"10","descriptors":"Violência, Compras on-line"}}
-release_date: "May 28, 2024"
+release_date: "July 19, 2022"
 game_modes: ["Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Japanese","Korean","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Spanish - Latin America"]

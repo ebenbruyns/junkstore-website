@@ -9,7 +9,7 @@ permalink: /games/gog/sherlock-holmes-chapter-one/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: Adventure, Indie
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Sexual Content, Violence"},"pegi":{"rating":"16","descriptors":"Violence, Sex"},"usk":{"rating":"16","descriptors":"Referenced Sexual Violence, Sexual Innuendo, Violence"},"kgrb":{"rating":"18","descriptors":"Alcohol, Tobacco, Drug"},"dejus":{"rating":"14","descriptors":"Atos criminosos, Violência, Drogas lícitas"}}
-release_date: "November 1, 2021"
+release_date: "November 15, 2021"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Turkish","Ukrainian","Chinese Traditional"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "27146 MB"
 franchise_siblings: [{"rawg_id":830271,"slug":"sherlock-holmes-the-awakened-2","name":"Sherlock Holmes The Awakened"}]
 franchise_slug: "sherlock-holmes-chapter-one|sherlock-holmes-the-awakened-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sherlock-holmes-chapter-one"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "2094849865"
 is_featured: false
-owned: true
+owned: false
 ---
 
 In this story-driven detective thriller, a young Sherlock Holmes struggles to prove himself as he navigates an exotic, dangerous island in the Mediterranean to investigate the mystery of his mother's death.

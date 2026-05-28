@@ -28,7 +28,7 @@ genre: Adventure, Indie, RPG
 franchise: 
 age_rating_summary: 
 age_ratings: {"kgrb":{"rating":"18","descriptors":"Violence, Inappropriate Use of Language"},"dejus":{"rating":"16","descriptors":"Violência, Atos criminosos, Temas sensíveis, Linguagem imprópria, Conteúdo sexual, Nudez, Drogas lícitas"}}
-release_date: "January 1, 2099"
+release_date: "September 4, 2020"
 game_modes: ["Single-player"]
 languages: ["English","Japanese","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospher
 size: "1893 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/paradise-killer"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

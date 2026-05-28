@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/the-gap/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "June 6, 2024"
-game_modes: ["Single-player"]
+release_date: "June 4, 2024"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
-tags_structured: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"79","name":"Free to Play"},{"id":"117","name":"Mystery"},{"id":"111","name":"Short"},{"id":"571","name":"3D"},{"id":"77","name":"Realistic"},{"id":"192","name":"Mature"},{"id":"110","name":"Cinematic"},{"id":"91","name":"Walking Simulator"},{"id":"218","name":"Multiple Endings"},{"id":"305","name":"Linear"},{"id":"142","name":"Detective"},{"id":"243","name":"1990's"},{"id":"209","name":"Drama"},{"id":"200","name":"Narration"},{"id":"572","name":"Emotional"},{"id":"112","name":"Minimalist"},{"id":"279","name":"Supernatural"},{"id":"285","name":"Psychological"},{"id":"183","name":"Thriller"},{"id":"220","name":"Experimental"},{"id":"326","name":"Investigation"},{"id":"84","name":"Abstract"},{"id":"1452","name":"philosophical"}]
 size: "1827 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-gap--2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -83,8 +83,8 @@ store_url: ""
 protondb_url: "https://www.protondb.com/app/2972040"
 protondb_report_url: ""
 pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: "https://www.metacritic.com/game/the-gap-kosmik-games/"
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/the-gap/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

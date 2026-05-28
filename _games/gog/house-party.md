@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7808","name":"steam-t
 size: "2911 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/house-party"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

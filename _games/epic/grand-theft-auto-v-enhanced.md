@@ -32,11 +32,11 @@ release_date: "March 4, 2025"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
-franchise_siblings: []
-franchise_slug: ""
-igdb_url: ""
+franchise_siblings: [{"rawg_id":972995,"slug":"grand-theft-aito-vi","name":"Grand Theft Auto VI"},{"rawg_id":5200,"slug":"gta-chinatown-wars","name":"Grand Theft Auto: Chinatown Wars"},{"rawg_id":4459,"slug":"grand-theft-auto-iv","name":"Grand Theft Auto IV"},{"rawg_id":4059,"slug":"grand-theft-auto-vice-city-stories","name":"Grand Theft Auto: Vice City Stories"},{"rawg_id":979345,"slug":"san-andreas-multiplayer-sa-mp","name":"San Andreas Multiplayer (SA-MP)"},{"rawg_id":4058,"slug":"gta-liberty-city-stories","name":"Grand Theft Auto: Liberty City Stories"},{"rawg_id":59122,"slug":"grand-theft-auto-advance","name":"Grand Theft Auto Advance"},{"rawg_id":416,"slug":"grand-theft-auto-san-andreas","name":"Grand Theft Auto: San Andreas"},{"rawg_id":430,"slug":"grand-theft-auto-vice-city","name":"Grand Theft Auto: Vice City"},{"rawg_id":432,"slug":"grand-theft-auto-iii","name":"Grand Theft Auto III"},{"rawg_id":52997,"slug":"grand-theft-auto-2-1999","name":"Grand Theft Auto 2"},{"rawg_id":52998,"slug":"grand-theft-auto-1998","name":"Grand Theft Auto"}]
+franchise_slug: "grand-theft-aito-vi|grand-theft-auto-1998|grand-theft-auto-2-1999|grand-theft-auto-advance|grand-theft-auto-iii|grand-theft-auto-iv|grand-theft-auto-san-andreas|grand-theft-auto-v|grand-theft-auto-vice-city|grand-theft-auto-vice-city-sto|gta-chinatown-wars|gta-liberty-city-stories|san-andreas-multiplayer-sa-mp"
+igdb_url: "https://www.igdb.com/games/239064"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

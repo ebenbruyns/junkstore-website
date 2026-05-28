@@ -26,25 +26,25 @@ publisher: Pixel Dash Studios
 developer: Pixel Dash Studios
 genre: Action, Racing
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Atos criminosos, Violência, Temas sensíveis, Linguagem imprópria"}}
-release_date: "August 7, 2025"
-game_modes: ["Single-player","Local Multi-player","Co-op"]
+release_date: "October 4, 2017"
+game_modes: ["Single-player","Local Multiplayer","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Japanese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/road-redemption"
 was_free_before: true
-giveaway_events: [{"start":"2025-08-07T15:00:00.000Z","end":"2025-08-14T15:00:00.000Z","type":null,"id":"91a0b419d5b741c39cc35ce3a35138c0"}]
+giveaway_events: [{"_id":"688b85366ab52e0bd856c2b0","id":"91a0b419d5b741c39cc35ce3a35138c0","namespace":"462451248e9640f4a211294193034dda","startDate":"2025-08-07T15:00:00.000Z","endDate":"2025-08-14T15:00:00.000Z","title":"Road Redemption","__v":0}]
 free_games_aliases: []
 
 # Images
 banner_image: "https://images.gog.com/95c29bc14adf89c953c23d3ffd84b864903ea6dc7416dd63d9bd09dc58fd65e8.jpg?namespace=gamesdb.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/0c3d986eaab24223ec0b3e59a1b199cbbf46d42cc0e1ca2fb207517b06f4e599.jpg?namespace=gamesdb.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/300380/header.jpg"
 
 # Technical Details
 controller_input: "native"

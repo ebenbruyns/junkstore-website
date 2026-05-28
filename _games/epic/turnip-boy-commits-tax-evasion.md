@@ -28,17 +28,17 @@ genre: Casual, Action-Adventure, Indie
 franchise: 
 age_rating_summary: 3 (PEGI) · 6 (USK)
 age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"6","descriptors":"Abstract Violence"},"oflc":{"rating":"PG","descriptors":"Mild Coarse Language"},"nzoflc":{"rating":"PG","descriptors":"Mild Coarse Language"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência, Atos criminosos"}}
-release_date: "March 24, 2022"
-game_modes: ["Single-player"]
+release_date: "April 22, 2021"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: "107 MB"
 franchise_siblings: [{"rawg_id":975269,"slug":"turnip-boy-robs-a-bank","name":"Turnip Boy Robs a Bank"}]
 franchise_slug: "turnip-boy-commits-tax-evasion|turnip-boy-robs-a-bank"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/turnip-boy-commits-tax-evasion"
 was_free_before: true
-giveaway_events: [{"start":"2023-11-01T15:00:00.000Z","end":"2023-11-08T15:00:00.000Z","type":null,"id":"e0282b701ea04c42ac1b5a55c1a3bfde"}]
+giveaway_events: [{"_id":"66abf1cf3631f27c961eba17","id":"e0282b701ea04c42ac1b5a55c1a3bfde","namespace":"80be39e522204fd0942916d73234d044","startDate":"2023-11-01T15:00:00.000Z","endDate":"2023-11-08T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

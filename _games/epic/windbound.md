@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: PG (OFLC)
 age_ratings: {"oflc":{"rating":"PG"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "August 28, 2020"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1367","name":"RPG"},{"id":"1080","name":"Survival"},{"id":"1336","name":"Action-Adventure"},{"id":"1289","name":"CRAFTING"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: "1371 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/windbound"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

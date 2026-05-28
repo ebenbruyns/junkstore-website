@@ -26,19 +26,19 @@ publisher: The Quantum Astrophysicists Guild
 developer: Festive Vector
 genre: Exploration, Indie, Adventure
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "December 21, 2022"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","German","Simplified Chinese","Japanese","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "348 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sail-forth"
 was_free_before: true
-giveaway_events: [{"start":"2024-01-10T15:00:00.000Z","end":"2024-01-17T15:00:00.000Z","type":null,"id":"c819b6b40a034231ad64b8406f75814e"}]
+giveaway_events: [{"_id":"66abf1cc3631f27c961eb94b","id":"c819b6b40a034231ad64b8406f75814e","namespace":"d93cf08971eb4920862a95870a051f81","startDate":"2024-01-10T15:00:00.000Z","endDate":"2024-01-17T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

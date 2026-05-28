@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/kraken-academy/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Linguagem imprópria"}}
 release_date: "September 10, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Simplified Chinese","Japanese","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"144","name":"Crime"},{"id":"136","name":"Music"},{"id":"209","name":"Drama"},{"id":"625","name":"party"},{"id":"1709","name":"work"},{"id":"1129","name":"art"},{"id":"712","name":"school"},{"id":"2865","name":"girl"},{"id":"2384","name":"rock"},{"id":"663","name":"Ghosts"},{"id":"2774","name":"learn"},{"id":"684","name":"children"},{"id":"3735","name":"loop"}]
 size: "262 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/kraken-academy"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

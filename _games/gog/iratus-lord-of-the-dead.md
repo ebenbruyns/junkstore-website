@@ -26,17 +26,17 @@ publisher: Daedalic Entertainment
 developer: Unfrozen
 genre: Role-playing (RPG), Strategy, Turn-based strategy (TBS), Indie
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: Teen (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "April 23, 2020"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Hungarian","Japanese","Korean","Polish","Russian","Turkish","Chinese Traditional"]
 languages_audio: ["English","Russian","French","German","Simplified Chinese","Traditional Chinese","Japanese"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
 size: "1790 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/iratus-lord-of-the-dead"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "12 hrs"
 hltb_main_extra: "19.5 hrs"
-hltb_completionist: "40.5 hrs"
+hltb_completionist: "16.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/69397"
 
 # Links

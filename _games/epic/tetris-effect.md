@@ -9,7 +9,7 @@ permalink: /games/epic/tetris-effect/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "May '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: Puzzle
 franchise: 
 age_rating_summary: G (OFLC)
 age_ratings: {"oflc":{"rating":"G"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
-release_date: "July 23, 2019"
+release_date: "August 17, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Thai","Traditional Chinese"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1159","name":"Arcade"},{"
 size: ""
 franchise_siblings: [{"rawg_id":58818,"slug":"tetris-effect","name":"Tetris Effect"}]
 franchise_slug: "tetris-effect|tetris-effect-connected"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/tetris-effect"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "06c89b64de954c6fbcab914f8837fd4b"
 is_featured: false
-owned: true
+owned: false
 ---
 
 TETRIS® EFFECT: CONNECTED adds an all-new robust multiplayer expansion to the huge variety of addictive and innovative single-player modes

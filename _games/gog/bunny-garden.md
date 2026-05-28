@@ -9,7 +9,7 @@ permalink: /games/gog/bunny-garden/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1400 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/bunny-garden"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1184941116"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Enjoy a conversation with the cast while having a drink! This is a dating sim adventure game that takes place in a gentlemen's haven called "Bunny Garden".

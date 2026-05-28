@@ -2,10 +2,10 @@
 layout: game-page
 title: "Trüberbrook - Steam Deck Compatibility"
 game_title: "Trüberbrook"
-slug: "tr-berbrook"
+slug: "truberbrook"
 storefront: "GOG"
 storefront_key: "gog"
-permalink: /games/gog/tr-berbrook/
+permalink: /games/gog/truberbrook/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Ri
 size: "2215 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/truberbrook"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "5.5 hrs"
 hltb_main_extra: "6 hrs"
-hltb_completionist: "6 hrs"
+hltb_completionist: "5.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/65656"
 
 # Links

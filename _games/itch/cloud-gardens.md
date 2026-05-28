@@ -3,12 +3,12 @@ layout: game-page
 title: "Cloud Gardens - Steam Deck Compatibility"
 game_title: "Cloud Gardens"
 slug: "cloud-gardens"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/cloud-gardens/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 1, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"37","name":"Sandbox"},{"id":"14","name":"Early Access"},{"id":"107","name":"Family Friendly"},{"id":"43","name":"Post-apocalyptic"},{"id":"111","name":"Short"},{"id":"571","name":"3D"},{"id":"39","name":"Building"},{"id":"138","name":"Relaxing"},{"id":"46","name":"Surreal"},{"id":"196","name":"Procedural Generation"},{"id":"213","name":"City Builder"},{"id":"266","name":"Level Editor"},{"id":"774","name":"nature"},{"id":"220","name":"Experimental"}]
 size: "148 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/cloud-gardens"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

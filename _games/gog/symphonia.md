@@ -28,7 +28,7 @@ genre: Adventure, Indie, Platform, Music
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "June 23, 2020"
+release_date: "December 5, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French"]
 languages_audio: []
@@ -79,7 +79,7 @@ hltb_completionist: "9 hrs"
 hltb_url: "https://howlongtobeat.com/game/134813"
 
 # Links
-store_url: "https://www.gog.com/game/symphonia"
+store_url: "https://www.gog.com/en/game/symphonia_2020"
 protondb_url: "https://www.protondb.com/app/1865960"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Symphonia_%282024%29"

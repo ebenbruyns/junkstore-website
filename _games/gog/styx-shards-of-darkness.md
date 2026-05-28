@@ -26,7 +26,7 @@ publisher: Focus Entertainment
 developer: Cyanide Studio
 genre: Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: 16 (PEGI)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "March 14, 2017"
 game_modes: ["Single-player"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "10731 MB"
 franchise_siblings: [{"rawg_id":1006936,"slug":"styx-blades-of-greed","name":"Styx: Blades of Greed"},{"rawg_id":3562,"slug":"styx-master-of-shadows","name":"Styx: Master of Shadows"},{"rawg_id":4228,"slug":"of-orcs-and-men","name":"Of Orcs and Men"}]
 franchise_slug: "of-orcs-and-men|styx-blades-of-greed|styx-master-of-shadows|styx-shards-of-darkness"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/styx-shards-of-darkness"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "12 hrs"
 hltb_main_extra: "16.5 hrs"
-hltb_completionist: "29.5 hrs"
+hltb_completionist: "16.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/38317"
 
 # Links

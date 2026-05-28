@@ -9,7 +9,7 @@ permalink: /games/gog/deathbound/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Nov '24"
 proton_version: ""
 
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "8649 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/deathbound"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "9 hrs"
 hltb_main_extra: "11 hrs"
-hltb_completionist: "13 hrs"
+hltb_completionist: "10.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/132639"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1326221139"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Deathbound is a one-of-a-kind party-based soulslike set in a callous world where Faith and Science clash.

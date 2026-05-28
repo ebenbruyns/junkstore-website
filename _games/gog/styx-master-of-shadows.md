@@ -36,7 +36,7 @@ tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21139","nam
 size: "6203 MB"
 franchise_siblings: [{"rawg_id":1006936,"slug":"styx-blades-of-greed","name":"Styx: Blades of Greed"},{"rawg_id":194,"slug":"styx-shards-of-darkness","name":"Styx: Shards of Darkness"},{"rawg_id":4228,"slug":"of-orcs-and-men","name":"Of Orcs and Men"}]
 franchise_slug: "of-orcs-and-men|styx-blades-of-greed|styx-master-of-shadows|styx-shards-of-darkness"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/styx-master-of-shadows"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

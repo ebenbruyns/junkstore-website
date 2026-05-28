@@ -9,7 +9,7 @@ permalink: /games/gog/amnesia-the-bunker/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -26,7 +26,7 @@ publisher: Frictional Games
 developer: Frictional Games
 genre: adventure, indie, puzzle, shooter
 franchise: Amnesia
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: Mature 17+ (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo"}}
 release_date: "June 6, 2023"
 game_modes: ["Single-player"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend 
 size: "8804 MB"
 franchise_siblings: [{"rawg_id":427519,"slug":"amnesia-rebirth","name":"Amnesia: Rebirth"},{"rawg_id":13268,"slug":"amnesia-a-machine-for-pigs","name":"Amnesia: A Machine for Pigs"},{"rawg_id":13668,"slug":"amnesia-the-dark-descent","name":"Amnesia: The Dark Descent"}]
 franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|amnesia-the-dark-descent"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/amnesia-the-bunker"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "7 hrs"
-hltb_completionist: "13.5 hrs"
+hltb_completionist: "6.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/117559"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1186009992"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker.

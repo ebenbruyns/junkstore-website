@@ -28,17 +28,17 @@ genre: Fantasy, Action-Adventure, Stealth
 franchise: Styx
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Sexual Themes, Language and Crude Humor"},"pegi":{"rating":"16","descriptors":"Bad Language and Violence"},"usk":{"rating":"16"}}
-release_date: "January 15, 2026"
+release_date: "October 7, 2014"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian"]
 languages_audio: ["English"]
-tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1287","name":"Fantasy"},{"id":"1336","name":"Action-Adventure"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1287","name":"Fantasy"},{"id":"1336","name":"Action-Adventure"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "6203 MB"
 franchise_siblings: [{"rawg_id":1006936,"slug":"styx-blades-of-greed","name":"Styx: Blades of Greed"},{"rawg_id":194,"slug":"styx-shards-of-darkness","name":"Styx: Shards of Darkness"},{"rawg_id":4228,"slug":"of-orcs-and-men","name":"Of Orcs and Men"}]
 franchise_slug: "of-orcs-and-men|styx-blades-of-greed|styx-master-of-shadows|styx-shards-of-darkness"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/styx-master-of-shadows"
 was_free_before: true
-giveaway_events: [{"start":"2026-01-15T16:00:00.000Z","end":"2026-01-22T16:00:00.000Z","type":null,"id":"ed109adce3c042f792f48d629221ac8b"}]
+giveaway_events: [{"_id":"695fe0b2fd839b87c6df22db","id":"ed109adce3c042f792f48d629221ac8b","namespace":"962cf46ed59b42c1a16834193a7cde54","startDate":"2026-01-15T16:00:00.000Z","endDate":"2026-01-22T16:00:00.000Z","title":"Styx: Master of Shadows","__v":0}]
 free_games_aliases: []
 
 # Images

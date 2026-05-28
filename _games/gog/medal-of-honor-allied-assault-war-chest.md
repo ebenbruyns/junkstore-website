@@ -26,7 +26,7 @@ publisher: Electronic Arts, Inc.
 developer: Electronic Arts
 genre: Shooter
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: 13 (ESRB) · 12 (PEGI)
 age_ratings: {}
 release_date: "March 2, 2004"
 game_modes: ["Multi-player","Single-player"]

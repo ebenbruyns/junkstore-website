@@ -26,19 +26,19 @@ publisher: Playdead
 developer: Playdead
 genre: Puzzle, Platformer, Indie
 franchise: Limbo
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
-release_date: "July 18, 2019"
-game_modes: ["Single-player"]
+release_date: "August 2, 2011"
+game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Japanese","Korean","Portuguese - Portugal","Spanish - Spain","Traditional Chinese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Turkish"]
 languages_audio: []
-tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/limbo"
 was_free_before: true
-giveaway_events: [{"start":"2025-05-29T15:00:00.000Z","end":"2025-06-05T15:00:00.000Z","type":null,"id":"49bdb24baa564f8c92848abe14112436"},{"start":"2019-07-16T15:00:00.000Z","end":"2019-07-24T15:00:00.000Z","type":null,"id":"49bdb24baa564f8c92848abe14112436"}]
+giveaway_events: [{"_id":"682f343b113383424c4d21d2","id":"49bdb24baa564f8c92848abe14112436","namespace":"92053006068e4aa9b1ad413f72090f5e","startDate":"2025-05-29T15:00:00.000Z","endDate":"2025-06-05T15:00:00.000Z","title":"Limbo","__v":0},{"_id":"66abf1fc3631f27c961ec56a","id":"49bdb24baa564f8c92848abe14112436","namespace":"92053006068e4aa9b1ad413f72090f5e","startDate":"2019-07-16T15:00:00.000Z","endDate":"2019-07-24T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

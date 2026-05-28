@@ -9,7 +9,7 @@ permalink: /games/gog/mortal-kombat-trilogy/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1403485498"
 is_featured: false
-owned: true
+owned: false
 ---
 
 This successor to the arcade megahits features the meanest of the mean and the baddest of the bad. If you think you've mastered the moves and out-bossed the bosses, think again!

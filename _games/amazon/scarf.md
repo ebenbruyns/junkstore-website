@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/scarf/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -26,17 +26,17 @@ publisher: THQ Nordic, HandyGames, Handy Games
 developer: Uprising Studios
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Platform
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: Everyone 10+ (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "December 23, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Japanese","Polish","Russian","Arabic","Danish","Finnish","Korean","Norwegian","Swedish","Czech","Hungarian","Portuguese - Portugal"]
 languages_audio: ["English","German","Spanish - Spain"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
-size: ""
+size: "12578 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/scarf"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

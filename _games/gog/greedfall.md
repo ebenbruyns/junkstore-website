@@ -34,9 +34,9 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"468","name":"role-playing"}]
 size: "19758 MB"
-franchise_siblings: []
-franchise_slug: ""
-igdb_url: ""
+franchise_siblings: [{"rawg_id":787599,"slug":"greedfall-ii-the-dying-world","name":"GreedFall: The Dying World"}]
+franchise_slug: "greedfall|greedfall-ii-the-dying-world"
+igdb_url: "https://www.igdb.com/games/greedfall"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

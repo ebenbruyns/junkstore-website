@@ -9,7 +9,7 @@ permalink: /games/gog/empire-of-the-ants/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Nov '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: adventure, strategy, indie, real-time-strategy-rts
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "November 7, 2024"
+release_date: "November 6, 2024"
 game_modes: ["Multi-player","Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "36735 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/empire-of-the-ants--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "2108847100"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Embark on an epic journey into the infinitesimal in this photorealistic strategy game. Play as a fearless ant and guide your colony through the dangers of the forest.

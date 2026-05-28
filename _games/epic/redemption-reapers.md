@@ -28,15 +28,15 @@ genre: Simulation
 franchise: 
 age_rating_summary: T (ESRB) · D (CERO)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Language, Violence"},"cero":{"rating":"D"},"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
-release_date: "February 19, 2025"
-game_modes: ["Single-player"]
+release_date: "February 22, 2023"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Traditional Chinese","Japanese","Korean","Russian","Portuguese - Brazil"]
 languages_audio: ["English","Japanese"]
-tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21122","name":"Diverse Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/redemption-reapers"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

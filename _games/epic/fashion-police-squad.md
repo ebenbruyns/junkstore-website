@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Conteúdo sexual"}}
 release_date: "August 15, 2022"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Simplified Chinese","Russian","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1185","name":"FPS"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/fashion-police-squad"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

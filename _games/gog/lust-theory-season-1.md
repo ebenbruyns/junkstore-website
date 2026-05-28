@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Point-and-click, Visual Novel
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez, Linguagem imprópria, Drogas lícitas"}}
-release_date: "March 19, 2022"
+release_date: "March 18, 2022"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","English","Spanish","Russian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: "5727 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/lust-theory"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

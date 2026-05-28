@@ -26,7 +26,7 @@ publisher: Beamdog
 developer: Overhaul Games
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: PEGI 12
+age_rating_summary: 12 (PEGI)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Conteúdo sexual, Linguagem imprópria, Violência fantasiosa"}}
 release_date: "October 30, 2014"
 game_modes: ["Co-op","Multi-player","Single-player"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplaye
 size: "2590 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/icewind-dale-enhanced-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "30.5 hrs"
 hltb_main_extra: "41 hrs"
-hltb_completionist: "62 hrs"
+hltb_completionist: "42.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/21060"
 
 # Links

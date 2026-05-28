@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "104 MB"
 franchise_siblings: [{"rawg_id":455604,"slug":"alwas-legacy","name":"Alwa's Legacy"}]
 franchise_slug: "alwas-awakening|alwas-legacy"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/alwas-awakening"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "7 hrs"
 hltb_main_extra: "9.5 hrs"
-hltb_completionist: "10 hrs"
+hltb_completionist: "9 Hours"
 hltb_url: "https://howlongtobeat.com/game/43500"
 
 # Links

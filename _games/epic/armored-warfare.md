@@ -28,7 +28,7 @@ genre: Action, Simulation
 franchise: 
 age_rating_summary: T (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"7","descriptors":"The content of this game is suitable for persons aged 7 years and over only., It contains: Violence that is not shown but is implied"},"oflc":{"rating":"M","descriptors":"Violence, online interactivity"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "April 21, 2022"
+release_date: "November 17, 2017"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Polish","Russian"]
 languages_audio: ["English","French","German","Polish","Russian"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for 
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/armored-warfare"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

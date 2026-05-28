@@ -8,7 +8,7 @@ storefront_key: "gog"
 permalink: /games/gog/pinball-spire/
 
 # Compatibility (Junk Store testing)
-decky_rating: "unknown"
+decky_rating: ""
 standalone_rating: "green"
 date_tested: "May '26"
 proton_version: ""
@@ -36,7 +36,7 @@ tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Ach
 size: "460 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/pinball-spire--3"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

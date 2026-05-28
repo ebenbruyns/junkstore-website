@@ -9,7 +9,7 @@ permalink: /games/gog/silent-hill-4-the-room/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "March '25"
 proton_version: "Proton 9.0-4"
 
@@ -26,7 +26,7 @@ publisher: Konami
 developer: Team Silent
 genre: adventure
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: 17 (ESRB) · 18 (PEGI)
 age_ratings: {}
 release_date: "June 1, 2004"
 game_modes: ["Single-player"]
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1141086411"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Silent Hill 4: The Room is the fourth installment in the Silent Hill survival horror series. The game is similar to the past entries in terms of atmosphere, never letting the player know what's behind the next corner or down the street.

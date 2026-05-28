@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/faraway-directors-cut/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -28,7 +28,7 @@ genre: Adventure, Puzzle
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "September 22, 2020"
+release_date: "March 5, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Danish","Dutch","Finnish","Greek","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Swedish","Thai","Traditional Chinese","Turkish","Vietnamese"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/faraway-directors-cut"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/a467a8e5b752559519e22222992aa3d2a748e1e4420530f3d5c55189e4d89f9b.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/28b8c6284133a55bfaa6f482bbe970fff6073da4e9f03c233599fadbd7c68d8d.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/883880/header.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"

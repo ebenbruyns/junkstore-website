@@ -3,12 +3,12 @@ layout: game-page
 title: "Sky Rogue - Steam Deck Compatibility"
 game_title: "Sky Rogue"
 slug: "sky-rogue"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/sky-rogue/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "August 24, 2017"
-game_modes: ["Single-player","Co-op","Multi-player"]
+game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Japanese","Simplified Chinese","Italian","German","Korean","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil","Russian","Spanish - Latin America","Traditional Chinese"]
 languages_audio: []
 tags_structured: []
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sky-rogue"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

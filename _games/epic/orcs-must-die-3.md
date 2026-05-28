@@ -26,19 +26,19 @@ publisher: Robot Entertainment
 developer: Robot Entertainment
 genre: Action, Tower Defense, Strategy
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "May 2, 2024"
+release_date: "July 23, 2021"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Danish","Finnish","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Swedish","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: [{"rawg_id":10165,"slug":"orcs-must-die-unchained","name":"Orcs Must Die! Unchained"},{"rawg_id":17356,"slug":"orcs-must-die-2","name":"Orcs Must Die! 2"},{"rawg_id":17357,"slug":"orcs-must-die","name":"Orcs Must Die!"}]
 franchise_slug: "orcs-must-die|orcs-must-die-2|orcs-must-die-3|orcs-must-die-unchained"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/orcs-must-die-3"
 was_free_before: true
-giveaway_events: [{"start":"2024-12-29T16:00:00.000Z","end":"2024-12-30T16:00:00.000Z","type":null,"id":"144edd0ee90645cb9c31ae6d97fcfcaf"},{"start":"2024-05-01T15:00:00.000Z","end":"2024-05-08T15:00:00.000Z","type":null,"id":"144edd0ee90645cb9c31ae6d97fcfcaf"}]
+giveaway_events: [{"_id":"677018c6b143439c84dd59c2","id":"144edd0ee90645cb9c31ae6d97fcfcaf","namespace":"1a52b1a570e4ee3ab3b2a8ca930753e","startDate":"2024-12-29T16:00:00.000Z","endDate":"2024-12-30T16:00:00.000Z","title":"Orcs Must Die! 3","__v":0},{"_id":"66abf1ca3631f27c961eb883","id":"144edd0ee90645cb9c31ae6d97fcfcaf","namespace":"a1a52b1a570e4ee3ab3b2a8ca930753e","startDate":"2024-05-01T15:00:00.000Z","endDate":"2024-05-08T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

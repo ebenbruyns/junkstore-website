@@ -9,7 +9,7 @@ permalink: /games/gog/grim-dawn-definitive-edition/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: action, role-playing
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
-release_date: "February 1, 2016"
+release_date: "February 25, 2016"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Vietnamese","Chinese Traditional"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/grim-dawn"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "2023885455"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Enter an apocalyptic fantasy world where humanity is on the brink of extinction, iron is valued above gold and trust is hard earned. This ARPG features complex character development, hundreds of unique items, crafting and quests with choice & consequence.

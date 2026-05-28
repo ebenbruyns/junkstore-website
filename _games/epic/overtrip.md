@@ -26,17 +26,17 @@ publisher: GGXYZ
 developer: GGXYZ
 genre: Action, Shooter
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {}
 release_date: "July 10, 2024"
-game_modes: ["Online Multi-player"]
+game_modes: ["Online Multiplayer"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1299","name":"Competitive"},{"id":"21109","name":"Great Boss Battles"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"9547","name":"Windows"},{"id":"1310","name":"EARLY ACCESS"},{"id":"10719","name":"Mac OS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/307818"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"i
 size: "3282 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/neverwinter-nights-enhanced-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

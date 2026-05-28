@@ -28,8 +28,8 @@ genre: Adventure, Puzzle, Point-and-click
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"bbfc":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Drogas lícitas, Conteúdo sexual, Linguagem imprópria"}}
-release_date: "March 19, 2009"
-game_modes: ["Single-player"]
+release_date: "August 26, 2010"
+game_modes: ["Single player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","French","German","Spanish - Spain","Italian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"149","name":"Third Person"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"74","name":"Retro"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"243","name":"1990's"},{"id":"258","name":"Hand-drawn"},{"id":"291","name":"Conspiracy"}]
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/0c64187be18821a9785d618d854a277788a931d9a3613489dc46f190970920a3.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/522f5110cda6c01bc9d4e2521ba94e4ac20e710c4551302e6d46aa550848b69d.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/57640/header.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"

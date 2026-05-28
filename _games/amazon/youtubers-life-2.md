@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/youtubers-life-2/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 0 (USK)
 age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"L"}}
 release_date: "October 19, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","Spanish - Spain","French","Italian","German","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Turkish","Catalan"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"36","name":"Open World"},{"id":"4","name":"Funny"},{"id":"37","name":"Sandbox"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"121","name":"Character Customization"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"120","name":"Memes"},{"id":"67","name":"Management"},{"id":"138","name":"Relaxing"},{"id":"164","name":"Cartoony"},{"id":"2030","name":"city"},{"id":"744","name":"friends"},{"id":"59643","name":"Протагонистка"},{"id":"42473","name":"Immersive Sim"},{"id":"42410","name":"LGBTQ+"},{"id":"2326","name":"explore"},{"id":"1743","name":"collect"},{"id":"49960","name":"Life Sim"},{"id":"568","name":"Time Management"},{"id":"2201","name":"grow"},{"id":"3892","name":"reaction"},{"id":"4398","name":"pewdiepie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/youtubers-life-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

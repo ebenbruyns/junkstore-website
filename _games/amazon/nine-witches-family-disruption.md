@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/nine-witches-family-disruption/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
@@ -28,8 +28,8 @@ genre: Adventure, Indie, Puzzle, Point-and-click
 franchise: 
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Crude Humor, Suggestive Themes, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence"},"usk":{"rating":"18","descriptors":"No Youth"},"oflc":{"rating":"ma15","descriptors":"Strong Crude Humor"},"kgrb":{"rating":"15","descriptors":"Alcohol, Tobacco, Drug, Violence"},"csrr":{"rating":"C15","descriptors":"Anti-Social Characteristics, Inappropriate Language, Sex, Violence"},"dejus":{"rating":"16","descriptors":"Inappropriate Language, Sexual Content, Violence"}}
-release_date: "December 3, 2020"
-game_modes: ["Single-player"]
+release_date: "July 20, 2020"
+game_modes: ["Single player"]
 languages: ["English","Spanish - Spain","French","German","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Japanese"]
 languages_audio: []
 tags_structured: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/22ef50b9bb659c874278feae4e884d1cf80c8811afb86889e79b0c196d7ee550.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/95846f433a82e3f617e178f8232f7a436a0bd21fb489cd7cbb2f493d7bece4fe.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1034930/header.jpg"
 
 # Technical Details
 controller_input: "native"

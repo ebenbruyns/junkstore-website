@@ -26,19 +26,19 @@ publisher: Wildfire Game
 developer: Wildfire Game
 genre: RPG, Action-Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Temas sensíveis, Medo"}}
-release_date: "November 20, 2023"
-game_modes: ["Single-player"]
+release_date: "July 7, 2021"
+game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Japanese","Traditional Chinese","Turkish","Russian"]
 languages_audio: ["Simplified Chinese"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/eastern-exorcist"
 was_free_before: true
-giveaway_events: [{"start":"2025-09-25T15:00:00.000Z","end":"2025-10-02T15:00:00.000Z","type":null,"id":"aa2e42dde7b64a3183855ac1803a829c"}]
+giveaway_events: [{"_id":"68cb353e29da2ddc38aaf1ae","id":"aa2e42dde7b64a3183855ac1803a829c","namespace":"630a4b97a55545bb9941aee38ec799db","startDate":"2025-09-25T15:00:00.000Z","endDate":"2025-10-02T15:00:00.000Z","title":"Eastern Exorcist","__v":0}]
 free_games_aliases: []
 
 # Images

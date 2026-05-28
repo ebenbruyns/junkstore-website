@@ -26,17 +26,17 @@ publisher: Playwing
 developer: Playwing
 genre: Action
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "February 23, 2022"
-game_modes: ["Online Multi-player"]
+release_date: "December 2, 2021"
+game_modes: ["Online Multiplayer"]
 languages: ["English","German","Spanish - Spain","Simplified Chinese","Portuguese - Brazil","Russian","French","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/century-age-of-ashes"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

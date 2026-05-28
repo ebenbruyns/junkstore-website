@@ -26,9 +26,9 @@ publisher: Pretty Soon
 developer: YYZ Studio
 genre: Indie, Casual, Simulation
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "March 19, 2026"
+release_date: "April 22, 2025"
 game_modes: ["Single-player"]
 languages: ["English","Japanese","Simplified Chinese","Traditional Chinese","Spanish - Spain","Thai","Ukrainian","French","German","Korean"]
 languages_audio: []
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Sa
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/havendock"
 was_free_before: true
-giveaway_events: [{"start":"2026-03-26T15:00:00.000Z","end":"2026-04-02T15:00:00.000Z","type":null,"id":"d7b336a5c49f4a14b16359193caeb296"}]
+giveaway_events: [{"_id":"69bd1e9ab0f9478e3e00e5d9","id":"d7b336a5c49f4a14b16359193caeb296","namespace":"dc6b31eb3a7540f28ccff83204aa1c3d","startDate":"2026-03-26T15:00:00.000Z","endDate":"2026-04-02T15:00:00.000Z","title":"Havendock","__v":0}]
 free_games_aliases: []
 
 # Images

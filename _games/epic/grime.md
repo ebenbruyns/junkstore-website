@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (USK)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Animated Blood"},"usk":{"rating":"16","descriptors":"Violence, Scary Content, Sexual Innuendo"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "August 2, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Korean","Portuguese - Brazil","Russian","Hebrew"]
 languages_audio: []
-tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]
 size: ""
 franchise_siblings: [{"rawg_id":965928,"slug":"grime-ii","name":"Grime II"}]
 franchise_slug: "grime|grime-ii"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/grime"
 was_free_before: true
-giveaway_events: [{"start":"2023-07-05T15:00:00.000Z","end":"2023-07-12T15:00:00.000Z","type":null,"id":"3f468b7977d0416a9a36af16f384c516"}]
+giveaway_events: [{"_id":"66abf1d23631f27c961ebadd","id":"3f468b7977d0416a9a36af16f384c516","namespace":"3bb4afc31dd241c787bad056e9b8dbf9","startDate":"2023-07-05T15:00:00.000Z","endDate":"2023-07-12T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

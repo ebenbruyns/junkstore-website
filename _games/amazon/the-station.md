@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/the-station/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Use of Alcohol"}}
 release_date: "February 19, 2018"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Spanish - Spain","Russian","Italian","German"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-station"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

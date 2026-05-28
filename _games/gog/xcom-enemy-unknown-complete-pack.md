@@ -36,7 +36,7 @@ tags_structured: []
 size: "18986 MB"
 franchise_siblings: [{"rawg_id":428555,"slug":"xcom-chimera-squad","name":"XCOM: Chimera Squad"},{"rawg_id":1256,"slug":"xcom-2","name":"XCOM 2"},{"rawg_id":3932,"slug":"the-bureau-xcom-declassified","name":"The Bureau: XCOM Declassified"},{"rawg_id":19459,"slug":"x-com-enforcer","name":"X-COM: Enforcer"},{"rawg_id":20570,"slug":"x-com-interceptor","name":"X-COM: Interceptor"},{"rawg_id":20567,"slug":"x-com-apocalypse","name":"X-COM: Apocalypse"},{"rawg_id":20568,"slug":"x-com-terror-from-the-deep","name":"X-COM: Terror From the Deep"},{"rawg_id":20569,"slug":"ufo-enemy-unknown","name":"X-COM: UFO Defense"},{"rawg_id":35389,"slug":"x-com-genesis","name":"X-COM: Genesis"},{"rawg_id":35388,"slug":"x-com-alliance","name":"X-COM: Alliance"}]
 franchise_slug: "the-bureau-xcom-declassified|ufo-enemy-unknown|x-com-alliance|x-com-apocalypse|x-com-enforcer|x-com-genesis|x-com-interceptor|x-com-terror-from-the-deep|xcom-2|xcom-chimera-squad|xcom-enemy-unknown"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/xcom-enemy-unknown"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

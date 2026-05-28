@@ -26,17 +26,17 @@ publisher: Forever Entertainment S. A., PlayWay
 developer: Madmind Studio
 genre: Adventure, Indie, Shooter
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: 17 (ESRB) · 18 (PEGI)
 age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez, Violência Extrema, Temas sensíveis"}}
-release_date: "May 29, 2018"
+release_date: "October 30, 2018"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Hungarian","Italian","Japanese","Korean","Polish","Portuguese","Russian","Turkish"]
 languages_audio: ["English"]
-tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"40845","name":"Partial Controller Support"},{"id":"40850","name":"Steam Leaderboards"}]
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"40850","name":"Steam Leaderboards"},{"id":"1","name":"Survival"},{"id":"34","name":"Violent"},{"id":"41","name":"Dark"},{"id":"44","name":"Nudity"},{"id":"17","name":"Survival Horror"},{"id":"50","name":"Sexual Content"},{"id":"187","name":"Demons"},{"id":"286","name":"Psychedelic"}]
 size: "13353 MB"
-franchise_siblings: []
-franchise_slug: ""
-igdb_url: ""
+franchise_siblings: [{"rawg_id":277931,"slug":"succubus","name":"SUCCUBUS"}]
+franchise_slug: "agony|succubus"
+igdb_url: "https://www.igdb.com/games/agony--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -83,7 +83,7 @@ store_url: "https://www.gog.com/en/game/agony"
 protondb_url: "https://www.protondb.com/app/879420"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Agony_Unrated"
-metacritic_score: 
+metacritic_score: 47
 metacritic_url: "https://www.metacritic.com/game/agony/"
 
 # Cross-Catalog IDs (Game Catalog API)

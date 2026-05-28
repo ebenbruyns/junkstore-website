@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "November 18, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/180960"
 was_free_before: true
-giveaway_events: [{"start":"2021-11-17T15:00:00.000Z","end":"2021-11-24T15:00:00.000Z","type":null,"id":"b8bf369a354e4a01b01d61d750b1bc6d"}]
+giveaway_events: [{"_id":"66abf1e33631f27c961ebf41","id":"b8bf369a354e4a01b01d61d750b1bc6d","namespace":"72eb87039aa74e82a4b873c276de61e3","startDate":"2021-11-17T15:00:00.000Z","endDate":"2021-11-24T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Shooter
 franchise: Borderlands
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Language, Sexual Themes, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, PEGI Online"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Violence, Drugs, Sex"}}
-release_date: "September 18, 2012"
+release_date: "September 19, 2012"
 game_modes: ["Co-op"]
 languages: ["English","French","German","Italian","Japanese","Spanish - Spain","Korean","Traditional Chinese"]
 languages_audio: ["English","French","German","Italian","Japanese","Spanish - Spain"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Ch
 size: ""
 franchise_siblings: [{"rawg_id":836447,"slug":"new-tales-from-the-borderlands","name":"New Tales from the Borderlands"},{"rawg_id":614962,"slug":"tiny-tinas-wonderlands","name":"Tiny Tina's Wonderlands"},{"rawg_id":692541,"slug":"tiny-tinas-assault-on-dragon-keep-a-wonderlands-on","name":"Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure"},{"rawg_id":58617,"slug":"borderlands-3","name":"Borderlands 3"},{"rawg_id":2100,"slug":"tales-from-the-borderlands","name":"Tales from the Borderlands: A Telltale Game Series"},{"rawg_id":3388,"slug":"borderlands-the-handsome-collection","name":"Borderlands: The Handsome Collection"},{"rawg_id":3543,"slug":"borderlands-the-pre-sequel","name":"Borderlands: The Pre-Sequel"},{"rawg_id":330906,"slug":"borderlands-legends","name":"Borderlands Legends"},{"rawg_id":4828,"slug":"borderlands","name":"Borderlands"}]
 franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|borderlands-the-handsome-colle|borderlands-the-pre-sequel|new-tales-from-the-borderlands|tales-from-the-borderlands|tiny-tinas-assault-on-dragon-k|tiny-tinas-wonderlands"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/borderlands-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

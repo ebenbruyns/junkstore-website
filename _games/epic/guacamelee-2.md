@@ -28,17 +28,17 @@ genre: Fighting, Action-Adventure, Platformer
 franchise: 
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Language, Alcohol Reference"},"pegi":{"rating":"12","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "June 15, 2023"
+release_date: "August 21, 2018"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Portuguese - Brazil","Korean","Russian","Simplified Chinese","Spanish - Latin America"]
 languages_audio: []
-tags_structured: [{"id":"1344","name":"Fighting"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
+tags_structured: [{"id":"1344","name":"Fighting"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
 size: "2036 MB"
 franchise_siblings: [{"rawg_id":4052,"slug":"guacamelee","name":"Guacamelee!"}]
 franchise_slug: "guacamelee|guacamelee-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/guacamelee-2"
 was_free_before: true
-giveaway_events: [{"start":"2023-06-14T15:00:00.000Z","end":"2023-06-21T15:00:00.000Z","type":null,"id":"f7aa0e57c2b94acd97a28a7ec99a7ded"}]
+giveaway_events: [{"_id":"66abf1d23631f27c961ebb02","id":"f7aa0e57c2b94acd97a28a7ec99a7ded","namespace":"277e364d24ec43069f4ee3c4414d5096","startDate":"2023-06-14T15:00:00.000Z","endDate":"2023-06-21T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

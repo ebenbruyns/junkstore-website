@@ -28,17 +28,17 @@ genre: Action, Adventure, Indie
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "December 27, 2021"
-game_modes: ["Single-player"]
+release_date: "May 18, 2017"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Hungarian","Japanese","Korean","Polish"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21136","name":"Playful Visuals"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
 size: "4472 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/mages-of-mystralia"
 was_free_before: true
-giveaway_events: [{"start":"2025-02-27T16:00:00.000Z","end":"2025-03-06T16:00:00.000Z","type":null,"id":"464a19f4865248b5948c9514af11d563"},{"start":"2021-12-26T15:00:00.000Z","end":"2021-12-27T15:00:00.000Z","type":null,"id":"464a19f4865248b5948c9514af11d563"}]
+giveaway_events: [{"_id":"67b7476db682fff5237f6b61","id":"464a19f4865248b5948c9514af11d563","namespace":"bd12fd574df14846ad24703ca7b1a12b","startDate":"2025-02-27T16:00:00.000Z","endDate":"2025-03-06T16:00:00.000Z","title":"Mages of Mystralia","__v":0},{"_id":"66abf1e13631f27c961ebec6","id":"464a19f4865248b5948c9514af11d563","namespace":"bd12fd574df14846ad24703ca7b1a12b","startDate":"2021-12-26T15:00:00.000Z","endDate":"2021-12-27T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

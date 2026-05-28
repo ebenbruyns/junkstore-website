@@ -28,7 +28,7 @@ genre: Fantasy, RPG, Indie
 franchise: 
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Partial Nudity"},"dejus":{"rating":"12","descriptors":"Conteúdo sexual, Violência"}}
-release_date: "February 19, 2026"
+release_date: "December 10, 2025"
 game_modes: ["Single-player"]
 languages: ["English","Russian"]
 languages_audio: ["English"]

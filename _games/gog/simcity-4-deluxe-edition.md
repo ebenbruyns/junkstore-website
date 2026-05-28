@@ -28,7 +28,7 @@ genre: strategy, simulator
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Violence"},"pegi":{"rating":"3"},"usk":{"rating":"6"},"oflc":{"rating":"M","descriptors":"Violence and sexual reference"},"kgrb":{"rating":"15"},"fpb":{"rating":"13"},"mda":{"rating":"AA16"},"dejus":{"rating":"12"}}
-release_date: "September 22, 2003"
+release_date: "July 20, 2010"
 game_modes: ["Single-player"]
 languages: ["Danish","German","English","Spanish","Finnish","French","Italian","Dutch","Norwegian","Polish","Portuguese","Swedish"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplaye
 size: "1054 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/simcity-4"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

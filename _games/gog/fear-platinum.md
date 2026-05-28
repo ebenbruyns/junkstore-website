@@ -28,15 +28,15 @@ genre: Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"}}
-release_date: "October 17, 2005"
+release_date: "May 21, 2010"
 game_modes: ["Multi-player","Single-player"]
 languages: ["English"]
 languages_audio: []
-tags_structured: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"}]
 size: "9016 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/f-e-a-r"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/672d9eeab9a684e1570fd5dced620abac127f75744b1c61101c1c64a7abfbf88.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/8c87160efa65955a4a5eaf06eb22902b9bf43baf9f9c16df356a8091a42e7f1f.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/21090/header.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "10 hrs"
-hltb_completionist: "12 hrs"
+hltb_completionist: "8.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/3293"
 
 # Links

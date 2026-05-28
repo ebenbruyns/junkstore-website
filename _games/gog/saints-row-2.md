@@ -28,7 +28,7 @@ genre: Adventure, Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Content, Strong Language, Use of Drugs"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Drogas ilícitas, Conteúdo sexual, Violência Extrema"}}
-release_date: "October 14, 2008"
+release_date: "January 7, 2009"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["Chinese Simplified","Czech","Danish","German","English","Spanish","French","Italian","Japanese","Dutch","Polish","Russian","Swedish"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplaye
 size: "6093 MB"
 franchise_siblings: [{"rawg_id":650607,"slug":"saints-row-2022","name":"Saints Row (2022)"},{"rawg_id":3450,"slug":"saints-row-gat-out-of-hell","name":"Saints Row: Gat Out of Hell"},{"rawg_id":3931,"slug":"saints-row-iv","name":"Saints Row IV"},{"rawg_id":4386,"slug":"saints-row-the-third","name":"Saints Row: The Third"},{"rawg_id":28478,"slug":"saints-row","name":"Saints Row"}]
 franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-hell|saints-row-iv|saints-row-the-third"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/saints-row-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

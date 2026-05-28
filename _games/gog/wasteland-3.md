@@ -9,7 +9,7 @@ permalink: /games/gog/wasteland-3/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: Role-playing (RPG)
 franchise: 
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Sexual Content, Use of Drugs, Strong Language, Intense Violence"},"dejus":{"rating":"18","descriptors":"Medo, Atos criminosos, Violência, Temas sensíveis, Violência Extrema, Linguagem imprópria, Conteúdo sexual, Drogas lícitas"}}
-release_date: "August 1, 2020"
+release_date: "August 27, 2020"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Polish","Russian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full c
 size: "14899 MB"
 franchise_siblings: [{"rawg_id":41336,"slug":"wasteland-2","name":"Wasteland 2"},{"rawg_id":333664,"slug":"fountain-of-dreams","name":"Fountain of Dreams"},{"rawg_id":30119,"slug":"wasteland","name":"Wasteland"}]
 franchise_slug: "fountain-of-dreams|wasteland|wasteland-2|wasteland-3"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/wasteland-3"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "2057748185"
 is_featured: false
-owned: true
+owned: false
 ---
 
 As the sole survivor of Team November, a Ranger squad dispatched to the icy Colorado wastes, you find this is a land of buried secrets, lost technology, fearsome lunatics, and deadly factions. No one here has ever heard of the Desert Rangers. Your reputation is yours to build from scratch, and your choices may save this land or doom it. With a renewed focus on macro-reactivity, you'll be picking between warring factions, deciding whether locations are destroyed or saved, and making other far reaching decisions that have a marked impact on the shape of your world.

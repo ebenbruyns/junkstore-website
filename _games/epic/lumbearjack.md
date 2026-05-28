@@ -26,19 +26,19 @@ publisher: Armor Games Studios
 developer: FinalBoss Games
 genre: Casual, Puzzle
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "June 11, 2022"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Russian","Italian","Arabic","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Simplified Chinese","Spanish - Latin America","Swedish","Thai","Traditional Chinese","Turkish","Ukrainian","Vietnamese"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21151","name":"Easy Puzzles"}]
 size: "176 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/lumbearjack"
 was_free_before: true
-giveaway_events: [{"start":"2024-08-01T15:00:00.000Z","end":"2024-08-08T15:00:00.000Z","type":null,"id":"ed744042986f41f791d295459d75725f"}]
+giveaway_events: [{"_id":"66abfad55736a265e483cb1c","id":"ed744042986f41f791d295459d75725f","namespace":"b112cc17de8c4b43a2372993b5916fec","startDate":"2024-08-01T15:00:00.000Z","endDate":"2024-08-08T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

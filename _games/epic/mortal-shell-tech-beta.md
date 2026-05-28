@@ -28,15 +28,15 @@ genre: Role-playing (RPG), Indie
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence, Use of Alcohol/Tobacco"},"usk":{"rating":"16","descriptors":"Gewalt"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence"},"csrr":{"rating":"R"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "August 18, 2020"
+release_date: "August 18, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Portugal","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Russian","Ukrainian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"40","name":"Dark Fantasy"},{"id":"580","name":"Souls-like"}]
-size: ""
+size: "8673 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/mortal-shell"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -73,9 +73,9 @@ cant_test_linux: false
 native_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
+hltb_main: "10½ Hours"
+hltb_main_extra: "14 hrs"
+hltb_completionist: "23 Hours"
 hltb_url: "https://howlongtobeat.com/game/76520"
 
 # Links
@@ -83,7 +83,7 @@ store_url: "https://store.epicgames.com/en-US/p/mortal-shell"
 protondb_url: "https://www.protondb.com/app/1110910"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mortal_Shell"
-metacritic_score: 
+metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/mortal-shell/"
 
 # Cross-Catalog IDs (Game Catalog API)

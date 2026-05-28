@@ -26,19 +26,19 @@ publisher: Graffiti Games
 developer: Snoozy Kazoo
 genre: Shooter, Rogue-Lite, Indie
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Atos criminosos, Violência"}}
 release_date: "January 18, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Latin America","Korean","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"21136","name":"Playful Visuals"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "1042 MB"
 franchise_siblings: [{"rawg_id":517384,"slug":"turnip-boy-commits-tax-evasion","name":"Turnip Boy Commits Tax Evasion"}]
 franchise_slug: "turnip-boy-commits-tax-evasion|turnip-boy-robs-a-bank"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/turnip-boy-robs-a-bank"
 was_free_before: true
-giveaway_events: [{"start":"2026-03-05T16:00:00.000Z","end":"2026-03-12T16:00:00.000Z","type":null,"id":"68d9f0e261464ba284e10418d98532ea"},{"start":"2026-03-05T16:00:00.000Z","end":"2026-03-12T15:00:00.000Z","type":null,"id":"68d9f0e261464ba284e10418d98532ea"}]
+giveaway_events: [{"_id":"69a05fb68d1a8a701e0da952","id":"68d9f0e261464ba284e10418d98532ea","namespace":"263de26be57d43528bb9c7fdb133b9fe","startDate":"2026-03-05T16:00:00.000Z","endDate":"2026-03-12T16:00:00.000Z","title":"Turnip Boy Robs a Bank","__v":0},{"_id":"69a06121d4f5f2e2534098b1","id":"68d9f0e261464ba284e10418d98532ea","namespace":"263de26be57d43528bb9c7fdb133b9fe","startDate":"2026-03-05T16:00:00.000Z","endDate":"2026-03-12T15:00:00.000Z","title":"Turnip Boy Robs a Bank","__v":0}]
 free_games_aliases: []
 
 # Images

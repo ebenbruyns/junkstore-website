@@ -26,19 +26,19 @@ publisher: Silver Lining Interactive
 developer: Infuse Studio
 genre: Adventure
 franchise: Spirit of the North
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "April 19, 2022"
-game_modes: ["Single-player"]
+release_date: "May 7, 2020"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Korean"]
 languages_audio: []
-tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: [{"rawg_id":968498,"slug":"spirit-of-the-north-2","name":"Spirit of the North 2"}]
 franchise_slug: "spirit-of-the-north|spirit-of-the-north-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/spirit-of-the-north"
 was_free_before: true
-giveaway_events: [{"start":"2022-09-14T15:00:00.000Z","end":"2022-09-21T15:00:00.000Z","type":null,"id":"4460a8fcdc3e4f48a11f3174656f8a96"}]
+giveaway_events: [{"_id":"66abf1db3631f27c961ebd34","id":"4460a8fcdc3e4f48a11f3174656f8a96","namespace":"6098a8c7375c43458a22163a637c0c2f","startDate":"2022-09-14T15:00:00.000Z","endDate":"2022-09-21T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

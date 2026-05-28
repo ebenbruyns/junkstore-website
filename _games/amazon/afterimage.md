@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/afterimage/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Sep '25"
 proton_version: ""
@@ -36,7 +36,7 @@ tags_structured: []
 size: "4.58 GB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/afterimage"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

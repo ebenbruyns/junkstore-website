@@ -26,17 +26,17 @@ publisher: THE BROTHERHOOD
 developer: THE BROTHERHOOD
 genre: Puzzle, Horror, Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
-release_date: "June 20, 2023"
-game_modes: ["Single-player"]
+release_date: "May 31, 2023"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Spanish - Latin America","Turkish","Japanese","Portuguese - Brazil","Portuguese - Portugal"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1218","name":"Horror"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21150","name":"Challenging Puzzles"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/stasis-bone-totem"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -26,17 +26,17 @@ publisher: MetaKing Studios
 developer: MetaKing Studios
 genre: Strategy
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência, Drogas lícitas, Nudez"}}
-release_date: "September 15, 2023"
-game_modes: ["Single-player","Online Multi-player"]
+release_date: "March 31, 2026"
+game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","German","Spanish - Spain","Simplified Chinese","French","Italian","Japanese","Portuguese - Portugal","Russian","Korean","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22775","name":"MMO"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1310","name":"EARLY ACCESS"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/blocklords--2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

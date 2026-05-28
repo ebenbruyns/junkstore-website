@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Violence"},"pegi":{"rating":"16","descriptors":"Realistic looking violence - Strong language - Encouragement of the use of alcohol/tobacco - Use of illegal drugs"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Medium level animated violence"},"nzoflc":{"rating":"M"},"csrr":{"rating":"R"},"dejus":{"rating":"18"}}
-release_date: "December 2, 2003"
+release_date: "March 29, 2007"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospher
 size: "2187 MB"
 franchise_siblings: [{"rawg_id":1447,"slug":"deus-ex-mankind-divided","name":"Deus Ex: Mankind Divided"},{"rawg_id":74114,"slug":"deus-ex-go","name":"Deus Ex GO"},{"rawg_id":441,"slug":"deus-ex-the-fall","name":"Deus Ex: The Fall"},{"rawg_id":4440,"slug":"deus-ex-human-revolution","name":"Deus Ex: Human Revolution"},{"rawg_id":30243,"slug":"deus-ex","name":"Deus Ex"}]
 franchise_slug: "deus-ex|deus-ex-2-invisible-war|deus-ex-go|deus-ex-human-revolution|deus-ex-mankind-divided|deus-ex-the-fall"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/deus-ex-invisible-war"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/482d5f3bfd82414b93b6b5ebc479ed25c38b5081e586b774a01041f87b0b8ddf.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/72adf0fa1245bb929ed476b7d6456983795453bb4c3ce3d045276c025af46c9e.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/6920/header.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"

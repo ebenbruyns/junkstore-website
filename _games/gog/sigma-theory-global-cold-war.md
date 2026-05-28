@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Drogas ilícitas"}}
-release_date: "April 18, 2019"
+release_date: "November 21, 2019"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","German","English","French","Russian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "609 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sigma-theory-global-cold-war--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

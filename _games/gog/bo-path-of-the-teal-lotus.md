@@ -2,14 +2,14 @@
 layout: game-page
 title: "Bō: Path of the Teal Lotus - Steam Deck Compatibility"
 game_title: "Bō: Path of the Teal Lotus"
-slug: "b-path-of-the-teal-lotus"
+slug: "bo-path-of-the-teal-lotus"
 storefront: "GOG"
 storefront_key: "gog"
-permalink: /games/gog/b-path-of-the-teal-lotus/
+permalink: /games/gog/bo-path-of-the-teal-lotus/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "not-working"
+standalone_rating: "broken"
 date_tested: "Dec '25"
 proton_version: ""
 
@@ -36,7 +36,7 @@ tags_structured: []
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/bo-path-of-the-teal-lotus"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

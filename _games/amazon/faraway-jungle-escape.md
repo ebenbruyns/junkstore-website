@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/faraway-jungle-escape/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
@@ -28,7 +28,7 @@ genre: Adventure, Puzzle
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "May 1, 2018"
+release_date: "December 15, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Dutch","Finnish","Greek","Japanese","Korean","Norwegian","Portuguese - Brazil","Russian","Simplified Chinese","Swedish","Thai","Traditional Chinese","Turkish","Vietnamese"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/faraway-jungle-escape"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/2f84136aeca66a729ec005e59744fc5c9ff3a803471907ec617c7d9ad39e0b51.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/efd572fbaced173ec29f0ab349fbf4f079a0b9b793ea044487459c4729ffd3c9.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1747680/header.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"

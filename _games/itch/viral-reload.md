@@ -3,12 +3,12 @@ layout: game-page
 title: "Viral Reload - Steam Deck Compatibility"
 game_title: "Viral Reload"
 slug: "viral-reload"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/viral-reload/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "September 14, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"189","name":"Female Protagonist"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"167","name":"Futuristic"},{"id":"164","name":"Cartoony"},{"id":"59643","name":"Протагонистка"},{"id":"265","name":"Class-Based"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"310","name":"Runner"}]

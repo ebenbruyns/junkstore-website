@@ -3,12 +3,12 @@ layout: game-page
 title: "Asteroids... But Roguelite - Steam Deck Compatibility"
 game_title: "Asteroids... But Roguelite"
 slug: "asteroids-but-roguelite"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/asteroids-but-roguelite/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -28,7 +28,7 @@ genre: Arcade
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "September 22, 2020"
+release_date: "September 21, 2020"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/asteroids-dot-dot-dot-but-roguelite"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

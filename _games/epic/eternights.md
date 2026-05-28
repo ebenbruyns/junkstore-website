@@ -26,19 +26,19 @@ publisher: Studio Sai
 developer: Studio Sai
 genre: Action, RPG, Indie
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Temas sensíveis, Nudez"}}
-release_date: "September 12, 2023"
-game_modes: ["Single-player"]
+release_date: "September 11, 2023"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Japanese","Korean","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Spanish - Latin America"]
 languages_audio: ["English","Japanese","Korean"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/eternights"
 was_free_before: true
-giveaway_events: [{"start":"2025-12-19T16:00:00.000Z","end":"2025-12-20T16:00:00.000Z","type":null,"id":"6b96a838963c457c823099eb9e929334"}]
+giveaway_events: [{"_id":"69441d4851bad44adf9f58bd","id":"6b96a838963c457c823099eb9e929334","namespace":"0bb1bf6df5784815a0c62120f8a82b25","startDate":"2025-12-19T16:00:00.000Z","endDate":"2025-12-20T16:00:00.000Z","title":"Eternights","__v":0}]
 free_games_aliases: []
 
 # Images

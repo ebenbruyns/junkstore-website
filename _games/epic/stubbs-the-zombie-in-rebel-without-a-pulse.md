@@ -28,7 +28,7 @@ genre: Action
 franchise: 
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Crude Humor, Intense Violence, Language, Suggestive Themes, Sexual Themes, Use of Tobacco"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Drogas Lícitas, Conteúdo Sexual"}}
-release_date: "October 14, 2021"
+release_date: "March 16, 2021"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese"]
 languages_audio: []
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"i
 size: "2172 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/stubbs-the-zombie-in-rebel-without-a-pulse"
 was_free_before: true
-giveaway_events: [{"start":"2021-10-13T15:00:00.000Z","end":"2021-10-20T15:00:00.000Z","type":null,"id":"f060c900b80441fda67a7d986c327905"}]
+giveaway_events: [{"_id":"66abf1e43631f27c961ebf70","id":"f060c900b80441fda67a7d986c327905","namespace":"dcbacb85c17e4d39b885d0ba252dc8a7","startDate":"2021-10-13T15:00:00.000Z","endDate":"2021-10-20T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

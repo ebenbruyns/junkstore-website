@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/aces-of-the-luftwaffe-squadron-extended-edition/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Shooter
 franchise: 
 age_rating_summary: e10 (ESRB) · 12 (USK)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Language, Fantasy Violence"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Medo"}}
-release_date: "February 26, 2019"
-game_modes: ["Single-player","Co-op","Multi-player"]
+release_date: "July 24, 2018"
+game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"56","name":"Shoot 'Em Up"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/aces-of-the-luftwaffe-squadron"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

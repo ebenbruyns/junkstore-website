@@ -9,7 +9,7 @@ permalink: /games/epic/rustler-grand-theft-horse/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Jan '26"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: Action, RPG, Open World
 franchise: 
 age_rating_summary: M (ESRB) · 16 (USK)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Strong Language, Blood and Gore, Suggestive Themes, Use of Drugs, Violence"},"usk":{"rating":"16"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência, Atos criminosos, Linguagem imprópria"}}
-release_date: "January 22, 2026"
+release_date: "August 31, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Portuguese - Brazil","Korean","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Save
 size: "2292 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/rustler"
 was_free_before: true
-giveaway_events: [{"start":"2026-01-22T16:00:00.000Z","end":"2026-01-29T16:00:00.000Z","type":null,"id":"3d10f32b87b94b769524cd44a12e634a"}]
+giveaway_events: [{"_id":"69690f4271268c8ce78c88ef","id":"3d10f32b87b94b769524cd44a12e634a","namespace":"aca2ee0619aa482791f0a71dbf3eeac0","startDate":"2026-01-22T16:00:00.000Z","endDate":"2026-01-29T16:00:00.000Z","title":"Rustler - Grand Theft Horse","__v":0}]
 free_games_aliases: []
 
 # Images

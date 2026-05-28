@@ -3,12 +3,12 @@ layout: game-page
 title: "An Outcry, Prelude - Steam Deck Compatibility"
 game_title: "An Outcry, Prelude"
 slug: "an-outcry-prelude"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/an-outcry-prelude/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Indie, Visual Novel
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Temas sensíveis, Medo"}}
-release_date: "April 9, 2020"
-game_modes: ["Single-player"]
+release_date: "January 5, 2022"
+game_modes: ["Single player"]
 languages: ["English","French"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"79","name":"Free to Play"},{"id":"122","name":"Pixel Graphics"},{"id":"121","name":"Character Customization"},{"id":"5","name":"Replay Value"},{"id":"66","name":"Medieval"},{"id":"101","name":"Turn-Based Strategy"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"98","name":"Loot"},{"id":"175","name":"Turn-Based Combat"},{"id":"112","name":"Minimalist"},{"id":"272","name":"Inventory Management"},{"id":"231","name":"Strategy RPG"},{"id":"14194","name":"deckbuilding"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/an-outcry"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

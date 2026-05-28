@@ -8,7 +8,7 @@ storefront_key: "gog"
 permalink: /games/gog/fantasy-empires/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Strategy, Simulator
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
-release_date: "December 31, 1993"
+release_date: "March 27, 2023"
 game_modes: ["Co-op","Single-player"]
 languages: ["English"]
 languages_audio: []
@@ -36,15 +36,15 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam 
 size: "48 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/fantasy-empires"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
 
 # Images
-banner_image: ""
+banner_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2350530/library_hero.jpg"
 cover_image: "https://images.gog.com/3231386d62f8187b649c5e42517b5d6bf6b789f0ca1e235d706a9b675ac274a3.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2350530/header.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"

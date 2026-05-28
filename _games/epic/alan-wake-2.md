@@ -26,17 +26,17 @@ publisher: Epic Games Publishing
 developer: Remedy Entertainment
 genre: Horror, Action-Adventure, Shooter
 franchise: Alan Wake
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {}
 release_date: "October 27, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","German","Spanish - Spain","Japanese","French"]
 languages_audio: []
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: [{"rawg_id":18336,"slug":"alan-wakes-american-nightmare","name":"Alan Wake's American Nightmare"},{"rawg_id":19487,"slug":"alan-wake","name":"Alan Wake"}]
 franchise_slug: "alan-wake|alan-wake-2|alan-wakes-american-nightmare"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/185246"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

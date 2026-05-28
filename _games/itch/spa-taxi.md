@@ -3,12 +3,12 @@ layout: game-page
 title: "Spaß Taxi - Steam Deck Compatibility"
 game_title: "Spaß Taxi"
 slug: "spa-taxi"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/spa-taxi/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Indie, Arcade
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "December 21, 2019"
-game_modes: ["Single-player"]
+release_date: "January 13, 2020"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"42","name":"Great Soundtrack"},{"id":"40845","name":"Partial Controller Support"},{"id":"193","name":"Classic"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"74","name":"Retro"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/spass-taxi"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

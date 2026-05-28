@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Role-playing (RPG)
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Nudity, Strong Language, Strong Sexual Content, Use of Drugs"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"ma15"},"kgrb":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Drogas Lícitas, Violência, Conteúdo Sexual"}}
-release_date: "April 17, 2012"
+release_date: "April 16, 2012"
 game_modes: ["Single-player"]
 languages: ["Czech","German","English","Spanish","French","Hungarian","Italian","Japanese","Korean","Polish","Portuguese","Russian","Turkish","Chinese Traditional"]
 languages_audio: ["English","German","French","Russian","Polish"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "20647 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-witcher-2-assassins-of-kings-dark-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

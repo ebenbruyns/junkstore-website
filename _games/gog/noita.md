@@ -9,7 +9,7 @@ permalink: /games/gog/noita/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Aug '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: role-playing, adventure, indie, shooter, arcade, simulator
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "September 1, 2019"
+release_date: "October 15, 2020"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full c
 size: "1437 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/noita"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "26.5 hrs"
 hltb_main_extra: "83 hrs"
-hltb_completionist: "138.5 hrs"
+hltb_completionist: "41 Hours"
 hltb_url: "https://howlongtobeat.com/game/67295"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1310457090"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Noita is a magical action roguelite set in a world where every pixel is physically simulated. Fight, explore, melt, burn, freeze and evaporate your way through the procedurally generated world using spells you've created yourself. Explore a variety of environments ranging from coal mines to freezing wastelands while delving deeper in search for unknown mysteries.

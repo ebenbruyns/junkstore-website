@@ -36,7 +36,7 @@ tags_structured: []
 size: "4946 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/grip"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "13.5 hrs"
 hltb_main_extra: "17 hrs"
-hltb_completionist: "27 hrs"
+hltb_completionist: "15 Hours"
 hltb_url: "https://howlongtobeat.com/game/34553"
 
 # Links

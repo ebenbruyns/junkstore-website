@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "August 25, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","Traditional Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"21151","name":"Easy Puzzles"}]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"21151","name":"Easy Puzzles"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/behind-the-frame-the-finest-scenery"
 was_free_before: true
-giveaway_events: [{"start":"2025-01-23T16:00:00.000Z","end":"2025-01-30T16:00:00.000Z","type":null,"id":"ade0eed6f17a412b97d29a992b35754c"}]
+giveaway_events: [{"_id":"6789276254615f7148dd83d6","id":"ade0eed6f17a412b97d29a992b35754c","namespace":"5fb8093984924ff5bfad61ae28730818","startDate":"2025-01-23T16:00:00.000Z","endDate":"2025-01-30T16:00:00.000Z","title":"Behind the Frame: The Finest Scenery","__v":0}]
 free_games_aliases: []
 
 # Images

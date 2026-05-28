@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
 release_date: "March 21, 2023"
-game_modes: ["Co-op","Multi-player"]
+game_modes: ["Co-operative","Multiplayer"]
 languages: ["English","French","German","Japanese","Korean","Russian","Traditional Chinese","Spanish - Spain","Simplified Chinese","Spanish - Latin America"]
 languages_audio: ["English","French"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/deceive-inc"
 was_free_before: true
-giveaway_events: [{"start":"2024-11-07T16:00:00.000Z","end":"2024-11-14T16:00:00.000Z","type":null,"id":"327e2f6dbe2b4859b3e1ba4f69dff5c2"}]
+giveaway_events: [{"_id":"672392c6362c66bb7f716439","id":"327e2f6dbe2b4859b3e1ba4f69dff5c2","namespace":"eca9a86adffa4605b8250d383fc01098","startDate":"2024-11-07T16:00:00.000Z","endDate":"2024-11-14T16:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

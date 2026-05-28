@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "8970 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-smurfs-2-the-prisoner-of-the-green-stone"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "7 hrs"
 hltb_main_extra: "8 hrs"
-hltb_completionist: "10.5 hrs"
+hltb_completionist: "8 Hours"
 hltb_url: "https://howlongtobeat.com/game/128830"
 
 # Links

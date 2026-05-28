@@ -3,12 +3,12 @@ layout: game-page
 title: "Mutiny Island - Steam Deck Compatibility"
 game_title: "Mutiny Island"
 slug: "mutiny-island"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/mutiny-island/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/mutiny-island"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

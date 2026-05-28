@@ -36,9 +36,9 @@ tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188",
 size: ""
 franchise_siblings: [{"rawg_id":62408,"slug":"redout-space-assault","name":"Redout: Space Assault"},{"rawg_id":10993,"slug":"redout-enhanced-edition","name":"Redout: Lightspeed Edition"}]
 franchise_slug: "redout-2|redout-enhanced-edition|redout-space-assault"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/redout-2"
 was_free_before: true
-giveaway_events: [{"start":"2024-06-12T15:00:00.000Z","end":"2024-06-19T15:00:00.000Z","type":null,"id":"b77095c5a9224fbe8a7222db84675873"}]
+giveaway_events: [{"_id":"66abf1c93631f27c961eb841","id":"b77095c5a9224fbe8a7222db84675873","namespace":"05ae696a3c5f49af91a7433547460c21","startDate":"2024-06-12T15:00:00.000Z","endDate":"2024-06-19T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

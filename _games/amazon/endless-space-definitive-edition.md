@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/endless-space-definitive-edition/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 7 (PEGI) · 6 (USK)
 age_ratings: {"pegi":{"rating":"7","descriptors":"Online, Violence"},"usk":{"rating":"6"}}
 release_date: "July 4, 2012"
-game_modes: ["Single-player","Multi-player"]
+game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Polish","Italian","Russian","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"25","name":"Space"},{"id":"102","name":"Turn-Based"},{"id":"5","name":"Replay Value"},{"id":"167","name":"Futuristic"},{"id":"172","name":"Aliens"},{"id":"101","name":"Turn-Based Strategy"},{"id":"100","name":"Grand Strategy"},{"id":"212","name":"4X"},{"id":"211","name":"Diplomacy"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/endless-space"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

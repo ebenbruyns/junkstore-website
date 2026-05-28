@@ -26,7 +26,7 @@ publisher: Atari, Inc.
 developer: BioWare
 genre: Role-playing (RPG), Adventure
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: 13 (ESRB) · 12 (PEGI)
 age_ratings: {}
 release_date: "December 12, 2005"
 game_modes: ["Multi-player","Single-player"]
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/fd4c34c4059a37cf2a27f749ddcf0227be3af162771289f255fe2db4f6e0a4b9.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/8e8df168c2bbf4b34a804d671041643eea1d6e6a05c9c42c80128f9d88b6e07e.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://images.gog-statics.com/dc0908495f20ec3a9cb3433ea70ed0907a4c3de6e6abf673e259e34219fd4c3b.png"
 
 # Technical Details
 controller_input: "keyboard-mouse"

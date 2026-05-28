@@ -26,19 +26,19 @@ publisher: iam8bit Presents
 developer: Coin Crew Games
 genre: First Person, Puzzle, Adventure
 franchise: Escape Academy
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "July 14, 2022"
-game_modes: ["Single-player","Online Multi-player","Local Multi-player","Co-op"]
+release_date: "July 13, 2022"
+game_modes: ["Single-player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: ["English"]
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1183","name":"Local Multiplayer"}]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/escape-academy"
 was_free_before: true
-giveaway_events: [{"start":"2025-01-16T16:00:00.000Z","end":"2025-01-23T16:00:00.000Z","type":null,"id":"224ed07084444c619cedc473c7cd1498"},{"start":"2023-12-31T15:00:00.000Z","end":"2024-01-01T15:00:00.000Z","type":null,"id":"224ed07084444c619cedc473c7cd1498"}]
+giveaway_events: [{"_id":"677efefd0da9d7e276a5377a","id":"224ed07084444c619cedc473c7cd1498","namespace":"040baa2d100d465caf428c688cc3cdba","startDate":"2025-01-16T16:00:00.000Z","endDate":"2025-01-23T16:00:00.000Z","title":"Escape Academy","__v":0},{"_id":"66abf1cd3631f27c961eb96b","id":"224ed07084444c619cedc473c7cd1498","namespace":"040baa2d100d465caf428c688cc3cdba","startDate":"2023-12-31T15:00:00.000Z","endDate":"2024-01-01T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

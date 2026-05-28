@@ -26,19 +26,19 @@ publisher: META Publishing
 developer: Flazm
 genre: Simulation, Puzzle, Strategy
 franchise: Train Valley
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "June 8, 2022"
-game_modes: ["Single-player"]
+release_date: "April 15, 2019"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Korean","Turkish","Czech","Swedish"]
 languages_audio: []
-tags_structured: [{"id":"22978","name":"Post Meta Publisher Sale"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"22978","name":"Post Meta Publisher Sale"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: [{"rawg_id":15314,"slug":"train-valley","name":"Train Valley"}]
 franchise_slug: "train-valley|train-valley-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/train-valley-2"
 was_free_before: true
-giveaway_events: [{"start":"2023-07-12T15:00:00.000Z","end":"2023-07-19T15:00:00.000Z","type":null,"id":"e499fc9429044cda83c141213a831592"}]
+giveaway_events: [{"_id":"66abf1d23631f27c961ebad2","id":"e499fc9429044cda83c141213a831592","namespace":"5c59642227a2412fb38f324d1772914e","startDate":"2023-07-12T15:00:00.000Z","endDate":"2023-07-19T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

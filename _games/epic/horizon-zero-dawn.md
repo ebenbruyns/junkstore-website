@@ -9,7 +9,7 @@ permalink: /games/epic/horizon-zero-dawn/
 
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Aug '24"
 proton_version: ""
 
@@ -28,15 +28,15 @@ genre: Action, RPG, Action-Adventure, Adventure
 franchise: 
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Mild Sexual Themes, Language, Drug Reference"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12","descriptors":"Fantasy-Gewalt, Handlungsdruck"},"cero":{"rating":"D","descriptors":"Violence"},"oflc":{"rating":"M","descriptors":"Science Fiction Themes and Violence"},"kgrb":{"rating":"19","descriptors":"Violence"},"fpb":{"rating":"13","descriptors":"Violence"},"csrr":{"rating":"R","descriptors":"Violence"},"mda":{"rating":"AA16"},"dejus":{"rating":"14","descriptors":"Drogas Líticas, Violencia"}}
-release_date: "January 1, 2099"
-game_modes: ["Single-player"]
+release_date: "October 31, 2024"
+game_modes: ["Single Player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Dutch","Finnish","Japanese","Korean","Norwegian","Polish","Portuguese - Brazil","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Polish","Portuguese - Brazil","Portuguese - Portugal","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: ""
 franchise_siblings: [{"rawg_id":13817,"slug":"horizon","name":"Horizon"}]
 franchise_slug: "horizon|horizon-zero-dawn-remastered"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/horizon-zero-dawn-remastered"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1151640"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Welcome to a vibrant world rich with the beauty of nature – but inhabited by awe-inspiring, highly advanced machines.

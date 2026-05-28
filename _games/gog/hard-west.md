@@ -9,7 +9,7 @@ permalink: /games/gog/hard-west/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Aug '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: role-playing, strategy, turn-based, western
 franchise: 
 age_rating_summary: 16 (USK)
 age_ratings: {"usk":{"rating":"16"}}
-release_date: "November 1, 2015"
+release_date: "November 18, 2015"
 game_modes: ["Single-player"]
 languages: ["German","English","French","Polish","Russian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "3443 MB"
 franchise_siblings: [{"rawg_id":754881,"slug":"hard-west-2","name":"Hard West 2"}]
 franchise_slug: "hard-west|hard-west-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/hard-west"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

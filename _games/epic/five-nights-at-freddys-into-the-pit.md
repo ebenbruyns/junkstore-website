@@ -28,7 +28,7 @@ genre: Horror, Retro, Survival
 franchise: "Five Nights at Freddy's"
 age_rating_summary: 16 (PEGI)
 age_ratings: {"pegi":{"rating":"16","descriptors":"Strong Violence, Horror"},"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
-release_date: "October 30, 2025"
+release_date: "August 7, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Turkish"]
 languages_audio: ["English"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Ch
 size: "1017 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/five-nights-at-freddys-into-the-pit"
 was_free_before: true
-giveaway_events: [{"start":"2025-10-30T15:00:00.000Z","end":"2025-11-06T16:00:00.000Z","type":null,"id":"4f870cf44ac24a64a44225045d4aaa96"}]
+giveaway_events: [{"_id":"68fa306e5c0cb42d27c5a255","id":"4f870cf44ac24a64a44225045d4aaa96","namespace":"afa1cff319dd4f81b58006e223dd4401","startDate":"2025-10-30T15:00:00.000Z","endDate":"2025-11-06T16:00:00.000Z","title":"Five Nights at Freddy's: Into the Pit","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -28,7 +28,7 @@ genre: Strategy, Turn-based strategy (TBS)
 franchise: 
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence, Comic Mischief, Mild Language."},"pegi":{"rating":"12","descriptors":"Bad Language, Violence."},"usk":{"rating":"6"},"oflc":{"rating":"PG","descriptors":"Mild comedic violence, crude humour and coarse language, Gaming experience may change online"}}
-release_date: "October 9, 2012"
+release_date: "October 10, 2012"
 game_modes: ["Multi-player","Single-player"]
 languages: ["Czech","German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1393 MB"
 franchise_siblings: [{"rawg_id":460524,"slug":"worms-rumble","name":"Worms Rumble"},{"rawg_id":1820,"slug":"worms-wmd","name":"Worms W.M.D"},{"rawg_id":7350,"slug":"worms-4","name":"Worms 4"},{"rawg_id":3679,"slug":"worms-battlegrounds","name":"Worms Battlegrounds"},{"rawg_id":17778,"slug":"worms-clan-wars","name":"Worms Clan Wars"},{"rawg_id":1962,"slug":"worms3","name":"Worms 3"},{"rawg_id":20554,"slug":"worms-pinball","name":"Worms Pinball"},{"rawg_id":4569,"slug":"worms-crazy-golf","name":"Worms Crazy Golf"},{"rawg_id":16792,"slug":"worms-reloaded","name":"Worms Reloaded"},{"rawg_id":2090,"slug":"worms-2-armageddon","name":"Worms 2: Armageddon"},{"rawg_id":36527,"slug":"worms-4-mayhem","name":"Worms 4: Mayhem"},{"rawg_id":22902,"slug":"worms-forts-under-siege","name":"Worms Forts: Under Siege"},{"rawg_id":35385,"slug":"worms-3d","name":"Worms 3D"},{"rawg_id":19645,"slug":"worms-blast","name":"Worms Blast"},{"rawg_id":31309,"slug":"worms-world-party","name":"Worms World Party"},{"rawg_id":20466,"slug":"worms-armageddon","name":"Worms Armageddon"},{"rawg_id":22871,"slug":"worms-2","name":"Worms 2"},{"rawg_id":5383,"slug":"worms","name":"Worms"}]
 franchise_slug: "worms|worms-2|worms-2-armageddon|worms-3d|worms-4|worms-4-mayhem|worms-armageddon|worms-battlegrounds|worms-blast|worms-clan-wars|worms-crazy-golf|worms-forts-under-siege|worms-pinball|worms-reloaded|worms-revolution|worms-rumble|worms-wmd|worms-world-party|worms3"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/worms-revolution--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

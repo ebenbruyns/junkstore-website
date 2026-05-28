@@ -28,17 +28,17 @@ genre: Action, Stealth, Adventure
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Sexual Themes, Strong Language, Drug Reference"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Coarse Language, Online Interactivity"},"nzoflc":{"rating":"r16","descriptors":"Violence, Offensive Language"},"kgrb":{"rating":"18"},"fpb":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Conteúdo Sexual, Drogas"}}
-release_date: "March 24, 2022"
+release_date: "September 13, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Spanish - Latin America"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/deathloop"
 was_free_before: true
-giveaway_events: [{"start":"2025-06-05T15:00:00.000Z","end":"2025-06-12T15:00:00.000Z","type":null,"id":"b1f88c2f7d114879838a3e79d1d6f163"}]
+giveaway_events: [{"_id":"683878150875712fb7d35472","id":"b1f88c2f7d114879838a3e79d1d6f163","namespace":"7dee3ddeac7d427eb35def472be64d9c","startDate":"2025-06-05T15:00:00.000Z","endDate":"2025-06-12T15:00:00.000Z","title":"DEATHLOOP","__v":0}]
 free_games_aliases: []
 
 # Images

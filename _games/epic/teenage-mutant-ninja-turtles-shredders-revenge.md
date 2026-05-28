@@ -26,9 +26,9 @@ publisher: Dotemu
 developer: Tribute Games Inc.
 genre: Action
 franchise: Teenage Mutant Ninja Turtles
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "July 2, 2024"
+release_date: "June 16, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Traditional Chinese","Korean","Japanese","Portuguese - Brazil"]
 languages_audio: ["English","Simplified Chinese","Traditional Chinese"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/teenage-mutant-ninja-turtles-shredders-revenge"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

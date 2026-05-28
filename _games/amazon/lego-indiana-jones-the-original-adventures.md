@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/lego-indiana-jones-the-original-adventures/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "yellow"
 date_tested: "Sept '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Adventure, Platform, Puzzle
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence"},"pegi":{"rating":"7","descriptors":"Contains depictions of violence"},"usk":{"rating":"6"},"bbfc":{"rating":"U"},"oflc":{"rating":"PG","descriptors":"Mild violence"}}
-release_date: "June 2, 2008"
-game_modes: ["Single-player","Co-op","Multi-player","Split Screen"]
+release_date: "July 8, 2009"
+game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"40845","name":"Partial Controller Support"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"107","name":"Family Friendly"},{"id":"297","name":"LEGO"}]
 size: ""
 franchise_siblings: [{"rawg_id":5606,"slug":"lego-indiana-jones-2","name":"LEGO Indiana Jones 2: The Adventure Continues"}]
 franchise_slug: "lego-indiana-jones|lego-indiana-jones-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/lego-indiana-jones-the-original-adventures"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

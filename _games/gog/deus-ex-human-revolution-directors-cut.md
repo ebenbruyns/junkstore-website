@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Drug Reference, Intense Violence, Sexual Themes, Strong Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Extreme violence - Multiple, motiveless killing - Strong language"},"usk":{"rating":"18"},"bbfc":{"rating":"15","descriptors":"Contains strong bloody violence and strong language"},"oflc":{"rating":"ma15","descriptors":"Strong themes, violence and sexual references"},"nzoflc":{"rating":"r16","descriptors":"Contains violence, offensive language and sexual themes"},"csrr":{"rating":"R"},"mda":{"rating":"M18"},"dejus":{"rating":"14"}}
-release_date: "October 22, 2013"
+release_date: "October 25, 2013"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain"]

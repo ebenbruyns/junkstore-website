@@ -28,7 +28,7 @@ genre: Adventure, Indie, Platform, Simulator
 franchise: 
 age_rating_summary: 16 (PEGI) · 16 (USK)
 age_ratings: {"pegi":{"rating":"16"},"usk":{"rating":"16"},"cero":{"rating":"D"},"kgrb":{"rating":"18"},"fpb":{"rating":"16"},"csrr":{"rating":"C15"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
-release_date: "October 14, 2021"
+release_date: "October 13, 2022"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Russian"]
 languages_audio: ["English","Russian"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: "3034 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-darkest-tales"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

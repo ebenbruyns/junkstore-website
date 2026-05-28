@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Shooter, Arcade
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "September 4, 2013"
+release_date: "May 25, 2015"
 game_modes: ["Co-op","Single-player"]
 languages: ["English"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "51 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/heroes-of-loot"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "1.5 hrs"
 hltb_main_extra: ""
-hltb_completionist: "4 hrs"
+hltb_completionist: "2.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/13899"
 
 # Links

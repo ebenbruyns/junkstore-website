@@ -26,17 +26,17 @@ publisher: LuckyVerse
 developer: Woondas
 genre: Sports, Indie
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "October 4, 2023"
-game_modes: ["Single-player","Online Multi-player","Local Multi-player","Co-op"]
+release_date: "January 1, 2025"
+game_modes: ["Single-player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","Czech","Slovak","French","German","Spanish - Spain","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America","Russian","Traditional Chinese","Simplified Chinese"]
 languages_audio: ["English","Czech","Slovak","French","German","Spanish - Spain","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America","Russian","Traditional Chinese","Simplified Chinese"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1264","name":"Co-op"},{"id":"1283","name":"Sports"},{"id":"1299","name":"Competitive"},{"id":"19847","name":"Achievements"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/lucky-goal"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

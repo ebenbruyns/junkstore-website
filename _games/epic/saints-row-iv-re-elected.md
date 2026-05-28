@@ -28,17 +28,17 @@ genre: Action, Adventure
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong violence, gaming experience may change online"},"nzoflc":{"rating":"r18"},"dejus":{"rating":"18","descriptors":"Sexo Explícito, Drogas ilícitas, Violência"}}
-release_date: "December 8, 2022"
+release_date: "August 22, 2013"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Italian","Spanish - Spain","Polish","Russian","Japanese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21126","name":"Silly Community"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "12698 MB"
 franchise_siblings: [{"rawg_id":650607,"slug":"saints-row-2022","name":"Saints Row (2022)"},{"rawg_id":3450,"slug":"saints-row-gat-out-of-hell","name":"Saints Row: Gat Out of Hell"},{"rawg_id":4386,"slug":"saints-row-the-third","name":"Saints Row: The Third"},{"rawg_id":4599,"slug":"saints-row-2","name":"Saints Row 2"},{"rawg_id":28478,"slug":"saints-row","name":"Saints Row"}]
 franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-hell|saints-row-iv|saints-row-the-third"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/saints-row-iv"
 was_free_before: true
-giveaway_events: [{"start":"2022-12-07T15:00:00.000Z","end":"2022-12-14T15:00:00.000Z","type":null,"id":"23ea1157ec89467d99f9b0fdf0ddb89b"}]
+giveaway_events: [{"_id":"66abf1d83631f27c961ebc94","id":"23ea1157ec89467d99f9b0fdf0ddb89b","namespace":"151e56468b5049628653dedab7c88007","startDate":"2022-12-07T15:00:00.000Z","endDate":"2022-12-14T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -76,7 +76,7 @@ native_linux: true
 hltb_main: "15 hrs"
 hltb_main_extra: "26 hrs"
 hltb_completionist: "43 hrs"
-hltb_url: "https://howlongtobeat.com/game/12650"
+hltb_url: "https://howlongtobeat.com/game/39397"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/saints-row-iv-re-elected"

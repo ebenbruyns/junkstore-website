@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full c
 size: "5944 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/midnight-fight-express"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "8.5 hrs"
-hltb_completionist: "33.5 hrs"
+hltb_completionist: "6.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/82543"
 
 # Links

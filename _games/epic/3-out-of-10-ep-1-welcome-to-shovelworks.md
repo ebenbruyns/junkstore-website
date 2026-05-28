@@ -29,7 +29,7 @@ franchise: 3 out of 10, EP
 age_rating_summary: 
 age_ratings: {}
 release_date: "August 6, 2020"
-game_modes: ["Single-player"]
+game_modes: ["Single Player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1141","name":"Free to Play"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
@@ -38,7 +38,7 @@ franchise_siblings: [{"rawg_id":580989,"slug":"3-out-of-10-season-two","name":"3
 franchise_slug: "3-out-of-10|3-out-of-10-season-two"
 igdb_url: ""
 was_free_before: true
-giveaway_events: [{"start":"2020-08-05T15:00:00.000Z","end":"2020-08-12T15:00:00.000Z","type":null,"id":"eb38399025864ffb88a7e027d02502a8"}]
+giveaway_events: [{"_id":"66abf1f03631f27c961ec27e","id":"eb38399025864ffb88a7e027d02502a8","namespace":"d9090f3f39f64d5bb827c6e44b95cff0","startDate":"2020-08-05T15:00:00.000Z","endDate":"2020-08-12T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

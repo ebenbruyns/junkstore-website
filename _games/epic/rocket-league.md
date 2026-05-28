@@ -28,7 +28,7 @@ genre: Racing
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Lyrics"},"pegi":{"rating":"3","descriptors":"Online Interactivity."},"usk":{"rating":"6"},"oflc":{"rating":"G","descriptors":"Online interactivity."},"nzoflc":{"rating":"G","descriptors":"Online interactivity."},"fpb":{"rating":"A"},"dejus":{"rating":"L"}}
-release_date: "September 23, 2020"
+release_date: "July 6, 2015"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Portuguese - Portugal","Japanese","Korean","Russian","Turkish","Polish"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21125"
 size: ""
 franchise_siblings: [{"rawg_id":576359,"slug":"rocket-league-sideswipe","name":"Rocket League Sideswipe"}]
 franchise_slug: "rocket-league|rocket-league-sideswipe"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/rocket-league"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

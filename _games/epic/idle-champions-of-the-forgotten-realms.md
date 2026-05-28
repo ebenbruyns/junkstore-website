@@ -28,17 +28,17 @@ genre: Strategy
 franchise: 
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Mild Language"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Atos criminosos, Medo"}}
-release_date: "February 16, 2021"
-game_modes: ["Single-player"]
+release_date: "March 25, 2020"
+game_modes: ["Single player"]
 languages: ["English","French","German","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"21136","name":"Playful Visuals"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"1141","name":"Free to Play"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/idle-champions-of-the-forgotten-realms"
 was_free_before: true
-giveaway_events: [{"start":"2026-03-05T16:00:00.000Z","end":"2026-03-12T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2025-11-06T16:00:00.000Z","end":"2025-11-13T16:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2025-04-10T15:00:00.000Z","end":"2025-04-17T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2024-06-12T15:00:00.000Z","end":"2024-06-19T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2023-06-21T15:00:00.000Z","end":"2023-06-28T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2021-04-28T15:00:00.000Z","end":"2021-05-05T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"}]
+giveaway_events: [{"_id":"69a06197e2e1cc62607d17d0","id":"a9748abde1c94b66aae5250bb9fc5503","namespace":"7e508f543b05465abe3a935960eb70ac","startDate":"2026-03-05T16:00:00.000Z","endDate":"2026-03-12T15:00:00.000Z","title":"Idle Champions of the Forgotten Realms","__v":0},{"_id":"69037105eb53115b2c3e8080","id":"a9748abde1c94b66aae5250bb9fc5503","namespace":"7e508f543b05465abe3a935960eb70ac","startDate":"2025-11-06T16:00:00.000Z","endDate":"2025-11-13T16:00:00.000Z","title":"Idle Champions of the Forgotten Realms","__v":0},{"_id":"67ee96f51eb228e92b7dee27","id":"a9748abde1c94b66aae5250bb9fc5503","namespace":"7e508f543b05465abe3a935960eb70ac","startDate":"2025-04-10T15:00:00.000Z","endDate":"2025-04-17T15:00:00.000Z","title":"Idle Champions of the Forgotten Realms","__v":0},{"_id":"66abf1c93631f27c961eb849","id":"a9748abde1c94b66aae5250bb9fc5503","namespace":"7e508f543b05465abe3a935960eb70ac","startDate":"2024-06-12T15:00:00.000Z","endDate":"2024-06-19T15:00:00.000Z","__v":0},{"_id":"66abf1d23631f27c961ebaf9","id":"a9748abde1c94b66aae5250bb9fc5503","namespace":"7e508f543b05465abe3a935960eb70ac","startDate":"2023-06-21T15:00:00.000Z","endDate":"2023-06-28T15:00:00.000Z","__v":0},{"_id":"66abf1e83631f27c961ec08a","id":"a9748abde1c94b66aae5250bb9fc5503","namespace":"7e508f543b05465abe3a935960eb70ac","startDate":"2021-04-28T15:00:00.000Z","endDate":"2021-05-05T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

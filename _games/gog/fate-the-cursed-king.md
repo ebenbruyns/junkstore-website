@@ -33,7 +33,7 @@ game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"40850","name":"Steam Leaderboards"},{"id":"97","name":"Action RPG"},{"id":"468","name":"role-playing"},{"id":"48","name":"Dungeon Crawler"}]
-size: "397 MB"
+size: "486 MB"
 franchise_siblings: [{"rawg_id":21315,"slug":"fate-the-traitor-soul","name":"FATE: The Traitor Soul"},{"rawg_id":20798,"slug":"fate-undiscovered-realms","name":"FATE: Undiscovered Realms"},{"rawg_id":36649,"slug":"fate","name":"Fate (2005)"}]
 franchise_slug: "fate|fate-the-cursed-king|fate-the-traitor-soul|fate-undiscovered-realms"
 igdb_url: ""

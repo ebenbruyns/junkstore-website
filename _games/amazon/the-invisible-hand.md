@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/the-invisible-hand/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria"}}
 release_date: "May 7, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","French"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"}]
 size: "1070 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-invisible-hand"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

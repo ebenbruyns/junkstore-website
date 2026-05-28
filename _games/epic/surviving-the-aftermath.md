@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: T (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12"},"kgrb":{"rating":"ALL","descriptors":"Violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "November 16, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1146","name":"City Builder"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: [{"rawg_id":23322,"slug":"surviving-mars","name":"Surviving Mars"}]
 franchise_slug: "surviving-mars|surviving-the-aftermath"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/188054"
 was_free_before: true
-giveaway_events: [{"start":"2023-11-15T15:00:00.000Z","end":"2023-11-22T15:00:00.000Z","type":null,"id":"b9fc967981994ee2a546152e62634076"}]
+giveaway_events: [{"_id":"66abf1cf3631f27c961eb9ff","id":"b9fc967981994ee2a546152e62634076","namespace":"95b4d5a753d042678f775d5e1eb5ab25","startDate":"2023-11-15T15:00:00.000Z","endDate":"2023-11-22T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

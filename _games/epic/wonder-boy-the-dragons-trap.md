@@ -28,15 +28,15 @@ genre: Action, Casual, Platformer
 franchise: 
 age_rating_summary: e10 (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Use of Tobacco"},"pegi":{"rating":"3"},"usk":{"rating":"12","descriptors":"Violence, Tobacco Use"},"cero":{"rating":"A"},"oflc":{"rating":"M","descriptors":"Mature Themes"},"nzoflc":{"rating":"M"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "March 12, 2026"
-game_modes: ["Single-player"]
+release_date: "June 8, 2017"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Polish","Swedish","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1296","name":"Casual"},{"id":"1370","name":"Single Player"},{"id":"39070","name":"iOS"},{"id":"1151","name":"Platformer"}]
 size: ""
 franchise_siblings: [{"rawg_id":610300,"slug":"wonder-boy-asha-in-monster-world","name":"WONDER BOY ASHA in Monster World"},{"rawg_id":392059,"slug":"sega-ages-wonder-boy-monster-land","name":"SEGA AGES Wonder Boy: Monster Land"},{"rawg_id":45868,"slug":"monster-boy-and-the-cursed-kingdom","name":"Monster Boy and the Cursed Kingdom"},{"rawg_id":58,"slug":"wonder-boy-returns","name":"WONDER BOY RETURNS"},{"rawg_id":4374,"slug":"wonder-boy-in-monster-land","name":"Wonder Boy in Monster Land"},{"rawg_id":24777,"slug":"wonder-boy","name":"Wonder Boy"},{"rawg_id":57105,"slug":"monster-world-iv-1994","name":"Monster World IV (1994)"},{"rawg_id":4375,"slug":"wonder-boy-in-monster-world","name":"WONDER BOY IN MONSTER WORLD"},{"rawg_id":57232,"slug":"wonder-boy-in-monster-world-1991","name":"Wonder Boy in Monster World (1991)"},{"rawg_id":127688,"slug":"wonder-boy-iii-the-dragons-trap-2","name":"Wonder Boy III: The Dragon's Trap"}]
 franchise_slug: "monster-boy-and-the-cursed-kin|monster-world-iv-1994|sega-ages-wonder-boy-monster-l|wonder-boy|wonder-boy-asha-in-monster-wor|wonder-boy-iii-the-dragons-tra|wonder-boy-in-monster-land|wonder-boy-in-monster-world|wonder-boy-in-monster-world-19|wonder-boy-returns|wonder-boy-the-dragons-trap"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/wonder-boy-the-dragons-trap"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/e2d1c8359f9d40e49880dc820ecbf05ea122a097c9de760e27f96d3c2729be48.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/056e9a04957aeaf47b03a1870f39199e9ff27220e9c708597a4e2b120daff7e4.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/543260/header.jpg"
 
 # Technical Details
 controller_input: "native"

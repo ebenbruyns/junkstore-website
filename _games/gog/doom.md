@@ -9,7 +9,7 @@ permalink: /games/gog/doom/
 
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "April '25"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: puzzle, shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"High impact violence, blood and gore, online interactivity"},"nzoflc":{"rating":"r16","descriptors":"graphic violence, horror"},"fpb":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Extreme Violence"}}
-release_date: "May 1, 2016"
+release_date: "May 12, 2016"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","German","English","Spanish","French","Italian","Japanese","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: "63434 MB"
 franchise_siblings: [{"rawg_id":58777,"slug":"doom-eternal","name":"DOOM Eternal"},{"rawg_id":2364,"slug":"doom-ii-rpg","name":"DOOM II RPG"},{"rawg_id":36355,"slug":"doom-3-resurrection-of-evil","name":"Doom 3: Resurrection of Evil"},{"rawg_id":19458,"slug":"doom-3","name":"Doom 3"},{"rawg_id":54381,"slug":"doom-64","name":"Doom 64"},{"rawg_id":22448,"slug":"final-doom","name":"Final DOOM"},{"rawg_id":22412,"slug":"ultimate-doom","name":"Ultimate Doom"},{"rawg_id":17975,"slug":"doom-ii","name":"DOOM II"},{"rawg_id":52884,"slug":"doom-2","name":"DOOM"}]
 franchise_slug: "doom|doom-2|doom-3|doom-3-resurrection-of-evil|doom-64|doom-eternal|doom-ii|doom-ii-rpg|final-doom|ultimate-doom"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/doom--2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

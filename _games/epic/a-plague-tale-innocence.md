@@ -29,16 +29,16 @@ franchise: A Plague Tale
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Strong Language, Violence"},"pegi":{"rating":"18","descriptors":"Bad Language"},"usk":{"rating":"16"},"cero":{"rating":"Z","descriptors":"Violence"},"bbfc":{"rating":"18","descriptors":"Violence, Bad Language"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence"},"nzoflc":{"rating":"r16","descriptors":"Violence, Offensive Language, Content that may disturb"},"kgrb":{"rating":"18","descriptors":"Violence, Horror and Strong Language"},"dejus":{"rating":"18","descriptors":"Linguagem imprópria, Violência extrema"}}
 release_date: "May 14, 2019"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Korean","Japanese","Traditional Chinese"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "36263 MB"
 franchise_siblings: [{"rawg_id":616697,"slug":"a-plague-tale-requiem","name":"A Plague Tale: Requiem"}]
 franchise_slug: "a-plague-tale-innocence|a-plague-tale-requiem"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/a-plague-tale-innocence"
 was_free_before: true
-giveaway_events: [{"start":"2024-01-02T15:00:00.000Z","end":"2024-01-03T15:00:00.000Z","type":null,"id":"89e949b9176d4f04a5b2e6ca28655b21"},{"start":"2021-08-04T15:00:00.000Z","end":"2021-08-11T15:00:00.000Z","type":null,"id":"89e949b9176d4f04a5b2e6ca28655b21"}]
+giveaway_events: [{"_id":"66abf1cd3631f27c961eb959","id":"89e949b9176d4f04a5b2e6ca28655b21","namespace":"71d19da3678943098859baa9c4c39f95","startDate":"2024-01-02T15:00:00.000Z","endDate":"2024-01-03T15:00:00.000Z","__v":0},{"_id":"66abf1e63631f27c961ebfee","id":"89e949b9176d4f04a5b2e6ca28655b21","namespace":"71d19da3678943098859baa9c4c39f95","startDate":"2021-08-04T15:00:00.000Z","endDate":"2021-08-11T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

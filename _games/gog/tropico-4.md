@@ -28,15 +28,15 @@ genre: Strategy, Simulator
 franchise: 
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Tobacco Reference, Mild Suggestive Themes, Violence"},"pegi":{"rating":"16"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Drogas ilícitas, Linguagem imprópria, Violência"}}
-release_date: "August 26, 2011"
-game_modes: ["Single-player"]
+release_date: "September 1, 2011"
+game_modes: ["Single player"]
 languages: ["German","English","Spanish","French","Italian","Korean","Polish"]
 languages_audio: ["English","French","German","Italian","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"4","name":"Funny"},{"id":"37","name":"Sandbox"},{"id":"123","name":"Comedy"},{"id":"39","name":"Building"},{"id":"168","name":"RTS"},{"id":"67","name":"Management"},{"id":"194","name":"Real-Time with Pause"},{"id":"147","name":"Resource Management"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"},{"id":"287","name":"Political"},{"id":"251","name":"Cold War"},{"id":"219","name":"Politics"},{"id":"214","name":"God Game"},{"id":"262","name":"Capitalism"}]
 size: "4766 MB"
 franchise_siblings: [{"rawg_id":29231,"slug":"tropico-6","name":"Tropico 6"},{"rawg_id":3358,"slug":"tropico-5","name":"Tropico 5"},{"rawg_id":14072,"slug":"tropico-3","name":"Tropico 3"},{"rawg_id":35072,"slug":"tropico-2-pirate-cove","name":"Tropico 2: Pirate Cove"},{"rawg_id":31298,"slug":"tropico","name":"Tropico"}]
 franchise_slug: "tropico|tropico-2-pirate-cove|tropico-3|tropico-4|tropico-5|tropico-6"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/tropico-4"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "40 hrs"
 hltb_main_extra: "61.5 hrs"
-hltb_completionist: "106.5 hrs"
+hltb_completionist: "61 Hours"
 hltb_url: "https://howlongtobeat.com/game/10674"
 
 # Links

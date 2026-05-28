@@ -26,19 +26,19 @@ publisher: Serenity Forge
 developer: Serenity Forge
 genre: Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria"}}
-release_date: "February 19, 2026"
+release_date: "July 10, 2025"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+tags_structured: [{"id":"1370","name":"Single Player"},{"id":"39946","name":"Serenity Forge Publisher Sale"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/return-to-ash"
 was_free_before: true
-giveaway_events: [{"start":"2026-02-19T16:00:00.000Z","end":"2026-02-26T16:00:00.000Z","type":null,"id":"06cd7ef2079646dcb6c5b04e04e1d676"}]
+giveaway_events: [{"_id":"698ded865bdd086e5a0c3b1f","id":"06cd7ef2079646dcb6c5b04e04e1d676","namespace":"511a5b709ee242fb9603378b071d99d7","startDate":"2026-02-19T16:00:00.000Z","endDate":"2026-02-26T16:00:00.000Z","title":"Return to Ash","__v":0}]
 free_games_aliases: []
 
 # Images

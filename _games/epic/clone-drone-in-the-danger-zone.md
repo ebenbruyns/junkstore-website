@@ -26,19 +26,19 @@ publisher: Doborog Games
 developer: Doborog Games
 genre: Action, Fighting, Indie
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência, Medo"}}
-release_date: "March 26, 2026"
-game_modes: ["Single-player","Online Multi-player","Co-op"]
+release_date: "July 27, 2021"
+game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Japanese","Korean","Traditional Chinese"]
 languages_audio: ["English","French","German","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"33639","name":"Promotional Content"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/clone-drone-in-the-danger-zone"
 was_free_before: true
-giveaway_events: [{"start":"2026-04-02T15:00:00.000Z","end":"2026-04-09T15:00:00.000Z","type":null,"id":"c6479f31043943d0b1710cc5983f53c6"}]
+giveaway_events: [{"_id":"69c54b4308189bc97966faec","id":"c6479f31043943d0b1710cc5983f53c6","namespace":"59d27ef047494b999bf0b04ddc471a07","startDate":"2026-04-02T15:00:00.000Z","endDate":"2026-04-09T15:00:00.000Z","title":"Clone Drone in the Danger Zone","__v":0}]
 free_games_aliases: []
 
 # Images

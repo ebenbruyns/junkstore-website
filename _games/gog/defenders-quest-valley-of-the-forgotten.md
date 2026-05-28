@@ -9,7 +9,7 @@ permalink: /games/gog/defenders-quest-valley-of-the-forgotten/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "April '25"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: role-playing-rpg, strategy, indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"kgrb":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "October 1, 2012"
+release_date: "October 30, 2012"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","Czech","German","English","Spanish","French","Italian","Japanese","Korean","Russian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "516 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/defenders-quest-valley-of-the-forgotten"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "9.5 hrs"
 hltb_main_extra: "18 hrs"
-hltb_completionist: "38.5 hrs"
+hltb_completionist: "16.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/2409"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1207659129"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Defender's Quest is a tower defense and RPG hybrid that features classic tower defense gameplay intermingled with RPG mechanics.

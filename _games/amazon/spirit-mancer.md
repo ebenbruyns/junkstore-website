@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/spirit-mancer/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Nudez, Violência fantasiosa"}}
 release_date: "November 22, 2024"
-game_modes: ["Single-player","Co-op","Multi-player"]
+game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Thai"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"18","name":"Co-op"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"68","name":"Hack and Slash"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"1465","name":"combat"},{"id":"113","name":"Side Scroller"},{"id":"138","name":"Relaxing"},{"id":"91686","name":"Family Sharing"},{"id":"45201","name":"Remote Play Together"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"46112","name":"Shared/Split Screen Co-op"},{"id":"14194","name":"deckbuilding"},{"id":"55320","name":"Creature Collector"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/spirit-mancer"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/550aba657e5fb5f3ef2480ad8c0bb0c48a0641bddb1faf860a89bd1707761739.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/5ebb16c8a001e2d57c96f1dee7661f4bf4d3e24bbfa762553e29f54e63e5c923.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2172580/header.jpg"
 
 # Technical Details
 controller_input: "native"

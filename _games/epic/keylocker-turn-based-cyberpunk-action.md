@@ -26,19 +26,19 @@ publisher: Serenity Forge
 developer: Moonana Games
 genre: Turn-Based, Indie, RPG
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "July 31, 2025"
-game_modes: ["Single-player"]
+release_date: "September 18, 2024"
+game_modes: ["Single player"]
 languages: ["English","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"39946","name":"Serenity Forge Publisher Sale"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/keylocker-turn-based-cyberpunk-action"
 was_free_before: true
-giveaway_events: [{"start":"2025-07-31T15:00:00.000Z","end":"2025-08-07T15:00:00.000Z","type":null,"id":"3de25d0eaa7f4b9dbb3fa3f08fd55746"}]
+giveaway_events: [{"_id":"68824aebd8ed05d05dbaaf4e","id":"3de25d0eaa7f4b9dbb3fa3f08fd55746","namespace":"1c0e80ffead94d1f911254d457ebb48b","startDate":"2025-07-31T15:00:00.000Z","endDate":"2025-08-07T15:00:00.000Z","title":"Keylocker | Turn Based Cyberpunk Action","__v":0}]
 free_games_aliases: []
 
 # Images

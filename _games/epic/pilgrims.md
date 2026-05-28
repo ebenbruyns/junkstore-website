@@ -26,19 +26,19 @@ publisher: Amanita Design
 developer: Amanita Design
 genre: Adventure, Card Game, Indie
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas, Violência fantasiosa"}}
-release_date: "June 16, 2023"
-game_modes: ["Single-player"]
+release_date: "October 7, 2019"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1181","name":"Card Game"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "255 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/pilgrims"
 was_free_before: true
-giveaway_events: [{"start":"2025-07-31T15:00:00.000Z","end":"2025-08-07T15:00:00.000Z","type":null,"id":"605ced56db424539ba3ac26f904a83f2"}]
+giveaway_events: [{"_id":"6882441e366f78541c6a4d4d","id":"605ced56db424539ba3ac26f904a83f2","namespace":"0693e8391e49492096424712a5595484","startDate":"2025-07-31T15:00:00.000Z","endDate":"2025-08-07T15:00:00.000Z","title":"Pilgrims","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -26,19 +26,19 @@ publisher: Nival
 developer: Luden.io
 genre: Simulation, Puzzle
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "December 2, 2021"
-game_modes: ["Single-player"]
+release_date: "January 17, 2019"
+game_modes: ["Single player"]
 languages: ["English","Russian","German","Hungarian","Korean","Greek","Portuguese - Brazil","Simplified Chinese","Polish","French","Italian","Spanish - Spain","Czech","Japanese","Spanish - Latin America","Traditional Chinese","Turkish","Vietnamese","Arabic","Bulgarian","Danish","Dutch","Finnish","Indonesian","Portuguese - Portugal","Romanian","Swedish","Thai","Ukrainian","Hebrew","Norwegian","Malay"]
 languages_audio: []
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1102","name":"Programming"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/while-true-learn"
 was_free_before: true
-giveaway_events: [{"start":"2021-12-01T15:00:00.000Z","end":"2021-12-08T15:00:00.000Z","type":null,"id":"154108003e4e4f099634188deb9a01b8"}]
+giveaway_events: [{"_id":"66abf1e33631f27c961ebf1f","id":"154108003e4e4f099634188deb9a01b8","namespace":"9359fa123dbf4b89b7d70be316d7810c","startDate":"2021-12-01T15:00:00.000Z","endDate":"2021-12-08T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

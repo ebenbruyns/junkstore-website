@@ -9,15 +9,15 @@ permalink: /games/epic/rogue-legacy-2/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "May '24"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
+protondb_tier: "platinum"
+protondb_score: 0.82
+protondb_total: 59
+protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
 
@@ -28,15 +28,15 @@ genre: Indie, Rogue-Lite
 franchise: Rogue Legacy
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "August 18, 2020"
-game_modes: ["Single-player"]
+release_date: "April 28, 2022"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Japanese"]
 languages_audio: []
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: [{"rawg_id":3635,"slug":"rogue-legacy","name":"Rogue Legacy"}]
 franchise_slug: "rogue-legacy|rogue-legacy-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/rogue-legacy-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "bd35425c9548494082d002f36601ff45"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Rogue Legacy 2 is an Action Platforming RPG Rogue-LITE, where every time you die, your children succeed you. Each child is unique. Your daughter might be a Colourblind Archer, and your son could be a Pacifistic Chef.

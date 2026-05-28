@@ -26,19 +26,19 @@ publisher: Skybound Games
 developer: Terrible Posture Games
 genre: Narration, Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Medo"}}
 release_date: "November 14, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/invincible-presents-atom-eve"
 was_free_before: true
-giveaway_events: [{"start":"2024-10-17T15:00:00.000Z","end":"2024-10-24T15:00:00.000Z","type":null,"id":"d8abd7984d034e21acafbce5ba0cca9b"},{"start":"2024-03-20T15:00:00.000Z","end":"2024-03-27T15:00:00.000Z","type":null,"id":"d8abd7984d034e21acafbce5ba0cca9b"}]
+giveaway_events: [{"_id":"6707e8e5fba102383060a403","id":"d8abd7984d034e21acafbce5ba0cca9b","namespace":"b79b8b81ba8c4bf9b4b1154670237131","startDate":"2024-10-17T15:00:00.000Z","endDate":"2024-10-24T15:00:00.000Z","__v":0},{"_id":"66abf1cb3631f27c961eb8d6","id":"d8abd7984d034e21acafbce5ba0cca9b","namespace":"b79b8b81ba8c4bf9b4b1154670237131","startDate":"2024-03-20T15:00:00.000Z","endDate":"2024-03-27T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

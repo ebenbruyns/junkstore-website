@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Atos criminosos, Violência fantasiosa"}}
 release_date: "June 15, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["German","English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"115","name":"Controller"},{"id":"41","name":"Dark"},{"id":"88","name":"Cute"},{"id":"145","name":"Choices Matter"},{"id":"165","name":"Colorful"},{"id":"406","name":"Story"},{"id":"40937","name":"Steam Trading Cards"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"209","name":"Drama"},{"id":"258","name":"Hand-drawn"},{"id":"164","name":"Cartoony"},{"id":"200","name":"Narration"},{"id":"572","name":"Emotional"},{"id":"288","name":"Interactive Fiction"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"1709","name":"work"},{"id":"1484","name":"skill"},{"id":"1863","name":"challenge"},{"id":"342","name":"Conversation"},{"id":"3758","name":"speed"},{"id":"8234","name":"fall"},{"id":"2006","name":"castle"},{"id":"688","name":"relationship"},{"id":"1303","name":"Shadows"},{"id":"1699","name":"town"},{"id":"1580","name":"hospital"},{"id":"6829","name":"clock"},{"id":"1981","name":"beer"},{"id":"2360","name":"stress"},{"id":"3420","name":"doctor"}]
 size: "1141 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/fall-of-porcupine"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "8 hrs"
 hltb_main_extra: "11 hrs"
-hltb_completionist: "15.5 hrs"
+hltb_completionist: "10 Hours"
 hltb_url: "https://howlongtobeat.com/game/112995"
 
 # Links

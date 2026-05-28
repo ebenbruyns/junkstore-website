@@ -26,10 +26,10 @@ publisher: Chilli Hugger Software
 developer: Mike Singleton and Chris Wild
 genre: Role-playing (RPG), Strategy, Tactical
 franchise: 
-age_rating_summary: PEGI 7
+age_rating_summary: 7 (PEGI)
 age_ratings: {}
 release_date: "December 1, 1984"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"468","name":"role-playing"}]

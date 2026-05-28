@@ -26,19 +26,19 @@ publisher: Games Operators
 developer: Jutsu Games
 genre: Casual, Simulation, Strategy
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência, Atos criminosos, Linguagem imprópria"}}
-release_date: "August 7, 2025"
-game_modes: ["Single-player"]
+release_date: "April 23, 2020"
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Korean","Japanese","Portuguese - Brazil"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/112-operator"
 was_free_before: true
-giveaway_events: [{"start":"2025-08-07T15:00:00.000Z","end":"2025-08-14T15:00:00.000Z","type":null,"id":"913af1ed18e24007ab5fd2bc2092c175"}]
+giveaway_events: [{"_id":"688b85316ab52e0bd856c2a9","id":"913af1ed18e24007ab5fd2bc2092c175","namespace":"9f981e2c861e4a8fbd0eab89541ac8e6","startDate":"2025-08-07T15:00:00.000Z","endDate":"2025-08-14T15:00:00.000Z","title":"112 Operator","__v":0}]
 free_games_aliases: []
 
 # Images

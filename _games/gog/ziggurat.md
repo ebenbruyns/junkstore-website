@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "663 MB"
 franchise_siblings: [{"rawg_id":685039,"slug":"ziggurat-2","name":"Ziggurat 2"}]
 franchise_slug: "ziggurat|ziggurat-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/ziggurat"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

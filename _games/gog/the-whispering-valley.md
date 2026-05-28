@@ -36,7 +36,7 @@ tags_structured: [{"id":"2","name":"Single-player"},{"id":"62","name":"Family Sh
 size: "5146 MB"
 franchise_siblings: [{"rawg_id":970107,"slug":"the-whisperer-le-murmureur","name":"The Whisperer  (Le murmureur)"}]
 franchise_slug: "the-whisperer-le-murmureur|the-whispering-valley"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-whispering-valley"
 was_free_before: true
 giveaway_events: [{"id":"gp_3597","start":"2026-04-22T14:18:12.000Z","end":"2026-04-28T11:59:00.000Z","type":null}]
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "2 hrs"
 hltb_main_extra: "2.5 hrs"
-hltb_completionist: "3 hrs"
+hltb_completionist: "2.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/127874"
 
 # Links

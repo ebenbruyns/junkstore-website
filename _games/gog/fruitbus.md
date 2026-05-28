@@ -36,7 +36,7 @@ tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Ach
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/fruitbus"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -82,7 +82,7 @@ hltb_url: "https://howlongtobeat.com/game/131910"
 store_url: "https://www.gog.com/en/game/fruitbus"
 protondb_url: "https://www.protondb.com/app/2484130"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Special:Search?search=2484130"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fruitbus"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/fruitbus/"
 

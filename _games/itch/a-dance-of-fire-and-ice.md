@@ -3,12 +3,12 @@ layout: game-page
 title: "A Dance of Fire and Ice - Steam Deck Compatibility"
 game_title: "A Dance of Fire and Ice"
 slug: "a-dance-of-fire-and-ice"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/a-dance-of-fire-and-ice/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Indie, Arcade, Music
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "October 4, 2014"
-game_modes: ["Single-player"]
+release_date: "January 24, 2019"
+game_modes: ["Single player"]
 languages: ["English","Spanish - Spain","Korean","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Japanese","Spanish - Latin America","Polish","Romanian","Russian","Vietnamese","Czech","French","German"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/a-dance-of-fire-and-ice"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

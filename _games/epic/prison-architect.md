@@ -28,7 +28,7 @@ genre: Simulation, Strategy
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Partial Nudity, Sexual Content, Strong Language"},"pegi":{"rating":"16","descriptors":"Moderate Violence, Sexual Nudity, Strong Language"},"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Linguagem imprópria, Nudez, Drogas ilícitas"}}
-release_date: "December 9, 2021"
+release_date: "October 6, 2015"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Spain","Dutch","Japanese","Swedish","Traditional Chinese","Turkish"]
 languages_audio: []
@@ -36,9 +36,9 @@ tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1123","name"
 size: "527 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/prison-architect"
 was_free_before: true
-giveaway_events: [{"start":"2021-12-08T15:00:00.000Z","end":"2021-12-15T15:00:00.000Z","type":null,"id":"cf42bfef8bdc4a3b9db9ae500c9bfe06"}]
+giveaway_events: [{"_id":"66abf1e23631f27c961ebf0f","id":"cf42bfef8bdc4a3b9db9ae500c9bfe06","namespace":"3ffb410dab2d409aacd39a1abc6fcbba","startDate":"2021-12-08T15:00:00.000Z","endDate":"2021-12-15T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

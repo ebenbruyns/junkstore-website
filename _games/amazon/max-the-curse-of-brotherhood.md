@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/max-the-curse-of-brotherhood/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Adventure, Platform, Puzzle
 franchise: 
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasty Violence, Mild Language"},"pegi":{"rating":"12","descriptors":"Bad Language, Violence"},"usk":{"rating":"6"},"cero":{"rating":"B"},"oflc":{"rating":"PG","descriptors":"Mild Violence"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"A","descriptors":"PG"},"csrr":{"rating":"C12","descriptors":"Violence and Inappropriate Language"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "December 20, 2013"
-game_modes: ["Single-player"]
+release_date: "May 21, 2014"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"115","name":"Controller"},{"id":"82","name":"Magic"},{"id":"406","name":"Story"},{"id":"1867","name":"puzzles"},{"id":"624","name":"Monsters"},{"id":"2590","name":"fun"},{"id":"3068","name":"future"},{"id":"982","name":"run"},{"id":"8604","name":"kid"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/max-the-curse-of-brotherhood"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/0ec264971e7d788995e6a80ea04dedba9ccd3a8f12b0f05efcd3fb8640fc5031.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/7179480a0968154bb5f2aa2a0b5be3d593a848412fccf8b4e276dd221d5e30b2.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/255390/header.jpg"
 
 # Technical Details
 controller_input: "native"

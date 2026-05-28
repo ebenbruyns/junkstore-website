@@ -28,15 +28,15 @@ genre: Strategy, Simulator
 franchise: 
 age_rating_summary: E (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Animated Blood, Violence"},"pegi":{"rating":"12"},"kgrb":{"rating":"ALL"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "September 14, 2004"
+release_date: "October 25, 2006"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"6","name":"Exploration"},{"id":"193","name":"Classic"},{"id":"40838","name":"Includes level editor"},{"id":"102","name":"Turn-Based"},{"id":"5","name":"Replay Value"},{"id":"89","name":"Historical"},{"id":"101","name":"Turn-Based Strategy"},{"id":"81","name":"Military"},{"id":"100","name":"Grand Strategy"},{"id":"212","name":"4X"}]
-size: "1418962466"
+size: "1300 MB"
 franchise_siblings: [{"rawg_id":983201,"slug":"sid-meiers-civilization-vii","name":"Sid Meier’s Civilization VII"},{"rawg_id":10297,"slug":"civilization-vi","name":"Sid Meier’s Civilization VI"},{"rawg_id":13633,"slug":"civilization-v","name":"Sid Meier's Civilization V"},{"rawg_id":13780,"slug":"sid-meiers-civilization-iv","name":"Sid Meier's Civilization IV"},{"rawg_id":32060,"slug":"sid-meiers-civilization-2","name":"Sid Meier's Civilization 2"},{"rawg_id":32062,"slug":"sid-meiers-civilization","name":"Sid Meier's Civilization"}]
 franchise_slug: "civilization-v|civilization-vi|sid-meiers-civilization|sid-meiers-civilization-2|sid-meiers-civilization-iii-co|sid-meiers-civilization-iv|sid-meiers-civilization-vii"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sid-meiers-civilization-iv-gold-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/dd06cc7ab1cb3fb3e0ac1da277eed322af404818017e1079b99a5c6c381719b2.jpg?namespace=gamesdb.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/5266db8afcf7c4afb0d555209bcf13820e66128ed85633118219e767305b1cbd.jpg?namespace=gamesdb.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/3910/header.jpg"
 
 # Technical Details
 controller_input: "mouse-only"

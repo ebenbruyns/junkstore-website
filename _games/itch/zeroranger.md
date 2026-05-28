@@ -3,12 +3,12 @@ layout: game-page
 title: "ZeroRanger - Steam Deck Compatibility"
 game_title: "ZeroRanger"
 slug: "zeroranger"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/zeroranger/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "September 28, 2018"
-game_modes: ["Single-player","Co-op"]
+game_modes: ["Single player","Co-operative"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"},{"id":"75","name":"Local Co-Op"},{"id":"56","name":"Shoot 'Em Up"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/zeroranger"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

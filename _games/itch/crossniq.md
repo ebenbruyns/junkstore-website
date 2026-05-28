@@ -3,12 +3,12 @@ layout: game-page
 title: "Crossniq - Steam Deck Compatibility"
 game_title: "Crossniq"
 slug: "crossniq"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/crossniq/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Indie, Puzzle, Arcade
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Violent References, Alcohol Reference, Users Interact"},"pegi":{"rating":"3","descriptors":"Users Interact"},"usk":{"rating":"6","descriptors":"Abstract Violence, Users Interact"},"oflc":{"rating":"PG","descriptors":"Mild Themes, Online Interactivity, Users Interact"}}
-release_date: "November 21, 2017"
-game_modes: ["Single-player"]
+release_date: "October 3, 2019"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: []
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/crossniq-plus"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

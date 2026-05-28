@@ -32,11 +32,11 @@ release_date: "August 23, 2016"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "35528 MB"
 franchise_siblings: [{"rawg_id":74114,"slug":"deus-ex-go","name":"Deus Ex GO"},{"rawg_id":441,"slug":"deus-ex-the-fall","name":"Deus Ex: The Fall"},{"rawg_id":4440,"slug":"deus-ex-human-revolution","name":"Deus Ex: Human Revolution"},{"rawg_id":22859,"slug":"deus-ex-2-invisible-war","name":"Deus Ex 2: Invisible War"},{"rawg_id":30243,"slug":"deus-ex","name":"Deus Ex"}]
 franchise_slug: "deus-ex|deus-ex-2-invisible-war|deus-ex-go|deus-ex-human-revolution|deus-ex-mankind-divided|deus-ex-the-fall"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/deus-ex-mankind-divided"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "15.5 hrs"
 hltb_main_extra: "31 hrs"
-hltb_completionist: "52.5 hrs"
+hltb_completionist: "30 Hours"
 hltb_url: "https://howlongtobeat.com/game/25434"
 
 # Links

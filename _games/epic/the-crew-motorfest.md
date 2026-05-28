@@ -26,17 +26,17 @@ publisher: Ubisoft
 developer: Ubisoft Ivory Tower
 genre: Action, Racing
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"6"}}
-release_date: "July 4, 2024"
-game_modes: ["Single-player","Co-op","Multi-player"]
+release_date: "April 18, 2024"
+game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Simplified Chinese","Traditional Chinese","Korean","Japanese","Polish","Portuguese - Brazil","Russian"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: [{"rawg_id":29238,"slug":"the-crew-2","name":"The Crew 2"},{"rawg_id":3489,"slug":"the-crew","name":"The Crew"}]
 franchise_slug: "the-crew|the-crew-2|the-crew-motorfest"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-crew-motorfest"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

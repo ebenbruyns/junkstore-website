@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "13148 MB"
 franchise_siblings: [{"rawg_id":277931,"slug":"succubus","name":"SUCCUBUS"}]
 franchise_slug: "agony|succubus"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/agony--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -82,7 +82,7 @@ hltb_url: "https://howlongtobeat.com/game/56879"
 store_url: "https://www.gog.com/en/game/agony"
 protondb_url: "https://www.protondb.com/app/487720"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Agony"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Agony_Unrated"
 metacritic_score: 47
 metacritic_url: "https://www.metacritic.com/game/agony/"
 

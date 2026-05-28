@@ -28,7 +28,7 @@ genre: "Adventure, Hack and slash/Beat 'em up"
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence"},"pegi":{"rating":"16"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Medium level animated violence"}}
-release_date: "November 11, 2003"
+release_date: "December 6, 2012"
 game_modes: ["Single-player"]
 languages: ["German","English","French"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospher
 size: "1420 MB"
 franchise_siblings: [{"rawg_id":1015975,"slug":"legacy-of-kain-ascendance","name":"Legacy of Kain: Ascendance"},{"rawg_id":1015978,"slug":"legacy-of-kain-defiance-remastered","name":"Legacy of Kain: Defiance Remastered"},{"rawg_id":989747,"slug":"legacy-of-kain-soul-reaver-12-remastered","name":"Legacy of Kain Soul Reaver 1&2 Remastered"},{"rawg_id":22870,"slug":"legacy-of-kain-blood-omen-2","name":"Legacy of Kain: Blood Omen 2"},{"rawg_id":10119,"slug":"legacy-of-kain-soul-reaver-2","name":"Legacy of Kain: Soul Reaver 2"},{"rawg_id":5158,"slug":"legacy-of-kain-soul-reaver","name":"Legacy of Kain: Soul Reaver"},{"rawg_id":5340,"slug":"blood-omen-legacy-of-kain","name":"Blood Omen: Legacy of Kain"},{"rawg_id":42391,"slug":"nosgoth","name":"Nosgoth"}]
 franchise_slug: "blood-omen-legacy-of-kain|legacy-of-kain-ascendance|legacy-of-kain-blood-omen-2|legacy-of-kain-defiance|legacy-of-kain-defiance-remast|legacy-of-kain-soul-reaver|legacy-of-kain-soul-reaver-12-|legacy-of-kain-soul-reaver-2|nosgoth"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/legacy-of-kain-defiance"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -26,9 +26,9 @@ publisher: Amanita Design
 developer: Amanita Design
 genre: Puzzle, Adventure, Indie
 franchise: Samorost
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "January 23, 2025"
+release_date: "March 24, 2016"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Portuguese - Brazil","Bulgarian","Danish","Finnish","Dutch","Japanese","Korean","Hungarian","Norwegian","Polish","Portuguese - Portugal","Romanian","Russian","Thai","Traditional Chinese","Turkish","Ukrainian","Simplified Chinese","Czech","Greek","Swedish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Portuguese - Brazil","Bulgarian","Danish","Finnish","Dutch","Japanese","Korean","Hungarian","Norwegian","Polish","Portuguese - Portugal","Romanian","Russian","Thai","Traditional Chinese","Turkish","Ukrainian","Simplified Chinese","Czech","Greek","Swedish"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Save
 size: "957 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/samorost-3"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

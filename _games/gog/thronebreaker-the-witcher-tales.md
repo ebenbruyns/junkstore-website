@@ -28,7 +28,7 @@ genre: Role-playing (RPG)
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Language, Crude Humor"},"pegi":{"rating":"12","descriptors":"Violence, Horror, Bad Language"},"oflc":{"rating":"PG","descriptors":"Mild themes, Violence and coarse language, Online interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild themes, Violence and coarse language, Online interactivity"},"kgrb":{"rating":"12","descriptors":"Mild Sexual Content, Mild Violence, Mild use of substances"},"csrr":{"rating":"C15","descriptors":"Violence, Tobacco and Alcohol, Improper Language"},"dejus":{"rating":"12","descriptors":"Violencia"}}
-release_date: "October 23, 2018"
+release_date: "November 9, 2018"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Spanish - Latin America","Simplified Chinese","Traditional Chinese"]

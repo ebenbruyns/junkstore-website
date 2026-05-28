@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/baldurs-gate-enhanced-edition/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "yellow"
 date_tested: "July '25"
 proton_version: ""
@@ -28,8 +28,8 @@ genre: Role-playing (RPG), Strategy
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Animated Blood, Mild Language, Use of Alcohol and Tobacco"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"bbfc":{"rating":"12"},"oflc":{"rating":"PG"},"nzoflc":{"rating":"PG"},"dejus":{"rating":"12"}}
-release_date: "November 27, 2012"
-game_modes: ["Single-player","Co-op","Multi-player"]
+release_date: "January 16, 2013"
+game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","German","French","Spanish - Spain","Polish","Czech","Italian","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Turkish","Russian","Ukrainian","Hungarian"]
 languages_audio: ["English","German","French","Polish","Russian","Ukrainian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"121","name":"Character Customization"},{"id":"40833","name":"Captions available"},{"id":"99","name":"Isometric"},{"id":"82","name":"Magic"},{"id":"271","name":"Remake"},{"id":"194","name":"Real-Time with Pause"},{"id":"60","name":"Touch-Friendly"},{"id":"238","name":"CRPG"},{"id":"206","name":"Party-Based RPG"},{"id":"574","name":"Dungeons & Dragons"}]
@@ -37,7 +37,7 @@ size: "3335693569
 "
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/baldur-s-gate-enhanced-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -45,7 +45,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/13cc27fddc2e0d72b1d46da3e8620762a5a062e494a2282cc1d35d63a8a90ab4.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/58f8d797948813511a6b58fe6cdb7f96d7074a764c3596d4284e52ecdb2442e7.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/228280/header.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"

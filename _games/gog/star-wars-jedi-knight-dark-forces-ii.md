@@ -28,15 +28,15 @@ genre: Shooter
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Animated Violence"},"pegi":{"rating":"12","descriptors":"Non realistic looking violence towards human characters"},"oflc":{"rating":"M","descriptors":"Medium level animated violence"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "September 30, 1997"
-game_modes: ["Single-player","Multi-player"]
+release_date: "September 16, 2009"
+game_modes: ["Single player","Multiplayer"]
 languages: ["English","Spanish","French","Italian"]
 languages_audio: ["English","French","Italian","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"8","name":"First-Person"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"40845","name":"Partial Controller Support"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"72","name":"Local Multiplayer"},{"id":"74","name":"Retro"},{"id":"25","name":"Space"},{"id":"318","name":"Star Wars"},{"id":"290","name":"FMV"}]
 size: "716 MB"
 franchise_siblings: [{"rawg_id":11970,"slug":"star-wars-jedi-knight-jedi-academy","name":"Star Wars Jedi Knight: Jedi Academy"},{"rawg_id":12018,"slug":"star-wars-jedi-knight-ii-jedi-outcast","name":"Star Wars Jedi Knight II: Jedi Outcast"},{"rawg_id":15852,"slug":"star-wars-jedi-knight-mysteries-of-the-sith","name":"STAR WARS Jedi Knight - Mysteries of the Sith"},{"rawg_id":15851,"slug":"star-wars-dark-forces-2","name":"Star Wars: Dark Forces"}]
 franchise_slug: "star-wars-dark-forces-2|star-wars-jedi-knight-dark-for|star-wars-jedi-knight-ii-jedi-|star-wars-jedi-knight-jedi-aca|star-wars-jedi-knight-mysterie"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/star-wars-jedi-knight-dark-forces-ii"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "9 hrs"
 hltb_main_extra: "10 hrs"
-hltb_completionist: "12 hrs"
+hltb_completionist: "9.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/9086"
 
 # Links

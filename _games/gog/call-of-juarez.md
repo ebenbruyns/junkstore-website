@@ -28,7 +28,7 @@ genre: Shooter
 franchise: 
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Language, Sexual Themes"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Drogas lícitas"}}
-release_date: "September 5, 2006"
+release_date: "November 8, 2007"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Polish","Russian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplaye
 size: "2721 MB"
 franchise_siblings: [{"rawg_id":4013,"slug":"call-of-juarez-gunslinger","name":"Call of Juarez: Gunslinger"},{"rawg_id":19524,"slug":"call-of-juarez-the-cartel","name":"Call of Juarez: The Cartel"},{"rawg_id":4521,"slug":"call-of-juarez-2","name":"Call of Juarez: Bound in Blood"}]
 franchise_slug: "call-of-juarez|call-of-juarez-2|call-of-juarez-gunslinger|call-of-juarez-the-cartel"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/call-of-juarez"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

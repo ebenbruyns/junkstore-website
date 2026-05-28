@@ -26,19 +26,19 @@ publisher: Armor Games Studios
 developer: Gummy Cat
 genre: Casual, Simulation, Adventure
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
-release_date: "September 15, 2022"
-game_modes: ["Single-player"]
+release_date: "July 28, 2022"
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Japanese","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "921 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/bear-and-breakfast"
 was_free_before: true
-giveaway_events: [{"start":"2024-10-03T15:00:00.000Z","end":"2024-10-10T15:00:00.000Z","type":null,"id":"5a05b93354d74d2687b3b002d4bfc1a3"}]
+giveaway_events: [{"_id":"66f56c0fe4fd9b98c59797a1","id":"5a05b93354d74d2687b3b002d4bfc1a3","namespace":"6c3a09646a954c04b5ab774e5b8c861d","startDate":"2024-10-03T15:00:00.000Z","endDate":"2024-10-10T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/figment-2-creed-valley/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
@@ -26,17 +26,17 @@ publisher: Bedtime Digital Games
 developer: Bedtime Digital Games
 genre: Adventure, Indie, Puzzle, Music
 franchise: Figment
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: Everyone 10+ (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Linguagem imprópria"}}
 release_date: "March 9, 2023"
-game_modes: ["Single-player","Co-op","Multi-player"]
+game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1298","name":"Puzzle"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-size: ""
+size: "725 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/figment-2-creed-valley"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

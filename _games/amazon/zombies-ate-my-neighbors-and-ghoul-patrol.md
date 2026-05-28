@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/zombies-ate-my-neighbors-and-ghoul-patrol/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: e10 (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Violent References"},"pegi":{"rating":"3"},"usk":{"rating":"12","descriptors":"Abstract Violence"},"dejus":{"rating":"L"}}
 release_date: "June 29, 2021"
-game_modes: ["Single-player","Co-op","Multi-player"]
+game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"4","name":"Funny"},{"id":"193","name":"Classic"},{"id":"74","name":"Retro"},{"id":"63","name":"Zombies"},{"id":"136","name":"Music"},{"id":"243","name":"1990's"},{"id":"334","name":"achievements"},{"id":"284","name":"Cult Classic"},{"id":"2030","name":"city"},{"id":"3109","name":"weapons"},{"id":"997","name":"island"},{"id":"1221","name":"history"},{"id":"1652","name":"night"},{"id":"263","name":"Mars"},{"id":"1753","name":"guns"},{"id":"3626","name":"treasure"},{"id":"663","name":"Ghosts"},{"id":"620","name":"Spooky"},{"id":"1325","name":"kids"},{"id":"1171","name":"block"},{"id":"1310","name":"machine"},{"id":"1627","name":"museum"},{"id":"720","name":"shopping"},{"id":"1892","name":"ants"}]

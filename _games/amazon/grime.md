@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/grime/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (USK)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Animated Blood"},"usk":{"rating":"16","descriptors":"Violence, Scary Content, Sexual Innuendo"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "August 2, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Korean","Portuguese - Brazil","Russian","Hebrew"]
 languages_audio: []
-tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]
 size: ""
 franchise_siblings: [{"rawg_id":965928,"slug":"grime-ii","name":"Grime II"}]
 franchise_slug: "grime|grime-ii"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/grime"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

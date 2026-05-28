@@ -28,15 +28,15 @@ genre: Adventure, Shooter
 franchise: 
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Strong Language, Suggestive Themes, Violence"},"oflc":{"descriptors":"%oflcDescriptors%"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Atos criminosos"}}
-release_date: "June 30, 2009"
+release_date: "July 2, 2009"
 game_modes: ["Multi-player","Single-player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"89","name":"Historical"},{"id":"152","name":"Western"},{"id":"308","name":"Bullet Time"}]
 size: "3761 MB"
-franchise_siblings: []
-franchise_slug: ""
-igdb_url: ""
+franchise_siblings: [{"rawg_id":4013,"slug":"call-of-juarez-gunslinger","name":"Call of Juarez: Gunslinger"},{"rawg_id":19524,"slug":"call-of-juarez-the-cartel","name":"Call of Juarez: The Cartel"},{"rawg_id":19572,"slug":"call-of-juarez","name":"Call of Juarez"}]
+franchise_slug: "call-of-juarez|call-of-juarez-2|call-of-juarez-gunslinger|call-of-juarez-the-cartel"
+igdb_url: "https://www.igdb.com/games/call-of-juarez-bound-in-blood"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "8 hrs"
-hltb_completionist: "12.5 hrs"
+hltb_completionist: "8 Hours"
 hltb_url: "https://howlongtobeat.com/game/1486"
 
 # Links

@@ -28,15 +28,15 @@ genre: Shooter
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Violence, Online Interactivity"},"nzoflc":{"rating":"M","descriptors":"Violence, Online Interactivity"},"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "March 24, 2020"
-game_modes: ["Co-op","Multi-player"]
+release_date: "May 8, 2018"
+game_modes: ["Co-operative","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Turkish","Portuguese - Brazil","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21125","name":"Competitive Community"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/paladins"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

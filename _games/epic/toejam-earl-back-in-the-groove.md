@@ -28,7 +28,7 @@ genre: Casual
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Crude Humor, Mild Cartoon Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "October 13, 2022"
+release_date: "February 28, 2019"
 game_modes: ["Co-op"]
 languages: ["English","French","Italian","German","Portuguese - Brazil","Spanish - Latin America","Japanese","Spanish - Spain"]
 languages_audio: ["English"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"i
 size: ""
 franchise_siblings: [{"rawg_id":335764,"slug":"svc-toejam-earl","name":"Sega Vintage Collection: ToeJam & Earl"},{"rawg_id":353374,"slug":"toejam-earl-iii-mission-to-earth","name":"ToeJam & Earl III: Mission to Earth"},{"rawg_id":447802,"slug":"toejam-earl-2-panic-on-funkotron","name":"Toejam & Earl in Panic on Funkotron"},{"rawg_id":4204,"slug":"toejam-earl","name":"ToeJam & Earl"}]
 franchise_slug: "svc-toejam-earl|toejam-earl|toejam-earl-2-panic-on-funkotr|toejam-earl-back-in-the-groove|toejam-earl-iii-mission-to-ear"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/toejam-and-earl-back-in-the-groove"
 was_free_before: true
-giveaway_events: [{"start":"2022-10-12T15:00:00.000Z","end":"2022-10-19T15:00:00.000Z","type":null,"id":"db9725548f40419cac7d1c10f94c0736"}]
+giveaway_events: [{"_id":"66abf1da3631f27c961ebcf2","id":"db9725548f40419cac7d1c10f94c0736","namespace":"bd1047eb76fd4fd490fcb8f668e5deda","startDate":"2022-10-12T15:00:00.000Z","endDate":"2022-10-19T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

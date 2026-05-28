@@ -32,11 +32,11 @@ release_date: "May 28, 2025"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese","Korean","Simplified Chinese","Thai","Traditional Chinese","Hungarian"]
 languages_audio: []
-tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"64","name":"Adjustable Text Size"},{"id":"67","name":"Camera Comfort"},{"id":"68","name":"Custom Volume Controls"},{"id":"78","name":"Adjustable Difficulty"},{"id":"76","name":"Mouse Only Option"},{"id":"74","name":"Playable without Timed Input"},{"id":"69","name":"Stereo Sound"},{"id":"65","name":"Subtitle Options"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"21894","name":"Cloud Saves"},{"id":"1287","name":"Fantasy"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/trash-goblin"
 was_free_before: true
 giveaway_events: [{"_id":"69f36ee8175a0ecbe8ddcbf3","id":"40980262fdb24c149094f3febfe84cb6","namespace":"f14e8d865ad04b93a5df850ce7a59fe2","startDate":"2026-05-07T15:00:00.000Z","endDate":"2026-05-14T15:00:00.000Z","title":"Trash Goblin","__v":0}]
 free_games_aliases: []

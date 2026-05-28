@@ -26,18 +26,18 @@ publisher: Dear Villagers
 developer: Draw Distance
 genre: RPG, Indie
 franchise: Vampire
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Medo"}}
-release_date: "October 23, 2024"
+release_date: "September 10, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French"]
 languages_audio: []
-tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
 size: "611045194
 "
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/vampire-the-masquerade-reckoning-of-new-york"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

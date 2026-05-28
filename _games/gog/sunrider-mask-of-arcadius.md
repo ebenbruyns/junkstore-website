@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Strategy, Indie, Visual Novel
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Nudez, Violência fantasiosa"}}
-release_date: "June 3, 2014"
+release_date: "July 9, 2014"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"42","name":"Great Sou
 size: "1124 MB"
 franchise_siblings: [{"rawg_id":16514,"slug":"sunrider-liberation-day-captains-edition","name":"Sunrider: Liberation Day - Captain's Edition"},{"rawg_id":13218,"slug":"sunrider-academy","name":"Sunrider Academy"},{"rawg_id":331569,"slug":"sunrider-first-arrival","name":"Sunrider: First Arrival"}]
 franchise_slug: "sunrider-academy|sunrider-first-arrival|sunrider-liberation-day-captai|sunrider-mask-of-arcadius"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sunrider-mask-of-arcadius"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -9,7 +9,7 @@ permalink: /games/epic/void-bastards/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Sept '24"
 proton_version: ""
 
@@ -28,17 +28,17 @@ genre: Action, Shooter
 franchise: 
 age_rating_summary: 16 (PEGI) · 16 (USK)
 age_ratings: {"pegi":{"rating":"16"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong Coarse Language, Strong Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Atos criminosos"}}
-release_date: "August 19, 2021"
-game_modes: ["Single-player"]
+release_date: "May 28, 2019"
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/void-bastards"
 was_free_before: true
-giveaway_events: [{"start":"2021-08-18T15:00:00.000Z","end":"2021-08-25T15:00:00.000Z","type":null,"id":"c1bb7eb3554b42f0957cc87363e59e1d"}]
+giveaway_events: [{"_id":"66abf1e53631f27c961ebfda","id":"c1bb7eb3554b42f0957cc87363e59e1d","namespace":"6b753bd045604be89d9779e741c604b1","startDate":"2021-08-18T15:00:00.000Z","endDate":"2021-08-25T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "595e35287b824902a2f7107139603732"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Void Bastards is a revolutionary new strategy-shooter that will test your wits as well as exercise your aim. Can you lead the misfit prisoners of the Void Ark through the derelict spaceships?

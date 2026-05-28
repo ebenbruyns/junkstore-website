@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/minabo-a-walk-through-life/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "April 28, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Portugal","Russian","Simplified Chinese","Catalan","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"1","name":"Survival"},{"id":"11669","name":"stats"},{"id":"121","name":"Character Customization"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"218","name":"Multiple Endings"},{"id":"138","name":"Relaxing"},{"id":"258","name":"Hand-drawn"},{"id":"196","name":"Procedural Generation"},{"id":"164","name":"Cartoony"},{"id":"217","name":"Romance"},{"id":"42473","name":"Immersive Sim"},{"id":"774","name":"nature"},{"id":"309","name":"Dynamic Narration"},{"id":"43374","name":"Remote Play on TV"},{"id":"49960","name":"Life Sim"},{"id":"159","name":"Agriculture"},{"id":"66536","name":"Романтика"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/minabo-a-walk-through-life"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

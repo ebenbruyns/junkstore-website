@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/endling-extinction-is-forever/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Blood"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Mature themes"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "July 19, 2022"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Korean","Japanese","Polish","Portuguese - Brazil","Russian","Turkish","Bulgarian","Traditional Chinese","Danish","Finnish","Greek","Dutch","Norwegian","Portuguese - Portugal","Romanian","Swedish","Thai","Czech","Ukrainian","Hungarian","Vietnamese","Catalan"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"4","name":"Funny"},{"id":"1","name":"Survival"},{"id":"123","name":"Comedy"},{"id":"88","name":"Cute"},{"id":"117","name":"Mystery"},{"id":"145","name":"Choices Matter"},{"id":"571","name":"3D"},{"id":"113","name":"Side Scroller"},{"id":"172","name":"Aliens"},{"id":"91","name":"Walking Simulator"},{"id":"218","name":"Multiple Endings"},{"id":"51","name":"Destruction"},{"id":"200","name":"Narration"},{"id":"205","name":"Lore-Rich"},{"id":"572","name":"Emotional"},{"id":"774","name":"nature"},{"id":"2326","name":"explore"},{"id":"1407","name":"race"},{"id":"1652","name":"night"},{"id":"2184","name":"hunt"},{"id":"1452","name":"philosophical"},{"id":"905","name":"Animals"},{"id":"1715","name":"fox"},{"id":"1015","name":"survive"},{"id":"2201","name":"grow"},{"id":"8007","name":"movement"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/endling-extinction-is-forever"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

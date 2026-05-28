@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/werewolf-the-apocalypse-heart-of-the-forest/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "738 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/werewolf-the-apocalypse-heart-of-the-forest"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

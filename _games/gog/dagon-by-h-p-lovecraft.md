@@ -28,7 +28,7 @@ genre: Adventure, Indie, Visual Novel
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Drogas"}}
-release_date: "August 24, 2021"
+release_date: "September 24, 2021"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Turkish"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1439 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/dagon"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

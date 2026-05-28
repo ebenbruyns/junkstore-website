@@ -26,7 +26,7 @@ publisher: Frictional Games
 developer: Frictional Games
 genre: Horror, Action-Adventure, First Person
 franchise: Amnesia
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo"}}
 release_date: "June 6, 2023"
 game_modes: ["Single-player"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend 
 size: "8.66 GB"
 franchise_siblings: [{"rawg_id":427519,"slug":"amnesia-rebirth","name":"Amnesia: Rebirth"},{"rawg_id":13268,"slug":"amnesia-a-machine-for-pigs","name":"Amnesia: A Machine for Pigs"},{"rawg_id":13668,"slug":"amnesia-the-dark-descent","name":"Amnesia: The Dark Descent"}]
 franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|amnesia-the-dark-descent"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/amnesia-the-bunker"
 was_free_before: true
-giveaway_events: [{"start":"2025-10-16T15:00:00.000Z","end":"2025-10-23T15:00:00.000Z","type":null,"id":"7ae41233a8ad4fd4a2d5a415abd77d24"}]
+giveaway_events: [{"_id":"68e7c2b2354b382c07301083","id":"7ae41233a8ad4fd4a2d5a415abd77d24","namespace":"8c73bcc38bd4440f945d81ac7774b418","startDate":"2025-10-16T15:00:00.000Z","endDate":"2025-10-23T15:00:00.000Z","title":"Amnesia: The Bunker","__v":0}]
 free_games_aliases: []
 
 # Images

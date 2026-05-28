@@ -28,7 +28,7 @@ genre: "Role-playing (RPG), Adventure, Indie, Platform, Hack and slash/Beat 'em 
 franchise: 
 age_rating_summary: 
 age_ratings: {}
-release_date: "May 6, 2014"
+release_date: "May 13, 2014"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["English"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "518 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/ascendant"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/4b76553845c101c50bcea50941073af31d979b57055830fcb67003f63168b6d7.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/faaa39ce7bcf3d3d6ec8df1cddfb88cc8f89c65804fdc41f9a9d1deca3a7243f.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/296930/header.jpg"
 
 # Technical Details
 controller_input: "native"

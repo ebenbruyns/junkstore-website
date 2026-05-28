@@ -26,17 +26,17 @@ publisher: Ultimate Games
 developer: Asmodev
 genre: Shooter, Open World, Comedy
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "September 26, 2024"
-game_modes: ["Single-player"]
+release_date: "December 5, 2024"
+game_modes: ["Single player"]
 languages: ["English","Polish"]
 languages_audio: ["English","Polish"]
 tags_structured: [{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1116","name":"Comedy"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/priest-simulator-vampire-show"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

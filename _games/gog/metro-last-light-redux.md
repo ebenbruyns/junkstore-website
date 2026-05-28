@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Role-playing (RPG)
 franchise: 
 age_rating_summary: 18 (PEGI) · 18 (USK)
 age_ratings: {"pegi":{"rating":"18"},"usk":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Violência, Temas sensíveis, Drogas ilícitas"}}
-release_date: "August 26, 2014"
+release_date: "August 27, 2014"
 game_modes: ["Single-player"]
 languages: ["Czech","German","English","Spanish","French","Italian","Dutch","Polish","Russian","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Play
 size: "8695 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/metro-last-light-redux"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

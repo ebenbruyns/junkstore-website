@@ -28,7 +28,7 @@ genre: Adventure, Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Nudity, Sexual Content, Strong Language, Use of Drugs, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, in-game purchases"},"usk":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"r16","descriptors":"Violence &amp; Offensive Language"},"fpb":{"rating":"18"}}
-release_date: "September 25, 2020"
+release_date: "September 24, 2020"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","Czech","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Polish","Portuguese","Russian","Chinese Traditional"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Czech","Russian"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "35320 MB"
 franchise_siblings: [{"rawg_id":987515,"slug":"mafia-the-old-country","name":"Mafia: The Old Country"},{"rawg_id":445430,"slug":"mafia-iii-definitive-edition","name":"Mafia III: Definitive Edition"},{"rawg_id":442855,"slug":"mafia-ii-definitive-edition","name":"Mafia II: Definitive Edition"},{"rawg_id":1169,"slug":"mafia-iii","name":"Mafia III"},{"rawg_id":1416,"slug":"mafia-ii","name":"Mafia II"},{"rawg_id":30899,"slug":"mafia-the-city-of-lost-heaven","name":"Mafia: The City of Lost Heaven"}]
 franchise_slug: "mafia|mafia-ii|mafia-ii-definitive-edition|mafia-iii|mafia-iii-definitive-edition|mafia-the-city-of-lost-heaven|mafia-the-old-country"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/mafia-definitive-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

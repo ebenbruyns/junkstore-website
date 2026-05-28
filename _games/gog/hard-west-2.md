@@ -34,9 +34,9 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"16","name":"Horror"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"40","name":"Dark Fantasy"},{"id":"1465","name":"combat"},{"id":"99","name":"Isometric"},{"id":"101","name":"Turn-Based Strategy"},{"id":"61","name":"Top-Down"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"187","name":"Demons"},{"id":"279","name":"Supernatural"},{"id":"152","name":"Western"},{"id":"230","name":"Tactical RPG"},{"id":"298","name":"Grid-Based Movement"}]
 size: "21340 MB"
-franchise_siblings: []
-franchise_slug: ""
-igdb_url: ""
+franchise_siblings: [{"rawg_id":12893,"slug":"hard-west","name":"Hard West"}]
+franchise_slug: "hard-west|hard-west-2"
+igdb_url: "https://www.igdb.com/games/hard-west-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -26,10 +26,10 @@ publisher: Netmarble Monster
 developer: Netmarble Monster
 genre: Casual, Simulation, Retro
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {}
 release_date: "April 2, 2026"
-game_modes: ["Single-player"]
+game_modes: ["Single Player"]
 languages: ["Korean","English","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"33639","name":"Promotional Content"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1198","name":"Retro"}]
@@ -38,7 +38,7 @@ franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
 was_free_before: true
-giveaway_events: [{"start":"2026-04-02T00:00:00.000Z","end":"2026-04-16T15:00:00.000Z","type":null,"id":"9f67865fcf0749a58f4d35827473266f"}]
+giveaway_events: [{"_id":"69cdb1812d378580942c07e6","id":"9f67865fcf0749a58f4d35827473266f","namespace":"7de6896ed120435fba9433d2732dadb4","startDate":"2026-04-02T00:00:00.000Z","endDate":"2026-04-16T15:00:00.000Z","title":"TOMAK: Save the Earth Regeneration","__v":0}]
 free_games_aliases: []
 
 # Images

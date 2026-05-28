@@ -9,7 +9,7 @@ permalink: /games/epic/tchia/
 
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Sept '24"
 proton_version: ""
 
@@ -26,17 +26,17 @@ publisher: Kepler Interactive
 developer: Awaceb
 genre: Exploration, Open World, Adventure
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "March 21, 2023"
-game_modes: ["Single-player"]
+release_date: "March 21, 2024"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"}]
+tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/tchia--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1496590"
 is_featured: false
-owned: true
+owned: false
 ---
 
 A Tropical Open-World adventure. Climb, glide, swim, and sail your boat around a beautiful archipelago in this physics-driven sandbox. Take control of any animal or object you can find, and Jam on your fully playable Ukulele. A game inspired by New Caledonia.

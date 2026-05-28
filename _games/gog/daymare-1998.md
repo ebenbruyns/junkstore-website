@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "22025 MB"
 franchise_siblings: [{"rawg_id":608552,"slug":"daymare-1994-sandcastle","name":"Daymare 1994: Sandcastle"}]
 franchise_slug: "daymare-1994-sandcastle|daymare-1998"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/daymare-1998"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: "10.5 hrs"
-hltb_completionist: "14.5 hrs"
+hltb_completionist: "10.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/70786"
 
 # Links

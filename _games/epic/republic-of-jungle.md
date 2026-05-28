@@ -26,17 +26,17 @@ publisher: Gerdoo Games
 developer: Gerdoo Games
 genre: Party, Indie
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "January 21, 2025"
-game_modes: ["Local Multi-player","Co-op"]
+release_date: "November 23, 2025"
+game_modes: ["Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1299","name":"Competitive"},{"id":"1110","name":"Party"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/republic-of-jungle"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

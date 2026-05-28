@@ -32,13 +32,13 @@ release_date: "November 16, 2023"
 game_modes: ["Single-player"]
 languages: ["English","Italian","French","Japanese","Simplified Chinese","Spanish - Spain","Korean","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: "710 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/universe-for-sale"
 was_free_before: true
-giveaway_events: [{"start":"2025-11-27T16:00:00.000Z","end":"2025-12-04T16:00:00.000Z","type":null,"id":"b2b995e52f7a413099e2b1421b9fb2d8"}]
+giveaway_events: [{"_id":"6927517a06036f0f824f9d55","id":"b2b995e52f7a413099e2b1421b9fb2d8","namespace":"60525048f11c46b88bb6d7492ce7b67d","startDate":"2025-11-27T16:00:00.000Z","endDate":"2025-12-04T16:00:00.000Z","title":"Universe for Sale","__v":0}]
 free_games_aliases: []
 
 # Images

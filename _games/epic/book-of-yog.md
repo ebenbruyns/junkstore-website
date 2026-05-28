@@ -26,9 +26,9 @@ publisher: YuanQi Studio
 developer: YuanQi Studio
 genre: Action, RPG
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "May 22, 2023"
+release_date: "July 29, 2022"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Ch
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/128478"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -9,7 +9,7 @@ permalink: /games/gog/still-life-2/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,15 +28,15 @@ genre: Adventure, Puzzle, Point-and-click
 franchise: 
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Partial Nudity, Strong Language, Violence"},"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "March 1, 2009"
-game_modes: ["Single-player"]
+release_date: "June 1, 2011"
+game_modes: ["Single player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"144","name":"Crime"},{"id":"142","name":"Detective"}]
 size: "3730 MB"
 franchise_siblings: [{"rawg_id":16437,"slug":"still-life","name":"Still Life"}]
 franchise_slug: "still-life|still-life-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/still-life-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "10 hrs"
 hltb_main_extra: "10.5 hrs"
-hltb_completionist: "13.5 hrs"
+hltb_completionist: "11 Hours"
 hltb_url: "https://howlongtobeat.com/game/9212"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1207659007"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Who is hiding behind Mr. X? Still Life 2 reveals the long-awaited ending of Still Life and spells a new investigation for Agent Victoria McPherson.

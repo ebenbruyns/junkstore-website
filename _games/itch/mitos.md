@@ -3,12 +3,12 @@ layout: game-page
 title: "Mitos - Steam Deck Compatibility"
 game_title: "Mitos"
 slug: "mitos"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/mitos/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "December 31, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"122","name":"Pixel Graphics"},{"id":"88","name":"Cute"},{"id":"668","name":"creepy"},{"id":"706","name":"gamepad"},{"id":"1150","name":"godot"},{"id":"1872","name":"godot-engine"},{"id":"30109","name":"microbe"}]

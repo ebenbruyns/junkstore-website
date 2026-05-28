@@ -36,9 +36,9 @@ tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name"
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/266382"
 was_free_before: true
-giveaway_events: [{"start":"2024-09-05T15:00:00.000Z","end":"2024-09-12T15:00:00.000Z","type":null,"id":"d0ec3758eb4b4224a2037cd438d51cc1"}]
+giveaway_events: [{"_id":"66d082657b67b48c6846f75d","id":"d0ec3758eb4b4224a2037cd438d51cc1","namespace":"610a546d4e204215a0b9a1c8a382bacb","startDate":"2024-09-05T15:00:00.000Z","endDate":"2024-09-12T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

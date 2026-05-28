@@ -26,19 +26,19 @@ publisher: Headup
 developer: Aerial_Knight
 genre: Action, Indie
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "May 19, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","Japanese","French","German","Korean","Simplified Chinese","Traditional Chinese","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/aerial-knights-never-yield"
 was_free_before: true
-giveaway_events: [{"start":"2024-02-28T15:00:00.000Z","end":"2024-03-06T15:00:00.000Z","type":null,"id":"2fecb1793ce446408cd869611400a797"}]
+giveaway_events: [{"_id":"66abf1cc3631f27c961eb90b","id":"2fecb1793ce446408cd869611400a797","namespace":"2ed7ed64d8604265924b85bbd5670220","startDate":"2024-02-28T15:00:00.000Z","endDate":"2024-03-06T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

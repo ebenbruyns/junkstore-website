@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/the-collage-atlas/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Adventure, Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "October 16, 2020"
-game_modes: ["Single-player"]
+release_date: "April 19, 2024"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Dutch","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"8","name":"First-Person"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"111","name":"Short"},{"id":"571","name":"3D"},{"id":"91","name":"Walking Simulator"},{"id":"138","name":"Relaxing"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"91686","name":"Family Sharing"},{"id":"1452","name":"philosophical"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-collage-atlas"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/5ac8c58d9c54a960b36c1d609f329df67bdb9eb7b5ae3d787007aa30e6ea0b04.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/40f27c1a4b9b4041dddc1ac245aeb1e648070c62054ef91f2c9bab4c0a885adf.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2581960/header.jpg"
 
 # Technical Details
 controller_input: "native"

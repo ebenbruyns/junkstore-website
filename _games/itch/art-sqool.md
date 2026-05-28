@@ -3,12 +3,12 @@ layout: game-page
 title: "Art Sqool - Steam Deck Compatibility"
 game_title: "Art Sqool"
 slug: "art-sqool"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/art-sqool/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -28,8 +28,8 @@ genre: Adventure, Indie, Platform, Simulator
 franchise: 
 age_rating_summary: 
 age_ratings: {}
-release_date: "February 5, 2019"
-game_modes: ["Single-player"]
+release_date: "February 4, 2019"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40845","name":"Partial Controller Support"}]

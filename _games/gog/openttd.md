@@ -28,7 +28,7 @@ genre: Strategy, Indie, Simulator
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6"}}
-release_date: "March 14, 2004"
+release_date: "April 1, 2021"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["Arabic","Belarusian","Bulgarian","Portuguese (brazilian)","Catalan","Chinese Simplified","Czech","Danish","German","English","Spanish","Latin American Spanish","Estonian","Finnish","French","Greek","Hebrew","Hungarian","Icelandic","Italian","Japanese","Korean","Dutch","Norwegian","Polish","Portuguese","Romanian","Russian","Serbian","Slovak","Swedish","Thai","Turkish","Ukrainian","Chinese Traditional"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplaye
 size: "31 MB"
 franchise_siblings: [{"rawg_id":31231,"slug":"transport-tycoon-deluxe","name":"Transport Tycoon Deluxe"}]
 franchise_slug: "openttd|transport-tycoon-deluxe"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/openttd"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "15.5 hrs"
 hltb_main_extra: "37.5 hrs"
-hltb_completionist: "84 hrs"
+hltb_completionist: "28 Hours"
 hltb_url: "https://howlongtobeat.com/game/6775"
 
 # Links

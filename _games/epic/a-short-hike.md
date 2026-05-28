@@ -9,7 +9,7 @@ permalink: /games/epic/a-short-hike/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Sept '24"
 proton_version: ""
 
@@ -28,17 +28,17 @@ genre: Casual, Platformer, Indie
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"cero":{"rating":"A"},"dejus":{"rating":"L"}}
-release_date: "March 4, 2020"
-game_modes: ["Single-player"]
+release_date: "July 30, 2019"
+game_modes: ["Single player"]
 languages: ["English","French","Spanish - Latin America","Japanese","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
 size: "220 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/a-short-hike"
 was_free_before: true
-giveaway_events: [{"start":"2020-03-11T15:00:00.000Z","end":"2020-03-18T15:00:00.000Z","type":null,"id":"e97596b69a334eb896d3567ffad85093"}]
+giveaway_events: [{"_id":"66abf1f43631f27c961ec39e","id":"e97596b69a334eb896d3567ffad85093","namespace":"fd0183d33a5a40ff8cd4a6ebb52f6ace","startDate":"2020-03-11T15:00:00.000Z","endDate":"2020-03-18T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "d6407c9e6fd54cb492b8c6635480d792"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak. Follow the trails or explore the backcountry as you make your way to the summit. Along the way, meet other hikers, discover hidden treasures, and take in the world around you

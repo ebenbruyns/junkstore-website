@@ -28,17 +28,17 @@ genre: Turn-Based Strategy, Fantasy, Indie
 franchise: 
 age_rating_summary: 12 (PEGI) · 12 (USK)
 age_ratings: {"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"usk":{"rating":"12","descriptors":"Kriegsthematik, Fantasy-Gewalt"},"kgrb":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "November 13, 2025"
-game_modes: ["Single-player","Online Multi-player","Co-op"]
+release_date: "November 13, 2024"
+game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Simplified Chinese","Russian","Korean","Turkish","Italian","Ukrainian","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/songs-of-silence"
 was_free_before: true
-giveaway_events: [{"start":"2025-11-13T16:00:00.000Z","end":"2025-11-20T16:00:00.000Z","type":null,"id":"25aa14df3f40465c8fb997de5d5cf8fe"}]
+giveaway_events: [{"_id":"690cc67cdb25beaced85b881","id":"25aa14df3f40465c8fb997de5d5cf8fe","namespace":"900054606a74444badf56b2f2abd7c69","startDate":"2025-11-13T16:00:00.000Z","endDate":"2025-11-20T16:00:00.000Z","title":"Songs of Silence","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -83,7 +83,7 @@ store_url: "https://store.epicgames.com/en-US/p/songs-of-silence-778d86"
 protondb_url: "https://www.protondb.com/app/2195410"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Songs_of_Silence"
-metacritic_score: 
+metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/songs-of-silence/"
 
 # Cross-Catalog IDs (Game Catalog API)

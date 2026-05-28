@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: E (ESRB)
 age_ratings: {"esrb":{"rating":"E"},"dejus":{"rating":"L"}}
 release_date: "February 22, 2013"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","Dutch","French","German","Hungarian","Italian","Portuguese - Portugal","Romanian","Spanish - Spain","Turkish","Russian","Portuguese - Brazil","Arabic","Japanese","Korean","Polish","Simplified Chinese","Thai","Danish","Finnish","Norwegian","Swedish","Traditional Chinese","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-bridge"
 was_free_before: true
-giveaway_events: [{"start":"2024-03-13T15:00:00.000Z","end":"2024-03-20T15:00:00.000Z","type":null,"id":"674967c55648467ba8e9d163a27170db"},{"start":"2020-01-22T15:00:00.000Z","end":"2020-01-29T15:00:00.000Z","type":null,"id":"674967c55648467ba8e9d163a27170db"}]
+giveaway_events: [{"_id":"66abf1cb3631f27c961eb8ee","id":"674967c55648467ba8e9d163a27170db","namespace":"d5ee752640ef4cee8b7f5364410ba41f","startDate":"2024-03-13T15:00:00.000Z","endDate":"2024-03-20T15:00:00.000Z","__v":0},{"_id":"66abf1f63631f27c961ec3fa","id":"674967c55648467ba8e9d163a27170db","namespace":"d5ee752640ef4cee8b7f5364410ba41f","startDate":"2020-01-22T15:00:00.000Z","endDate":"2020-01-29T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

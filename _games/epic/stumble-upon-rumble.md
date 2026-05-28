@@ -26,17 +26,17 @@ publisher: Play to Win Studios
 developer: Play to Win Studios
 genre: Action, Casual, Fighting
 franchise: 
-age_rating_summary: ESRB Adults Only 18+
+age_rating_summary: 18 (ESRB)
 age_ratings: {}
 release_date: "July 31, 2024"
-game_modes: ["Online Multi-player"]
+game_modes: ["Online Multiplayer"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1296","name":"Casual"},{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"1310","name":"EARLY ACCESS"},{"id":"10719","name":"Mac OS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/255466"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

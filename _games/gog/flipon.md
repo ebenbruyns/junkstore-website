@@ -9,7 +9,7 @@ permalink: /games/gog/flipon/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Dec '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: adventure, indie, puzzle, arcade
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "October 1, 2020"
+release_date: "October 8, 2020"
 game_modes: ["Multi-player","Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "220 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/flipon"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1897057118"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Join Kat and her crew in an epic quest in Flipon, a juicy, fun and fast-paced arcade puzzle game!

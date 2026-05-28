@@ -28,17 +28,17 @@ genre: Strategy
 franchise: 
 age_rating_summary: 6 (USK)
 age_ratings: {"usk":{"rating":"6"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "March 28, 2023"
+release_date: "November 4, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Turkish"]
 languages_audio: ["English"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/touch-type-tale"
 was_free_before: true
-giveaway_events: [{"start":"2025-05-08T15:00:00.000Z","end":"2025-05-15T15:00:00.000Z","type":null,"id":"ac63bc06c6d44a5d8c423675bd7208d9"}]
+giveaway_events: [{"_id":"6813870d9fb6f9a890be22e3","id":"ac63bc06c6d44a5d8c423675bd7208d9","namespace":"7029f6353d7f468eb6940bbe6041474e","startDate":"2025-05-08T15:00:00.000Z","endDate":"2025-05-15T15:00:00.000Z","title":"Touch Type Tale","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -76,7 +76,7 @@ native_linux: false
 hltb_main: "11 hrs"
 hltb_main_extra: "27.5 hrs"
 hltb_completionist: ""
-hltb_url: "https://howlongtobeat.com/game/173377"
+hltb_url: "https://howlongtobeat.com/game/71765"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/touch-type-tale"

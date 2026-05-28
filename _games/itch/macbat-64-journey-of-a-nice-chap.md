@@ -3,12 +3,12 @@ layout: game-page
 title: "Macbat 64: Journey of a Nice Chap - Steam Deck Compatibility"
 game_title: "Macbat 64: Journey of a Nice Chap"
 slug: "macbat-64-journey-of-a-nice-chap"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/macbat-64-journey-of-a-nice-chap/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "March 17, 2017"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40845","name":"Partial Controller Support"},{"id":"229","name":"3D Platformer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/macbat-64-journey-of-a-nice-chap"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

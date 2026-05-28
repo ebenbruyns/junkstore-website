@@ -26,7 +26,7 @@ publisher: Tripwire Presents
 developer: The Game Kitchen
 genre: Puzzle, Strategy, Stealth
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Temas sensíveis, Nudez"}}
 release_date: "January 28, 2025"
 game_modes: ["Single-player"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Save
 size: "3307 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-stone-of-madness"
 was_free_before: true
 giveaway_events: [{"id":"epic_3d11f228c8a442318bc17abf13f7db3b","start":"2026-04-22T14:18:12.000Z","end":"2026-04-23T15:00:00.000Z","type":null}]
 free_games_aliases: []

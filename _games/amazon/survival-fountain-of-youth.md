@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/survival-fountain-of-youth/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "May '26"
 proton_version: ""
@@ -18,8 +18,8 @@ protondb_tier: "gold"
 protondb_score: 0.52
 protondb_total: 11
 protondb_confidence: "moderate"
-steam_deck_verified: ""
-steam_deck_category: 
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: Plug In Digital
@@ -27,16 +27,16 @@ developer: Odinsoft
 genre: Simulator, Adventure, Indie
 franchise: 
 age_rating_summary: 
-age_ratings: {}
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Atos criminosos"}}
 release_date: "May 21, 2024"
 game_modes: ["Single-player"]
-languages: ["English","Simplified Chinese","French","German","Russian","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Traditional Chineselanguages With Full Audio Support"]
-languages_audio: []
+languages: ["English","Simplified Chinese","French","German","Russian","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Traditional Chinese"]
+languages_audio: ["English"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"62","name":"Family Sharing"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/survival-fountain-of-youth"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -82,7 +82,7 @@ hltb_url: "https://howlongtobeat.com/game/127855"
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1967630"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Special:Search?search=1967630"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Survival:_Fountain_of_Youth"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/survival-fountain-of-youth/"
 

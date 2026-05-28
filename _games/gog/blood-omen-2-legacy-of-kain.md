@@ -28,15 +28,15 @@ genre: Adventure
 franchise: 
 age_rating_summary: M (ESRB) · 16 (USK)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Medium level animated violence"},"nzoflc":{"rating":"r16","descriptors":"Contains horror scenes. Contains violence."}}
-release_date: "March 21, 2002"
-game_modes: ["Single-player"]
+release_date: "September 24, 2013"
+game_modes: ["Single player"]
 languages: ["German","English"]
 languages_audio: ["English"]
 tags_structured: []
 size: "1144 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/blood-omen-2-legacy-of-kain"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "13 hrs"
 hltb_main_extra: "14 hrs"
-hltb_completionist: "14.5 hrs"
+hltb_completionist: "14 Hours"
 hltb_url: "https://howlongtobeat.com/game/1183"
 
 # Links

@@ -28,17 +28,17 @@ genre: Indie, Strategy
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência, Medo"}}
-release_date: "August 25, 2022"
-game_modes: ["Single-player"]
+release_date: "October 15, 2020"
+game_modes: ["Single player"]
 languages: ["English","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","French","German","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "627 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/ring-of-pain"
 was_free_before: true
-giveaway_events: [{"start":"2022-08-24T15:00:00.000Z","end":"2022-08-31T15:00:00.000Z","type":null,"id":"4b5ba08363b5472f8c061d92c9a849db"}]
+giveaway_events: [{"_id":"66abf1dc3631f27c961ebd4e","id":"4b5ba08363b5472f8c061d92c9a849db","namespace":"b9c7474c6bdf4e9ab8ca5a5da60059d4","startDate":"2022-08-24T15:00:00.000Z","endDate":"2022-08-31T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

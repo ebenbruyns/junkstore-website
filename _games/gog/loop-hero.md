@@ -9,7 +9,7 @@ permalink: /games/gog/loop-hero/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "July '24"
 proton_version: ""
 
@@ -36,7 +36,7 @@ tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name"
 size: "185 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/loop-hero"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "28.5 hrs"
 hltb_main_extra: "37 hrs"
-hltb_completionist: "55 hrs"
+hltb_completionist: "37 Hours"
 hltb_url: "https://howlongtobeat.com/game/86112"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1896497767"
 is_featured: false
-owned: true
+owned: false
 ---
 
 The Lich has thrown the world into a timeless loop and plunged its inhabitants into never ending chaos. Wield an expanding deck of mystical cards to place enemies, buildings, and terrain along each unique expedition loop for the brave hero.

@@ -9,7 +9,7 @@ permalink: /games/epic/hitman-world-of-assassination/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "July '24"
 proton_version: ""
 
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Drug Reference, Blood, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, In-Game Purchases"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence, Crime"},"oflc":{"rating":"ma15","descriptors":"Strong violence, online interactivity and in-game purchases"},"nzoflc":{"rating":"r18","descriptors":"Contains Violence"},"kgrb":{"rating":"19"},"fpb":{"rating":"18"},"csrr":{"rating":"R","descriptors":"Drugs, Objectionable Language, Alcohol and Tobacco, Violence"},"dejus":{"rating":"18","descriptors":"Linguagem imprópria, Drogas, Violência Extrema"}}
 release_date: "January 20, 2022"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1179","name":"VR"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1179","name":"VR"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: [{"rawg_id":58654,"slug":"hitman-2","name":"Hitman 2"},{"rawg_id":10035,"slug":"hitman","name":"Hitman"},{"rawg_id":87356,"slug":"hitman-absolution-elite-edition","name":"Hitman: Absolution - Elite Edition"},{"rawg_id":1628,"slug":"hitman-go","name":"Hitman GO"},{"rawg_id":5583,"slug":"hitman-absolution","name":"Hitman: Absolution"},{"rawg_id":19569,"slug":"hitman-blood-money","name":"Hitman: Blood Money"},{"rawg_id":22961,"slug":"hitman-3-contracts","name":"Hitman: Contracts"},{"rawg_id":19592,"slug":"hitman-2-silent-assassin","name":"Hitman 2: Silent Assassin"},{"rawg_id":10049,"slug":"hitman-codename-47","name":"Hitman: Codename 47"}]
 franchise_slug: "hitman|hitman-2|hitman-2-silent-assassin|hitman-3|hitman-3-contracts|hitman-absolution|hitman-absolution-elite-editio|hitman-blood-money|hitman-codename-47|hitman-go"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/hitman-3"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "Eider"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Become Agent 47 in the ultimate spy-thriller adventure across more than 20 locations

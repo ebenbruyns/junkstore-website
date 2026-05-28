@@ -28,15 +28,15 @@ genre: Adventure, Shooter, Simulator
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Nudity, Strong Language, Strong Sexual Content, Use of Drugs, and Violence"},"pegi":{"rating":"16","descriptors":"Drugs, Bad Language, Sex and Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"strong sexual references and violence"},"nzoflc":{"rating":"r13","descriptors":"violence, offensive language and sex scenes"},"kgrb":{"rating":"18","descriptors":"Violence, Crime, Language"},"fpb":{"rating":"16","descriptors":"strong language, nudity and violence"}}
-release_date: "February 28, 2014"
+release_date: "February 27, 2014"
 game_modes: ["Single-player"]
 languages: ["Czech","German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English","German","French","Italian","Spanish - Spain","Russian"]
-tags_structured: []
-size: "594653473"
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "23957 MB"
 franchise_siblings: [{"rawg_id":22846,"slug":"thief-3-deadly-shadows","name":"Thief 3: Deadly Shadows"},{"rawg_id":10241,"slug":"thief-ii-the-metal-age","name":"Thief II: The Metal Age"},{"rawg_id":31777,"slug":"thief-the-dark-project","name":"Thief: The Dark Project"}]
 franchise_slug: "thief|thief-3-deadly-shadows|thief-ii-the-metal-age|thief-the-dark-project"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/thief"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/59214636c8f1919dc14cbf47eb14e2b380332d34d467f10ffc74e50e3465f17a.jpg?namespace=gamesdb.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/340014520fce89589954de3354849c4a49639007e1202bc43ef76db129879a7d.jpg?namespace=gamesdb.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/239160/header.jpg"
 
 # Technical Details
 controller_input: ""
@@ -93,8 +93,8 @@ opencritic_score: 64
 opencritic_review_count: 75
 twitch_id: ""
 twitch_url: ""
-playstation_id: ""
-playstation_url: ""
+playstation_id: "204538"
+playstation_url: "https://store.playstation.com/en-us/concept/204538"
 xbox_id: ""
 xbox_url: ""
 geforcenow_id: ""

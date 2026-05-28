@@ -26,7 +26,7 @@ publisher: Ebb Software, Kepler Interactive
 developer: Ebb Software
 genre: Adventure, Indie, Puzzle
 franchise: 
-age_rating_summary: PEGI 18
+age_rating_summary: 18 (PEGI)
 age_ratings: {"kgrb":{"rating":"18","descriptors":"Fear / Horror / Threatening, Sexuality, Violence"},"dejus":{"rating":"18","descriptors":"Violência Extrema"}}
 release_date: "October 14, 2022"
 game_modes: ["Single-player"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full c
 size: "17757 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/scorn"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

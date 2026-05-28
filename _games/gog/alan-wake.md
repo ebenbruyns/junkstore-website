@@ -28,7 +28,7 @@ genre: adventure, shooter
 franchise: 
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Language, Use of Alcohol and Tobacco, Violence"},"dejus":{"rating":"14","descriptors":"Medo, Violência, Linguagem imprópria"}}
-release_date: "May 1, 2010"
+release_date: "February 16, 2012"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian"]
 languages_audio: ["English","German","French","Italian","Spanish - Spain","Japanese","Spanish - Latin America"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "7973 MB"
 franchise_siblings: [{"rawg_id":580972,"slug":"alan-wake-2","name":"Alan Wake 2"},{"rawg_id":18336,"slug":"alan-wakes-american-nightmare","name":"Alan Wake's American Nightmare"}]
 franchise_slug: "alan-wake|alan-wake-2|alan-wakes-american-nightmare"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/alan-wake"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "11 hrs"
 hltb_main_extra: "14 hrs"
-hltb_completionist: "27 hrs"
+hltb_completionist: "13 Hours"
 hltb_url: "https://howlongtobeat.com/game/319"
 
 # Links

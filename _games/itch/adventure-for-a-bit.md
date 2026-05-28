@@ -3,23 +3,23 @@ layout: game-page
 title: "Adventure for a Bit - Steam Deck Compatibility"
 game_title: "Adventure for a Bit"
 slug: "adventure-for-a-bit"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/adventure-for-a-bit/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
-steam_deck_verified: ""
-steam_deck_category: 
+protondb_tier: "gold"
+protondb_score: 0.21
+protondb_total: 3
+protondb_confidence: "low"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: SEEP
@@ -27,9 +27,9 @@ developer: SEEP
 genre: Adventure, Interactive Fiction, Visual Novel
 franchise: 
 age_rating_summary: 
-age_ratings: {}
+age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "January 11, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"118","name":"Story Rich"},{"id":"6","name":"Exploration"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"91","name":"Walking Simulator"},{"id":"196","name":"Procedural Generation"},{"id":"597","name":"artgame"}]
@@ -80,7 +80,7 @@ hltb_url: "https://howlongtobeat.com/game/93188"
 
 # Links
 store_url: "https://justcamh.itch.io/adventure-for-a-bit"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1460050"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

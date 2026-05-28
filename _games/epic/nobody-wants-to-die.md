@@ -26,9 +26,9 @@ publisher: PLAION
 developer: Critical Hit Games
 genre: Simulation, Narration, RPG
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"kgrb":{"rating":"19"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Temas sensíveis, Linguagem imprópria"}}
-release_date: "February 12, 2026"
+release_date: "July 17, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1393","name":"Simulation"},{"id":"1395","name":"Narrati
 size: "25387 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/nobody-wants-to-die"
 was_free_before: true
-giveaway_events: [{"start":"2026-02-12T16:00:00.000Z","end":"2026-02-19T16:00:00.000Z","type":null,"id":"9da459f7c3984877bd5a12bdc3b6b3af"}]
+giveaway_events: [{"_id":"6984bec2b2ad37766d5336d8","id":"9da459f7c3984877bd5a12bdc3b6b3af","namespace":"60b8d9b4c2be4e34aeec311c953c2ee2","startDate":"2026-02-12T16:00:00.000Z","endDate":"2026-02-19T16:00:00.000Z","title":"Nobody Wants to Die","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -26,19 +26,19 @@ publisher: Akupara Games
 developer: à la mode games
 genre: Horror, RPG, Survival
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Linguagem imprópria"}}
 release_date: "November 14, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1218","name":"Horror"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"9549","name":"Controller Support"}]
 size: "2187 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sorry-were-closed"
 was_free_before: true
-giveaway_events: [{"start":"2025-12-21T16:00:00.000Z","end":"2025-12-22T16:00:00.000Z","type":null,"id":"4e469c7d8bbf49bcabc2c07127d3d946"}]
+giveaway_events: [{"_id":"6946c04a03f4fa2fe2d230b5","id":"4e469c7d8bbf49bcabc2c07127d3d946","namespace":"489af623d8284d518502f8ee9d33b828","startDate":"2025-12-21T16:00:00.000Z","endDate":"2025-12-22T16:00:00.000Z","title":"Sorry We're Closed","__v":0}]
 free_games_aliases: []
 
 # Images

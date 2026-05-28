@@ -28,15 +28,15 @@ genre: Casual, Puzzle, Adventure
 franchise: 
 age_rating_summary: 6 (PEGI)
 age_ratings: {"pegi":{"rating":"6"},"dejus":{"rating":"L"}}
-release_date: "February 26, 2026"
-game_modes: ["Single-player"]
+release_date: "February 1, 2024"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Indonesian","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/boxes-lost-fragments"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

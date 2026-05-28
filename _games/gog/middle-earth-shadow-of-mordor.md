@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "54741 MB"
 franchise_siblings: [{"rawg_id":25,"slug":"middle-earth-shadow-of-war","name":"Middle-earth: Shadow of War"}]
 franchise_slug: "middle-earth-shadow-of-war|shadow-of-mordor"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/middle-earth-shadow-of-mordor"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,8 +75,8 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "17 hrs"
 hltb_main_extra: "27 hrs"
-hltb_completionist: "38 hrs"
-hltb_url: "https://howlongtobeat.com/game/18006"
+hltb_completionist: "27.5 Hours"
+hltb_url: "https://howlongtobeat.com/game/31384"
 
 # Links
 store_url: "https://www.gog.com/en/game/middleearth_shadow_of_mordor"

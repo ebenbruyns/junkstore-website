@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez"}}
 release_date: "March 21, 2025"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Latin American Spanish","French","Italian","Japanese","Korean","Polish","Russian","Thai","Turkish","Ukrainian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"189","name":"Female Protagonist"},{"id":"15","name":"Stealth"},{"id":"150","name":"Third-Person Shooter"},{"id":"14","name":"Early Access"},{"id":"44","name":"Nudity"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"50","name":"Sexual Content"},{"id":"91686","name":"Family Sharing"},{"id":"59643","name":"Протагонистка"},{"id":"774","name":"nature"},{"id":"312","name":"NSFW"},{"id":"2896","name":"collectathon"},{"id":"1081","name":"adult"},{"id":"55320","name":"Creature Collector"},{"id":"785","name":"Erotic"}]

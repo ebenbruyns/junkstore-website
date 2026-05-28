@@ -3,12 +3,12 @@ layout: game-page
 title: "Dragon Drop - Steam Deck Compatibility"
 game_title: "Dragon Drop"
 slug: "dragon-drop"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/dragon-drop/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Indie, Arcade
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "September 27, 2021"
-game_modes: ["Multi-player"]
+release_date: "June 10, 2022"
+game_modes: ["Multiplayer"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40845","name":"Partial Controller Support"},{"id":"4","name":"Funny"},{"id":"198","name":"Split Screen"},{"id":"72","name":"Local Multiplayer"},{"id":"14","name":"Early Access"},{"id":"157","name":"PvP"},{"id":"121","name":"Character Customization"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"170","name":"Competitive"},{"id":"61","name":"Top-Down"},{"id":"164","name":"Cartoony"},{"id":"116","name":"2.5D"},{"id":"182","name":"4 Player Local"},{"id":"179","name":"Cartoon"},{"id":"215","name":"Dragons"},{"id":"45201","name":"Remote Play Together"},{"id":"46114","name":"Shared/Split Screen PvP"},{"id":"55318","name":"Party Game"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/dragon-drop--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

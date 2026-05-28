@@ -28,17 +28,17 @@ genre: Horror, Adventure
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "October 19, 2021"
-game_modes: ["Single-player"]
+release_date: "December 7, 2023"
+game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Japanese","French","German","Korean","Russian","Traditional Chinese","Spanish - Spain","Portuguese - Brazil","Italian","Turkish"]
 languages_audio: ["English","Simplified Chinese"]
 tags_structured: [{"id":"21137","name":"Unique Visuals"},{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/undying"
 was_free_before: true
-giveaway_events: [{"start":"2025-01-30T16:00:00.000Z","end":"2025-02-06T16:00:00.000Z","type":null,"id":"c9d2e42d8b404add9390c0182093abbd"}]
+giveaway_events: [{"_id":"67912dea7dc7ed91f6edbdb9","id":"c9d2e42d8b404add9390c0182093abbd","namespace":"487df1dfd24b44c381a2a376fbf78946","startDate":"2025-01-30T16:00:00.000Z","endDate":"2025-02-06T16:00:00.000Z","title":"Undying","__v":0}]
 free_games_aliases: []
 
 # Images

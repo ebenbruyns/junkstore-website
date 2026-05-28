@@ -26,9 +26,9 @@ publisher: Alawar Entertainment, Alawar Premium
 developer: Warm Lamp Games
 genre: Adventure, Strategy, Indie, Simulator
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: 16 (PEGI)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Drogas ilícitas, Linguagem imprópria, Atos criminosos"}}
-release_date: "October 22, 2018"
+release_date: "December 4, 2018"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","Korean","Polish","Russian","Turkish"]
 languages_audio: ["English","Simplified Chinese","Russian"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"34","name":"Violent"}
 size: "1276 MB"
 franchise_siblings: [{"rawg_id":678695,"slug":"beholder-3","name":"Beholder 3"},{"rawg_id":10090,"slug":"beholder","name":"Beholder"}]
 franchise_slug: "beholder|beholder-2|beholder-3"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/beholder-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "13 hrs"
 hltb_main_extra: "14.5 hrs"
-hltb_completionist: "22.5 hrs"
+hltb_completionist: "15 Hours"
 hltb_url: "https://howlongtobeat.com/game/59333"
 
 # Links

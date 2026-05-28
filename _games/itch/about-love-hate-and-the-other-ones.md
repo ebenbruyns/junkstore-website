@@ -3,12 +3,12 @@ layout: game-page
 title: "About Love, Hate and the other ones - Steam Deck Compatibility"
 game_title: "About Love, Hate and the other ones"
 slug: "about-love-hate-and-the-other-ones"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/about-love-hate-and-the-other-ones/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Adventure, Indie, Puzzle
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "October 23, 2012"
-game_modes: ["Single-player"]
+release_date: "December 12, 2014"
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/about-love-hate-and-the-other-ones"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

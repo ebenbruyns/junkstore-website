@@ -28,7 +28,7 @@ genre: Adventure, Puzzle
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"16","descriptors":"Violence, Bad Language, Sex, Drugs"},"usk":{"rating":"16"},"oflc":{"rating":"ma15"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Atos criminosos, Violência, Linguagem imprópria, Nudez, Drogas lícitas, Drogas ilícitas"}}
-release_date: "November 5, 2019"
+release_date: "November 14, 2019"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Italian","Dutch","Russian"]
 languages_audio: ["English","French","German","Spanish - Spain","Russian"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full c
 size: "12859 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/blacksad-under-the-skin"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

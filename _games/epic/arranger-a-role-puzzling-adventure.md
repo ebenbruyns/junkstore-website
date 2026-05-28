@@ -32,11 +32,11 @@ release_date: "July 25, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Spanish - Latin America","Traditional Chinese","Turkish","Portuguese - Brazil","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"64","name":"Adjustable Text Size"},{"id":"68","name":"Custom Volume Controls"},{"id":"78","name":"Adjustable Difficulty"},{"id":"75","name":"Keyboard Only Option"},{"id":"74","name":"Playable without Timed Input"},{"id":"79","name":"Save Anytime"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/arranger-a-role-puzzling-adventure"
 was_free_before: true
 giveaway_events: [{"_id":"69f36420175a0ecbe8ddca5b","id":"4fb95c3f11754061b2b1a94e60d848bd","namespace":"2df8b055a5674c8e9211fc51f8efd210","startDate":"2026-05-07T15:00:00.000Z","endDate":"2026-05-14T15:00:00.000Z","title":"Arranger: A Role-Puzzling Adventure","__v":0}]
 free_games_aliases: []

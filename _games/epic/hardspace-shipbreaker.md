@@ -26,17 +26,17 @@ publisher: Blackbird Interactive
 developer: Blackbird Interactive
 genre: Exploration, Simulation
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "July 19, 2022"
-game_modes: ["Single-player"]
+release_date: "May 24, 2022"
+game_modes: ["Single player"]
 languages: ["English","French","German","Simplified Chinese","Russian","Italian","Spanish - Spain","Portuguese - Brazil","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/hardspace-shipbreaker"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

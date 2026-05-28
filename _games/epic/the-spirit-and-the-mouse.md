@@ -26,19 +26,19 @@ publisher: Armor Games Studios
 developer: Alblune
 genre: Puzzle, Adventure, Platformer
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 26, 2022"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"21151","name":"Easy Puzzles"}]
 size: "296 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-spirit-and-the-mouse"
 was_free_before: true
-giveaway_events: [{"start":"2024-09-26T15:00:00.000Z","end":"2024-10-03T15:00:00.000Z","type":null,"id":"b9763cf171e446d5864cfa0b8fe8b9bb"}]
+giveaway_events: [{"_id":"66ec31e51ec3a765af93722f","id":"b9763cf171e446d5864cfa0b8fe8b9bb","namespace":"300ee26a2d6746cdb7dd515ae819f5d4","startDate":"2024-09-26T15:00:00.000Z","endDate":"2024-10-03T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

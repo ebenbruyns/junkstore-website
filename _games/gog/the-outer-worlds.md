@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence"},"nzoflc":{"rating":"r16","descriptors":"Violence"},"kgrb":{"rating":"18"},"fpb":{"rating":"18","descriptors":"D, L, V, (CI)"},"csrr":{"rating":"R","descriptors":"Violence, Improper Language"},"mda":{"rating":"M18","descriptors":"Violence"},"dejus":{"rating":"16","descriptors":"Violência, Linguagem imprópria"}}
-release_date: "October 25, 2019"
+release_date: "October 23, 2020"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full c
 size: "55952 MB"
 franchise_siblings: [{"rawg_id":617120,"slug":"the-outer-worlds-2","name":"The Outer Worlds 2"}]
 franchise_slug: "the-outer-worlds|the-outer-worlds-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-outer-worlds"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "13 hrs"
 hltb_main_extra: "26.5 hrs"
-hltb_completionist: "40.5 hrs"
+hltb_completionist: "26.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/62935"
 
 # Links

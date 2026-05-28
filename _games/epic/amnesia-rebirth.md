@@ -26,17 +26,17 @@ publisher: Frictional Games
 developer: Frictional Games
 genre: Horror, Stealth, Adventure
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Violência Extrema, Medo, Linguagem imprópria, Nudez"}}
-release_date: "January 1, 2099"
-game_modes: ["Single-player"]
+release_date: "October 20, 2020"
+game_modes: ["Single Player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"}]
 size: ""
 franchise_siblings: [{"rawg_id":911543,"slug":"amnesia-the-bunker","name":"Amnesia: The Bunker"},{"rawg_id":13268,"slug":"amnesia-a-machine-for-pigs","name":"Amnesia: A Machine for Pigs"},{"rawg_id":13668,"slug":"amnesia-the-dark-descent","name":"Amnesia: The Dark Descent"}]
 franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|amnesia-the-dark-descent"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/amnesia-rebirth"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

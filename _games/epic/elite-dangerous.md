@@ -8,7 +8,7 @@ storefront_key: "epic"
 permalink: /games/epic/elite-dangerous/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-working"
+decky_rating: "broken"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
@@ -28,17 +28,17 @@ genre: Action, Space
 franchise: 
 age_rating_summary: T (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Drug Reference, Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence, Online Gameplay"},"dejus":{"rating":"10","descriptors":"Atos criminosos, Violência fantasiosa"}}
-release_date: "November 19, 2020"
-game_modes: ["Single-player","Online Multi-player"]
+release_date: "April 2, 2015"
+game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","French","German","Russian","Spanish - Spain","Portuguese - Brazil"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"1121","name":"Space"},{"id":"1281","name":"Space Sim"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"217","name":"SPACE SIMULATION"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1279","name":"Vampire"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"1121","name":"Space"},{"id":"1281","name":"Space Sim"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"217","name":"SPACE SIMULATION"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1279","name":"Vampire"}]
 size: ""
 franchise_siblings: [{"rawg_id":32705,"slug":"frontier-first-encounters","name":"Frontier: First Encounters"},{"rawg_id":29794,"slug":"frontier-elite-2","name":"Frontier: Elite 2"},{"rawg_id":53811,"slug":"elite","name":"Elite"}]
 franchise_slug: "elite|elite-dangerous|frontier-elite-2|frontier-first-encounters"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/elite-dangerous"
 was_free_before: true
-giveaway_events: [{"start":"2020-11-18T15:00:00.000Z","end":"2020-11-25T15:00:00.000Z","type":null,"id":"7b002177046841a69da1adc0e1d0c98f"}]
+giveaway_events: [{"_id":"66abf1ed3631f27c961ec1c2","id":"7b002177046841a69da1adc0e1d0c98f","namespace":"3db17abfd650423f993291624b1b2ac1","startDate":"2020-11-18T15:00:00.000Z","endDate":"2020-11-25T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

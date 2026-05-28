@@ -28,15 +28,15 @@ genre: Adventure, Strategy, Indie, Platform, Puzzle
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "April 1, 2023"
+release_date: "May 16, 2023"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: ["English"]
-tags_structured: []
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"14","name":"Early Access"},{"id":"107","name":"Family Friendly"},{"id":"571","name":"3D"},{"id":"33","name":"VR"},{"id":"209","name":"Drama"},{"id":"200","name":"Narration"},{"id":"572","name":"Emotional"}]
 size: "10934 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/tin-hearts"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Indie
 franchise: 
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Mild Blood, Mild Suggestive Themes, Violence"},"pegi":{"rating":"16","descriptors":"Realistic looking violence"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Nudez, Violência"}}
-release_date: "September 4, 2009"
+release_date: "January 23, 2015"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","German"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: "6353 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/venetica-gold-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

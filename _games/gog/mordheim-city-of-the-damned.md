@@ -26,7 +26,7 @@ publisher: Focus Entertainment
 developer: Rogue Factor
 genre: Role-playing (RPG), Strategy, Tactical
 franchise: 
-age_rating_summary: PEGI 16
+age_rating_summary: 16 (PEGI)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "November 19, 2015"
 game_modes: ["Single-player"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "4973 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/mordheim-city-of-the-damned"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

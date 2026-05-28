@@ -28,17 +28,17 @@ genre: First Person, Shooter
 franchise: Hell Let Loose
 age_rating_summary: 18 (USK)
 age_ratings: {"usk":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Interacao de Usarios"}}
-release_date: "January 2, 2025"
-game_modes: ["Online Multi-player"]
+release_date: "July 27, 2021"
+game_modes: ["Online Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Polish","Portuguese - Brazil","Traditional Chinese","Korean","Japanese"]
 languages_audio: []
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21135","name":"Realistic Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1294","name":"First Person"},{"id":"21135","name":"Realistic Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: [{"rawg_id":1017335,"slug":"hell-let-loose-vietnam","name":"Hell Let Loose: Vietnam"}]
 franchise_slug: "hell-let-loose|hell-let-loose-vietnam"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/hell-let-loose"
 was_free_before: true
-giveaway_events: [{"start":"2025-01-02T16:00:00.000Z","end":"2025-01-09T16:00:00.000Z","type":null,"id":"5cee37b551534963887a11f6744f6951"}]
+giveaway_events: [{"_id":"67755ec6ae6d37966fcdf207","id":"5cee37b551534963887a11f6744f6951","namespace":"6430e58041234e41b8f81f68f01450ed","startDate":"2025-01-02T16:00:00.000Z","endDate":"2025-01-09T16:00:00.000Z","title":"Hell Let Loose","__v":0}]
 free_games_aliases: []
 
 # Images

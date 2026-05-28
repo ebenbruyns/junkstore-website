@@ -28,15 +28,15 @@ genre: "Indie, Hack and slash/Beat 'em up, Fighting"
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Strong Language, Violence, Blood, Drug Reference"},"pegi":{"rating":"16","descriptors":"Bad Language, Violence"},"usk":{"rating":"16"},"nzoflc":{"rating":"M","descriptors":"Violence"},"kgrb":{"rating":"15","descriptors":"Violence, Drugs"},"csrr":{"rating":"C15","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Drogas ilícitas"}}
-release_date: "January 1, 2099"
-game_modes: ["Single-player"]
+release_date: "March 28, 2023"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Polish","Czech"]
 languages_audio: ["English","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"149","name":"Third Person"},{"id":"49","name":"Difficult"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"41","name":"Dark"},{"id":"68","name":"Hack and Slash"},{"id":"70","name":"War"},{"id":"40","name":"Dark Fantasy"},{"id":"639","name":"Roguelike"},{"id":"203","name":"Beat 'em up"},{"id":"144","name":"Crime"},{"id":"270","name":"Blood"},{"id":"580","name":"Souls-like"},{"id":"185","name":"Swordplay"},{"id":"49964","name":"Action Roguelike"},{"id":"240","name":"Martial Arts"},{"id":"256","name":"Naval"},{"id":"500","name":"Solo"},{"id":"40910","name":"Succès Steam"},{"id":"73243","name":"Флот"},{"id":"90369","name":"Compat. contrôleurs complète"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sifu"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

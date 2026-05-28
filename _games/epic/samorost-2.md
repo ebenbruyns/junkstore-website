@@ -26,9 +26,9 @@ publisher: Amanita Design
 developer: Amanita Design
 genre: Puzzle, Adventure, Indie
 franchise: Samorost
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas"}}
-release_date: "June 30, 2023"
+release_date: "December 10, 2009"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Portuguese - Brazil","Bulgarian","Danish","Finnish","Dutch","Japanese","Korean","Spanish - Latin America","Hungarian","Norwegian","Polish","Portuguese - Portugal","Romanian","Russian","Thai","Traditional Chinese","Turkish","Ukrainian","Vietnamese","Simplified Chinese","Czech","Greek","Swedish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Portuguese - Brazil","Bulgarian","Danish","Finnish","Dutch","Japanese","Korean","Spanish - Latin America","Hungarian","Norwegian","Polish","Portuguese - Portugal","Romanian","Russian","Thai","Traditional Chinese","Turkish","Ukrainian","Vietnamese","Simplified Chinese","Czech","Greek","Swedish"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Save
 size: "114 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/samorost-2"
 was_free_before: true
-giveaway_events: [{"start":"2025-09-18T15:00:00.000Z","end":"2025-09-25T15:00:00.000Z","type":null,"id":"15176675e3bd4fcc98949566caa754e4"}]
+giveaway_events: [{"_id":"68c2dd2552bb220796c45caa","id":"15176675e3bd4fcc98949566caa754e4","namespace":"3341d4dd5b8d44c3a372da3f10122485","startDate":"2025-09-18T15:00:00.000Z","endDate":"2025-09-25T15:00:00.000Z","title":"Samorost 2","__v":0}]
 free_games_aliases: []
 
 # Images

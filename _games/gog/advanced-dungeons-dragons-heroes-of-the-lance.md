@@ -8,7 +8,7 @@ storefront_key: "gog"
 permalink: /games/gog/advanced-dungeons-dragons-heroes-of-the-lance/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
@@ -28,8 +28,8 @@ genre: Role-playing (RPG), Adventure
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "December 31, 1988"
-game_modes: ["Single-player"]
+release_date: "March 27, 2023"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"}]
@@ -42,9 +42,9 @@ giveaway_events: []
 free_games_aliases: []
 
 # Images
-banner_image: ""
+banner_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2344020/library_hero.jpg"
 cover_image: "https://images.gog.com/b2e3f613ffe1dc45eb5df02925a92915f515fab0fc35081313cc0b5ec46d7645.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2344020/header.jpg"
 
 # Technical Details
 controller_input: "requires-mapping"

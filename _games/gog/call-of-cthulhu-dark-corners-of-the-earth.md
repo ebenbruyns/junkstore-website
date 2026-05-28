@@ -9,7 +9,7 @@ permalink: /games/gog/call-of-cthulhu-dark-corners-of-the-earth/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: Horror, Adventure, Action
 franchise: 
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language, Use of Drugs and Alcohol"},"oflc":{"descriptors":"%oflcDescriptors%"},"nzoflc":{"descriptors":"%NZoflcDescriptors%"},"dejus":{"rating":"16","descriptors":"Drogas ilícitas, Violência, Temas sensíveis"}}
-release_date: "April 26, 2006"
+release_date: "June 16, 2009"
 game_modes: ["Single-player"]
 languages: ["German","English","French"]
 languages_audio: []
@@ -36,13 +36,13 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospher
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/call-of-cthulhu-dark-corners-of-the-earth"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
 
 # Images
-banner_image: ""
+banner_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/22340/library_hero.jpg"
 cover_image: "https://images.gog.com/236787b1fad78a04320c7215e0f323bbc9e1379bb06b27dbad4e05f25f5fcf3c.jpg?namespace=gamesdb"
 icon_image: "https://images.gog.com/236787b1fad78a04320c7215e0f323bbc9e1379bb06b27dbad4e05f25f5fcf3c.jpg?namespace=gamesdb"
 
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "11.5 hrs"
 hltb_main_extra: "13 hrs"
-hltb_completionist: "16.5 hrs"
+hltb_completionist: "12 Hours"
 hltb_url: "https://howlongtobeat.com/game/1463"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1557265213"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Call of Cthulhu: Dark Corners of the Earth is a first-person horror game that combines intense action and adventure elements. You will draw upon your skills in exploration, investigation, and combat while faced with the seemingly impossible task of battling evil incarnate. Features a dynamic sanity system resulting in hallucinations, panic attacks, vertigo, paranoia, and more! Includes 1920s weaponry and vehicles as well as evil artifacts and alien technology, with Lovecraft's famous monsters and locations.

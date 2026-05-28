@@ -3,12 +3,12 @@ layout: game-page
 title: "And Yet It Moves - Steam Deck Compatibility"
 game_title: "And Yet It Moves"
 slug: "and-yet-it-moves"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/and-yet-it-moves/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: E (ESRB)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Violence"},"oflc":{"descriptors":"%oflcDescriptors%"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "April 2, 2009"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Japanese","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"46","name":"Surreal"},{"id":"1867","name":"puzzles"},{"id":"220","name":"Experimental"},{"id":"40899","name":"Physics-based Platformer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/and-yet-it-moves--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

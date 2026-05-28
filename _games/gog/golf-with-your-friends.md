@@ -28,7 +28,7 @@ genre: Strategy, Indie, Sport, Simulator
 franchise: 
 age_rating_summary: 7 (PEGI) · 6 (USK)
 age_ratings: {"pegi":{"rating":"7"},"usk":{"rating":"6"},"dejus":{"rating":"L"}}
-release_date: "January 29, 2016"
+release_date: "May 19, 2020"
 game_modes: ["Multi-player","Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Russian","Chinese Traditional"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "4947 MB"
 franchise_siblings: [{"rawg_id":998664,"slug":"golf-with-your-friends-2","name":"Golf With Your Friends 2"}]
 franchise_slug: "golf-with-your-friends|golf-with-your-friends-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/golf-with-your-friends"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "11 hrs"
-hltb_completionist: "26.5 hrs"
+hltb_completionist: "12 Hours"
 hltb_url: "https://howlongtobeat.com/game/34956"
 
 # Links

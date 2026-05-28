@@ -26,9 +26,9 @@ publisher: Double Dash Studios
 developer: Double Dash Studios
 genre: Adventure, Indie
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "August 4, 2025"
+release_date: "June 14, 2023"
 game_modes: ["Single-player"]
 languages: ["English","Portuguese - Brazil","Spanish - Latin America"]
 languages_audio: []
@@ -36,9 +36,9 @@ tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achi
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/jorels-brother-and-the-most-important-game-of-the-galaxy"
 was_free_before: true
-giveaway_events: [{"start":"2025-09-25T15:00:00.000Z","end":"2025-10-02T15:00:00.000Z","type":null,"id":"70d56e56409e4a0384282d9bea1b4e20"}]
+giveaway_events: [{"_id":"68cb30164c1256e6363497d7","id":"70d56e56409e4a0384282d9bea1b4e20","namespace":"d5b2727bc277495facca061b00b9876c","startDate":"2025-09-25T15:00:00.000Z","endDate":"2025-10-02T15:00:00.000Z","title":"Jorel’s Brother and The Most Important Game of the Galaxy","__v":0}]
 free_games_aliases: []
 
 # Images

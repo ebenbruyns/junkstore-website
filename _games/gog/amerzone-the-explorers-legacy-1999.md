@@ -26,17 +26,17 @@ publisher: Microïds, Anuman Interactive
 developer: Virtual Studio
 genre: Adventure, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: ESRB 6
+age_rating_summary: 6 (ESRB) · 3 (PEGI)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "March 18, 1999"
-game_modes: ["Single-player"]
+release_date: "August 22, 2014"
+game_modes: ["Single player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"8","name":"First-Person"},{"id":"141","name":"Point & Click"}]
 size: "1800 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/amerzone-the-explorers-legacy"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "4 hrs"
-hltb_completionist: "4.5 hrs"
+hltb_completionist: "4 Hours"
 hltb_url: "https://howlongtobeat.com/game/434"
 
 # Links

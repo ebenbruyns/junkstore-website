@@ -26,19 +26,19 @@ publisher: Gameplay Group International Inc.
 developer: Mane6
 genre: Fighting, Indie
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "December 19, 2022"
-game_modes: ["Single-player","Online Multi-player"]
+release_date: "April 30, 2020"
+game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/203089"
 was_free_before: true
-giveaway_events: [{"start":"2025-03-06T16:00:00.000Z","end":"2025-03-13T15:00:00.000Z","type":null,"id":"1f723b00df58467998c4984ca39915ad"},{"start":"2022-12-18T15:00:00.000Z","end":"2022-12-19T15:00:00.000Z","type":null,"id":"1f723b00df58467998c4984ca39915ad"}]
+giveaway_events: [{"_id":"67c0878edab818dea84d6a67","id":"1f723b00df58467998c4984ca39915ad","namespace":"a567c32599bf4d4fb609e424f3691b39","startDate":"2025-03-06T16:00:00.000Z","endDate":"2025-03-13T15:00:00.000Z","title":"Them's Fightin' Herds","__v":0},{"_id":"66abf1d83631f27c961ebc69","id":"1f723b00df58467998c4984ca39915ad","namespace":"a567c32599bf4d4fb609e424f3691b39","startDate":"2022-12-18T15:00:00.000Z","endDate":"2022-12-19T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

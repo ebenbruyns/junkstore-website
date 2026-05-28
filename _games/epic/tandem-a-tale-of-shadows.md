@@ -26,19 +26,19 @@ publisher: Hatinh Interactive
 developer: Monochrome Paris
 genre: Puzzle, Action-Adventure, Platformer
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "October 21, 2021"
-game_modes: ["Single-player"]
+release_date: "October 20, 2021"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Portugal","Czech","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/tandem-a-tale-of-shadows"
 was_free_before: true
-giveaway_events: [{"start":"2023-10-25T15:00:00.000Z","end":"2023-11-01T15:00:00.000Z","type":null,"id":"9142916d80f54720b01f8f62b21014be"}]
+giveaway_events: [{"_id":"66abf1cf3631f27c961eba23","id":"9142916d80f54720b01f8f62b21014be","namespace":"d1a3ff292b2f4ee289a83d7a91ae3458","startDate":"2023-10-25T15:00:00.000Z","endDate":"2023-11-01T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

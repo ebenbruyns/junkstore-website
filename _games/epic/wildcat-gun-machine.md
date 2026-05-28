@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Linguagem imprópria"}}
 release_date: "May 4, 2022"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","Russian","Simplified Chinese","French","Italian","German","Spanish - Spain","Arabic","Czech","Danish","Dutch","Hungarian","Japanese","Korean","Polish","Portuguese - Brazil","Romanian","Spanish - Latin America","Thai","Traditional Chinese","Turkish"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: "818 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/wildcat-gun-machine"
 was_free_before: true
-giveaway_events: [{"start":"2022-12-07T15:00:00.000Z","end":"2022-12-14T15:00:00.000Z","type":null,"id":"d6531a64aa334d8d9c993cc607e48406"}]
+giveaway_events: [{"_id":"66abf1d83631f27c961ebc8f","id":"d6531a64aa334d8d9c993cc607e48406","namespace":"13cba1b288ec417badb9a276cbb6d819","startDate":"2022-12-07T15:00:00.000Z","endDate":"2022-12-14T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

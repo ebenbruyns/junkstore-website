@@ -3,12 +3,12 @@ layout: game-page
 title: "CrossCode - Steam Deck Compatibility"
 game_title: "CrossCode"
 slug: "crosscode"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/crosscode/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Role-playing (RPG), Adventure, Indie, Puzzle, Shooter
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Language"},"pegi":{"rating":"12","descriptors":"Mild Swearing"},"usk":{"rating":"6","descriptors":"Abstract Violence, Occasional Swearing"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
-release_date: "September 1, 2018"
-game_modes: ["Single-player"]
+release_date: "September 20, 2018"
+game_modes: ["Single player"]
 languages: ["English","German","Simplified Chinese","Japanese","Korean"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"14","name":"Early Access"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"468","name":"role-playing"},{"id":"336","name":"controller support"},{"id":"226","name":"Cyberpunk"},{"id":"337","name":"overlay"},{"id":"233","name":"JRPG"},{"id":"143","name":"RPGMaker"},{"id":"340","name":"in development"}]
-size: ""
+size: "545 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/crosscode"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

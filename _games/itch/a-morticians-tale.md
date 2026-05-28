@@ -3,12 +3,12 @@ layout: game-page
 title: "A Mortician's Tale - Steam Deck Compatibility"
 game_title: "A Mortician's Tale"
 slug: "a-morticians-tale"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/a-morticians-tale/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: RP (ESRB)
 age_ratings: {"esrb":{"rating":"RP","descriptors":"Mild Animated Blood, Alcohol Reference"},"dejus":{"rating":"16","descriptors":"Violência, Temas sensíveis"}}
 release_date: "October 18, 2017"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"252","name":"Mouse only"},{"id":"607","name":"Unity"},{"id":"631","name":"Low-poly"},{"id":"585","name":"LGBT"},{"id":"1514","name":"funeral"},{"id":"903","name":"death-positive"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/a-morticians-tale"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

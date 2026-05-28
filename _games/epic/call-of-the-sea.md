@@ -28,17 +28,17 @@ genre: Casual, Puzzle, Adventure
 franchise: 
 age_rating_summary: T (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence, Use of Tobacco"},"pegi":{"rating":"7","descriptors":"Fear"},"usk":{"rating":"6","descriptors":"Rare Scary Situations"},"oflc":{"rating":"PG"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
-release_date: "February 17, 2022"
-game_modes: ["Single-player"]
+release_date: "December 8, 2020"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "11894 MB"
 franchise_siblings: [{"rawg_id":1017859,"slug":"call-of-the-elder-gods","name":"Call of the Elder Gods"}]
 franchise_slug: "call-of-the-elder-gods|call-of-the-sea"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/call-of-the-sea"
 was_free_before: true
-giveaway_events: [{"start":"2023-03-08T15:00:00.000Z","end":"2023-03-15T15:00:00.000Z","type":null,"id":"92da5d8d918543b6b408e36d9af81765"}]
+giveaway_events: [{"_id":"66abf1d53631f27c961ebb9b","id":"92da5d8d918543b6b408e36d9af81765","namespace":"5e427319eea1401ab20c6cd78a4163c4","startDate":"2023-03-08T15:00:00.000Z","endDate":"2023-03-15T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

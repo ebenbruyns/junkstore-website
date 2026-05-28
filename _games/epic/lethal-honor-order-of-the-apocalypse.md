@@ -18,8 +18,8 @@ protondb_tier: ""
 protondb_score: 
 protondb_total: 
 protondb_confidence: ""
-steam_deck_verified: ""
-steam_deck_category: 
+steam_deck_verified: "verified"
+steam_deck_category: 3
 
 # Game Info
 publisher: HandyGames
@@ -27,16 +27,16 @@ developer: Viral Studios
 genre: Adventure
 franchise: 
 age_rating_summary: 17 (ESRB)
-age_ratings: {}
+age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Drogas lícitas"}}
 release_date: "October 7, 2025"
 game_modes: ["Single-player"]
-languages: ["English","German","Spanish - Spain","Japanese","Simplified Chineselanguages With Full Audio Support"]
-languages_audio: []
-tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
+languages: ["English","German","Spanish - Spain","Japanese","Simplified Chinese"]
+languages_audio: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1083","name":"Rogue-Lite"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/lethal-honor-order-of-the-apocalypse"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

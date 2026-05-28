@@ -28,7 +28,7 @@ genre: Adventure, Indie, Platform, Puzzle, Arcade
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "June 2, 2021"
+release_date: "June 3, 2021"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","German","English","Spanish","Finnish","Dutch","Russian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "105 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sunblaze"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -73,9 +73,9 @@ cant_test_linux: false
 native_linux: true
 
 # HowLongToBeat
-hltb_main: "6.5 hrs"
+hltb_main: "undefined Hours"
 hltb_main_extra: "10.5 hrs"
-hltb_completionist: "18 hrs"
+hltb_completionist: "7.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/89849"
 
 # Links

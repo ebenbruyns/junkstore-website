@@ -28,7 +28,7 @@ genre: "Adventure, Strategy, Turn-based strategy (TBS), Indie, Puzzle, Card & Bo
 franchise: 
 age_rating_summary: 7 (PEGI)
 age_ratings: {"pegi":{"rating":"7","descriptors":"Mild Violence"},"dejus":{"rating":"L"}}
-release_date: "May 3, 2022"
+release_date: "July 20, 2023"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","German","English","French","Japanese","Polish"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "928 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/oaken"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

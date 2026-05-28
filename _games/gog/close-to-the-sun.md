@@ -28,7 +28,7 @@ genre: Adventure, Indie
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Language"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong horror themes and violence"},"nzoflc":{"rating":"r16","descriptors":"Violence &amp; horror"},"csrr":{"rating":"R","descriptors":"Violence, Horror, Improper Language"},"dejus":{"rating":"18","descriptors":"Violência"}}
-release_date: "May 2, 2019"
+release_date: "May 5, 2020"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Hungarian","Italian","Japanese","Korean","Polish","Russian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "20554 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/close-to-the-sun"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

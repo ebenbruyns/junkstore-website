@@ -33,11 +33,10 @@ game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"32","name":"Sci-fi"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"639","name":"Roguelike"}]
-size: "2102574162
-"
+size: "2046 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/jupiter-hell"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

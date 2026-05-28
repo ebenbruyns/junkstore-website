@@ -26,19 +26,19 @@ publisher: ustwo games
 developer: ustwo games
 genre: Casual, Puzzle, Adventure
 franchise: Monument Valley
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "September 11, 2025"
+release_date: "July 12, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Dutch","Japanese","Korean","Portuguese - Portugal","Russian","Simplified Chinese","Swedish","Traditional Chinese","Turkish","Italian","Spanish - Spain"]
 languages_audio: ["English","French","German","Dutch","Japanese","Korean","Portuguese - Portugal","Russian","Simplified Chinese","Swedish","Traditional Chinese","Turkish","Italian","Spanish - Spain"]
-tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"}]
 size: "291 MB"
 franchise_siblings: [{"rawg_id":591,"slug":"monument-valley","name":"Monument Valley"}]
 franchise_slug: "monument-valley|monument-valley-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/36749"
 was_free_before: true
-giveaway_events: [{"start":"2025-09-11T15:00:00.000Z","end":"2025-09-18T15:00:00.000Z","type":null,"id":"d09a24a332c94549b2144f962231c394"}]
+giveaway_events: [{"_id":"68b9a9b1f999016712991395","id":"d09a24a332c94549b2144f962231c394","namespace":"e6abebfda00f45e2b3b9ba79970bc511","startDate":"2025-09-11T15:00:00.000Z","endDate":"2025-09-18T15:00:00.000Z","title":"Monument Valley 2","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -9,7 +9,7 @@ permalink: /games/gog/penumbra-overture/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,15 +28,15 @@ genre: Adventure, Indie, Puzzle
 franchise: 
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Language"},"oflc":{"descriptors":"%oflcDescriptors%"},"nzoflc":{"descriptors":"%NZoflcDescriptors%"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "March 1, 2007"
-game_modes: ["Single-player"]
+release_date: "March 6, 2009"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"1","name":"Survival"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"17","name":"Survival Horror"},{"id":"40833","name":"Captions available"},{"id":"47","name":"Lovecraftian"},{"id":"62349","name":"vr mod"}]
 size: "351 MB"
 franchise_siblings: [{"rawg_id":14001,"slug":"penumbra-requiem","name":"Penumbra: Requiem"},{"rawg_id":38286,"slug":"penumbra-black-plague","name":"Penumbra: Black Plague"}]
 franchise_slug: "penumbra-black-plague|penumbra-overture|penumbra-requiem"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/penumbra-overture"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1207662733"
 is_featured: false
-owned: true
+owned: false
 ---
 
 First person survival horror game, emphasizing survival and problem solving instead of mindless violence and gore

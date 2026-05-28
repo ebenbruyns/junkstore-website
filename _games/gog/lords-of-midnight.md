@@ -8,7 +8,7 @@ storefront_key: "gog"
 permalink: /games/gog/lords-of-midnight/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-working"
+decky_rating: "broken"
 standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
@@ -26,10 +26,10 @@ publisher: Chilli Hugger Software
 developer: Mike Singleton, Chris Wild
 genre: Role-playing (RPG), Strategy
 franchise: 
-age_rating_summary: PEGI 7
+age_rating_summary: 7 (PEGI)
 age_ratings: {}
 release_date: "December 31, 1995"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"468","name":"role-playing"}]
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/f70512f84fb86670e18530489dee27e6a937317310dd9d86b50b8c74f40ddd55.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/708580ed8418ada64ea16e4f223cbdc9c86abb510ac2e1fd992a9fe25b24c4d7.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://images.gog-statics.com/acd23d63e4b9af832a8dc200ccd575e5df75e7b9b4b4092649897793d5fbbcf6.png"
 
 # Technical Details
 controller_input: "keyboard-mouse"
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "3.5 hrs"
 hltb_main_extra: "7 hrs"
-hltb_completionist: ""
+hltb_completionist: "5 Hours"
 hltb_url: "https://howlongtobeat.com/game/17960"
 
 # Links

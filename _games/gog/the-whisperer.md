@@ -28,7 +28,7 @@ genre: Adventure, Indie, Point-and-click
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "December 16, 2021"
+release_date: "March 8, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospher
 size: "2229 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-whisperer--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -32,13 +32,13 @@ release_date: "August 5, 2024"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Polish","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","German","Japanese","Spanish - Latin America"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"}]
 size: "20.3 GB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/cygni-all-guns-blazing"
 was_free_before: true
-giveaway_events: [{"start":"2024-08-08T15:00:00.000Z","end":"2024-08-15T15:00:00.000Z","type":null,"id":"ce86ed5a3c0d48eaa5326dda50105a9b"}]
+giveaway_events: [{"_id":"66abfad55736a265e483cb25","id":"ce86ed5a3c0d48eaa5326dda50105a9b","namespace":"5d9f109e44ec4c8bbc5495f43b601f25","startDate":"2024-08-08T15:00:00.000Z","endDate":"2024-08-15T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

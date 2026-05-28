@@ -3,12 +3,12 @@ layout: game-page
 title: "Sausage Sports Club - Steam Deck Compatibility"
 game_title: "Sausage Sports Club"
 slug: "sausage-sports-club"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/sausage-sports-club/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "July 19, 2018"
-game_modes: ["Single-player","Multi-player","Co-op","Split Screen Co-op"]
+game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"18","name":"Co-op"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"72","name":"Local Multiplayer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sausage-sports-club"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

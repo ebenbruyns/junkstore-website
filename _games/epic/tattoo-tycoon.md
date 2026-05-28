@@ -32,11 +32,11 @@ release_date: "October 24, 2025"
 game_modes: ["Single-player"]
 languages: ["English","German","French","Spanish - Spain","Simplified Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"35244","name":"Epic Savings"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"1263","name":"Indie"}]
 size: "1755 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/tattoo-tycoon"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

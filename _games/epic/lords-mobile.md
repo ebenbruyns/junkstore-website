@@ -28,15 +28,15 @@ genre: RPG, Strategy
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10"},"pegi":{"rating":"7"},"usk":{"rating":"6"},"bbfc":{"rating":"PG"},"oflc":{"rating":"PG"},"nzoflc":{"rating":"PG"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"A"},"csrr":{"rating":"C12"},"mda":{"rating":"AA16"},"dejus":{"rating":"10"}}
-release_date: "July 17, 2023"
-game_modes: ["Multi-player","MMO"]
+release_date: "June 2, 2019"
+game_modes: ["Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English","French","Italian","German","Spanish - Spain","Ukrainian","Russian","Turkish","Japanese","Polish","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Portugal","Vietnamese","Arabic","Korean","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21125","name":"Competitive Community"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"33639","name":"Promotional Content"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/lords-mobile"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

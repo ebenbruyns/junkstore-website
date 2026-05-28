@@ -28,17 +28,17 @@ genre: Action, First Person
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Mild Sexual Themes, Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, In-Game Purchases"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"r18","descriptors":"In-Game Purchases, Online Interactivity, High Impact Violence"},"kgrb":{"rating":"18","descriptors":"Violence"},"csrr":{"rating":"R","descriptors":"Violence"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Drogas lícitas, Compras on-line"}}
-release_date: "June 8, 2021"
-game_modes: ["Multi-player"]
+release_date: "June 12, 2022"
+game_modes: ["Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: [{"rawg_id":3015,"slug":"chivalry-medieval-warfare","name":"Chivalry: Medieval Warfare"},{"rawg_id":58568,"slug":"age-of-chivalry","name":"Age of Chivalry"}]
 franchise_slug: "age-of-chivalry|chivalry-2|chivalry-medieval-warfare"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/chivalry-2"
 was_free_before: true
-giveaway_events: [{"start":"2025-12-31T16:00:00.000Z","end":"2026-01-01T16:00:00.000Z","type":null,"id":"79e93c9a70b14b1cba2c8c9b45a1c36b"},{"start":"2024-05-29T15:00:00.000Z","end":"2024-06-05T15:00:00.000Z","type":null,"id":"79e93c9a70b14b1cba2c8c9b45a1c36b"}]
+giveaway_events: [{"_id":"6953ef0c5c4853d053190bee","id":"79e93c9a70b14b1cba2c8c9b45a1c36b","namespace":"bd46d4ce259349e5bd8b3ded20274737","startDate":"2025-12-31T16:00:00.000Z","endDate":"2026-01-01T16:00:00.000Z","title":"Chivalry 2","__v":0},{"_id":"66abf1ca3631f27c961eb857","id":"79e93c9a70b14b1cba2c8c9b45a1c36b","namespace":"bd46d4ce259349e5bd8b3ded20274737","startDate":"2024-05-29T15:00:00.000Z","endDate":"2024-06-05T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -3,12 +3,12 @@ layout: game-page
 title: "2   9   0   1  / / FREELANCER - Steam Deck Compatibility"
 game_title: "2   9   0   1  / / FREELANCER"
 slug: "2-9-0-1-freelancer"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/2-9-0-1-freelancer/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "January 31, 2019"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"44","name":"Nudity"},{"id":"50","name":"Sexual Content"},{"id":"90","name":"Visual Novel"}]

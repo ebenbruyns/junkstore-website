@@ -26,19 +26,19 @@ publisher: Dear Villagers
 developer: Flying Oak Games
 genre: Action, Indie
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência, Medo"}}
 release_date: "October 21, 2020"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Korean","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"1258","name":"Rogue-Like"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"1258","name":"Rogue-Like"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
 size: "340 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/scourgebringer"
 was_free_before: true
-giveaway_events: [{"start":"2025-11-13T16:00:00.000Z","end":"2025-11-20T16:00:00.000Z","type":null,"id":"786eacc66b8b4075bf7c8684930127d3"}]
+giveaway_events: [{"_id":"690b7715c96d30399c30fc6b","id":"786eacc66b8b4075bf7c8684930127d3","namespace":"c03a3687567a4cf3910ea5ec7279664e","startDate":"2025-11-13T16:00:00.000Z","endDate":"2025-11-20T16:00:00.000Z","title":"Scourgebringer","__v":0}]
 free_games_aliases: []
 
 # Images

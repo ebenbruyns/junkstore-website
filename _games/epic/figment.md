@@ -28,17 +28,17 @@ genre: Action, Adventure, Indie
 franchise: Figment
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Language, Crude Humor"},"pegi":{"rating":"12","descriptors":"Mild Swearing"},"usk":{"rating":"6","descriptors":"Abstract Violence, Occasional Swearing"},"oflc":{"rating":"M","descriptors":"Coarse Language"},"dejus":{"rating":"10","descriptors":"Linguagem imprópria"}}
-release_date: "March 26, 2020"
-game_modes: ["Single-player"]
+release_date: "September 22, 2017"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian","Portuguese - Brazil"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: "725 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/figment-2-creed-valley"
 was_free_before: true
-giveaway_events: [{"start":"2025-07-03T15:00:00.000Z","end":"2025-07-10T15:00:00.000Z","type":null,"id":"addd4e86c4d746ab86f21606bdadce7d"},{"start":"2020-03-25T15:00:00.000Z","end":"2020-04-01T15:00:00.000Z","type":null,"id":"addd4e86c4d746ab86f21606bdadce7d"}]
+giveaway_events: [{"_id":"685be089ab24856ad1451018","id":"addd4e86c4d746ab86f21606bdadce7d","namespace":"270e1d648a5e4060b7b441615c4da4d9","startDate":"2025-07-03T15:00:00.000Z","endDate":"2025-07-10T15:00:00.000Z","title":"Figment","__v":0},{"_id":"66abf1f43631f27c961ec381","id":"addd4e86c4d746ab86f21606bdadce7d","namespace":"270e1d648a5e4060b7b441615c4da4d9","startDate":"2020-03-25T15:00:00.000Z","endDate":"2020-04-01T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -76,13 +76,13 @@ native_linux: true
 hltb_main: "5 hrs"
 hltb_main_extra: "5.5 hrs"
 hltb_completionist: "6.5 hrs"
-hltb_url: "https://howlongtobeat.com/game/48177"
+hltb_url: "https://howlongtobeat.com/game/99345"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/figment"
 protondb_url: "https://www.protondb.com/app/493540"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment_2%3A_Creed_Valley"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/figment/"
 
@@ -93,8 +93,8 @@ opencritic_score: 79
 opencritic_review_count: 33
 twitch_id: ""
 twitch_url: ""
-playstation_id: ""
-playstation_url: ""
+playstation_id: "10004222"
+playstation_url: "https://store.playstation.com/en-us/concept/10004222"
 xbox_id: ""
 xbox_url: ""
 geforcenow_id: ""

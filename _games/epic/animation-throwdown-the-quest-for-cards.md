@@ -28,7 +28,7 @@ genre: Strategy, Adventure, Card Game
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"dejus":{"rating":"18","descriptors":"Drogas ilícitas, Conteúdo sexual, Violência fantasiosa"}}
-release_date: "October 4, 2021"
+release_date: "May 5, 2017"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122"
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/animation-throwdown-the-quest-for-cards"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

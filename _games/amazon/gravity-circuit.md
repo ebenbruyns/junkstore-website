@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/gravity-circuit/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "May ' 26"
 proton_version: ""
@@ -26,18 +26,18 @@ publisher: PID Games
 developer: Domesticated Ant Games
 genre: Indie, Platform, Arcade
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: Everyone 10+ (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "July 13, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese","Dutch"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
 size: "327151133
 "
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/gravity-circuit"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

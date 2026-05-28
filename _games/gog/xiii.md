@@ -9,7 +9,7 @@ permalink: /games/gog/xiii/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: puzzle, shooter
 franchise: 
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Strong Language, Violence"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "October 1, 2003"
+release_date: "November 10, 2020"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","French","Italian","Spanish - Spain","German"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: "2124 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/xiii--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,8 +75,8 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "8.5 hrs"
 hltb_main_extra: "10 hrs"
-hltb_completionist: "11 hrs"
-hltb_url: "https://howlongtobeat.com/game/84972"
+hltb_completionist: "9 Hours"
+hltb_url: "https://howlongtobeat.com/game/11413"
 
 # Links
 store_url: "https://www.gog.com/en/game/xiii"
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1207658920"
 is_featured: false
-owned: true
+owned: false
 ---
 
 XIII is a cel-shaded first-person shooter based on the popular Belgian cult comic created by Jean Van Hamme and illustrated by William Vance.

@@ -18,8 +18,8 @@ protondb_tier: ""
 protondb_score: 
 protondb_total: 
 protondb_confidence: ""
-steam_deck_verified: ""
-steam_deck_category: 
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: mc2games
@@ -27,16 +27,16 @@ developer: mc2games
 genre: Adventure
 franchise: 
 age_rating_summary: 
-age_ratings: {}
+age_ratings: {"dejus":{"rating":"L"}}
 release_date: "October 7, 2025"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Portuguese"]
-languages_audio: []
+languages_audio: ["English"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"62","name":"Family Sharing"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/60-minutes-to-extinction-escape-room"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

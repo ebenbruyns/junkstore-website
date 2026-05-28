@@ -36,7 +36,7 @@ tags_structured: []
 size: "32974 MB"
 franchise_siblings: [{"rawg_id":1015797,"slug":"fallout-4-creations-bundle","name":"Fallout 4 - Creations Bundle"},{"rawg_id":1000841,"slug":"fallout-4-next-gen","name":"Fallout 4: Next-Gen"},{"rawg_id":732504,"slug":"fallout-shelter-online","name":"Fallout Shelter Online"},{"rawg_id":58585,"slug":"fallout-76","name":"Fallout 76"},{"rawg_id":559,"slug":"fallout-shelter","name":"Fallout Shelter"},{"rawg_id":5563,"slug":"fallout-new-vegas","name":"Fallout: New Vegas"},{"rawg_id":5562,"slug":"fallout-3","name":"Fallout 3"},{"rawg_id":402492,"slug":"fallout-brotherhood-of-steel","name":"Fallout: Brotherhood of Steel"},{"rawg_id":19284,"slug":"fallout-tactics-brotherhood-of-steel","name":"Fallout Tactics: Brotherhood of Steel"},{"rawg_id":19299,"slug":"fallout-2-a-post-nuclear-role-playing-game","name":"Fallout 2"},{"rawg_id":13554,"slug":"fallout-a-post-nuclear-role-playing-game","name":"Fallout"},{"rawg_id":979041,"slug":"capital-wasteland","name":"Capital Wasteland"}]
 franchise_slug: "capital-wasteland|fallout-2-a-post-nuclear-role-|fallout-3|fallout-4|fallout-4-creations-bundle|fallout-4-next-gen|fallout-76|fallout-a-post-nuclear-role-pl|fallout-brotherhood-of-steel|fallout-new-vegas|fallout-shelter|fallout-shelter-online|fallout-tactics-brotherhood-of"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/fallout-4"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,8 +75,8 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "34.5 hrs"
 hltb_main_extra: "110 hrs"
-hltb_completionist: "207 hrs"
-hltb_url: "https://howlongtobeat.com/game/26729"
+hltb_completionist: "119.5 Hours"
+hltb_url: "https://howlongtobeat.com/game/49483"
 
 # Links
 store_url: "https://www.gog.com/en/game/fallout_4_game_of_the_year_edition"

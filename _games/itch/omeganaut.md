@@ -3,12 +3,12 @@ layout: game-page
 title: "Omeganaut - Steam Deck Compatibility"
 game_title: "Omeganaut"
 slug: "omeganaut"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/omeganaut/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "May 2, 2019"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"25","name":"Space"},{"id":"571","name":"3D"},{"id":"639","name":"Roguelike"},{"id":"33","name":"VR"},{"id":"56","name":"Shoot 'Em Up"},{"id":"460","name":"Endless"},{"id":"1162","name":"Asteroids"},{"id":"1326","name":"flat-shading"}]

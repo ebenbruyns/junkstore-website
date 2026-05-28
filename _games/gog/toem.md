@@ -36,7 +36,7 @@ tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1381","name":"Exploration
 size: "294 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/toem"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "3 hrs"
 hltb_main_extra: "4 hrs"
-hltb_completionist: "6 hrs"
+hltb_completionist: "5 Hours"
 hltb_url: "https://howlongtobeat.com/game/86977"
 
 # Links

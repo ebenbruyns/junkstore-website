@@ -9,7 +9,7 @@ permalink: /games/epic/for-the-king/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Sept '24"
 proton_version: ""
 
@@ -26,9 +26,9 @@ publisher: Curve Digital
 developer: IronOak Games
 genre: Turn-Based, Adventure
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "April 23, 2020"
+release_date: "April 19, 2018"
 game_modes: ["Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Polish","Japanese","Korean"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name"
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/for-the-king"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "Discus"
 is_featured: false
-owned: true
+owned: false
 ---
 
 For The King is a challenging blend of strategy, turn-based combat, and roguelike elements. Each playthrough is unique with procedural maps, quests, and events. Explore Fahrul in either single player, local, or online co-op.

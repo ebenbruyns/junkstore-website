@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"14","name":"Early Acc
 size: "2309 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/king-of-retail"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -28,15 +28,15 @@ genre: Action, Stealth, Adventure
 franchise: Dishonored -
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"bbfc":{"rating":"18"}}
-release_date: "November 3, 2022"
-game_modes: ["Single-player"]
+release_date: "October 10, 2012"
+game_modes: ["Single player"]
 languages: ["English","German","French","Italian","Spanish - Spain"]
-languages_audio: ["English","German","French","Italian","Spanish - Spain"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "14719 MB"
 franchise_siblings: [{"rawg_id":29173,"slug":"dishonored-death-of-the-outsider","name":"Dishonored: Death of the Outsider"},{"rawg_id":864,"slug":"dishonored-2","name":"Dishonored 2"}]
 franchise_slug: "dishonored|dishonored-2|dishonored-death-of-the-outsid"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/11118"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -76,13 +76,13 @@ native_linux: false
 hltb_main: "12 hrs"
 hltb_main_extra: "22 hrs"
 hltb_completionist: "46.5 hrs"
-hltb_url: "https://howlongtobeat.com/game/2602"
+hltb_url: "https://howlongtobeat.com/game/26731"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dishonored-definitive-edition"
 protondb_url: "https://www.protondb.com/app/205100"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dishonored"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dishonored_2"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/dishonored/"
 

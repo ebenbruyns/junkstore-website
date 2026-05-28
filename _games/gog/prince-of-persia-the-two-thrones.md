@@ -28,7 +28,7 @@ genre: "Adventure, Platform, Hack and slash/Beat 'em up"
 franchise: 
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore<br>, Intense Violence<br>"},"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "December 1, 2005"
+release_date: "August 27, 2009"
 game_modes: ["Single-player"]
 languages: ["German","English","French","Russian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospher
 size: "1375 MB"
 franchise_siblings: [{"rawg_id":854540,"slug":"prince-of-persia-escape-2","name":"Prince of Persia: Escape 2"},{"rawg_id":246692,"slug":"prince-of-persia-escape","name":"Prince of Persia: Escape"},{"rawg_id":6305,"slug":"prince-of-persia-the-shadow-and-the-flame","name":"Prince of Persia The Shadow and the Flame"},{"rawg_id":4518,"slug":"prince-of-persia-the-forgotten-sands","name":"Prince of Persia: The Forgotten Sands"},{"rawg_id":39233,"slug":"prince-of-persia-epilogue","name":"Prince of Persia: Epilogue"},{"rawg_id":4744,"slug":"prince-of-persia","name":"Prince of Persia (2008)"},{"rawg_id":25728,"slug":"prince-of-persia-the-fallen-king","name":"Prince of Persia: The Fallen King"},{"rawg_id":13925,"slug":"prince-of-persia-warrior-within","name":"Prince of Persia: Warrior Within"},{"rawg_id":13909,"slug":"prince-of-persia-the-sands-of-time","name":"Prince of Persia: The Sands of Time"},{"rawg_id":772534,"slug":"prince-of-persia-arabian-nights","name":"Prince of Persia: Arabian Nights"},{"rawg_id":32685,"slug":"prince-of-persia-2-the-shadow-and-the-flame","name":"Prince of Persia 2: The Shadow and the Flame"},{"rawg_id":45957,"slug":"prince-of-persia-nes","name":"Prince of Persia (1989)"},{"rawg_id":644662,"slug":"prince-of-persia-redemption","name":"Prince of Persia: Redemption"}]
 franchise_slug: "prince-of-persia|prince-of-persia-2-the-shadow-|prince-of-persia-arabian-night|prince-of-persia-epilogue|prince-of-persia-escape|prince-of-persia-escape-2|prince-of-persia-nes|prince-of-persia-redemption|prince-of-persia-the-fallen-ki|prince-of-persia-the-forgotten|prince-of-persia-the-sands-of-|prince-of-persia-the-shadow-an|prince-of-persia-the-two-thron|prince-of-persia-warrior-withi"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/prince-of-persia-the-two-thrones"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "9.5 hrs"
 hltb_main_extra: "10.5 hrs"
-hltb_completionist: "12 hrs"
+hltb_completionist: "10 Hours"
 hltb_url: "https://howlongtobeat.com/game/7298"
 
 # Links

@@ -9,7 +9,7 @@ permalink: /games/gog/little-nightmares/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "March '25"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: adventure, strategy, indie, platform, puzzle
 franchise: 
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"C"},"oflc":{"rating":"M","descriptors":"Horror themes"},"nzoflc":{"rating":"M","descriptors":"Horror themes"},"kgrb":{"rating":"15","descriptors":"Fear Expression"},"fpb":{"rating":"13","descriptors":"Horror"},"csrr":{"rating":"C15","descriptors":"Horror"},"dejus":{"rating":"14","descriptors":"Violência, Drogas Lícitas, Conteúdo Impactante"}}
-release_date: "April 1, 2017"
+release_date: "April 27, 2017"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Swedish"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "3229 MB"
 franchise_siblings: [{"rawg_id":965464,"slug":"little-nightmares-iii","name":"Little Nightmares III"},{"rawg_id":366881,"slug":"little-nightmares-ii","name":"Little Nightmares II"},{"rawg_id":308060,"slug":"very-little-nightmares","name":"Very Little Nightmares"},{"rawg_id":395155,"slug":"little-nightmares-the-depths","name":"Little Nightmares: The Depths"},{"rawg_id":19369,"slug":"call-of-duty","name":"Call of Duty"}]
 franchise_slug: "call-of-duty|little-nightmares|little-nightmares-ii|little-nightmares-iii|little-nightmares-the-depths|very-little-nightmares"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/little-nightmares"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1433377508"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Little Nightmares is a puzzle-platform horror adventure game developed by Tarsier Studios and published by Bandai Namco Entertainment. Set in a mysterious world, Little Nightmares follows the journey of Six, a hungry little girl who must escape the Maw, an iron vessel inhabited by monstrous, twisted beings.

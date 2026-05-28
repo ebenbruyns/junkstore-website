@@ -28,15 +28,15 @@ genre: Action, Shooter, First Person
 franchise: 
 age_rating_summary: 18 (PEGI) · 18 (USK)
 age_ratings: {"pegi":{"rating":"18"},"usk":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Violência, Temas sensíveis, Drogas ilícitas"}}
-release_date: "August 14, 2019"
-game_modes: ["Single-player"]
+release_date: "August 27, 2014"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Dutch","Polish","Russian","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"}]
 size: "8695 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/metro-last-light-redux"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/80496b9540e10004637cada016191f5f78235c8f5a98c2aae17dcb7193df76b2.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/d1bca392cb9e83d537c68dc3f3ac464ae67e85aca0e9694aca29b04736b6199f.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/287390/header.jpg"
 
 # Technical Details
 controller_input: "native"

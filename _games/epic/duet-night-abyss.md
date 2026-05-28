@@ -26,9 +26,9 @@ publisher: Hong Kong Spiral Rising Technology Co., Limited
 developer: Pan Studio
 genre: RPG, Action-Adventure, Open World
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"18","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "October 26, 2025"
+release_date: "January 19, 2026"
 game_modes: ["Co-op"]
 languages: ["English","Japanese","Simplified Chinese","Traditional Chinese","Korean","French"]
 languages_audio: ["English","Japanese","Simplified Chinese","Traditional Chinese","Korean"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122"
 size: "331 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/duet-night-abyss"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -28,15 +28,15 @@ genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: 7 (PEGI)
 age_ratings: {"pegi":{"rating":"7"},"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "March 25, 2025"
-game_modes: ["Single-player"]
+release_date: "May 7, 2012"
+game_modes: ["Single player"]
 languages: ["English","German","French","Italian","Spanish - Spain","Russian","Japanese","Polish","Czech","Simplified Chinese"]
 languages_audio: ["English","German","French","Italian","Spanish - Spain","Russian","Japanese","Polish","Czech","Simplified Chinese"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
 size: "543 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/botanicula"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

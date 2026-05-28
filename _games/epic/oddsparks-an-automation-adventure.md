@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: 6 (USK)
 age_ratings: {"usk":{"rating":"6","descriptors":"Angedeutete Gewalt"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "May 27, 2025"
-game_modes: ["Single-player","Online Multi-player","Co-op"]
+game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","French","German","Japanese","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"2","name":"Single-player"},{"id":"1","name":"Multi-player"},{"id":"9","name":"Co-op"},{"id":"38","name":"Online Co-op"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"29","name":"Steam Trading Cards"},{"id":"30","name":"Steam Workshop"},{"id":"64","name":"Adjustable Text Size"},{"id":"67","name":"Camera Comfort"},{"id":"66","name":"Color Alternatives"},{"id":"68","name":"Custom Volume Controls"},{"id":"78","name":"Adjustable Difficulty"},{"id":"74","name":"Playable without Timed Input"},{"id":"79","name":"Save Anytime"},{"id":"69","name":"Stereo Sound"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/oddsparks-an-automation-adventure"
 was_free_before: true
-giveaway_events: [{"id":"epic_102da1ac6e864d7f84889f2c0a107ee2","start":"2026-04-30T07:32:49.000Z","end":"2026-05-07T15:00:00.000Z","type":null},{"id":"gp_3616","start":"2026-05-05T09:54:31.000Z","end":"2026-05-07T15:00:00.000Z","type":null}]
+giveaway_events: [{"_id":"69ea2928913d32872c2face0","id":"102da1ac6e864d7f84889f2c0a107ee2","namespace":"77c83b36cd1047f7aceeef2e5f84ab85","startDate":"2026-04-30T15:00:00.000Z","endDate":"2026-05-07T15:00:00.000Z","title":"Oddsparks: An Automation Adventure","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -82,7 +82,7 @@ hltb_url: "https://howlongtobeat.com/game/149627"
 store_url: "https://store.epicgames.com/en-US/p/oddsparks-58440c"
 protondb_url: "https://www.protondb.com/app/1817800"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Special:Search?search=1817800"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Oddsparks:_An_Automation_Adventure"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/oddsparks-an-automation-adventure/"
 

@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/paleo-pines/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 26, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Italian","Korean","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"36","name":"Open World"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"121","name":"Character Customization"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"40937","name":"Steam Trading Cards"},{"id":"138","name":"Relaxing"},{"id":"126","name":"Dinosaurs"},{"id":"49960","name":"Life Sim"},{"id":"159","name":"Agriculture"},{"id":"49969","name":"Farming Sim"},{"id":"55320","name":"Creature Collector"}]
 size: "1558 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/paleo-pines"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

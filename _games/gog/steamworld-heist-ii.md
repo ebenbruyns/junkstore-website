@@ -9,7 +9,7 @@ permalink: /games/gog/steamworld-heist-ii/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,15 +28,15 @@ genre: role-playing, adventure, strategy, indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "August 1, 2024"
-game_modes: ["Single-player"]
+release_date: "August 8, 2024"
+game_modes: ["Single player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Polish","Russian","Ukrainian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"123","name":"Comedy"},{"id":"97","name":"Action RPG"},{"id":"80","name":"Tactical"},{"id":"165","name":"Colorful"},{"id":"101","name":"Turn-Based Strategy"},{"id":"154","name":"Steampunk"},{"id":"166","name":"Stylized"},{"id":"164","name":"Cartoony"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"91686","name":"Family Sharing"},{"id":"230","name":"Tactical RPG"}]
 size: "1765 MB"
-franchise_siblings: []
-franchise_slug: ""
-igdb_url: ""
+franchise_siblings: [{"rawg_id":914788,"slug":"steamworld-build","name":"SteamWorld Build"},{"rawg_id":286485,"slug":"steamworld-quest","name":"SteamWorld Quest: Hand of Gilgamech"},{"rawg_id":27938,"slug":"steamworld-dig-2","name":"SteamWorld Dig 2"},{"rawg_id":3748,"slug":"steamworld-dig","name":"SteamWorld Dig"},{"rawg_id":24382,"slug":"steamworld-tower-defense","name":"SteamWorld Tower Defense"}]
+franchise_slug: "steamworld-build|steamworld-dig|steamworld-dig-2|steamworld-heist|steamworld-quest|steamworld-tower-defense"
+igdb_url: "https://www.igdb.com/games/steamworld-heist-ii"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "20.5 hrs"
 hltb_main_extra: "28.5 hrs"
-hltb_completionist: "39.5 hrs"
+hltb_completionist: "31 Hours"
 hltb_url: "https://howlongtobeat.com/game/148927"
 
 # Links

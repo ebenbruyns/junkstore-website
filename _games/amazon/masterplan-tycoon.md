@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/masterplan-tycoon/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -28,8 +28,8 @@ genre: Strategy, Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "March 9, 2023"
-game_modes: ["Single-player"]
+release_date: "May 24, 2024"
+game_modes: ["Single player"]
 languages: ["English","French","German","Polish","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: []

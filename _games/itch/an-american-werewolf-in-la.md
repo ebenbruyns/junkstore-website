@@ -3,12 +3,12 @@ layout: game-page
 title: "An American Werewolf in LA - Steam Deck Compatibility"
 game_title: "An American Werewolf in LA"
 slug: "an-american-werewolf-in-la"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/an-american-werewolf-in-la/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: "Indie, Arcade, Hack and slash/Beat 'em up, Fighting"
 franchise: 
 age_rating_summary: 12 (PEGI)
 age_ratings: {"pegi":{"rating":"12"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "November 15, 2019"
-game_modes: ["Single-player","Co-op","Multi-player"]
+release_date: "February 2, 2024"
+game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Japanese"]
 languages_audio: []
 tags_structured: []
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/an-american-werewolf-in-la"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -9,7 +9,7 @@ permalink: /games/gog/transistor/
 
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: role-playing-rpg, strategy
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"12","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
-release_date: "May 1, 2014"
+release_date: "May 20, 2014"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Polish","Russian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "2472 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/transistor"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "6 hrs"
 hltb_main_extra: "8 hrs"
-hltb_completionist: "15.5 hrs"
+hltb_completionist: "7.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/17617"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1429612159"
 is_featured: false
-owned: true
+owned: false
 ---
 
 An unconventional tactical action RPG in which after a powerful group called the Camerata cause measureless destruction through the ambiguous settlement of Cloudbank, Red, a famous singer in the city, goes on a journey along with her lover who is trapped inside the Transistor...

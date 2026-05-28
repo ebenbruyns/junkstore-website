@@ -9,7 +9,7 @@ permalink: /games/gog/breachway/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: strategy, indie, simulator
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "September 1, 2024"
+release_date: "September 26, 2024"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Hungarian","Italian","Japanese","Korean","Polish","Russian","Turkish","Ukrainian","Chinese Traditional"]
 languages_audio: ["English"]
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1263094765"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Assemble your crew, load out your ship, and explore the galaxy in this deck-building space roguelike. Your deck is determined by your spaceship's loadout, mix and match equipment to discover different powerful card synergies, and obliterate your enemies in tactical space battles

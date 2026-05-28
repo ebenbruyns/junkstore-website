@@ -2,14 +2,14 @@
 layout: game-page
 title: "Abzû - Steam Deck Compatibility"
 game_title: "Abzû"
-slug: "abz"
+slug: "abzu"
 storefront: "Epic"
 storefront_key: "epic"
-permalink: /games/epic/abz/
+permalink: /games/epic/abzu/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Nov '24"
 proton_version: ""
 
@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: E (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Fear, Violence"},"usk":{"rating":"6"},"mda":{"descriptors":"Violência"},"dejus":{"rating":"L"}}
 release_date: "August 2, 2016"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
 size: "1397 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/abzu"
 was_free_before: true
-giveaway_events: [{"start":"2020-10-07T15:00:00.000Z","end":"2020-10-14T15:00:00.000Z","type":null,"id":"dedd448c38d947ab90291540f183378b"},{"start":"2019-09-04T15:00:00.000Z","end":"2019-09-11T15:00:00.000Z","type":null,"id":"dedd448c38d947ab90291540f183378b"}]
+giveaway_events: [{"_id":"66abf1ee3631f27c961ec214","id":"dedd448c38d947ab90291540f183378b","namespace":"7af7476ff9eb4a8d9cd9d6486224de76","startDate":"2020-10-07T15:00:00.000Z","endDate":"2020-10-14T15:00:00.000Z","__v":0},{"_id":"66abf1fb3631f27c961ec520","id":"dedd448c38d947ab90291540f183378b","namespace":"7af7476ff9eb4a8d9cd9d6486224de76","startDate":"2019-09-04T15:00:00.000Z","endDate":"2019-09-11T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "Curry"
 is_featured: false
-owned: true
+owned: false
 ---
 
 From the art director of Journey® and Flower®, ABZÛ is a beautiful underwater adventure that evokes the dream of diving.

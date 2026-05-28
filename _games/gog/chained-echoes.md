@@ -9,7 +9,7 @@ permalink: /games/gog/chained-echoes/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "May '25"
 proton_version: ""
 
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, conteúdo sexual, linguagem imprópria"}}
 release_date: "December 8, 2022"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["Chinese Simplified","German","English","French","Japanese","Korean"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"6","name":"Exploration"},{"id":"122","name":"Pixel Graphics"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"}]
 size: "792 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/chained-echoes"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -73,9 +73,9 @@ cant_test_linux: false
 native_linux: true
 
 # HowLongToBeat
-hltb_main: "34.5 hrs"
+hltb_main: "undefined Hours"
 hltb_main_extra: "45 hrs"
-hltb_completionist: "55.5 hrs"
+hltb_completionist: "46.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/82601"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "2067731250"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Take up your sword, channel your magic or board your Mech. Chained Echoes is a 16-bit SNES style RPG set in a fantasy world where dragons are as common as piloted mechanical suits.

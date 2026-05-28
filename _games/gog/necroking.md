@@ -26,9 +26,9 @@ publisher: Alawar
 developer: KORO.GAMES
 genre: "Adventure, Strategy, Indie, Tactical, Card & Board Game"
 franchise: 
-age_rating_summary: PEGI 7
+age_rating_summary: 7 (PEGI)
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "September 1, 2024"
+release_date: "September 4, 2024"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospher
 size: "210 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/necroking"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

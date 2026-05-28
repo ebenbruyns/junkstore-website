@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Shooter
 franchise: 
 age_rating_summary: 18 (PEGI) · 18 (USK)
 age_ratings: {"pegi":{"rating":"18"},"usk":{"rating":"18"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Violência"}}
-release_date: "August 25, 2014"
+release_date: "August 27, 2014"
 game_modes: ["Single-player"]
 languages: ["Czech","German","English","Spanish","French","Italian","Dutch","Polish","Russian","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "7321 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/metro-2033-redux"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/e755f671c9b43a2a4ff738a4118c2be5322542336c11b75db6a180eae0d0161c.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/cf395cec43f3cdc4594d9d096ebfdc7f56b9248d81654e89579a460491676616.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/286690/header.jpg"
 
 # Technical Details
 controller_input: ""

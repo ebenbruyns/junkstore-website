@@ -29,16 +29,16 @@ franchise: F1® Manager
 age_rating_summary: E (ESRB)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Language"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria"}}
 release_date: "July 23, 2024"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"33639","name":"Promotional Content"},{"id":"9547","name":"Windows"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"33639","name":"Promotional Content"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: [{"rawg_id":964330,"slug":"f1-manager-2023","name":"F1 Manager 2023"},{"rawg_id":844359,"slug":"f1-manager-2022","name":"F1 Manager 2022"},{"rawg_id":30925,"slug":"f1-manager","name":"F1 Manager"}]
 franchise_slug: "f1-manager|f1-manager-2022|f1-manager-2023|f1-manager-2024"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/f1-manager-2024"
 was_free_before: true
-giveaway_events: [{"start":"2025-02-13T16:00:00.000Z","end":"2025-02-20T16:00:00.000Z","type":null,"id":"80480c4dce974e03a009beeffc625b21"}]
+giveaway_events: [{"_id":"67a4d1413c7060b662c5d928","id":"80480c4dce974e03a009beeffc625b21","namespace":"53ea1f0a585f4fbc9c8adc6b76af1165","startDate":"2025-02-13T16:00:00.000Z","endDate":"2025-02-20T16:00:00.000Z","title":"F1® Manager 2024","__v":0}]
 free_games_aliases: []
 
 # Images

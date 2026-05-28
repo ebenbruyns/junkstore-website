@@ -9,7 +9,7 @@ permalink: /games/gog/hellblade-senuas-sacrifice/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "July '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: action, adventure
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Intense Violence, Nudity, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"nzoflc":{"rating":"r13","descriptors":"Violence, Horror, Content that may disturb"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "August 1, 2017"
+release_date: "August 7, 2017"
 game_modes: ["Single-player"]
 languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","Danish","German","English","Spanish","Latin American Spanish","Finnish","French","Italian","Japanese","Korean","Dutch","Norwegian","Polish","Portuguese","Russian","Swedish","Turkish"]
 languages_audio: ["English"]
@@ -36,15 +36,15 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: ""
 franchise_siblings: [{"rawg_id":398401,"slug":"senuas-saga-hellblade-ii","name":"Senua's Saga: Hellblade II"}]
 franchise_slug: "hellblade-senuas-sacrifice|senuas-saga-hellblade-ii"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/hellblade-senuas-sacrifice"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
 
 # Images
-banner_image: ""
+banner_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/414340/library_hero.jpg"
 cover_image: "https://images.gog.com/e3a58ceb5ae56a1c5d55765fc7c79d64349b1fd113c555f3cf890ae5d95d2a28.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/414340/header.jpg"
 
 # Technical Details
 controller_input: "native"
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1105155784"
 is_featured: false
-owned: true
+owned: false
 ---
 
 From the makers of Heavenly Sword, Enslaved: Odyssey to the West, and DmC: Devil May Cry, comes a warrior's brutal journey into myth and madness. Set in the Viking age, a broken Celtic warrior embarks on a haunting vision quest into Viking Hell to fight for the soul of her dead lover.

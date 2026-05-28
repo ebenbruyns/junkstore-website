@@ -9,15 +9,15 @@ permalink: /games/gog/atom-rpg-trudograd/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 5
+protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
 
@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Turn-based strategy
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Medo, Atos criminosos, Violência, Temas sensíveis, Linguagem imprópria, Conteúdo sexual, Drogas lícitas, Drogas, Drogas ilícitas"}}
-release_date: "May 1, 2020"
+release_date: "September 13, 2021"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","English","Spanish","French","Japanese","Polish","Russian","Chinese Traditional"]
 languages_audio: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "16.5 hrs"
 hltb_main_extra: "31.5 hrs"
-hltb_completionist: "61 hrs"
+hltb_completionist: "33.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/78978"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1818710374"
 is_featured: false
-owned: true
+owned: false
 ---
 
 ATOM RPG: Trudograd is a turn-based post-apocalyptic roleplaying game, which continues the story of ATOM RPG

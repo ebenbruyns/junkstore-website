@@ -26,19 +26,19 @@ publisher: Kepler Interactive
 developer: The Gentlebros
 genre: Casual, RPG, Action-Adventure
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "December 28, 2023"
-game_modes: ["Single-player"]
+release_date: "August 8, 2017"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Thai","Traditional Chinese","Russian"]
 languages_audio: []
-tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"35244","name":"Epic Savings"},{"id":"9549","name":"Controller Support"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "108 MB"
 franchise_siblings: [{"rawg_id":986898,"slug":"cat-quest-iii","name":"Cat Quest III"},{"rawg_id":304320,"slug":"cat-quest-ii","name":"Cat Quest II"}]
 franchise_slug: "cat-quest|cat-quest-ii|cat-quest-iii"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/cat-quest"
 was_free_before: true
-giveaway_events: [{"start":"2025-03-27T15:00:00.000Z","end":"2025-04-03T15:00:00.000Z","type":null,"id":"2da36fbed1b34d1997e5ffb1f8efdeb6"},{"start":"2023-12-27T15:00:00.000Z","end":"2023-12-28T15:00:00.000Z","type":null,"id":"2da36fbed1b34d1997e5ffb1f8efdeb6"}]
+giveaway_events: [{"_id":"67e56255851069296359f19d","id":"2da36fbed1b34d1997e5ffb1f8efdeb6","namespace":"c986e75258a146fba03a920dba852ca9","startDate":"2025-03-27T15:00:00.000Z","endDate":"2025-04-03T15:00:00.000Z","title":"Cat Quest","__v":0},{"_id":"66abf1cd3631f27c961eb98a","id":"2da36fbed1b34d1997e5ffb1f8efdeb6","namespace":"c986e75258a146fba03a920dba852ca9","startDate":"2023-12-27T15:00:00.000Z","endDate":"2023-12-28T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -28,17 +28,17 @@ genre: Horror, First Person, Indie
 franchise: 
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "September 9, 2025"
+release_date: "April 27, 2017"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "1.18 GB"
 franchise_siblings: [{"rawg_id":399391,"slug":"bendy-and-the-dark-revival","name":"Bendy and the Dark Revival"},{"rawg_id":411651,"slug":"boris-and-the-dark-survival","name":"Boris and the Dark Survival"},{"rawg_id":74362,"slug":"bendy-in-nightmare-run","name":"Bendy in Nightmare Run"}]
 franchise_slug: "bendy-and-the-dark-revival|bendy-and-the-ink-machine|bendy-in-nightmare-run|boris-and-the-dark-survival"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/bendy-and-the-ink-machine"
 was_free_before: true
-giveaway_events: [{"start":"2025-10-30T15:00:00.000Z","end":"2025-11-06T16:00:00.000Z","type":null,"id":"fb722544c8314c45bf9a42c66b2a5a73"}]
+giveaway_events: [{"_id":"68fa38dece43157c666a4e49","id":"fb722544c8314c45bf9a42c66b2a5a73","namespace":"4ebf21b7761e40cdb180d0604127e4a6","startDate":"2025-10-30T15:00:00.000Z","endDate":"2025-11-06T16:00:00.000Z","title":"Bendy and the Ink Machine","__v":0}]
 free_games_aliases: []
 
 # Images

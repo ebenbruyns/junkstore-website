@@ -28,15 +28,15 @@ genre: Strategy, Simulator
 franchise: 
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Drug Reference, Language, Mild Violence, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"PG"},"nzoflc":{"rating":"PG"},"kgrb":{"rating":"12"},"fpb":{"rating":"13","descriptors":"Violence"},"csrr":{"rating":"C12"},"dejus":{"rating":"10","descriptors":"Violence"}}
-release_date: "January 1, 2099"
-game_modes: ["Single-player","Multi-player"]
+release_date: "October 20, 2016"
+game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"9","name":"Online Co-Op"},{"id":"80","name":"Tactical"},{"id":"40852","name":"Steam Workshop"},{"id":"62","name":"Moddable"},{"id":"70","name":"War"},{"id":"102","name":"Turn-Based"},{"id":"89","name":"Historical"},{"id":"120","name":"Memes"},{"id":"101","name":"Turn-Based Strategy"},{"id":"164","name":"Cartoony"},{"id":"179","name":"Cartoon"},{"id":"100","name":"Grand Strategy"},{"id":"212","name":"4X"}]
 size: ""
 franchise_siblings: [{"rawg_id":983201,"slug":"sid-meiers-civilization-vii","name":"Sid Meier’s Civilization VII"},{"rawg_id":13633,"slug":"civilization-v","name":"Sid Meier's Civilization V"},{"rawg_id":13780,"slug":"sid-meiers-civilization-iv","name":"Sid Meier's Civilization IV"},{"rawg_id":17380,"slug":"sid-meiers-civilization-iii-complete","name":"Sid Meier's Civilization III Complete"},{"rawg_id":32060,"slug":"sid-meiers-civilization-2","name":"Sid Meier's Civilization 2"},{"rawg_id":32062,"slug":"sid-meiers-civilization","name":"Sid Meier's Civilization"}]
 franchise_slug: "civilization-v|civilization-vi|sid-meiers-civilization|sid-meiers-civilization-2|sid-meiers-civilization-iii-co|sid-meiers-civilization-iv|sid-meiers-civilization-vii"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sid-meiers-civilization-vi"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

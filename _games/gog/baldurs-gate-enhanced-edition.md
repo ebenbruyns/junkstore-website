@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Strategy
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Animated Blood, Mild Language, Use of Alcohol and Tobacco"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"bbfc":{"rating":"12"},"oflc":{"rating":"PG"},"nzoflc":{"rating":"PG"},"dejus":{"rating":"12"}}
-release_date: "November 27, 2012"
+release_date: "January 16, 2013"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","French","Hungarian","Italian","Japanese","Korean","Polish","Russian","Turkish","Ukrainian"]
 languages_audio: ["English","German","French","Polish","Russian","Ukrainian"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "2787 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/baldur-s-gate-enhanced-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/13cc27fddc2e0d72b1d46da3e8620762a5a062e494a2282cc1d35d63a8a90ab4.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/58f8d797948813511a6b58fe6cdb7f96d7074a764c3596d4284e52ecdb2442e7.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/228280/header.jpg"
 
 # Technical Details
 controller_input: "requires-mapping"

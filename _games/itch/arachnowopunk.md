@@ -3,12 +3,12 @@ layout: game-page
 title: "Arachnowopunk - Steam Deck Compatibility"
 game_title: "Arachnowopunk"
 slug: "arachnowopunk"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/arachnowopunk/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""

@@ -3,12 +3,12 @@ layout: game-page
 title: "Angry Video Game Nerd I & II Deluxe - Steam Deck Compatibility"
 game_title: "Angry Video Game Nerd I & II Deluxe"
 slug: "angry-video-game-nerd-i-ii-deluxe"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/angry-video-game-nerd-i-ii-deluxe/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez, Linguagem imprópria, Violência"}}
 release_date: "October 29, 2020"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Portugal","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"74","name":"Retro"},{"id":"44","name":"Nudity"}]

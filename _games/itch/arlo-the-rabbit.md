@@ -3,12 +3,12 @@ layout: game-page
 title: "Arlo the Rabbit - Steam Deck Compatibility"
 game_title: "Arlo the Rabbit"
 slug: "arlo-the-rabbit"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/arlo-the-rabbit/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: E (ESRB)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Cartoon Violence"}}
 release_date: "May 23, 2018"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/arlo-the-rabbit"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

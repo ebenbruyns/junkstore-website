@@ -3,12 +3,12 @@ layout: game-page
 title: "Cosmic Express - Steam Deck Compatibility"
 game_title: "Cosmic Express"
 slug: "cosmic-express"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/cosmic-express/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "March 16, 2017"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"25","name":"Space"},{"id":"88","name":"Cute"},{"id":"2590","name":"fun"},{"id":"1129","name":"art"},{"id":"139","name":"Trains"},{"id":"784","name":"train"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/cosmic-express"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

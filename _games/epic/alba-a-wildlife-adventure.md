@@ -26,19 +26,19 @@ publisher: PID Games
 developer: ustwo games
 genre: Casual
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "November 10, 2022"
+release_date: "December 11, 2020"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Portuguese - Portugal","Russian","Simplified Chinese","Traditional Chinese","Turkish","Dutch","Korean"]
 languages_audio: []
-tags_structured: [{"id":"1296","name":"Casual"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "1.02 GB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/alba-a-wildlife-adventure"
 was_free_before: true
-giveaway_events: [{"start":"2022-11-09T15:00:00.000Z","end":"2022-11-16T15:00:00.000Z","type":null,"id":"44a89fd06011419d9df5fe412ab305e1"}]
+giveaway_events: [{"_id":"66abf1d93631f27c961ebcc3","id":"44a89fd06011419d9df5fe412ab305e1","namespace":"caf357c955344eaeaaaddb3c8357dbdf","startDate":"2022-11-09T15:00:00.000Z","endDate":"2022-11-16T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

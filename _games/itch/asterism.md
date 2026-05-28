@@ -3,12 +3,12 @@ layout: game-page
 title: "Asterism - Steam Deck Compatibility"
 game_title: "Asterism"
 slug: "asterism"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/asterism/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Role-playing (RPG), Adventure, Indie, Visual Novel
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "December 31, 2019"
-game_modes: ["Single-player"]
+release_date: "January 17, 2025"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"25","name":"Space"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"46","name":"Surreal"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"116","name":"2.5D"},{"id":"572","name":"Emotional"},{"id":"91686","name":"Family Sharing"},{"id":"288","name":"Interactive Fiction"},{"id":"774","name":"nature"},{"id":"42410","name":"LGBTQ+"},{"id":"207","name":"Rhythm"},{"id":"84","name":"Abstract"},{"id":"174","name":"Audio Production"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/asterism--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

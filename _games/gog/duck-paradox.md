@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"32","name":"Sci-fi"},
 size: "214 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/duck-paradox"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

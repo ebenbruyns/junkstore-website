@@ -26,19 +26,19 @@ publisher: House on Fire
 developer: House On Fire
 genre: Puzzle, Adventure, Indie
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Compras on-line"}}
-release_date: "May 2, 2022"
-game_modes: ["Single-player"]
+release_date: "May 29, 2015"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian","Polish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-silent-age"
 was_free_before: true
-giveaway_events: [{"start":"2023-03-29T15:00:00.000Z","end":"2023-04-05T15:00:00.000Z","type":null,"id":"9f476effdb174d789a6d7894d7c39dbb"}]
+giveaway_events: [{"_id":"66abf1d43631f27c961ebb7d","id":"9f476effdb174d789a6d7894d7c39dbb","namespace":"46d340566781448ebdc2cb576f91d3b6","startDate":"2023-03-29T15:00:00.000Z","endDate":"2023-04-05T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

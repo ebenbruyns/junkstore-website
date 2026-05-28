@@ -28,15 +28,15 @@ genre: Puzzle, Action-Adventure, Platformer
 franchise: 
 age_rating_summary: 12 (PEGI)
 age_ratings: {"pegi":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa"}}
-release_date: "December 31, 2025"
-game_modes: ["Online Multi-player","Local Multi-player","Co-op"]
+release_date: "July 2, 2009"
+game_modes: ["Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","French","German","Italian","Spanish - Spain"]
 languages_audio: ["English","French","German","Italian","Spanish - Spain"]
-tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
 size: "3353 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/trine"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

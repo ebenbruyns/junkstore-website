@@ -26,17 +26,17 @@ publisher: Games Operators
 developer: Jutsu Games
 genre: Simulation, Strategy, Indie
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Atos criminosos, Linguagem imprópria, Drogas ilícitas"}}
-release_date: "April 23, 2026"
-game_modes: ["Single-player"]
+release_date: "February 24, 2017"
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Simplified Chinese","Russian","Japanese","Czech","Korean","Portuguese - Brazil","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/911-operator"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

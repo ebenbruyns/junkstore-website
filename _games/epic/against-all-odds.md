@@ -9,7 +9,7 @@ permalink: /games/epic/against-all-odds/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Nov '24"
 proton_version: ""
 
@@ -26,19 +26,19 @@ publisher: Freedom Games
 developer: Microwave Games
 genre: Action, Sports, Indie
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
-release_date: "May 4, 2023"
+release_date: "May 19, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1283","name":"Sports"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1283","name":"Sports"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/against-all-odds--2"
 was_free_before: true
-giveaway_events: [{"start":"2023-05-03T15:00:00.000Z","end":"2023-05-10T15:00:00.000Z","type":null,"id":"5b99274688e9465aa9d5ca5cea176cfd"}]
+giveaway_events: [{"_id":"66abf1d33631f27c961ebb40","id":"5b99274688e9465aa9d5ca5cea176cfd","namespace":"676a89b2e8344c9db39a79724150cba6","startDate":"2023-05-03T15:00:00.000Z","endDate":"2023-05-10T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1465560"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Water's cut. Rent's due. Jobs, scarce. Time to get rich. Enter the Slaughter League & win against all odds in supremely lethal races. Platforming meets slaughter in this casual racing game designed for players looking for a new experience - or wind down with blood & guts galore!

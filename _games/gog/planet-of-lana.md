@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "6228 MB"
 franchise_siblings: [{"rawg_id":1015907,"slug":"planet-of-lana-2-children-of-the-leaf","name":"planet of lana 2 children of the leaf"}]
 franchise_slug: "planet-of-lana|planet-of-lana-2-children-of-t"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/planet-of-lana"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

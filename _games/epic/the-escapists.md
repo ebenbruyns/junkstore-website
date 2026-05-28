@@ -26,19 +26,19 @@ publisher: Team17
 developer: Mouldy Toof Studios
 genre: Action, Strategy
 franchise: The Escapists
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Atos criminosos, Violência"}}
-release_date: "December 12, 2019"
-game_modes: ["Single-player"]
+release_date: "February 13, 2015"
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Italian"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-escapists"
 was_free_before: true
-giveaway_events: [{"start":"2021-09-22T15:00:00.000Z","end":"2021-09-29T15:00:00.000Z","type":null,"id":"409270ba4b814c20a761407ab7a49dbd"},{"start":"2019-12-11T15:00:00.000Z","end":"2019-12-18T15:00:00.000Z","type":null,"id":"409270ba4b814c20a761407ab7a49dbd"}]
+giveaway_events: [{"_id":"66abf1e43631f27c961ebf97","id":"409270ba4b814c20a761407ab7a49dbd","namespace":"61bc780f42f84fe29e6dfee957ab82de","startDate":"2021-09-22T15:00:00.000Z","endDate":"2021-09-29T15:00:00.000Z","__v":0},{"_id":"66abf1f83631f27c961ec482","id":"409270ba4b814c20a761407ab7a49dbd","namespace":"61bc780f42f84fe29e6dfee957ab82de","startDate":"2019-12-11T15:00:00.000Z","endDate":"2019-12-18T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

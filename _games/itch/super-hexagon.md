@@ -3,12 +3,12 @@ layout: game-page
 title: "Super Hexagon - Steam Deck Compatibility"
 game_title: "Super Hexagon"
 slug: "super-hexagon"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/super-hexagon/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Arcade
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "August 1, 2012"
-game_modes: ["Single-player"]
+release_date: "November 27, 2012"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"45","name":"2D"},{"id":"49","name":"Difficult"},{"id":"115","name":"Controller"},{"id":"336","name":"controller support"},{"id":"5","name":"Replay Value"},{"id":"165","name":"Colorful"},{"id":"131","name":"Fast-Paced"},{"id":"136","name":"Music"},{"id":"57","name":"Bullet Hell"},{"id":"112","name":"Minimalist"},{"id":"207","name":"Rhythm"},{"id":"54","name":"Score Attack"},{"id":"286","name":"Psychedelic"},{"id":"84","name":"Abstract"}]
 size: "29 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/super-hexagon"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

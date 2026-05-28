@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "6549 MB"
 franchise_siblings: [{"rawg_id":961200,"slug":"talos-principle-2","name":"The Talos Principle 2"}]
 franchise_slug: "talos-principle-2|the-talos-principle"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-talos-principle"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/heaven-dust-2/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "January 5, 2022"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Japanese","Traditional Chinese","Russian","Korean","Hungarian","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"150","name":"Third-Person Shooter"},{"id":"63","name":"Zombies"},{"id":"17","name":"Survival Horror"},{"id":"571","name":"3D"},{"id":"218","name":"Multiple Endings"},{"id":"48","name":"Dungeon Crawler"},{"id":"209","name":"Drama"},{"id":"147","name":"Resource Management"},{"id":"179","name":"Cartoon"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/heaven-dust-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

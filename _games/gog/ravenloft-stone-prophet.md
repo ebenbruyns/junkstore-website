@@ -8,7 +8,7 @@ storefront_key: "gog"
 permalink: /games/gog/ravenloft-stone-prophet/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Strategy
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
-release_date: "December 31, 1995"
+release_date: "March 29, 2022"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: []
 size: "321 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/al-qadim-the-genie-s-curse"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "16 hrs"
 hltb_main_extra: "17 hrs"
-hltb_completionist: ""
+hltb_completionist: "23 hrs"
 hltb_url: "https://howlongtobeat.com/game/109076"
 
 # Links

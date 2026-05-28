@@ -28,7 +28,7 @@ genre: Action, Adventure, Casual, Massively Multiplayer, Racing, RPG, Strategy
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"12","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "January 1, 2099"
+release_date: "July 22, 2025"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Russian","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Russian"]
@@ -36,13 +36,13 @@ tags_structured: [{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"M
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/wildgate"
 was_free_before: true
-giveaway_events: [{"start":"2026-01-01T16:00:00.000Z","end":"2026-01-08T16:00:00.000Z","type":null,"id":"acd0b5048a0d43ec80909788a388964a"}]
+giveaway_events: [{"_id":"695ba6d2db5053ca545695a9","id":"acd0b5048a0d43ec80909788a388964a","namespace":"d5241c76f178492ea1540fce45616757","startDate":"2026-01-01T16:00:00.000Z","endDate":"2026-01-08T16:00:00.000Z","title":"Wildgate","__v":0}]
 free_games_aliases: []
 
 # Images
-banner_image: ""
+banner_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/3504780/library_hero.jpg"
 cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/3504780/library_600x900.jpg"
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/3504780/capsule_231x87.jpg"
 

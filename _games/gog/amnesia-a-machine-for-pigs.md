@@ -26,7 +26,7 @@ publisher: Frictional Games
 developer: The Chinese Room
 genre: Adventure, Indie, Puzzle
 franchise: Amnesia
-age_rating_summary: ESRB Teen
+age_rating_summary: Teen (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Nudez, Linguagem imprópria, Violência"}}
 release_date: "September 10, 2013"
 game_modes: ["Single-player"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Play
 size: "2495 MB"
 franchise_siblings: [{"rawg_id":911543,"slug":"amnesia-the-bunker","name":"Amnesia: The Bunker"},{"rawg_id":427519,"slug":"amnesia-rebirth","name":"Amnesia: Rebirth"},{"rawg_id":13668,"slug":"amnesia-the-dark-descent","name":"Amnesia: The Dark Descent"}]
 franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|amnesia-the-dark-descent"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/amnesia-a-machine-for-pigs"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "5 hrs"
-hltb_completionist: "5.5 hrs"
+hltb_completionist: "4.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/438"
 
 # Links

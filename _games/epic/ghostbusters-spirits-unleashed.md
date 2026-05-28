@@ -28,7 +28,7 @@ genre: Horror, Shooter
 franchise: Ghostbusters
 age_rating_summary: PG (OFLC)
 age_ratings: {"oflc":{"rating":"PG","descriptors":"Mild supernatural themes, violence, coarse language, online, interactivity"},"kgrb":{"rating":"12","descriptors":"Violence, Horror, Language, Drugs"},"dejus":{"rating":"10","descriptors":"Violência, Interação de usuários"}}
-release_date: "October 18, 2022"
+release_date: "October 19, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Traditional Chinese"]
 languages_audio: ["English","Japanese"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1218","name":"Horror"},{"id":"1203","name":"Multiplayer
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/ghostbusters-spirits-unleashed"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

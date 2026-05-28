@@ -26,7 +26,7 @@ publisher: HandyGames
 developer: The Dreamerians
 genre: Casual, Action-Adventure, Indie
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "April 3, 2026"
 game_modes: ["Single-player"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1296","name":"Casual"},{"id":"21894","name":"Cloud Save
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/a-rats-quest-the-way-back-home"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

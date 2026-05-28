@@ -36,7 +36,7 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Play
 size: "916 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-falconeer-revolution-remaster"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "9 hrs"
 hltb_main_extra: "11.5 hrs"
-hltb_completionist: "14.5 hrs"
+hltb_completionist: "10.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/83463"
 
 # Links

@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/surf-world-series/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Sport, Arcade
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"oflc":{"rating":"G","descriptors":"Very mild themes, online interactivity"},"dejus":{"rating":"L"}}
-release_date: "August 29, 2017"
-game_modes: ["Single-player","Multi-player"]
+release_date: "August 30, 2017"
+game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/surf-world-series"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

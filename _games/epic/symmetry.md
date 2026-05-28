@@ -28,7 +28,7 @@ genre: Indie
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"cero":{"rating":"B"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "May 26, 2022"
+release_date: "February 20, 2018"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Portuguese - Portugal","Russian","Czech","Japanese","Simplified Chinese","Italian","Hungarian","Korean"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Wind
 size: "196 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/symmetry"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -93,8 +93,8 @@ opencritic_score: 63
 opencritic_review_count: 16
 twitch_id: ""
 twitch_url: ""
-playstation_id: ""
-playstation_url: ""
+playstation_id: "229837"
+playstation_url: "https://store.playstation.com/en-us/concept/229837"
 xbox_id: ""
 xbox_url: ""
 geforcenow_id: ""

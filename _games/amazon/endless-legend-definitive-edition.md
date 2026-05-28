@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/endless-legend-definitive-edition/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Mild Blood"},"pegi":{"rating":"12","descriptors":"Online, Violence"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violence, User Interact"}}
 release_date: "September 18, 2014"
-game_modes: ["Single-player","Multi-player"]
+game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Polish","Russian","Italian","Spanish - Spain","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: []
 size: ""
 franchise_siblings: [{"rawg_id":529816,"slug":"endless-dungeons","name":"Endless Dungeon"},{"rawg_id":10309,"slug":"endless-space-2","name":"Endless Space 2"},{"rawg_id":1830,"slug":"dungeon-of-the-endless","name":"Dungeon of the Endless"},{"rawg_id":41457,"slug":"endless-space","name":"Endless Space"}]
 franchise_slug: "dungeon-of-the-endless|endless-dungeons|endless-legend|endless-space|endless-space-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/endless-legend"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -33,11 +33,10 @@ game_modes: ["Single-player"]
 languages: ["Czech","German","English","Spanish","French","Hungarian","Italian","Polish","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"97","name":"Action RPG"},{"id":"44","name":"Nudity"},{"id":"145","name":"Choices Matter"},{"id":"40","name":"Dark Fantasy"},{"id":"192","name":"Mature"},{"id":"66","name":"Medieval"},{"id":"82","name":"Magic"},{"id":"218","name":"Multiple Endings"},{"id":"283","name":"Based On A Novel"}]
-size: "10334069000
-"
+size: "9706 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-witcher"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -45,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/fc1c44b2252e3200db66872630f7e21687bba217b6eabb188451556b5941cf63.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/7fbb815727527616881cb45a56f51a19e90ddf21ba00c9e22b4852d9bec6324a.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/20900/header.jpg"
 
 # Technical Details
 controller_input: ""
@@ -76,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "35 hrs"
 hltb_main_extra: "46 hrs"
-hltb_completionist: "63.5 hrs"
+hltb_completionist: "46.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/10267"
 
 # Links

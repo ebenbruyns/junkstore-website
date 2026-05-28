@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 3 (PEGI) · 0 (USK)
 age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"0"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"},"dejus":{"rating":"L"}}
 release_date: "August 16, 2024"
-game_modes: ["Single-player","Local Multi-player"]
+game_modes: ["Single-player","Local Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Danish","Dutch","Finnish","Norwegian","Polish","Portuguese - Brazil","Portuguese - Portugal","Russian","Spanish - Latin America","Swedish","Turkish","Ukrainian","Czech","Hungarian","Romanian"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1283","name":"Sports"},{"id":"1299","name":"Competitive"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
 size: "20654 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/house-of-golf-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

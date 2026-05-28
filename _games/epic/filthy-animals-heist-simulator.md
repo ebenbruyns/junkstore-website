@@ -26,7 +26,7 @@ publisher: Green Man Gaming Publishing
 developer: Pewter Games Studios
 genre: Action, Adventure
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Atos criminosos, Violência fantasiosa"}}
 release_date: "April 4, 2023"
 game_modes: ["Single-player","Co-op"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"i
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/filthy-animals-heist-simulator"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/aa85be33107f5f711548ea49a13355181519f5b1b4e5fb30ab8b09b61d0549f1.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/3411622cd93d0657d7395462ed605c121eafe0ec7947bdf0f741ea78fcc26816.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1195420/header.jpg"
 
 # Technical Details
 controller_input: "native"

@@ -28,17 +28,17 @@ genre: Action, Horror
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Suggestive Themes, Strong Language, Use of Drugs"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"Contains graphic violence &amp; gore."},"nzoflc":{"rating":"r18","descriptors":"Contains graphic violence &amp; gore."},"kgrb":{"rating":"18","descriptors":"Violence, Drugs, Bad Language"},"fpb":{"rating":"18"},"csrr":{"rating":"R"},"dejus":{"rating":"18","descriptors":"Drogas, Linguagem Imprópria, Violência Extrema"}}
-release_date: "April 21, 2023"
+release_date: "April 22, 2024"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"},{"id":"10719","name":"Mac OS"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"},{"id":"10719","name":"Mac OS"}]
 size: ""
 franchise_siblings: [{"rawg_id":442869,"slug":"island-saver","name":"Island Saver"},{"rawg_id":2881,"slug":"dead-island-retro-revenge-2","name":"Dead Island Retro Revenge"},{"rawg_id":59318,"slug":"dead-island-survivors","name":"Dead Island: Survivors"},{"rawg_id":42309,"slug":"dead-island-epidemic","name":"Dead Island: Epidemic"},{"rawg_id":3496,"slug":"escape-dead-island","name":"Escape Dead Island"},{"rawg_id":4031,"slug":"dead-island-riptide","name":"Dead Island Riptide"},{"rawg_id":39928,"slug":"dead-island-ryder-white","name":"Dead Island: Ryder White"},{"rawg_id":42139,"slug":"dead-island-bloodbath-arena","name":"Dead Island: Bloodbath Arena"},{"rawg_id":28492,"slug":"dead-island","name":"Dead Island"},{"rawg_id":25040,"slug":"yoshis-island-ds","name":"Yoshi's Island DS"}]
 franchise_slug: "dead-island|dead-island-2|dead-island-bloodbath-arena|dead-island-epidemic|dead-island-retro-revenge-2|dead-island-riptide|dead-island-ryder-white|dead-island-survivors|escape-dead-island|island-saver|yoshis-island-ds"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/dead-island-2"
 was_free_before: true
-giveaway_events: [{"start":"2025-05-15T15:00:00.000Z","end":"2025-05-22T15:00:00.000Z","type":null,"id":"29cfc63ad4074333bc6e3f7efb6fab3a"}]
+giveaway_events: [{"_id":"681cbf00ee03736bcd4ae9f1","id":"29cfc63ad4074333bc6e3f7efb6fab3a","namespace":"236c74b4cd2e4e3099cbe2ebdc9686fd","startDate":"2025-05-15T15:00:00.000Z","endDate":"2025-05-22T15:00:00.000Z","title":"Dead Island 2","__v":0}]
 free_games_aliases: []
 
 # Images

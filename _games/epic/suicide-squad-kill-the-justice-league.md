@@ -28,7 +28,7 @@ genre: Action, Action-Adventure
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad, Language, In-Game, Purchases"},"usk":{"rating":"16","descriptors":"Gewalt, In-Game-Käufe, Chats"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Strong themes and, violence, online, interactivity, in-game, purchases and chat"},"nzoflc":{"rating":"M","descriptors":"Violence, sexual references &amp; offensive language"},"kgrb":{"rating":"18","descriptors":"Violence, Language"},"fpb":{"rating":"16","descriptors":"H L V PPS CI"},"csrr":{"rating":"R","descriptors":"Violence,, Inappropriate, Language, Antisocial"},"mda":{"rating":"M18","descriptors":"Strong Violence"},"dejus":{"rating":"16","descriptors":"Violência, Interação de usuários, Compras on-line"}}
-release_date: "March 26, 2024"
+release_date: "February 2, 2024"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Japanese","Spanish - Latin America"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Spanish - Latin America"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Ch
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/suicide-squad-kill-the-justice-league"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

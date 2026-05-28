@@ -26,19 +26,19 @@ publisher: Eleon Game Studios SA
 developer: Eleon Game Studios SA
 genre: Space, Survival, Open World
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "October 10, 2024"
-game_modes: ["Single-player","Online Multi-player","Local Multi-player","Co-op"]
+release_date: "August 5, 2020"
+game_modes: ["Single-player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","German","French","Russian","Italian","Portuguese - Brazil","Simplified Chinese","Greek"]
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1121","name":"Space"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1183","name":"Local Multiplayer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/empyrion-galactic-survival"
 was_free_before: true
-giveaway_events: [{"start":"2024-10-10T15:00:00.000Z","end":"2024-10-17T15:00:00.000Z","type":null,"id":"5d79a38c99e9432f8dec6288a17595ab"}]
+giveaway_events: [{"_id":"67003d8b24bb30b2f60b34e1","id":"5d79a38c99e9432f8dec6288a17595ab","namespace":"edd938a6d7ec4a55ab82bba8f8dd5b22","startDate":"2024-10-10T15:00:00.000Z","endDate":"2024-10-17T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

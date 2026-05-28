@@ -28,16 +28,16 @@ genre: Action, Horror
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Language, Mild Sexual Themes, Use of Alcohol and Tobacco"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"cero":{"rating":"D"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"r16"},"kgrb":{"rating":"18"},"fpb":{"rating":"18"},"mda":{"rating":"M18"}}
-release_date: "June 2, 2022"
-game_modes: ["Single-player"]
+release_date: "March 25, 2013"
+game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese","Korean","Traditional Chinese"]
 languages_audio: ["English","French","German","Italian","Spanish - Spain","Japanese"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "38456478076
 "
 franchise_siblings: [{"rawg_id":884223,"slug":"bioshock-pinball","name":"Bioshock Pinball"},{"rawg_id":422857,"slug":"bioshock-2-minervas-den-remastered","name":"BioShock 2: Minerva's Den Remastered"},{"rawg_id":987520,"slug":"bioshock-2-the-protector-trials","name":"BioShock 2: The Protector Trials"},{"rawg_id":41962,"slug":"bioshock-2-sinclair-solutions-test-pack","name":"BioShock 2: Sinclair Solutions Test Pack"},{"rawg_id":4427,"slug":"bioshock-2","name":"BioShock 2"},{"rawg_id":987521,"slug":"bioshock-challenge-rooms","name":"BioShock: Challenge Rooms"},{"rawg_id":4286,"slug":"bioshock","name":"BioShock"},{"rawg_id":397468,"slug":"bioshock-4","name":"BioShock 4"}]
 franchise_slug: "bioshock|bioshock-2|bioshock-2-minervas-den-remast|bioshock-2-sinclair-solutions-|bioshock-2-the-protector-trial|bioshock-4|bioshock-challenge-rooms|bioshock-infinite|bioshock-pinball"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/bioshock-infinite"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -77,7 +77,7 @@ native_linux: true
 hltb_main: "11.5 hrs"
 hltb_main_extra: "16.1 hrs"
 hltb_completionist: "28.5 hrs"
-hltb_url: "https://howlongtobeat.com/game/1068"
+hltb_url: "https://howlongtobeat.com/game/96523"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bioshock-infinite-complete-edition"

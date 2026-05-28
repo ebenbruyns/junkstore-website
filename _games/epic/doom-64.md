@@ -28,17 +28,17 @@ genre: Action, Retro
 franchise: DOOM
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence"},"usk":{"rating":"18","descriptors":"Explicit Violence"},"oflc":{"rating":"ma15","descriptors":"Strong Themes, Strong Violence"},"csrr":{"rating":"R","descriptors":"Anti-social Characteristics, Violence"},"dejus":{"rating":"16","descriptors":"Inappropriate Language, Violence"}}
-release_date: "August 18, 2022"
-game_modes: ["Single-player"]
+release_date: "March 19, 2020"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1198","name":"Retro"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1198","name":"Retro"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "187 MB"
 franchise_siblings: [{"rawg_id":58777,"slug":"doom-eternal","name":"DOOM Eternal"},{"rawg_id":2454,"slug":"doom","name":"DOOM (2016)"},{"rawg_id":2364,"slug":"doom-ii-rpg","name":"DOOM II RPG"},{"rawg_id":36355,"slug":"doom-3-resurrection-of-evil","name":"Doom 3: Resurrection of Evil"},{"rawg_id":19458,"slug":"doom-3","name":"Doom 3"},{"rawg_id":22448,"slug":"final-doom","name":"Final DOOM"},{"rawg_id":22412,"slug":"ultimate-doom","name":"Ultimate Doom"},{"rawg_id":17975,"slug":"doom-ii","name":"DOOM II"},{"rawg_id":52884,"slug":"doom-2","name":"DOOM"}]
 franchise_slug: "doom|doom-2|doom-3|doom-3-resurrection-of-evil|doom-64|doom-eternal|doom-ii|doom-ii-rpg|final-doom|ultimate-doom"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/3471"
 was_free_before: true
-giveaway_events: [{"start":"2022-08-17T15:00:00.000Z","end":"2022-08-24T15:00:00.000Z","type":null,"id":"4d14124e8e9c484381db3be1e2118e8a"}]
+giveaway_events: [{"_id":"66abf1dc3631f27c961ebd59","id":"4d14124e8e9c484381db3be1e2118e8a","namespace":"0ea70edafcc54b3191e262bbb6971981","startDate":"2022-08-17T15:00:00.000Z","endDate":"2022-08-24T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -36,7 +36,7 @@ tags_structured: []
 size: "308 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-feast--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -79,7 +79,7 @@ hltb_completionist: "1½ Hours"
 hltb_url: "https://howlongtobeat.com/game/119290"
 
 # Links
-store_url: "https://www.gog.com/game/the-feast"
+store_url: "https://www.gog.com/en/game/the_feast"
 protondb_url: "https://www.protondb.com/app/2221940"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Feast"

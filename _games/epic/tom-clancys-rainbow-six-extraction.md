@@ -28,15 +28,15 @@ genre: Shooter, Strategy
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Strong Language, Drug Reference"},"pegi":{"rating":"16","descriptors":"Violence, Bad language, In-game purchases"},"usk":{"rating":"16"},"cero":{"rating":"C","descriptors":"Crime, Violence"},"kgrb":{"rating":"18","descriptors":"Violence, Bad language"},"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
-release_date: "January 20, 2022"
+release_date: "June 15, 2023"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Simplified Chinese","Traditional Chinese","Korean","Spanish - Latin America","Japanese","Polish","Portuguese - Brazil","Russian","Thai","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America","Japanese","Portuguese - Brazil","Russian"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/tom-clancys-rainbow-six-extraction"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "6138dadf8ba949ada66d3dba976a0f12"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Assemble your elite team of Rainbow Six Operators to launch incursions in the unpredictable containment zones and face off against an evolving Alien threat. Band together and put everything on the line as you take on this unknown enemy.

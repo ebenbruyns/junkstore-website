@@ -26,9 +26,9 @@ publisher: The MIX Games
 developer: The MIX Games. Wallride
 genre: Action, Action-Adventure
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"6"}}
-release_date: "September 12, 2024"
+release_date: "September 10, 2024"
 game_modes: ["Single-player","Co-op"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"i
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/rugrats-adventures-in-gameland"
 was_free_before: true
-giveaway_events: [{"start":"2024-09-12T15:00:00.000Z","end":"2024-09-19T15:00:00.000Z","type":null,"id":"03fa35d7ade24540b5902b662570a270"}]
+giveaway_events: [{"_id":"66d97e339061624bcb5a2b4a","id":"03fa35d7ade24540b5902b662570a270","namespace":"c20d98862be8473b896df438004868c5","startDate":"2024-09-12T15:00:00.000Z","endDate":"2024-09-19T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

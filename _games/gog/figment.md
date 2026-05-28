@@ -36,7 +36,7 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss
 size: "725 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/figment-2-creed-valley"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,14 +75,14 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "5 hrs"
 hltb_main_extra: "5.5 hrs"
-hltb_completionist: "6.5 hrs"
+hltb_completionist: "5.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/48177"
 
 # Links
 store_url: "https://www.gog.com/en/game/figment"
 protondb_url: "https://www.protondb.com/app/493540"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment_2%3A_Creed_Valley"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/figment/"
 
@@ -93,8 +93,8 @@ opencritic_score: 79
 opencritic_review_count: 33
 twitch_id: ""
 twitch_url: ""
-playstation_id: ""
-playstation_url: ""
+playstation_id: "10004222"
+playstation_url: "https://store.playstation.com/en-us/concept/10004222"
 xbox_id: ""
 xbox_url: ""
 geforcenow_id: ""

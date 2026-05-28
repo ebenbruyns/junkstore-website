@@ -9,7 +9,7 @@ permalink: /games/gog/the-coma-2-vicious-sisters/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: adventure, strategy, indie, visual novel
 franchise: 
 age_rating_summary: 
 age_ratings: {"kgrb":{"rating":"15"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Medo, Linguagem imprópria"}}
-release_date: "January 1, 2020"
+release_date: "January 28, 2020"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","German","English","Spanish","French","Korean","Portuguese","Russian","Thai","Ukrainian"]
 languages_audio: ["Korean"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1332 MB"
 franchise_siblings: [{"rawg_id":11772,"slug":"the-coma-cutting-class","name":"The Coma: Cutting Class"}]
 franchise_slug: "the-coma-2-vicious-sisters|the-coma-cutting-class"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-coma-2-vicious-sisters"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1854689188"
 is_featured: false
-owned: true
+owned: false
 ---
 
 The Coma 2: Vicious Sisters is a Korean survival horror-adventure. As Mina Park, you must venture from your deserted school to survive.

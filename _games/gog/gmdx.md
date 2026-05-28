@@ -14,29 +14,29 @@ date_tested: "Sept '25"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
-steam_deck_verified: ""
-steam_deck_category: 
+protondb_tier: "platinum"
+protondb_score: 0.81
+protondb_total: 157
+protondb_confidence: "strong"
+steam_deck_verified: "playable"
+steam_deck_category: 2
 
 # Game Info
 publisher: "|Totalitarian|"
 developer: Totalitarian
 genre: Role-playing (RPG), Adventure, Shooter
 franchise: 
-age_rating_summary: 
-age_ratings: {}
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Animated Blood, Animated Violence"},"pegi":{"rating":"16","descriptors":"Realistic looking violence, encouragement of the use of alcohol/tobacco, use of illegal drugs"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Medium level animated violence; Adult themes"},"nzoflc":{"rating":"ma15","descriptors":"Medium level animated violence; Adult themes"},"dejus":{"rating":"18"}}
 release_date: "January 1, 2017"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"3605","name":"tool"},{"id":"891","name":"jam"},{"id":"973","name":"libGDX"}]
 size: "3043 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/deus-ex-special-limited-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/aa0965523261e8f0d36096172512047bbbb95a6f3b5835a290fb25ef63c65b2e.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/0c0b926fc0781754010bfb71ab0aff7937ea0daaff756f4cf571e1a5fdb91596.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://images.gog-statics.com/11e47de4b79dcd65e1988378893b2272074a9d5af4996e0a58fe1a1672ef1711.png"
 
 # Technical Details
 controller_input: "keyboard-mouse"
@@ -73,18 +73,18 @@ cant_test_linux: false
 native_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "22.5 hrs"
+hltb_main_extra: "28.5 hrs"
+hltb_completionist: "39 hrs"
+hltb_url: "https://howlongtobeat.com/game/2486"
 
 # Links
 store_url: "https://www.gog.com/en/game/gmdx"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/6910"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deus_Ex"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 90
+metacritic_url: "https://www.metacritic.com/game/deus-ex/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

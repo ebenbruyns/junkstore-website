@@ -26,19 +26,19 @@ publisher: Wild Rooster
 developer: Wild Rooster
 genre: Action, Party, Platformer
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "March 7, 2024"
-game_modes: ["Single-player","Local Multi-player","Co-op"]
+game_modes: ["Single-player","Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1299","name":"Competitive"},{"id":"21109","name":"Great Boss Battles"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/astro-duel-2"
 was_free_before: true
-giveaway_events: [{"start":"2024-03-06T15:00:00.000Z","end":"2024-03-13T15:00:00.000Z","type":null,"id":"bc38eac0277d41ec955690e25779cb53"}]
+giveaway_events: [{"_id":"66abf1cb3631f27c961eb900","id":"bc38eac0277d41ec955690e25779cb53","namespace":"4a681a809a094e2c8dcc68353c68fed6","startDate":"2024-03-06T15:00:00.000Z","endDate":"2024-03-13T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

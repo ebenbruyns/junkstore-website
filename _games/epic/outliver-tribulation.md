@@ -26,19 +26,19 @@ publisher: GBROSSOFT
 developer: GBROSSOFT
 genre: Horror, Action-Adventure, Shooter
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "July 18, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Turkish"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/outliver-tribulation"
 was_free_before: true
-giveaway_events: [{"start":"2024-10-10T15:00:00.000Z","end":"2024-10-17T15:00:00.000Z","type":null,"id":"a4d3ae371e674ce3b2892d63c8bb4041"}]
+giveaway_events: [{"_id":"67003d8a24bb30b2f60b34ce","id":"a4d3ae371e674ce3b2892d63c8bb4041","namespace":"13e30807efce43ea9e04ac1c45668d8e","startDate":"2024-10-10T15:00:00.000Z","endDate":"2024-10-17T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

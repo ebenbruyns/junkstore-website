@@ -9,15 +9,15 @@ permalink: /games/epic/barony/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "May '24"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
+protondb_tier: "platinum"
+protondb_score: 0.81
+protondb_total: 36
+protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
 
@@ -26,19 +26,19 @@ publisher: Turning Wheel LLC
 developer: Turning Wheel LLC
 genre: First Person, Dungeon Crawler
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Medo, Temas sensíveis, Linguagem imprópria, Conteúdo sexual, Drogas lícitas"}}
-release_date: "July 30, 2020"
+release_date: "June 23, 2015"
 game_modes: ["Single-player","Co-op"]
 languages: ["English"]
 languages_audio: ["English"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1258","name":"Rogue-Like"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1258","name":"Rogue-Like"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/barony"
 was_free_before: true
-giveaway_events: [{"start":"2020-07-29T15:00:00.000Z","end":"2020-08-05T15:00:00.000Z","type":null,"id":"3fb9665744a5404d95de612ddc445f35"}]
+giveaway_events: [{"_id":"66abf1f03631f27c961ec293","id":"3fb9665744a5404d95de612ddc445f35","namespace":"b79cdb6e07ea4ce9a82c00a0fb079ca5","startDate":"2020-07-29T15:00:00.000Z","endDate":"2020-08-05T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "c98c4cd6d83a4524b4b22f13af95a104"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Barony is the premier first-person roguelike with co-op. Cryptic items, brutal traps and devious monsters, like those found in classic roguelikes and CRPGs, await you. Conquer the dungeons alone, or gather a party in co-op with iconic and exotic RPG classes.

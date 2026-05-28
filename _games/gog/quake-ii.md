@@ -28,7 +28,7 @@ genre: Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Language"},"pegi":{"rating":"18","descriptors":"Violence"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Online Interactivity and Chat"},"nzoflc":{"rating":"r13","descriptors":"Violence"},"csrr":{"rating":"R","descriptors":"Violence, Inappropriate Language"},"dejus":{"rating":"18","descriptors":"Violência Extrema"}}
-release_date: "December 9, 1997"
+release_date: "August 3, 2007"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["German","English","Spanish","French","Italian","Russian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplaye
 size: "3612 MB"
 franchise_siblings: [{"rawg_id":968497,"slug":"quake-ii-enhanced-edition","name":"Quake II: Enhanced Edition"},{"rawg_id":43877,"slug":"quake-champions","name":"Quake Champions"},{"rawg_id":17473,"slug":"quake-live","name":"Quake Live"},{"rawg_id":36787,"slug":"enemy-territory-quake-wars","name":"Enemy Territory: Quake Wars"},{"rawg_id":17831,"slug":"quake-iv","name":"Quake IV"},{"rawg_id":54718,"slug":"quake-iii-arena-1999","name":"Quake III Arena"},{"rawg_id":23064,"slug":"quake-ii-quad-damage","name":"Quake II: Quad Damage"},{"rawg_id":54491,"slug":"quake","name":"Quake"}]
 franchise_slug: "enemy-territory-quake-wars|quake|quake-2|quake-champions|quake-ii-enhanced-edition|quake-ii-quad-damage|quake-iii-arena-1999|quake-iv|quake-live"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/quake-ii--1"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -82,7 +82,7 @@ hltb_url: "https://howlongtobeat.com/game/7455"
 store_url: "https://www.gog.com/en/game/quake_ii"
 protondb_url: "https://www.protondb.com/app/2320"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Quake_II"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Quake_II_RTX"
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/quake-ii-enhanced-edition/"
 

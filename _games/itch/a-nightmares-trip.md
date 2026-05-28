@@ -3,12 +3,12 @@ layout: game-page
 title: "A Nightmare's Trip - Steam Deck Compatibility"
 game_title: "A Nightmare's Trip"
 slug: "a-nightmares-trip"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/a-nightmares-trip/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
 release_date: "October 7, 2019"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"90","name":"Visual Novel"},{"id":"42410","name":"LGBTQ+"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/a-nightmares-trip"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

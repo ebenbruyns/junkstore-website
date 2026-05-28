@@ -26,19 +26,19 @@ publisher: GangoGames LLC
 developer: GangoGames LLC
 genre: Space, Retro, Shooter
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "December 11, 2025"
-game_modes: ["Single-player","Local Multi-player","Co-op"]
+release_date: "November 10, 2021"
+game_modes: ["Single-player","Local Multiplayer","Co-op"]
 languages: ["English","German","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1121","name":"Space"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1198","name":"Retro"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/hyper-echelon"
 was_free_before: true
-giveaway_events: [{"start":"2026-03-26T15:00:00.000Z","end":"2026-04-02T15:00:00.000Z","type":null,"id":"5d15c054641543c9a535b3b4ac29e843"}]
+giveaway_events: [{"_id":"69bd1e8a60a61ec16dd8f736","id":"5d15c054641543c9a535b3b4ac29e843","namespace":"5ffdf739f9b549ebba9caf3596e7c632","startDate":"2026-03-26T15:00:00.000Z","endDate":"2026-04-02T15:00:00.000Z","title":"Hyper Echelon","__v":0}]
 free_games_aliases: []
 
 # Images

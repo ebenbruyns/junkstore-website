@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/dreadout-2/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "yellow"
 date_tested: "Oct '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: Z (CERO)
 age_ratings: {"cero":{"rating":"Z"},"dejus":{"rating":"18","descriptors":"Violência fantasiosa, Medo, Violência, Violência Extrema, Conteúdo sexual, Nudez"}}
 release_date: "February 21, 2020"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","Russian","Simplified Chinese","Spanish - Spain","Hungarian","Indonesian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"16","name":"Horror"},{"id":"34","name":"Violent"},{"id":"50","name":"Sexual Content"}]
 size: ""
 franchise_siblings: [{"rawg_id":49168,"slug":"dreadeye-vr","name":"DreadEye VR"},{"rawg_id":16296,"slug":"dreadout-keepers-of-the-dark","name":"DreadOut: Keepers of The Dark"},{"rawg_id":16295,"slug":"dreadout","name":"DreadOut"}]
 franchise_slug: "dreadeye-vr|dreadout|dreadout-2|dreadout-keepers-of-the-dark"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/dreadout-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

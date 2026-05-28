@@ -28,17 +28,17 @@ genre: Strategy
 franchise: 
 age_rating_summary: M (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Strong Language"},"pegi":{"rating":"12","descriptors":"Bad Language"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "September 16, 2021"
-game_modes: ["Single-player"]
+release_date: "January 11, 2016"
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"}]
 size: "177 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/tharsis"
 was_free_before: true
-giveaway_events: [{"start":"2021-09-15T15:00:00.000Z","end":"2021-09-22T15:00:00.000Z","type":null,"id":"0c7924b21589422581c7cbe8d5a336c5"}]
+giveaway_events: [{"_id":"66abf1e53631f27c961ebf9e","id":"0c7924b21589422581c7cbe8d5a336c5","namespace":"be67e141378446cf9399b3db1a22ceb3","startDate":"2021-09-15T15:00:00.000Z","endDate":"2021-09-22T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

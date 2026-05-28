@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Strategy, Simulator
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Drug Reference, Language, Mild Fantasy Violence"},"pegi":{"rating":"12","descriptors":"Violence"},"oflc":{"descriptors":"%oflcDescriptors%"},"nzoflc":{"descriptors":"%NZoflcDescriptors%"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "September 23, 2008"
+release_date: "May 1, 2009"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","Czech","German","English","Spanish","French","Hungarian","Italian","Japanese","Polish","Russian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam 
 size: "3487 MB"
 franchise_siblings: [{"rawg_id":364807,"slug":"kings-bounty-ii","name":"King's Bounty II"},{"rawg_id":18000,"slug":"kings-bounty-dark-side","name":"King's Bounty: Dark Side"},{"rawg_id":15198,"slug":"kings-bounty-warriors-of-the-north","name":"King's Bounty: Warriors of the North"},{"rawg_id":17739,"slug":"kings-bounty-legions","name":"King’s Bounty: Legions"},{"rawg_id":12032,"slug":"kings-bounty-crossworlds","name":"King's Bounty: Crossworlds"},{"rawg_id":17698,"slug":"kings-bounty-armored-princess","name":"King's Bounty: Armored Princess"},{"rawg_id":32001,"slug":"kings-bounty","name":"King's Bounty"}]
 franchise_slug: "kings-bounty|kings-bounty-armored-princess|kings-bounty-crossworlds|kings-bounty-dark-side|kings-bounty-ii|kings-bounty-legions|kings-bounty-the-legend|kings-bounty-warriors-of-the-n"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/king-s-bounty-the-legend"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

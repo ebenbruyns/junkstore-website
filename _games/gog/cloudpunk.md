@@ -9,7 +9,7 @@ permalink: /games/gog/cloudpunk/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "March '25"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Indie, Simulator
 franchise: 
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Medo, Linguagem imprópria, Drogas ilícitas"}}
-release_date: "April 1, 2020"
+release_date: "April 23, 2020"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Hungarian","Italian","Japanese","Korean","Russian","Turkish","Chinese Traditional"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full c
 size: "3930 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/cloudpunk"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "2048907635"
 is_featured: false
-owned: true
+owned: false
 ---
 
 A neon-noir story in a rain-drenched cyberpunk metropolis. It's your first night on the job working for the Cloudpunk delivery service.

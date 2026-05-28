@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo, Atos criminosos"}}
-release_date: "June 12, 2021"
+release_date: "March 1, 2022"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "306 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/heros-hour"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

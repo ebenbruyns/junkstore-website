@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/everdream-valley/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "May 30, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Polish","Korean","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"69","name":"Action-Adventure"},{"id":"125","name":"Crafting"},{"id":"138","name":"Relaxing"},{"id":"164","name":"Cartoony"},{"id":"179","name":"Cartoon"},{"id":"304","name":"Character Action Game"},{"id":"231","name":"Strategy RPG"},{"id":"626","name":"cats"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/everdream-valley"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

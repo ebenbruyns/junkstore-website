@@ -3,12 +3,12 @@ layout: game-page
 title: "A Snake's Tale - Steam Deck Compatibility"
 game_title: "A Snake's Tale"
 slug: "a-snakes-tale"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/a-snakes-tale/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "July 6, 2017"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"116","name":"2.5D"},{"id":"252","name":"Mouse only"},{"id":"298","name":"Grid-Based Movement"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/a-snakes-tale"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

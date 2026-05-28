@@ -26,7 +26,7 @@ publisher: 11 bit studios
 developer: Digital Sun Games
 genre: "Role-playing (RPG), Adventure, Indie, Simulator, Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: PEGI 7
+age_rating_summary: 7 (PEGI)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violence"}}
 release_date: "May 29, 2018"
 game_modes: ["Single-player"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full c
 size: "677 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/moonlighter"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -9,7 +9,7 @@ permalink: /games/gog/voidbound/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1282078853"
 is_featured: false
-owned: true
+owned: false
 ---
 
 A sci-fi ero tactics RPG where you play as an engineer on a mission to free the Earth after it's caught in the crossfire of an intergalactic alien war.

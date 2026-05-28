@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/deep-sky-derelicts/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Mar '26"
 proton_version: ""
@@ -36,7 +36,7 @@ tags_structured: []
 size: "957 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/deep-sky-derelicts"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

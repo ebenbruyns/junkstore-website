@@ -9,7 +9,7 @@ permalink: /games/gog/overcooked/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Nov '24"
 proton_version: ""
 
@@ -26,17 +26,17 @@ publisher: Team17
 developer: Ghost Town Games
 genre: Strategy, Indie, Arcade, Simulator
 franchise: "Overcooked!"
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"6"}}
 release_date: "August 3, 2016"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"39940","name":"Gift A Game"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"39940","name":"Gift A Game"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: "301 MB"
 franchise_siblings: [{"rawg_id":517399,"slug":"overcooked-all-you-can-eat","name":"Overcooked! All You Can Eat"},{"rawg_id":58827,"slug":"overcooked-2","name":"Overcooked! 2"}]
 franchise_slug: "overcooked|overcooked-2|overcooked-all-you-can-eat"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/overcooked"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

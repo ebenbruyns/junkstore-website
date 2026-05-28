@@ -26,19 +26,19 @@ publisher: Hooded Horse Inc.
 developer: Acid Wizard Studio
 genre: Horror, Indie, Survival
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Drogas"}}
-release_date: "October 13, 2022"
-game_modes: ["Single-player"]
+release_date: "August 17, 2017"
+game_modes: ["Single player"]
 languages: ["English","Polish","Russian","German","Spanish - Spain","Portuguese - Brazil","Italian","Simplified Chinese","Turkish","Hungarian","French"]
 languages_audio: []
-tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
 size: "2477 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/darkwood"
 was_free_before: true
-giveaway_events: [{"start":"2022-10-12T15:00:00.000Z","end":"2022-10-19T15:00:00.000Z","type":null,"id":"d00f7e0293ef44b8ab453294cc380a4d"}]
+giveaway_events: [{"_id":"66abf1da3631f27c961ebcfa","id":"d00f7e0293ef44b8ab453294cc380a4d","namespace":"25b5ab5928784a74a502f6a84bb8b49f","startDate":"2022-10-12T15:00:00.000Z","endDate":"2022-10-19T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

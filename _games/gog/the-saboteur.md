@@ -9,7 +9,7 @@ permalink: /games/gog/the-saboteur/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,15 +28,15 @@ genre: role-playing, adventure, shooter, tactical
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Nudity, Sexual Themes, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong bloody violence, coarse language, sexual references and, nudity"},"nzoflc":{"rating":"ma15","descriptors":"Strong bloody violence, coarse language, sexual references and, nudity"},"fpb":{"rating":"18"}}
-release_date: "November 1, 2009"
-game_modes: ["Single-player"]
+release_date: "March 7, 2024"
+game_modes: ["Single player"]
 languages: ["German","English","French","Italian","Polish","Russian"]
 languages_audio: ["English","French","German","Italian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"15","name":"Stealth"},{"id":"69","name":"Action-Adventure"},{"id":"478","name":"3rd-Person Perspective"},{"id":"105","name":"World War II"},{"id":"91686","name":"Family Sharing"}]
 size: "6653 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-saboteur"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1403000599"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Experience the ultimate open-world action/adventure as The Saboteur. Fight, climb, and race your way through a uniquely stylized version of Nazi-occupied France...

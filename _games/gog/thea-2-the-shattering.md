@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"i
 size: "2741 MB"
 franchise_siblings: [{"rawg_id":10887,"slug":"thea-the-awakening","name":"Thea: The Awakening"}]
 franchise_slug: "thea-2-the-shattering|thea-the-awakening"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/thea-2-the-shattering"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

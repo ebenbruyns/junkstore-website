@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Fantasy Violence"},"csrr":{"rating":"C12","descriptors":"Violence"}}
 release_date: "May 4, 2018"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Turkish","Traditional Chinese","Spanish - Spain","Italian","Japanese","Korean"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/city-of-brass"
 was_free_before: true
-giveaway_events: [{"start":"2022-03-30T15:00:00.000Z","end":"2022-04-06T15:00:00.000Z","type":null,"id":"ac2f9bdeb022454aab1ff77b59b2f3ed"},{"start":"2019-05-29T15:00:00.000Z","end":"2019-06-05T15:00:00.000Z","type":null,"id":"ac2f9bdeb022454aab1ff77b59b2f3ed"}]
+giveaway_events: [{"_id":"66abf1df3631f27c961ebe3f","id":"ac2f9bdeb022454aab1ff77b59b2f3ed","namespace":"fa234e40c4d44dfa84fbcb302fef0233","startDate":"2022-03-30T15:00:00.000Z","endDate":"2022-04-06T15:00:00.000Z","__v":0},{"_id":"66abf1fd3631f27c961ec59b","id":"ac2f9bdeb022454aab1ff77b59b2f3ed","namespace":"fa234e40c4d44dfa84fbcb302fef0233","startDate":"2019-05-29T15:00:00.000Z","endDate":"2019-06-05T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

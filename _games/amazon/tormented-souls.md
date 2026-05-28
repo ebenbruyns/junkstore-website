@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/tormented-souls/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Oct '25"
 proton_version: ""
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "14.8 GB"
 franchise_siblings: [{"rawg_id":965411,"slug":"tormented-souls-2","name":"Tormented Souls 2"}]
 franchise_slug: "tormented-souls|tormented-souls-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/tormented-souls"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

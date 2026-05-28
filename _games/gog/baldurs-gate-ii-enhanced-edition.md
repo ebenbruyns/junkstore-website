@@ -28,15 +28,15 @@ genre: Role-playing (RPG), Strategy
 franchise: 
 age_rating_summary: 7 (PEGI)
 age_ratings: {"pegi":{"rating":"7","descriptors":"Fear"},"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
-release_date: "November 15, 2013"
+release_date: "September 22, 2016"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Korean","Polish","Russian"]
 languages_audio: ["English","German"]
-tags_structured: []
-size: "3.13 GB"
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
+size: "3232 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/barrow-hill-curse-of-the-ancient-circle"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

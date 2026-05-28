@@ -28,7 +28,7 @@ genre: Adventure, Puzzle, Visual Novel
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Nudez, Violência, Linguagem imprópria"}}
-release_date: "February 16, 2022"
+release_date: "February 15, 2022"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Ri
 size: "7731 MB"
 franchise_siblings: [{"rawg_id":965869,"slug":"the-genesis-order","name":"The Genesis Order"},{"rawg_id":428202,"slug":"lust-epidemic","name":"Lust Epidemic"},{"rawg_id":976301,"slug":"visiting-aunt-sara","name":"Visiting Aunt Sara"},{"rawg_id":395976,"slug":"my-summer-with-mom-sis","name":"My Summer with Mom & Sis"}]
 franchise_slug: "lust-epidemic|my-summer-with-mom-sis|the-genesis-order|treasure-of-nadia|visiting-aunt-sara"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/treasure-of-nadia"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "30.5 hrs"
 hltb_main_extra: "42 hrs"
-hltb_completionist: "44 hrs"
+hltb_completionist: "40.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/98602"
 
 # Links

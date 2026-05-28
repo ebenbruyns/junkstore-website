@@ -28,15 +28,15 @@ genre: Role-playing (RPG), Adventure, Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Animated Blood, Animated Violence"},"pegi":{"rating":"16","descriptors":"Realistic looking violence, encouragement of the use of alcohol/tobacco, use of illegal drugs"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Medium level animated violence; Adult themes"},"nzoflc":{"rating":"ma15","descriptors":"Medium level animated violence; Adult themes"},"dejus":{"rating":"18"}}
-release_date: "June 22, 2000"
+release_date: "March 29, 2007"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
-tags_structured: []
+tags_structured: [{"id":"3605","name":"tool"},{"id":"891","name":"jam"},{"id":"973","name":"libGDX"}]
 size: "525 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/deus-ex-special-limited-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

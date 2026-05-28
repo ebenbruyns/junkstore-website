@@ -28,7 +28,7 @@ genre: Adventure
 franchise: 
 age_rating_summary: T (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Crude Humor"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M"},"kgrb":{"rating":"15"},"fpb":{"rating":"13"},"dejus":{"rating":"10"}}
-release_date: "February 17, 2022"
+release_date: "September 3, 2013"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Wind
 size: "1151 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/brothers-a-tale-of-two-sons"
 was_free_before: true
-giveaway_events: [{"start":"2022-02-16T15:00:00.000Z","end":"2022-02-23T15:00:00.000Z","type":null,"id":"751c3ae311cf48e1926233fdddae9cb8"}]
+giveaway_events: [{"_id":"66abf1e03631f27c961ebe74","id":"751c3ae311cf48e1926233fdddae9cb8","namespace":"615659ff36244d258ef6c6a827e32c5d","startDate":"2022-02-16T15:00:00.000Z","endDate":"2022-02-23T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

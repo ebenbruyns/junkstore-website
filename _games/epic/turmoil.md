@@ -26,19 +26,19 @@ publisher: Gamious
 developer: Gamious
 genre: Turn-Based, Simulation, Strategy
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "January 9, 2025"
-game_modes: ["Single-player","Online Multi-player"]
+release_date: "June 2, 2016"
+game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Hungarian","Japanese","Korean","Turkish"]
 languages_audio: []
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "201 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/turmoil--1"
 was_free_before: true
-giveaway_events: [{"start":"2025-01-09T16:00:00.000Z","end":"2025-01-16T16:00:00.000Z","type":null,"id":"92acefe8e4e845169ea160bb92e3e4e0"}]
+giveaway_events: [{"_id":"6776b83ed94daa69207f69b6","id":"92acefe8e4e845169ea160bb92e3e4e0","namespace":"85c72a063b884d249a554fee9f71125d","startDate":"2025-01-09T16:00:00.000Z","endDate":"2025-01-16T16:00:00.000Z","title":"Turmoil","__v":0}]
 free_games_aliases: []
 
 # Images

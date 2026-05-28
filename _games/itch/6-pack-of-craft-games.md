@@ -3,12 +3,12 @@ layout: game-page
 title: "6 Pack of Craft Games - Steam Deck Compatibility"
 game_title: "6 Pack of Craft Games"
 slug: "6-pack-of-craft-games"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/6-pack-of-craft-games/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "February 10, 2022"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"45","name":"2D"},{"id":"88","name":"Cute"},{"id":"220","name":"Experimental"},{"id":"7486","name":"larp"}]

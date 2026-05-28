@@ -9,7 +9,7 @@ permalink: /games/epic/carrion/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "May '24"
 proton_version: ""
 
@@ -28,15 +28,15 @@ genre: Action, Horror, Indie
 franchise: CARRION
 age_rating_summary: 16 (USK)
 age_ratings: {"usk":{"rating":"16"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Violência, Medo"}}
-release_date: "October 29, 2020"
-game_modes: ["Single-player"]
+release_date: "July 23, 2020"
+game_modes: ["Single player"]
 languages: ["English","French","German","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1218","name":"Horror"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
-size: ""
+size: "123 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/carrion"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "9faa3b0871e44b639d49a209f9405aab"
 is_featured: false
-owned: true
+owned: false
 ---
 
 CARRION is a reverse horror game in which you assume the role of an amorphous creature of unknown origins, stalking and consuming those that imprisoned you.  STALK. CONSUME. GROW. EVOLVE.

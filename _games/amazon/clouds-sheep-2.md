@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/clouds-sheep-2/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Adventure, Simulator
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "August 26, 2015"
-game_modes: ["Single-player"]
+release_date: "October 24, 2016"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Thai","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"11669","name":"stats"},{"id":"107","name":"Family Friendly"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/clouds-and-sheep-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

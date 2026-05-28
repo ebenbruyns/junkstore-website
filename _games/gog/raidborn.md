@@ -9,7 +9,7 @@ permalink: /games/gog/raidborn/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Nov '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: role-playing, adventure, indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "March 1, 2023"
+release_date: "March 29, 2023"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","German","English"]
 languages_audio: ["English"]
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "2061161309"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Enough of wasting precious time by walking eternal distances and engaging in endless dialogue? Want to get to the fun part quickly?

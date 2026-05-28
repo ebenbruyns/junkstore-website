@@ -28,17 +28,17 @@ genre: Horror, Action-Adventure, Indie
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"dejus":{"rating":"16","descriptors":"Violência, Medo, Violência Extrema, Linguagem imprópria, Nudez"}}
-release_date: "October 27, 2022"
-game_modes: ["Single-player"]
+release_date: "July 28, 2020"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Arabic","Turkish","Polish","Hungarian","Japanese","Welsh"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
 size: "7118 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/maid-of-sker"
 was_free_before: true
-giveaway_events: [{"start":"2024-07-17T15:00:00.000Z","end":"2024-07-24T15:00:00.000Z","type":null,"id":"3795a845a05d4b3baacb8126635ffd74"}]
+giveaway_events: [{"_id":"66abf1c93631f27c961eb808","id":"3795a845a05d4b3baacb8126635ffd74","namespace":"89a30c2a3fdb4281b5df57350e797ca9","startDate":"2024-07-17T15:00:00.000Z","endDate":"2024-07-24T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

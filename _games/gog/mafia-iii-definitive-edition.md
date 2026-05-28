@@ -36,7 +36,7 @@ tags_structured: []
 size: "52061 MB"
 franchise_siblings: [{"rawg_id":987515,"slug":"mafia-the-old-country","name":"Mafia: The Old Country"},{"rawg_id":442854,"slug":"mafia","name":"Mafia: Definitive Edition"},{"rawg_id":442855,"slug":"mafia-ii-definitive-edition","name":"Mafia II: Definitive Edition"},{"rawg_id":1169,"slug":"mafia-iii","name":"Mafia III"},{"rawg_id":1416,"slug":"mafia-ii","name":"Mafia II"},{"rawg_id":30899,"slug":"mafia-the-city-of-lost-heaven","name":"Mafia: The City of Lost Heaven"}]
 franchise_slug: "mafia|mafia-ii|mafia-ii-definitive-edition|mafia-iii|mafia-iii-definitive-edition|mafia-the-city-of-lost-heaven|mafia-the-old-country"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/mafia-iii"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -73,10 +73,10 @@ cant_test_linux: false
 native_linux: false
 
 # HowLongToBeat
-hltb_main: "25 hrs"
+hltb_main: "undefined Hours"
 hltb_main_extra: "40.5 hrs"
-hltb_completionist: "68.5 hrs"
-hltb_url: "https://howlongtobeat.com/game/34002"
+hltb_completionist: "39 Hours"
+hltb_url: "https://howlongtobeat.com/game/78629"
 
 # Links
 store_url: "https://www.gog.com/en/game/mafia_iii_definitive_edition"

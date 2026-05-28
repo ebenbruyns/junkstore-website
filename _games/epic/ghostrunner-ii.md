@@ -29,16 +29,16 @@ franchise: Ghostrunner
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18","descriptors":"Drastische Gewalt"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria"}}
 release_date: "October 26, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Ukrainian"]
 languages_audio: ["English","Simplified Chinese","Traditional Chinese"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: [{"rawg_id":366850,"slug":"ghostrunner","name":"Ghostrunner"}]
 franchise_slug: "ghostrunner|ghostrunner-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/ghostrunner-ii"
 was_free_before: true
-giveaway_events: [{"start":"2025-09-11T15:00:00.000Z","end":"2025-09-18T15:00:00.000Z","type":null,"id":"be5600439b434624802764f704755cde"},{"start":"2024-12-26T16:00:00.000Z","end":"2024-12-27T16:00:00.000Z","type":null,"id":"be5600439b434624802764f704755cde"}]
+giveaway_events: [{"_id":"68b99e31e47c29e0cd91802f","id":"be5600439b434624802764f704755cde","namespace":"708f57aaa04b42ef885be16c8288f0ac","startDate":"2025-09-11T15:00:00.000Z","endDate":"2025-09-18T15:00:00.000Z","title":"Ghostrunner 2","__v":0},{"_id":"676c4c5e7277ebb64bc91314","id":"be5600439b434624802764f704755cde","namespace":"708f57aaa04b42ef885be16c8288f0ac","startDate":"2024-12-26T16:00:00.000Z","endDate":"2024-12-27T16:00:00.000Z","title":"Ghostrunner 2","__v":0}]
 free_games_aliases: []
 
 # Images

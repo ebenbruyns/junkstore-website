@@ -3,12 +3,12 @@ layout: game-page
 title: "Arcade Spirits - Steam Deck Compatibility"
 game_title: "Arcade Spirits"
 slug: "arcade-spirits"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/arcade-spirits/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Conteúdo sexual, Linguagem imprópria"}}
 release_date: "February 12, 2019"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"121","name":"Character Customization"},{"id":"145","name":"Choices Matter"},{"id":"192","name":"Mature"},{"id":"50","name":"Sexual Content"},{"id":"90","name":"Visual Novel"},{"id":"217","name":"Romance"},{"id":"160","name":"Dating Sim"},{"id":"42410","name":"LGBTQ+"},{"id":"40858","name":"Other"},{"id":"585","name":"LGBT"}]
 size: ""
 franchise_siblings: [{"rawg_id":580700,"slug":"arcade-spirits-the-new-challengers","name":"Arcade Spirits: The New Challengers"}]
 franchise_slug: "arcade-spirits|arcade-spirits-the-new-challen"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/arcade-spirits"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

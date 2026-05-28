@@ -28,7 +28,7 @@ genre: Adventure, Point-and-click
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Drogas lícitas, Violência"}}
-release_date: "October 30, 2020"
+release_date: "August 3, 2022"
 game_modes: []
 languages: ["English"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1077 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/south-of-the-circle"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

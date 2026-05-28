@@ -36,7 +36,7 @@ tags_structured: []
 size: "1896 MB"
 franchise_siblings: [{"rawg_id":684945,"slug":"fetish-locator-week-two","name":"Fetish Locator Week Two"},{"rawg_id":386737,"slug":"fetish-locator","name":"Fetish Locator"}]
 franchise_slug: "fetish-locator|fetish-locator-week-one-extend|fetish-locator-week-two"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/fetish-locator"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

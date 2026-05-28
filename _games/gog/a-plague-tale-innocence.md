@@ -36,7 +36,7 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Ch
 size: "36263 MB"
 franchise_siblings: [{"rawg_id":616697,"slug":"a-plague-tale-requiem","name":"A Plague Tale: Requiem"}]
 franchise_slug: "a-plague-tale-innocence|a-plague-tale-requiem"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/a-plague-tale-innocence"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

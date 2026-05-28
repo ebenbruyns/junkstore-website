@@ -26,17 +26,17 @@ publisher: GrahamOfLegend
 developer: GrahamOfLegend
 genre: Action, Space, Indie
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "January 23, 2025"
-game_modes: ["Single-player"]
+release_date: "August 4, 2023"
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1121","name":"Space"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/super-space-club"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

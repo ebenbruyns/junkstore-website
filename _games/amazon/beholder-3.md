@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/beholder-3/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospher
 size: "5.19 GB"
 franchise_siblings: [{"rawg_id":51081,"slug":"beholder-2","name":"Beholder 2"},{"rawg_id":10090,"slug":"beholder","name":"Beholder"}]
 franchise_slug: "beholder|beholder-2|beholder-3"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/beholder-3"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

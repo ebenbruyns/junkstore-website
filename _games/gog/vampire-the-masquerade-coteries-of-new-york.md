@@ -9,7 +9,7 @@ permalink: /games/gog/vampire-the-masquerade-coteries-of-new-york/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Dec '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: role-playing, adventure, indie, visual novel
 franchise: 
 age_rating_summary: 16 (PEGI) · 16 (USK)
 age_ratings: {"pegi":{"rating":"16"},"usk":{"rating":"16"},"dejus":{"rating":"14","descriptors":"Medo, Violência, Temas sensíveis, Linguagem imprópria, Conteúdo sexual, Drogas lícitas, Drogas ilícitas"}}
-release_date: "December 1, 2019"
+release_date: "December 11, 2019"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Russian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1677 MB"
 franchise_siblings: [{"rawg_id":303576,"slug":"vampire-the-masquerade-bloodlines-2","name":"Vampire: The Masquerade – Bloodlines 2"},{"rawg_id":462685,"slug":"vampire-the-masquerade-swansong","name":"Vampire: The Masquerade – Swansong"},{"rawg_id":662357,"slug":"bloodhunt","name":"Vampire: The Masquerade - Bloodhunt"},{"rawg_id":430275,"slug":"vampire-the-masquerade-shadows-of-new-york","name":"Vampire: The Masquerade - Shadows of New York"},{"rawg_id":19397,"slug":"vampire-the-masquerade-bloodlines","name":"Vampire: The Masquerade - Bloodlines"},{"rawg_id":22230,"slug":"vampire-the-masquerade-redemption","name":"Vampire: The Masquerade - Redemption"}]
 franchise_slug: "bloodhunt|vampire-the-masquerade-bloodli|vampire-the-masquerade-bloodli|vampire-the-masquerade-coterie|vampire-the-masquerade-redempt|vampire-the-masquerade-shadows|vampire-the-masquerade-swanson"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/vampire-the-masquerade-coteries-of-new-york"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "5.5 hrs"
 hltb_main_extra: "7 hrs"
-hltb_completionist: "11 hrs"
+hltb_completionist: "7 Hours"
 hltb_url: "https://howlongtobeat.com/game/72916"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1636588470"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Coteries of New York presents the struggle for power between two vampiric factions: Camarilla and Anarchs among the iconic buildings and night lights of Big Apple.

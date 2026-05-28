@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/the-academy-the-first-riddle/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
@@ -36,7 +36,7 @@ tags_structured: [{"id":"117","name":"Mystery"},{"id":"406","name":"Story"},{"id
 size: "2.08 GB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-academy-the-first-riddle"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

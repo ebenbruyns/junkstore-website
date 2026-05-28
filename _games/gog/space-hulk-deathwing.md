@@ -28,7 +28,7 @@ genre: "Adventure, Shooter, Hack and slash/Beat 'em up"
 franchise: 
 age_rating_summary: 16 (USK)
 age_ratings: {"usk":{"rating":"16"},"dejus":{"rating":"6"}}
-release_date: "December 14, 2016"
+release_date: "May 22, 2018"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Korean","Russian"]
 languages_audio: ["English"]

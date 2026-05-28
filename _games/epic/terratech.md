@@ -26,19 +26,19 @@ publisher: Mythwright
 developer: Payload Studios
 genre: Action-Adventure, Open World, Adventure
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "December 21, 2024"
-game_modes: ["Single-player","Online Multi-player","Co-op"]
+release_date: "August 10, 2018"
+game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","German","Russian","French","Dutch","Polish","Portuguese - Portugal","Portuguese - Brazil","Italian","Swedish","Spanish - Spain","Japanese","Korean","Simplified Chinese","Traditional Chinese","Czech","Danish"]
 languages_audio: []
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/terratech"
 was_free_before: true
-giveaway_events: [{"start":"2024-12-21T16:00:00.000Z","end":"2024-12-22T16:00:00.000Z","type":null,"id":"e50af47d4be74b50a0dd99b42ae44470"}]
+giveaway_events: [{"_id":"67658cc6df3ce7c92b7b8d2a","id":"e50af47d4be74b50a0dd99b42ae44470","namespace":"96830aff053e404c808a54300c941e57","startDate":"2024-12-21T16:00:00.000Z","endDate":"2024-12-22T16:00:00.000Z","title":"TerraTech","__v":0}]
 free_games_aliases: []
 
 # Images

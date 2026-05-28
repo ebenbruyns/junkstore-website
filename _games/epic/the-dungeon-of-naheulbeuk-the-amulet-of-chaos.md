@@ -28,15 +28,15 @@ genre: RPG, Adventure
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Drogas lícitas"}}
-release_date: "May 25, 2021"
-game_modes: ["Single-player"]
+release_date: "September 17, 2020"
+game_modes: ["Single player"]
 languages: ["English","French","German","Simplified Chinese","Spanish - Spain","Russian"]
 languages_audio: ["English","French","German"]
-tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-dungeon-of-naheulbeuk-the-amulet-of-chaos"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

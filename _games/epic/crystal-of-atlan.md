@@ -26,17 +26,17 @@ publisher: Skystone Games
 developer: Nuverse Pte.Ltd.
 genre: Action, RPG, Adventure
 franchise: Crystal of Atlan
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"18"}}
-release_date: "May 27, 2025"
-game_modes: ["Online Multi-player"]
+release_date: "October 30, 2025"
+game_modes: ["Online Multiplayer"]
 languages: ["English","French","German","Indonesian","Japanese","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Vietnamese","Korean","Spanish - Spain"]
 languages_audio: ["English","Japanese","Simplified Chinese","Traditional Chinese","Korean"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/crystal-of-atlan"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -76,7 +76,7 @@ native_linux: false
 hltb_main: "7.1 hrs"
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: "https://howlongtobeat.com/game/142382"
+hltb_url: "https://howlongtobeat.com/game/144725"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/crystal-of-atlan-c5f8b3"

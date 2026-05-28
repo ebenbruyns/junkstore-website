@@ -26,19 +26,19 @@ publisher: Akupara Games
 developer: Spooky Doorway
 genre: Exploration, Comedy, Adventure
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas"}}
-release_date: "November 1, 2021"
+release_date: "April 15, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Spanish - Spain","German","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21126","name":"Silly Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1116","name":"Comedy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21126","name":"Silly Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1116","name":"Comedy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "338 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-darkside-detective-a-fumble-in-the-dark"
 was_free_before: true
-giveaway_events: [{"start":"2026-02-12T16:00:00.000Z","end":"2026-02-19T16:00:00.000Z","type":null,"id":"9e3c580751a94c6d8a1b8b08b2e3d21f"}]
+giveaway_events: [{"_id":"6984b306e4095dcdb49c7599","id":"9e3c580751a94c6d8a1b8b08b2e3d21f","namespace":"87375f89fc4c4c7a8c681cf21febee06","startDate":"2026-02-12T16:00:00.000Z","endDate":"2026-02-19T16:00:00.000Z","title":"The Darkside Detective A Fumble in the Dark","__v":0}]
 free_games_aliases: []
 
 # Images

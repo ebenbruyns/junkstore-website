@@ -8,7 +8,7 @@ storefront_key: "gog"
 permalink: /games/gog/dorfromantik/
 
 # Compatibility (Junk Store testing)
-decky_rating: "unknown"
+decky_rating: ""
 standalone_rating: "green"
 date_tested: "Sep '25"
 proton_version: ""
@@ -28,7 +28,7 @@ genre: Casual, Indie, Simulation, Strategy
 franchise: 
 age_rating_summary: 0 (USK)
 age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"L"}}
-release_date: "March 1, 2021"
+release_date: "April 28, 2022"
 game_modes: ["Single-player"]
 languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Hungarian","Italian","Japanese","Dutch","Norwegian","Polish","Portuguese","Russian","Swedish","Turkish","Ukrainian","Chinese Traditional"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: []
 size: "333 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/dorfromantik"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1721001406"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Dorfromantik is a peaceful building strategy and puzzle game where you create a beautiful and ever-growing village landscape by placing tiles. Explore a variety of colorful biomes, discover and unlock new tiles and complete quests to fill your world with life!

@@ -3,12 +3,12 @@ layout: game-page
 title: "10 Flights of Ballooning - Steam Deck Compatibility"
 game_title: "10 Flights of Ballooning"
 slug: "10-flights-of-ballooning"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/10-flights-of-ballooning/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {}
 release_date: "April 1, 2017"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"74","name":"Retro"},{"id":"54","name":"Score Attack"},{"id":"460","name":"Endless"}]

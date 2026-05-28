@@ -28,17 +28,17 @@ genre: Horror, Puzzle, Adventure
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "October 28, 2021"
-game_modes: ["Single-player"]
+release_date: "August 15, 2019"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Portuguese - Brazil","Simplified Chinese","Dutch","Greek","Norwegian","Portuguese - Portugal","Swedish","Turkish","Ukrainian","Hungarian"]
 languages_audio: []
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21150","name":"Challenging Puzzles"}]
 size: ""
 franchise_siblings: [{"rawg_id":988970,"slug":"darq-the-crypt","name":"DARQ - The Crypt"}]
 franchise_slug: "darq|darq-the-crypt"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/138785"
 was_free_before: true
-giveaway_events: [{"start":"2021-10-27T15:00:00.000Z","end":"2021-11-03T15:00:00.000Z","type":null,"id":"0af5da05c76943f8a7da7cc65949ffd4"}]
+giveaway_events: [{"_id":"66abf1e43631f27c961ebf60","id":"0af5da05c76943f8a7da7cc65949ffd4","namespace":"3819de76dedf4cd2aebbcf9279e23e43","startDate":"2021-10-27T15:00:00.000Z","endDate":"2021-11-03T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

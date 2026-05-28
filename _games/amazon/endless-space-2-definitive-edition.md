@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/endless-space-2-definitive-edition/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Strategy, Turn-based strategy (TBS)
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Mild Suggestive Themes"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Online Interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild Violence, Online Interactivity"},"dejus":{"rating":"L","descriptors":"In-App Purchase, Users Interact"}}
-release_date: "January 21, 2021"
-game_modes: ["Single-player","Co-op","Multi-player"]
+release_date: "May 18, 2017"
+game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: []
 size: "13.5 GB"
 franchise_siblings: [{"rawg_id":529816,"slug":"endless-dungeons","name":"Endless Dungeon"},{"rawg_id":1830,"slug":"dungeon-of-the-endless","name":"Dungeon of the Endless"},{"rawg_id":12980,"slug":"endless-legend","name":"Endless Legend"},{"rawg_id":41457,"slug":"endless-space","name":"Endless Space"}]
 franchise_slug: "dungeon-of-the-endless|endless-dungeons|endless-legend|endless-space|endless-space-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/endless-space-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -3,12 +3,12 @@ layout: game-page
 title: "[Speer] - Steam Deck Compatibility"
 game_title: "[Speer]"
 slug: "speer"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/speer/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -28,8 +28,8 @@ genre: Indie, Platform, Puzzle
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "June 26, 2017"
-game_modes: ["Single-player"]
+release_date: "June 3, 2022"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: []
@@ -76,7 +76,7 @@ native_linux: false
 hltb_main: "--"
 hltb_main_extra: ""
 hltb_completionist: "4 Hours"
-hltb_url: "https://howlongtobeat.com/game/79551"
+hltb_url: "https://howlongtobeat.com/game/147888"
 
 # Links
 store_url: "https://ohsat-andrej.itch.io/speer"

@@ -36,7 +36,7 @@ tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1381","name":"Exploration
 size: "7412 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/rime"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

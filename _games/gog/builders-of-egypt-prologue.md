@@ -29,7 +29,7 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
 release_date: "March 2, 2020"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Polish","Portuguese","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"49","name":"Difficult"},{"id":"193","name":"Classic"},{"id":"37","name":"Sandbox"},{"id":"79","name":"Free to Play"},{"id":"80","name":"Tactical"},{"id":"14","name":"Early Access"},{"id":"70","name":"War"},{"id":"77","name":"Realistic"},{"id":"89","name":"Historical"},{"id":"39","name":"Building"},{"id":"168","name":"RTS"},{"id":"406","name":"Story"},{"id":"67","name":"Management"},{"id":"180","name":"Base Building"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"},{"id":"2030","name":"city"},{"id":"210","name":"Real-Time"},{"id":"245","name":"Trading"},{"id":"1221","name":"history"},{"id":"974","name":"death"},{"id":"219","name":"Politics"},{"id":"1079","name":"environment"},{"id":"4338","name":"egypt"}]

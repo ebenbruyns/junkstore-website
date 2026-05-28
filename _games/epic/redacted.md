@@ -26,25 +26,25 @@ publisher: Krafton
 developer: Striking Distance Studios
 genre: Action, Dungeon Crawler, Rogue-Lite
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "October 31, 2024"
-game_modes: ["Single-player"]
+release_date: "October 27, 2024"
+game_modes: ["Single player"]
 languages: ["English","French","German","Japanese","Korean","Simplified Chinese","Portuguese - Brazil","Spanish - Latin America"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/redacted--1"
 was_free_before: true
-giveaway_events: [{"start":"2024-12-30T16:00:00.000Z","end":"2024-12-31T16:00:00.000Z","type":null,"id":"611a4122fc9940b19e26094099034c56"}]
+giveaway_events: [{"_id":"67716a0abf22d471398ba568","id":"611a4122fc9940b19e26094099034c56","namespace":"04e4108a1fec4845bd2744e8d554c9a6","startDate":"2024-12-30T16:00:00.000Z","endDate":"2024-12-31T16:00:00.000Z","title":"[REDACTED]","__v":0}]
 free_games_aliases: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/38d7f3e2a3854e9fa4c31456b87c899f/redacted-1ouju.jpg"
 cover_image: "https://cdn1.epicgames.com/spt-assets/38d7f3e2a3854e9fa4c31456b87c899f/redacted-13ajm.jpg"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2229940/header.jpg"
 
 # Technical Details
 controller_input: "native"

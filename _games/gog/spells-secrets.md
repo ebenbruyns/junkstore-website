@@ -36,7 +36,7 @@ tags_structured: []
 size: "1735 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/spells-and-secrets"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "11 hrs"
 hltb_main_extra: "13 hrs"
-hltb_completionist: "16.5 hrs"
+hltb_completionist: "12.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/127090"
 
 # Links

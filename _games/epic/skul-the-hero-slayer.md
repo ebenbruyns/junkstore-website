@@ -9,7 +9,7 @@ permalink: /games/epic/skul-the-hero-slayer/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "June '24"
 proton_version: ""
 
@@ -26,17 +26,17 @@ publisher: Playdigious
 developer: NEOWIZ
 genre: Action, Action-Adventure, Adventure
 franchise: Skul
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"kgrb":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "January 1, 2026"
-game_modes: ["Single-player"]
+release_date: "January 20, 2021"
+game_modes: ["Single player"]
 languages: ["English","Japanese","Korean","Simplified Chinese","German","French","Spanish - Spain","Russian","Traditional Chinese","Portuguese - Brazil","Polish"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"39070","name":"iOS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/skul-the-hero-slayer"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "dec246c71964468f94ef4d686f0802c3"
 is_featured: false
-owned: true
+owned: false
 ---
 
 An action-platformer with rogue-like features, challenging maps. Guide 'Skul' to take on the Imperial Army and rescue his King.

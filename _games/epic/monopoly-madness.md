@@ -28,15 +28,15 @@ genre: Casual, Party
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"cero":{"rating":"A"},"oflc":{"rating":"G","descriptors":"General, Online interaction"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
-release_date: "December 9, 2021"
+release_date: "June 22, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Spanish - Latin America"]
-tags_structured: [{"id":"1296","name":"Casual"},{"id":"1203","name":"Multiplayer"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1203","name":"Multiplayer"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/monopoly-madness"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

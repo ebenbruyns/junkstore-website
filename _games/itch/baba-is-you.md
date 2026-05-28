@@ -3,12 +3,12 @@ layout: game-page
 title: "Baba Is You - Steam Deck Compatibility"
 game_title: "Baba Is You"
 slug: "baba-is-you"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/baba-is-you/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "May ' 26"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Strategy, Indie, Puzzle
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"kgrb":{"rating":"ALL"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "March 1, 2019"
-game_modes: ["Single-player"]
+release_date: "March 13, 2019"
+game_modes: ["Single player"]
 languages: ["English","Spanish - Spain","Korean","Norwegian","Polish","Thai","French","Italian","Dutch","Japanese","Portuguese - Portugal","Portuguese - Brazil","Turkish","Vietnamese","German","Czech","Traditional Chinese","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"40838","name":"Includes level editor"},{"id":"1867","name":"puzzles"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/baba-is-you"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

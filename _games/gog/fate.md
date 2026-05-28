@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure
 franchise: 
 age_rating_summary: e10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "May 18, 2005"
+release_date: "December 12, 2013"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: "286 MB"
 franchise_siblings: [{"rawg_id":21347,"slug":"fate-the-cursed-king","name":"FATE: The Cursed King"},{"rawg_id":21315,"slug":"fate-the-traitor-soul","name":"FATE: The Traitor Soul"},{"rawg_id":20798,"slug":"fate-undiscovered-realms","name":"FATE: Undiscovered Realms"}]
 franchise_slug: "fate|fate-the-cursed-king|fate-the-traitor-soul|fate-undiscovered-realms"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/fate"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "12.5 hrs"
 hltb_main_extra: "14 hrs"
-hltb_completionist: "17 hrs"
+hltb_completionist: "15.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/3413"
 
 # Links

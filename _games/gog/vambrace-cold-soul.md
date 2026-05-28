@@ -26,7 +26,7 @@ publisher: Headup Games
 developer: Devespresso Games
 genre: Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie
 franchise: 
-age_rating_summary: PEGI 12
+age_rating_summary: 12 (PEGI)
 age_ratings: {"kgrb":{"rating":"15"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "May 28, 2019"
 game_modes: ["Single-player"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full c
 size: "2605 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/vambrace-cold-soul"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "18.5 hrs"
-hltb_completionist: "33 hrs"
+hltb_completionist: "18.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/67877"
 
 # Links

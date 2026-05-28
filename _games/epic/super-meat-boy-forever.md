@@ -26,19 +26,19 @@ publisher: Team Meat
 developer: Team Meat
 genre: Action, Platformer
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
-release_date: "December 23, 2020"
-game_modes: ["Single-player"]
+release_date: "January 10, 2022"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Russian","Simplified Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"29899","name":"Deals of the Week"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
 size: ""
 franchise_siblings: [{"rawg_id":3144,"slug":"super-meat-boy","name":"Super Meat Boy"},{"rawg_id":508502,"slug":"meat-boy-map-pack","name":"Meat boy (map pack)"},{"rawg_id":508501,"slug":"meat-boy","name":"Meat Boy"}]
 franchise_slug: "meat-boy|meat-boy-map-pack|super-meat-boy|super-meat-boy-forever"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/super-meat-boy-forever"
 was_free_before: true
-giveaway_events: [{"start":"2024-02-21T15:00:00.000Z","end":"2024-02-28T15:00:00.000Z","type":null,"id":"9ab78d8a6fe84c3f82b31215390f3c51"}]
+giveaway_events: [{"_id":"66abf1cc3631f27c961eb911","id":"9ab78d8a6fe84c3f82b31215390f3c51","namespace":"moose","startDate":"2024-02-21T15:00:00.000Z","endDate":"2024-02-28T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

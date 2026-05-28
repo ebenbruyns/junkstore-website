@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/stunt-kite-party/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Indie, Sport
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6"}}
-release_date: "February 8, 2019"
-game_modes: ["Single-player","Multi-player"]
+release_date: "June 7, 2019"
+game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"198","name":"Split Screen"},{"id":"72","name":"Local Multiplayer"},{"id":"11669","name":"stats"},{"id":"625","name":"party"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/stunt-kite-party"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

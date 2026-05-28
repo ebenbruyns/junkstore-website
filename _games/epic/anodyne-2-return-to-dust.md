@@ -9,15 +9,15 @@ permalink: /games/epic/anodyne-2-return-to-dust/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Nov '24"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
+protondb_tier: "platinum"
+protondb_score: 0.51
+protondb_total: 4
+protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
 
@@ -28,15 +28,15 @@ genre: Exploration, Adventure, Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Medo"}}
-release_date: "February 28, 2020"
-game_modes: ["Single-player"]
+release_date: "August 12, 2019"
+game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Portuguese - Brazil","French","German","Spanish - Spain","Spanish - Latin America","Japanese","Russian","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/anodyne-2-return-to-dust"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "Tanzanite"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Run, jump, and drive across vast, dreamy 3D landscapes. Shrink into surreal, 2D dungeons inside of characters' bodies. Travel the world, meet strange people, and save the world from the dangerous Nano Dust.

@@ -28,7 +28,7 @@ genre: Adventure
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence"},"pegi":{"rating":"7"},"usk":{"rating":"12"},"dejus":{"rating":"L"}}
-release_date: "November 13, 2012"
+release_date: "November 27, 2012"
 game_modes: ["Co-op","Single-player"]
 languages: ["Portuguese (brazilian)","Danish","German","English","Spanish","French","Italian","Dutch","Polish","Portuguese","Russian"]
 languages_audio: ["English","French","German"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "5894 MB"
 franchise_siblings: [{"rawg_id":833436,"slug":"lego-bricktales","name":"LEGO Bricktales"},{"rawg_id":401818,"slug":"lego-builders-journey","name":"LEGO Builder’s Journey"},{"rawg_id":330295,"slug":"lego-city-builder","name":"Lego City Builder"},{"rawg_id":58597,"slug":"lego-dc-super-villains","name":"LEGO DC Super-Villains"},{"rawg_id":58086,"slug":"lego-the-incredibles","name":"LEGO The Incredibles"},{"rawg_id":67971,"slug":"lego-city-game","name":"LEGO City game"},{"rawg_id":3729,"slug":"lego-the-hobbit","name":"LEGO The Hobbit"},{"rawg_id":27244,"slug":"lego-city-undercover-the-chase-begins-3ds","name":"LEGO City Undercover: The Chase Begins 3DS"},{"rawg_id":53375,"slug":"lego-bionicle","name":"Lego Bionicle"},{"rawg_id":32458,"slug":"lego-racers-2","name":"LEGO Racers 2"},{"rawg_id":53376,"slug":"lego-racers-2-2001","name":"Lego Racers 2 (2001)"},{"rawg_id":32359,"slug":"lego-island-2-the-bricksters-revenge","name":"LEGO Island 2: The Brickster's Revenge"},{"rawg_id":32251,"slug":"lego-racers","name":"LEGO Racers"},{"rawg_id":330584,"slug":"lego-island","name":"LEGO Island"}]
 franchise_slug: "lego-bionicle|lego-bricktales|lego-builders-journey|lego-city-builder|lego-city-game|lego-city-undercover-the-chase|lego-dc-super-villains|lego-island|lego-island-2-the-bricksters-r|lego-lord-of-the-rings|lego-racers|lego-racers-2|lego-racers-2-2001|lego-the-hobbit|lego-the-incredibles"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/lego-the-lord-of-the-rings"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -28,17 +28,17 @@ genre: Action, Action-Adventure, Turn-Based, Adventure
 franchise: Costume Quest
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Fear, Violence"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "October 22, 2020"
-game_modes: ["Single-player"]
+release_date: "October 7, 2014"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1386","name":"Turn-Based"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "963 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/costume-quest-2--1"
 was_free_before: true
-giveaway_events: [{"start":"2022-12-16T15:00:00.000Z","end":"2022-12-17T15:00:00.000Z","type":null,"id":"62488ccca67b455891967a4cfc6dea24"},{"start":"2020-10-21T15:00:00.000Z","end":"2020-10-28T15:00:00.000Z","type":null,"id":"62488ccca67b455891967a4cfc6dea24"}]
+giveaway_events: [{"_id":"66abf1d83631f27c961ebc79","id":"62488ccca67b455891967a4cfc6dea24","namespace":"c660f57e1a164930a7196f1fd27ae45a","startDate":"2022-12-16T15:00:00.000Z","endDate":"2022-12-17T15:00:00.000Z","__v":0},{"_id":"66abf1ee3631f27c961ec1f6","id":"62488ccca67b455891967a4cfc6dea24","namespace":"c660f57e1a164930a7196f1fd27ae45a","startDate":"2020-10-21T15:00:00.000Z","endDate":"2020-10-28T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

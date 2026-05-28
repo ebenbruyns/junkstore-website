@@ -9,7 +9,7 @@ permalink: /games/epic/wizard-of-legend/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Dec '24"
 proton_version: ""
 
@@ -26,19 +26,19 @@ publisher: Contingent99, Humble Games
 developer: Contingent99
 genre: Dungeon Crawler, Action-Adventure, Rogue-Lite
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "December 22, 2024"
-game_modes: ["Single-player","Local Multi-player","Co-op"]
+release_date: "May 15, 2018"
+game_modes: ["Single-player","Local Multiplayer","Co-op"]
 languages: ["English","Japanese","Korean","Simplified Chinese","French","German","Russian","Spanish - Latin America"]
 languages_audio: []
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"}]
 size: "439 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/wizard-of-legend"
 was_free_before: true
-giveaway_events: [{"start":"2024-12-22T16:00:00.000Z","end":"2024-12-23T16:00:00.000Z","type":null,"id":"9ac7a7323fb2401f92560174d5a384ff"}]
+giveaway_events: [{"_id":"6766de0a05b350e2555fa9c3","id":"9ac7a7323fb2401f92560174d5a384ff","namespace":"194cda74f9024d67860202683a3dab18","startDate":"2024-12-22T16:00:00.000Z","endDate":"2024-12-23T16:00:00.000Z","title":"Wizard of Legend","__v":0}]
 free_games_aliases: []
 
 # Images

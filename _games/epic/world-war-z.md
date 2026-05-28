@@ -26,17 +26,17 @@ publisher: Saber Interactive
 developer: Saber Interactive
 genre: Action, Shooter
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
-release_date: "April 16, 2019"
+release_date: "September 21, 2021"
 game_modes: ["Single-player","Co-op"]
 languages: ["Russian","English","Spanish - Spain","Traditional Chinese","French","Italian","German","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Japanese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"39940","name":"Gift A Game"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1279","name":"Vampire"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"39940","name":"Gift A Game"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1279","name":"Vampire"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/world-war-z-game-of-the-year-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

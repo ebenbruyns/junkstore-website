@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Strategy, Simulator
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Mild Language, Mild Violence, Sexual Themes"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language, Sex"},"dejus":{"rating":"12","descriptors":"Conteúdo sexual, Linguagem imprópria, Violência"}}
-release_date: "February 3, 2012"
+release_date: "February 14, 2012"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplaye
 size: "1420 MB"
 franchise_siblings: [{"rawg_id":384567,"slug":"crusader-kings-iii","name":"Crusader Kings III"},{"rawg_id":35163,"slug":"crusader-kings","name":"Crusader Kings"}]
 franchise_slug: "crusader-kings|crusader-kings-ii|crusader-kings-iii"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/crusader-kings-ii"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -28,7 +28,7 @@ genre: Role-playing (RPG)
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "April 25, 2019"
+release_date: "May 31, 2019"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Italian","Russian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1033 MB"
 franchise_siblings: [{"rawg_id":914788,"slug":"steamworld-build","name":"SteamWorld Build"},{"rawg_id":27938,"slug":"steamworld-dig-2","name":"SteamWorld Dig 2"},{"rawg_id":1165,"slug":"steamworld-heist","name":"SteamWorld Heist"},{"rawg_id":3748,"slug":"steamworld-dig","name":"SteamWorld Dig"},{"rawg_id":24382,"slug":"steamworld-tower-defense","name":"SteamWorld Tower Defense"}]
 franchise_slug: "steamworld-build|steamworld-dig|steamworld-dig-2|steamworld-heist|steamworld-quest|steamworld-tower-defense"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/steamworld-quest-hand-of-gilgamech"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

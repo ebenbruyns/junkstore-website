@@ -3,12 +3,12 @@ layout: game-page
 title: "Toree 3D - Steam Deck Compatibility"
 game_title: "Toree 3D"
 slug: "toree-3d"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/toree-3d/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
 release_date: "April 9, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"134","name":"Anime"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"305","name":"Linear"},{"id":"133","name":"3D Vision"},{"id":"46","name":"Surreal"},{"id":"166","name":"Stylized"},{"id":"229","name":"3D Platformer"},{"id":"164","name":"Cartoony"},{"id":"49963","name":"Precision Platformer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/toree-3d"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

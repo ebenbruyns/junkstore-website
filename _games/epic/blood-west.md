@@ -26,9 +26,9 @@ publisher: Hyperstrange
 developer: Hyperstrange
 genre: First Person, Shooter, Stealth
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
-release_date: "July 8, 2024"
+release_date: "December 5, 2023"
 game_modes: ["Single-player"]
 languages: ["English","German","Polish","Russian","Hungarian","Portuguese - Brazil"]
 languages_audio: ["English"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achi
 size: "3982 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/blood-west"
 was_free_before: true
-giveaway_events: [{"start":"2025-12-20T16:00:00.000Z","end":"2025-12-21T16:00:00.000Z","type":null,"id":"b5c0decff4f24c0892a63d8704f677f0"}]
+giveaway_events: [{"_id":"69456ec8abbacf986f13b865","id":"b5c0decff4f24c0892a63d8704f677f0","namespace":"cfd5606247d5400480bb7dccec626f1a","startDate":"2025-12-20T16:00:00.000Z","endDate":"2025-12-21T16:00:00.000Z","title":"Blood West","__v":0}]
 free_games_aliases: []
 
 # Images

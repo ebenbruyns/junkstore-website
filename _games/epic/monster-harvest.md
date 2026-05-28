@@ -28,15 +28,15 @@ genre: Casual, Exploration, Action-Adventure
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "November 3, 2022"
+release_date: "August 31, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Japanese","Portuguese - Brazil","Russian","Korean"]
 languages_audio: []
-tags_structured: [{"id":"1296","name":"Casual"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/monster-harvest"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

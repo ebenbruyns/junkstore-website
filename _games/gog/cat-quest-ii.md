@@ -26,17 +26,17 @@ publisher: PQube, Flyhigh Works, Kepler Interactive, The Gentlebros
 developer: The Gentlebros
 genre: Role-playing (RPG), Adventure, Indie
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: Everyone 10+ (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "September 19, 2019"
+release_date: "September 24, 2019"
 game_modes: ["Co-op","Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Russian","Thai","Chinese Traditional"]
 languages_audio: []
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "202 MB"
 franchise_siblings: [{"rawg_id":986898,"slug":"cat-quest-iii","name":"Cat Quest III"},{"rawg_id":44265,"slug":"cat-quest","name":"Cat Quest"}]
 franchise_slug: "cat-quest|cat-quest-ii|cat-quest-iii"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/cat-quest-ii"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

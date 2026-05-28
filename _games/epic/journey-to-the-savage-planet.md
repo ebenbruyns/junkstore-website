@@ -9,15 +9,15 @@ permalink: /games/epic/journey-to-the-savage-planet/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Aug '24"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
+protondb_tier: "gold"
+protondb_score: 0.72
+protondb_total: 48
+protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
 
@@ -28,15 +28,15 @@ genre: Action, Exploration
 franchise: 
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "January 28, 2020"
+release_date: "January 28, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Spanish - Latin America"]
 languages_audio: ["English","French"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1381","name":"Exploration"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1381","name":"Exploration"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"}]
 size: "5501 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/journey-to-the-savage-planet"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "Oleander"
 is_featured: false
-owned: true
+owned: false
 ---
 
 WELCOME TO THE PIONEER PROGRAM! As the newest recruit of Kindred Aerospace - The 4th best interstellar space exploration company - Your job is to determine if the planet ARY-26 planet is fit for humans. You may be short on equipment and experience, but you'll figure it out!

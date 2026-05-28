@@ -28,7 +28,7 @@ genre: Shooter
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Language, Violence, Online Interactions Not Rated by the ESRB"},"pegi":{"rating":"12"},"usk":{"rating":"16"},"oflc":{"rating":"M"},"nzoflc":{"rating":"M"}}
-release_date: "October 31, 2005"
+release_date: "July 8, 2009"
 game_modes: ["Multi-player","Single-player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: "6415 MB"
 franchise_siblings: [{"rawg_id":28152,"slug":"star-wars-battlefront-2","name":"STAR WARS Battlefront II"},{"rawg_id":3052,"slug":"star-wars-battlefront","name":"STAR WARS Battlefront"},{"rawg_id":26149,"slug":"star-wars-battlefront-elite-squadron","name":"Star Wars Battlefront: Elite Squadron"},{"rawg_id":5308,"slug":"star-wars-battlefront-renegade-squadron","name":"Star Wars: Battlefront Renegade Squadron"},{"rawg_id":35629,"slug":"star-wars-battlefront-3","name":"Star Wars: Battlefront (2004)"}]
 franchise_slug: "star-wars-battlefront|star-wars-battlefront-2|star-wars-battlefront-3|star-wars-battlefront-elite-sq|star-wars-battlefront-ii-2|star-wars-battlefront-renegade"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/star-wars-battlefront-ii"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "7.5 hrs"
 hltb_main_extra: "17.5 hrs"
-hltb_completionist: "52.5 hrs"
+hltb_completionist: "12.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/9098"
 
 # Links

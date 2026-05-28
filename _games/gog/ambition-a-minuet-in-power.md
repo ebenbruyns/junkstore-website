@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"189","name":"Female P
 size: "386 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/ambition-a-minuet-in-power"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

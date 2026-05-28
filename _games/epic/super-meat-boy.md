@@ -26,19 +26,19 @@ publisher: BlitWorks, Team Meat
 developer: Team Meat
 genre: Action, Platformer
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
-release_date: "October 20, 2010"
-game_modes: ["Single-player"]
+release_date: "November 30, 2010"
+game_modes: ["Single player"]
 languages: ["English","Russian"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"9547","name":"Windows"},{"id":"29899","name":"Deals of the Week"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
 size: ""
 franchise_siblings: [{"rawg_id":46153,"slug":"super-meat-boy-forever","name":"Super Meat Boy Forever"},{"rawg_id":508502,"slug":"meat-boy-map-pack","name":"Meat boy (map pack)"},{"rawg_id":508501,"slug":"meat-boy","name":"Meat Boy"}]
 franchise_slug: "meat-boy|meat-boy-map-pack|super-meat-boy|super-meat-boy-forever"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/super-meat-boy"
 was_free_before: true
-giveaway_events: [{"start":"2018-12-27T15:00:00.000Z","end":"2019-01-09T15:00:00.000Z","type":null,"id":"58f2e8dff4a84c5796ebcbdd5d10fe34"}]
+giveaway_events: [{"_id":"66abf1fe3631f27c961ec5f8","id":"58f2e8dff4a84c5796ebcbdd5d10fe34","namespace":"buffalo","startDate":"2018-12-27T15:00:00.000Z","endDate":"2019-01-09T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

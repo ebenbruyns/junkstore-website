@@ -28,7 +28,7 @@ genre: Adventure, Strategy, Real Time Strategy (RTS)
 franchise: 
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Drogas lícitas, Violência fantasiosa"}}
-release_date: "September 27, 2001"
+release_date: "December 14, 2020"
 game_modes: ["Single-player"]
 languages: ["German","English","Polish","Russian"]
 languages_audio: ["English","German","Polish","Russian"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "511 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/diggles-the-myth-of-fenris"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

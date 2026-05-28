@@ -42,9 +42,9 @@ giveaway_events: []
 free_games_aliases: []
 
 # Images
-banner_image: ""
+banner_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/899460/library_hero.jpg"
 cover_image: "https://images.gog.com/a6be6891b723aa7e48fe5723f79f30d0e1c881873e8bab9fa0185ee53264f7e0.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/899460/header.jpg"
 
 # Technical Details
 controller_input: "native"
@@ -75,8 +75,8 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "1 hrs"
 hltb_main_extra: "2.5 hrs"
-hltb_completionist: "3 hrs"
-hltb_url: "https://howlongtobeat.com/game/98863"
+hltb_completionist: "2 Hours"
+hltb_url: "https://howlongtobeat.com/game/90471"
 
 # Links
 store_url: "https://www.gog.com/en/game/shores_unknown_demo"

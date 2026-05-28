@@ -28,7 +28,7 @@ genre: Adventure, Indie, RPG
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "May 24, 2018"
+release_date: "December 8, 2022"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "81 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sir-questionnaire"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -26,19 +26,19 @@ publisher: Silver Lining Interactive
 developer: Dope Games
 genre: Simulation, Strategy, Indie
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"18","descriptors":"Drogas ilícitas, Violência Extrema, Temas sensíveis"}}
-release_date: "January 29, 2026"
+release_date: "September 29, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Japanese","Spanish - Latin America","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/definitely-not-fried-chicken"
 was_free_before: true
-giveaway_events: [{"start":"2026-01-29T16:00:00.000Z","end":"2026-02-05T16:00:00.000Z","type":null,"id":"b916500f733b4973802bdb4fdb276515"}]
+giveaway_events: [{"_id":"69723e42ec757d41c75dff4f","id":"b916500f733b4973802bdb4fdb276515","namespace":"8d8fb21ac3554271853582bad9d394d7","startDate":"2026-01-29T16:00:00.000Z","endDate":"2026-02-05T16:00:00.000Z","title":"Definitely Not Fried Chicken","__v":0}]
 free_games_aliases: []
 
 # Images

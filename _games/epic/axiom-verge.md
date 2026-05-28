@@ -9,15 +9,15 @@ permalink: /games/epic/axiom-verge/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "May '24"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
+protondb_tier: "gold"
+protondb_score: 0.58
+protondb_total: 22
+protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
 
@@ -29,14 +29,14 @@ franchise: Axiom Verge
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence, Language"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"dejus":{"rating":"14","descriptors":"Animação de sangue, Linguagem imprópria, Violência"}}
 release_date: "May 14, 2015"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]
 size: ""
 franchise_siblings: [{"rawg_id":397479,"slug":"axiom-verge-2","name":"Axiom Verge 2"}]
 franchise_slug: "axiom-verge|axiom-verge-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/axiom-verge"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "Puffin"
 is_featured: false
-owned: true
+owned: false
 ---
 
 “You think you know how Axiom Verge will play out. But you don't.” 5/5 Stars – Giant Bomb  “...simply one of the best games I've played in years.” 5/5 Stars – US Gamer  After a lab accident, a scientist awakens in a mysterious, alien world. Is this a distant planet? The far fu...

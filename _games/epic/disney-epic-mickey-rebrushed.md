@@ -9,7 +9,7 @@ permalink: /games/epic/disney-epic-mickey-rebrushed/
 
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Sept '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: Adventure, Platform
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence, Fear"},"usk":{"rating":"6","descriptors":"Schreckmomente, Düstere Atmosphäre"},"oflc":{"rating":"PG","descriptors":"Mild fantasy themes and violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "September 1, 2024"
+release_date: "September 24, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Traditional Chinese","Simplified Chinese","Japanese","Dutch","Norwegian","Swedish","Spanish - Latin America","Polish","Korean"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Dutch","Norwegian"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/epic-mickey-rebrushed"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1522160"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Embark on a magical journey in Disney Epic Mickey: Rebrushed! Shape your adventure with the stroke of a brush and transform Wasteland as Mickey Mouse

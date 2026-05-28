@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Strategy, Indie
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Violent References"},"pegi":{"rating":"7","descriptors":"Fear"},"usk":{"rating":"6","descriptors":"Abstract violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "March 9, 2011"
+release_date: "February 25, 2014"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1020 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/talisman-digital-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "2 hrs"
 hltb_main_extra: "9.5 hrs"
-hltb_completionist: "62 hrs"
+hltb_completionist: "8.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/17600"
 
 # Links

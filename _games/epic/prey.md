@@ -28,17 +28,17 @@ genre: Action, First Person, Action-Adventure, Shooter, Adventure
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Language, Use of Alcohol, Violence"},"pegi":{"rating":"18","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Strong Violence"},"nzoflc":{"rating":"r13","descriptors":"Violence, horror scenes &amp; offensive language"},"csrr":{"rating":"R"},"dejus":{"rating":"14","descriptors":"Drogas Lícitas, Linguagem Imprópria, Violência"}}
-release_date: "September 9, 2021"
-game_modes: ["Single-player"]
+release_date: "May 4, 2017"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese","Simplified Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1294","name":"First Person"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "24838 MB"
 franchise_siblings: [{"rawg_id":331461,"slug":"prey-invasion","name":"Prey Invasion"},{"rawg_id":58632,"slug":"prey-2006","name":"Prey (2006)"},{"rawg_id":403031,"slug":"prey-2","name":"Prey 2"}]
 franchise_slug: "prey|prey-2|prey-2006|prey-invasion"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/prey--1"
 was_free_before: true
-giveaway_events: [{"start":"2022-05-11T15:00:00.000Z","end":"2022-05-18T15:00:00.000Z","type":null,"id":"ed17077691c541c19dc95e47fdd1cfd5"},{"start":"2021-12-24T15:00:00.000Z","end":"2021-12-25T15:00:00.000Z","type":null,"id":"ed17077691c541c19dc95e47fdd1cfd5"}]
+giveaway_events: [{"_id":"66abf1de3631f27c961ebdef","id":"ed17077691c541c19dc95e47fdd1cfd5","namespace":"6ea398b9c2244250a9177c0b8a69b5cd","startDate":"2022-05-11T15:00:00.000Z","endDate":"2022-05-18T15:00:00.000Z","__v":0},{"_id":"66abf1e13631f27c961ebed4","id":"ed17077691c541c19dc95e47fdd1cfd5","namespace":"6ea398b9c2244250a9177c0b8a69b5cd","startDate":"2021-12-24T15:00:00.000Z","endDate":"2021-12-25T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

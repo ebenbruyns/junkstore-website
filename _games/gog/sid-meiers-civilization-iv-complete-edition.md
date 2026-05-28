@@ -28,15 +28,15 @@ genre: Strategy, Simulator
 franchise: 
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Alcohol and Tobacco Reference, Violence"},"pegi":{"rating":"12"},"usk":{"rating":"6"},"oflc":{"rating":"PG","descriptors":"Mild violence, Mild themes"},"nzoflc":{"rating":"PG","descriptors":"Mild violence, Mild themes"},"kgrb":{"rating":"12"}}
-release_date: "May 12, 2009"
-game_modes: ["Single-player"]
+release_date: "October 25, 2006"
+game_modes: ["Single player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: []
 size: "3041 MB"
 franchise_siblings: [{"rawg_id":983201,"slug":"sid-meiers-civilization-vii","name":"Sid Meier’s Civilization VII"},{"rawg_id":10297,"slug":"civilization-vi","name":"Sid Meier’s Civilization VI"},{"rawg_id":13633,"slug":"civilization-v","name":"Sid Meier's Civilization V"},{"rawg_id":17380,"slug":"sid-meiers-civilization-iii-complete","name":"Sid Meier's Civilization III Complete"},{"rawg_id":32060,"slug":"sid-meiers-civilization-2","name":"Sid Meier's Civilization 2"},{"rawg_id":32062,"slug":"sid-meiers-civilization","name":"Sid Meier's Civilization"}]
 franchise_slug: "civilization-v|civilization-vi|sid-meiers-civilization|sid-meiers-civilization-2|sid-meiers-civilization-iii-co|sid-meiers-civilization-iv|sid-meiers-civilization-vii"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sid-meier-s-civilization-iv"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

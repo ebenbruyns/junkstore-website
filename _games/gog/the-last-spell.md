@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"42","name":"Great Sou
 size: "1563 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-last-spell"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "39 hrs"
 hltb_main_extra: "66 hrs"
-hltb_completionist: "95 hrs"
+hltb_completionist: "48 Hours"
 hltb_url: "https://howlongtobeat.com/game/93160"
 
 # Links

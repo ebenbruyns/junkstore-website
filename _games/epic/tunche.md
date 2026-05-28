@@ -26,7 +26,7 @@ publisher: Hypetrain Digital LTD
 developer: Leap Game Studios
 genre: Action
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 2, 2021"
 game_modes: ["Single-player","Co-op"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"i
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/tunche"
 was_free_before: true
-giveaway_events: [{"start":"2023-03-29T15:00:00.000Z","end":"2023-04-05T15:00:00.000Z","type":null,"id":"1cfc3e68b14940719bbc0bce58fae8a4"}]
+giveaway_events: [{"_id":"66abf1d43631f27c961ebb75","id":"1cfc3e68b14940719bbc0bce58fae8a4","namespace":"78683b0edafd4a978a5ab61a7f6b0594","startDate":"2023-03-29T15:00:00.000Z","endDate":"2023-04-05T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -93,8 +93,8 @@ opencritic_score: 68
 opencritic_review_count: 21
 twitch_id: ""
 twitch_url: ""
-playstation_id: ""
-playstation_url: ""
+playstation_id: "10002518"
+playstation_url: "https://store.playstation.com/en-us/concept/10002518"
 xbox_id: ""
 xbox_url: ""
 geforcenow_id: ""

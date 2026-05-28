@@ -3,12 +3,12 @@ layout: game-page
 title: "Sector 781 - Steam Deck Compatibility"
 game_title: "Sector 781"
 slug: "sector-781"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/sector-781/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""

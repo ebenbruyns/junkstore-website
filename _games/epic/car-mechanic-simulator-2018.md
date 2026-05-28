@@ -28,17 +28,17 @@ genre: Simulation
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "June 23, 2022"
-game_modes: ["Single-player"]
+release_date: "July 28, 2017"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Hungarian","Japanese","Polish","Russian","Simplified Chinese","Turkish","Portuguese - Portugal","Greek","Portuguese - Brazil","Finnish","Korean"]
 languages_audio: []
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21127","name":"Creative Community"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/car-mechanic-simulator-2018"
 was_free_before: true
-giveaway_events: [{"start":"2022-06-22T15:00:00.000Z","end":"2022-06-29T15:00:00.000Z","type":null,"id":"5eb27cf1747c40b5a0d4f5492774678d"}]
+giveaway_events: [{"_id":"66abf1dd3631f27c961ebdb6","id":"5eb27cf1747c40b5a0d4f5492774678d","namespace":"226306adde104c9092247dcd4bfa1499","startDate":"2022-06-22T15:00:00.000Z","endDate":"2022-06-29T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

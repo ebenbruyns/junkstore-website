@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: E (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Blood, Violent References"},"pegi":{"rating":"7"},"dejus":{"rating":"L"}}
 release_date: "June 11, 2020"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Dutch","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/beyond-blue"
 was_free_before: true
-giveaway_events: [{"start":"2025-02-06T16:00:00.000Z","end":"2025-02-13T16:00:00.000Z","type":null,"id":"c3006006e4c74c4d8316ff09fb8dcc8d"},{"start":"2023-04-19T15:00:00.000Z","end":"2023-04-26T15:00:00.000Z","type":null,"id":"c3006006e4c74c4d8316ff09fb8dcc8d"}]
+giveaway_events: [{"_id":"679b96859c926668c22f496a","id":"c3006006e4c74c4d8316ff09fb8dcc8d","namespace":"bd9fd28ca1214868922f2ab41d6d3b65","startDate":"2025-02-06T16:00:00.000Z","endDate":"2025-02-13T16:00:00.000Z","title":"Beyond Blue","__v":0},{"_id":"66abf1d43631f27c961ebb5c","id":"c3006006e4c74c4d8316ff09fb8dcc8d","namespace":"bd9fd28ca1214868922f2ab41d6d3b65","startDate":"2023-04-19T15:00:00.000Z","endDate":"2023-04-26T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

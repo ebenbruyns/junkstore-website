@@ -9,7 +9,7 @@ permalink: /games/gog/mullet-madjack/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: Indie, Shooter
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Drogas lícitas"}}
-release_date: "May 1, 2024"
+release_date: "May 15, 2024"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","English","Spanish","Latin American Spanish","Japanese","Korean","Polish","Russian","Ukrainian","Chinese Traditional"]
 languages_audio: ["English","Portuguese - Brazil"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "3670 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/mullet-madjack"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1699513994"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Mullet Madjack is a single-player fast-paced FPS that brings you directly inside a classic anime.

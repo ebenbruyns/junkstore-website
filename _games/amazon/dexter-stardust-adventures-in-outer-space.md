@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/dexter-stardust-adventures-in-outer-space/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Adventure, Indie, Puzzle, Point-and-click, Visual Novel
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10"},"pegi":{"rating":"7"},"usk":{"rating":"6"},"oflc":{"rating":"PG"},"nzoflc":{"rating":"PG"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "March 3, 2022"
-game_modes: ["Single-player"]
+release_date: "March 2, 2022"
+game_modes: ["Single player"]
 languages: ["English","French"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"69","name":"Action-Adventure"},{"id":"134","name":"Anime"},{"id":"141","name":"Point & Click"},{"id":"165","name":"Colorful"},{"id":"110","name":"Cinematic"},{"id":"113","name":"Side Scroller"},{"id":"90","name":"Visual Novel"},{"id":"258","name":"Hand-drawn"},{"id":"164","name":"Cartoony"},{"id":"268","name":"Comic Book"},{"id":"179","name":"Cartoon"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"288","name":"Interactive Fiction"},{"id":"224","name":"1980s"},{"id":"87","name":"Science"},{"id":"246","name":"Clicker"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/dexter-stardust-adventures-in-outer-space"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/a9cea15dc5690a6f6f5b2cd027a6f502d923b006480635580650c467ccf331b8.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/88be3293b3fcaa36cdd8e5f83c084178c4c01ea424314fdd90c717c8641a799e.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1647390/header.jpg"
 
 # Technical Details
 controller_input: "native"

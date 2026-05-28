@@ -28,24 +28,23 @@ genre: Shooter, Arcade, Roguelike
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "February 23, 2015"
+release_date: "June 7, 2016"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"7808","name":"steam-trading-cards"},{"id":"45","name":"2D"},{"id":"40850","name":"Steam Leaderboards"},{"id":"122","name":"Pixel Graphics"},{"id":"98","name":"Loot"}]
-size: "69547322
-"
+size: "73 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/heroes-of-loot-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
 
 # Images
-banner_image: ""
+banner_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/439880/library_hero.jpg"
 cover_image: "https://images.gog.com/4a988fb8ffc3958cbdc7753ae13afa7e408d4948c2e1ab24f537de38f37de214.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/439880/header.jpg"
 
 # Technical Details
 controller_input: "native"

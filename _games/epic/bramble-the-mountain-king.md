@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 18 (USK) · ma15 (OFLC)
 age_ratings: {"usk":{"rating":"18","descriptors":"Explicit Violence, Shock and/or Horror Content"},"oflc":{"rating":"ma15","descriptors":"Strong Horror Themes, Strong Themes, Strong Violence"},"nzoflc":{"rating":"ma15","descriptors":"Strong Horror Themes, Strong Themes, Strong Violence"},"csrr":{"rating":"R","descriptors":"Violence"},"dejus":{"rating":"18","descriptors":"Extreme Violence, Sensitive Themes"}}
 release_date: "April 27, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Portuguese - Portugal","Russian","Simplified Chinese","Turkish","Finnish","Norwegian","Swedish","Korean","Polish","Traditional Chinese","Ukrainian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/bramble-the-mountain-king"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

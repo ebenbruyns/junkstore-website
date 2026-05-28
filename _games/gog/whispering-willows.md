@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Indie, Platform, Puzzle
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Suggestive Themes"},"pegi":{"rating":"12"},"usk":{"rating":"12","descriptors":"Scary Content, Abstract Violence, Sexual Innuendo"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Drogas lícitas, Conteúdo sexual"}}
-release_date: "May 17, 2014"
+release_date: "July 9, 2014"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Polish","Russian","Ukrainian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "681 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/whispering-willows"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

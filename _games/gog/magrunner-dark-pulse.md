@@ -9,7 +9,7 @@ permalink: /games/gog/magrunner-dark-pulse/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,15 +28,15 @@ genre: adventure, indie, puzzle, shooter
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
-release_date: "June 1, 2013"
-game_modes: ["Single-player"]
+release_date: "June 20, 2013"
+game_modes: ["Single player"]
 languages: ["German","English","Spanish","French","Italian","Korean","Polish","Russian","Ukrainian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"226","name":"Cyberpunk"},{"id":"47","name":"Lovecraftian"}]
 size: "2940 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/magrunner-dark-pulse"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1207659236"
 is_featured: false
-owned: true
+owned: false
 ---
 
 When technology meets Cthulhu! Magrunner: Dark Pulse is an action-puzzle game in which technology confronts the Cthulhu Mythos, as imagined by author, H. P. Lovecraft. You are Dax, one of seven Magrunners selected among the elite to participate in MagTech Corporation's space training program. But, what should be the chance of a lifetime quickly becomes a horrific nightmare.\n\nEquipped with your Magtech glove, you must harness the ability to magnetically polarize and manipulate objects in the environment to survive and surpass challenging puzzles. Your reflexes and ingenuity will be pushed to their limits as you make your way through 40+ immense and dangerous levels, including high-tech training rooms and the endless chasms of the lost cosmos, on a path to confront the horrendous creatures of Cthulhu!

@@ -9,7 +9,7 @@ permalink: /games/gog/yakuza-kiwami/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: role-playing-rpg, adventure, hack-and-slash-beat-em-up
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Partial Nudity, Sexual Themes, Strong Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Gambling"},"usk":{"rating":"18"},"cero":{"rating":"D"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence."},"kgrb":{"rating":"19"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Drogas lícitas"}}
-release_date: "January 21, 2016"
+release_date: "February 19, 2019"
 game_modes: ["Single-player"]
 languages: ["English","Japanese"]
 languages_audio: ["Japanese"]
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "17.5 hrs"
 hltb_main_extra: "33 hrs"
-hltb_completionist: "84.5 hrs"
+hltb_completionist: "30 Hours"
 hltb_url: "https://howlongtobeat.com/game/39484"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1951443960"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Yakuza Kiwami is a remake of the 2005 open world action-adventure game Yakuza.

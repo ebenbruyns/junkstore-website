@@ -28,7 +28,7 @@ genre: Simulation
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"oflc":{"rating":"G"},"dejus":{"rating":"6"}}
-release_date: "May 16, 2023"
+release_date: "September 7, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Korean","Polish","Russian","Traditional Chinese","Turkish","Simplified Chinese","Spanish - Latin America"]
 languages_audio: ["English","German","Simplified Chinese"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Sa
 size: "9728 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/bus-simulator-21--1"
 was_free_before: true
-giveaway_events: [{"start":"2024-12-05T16:00:00.000Z","end":"2024-12-12T16:00:00.000Z","type":null,"id":"10adac482d1647e1afc237b66dc45066"}]
+giveaway_events: [{"_id":"6748884182a0ee999bf30e4a","id":"10adac482d1647e1afc237b66dc45066","namespace":"2b09519576cb4276bfd8df52f5288e4a","startDate":"2024-12-05T16:00:00.000Z","endDate":"2024-12-12T16:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

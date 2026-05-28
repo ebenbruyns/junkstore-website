@@ -9,7 +9,7 @@ permalink: /games/gog/flatout/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "July '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: sport, simulator
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "November 1, 2004"
+release_date: "February 2, 2007"
 game_modes: ["Single-player"]
 languages: ["English","Spanish","French","Italian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplaye
 size: "924 MB"
 franchise_siblings: [{"rawg_id":979342,"slug":"flatout-ultimate-carnage-collectors-edition","name":"FlatOut: Ultimate Carnage — Collector's Edition"},{"rawg_id":22220,"slug":"flatout-4-total-insanity","name":"FlatOut 4: Total Insanity"},{"rawg_id":21229,"slug":"flatout-3-chaos-destruction","name":"Flatout 3: Chaos & Destruction"},{"rawg_id":298398,"slug":"flatout-head-on","name":"FlatOut: Head On"},{"rawg_id":19347,"slug":"flatout-ultimate-carnage","name":"FlatOut: Ultimate Carnage"},{"rawg_id":19628,"slug":"flatout-2","name":"FlatOut 2"}]
 franchise_slug: "flatout|flatout-2|flatout-3-chaos-destruction|flatout-4-total-insanity|flatout-head-on|flatout-ultimate-carnage|flatout-ultimate-carnage-colle"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/flatout"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1207658693"
 is_featured: false
-owned: true
+owned: false
 ---
 
 FlatOut is adrenaline-filled muscle car racing game packed with explosive physics, spectacular effects and graphics, innovative game play mechanics and good old fun!

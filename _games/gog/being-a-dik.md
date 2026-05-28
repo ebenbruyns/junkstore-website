@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Indie, Point-and-click, Visual Novel
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência, Atos criminosos, Linguagem imprópria, Conteúdo sexual, Nudez, Sexo Explícito, Drogas lícitas, Drogas, Drogas ilícitas"}}
-release_date: "February 14, 2020"
+release_date: "February 13, 2020"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "6366 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/being-a-dik"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

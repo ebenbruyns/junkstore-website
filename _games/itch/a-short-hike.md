@@ -3,12 +3,12 @@ layout: game-page
 title: "A Short Hike - Steam Deck Compatibility"
 game_title: "A Short Hike"
 slug: "a-short-hike"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/a-short-hike/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "May ' 26"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Adventure, Indie
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"cero":{"rating":"A"},"dejus":{"rating":"L"}}
-release_date: "March 4, 2020"
-game_modes: ["Single-player"]
+release_date: "July 30, 2019"
+game_modes: ["Single player"]
 languages: ["English","French","Spanish - Latin America","Japanese","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
 size: "220 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/a-short-hike"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

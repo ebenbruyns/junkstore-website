@@ -28,7 +28,7 @@ genre: Action, Shooter
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Conteúdo sexual"}}
-release_date: "September 30, 2020"
+release_date: "July 20, 2021"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Ch
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/rogue-company"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

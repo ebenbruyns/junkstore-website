@@ -26,17 +26,17 @@ publisher: Dovetail Games
 developer: Dovetail Games
 genre: Simulator
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "September 17, 2024"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Polish","Italian"]
 languages_audio: ["English","French","German"]
-tags_structured: [{"id":"9547","name":"Windows"}]
+tags_structured: [{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/train-sim-world-5"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

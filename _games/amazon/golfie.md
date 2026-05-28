@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/golfie/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Sept '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "January 19, 2023"
-game_modes: ["Single-player","Multi-player"]
+game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Danish","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"4","name":"Funny"},{"id":"14","name":"Early Access"},{"id":"121","name":"Character Customization"},{"id":"165","name":"Colorful"},{"id":"114","name":"Physics"},{"id":"639","name":"Roguelike"},{"id":"138","name":"Relaxing"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"166","name":"Stylized"},{"id":"196","name":"Procedural Generation"},{"id":"124","name":"Perma Death"},{"id":"127","name":"Card Game"},{"id":"14194","name":"deckbuilding"},{"id":"23","name":"Mini Golf"},{"id":"55322","name":"Roguelike Deckbuilder"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/golfie"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

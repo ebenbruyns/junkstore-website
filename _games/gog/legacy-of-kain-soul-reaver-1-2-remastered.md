@@ -9,7 +9,7 @@ permalink: /games/gog/legacy-of-kain-soul-reaver-1-2-remastered/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Feb '25"
 proton_version: ""
 
@@ -36,7 +36,7 @@ tags_structured: []
 size: "7996 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/legacy-of-kain-soul-reaver-remastered"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1214553287"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Experience the epic conflict of Kain and Raziel in original form or with remastered graphics.

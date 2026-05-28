@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplaye
 size: "12513 MB"
 franchise_siblings: [{"rawg_id":452645,"slug":"hitman-3","name":"Hitman 3"},{"rawg_id":58654,"slug":"hitman-2","name":"Hitman 2"},{"rawg_id":10035,"slug":"hitman","name":"Hitman"},{"rawg_id":87356,"slug":"hitman-absolution-elite-edition","name":"Hitman: Absolution - Elite Edition"},{"rawg_id":1628,"slug":"hitman-go","name":"Hitman GO"},{"rawg_id":19569,"slug":"hitman-blood-money","name":"Hitman: Blood Money"},{"rawg_id":22961,"slug":"hitman-3-contracts","name":"Hitman: Contracts"},{"rawg_id":19592,"slug":"hitman-2-silent-assassin","name":"Hitman 2: Silent Assassin"},{"rawg_id":10049,"slug":"hitman-codename-47","name":"Hitman: Codename 47"}]
 franchise_slug: "hitman|hitman-2|hitman-2-silent-assassin|hitman-3|hitman-3-contracts|hitman-absolution|hitman-absolution-elite-editio|hitman-blood-money|hitman-codename-47|hitman-go"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/hitman-absolution"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

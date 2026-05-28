@@ -26,10 +26,10 @@ publisher: Ninja Kiwi
 developer: AutoAttack Games
 genre: Indie, Tower Defense, Strategy
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"kgrb":{"rating":"12"},"dejus":{"rating":"L"}}
-release_date: "October 22, 2024"
-game_modes: ["Single-player","Online Multi-player","Co-op"]
+release_date: "October 1, 2021"
+game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","German","Spanish - Spain","Dutch","Portuguese - Brazil","Russian","Swedish","French","Polish","Turkish","Spanish - Latin America","Simplified Chinese","Traditional Chinese","Japanese","Korean","Norwegian","Ukrainian","Italian","Czech","Hungarian","Romanian","Arabic","Bulgarian","Danish","Finnish","Indonesian","Portuguese - Portugal","Vietnamese","Afrikaans","Slovak"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"33639","name":"Promotional Content"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
@@ -37,9 +37,9 @@ size: "1665442693
 "
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/legion-td-2"
 was_free_before: true
-giveaway_events: [{"start":"2025-07-24T15:00:00.000Z","end":"2025-07-31T15:00:00.000Z","type":null,"id":"71f1c64e7e41477ca09228c1253c9ce7"}]
+giveaway_events: [{"_id":"6877a19e80dba5e64115c1e8","id":"71f1c64e7e41477ca09228c1253c9ce7","namespace":"524c3386e7e6470a8d8400cc51d92296","startDate":"2025-07-24T15:00:00.000Z","endDate":"2025-07-31T15:00:00.000Z","title":"Legion TD 2","__v":0}]
 free_games_aliases: []
 
 # Images

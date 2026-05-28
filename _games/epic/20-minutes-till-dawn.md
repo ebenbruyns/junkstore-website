@@ -26,19 +26,19 @@ publisher: flanne
 developer: flanne
 genre: Action, Indie, Rogue-Lite
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "January 2, 2024"
-game_modes: ["Single-player"]
+release_date: "June 8, 2023"
+game_modes: ["Single player"]
 languages: ["English","Japanese","Simplified Chinese","Portuguese - Brazil","French","Italian","German","Spanish - Spain","Polish","Russian","Spanish - Latin America","Traditional Chinese","Turkish","Hungarian","Korean"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "54.5 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/20-minutes-till-dawn"
 was_free_before: true
-giveaway_events: [{"start":"2024-01-01T15:00:00.000Z","end":"2024-01-02T15:00:00.000Z","type":null,"id":"9758dccdbda54c1387f732d0d7d03b3b"}]
+giveaway_events: [{"_id":"66abf1cd3631f27c961eb962","id":"9758dccdbda54c1387f732d0d7d03b3b","namespace":"ee9fad7056a94957b3a4d8c457000337","startDate":"2024-01-01T15:00:00.000Z","endDate":"2024-01-02T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Indie, Platform, Puzzle
 franchise: 
 age_rating_summary: 3 (PEGI) · 0 (USK)
 age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"0"},"kgrb":{"rating":"ALL"},"dejus":{"rating":"L"}}
-release_date: "August 4, 2021"
+release_date: "August 5, 2021"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Russian","Chinese Traditional"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: []
 size: "205 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/haven-park"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -9,7 +9,7 @@ permalink: /games/gog/dino-crisis-bundle/
 
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "April '25"
 proton_version: ""
 
@@ -26,7 +26,7 @@ publisher: Capcom
 developer: Capcom
 genre: Action, Horror, Survival
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: 17 (ESRB) · 16 (PEGI)
 age_ratings: {}
 release_date: "September 1, 2024"
 game_modes: ["Single-player"]
@@ -34,8 +34,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"5641","name":"bundle"},{"id":"3345","name":"dino"}]
 size: ""
-franchise_siblings: []
-franchise_slug: ""
+franchise_siblings: [{"rawg_id":59151,"slug":"dino-crisis-3","name":"Dino Crisis 3"},{"rawg_id":59150,"slug":"dino-stalker","name":"Dino Stalker"},{"rawg_id":52872,"slug":"dino-crisis-2-2011","name":"Dino Crisis 2"}]
+franchise_slug: "dino-crisis|dino-crisis-2-2011|dino-crisis-3|dino-stalker"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1630229434"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Three years ago, a scientist died during an experiment on 'Third Energy', a clean energy source. Government funding was cut, and the incident was considered insignificant. Until now.

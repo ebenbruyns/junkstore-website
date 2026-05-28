@@ -28,17 +28,17 @@ genre: Racing
 franchise: Redout
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Language"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"cero":{"rating":"A"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"A"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
-release_date: "May 12, 2022"
+release_date: "September 2, 2016"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","Italian","Spanish - Spain","French","German","Russian","Portuguese - Brazil","Simplified Chinese","Japanese","Korean","Portuguese - Portugal","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1264","name":"Co-op"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"1264","name":"Co-op"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: [{"rawg_id":791639,"slug":"redout-2","name":"Redout 2"},{"rawg_id":62408,"slug":"redout-space-assault","name":"Redout: Space Assault"}]
 franchise_slug: "redout-2|redout-enhanced-edition|redout-space-assault"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/13197"
 was_free_before: true
-giveaway_events: [{"start":"2022-05-11T15:00:00.000Z","end":"2022-05-18T15:00:00.000Z","type":null,"id":"c82ab1b8b43843e6a279128614667fb8"}]
+giveaway_events: [{"_id":"66abf1de3631f27c961ebde7","id":"c82ab1b8b43843e6a279128614667fb8","namespace":"93ea0d593cb04e62afb0741bbf894173","startDate":"2022-05-11T15:00:00.000Z","endDate":"2022-05-18T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

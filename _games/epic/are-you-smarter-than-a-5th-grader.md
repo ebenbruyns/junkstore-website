@@ -32,11 +32,11 @@ release_date: "August 23, 2022"
 game_modes: ["Co-op"]
 languages: ["English","French"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1318","name":"Trivia"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"}]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1318","name":"Trivia"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"}]
 size: "1678 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/are-you-smarter-than-a-5th-grader--2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -76,7 +76,7 @@ native_linux: false
 hltb_main: "52 mins"
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: "https://howlongtobeat.com/game/162268"
+hltb_url: "https://howlongtobeat.com/game/118851"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/are-you-smarter-than-a-5th-grader-bc328a"

@@ -26,9 +26,9 @@ publisher: DarkGoose4
 developer: DarkGoose4
 genre: Horror, Indie
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "December 18, 2025"
+release_date: "January 26, 2026"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Play
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/nightreaper2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

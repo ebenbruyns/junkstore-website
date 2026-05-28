@@ -26,17 +26,17 @@ publisher: RFLXT Studio
 developer: iMotion Pictures
 genre: Shooter
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "August 7, 2024"
-game_modes: ["Single-player","Online Multi-player"]
+release_date: "August 7, 2020"
+game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/138736"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/91abea567e824d16ab4b93c780573c1d/chronoshot-1p4mv.png"
 cover_image: "https://cdn1.epicgames.com/spt-assets/91abea567e824d16ab4b93c780573c1d/chronoshot-1u454.png"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1326700/header.jpg"
 
 # Technical Details
 controller_input: "native"

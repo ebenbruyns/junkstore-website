@@ -9,7 +9,7 @@ permalink: /games/gog/swat-4-gold-edition/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -26,7 +26,7 @@ publisher: Activision, Sierra Entertainment, Vivendi Universal
 developer: Irrational Games
 genre: strategy, shooter, tactical
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: 17 (ESRB) · 18 (PEGI)
 age_ratings: {}
 release_date: "April 1, 2005"
 game_modes: ["Multi-player","Single-player"]
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1409964317"
 is_featured: false
-owned: true
+owned: false
 ---
 
 SWAT 4 Gold Edition includes the critically acclaimed SWAT 4 and its exciting new expansion pack, SWAT 4: The Stetchkov Syndicate.

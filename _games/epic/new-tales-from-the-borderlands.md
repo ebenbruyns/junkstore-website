@@ -28,15 +28,15 @@ genre: Action, Adventure
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Sexual Themes, Partial Nudity, Strong Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong violence, online interactivity"},"nzoflc":{"rating":"r13","descriptors":"Bloody violence, sexual references and offensive language"},"kgrb":{"rating":"18"},"fpb":{"rating":"16"},"csrr":{"rating":"R","descriptors":"Sex, Violence, Tobacco &amp; Alcohol, Inappropriate Speech"},"mda":{"rating":"M18","descriptors":"Strong Violence and Gore"},"dejus":{"rating":"18","descriptors":"Conteúdo Sexual, Drogas, Violência extrema"}}
-release_date: "October 21, 2022"
+release_date: "October 20, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil"]
 languages_audio: ["English","French"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"}]
 size: "28.3 GB"
 franchise_siblings: [{"rawg_id":692541,"slug":"tiny-tinas-assault-on-dragon-keep-a-wonderlands-on","name":"Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure"},{"rawg_id":58617,"slug":"borderlands-3","name":"Borderlands 3"},{"rawg_id":2100,"slug":"tales-from-the-borderlands","name":"Tales from the Borderlands: A Telltale Game Series"},{"rawg_id":3543,"slug":"borderlands-the-pre-sequel","name":"Borderlands: The Pre-Sequel"},{"rawg_id":330906,"slug":"borderlands-legends","name":"Borderlands Legends"},{"rawg_id":802,"slug":"borderlands-2","name":"Borderlands 2"},{"rawg_id":4828,"slug":"borderlands","name":"Borderlands"}]
 franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|borderlands-the-pre-sequel|new-tales-from-the-borderlands|tales-from-the-borderlands|tiny-tinas-assault-on-dragon-k"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/new-tales-from-the-borderlands"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

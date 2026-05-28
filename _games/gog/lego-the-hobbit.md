@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Puzzle
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence, Comic Mischief"},"pegi":{"rating":"7","descriptors":"Any game that would normally be rated at 3 but contains some possibly frightening scenes or sounds may be considered suitable in this category. Some scenes of partial nudity may be permitted but never in a sexual context."},"usk":{"rating":"6","descriptors":"Restricted for those below the age of 6.  Games with this rating may be of an abstract or comical nature, may have a darker theme or may be too involving for children under the age of 6."},"oflc":{"rating":"PG","descriptors":"PG - Parental Guidence Recommened. The content is mild."},"fpb":{"rating":"A","descriptors":"Parental Guidance. May contain classifiable elements that may be disturbing or harmful for sensitive young viewers. May depict mild comic-mischief and Low-stylized violence."},"mda":{"descriptors":"Suitable for General Audience"},"dejus":{"rating":"L","descriptors":"Contains no objectionable content and can be viewed by all ages."}}
-release_date: "April 8, 2014"
+release_date: "April 15, 2014"
 game_modes: ["Co-op","Single-player"]
 languages: ["Portuguese (brazilian)","Danish","German","English","Spanish","French","Italian","Dutch","Polish","Russian"]
 languages_audio: ["English","French","German","Spanish - Spain","Portuguese - Brazil"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "7707 MB"
 franchise_siblings: [{"rawg_id":833436,"slug":"lego-bricktales","name":"LEGO Bricktales"},{"rawg_id":401818,"slug":"lego-builders-journey","name":"LEGO Builder’s Journey"},{"rawg_id":330295,"slug":"lego-city-builder","name":"Lego City Builder"},{"rawg_id":58597,"slug":"lego-dc-super-villains","name":"LEGO DC Super-Villains"},{"rawg_id":58086,"slug":"lego-the-incredibles","name":"LEGO The Incredibles"},{"rawg_id":67971,"slug":"lego-city-game","name":"LEGO City game"},{"rawg_id":27244,"slug":"lego-city-undercover-the-chase-begins-3ds","name":"LEGO City Undercover: The Chase Begins 3DS"},{"rawg_id":2597,"slug":"lego-lord-of-the-rings","name":"LEGO The Lord of the Rings"},{"rawg_id":53375,"slug":"lego-bionicle","name":"Lego Bionicle"},{"rawg_id":32359,"slug":"lego-island-2-the-bricksters-revenge","name":"LEGO Island 2: The Brickster's Revenge"},{"rawg_id":32251,"slug":"lego-racers","name":"LEGO Racers"},{"rawg_id":330584,"slug":"lego-island","name":"LEGO Island"}]
 franchise_slug: "lego-bionicle|lego-bricktales|lego-builders-journey|lego-city-builder|lego-city-game|lego-city-undercover-the-chase|lego-dc-super-villains|lego-island|lego-island-2-the-bricksters-r|lego-lord-of-the-rings|lego-racers|lego-the-hobbit|lego-the-incredibles"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/lego-the-hobbit"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

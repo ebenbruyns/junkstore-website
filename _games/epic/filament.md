@@ -26,19 +26,19 @@ publisher: Kasedo Games
 developer: Beard Envy
 genre: Indie, Puzzle
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Linguagem imprópria"}}
-release_date: "August 11, 2022"
-game_modes: ["Single-player"]
+release_date: "April 23, 2020"
+game_modes: ["Single Player"]
 languages: ["English","French","German","Russian","Simplified Chinese","Japanese","Traditional Chinese","Korean","Portuguese - Brazil"]
 languages_audio: ["English"]
-tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"}]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/filament"
 was_free_before: true
-giveaway_events: [{"start":"2022-11-02T15:00:00.000Z","end":"2022-11-09T15:00:00.000Z","type":null,"id":"296453e71c884f95aecf4d582cf66915"}]
+giveaway_events: [{"_id":"66abf1da3631f27c961ebcd1","id":"296453e71c884f95aecf4d582cf66915","namespace":"89fb09a222a54e53b692e9c36e68d0a1","startDate":"2022-11-02T15:00:00.000Z","endDate":"2022-11-09T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

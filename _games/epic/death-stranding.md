@@ -28,15 +28,15 @@ genre: Action, Action-Adventure, Open World, Adventure
 franchise: 
 age_rating_summary: M (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Partial Nudity, Strong Language"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
-release_date: "January 1, 2099"
-game_modes: ["Single-player"]
+release_date: "March 30, 2022"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Greek","Hungarian","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Greek","Japanese","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/death-stranding-collectors-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -74,7 +74,7 @@ native_linux: false
 
 # HowLongToBeat
 hltb_main: "40½ Hours"
-hltb_main_extra: ""
+hltb_main_extra: "59 hrs"
 hltb_completionist: "113 Hours"
 hltb_url: "https://howlongtobeat.com/game/93457"
 

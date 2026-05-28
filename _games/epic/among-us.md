@@ -9,15 +9,15 @@ permalink: /games/epic/among-us/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Nov '24"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
+protondb_tier: "gold"
+protondb_score: 0.84
+protondb_total: 1167
+protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
 
@@ -28,7 +28,7 @@ genre: Casual
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "December 18, 2020"
+release_date: "November 16, 2018"
 game_modes: ["Co-op"]
 languages: ["English","Portuguese - Brazil","Spanish - Latin America","Spanish - Spain","Korean","Russian","French","Italian","German","Dutch","Japanese","Portuguese - Portugal","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122"
 size: ""
 franchise_siblings: [{"rawg_id":1002772,"slug":"among-us-3d-2","name":"Among Us 3D"},{"rawg_id":705663,"slug":"among-us-vr","name":"Among Us VR"}]
 franchise_slug: "among-us|among-us-3d-2|among-us-vr"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/among-us"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

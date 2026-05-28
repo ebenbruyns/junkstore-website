@@ -28,7 +28,7 @@ genre: Strategy
 franchise: 
 age_rating_summary: T (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"7","descriptors":"Non realistic looking violence towards human characters"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Low level animated violence"}}
-release_date: "November 9, 2001"
+release_date: "March 1, 2016"
 game_modes: ["Multi-player","Single-player"]
 languages: ["German","English","Spanish","French"]
 languages_audio: ["English","French","German","Spanish - Spain"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: "544 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/star-wars-galactic-battlegrounds"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

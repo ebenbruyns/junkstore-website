@@ -28,7 +28,7 @@ genre: Action
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Partial Nudity, Violence"},"pegi":{"rating":"16","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "December 29, 2021"
+release_date: "May 17, 2016"
 game_modes: ["Single-player"]
 languages: ["English","German","Japanese","French","Italian","Spanish - Spain","Korean","Portuguese - Brazil","Polish","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Ch
 size: ""
 franchise_siblings: [{"rawg_id":614966,"slug":"salt-sacrifice","name":"Salt and Sacrifice"}]
 franchise_slug: "salt-and-sanctuary|salt-sacrifice"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/salt-and-sanctuary"
 was_free_before: true
-giveaway_events: [{"start":"2021-12-28T15:00:00.000Z","end":"2021-12-29T15:00:00.000Z","type":null,"id":"b69fb17fe548401297c61f0e88807031"}]
+giveaway_events: [{"_id":"66abf1e13631f27c961ebeb8","id":"b69fb17fe548401297c61f0e88807031","namespace":"79d9bff700bb46a790b21e8c73b34899","startDate":"2021-12-28T15:00:00.000Z","endDate":"2021-12-29T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

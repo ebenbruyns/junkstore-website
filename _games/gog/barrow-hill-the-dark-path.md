@@ -9,15 +9,15 @@ permalink: /games/gog/barrow-hill-the-dark-path/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
+protondb_tier: "pending"
+protondb_score: 0.34
+protondb_total: 2
+protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
 
@@ -26,17 +26,17 @@ publisher: Iceberg Interactive
 developer: Shadow Tor Studios
 genre: adventure, indie, point-and-click
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: 13 (ESRB) · 12 (PEGI)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
-release_date: "September 1, 2016"
-game_modes: ["Single-player"]
+release_date: "September 22, 2016"
+game_modes: ["Single player"]
 languages: ["German","English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "3434 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/barrow-hill-the-dark-path"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1840673966"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Follow the Dark Path into a world of Druidic lore and Celtic myths. It is the Autumn Equinox on Barrow Hill, a time of great power, when the ancient standing stones are at their most powerful and dangerous.

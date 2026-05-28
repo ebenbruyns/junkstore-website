@@ -28,7 +28,7 @@ genre: Strategy
 franchise: 
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Animated Violence"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "September 30, 1997"
+release_date: "December 18, 2015"
 game_modes: ["Multi-player","Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: "1043 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/total-annihilation"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

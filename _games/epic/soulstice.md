@@ -26,19 +26,19 @@ publisher: Maximum Entertainment LLC
 developer: Reply Game Studios
 genre: Action, RPG
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Conteúdo sexual"}}
-release_date: "September 28, 2023"
-game_modes: ["Single-player"]
+release_date: "September 19, 2022"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Czech"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"20151","name":"Adjustable Text"},{"id":"20152","name":"Brightness Adjustments"},{"id":"20155","name":"Adjustable Color Options"},{"id":"20156","name":"Subtitles"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/soulstice"
 was_free_before: true
-giveaway_events: [{"start":"2023-09-27T15:00:00.000Z","end":"2023-10-04T15:00:00.000Z","type":null,"id":"4b19305fb8ec4640b4fa8d6ea5e5e3c4"}]
+giveaway_events: [{"_id":"66abf1d03631f27c961eba4d","id":"4b19305fb8ec4640b4fa8d6ea5e5e3c4","namespace":"cb8afc06acb14f6a8cf3ab01f4b361ce","startDate":"2023-09-27T15:00:00.000Z","endDate":"2023-10-04T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

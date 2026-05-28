@@ -36,7 +36,7 @@ tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Ach
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/neo-cab"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

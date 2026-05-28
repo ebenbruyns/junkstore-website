@@ -28,15 +28,15 @@ genre: Racing
 franchise: 
 age_rating_summary: 3 (PEGI) · 0 (USK)
 age_ratings: {"pegi":{"rating":"3","descriptors":"In-Game Purchases"},"usk":{"rating":"0"},"cero":{"rating":"A"},"oflc":{"rating":"G","descriptors":"General, online interactivity, In-game purchases"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
-release_date: "July 1, 2020"
-game_modes: ["Single-player","Multi-player","Split Screen"]
+release_date: "February 2, 2023"
+game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Turkish","Japanese","Dutch","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"1203","name":"Multiplayer"},{"id":"1159","name":"Arcade"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"1279","name":"Vampire"}]
 size: ""
 franchise_siblings: [{"rawg_id":426098,"slug":"trackmania-2020","name":"TrackMania (2020)"},{"rawg_id":23480,"slug":"trackmania2-lagoon","name":"Trackmania² Lagoon"},{"rawg_id":2659,"slug":"trackmania-turbo","name":"Trackmania Turbo"},{"rawg_id":12909,"slug":"trackmania2-valley","name":"TrackMania² Valley"},{"rawg_id":12908,"slug":"trackmania2-stadium","name":"TrackMania² Stadium"},{"rawg_id":12907,"slug":"trackmania2-canyon","name":"TrackMania² Canyon"},{"rawg_id":25848,"slug":"trackmania-ds","name":"TrackMania DS"},{"rawg_id":20511,"slug":"trackmania-nations-forever","name":"TrackMania Nations Forever"},{"rawg_id":19406,"slug":"trackmania-united-forever-star-edition","name":"Trackmania United Forever Star Edition"},{"rawg_id":38595,"slug":"trackmania-united-forever","name":"TrackMania United Forever"},{"rawg_id":37745,"slug":"trackmania-united","name":"TrackMania United"},{"rawg_id":37104,"slug":"trackmania-nations","name":"TrackMania Nations"},{"rawg_id":36065,"slug":"trackmania-sunrise","name":"TrackMania Sunrise"},{"rawg_id":35367,"slug":"trackmania-2003","name":"TrackMania (2003)"}]
 franchise_slug: "trackmania-2003|trackmania-2010|trackmania-2020|trackmania-ds|trackmania-nations|trackmania-nations-forever|trackmania-sunrise|trackmania-turbo|trackmania-united|trackmania-united-forever|trackmania-united-forever-star|trackmania2-canyon|trackmania2-lagoon|trackmania2-stadium|trackmania2-valley"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/trackmania--2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

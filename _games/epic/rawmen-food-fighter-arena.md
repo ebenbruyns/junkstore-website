@@ -26,19 +26,19 @@ publisher: tinyBuild
 developer: ANIMAL
 genre: Action, Indie, Shooter
 franchise: 
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Linguagem imprópria"}}
 release_date: "July 23, 2024"
-game_modes: ["Online Multi-player"]
+game_modes: ["Online Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/rawmen"
 was_free_before: true
-giveaway_events: [{"start":"2024-08-01T15:00:00.000Z","end":"2024-08-08T15:00:00.000Z","type":null,"id":"e7e111c658584357a25ff993fca52a3c"}]
+giveaway_events: [{"_id":"66abfad55736a265e483cb22","id":"e7e111c658584357a25ff993fca52a3c","namespace":"b9665613f2b94636bf4536a411002d22","startDate":"2024-08-01T15:00:00.000Z","endDate":"2024-08-08T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

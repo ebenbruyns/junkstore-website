@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/bang-bang-racing/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Arcade, Racing
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"}}
-release_date: "May 13, 2011"
-game_modes: ["Single-player","Multi-player","Split Screen"]
+release_date: "June 8, 2012"
+game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English","German","French","Italian","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"40845","name":"Partial Controller Support"},{"id":"40850","name":"Steam Leaderboards"},{"id":"198","name":"Split Screen"},{"id":"72","name":"Local Multiplayer"},{"id":"61","name":"Top-Down"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/bang-bang-racing"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/d3cfc9f592a0f7a5fb690d1bb931e67e73544245332b2e2283e566e9f9869f5e.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/fa372dd7d23566a139d6fde8a0de12910774a1da87360cdecd13369f94a7d58a.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/207020/header.jpg"
 
 # Technical Details
 controller_input: "native"

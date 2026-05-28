@@ -9,7 +9,7 @@ permalink: /games/gog/mdk/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "July '24"
 proton_version: ""
 
@@ -28,15 +28,15 @@ genre: platform, shooter
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "April 30, 1997"
-game_modes: ["Single-player"]
+release_date: "September 17, 2009"
+game_modes: ["Single player"]
 languages: ["German","English","Spanish","French","Italian","Polish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"193","name":"Classic"},{"id":"150","name":"Third-Person Shooter"}]
 size: "200 MB"
 franchise_siblings: [{"rawg_id":19367,"slug":"mdk2","name":"MDK 2"}]
 franchise_slug: "mdk|mdk2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/mdk"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "4 hrs"
 hltb_main_extra: "5 hrs"
-hltb_completionist: "6.5 hrs"
+hltb_completionist: "4.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/5750"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "6"
 is_featured: false
-owned: true
+owned: false
 ---
 
 The game tells the story of Kurt Hectic, a janitor who reluctantly must attempt to save Earth from an alien invasion of gigantic strip mining city-size vehicles named "Minecrawlers".

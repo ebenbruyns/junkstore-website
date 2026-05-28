@@ -28,17 +28,17 @@ genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: 0 (USK)
 age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"12","descriptors":"Violência, Interação de Usuários"}}
-release_date: "December 4, 2025"
-game_modes: ["Online Multi-player","Co-op"]
+release_date: "October 10, 2019"
+game_modes: ["Online Multiplayer","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Dutch","Italian","Arabic","Czech","Danish","Finnish","Norwegian","Portuguese - Portugal","Portuguese - Brazil","Swedish","Thai","Turkish"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"39940","name":"Gift A Game"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"39940","name":"Gift A Game"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: [{"rawg_id":574766,"slug":"we-were-here-forever","name":"We Were Here Forever"},{"rawg_id":45156,"slug":"we-were-here-too","name":"We Were Here Too"},{"rawg_id":9515,"slug":"we-were-here","name":"We Were Here"}]
 franchise_slug: "we-were-here|we-were-here-forever|we-were-here-together|we-were-here-too"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/we-were-here-together"
 was_free_before: true
-giveaway_events: [{"start":"2025-12-26T16:00:00.000Z","end":"2025-12-27T16:00:00.000Z","type":null,"id":"231e8f6d250a453f9c44c0adf3a34656"}]
+giveaway_events: [{"_id":"694d578cda37fe31efa57dac","id":"231e8f6d250a453f9c44c0adf3a34656","namespace":"c5f6069e7dd644dab009294f0fddc7a7","startDate":"2025-12-26T16:00:00.000Z","endDate":"2025-12-27T16:00:00.000Z","title":"We Were Here Together","__v":0}]
 free_games_aliases: []
 
 # Images

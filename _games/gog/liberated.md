@@ -26,9 +26,9 @@ publisher: Walkabout Games
 developer: Atomic Wolf
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: ESRB 17
+age_rating_summary: 17 (ESRB) · 16 (PEGI)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Drogas lícitas, Linguagem imprópria"}}
-release_date: "June 2, 2020"
+release_date: "July 30, 2020"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Polish","Russian"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1421 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/liberated"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

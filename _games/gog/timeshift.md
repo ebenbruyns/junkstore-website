@@ -9,7 +9,7 @@ permalink: /games/gog/timeshift/
 
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "March '25"
 proton_version: "Proton 9.0-4"
 
@@ -28,7 +28,7 @@ genre: puzzle, shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Language"},"pegi":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"descriptors":"%NZoflcDescriptors%"}}
-release_date: "October 1, 2007"
+release_date: "July 23, 2009"
 game_modes: ["Multi-player","Single-player"]
 languages: ["English","Spanish","French","Italian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "2828 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/timeshift"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1460032883"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Master time to become the ultimate weapon! Dr. Aiden Krone has made a Time Jump across the space-time continuum - a reckless act with frightening consequences.

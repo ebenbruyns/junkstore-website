@@ -9,7 +9,7 @@ permalink: /games/epic/amnesia-a-machine-for-pigs/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Nov '24"
 proton_version: ""
 
@@ -26,19 +26,19 @@ publisher: Frictional Games
 developer: The Chinese Room
 genre: Horror, First Person, Indie
 franchise: Amnesia
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Nudez, Linguagem imprópria, Violência"}}
-release_date: "October 15, 2020"
-game_modes: ["Single-player"]
+release_date: "September 10, 2013"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Hungarian","Polish","Portuguese - Brazil","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
 size: "2495 MB"
 franchise_siblings: [{"rawg_id":911543,"slug":"amnesia-the-bunker","name":"Amnesia: The Bunker"},{"rawg_id":427519,"slug":"amnesia-rebirth","name":"Amnesia: Rebirth"},{"rawg_id":13668,"slug":"amnesia-the-dark-descent","name":"Amnesia: The Dark Descent"}]
 franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|amnesia-the-dark-descent"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/amnesia-a-machine-for-pigs"
 was_free_before: true
-giveaway_events: [{"start":"2020-10-14T15:00:00.000Z","end":"2020-10-21T15:00:00.000Z","type":null,"id":"8080b4a777b54ec8a1ded2c8e7ec40a4"}]
+giveaway_events: [{"_id":"66abf1ee3631f27c961ec207","id":"8080b4a777b54ec8a1ded2c8e7ec40a4","namespace":"8de58df378c34407b6db0388e0470a45","startDate":"2020-10-14T15:00:00.000Z","endDate":"2020-10-21T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "d7db33dfe7634d6b8a188c708f2caa3c"
 is_featured: false
-owned: true
+owned: false
 ---
 
 First-person horror that will drag you to the depths of greed, power and madness. Developed by The Chinese Room, the creators of Dear Esther, and published Frictional Games, the studio behind Amnesia: The Dark Descent.

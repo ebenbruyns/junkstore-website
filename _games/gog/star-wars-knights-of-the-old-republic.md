@@ -9,7 +9,7 @@ permalink: /games/gog/star-wars-knights-of-the-old-republic/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: role-playing, adventure
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"12","descriptors":"Non-realistic looking violence towards fantasy characters - Realistic looking violence"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Medium Level Animated Violence"},"nzoflc":{"rating":"PG","descriptors":"Medium Level Animated Violence"}}
-release_date: "July 1, 2003"
+release_date: "September 5, 2009"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","German","French"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmosph
 size: "2479 MB"
 franchise_siblings: [{"rawg_id":38965,"slug":"star-wars-the-old-republic","name":"Star Wars: The Old Republic"},{"rawg_id":15858,"slug":"kotor-ii","name":"Star Wars: Knights of the Old Republic II – The Sith Lords"}]
 franchise_slug: "kotor-ii|star-wars-knights-of-the-old-r|star-wars-the-old-republic"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/star-wars-knights-of-the-old-republic"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "29 hrs"
 hltb_main_extra: "36.5 hrs"
-hltb_completionist: "48.5 hrs"
+hltb_completionist: "36 Hours"
 hltb_url: "https://howlongtobeat.com/game/9111"
 
 # Links
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1207666283"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Choose Your Path! Set 4,000 years before the Galactic Empire, you are the last hope for the Jedi Order and the Republic...

@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Atos criminosos"}}
-release_date: "December 21, 2020"
+release_date: "March 31, 2022"
 game_modes: ["Multi-player","Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Russian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full c
 size: "889 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/coromon"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

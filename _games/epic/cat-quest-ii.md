@@ -26,19 +26,19 @@ publisher: Kepler Interactive
 developer: The Gentlebros
 genre: Casual, RPG, Action-Adventure
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "May 2, 2024"
+release_date: "September 24, 2019"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Dutch","Korean","Thai","Traditional Chinese","Turkish","Spanish - Latin America"]
 languages_audio: []
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "202 MB"
 franchise_siblings: [{"rawg_id":986898,"slug":"cat-quest-iii","name":"Cat Quest III"},{"rawg_id":44265,"slug":"cat-quest","name":"Cat Quest"}]
 franchise_slug: "cat-quest|cat-quest-ii|cat-quest-iii"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/cat-quest-ii"
 was_free_before: true
-giveaway_events: [{"start":"2025-04-03T15:00:00.000Z","end":"2025-04-10T15:00:00.000Z","type":null,"id":"2a8398bbcb524c379ab21e31f0be5aeb"},{"start":"2024-05-01T15:00:00.000Z","end":"2024-05-08T15:00:00.000Z","type":null,"id":"2a8398bbcb524c379ab21e31f0be5aeb"}]
+giveaway_events: [{"_id":"67e5673eab8eba74538a35b7","id":"2a8398bbcb524c379ab21e31f0be5aeb","namespace":"58004246d72f474a957ff5f57b9684ca","startDate":"2025-04-03T15:00:00.000Z","endDate":"2025-04-10T15:00:00.000Z","title":"Cat Quest II","__v":0},{"_id":"66abf1ca3631f27c961eb88c","id":"2a8398bbcb524c379ab21e31f0be5aeb","namespace":"58004246d72f474a957ff5f57b9684ca","startDate":"2024-05-01T15:00:00.000Z","endDate":"2024-05-08T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -36,7 +36,7 @@ tags_structured: []
 size: "588 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-life-and-suffering-of-sir-brante"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

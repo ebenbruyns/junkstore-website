@@ -9,7 +9,7 @@ permalink: /games/gog/yakuza-0/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: role-playing-rpg, adventure, simulator, hack-and-slash-beat-em-up
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Sexual Content, Strong Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Gambling"},"usk":{"rating":"18"},"cero":{"rating":"D"},"kgrb":{"rating":"19"},"dejus":{"rating":"18","descriptors":"Violência, Temas sensíveis, Linguagem imprópria"}}
-release_date: "March 12, 2015"
+release_date: "August 1, 2018"
 game_modes: ["Single-player"]
 languages: ["English","Japanese"]
 languages_audio: ["Japanese"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "22048 MB"
 franchise_siblings: [{"rawg_id":369157,"slug":"yakuza-7","name":"Yakuza: Like a Dragon"},{"rawg_id":58835,"slug":"yakuza-kiwami-2","name":"Yakuza Kiwami 2"},{"rawg_id":52201,"slug":"yakuza-6","name":"Yakuza 6: The Song of Life"},{"rawg_id":44525,"slug":"yakuza-kiwami","name":"Yakuza Kiwami"},{"rawg_id":2977,"slug":"yakuza-5","name":"Yakuza 5"},{"rawg_id":275604,"slug":"kurohyou-2-ryu-ga-gotoku-ashura-hen","name":"Kurohyo 2: Ryu Ga Gotoku Ashura-hen"},{"rawg_id":3481,"slug":"yakuza-dead-souls","name":"Yakuza: Dead Souls"},{"rawg_id":275603,"slug":"kurohyo-ryu-ga-gotoku-shinsho","name":"Kurohyo: Ryu ga Gotoku Shinsho"},{"rawg_id":3480,"slug":"yakuza-4","name":"Yakuza 4"},{"rawg_id":21958,"slug":"yakuza-3","name":"Yakuza 3"},{"rawg_id":49577,"slug":"yakuza-kenzan","name":"Yakuza Kenzan!"},{"rawg_id":275602,"slug":"yakuza-2","name":"Yakuza 2"},{"rawg_id":42191,"slug":"yakuza","name":"Yakuza"},{"rawg_id":916469,"slug":"yakuza-8","name":"Like a Dragon 8"}]
 franchise_slug: "kurohyo-ryu-ga-gotoku-shinsho|kurohyou-2-ryu-ga-gotoku-ashur|yakuza|yakuza-0|yakuza-2|yakuza-3|yakuza-4|yakuza-5|yakuza-6|yakuza-7|yakuza-8|yakuza-dead-souls|yakuza-kenzan|yakuza-kiwami|yakuza-kiwami-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/yakuza-0"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1103602225"
 is_featured: false
-owned: true
+owned: false
 ---
 
 The glitz, glamour, and unbridled decadence of the 80s are back! Yakuza 0 is a prequel set in 1988 to the Yakuza series, taking place before the first game.

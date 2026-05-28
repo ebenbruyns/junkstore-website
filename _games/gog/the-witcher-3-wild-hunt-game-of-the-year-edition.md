@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Action
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Nudity, Strong Language, Strong Sexual Content, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad language"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"High impact violence and sex"},"nzoflc":{"rating":"r16","descriptors":"Violence, Sexual violence, Offensive language and sex scenes"},"kgrb":{"rating":"18","descriptors":"Sexuality, Violence, Language, Drugs"},"fpb":{"rating":"18","descriptors":"SCENES CONTAINING IMAGES OF ILLEGAL DRUGS, SCENES OF HORROR, STRONG LANGUAGE (SWEAR-WORDS, THREATS, ABUSE OR PREJUDICE), GRAPHIC OR PROLONGED PICTURES OF NUDITY, THERE MAY BE BRIEF SCENES OF SEXUAL ACTIVITY, SCENES SHOWING PICTURES OF VIOLENCE"},"csrr":{"rating":"R"},"mda":{"rating":"M18","descriptors":"STRONG VIOLENCE, NUDITY AND SEXUAL SCENES"},"dejus":{"rating":"16","descriptors":"Conteúdo Sexual, Drogas Lícitas, Violência"}}
-release_date: "August 1, 2016"
+release_date: "May 18, 2015"
 game_modes: ["Single-player"]
 languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","Latin American Spanish","French","Hungarian","Italian","Japanese","Korean","Polish","Russian","Turkish","Chinese Traditional"]
 languages_audio: ["English","French","German","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
@@ -36,7 +36,7 @@ tags_structured: []
 size: ""
 franchise_siblings: [{"rawg_id":813543,"slug":"gwent-rogue-mage","name":"Gwent: Rogue Mage"},{"rawg_id":244722,"slug":"gwent-thronebreaker","name":"Thronebreaker: The Witcher Tales"},{"rawg_id":23557,"slug":"gwent-the-witcher-card-game","name":"Gwent: The Witcher Card Game"},{"rawg_id":6400,"slug":"the-witcher-adventure-game","name":"The Witcher Adventure Game"},{"rawg_id":28454,"slug":"the-witcher-2-assassins-of-kings","name":"The Witcher 2: Assassins of Kings"},{"rawg_id":35358,"slug":"the-witcher","name":"The Witcher"},{"rawg_id":39074,"slug":"the-witcher-rise-of-the-white-wolf","name":"The Witcher: Rise of the White Wolf"},{"rawg_id":758455,"slug":"the-witcher-4","name":"The Witcher (A New Saga Begins)"},{"rawg_id":871152,"slug":"the-witcher-remake","name":"The Witcher: Remake"}]
 franchise_slug: "gwent-rogue-mage|gwent-the-witcher-card-game|gwent-thronebreaker|the-witcher|the-witcher-2-assassins-of-kin|the-witcher-3-wild-hunt|the-witcher-4|the-witcher-adventure-game|the-witcher-remake|the-witcher-rise-of-the-white-"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-witcher-3-wild-hunt"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/d4dcbad8151f8acf3d8316c82c62a9f132833d77a384c5523cac0e0bcea80f06.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/28b3ae57e6a29c5566e88503eb0cf31414d41f24c963202e2de07fd713cec72d.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg"
 
 # Technical Details
 controller_input: "native"

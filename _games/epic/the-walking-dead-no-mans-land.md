@@ -26,17 +26,17 @@ publisher: Deca Live Operations GmbH
 developer: Deca Live Operations GmbH
 genre: RPG, Strategy
 franchise: 
-age_rating_summary: ESRB Mature 17+
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência"}}
-release_date: "January 10, 2024"
-game_modes: ["Single-player"]
+release_date: "July 30, 2024"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-walking-dead-no-mans-land"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/178219f867fc1af18c44ef28c4eb134903a0dffc55c226822f19bc09e433edec.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/1dc65981e77e64fd389b94b4e2b59dd6dd3422ec4eb6587c6962a5c8d3d280df.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2936310/header.jpg"
 
 # Technical Details
 controller_input: "native"

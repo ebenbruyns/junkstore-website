@@ -9,7 +9,7 @@ permalink: /games/gog/primordia/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: role-playing, adventure, indie, puzzle, point-and-click
 franchise: 
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Atos criminosos"}}
-release_date: "December 1, 2012"
+release_date: "December 5, 2012"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Hungarian","Italian","Turkish"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospher
 size: "1103 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/primordia"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1207659144"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Life has ceased. Man is but a myth. And now, even the machines have begun to fail. Lead Horatio Nullbuilt and his sarcastic sidekick Crispin on a journey through the crumbling world of Primordia...

@@ -28,7 +28,7 @@ genre: Racing
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "February 27, 2013"
+release_date: "September 2, 2022"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40845","name":"Partia
 size: "383 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/flashout-3d-enhanced-edition"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

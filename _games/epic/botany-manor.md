@@ -28,15 +28,15 @@ genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: 3 (PEGI)
 age_ratings: {"pegi":{"rating":"3"},"dejus":{"rating":"L"}}
-release_date: "February 5, 2026"
+release_date: "April 9, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Japanese","Spanish - Latin America","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/botany-manor"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

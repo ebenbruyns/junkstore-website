@@ -28,15 +28,15 @@ genre: Puzzle, Action-Adventure, Platformer
 franchise: Trine
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"6"},"oflc":{"rating":"PG","descriptors":"Mild fantasy violence, online interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild fantasy violence, online interactivity"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "December 31, 2025"
-game_modes: ["Single-player","Online Multi-player","Local Multi-player","Co-op"]
+release_date: "October 8, 2019"
+game_modes: ["Single-player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Japanese","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Czech","Korean","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain"]
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: [{"rawg_id":2944,"slug":"trine-3-the-artifacts-of-power","name":"Trine 3: The Artifacts of Power"},{"rawg_id":4519,"slug":"trine-2","name":"Trine 2"},{"rawg_id":5196,"slug":"trine","name":"Trine"}]
 franchise_slug: "trine|trine-2|trine-3-the-artifacts-of-power|trine-4-the-nightmare-prince"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/trine-4-the-nightmare-prince"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

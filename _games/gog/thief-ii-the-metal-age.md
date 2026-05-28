@@ -28,7 +28,7 @@ genre: Adventure, Shooter, Simulator
 franchise: 
 age_rating_summary: M (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Animated Blood, Animated Violence"},"pegi":{"rating":"12"},"usk":{"rating":"16","descriptors":"Medium level animated violence"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"M"},"dejus":{"rating":"18"}}
-release_date: "March 21, 2000"
+release_date: "May 22, 2012"
 game_modes: ["Single-player"]
 languages: ["English","French"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospher
 size: "824 MB"
 franchise_siblings: [{"rawg_id":3766,"slug":"thief","name":"Thief"},{"rawg_id":22846,"slug":"thief-3-deadly-shadows","name":"Thief 3: Deadly Shadows"},{"rawg_id":31777,"slug":"thief-the-dark-project","name":"Thief: The Dark Project"}]
 franchise_slug: "thief|thief-3-deadly-shadows|thief-ii-the-metal-age|thief-the-dark-project"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/thief-ii-the-metal-age"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

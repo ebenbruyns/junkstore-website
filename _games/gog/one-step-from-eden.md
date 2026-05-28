@@ -9,7 +9,7 @@ permalink: /games/gog/one-step-from-eden/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Aug '24"
 proton_version: ""
 
@@ -28,7 +28,7 @@ genre: role-playing, adventure, strategy, indie, shooter, real time strategy
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "March 1, 2020"
+release_date: "March 26, 2020"
 game_modes: ["Co-op","Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Japanese","Korean","Polish","Russian","Turkish","Chinese Traditional"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "416 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/one-step-from-eden"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1112715616"
 is_featured: false
-owned: true
+owned: false
 ---
 
 One Step From Eden combines strategic deckbuilding and realtime action with roguelike elements. Cast powerful spells on the fly, battle evolving enemies, collect game-changing artifacts, make friends or make enemies. Make it one step from Eden, the last shining beacon of hope in a bleak post-war world. Fight alone (or with a friend in co-op) and lead your character down a path of mercy or destruction.

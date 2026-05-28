@@ -26,9 +26,9 @@ publisher: Spry Fox
 developer: Spry Fox
 genre: Indie, Casual
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"10"}}
-release_date: "April 8, 2021"
+release_date: "April 7, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Dutch","Korean","Portuguese - Brazil","Russian","Traditional Chinese","Turkish","Arabic"]
 languages_audio: []
@@ -36,9 +36,9 @@ tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name"
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/cozy-grove"
 was_free_before: true
-giveaway_events: [{"start":"2026-03-12T15:00:00.000Z","end":"2026-03-19T15:00:00.000Z","type":null,"id":"c367569acede446995c5a3663e993446"}]
+giveaway_events: [{"_id":"69a99e6e6ec24ef56244ed97","id":"c367569acede446995c5a3663e993446","namespace":"768ec2d3b5114ac4a800631b12ee3f31","startDate":"2026-03-12T15:00:00.000Z","endDate":"2026-03-19T15:00:00.000Z","title":"Cozy Grove","__v":0}]
 free_games_aliases: []
 
 # Images

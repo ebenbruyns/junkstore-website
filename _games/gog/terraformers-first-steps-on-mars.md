@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "1185 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/terraformers-first-steps-on-mars"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: true
 # HowLongToBeat
 hltb_main: "1 hrs"
 hltb_main_extra: "2.5 hrs"
-hltb_completionist: "3 hrs"
+hltb_completionist: "2.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/99695"
 
 # Links

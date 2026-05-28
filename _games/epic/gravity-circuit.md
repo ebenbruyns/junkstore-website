@@ -26,20 +26,20 @@ publisher: PID Games
 developer: Domesticated Ant Games
 genre: Action, Platformer, Indie
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "July 13, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese","Dutch"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
 size: "327151133
 "
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/gravity-circuit"
 was_free_before: true
-giveaway_events: [{"start":"2025-10-09T15:00:00.000Z","end":"2025-10-16T15:00:00.000Z","type":null,"id":"ca6648eabced4312bd29c543307ecd29"}]
+giveaway_events: [{"_id":"68dcf6022fc7c5a4e213c01b","id":"ca6648eabced4312bd29c543307ecd29","namespace":"de295b694198450fad4569530b0e9419","startDate":"2025-10-09T15:00:00.000Z","endDate":"2025-10-16T15:00:00.000Z","title":"Gravity Circuit","__v":0}]
 free_games_aliases: []
 
 # Images

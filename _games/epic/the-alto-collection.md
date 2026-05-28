@@ -9,7 +9,7 @@ permalink: /games/epic/the-alto-collection/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "May '24"
 proton_version: ""
 
@@ -28,8 +28,8 @@ genre: Indie, Adventure
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "August 13, 2020"
-game_modes: ["Single-player"]
+release_date: "March 7, 2024"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Welsh"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
@@ -38,7 +38,7 @@ franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
 was_free_before: true
-giveaway_events: [{"start":"2020-08-12T15:00:00.000Z","end":"2020-08-19T15:00:00.000Z","type":null,"id":"754412e3df444c0c84653ea7aa047fe6"}]
+giveaway_events: [{"_id":"66abf1f03631f27c961ec267","id":"754412e3df444c0c84653ea7aa047fe6","namespace":"b4e95103463b491ab34b29e616404325","startDate":"2020-08-12T15:00:00.000Z","endDate":"2020-08-19T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "Hornbill"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Across the endless desert and atop an alpine expanse two journeys full of wonder await. Choose your path and set off on a thrilling snowboarding or sandboarding adventure with Alto & friends.

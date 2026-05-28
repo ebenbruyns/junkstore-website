@@ -3,12 +3,12 @@ layout: game-page
 title: "A Good Snowman Is Hard To Build - Steam Deck Compatibility"
 game_title: "A Good Snowman Is Hard To Build"
 slug: "a-good-snowman-is-hard-to-build"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/a-good-snowman-is-hard-to-build/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/a-good-snowman-is-hard-to-build"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

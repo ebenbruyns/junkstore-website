@@ -9,7 +9,7 @@ permalink: /games/gog/world-in-conflict-complete-edition/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "May '25"
 proton_version: ""
 
@@ -26,7 +26,7 @@ publisher: Sierra Entertainment
 developer: Massive Entertainment
 genre: strategy
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: 13 (ESRB) · 16 (PEGI)
 age_ratings: {}
 release_date: "September 1, 2007"
 game_modes: ["Multi-player","Single-player"]
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1438332414"
 is_featured: false
-owned: true
+owned: false
 ---
 
 World in Conflict focuses on real-time tactics (RTT) gameplay, in a similar manner to Ground Control, a game developed by Massive Entertainment...

@@ -9,7 +9,7 @@ permalink: /games/gog/dark-fall-lost-souls/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,15 +28,15 @@ genre: adventure, indie, point-and-click
 franchise: 
 age_rating_summary: 16 (PEGI) · 16 (USK)
 age_ratings: {"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"16"},"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
-release_date: "December 4, 2009"
-game_modes: ["Single-player"]
+release_date: "April 21, 2010"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English","French","Italian","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "1267 MB"
 franchise_siblings: [{"rawg_id":10644,"slug":"dark-fall-2-lights-out","name":"Dark Fall 2: Lights Out"},{"rawg_id":10640,"slug":"dark-fall-the-journal","name":"Dark Fall: The Journal"}]
 franchise_slug: "dark-fall-2-lights-out|dark-fall-3-lost-souls|dark-fall-the-journal"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/dark-fall-lost-souls"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1207660703"
 is_featured: false
-owned: true
+owned: false
 ---
 
 You, The Inspector, have been trying to solve the case of the eerie abduction of young Amy Haven for several years, but were suspended for tampering with evidence...

@@ -26,17 +26,17 @@ publisher: Sandbox Interactive GmbH
 developer: Sandbox Interactive GmbH
 genre: Fantasy, RPG, Open World
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"csrr":{"rating":"C15"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "April 16, 2025"
-game_modes: ["Online Multi-player"]
+release_date: "May 16, 2018"
+game_modes: ["Online Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Polish","Russian","Portuguese - Portugal","Spanish - Latin America","Korean","Simplified Chinese","Italian","Japanese","Traditional Chinese","Indonesian","Arabic","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/albion-online"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

@@ -26,7 +26,7 @@ publisher: Armor Games Studios
 developer: Kyle Thompson
 genre: Exploration, Action-Adventure, Platformer
 franchise: 
-age_rating_summary: ESRB Everyone 10+
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "August 24, 2022"
 game_modes: ["Single-player"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122"
 size: "446 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/islets"
 was_free_before: true
-giveaway_events: [{"start":"2024-03-27T15:00:00.000Z","end":"2024-04-03T15:00:00.000Z","type":null,"id":"4862aa73b8b048c782958b8f22118d28"}]
+giveaway_events: [{"_id":"66abf1cb3631f27c961eb8cd","id":"4862aa73b8b048c782958b8f22118d28","namespace":"cecc5a53aa534e15881fdbd67a1e83b7","startDate":"2024-03-27T15:00:00.000Z","endDate":"2024-04-03T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

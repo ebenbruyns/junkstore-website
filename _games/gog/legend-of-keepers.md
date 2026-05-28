@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Strategy, Indie, Simulator, Fighting
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência fantasiosa, Violência, Violência Extrema, Drogas lícitas"}}
-release_date: "March 19, 2020"
+release_date: "April 29, 2021"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Polish","Russian","Turkish","Chinese Traditional"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "658 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/legend-of-keepers"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

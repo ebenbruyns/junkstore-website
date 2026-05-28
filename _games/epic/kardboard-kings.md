@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: 0 (USK)
 age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "February 10, 2022"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Spanish - Spain","Japanese","Simplified Chinese","Russian"]
 languages_audio: []
-tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/kardboard-kings-card-shop-simulator"
 was_free_before: true
-giveaway_events: [{"start":"2024-10-17T15:00:00.000Z","end":"2024-10-24T15:00:00.000Z","type":null,"id":"747d522e0451439590fa6647ae67f58a"}]
+giveaway_events: [{"_id":"6707e9d570dc7ffdb323cd6d","id":"747d522e0451439590fa6647ae67f58a","namespace":"22a9bc193ad94ab78155b5c2f9541e6b","startDate":"2024-10-17T15:00:00.000Z","endDate":"2024-10-24T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

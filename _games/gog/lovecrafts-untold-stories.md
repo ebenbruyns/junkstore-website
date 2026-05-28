@@ -32,11 +32,11 @@ release_date: "January 31, 2019"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","German","English","Spanish","Italian","Russian"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
 size: "337 MB"
 franchise_siblings: [{"rawg_id":670705,"slug":"lovecrafts-untold-stories-2-2","name":"Lovecraft's Untold Stories 2"}]
 franchise_slug: "lovecrafts-untold-stories|lovecrafts-untold-stories-2-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/lovecrafts-untold-stories"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "5.5 hrs"
 hltb_main_extra: "28.5 hrs"
-hltb_completionist: ""
+hltb_completionist: "12 Hours"
 hltb_url: "https://howlongtobeat.com/game/59847"
 
 # Links

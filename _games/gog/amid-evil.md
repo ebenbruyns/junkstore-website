@@ -9,15 +9,15 @@ permalink: /games/gog/amid-evil/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Aug '24"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
+protondb_tier: "platinum"
+protondb_score: 0.78
+protondb_total: 107
+protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
 
@@ -28,7 +28,7 @@ genre: indie, shooter
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "June 1, 2019"
+release_date: "June 20, 2019"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "4770 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/amid-evil"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "2023945788"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Once branded a heretic. Now you have been chosen. Reclaim our sacred weapons. Take back our ancestral lands. If you can stand... Amid Evil.

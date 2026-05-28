@@ -28,7 +28,7 @@ genre: Casual, Sports, Indie
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Mild Violence"},"usk":{"rating":"6","descriptors":"Abstract Violence"},"oflc":{"rating":"PG","descriptors":"Scary Scenes"},"kgrb":{"rating":"ALL","descriptors":"Violence, Fear"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "September 21, 2021"
+release_date: "October 22, 2019"
 game_modes: ["Co-op"]
 languages: ["English","Portuguese - Brazil","Portuguese - Portugal","Spanish - Spain","Spanish - Latin America","Russian","Japanese","Simplified Chinese","Korean"]
 languages_audio: ["English"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"i
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/sky-racket"
 was_free_before: true
-giveaway_events: [{"start":"2025-07-10T15:00:00.000Z","end":"2025-07-17T15:00:00.000Z","type":null,"id":"4d83f5e4aa8d42bdb2bdda9081a13ef3"}]
+giveaway_events: [{"_id":"68652a466cdb9e9293130186","id":"4d83f5e4aa8d42bdb2bdda9081a13ef3","namespace":"43c0da4f8c774c23a76a213fb8dfe59b","startDate":"2025-07-10T15:00:00.000Z","endDate":"2025-07-17T15:00:00.000Z","title":"Sky Racket","__v":0}]
 free_games_aliases: []
 
 # Images

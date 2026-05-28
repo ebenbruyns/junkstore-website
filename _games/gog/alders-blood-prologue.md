@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing 
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Medo, Linguagem imprópria"}}
-release_date: "March 13, 2020"
+release_date: "February 12, 2020"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "208 MB"
 franchise_siblings: [{"rawg_id":60409,"slug":"alders-blood","name":"Alder's Blood"}]
 franchise_slug: "alders-blood|alders-blood-prologue"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/alders-blood-prologue"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

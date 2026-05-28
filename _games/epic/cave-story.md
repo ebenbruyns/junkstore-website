@@ -28,17 +28,17 @@ genre: Action, Adventure, Platformer
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "December 3, 2020"
-game_modes: ["Single-player"]
+release_date: "November 22, 2011"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
 size: ""
 franchise_siblings: [{"rawg_id":707254,"slug":"cave-storys-secret-santa","name":"Cave Story's Secret Santa"},{"rawg_id":27100,"slug":"cave-story-3d","name":"Cave Story 3D"},{"rawg_id":37581,"slug":"cave-story-doukutsu-monogatari","name":"Cave Story: Doukutsu Monogatari"}]
 franchise_slug: "cave-story|cave-story-3d|cave-story-doukutsu-monogatari|cave-storys-secret-santa"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/cave-story-plus--1"
 was_free_before: true
-giveaway_events: [{"start":"2023-08-30T15:00:00.000Z","end":"2023-09-06T15:00:00.000Z","type":null,"id":"be3de140fc3749b28215da1626cce8bc"},{"start":"2020-12-02T15:00:00.000Z","end":"2020-12-09T15:00:00.000Z","type":null,"id":"be3de140fc3749b28215da1626cce8bc"}]
+giveaway_events: [{"_id":"66abf1d13631f27c961eba75","id":"be3de140fc3749b28215da1626cce8bc","namespace":"78473822f724474d8e436f6bde735623","startDate":"2023-08-30T15:00:00.000Z","endDate":"2023-09-06T15:00:00.000Z","__v":0},{"_id":"66abf1ed3631f27c961ec1b5","id":"be3de140fc3749b28215da1626cce8bc","namespace":"78473822f724474d8e436f6bde735623","startDate":"2020-12-02T15:00:00.000Z","endDate":"2020-12-09T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

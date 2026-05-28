@@ -3,12 +3,12 @@ layout: game-page
 title: "A Sketchbook About Her Sun - Steam Deck Compatibility"
 game_title: "A Sketchbook About Her Sun"
 slug: "a-sketchbook-about-her-sun"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/a-sketchbook-about-her-sun/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
@@ -29,14 +29,14 @@ franchise:
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
 release_date: "June 11, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"88","name":"Cute"},{"id":"145","name":"Choices Matter"},{"id":"90","name":"Visual Novel"},{"id":"209","name":"Drama"},{"id":"258","name":"Hand-drawn"},{"id":"217","name":"Romance"},{"id":"200","name":"Narration"},{"id":"268","name":"Comic Book"},{"id":"572","name":"Emotional"},{"id":"288","name":"Interactive Fiction"},{"id":"59643","name":"Протагонистка"},{"id":"285","name":"Psychological"},{"id":"42410","name":"LGBTQ+"},{"id":"151","name":"Modern"},{"id":"342","name":"Conversation"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/a-sketchbook-about-her-sun"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

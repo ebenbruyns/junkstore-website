@@ -28,17 +28,17 @@ genre: Turn-Based, Strategy
 franchise: 
 age_rating_summary: E (ESRB)
 age_ratings: {"esrb":{"rating":"E"},"dejus":{"rating":"L"}}
-release_date: "May 5, 2022"
-game_modes: ["Single-player","Online Multi-player","Local Multi-player"]
+release_date: "October 17, 2018"
+game_modes: ["Single-player","Online Multiplayer","Local Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Swedish"]
 languages_audio: []
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"}]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/terraforming-mars"
 was_free_before: true
-giveaway_events: [{"start":"2022-05-04T15:00:00.000Z","end":"2022-05-11T15:00:00.000Z","type":null,"id":"f2496286331e405793d69807755b7b23"}]
+giveaway_events: [{"_id":"66abf1de3631f27c961ebdfd","id":"f2496286331e405793d69807755b7b23","namespace":"25d726130e6c4fe68f88e71933bda955","startDate":"2022-05-04T15:00:00.000Z","endDate":"2022-05-11T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

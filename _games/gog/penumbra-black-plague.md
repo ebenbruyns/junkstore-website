@@ -9,7 +9,7 @@ permalink: /games/gog/penumbra-black-plague/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "Oct '24"
 proton_version: ""
 
@@ -28,15 +28,15 @@ genre: Adventure, Indie, Puzzle
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"pegi":{"rating":"16"},"usk":{"rating":"16"}}
-release_date: "February 1, 2008"
-game_modes: ["Single-player"]
+release_date: "January 23, 2009"
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"16","name":"Horror"},{"id":"73350","name":"survival-horror"}]
 size: "610 MB"
 franchise_siblings: [{"rawg_id":14001,"slug":"penumbra-requiem","name":"Penumbra: Requiem"},{"rawg_id":13999,"slug":"penumbra-overture","name":"Penumbra Overture"}]
 franchise_slug: "penumbra-black-plague|penumbra-overture|penumbra-requiem"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/penumbra-black-plague"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1207662743"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Surrounded by enemies and assaulted by terror from all sides, Philip must collect clues and solve vexing puzzles while combating the gnawing psychological terrors that assail his mind

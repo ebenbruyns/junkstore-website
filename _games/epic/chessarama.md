@@ -26,17 +26,17 @@ publisher: Minimol Games
 developer: Minimol Games
 genre: Turn-Based Strategy, Puzzle, Strategy
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "April 17, 2025"
-game_modes: ["Single-player"]
+release_date: "December 5, 2023"
+game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Hungarian","Indonesian","Japanese","Korean","Norwegian","Polish","Portuguese - Brazil","Russian","Swedish","Turkish","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21150","name":"Challenging Puzzles"}]
 size: "1.35 GB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/chessarama"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

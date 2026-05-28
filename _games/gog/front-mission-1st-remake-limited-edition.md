@@ -9,7 +9,7 @@ permalink: /games/gog/front-mission-1st-remake-limited-edition/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: "unknown"
+standalone_rating: ""
 date_tested: "May '25"
 proton_version: ""
 
@@ -26,9 +26,9 @@ publisher: Square Enix
 developer: SQUARE ENIX
 genre: role-playing, strategy, tactical
 franchise: 
-age_rating_summary: PEGI 12
+age_rating_summary: 12 (PEGI)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "November 1, 2023"
+release_date: "June 30, 2023"
 game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Italian","Japanese","Polish","Portuguese","Chinese Traditional"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "13466 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/front-mission-1st-remake"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -109,7 +109,7 @@ known_issues:
 # Meta
 database_id: "1111530020"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Experience all the memorable battles and heart wrenching drama of Front Mission with improved visuals, an updated interface, and English voiceovers!

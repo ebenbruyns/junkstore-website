@@ -28,7 +28,7 @@ genre: Strategy, Indie, Simulator
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10"}}
-release_date: "May 17, 2017"
+release_date: "September 20, 2017"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","German","English"]
 languages_audio: []

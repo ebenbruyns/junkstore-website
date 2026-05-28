@@ -28,7 +28,7 @@ genre: First Person, Shooter, Stealth
 franchise: Sniper Ghost Warrior Contracts
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"r16"},"csrr":{"rating":"R"},"dejus":{"rating":"16"}}
-release_date: "September 5, 2024"
+release_date: "November 22, 2019"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Traditional Chinese","Simplified Chinese","Polish","Portuguese - Brazil","Russian","Czech","Korean","Japanese"]
 languages_audio: ["English"]
@@ -36,9 +36,9 @@ tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competit
 size: "12527 MB"
 franchise_siblings: [{"rawg_id":457730,"slug":"sniper-ghost-warrior-contracts-2","name":"Sniper: Ghost Warrior Contracts 2"},{"rawg_id":42151,"slug":"sniper-ghost-warrior-3","name":"Sniper: Ghost Warrior 3"},{"rawg_id":17600,"slug":"sniper-ghost-warrior-2-2","name":"Sniper: Ghost Warrior 2"},{"rawg_id":17536,"slug":"sniper-ghost-warrior","name":"Sniper: Ghost Warrior"}]
 franchise_slug: "sniper-ghost-warrior|sniper-ghost-warrior-2-2|sniper-ghost-warrior-3|sniper-ghost-warrior-contracts|sniper-ghost-warrior-contracts"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/199639"
 was_free_before: true
-giveaway_events: [{"start":"2024-09-05T15:00:00.000Z","end":"2024-09-12T15:00:00.000Z","type":null,"id":"20f88d53af6e4e59876ed82749db4ee5"}]
+giveaway_events: [{"_id":"66d090765f16ab5d12c0aa2c","id":"20f88d53af6e4e59876ed82749db4ee5","namespace":"3196925cb7ea45c3a9c47118e52a820e","startDate":"2024-09-05T15:00:00.000Z","endDate":"2024-09-12T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

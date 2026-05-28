@@ -3,12 +3,12 @@ layout: game-page
 title: "10mg: Snaaak - Steam Deck Compatibility"
 game_title: "10mg: Snaaak"
 slug: "10mg-snaaak"
-storefront: "itch"
+storefront: "itch.io"
 storefront_key: "itch"
 permalink: /games/itch/10mg-snaaak/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""
@@ -28,15 +28,15 @@ genre: Adventure, Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "October 15, 2020"
-game_modes: ["Single-player"]
+release_date: "October 19, 2020"
+game_modes: ["Single player"]
 languages: ["English","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"165","name":"Colorful"},{"id":"77","name":"Realistic"},{"id":"110","name":"Cinematic"},{"id":"259","name":"Metroidvania"},{"id":"305","name":"Linear"},{"id":"48","name":"Dungeon Crawler"},{"id":"220","name":"Experimental"},{"id":"49955","name":"Puzzle Platformer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/10mg-snaaak"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

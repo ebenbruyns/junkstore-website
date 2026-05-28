@@ -26,10 +26,10 @@ publisher: Square Enix, Square Enix, Square Enix, Square Enix, Square Enix
 developer: Crystal Dynamics, Crystal Dynamics
 genre: Adventure, Adventure
 franchise: 
-age_rating_summary: ESRB 6
+age_rating_summary: 6 (ESRB) · 12 (PEGI)
 age_ratings: {}
 release_date: "November 16, 1994"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"}]
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/d6febc78cd4e945ea89c8c14ef69f59bdfe5973dd31f871cc8768dcd373eb920.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/fe53d0d863f0fbf5513fa6f1276b0f5b2e4b198593d508339b98fc2773f94b0f.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://images.gog-statics.com/d172102beda1d1ca9bdcdcc786cac4866300294e7e1f0a0da9af8d88fc000541.png"
 
 # Technical Details
 controller_input: "keyboard-mouse"

@@ -28,7 +28,7 @@ genre: Adventure, Indie
 franchise: 
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T"},"kgrb":{"rating":"15"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "September 19, 2017"
+release_date: "September 22, 2017"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","English","Spanish","French","Japanese","Korean","Russian","Thai","Turkish"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"45","name":"2D"},{"id
 size: "279 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-coma-recut"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/76fcc9b779f14e6da5656178754f7377747c7a2b8a760daa897614942f9aa658.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/4f4e008f2daf8c029c19812115749b13e9573b5042ae77823d865631547803e5.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/600090/header.jpg"
 
 # Technical Details
 controller_input: "native"

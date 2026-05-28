@@ -28,17 +28,17 @@ genre: Action-Adventure, Stealth
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Drug Reference, Intense Violence, Partial Nudity, Sexual Themes, Strong Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence, Online interactivity"},"nzoflc":{"rating":"r16","descriptors":"Violence, Offensive Language, Sexual Themes"},"kgrb":{"rating":"18","descriptors":"Violence, Drug Reference, Offensive Language"},"fpb":{"rating":"18"},"csrr":{"rating":"R"},"mda":{"rating":"M18","descriptors":"STRONG COARSE LANGUAGE, VIOLENCE"},"dejus":{"rating":"14","descriptors":"Violence"}}
-release_date: "December 13, 2023"
-game_modes: ["Single-player"]
+release_date: "August 23, 2016"
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "35528 MB"
 franchise_siblings: [{"rawg_id":74114,"slug":"deus-ex-go","name":"Deus Ex GO"},{"rawg_id":441,"slug":"deus-ex-the-fall","name":"Deus Ex: The Fall"},{"rawg_id":4440,"slug":"deus-ex-human-revolution","name":"Deus Ex: Human Revolution"},{"rawg_id":22859,"slug":"deus-ex-2-invisible-war","name":"Deus Ex 2: Invisible War"},{"rawg_id":30243,"slug":"deus-ex","name":"Deus Ex"}]
 franchise_slug: "deus-ex|deus-ex-2-invisible-war|deus-ex-go|deus-ex-human-revolution|deus-ex-mankind-divided|deus-ex-the-fall"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/deus-ex-mankind-divided"
 was_free_before: true
-giveaway_events: [{"start":"2024-03-13T15:00:00.000Z","end":"2024-03-20T15:00:00.000Z","type":null,"id":"6e41bd515f5e4c93bc7888b582e88865"}]
+giveaway_events: [{"_id":"66abf1cb3631f27c961eb8f7","id":"6e41bd515f5e4c93bc7888b582e88865","namespace":"5c5b2b01c8ce475d86cdd2c76fd11f7b","startDate":"2024-03-13T15:00:00.000Z","endDate":"2024-03-20T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images
@@ -76,7 +76,7 @@ native_linux: true
 hltb_main: "15.5 hrs"
 hltb_main_extra: "31 hrs"
 hltb_completionist: "52.5 hrs"
-hltb_url: "https://howlongtobeat.com/game/25434"
+hltb_url: "https://howlongtobeat.com/game/42969"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deus-ex-mankind-divided-4c6370"

@@ -26,9 +26,9 @@ publisher: Kalypso Media, FX Interactive
 developer: Haemimont Games
 genre: Role-playing (RPG), Adventure, Puzzle
 franchise: 
-age_rating_summary: ESRB 13
+age_rating_summary: 13 (ESRB) · 16 (PEGI)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "May 6, 2011"
+release_date: "May 12, 2011"
 game_modes: ["Co-op","Single-player"]
 languages: ["German","English","French"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "4341 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/the-first-templar"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

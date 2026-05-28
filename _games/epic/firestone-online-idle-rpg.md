@@ -28,15 +28,15 @@ genre: Action, Casual, Adventure
 franchise: 
 age_rating_summary: 3 (PEGI) · 6 (USK)
 age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"6","descriptors":"Comic Violence"},"cero":{"rating":"A"},"oflc":{"rating":"G","descriptors":"Online Interactivity, Very Mild Violence"},"nzoflc":{"rating":"G"},"fpb":{"rating":"A"},"csrr":{"rating":"G"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "January 23, 2025"
-game_modes: ["Single-player","Online Multi-player","Co-op"]
+release_date: "April 1, 2024"
+game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","German","Spanish - Spain","Greek","Portuguese - Brazil","Russian","Simplified Chinese","French","Japanese","Korean","Polish","Traditional Chinese","Turkish","Danish","Finnish","Swedish","Portuguese - Portugal","Spanish - Latin America","Dutch","Italian","Czech","Hungarian","Norwegian","Ukrainian"]
 languages_audio: ["English","German","Spanish - Spain","Greek","Portuguese - Brazil","Russian","Simplified Chinese","French","Japanese","Korean","Polish","Traditional Chinese","Turkish","Danish","Finnish","Swedish","Portuguese - Portugal","Spanish - Latin America","Dutch","Italian","Czech","Hungarian","Norwegian","Ukrainian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"29088","name":"Online Multiplayer"},{"id":"21894","name":"Cloud Saves"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/firestone-online-idle-rpg"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []

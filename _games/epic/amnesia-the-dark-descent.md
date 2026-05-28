@@ -28,17 +28,17 @@ genre: Horror, First Person
 franchise: Amnesia
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Nudity, Language, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence, Strong Language"},"dejus":{"rating":"18","descriptors":"Violência, Medo, Nudez"}}
-release_date: "April 30, 2020"
-game_modes: ["Single-player"]
+release_date: "September 8, 2010"
+game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Spanish - Spain","Russian","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"11631","name":"Requires 2FA"},{"id":"21119","name":"Great for Beginners"}]
 size: "1312 MB"
 franchise_siblings: [{"rawg_id":911543,"slug":"amnesia-the-bunker","name":"Amnesia: The Bunker"},{"rawg_id":427519,"slug":"amnesia-rebirth","name":"Amnesia: Rebirth"},{"rawg_id":13268,"slug":"amnesia-a-machine-for-pigs","name":"Amnesia: A Machine for Pigs"}]
 franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|amnesia-the-dark-descent"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/amnesia-the-dark-descent"
 was_free_before: true
-giveaway_events: [{"start":"2020-04-29T15:00:00.000Z","end":"2020-05-06T15:00:00.000Z","type":null,"id":"785b37a897c14ad589d2d5f79aaf372e"}]
+giveaway_events: [{"_id":"66abf1f23631f27c961ec325","id":"785b37a897c14ad589d2d5f79aaf372e","namespace":"917551a8060244469eb4e6ab8a99cf24","startDate":"2020-04-29T15:00:00.000Z","endDate":"2020-05-06T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

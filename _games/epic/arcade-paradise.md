@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Lyrics, Blood"},"pegi":{"rating":"12","descriptors":"Bad Language, Violence, In-Game Purchases"},"usk":{"rating":"12","descriptors":"Violence, Occasional Swearing"},"oflc":{"rating":"PG","descriptors":"Online Interactivity, Mild Violence, Mild Themes, Mild Coarse Language, Mild Crude Humour, In-Game Purchases"},"kgrb":{"rating":"12","descriptors":"Language, Violence"},"dejus":{"rating":"10","descriptors":"Violence, Inappropriate Language, In-Game Purchases"}}
 release_date: "August 11, 2022"
-game_modes: ["Single-player","Local Multi-player","Co-op"]
+game_modes: ["Single-player","Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
 size: "2592 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/arcade-paradise"
 was_free_before: true
-giveaway_events: [{"start":"2024-07-17T15:00:00.000Z","end":"2024-07-24T15:00:00.000Z","type":null,"id":"f7ce9c6bfed74819894366568193d4f8"}]
+giveaway_events: [{"_id":"66abf1c93631f27c961eb814","id":"f7ce9c6bfed74819894366568193d4f8","namespace":"89b9c510e8d74b9da34c447915b1ffb1","startDate":"2024-07-17T15:00:00.000Z","endDate":"2024-07-24T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

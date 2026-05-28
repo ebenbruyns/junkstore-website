@@ -29,16 +29,16 @@ franchise:
 age_rating_summary: 12 (USK)
 age_ratings: {"usk":{"rating":"12","descriptors":"Fantasy Violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "September 21, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Korean"]
 languages_audio: []
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1181","name":"Card Game"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1181","name":"Card Game"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/astrea-six-sided-oracles"
 was_free_before: true
-giveaway_events: [{"start":"2024-12-20T16:00:00.000Z","end":"2024-12-21T16:00:00.000Z","type":null,"id":"7c14bf0cffdd43be968fdcf28e5af653"}]
+giveaway_events: [{"_id":"67644b9984022ea9de151eb0","id":"7c14bf0cffdd43be968fdcf28e5af653","namespace":"a940fa38f001486a9884640924119576","startDate":"2024-12-20T16:00:00.000Z","endDate":"2024-12-21T16:00:00.000Z","title":"Astrea Six Sided Oracles","__v":0}]
 free_games_aliases: []
 
 # Images

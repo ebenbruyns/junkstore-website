@@ -28,7 +28,7 @@ genre: Adventure, Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Partial Nudity, Sexual Themes, Strong Language, Violence"},"pegi":{"rating":"16","descriptors":"Bad Language, Violence, Online Gameplay"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong violence, Coarse language, Online interactivity"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Drogas lícitas"}}
-release_date: "January 20, 2015"
+release_date: "January 22, 2015"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English"]

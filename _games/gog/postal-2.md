@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "2434 MB"
 franchise_siblings: [{"rawg_id":949985,"slug":"poostall-royale","name":"POOSTALL Royale"},{"rawg_id":922172,"slug":"postal-before-going-postal","name":"Postal: Before Going Postal"},{"rawg_id":489294,"slug":"postal-brain-damaged","name":"Postal: Brain Damaged"},{"rawg_id":383496,"slug":"postal-4-no-regerts","name":"Postal 4: No Regrets"},{"rawg_id":389577,"slug":"postal-run","name":"POSTAL: RUN!"},{"rawg_id":12157,"slug":"postal-redux","name":"POSTAL Redux"},{"rawg_id":13195,"slug":"postal-iii","name":"Postal III"},{"rawg_id":35607,"slug":"postal-3","name":"Postal 3"},{"rawg_id":1003018,"slug":"postal-x-10th-anniversary-collectors-edition","name":"Postal X: 10th Anniversary Collectors Edition"},{"rawg_id":22751,"slug":"postal-classic-and-uncut","name":"POSTAL: Classic and Uncut"},{"rawg_id":10665,"slug":"postal","name":"POSTAL"}]
 franchise_slug: "poostall-royale|postal|postal-2|postal-3|postal-4-no-regerts|postal-before-going-postal|postal-brain-damaged|postal-classic-and-uncut|postal-iii|postal-redux|postal-run|postal-x-10th-anniversary-coll"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/postal-2"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -79,7 +79,7 @@ hltb_completionist: "33 hrs"
 hltb_url: "https://howlongtobeat.com/game/7240"
 
 # Links
-store_url: "https://www.gog.com/game/postal-2"
+store_url: "https://www.gog.com/en/game/postal_2"
 protondb_url: "https://www.protondb.com/app/223470"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Postal_2"

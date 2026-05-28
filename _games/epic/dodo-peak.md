@@ -26,19 +26,19 @@ publisher: Moving Pieces Interactive
 developer: Moving Pieces Interactive
 genre: Puzzle, Retro, Platformer
 franchise: 
-age_rating_summary: ESRB Everyone
+age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
 release_date: "August 3, 2023"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1198","name":"Retro"},{"id":"1151","name":"Platformer"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/dodo-peak"
 was_free_before: true
-giveaway_events: [{"start":"2023-08-16T15:00:00.000Z","end":"2023-08-23T15:00:00.000Z","type":null,"id":"97576d7026ab4e4181fdf9b8711a95d9"}]
+giveaway_events: [{"_id":"66abf1d13631f27c961eba86","id":"97576d7026ab4e4181fdf9b8711a95d9","namespace":"cea01263911a4e179a5e3892ef710930","startDate":"2023-08-16T15:00:00.000Z","endDate":"2023-08-23T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

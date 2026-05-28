@@ -26,19 +26,19 @@ publisher: Headup
 developer: Bleakmill
 genre: Action, Shooter, Adventure
 franchise: INDUSTRIA
-age_rating_summary: ESRB Teen
+age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo, Linguagem imprópria"}}
 release_date: "September 30, 2021"
-game_modes: ["Single-player"]
+game_modes: ["Single player"]
 languages: ["English","German","French","Spanish - Spain","Russian","Portuguese - Portugal","Turkish","Japanese","Korean","Simplified Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"}]
 size: "9094 MB"
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/industria"
 was_free_before: true
-giveaway_events: [{"start":"2024-04-24T15:00:00.000Z","end":"2024-05-01T15:00:00.000Z","type":null,"id":"2dbb1debe54f4555805896caf7844470"}]
+giveaway_events: [{"_id":"66abf1ca3631f27c961eb89e","id":"2dbb1debe54f4555805896caf7844470","namespace":"51b1503392e04abab64364092cbfca2b","startDate":"2024-04-24T15:00:00.000Z","endDate":"2024-05-01T15:00:00.000Z","__v":0}]
 free_games_aliases: []
 
 # Images

@@ -8,7 +8,7 @@ storefront_key: "gog"
 permalink: /games/gog/bio-menace/
 
 # Compatibility (Junk Store testing)
-decky_rating: "not-supported"
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "Aug '25"
 proton_version: ""
@@ -28,12 +28,12 @@ genre: Platform, Puzzle
 franchise: 
 age_rating_summary: 
 age_ratings: {}
-release_date: "August 3, 1993"
+release_date: "May 5, 2014"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"193","name":"Classic"}]
-size: "1.87 MB"
+size: "13 MB"
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""

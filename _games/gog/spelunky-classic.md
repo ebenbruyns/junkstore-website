@@ -28,7 +28,7 @@ genre: Indie, Platform, Puzzle
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Atos criminosos, Medo"}}
-release_date: "December 21, 2008"
+release_date: "August 8, 2013"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
@@ -36,7 +36,7 @@ tags_structured: []
 size: "148 MB"
 franchise_siblings: [{"rawg_id":59613,"slug":"spelunky-2","name":"Spelunky 2"}]
 franchise_slug: "spelunky|spelunky-2"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/spelunky"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/219a5aa29523249d3361af07426a4f348553d59ed9c0685cab10d158a2d00b58.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/14c5596826c6fae0bbf9552421de21b4445f3bbd39fc61c703c5e261ef42c99b.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/239350/header.jpg"
 
 # Technical Details
 controller_input: "native"
@@ -75,7 +75,7 @@ native_linux: false
 # HowLongToBeat
 hltb_main: "20 hrs"
 hltb_main_extra: "43.5 hrs"
-hltb_completionist: "97 hrs"
+hltb_completionist: "38.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/8932"
 
 # Links
