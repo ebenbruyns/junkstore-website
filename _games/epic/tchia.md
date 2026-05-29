@@ -28,7 +28,7 @@ genre: Exploration, Open World, Adventure
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "March 21, 2024"
+release_date: "March 21, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>"
 
+
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

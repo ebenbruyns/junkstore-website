@@ -28,7 +28,7 @@ genre: Action, Dungeon Crawler, Rogue-Lite
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "October 27, 2024"
+release_date: "October 31, 2024"
 game_modes: ["Single player"]
 languages: ["English","French","German","Japanese","Korean","Simplified Chinese","Portuguese - Brazil","Spanish - Latin America"]
 languages_audio: ["English"]
@@ -56,10 +56,11 @@ requires_verification: true
 set_executable: 
 dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>"
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

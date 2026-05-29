@@ -28,7 +28,7 @@ genre: Casual, Simulation, Adventure
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência fantasiosa"}}
-release_date: "July 28, 2022"
+release_date: "September 15, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Japanese","Portuguese - Brazil"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

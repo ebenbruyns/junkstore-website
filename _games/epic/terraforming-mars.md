@@ -28,7 +28,7 @@ genre: Turn-Based, Strategy
 franchise: 
 age_rating_summary: E (ESRB)
 age_ratings: {"esrb":{"rating":"E"},"dejus":{"rating":"L"}}
-release_date: "October 17, 2018"
+release_date: "May 5, 2022"
 game_modes: ["Single-player","Online Multiplayer","Local Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Swedish"]
 languages_audio: []
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

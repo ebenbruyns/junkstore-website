@@ -28,7 +28,7 @@ genre: Action, Adventure
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "August 9, 2023"
+release_date: "October 31, 2023"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Japanese"]
 languages_audio: ["English","German"]
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

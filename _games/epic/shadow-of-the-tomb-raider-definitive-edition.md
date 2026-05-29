@@ -28,7 +28,7 @@ genre: Action, Adventure
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"cero":{"rating":"Z","descriptors":"[img]http://media.steampowered.com/store/Ratings/CERO/violence.png[/img]"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Online Interactivity"},"nzoflc":{"rating":"r16","descriptors":"Violence, Offensive language, Content that may disturb"},"kgrb":{"rating":"18","descriptors":"Violence, Language"},"fpb":{"rating":"18"},"csrr":{"rating":"R","descriptors":"Violence, Improper Language"},"mda":{"rating":"M18","descriptors":"Violence, Coarse Language"},"dejus":{"rating":"16","descriptors":"Conteúdo impactante, Linguagem Imprópria, Violência"}}
-release_date: "September 14, 2018"
+release_date: "December 30, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Arabic"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Arabic"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

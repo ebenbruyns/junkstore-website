@@ -28,7 +28,7 @@ genre: Action, RPG
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "July 29, 2022"
+release_date: "May 22, 2023"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

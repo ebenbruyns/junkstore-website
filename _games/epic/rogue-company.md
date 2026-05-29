@@ -28,7 +28,7 @@ genre: Action, Shooter
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Conteúdo sexual"}}
-release_date: "July 20, 2021"
+release_date: "September 30, 2020"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: true
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

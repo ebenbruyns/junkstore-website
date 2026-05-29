@@ -28,7 +28,7 @@ genre: Simulation, City Builder, Strategy
 franchise: 
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Language, Mild Blood"},"pegi":{"rating":"12","descriptors":"Bad Language"},"usk":{"rating":"0"},"nzoflc":{"rating":"PG"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "July 25, 2017"
+release_date: "November 4, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Italian"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

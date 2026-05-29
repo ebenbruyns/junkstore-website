@@ -26,9 +26,9 @@ publisher: IllFonic
 developer: IllFonic
 genre: Horror, Shooter
 franchise: Ghostbusters
-age_rating_summary: PG (OFLC)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"oflc":{"rating":"PG","descriptors":"Mild supernatural themes, violence, coarse language, online, interactivity"},"kgrb":{"rating":"12","descriptors":"Violence, Horror, Language, Drugs"},"dejus":{"rating":"10","descriptors":"Violência, Interação de usuários"}}
-release_date: "October 19, 2023"
+release_date: "October 18, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Traditional Chinese"]
 languages_audio: ["English","Japanese"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: true
 set_executable: 
 dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>"
+
 
 # Epic Features
 requires_eos: false

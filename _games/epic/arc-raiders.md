@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

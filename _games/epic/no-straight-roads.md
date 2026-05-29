@@ -28,7 +28,7 @@ genre: Action, Open World
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "October 21, 2021"
+release_date: "December 31, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","Spanish - Spain","Japanese","Spanish - Latin America"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

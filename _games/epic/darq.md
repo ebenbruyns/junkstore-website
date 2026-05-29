@@ -28,7 +28,7 @@ genre: Horror, Puzzle, Adventure
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "August 15, 2019"
+release_date: "October 28, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Portuguese - Brazil","Simplified Chinese","Dutch","Greek","Norwegian","Portuguese - Portugal","Swedish","Turkish","Ukrainian","Hungarian"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

@@ -26,9 +26,9 @@ publisher: Bedtime Digital Games
 developer: Bedtime Digital Games
 genre: Action, Adventure, Indie
 franchise: Figment
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Language, Crude Humor"},"pegi":{"rating":"12","descriptors":"Mild Swearing"},"usk":{"rating":"6","descriptors":"Abstract Violence, Occasional Swearing"},"oflc":{"rating":"M","descriptors":"Coarse Language"},"dejus":{"rating":"10","descriptors":"Linguagem imprópria"}}
-release_date: "September 22, 2017"
+release_date: "March 26, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian","Portuguese - Brazil"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

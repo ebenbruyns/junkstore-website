@@ -26,13 +26,13 @@ publisher: Artak Avetisyan IE
 developer: Artak Avetisyan IE
 genre: Fantasy, RPG, Indie
 franchise: 
-age_rating_summary: M (ESRB)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Partial Nudity"},"dejus":{"rating":"12","descriptors":"Conteúdo sexual, Violência"}}
-release_date: "December 10, 2025"
+release_date: "February 19, 2026"
 game_modes: ["Single-player"]
 languages: ["English","Russian"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1287","name":"Fantasy"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1287","name":"Fantasy"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"},{"id":"1263","name":"Indie"}]
 size: ""
 franchise_siblings: []
 franchise_slug: ""
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

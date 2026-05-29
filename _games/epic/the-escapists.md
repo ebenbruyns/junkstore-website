@@ -28,7 +28,7 @@ genre: Action, Strategy
 franchise: The Escapists
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Atos criminosos, Violência"}}
-release_date: "February 13, 2015"
+release_date: "December 12, 2019"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Italian"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

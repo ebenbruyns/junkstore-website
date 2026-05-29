@@ -28,7 +28,7 @@ genre: Action, Adventure, Indie
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "May 18, 2017"
+release_date: "December 27, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Hungarian","Japanese","Korean","Polish"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

@@ -28,7 +28,7 @@ genre: Exploration, Comedy, Adventure
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas"}}
-release_date: "April 15, 2021"
+release_date: "November 1, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Spanish - Spain","German","Simplified Chinese"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

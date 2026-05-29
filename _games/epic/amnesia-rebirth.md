@@ -28,7 +28,7 @@ genre: Horror, Stealth, Adventure
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Violência Extrema, Medo, Linguagem imprópria, Nudez"}}
-release_date: "October 20, 2020"
+release_date: "January 1, 2099"
 game_modes: ["Single Player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

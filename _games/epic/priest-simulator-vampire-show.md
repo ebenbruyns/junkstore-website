@@ -28,7 +28,7 @@ genre: Shooter, Open World, Comedy
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "December 5, 2024"
+release_date: "September 26, 2024"
 game_modes: ["Single player"]
 languages: ["English","Polish"]
 languages_audio: ["English","Polish"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

@@ -28,7 +28,7 @@ genre: Puzzle, Adventure, First Person
 franchise: 
 age_rating_summary: e10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Mild Language"},"dejus":{"rating":"L"}}
-release_date: "March 13, 2018"
+release_date: "March 18, 2018"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Italian"]
 languages_audio: ["English"]
@@ -56,10 +56,11 @@ requires_verification: true
 set_executable: 
 dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>"
 
+
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

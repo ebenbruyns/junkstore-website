@@ -28,7 +28,7 @@ genre: Horror, First Person, Indie
 franchise: Amnesia
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Nudez, Linguagem imprópria, Violência"}}
-release_date: "September 10, 2013"
+release_date: "October 15, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Hungarian","Polish","Portuguese - Brazil","Russian"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

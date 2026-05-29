@@ -28,7 +28,7 @@ genre: Racing
 franchise: 
 age_rating_summary: 3 (PEGI) · 0 (USK)
 age_ratings: {"pegi":{"rating":"3","descriptors":"In-Game Purchases"},"usk":{"rating":"0"},"cero":{"rating":"A"},"oflc":{"rating":"G","descriptors":"General, online interactivity, In-game purchases"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
-release_date: "February 2, 2023"
+release_date: "July 1, 2020"
 game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Turkish","Japanese","Dutch","Portuguese - Brazil"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: "Ubisoft Connect"
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

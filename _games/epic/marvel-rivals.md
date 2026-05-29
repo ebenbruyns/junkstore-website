@@ -28,7 +28,7 @@ genre: Action, Shooter
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"kgrb":{"rating":"15"},"csrr":{"rating":"C12"},"dejus":{"rating":"18","descriptors":"Violência, Conteúdo sexual"}}
-release_date: "December 5, 2024"
+release_date: "December 6, 2024"
 game_modes: ["Online Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Turkish","Thai","Simplified Chinese","Traditional Chinese","Spanish - Latin America","Korean","Japanese","Polish","Portuguese - Brazil","Arabic"]
 languages_audio: ["English","Simplified Chinese","Japanese"]
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: ./MarvelRivals_Launcher.exe
 dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>"
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

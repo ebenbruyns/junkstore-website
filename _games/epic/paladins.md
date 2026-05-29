@@ -26,9 +26,9 @@ publisher: Hi-Rez Studios
 developer: Hi-Rez Studios, Evil Mojo Games
 genre: Shooter
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Violence, Online Interactivity"},"nzoflc":{"rating":"M","descriptors":"Violence, Online Interactivity"},"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "May 8, 2018"
+release_date: "March 24, 2020"
 game_modes: ["Co-operative","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Turkish","Portuguese - Brazil","Japanese"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

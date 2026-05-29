@@ -28,7 +28,7 @@ genre: Puzzle, Action-Adventure, First Person
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Language, Mild Violence"},"pegi":{"rating":"3"},"dejus":{"rating":"L"}}
-release_date: "September 14, 2022"
+release_date: "September 29, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese"]
 languages_audio: ["English"]
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>"
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

@@ -28,7 +28,7 @@ genre: Shooter, Open World, First Person
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
-release_date: "December 9, 2022"
+release_date: "February 19, 2026"
 game_modes: ["Co-op"]
 languages: ["English","Russian","Spanish - Spain","French","Korean"]
 languages_audio: ["Russian"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

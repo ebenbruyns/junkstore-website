@@ -28,7 +28,7 @@ genre: Puzzle
 franchise: shapez
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "June 7, 2020"
+release_date: "October 31, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Czech","German","Korean","Spanish - Spain","Dutch","Polish","Portuguese - Portugal","Russian","Norwegian","Japanese","Portuguese - Brazil","Spanish - Latin America","Simplified Chinese","Traditional Chinese","Danish","Italian","Finnish","Hungarian","Romanian","Swedish","Turkish","Ukrainian"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

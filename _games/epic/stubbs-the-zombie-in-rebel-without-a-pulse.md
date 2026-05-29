@@ -26,9 +26,9 @@ publisher: Aspyr
 developer: Aspyr
 genre: Action
 franchise: 
-age_rating_summary: M (ESRB)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Crude Humor, Intense Violence, Language, Suggestive Themes, Sexual Themes, Use of Tobacco"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Drogas Lícitas, Conteúdo Sexual"}}
-release_date: "March 16, 2021"
+release_date: "October 14, 2021"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

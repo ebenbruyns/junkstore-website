@@ -28,7 +28,7 @@ genre: Action, Platformer
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "October 2, 2021"
+release_date: "December 14, 2021"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Japanese","Traditional Chinese","French","German","Spanish - Spain","Russian","Portuguese - Brazil"]
 languages_audio: ["English","Simplified Chinese"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

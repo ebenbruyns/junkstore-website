@@ -28,7 +28,7 @@ genre: Action, Shooter
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
-release_date: "September 21, 2021"
+release_date: "April 16, 2019"
 game_modes: ["Single-player","Co-op"]
 languages: ["Russian","English","Spanish - Spain","Traditional Chinese","French","Italian","German","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Japanese"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

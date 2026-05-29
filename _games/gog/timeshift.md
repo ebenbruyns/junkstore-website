@@ -56,13 +56,15 @@ requires_verification: false
 set_executable: ./bin/TimeShift.exe
 dependencies: 
 
-# Epic Features
-requires_eos: false
-supports_eos: false
-epic_achievements: false
-epic_offline_mode: false
-epic_cloud_saves: false
-must_be_online: false
+
+# GOG Features
+# (The three commented lines below are intentionally YAML-commented so the
+# website's GOG-Features section only shows Cloud Saves for now. Remove the
+# leading "# " on any line to enable that chip on the rendered page.)
+gog_cloud_saves: false
+# gog_achievements: false
+# gog_overlay: false
+# gog_leaderboards: false
 
 # Anti-Cheat
 requires_eac_runtime: false

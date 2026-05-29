@@ -28,7 +28,7 @@ genre: Turn-Based, RPG, Strategy
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "October 20, 2021"
+release_date: "September 22, 2022"
 game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Polish"]
 languages_audio: ["English"]
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

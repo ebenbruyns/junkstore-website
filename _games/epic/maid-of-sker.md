@@ -26,9 +26,9 @@ publisher: Wales Interactive
 developer: Wales Interactive
 genre: Horror, Action-Adventure, Indie
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"16"},"dejus":{"rating":"16","descriptors":"Violência, Medo, Violência Extrema, Linguagem imprópria, Nudez"}}
-release_date: "July 28, 2020"
+release_date: "October 27, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Arabic","Turkish","Polish","Hungarian","Japanese","Welsh"]
 languages_audio: ["English"]
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

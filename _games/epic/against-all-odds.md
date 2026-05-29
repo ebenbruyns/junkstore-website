@@ -28,7 +28,7 @@ genre: Action, Sports, Indie
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
-release_date: "May 19, 2023"
+release_date: "May 4, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

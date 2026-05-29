@@ -26,9 +26,9 @@ publisher: Annapurna Interactive
 developer: Giant Sparrow
 genre: Puzzle, Narration, First Person
 franchise: 
-age_rating_summary: T (ESRB) · 16 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Language, Drug Reference"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Mature themes"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Drogas ilícitas, Violência"}}
-release_date: "April 24, 2017"
+release_date: "April 25, 2017"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Italian","Korean"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

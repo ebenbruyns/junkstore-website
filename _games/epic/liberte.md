@@ -28,7 +28,7 @@ genre: Action, Rogue-Lite
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Atos criminosos"}}
-release_date: "May 23, 2023"
+release_date: "July 3, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

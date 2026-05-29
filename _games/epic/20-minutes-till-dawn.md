@@ -28,7 +28,7 @@ genre: Action, Indie, Rogue-Lite
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "June 8, 2023"
+release_date: "January 2, 2024"
 game_modes: ["Single player"]
 languages: ["English","Japanese","Simplified Chinese","Portuguese - Brazil","French","Italian","German","Spanish - Spain","Polish","Russian","Spanish - Latin America","Traditional Chinese","Turkish","Hungarian","Korean"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

@@ -26,9 +26,9 @@ publisher: Frictional Games
 developer: Frictional Games
 genre: Horror, First Person
 franchise: Amnesia
-age_rating_summary: M (ESRB) · 16 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Nudity, Language, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence, Strong Language"},"dejus":{"rating":"18","descriptors":"Violência, Medo, Nudez"}}
-release_date: "September 8, 2010"
+release_date: "April 30, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Spanish - Spain","Russian","Simplified Chinese"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

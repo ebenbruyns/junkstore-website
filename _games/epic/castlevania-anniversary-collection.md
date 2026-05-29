@@ -26,9 +26,9 @@ publisher: KONAMI
 developer: KONAMI
 genre: Action, Retro, Platformer
 franchise: 
-age_rating_summary: T (ESRB) · 7 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Fantasy Violence, Partial Nudity"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B"},"oflc":{"rating":"PG","descriptors":"Mild Fantasy Themes, Violence"},"kgrb":{"rating":"12","descriptors":"Violence"},"fpb":{"rating":"13"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "May 16, 2019"
+release_date: "November 14, 2024"
 game_modes: ["Single-player"]
 languages: ["English","Japanese"]
 languages_audio: []
@@ -56,10 +56,11 @@ requires_verification: true
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

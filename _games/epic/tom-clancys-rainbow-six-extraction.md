@@ -26,9 +26,9 @@ publisher: Ubisoft
 developer: Ubisoft
 genre: Shooter, Strategy
 franchise: 
-age_rating_summary: M (ESRB) · 16 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Strong Language, Drug Reference"},"pegi":{"rating":"16","descriptors":"Violence, Bad language, In-game purchases"},"usk":{"rating":"16"},"cero":{"rating":"C","descriptors":"Crime, Violence"},"kgrb":{"rating":"18","descriptors":"Violence, Bad language"},"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
-release_date: "June 15, 2023"
+release_date: "January 20, 2022"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Simplified Chinese","Traditional Chinese","Korean","Spanish - Latin America","Japanese","Polish","Portuguese - Brazil","Russian","Thai","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America","Japanese","Portuguese - Brazil","Russian"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

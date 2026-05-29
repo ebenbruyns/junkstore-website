@@ -26,9 +26,9 @@ publisher: Vertigo Gaming Inc.
 developer: Vertigo Gaming Inc.
 genre: Action, Simulation, Strategy
 franchise: 
-age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Use of Alcohol, Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Mild Violence"},"usk":{"rating":"6","descriptors":"Abstrakte Gewalt"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "October 14, 2020"
+release_date: "August 11, 2022"
 game_modes: ["Single-player","Co-op"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

@@ -28,7 +28,7 @@ genre: Simulation, Racing
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "October 4, 2022"
+release_date: "November 15, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

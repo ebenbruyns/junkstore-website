@@ -57,13 +57,6 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
-# Epic Features
-requires_eos: false
-supports_eos: false
-epic_achievements: false
-epic_offline_mode: false
-epic_cloud_saves: false
-must_be_online: false
 
 # Anti-Cheat
 requires_eac_runtime: false

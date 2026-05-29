@@ -28,7 +28,7 @@ genre: Shooter
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "August 7, 2020"
+release_date: "August 7, 2024"
 game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

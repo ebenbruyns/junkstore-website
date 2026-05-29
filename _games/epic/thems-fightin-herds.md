@@ -28,7 +28,7 @@ genre: Fighting, Indie
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "April 30, 2020"
+release_date: "December 19, 2022"
 game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: "<a href=\"https://www.microsoft.com/en-nz/download/details.aspx?id=35\" target=\"_blank\" rel=\"noopener noreferrer\">DirectX</a>"
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

@@ -28,7 +28,7 @@ genre: Casual, Party
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"cero":{"rating":"A"},"oflc":{"rating":"G","descriptors":"General, Online interaction"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
-release_date: "June 22, 2023"
+release_date: "December 9, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Spanish - Latin America"]
@@ -55,6 +55,7 @@ account_type: "Ubisoft Connect"
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

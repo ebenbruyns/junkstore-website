@@ -56,6 +56,7 @@ requires_verification: true
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
@@ -108,7 +109,7 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 ---
 

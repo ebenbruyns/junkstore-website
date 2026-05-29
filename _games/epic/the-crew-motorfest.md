@@ -28,7 +28,7 @@ genre: Action, Racing
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"6"}}
-release_date: "April 18, 2024"
+release_date: "July 4, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Simplified Chinese","Traditional Chinese","Korean","Japanese","Polish","Portuguese - Brazil","Russian"]
 languages_audio: ["English","French","German"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

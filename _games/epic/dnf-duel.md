@@ -26,9 +26,9 @@ publisher: Nexon
 developer: NEOPLE Inc., Arc System Works, EIGHTING Co., Ltd.,
 genre: Fighting
 franchise: 
-age_rating_summary: 12 (USK) · M (OFLC)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"usk":{"rating":"12","descriptors":"Freigegeben ab 12 (zwölf) Jahren gemäß § 14 JuSchG"},"oflc":{"rating":"M","descriptors":"Fantasy themes and violence, online interactivity"},"kgrb":{"rating":"12"},"csrr":{"rating":"C12"},"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "June 27, 2022"
+release_date: "December 18, 2023"
 game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","Japanese","Korean","Simplified Chinese","German","Spanish - Spain","Traditional Chinese"]
 languages_audio: ["Japanese","Korean","Simplified Chinese"]
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

@@ -26,9 +26,9 @@ publisher: PlayStation Publishing LLC
 developer: Guerrilla Games
 genre: Action, RPG, Action-Adventure, Adventure
 franchise: 
-age_rating_summary: T (ESRB) · 16 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Mild Sexual Themes, Language, Drug Reference"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12","descriptors":"Fantasy-Gewalt, Handlungsdruck"},"cero":{"rating":"D","descriptors":"Violence"},"oflc":{"rating":"M","descriptors":"Science Fiction Themes and Violence"},"kgrb":{"rating":"19","descriptors":"Violence"},"fpb":{"rating":"13","descriptors":"Violence"},"csrr":{"rating":"R","descriptors":"Violence"},"mda":{"rating":"AA16"},"dejus":{"rating":"14","descriptors":"Drogas Líticas, Violencia"}}
-release_date: "October 31, 2024"
+release_date: "January 1, 2099"
 game_modes: ["Single Player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Dutch","Finnish","Japanese","Korean","Norwegian","Polish","Portuguese - Brazil","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Polish","Portuguese - Brazil","Portuguese - Portugal","Russian","Spanish - Latin America"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>"
+
 
 # Epic Features
 requires_eos: true

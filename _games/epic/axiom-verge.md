@@ -26,7 +26,7 @@ publisher: Thomas Happ Games
 developer: Thomas Happ Games
 genre: Action, Platformer
 franchise: Axiom Verge
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence, Language"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"dejus":{"rating":"14","descriptors":"Animação de sangue, Linguagem imprópria, Violência"}}
 release_date: "May 14, 2015"
 game_modes: ["Single player"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

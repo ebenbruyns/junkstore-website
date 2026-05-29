@@ -26,9 +26,9 @@ publisher: IGG SINGAPORE PTE. LTD.
 developer: IGG SINGAPORE PTE. LTD.
 genre: RPG, Strategy
 franchise: 
-age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"e10"},"pegi":{"rating":"7"},"usk":{"rating":"6"},"bbfc":{"rating":"PG"},"oflc":{"rating":"PG"},"nzoflc":{"rating":"PG"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"A"},"csrr":{"rating":"C12"},"mda":{"rating":"AA16"},"dejus":{"rating":"10"}}
-release_date: "June 2, 2019"
+release_date: "July 17, 2023"
 game_modes: ["Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English","French","Italian","German","Spanish - Spain","Ukrainian","Russian","Turkish","Japanese","Polish","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Portugal","Vietnamese","Arabic","Korean","Spanish - Latin America"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

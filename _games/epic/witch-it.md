@@ -26,9 +26,9 @@ publisher: Barrel Roll Games
 developer: Barrel Roll Games
 genre: Action, Indie
 franchise: 
-age_rating_summary: 0 (USK)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa"}}
-release_date: "October 22, 2020"
+release_date: "March 26, 2024"
 game_modes: ["Online Multiplayer"]
 languages: ["English","German","Simplified Chinese","Turkish","French","Italian","Dutch","Russian","Portuguese - Brazil","Romanian","Traditional Chinese","Czech","Spanish - Spain","Korean","Danish","Swedish","Ukrainian","Hungarian","Galician","Japanese","Polish","Basque"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

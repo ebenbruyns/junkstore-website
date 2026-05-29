@@ -28,7 +28,7 @@ genre: Casual
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "November 16, 2018"
+release_date: "December 18, 2020"
 game_modes: ["Co-op"]
 languages: ["English","Portuguese - Brazil","Spanish - Latin America","Spanish - Spain","Korean","Russian","French","Italian","German","Dutch","Japanese","Portuguese - Portugal","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: true
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

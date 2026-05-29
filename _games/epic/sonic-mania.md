@@ -28,7 +28,7 @@ genre: Action, Platformer
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Cartoon Violence"},"pegi":{"rating":"3"},"usk":{"rating":"6"},"cero":{"rating":"A"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "August 29, 2017"
+release_date: "June 24, 2021"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

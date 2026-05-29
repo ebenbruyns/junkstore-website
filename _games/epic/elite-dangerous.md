@@ -26,9 +26,9 @@ publisher: Frontier Developments
 developer: Frontier Developments
 genre: Action, Space
 franchise: 
-age_rating_summary: T (ESRB) · 7 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Drug Reference, Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence, Online Gameplay"},"dejus":{"rating":"10","descriptors":"Atos criminosos, Violência fantasiosa"}}
-release_date: "April 2, 2015"
+release_date: "November 19, 2020"
 game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","French","German","Russian","Spanish - Spain","Portuguese - Brazil"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: "Frontier Account"
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

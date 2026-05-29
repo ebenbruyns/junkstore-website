@@ -28,7 +28,7 @@ genre: Strategy
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "December 7, 2022"
+release_date: "August 23, 2019"
 game_modes: ["Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Japanese","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America","Vietnamese","Korean"]
 languages_audio: ["English","Simplified Chinese"]
@@ -55,6 +55,7 @@ account_type: "Dragonest Account"
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

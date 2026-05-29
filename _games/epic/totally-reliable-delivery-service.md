@@ -28,7 +28,7 @@ genre: Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa, Compras on-line"}}
-release_date: "April 1, 2021"
+release_date: "April 1, 2020"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Traditional Chinese","Korean","Japanese","Portuguese - Brazil","Russian"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: true
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

@@ -28,7 +28,7 @@ genre: Simulation, Racing
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Language"},"pegi":{"rating":"3"},"usk":{"rating":"0"}}
-release_date: "November 1, 2017"
+release_date: "August 4, 2021"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: true
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

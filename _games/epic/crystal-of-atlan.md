@@ -28,7 +28,7 @@ genre: Action, RPG, Adventure
 franchise: Crystal of Atlan
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"18"}}
-release_date: "October 30, 2025"
+release_date: "May 27, 2025"
 game_modes: ["Online Multiplayer"]
 languages: ["English","French","German","Indonesian","Japanese","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Vietnamese","Korean","Spanish - Spain"]
 languages_audio: ["English","Japanese","Simplified Chinese","Traditional Chinese","Korean"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: ./Crystal of Atlan.exe
 dependencies: pdh dependency
+
 
 # Epic Features
 requires_eos: false

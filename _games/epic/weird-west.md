@@ -26,7 +26,7 @@ publisher: Devolver Digital
 developer: Wolfeye Studios
 genre: Narration, RPG, Action-Adventure
 franchise: 
-age_rating_summary: M (ESRB) · 16 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Strong Language, Use of Alcohol, Violence"},"pegi":{"rating":"16"},"dejus":{"rating":"16","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "March 31, 2022"
 game_modes: ["Single player"]
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>"
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

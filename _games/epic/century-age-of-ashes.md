@@ -28,7 +28,7 @@ genre: Action
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "December 2, 2021"
+release_date: "February 23, 2022"
 game_modes: ["Online Multiplayer"]
 languages: ["English","German","Spanish - Spain","Simplified Chinese","Portuguese - Brazil","Russian","French","Japanese"]
 languages_audio: ["English"]
@@ -56,10 +56,11 @@ requires_verification: true
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: true

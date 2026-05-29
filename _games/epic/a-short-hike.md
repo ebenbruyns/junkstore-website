@@ -28,7 +28,7 @@ genre: Casual, Platformer, Indie
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"cero":{"rating":"A"},"dejus":{"rating":"L"}}
-release_date: "July 30, 2019"
+release_date: "March 4, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Spanish - Latin America","Japanese","Portuguese - Brazil"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

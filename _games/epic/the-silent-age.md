@@ -28,7 +28,7 @@ genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Compras on-line"}}
-release_date: "May 29, 2015"
+release_date: "May 2, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian","Polish"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

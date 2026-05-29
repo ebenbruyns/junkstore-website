@@ -56,6 +56,7 @@ requires_verification: false
 set_executable: ./HYP.exe or /games/Genshin Impact game/GenshinImpact.exe
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false

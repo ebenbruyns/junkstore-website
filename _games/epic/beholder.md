@@ -26,9 +26,9 @@ publisher: Alawar
 developer: Alawar Stargaze (Warm Lamp Games)
 genre: Narration, Strategy, Adventure
 franchise: Beholder
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Drug Reference, Crude Humor, Use of Alcohol"},"pegi":{"rating":"12","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Drogas ilícitas, Atos criminosos"}}
-release_date: "November 9, 2016"
+release_date: "November 1, 2024"
 game_modes: ["Single player"]
 languages: ["English","Russian","French","German","Simplified Chinese","Italian","Traditional Chinese","Japanese","Polish","Spanish - Spain","Portuguese - Brazil","Dutch","Turkish","Korean"]
 languages_audio: ["English","Russian","French","German","Simplified Chinese","Italian","Traditional Chinese","Japanese","Polish","Spanish - Spain","Portuguese - Brazil","Dutch","Korean"]
@@ -57,10 +57,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

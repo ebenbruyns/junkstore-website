@@ -28,7 +28,7 @@ genre: Action, Shooter
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "August 22, 2022"
+release_date: "June 13, 2024"
 game_modes: ["Online Multiplayer"]
 languages: ["English"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: true
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

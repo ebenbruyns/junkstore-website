@@ -26,9 +26,9 @@ publisher: Wired Productions
 developer: Tomas Sala
 genre: Action, Open World, Indie
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Fantasy Violence"},"pegi":{"rating":"12","descriptors":"Language"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Violence"},"nzoflc":{"rating":"M","descriptors":"Violence"},"kgrb":{"rating":"12","descriptors":"Violence"},"dejus":{"rating":"L"}}
-release_date: "November 10, 2020"
+release_date: "August 5, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil"]
 languages_audio: ["English","French","German"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

@@ -28,7 +28,7 @@ genre: Action, Action-Adventure, Adventure
 franchise: Skul
 age_rating_summary: 13 (ESRB)
 age_ratings: {"kgrb":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "January 20, 2021"
+release_date: "January 1, 2026"
 game_modes: ["Single player"]
 languages: ["English","Japanese","Korean","Simplified Chinese","German","French","Spanish - Spain","Russian","Traditional Chinese","Portuguese - Brazil","Polish"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

@@ -28,7 +28,7 @@ genre: Strategy
 franchise: 
 age_rating_summary: 6 (USK)
 age_ratings: {"usk":{"rating":"6"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "November 4, 2024"
+release_date: "March 28, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Turkish"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

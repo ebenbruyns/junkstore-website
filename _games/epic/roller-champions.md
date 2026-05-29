@@ -26,9 +26,9 @@ publisher: UBISOFT
 developer: UBISOFT MONTREAL
 genre: Sport, Simulator, Racing
 franchise: 
-age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Mild Violence"},"pegi":{"rating":"7","descriptors":"Violence, In-Game Purchases"},"usk":{"rating":"6"},"cero":{"rating":"A"},"oflc":{"rating":"G","descriptors":"Very mild violence, Online interactivity, In-game purchases"},"kgrb":{"rating":"ALL","descriptors":"Violence"},"csrr":{"rating":"G"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "December 13, 2022"
+release_date: "June 23, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Turkish","Portuguese - Brazil"]
 languages_audio: ["English","French"]
@@ -55,6 +55,7 @@ account_type: "Ubisoft Connect"
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

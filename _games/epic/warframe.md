@@ -26,9 +26,9 @@ publisher: Digital Extremes
 developer: Digital Extremes
 genre: Action, RPG, Shooter
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Language"},"pegi":{"rating":"18","descriptors":"Violence, Online Gameplay"},"usk":{"rating":"16"},"kgrb":{"rating":"18","descriptors":"Violence"},"dejus":{"rating":"16","descriptors":"Violência"}}
-release_date: "March 25, 2013"
+release_date: "December 11, 2020"
 game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","German","French","Italian","Korean","Spanish - Spain","Simplified Chinese","Russian","Japanese","Polish","Portuguese - Brazil","Traditional Chinese","Turkish","Ukrainian","Thai"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: "Epic Account or New Account for Game"
 requires_verification: true
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

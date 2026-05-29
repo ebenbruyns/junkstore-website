@@ -28,7 +28,7 @@ genre: Indie, Tower Defense, Strategy
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"kgrb":{"rating":"12"},"dejus":{"rating":"L"}}
-release_date: "October 1, 2021"
+release_date: "October 22, 2024"
 game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","German","Spanish - Spain","Dutch","Portuguese - Brazil","Russian","Swedish","French","Polish","Turkish","Spanish - Latin America","Simplified Chinese","Traditional Chinese","Japanese","Korean","Norwegian","Ukrainian","Italian","Czech","Hungarian","Romanian","Arabic","Bulgarian","Danish","Finnish","Indonesian","Portuguese - Portugal","Vietnamese","Afrikaans","Slovak"]
 languages_audio: ["English"]
@@ -57,10 +57,11 @@ requires_verification: true
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

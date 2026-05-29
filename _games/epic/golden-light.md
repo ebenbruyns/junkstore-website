@@ -28,7 +28,7 @@ genre: Action, Stealth, Retro
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Medo, Violência, Nudez"}}
-release_date: "March 11, 2022"
+release_date: "October 14, 2023"
 game_modes: ["Single player"]
 languages: ["English","Russian","German","Spanish - Spain","French","Italian","Portuguese - Brazil","Korean","Simplified Chinese","Japanese"]
 languages_audio: []
@@ -56,10 +56,11 @@ requires_verification: true
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

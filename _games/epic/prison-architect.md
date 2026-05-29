@@ -28,7 +28,7 @@ genre: Simulation, Strategy
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Partial Nudity, Sexual Content, Strong Language"},"pegi":{"rating":"16","descriptors":"Moderate Violence, Sexual Nudity, Strong Language"},"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Linguagem imprópria, Nudez, Drogas ilícitas"}}
-release_date: "October 6, 2015"
+release_date: "December 9, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Spain","Dutch","Japanese","Swedish","Traditional Chinese","Turkish"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: "Paradox Interactive"
 requires_verification: true
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

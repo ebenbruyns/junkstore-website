@@ -28,7 +28,7 @@ genre: Fantasy, Action-Adventure, Indie
 franchise: Morbid
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência fantasiosa, Violência, Medo, Violência Extrema, Linguagem imprópria"}}
-release_date: "December 3, 2020"
+release_date: "September 19, 2024"
 game_modes: ["Single Player"]
 languages: ["English","French","German","Spanish - Spain","Russian","Japanese","Simplified Chinese","Korean","Traditional Chinese"]
 languages_audio: []
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

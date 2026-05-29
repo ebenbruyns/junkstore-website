@@ -56,6 +56,7 @@ requires_verification: true
 set_executable: ./WorldoOfWarships.exe
 dependencies: 
 
+
 # Epic Features
 requires_eos: true
 supports_eos: false

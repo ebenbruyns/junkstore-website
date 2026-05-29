@@ -28,7 +28,7 @@ genre: Adventure
 franchise: Spirit of the North
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "May 7, 2020"
+release_date: "April 19, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Korean"]
 languages_audio: []
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

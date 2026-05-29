@@ -28,7 +28,7 @@ genre: Racing
 franchise: Redout
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Language"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"cero":{"rating":"A"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"A"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
-release_date: "September 2, 2016"
+release_date: "May 12, 2022"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","Italian","Spanish - Spain","French","German","Russian","Portuguese - Brazil","Simplified Chinese","Japanese","Korean","Portuguese - Portugal","Traditional Chinese"]
 languages_audio: ["English"]
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>"
 
+
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

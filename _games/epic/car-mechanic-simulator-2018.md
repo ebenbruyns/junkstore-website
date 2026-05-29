@@ -28,7 +28,7 @@ genre: Simulation
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "July 28, 2017"
+release_date: "June 23, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Hungarian","Japanese","Polish","Russian","Simplified Chinese","Turkish","Portuguese - Portugal","Greek","Portuguese - Brazil","Finnish","Korean"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

@@ -28,7 +28,7 @@ genre: Action, Platformer, Indie
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Nudez, Linguagem imprópria"}}
-release_date: "March 24, 2016"
+release_date: "October 6, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

@@ -26,9 +26,9 @@ publisher: 2K
 developer: Mass Media Games
 genre: Action, Horror
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Language, Mild Sexual Themes, Use of Alcohol and Tobacco"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"cero":{"rating":"D"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"r16"},"kgrb":{"rating":"18"},"fpb":{"rating":"18"},"mda":{"rating":"M18"}}
-release_date: "March 25, 2013"
+release_date: "June 2, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese","Korean","Traditional Chinese"]
 languages_audio: ["English","French","German","Italian","Spanish - Spain","Japanese"]
@@ -56,6 +56,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

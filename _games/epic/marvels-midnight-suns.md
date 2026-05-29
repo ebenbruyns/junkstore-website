@@ -26,9 +26,9 @@ publisher: 2K
 developer: Firaxis Games
 genre: Turn-Based Strategy, RPG, Strategy
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Mild Blood, Language, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language, In-Game Purchases"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Mature themes and supernatural violence, in-game purchases"},"nzoflc":{"rating":"M","descriptors":"Mature themes and supernatural violence, in-game purchases"},"kgrb":{"rating":"15"},"fpb":{"rating":"16"},"csrr":{"rating":"C15","descriptors":"Violence, Inappropriate Speech"},"mda":{"rating":"AA16"},"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "December 1, 2022"
+release_date: "December 2, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","French","German","Spanish - Spain","Japanese","Korean","Simplified Chinese"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

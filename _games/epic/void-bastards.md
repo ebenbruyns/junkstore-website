@@ -28,7 +28,7 @@ genre: Action, Shooter
 franchise: 
 age_rating_summary: 16 (PEGI) · 16 (USK)
 age_ratings: {"pegi":{"rating":"16"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong Coarse Language, Strong Violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Atos criminosos"}}
-release_date: "May 28, 2019"
+release_date: "August 19, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

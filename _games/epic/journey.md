@@ -28,7 +28,7 @@ genre: Adventure, Indie
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "June 11, 2020"
+release_date: "June 6, 2019"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Dutch","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Thai","Traditional Chinese","Turkish"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

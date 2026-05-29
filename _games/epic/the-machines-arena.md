@@ -28,7 +28,7 @@ genre: Action, Shooter, Rogue-Lite
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa"}}
-release_date: "January 14, 2025"
+release_date: "April 23, 2024"
 game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: "Directive Games - The Machines Arean"
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

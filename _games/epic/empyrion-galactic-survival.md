@@ -28,7 +28,7 @@ genre: Space, Survival, Open World
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "August 5, 2020"
+release_date: "October 10, 2024"
 game_modes: ["Single-player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","German","French","Russian","Italian","Portuguese - Brazil","Simplified Chinese","Greek"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

@@ -28,7 +28,7 @@ genre: Casual, Sports, Indie
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Mild Violence"},"usk":{"rating":"6","descriptors":"Abstract Violence"},"oflc":{"rating":"PG","descriptors":"Scary Scenes"},"kgrb":{"rating":"ALL","descriptors":"Violence, Fear"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "October 22, 2019"
+release_date: "September 21, 2021"
 game_modes: ["Co-op"]
 languages: ["English","Portuguese - Brazil","Portuguese - Portugal","Spanish - Spain","Spanish - Latin America","Russian","Japanese","Simplified Chinese","Korean"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

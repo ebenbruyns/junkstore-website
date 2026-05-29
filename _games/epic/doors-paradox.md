@@ -28,7 +28,7 @@ genre: Casual, Puzzle, Adventure
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "November 4, 2022"
+release_date: "May 26, 2023"
 game_modes: ["Single Player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Portugal","Russian","Korean","Simplified Chinese","Traditional Chinese","Turkish","Indonesian"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

@@ -28,7 +28,7 @@ genre: Shooter, Open World
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Strong Language, Mild Sexual Themes"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, In-Game Purchases"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence, Crime"},"oflc":{"rating":"ma15","descriptors":"Online interactivity, Strong themes, Strong violence"},"nzoflc":{"rating":"r16","descriptors":"Violence, Offensive language"},"kgrb":{"rating":"18","descriptors":"Violence, Language"},"dejus":{"rating":"16","descriptors":"Drogas lícitas, Linguagem imprópria, Violência"}}
-release_date: "January 23, 2023"
+release_date: "October 4, 2019"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Spanish - Latin America"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

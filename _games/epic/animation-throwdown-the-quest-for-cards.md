@@ -28,7 +28,7 @@ genre: Strategy, Adventure, Card Game
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"dejus":{"rating":"18","descriptors":"Drogas ilícitas, Conteúdo sexual, Violência fantasiosa"}}
-release_date: "May 5, 2017"
+release_date: "October 4, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

@@ -28,7 +28,7 @@ genre: Puzzle
 franchise: 
 age_rating_summary: G (OFLC)
 age_ratings: {"oflc":{"rating":"G"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
-release_date: "August 17, 2021"
+release_date: "July 23, 2019"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Thai","Traditional Chinese"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

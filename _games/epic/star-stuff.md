@@ -28,7 +28,7 @@ genre: Casual, Puzzle, Platformer
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "June 7, 2024"
+release_date: "January 17, 2025"
 game_modes: ["Single player"]
 languages: ["English","German","Japanese","Portuguese - Brazil","Simplified Chinese","Spanish - Spain"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: true
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

@@ -28,7 +28,7 @@ genre: Action, Simulation
 franchise: 
 age_rating_summary: T (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"7","descriptors":"The content of this game is suitable for persons aged 7 years and over only., It contains: Violence that is not shown but is implied"},"oflc":{"rating":"M","descriptors":"Violence, online interactivity"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "November 17, 2017"
+release_date: "April 21, 2022"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Polish","Russian"]
 languages_audio: ["English","French","German","Polish","Russian"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

@@ -26,9 +26,9 @@ publisher: Ubisoft Entertainment
 developer: Ubisoft Toronto
 genre: Action, Shooter, Open World, Adventure
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language, Use of Alcohol, Use of Drugs, Mild Sexual Themes"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, In-Game Purchases"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence, Crime"},"oflc":{"rating":"ma15","descriptors":"Strong themes and bloody violence, Online interactivity, In-game purchases"},"nzoflc":{"rating":"r16","descriptors":"Violence, Cruelty, Offensive language"},"kgrb":{"rating":"18","descriptors":"Violence, Language, Alcohol, Tobacco, Drugs, Crime, Anti-Social"},"fpb":{"rating":"18","descriptors":"V (Violence), L (Bad Language), S (Sexual Conduct / Activity), H (Horror), D (Drugs &amp; Alcohol), P (Prejudice), CI (Competitive Intensity), PPS (Photo Pattern Sensitivity)"},"csrr":{"rating":"R","descriptors":"Violence, Inappropriate language, Anti-social"},"dejus":{"rating":"18","descriptors":"Illegal Drugs, Extreme Violence, Sexual Content"}}
-release_date: "May 11, 2023"
+release_date: "November 29, 2022"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese"]
 languages_audio: ["English","French","German","Japanese","Portuguese - Brazil","Russian","Spanish - Latin America"]
@@ -55,6 +55,7 @@ account_type: "Ubisoft Connect"
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

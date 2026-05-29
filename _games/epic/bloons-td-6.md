@@ -28,7 +28,7 @@ genre: Strategy
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência fantasiosa"}}
-release_date: "December 17, 2018"
+release_date: "January 24, 2025"
 game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Danish","Finnish","Japanese","Korean","Norwegian","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Traditional Chinese","Turkish","Polish","Spanish - Spain","Arabic","Dutch","Thai"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: true
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

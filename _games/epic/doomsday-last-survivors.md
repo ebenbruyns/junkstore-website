@@ -26,9 +26,9 @@ publisher: IGG SINGAPORE PTE. LTD.
 developer: IGG SINGAPORE PTE. LTD.
 genre: RTS, Tower Defense, Strategy
 franchise: 
-age_rating_summary: 12 (PEGI) · 16 (USK)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"pegi":{"rating":"12"},"usk":{"rating":"16"},"bbfc":{"rating":"PG"},"oflc":{"rating":"M"},"nzoflc":{"rating":"M"},"fpb":{"rating":"A"},"csrr":{"rating":"C12"},"mda":{"rating":"AA16"},"dejus":{"rating":"14"}}
-release_date: "June 25, 2023"
+release_date: "June 30, 2023"
 game_modes: ["Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English","French","Italian","German","Russian","Turkish","Japanese","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Portugal","Spanish - Latin America","Vietnamese","Arabic","Korean","Indonesian"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

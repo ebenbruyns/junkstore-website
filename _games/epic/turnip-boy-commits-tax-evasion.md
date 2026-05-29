@@ -28,7 +28,7 @@ genre: Casual, Action-Adventure, Indie
 franchise: 
 age_rating_summary: 3 (PEGI) · 6 (USK)
 age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"6","descriptors":"Abstract Violence"},"oflc":{"rating":"PG","descriptors":"Mild Coarse Language"},"nzoflc":{"rating":"PG","descriptors":"Mild Coarse Language"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência, Atos criminosos"}}
-release_date: "April 22, 2021"
+release_date: "March 24, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Japanese"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

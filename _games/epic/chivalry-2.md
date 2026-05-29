@@ -26,9 +26,9 @@ publisher: Tripwire Interactive
 developer: Torn Banner Studios
 genre: Action, First Person
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Mild Sexual Themes, Language, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, In-Game Purchases"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"r18","descriptors":"In-Game Purchases, Online Interactivity, High Impact Violence"},"kgrb":{"rating":"18","descriptors":"Violence"},"csrr":{"rating":"R","descriptors":"Violence"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Drogas lícitas, Compras on-line"}}
-release_date: "June 12, 2022"
+release_date: "June 8, 2021"
 game_modes: ["Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

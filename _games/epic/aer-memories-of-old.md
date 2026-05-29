@@ -26,9 +26,9 @@ publisher: Daedalic Entertainment
 developer: Daedalic Entertainment, Forgotten Key
 genre: Exploration, Open World, Adventure
 franchise: 
-age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7"},"usk":{"rating":"0"},"oflc":{"rating":"G"},"nzoflc":{"rating":"G"},"dejus":{"rating":"L"}}
-release_date: "October 25, 2017"
+release_date: "June 25, 2020"
 game_modes: ["Single player"]
 languages: ["English","German","Spanish - Spain","French","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Italian","Traditional Chinese","Polish"]
 languages_audio: []
@@ -56,10 +56,11 @@ requires_verification: true
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

@@ -26,9 +26,9 @@ publisher: Ubisoft
 developer: Ubisoft Singapore
 genre: Action, Adventure
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Strong Language, Use of Drugs"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Drugs"},"usk":{"rating":"16"},"cero":{"rating":"D","descriptors":"Violence, Drugs"},"oflc":{"rating":"M","descriptors":"Mature themes, Violence, Drug Use, Coarse Language and sexual references"},"nzoflc":{"rating":"M","descriptors":"Violence, Offensive Language &amp; Content that may disturb"},"kgrb":{"rating":"18","descriptors":"Drugs, Violence"},"fpb":{"rating":"18","descriptors":"D (Substance abuse), L (Language), V (Violence), PPS (Photo Pattern Sensitivity), CI (Competitive Intensity)"},"csrr":{"rating":"R","descriptors":"Violence, Language, Drugs"},"dejus":{"rating":"16","descriptors":"Drogas, Violência"}}
-release_date: "August 22, 2024"
+release_date: "February 16, 2024"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Arabic","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Italian","Polish"]
 languages_audio: ["English","French","German","Spanish - Spain","Japanese"]
@@ -55,6 +55,7 @@ account_type: "Ubisoft Connect"
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

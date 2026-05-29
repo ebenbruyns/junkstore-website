@@ -26,9 +26,9 @@ publisher: Epic Games Publishing
 developer: Remedy Entertainment
 genre: Action, Horror, Shooter
 franchise: 
-age_rating_summary: T (ESRB)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Language, Use of Alcohol and Tobacco, Violence"},"dejus":{"rating":"14","descriptors":"Medo, Violência, Linguagem imprópria"}}
-release_date: "February 16, 2012"
+release_date: "October 5, 2021"
 game_modes: ["Single player"]
 languages: ["English","German","French","Italian","Korean","Spanish - Spain","Russian","Japanese","Polish","Traditional Chinese","Spanish - Latin America"]
 languages_audio: ["English","German","French","Italian","Spanish - Spain","Japanese","Spanish - Latin America"]
@@ -56,12 +56,13 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat

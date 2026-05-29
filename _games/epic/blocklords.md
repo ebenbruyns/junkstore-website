@@ -28,7 +28,7 @@ genre: Strategy
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência, Drogas lícitas, Nudez"}}
-release_date: "March 31, 2026"
+release_date: "September 15, 2023"
 game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","German","Spanish - Spain","Simplified Chinese","French","Italian","Japanese","Portuguese - Portugal","Russian","Korean","Turkish"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

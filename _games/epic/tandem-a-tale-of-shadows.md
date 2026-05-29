@@ -28,7 +28,7 @@ genre: Puzzle, Action-Adventure, Platformer
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "October 20, 2021"
+release_date: "October 21, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Portugal","Czech","Turkish"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

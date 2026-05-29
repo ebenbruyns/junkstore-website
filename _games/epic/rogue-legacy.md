@@ -28,7 +28,7 @@ genre: Action, Indie
 franchise: Rogue Legacy
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "June 27, 2013"
+release_date: "April 7, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

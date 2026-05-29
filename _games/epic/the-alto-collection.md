@@ -28,7 +28,7 @@ genre: Indie, Adventure
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "March 7, 2024"
+release_date: "August 13, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Welsh"]
 languages_audio: []
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

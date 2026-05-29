@@ -28,7 +28,7 @@ genre: Action
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "November 13, 2023"
+release_date: "October 12, 2023"
 game_modes: ["Online Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Dutch","Japanese","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish","Polish"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

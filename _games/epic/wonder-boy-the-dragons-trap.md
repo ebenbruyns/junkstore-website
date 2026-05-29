@@ -28,7 +28,7 @@ genre: Action, Casual, Platformer
 franchise: 
 age_rating_summary: e10 (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Use of Tobacco"},"pegi":{"rating":"3"},"usk":{"rating":"12","descriptors":"Violence, Tobacco Use"},"cero":{"rating":"A"},"oflc":{"rating":"M","descriptors":"Mature Themes"},"nzoflc":{"rating":"M"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "June 8, 2017"
+release_date: "March 12, 2026"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Polish","Swedish","Traditional Chinese"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

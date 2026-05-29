@@ -28,7 +28,7 @@ genre: Sports, Simulation, Racing
 franchise: 
 age_rating_summary: 3 (PEGI) · 0 (USK)
 age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"0"},"dejus":{"rating":"14"}}
-release_date: "November 10, 2025"
+release_date: "July 10, 2024"
 game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese"]
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>"
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

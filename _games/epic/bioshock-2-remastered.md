@@ -26,9 +26,9 @@ publisher: 2K
 developer: Mass Media Games
 genre: Action, Horror
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Drug Reference, Intense Violence, Sexual Themes, Strong Language, Use of Alcohol, Use of Tobacco"},"pegi":{"rating":"18","descriptors":"Gambling, Bad Language, Violence"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Strong fantasy themes, Violence, Coarse language"},"nzoflc":{"rating":"r16","descriptors":"Horror, Graphic Violence, Offensive Language"},"kgrb":{"rating":"18","descriptors":"Violence, Fear, Horror, Threatening, Alcohol, Tobacco, Drug"},"csrr":{"rating":"R","descriptors":"Violence, Improper Language, Cigarettes or Alcohol"},"mda":{"rating":"M18","descriptors":"Violence, Mature Themes, Coarse Language"},"dejus":{"rating":"18","descriptors":"Sexual Content, Usage of illicit drug, Violence"}}
-release_date: "September 15, 2016"
+release_date: "June 2, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese"]
@@ -56,6 +56,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

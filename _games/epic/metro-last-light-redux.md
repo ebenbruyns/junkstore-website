@@ -28,7 +28,7 @@ genre: Action, Shooter, First Person
 franchise: 
 age_rating_summary: 18 (PEGI) · 18 (USK)
 age_ratings: {"pegi":{"rating":"18"},"usk":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Violência, Temas sensíveis, Drogas ilícitas"}}
-release_date: "August 27, 2014"
+release_date: "August 14, 2019"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Dutch","Polish","Russian","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

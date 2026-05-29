@@ -26,9 +26,9 @@ publisher: IMGN.PRO
 developer: Sleepless Clinic
 genre: Indie
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T"},"pegi":{"rating":"12"},"cero":{"rating":"B"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "February 20, 2018"
+release_date: "May 26, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Portuguese - Portugal","Russian","Czech","Japanese","Simplified Chinese","Italian","Hungarian","Korean"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

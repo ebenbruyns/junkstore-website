@@ -28,7 +28,7 @@ genre: Action, RPG, Rogue-Lite
 franchise: 
 age_rating_summary: T (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Blood, Mild Language, Suggestive Themes, Violence"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "September 17, 2020"
+release_date: "December 10, 2019"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Polish","Japanese"]
 languages_audio: ["English"]
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

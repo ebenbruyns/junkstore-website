@@ -28,7 +28,7 @@ genre: Action-Adventure
 franchise: 
 age_rating_summary: 16 (USK)
 age_ratings: {"usk":{"rating":"16"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "January 28, 2021"
+release_date: "January 29, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

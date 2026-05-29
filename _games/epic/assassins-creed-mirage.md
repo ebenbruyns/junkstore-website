@@ -26,9 +26,9 @@ publisher: Ubisoft
 developer: Ubisoft
 genre: Action, Adventure
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language, Drug Reference"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, In-Game Purchases"},"usk":{"rating":"16","descriptors":"Gewalt"},"cero":{"rating":"Z","descriptors":"Crime, Violence"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Online Interactivity, In-Game Purchases"},"nzoflc":{"rating":"r13","descriptors":"Bloody violence"},"kgrb":{"rating":"19","descriptors":"Violence, Language, Drugs, Crime"},"fpb":{"rating":"18","descriptors":"Criminal Techniques, Drugs &amp; Alcohol, Bad Language, Violence, Photo Pattern Sensitivity, Competitive Intensity"},"csrr":{"rating":"R","descriptors":"Violence, Language, Anti-social"},"dejus":{"rating":"16","descriptors":"Drogas, Violência, Linguagem imprópria"}}
-release_date: "October 17, 2024"
+release_date: "October 5, 2023"
 game_modes: ["Single player"]
 languages: ["English","Italian","German","Spanish - Spain","Arabic","Simplified Chinese","Traditional Chinese","Korean","Spanish - Latin America","Japanese","Polish","Portuguese - Brazil","Russian","French"]
 languages_audio: ["English","Italian","German","Spanish - Spain","Arabic","Japanese","Portuguese - Brazil","French"]
@@ -55,6 +55,7 @@ account_type: "Ubisoft Connect"
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

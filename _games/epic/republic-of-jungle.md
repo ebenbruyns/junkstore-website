@@ -28,7 +28,7 @@ genre: Party, Indie
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "November 23, 2025"
+release_date: "January 21, 2025"
 game_modes: ["Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: true
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

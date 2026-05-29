@@ -26,9 +26,9 @@ publisher: Binary Haze Ineractive
 developer: Adglobe
 genre: Simulation
 franchise: 
-age_rating_summary: T (ESRB) · D (CERO)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Language, Violence"},"cero":{"rating":"D"},"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
-release_date: "February 22, 2023"
+release_date: "February 19, 2025"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Traditional Chinese","Japanese","Korean","Russian","Portuguese - Brazil"]
 languages_audio: ["English","Japanese"]
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

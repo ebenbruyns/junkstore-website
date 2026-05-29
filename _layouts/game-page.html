@@ -289,8 +289,34 @@ layout: null
         <div class="feature-chips">
           {% if page.epic_achievements %}<span class="feature-chip">✓ Achievements</span>{% endif %}
           {% if page.epic_cloud_saves %}<span class="feature-chip">✓ Cloud Saves</span>{% endif %}
-          {% if page.epic_offline_mode %}<span class="feature-chip">✓ Offline Mode</span>{% endif %}
+          {% if page.epic_offline_mode %}<span class="feature-chip">✓ Can Play Offline</span>{% endif %}
           {% if page.supports_eos %}<span class="feature-chip">✓ Epic Online Services</span>{% endif %}
+        </div>
+      </div>
+      {% endif %}
+    {% endif %}
+
+    {% comment %}
+      GOG Features: mirrors Epic Features. Only Cloud Saves emits today —
+      Achievements / Overlay / Leaderboards chip-lines are commented (Liquid
+      {% comment %}-blocks) until ready to enable on the rendered page; the
+      underlying data is already populated in source_data.
+    {% endcomment %}
+    {% if page.storefront_key == 'gog' %}
+      {% assign any_gog_feature = false %}
+      {% if page.gog_cloud_saves or page.gog_achievements or page.gog_overlay or page.gog_leaderboards %}
+        {% assign any_gog_feature = true %}
+      {% endif %}
+      {% if any_gog_feature %}
+      <div class="info-section info-section--compact">
+        <h2>GOG Features</h2>
+        <div class="feature-chips">
+          {% if page.gog_cloud_saves %}<span class="feature-chip">✓ Cloud Saves</span>{% endif %}
+          {%- comment -%}
+          {% if page.gog_achievements %}<span class="feature-chip">✓ Achievements</span>{% endif %}
+          {% if page.gog_overlay %}<span class="feature-chip">✓ Galaxy Overlay</span>{% endif %}
+          {% if page.gog_leaderboards %}<span class="feature-chip">✓ Leaderboards</span>{% endif %}
+          {%- endcomment -%}
         </div>
       </div>
       {% endif %}

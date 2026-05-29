@@ -28,7 +28,7 @@ genre: Action, Action-Adventure, Open World, Adventure
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood &amp; gore, drug reference, intense violence, nudity, sexual content, strong language, alcohol usage"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Sex"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong violence, sex and coarse language, online interactivity"},"nzoflc":{"rating":"r13","descriptors":"Strong violence &amp; offensive language"},"kgrb":{"rating":"18","descriptors":"Sexuality, Violence, Language, and Crime"},"fpb":{"rating":"18","descriptors":"N, S, V, CI"},"csrr":{"rating":"C15","descriptors":"Violence"},"dejus":{"rating":"16","descriptors":"Sexual content, Improper language, Violence"}}
-release_date: "October 26, 2017"
+release_date: "October 27, 2017"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Dutch","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian"]
@@ -55,6 +55,7 @@ account_type: "Ubisoft Connect"
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

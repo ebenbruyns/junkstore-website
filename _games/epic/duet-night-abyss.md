@@ -28,7 +28,7 @@ genre: RPG, Action-Adventure, Open World
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"18","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "January 19, 2026"
+release_date: "October 26, 2025"
 game_modes: ["Co-op"]
 languages: ["English","Japanese","Simplified Chinese","Traditional Chinese","Korean","French"]
 languages_audio: ["English","Japanese","Simplified Chinese","Traditional Chinese","Korean"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

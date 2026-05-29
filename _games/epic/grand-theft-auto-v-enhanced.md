@@ -26,7 +26,7 @@ publisher: Rockstar Games
 developer: Rockstar North
 genre: Action, Open World, Adventure
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Nudity, Mature Humor, Strong Language, Strong Sexual Content, Use of Drugs and Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Online Play,, Strong Language"},"usk":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Drogas ilícitas, Nudez, Violência"}}
 release_date: "March 4, 2025"
 game_modes: ["Single-player","Co-op"]
@@ -56,10 +56,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

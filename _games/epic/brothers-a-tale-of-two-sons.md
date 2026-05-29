@@ -26,9 +26,9 @@ publisher: 505 Games
 developer: Starbreeze Studios AB
 genre: Adventure
 franchise: 
-age_rating_summary: T (ESRB) · 16 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Crude Humor"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M"},"kgrb":{"rating":"15"},"fpb":{"rating":"13"},"dejus":{"rating":"10"}}
-release_date: "September 3, 2013"
+release_date: "February 17, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

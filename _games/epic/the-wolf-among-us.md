@@ -28,7 +28,7 @@ genre: Action, Adventure
 franchise: The Wolf Among Us
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Sexual Themes, Partial Nudity, Drug Reference, Strong Language, Use of Alcohol and Tobacco"},"pegi":{"rating":"16","descriptors":"Bad Language, Violence, Sex"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Coarse Language"},"nzoflc":{"rating":"r16","descriptors":"Violence, Offensive Language, Sexual Themes"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Drogas ilícitas, Linguagem imprópria"}}
-release_date: "October 11, 2013"
+release_date: "December 1, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

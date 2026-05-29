@@ -26,9 +26,9 @@ publisher: Expansive Worlds
 developer: Expansive Worlds
 genre: First Person, Simulation, Open World
 franchise: 
-age_rating_summary: T (ESRB) · 16 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood,, Violence"},"pegi":{"rating":"16","descriptors":"Violence, Online Game, In-Game Purchases"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Hunting violence, online interactivity"},"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "February 16, 2017"
+release_date: "November 25, 2021"
 game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","French","German","Portuguese - Brazil","Russian","Spanish - Spain","Czech","Polish","Simplified Chinese","Japanese"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

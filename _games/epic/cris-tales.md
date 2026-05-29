@@ -26,7 +26,7 @@ publisher: Maximum Entertainment LLC
 developer: Dreams Uncorporated, SYCK
 genre: RPG, Turn-Based, Indie
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Mild Language"},"pegi":{"rating":"12","descriptors":"Bad Language"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Mild fantasy violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
 release_date: "July 20, 2021"
 game_modes: ["Single player"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: true

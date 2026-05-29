@@ -26,9 +26,9 @@ publisher: Bethesda Softworks
 developer: Obsidian Entertainment
 genre: Action, RPG, Shooter
 franchise: Fallout
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Content, Strong Language, Use of Drugs"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"bbfc":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Drug References, Coarse Language"}}
-release_date: "October 20, 2010"
+release_date: "June 1, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Spanish - Spain"]
 languages_audio: []
@@ -57,10 +57,11 @@ requires_verification: false
 set_executable: 
 dependencies: 
 
+
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
 must_be_online: false

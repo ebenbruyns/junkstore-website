@@ -28,7 +28,7 @@ genre: RPG, Strategy
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"18","descriptors":"Violência"}}
-release_date: "July 30, 2024"
+release_date: "January 10, 2024"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
@@ -55,6 +55,7 @@ account_type: ""
 requires_verification: false
 set_executable: 
 dependencies: 
+
 
 # Epic Features
 requires_eos: false

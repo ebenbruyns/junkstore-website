@@ -26,7 +26,7 @@ publisher: COGNOSPHERE PTE. LTD.
 developer: COGNOSPHERE PTE. LTD.
 genre: Action, RPG, Adventure
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Suggestive Themes"},"pegi":{"rating":"12"},"usk":{"rating":"16"},"kgrb":{"rating":"15"},"dejus":{"rating":"18","descriptors":"Violência"}}
 release_date: "July 2, 2024"
 game_modes: ["Single player"]
@@ -55,6 +55,7 @@ account_type: "HoyoPlay Account"
 requires_verification: false
 set_executable: ./games/ZenlessZoneZeroGame/ZenlessZoneZero.exe
 dependencies: 
+
 
 # Epic Features
 requires_eos: false
