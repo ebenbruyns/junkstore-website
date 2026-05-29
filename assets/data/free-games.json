@@ -1,54 +1,6 @@
 {
-  "generated_at": "2026-05-24T00:58:58.474Z",
+  "generated_at": "2026-05-28T20:51:02.797Z",
   "games": [
-    {
-      "id": "gp-3642",
-      "title": "Back to Modern World - Fantasy Hero",
-      "storefront": "itchio",
-      "website_slug": null,
-      "store_url": "https://s-xavier-uy.itch.io/back-to-modern-world-fantasy-hero",
-      "image": "https://www.gamerpower.com/offers/1b/6a064aa563481.jpg",
-      "end_date": "2026-05-24T23:59:00Z",
-      "end_date_formatted": "Sun, 24 May · 23:59 UTC",
-      "first_seen": "2026-05-19 22:00:00",
-      "original_price": "$6.50"
-    },
-    {
-      "id": "gp-3655",
-      "title": "Svoboda 1945: Liberation (itchio)",
-      "storefront": "itchio",
-      "website_slug": null,
-      "store_url": "https://charlesgames.itch.io/svoboda1945",
-      "image": "https://www.gamerpower.com/offers/1b/6a119adf3ef47.jpg",
-      "end_date": "2026-05-25T23:59:00Z",
-      "end_date_formatted": "Mon, 25 May · 23:59 UTC",
-      "first_seen": "2026-05-23 19:49:47",
-      "original_price": "$15.99"
-    },
-    {
-      "id": "manual_1776973466618_neo-cab",
-      "title": "Neo Cab",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/neo-cab-gog/dp/amzn1.pg.item.e2868d3e-ca75-4dd1-93ce-ef343e126305?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fb5a65acb6b398b21d74647ce67a47b8826dfcd8833ad72e62483e72952bbbfeb.png&w=480&output=webp&q=80",
-      "end_date": "2026-05-27T11:59:59.000Z",
-      "end_date_formatted": "Wed, 27 May · 11:59 UTC",
-      "first_seen": "2026-04-23 19:44:27",
-      "original_price": "$14.99"
-    },
-    {
-      "id": "manual_1776973466618_the-pale-beyond",
-      "title": "The Pale Beyond",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/the-pale-beyond-gog/dp/amzn1.pg.item.7791491d-6134-4109-b285-1b7f1b79f07a?g=s&ingress=amzn&ref_=SM_ThePaleBeyond_S01_FGWP_CRWN",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fdb4e16dc43f196b3641b0f69158fa480bf77748439f82fb611d24034e19f42dc.png&w=480&output=webp&q=80",
-      "end_date": "2026-05-27T11:59:59.000Z",
-      "end_date_formatted": "Wed, 27 May · 11:59 UTC",
-      "first_seen": "2026-04-23 19:44:27",
-      "original_price": "$19.99"
-    },
     {
       "id": "gp-3650",
       "title": "Tomb Raider 1-3 Remastered Starring Lara Croft",
@@ -56,8 +8,8 @@
       "website_slug": null,
       "store_url": "https://store.epicgames.com/p/tomb-raider-iiii-remastered-538640",
       "image": "https://www.gamerpower.com/offers/1b/6a0f20569a02f.jpg",
-      "end_date": "2026-05-28T15:00:00.000Z",
-      "end_date_formatted": "Thu, 28 May · 15:00 UTC",
+      "end_date": "2026-06-04T15:00:00.000Z",
+      "end_date_formatted": "Thu, 4 Jun · 15:00 UTC",
       "first_seen": "2026-05-21 21:00:26",
       "original_price": "$29.99"
     },
@@ -68,8 +20,8 @@
       "website_slug": null,
       "store_url": "https://store.epicgames.com/p/down-in-bermuda",
       "image": "https://www.gamerpower.com/offers/1b/6a0f1f119c18a.jpg",
-      "end_date": "2026-05-28T15:00:00.000Z",
-      "end_date_formatted": "Thu, 28 May · 15:00 UTC",
+      "end_date": "2026-06-04T15:00:00.000Z",
+      "end_date_formatted": "Thu, 4 Jun · 15:00 UTC",
       "first_seen": "2026-05-21 21:00:26",
       "original_price": "$19.99"
     },
@@ -132,6 +84,30 @@
       "end_date_formatted": "Wed, 3 Jun · 11:59 UTC",
       "first_seen": "2026-04-30 20:11:24",
       "original_price": "$14.99"
+    },
+    {
+      "id": "gp-3658",
+      "title": "LONESTAR",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/lonestar-83f143",
+      "image": "https://www.gamerpower.com/offers/1b/6a185ab4dbc42.jpg",
+      "end_date": "2026-06-04T15:00:00.000Z",
+      "end_date_formatted": "Thu, 4 Jun · 15:00 UTC",
+      "first_seen": "2026-05-28 20:42:28",
+      "original_price": "$12.99"
+    },
+    {
+      "id": "gp-3657",
+      "title": "Calico",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/calico",
+      "image": "https://www.gamerpower.com/offers/1b/6a18599326aa5.jpg",
+      "end_date": "2026-06-04T15:00:00.000Z",
+      "end_date_formatted": "Thu, 4 Jun · 15:00 UTC",
+      "first_seen": "2026-05-28 20:42:28",
+      "original_price": "$11.99"
     },
     {
       "id": "manual_1778185556623_fruitbus",
@@ -218,6 +194,30 @@
       "original_price": "$12.49"
     },
     {
+      "id": "manual_1780001334153_claim-pro-basketball-manager-2026-amazon-luna",
+      "title": "Claim Pro Basketball Manager 2026 | Amazon Luna",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/pro-basketball-manager-2026-aga/dp/amzn1.pg.item.eb7ccd3b-4efd-4b0a-9a45-722b53d76a16?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81o20uM9JwL.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-07-02T00:00:00.000Z",
+      "end_date_formatted": "Thu, 2 Jul · 00:00 UTC",
+      "first_seen": "2026-05-28 20:48:54",
+      "original_price": null
+    },
+    {
+      "id": "manual_1780001406631_claim-moon-mystery-amazon-luna",
+      "title": "Claim Moon Mystery | Amazon Luna",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/moon-mystery-epic/dp/amzn1.pg.item.fa6ec78f-327e-4dcb-8afe-8eae11afea3b?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81ll0mLMMnL.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-07-02T00:00:00.000Z",
+      "end_date_formatted": "Thu, 2 Jul · 00:00 UTC",
+      "first_seen": "2026-05-28 20:50:06",
+      "original_price": null
+    },
+    {
       "id": "gp-3096",
       "title": "Madness Inside",
       "storefront": "itchio",
@@ -272,8 +272,8 @@
       "website_slug": null,
       "store_url": "https://store.epicgames.com/p/spirit-catcher-93-ee155d",
       "image": "https://www.gamerpower.com/offers/1b/6a08f8b2123a0.jpg",
-      "end_date": "2026-05-28T15:00:00.000Z",
-      "end_date_formatted": "Thu, 28 May · 15:00 UTC",
+      "end_date": "2026-06-04T15:00:00.000Z",
+      "end_date_formatted": "Thu, 4 Jun · 15:00 UTC",
       "first_seen": "2026-05-16 23:40:50",
       "original_price": "$14.99"
     },
