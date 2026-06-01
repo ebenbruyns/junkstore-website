@@ -2,6 +2,17 @@
 layout: junkstore-default
 ---
 
+{%- comment -%}
+  Weekly Update posts share a ~180-line CSS block (game entry layout,
+  store badges, CTA blocks, blockquote tweaks). Centralised in
+  _includes/weekly-update-styles.css so new posts don't have to ship
+  the inline <style> any more. Gated on the category so other
+  junkstore-post posts (tips, features, news) aren't affected.
+{%- endcomment -%}
+{% if page.categories contains "Weekly Update" %}
+<style>{% include weekly-update-styles.css %}</style>
+{% endif %}
+
 <article class="js-post" itemscope itemtype="https://schema.org/BlogPosting"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
   {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
   {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
