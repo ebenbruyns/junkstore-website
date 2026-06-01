@@ -86,7 +86,7 @@ button:focus,
 
 .hero-meta {
   display: flex;
-  gap: 0.625rem;
+  gap: 0.5rem;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;          /* let `margin-left: auto` on a child push it to the far right */
@@ -95,15 +95,14 @@ button:focus,
 .store-badge {
   background: #238636;
   color: white;
-  padding: 0.375rem 0.875rem;
-  border-radius: 1.25rem;
-  font-size: 0.875rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
   font-weight: 600;
-  min-height: 2.75rem;
   display: inline-flex;
   align-items: center;
   border: 1px solid rgba(255, 255, 255, 0.25);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
 }
 
 .store-badge.epic {
@@ -200,6 +199,29 @@ button:focus,
   font-size: 0.82rem;
   font-weight: 600;
 }
+
+/* Linux Build chip variants — colour reflects manually-set linux_build_rating.
+   Untested = neutral grey so "build exists" reads without implying it works. */
+.feature-chip--linux-untested {
+  background: rgba(148, 163, 184, 0.13);
+  border-color: rgba(148, 163, 184, 0.4);
+  color: #cbd5e1;
+}
+.feature-chip--linux-green {
+  background: rgba(74, 222, 128, 0.13);
+  border-color: rgba(74, 222, 128, 0.4);
+  color: #6dd99f;
+}
+.feature-chip--linux-yellow {
+  background: rgba(251, 191, 36, 0.13);
+  border-color: rgba(251, 191, 36, 0.4);
+  color: #fcd34d;
+}
+.feature-chip--linux-red {
+  background: rgba(248, 113, 113, 0.13);
+  border-color: rgba(248, 113, 113, 0.4);
+  color: #f87171;
+}
 .info-section--compact {
   padding: 0.75rem 1rem;
 }
@@ -231,38 +253,56 @@ button:focus,
 .free-now-badge {
   background: linear-gradient(135deg, #f5c542, #e09f3e);
   color: #1a1a1a;
-  padding: 0.375rem 0.875rem;
-  border-radius: 1.25rem;
-  font-size: 0.875rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
-  min-height: 2.75rem;
+  letter-spacing: 0.04em;
   display: inline-flex;
   align-items: center;
   border: 1px solid rgba(255, 255, 255, 0.4);
-  box-shadow: 0 2px 10px rgba(245, 197, 66, 0.45);
+  box-shadow: 0 2px 8px rgba(245, 197, 66, 0.4);
   text-decoration: none;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
+  margin-left: auto;          /* push the Free Until badge to far right of hero-meta */
 }
 
 .free-now-badge:hover {
   transform: translateY(-1px);
-  box-shadow: 0 4px 14px rgba(245, 197, 66, 0.6);
+  box-shadow: 0 4px 12px rgba(245, 197, 66, 0.55);
   color: #000;
   text-decoration: none;
 }
 
 .hero-detail {
   color: #fff;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   background: rgba(30, 42, 56, 0.95);
-  padding: 0.375rem 0.875rem;
-  border-radius: 1.25rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 1rem;
   backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.25);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
+
+/* Status dot — CSS-only colored circle, alternative to 🟢🟡🔴 emojis.
+   Same .dot classes as _sass/landing-pages.scss. Inlined here because game
+   pages don't load main.css. */
+.dot {
+  display: inline-block;
+  width: 0.95em;
+  height: 0.95em;
+  border-radius: 50%;
+  background: #b0b0b0;
+  vertical-align: middle;
+  margin-right: 0.45em;
+  margin-bottom: 0.15em;
+  flex-shrink: 0;
+}
+.dot--green  { background: #48bb78; }
+.dot--yellow { background: #ecc94b; }
+.dot--red    { background: #f56565; }
 
 /* Breadcrumb Bar — trail on the left, "Play with Junk Store" CTA pinned right */
 .breadcrumb-bar {
@@ -277,10 +317,19 @@ button:focus,
 }
 .breadcrumb-trail {
   flex: 1;
-  min-width: 0;        /* allow truncation if very long title */
+  min-width: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.breadcrumb-trail a,
+.breadcrumb-trail a:visited {
+  color: #66bfff;
+  text-decoration: none;
+}
+.breadcrumb-trail a:hover,
+.breadcrumb-trail a:focus {
+  text-decoration: underline;
 }
 .breadcrumb-cta {
   flex: 0 0 auto;
@@ -301,16 +350,6 @@ button:focus,
 @media (max-width: 700px) {
   .breadcrumb-bar { flex-direction: column; align-items: stretch; gap: 0.5rem; }
   .breadcrumb-cta { text-align: center; }
-}
-
-.breadcrumb-bar a {
-  color: #58a6ff;
-  text-decoration: none;
-  padding: 0.25rem;
-}
-
-.breadcrumb-bar a:hover {
-  text-decoration: underline;
 }
 
 /* Main Content */
@@ -726,6 +765,12 @@ button:focus,
   color: #000;
 }
 
+/* OpenCritic - Orange (their brand colour) */
+.external-link.opencritic {
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+  color: #fff;
+}
+
 /* HowLongToBeat - Teal */
 .external-link.hltb {
   background: linear-gradient(135deg, #4db6ac 0%, #00897b 100%);
@@ -768,10 +813,10 @@ button:focus,
 /* HLTB Hero Pill */
 .hltb-hero {
   background: linear-gradient(135deg, #5865f2, #7c3aed);
-  padding: 0.25rem 0.75rem;
+  padding: 0.25rem 0.65rem;
   border-radius: 1rem;
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
 }
 
 /* Badge with inline score */
@@ -862,4 +907,328 @@ button:focus,
 .external-link.hltb {
   background: linear-gradient(135deg, #5865f2, #7c3aed);
   border-color: #7c3aed;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   More from this developer — discovery widget at bottom of game page.
+   Card styles mirror .game-card from games-hub.scss because game pages
+   don't load main.css (perf optimisation), so we inline what we need.
+   ────────────────────────────────────────────────────────────────────── */
+
+.more-from-dev {
+  margin: 2rem 0 1rem;
+}
+.more-from-dev__header {
+  margin-bottom: 12px;
+}
+.more-from-dev__header h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 4px;
+}
+.more-from-dev__sub {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+.more-from-dev__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 4px 0 8px;
+}
+
+/* .game-card — adapted from _sass/games-hub.scss, sized for the .content-left
+   column (~752px wide, 4 cards across). */
+.more-from-dev .game-card {
+  flex: 0 0 175px;
+  height: 360px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.2s, border-color 0.2s;
+  display: block;
+}
+.more-from-dev .game-card:hover {
+  transform: translateY(-4px);
+  border-color: #58a6ff;
+  text-decoration: none;
+}
+.more-from-dev .game-card__image {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  background: #11161c;
+}
+.more-from-dev .game-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+.more-from-dev .game-card__image--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #2a3441 0%, #1a2332 100%);
+}
+.more-from-dev .game-card__placeholder-text {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+}
+.more-from-dev .game-card__content {
+  padding: 8px 10px;
+}
+.more-from-dev .game-card__badges {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+.more-from-dev .game-card__rating {
+  font-size: 11px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.more-from-dev .game-card__rating-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.more-from-dev .game-card__rating--green { color: #3fb950; }
+.more-from-dev .game-card__rating--yellow { color: #d29922; }
+.more-from-dev .game-card__rating--red { color: #f85149; }
+.more-from-dev .game-card__store {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.more-from-dev .game-card__store--epic { background: #444; color: #fff; }
+.more-from-dev .game-card__store--gog { background: #86328a; color: #fff; }
+.more-from-dev .game-card__store--amazon { background: #00a14f; color: #fff; }
+.more-from-dev .game-card__store--itch { background: #fa5c5c; color: #fff; }
+.more-from-dev .game-card__title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #e6edf3;
+  margin: 4px 0 0 0;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   Native Linux badge — sits inside the .compat-card below the Decky/Pro
+   compat-grid. Only renders when page.native_linux === true.
+   ────────────────────────────────────────────────────────────────────── */
+.native-linux-badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 1.25rem;
+  padding: 12px 16px;
+  background: rgba(63, 185, 80, 0.08);
+  border: 1px solid rgba(63, 185, 80, 0.4);
+  border-radius: 8px;
+}
+.native-linux-badge__icon {
+  font-size: 24px;
+  line-height: 1;
+}
+.native-linux-badge__text {
+  font-size: 14px;
+  color: #e6edf3;
+  line-height: 1.4;
+}
+.native-linux-badge__text strong {
+  color: #3fb950;
+  font-weight: 600;
+}
+
+/* ---------------------------------------------------------------------
+   Scores & Compatibility — aggregates Metacritic, OpenCritic, ProtonDB
+   tier, and Steam Deck Verified into one card below the Junk Store
+   testing card.
+   --------------------------------------------------------------------- */
+.scores-compat {
+  background: #1c2128;
+  border: 1px solid #30363d;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.scores-compat h2 {
+  margin: 0 0 0.375rem 0;
+  font-size: 1.25rem;
+  color: #e6edf3;
+}
+.scores-compat__sub {
+  margin: 0 0 1rem 0;
+  font-size: 0.8125rem;
+  color: #9ca3af;
+  line-height: 1.4;
+}
+.scores-compat__sub strong {
+  color: #e6edf3;
+  font-weight: 600;
+}
+.scores-compat__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+}
+.score-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #2d3748;
+  border: 1px solid #3a4555;
+  border-radius: 0.5rem;
+  padding: 0.75rem 0.5rem;
+  text-decoration: none;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+  min-height: 6.25rem; /* keep all tiles same height even when only some get an overlay */
+}
+a.score-tile:hover {
+  transform: translateY(-2px);
+  border-color: #4a5468;
+}
+.score-tile__label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #9ca3af;
+  margin-bottom: 0.375rem;
+}
+.score-tile__value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e6edf3;
+  line-height: 1;
+  flex: 1; /* fill middle so values align vertically across all tiles */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.score-tile__overlay {
+  margin-top: 0.5rem;
+  font-size: 0.6875rem;
+  color: #3fb950; /* green to indicate positive override */
+  line-height: 1.2;
+}
+
+/* ProtonDB tier colors */
+.score-tile--protondb.tier-platinum .score-tile__value { color: #e5e4e2; }
+.score-tile--protondb.tier-gold     .score-tile__value { color: #fbbf24; }
+.score-tile--protondb.tier-silver   .score-tile__value { color: #94a3b8; }
+.score-tile--protondb.tier-bronze   .score-tile__value { color: #cd7f32; }
+.score-tile--protondb.tier-borked   .score-tile__value { color: #ef4444; }
+.score-tile--protondb.tier-pending  .score-tile__value { color: #b1bac4; }
+
+/* Steam Deck Verified colors */
+.score-tile--deck.deck-verified    .score-tile__value { color: #22c55e; }
+.score-tile--deck.deck-playable    .score-tile__value { color: #fbbf24; }
+.score-tile--deck.deck-unsupported .score-tile__value { color: #ef4444; }
+.score-tile--deck.deck-unknown     .score-tile__value { color: #b1bac4; }
+
+/* ---------------------------------------------------------------------
+   Series (franchise_siblings) — minimal text list in the sidebar
+   --------------------------------------------------------------------- */
+.info-item--series .series-list {
+  line-height: 1.5;
+}
+.series-entry {
+  color: #e6edf3;
+}
+.series-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #5bc0eb;
+  font-size: 0.8125rem;
+  text-decoration: none;
+}
+.series-link:hover { text-decoration: underline; }
+
+/* ---------------------------------------------------------------------
+   Age Ratings expandable — 12-board per-region breakdown, collapsed by
+   default so the sidebar stays light.
+   --------------------------------------------------------------------- */
+.info-item--age-ratings {
+  grid-column: 1 / -1;
+}
+.age-ratings-detail {
+  cursor: pointer;
+}
+.age-ratings-detail > summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0.25rem 0;
+  user-select: none;
+}
+.age-ratings-detail > summary::-webkit-details-marker { display: none; }
+.age-ratings-detail > summary::after {
+  content: '▸';
+  color: #9ca3af;
+  font-size: 0.875rem;
+  transition: transform 0.15s ease;
+  margin-left: 0.5rem;
+}
+.age-ratings-detail[open] > summary::after { transform: rotate(90deg); }
+.info-label--inline {
+  display: inline;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #9ca3af;
+  margin: 0;
+}
+.age-ratings-summary-hint {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+.age-ratings-grid {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #3a4555;
+}
+.age-rating-row {
+  display: grid;
+  grid-template-columns: 60px 50px 1fr;
+  gap: 0.5rem;
+  align-items: baseline;
+  font-size: 0.8125rem;
+}
+.age-rating-board {
+  font-weight: 700;
+  color: #c4b5fd;
+  font-size: 0.6875rem;
+}
+.age-rating-value {
+  font-weight: 600;
+  color: #e6edf3;
+}
+.age-rating-descriptors {
+  color: #9ca3af;
+  font-size: 0.75rem;
+  line-height: 1.3;
 }

@@ -165,6 +165,66 @@ layout: null
       {% endif %}
     </div>
 
+    {%- comment -%}
+      Scores & Compatibility — aggregates 3rd-party scores (Metacritic,
+      OpenCritic) alongside community compat ratings (ProtonDB tier, Steam
+      Deck Verified). Hidden if no signal at all.
+    {%- endcomment -%}
+    {% assign has_score_or_compat = false %}
+    {% if page.metacritic_score or page.opencritic_score or page.protondb_tier != "" or page.steam_deck_verified != "" %}{% assign has_score_or_compat = true %}{% endif %}
+    {% if has_score_or_compat %}
+    <div class="scores-compat">
+      <h2>3rd-Party References</h2>
+      <p class="scores-compat__sub">These reflect each service's own testing, separate from the <strong>Steam Deck Compatibility</strong> result above. Compatibility shifts as games and Proton update. If anything here looks out of date for a game you've actually run, please let us know.</p>
+      <div class="scores-compat__grid">
+        {% if page.metacritic_score or page.metacritic_url %}
+          {% assign mc_class = "mc-score--tbd" %}
+          {% if page.metacritic_score and page.metacritic_score >= 75 %}{% assign mc_class = "mc-score--green" %}
+          {% elsif page.metacritic_score and page.metacritic_score >= 50 %}{% assign mc_class = "mc-score--yellow" %}
+          {% elsif page.metacritic_score %}{% assign mc_class = "mc-score--red" %}{% endif %}
+          {% assign mc_url = page.metacritic_url | replace: 'http://', 'https://' | split: '?' | first %}
+        <a href="{{ mc_url }}" target="_blank" rel="noopener" class="score-tile score-tile--metacritic">
+          <div class="score-tile__label">Metacritic</div>
+          <div class="score-tile__value {{ mc_class }}">{% if page.metacritic_score %}{{ page.metacritic_score }}{% else %}TBD{% endif %}</div>
+        </a>
+        {% endif %}
+        {% if page.opencritic_score or page.opencritic_url %}
+          {% assign oc_class = "mc-score--tbd" %}
+          {% if page.opencritic_score and page.opencritic_score >= 75 %}{% assign oc_class = "mc-score--green" %}
+          {% elsif page.opencritic_score and page.opencritic_score >= 50 %}{% assign oc_class = "mc-score--yellow" %}
+          {% elsif page.opencritic_score %}{% assign oc_class = "mc-score--red" %}{% endif %}
+        <a href="{{ page.opencritic_url }}" target="_blank" rel="noopener" class="score-tile score-tile--opencritic">
+          <div class="score-tile__label">OpenCritic</div>
+          <div class="score-tile__value {{ oc_class }}">{% if page.opencritic_score and page.opencritic_score != "" %}{{ page.opencritic_score }}{% else %}TBD{% endif %}</div>
+        </a>
+        {% endif %}
+        {%- comment -%}
+          When the 3rd-party tile says the game won't run (deck unsupported/
+          unknown, ProtonDB borked) but Junk Store testing has graded it
+          green/perfect, render a small "Works via Junk Store" overlay so
+          users don't bounce on a misleading negative signal.
+        {%- endcomment -%}
+        {%- assign js_says_yes = false -%}
+        {%- if page.standalone_rating == "green" or page.standalone_rating == "perfect" or page.decky_rating == "green" or page.decky_rating == "perfect" -%}{%- assign js_says_yes = true -%}{%- endif -%}
+        {% if page.protondb_tier and page.protondb_tier != "" %}
+        <a href="{{ page.protondb_url }}" target="_blank" rel="noopener" class="score-tile score-tile--protondb tier-{{ page.protondb_tier }}" title="{% if page.protondb_total %}Based on {{ page.protondb_total }} reports{% if page.protondb_confidence %} · {{ page.protondb_confidence }} confidence{% endif %}{% endif %}">
+          <div class="score-tile__label">ProtonDB</div>
+          <div class="score-tile__value">{{ page.protondb_tier | capitalize }}</div>
+          {% if js_says_yes and page.protondb_tier == "borked" %}<div class="score-tile__overlay">Junk Store result above ↑</div>{% endif %}
+        </a>
+        {% endif %}
+        {% if page.steam_deck_verified and page.steam_deck_verified != "" %}
+        <div class="score-tile score-tile--deck deck-{{ page.steam_deck_verified }}" title="Steam's official Deck compatibility rating">
+          <div class="score-tile__label">Steam Deck</div>
+          <div class="score-tile__value">{{ page.steam_deck_verified | capitalize }}</div>
+          {% if js_says_yes and page.steam_deck_verified == "unsupported" %}<div class="score-tile__overlay">Junk Store result above ↑</div>{% endif %}
+          {% if js_says_yes and page.steam_deck_verified == "unknown" %}<div class="score-tile__overlay">Junk Store result above ↑</div>{% endif %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+
     <!-- Technical Details -->
     {% comment %}
       Pre-count populated grid items so we can pick a column layout that
