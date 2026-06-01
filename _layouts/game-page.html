@@ -490,6 +490,43 @@ layout: null
         <div class="info-value">{{ page.release_date }}</div>
       </div>
       {% endif %}
+      {%- comment -%}
+        Download size. Sources currently report inconsistently (GOG: "N MB",
+        Epic: human strings like "1.02 GB"). Format MB → GB when large enough.
+      {%- endcomment -%}
+      {% if page.size and page.size != "" %}
+        {% assign size_parts = page.size | split: " " %}
+        {% assign size_num = size_parts[0] | plus: 0 %}
+        {% assign size_unit = size_parts[1] %}
+        {% if size_unit == "MB" and size_num >= 1024 %}
+          {% assign size_display = size_num | divided_by: 1024.0 | round: 1 | append: " GB" %}
+        {% else %}
+          {% assign size_display = page.size %}
+        {% endif %}
+      <div class="info-item">
+        <div class="info-label">Download Size</div>
+        <div class="info-value">{{ size_display }}</div>
+      </div>
+      {% endif %}
+      {% if page.franchise_siblings.size > 0 %}
+        {%- comment -%}
+          Link to the franchise landing page if one exists for this franchise_slug.
+          Page won't exist if the franchise was blocklisted in config/franchise-overrides.json.
+        {%- endcomment -%}
+        {%- assign franchise_page = nil -%}
+        {%- for f in site.franchises -%}
+          {%- if f.franchise_slugs contains page.franchise_slug -%}
+            {%- assign franchise_page = f -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {% if franchise_page %}
+      <div class="info-item info-item--series">
+        <div class="info-label">Series</div>
+        <a href="{{ franchise_page.url }}" class="series-link">{{ franchise_page.franchise_name }} ({{ franchise_page.member_count }} game{% if franchise_page.member_count != 1 %}s{% endif %}) →</a>
+      </div>
+        {% endif %}
+      {% endif %}
       {% if page.game_modes.size > 0 %}
       <div class="info-item info-item--tags">
         <div class="info-label">Game Modes</div>
