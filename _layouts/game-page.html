@@ -368,19 +368,31 @@ layout: null
       underlying data is already populated in source_data.
     {% endcomment %}
     {% if page.storefront_key == 'gog' %}
-      {% assign any_gog_feature = false %}
-      {% if page.gog_cloud_saves or page.gog_achievements or page.gog_overlay or page.gog_leaderboards %}
-        {% assign any_gog_feature = true %}
-      {% endif %}
-      {% if any_gog_feature %}
+      {% if page.gog_cloud_saves %}
       <div class="info-section info-section--compact">
         <h2>GOG Features</h2>
         <div class="feature-chips">
-          {% if page.gog_cloud_saves %}<span class="feature-chip">✓ Cloud Saves</span>{% endif %}
+          <span class="feature-chip">✓ Cloud Saves</span>
           {%- comment -%}
+          Achievements / Overlay / Leaderboards / Linux Build chips kept
+          in source here (wrapped in this Liquid comment) until the data
+          is trustworthy enough to surface. Move any line OUT of this
+          block to re-enable.
           {% if page.gog_achievements %}<span class="feature-chip">✓ Achievements</span>{% endif %}
           {% if page.gog_overlay %}<span class="feature-chip">✓ Galaxy Overlay</span>{% endif %}
           {% if page.gog_leaderboards %}<span class="feature-chip">✓ Leaderboards</span>{% endif %}
+          {% if page.gog_native_linux %}
+            {% assign lin_rating = page.linux_build_rating %}
+            {% if lin_rating == 'green' %}
+            <span class="feature-chip feature-chip--linux-green">🐧 Linux Build</span>
+            {% elsif lin_rating == 'yellow' %}
+            <span class="feature-chip feature-chip--linux-yellow">🐧 Linux Build · Issues</span>
+            {% elsif lin_rating == 'red' %}
+            <span class="feature-chip feature-chip--linux-red">🐧 Linux Build · Broken</span>
+            {% else %}
+            <span class="feature-chip feature-chip--linux-untested">🐧 Linux Build</span>
+            {% endif %}
+          {% endif %}
           {%- endcomment -%}
         </div>
       </div>
