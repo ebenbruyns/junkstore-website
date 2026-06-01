@@ -147,6 +147,24 @@ layout: null
         </div>
       </div>
 
+      {%- comment -%}
+        Native Linux badge — DISABLED pending manual verification of each
+        Linux-flagged game. Steam's platforms.linux flag tells us a Linux
+        build exists but we want to confirm each game actually runs cleanly
+        through Junk Store before showing the badge to visitors.
+        Re-enable by removing the surrounding `{% if false %}` ... `{% endif %}`.
+      {%- endcomment -%}
+      {% if false %}
+      {% if page.native_linux == true %}
+        {% if page.storefront_key == "gog" or page.storefront_key == "itch" %}
+      <div class="native-linux-badge">
+        <span class="native-linux-badge__icon" aria-hidden="true">🐧</span>
+        <span class="native-linux-badge__text"><strong>Native Linux build available</strong></span>
+      </div>
+        {% endif %}
+      {% endif %}
+      {% endif %}
+
       {% assign notes_lower = page.notes | downcase | strip %}
       {% assign is_generic = false %}
       {% if notes_lower == "works out of the box!" or notes_lower == "works out of the box" or notes_lower == "works great!" or notes_lower == "works great" or notes_lower == "works out of the box on the decky plugin version." or notes_lower == "works out of the box on the standalone version." or notes_lower == "" %}
