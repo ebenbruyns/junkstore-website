@@ -437,6 +437,107 @@ layout: null
     </div>
     {% endif %}
 
+    {%- comment -%}
+      More from this developer — discovery widget. Sits inside .content-left
+      at the bottom. Two modes:
+        1. "franchise" — if this game has a franchise_slug AND a published
+           franchise landing page exists, show its other members.
+        2. "developer" — otherwise, group GREEN/PERFECT/YELLOW Pro-rated
+           games from the same developer (excluding self). Hidden if fewer
+           than 2 qualifying Pro-tested games for this developer.
+      Renders up to 4 cards, prioritised by Pro rating tier.
+    {%- endcomment -%}
+    {%- assign related_kind = nil -%}
+    {%- assign related_title = "" -%}
+    {%- assign related_sub = "" -%}
+    {%- assign related_games = "" | split: "" -%}
+
+    {%- assign related_franchise_page = nil -%}
+    {%- if page.franchise_slug and page.franchise_slug != "" -%}
+      {%- for f in site.franchises -%}
+        {%- if f.franchise_slugs contains page.franchise_slug -%}
+          {%- assign related_franchise_page = f -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+    {%- if related_franchise_page -%}
+      {%- for slug in related_franchise_page.member_slugs -%}
+        {%- if slug != page.slug -%}
+          {%- assign hits = site.games | where: "slug", slug -%}
+          {%- assign related_games = related_games | concat: hits -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if related_games.size > 0 -%}
+        {%- assign related_kind = "franchise" -%}
+        {%- assign related_title = "More in " | append: related_franchise_page.franchise_name -%}
+        {%- assign related_sub = related_franchise_page.member_count | append: " game" -%}
+        {%- if related_franchise_page.member_count != 1 -%}{%- assign related_sub = related_sub | append: "s" -%}{%- endif -%}
+        {%- assign related_sub = related_sub | append: " in this series tested with Junk Store on Steam Deck" -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if related_kind == nil and page.developer and page.developer != "" -%}
+      {%- assign dev_games = site.games | where: "developer", page.developer -%}
+      {%- comment %} OR three rating buckets via where (which returns arrays — Liquid concat needs arrays not singletons). Self gets excluded in the render loop below. {% endcomment -%}
+      {%- assign greens = dev_games | where: "standalone_rating", "green" -%}
+      {%- assign perfects = dev_games | where: "standalone_rating", "perfect" -%}
+      {%- assign yellows = dev_games | where: "standalone_rating", "yellow" -%}
+      {%- assign qualified_dev = greens | concat: perfects | concat: yellows -%}
+      {%- assign qualified_count = 0 -%}
+      {%- for g in qualified_dev -%}
+        {%- if g.slug != page.slug -%}{%- assign qualified_count = qualified_count | plus: 1 -%}{%- endif -%}
+      {%- endfor -%}
+      {%- if qualified_count >= 2 -%}
+        {%- assign related_kind = "developer" -%}
+        {%- assign related_title = "More from " | append: page.developer -%}
+        {%- assign related_sub = qualified_count | append: " games tested with Junk Store Pro on Steam Deck" -%}
+        {%- assign related_games = qualified_dev -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if related_kind -%}
+    <section class="more-from-dev more-from-dev--{{ related_kind }}">
+      <div class="more-from-dev__header">
+        <h2>{{ related_title | escape }}</h2>
+        <p class="more-from-dev__sub">{{ related_sub }}</p>
+      </div>
+      <div class="more-from-dev__grid">
+        {%- assign rendered = 0 -%}
+        {%- assign tier_order = "green,perfect,yellow,red,grey,untested" | split: "," -%}
+        {%- for tier in tier_order -%}
+          {%- for g in related_games -%}
+            {%- if rendered >= 4 -%}{%- break -%}{%- endif -%}
+            {%- assign tier_actual = g.standalone_rating -%}
+            {%- if tier_actual == nil or tier_actual == "" -%}{%- assign tier_actual = "untested" -%}{%- endif -%}
+            {%- if tier_actual == tier and g.slug != page.slug -%}
+              {%- assign img = g.cover_image | default: g.icon_image -%}
+              {%- assign rating_class = g.standalone_rating -%}
+              {%- if rating_class == "perfect" -%}{%- assign rating_class = "green" -%}{%- endif -%}
+              {%- if rating_class == nil or rating_class == "" -%}{%- assign rating_class = "grey" -%}{%- endif -%}
+        <a href="{{ g.url }}" class="game-card">
+          <div class="game-card__image{% unless img %} game-card__image--placeholder{% endunless %}">
+            {%- if img -%}
+            <img src="{{ img }}" alt="{{ g.game_title | escape }}" loading="lazy">
+            {%- else -%}
+            <span class="game-card__placeholder-text">{{ g.game_title | slice: 0 | upcase }}</span>
+            {%- endif -%}
+          </div>
+          <div class="game-card__content">
+            <div class="game-card__badges">
+              <span class="game-card__rating game-card__rating--{{ rating_class }}"><span class="game-card__rating-dot"></span>{% if g.standalone_rating and g.standalone_rating != "" %}Pro{% else %}Untested{% endif %}</span>
+              <span class="game-card__store game-card__store--{{ g.storefront_key }}">{{ g.storefront }}</span>
+            </div>
+            <h3 class="game-card__title">{{ g.game_title | escape }}</h3>
+          </div>
+        </a>
+              {%- assign rendered = rendered | plus: 1 -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endfor -%}
+      </div>
+    </section>
+    {%- endif -%}
 
   </div>
 
