@@ -28,7 +28,7 @@ genre: Role-playing (RPG), Adventure, Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Animated Blood, Animated Violence"},"pegi":{"rating":"16","descriptors":"Realistic looking violence, encouragement of the use of alcohol/tobacco, use of illegal drugs"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Medium level animated violence; Adult themes"},"nzoflc":{"rating":"ma15","descriptors":"Medium level animated violence; Adult themes"},"dejus":{"rating":"18"}}
-release_date: "January 1, 2017"
+release_date: "March 29, 2007"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []

@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-05-30T03:12:53.580Z",
+  "generated_at": "2026-05-30T20:51:31.001Z",
   "games": [
-    {
-      "id": "manual_1777579884068_fantasy-general-ii-invasion",
-      "title": "Fantasy General II - Invasion",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/fantasy-general-gog/dp/amzn1.pg.item.9d4ded3f-a772-485b-8fb8-0868631044fb?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2F81473b367717fe18c4b629cdc299fba72e44c9bb39a0236609f0b1736c4cbb4d.png&w=480&output=webp&q=80",
-      "end_date": "2026-05-30T11:59:59.000Z",
-      "end_date_formatted": "Sat, 30 May · 11:59 UTC",
-      "first_seen": "2026-04-30 20:11:24",
-      "original_price": "$39.99"
-    },
     {
       "id": "gp-3394",
       "title": "Rose and Cross",

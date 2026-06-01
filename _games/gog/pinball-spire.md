@@ -84,7 +84,7 @@ hltb_url: "https://howlongtobeat.com/game/151754"
 store_url: "https://www.gog.com/en/game/pinball_spire"
 protondb_url: "https://www.protondb.com/app/2601940"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Special:Search?search=2601940"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/pinball-spire/"
 

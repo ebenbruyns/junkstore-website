@@ -9,7 +9,7 @@ permalink: /games/epic/the-operator/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: ""
+standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
 

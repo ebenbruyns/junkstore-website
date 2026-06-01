@@ -111,7 +111,7 @@ known_issues:
 # Meta
 database_id: "1965670180"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Join Captain Leeway and his ragtag crew as they uncover the enigmatic menace threatening the Great Sea. Equip and upgrade your crew...

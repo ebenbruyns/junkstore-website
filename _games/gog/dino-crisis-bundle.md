@@ -14,29 +14,29 @@ date_tested: "April '25"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
-steam_deck_verified: ""
-steam_deck_category: 
+protondb_tier: "silver"
+protondb_score: 0.22
+protondb_total: 20
+protondb_confidence: "good"
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
 
 # Game Info
 publisher: Capcom
 developer: Capcom
 genre: Action, Horror, Survival
 franchise: 
-age_rating_summary: 17 (ESRB) · 16 (PEGI)
-age_ratings: {}
-release_date: "September 1, 2024"
+age_rating_summary: M (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"pegi":{"rating":"16","descriptors":"Violence, Horror"},"usk":{"rating":"16"},"cero":{"rating":"D"},"oflc":{"rating":"ma15","descriptors":"Medium level animated violence"},"fpb":{"rating":"16"},"csrr":{"rating":"R"},"dejus":{"rating":"14","descriptors":"Violência"}}
+release_date: "February 12, 2026"
 game_modes: ["Single-player"]
 languages: ["English"]
-languages_audio: []
+languages_audio: ["English"]
 tags_structured: [{"id":"5641","name":"bundle"},{"id":"3345","name":"dino"}]
 size: ""
 franchise_siblings: [{"rawg_id":59151,"slug":"dino-crisis-3","name":"Dino Crisis 3"},{"rawg_id":59150,"slug":"dino-stalker","name":"Dino Stalker"},{"rawg_id":52872,"slug":"dino-crisis-2-2011","name":"Dino Crisis 2"}]
 franchise_slug: "dino-crisis|dino-crisis-2-2011|dino-crisis-3|dino-stalker"
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/dino-crisis--3"
 was_free_before: false
 giveaway_events: []
 free_games_aliases: []
@@ -78,15 +78,15 @@ native_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/2561"
 
 # Links
 store_url: "https://www.gog.com/en/game/dino_crisis_bundle"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/4249130"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dino_Crisis"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/dino-crisis/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""

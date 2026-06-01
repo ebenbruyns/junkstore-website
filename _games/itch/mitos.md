@@ -14,12 +14,12 @@ date_tested: "Mar '26"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
-steam_deck_verified: ""
-steam_deck_category: 
+protondb_tier: "pending"
+protondb_score: 0.21
+protondb_total: 1
+protondb_confidence: "inadequate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Kikimora Games
@@ -27,8 +27,8 @@ developer: Kikimora Games
 genre: Puzzle
 franchise: 
 age_rating_summary: 
-age_ratings: {}
-release_date: "December 31, 2021"
+age_ratings: {"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência, Nudez"}}
+release_date: "August 9, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
@@ -73,9 +73,9 @@ hltb_url: "https://howlongtobeat.com/game/105365"
 
 # Links
 store_url: "https://kikimora.itch.io/mitos"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1005340"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mitos_y_Leyendas_Online"
 metacritic_score: 
 metacritic_url: ""
 

@@ -9,9 +9,9 @@ permalink: /games/gog/overcooked/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: ""
+standalone_rating: "green"
 date_tested: "Nov '24"
-proton_version: ""
+proton_version: "Proton 7.0-6"
 
 # Compat ratings (community / Steam)
 protondb_tier: "gold"
@@ -103,7 +103,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: Works out of the box on the Decky plugin version.
+notes: "I tested with this specfic Proton version as a my defualt GE-Pront and others didn't work. Not sure if you have to use this Proton version but this one worked for me."
 controller_config: Native Steam Deck Controls
 performance_notes: 
 known_issues: 

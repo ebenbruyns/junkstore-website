@@ -8,8 +8,8 @@ storefront_key: "epic"
 permalink: /games/epic/grand-theft-auto-v-enhanced/
 
 # Compatibility (Junk Store testing)
-decky_rating: "red"
-standalone_rating: "red"
+decky_rating: "broken"
+standalone_rating: "broken"
 date_tested: "March '25"
 proton_version: ""
 

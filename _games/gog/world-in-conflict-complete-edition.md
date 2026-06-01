@@ -14,21 +14,21 @@ date_tested: "May '25"
 proton_version: ""
 
 # Compat ratings (community / Steam)
-protondb_tier: ""
-protondb_score: 
-protondb_total: 
-protondb_confidence: ""
-steam_deck_verified: ""
-steam_deck_category: 
+protondb_tier: "silver"
+protondb_score: 0.19
+protondb_total: 9
+protondb_confidence: "moderate"
+steam_deck_verified: "unknown"
+steam_deck_category: 0
 
 # Game Info
 publisher: Sierra Entertainment
 developer: Massive Entertainment
 genre: strategy
 franchise: 
-age_rating_summary: 13 (ESRB) · 16 (PEGI)
-age_ratings: {}
-release_date: "September 1, 2007"
+age_rating_summary: T (ESRB) · 16 (PEGI)
+age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Language, Violence"},"pegi":{"rating":"16"},"usk":{"rating":"16"},"bbfc":{"rating":"12"},"oflc":{"rating":"M"}}
+release_date: "December 4, 2008"
 game_modes: ["Multi-player","Single-player"]
 languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
@@ -82,7 +82,7 @@ hltb_url: "https://howlongtobeat.com/game/81168"
 
 # Links
 store_url: "https://www.gog.com/en/game/world_in_conflict_complete_edition"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/21760"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/World_in_Conflict"
 metacritic_score: 

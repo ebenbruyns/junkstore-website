@@ -28,7 +28,7 @@ genre: Adventure, Interactive Fiction, Visual Novel
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "January 11, 2021"
+release_date: "January 10, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []

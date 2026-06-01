@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-05-28T03:28:18.892Z",
+  "generated_at": "2026-06-01T01:56:21.142Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "calico",
+      "featured_in": "2026-06-01",
+      "post_url": "/blog/games-tested-2026-06-01/",
+      "title": "Calico",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/3a7641a9fad24c1610b789b6fdb5825f8d5144a0813bc98239b81e7ad9fa5906.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/7358de23f258f2a874896cc59416ba61ed2bfe65b7a82f6d5c9faac0e84acc7c.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "lonestar",
+      "featured_in": "2026-06-01",
+      "post_url": "/blog/games-tested-2026-06-01/",
+      "title": "LoneStar",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2056210/header.jpg",
+      "vertical_artwork": "https://images.gog.com/4e170c56d21d357e0eaa0b551a74768181a3165f511b566e5f95b6ceff72a38e.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "amazon",
+      "slug": "pro-basketball-manager-2026",
+      "featured_in": "2026-06-01",
+      "post_url": "/blog/games-tested-2026-06-01/",
+      "title": "Pro Basketball Manager 2026",
+      "standalone_rating": "green",
+      "icon_image": "https://m.media-amazon.com/images/I/419HQ7r+PsL.png",
+      "vertical_artwork": "https://m.media-amazon.com/images/I/81q+RwHL7QL.jpg"
+    },
+    {
+      "store": "epic",
+      "slug": "the-mystery-of-the-moon",
+      "featured_in": "2026-06-01",
+      "post_url": "/blog/games-tested-2026-06-01/",
+      "title": "The Mystery Of The Moon",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/c83f6561c6f614ec11c4a5610691714d6795af06a89b19601efbcfe64f040741.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/1070102c777fd30404ab90f6421cb7684ef3587e209cdd23021ca837decf0a6c.jpg?namespace=gamesdb"
+    },
     {
       "store": "epic",
       "slug": "down-in-bermuda",
@@ -80,46 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/dc8d698c8be3fe2822b30aa952763fdf0c1e072e1f9cf1b70d6733030e8467e5.jpg?namespace=gamesdb",
       "vertical_artwork": "https://images.gog.com/cc0ad5d600548b8999e6ede3f0394d21285fe303c46f3142525818556037edbc.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "60-minutes-to-extinction-escape-room",
-      "featured_in": "2026-05-20",
-      "post_url": "/blog/games-tested-may-20/",
-      "title": "60 Minutes to Extinction: Escape Room",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/0c20da11c97fac3c3e50d13d7b712b1d52b12a1ae527c70fd759f6772079a459.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/566b348539a79ae799edd79eca7dd699935e7dae0b9715db80ca3b494122fd63.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "amazon",
-      "slug": "survival-fountain-of-youth",
-      "featured_in": "2026-05-20",
-      "post_url": "/blog/games-tested-may-20/",
-      "title": "Survival: Fountain of Youth",
-      "standalone_rating": "green",
-      "icon_image": "https://m.media-amazon.com/images/I/41Rk8aGJ44L.png",
-      "vertical_artwork": "https://m.media-amazon.com/images/I/91ENK-vkosL.jpg"
-    },
-    {
-      "store": "gog",
-      "slug": "mafia-ii-definitive-edition",
-      "featured_in": "2026-05-11",
-      "post_url": "/blog/games-tested-may-11/",
-      "title": "Mafia II: Definitive Edition",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/0ca44670c29969c6af5eb72df14b1a21ccb8842e03bcb81bf58fdb00a8c9ebec.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/05752d716fb822a15b0259f1555df73ce4a7f6a244ed4a330ba26547e67bf6df.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "trash-goblin",
-      "featured_in": "2026-05-11",
-      "post_url": "/blog/games-tested-may-11/",
-      "title": "Trash Goblin",
-      "standalone_rating": "green",
-      "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2407830/b5f73d55cbca5df86e2feb1a92636ce62bb1439e/capsule_184x69.jpg?t=1778170992",
-      "vertical_artwork": "https://images.gog.com/f56bc59e1c4b0b07bfa19e8dde261309840074babd7d3c0e02612f6dd94d64b6.jpg?namespace=gamesdb"
     }
   ]
 }

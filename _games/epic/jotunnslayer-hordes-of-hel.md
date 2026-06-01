@@ -9,7 +9,7 @@ permalink: /games/epic/jotunnslayer-hordes-of-hel/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: ""
+standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
 

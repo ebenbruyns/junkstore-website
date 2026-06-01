@@ -9,7 +9,7 @@ permalink: /games/epic/rustler-grand-theft-horse/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: ""
+standalone_rating: "green"
 date_tested: "Jan '26"
 proton_version: ""
 

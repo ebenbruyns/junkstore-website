@@ -83,7 +83,7 @@ hltb_url: "https://howlongtobeat.com/game/145871"
 store_url: "https://store.epicgames.com/p/arranger-a-rolepuzzling-adventure-dbfde7?lang=en-US"
 protondb_url: "https://www.protondb.com/app/2596420"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Special:Search?search=2596420"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/arranger-a-role-puzzling-adventure/"
 

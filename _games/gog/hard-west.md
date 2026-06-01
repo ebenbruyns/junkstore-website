@@ -9,7 +9,7 @@ permalink: /games/gog/hard-west/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: ""
+standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: ""
 

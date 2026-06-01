@@ -9,7 +9,7 @@ permalink: /games/gog/kerbal-space-program/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: ""
+standalone_rating: "green"
 date_tested: "Sept '24"
 proton_version: ""
 
@@ -47,7 +47,7 @@ cover_image: "https://images.gog.com/dc68da69d6306d79c23bdddd69290ad585721579107
 icon_image: "https://images.gog.com/700ec1ea496cef400cba7c2b7cc701e4ae77448e0961be297320fbcb61c7a7b4.jpg?namespace=gamesdb"
 
 # Technical Details
-controller_input: "requires-mapping"
+controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
 requires_account_setup: false

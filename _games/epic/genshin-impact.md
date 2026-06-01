@@ -88,10 +88,10 @@ metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/genshin-impact/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "10217/genshin-impact"
+opencritic_url: "https://opencritic.com/game/10217/genshin-impact"
+opencritic_score: 81
+opencritic_review_count: 42
 twitch_id: ""
 twitch_url: ""
 playstation_id: ""

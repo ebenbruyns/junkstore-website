@@ -84,7 +84,7 @@ hltb_url: "https://howlongtobeat.com/game/180450"
 store_url: "https://www.gog.com/en/game/60_minutes_to_extinction_escape_room"
 protondb_url: "https://www.protondb.com/app/3783210"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Special:Search?search=3783210"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/60-minutes-to-extinction-escape-room/"
 

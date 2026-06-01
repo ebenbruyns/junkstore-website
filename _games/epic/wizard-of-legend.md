@@ -9,7 +9,7 @@ permalink: /games/epic/wizard-of-legend/
 
 # Compatibility (Junk Store testing)
 decky_rating: "green"
-standalone_rating: ""
+standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
 

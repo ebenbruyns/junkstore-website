@@ -83,7 +83,7 @@ hltb_url: "https://howlongtobeat.com/game/175088"
 store_url: "https://store.epicgames.com/p/lethal-honor-order-of-the-apocalypse-84604c"
 protondb_url: "https://www.protondb.com/app/1266060"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Special:Search?search=1266060"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/lethal-honor-order-of-the-apocalypse/"
 
