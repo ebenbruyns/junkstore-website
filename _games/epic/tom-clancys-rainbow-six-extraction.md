@@ -35,7 +35,7 @@ languages_audio: ["English","French","Italian","German","Spanish - Spain","Spani
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "ghost-recon-future-soldier|tcs-graw|tcs-graw2|tom-clancys-ghost-recon|tom-clancys-ghost-recon-2|tom-clancys-ghost-recon-2-summ|tom-clancys-ghost-recon-breakp|tom-clancys-ghost-recon-desert|tom-clancys-ghost-recon-frontl|tom-clancys-ghost-recon-island|tom-clancys-ghost-recon-jungle|tom-clancys-ghost-recon-phanto|tom-clancys-ghost-recon-predat|tom-clancys-ghost-recon-shadow|tom-clancys-ghost-recon-wildla"
 igdb_url: "https://www.igdb.com/games/tom-clancys-rainbow-six-extraction"
 was_free_before: false
 giveaway_events: []

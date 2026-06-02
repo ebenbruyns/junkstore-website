@@ -35,7 +35,7 @@ languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1116","name":"Comedy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "183 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "the-darkside-detective|the-darkside-detective-a-fumble-in-the-dark"
 igdb_url: "https://www.igdb.com/games/the-darkside-detective"
 was_free_before: true
 giveaway_events: [{"_id":"69286eb6647143d1787365be","id":"537f9c03801d45c293b2a75eecd7170c","namespace":"29857990e5434b7db5dd026ef18dbc96","startDate":"2025-12-04T16:00:00.000Z","endDate":"2025-12-11T16:00:00.000Z","title":"The Darkside Detective","__v":0}]

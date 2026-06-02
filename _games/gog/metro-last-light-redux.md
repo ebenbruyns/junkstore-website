@@ -35,7 +35,7 @@ languages_audio: ["English","French","Italian","German","Spanish - Spain","Russi
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"}]
 size: "8695 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "metro-2033|metro-2033-redux|metro-exodus|metro-last-light|metro-last-light-redux|metro-redux"
 igdb_url: "https://www.igdb.com/games/metro-last-light-redux"
 was_free_before: false
 giveaway_events: []

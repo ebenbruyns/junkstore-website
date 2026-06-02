@@ -35,7 +35,7 @@ languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"8","name":"First-Person"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"140","name":"Hidden Object"},{"id":"575","name":"Logic"},{"id":"2896","name":"collectathon"},{"id":"2118","name":"snow"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "faraway-arctic-escape|faraway-director-s-cut|faraway-jungle-escape"
 igdb_url: "https://www.igdb.com/games/faraway-3-arctic-escape"
 was_free_before: false
 giveaway_events: []

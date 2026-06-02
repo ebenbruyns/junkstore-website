@@ -36,7 +36,7 @@ tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam 
 size: "3804678799
 "
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "baldur-s-gate-enhanced-edition|baldur-s-gate-enhanced-edition-f1dce9|baldur-s-gate-ii-enhanced-edition|baldur-s-gate-ii-enhanced-edition-cef011"
 igdb_url: "https://www.igdb.com/games/baldur-s-gate-ii-enhanced-edition"
 was_free_before: false
 giveaway_events: []

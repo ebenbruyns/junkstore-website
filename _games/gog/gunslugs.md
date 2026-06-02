@@ -35,7 +35,7 @@ languages_audio: ["English","Japanese","Simplified Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"7808","name":"steam-trading-cards"},{"id":"40850","name":"Steam Leaderboards"},{"id":"198","name":"Split Screen"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"}]
 size: "70 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "gunslugs|gunslugs-3-rogue-tactics"
 igdb_url: "https://www.igdb.com/games/gunslugs"
 was_free_before: false
 giveaway_events: []

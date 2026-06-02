@@ -35,7 +35,7 @@ languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabi
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
 size: "957 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "samorost-2|samorost-3"
 igdb_url: "https://www.igdb.com/games/samorost-3"
 was_free_before: false
 giveaway_events: []

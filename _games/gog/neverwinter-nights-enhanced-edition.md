@@ -35,7 +35,7 @@ languages_audio: ["English","French","German","Polish"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"411","name":"cooperative"},{"id":"9","name":"Online Co-Op"},{"id":"397","name":"Online multiplayer"},{"id":"574","name":"Dungeons & Dragons"}]
 size: "3282 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "neverwinter-nights-2|neverwinter-nights-2002"
 igdb_url: "https://www.igdb.com/games/neverwinter-nights-enhanced-edition"
 was_free_before: false
 giveaway_events: []

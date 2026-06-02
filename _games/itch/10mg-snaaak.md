@@ -35,7 +35,7 @@ languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"165","name":"Colorful"},{"id":"77","name":"Realistic"},{"id":"110","name":"Cinematic"},{"id":"259","name":"Metroidvania"},{"id":"305","name":"Linear"},{"id":"48","name":"Dungeon Crawler"},{"id":"220","name":"Experimental"},{"id":"49955","name":"Puzzle Platformer"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "10mg-sealed-estate|10mg-snaaak"
 igdb_url: "https://www.igdb.com/games/10mg-snaaak"
 was_free_before: false
 giveaway_events: []

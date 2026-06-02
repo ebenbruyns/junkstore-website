@@ -35,7 +35,7 @@ languages_audio: ["English","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "3232 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "baldur-s-gate-enhanced-edition|baldur-s-gate-enhanced-edition-f1dce9|baldur-s-gate-ii-enhanced-edition|baldur-s-gate-ii-enhanced-edition-cef011"
 igdb_url: "https://www.igdb.com/games/barrow-hill-curse-of-the-ancient-circle"
 was_free_before: false
 giveaway_events: []

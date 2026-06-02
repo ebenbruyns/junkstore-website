@@ -35,7 +35,7 @@ languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1298","name":"Puzzle"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "725 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "figment|figment-2-creed-valley"
 igdb_url: "https://www.igdb.com/games/figment-2-creed-valley"
 was_free_before: false
 giveaway_events: []

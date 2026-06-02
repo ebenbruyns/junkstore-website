@@ -35,7 +35,7 @@ languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"122","name":"Pixel Graphics"},{"id":"40","name":"Dark Fantasy"},{"id":"144","name":"Crime"},{"id":"61","name":"Top-Down"},{"id":"90","name":"Visual Novel"},{"id":"166","name":"Stylized"},{"id":"112","name":"Minimalist"},{"id":"269","name":"Quick-Time Events"},{"id":"285","name":"Psychological"},{"id":"291","name":"Conspiracy"},{"id":"220","name":"Experimental"},{"id":"326","name":"Investigation"},{"id":"309","name":"Dynamic Narration"},{"id":"84","name":"Abstract"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "10mg-sealed-estate|10mg-snaaak"
 igdb_url: "https://www.igdb.com/games/10mg-sealed-estate"
 was_free_before: false
 giveaway_events: []

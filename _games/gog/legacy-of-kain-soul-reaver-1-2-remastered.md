@@ -35,7 +35,7 @@ languages_audio: ["English","French","Italian","German","Spanish - Spain","Japan
 tags_structured: []
 size: "7996 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "blood-omen-legacy-of-kain|legacy-of-kain-ascendance|legacy-of-kain-blood-omen-2|legacy-of-kain-defiance|legacy-of-kain-defiance-remast|legacy-of-kain-soul-reaver|legacy-of-kain-soul-reaver-12-|legacy-of-kain-soul-reaver-2|nosgoth"
 igdb_url: "https://www.igdb.com/games/legacy-of-kain-soul-reaver-remastered"
 was_free_before: false
 giveaway_events: []

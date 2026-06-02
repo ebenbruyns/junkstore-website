@@ -35,7 +35,7 @@ languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "35.0 GB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "capital-wasteland|fallout-2-a-post-nuclear-role-|fallout-3|fallout-4|fallout-4-creations-bundle|fallout-4-next-gen|fallout-76|fallout-a-post-nuclear-role-pl|fallout-brotherhood-of-steel|fallout-new-vegas|fallout-shelter|fallout-shelter-online|fallout-tactics-brotherhood-of"
 igdb_url: "https://www.igdb.com/games/15"
 was_free_before: true
 giveaway_events: [{"_id":"66abf1ce3631f27c961eb9a8","id":"d6f01b1827c64ed388191ae507fe7c1b","namespace":"fa702d34a37248ba98fb17f680c085e3","startDate":"2023-12-22T15:00:00.000Z","endDate":"2023-12-23T15:00:00.000Z","__v":0},{"_id":"66abf1da3631f27c961ebce4","id":"d6f01b1827c64ed388191ae507fe7c1b","namespace":"fa702d34a37248ba98fb17f680c085e3","startDate":"2022-10-19T15:00:00.000Z","endDate":"2022-10-26T15:00:00.000Z","__v":0}]

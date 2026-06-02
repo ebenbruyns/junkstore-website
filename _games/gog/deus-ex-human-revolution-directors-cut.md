@@ -35,7 +35,7 @@ languages_audio: ["English","French","Italian","German","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"40845","name":"Partial Controller Support"},{"id":"30","name":"FPS"},{"id":"15","name":"Stealth"},{"id":"97","name":"Action RPG"},{"id":"40833","name":"Captions available"},{"id":"5","name":"Replay Value"},{"id":"1465","name":"combat"},{"id":"167","name":"Futuristic"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"406","name":"Story"},{"id":"40834","name":"Commentary available"},{"id":"808","name":"character"},{"id":"291","name":"Conspiracy"},{"id":"227","name":"Hacking"},{"id":"3109","name":"weapons"},{"id":"272","name":"Inventory Management"},{"id":"820","name":"secrets"},{"id":"301","name":"Transhumanism"}]
 size: "15764 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "deus-ex|deus-ex-2-invisible-war|deus-ex-go|deus-ex-human-revolution|deus-ex-mankind-divided|deus-ex-the-fall"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []

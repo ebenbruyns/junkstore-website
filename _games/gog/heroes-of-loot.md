@@ -35,7 +35,7 @@ languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"198","name":"Split Screen"},{"id":"639","name":"Roguelike"},{"id":"48","name":"Dungeon Crawler"},{"id":"98","name":"Loot"}]
 size: "51 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "heroes-of-loot|heroes-of-loot-2"
 igdb_url: "https://www.igdb.com/games/heroes-of-loot"
 was_free_before: false
 giveaway_events: []

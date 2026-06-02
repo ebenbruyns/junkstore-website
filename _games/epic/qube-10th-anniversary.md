@@ -35,7 +35,7 @@ languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21150","name":"Challenging Puzzles"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "qube|qube-2"
 igdb_url: "https://www.igdb.com/games/5445"
 was_free_before: false
 giveaway_events: []

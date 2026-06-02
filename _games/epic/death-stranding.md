@@ -35,7 +35,7 @@ languages_audio: ["English","French","Italian","German","Spanish - Spain","Greek
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "death-stranding|death-stranding-director-s-cut"
 igdb_url: "https://www.igdb.com/games/death-stranding-collectors-edition"
 was_free_before: false
 giveaway_events: []

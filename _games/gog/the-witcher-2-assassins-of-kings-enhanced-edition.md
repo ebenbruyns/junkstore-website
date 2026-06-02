@@ -35,7 +35,7 @@ languages_audio: ["English","German","French","Russian","Polish"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"40850","name":"Steam Leaderboards"},{"id":"41","name":"Dark"},{"id":"44","name":"Nudity"},{"id":"145","name":"Choices Matter"},{"id":"40","name":"Dark Fantasy"},{"id":"192","name":"Mature"},{"id":"66","name":"Medieval"},{"id":"82","name":"Magic"},{"id":"218","name":"Multiple Endings"},{"id":"283","name":"Based On A Novel"},{"id":"146","name":"Nonlinear"}]
 size: "20647 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "gwent-rogue-mage|gwent-the-witcher-card-game|gwent-thronebreaker|the-witcher|the-witcher-2-assassins-of-kin|the-witcher-3-wild-hunt|the-witcher-4|the-witcher-adventure-game|the-witcher-remake|the-witcher-rise-of-the-white-"
 igdb_url: "https://www.igdb.com/games/the-witcher-2-assassins-of-kings-dark-edition"
 was_free_before: false
 giveaway_events: []

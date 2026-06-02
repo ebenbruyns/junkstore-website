@@ -35,7 +35,7 @@ languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"16","name":"Horror"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"40833","name":"Captions available"},{"id":"140","name":"Hidden Object"},{"id":"2114","name":"psychological-horror"}]
 size: "509 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "true-fear-forsaken-souls-part-1|true-fear-forsaken-souls-part-2"
 igdb_url: "https://www.igdb.com/games/true-fear-forsaken-souls-part-1"
 was_free_before: false
 giveaway_events: []

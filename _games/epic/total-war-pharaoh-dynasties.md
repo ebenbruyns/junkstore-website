@@ -35,7 +35,7 @@ languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"16011","name":"Epic MEGA Sale"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "empire-total-war|medieval-ii-total-war|medieval-total-war|napoleon-total-war|rome-total-war|shogun-total-war|total-war|total-war-attila|total-war-battles-kingdom|total-war-battles-shogun|total-war-pharaoh|total-war-rome-ii|total-war-rome-ii-emperor-edit|total-war-rome-remastered|total-war-saga-thrones-of-brit|total-war-saga-troy|total-war-shogun-2|total-war-three-kingdoms|total-war-warhammer|total-war-warhammer-ii|total-war-warhammer-iii"
 igdb_url: "https://www.igdb.com/games/250531"
 was_free_before: false
 giveaway_events: []

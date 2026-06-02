@@ -35,7 +35,7 @@ languages_audio: ["English","French","Italian","German","Spanish - Spain","Greek
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "death-stranding|death-stranding-director-s-cut"
 igdb_url: "https://www.igdb.com/games/19564"
 was_free_before: false
 giveaway_events: []

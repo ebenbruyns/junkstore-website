@@ -35,7 +35,7 @@ languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"25","name":"Space"},{"id":"102","name":"Turn-Based"},{"id":"5","name":"Replay Value"},{"id":"167","name":"Futuristic"},{"id":"172","name":"Aliens"},{"id":"101","name":"Turn-Based Strategy"},{"id":"100","name":"Grand Strategy"},{"id":"212","name":"4X"},{"id":"211","name":"Diplomacy"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "dungeon-of-the-endless|endless-dungeons|endless-legend|endless-space|endless-space-2"
 igdb_url: "https://www.igdb.com/games/endless-space"
 was_free_before: false
 giveaway_events: []

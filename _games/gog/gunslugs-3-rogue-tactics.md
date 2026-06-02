@@ -35,7 +35,7 @@ languages_audio: []
 tags_structured: []
 size: "74 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "gunslugs|gunslugs-3-rogue-tactics"
 igdb_url: "https://www.igdb.com/games/gunslugs-rogue-tactics"
 was_free_before: false
 giveaway_events: []

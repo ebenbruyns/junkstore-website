@@ -35,7 +35,7 @@ languages_audio: ["English","Simplified Chinese","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "daredevil|deadpool|ghost-rider|guardians-of-the-galaxy|howard-the-duck|marvel-contest-of-champions|marvel-future-fight|marvel-future-revolution|marvel-heroes-omega|marvel-mighty-heroes|marvel-nemesis-rise-of-the-imp|marvel-pinball|marvel-powers-united-vr|marvel-puzzle-quest|marvel-realm-of-champions|marvel-strike-force|marvel-super-hero-squad|marvel-super-hero-squad-comic-|marvel-super-hero-squad-online|marvel-super-hero-squad-the-in|marvel-super-heroes|marvel-super-heroes-in-war-of-|marvel-super-war|marvel-trading-card-game|marvel-ult-alliance|marvel-ultimate-alliance-2|marvel-ultimate-alliance-3-the|marvels-avengers|marvels-guardians-of-the-galax|marvels-midnight-suns|silver-surfer|super-hero-squad-tig"
 igdb_url: "https://www.igdb.com/games/marvel-rivals"
 was_free_before: false
 giveaway_events: []

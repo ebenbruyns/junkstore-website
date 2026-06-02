@@ -35,7 +35,7 @@ languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"6","name":"Exploration"},{"id":"107","name":"Family Friendly"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"138","name":"Relaxing"},{"id":"112","name":"Minimalist"},{"id":"575","name":"Logic"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "faraway-arctic-escape|faraway-director-s-cut|faraway-jungle-escape"
 igdb_url: "https://www.igdb.com/games/faraway-directors-cut"
 was_free_before: false
 giveaway_events: []

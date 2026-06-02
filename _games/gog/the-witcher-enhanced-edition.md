@@ -35,7 +35,7 @@ languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"97","name":"Action RPG"},{"id":"44","name":"Nudity"},{"id":"145","name":"Choices Matter"},{"id":"40","name":"Dark Fantasy"},{"id":"192","name":"Mature"},{"id":"66","name":"Medieval"},{"id":"82","name":"Magic"},{"id":"218","name":"Multiple Endings"},{"id":"283","name":"Based On A Novel"}]
 size: "9706 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "gwent-rogue-mage|gwent-the-witcher-card-game|gwent-thronebreaker|the-witcher|the-witcher-2-assassins-of-kin|the-witcher-3-wild-hunt|the-witcher-4|the-witcher-adventure-game|the-witcher-remake|the-witcher-rise-of-the-white-"
 igdb_url: "https://www.igdb.com/games/the-witcher"
 was_free_before: false
 giveaway_events: []

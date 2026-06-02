@@ -35,7 +35,7 @@ languages_audio: []
 tags_structured: [{"id":"3605","name":"tool"},{"id":"891","name":"jam"},{"id":"973","name":"libGDX"}]
 size: "525 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "deus-ex|deus-ex-2-invisible-war|deus-ex-go|deus-ex-human-revolution|deus-ex-mankind-divided|deus-ex-the-fall"
 igdb_url: "https://www.igdb.com/games/deus-ex-special-limited-edition"
 was_free_before: false
 giveaway_events: []

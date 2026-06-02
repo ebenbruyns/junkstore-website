@@ -35,7 +35,7 @@ languages_audio: []
 tags_structured: []
 size: "180 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "ravenloft-stone-prophet|ravenloft-strahd-s-possession"
 igdb_url: "https://www.igdb.com/games/al-qadim-the-genie-s-curse"
 was_free_before: false
 giveaway_events: []

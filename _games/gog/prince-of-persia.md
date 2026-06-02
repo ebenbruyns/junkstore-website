@@ -35,7 +35,7 @@ languages_audio: []
 tags_structured: [{"id":"1333","name":"android"}]
 size: "7242 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "prince-of-persia|prince-of-persia-2-the-shadow-|prince-of-persia-arabian-night|prince-of-persia-epilogue|prince-of-persia-escape|prince-of-persia-escape-2|prince-of-persia-nes|prince-of-persia-redemption|prince-of-persia-the-fallen-ki|prince-of-persia-the-forgotten|prince-of-persia-the-sands-of-|prince-of-persia-the-shadow-an|prince-of-persia-the-two-thron|prince-of-persia-warrior-withi"
 igdb_url: "https://www.igdb.com/games/prince-of-persia"
 was_free_before: false
 giveaway_events: []

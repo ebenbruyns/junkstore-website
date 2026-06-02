@@ -35,7 +35,7 @@ languages_audio: ["English","French","German","Spanish - Spain"]
 tags_structured: []
 size: "544 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "star-wars-battlefront|star-wars-battlefront-2|star-wars-battlefront-3|star-wars-battlefront-elite-sq|star-wars-battlefront-ii-2|star-wars-battlefront-renegade"
 igdb_url: "https://www.igdb.com/games/star-wars-galactic-battlegrounds"
 was_free_before: false
 giveaway_events: []

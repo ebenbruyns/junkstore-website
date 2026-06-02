@@ -35,7 +35,7 @@ languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "627 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "true-fear-forsaken-souls-part-1|true-fear-forsaken-souls-part-2"
 igdb_url: "https://www.igdb.com/games/true-fear-forsaken-souls-part-2"
 was_free_before: false
 giveaway_events: []

@@ -36,7 +36,7 @@ tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"}
 size: "611045194
 "
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "bloodhunt|vampire-the-masquerade-bloodli|vampire-the-masquerade-bloodli|vampire-the-masquerade-coterie|vampire-the-masquerade-redempt|vampire-the-masquerade-shadows|vampire-the-masquerade-swanson"
 igdb_url: "https://www.igdb.com/games/vampire-the-masquerade-reckoning-of-new-york"
 was_free_before: false
 giveaway_events: []

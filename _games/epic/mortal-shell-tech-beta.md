@@ -35,7 +35,7 @@ languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"40","name":"Dark Fantasy"},{"id":"580","name":"Souls-like"}]
 size: "8673 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "mortal-shell|mortal-shell-tech-beta"
 igdb_url: "https://www.igdb.com/games/mortal-shell"
 was_free_before: false
 giveaway_events: []

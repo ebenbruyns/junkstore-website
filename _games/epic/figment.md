@@ -35,7 +35,7 @@ languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: "725 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "figment|figment-2-creed-valley"
 igdb_url: "https://www.igdb.com/games/figment-2-creed-valley"
 was_free_before: true
 giveaway_events: [{"_id":"685be089ab24856ad1451018","id":"addd4e86c4d746ab86f21606bdadce7d","namespace":"270e1d648a5e4060b7b441615c4da4d9","startDate":"2025-07-03T15:00:00.000Z","endDate":"2025-07-10T15:00:00.000Z","title":"Figment","__v":0},{"_id":"66abf1f43631f27c961ec381","id":"addd4e86c4d746ab86f21606bdadce7d","namespace":"270e1d648a5e4060b7b441615c4da4d9","startDate":"2020-03-25T15:00:00.000Z","endDate":"2020-04-01T15:00:00.000Z","__v":0}]

@@ -35,7 +35,7 @@ languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"34","name":"Violent"},{"id":"40858","name":"Other"}]
 size: "279 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "the-coma-2-vicious-sisters|the-coma-cutting-class"
 igdb_url: "https://www.igdb.com/games/the-coma-recut"
 was_free_before: false
 giveaway_events: []

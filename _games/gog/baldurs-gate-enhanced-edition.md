@@ -35,7 +35,7 @@ languages_audio: ["English","German","French","Polish","Russian","Ukrainian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"121","name":"Character Customization"},{"id":"40833","name":"Captions available"},{"id":"99","name":"Isometric"},{"id":"82","name":"Magic"},{"id":"271","name":"Remake"},{"id":"194","name":"Real-Time with Pause"},{"id":"60","name":"Touch-Friendly"},{"id":"238","name":"CRPG"},{"id":"206","name":"Party-Based RPG"},{"id":"574","name":"Dungeons & Dragons"}]
 size: "2787 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "baldur-s-gate-enhanced-edition|baldur-s-gate-enhanced-edition-f1dce9|baldur-s-gate-ii-enhanced-edition|baldur-s-gate-ii-enhanced-edition-cef011"
 igdb_url: "https://www.igdb.com/games/baldur-s-gate-enhanced-edition"
 was_free_before: false
 giveaway_events: []

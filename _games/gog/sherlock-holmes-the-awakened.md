@@ -35,7 +35,7 @@ languages_audio: ["English"]
 tags_structured: []
 size: "26361 MB"
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "sherlock-holmes-chapter-one|sherlock-holmes-the-awakened-2"
 igdb_url: "https://www.igdb.com/games/sherlock-holmes-the-awakened--1"
 was_free_before: false
 giveaway_events: []
