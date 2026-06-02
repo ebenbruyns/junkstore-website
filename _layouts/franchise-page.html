@@ -1,0 +1,91 @@
+---
+layout: junkstore-page
+---
+
+<style>
+{% include game-page-styles.css %}
+{% include franchise-page-styles.css %}
+</style>
+
+<div class="breadcrumb-bar breadcrumb-bar--no-cta">
+  <span class="breadcrumb-trail">
+    <a href="/">Home</a> / <a href="/games/">Games</a> / <a href="/franchises/">Franchises</a> / {{ page.franchise_name }}
+  </span>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ '/' | absolute_url | jsonify }} },
+    { "@type": "ListItem", "position": 2, "name": "Games", "item": {{ '/games/' | absolute_url | jsonify }} },
+    { "@type": "ListItem", "position": 3, "name": "Franchises", "item": {{ '/franchises/' | absolute_url | jsonify }} },
+    { "@type": "ListItem", "position": 4, "name": {{ page.franchise_name | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
+  ]
+}
+</script>
+
+{%- comment -%}
+  Iterate page.member_slugs (built by build-franchise-pages.js — already
+  includes RAWG-orphan re-releases). For each slug, gather every site.games
+  entry that matches; then group by game_title so multi-storefront copies
+  collapse into a single card whose store pills carry per-store ratings.
+{%- endcomment -%}
+{%- assign members = "" | split: "" -%}
+{%- for slug in page.member_slugs -%}
+  {%- assign hits = site.games | where: "slug", slug -%}
+  {%- assign members = members | concat: hits -%}
+{%- endfor -%}
+{%- assign by_title = members | group_by: "game_title" | sort: "name" -%}
+
+<div class="franchise-body">
+  <header class="franchise-header">
+    {%- if page.cover_image and page.cover_image != "" -%}
+    <div class="franchise-header__icon"><img src="{{ page.cover_image }}" alt="{{ page.franchise_name | escape }} logo"></div>
+    {%- endif -%}
+    <div class="franchise-header__text">
+      <p class="franchise-header__kicker">Franchise</p>
+      <h1 class="franchise-header__title">{{ page.franchise_name }}</h1>
+      <p class="franchise-header__sub">{{ page.member_count }} game{% if page.member_count != 1 %}s{% endif %} tested with Junk Store on Steam Deck</p>
+    </div>
+  </header>
+
+  <div class="franchise-members">
+    {%- for group in by_title -%}
+      {%- assign anchor = group.items[0] -%}
+      {%- assign img = anchor.cover_image | default: anchor.icon_image -%}
+      <div class="game-card franchise-card">
+        <div class="game-card__image{% unless img %} game-card__image--placeholder{% endunless %}">
+          {%- if img -%}
+          <img src="{{ img }}" alt="{{ anchor.game_title | escape }}" loading="lazy">
+          {%- else -%}
+          <span class="game-card__placeholder-text">{{ anchor.game_title | slice: 0 | upcase }}</span>
+          {%- endif -%}
+        </div>
+        <div class="game-card__content">
+          <div class="store-pills">
+            {%- assign store_order = "epic,gog,amazon,itch" | split: "," -%}
+            {%- for store_key in store_order -%}
+              {%- for g in group.items -%}
+                {%- if g.storefront_key == store_key -%}
+                  {%- assign rating_class = g.standalone_rating -%}
+                  {%- if rating_class == "perfect" -%}{%- assign rating_class = "green" -%}{%- endif -%}
+                  {%- if rating_class == nil or rating_class == "" -%}{%- assign rating_class = "untested" -%}{%- endif -%}
+                  {%- capture pill_title -%}{{ g.storefront }} on Steam Deck: {% case rating_class %}{% when "green" %}Works great{% when "yellow" %}Works with issues{% when "red" %}Not working{% else %}Untested{% endcase %}{%- endcapture -%}
+                  <a href="{{ g.url }}" class="store-pill store-pill--{{ store_key }} store-pill--rating-{{ rating_class }}" title="{{ pill_title }}">
+                    <span class="store-pill__dot"></span>{{ g.storefront }}
+                  </a>
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endfor -%}
+          </div>
+          <h3 class="game-card__title">{{ anchor.game_title | escape }}</h3>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+<div class="back-section">
+  <a href="/games/tested/" class="back-link">← Back to Game Database</a>
+</div>

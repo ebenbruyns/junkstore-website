@@ -1,0 +1,163 @@
+/* ---------------------------------------------------------------------
+   Franchise page — hero + members grid. Reuses .game-card from
+   game-page-styles.css for image/title structure; overrides the bottom
+   row with store pills that carry their own rating dot.
+   --------------------------------------------------------------------- */
+.franchise-body {
+  max-width: 1100px;
+  margin: 1.5rem auto 2rem;
+  padding: 0 2rem;
+}
+
+.franchise-header {
+  margin: 0 0 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.franchise-header__icon {
+  flex: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: #11161c;
+  border: 1px solid #30363d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.franchise-header__icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.franchise-header__text {
+  flex: 1;
+  min-width: 0;
+}
+.franchise-header__kicker {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #c4b5fd;
+}
+.franchise-header__title {
+  margin: 0.25rem 0 0 0;
+  font-size: 2rem;
+  color: #e6edf3;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.franchise-header__sub {
+  margin: 0.375rem 0 0 0;
+  color: #9ca3af;
+  font-size: 0.9375rem;
+}
+
+.franchise-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+/* Franchise card — sized larger than the more-from-dev variant so cover
+   art and the (multi-line) title both sit comfortably. */
+.franchise-card {
+  display: flex;
+  flex-direction: column;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+.franchise-card .game-card__image {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  background: #11161c;
+}
+.franchise-card .game-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+.franchise-card .game-card__image--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4a5468;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.franchise-card .game-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.75rem 0.875rem 0.875rem;
+}
+.franchise-card .game-card__title {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #e6edf3;
+  line-height: 1.3;
+}
+
+/* Store pills — each represents one (game, store) combo with the store's
+   color as background and the per-store standalone_rating as the dot color. */
+.store-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+.store-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.625rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.12s ease, filter 0.12s ease;
+}
+.store-pill:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.12);
+}
+.store-pill__dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #94a3b8;
+  flex: none;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.25);
+}
+
+/* Store colors — mirror the badges used elsewhere on the site. */
+.store-pill--epic   { background: #444; }
+.store-pill--gog    { background: #86328a; }
+.store-pill--amazon { background: #00a14f; }
+.store-pill--itch   { background: #fa5c5c; }
+
+/* Rating dot colors — overlaid on whichever store background. */
+.store-pill--rating-green    .store-pill__dot { background: #22c55e; }
+.store-pill--rating-yellow   .store-pill__dot { background: #fbbf24; }
+.store-pill--rating-red      .store-pill__dot { background: #ef4444; }
+.store-pill--rating-untested .store-pill__dot { background: #94a3b8; }
+
+@media (max-width: 640px) {
+  .franchise-body { padding: 0 1.25rem; }
+  .franchise-header__title { font-size: 1.625rem; }
+  .franchise-members { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+}
