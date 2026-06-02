@@ -59,6 +59,9 @@ collections:
   games:
     output: true
     permalink: /games/:path/
+  franchises:
+    output: true
+    permalink: /franchises/:path/
   tutorials:
     output: true
     permalink: /:path/

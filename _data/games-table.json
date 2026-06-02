@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T01:56:21.108Z",
+  "generated_at": "2026-06-02T00:15:19.909Z",
   "total_games": 1006,
   "storefronts": {
     "Epic": {
@@ -55,7 +55,7 @@
       "databaseId": "amzn1.adg.product.8b79052d-8c1d-46c1-8da9-c48b929865c6"
     },
     {
-      "slug": "baldur-s-gate-enhanced-edition-f1dce9",
+      "slug": "baldurs-gate-enhanced-edition",
       "id": "f1dce9b2-7732-4bca-be05-c882950ad4b3",
       "title": "Baldur's Gate: Enhanced Edition",
       "storefront": "Amazon",
@@ -70,7 +70,7 @@
       "databaseId": "amzn1.adg.product.5d35cae7-39d1-4e53-ba92-36004c4a5211"
     },
     {
-      "slug": "baldur-s-gate-ii-enhanced-edition",
+      "slug": "baldurs-gate-ii-enhanced-edition",
       "id": "2b7072d3-c442-41cf-84ff-98e7ad3cbfed",
       "title": "Baldur's Gate II: Enhanced Edition",
       "storefront": "Amazon",
@@ -295,7 +295,7 @@
       "databaseId": "amzn1.adg.product.2acb36df-2414-4f0d-8fa4-cdfe9fe604fe"
     },
     {
-      "slug": "faraway-director-s-cut",
+      "slug": "faraway-directors-cut",
       "id": "98852aa7-543e-4aaf-b947-2b93a4f1b5cc",
       "title": "Faraway: Director's Cut",
       "storefront": "Amazon",
@@ -400,7 +400,7 @@
       "databaseId": "amzn1.adg.product.9274ae27-f99c-4594-a917-9cc01e3f65ad"
     },
     {
-      "slug": "gravity-circuit-51e358",
+      "slug": "gravity-circuit",
       "id": "51e35838-cdbe-4b78-9bb2-997dcd57d03e",
       "title": "Gravity Circuit",
       "storefront": "Amazon",
@@ -415,7 +415,7 @@
       "databaseId": "amzn1.adg.product.10bd39ec-9d7a-4ecf-9242-eafcad66533d"
     },
     {
-      "slug": "grime-f2e534",
+      "slug": "grime",
       "id": "f2e5340c-698c-48e8-bc32-15f18e94ddbd",
       "title": "Grime",
       "storefront": "Amazon",
@@ -550,7 +550,7 @@
       "databaseId": "amzn1.adg.product.57a56b9b-210d-4346-aa9a-3985b3d9a982"
     },
     {
-      "slug": "naheulbeuk-s-dungeon-master",
+      "slug": "naheulbeuks-dungeon-master",
       "id": "3752501f-83ad-4df5-8600-56e3b0923a94",
       "title": "Naheulbeuk's Dungeon Master",
       "storefront": "Amazon",
@@ -1027,7 +1027,7 @@
       "databaseId": "amzn1.adg.product.c25c2ac3-b318-4192-96b7-bafef73060b9"
     },
     {
-      "slug": "warhammer-40-000-dawn-of-war",
+      "slug": "warhammer-40000-dawn-of-war",
       "id": "47a5f19f-55fe-4eb0-9dac-9f21cb975f8c",
       "title": "Warhammer 40,000: Dawn of War",
       "storefront": "Amazon",
@@ -1042,7 +1042,7 @@
       "databaseId": "amzn1.adg.product.86ca16ee-c209-4dab-8ded-9971d3ac6fad"
     },
     {
-      "slug": "warhammer-40-000-dawn-of-war-ii",
+      "slug": "warhammer-40000-dawn-of-war-ii",
       "id": "4e3defcf-cea2-4576-bb1c-9e58e452d056",
       "title": "Warhammer 40,000: Dawn of War II",
       "storefront": "Amazon",
@@ -1057,7 +1057,7 @@
       "databaseId": "amzn1.adg.product.33d3288f-092e-43da-8ff2-dbc452abbf44"
     },
     {
-      "slug": "warhammer-40-000-space-marine",
+      "slug": "warhammer-40000-space-marine",
       "id": "f1f191e0-e225-4626-904e-c0e77e4f462d",
       "title": "Warhammer 40,000: Space Marine",
       "storefront": "Amazon",
@@ -1236,7 +1236,7 @@
       "databaseId": "e0fa47ae79514345823bff209ae29451"
     },
     {
-      "slug": "a-rat-s-quest-the-way-back-home-season-1",
+      "slug": "a-rats-quest-the-way-back-home-season-1",
       "id": "239e7a5a-c6c8-47e7-9c57-b85c0b96da24",
       "title": "A Rat's Quest: The Way Back Home - Season 1",
       "storefront": "Epic",
@@ -1251,7 +1251,7 @@
       "databaseId": "2e0e91d701c34abf851de5b535a2617a"
     },
     {
-      "slug": "a-short-hike-a13747",
+      "slug": "a-short-hike",
       "id": "a1374723-d8f6-4f0a-8cd6-130505f43a88",
       "title": "A Short Hike",
       "storefront": "Epic",
@@ -1266,7 +1266,7 @@
       "databaseId": "d6407c9e6fd54cb492b8c6635480d792"
     },
     {
-      "slug": "absolute-drift-f9bf35",
+      "slug": "absolute-drift",
       "id": "f9bf35d9-cb6b-4cf6-8dc0-f965957d8ebb",
       "title": "Absolute Drift",
       "storefront": "Epic",
@@ -1326,7 +1326,7 @@
       "databaseId": "26b63c46de9e4dcc856b3c6b106b6777"
     },
     {
-      "slug": "aerial-knight-s-never-yield",
+      "slug": "aerial-knights-never-yield",
       "id": "7e348709-f17f-4478-8176-2fe84241bb78",
       "title": "Aerial_Knight's Never Yield",
       "storefront": "Epic",
@@ -1458,7 +1458,7 @@
       "databaseId": "8935bb3e1420443a9789fe01758039a5"
     },
     {
-      "slug": "amnesia-a-machine-for-pigs-a2c022",
+      "slug": "amnesia-a-machine-for-pigs",
       "id": "a2c022e0-694b-4970-9cdb-87df2db82cac",
       "title": "Amnesia: A Machine for Pigs",
       "storefront": "Epic",
@@ -1488,7 +1488,7 @@
       "databaseId": "f59de18db4dc445f88ffeff24d081234"
     },
     {
-      "slug": "amnesia-the-bunker-70ede6",
+      "slug": "amnesia-the-bunker",
       "id": "70ede6ea-99db-4ab4-bb57-4157e0a8fdc3",
       "title": "Amnesia: The Bunker",
       "storefront": "Epic",
@@ -1503,7 +1503,7 @@
       "databaseId": "44950011e7b544fc82c0a2e464b1afcd"
     },
     {
-      "slug": "amnesia-the-dark-descent-99d256",
+      "slug": "amnesia-the-dark-descent",
       "id": "99d256b3-5656-4933-b615-8fc43d18edcc",
       "title": "Amnesia: The Dark Descent",
       "storefront": "Epic",
@@ -1608,7 +1608,7 @@
       "databaseId": "20f01ab5e0fa4e798c6d58eeb8d86989"
     },
     {
-      "slug": "arcade-paradise-77faef",
+      "slug": "arcade-paradise",
       "id": "77faef9b-12e2-4856-9d8e-7f5ff636b87a",
       "title": "Arcade Paradise",
       "storefront": "Epic",
@@ -1712,7 +1712,7 @@
       "databaseId": "01805192c8074820b1257fcfd97f2648"
     },
     {
-      "slug": "assassin-s-creed-mirage",
+      "slug": "assassins-creed-mirage",
       "id": "554a3d0c-faed-4197-a307-d227d2249054",
       "title": "Assassin's Creed Mirage",
       "storefront": "Epic",
@@ -1727,7 +1727,7 @@
       "databaseId": "9cd229b0323f485bafca042ef00b14af"
     },
     {
-      "slug": "assassin-s-creed-origins",
+      "slug": "assassins-creed-origins",
       "id": "d0432a48-1205-4619-aea5-055b5ba7f976",
       "title": "Assassin's Creed Origins",
       "storefront": "Epic",
@@ -2417,7 +2417,7 @@
       "databaseId": "1dea8a6ddb544842a58e4b5c8675ff58"
     },
     {
-      "slug": "celeste-a99b8b",
+      "slug": "celeste",
       "id": "a99b8ba6-f0e6-47de-ba1b-408acb90f8e7",
       "title": "Celeste",
       "storefront": "Epic",
@@ -2680,7 +2680,7 @@
       "databaseId": "ab339d07d8c44305ad346f23b1af93e0"
     },
     {
-      "slug": "cursed-to-golf-cc19ac",
+      "slug": "cursed-to-golf",
       "id": "cc19ac53-5579-4564-97b8-eb85eb714bb7",
       "title": "Cursed to Golf",
       "storefront": "Epic",
@@ -2810,7 +2810,7 @@
       "databaseId": "23cbdd44de914e9caec216acefc51f9b"
     },
     {
-      "slug": "death-s-door",
+      "slug": "deaths-door",
       "id": "4fc77eb6-2d53-4300-8b38-bcee6f0c9809",
       "title": "Death's Door",
       "storefront": "Epic",
@@ -2823,7 +2823,7 @@
       "databaseId": "65d73e3be8824829b5b788bd849b6559"
     },
     {
-      "slug": "death-s-gambit-afterlife",
+      "slug": "deaths-gambit-afterlife",
       "id": "027bb567-c0f1-4ecb-8005-9c417e3c5ece",
       "title": "Death's Gambit - Afterlife",
       "storefront": "Epic",
@@ -2853,7 +2853,7 @@
       "databaseId": "5bf67f3153364181b54cb9e40ca7fa82"
     },
     {
-      "slug": "death-stranding-director-s-cut",
+      "slug": "death-stranding-directors-cut",
       "id": "c15124a1-86e3-4986-9b7e-b20868c7745f",
       "title": "Death Stranding Director's Cut",
       "storefront": "Epic",
@@ -2943,7 +2943,7 @@
       "databaseId": "9d943a160fa841859ac5c1f233789fcb"
     },
     {
-      "slug": "demon-s-tilt",
+      "slug": "demons-tilt",
       "id": "5803fcff-4a7c-4353-9ef6-df2f3ee7d156",
       "title": "Demon's Tilt",
       "storefront": "Epic",
@@ -2957,7 +2957,7 @@
       "databaseId": "b8b37813c5634dbdac61d88ff411135c"
     },
     {
-      "slug": "deus-ex-mankind-divided-731a97",
+      "slug": "deus-ex-mankind-divided",
       "id": "731a97b6-46d8-4b0b-9a19-15475ef34c80",
       "title": "Deus Ex - Mankind Divided",
       "storefront": "Epic",
@@ -3162,7 +3162,7 @@
       "databaseId": "a922e114727142e8b24d1499c274f223"
     },
     {
-      "slug": "dredge-f26286",
+      "slug": "dredge",
       "id": "f26286ad-ea7a-4073-8302-bddc7e2b920e",
       "title": "Dredge",
       "storefront": "Epic",
@@ -3350,7 +3350,7 @@
       "databaseId": "6706b62c1c184f1ebea7121eaeeade9a"
     },
     {
-      "slug": "f-i-s-t-forged-in-shadow-torch",
+      "slug": "fist-forged-in-shadow-torch",
       "id": "77c0d9e9-5ce1-4353-9275-50696d98a0fe",
       "title": "F.I.S.T.: Forged In Shadow Torch",
       "storefront": "Epic",
@@ -3410,7 +3410,7 @@
       "databaseId": "0a2d9f6403244d12969e11da6713137b"
     },
     {
-      "slug": "fallout-2-ea6a28",
+      "slug": "fallout-2",
       "id": "ea6a288c-a283-471c-b950-12bfed0e95de",
       "title": "Fallout 2",
       "storefront": "Epic",
@@ -3438,7 +3438,7 @@
       "databaseId": "adeae8bbfc94427db57c7dfecce3f1d4"
     },
     {
-      "slug": "fallout-a-post-nuclear-role-playing-game-a8ee7e",
+      "slug": "fallout-a-post-nuclear-role-playing-game",
       "id": "a8ee7e6f-9941-4ad5-8847-6c2669fabfbd",
       "title": "Fallout: A Post Nuclear Role Playing Game",
       "storefront": "Epic",
@@ -3556,7 +3556,7 @@
       "databaseId": "7ec86711ef70447fbfd4370ba9f185c6"
     },
     {
-      "slug": "figment-2-creed-valley-eee568",
+      "slug": "figment-2-creed-valley",
       "id": "eee5683a-d957-403e-beb4-ef16b09efc4c",
       "title": "Figment 2: Creed Valley",
       "storefront": "Epic",
@@ -3571,7 +3571,7 @@
       "databaseId": "37f5a526914b4eaaa86d32820e162aa0"
     },
     {
-      "slug": "figment-a23e48",
+      "slug": "figment",
       "id": "a23e4843-2232-45ef-a57f-394c9507f1bf",
       "title": "Figment",
       "storefront": "Epic",
@@ -3627,7 +3627,7 @@
       "databaseId": "43d4ef20fcb94eb39a864d13164fe3ca"
     },
     {
-      "slug": "five-nights-at-freddy-s-into-the-pit",
+      "slug": "five-nights-at-freddys-into-the-pit",
       "id": "c3728b33-ca68-413b-914d-17f1988faaa0",
       "title": "Five Nights at Freddy's: Into the Pit",
       "storefront": "Epic",
@@ -4313,7 +4313,7 @@
       "databaseId": "e757cb1a95f4459ba0950ef51f05ccb4"
     },
     {
-      "slug": "industria-df5b72",
+      "slug": "industria",
       "id": "df5b7266-bb07-4d2d-8563-e58e28a396b2",
       "title": "Industria",
       "storefront": "Epic",
@@ -4387,7 +4387,7 @@
       "databaseId": "5981cb19a1a845fba4d245fafa856968"
     },
     {
-      "slug": "jorel-s-brother-and-the-most-important-game-of-the-galaxy",
+      "slug": "jorels-brother-and-the-most-important-game-of-the-galaxy",
       "id": "46b89880-49fd-4928-912a-ec5466ca705f",
       "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
       "storefront": "Epic",
@@ -4659,7 +4659,7 @@
       "databaseId": "86982262b877446db74928dce458c3e7"
     },
     {
-      "slug": "lego-builder-s-journey",
+      "slug": "lego-builders-journey",
       "id": "44e283b3-cc84-4bcb-9610-a522699f28f9",
       "title": "LEGO Builder's Journey",
       "storefront": "Epic",
@@ -4689,7 +4689,7 @@
       "databaseId": "c390e58246ea4a778acd26473a489b48"
     },
     {
-      "slug": "let-s-build-a-zoo",
+      "slug": "lets-build-a-zoo",
       "id": "264c377f-7ab4-478f-80b2-a9e52658c1b8",
       "title": "Let's Build a Zoo",
       "storefront": "Epic",
@@ -4754,7 +4754,7 @@
       "controller_input": "native"
     },
     {
-      "slug": "loop-hero-7b6b22",
+      "slug": "loop-hero",
       "id": "7b6b2263-052c-4229-86ff-9070271f7f0a",
       "title": "Loop Hero",
       "storefront": "Epic",
@@ -4782,7 +4782,7 @@
       "databaseId": "827f7c9f19de4ad89537be44d819a238"
     },
     {
-      "slug": "lovecraft-s-untold-stories-e96acb",
+      "slug": "lovecrafts-untold-stories",
       "id": "e96acb52-8ab6-4481-848d-3ec0f675f810",
       "title": "Lovecraft's Untold Stories",
       "storefront": "Epic",
@@ -4920,7 +4920,7 @@
       "databaseId": "575efd0b5dd54429b035ffc8fe2d36d0"
     },
     {
-      "slug": "marvel-s-guardians-of-the-galaxy",
+      "slug": "marvels-guardians-of-the-galaxy",
       "id": "5eecdbc2-63cd-48b0-a095-4466ef812dc0",
       "title": "Marvel's Guardians of the Galaxy",
       "storefront": "Epic",
@@ -4935,7 +4935,7 @@
       "databaseId": "63a665088eb1480298f1e57943b225d8"
     },
     {
-      "slug": "marvel-s-midnight-suns",
+      "slug": "marvels-midnight-suns",
       "id": "7239d2de-f865-4d2f-a78d-439ca84c5195",
       "title": "Marvel's Midnight Suns",
       "storefront": "Epic",
@@ -4948,7 +4948,7 @@
       "databaseId": "49550aa9fcd74552ae07c4e9f2c262fe"
     },
     {
-      "slug": "metro-last-light-redux-dfed0a",
+      "slug": "metro-last-light-redux",
       "id": "dfed0a5b-7def-4924-a40a-77a35b86c58f",
       "title": "Metro: Last Light Redux",
       "storefront": "Epic",
@@ -5253,7 +5253,7 @@
       "databaseId": "f5b2bda11e0f4e22b552f03be3f15f62"
     },
     {
-      "slug": "overcooked-2-d36909",
+      "slug": "overcooked-2",
       "id": "d36909b8-147f-446c-b080-5c3495daed21",
       "title": "Overcooked! 2",
       "storefront": "Epic",
@@ -5268,7 +5268,7 @@
       "databaseId": "Potoo"
     },
     {
-      "slug": "overcooked-90a69c",
+      "slug": "overcooked",
       "id": "90a69c10-245f-428e-924b-cbac46ef097c",
       "title": "Overcooked",
       "storefront": "Epic",
@@ -5472,7 +5472,7 @@
       "databaseId": "f8e2163786ea463d81e1374df329fe5b"
     },
     {
-      "slug": "q-u-b-e-10th-anniversary",
+      "slug": "qube-10th-anniversary",
       "id": "14ef46ea-d127-400b-aec3-f0472c65cc2f",
       "title": "Q.U.B.E. 10th Anniversary",
       "storefront": "Epic",
@@ -5487,7 +5487,7 @@
       "databaseId": "440abc2d035f494a9bf172ed29f9fa2f"
     },
     {
-      "slug": "q-u-b-e-2",
+      "slug": "qube-2",
       "id": "e109ab89-7e2f-43d5-9417-e8605847b07b",
       "title": "Q.U.B.E. 2",
       "storefront": "Epic",
@@ -5842,7 +5842,7 @@
       "databaseId": "Cormorant"
     },
     {
-      "slug": "saints-row-iv-re-elected-da3505",
+      "slug": "saints-row-iv-re-elected",
       "id": "da3505c9-0812-4681-a08a-84f5343554db",
       "title": "Saints Row IV Re-Elected",
       "storefront": "Epic",
@@ -5917,7 +5917,7 @@
       "databaseId": "dbee85010fa34bef9f3611faee19220e"
     },
     {
-      "slug": "scarf-29f969",
+      "slug": "scarf",
       "id": "29f96946-895f-4370-82c5-461fb08df330",
       "title": "Scarf",
       "storefront": "Epic",
@@ -5973,7 +5973,7 @@
       "databaseId": "890d9cf396d04922a1559333df419fed"
     },
     {
-      "slug": "shadow-tactics-aiko-s-choice",
+      "slug": "shadow-tactics-aikos-choice",
       "id": "7d5cb561-f076-4cb4-b950-59cdb091feff",
       "title": "Shadow Tactics - Aiko's Choice",
       "storefront": "Epic",
@@ -6003,7 +6003,7 @@
       "databaseId": "e87a43f695bc409ca8858206678ac7e7"
     },
     {
-      "slug": "sid-meier-s-civilization-vi",
+      "slug": "sid-meiers-civilization-vi",
       "id": "ead76d3a-159b-4f97-b03f-d3bbb7dc40c5",
       "title": "Sid Meier's Civilization VI",
       "storefront": "Epic",
@@ -6201,7 +6201,7 @@
       "databaseId": "818447bb519b46d48d365d5753362796"
     },
     {
-      "slug": "sorry-we-re-closed",
+      "slug": "sorry-were-closed",
       "id": "a2db12f9-81a5-49dc-b93b-1ca3cbecc7f8",
       "title": "Sorry We're Closed",
       "storefront": "Epic",
@@ -6502,7 +6502,7 @@
       "databaseId": "Muscovy"
     },
     {
-      "slug": "symmetry-f9ab1e",
+      "slug": "symmetry",
       "id": "f9ab1e43-4897-433e-b524-5dd5aa2662db",
       "title": "Symmetry",
       "storefront": "Epic",
@@ -6590,7 +6590,7 @@
       "databaseId": "1496590"
     },
     {
-      "slug": "teenage-mutant-ninja-turtles-shredder-s-revenge",
+      "slug": "teenage-mutant-ninja-turtles-shredders-revenge",
       "id": "8d7437ef-ec78-4774-9284-52a5c3657fdf",
       "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
       "storefront": "Epic",
@@ -6875,7 +6875,7 @@
       "databaseId": "74977fee80de4e5e9f663e62560a0f2f"
     },
     {
-      "slug": "the-falconeer-f1d1ec",
+      "slug": "the-falconeer",
       "id": "f1d1ec76-6ac6-4859-ba29-5afc93adb744",
       "title": "The Falconeer",
       "storefront": "Epic",
@@ -7005,7 +7005,7 @@
       "databaseId": "5919f2a03ba34e36b8e7de60acc26736"
     },
     {
-      "slug": "the-outer-worlds-spacer-s-choice-edition",
+      "slug": "the-outer-worlds-spacers-choice-edition",
       "id": "18ae0556-f8d6-4008-94f4-f6f8835cab5b",
       "title": "The Outer Worlds: Spacer's Choice Edition",
       "storefront": "Epic",
@@ -7089,7 +7089,7 @@
       "databaseId": "9447b19ffb6a47e1a654b75178779a28"
     },
     {
-      "slug": "the-walking-dead-no-man-s-land",
+      "slug": "the-walking-dead-no-mans-land",
       "id": "8821aa84-6472-4c11-acc9-5443382b16a4",
       "title": "The Walking Dead No Man's Land",
       "storefront": "Epic",
@@ -7132,7 +7132,7 @@
       "databaseId": "4f0c34d469bb47b2bcf5b377f47ccfe3"
     },
     {
-      "slug": "them-s-fightin-herds",
+      "slug": "thems-fightin-herds",
       "id": "8b038b79-5e95-4cd3-be91-8ddcbf6e5780",
       "title": "Them's Fightin' Herds",
       "storefront": "Epic",
@@ -7147,7 +7147,7 @@
       "databaseId": "2d9d7555ccdd4ceaa1b60e501ba0bacd"
     },
     {
-      "slug": "tiny-tina-s-assault-on-dragon-keep-a-wonderlands-one-shot-adventure",
+      "slug": "tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-adventure",
       "id": "c7a0f46d-56ab-42ab-9fba-ab019cc4de09",
       "title": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure",
       "storefront": "Epic",
@@ -7162,7 +7162,7 @@
       "databaseId": "9e296d276ad447108f12c654c3341d59"
     },
     {
-      "slug": "tiny-tina-s-wonderlands",
+      "slug": "tiny-tinas-wonderlands",
       "id": "0162b786-a69d-4557-9de7-b1ca4f77fb60",
       "title": "Tiny Tina's Wonderlands",
       "storefront": "Epic",
@@ -7205,7 +7205,7 @@
       "databaseId": "37d84dd0b65a40e9b0719141b987a216"
     },
     {
-      "slug": "toem-817895",
+      "slug": "toem",
       "id": "81789515-6d05-4914-8197-6a4198cce1a2",
       "title": "Toem",
       "storefront": "Epic",
@@ -7233,7 +7233,7 @@
       "databaseId": "a2ffb8fba4894fc8b4ce37db61c96e96"
     },
     {
-      "slug": "tom-clancy-s-ghost-recon-breakpoint",
+      "slug": "tom-clancys-ghost-recon-breakpoint",
       "id": "7fc7737d-bb07-4350-a701-e262c7bf3160",
       "title": "Tom Clancy's Ghost Recon Breakpoint",
       "storefront": "Epic",
@@ -7248,7 +7248,7 @@
       "databaseId": "4d7c1e25955644e9afe7054071f39603"
     },
     {
-      "slug": "tom-clancy-s-rainbow-six-extraction",
+      "slug": "tom-clancys-rainbow-six-extraction",
       "id": "d0ccdba7-8df6-4460-8d4d-1986e8a2c74b",
       "title": "Tom Clancy's Rainbow Six Extraction",
       "storefront": "Epic",
@@ -7304,7 +7304,7 @@
       "controller_input": "native"
     },
     {
-      "slug": "tony-hawk-s-pro-skater-1-2",
+      "slug": "tony-hawks-pro-skater-1-2",
       "id": "5cc520fa-1d3c-4ad7-b1ba-a16a6ed8a421",
       "title": "Tony Hawk's Pro Skater 1+2",
       "storefront": "Epic",
@@ -7782,7 +7782,7 @@
       "databaseId": "398965b67f314d31b0683b8ea11c93a4"
     },
     {
-      "slug": "warhammer-40-000-gladius-relics-of-war",
+      "slug": "warhammer-40000-gladius-relics-of-war",
       "id": "547ef9ae-d075-425b-bb50-0afc5aeca5bf",
       "title": "Warhammer 40,000: Gladius - Relics of War",
       "storefront": "Epic",
@@ -7797,7 +7797,7 @@
       "databaseId": "da5b18cb1e7a452196c3142f2c1d7dd3"
     },
     {
-      "slug": "warhammer-40-000-mechanicus",
+      "slug": "warhammer-40000-mechanicus",
       "id": "832568fa-4da7-4070-88f6-a4beec497a95",
       "title": "Warhammer 40,000: Mechanicus",
       "storefront": "Epic",
@@ -7984,7 +7984,7 @@
       "databaseId": "a64dcf9b711a4a60a3c0b6f052dfc7da"
     },
     {
-      "slug": "wonder-boy-the-dragon-s-trap",
+      "slug": "wonder-boy-the-dragons-trap",
       "id": "2c1a6d2c-b033-4145-a32a-6f6f7b1b792e",
       "title": "Wonder Boy: The Dragon's Trap",
       "storefront": "Epic",
@@ -8147,7 +8147,7 @@
       "databaseId": "2099051765"
     },
     {
-      "slug": "a-plague-tale-innocence-592f56",
+      "slug": "a-plague-tale-innocence",
       "id": "592f5620-3f58-46df-bb89-116af854046a",
       "title": "A Plague Tale: Innocence",
       "storefront": "GOG",
@@ -8251,7 +8251,7 @@
       "databaseId": "1207659037"
     },
     {
-      "slug": "alan-wake-s-american-nightmare",
+      "slug": "alan-wakes-american-nightmare",
       "id": "dbf4b464-8198-4c92-86f0-88a1effe5c98",
       "title": "Alan Wake's American Nightmare",
       "storefront": "GOG",
@@ -8266,7 +8266,7 @@
       "databaseId": "1207659038"
     },
     {
-      "slug": "alder-s-blood-prologue",
+      "slug": "alders-blood-prologue",
       "id": "8da62607-c942-4bfb-b517-d7d375e74b80",
       "title": "Alder's Blood Prologue",
       "storefront": "GOG",
@@ -8281,7 +8281,7 @@
       "databaseId": "2018305509"
     },
     {
-      "slug": "alwa-s-awakening",
+      "slug": "alwas-awakening",
       "id": "01456533-1e71-46b8-be06-0585e4773644",
       "title": "Alwa's Awakening",
       "storefront": "GOG",
@@ -8311,7 +8311,7 @@
       "databaseId": "1748947415"
     },
     {
-      "slug": "amerzone-the-explorer-s-legacy-1999",
+      "slug": "amerzone-the-explorers-legacy-1999",
       "id": "374e3934-587e-43ed-84b5-68bf708b59aa",
       "title": "Amerzone: The Explorer's Legacy (1999)",
       "storefront": "GOG",
@@ -8386,7 +8386,7 @@
       "databaseId": "1207659259"
     },
     {
-      "slug": "ancient-enemy-a5c186",
+      "slug": "ancient-enemy",
       "id": "a5c18612-8181-4728-9890-54087632fd4e",
       "title": "Ancient Enemy",
       "storefront": "GOG",
@@ -8474,7 +8474,7 @@
       "databaseId": "1818710374"
     },
     {
-      "slug": "baldur-s-gate-enhanced-edition",
+      "slug": "baldurs-gate-enhanced-edition",
       "id": "e9dd735f-c8d7-4531-abc1-5e1678206fdf",
       "title": "Baldur's Gate: Enhanced Edition",
       "storefront": "GOG",
@@ -8489,7 +8489,7 @@
       "databaseId": "1207666353"
     },
     {
-      "slug": "baldur-s-gate-ii-enhanced-edition-cef011",
+      "slug": "baldurs-gate-ii-enhanced-edition",
       "id": "cef011ce-792f-4597-bb93-24cbc2153316",
       "title": "Baldur's Gate II: Enhanced Edition",
       "storefront": "GOG",
@@ -8654,7 +8654,7 @@
       "databaseId": "1806891286"
     },
     {
-      "slug": "bioshock-2-remastered-8d4eb2",
+      "slug": "bioshock-2-remastered",
       "id": "8d4eb200-5b47-4de6-94e1-2d8f4537e7e5",
       "title": "BioShock 2 Remastered",
       "storefront": "GOG",
@@ -8669,7 +8669,7 @@
       "databaseId": "1482265668"
     },
     {
-      "slug": "bioshock-infinite-e99a5f",
+      "slug": "bioshock-infinite",
       "id": "e99a5fbd-de5d-4b02-b49c-1e04c2fa4f31",
       "title": "BioShock Infinite",
       "storefront": "GOG",
@@ -8684,7 +8684,7 @@
       "databaseId": "1752654506"
     },
     {
-      "slug": "bioshock-remastered-6944b6",
+      "slug": "bioshock-remastered",
       "id": "6944b634-6b1c-4fe8-bfca-e6024a1de99e",
       "title": "BioShock Remastered",
       "storefront": "GOG",
@@ -8773,7 +8773,7 @@
       "databaseId": "1837805079"
     },
     {
-      "slug": "blood-west-e0f69a",
+      "slug": "blood-west",
       "id": "e0f69a54-ab32-4537-8f3b-77f516c9f94a",
       "title": "Blood West",
       "storefront": "GOG",
@@ -8863,7 +8863,7 @@
       "databaseId": "1356485086"
     },
     {
-      "slug": "broken-sword-shadow-of-the-templars-the-director-s-cut",
+      "slug": "broken-sword-shadow-of-the-templars-the-directors-cut",
       "id": "70ac8686-eca5-4b33-a9e6-751de6562478",
       "title": "Broken Sword: Shadow of the Templars - The Director's Cut",
       "storefront": "GOG",
@@ -9011,7 +9011,7 @@
       "databaseId": "1293807013"
     },
     {
-      "slug": "cat-quest-ii-e8157f",
+      "slug": "cat-quest-ii",
       "id": "e8157fd5-57d9-4d0e-b552-42d5db7ddc95",
       "title": "Cat Quest II",
       "storefront": "GOG",
@@ -9321,7 +9321,7 @@
       "databaseId": "1263855454"
     },
     {
-      "slug": "deep-sky-derelicts-8dd182",
+      "slug": "deep-sky-derelicts",
       "id": "8dd182e1-7e9a-4af2-b3a2-82c7325ccf53",
       "title": "Deep Sky Derelicts",
       "storefront": "GOG",
@@ -9336,7 +9336,7 @@
       "databaseId": "1629258827"
     },
     {
-      "slug": "defender-s-quest-valley-of-the-forgotten",
+      "slug": "defenders-quest-valley-of-the-forgotten",
       "id": "1d41276f-1bf2-4e18-bf05-cc6133a1098f",
       "title": "Defender's Quest: Valley of the Forgotten",
       "storefront": "GOG",
@@ -9381,7 +9381,7 @@
       "databaseId": "1207658995"
     },
     {
-      "slug": "deus-ex-human-revolution-director-s-cut",
+      "slug": "deus-ex-human-revolution-directors-cut",
       "id": "dee15f8d-69ff-40c1-8c39-74abd0fb5e3b",
       "title": "Deus Ex: Human Revolution - Director's Cut",
       "storefront": "GOG",
@@ -9424,7 +9424,7 @@
       "databaseId": "1296690054"
     },
     {
-      "slug": "devil-s-kiss",
+      "slug": "devils-kiss",
       "id": "ac54b1f7-b1ad-4cc9-b21c-5a2c36032e2c",
       "title": "Devil's Kiss",
       "storefront": "GOG",
@@ -9497,7 +9497,7 @@
       "databaseId": "1431426311"
     },
     {
-      "slug": "dishonored-f3483b",
+      "slug": "dishonored",
       "id": "f3483bb1-b52b-4b50-9f2e-540f01dd2b33",
       "title": "Dishonored",
       "storefront": "GOG",
@@ -9527,7 +9527,7 @@
       "databaseId": "1390579243"
     },
     {
-      "slug": "doomdark-s-revenge",
+      "slug": "doomdarks-revenge",
       "id": "5937235a-d5e6-4c00-a3c3-32c3f3f1c579",
       "title": "Doomdark's Revenge",
       "storefront": "GOG",
@@ -9715,7 +9715,7 @@
       "databaseId": "1207659220"
     },
     {
-      "slug": "f-e-a-r-platinum",
+      "slug": "fear-platinum",
       "id": "10c92f79-c339-4d0a-accc-453780e3d639",
       "title": "F.E.A.R. Platinum",
       "storefront": "GOG",
@@ -9760,7 +9760,7 @@
       "databaseId": "1440151285"
     },
     {
-      "slug": "fallout-3-game-of-the-year-edition-fee3bb",
+      "slug": "fallout-3-game-of-the-year-edition",
       "id": "fee3bb9a-4f3f-41c2-a5ed-d4b14ea0fe67",
       "title": "Fallout 3: Game of the Year Edition",
       "storefront": "GOG",
@@ -10045,7 +10045,7 @@
       "databaseId": "1969775197"
     },
     {
-      "slug": "gamedec-17a543",
+      "slug": "gamedec",
       "id": "17a54355-d4ab-4802-81ba-ce4379627237",
       "title": "Gamedec",
       "storefront": "GOG",
@@ -10119,7 +10119,7 @@
       "databaseId": "1553376539"
     },
     {
-      "slug": "god-s-trigger",
+      "slug": "gods-trigger",
       "id": "fabc8409-1982-4ab7-8dcc-07b127cb6709",
       "title": "God's Trigger",
       "storefront": "GOG",
@@ -10368,7 +10368,7 @@
       "databaseId": "1156382433"
     },
     {
-      "slug": "hellblade-senua-s-sacrifice",
+      "slug": "hellblade-senuas-sacrifice",
       "id": "c63a4e68-80a4-4dc7-97c9-d39ff57ffc6c",
       "title": "Hellblade: Senua's Sacrifice",
       "storefront": "GOG",
@@ -10443,7 +10443,7 @@
       "databaseId": "1666688320"
     },
     {
-      "slug": "hero-s-hour",
+      "slug": "heros-hour",
       "id": "a49ae9c0-f9dd-47f2-9668-c01a62f73719",
       "title": "Hero's Hour",
       "storefront": "GOG",
@@ -10750,7 +10750,7 @@
       "databaseId": "1105915912"
     },
     {
-      "slug": "king-s-bounty-crossworlds",
+      "slug": "kings-bounty-crossworlds",
       "id": "f4025931-2c7e-49ed-be3f-7c7b2d625f29",
       "title": "King's Bounty: Crossworlds",
       "storefront": "GOG",
@@ -10763,7 +10763,7 @@
       "databaseId": "1207659154"
     },
     {
-      "slug": "king-s-bounty-the-legend",
+      "slug": "kings-bounty-the-legend",
       "id": "dbd9c942-dd92-47ff-a34d-3fd5da40bc21",
       "title": "King's Bounty: The Legend",
       "storefront": "GOG",
@@ -10994,7 +10994,7 @@
       "databaseId": "1166021990"
     },
     {
-      "slug": "lovecraft-s-untold-stories",
+      "slug": "lovecrafts-untold-stories",
       "id": "1165e6e8-153a-4936-84e9-0aba381685cf",
       "title": "Lovecraft's Untold Stories",
       "storefront": "GOG",
@@ -11685,7 +11685,7 @@
       "databaseId": "1207659082"
     },
     {
-      "slug": "prison-architect-6d157b",
+      "slug": "prison-architect",
       "id": "6d157bc6-fa70-4d93-884f-f0a0fd5309d5",
       "title": "Prison Architect",
       "storefront": "GOG",
@@ -11755,7 +11755,7 @@
       "databaseId": "1432906190"
     },
     {
-      "slug": "ravenloft-strahd-s-possession",
+      "slug": "ravenloft-strahds-possession",
       "id": "4d92290e-290b-41d3-9aa3-abd6e69878cf",
       "title": "Ravenloft: Strahd's Possession",
       "storefront": "GOG",
@@ -11800,7 +11800,7 @@
       "databaseId": "1688702977"
     },
     {
-      "slug": "rime-fb1a76",
+      "slug": "rime",
       "id": "fb1a763b-8356-4a75-9545-db07ffe29177",
       "title": "RiME",
       "storefront": "GOG",
@@ -11870,7 +11870,7 @@
       "databaseId": "2037689757"
     },
     {
-      "slug": "saints-row-the-third-remastered-ecb0b4",
+      "slug": "saints-row-the-third-remastered",
       "id": "ecb0b4f9-6dc1-437c-bbef-350346c15da5",
       "title": "Saints Row: The Third Remastered",
       "storefront": "GOG",
@@ -11930,7 +11930,7 @@
       "databaseId": "1779703219"
     },
     {
-      "slug": "shadow-tactics-blades-of-the-shogun-4672e2",
+      "slug": "shadow-tactics-blades-of-the-shogun",
       "id": "4672e276-e61d-4484-b80c-62048eb45e51",
       "title": "Shadow Tactics: Blades of the Shogun",
       "storefront": "GOG",
@@ -11975,7 +11975,7 @@
       "databaseId": "1442285576"
     },
     {
-      "slug": "shantae-and-the-pirate-s-curse",
+      "slug": "shantae-and-the-pirates-curse",
       "id": "4bf95583-bd51-4410-b499-db621f2c806c",
       "title": "Shantae and the Pirate's Curse",
       "storefront": "GOG",
@@ -12059,7 +12059,7 @@
       "databaseId": "1511366207"
     },
     {
-      "slug": "sid-meier-s-civilization-iii-complete",
+      "slug": "sid-meiers-civilization-iii-complete",
       "id": "897ed7e6-f8d5-476d-82f2-b99b345eac6c",
       "title": "Sid Meier's Civilization III: Complete",
       "storefront": "GOG",
@@ -12074,7 +12074,7 @@
       "databaseId": "1471405734"
     },
     {
-      "slug": "sid-meier-s-civilization-iv-complete-edition",
+      "slug": "sid-meiers-civilization-iv-complete-edition",
       "id": "82ac89db-ecdd-44c0-93e6-bb34317892b3",
       "title": "Sid Meier's Civilization IV: Complete Edition",
       "storefront": "GOG",
@@ -12374,7 +12374,7 @@
       "databaseId": "1207666283"
     },
     {
-      "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords-79b674",
+      "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
       "id": "79b674e6-193d-457f-8c02-bffa18560635",
       "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
       "storefront": "GOG",
@@ -12475,7 +12475,7 @@
       "databaseId": "1624007757"
     },
     {
-      "slug": "styx-master-of-shadows-fbe6b0",
+      "slug": "styx-master-of-shadows",
       "id": "fbe6b0ea-dd9f-4469-b53f-c21973ecf720",
       "title": "Styx: Master of Shadows",
       "storefront": "GOG",
@@ -12503,7 +12503,7 @@
       "databaseId": "2090261953"
     },
     {
-      "slug": "summer-s-gone-season-1",
+      "slug": "summers-gone-season-1",
       "id": "d98d14d4-7795-4de2-9852-3ba571281b36",
       "title": "Summer's Gone - Season 1",
       "storefront": "GOG",
@@ -13212,7 +13212,7 @@
       "databaseId": "1592693763"
     },
     {
-      "slug": "trinity-fusion-eba208",
+      "slug": "trinity-fusion",
       "id": "eba20865-bfcd-4acd-86b2-f2f3c7b348a6",
       "title": "Trinity Fusion",
       "storefront": "GOG",
@@ -13400,7 +13400,7 @@
       "databaseId": "1485235422"
     },
     {
-      "slug": "warhammer-40-000-rites-of-war",
+      "slug": "warhammer-40000-rites-of-war",
       "id": "12c9994d-2701-4ec1-9692-ef120605735a",
       "title": "Warhammer 40,000: Rites of War",
       "storefront": "GOG",
@@ -13415,7 +13415,7 @@
       "databaseId": "1443606025"
     },
     {
-      "slug": "warhammer-40-000-rogue-trader",
+      "slug": "warhammer-40000-rogue-trader",
       "id": "bf406b0e-e2f4-439c-9872-d9f514f7e4e8",
       "title": "Warhammer 40,000: Rogue Trader",
       "storefront": "GOG",
@@ -13806,7 +13806,7 @@
       "databaseId": "645160"
     },
     {
-      "slug": "a-mortician-s-tale",
+      "slug": "a-morticians-tale",
       "id": "7fed14ba-b781-45f0-b63b-d1bcde6006cd",
       "title": "A Mortician's Tale",
       "storefront": "itch.io",
@@ -13821,7 +13821,7 @@
       "databaseId": "118243"
     },
     {
-      "slug": "a-nightmare-s-trip",
+      "slug": "a-nightmares-trip",
       "id": "bc4a53a8-a1f2-4595-9493-2cd230d3f336",
       "title": "A Nightmare's Trip",
       "storefront": "itch.io",
@@ -13866,7 +13866,7 @@
       "databaseId": "1055631"
     },
     {
-      "slug": "a-snake-s-tale",
+      "slug": "a-snakes-tale",
       "id": "79ce8504-ee34-40df-981f-c1678afb77ef",
       "title": "A Snake's Tale",
       "storefront": "itch.io",
@@ -14133,7 +14133,7 @@
       "databaseId": "529963"
     },
     {
-      "slug": "baldi-s-basics-plus",
+      "slug": "baldis-basics-plus",
       "id": "4e86f348-d37f-4592-9b9c-b343bc1bd74d",
       "title": "Baldi's Basics Plus",
       "storefront": "itch.io",
@@ -14282,7 +14282,7 @@
       "databaseId": "832801"
     },
     {
-      "slug": "figment-ebd3f4",
+      "slug": "figment",
       "id": "ebd3f450-baf1-4617-82f2-c4ed45578e13",
       "title": "Figment",
       "storefront": "itch.io",
@@ -14297,7 +14297,7 @@
       "databaseId": "179780"
     },
     {
-      "slug": "forma-8",
+      "slug": "forma8",
       "id": "5572e853-b05c-4a72-9e2f-09d909d70e89",
       "title": "Forma.8",
       "storefront": "itch.io",
