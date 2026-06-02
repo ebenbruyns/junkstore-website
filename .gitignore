@@ -21,14 +21,15 @@ assets/images/backups/
 .sass-cache/
 __pycache__/
 .jekyll-cache/
+.jekyll-metadata
 .bundle/
 node_modules/
 
 # Runtime caches written by enrichment scripts
 scripts/*hltb-failed-cache.json
 
-# Archive directory (not tracked)
-_archive/
+# Archive directory (keep archived files in git for recovery)
+# _archive/ - commented out to track archived files
 
 # All documentation and project management files (exclude from version control)
 docs/
