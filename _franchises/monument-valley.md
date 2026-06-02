@@ -5,6 +5,6 @@ franchise_name: "Monument Valley"
 franchise_slugs: ["monument-valley|monument-valley-2"]
 member_count: 2
 member_slugs: ["monument-valley","monument-valley-2"]
-cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1927740/capsule_231x87.jpg"
+cover_image: "/assets/images/franchises/monument-valley.png"
 permalink: /franchises/monument-valley/
 ---

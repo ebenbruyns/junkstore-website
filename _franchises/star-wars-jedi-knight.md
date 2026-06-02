@@ -5,6 +5,6 @@ franchise_name: "STAR WARS™ Jedi Knight"
 franchise_slugs: ["star-wars-dark-forces-2|star-wars-jedi-knight-dark-for|star-wars-jedi-knight-ii-jedi-|star-wars-jedi-knight-jedi-aca|star-wars-jedi-knight-mysterie"]
 member_count: 2
 member_slugs: ["star-wars-jedi-knight-dark-forces-ii","star-wars-jedi-knight-mysteries-of-the-sith"]
-cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/32380/capsule_231x87.jpg"
+cover_image: "/assets/images/franchises/star-wars-jedi-knight.png"
 permalink: /franchises/star-wars-jedi-knight/
 ---
