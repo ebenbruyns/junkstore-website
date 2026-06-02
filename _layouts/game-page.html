@@ -579,7 +579,27 @@ layout: null
         </div>
       </div>
       {% endif %}
-      {% if page.franchise and page.franchise != "" %}
+      {%- comment -%}
+        Franchise — if a published /franchises/<slug>/ page exists for this
+        game, the value becomes a clickable link to that page with member
+        count. Otherwise (or if RAWG has no series data), fall back to the
+        plain franchise name from page.franchise. Hidden entirely if neither.
+      {%- endcomment -%}
+      {%- assign franchise_page = nil -%}
+      {%- if page.franchise_slug and page.franchise_slug != "" -%}
+        {%- for f in site.franchises -%}
+          {%- if f.franchise_slugs contains page.franchise_slug -%}
+            {%- assign franchise_page = f -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+      {% if franchise_page %}
+      <div class="info-item info-item--series">
+        <div class="info-label">Franchise</div>
+        <a href="{{ franchise_page.url }}" class="series-link">{{ franchise_page.franchise_name }} ({{ franchise_page.member_count }} game{% if franchise_page.member_count != 1 %}s{% endif %}) →</a>
+      </div>
+      {% elsif page.franchise and page.franchise != "" %}
       <div class="info-item">
         <div class="info-label">Franchise</div>
         <div class="info-value">{{ page.franchise }}</div>
@@ -608,25 +628,6 @@ layout: null
         <div class="info-label">Download Size</div>
         <div class="info-value">{{ size_display }}</div>
       </div>
-      {% endif %}
-      {% if page.franchise_siblings.size > 0 %}
-        {%- comment -%}
-          Link to the franchise landing page if one exists for this franchise_slug.
-          Page won't exist if the franchise was blocklisted in config/franchise-overrides.json.
-        {%- endcomment -%}
-        {%- assign franchise_page = nil -%}
-        {%- for f in site.franchises -%}
-          {%- if f.franchise_slugs contains page.franchise_slug -%}
-            {%- assign franchise_page = f -%}
-            {%- break -%}
-          {%- endif -%}
-        {%- endfor -%}
-        {% if franchise_page %}
-      <div class="info-item info-item--series">
-        <div class="info-label">Series</div>
-        <a href="{{ franchise_page.url }}" class="series-link">{{ franchise_page.franchise_name }} ({{ franchise_page.member_count }} game{% if franchise_page.member_count != 1 %}s{% endif %}) →</a>
-      </div>
-        {% endif %}
       {% endif %}
       {% if page.game_modes.size > 0 %}
       <div class="info-item info-item--tags">
