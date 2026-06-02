@@ -57,6 +57,19 @@ a.button,
 
   &:visited {
     color: #fff;
+    transform: translateY(-1px); /* Subtle lift effect */
+    box-shadow: 0 4px 8px rgba(0, 122, 204, 0.3);
+  }
+
+  /* Active/Focus states for better mobile feedback */
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 122, 204, 0.2);
+  }
+
+  &:focus {
+    outline: 2px solid #66bfff;
+    outline-offset: 2px;
   }
 }
 
