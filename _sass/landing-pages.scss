@@ -1,0 +1,572 @@
+/* ==========================================================================
+   Breadcrumb (used on landing pages and any page with `breadcrumbs:` in
+   frontmatter). Pairs with schema.org BreadcrumbList JSON-LD via the
+   _includes/breadcrumb.html partial.
+   ========================================================================== */
+/* ==========================================================================
+   Status dot — CSS-only colored circle. Used as a consistent alternative to
+   the 🟢🟡🔴 emojis (which render differently per OS).
+   Usage: <span class="dot dot--green"></span>
+   ========================================================================== */
+.dot {
+  display: inline-block;
+  width: 0.95em;
+  height: 0.95em;
+  border-radius: 50%;
+  background: $junkstore-gray-text;
+  vertical-align: middle;
+  margin-right: 0.45em;
+  margin-bottom: 0.15em;
+  flex-shrink: 0;
+
+  &--green  { background: $junkstore-success; }
+  &--yellow { background: $junkstore-warning; }
+  &--red    { background: $junkstore-danger; }
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 1rem auto 0;
+  padding: 0 1rem;
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    color: $junkstore-gray-text;
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    a {
+      color: $junkstore-gray-text;
+      text-decoration: none;
+      transition: color 0.15s ease;
+
+      &:hover, &:focus { color: $junkstore-accent; text-decoration: underline; }
+    }
+
+    [aria-current="page"] {
+      color: $junkstore-light-text;
+      font-weight: 600;
+    }
+  }
+
+  &__sep { color: $junkstore-border; user-select: none; }
+
+  /* Inline CTA on the right (used on game pages — high-intent visitors
+     landing from search) */
+  &__cta {
+    flex: 0 0 auto;
+    display: inline-block;
+    padding: 0.55rem 1.1rem;
+    background: #ff751a;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-radius: 6px;
+    text-decoration: none !important;
+    box-shadow: 0 2px 8px rgba(255, 117, 26, 0.35);
+    transition: filter 0.15s ease, transform 0.15s ease;
+
+    &:hover { filter: brightness(1.1); transform: translateY(-1px); }
+  }
+
+  @media (max-width: 700px) {
+    &--with-cta { flex-direction: column; align-items: stretch; }
+    &--with-cta &__cta { text-align: center; }
+  }
+}
+
+/* ==========================================================================
+   Storefront landing pages (.lp-* classes)
+   Used by: /epic-games-steam-deck/, /gog-games-steam-deck/ (future),
+   /amazon-prime-gaming-steam-deck/ (future), /itch-games-steam-deck/ (future).
+
+   Conversion-focused layout: prominent CTA → 3-step → comparison table →
+   demo video → compat stat → FAQ → final CTA. Matches the rest of the site's
+   dark theme (junkstore variables).
+   ========================================================================== */
+
+/* ---------- Hero CTA (top of page, right under the layout's hero) ---------- */
+.lp-hero-cta {
+  text-align: center;
+  padding: 1.5rem 1rem 0.5rem;
+
+  .button {
+    display: inline-block;
+    padding: 0.9rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background: #e67300;
+    color: #fff !important;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.15s ease, transform 0.15s ease;
+
+    &:hover { background: #ff8839; transform: translateY(-1px); }
+  }
+}
+
+.lp-guarantee {
+  margin: 0.75rem 0 0;
+  color: $junkstore-gray-text;
+  font-size: 0.95rem;
+}
+
+/* ---------- 3-step "how it works" cards ---------- */
+.lp-how-it-works {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+
+  > h2 { color: $junkstore-primary; margin-bottom: 1.5rem; }
+}
+
+.lp-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+
+  @media (max-width: 768px) { grid-template-columns: 1fr; }
+}
+
+.lp-step {
+  display: block;
+  padding: 1.5rem 1.25rem;
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-border;
+  border-radius: 10px;
+  color: $junkstore-light-text !important;
+  text-decoration: none;
+  text-align: left;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+
+  &:hover, &:focus {
+    border-color: $junkstore-accent;
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+
+  &__num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: $junkstore-accent;
+    color: #1a1a1a;
+    border-radius: 50%;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  h3 { margin: 0 0 0.5rem; color: #fff; font-size: 1.15rem; }
+  p  { margin: 0; color: $junkstore-gray-text; font-size: 0.95rem; line-height: 1.5; }
+}
+
+/* Compact "process bar" — three numbered circles connected by a line, with
+   labels below. Replaces the chunkier .lp-step cards on storefront landing
+   pages where vertical space matters. */
+.lp-process {
+  display: flex;
+  position: relative;
+  max-width: 720px;
+  margin: 1.5rem auto 0.5rem;
+  padding: 0 1rem;
+  align-items: flex-start;
+  gap: 0.5rem;
+
+  /* Connecting line behind the circles */
+  &__line {
+    position: absolute;
+    top: calc(1rem + 18px);  /* line up with vertical center of circles */
+    left: calc(16.6% + 1rem);   /* center of first circle (1/3 column / 2 = 16.6%) */
+    right: calc(16.6% + 1rem);  /* center of last circle */
+    height: 2px;
+    background: $junkstore-border;
+    z-index: 0;
+  }
+
+  &__step {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: inherit !important;
+    position: relative;
+    z-index: 1;
+    padding: 1rem 0.5rem 0.5rem;
+    transition: transform 0.15s ease;
+
+    &:hover, &:focus {
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+
+    &:hover .lp-process__num,
+    &:focus .lp-process__num {
+      box-shadow: 0 0 0 4px rgba(255, 163, 102, 0.25);
+    }
+  }
+
+  &__num {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: transparent;
+    color: $junkstore-accent;
+    border: 2px solid $junkstore-accent;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-bottom: 0.65rem;
+    transition: box-shadow 0.15s ease;
+  }
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+
+    strong { color: #fff; font-size: 0.95rem; }
+    span   { color: $junkstore-gray-text; font-size: 0.82rem; line-height: 1.35; }
+  }
+
+  /* Mobile: stack vertically, hide the connecting line */
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 320px;
+
+    &__line { display: none; }
+    &__step { padding: 0.5rem; }
+  }
+}
+
+/* ---------- Comparison table ---------- */
+.lp-comparison {
+  max-width: 1100px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
+
+  > h2 { text-align: center; color: $junkstore-primary; margin-bottom: 1.25rem; }
+}
+
+.lp-compare-table-wrap { overflow-x: auto; }  /* mobile: scroll horizontally */
+
+.lp-compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: $junkstore-bg-card;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+
+  th, td {
+    padding: 0.85rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid $junkstore-border;
+  }
+
+  thead th {
+    background: $junkstore-bg-elevated;
+    color: $junkstore-accent;
+    font-weight: 700;
+    font-size: 0.95rem;
+
+    small { display: block; font-weight: 400; font-size: 0.75rem; color: $junkstore-gray-text; margin-top: 0.15rem; }
+  }
+
+  tbody {
+    th[scope="row"] { text-align: left; font-weight: 600; color: #fff; }
+    tr:last-child th, tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) { background: rgba(255, 255, 255, 0.02); }
+    /* Junk Store column = highlight */
+    th, td { &:last-child { background: rgba(255, 163, 102, 0.06); } }
+  }
+}
+
+/* ---------- Video demo ---------- */
+.lp-video {
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
+  text-align: center;
+
+  > h2 { color: $junkstore-primary; margin-bottom: 1rem; }
+}
+
+.lp-video__embed {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+
+  iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+}
+
+/* ---------- Compatibility stat block ---------- */
+.lp-compat {
+  max-width: 800px;
+  margin: 2.5rem auto;
+  padding: 1.75rem 1.5rem;
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-border;
+  border-radius: 12px;
+  text-align: center;
+
+  &__stat { margin-bottom: 1rem; }
+  &__number { font-size: 3.25rem; font-weight: 800; color: $junkstore-accent; line-height: 1; }
+  &__number--green { color: $junkstore-success; }
+  &__label  { color: $junkstore-light-text; margin-top: 0.35rem; font-size: 1.1rem; font-weight: 600; }
+  &__sub    { color: $junkstore-gray-text; margin-top: 0.5rem; font-size: 1.1rem; }
+
+  &__legend {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: $junkstore-gray-text;
+    font-size: 0.9rem;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: transparent;
+    color: $junkstore-accent !important;
+    border: 2px solid $junkstore-accent;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.15s ease;
+
+    &:hover { background: rgba(255, 163, 102, 0.1); }
+  }
+}
+
+/* ---------- FAQ ---------- */
+.lp-faq {
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
+
+  > h2 { text-align: center; color: $junkstore-primary; margin-bottom: 1.25rem; }
+
+  details {
+    background: $junkstore-bg-card;
+    border: 1px solid $junkstore-border;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    padding: 0.85rem 1.1rem;
+
+    &[open] { border-color: $junkstore-accent; }
+
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: #fff;
+      list-style: none;
+
+      &::after {
+        content: '▸';
+        float: right;
+        color: $junkstore-accent;
+        transition: transform 0.15s ease;
+      }
+    }
+
+    &[open] summary::after { transform: rotate(90deg); display: inline-block; }
+
+    p {
+      margin: 0.75rem 0 0;
+      color: $junkstore-light-text;
+      line-height: 1.55;
+    }
+  }
+
+  &__more {
+    margin-top: 0.85rem !important;
+    font-size: 0.92rem;
+
+    a {
+      color: $junkstore-accent;
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover { text-decoration: underline; }
+    }
+  }
+}
+
+/* ---------- Tutorials block ---------- */
+.lp-tutorials {
+  max-width: 800px;
+  margin: 2.5rem auto;
+  padding: 1.5rem 1.5rem;
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-border;
+  border-radius: 12px;
+  text-align: center;
+
+  > h2 {
+    color: $junkstore-primary;
+    margin: 0 0 1rem;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: $junkstore-light-text;
+
+    a {
+      color: $junkstore-accent;
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover { text-decoration: underline; }
+    }
+  }
+}
+
+/* ---------- Final CTA ---------- */
+.lp-final-cta {
+  max-width: 800px;
+  margin: 3rem auto 2rem;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(180deg, transparent, rgba(255, 163, 102, 0.08));
+  border-radius: 12px;
+  text-align: center;
+
+  > h2 { color: #fff; margin-bottom: 0.5rem; }
+  > p  { color: $junkstore-gray-text; margin-bottom: 1.25rem; }
+
+  &__buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .button {
+      padding: 0.85rem 1.75rem;
+      border-radius: 8px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform 0.15s ease, background 0.15s ease;
+
+      &--primary {
+        background: #e67300;
+        color: #fff !important;
+        &:hover { background: #ff8839; transform: translateY(-1px); }
+      }
+
+      &--secondary {
+        background: transparent;
+        color: $junkstore-accent !important;
+        border: 2px solid $junkstore-accent;
+        &:hover { background: rgba(255, 163, 102, 0.1); }
+      }
+    }
+  }
+}
+
+.lp-featured-games {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1.25rem;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.lp-game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.lp-game-card {
+  display: flex;
+  flex-direction: column;
+  background: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 255, 255, 0.25);
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &__image {
+    aspect-ratio: 16 / 9;
+    background: #111;
+    overflow: hidden;
+  }
+
+  &__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__body {
+    padding: 0.75rem 0.95rem 0.9rem;
+  }
+
+  &__title {
+    margin: 0 0 0.3rem;
+    font-size: 0.95rem;
+    line-height: 1.3;
+    color: #fff;
+  }
+
+  &__link {
+    display: inline-block;
+    font-size: 0.78rem;
+    color: #9ad0ff;
+  }
+}
