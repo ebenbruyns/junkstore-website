@@ -406,8 +406,13 @@ layout: null
     </div>
 
     {% comment %} External resource links — moved here from sidebar so they sit
-       naturally after the description, where users are in "learn more" mode. {% endcomment %}
-    {% if page.store_url or page.pcgamingwiki_url or page.protondb_url or page.protondb_report_url or page.areweanticheat_url or page.metacritic_url or page.hltb_url %}
+       naturally after the description, where users are in "learn more" mode.
+       Metacritic / OpenCritic / ProtonDB are intentionally NOT listed here —
+       they're already clickable tiles in the Scores & Compatibility strip
+       above, so listing them again is redundant. The "Our ProtonDB Report"
+       link IS different: it points to a specific user-submitted report,
+       not the generic game page. {% endcomment %}
+    {% if page.store_url or page.pcgamingwiki_url or page.protondb_report_url or page.areweanticheat_url or page.hltb_url %}
     <div class="info-section info-section--compact">
       <h2>External Resources</h2>
       <div class="external-links">
@@ -417,18 +422,11 @@ layout: null
         {% if page.pcgamingwiki_url and page.pcgamingwiki_url != "" %}
         <a href="{{ page.pcgamingwiki_url }}" target="_blank" rel="noopener" class="external-link pcgaming">PCGamingWiki</a>
         {% endif %}
-        {% if page.protondb_url and page.protondb_url != "" %}
-        <a href="{{ page.protondb_url }}" target="_blank" rel="noopener" class="external-link protondb">ProtonDB</a>
-        {% endif %}
         {% if page.protondb_report_url and page.protondb_report_url != "" %}
-        <a href="{{ page.protondb_report_url }}" target="_blank" rel="noopener" class="external-link our-report">Our Report</a>
+        <a href="{{ page.protondb_report_url }}" target="_blank" rel="noopener" class="external-link our-report">Our ProtonDB Report</a>
         {% endif %}
         {% if page.areweanticheat_url and page.areweanticheat_url != "" %}
         <a href="{{ page.areweanticheat_url }}" target="_blank" rel="noopener" class="external-link anticheat">AreWeAntiCheat</a>
-        {% endif %}
-        {% if page.metacritic_url and page.metacritic_url != "" %}
-        {% assign mc_url = page.metacritic_url | replace: 'http://', 'https://' | split: '?' | first %}
-        <a href="{{ mc_url }}" target="_blank" rel="noopener" class="external-link metacritic">Metacritic <span class="badge-score">{% if page.metacritic_score %}{{ page.metacritic_score }}{% else %}TBD{% endif %}</span></a>
         {% endif %}
         {% if page.hltb_url and page.hltb_url != "" %}
         <a href="{{ page.hltb_url }}" target="_blank" rel="noopener" class="external-link hltb">HowLongToBeat</a>
@@ -652,6 +650,29 @@ layout: null
         {% if page.languages_audio.size > 0 %}
         <div class="language-legend">* Full audio support</div>
         {% endif %}
+      </div>
+      {% endif %}
+      {%- comment -%}
+        Per-region age ratings (up to 12 boards from Steam). Collapsed by
+        default so it doesn't crowd the sidebar; the summary already lives
+        in the hero pill above.
+      {%- endcomment -%}
+      {% if page.age_ratings.size > 0 %}
+      <div class="info-item info-item--age-ratings">
+        <details class="age-ratings-detail">
+          <summary><span class="info-label info-label--inline">Age Ratings</span><span class="age-ratings-summary-hint">View all boards</span></summary>
+          <div class="age-ratings-grid">
+            {% for entry in page.age_ratings %}
+              <div class="age-rating-row">
+                <span class="age-rating-board">{{ entry[0] | upcase }}</span>
+                <span class="age-rating-value">{{ entry[1].rating | upcase }}</span>
+                {% if entry[1].descriptors %}
+                <span class="age-rating-descriptors">{{ entry[1].descriptors }}</span>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        </details>
       </div>
       {% endif %}
       {% assign has_hltb = false %}
