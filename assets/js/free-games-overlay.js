@@ -94,14 +94,32 @@
     if (state.byKey.size === 0 && state.byTitle.size === 0) return 0;
     var scope = root || document;
     var elements = scope.querySelectorAll('[data-game-slug][data-game-storefront]');
+    var matchedTitleKeys = new Set();
     var count = 0;
     elements.forEach(function (el) {
       if (el.dataset.freeNowApplied) return;
-      // Primary match: storefront + slug. Fall back to title when the upstream
-      // feed didn't provide website_slug (currently always null).
+      // Match priority:
+      //   1. storefront + website_slug   (when feed provides it — currently always null)
+      //   2. game's own title (titleKey)
+      //   3. any free_games_aliases the game declares in its front matter
+      // Aliases are how the user manually maps an upstream feed name that
+      // doesn't match the page title (e.g. "The Telltale Batman Shadows
+      // Edition" in the feed vs whatever the page is titled).
       var entry = state.byKey.get(key(el.dataset.gameStorefront, el.dataset.gameSlug));
       if (!entry && el.dataset.gameTitle) {
-        entry = state.byTitle.get(titleKey(el.dataset.gameTitle));
+        var tk = titleKey(el.dataset.gameTitle);
+        entry = state.byTitle.get(tk);
+        if (entry) matchedTitleKeys.add(tk);
+      }
+      if (!entry && el.dataset.gameAliases) {
+        try {
+          var aliases = JSON.parse(el.dataset.gameAliases);
+          for (var i = 0; i < aliases.length; i++) {
+            var atk = titleKey(aliases[i]);
+            entry = state.byTitle.get(atk);
+            if (entry) { matchedTitleKeys.add(atk); break; }
+          }
+        } catch (e) { /* malformed JSON, ignore */ }
       }
       if (!entry) return;
       el.dataset.freeNowApplied = '1';
@@ -109,6 +127,19 @@
       el.appendChild(buildBadge(entry));
       count++;
     });
+    // "Needs alias" hint: any active free-games entry whose titleKey wasn't
+    // claimed by a page on this load is a candidate for a free_games_aliases
+    // addition. Logged in console so you can spot mismatches at a glance
+    // without having to eyeball every game page.
+    if (state.activeList.length > 0) {
+      var unmatched = state.activeList.filter(function (e) {
+        return !matchedTitleKeys.has(titleKey(e.title));
+      });
+      if (unmatched.length > 0) {
+        console.info('[free-games] ' + unmatched.length + ' active entries did not match any tested game page on this load. Add to free_games_aliases if any should match:');
+        unmatched.forEach(function (e) { console.info('  · ' + e.storefront + ' — "' + e.title + '"'); });
+      }
+    }
     return count;
   }
 

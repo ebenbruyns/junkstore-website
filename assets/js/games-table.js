@@ -17,16 +17,17 @@ const filterState = {
   decky:  'All',           // single value (rating bucket or 'All')
   pro:    'All',           // single value (rating bucket or 'All')
   recent: false,           // boolean: tested in last 90 days
+  linux:  false,           // boolean: has a native Linux build
   search: ''               // free-text
 };
 
 const RATING_OPTIONS = [
-  { value: 'perfect',     label: '✅ Works',          match: r => r === 'green' || r === 'perfect' },
-  { value: 'yellow',      label: '🟡 Minor setup',    match: r => r === 'yellow' },
-  { value: 'red',         label: '🔧 Advanced setup', match: r => r === 'red' },
-  { value: 'broken',      label: '❌ Broken',         match: r => r === 'not-working' },
-  { value: 'unsupported', label: '🚫 Unsupported',    match: r => r === 'not-supported' },
-  { value: 'untested',    label: '❓ Untested',       match: r => !r || !['green','perfect','yellow','red','not-working','not-supported'].includes(r) }
+  { value: 'perfect',     label: '<span class="dot dot--green"></span>Works',         match: r => r === 'green' || r === 'perfect' },
+  { value: 'yellow',      label: '<span class="dot dot--yellow"></span>Minor setup',  match: r => r === 'yellow' },
+  { value: 'red',         label: '<span class="dot dot--red"></span>Advanced setup',  match: r => r === 'red' },
+  { value: 'broken',      label: '<i class="fas fa-circle-xmark" style="color:#f56565;margin-right:.45em"></i>Broken',     match: r => r === 'not-working' },
+  { value: 'unsupported', label: '<i class="fas fa-ban" style="color:#f56565;vertical-align:middle;margin-right:.45em"></i>Unsupported',             match: r => r === 'not-supported' },
+  { value: 'untested',    label: '<span class="dot"></span>Untested',                                                       match: r => !r || !['green','perfect','yellow','red','not-working','not-supported'].includes(r) }
 ];
 
 const STORE_OPTIONS = [
@@ -38,13 +39,17 @@ const STORE_OPTIONS = [
 ];
 
 // Pills always pinned in the bar, in order. Each maps to a table column.
+// `linux` is intentionally NOT in this list — it's rendered separately in
+// the search column area because there's no Linux-specific table column to
+// align it with.
 const PINNED_DIMS = ['store', 'decky', 'pro', 'recent'];
 
 const DIMENSION_LABEL = {
   store:  'Store',
   decky:  'Decky',
   pro:    'Pro',
-  recent: 'Last 90 days'
+  recent: 'Last 90 days',
+  linux:  '🐧 Native Linux'
 };
 
 // ---- Bootstrap -------------------------------------------------------------
@@ -128,6 +133,14 @@ function gameMatchesAllExcept(game, skipDim) {
     const t = parseDateTested(game.date_tested);
     if (t === null || t < Date.now() - NINETY_DAYS_MS) return false;
   }
+  if (skipDim !== 'linux' && filterState.linux) {
+    // Scope to GOG + itch only — the storefronts that actually distribute
+    // the native Linux build. Epic/Amazon ship Windows-only even when a
+    // Linux build exists on Steam, so including them here would surface
+    // games where the badge wouldn't render on the detail page.
+    if (game.native_linux !== true) return false;
+    if (game.storefront !== 'GOG' && game.storefront !== 'itch') return false;
+  }
   if (skipDim !== 'search' && filterState.search) {
     // Tokenize: every whitespace-separated word must appear somewhere in the
     // searchable text. Lets multi-word queries like "celeste indie" match a
@@ -200,6 +213,11 @@ function computePillCount(dim) {
       return t !== null && t >= cutoff;
     }).length;
   }
+  if (dim === 'linux') {
+    return gamesData.games.filter(g =>
+      g.native_linux === true && (g.storefront === 'GOG' || g.storefront === 'itch')
+    ).length;
+  }
   return 0;
 }
 
@@ -208,6 +226,7 @@ function computePillCount(dim) {
 function setFilter(dim, value) {
   if (dim === 'store' || dim === 'decky' || dim === 'pro') filterState[dim] = value;
   else if (dim === 'recent') filterState.recent = !!value;
+  else if (dim === 'linux') filterState.linux = !!value;
   else if (dim === 'search') filterState.search = value || '';
   // Decky and Pro are alternative views, not stackable filters. Picking a
   // rating on one auto-clears the other so users don't get an empty table
@@ -221,6 +240,7 @@ function setFilter(dim, value) {
 function clearFilter(dim) {
   if (dim === 'store' || dim === 'decky' || dim === 'pro') filterState[dim] = 'All';
   else if (dim === 'recent') filterState.recent = false;
+  else if (dim === 'linux') filterState.linux = false;
   else if (dim === 'search') filterState.search = '';
   applyFilters();
 }
@@ -230,6 +250,7 @@ function isDimActive(dim) {
   if (dim === 'decky')  return filterState.decky !== 'All';
   if (dim === 'pro')    return filterState.pro !== 'All';
   if (dim === 'recent') return filterState.recent;
+  if (dim === 'linux')  return filterState.linux;
   return false;
 }
 
@@ -287,6 +308,17 @@ function renderFilterBar() {
           <option value="50" ${pageSize === 50 ? 'selected' : ''}>50</option>
         </select>
       </div>
+      <!-- Native Linux toggle DISABLED pending manual verification of each
+           Linux-flagged game. Filter logic in gameMatchesAllExcept and the
+           data field native_linux remain in place; re-enabling is just
+           restoring the button block here.
+
+      <button type="button" class="filter-bar__linux-toggle${filterState.linux ? ' is-active' : ''}"
+              data-dim="linux" title="Show only games with a native Linux build"
+              aria-pressed="${filterState.linux ? 'true' : 'false'}">
+        🐧 <span class="filter-bar__linux-toggle-label">Native Linux</span>${filterState.linux ? '<span class="filter-bar__linux-toggle-clear" aria-hidden="true">×</span>' : ''}
+      </button>
+      -->
     </div>
   `;
   wireBarStaticControls(bar);
@@ -303,12 +335,20 @@ function wireBarStaticControls(bar) {
     currentPage = 1;
     updateTable();
   });
+  const linuxBtn = bar.querySelector('.filter-bar__linux-toggle');
+  if (linuxBtn) {
+    linuxBtn.addEventListener('click', () => {
+      setFilter('linux', !filterState.linux);
+      // Re-render the bar so the active class + clear (×) reflect the new state.
+      renderFilterBar();
+    });
+  }
 }
 
 function updateMobileBadge() {
   const badge = document.querySelector('[data-mobile-badge]');
   if (!badge) return;
-  const n = ['store','decky','pro','recent'].filter(isDimActive).length;
+  const n = ['store','decky','pro','recent','linux'].filter(isDimActive).length;
   badge.textContent = n;
   badge.hidden = n === 0;
 }
@@ -322,7 +362,7 @@ function renderFilterBarPills() {
 
   for (const dim of PINNED_DIMS) {
     const active = isDimActive(dim);
-    const isToggle = dim === 'recent'; // boolean dims have no popover
+    const isToggle = dim === 'recent' || dim === 'linux'; // boolean dims have no popover
     const pill = document.createElement('button');
     pill.type = 'button';
     pill.className = 'filter-pill' + (active ? ' is-active' : '') + (isToggle ? ' is-toggle' : '');
@@ -345,10 +385,10 @@ function renderFilterBarPills() {
   }
 }
 
-// Click handler — popover for store/decky/pro; direct toggle for recent.
+// Click handler — popover for store/decky/pro; direct toggle for recent + linux.
 function onPillClick(dim, pill) {
-  if (dim === 'recent') {
-    setFilter('recent', !filterState.recent);
+  if (dim === 'recent' || dim === 'linux') {
+    setFilter(dim, !filterState[dim]);
     return;
   }
   togglePopover(dim, pill);
@@ -626,8 +666,16 @@ function debounce(fn, ms) {
 
 function getCompatibilityDisplay(rating) {
   if (!rating) return '<span class="compatibility-na">Not tested</span>';
-  const map = { 'green': '✅', 'Perfect': '✅', 'yellow': '🟡', 'red': '🔧', 'not-working': '❌', 'not-supported': '🚫' };
-  return `<span class="compatibility-rating">${map[rating] || '❓'}</span>`;
+  const dotMap = { 'green': 'green', 'Perfect': 'green', 'yellow': 'yellow', 'red': 'red' };
+  if (dotMap[rating]) {
+    return `<span class="compatibility-rating"><span class="dot dot--${dotMap[rating]}"></span></span>`;
+  }
+  const iconMap = {
+    'not-working':   '<i class="fas fa-circle-xmark" style="color:#f56565"></i>',
+    'not-supported': '<i class="fas fa-ban" style="color:#f56565;vertical-align:middle"></i>'
+  };
+  const icon = iconMap[rating] || '<span class="dot"></span>';
+  return `<span class="compatibility-rating">${icon}</span>`;
 }
 
 function updateTable() {
@@ -759,6 +807,18 @@ function checkForGameParameter() {
         filterState.store = normalized;
         applyFilters();
       }
+    }
+
+    // ?search=mafia — carries the games-hub search box's text over when the
+    // user hits Enter (form posts here). Without this, the term gets lost
+    // and the visitor sees the unfiltered table. The search input was
+    // already painted before this runs, so also refresh its visible value.
+    const searchTerm = params.get('search');
+    if (searchTerm) {
+      filterState.search = searchTerm;
+      const searchInput = document.querySelector('.filter-bar__search');
+      if (searchInput) searchInput.value = searchTerm;
+      applyFilters();
     }
   } catch (err) {
     console.error('Error processing URL parameters:', err);

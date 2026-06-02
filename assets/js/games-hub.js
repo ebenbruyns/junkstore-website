@@ -232,16 +232,19 @@
   }
 
   function getRatingIcon(rating) {
-    const map = {
-      'green': '🟢',
-      'yellow': '🟡',
-      'red': '🔴',
-      'broken': '⛔',
-      'not-working': '⛔',
-      'unsupported': '⚫',
-      'not-supported': '⚫'
+    const dotMap = {
+      'green': 'green',
+      'yellow': 'yellow',
+      'red': 'red'
     };
-    return map[rating] || '⚪';
+    if (dotMap[rating]) return `<span class="dot dot--${dotMap[rating]}"></span>`;
+    const iconMap = {
+      'broken':        '<i class="fas fa-circle-xmark" style="color:#f56565"></i>',
+      'not-working':   '<i class="fas fa-circle-xmark" style="color:#f56565"></i>',
+      'unsupported':   '<i class="fas fa-ban" style="color:#f56565;vertical-align:middle"></i>',
+      'not-supported': '<i class="fas fa-ban" style="color:#f56565;vertical-align:middle"></i>'
+    };
+    return iconMap[rating] || '<span class="dot"></span>';
   }
 
   // Compare date strings like "Apr '26" or "March '25"
