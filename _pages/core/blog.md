@@ -271,5 +271,12 @@ document.addEventListener('DOMContentLoaded', function() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   }
+
+  // Auto-filter from ?category=... URL param (e.g. linked from "See all tips" on tutorials hub)
+  var urlCategory = new URLSearchParams(window.location.search).get('category');
+  if (urlCategory) {
+    var matchingPill = document.querySelector('.blog-filter-pill[data-category="' + urlCategory.replace(/"/g, '\\"') + '"]');
+    if (matchingPill) matchingPill.click();
+  }
 });
 </script>
