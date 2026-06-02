@@ -1,8 +1,8 @@
-{% case include.rating %}
-{% when 'green' %}🟢
-{% when 'yellow' %}🟡
-{% when 'red' %}🔴
-{% when 'broken' %}⛔
-{% when 'unsupported' %}🚫
-{% else %}⚪
-{% endcase %}
+{%- case include.rating -%}
+{%- when 'green' -%}<span class="dot dot--green" aria-label="Works out of the box"></span>
+{%- when 'yellow' -%}<span class="dot dot--yellow" aria-label="Minor setup needed"></span>
+{%- when 'red' -%}<span class="dot dot--red" aria-label="Advanced setup needed"></span>
+{%- when 'broken' -%}<i class="fas fa-circle-xmark" style="color:#f56565" aria-label="Not working"></i>
+{%- when 'unsupported' -%}<i class="fas fa-ban" style="color:#f56565;vertical-align:middle" aria-label="Unsupported"></i>
+{%- else -%}<span class="dot" aria-label="Untested"></span>
+{%- endcase -%}
