@@ -7,6 +7,11 @@ permalink: /tutorials/ubisoft-games/
 categories: ["Universal"]
 tags: ["ubisoft", "third-party-launchers", "epic-games", "both-versions"]
 difficulty: "Advanced"
+category: both
+section: configuration
+order: 7
+card_title: 'Play Ubisoft Connect Games'
+card_blurb: 'Install Ubisoft Connect and launch Ubisoft games through Epic Games Store'
 ---
 {% include content-schema.html type="tutorial" id="ubisoft-games" %}
 

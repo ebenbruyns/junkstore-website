@@ -7,6 +7,11 @@ permalink: /tutorials/cpp-runtime/
 categories: ["Universal"]
 tags: ["c++", "runtime", "dependencies", "troubleshooting", "both-versions"]
 difficulty: "Intermediate"
+category: both
+section: configuration
+order: 6
+card_title: 'Install C++ Runtime'
+card_blurb: 'Fix game crashes and missing DLL errors by installing Visual C++ redistributables'
 ---
 {% include content-schema.html type="tutorial" id="cpp-runtime" %}
 

@@ -7,6 +7,11 @@ permalink: /tutorials/gog-extension/
 categories: ["Decky Plugin"]
 tags: ["gog", "extension", "decky-plugin", "installation"]
 difficulty: "Intermediate"
+category: decky
+section: installation
+order: 3
+card_title: 'GOG Extension Install Guide'
+card_blurb: 'Step-by-step guide on downloading and installing the GOG Extension'
 ---
 {% include content-schema.html type="tutorial" id="gogextension" %}
 

@@ -9,6 +9,11 @@ redirect_from:
 categories: ["Universal"]
 tags: ["wine-cellar", "compatibility", "proton", "ge-proton", "both-versions"]
 difficulty: "Advanced"
+category: both
+section: configuration
+order: 3
+card_title: 'How to Install Wine Cellar Plugin'
+card_blurb: 'Step-by-step guide on installing WineCellar to manage compatibility tools'
 ---
 {% include content-schema.html type="tutorial" id="wine-cellar" %}
 

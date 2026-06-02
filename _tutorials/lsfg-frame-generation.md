@@ -7,6 +7,11 @@ permalink: /tutorials/lsfg-frame-generation/
 categories: ["Universal"]
 tags: ["lsfg", "frame-generation", "performance", "both-versions"]
 difficulty: "Intermediate"
+category: both
+section: configuration
+order: 5
+card_title: 'Enable LSFG Frame Generation'
+card_blurb: 'Step-by-step guide on how to enable LSFG frame generation'
 ---
 {% include content-schema.html type="tutorial" id="lsfg-frame-generation" %}
 

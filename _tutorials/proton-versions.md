@@ -9,6 +9,11 @@ redirect_from:
 categories: ["Universal"]
 tags: ["proton", "compatibility", "both-versions"]
 difficulty: "Intermediate"
+category: both
+section: configuration
+order: 2
+card_title: 'How to Check/Change Proton Version'
+card_blurb: 'Step-by-step guide on how to check and change your Proton version'
 ---
 {% include content-schema.html type="tutorial" id="proton-versions" %}
 

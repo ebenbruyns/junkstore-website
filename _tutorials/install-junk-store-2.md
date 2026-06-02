@@ -4,6 +4,11 @@ title: "How to Install Junk Store Pro"
 description: "Install Junk Store Pro on Steam Deck. Step-by-step guide to download and set up the standalone app for Epic, GOG, Amazon & itch games in Game Mode."
 excerpt: "Download and install Junk Store Pro standalone app for Epic, GOG, Amazon and itch games"
 permalink: /tutorials/install-junk-store-2/
+category: pro
+section: installation
+order: 2
+card_title: 'Install Junk Store Pro'
+card_blurb: 'Guide on downloading and installing Junk Store Pro'
 ---
 {% include content-schema.html type="tutorial" id="install-junk-store-2" %}
 

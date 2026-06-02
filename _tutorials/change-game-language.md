@@ -6,6 +6,11 @@ excerpt: "Set your preferred language for Epic, GOG, or Amazon games directly in
 permalink: /tutorials/change-game-language/
 redirect_from:
   - /posts/m-how-to-change-global-language-settings-for-epic/
+category: both
+section: configuration
+order: 4
+card_title: 'Change Game Language Settings'
+card_blurb: 'Change your Epic, GOG, or Amazon game language settings directly in Game Mode'
 ---
 {% include content-schema.html type="tutorial" id="change-game-language" %}
 

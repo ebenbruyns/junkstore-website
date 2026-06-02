@@ -10,6 +10,11 @@ redirect_from:
 categories: ["Universal"]
 tags: ["oauth", "authentication", "epic-games", "login", "both-versions"]
 difficulty: "Beginner"
+category: both
+section: configuration
+order: 1
+card_title: 'How to Login using OAuth'
+card_blurb: 'Step-by-step guide on logging in via third party logins'
 ---
 {% include content-schema.html type="tutorial" id="oauth-login" %}
 
