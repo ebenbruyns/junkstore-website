@@ -4,6 +4,8 @@ layout: junkstore-default
 
 <article class="js-page">
   <div class="js-container">
+    {% include breadcrumb.html %}
+
     {% unless page.hide_title %}
     {% if page.hero_title or page.title %}
     <header class="js-page__header">
