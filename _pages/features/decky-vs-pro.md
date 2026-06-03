@@ -747,7 +747,7 @@ excerpt: "Every feature, side by side. See exactly what Pro unlocks for your Ste
   <div class="demo-grid">
     <div class="demo-card" onclick="toggleDemo(this)">
       <div class="demo-thumbnail">
-        <img src="/assets/images/jspro/gallery/download-still.jpg" alt="Download Queue" onerror="this.style.display='none'">
+        <img src="/assets/images/jspro/gallery/download-still.webp" alt="Download Queue" onerror="this.style.display='none'">
         <video muted loop playsinline preload="none">
           <source src="/assets/images/jspro/gallery/download.webm" type="video/webm">
         </video>
@@ -761,7 +761,7 @@ excerpt: "Every feature, side by side. See exactly what Pro unlocks for your Ste
 
     <div class="demo-card" onclick="toggleDemo(this)">
       <div class="demo-thumbnail">
-        <img src="/assets/images/jspro/gallery/dependencies-still.jpg" alt="Install Dependencies" onerror="this.style.display='none'">
+        <img src="/assets/images/jspro/gallery/dependencies-still.webp" alt="Install Dependencies" onerror="this.style.display='none'">
         <video muted loop playsinline preload="none">
           <source src="/assets/images/jspro/gallery/dependencies.webm" type="video/webm">
         </video>
@@ -775,7 +775,7 @@ excerpt: "Every feature, side by side. See exactly what Pro unlocks for your Ste
 
     <div class="demo-card" onclick="toggleDemo(this)">
       <div class="demo-thumbnail">
-        <img src="/assets/images/jspro/gallery/language-still.jpg" alt="Language Selection" onerror="this.style.display='none'">
+        <img src="/assets/images/jspro/gallery/language-still.webp" alt="Language Selection" onerror="this.style.display='none'">
         <video muted loop playsinline preload="none">
           <source src="/assets/images/jspro/gallery/languageselection.webm" type="video/webm">
         </video>

@@ -44,7 +44,7 @@ free_games_aliases: []
 # Images
 banner_image: "https://images.gog.com/36f72fd7a6c8f18c5bb058998a1386a9fb02a5a336cf52ed82bba9139e51139f.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/763b0c2e1f250bac5b3071066999e4cb35d5f3629c24f896740d42c29464b450.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1005340/header.jpg"
 
 # Technical Details
 controller_input: "native"

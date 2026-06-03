@@ -74,9 +74,9 @@ cant_test_linux: false
 native_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
+hltb_main: "8.5 Hours"
+hltb_main_extra: "9 Hours"
+hltb_completionist: "9.5 Hours"
 hltb_url: "https://howlongtobeat.com/game/38801"
 
 # Links

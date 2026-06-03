@@ -33,7 +33,7 @@ game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"5641","name":"bundle"},{"id":"3345","name":"dino"}]
-size: ""
+size: "474 MB"
 franchise_siblings: [{"rawg_id":59151,"slug":"dino-crisis-3","name":"Dino Crisis 3"},{"rawg_id":59150,"slug":"dino-stalker","name":"Dino Stalker"},{"rawg_id":52872,"slug":"dino-crisis-2-2011","name":"Dino Crisis 2"}]
 franchise_slug: "dino-crisis|dino-crisis-2-2011|dino-crisis-3|dino-stalker"
 igdb_url: "https://www.igdb.com/games/dino-crisis--3"
@@ -75,9 +75,9 @@ cant_test_linux: false
 native_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
+hltb_main: "6.5 hrs"
+hltb_main_extra: "8.5 hrs"
+hltb_completionist: "10 hrs"
 hltb_url: "https://howlongtobeat.com/game/2561"
 
 # Links
@@ -85,7 +85,7 @@ store_url: "https://www.gog.com/en/game/dino_crisis_bundle"
 protondb_url: "https://www.protondb.com/app/4249130"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dino_Crisis"
-metacritic_score: 
+metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/dino-crisis/"
 
 # Cross-Catalog IDs (Game Catalog API)

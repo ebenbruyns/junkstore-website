@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-02T00:24:35.729Z",
-  "total_games": 1006,
+  "generated_at": "2026-06-03T03:04:00.469Z",
+  "total_games": 1007,
   "storefronts": {
     "Epic": {
       "total": 480,
@@ -13923,6 +13923,18 @@
       "controller_input": "touch-screen",
       "requires_eac_runtime": false,
       "databaseId": "107078"
+    },
+    {
+      "slug": "alone-with-you",
+      "title": "Alone With You",
+      "storefront": "itch.io",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "BancyCo",
+      "controller_input": "native",
+      "databaseId": ""
     },
     {
       "slug": "amelie",

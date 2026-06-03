@@ -94,7 +94,7 @@ This week featuring Bō: Path of the Teal Lotus and Ashworld.
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1614440/library_600x900.jpg" alt="Bō: Path of the Teal Lotus" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/gog/b-path-of-the-teal-lotus/">Bō: Path of the Teal Lotus</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/bo-path-of-the-teal-lotus/">Bō: Path of the Teal Lotus</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Flow gracefully through a colorful, hand-drawn 2. 5D action platformer inspired by Japanese folklore.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>

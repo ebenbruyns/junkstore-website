@@ -110,7 +110,7 @@ known_issues:
 
 # Meta
 database_id: "1578751750"
-is_featured: false
+is_featured: true
 owned: true
 ---
 

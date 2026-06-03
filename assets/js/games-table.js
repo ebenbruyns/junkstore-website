@@ -21,13 +21,27 @@ const filterState = {
   search: ''               // free-text
 };
 
+// Inline SVG rating icons for broken / unsupported — no Font Awesome dependency,
+// so they render identically in the table cells, the filter legend, and on game
+// pages (which load no FA). Mirrors _includes/game-page-status-icon.html.
+function ratingIcon(type, gap) {
+  const m = gap ? 'margin-right:.45em;' : '';
+  if (type === 'broken') {
+    return `<svg viewBox="0 0 16 16" width="0.95em" height="0.95em" style="vertical-align:middle;${m}" role="img" aria-label="Broken"><circle cx="8" cy="8" r="8" fill="#f56565"/><path d="M5.3 5.3 10.7 10.7M10.7 5.3 5.3 10.7" stroke="#16181d" stroke-width="1.8" stroke-linecap="round"/></svg>`;
+  }
+  if (type === 'unsupported') {
+    return `<svg viewBox="0 0 16 16" width="0.95em" height="0.95em" style="vertical-align:middle;${m}" role="img" aria-label="Unsupported"><circle cx="8" cy="8" r="6.7" fill="none" stroke="#f56565" stroke-width="1.8"/><path d="M3.7 3.7 12.3 12.3" stroke="#f56565" stroke-width="1.8" stroke-linecap="round"/></svg>`;
+  }
+  return '';
+}
+
 const RATING_OPTIONS = [
   { value: 'perfect',     label: '<span class="dot dot--green"></span>Works',         match: r => r === 'green' || r === 'perfect' },
   { value: 'yellow',      label: '<span class="dot dot--yellow"></span>Minor setup',  match: r => r === 'yellow' },
   { value: 'red',         label: '<span class="dot dot--red"></span>Advanced setup',  match: r => r === 'red' },
-  { value: 'broken',      label: '<i class="fas fa-circle-xmark" style="color:#f56565;margin-right:.45em"></i>Broken',     match: r => r === 'not-working' },
-  { value: 'unsupported', label: '<i class="fas fa-ban" style="color:#f56565;vertical-align:middle;margin-right:.45em"></i>Unsupported',             match: r => r === 'not-supported' },
-  { value: 'untested',    label: '<span class="dot"></span>Untested',                                                       match: r => !r || !['green','perfect','yellow','red','not-working','not-supported'].includes(r) }
+  { value: 'broken',      label: ratingIcon('broken', true) + 'Broken',               match: r => r === 'broken' },
+  { value: 'unsupported', label: ratingIcon('unsupported', true) + 'Unsupported',     match: r => r === 'unsupported' },
+  { value: 'untested',    label: '<span class="dot"></span>Untested',                 match: r => !r || !['green','perfect','yellow','red','broken','unsupported'].includes(r) }
 ];
 
 const STORE_OPTIONS = [
@@ -710,17 +724,19 @@ function debounce(fn, ms) {
 // ---- Table rendering -------------------------------------------------------
 
 function getCompatibilityDisplay(rating) {
-  if (!rating) return '<span class="compatibility-na">Not tested</span>';
-  const dotMap = { 'green': 'green', 'Perfect': 'green', 'yellow': 'yellow', 'red': 'red' };
-  if (dotMap[rating]) {
-    return `<span class="compatibility-rating"><span class="dot dot--${dotMap[rating]}"></span></span>`;
+  // Keep in sync with the rating legend (RATING_OPTIONS) + game-page-status-icon.html
+  // so table cells, the filter legend, and game pages all show the same 6 states.
+  const dot = (cls, label) =>
+    `<span class="compatibility-rating"><span class="${cls}" title="${label}" aria-label="${label}"></span></span>`;
+  switch (rating) {
+    case 'green':
+    case 'perfect':     return dot('dot dot--green', 'Works out of the box');
+    case 'yellow':      return dot('dot dot--yellow', 'Some setup required');
+    case 'red':         return dot('dot dot--red', 'Advanced setup required');
+    case 'broken':      return `<span class="compatibility-rating" title="Currently broken">${ratingIcon('broken', false)}</span>`;
+    case 'unsupported': return `<span class="compatibility-rating" title="Pro only">${ratingIcon('unsupported', false)}</span>`;
+    default:            return dot('dot', 'Not tested'); // empty / unknown -> grey untested dot
   }
-  const iconMap = {
-    'not-working':   '<i class="fas fa-circle-xmark" style="color:#f56565"></i>',
-    'not-supported': '<i class="fas fa-ban" style="color:#f56565;vertical-align:middle"></i>'
-  };
-  const icon = iconMap[rating] || '<span class="dot"></span>';
-  return `<span class="compatibility-rating">${icon}</span>`;
 }
 
 function updateTable() {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T01:56:21.142Z",
+  "generated_at": "2026-06-03T03:04:00.497Z",
   "games": [
     {
       "store": "epic",
@@ -88,7 +88,7 @@
       "post_url": "/blog/games-tested-2026-05-28/",
       "title": "Tomb Raider I-III Remastered Starring Lara Croft",
       "standalone_rating": "green",
-      "icon_image": "",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2478970/header.jpg",
       "vertical_artwork": "https://images.gog.com/804bc8bb865bf856939465a5724a63b98062bc4285e46f41e24c977fcc99d692.jpg?namespace=gamesdb"
     },
     {

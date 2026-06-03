@@ -89,14 +89,14 @@ metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/the-outer-worlds/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: "7413"
+opencritic_id: "7413/the-outer-worlds"
 opencritic_url: "https://opencritic.com/game/7413/-"
 opencritic_score: 83
 opencritic_review_count: 215
 twitch_id: ""
 twitch_url: ""
-playstation_id: ""
-playstation_url: ""
+playstation_id: "232817"
+playstation_url: "https://store.playstation.com/en-us/concept/232817"
 xbox_id: "9MWD2Z8L1FBQ"
 xbox_url: "https://www.xbox.com/games/store/-/9MWD2Z8L1FBQ"
 geforcenow_id: ""
