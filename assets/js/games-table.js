@@ -59,6 +59,12 @@ async function loadGamesData() {
     const response = await fetch('/assets/data/games-table.json');
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     gamesData = await response.json();
+    // Normalize legacy storefront label: the data exports "itch.io" but the rest
+    // of the site (page dirs /games/itch/, badge CSS .store-badge.itch, filters)
+    // expects plain "itch". Fixing it here keeps badges, links + filters working.
+    if (Array.isArray(gamesData.games)) {
+      gamesData.games.forEach(g => { if (g.storefront === 'itch.io') g.storefront = 'itch'; });
+    }
     console.log(`✅ Loaded ${gamesData.total_games} games`);
 
     populateStats();
@@ -87,15 +93,53 @@ async function loadGamesData() {
 }
 
 function populateStats() {
+  // Count from the (normalized) games array rather than the precomputed
+  // storefronts summary — the export under-counts itch (buckets it as "itch.io"),
+  // and counting live guarantees the cards always match the table.
+  const games = gamesData.games || [];
+  const countBy = store => games.filter(g => g.storefront === store).length;
+  // Each entry is a store filter toggle; "Total Games" (data-store="All") clears it.
+  const item = (store, count, label) =>
+    `<button type="button" class="stat-item stat-item--filter" data-store="${store}" aria-pressed="false">
+      <span class="stat-number">${count}</span><span class="stat-label">${label}</span>
+    </button>`;
   document.getElementById('gamesStats').innerHTML = `
     <div class="stats-grid">
-      <div class="stat-item"><span class="stat-number">${gamesData.total_games}</span><span class="stat-label">Total Games</span></div>
-      <div class="stat-item"><span class="stat-number">${gamesData.storefronts.Epic.total}</span><span class="stat-label">Epic Games</span></div>
-      <div class="stat-item"><span class="stat-number">${gamesData.storefronts.GOG.total}</span><span class="stat-label">GOG</span></div>
-      <div class="stat-item"><span class="stat-number">${gamesData.storefronts.Amazon.total}</span><span class="stat-label">Amazon</span></div>
-      <div class="stat-item"><span class="stat-number">${gamesData.storefronts.itch.total}</span><span class="stat-label">itch</span></div>
+      ${item('All', gamesData.total_games, 'Total Games')}
+      ${item('Epic', countBy('Epic'), 'Epic Games')}
+      ${item('GOG', countBy('GOG'), 'GOG')}
+      ${item('Amazon', countBy('Amazon'), 'Amazon')}
+      ${item('itch', countBy('itch'), 'itch')}
     </div>
   `;
+  updateStatActive();
+}
+
+// Highlight the stat-row entry matching the active store filter.
+function updateStatActive() {
+  document.querySelectorAll('#gamesStats [data-store]').forEach(el => {
+    const active = el.dataset.store === filterState.store;
+    el.classList.toggle('stat-item--active', active);
+    el.setAttribute('aria-pressed', active ? 'true' : 'false');
+  });
+}
+
+// Clicking a store in the stats row filters the table to it (toggle off / "Total
+// Games" returns to all). Reuses the same filter path as the Store pill.
+function bindStatRowClicks() {
+  const stats = document.getElementById('gamesStats');
+  if (!stats || stats.dataset.clickBound) return;
+  stats.dataset.clickBound = '1';
+  stats.addEventListener('click', e => {
+    const btn = e.target.closest('[data-store]');
+    if (!btn) return;
+    const store = btn.dataset.store;
+    const next = (store === 'All' || filterState.store === store) ? 'All' : store;
+    setFilter('store', next);
+    // Pull the results into view on small screens (no-op when already visible).
+    document.querySelector('.games-table-wrapper')
+      ?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
 }
 
 function sortGames() {
@@ -159,6 +203,7 @@ function applyFilters() {
   currentPage = 1;
   updateTable();
   renderFilterBarPills();
+  updateStatActive();
   updateMobileBadge();
   if (document.querySelector('.filter-drawer')) {
     renderMobileDrawerBody();
@@ -829,6 +874,7 @@ function checkForGameParameter() {
 
 function setupEventListeners() {
   bindRowClicks();
+  bindStatRowClicks();
 
   const backToTop = document.getElementById('backToTop');
   if (backToTop) {

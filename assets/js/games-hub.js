@@ -79,10 +79,17 @@
       }
     });
 
-    // Hide suggestions on escape
+    // Escape hides suggestions; Enter opens the full table filtered to the term
+    // (e.g. "Fallout" -> all Fallout games). The table page reads ?search=.
     input.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         suggestions.classList.remove('active');
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        const query = input.value.trim();
+        if (query) {
+          window.location.href = `/games/tested/?search=${encodeURIComponent(query)}`;
+        }
       }
     });
   }

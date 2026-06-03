@@ -145,6 +145,25 @@
 
 /* Compatibility ratings — flex-center so dots and emoji indicators align
    consistently (dots use vertical-align:middle, emojis use baseline) */
+/* Status dot — CSS-only colored circle, used in compat cells and rating filters.
+   (Canonical copy lives in the dormant landing-pages.scss; defined here so the
+   dots actually render on the games table and filter popovers.) */
+.dot {
+    display: inline-block;
+    width: 0.95em;
+    height: 0.95em;
+    border-radius: 50%;
+    background: $junkstore-gray-text;
+    vertical-align: middle;
+    margin-right: 0.45em;
+    margin-bottom: 0.15em;
+    flex-shrink: 0;
+
+    &--green  { background: $junkstore-success; }
+    &--yellow { background: $junkstore-warning; }
+    &--red    { background: $junkstore-danger; }
+}
+
 .games-table-wrapper .compatibility-rating {
     font-size: 1.2rem;
     display: inline-flex;
@@ -234,17 +253,19 @@
     font-weight: 600 !important;
 }
 
-/* Column widths */
-.games-table-wrapper #gamesTable th:nth-child(1),
-.games-table-wrapper #gamesTable td:nth-child(1) { width: 40%; }
-.games-table-wrapper #gamesTable th:nth-child(2),
-.games-table-wrapper #gamesTable td:nth-child(2) { width: 15%; }
-.games-table-wrapper #gamesTable th:nth-child(3),
-.games-table-wrapper #gamesTable td:nth-child(3) { width: 15%; }
-.games-table-wrapper #gamesTable th:nth-child(4),
-.games-table-wrapper #gamesTable td:nth-child(4) { width: 15%; }
-.games-table-wrapper #gamesTable th:nth-child(5),
-.games-table-wrapper #gamesTable td:nth-child(5) { width: 15%; }
+/* Column widths (desktop table only - card layout below 769px uses full-width blocks) */
+@media (min-width: 769px) {
+  .games-table-wrapper #gamesTable th:nth-child(1),
+  .games-table-wrapper #gamesTable td:nth-child(1) { width: 40%; }
+  .games-table-wrapper #gamesTable th:nth-child(2),
+  .games-table-wrapper #gamesTable td:nth-child(2) { width: 15%; }
+  .games-table-wrapper #gamesTable th:nth-child(3),
+  .games-table-wrapper #gamesTable td:nth-child(3) { width: 15%; }
+  .games-table-wrapper #gamesTable th:nth-child(4),
+  .games-table-wrapper #gamesTable td:nth-child(4) { width: 15%; }
+  .games-table-wrapper #gamesTable th:nth-child(5),
+  .games-table-wrapper #gamesTable td:nth-child(5) { width: 15%; }
+}
 
 /* Column alignments */
 .games-table-wrapper #gamesTable th:nth-child(1) { text-align: center; }
@@ -847,6 +868,26 @@ body.filter-drawer-open { overflow: hidden; }
     margin-top: 2px;
     letter-spacing: 0.02em;
     color: #ccc;
+}
+
+/* Clickable store entries in the stats row — toggle the table's store filter. */
+.stat-item--filter {
+    border: none;
+    background: transparent;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 6px 4px;
+    border-radius: 6px;
+    transition: background 0.15s ease;
+
+    &:hover { background: rgba(255, 255, 255, 0.06); }
+    &:focus-visible { outline: none; box-shadow: 0 0 0 2px $junkstore-accent; }
+}
+
+.stat-item--active {
+    background: rgba($junkstore-accent, 0.16);
+
+    .stat-label { color: $junkstore-accent; }
 }
 
 /* Compatibility Legend */
