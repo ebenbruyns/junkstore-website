@@ -1,54 +1,6 @@
 {
-  "generated_at": "2026-06-03T00:16:19.447Z",
+  "generated_at": "2026-06-06T03:08:42.674Z",
   "games": [
-    {
-      "id": "manual_1777579884068_pinball-spire",
-      "title": "Pinball Spire",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/pinball-spire-gog/dp/amzn1.pg.item.76919ab0-9718-4c3d-9433-9484478f32b0?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fc1c095aa9760c31002088b35a853c3346e8395c216f85eba33f5102833f85514.png&w=480&output=webp&q=80",
-      "end_date": "2026-06-03T11:59:59.000Z",
-      "end_date_formatted": "Wed, 3 Jun · 11:59 UTC",
-      "first_seen": "2026-04-30 20:11:24",
-      "original_price": "$14.99"
-    },
-    {
-      "id": "gp-3658",
-      "title": "LONESTAR",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/p/lonestar-83f143",
-      "image": "https://www.gamerpower.com/offers/1b/6a185ab4dbc42.jpg",
-      "end_date": "2026-06-04T15:00:00.000Z",
-      "end_date_formatted": "Thu, 4 Jun · 15:00 UTC",
-      "first_seen": "2026-05-28 20:42:28",
-      "original_price": "$12.99"
-    },
-    {
-      "id": "gp-3657",
-      "title": "Calico",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/p/calico",
-      "image": "https://www.gamerpower.com/offers/1b/6a18599326aa5.jpg",
-      "end_date": "2026-06-04T15:00:00.000Z",
-      "end_date_formatted": "Thu, 4 Jun · 15:00 UTC",
-      "first_seen": "2026-05-28 20:42:28",
-      "original_price": "$11.99"
-    },
-    {
-      "id": "gp-3662",
-      "title": "Bunny Guys!",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/p/bunny-guys-b325b1",
-      "image": "https://www.gamerpower.com/offers/1b/6a199f7d977ec.jpg",
-      "end_date": "2026-06-04T15:00:00.000Z",
-      "end_date_formatted": "Thu, 4 Jun · 15:00 UTC",
-      "first_seen": "2026-05-29 20:04:06",
-      "original_price": "$4.99"
-    },
     {
       "id": "manual_1778185556623_mafia-iii-definitive-edition",
       "title": "Mafia II: Definitive Edition",
@@ -72,6 +24,30 @@
       "end_date_formatted": "Wed, 10 Jun · 12:00 UTC",
       "first_seen": "2026-05-07 20:25:57",
       "original_price": "$24.99"
+    },
+    {
+      "id": "gp-3668",
+      "title": "Songs of Conquest",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/songs-of-conquest",
+      "image": "https://www.gamerpower.com/offers/1b/6a2194d7915ac.jpg",
+      "end_date": "2026-06-11T15:00:00.000Z",
+      "end_date_formatted": "Thu, 11 Jun · 15:00 UTC",
+      "first_seen": "2026-06-04 20:01:49",
+      "original_price": "$29.99"
+    },
+    {
+      "id": "gp-3667",
+      "title": "Rogue Waters",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/rogue-waters-9764d6",
+      "image": "https://www.gamerpower.com/offers/1b/6a2193ea2f810.jpg",
+      "end_date": "2026-06-11T15:00:00.000Z",
+      "end_date_formatted": "Thu, 11 Jun · 15:00 UTC",
+      "first_seen": "2026-06-04 20:01:49",
+      "original_price": "$29.99"
     },
     {
       "id": "manual_1779403728927_palindrome-syndrome-escape-room",
@@ -158,6 +134,30 @@
       "original_price": null
     },
     {
+      "id": "manual_1780444158499_xcom-chimera-squad",
+      "title": "XCOM: Chimera Squad",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/xcom-chimera-squad-gog/dp/amzn1.pg.item.aa22d9f6-a898-4be7-a6df-50c3561b41b9?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F91kHFECmCAL.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-07-04T00:00:00.000Z",
+      "end_date_formatted": "Sat, 4 Jul · 00:00 UTC",
+      "first_seen": "2026-06-02 23:49:18",
+      "original_price": null
+    },
+    {
+      "id": "manual_1780444256090_mafia-iii-definitive-edition",
+      "title": "Mafia III: Definitive Edition",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/mafia-iii-definitive-edition-gog/dp/amzn1.pg.item.2d0579a0-585e-4cc9-be76-a5bdb057c440?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2FA1tvAHh5m%2BL.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-07-04T00:00:00.000Z",
+      "end_date_formatted": "Sat, 4 Jul · 00:00 UTC",
+      "first_seen": "2026-06-02 23:50:56",
+      "original_price": null
+    },
+    {
       "id": "gp-3096",
       "title": "Madness Inside",
       "storefront": "itchio",
@@ -212,8 +212,8 @@
       "website_slug": null,
       "store_url": "https://store.epicgames.com/p/spirit-catcher-93-ee155d",
       "image": "https://www.gamerpower.com/offers/1b/6a08f8b2123a0.jpg",
-      "end_date": "2026-06-04T15:00:00.000Z",
-      "end_date_formatted": "Thu, 4 Jun · 15:00 UTC",
+      "end_date": "2026-06-11T15:00:00.000Z",
+      "end_date_formatted": "Thu, 11 Jun · 15:00 UTC",
       "first_seen": "2026-05-16 23:40:50",
       "original_price": "$14.99"
     },
@@ -240,30 +240,6 @@
       "end_date_formatted": null,
       "first_seen": "2026-05-19 22:00:00",
       "original_price": "$6.00"
-    },
-    {
-      "id": "manual_1780444158499_xcom-chimera-squad",
-      "title": "XCOM: Chimera Squad",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/xcom-chimera-squad-gog/dp/amzn1.pg.item.aa22d9f6-a898-4be7-a6df-50c3561b41b9?ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F91kHFECmCAL.jpg&w=480&output=webp&q=80",
-      "end_date": null,
-      "end_date_formatted": null,
-      "first_seen": "2026-06-02 23:49:18",
-      "original_price": null
-    },
-    {
-      "id": "manual_1780444256090_mafia-iii-definitive-edition",
-      "title": "Mafia III: Definitive Edition",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/mafia-iii-definitive-edition-gog/dp/amzn1.pg.item.2d0579a0-585e-4cc9-be76-a5bdb057c440?ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2FA1tvAHh5m%2BL.jpg&w=480&output=webp&q=80",
-      "end_date": null,
-      "end_date_formatted": null,
-      "first_seen": "2026-06-02 23:50:56",
-      "original_price": null
     },
     {
       "id": "manual_1780444346986_claim-tomb-raider-iv-vi-remastered-amazon-luna",
