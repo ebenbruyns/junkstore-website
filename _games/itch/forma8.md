@@ -3,7 +3,7 @@ layout: game-page
 title: "Forma.8 - Steam Deck Compatibility"
 game_title: "Forma.8"
 slug: "forma8"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/forma8/
 

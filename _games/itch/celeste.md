@@ -3,7 +3,7 @@ layout: game-page
 title: "Celeste - Steam Deck Compatibility"
 game_title: "Celeste"
 slug: "celeste"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/celeste/
 

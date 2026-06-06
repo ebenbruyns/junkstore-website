@@ -3,7 +3,7 @@ layout: game-page
 title: "Space Grunts - Steam Deck Compatibility"
 game_title: "Space Grunts"
 slug: "space-grunts"
-storefront: "gog"
+storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/space-grunts/
 

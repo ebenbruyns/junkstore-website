@@ -3,7 +3,7 @@ layout: game-page
 title: "A Short Hike - Steam Deck Compatibility"
 game_title: "A Short Hike"
 slug: "a-short-hike"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-short-hike/
 

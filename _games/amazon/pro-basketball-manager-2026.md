@@ -3,7 +3,7 @@ layout: game-page
 title: "Pro Basketball Manager 2026 - Steam Deck Compatibility"
 game_title: "Pro Basketball Manager 2026"
 slug: "pro-basketball-manager-2026"
-storefront: "amazon"
+storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/pro-basketball-manager-2026/
 

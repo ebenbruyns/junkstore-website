@@ -3,7 +3,7 @@ layout: game-page
 title: "WaveCrash!! - Steam Deck Compatibility"
 game_title: "WaveCrash!!"
 slug: "wavecrash"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/wavecrash/
 

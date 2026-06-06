@@ -2,7 +2,7 @@
 {% if page.header.overlay_image %}
 <link rel="preload" href="{{ page.header.overlay_image }}" as="image" type="image/webp">
 {% endif %}
-<link rel="preload" href="/assets/css/main.css" as="style">
+<link rel="preload" href="/assets/css/main.css?v={{ site.time | date: '%s' }}" as="style">
 
 <!-- Font Display Optimization -->
 <style>

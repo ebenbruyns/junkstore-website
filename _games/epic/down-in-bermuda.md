@@ -3,7 +3,7 @@ layout: game-page
 title: "Down in Bermuda - Steam Deck Compatibility"
 game_title: "Down in Bermuda"
 slug: "down-in-bermuda"
-storefront: "epic"
+storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/down-in-bermuda/
 

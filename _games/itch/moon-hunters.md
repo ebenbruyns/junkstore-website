@@ -3,7 +3,7 @@ layout: game-page
 title: "Moon Hunters - Steam Deck Compatibility"
 game_title: "Moon Hunters"
 slug: "moon-hunters"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/moon-hunters/
 

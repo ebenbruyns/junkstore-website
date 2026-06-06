@@ -3,7 +3,7 @@ layout: game-page
 title: "Hot Brass - Steam Deck Compatibility"
 game_title: "Hot Brass"
 slug: "hot-brass"
-storefront: "gog"
+storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/hot-brass/
 

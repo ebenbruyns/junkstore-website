@@ -3,7 +3,7 @@ layout: game-page
 title: "2064: Read Only Memories INTEGRAL - Steam Deck Compatibility"
 game_title: "2064: Read Only Memories INTEGRAL"
 slug: "2064-read-only-memories-integral"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/2064-read-only-memories-integral/
 

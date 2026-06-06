@@ -3,7 +3,7 @@ layout: game-page
 title: "Help Hurt Hopp - Steam Deck Compatibility"
 game_title: "Help Hurt Hopp"
 slug: "help-hurt-hopp"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/help-hurt-hopp/
 

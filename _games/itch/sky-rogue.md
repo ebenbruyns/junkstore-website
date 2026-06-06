@@ -3,7 +3,7 @@ layout: game-page
 title: "Sky Rogue - Steam Deck Compatibility"
 game_title: "Sky Rogue"
 slug: "sky-rogue"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/sky-rogue/
 

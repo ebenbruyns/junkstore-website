@@ -3,7 +3,7 @@ layout: game-page
 title: "Baba Is You - Steam Deck Compatibility"
 game_title: "Baba Is You"
 slug: "baba-is-you"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/baba-is-you/
 

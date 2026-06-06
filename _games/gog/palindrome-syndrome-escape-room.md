@@ -3,7 +3,7 @@ layout: game-page
 title: "Palindrome Syndrome: Escape Room - Steam Deck Compatibility"
 game_title: "Palindrome Syndrome: Escape Room"
 slug: "palindrome-syndrome-escape-room"
-storefront: "gog"
+storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/palindrome-syndrome-escape-room/
 

@@ -3,7 +3,7 @@ layout: game-page
 title: "Art Sqool - Steam Deck Compatibility"
 game_title: "Art Sqool"
 slug: "art-sqool"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/art-sqool/
 

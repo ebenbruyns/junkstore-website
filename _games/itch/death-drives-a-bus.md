@@ -3,7 +3,7 @@ layout: game-page
 title: "Death Drives a Bus - Steam Deck Compatibility"
 game_title: "Death Drives a Bus"
 slug: "death-drives-a-bus"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/death-drives-a-bus/
 

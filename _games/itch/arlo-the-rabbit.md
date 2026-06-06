@@ -3,7 +3,7 @@ layout: game-page
 title: "Arlo the Rabbit - Steam Deck Compatibility"
 game_title: "Arlo the Rabbit"
 slug: "arlo-the-rabbit"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/arlo-the-rabbit/
 

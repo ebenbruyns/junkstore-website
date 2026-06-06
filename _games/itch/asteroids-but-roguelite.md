@@ -3,7 +3,7 @@ layout: game-page
 title: "Asteroids... But Roguelite - Steam Deck Compatibility"
 game_title: "Asteroids... But Roguelite"
 slug: "asteroids-but-roguelite"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/asteroids-but-roguelite/
 

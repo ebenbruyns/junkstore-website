@@ -3,7 +3,7 @@ layout: game-page
 title: "Air Dasher - Steam Deck Compatibility"
 game_title: "Air Dasher"
 slug: "air-dasher"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/air-dasher/
 

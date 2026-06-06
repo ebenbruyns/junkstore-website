@@ -3,7 +3,7 @@ layout: game-page
 title: "About Love, Hate and the other ones - Steam Deck Compatibility"
 game_title: "About Love, Hate and the other ones"
 slug: "about-love-hate-and-the-other-ones"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/about-love-hate-and-the-other-ones/
 

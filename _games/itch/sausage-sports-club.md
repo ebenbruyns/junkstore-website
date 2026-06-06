@@ -3,7 +3,7 @@ layout: game-page
 title: "Sausage Sports Club - Steam Deck Compatibility"
 game_title: "Sausage Sports Club"
 slug: "sausage-sports-club"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/sausage-sports-club/
 

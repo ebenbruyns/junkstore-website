@@ -3,7 +3,7 @@ layout: game-page
 title: "Baldi's Basics Plus - Steam Deck Compatibility"
 game_title: "Baldi's Basics Plus"
 slug: "baldis-basics-plus"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/baldis-basics-plus/
 

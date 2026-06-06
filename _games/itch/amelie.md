@@ -3,7 +3,7 @@ layout: game-page
 title: "Amelie - Steam Deck Compatibility"
 game_title: "Amelie"
 slug: "amelie"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/amelie/
 

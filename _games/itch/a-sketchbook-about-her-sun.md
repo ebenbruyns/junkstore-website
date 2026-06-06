@@ -3,7 +3,7 @@ layout: game-page
 title: "A Sketchbook About Her Sun - Steam Deck Compatibility"
 game_title: "A Sketchbook About Her Sun"
 slug: "a-sketchbook-about-her-sun"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-sketchbook-about-her-sun/
 

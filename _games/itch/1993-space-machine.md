@@ -3,7 +3,7 @@ layout: game-page
 title: "1993 Space Machine - Steam Deck Compatibility"
 game_title: "1993 Space Machine"
 slug: "1993-space-machine"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/1993-space-machine/
 

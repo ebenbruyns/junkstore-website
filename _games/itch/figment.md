@@ -3,7 +3,7 @@ layout: game-page
 title: "Figment - Steam Deck Compatibility"
 game_title: "Figment"
 slug: "figment"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/figment/
 

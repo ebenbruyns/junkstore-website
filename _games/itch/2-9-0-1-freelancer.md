@@ -3,7 +3,7 @@ layout: game-page
 title: "2   9   0   1  / / FREELANCER - Steam Deck Compatibility"
 game_title: "2   9   0   1  / / FREELANCER"
 slug: "2-9-0-1-freelancer"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/2-9-0-1-freelancer/
 

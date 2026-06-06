@@ -3,7 +3,7 @@ layout: game-page
 title: "Spaß Taxi - Steam Deck Compatibility"
 game_title: "Spaß Taxi"
 slug: "spa-taxi"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/spa-taxi/
 

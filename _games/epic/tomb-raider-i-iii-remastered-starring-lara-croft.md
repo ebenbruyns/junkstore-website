@@ -3,7 +3,7 @@ layout: game-page
 title: "Tomb Raider I-III Remastered Starring Lara Croft - Steam Deck Compatibility"
 game_title: "Tomb Raider I-III Remastered Starring Lara Croft"
 slug: "tomb-raider-i-iii-remastered-starring-lara-croft"
-storefront: "epic"
+storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tomb-raider-i-iii-remastered-starring-lara-croft/
 

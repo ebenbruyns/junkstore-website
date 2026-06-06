@@ -3,7 +3,7 @@ layout: game-page
 title: "Omeganaut - Steam Deck Compatibility"
 game_title: "Omeganaut"
 slug: "omeganaut"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/omeganaut/
 

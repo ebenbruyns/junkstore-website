@@ -3,7 +3,7 @@ layout: game-page
 title: "A Nightmare's Trip - Steam Deck Compatibility"
 game_title: "A Nightmare's Trip"
 slug: "a-nightmares-trip"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-nightmares-trip/
 

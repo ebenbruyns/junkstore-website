@@ -3,7 +3,7 @@ layout: game-page
 title: "Dragon Drop - Steam Deck Compatibility"
 game_title: "Dragon Drop"
 slug: "dragon-drop"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/dragon-drop/
 

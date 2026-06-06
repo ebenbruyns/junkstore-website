@@ -26,12 +26,13 @@ body{margin:0;padding:0;color:#e8e8e8;font-family:"Roboto","Roboto Fallback",-ap
 </style>
 
 <!-- Main stylesheet (includes hero-height-fix.scss with js-* support) -->
-<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"></noscript>
+<!-- ?v= build timestamp busts browser/CDN cache on each deploy so CSS changes (e.g. new .dot rules) aren't served stale -->
+<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}"></noscript>
 
 <!-- Junkstore layout styles - deferred for performance (matches main.css pattern above) -->
-<link rel="preload" href="{{ '/assets/css/junkstore.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ '/assets/css/junkstore.css' | relative_url }}"></noscript>
+<link rel="preload" href="{{ '/assets/css/junkstore.css' | relative_url }}?v={{ site.time | date: '%s' }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ '/assets/css/junkstore.css' | relative_url }}?v={{ site.time | date: '%s' }}"></noscript>
 
 <!-- Hero image preload — preloads page-specific overlay_image if set, otherwise the default site hero on splash layouts (homepage + storefront landing pages). The default hero is rendered as a CSS background-image (per _includes/junkstore/hero.html) so fetchpriority can't be set on an <img> — preload is the only way. Was contributing ~760ms LCP delay on the homepage. -->
 {% if page.header.overlay_image %}

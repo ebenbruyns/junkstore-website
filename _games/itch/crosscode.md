@@ -3,7 +3,7 @@ layout: game-page
 title: "CrossCode - Steam Deck Compatibility"
 game_title: "CrossCode"
 slug: "crosscode"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/crosscode/
 

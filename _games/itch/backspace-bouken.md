@@ -3,7 +3,7 @@ layout: game-page
 title: "Backspace Bouken - Steam Deck Compatibility"
 game_title: "Backspace Bouken"
 slug: "backspace-bouken"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/backspace-bouken/
 

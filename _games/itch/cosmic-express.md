@@ -3,7 +3,7 @@ layout: game-page
 title: "Cosmic Express - Steam Deck Compatibility"
 game_title: "Cosmic Express"
 slug: "cosmic-express"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/cosmic-express/
 

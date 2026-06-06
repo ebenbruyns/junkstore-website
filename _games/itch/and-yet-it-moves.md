@@ -3,7 +3,7 @@ layout: game-page
 title: "And Yet It Moves - Steam Deck Compatibility"
 game_title: "And Yet It Moves"
 slug: "and-yet-it-moves"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/and-yet-it-moves/
 

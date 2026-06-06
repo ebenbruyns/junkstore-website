@@ -3,7 +3,7 @@ layout: game-page
 title: "6 Pack of Craft Games - Steam Deck Compatibility"
 game_title: "6 Pack of Craft Games"
 slug: "6-pack-of-craft-games"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/6-pack-of-craft-games/
 

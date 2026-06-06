@@ -3,7 +3,7 @@ layout: game-page
 title: "Arcade Spirits - Steam Deck Compatibility"
 game_title: "Arcade Spirits"
 slug: "arcade-spirits"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/arcade-spirits/
 

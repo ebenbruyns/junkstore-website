@@ -3,7 +3,7 @@ layout: game-page
 title: "10mg: Snaaak - Steam Deck Compatibility"
 game_title: "10mg: Snaaak"
 slug: "10mg-snaaak"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/10mg-snaaak/
 

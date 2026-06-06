@@ -3,7 +3,7 @@ layout: game-page
 title: "Mutiny Island - Steam Deck Compatibility"
 game_title: "Mutiny Island"
 slug: "mutiny-island"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/mutiny-island/
 

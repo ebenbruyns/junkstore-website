@@ -3,7 +3,7 @@ layout: game-page
 title: "Toree 3D - Steam Deck Compatibility"
 game_title: "Toree 3D"
 slug: "toree-3d"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/toree-3d/
 

@@ -3,7 +3,7 @@ layout: game-page
 title: "Four Horsemen - Steam Deck Compatibility"
 game_title: "Four Horsemen"
 slug: "four-horsemen"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/four-horsemen/
 

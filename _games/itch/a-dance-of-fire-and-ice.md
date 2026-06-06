@@ -3,7 +3,7 @@ layout: game-page
 title: "A Dance of Fire and Ice - Steam Deck Compatibility"
 game_title: "A Dance of Fire and Ice"
 slug: "a-dance-of-fire-and-ice"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-dance-of-fire-and-ice/
 

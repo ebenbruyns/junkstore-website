@@ -3,7 +3,7 @@ layout: game-page
 title: "An American Werewolf in LA - Steam Deck Compatibility"
 game_title: "An American Werewolf in LA"
 slug: "an-american-werewolf-in-la"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/an-american-werewolf-in-la/
 

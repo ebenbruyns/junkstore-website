@@ -3,7 +3,7 @@ layout: game-page
 title: "Sector 781 - Steam Deck Compatibility"
 game_title: "Sector 781"
 slug: "sector-781"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/sector-781/
 

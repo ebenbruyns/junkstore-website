@@ -3,7 +3,7 @@ layout: game-page
 title: "Mitos - Steam Deck Compatibility"
 game_title: "Mitos"
 slug: "mitos"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/mitos/
 

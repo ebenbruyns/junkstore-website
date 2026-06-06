@@ -3,7 +3,7 @@ layout: game-page
 title: "The Mystery Of The Moon - Steam Deck Compatibility"
 game_title: "The Mystery Of The Moon"
 slug: "the-mystery-of-the-moon"
-storefront: "epic"
+storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-mystery-of-the-moon/
 

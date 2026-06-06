@@ -3,7 +3,7 @@ layout: game-page
 title: "LoneStar - Steam Deck Compatibility"
 game_title: "LoneStar"
 slug: "lonestar"
-storefront: "epic"
+storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/lonestar/
 

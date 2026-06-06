@@ -3,7 +3,7 @@ layout: game-page
 title: "Adventure for a Bit - Steam Deck Compatibility"
 game_title: "Adventure for a Bit"
 slug: "adventure-for-a-bit"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/adventure-for-a-bit/
 

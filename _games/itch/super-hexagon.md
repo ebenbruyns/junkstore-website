@@ -3,7 +3,7 @@ layout: game-page
 title: "Super Hexagon - Steam Deck Compatibility"
 game_title: "Super Hexagon"
 slug: "super-hexagon"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/super-hexagon/
 

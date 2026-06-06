@@ -3,7 +3,7 @@ layout: game-page
 title: "Cloud Gardens - Steam Deck Compatibility"
 game_title: "Cloud Gardens"
 slug: "cloud-gardens"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/cloud-gardens/
 

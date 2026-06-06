@@ -3,7 +3,7 @@ layout: game-page
 title: "FutureGrind - Steam Deck Compatibility"
 game_title: "FutureGrind"
 slug: "futuregrind"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/futuregrind/
 

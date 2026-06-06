@@ -3,7 +3,7 @@ layout: game-page
 title: "Alone With You - Steam Deck Compatibility"
 game_title: "Alone With You"
 slug: "alone-with-you"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/alone-with-you/
 

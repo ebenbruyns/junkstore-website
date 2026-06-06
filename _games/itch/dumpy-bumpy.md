@@ -3,7 +3,7 @@ layout: game-page
 title: "Dumpy & Bumpy - Steam Deck Compatibility"
 game_title: "Dumpy & Bumpy"
 slug: "dumpy-bumpy"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/dumpy-bumpy/
 

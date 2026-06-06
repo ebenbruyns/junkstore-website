@@ -3,7 +3,7 @@ layout: game-page
 title: "10mg: Sealed Estate - Steam Deck Compatibility"
 game_title: "10mg: Sealed Estate"
 slug: "10mg-sealed-estate"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/10mg-sealed-estate/
 

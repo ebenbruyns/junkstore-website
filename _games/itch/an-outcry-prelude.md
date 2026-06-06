@@ -3,7 +3,7 @@ layout: game-page
 title: "An Outcry, Prelude - Steam Deck Compatibility"
 game_title: "An Outcry, Prelude"
 slug: "an-outcry-prelude"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/an-outcry-prelude/
 

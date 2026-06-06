@@ -3,7 +3,7 @@ layout: game-page
 title: "A Forgetful Loop - Steam Deck Compatibility"
 game_title: "A Forgetful Loop"
 slug: "a-forgetful-loop"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-forgetful-loop/
 

@@ -3,7 +3,7 @@ layout: game-page
 title: "[Speer] - Steam Deck Compatibility"
 game_title: "[Speer]"
 slug: "speer"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/speer/
 

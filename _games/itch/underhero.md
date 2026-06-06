@@ -3,7 +3,7 @@ layout: game-page
 title: "Underhero - Steam Deck Compatibility"
 game_title: "Underhero"
 slug: "underhero"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/underhero/
 

@@ -3,7 +3,7 @@ layout: game-page
 title: "Angry Video Game Nerd I & II Deluxe - Steam Deck Compatibility"
 game_title: "Angry Video Game Nerd I & II Deluxe"
 slug: "angry-video-game-nerd-i-ii-deluxe"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/angry-video-game-nerd-i-ii-deluxe/
 

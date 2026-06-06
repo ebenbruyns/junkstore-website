@@ -3,7 +3,7 @@ layout: game-page
 title: "ZeroRanger - Steam Deck Compatibility"
 game_title: "ZeroRanger"
 slug: "zeroranger"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/zeroranger/
 

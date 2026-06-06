@@ -3,7 +3,7 @@ layout: game-page
 title: "Calico - Steam Deck Compatibility"
 game_title: "Calico"
 slug: "calico"
-storefront: "epic"
+storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/calico/
 

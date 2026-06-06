@@ -3,7 +3,7 @@ layout: game-page
 title: "Magnibox - Steam Deck Compatibility"
 game_title: "Magnibox"
 slug: "magnibox"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/magnibox/
 

@@ -3,7 +3,7 @@ layout: game-page
 title: "Viral Reload - Steam Deck Compatibility"
 game_title: "Viral Reload"
 slug: "viral-reload"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/viral-reload/
 

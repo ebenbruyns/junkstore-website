@@ -3,7 +3,7 @@ layout: game-page
 title: "A Snake's Tale - Steam Deck Compatibility"
 game_title: "A Snake's Tale"
 slug: "a-snakes-tale"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-snakes-tale/
 

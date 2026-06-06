@@ -3,7 +3,7 @@ layout: game-page
 title: "Macbat 64: Journey of a Nice Chap - Steam Deck Compatibility"
 game_title: "Macbat 64: Journey of a Nice Chap"
 slug: "macbat-64-journey-of-a-nice-chap"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/macbat-64-journey-of-a-nice-chap/
 

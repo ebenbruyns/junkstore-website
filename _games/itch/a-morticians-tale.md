@@ -3,7 +3,7 @@ layout: game-page
 title: "A Mortician's Tale - Steam Deck Compatibility"
 game_title: "A Mortician's Tale"
 slug: "a-morticians-tale"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-morticians-tale/
 

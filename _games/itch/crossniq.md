@@ -3,7 +3,7 @@ layout: game-page
 title: "Crossniq - Steam Deck Compatibility"
 game_title: "Crossniq"
 slug: "crossniq"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/crossniq/
 

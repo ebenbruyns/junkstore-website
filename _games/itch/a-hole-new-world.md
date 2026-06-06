@@ -3,7 +3,7 @@ layout: game-page
 title: "A Hole New World - Steam Deck Compatibility"
 game_title: "A Hole New World"
 slug: "a-hole-new-world"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-hole-new-world/
 

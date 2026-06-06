@@ -3,7 +3,7 @@ layout: game-page
 title: "Sundered - Steam Deck Compatibility"
 game_title: "Sundered"
 slug: "sundered"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/sundered/
 

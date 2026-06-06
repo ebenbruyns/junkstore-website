@@ -3,7 +3,7 @@ layout: game-page
 title: "TowerFall Ascension - Steam Deck Compatibility"
 game_title: "TowerFall Ascension"
 slug: "towerfall-ascension"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/towerfall-ascension/
 

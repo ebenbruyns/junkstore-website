@@ -3,7 +3,7 @@ layout: game-page
 title: "Asterism - Steam Deck Compatibility"
 game_title: "Asterism"
 slug: "asterism"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/asterism/
 
