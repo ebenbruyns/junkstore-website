@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-06-06T03:08:42.674Z",
+  "generated_at": "2026-06-07T22:40:16.874Z",
   "games": [
+    {
+      "id": "gp-3672",
+      "title": "Remothered: Broken Porcelain",
+      "storefront": "gog",
+      "website_slug": null,
+      "store_url": "https://www.gog.com/en/game/remothered_broken_porcelain",
+      "image": "https://www.gamerpower.com/offers/1b/6a25bfb499a3c.jpg",
+      "end_date": "2026-06-08T23:59:00Z",
+      "end_date_formatted": "Mon, 8 Jun · 23:59 UTC",
+      "first_seen": "2026-06-07 19:27:20",
+      "original_price": "$29.99"
+    },
     {
       "id": "manual_1778185556623_mafia-iii-definitive-edition",
       "title": "Mafia II: Definitive Edition",
@@ -48,6 +60,30 @@
       "end_date_formatted": "Thu, 11 Jun · 15:00 UTC",
       "first_seen": "2026-06-04 20:01:49",
       "original_price": "$29.99"
+    },
+    {
+      "id": "gp-3673",
+      "title": "Relaxing Simulator",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/relaxing-simulator-4cca47",
+      "image": "https://www.gamerpower.com/offers/1b/6a25c2413d322.jpg",
+      "end_date": "2026-06-11T15:00:00.000Z",
+      "end_date_formatted": "Thu, 11 Jun · 15:00 UTC",
+      "first_seen": "2026-06-07 19:27:20",
+      "original_price": "$7.99"
+    },
+    {
+      "id": "gp-3671",
+      "title": "Flufftopia (itchio)",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://smokesomefrogs.itch.io/flufftopia",
+      "image": "https://www.gamerpower.com/offers/1b/6a25903df2853.jpg",
+      "end_date": "2026-06-14T23:59:00Z",
+      "end_date_formatted": "Sun, 14 Jun · 23:59 UTC",
+      "first_seen": "2026-06-07 19:27:20",
+      "original_price": "$2.50"
     },
     {
       "id": "manual_1779403728927_palindrome-syndrome-escape-room",
