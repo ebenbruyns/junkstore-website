@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-06T03:45:35.996Z",
-  "total_games": 1007,
+  "generated_at": "2026-06-07T00:53:52.905Z",
+  "total_games": 1011,
   "storefronts": {
     "Epic": {
-      "total": 480,
-      "green_standalone": 418,
-      "green_decky": 428
+      "total": 483,
+      "green_standalone": 421,
+      "green_decky": 431
     },
     "GOG": {
-      "total": 380,
-      "green_standalone": 306,
-      "green_decky": 349
+      "total": 381,
+      "green_standalone": 307,
+      "green_decky": 350
     },
     "Amazon": {
       "total": 75,
@@ -5759,6 +5759,18 @@
       "databaseId": "bd35425c9548494082d002f36601ff45"
     },
     {
+      "slug": "rogue-waters",
+      "id": "f65f1282d47945d0a2462c9590ff810b",
+      "title": "Rogue Waters",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Tripwire Presents",
+      "controller_input": "native"
+    },
+    {
       "slug": "roller-champions",
       "id": "0ad3e510-2277-4fcf-9abb-2c4c9752a167",
       "title": "Roller Champions",
@@ -6169,6 +6181,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1867530"
+    },
+    {
+      "slug": "songs-of-conquest",
+      "id": "537f7351f9fb4b67a2fea2273e9c8277",
+      "title": "Songs of Conquest",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Coffee Stain Publishing",
+      "controller_input": "keyboard-mouse"
     },
     {
       "slug": "songs-of-silence",
@@ -7299,6 +7323,18 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "May '26",
+      "native_linux": false,
+      "publisher": "Aspyr",
+      "controller_input": "native"
+    },
+    {
+      "slug": "tomb-raider-iv-vi-remastered",
+      "id": "41d39dac6c9d43f69a23d4dfca2aa0c0",
+      "title": "Tomb Raider IV-VI Remastered",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
       "native_linux": false,
       "publisher": "Aspyr",
       "controller_input": "native"
@@ -13512,6 +13548,18 @@
       "publisher": "EXOR Studios",
       "controller_input": "native",
       "databaseId": "1135975449"
+    },
+    {
+      "slug": "xcom-chimera-squad",
+      "id": "1914671919",
+      "title": "XCOM: Chimera Squad",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "2K Games",
+      "controller_input": "native"
     },
     {
       "slug": "xcom-enemy-unknown-complete-pack",

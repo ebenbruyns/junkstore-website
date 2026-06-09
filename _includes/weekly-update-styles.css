@@ -51,6 +51,15 @@ blockquote p {
   background: #ff4500;
 }
 
+.support-btn {
+  background: #e67300;
+}
+
+/* Closing CTA line: extra line-height so inline buttons don't collide when they wrap to a second line */
+.cta-line {
+  line-height: 2.4;
+}
+
 .community-btn:hover {
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);

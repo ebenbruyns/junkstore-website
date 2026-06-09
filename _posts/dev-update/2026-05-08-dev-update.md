@@ -2,8 +2,8 @@
 layout: junkstore-post
 title: "Dev Update: Network Game Imports, Native Storefront Clients, and a Public Stability Tracker"
 date: 2026-05-08 15:00:00 +1200
-categories: [News]
-tags: [junk-store, steam-deck]
+categories: [Dev Update]
+tags: [junk-store, steam-deck, dev-update, development]
 slug: "dev-update-may-2026"
 description: "Post-v3 dev update from Junk Store: native Amazon/Epic/GOG clients replace the Flatpaks, multi-account profile switching, install games over the local network, GOG Linux build support, and a public Steam-update stability tracker."
 excerpt: "What's been brewing since Junk Store Pro v3: profile switching across all storefronts, network game imports between Steam Decks, native clients replacing the Flatpaks, and a publicly tracked stability record."

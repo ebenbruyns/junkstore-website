@@ -6,11 +6,12 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 6px 12px;
+  padding: 4px 12px;
   border-radius: 4px;
   text-decoration: none;
   font-weight: 600;
   font-size: 13px;
+  line-height: 1.2; // tight: don't inherit the post body's 1.7 (it inflates button height and causes wrapped rows to overlap)
   transition: all 0.2s ease;
   border: 2px solid transparent;
   margin-left: 8px;
@@ -33,4 +34,14 @@
 .reddit-btn {
   background: #ff4500;
   color: white !important;
+}
+
+.support-btn {
+  background: #e67300;
+  color: white !important;
+}
+
+// Closing CTA line: extra line-height so inline buttons don't collide when they wrap to a second line
+.cta-line {
+  line-height: 2.8;
 }

@@ -25,6 +25,12 @@ layout: junkstore-default
       <h1 class="js-post__title" itemprop="headline">{{ page.title }}</h1>
 
       <div class="js-post__meta">
+        {% if page.author %}
+        <div class="js-post__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <i class="fas fa-user-pen"></i>
+          <span itemprop="name">{{ page.author }}</span>
+        </div>
+        {% endif %}
         <div class="js-post__date">
           <i class="fas fa-calendar-alt"></i>
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">

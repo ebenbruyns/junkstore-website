@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T22:40:16.874Z",
+  "generated_at": "2026-06-08T20:17:44.873Z",
   "games": [
     {
       "id": "gp-3672",
@@ -86,6 +86,30 @@
       "original_price": "$2.50"
     },
     {
+      "id": "manual_1778790558547_survival-fountain-of-youth",
+      "title": "Survival: Fountain of Youth",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/survival-fountain-of-youth-aga/dp/amzn1.pg.item.35fc21f8-36dc-4f75-903b-795b97b13cc5?g=s&ingress=amzn&ref_=SM_SurvivalFountainofYouth_S01_FGWP_CRWN",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fmedia.rawg.io%2Fmedia%2Fscreenshots%2F63a%2F63adf8b34db6cbac2c5a401bd82eec57.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-06-15T00:00:00.000Z",
+      "end_date_formatted": "Mon, 15 Jun · 00:00 UTC",
+      "first_seen": "2026-05-14 20:29:19",
+      "original_price": "$27.99"
+    },
+    {
+      "id": "manual_1778790558547_60-minutes-to-extinction-escape-room",
+      "title": "60 Minutes to Extinction: Escape Room",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/60-minutes-to-extinction-escape-room-gog/dp/amzn1.pg.item.15f8ec7c-efc1-4422-846a-627acfd66b46?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fc6e2d2635913aeca2753ad5a42ccc046283fa84b91f802cef963feb2b4528a22.png&w=480&output=webp&q=80",
+      "end_date": "2026-06-17T00:00:00.000Z",
+      "end_date_formatted": "Wed, 17 Jun · 00:00 UTC",
+      "first_seen": "2026-05-14 20:29:19",
+      "original_price": "$7.99"
+    },
+    {
       "id": "manual_1779403728927_palindrome-syndrome-escape-room",
       "title": "Palindrome Syndrome: Escape Room",
       "storefront": "amazon",
@@ -96,42 +120,6 @@
       "end_date_formatted": "Sun, 21 Jun · 00:00 UTC",
       "first_seen": "2026-05-21 22:48:48",
       "original_price": "$8.19"
-    },
-    {
-      "id": "manual_1778790558547_60-minutes-to-extinction-escape-room",
-      "title": "60 Minutes to Extinction: Escape Room",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/60-minutes-to-extinction-escape-room-gog/dp/amzn1.pg.item.15f8ec7c-efc1-4422-846a-627acfd66b46?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2Fc6e2d2635913aeca2753ad5a42ccc046283fa84b91f802cef963feb2b4528a22.png&w=480&output=webp&q=80",
-      "end_date": "2026-06-24T11:59:59.000Z",
-      "end_date_formatted": "Wed, 24 Jun · 11:59 UTC",
-      "first_seen": "2026-05-14 20:29:19",
-      "original_price": "$7.99"
-    },
-    {
-      "id": "manual_1778790558547_survival-fountain-of-youth",
-      "title": "Survival: Fountain of Youth",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/survival-fountain-of-youth-aga/dp/amzn1.pg.item.35fc21f8-36dc-4f75-903b-795b97b13cc5?g=s&ingress=amzn&ref_=SM_SurvivalFountainofYouth_S01_FGWP_CRWN",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fmedia.rawg.io%2Fmedia%2Fscreenshots%2F63a%2F63adf8b34db6cbac2c5a401bd82eec57.jpg&w=480&output=webp&q=80",
-      "end_date": "2026-06-24T11:59:59.000Z",
-      "end_date_formatted": "Wed, 24 Jun · 11:59 UTC",
-      "first_seen": "2026-05-14 20:29:19",
-      "original_price": "$27.99"
-    },
-    {
-      "id": "manual_1778790558547_lethal-honor-order-of-the-apocalypse",
-      "title": "Lethal Honor - Order of the Apocalypse",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F859ee4dc843d49efaa8c816bd187784d%2Flethal-honor--order-of-the-apocalypse-9rb3i.jpg&w=480&output=webp&q=80",
-      "end_date": "2026-06-24T11:59:59.000Z",
-      "end_date_formatted": "Wed, 24 Jun · 11:59 UTC",
-      "first_seen": "2026-05-14 20:29:19",
-      "original_price": "$42.49"
     },
     {
       "id": "manual_1779403835841_hot-brass",
@@ -170,27 +158,39 @@
       "original_price": null
     },
     {
-      "id": "manual_1780444158499_xcom-chimera-squad",
-      "title": "XCOM: Chimera Squad",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/xcom-chimera-squad-gog/dp/amzn1.pg.item.aa22d9f6-a898-4be7-a6df-50c3561b41b9?ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F91kHFECmCAL.jpg&w=480&output=webp&q=80",
-      "end_date": "2026-07-04T00:00:00.000Z",
-      "end_date_formatted": "Sat, 4 Jul · 00:00 UTC",
-      "first_seen": "2026-06-02 23:49:18",
-      "original_price": null
-    },
-    {
       "id": "manual_1780444256090_mafia-iii-definitive-edition",
       "title": "Mafia III: Definitive Edition",
       "storefront": "amazon",
       "website_slug": null,
       "store_url": "https://luna.amazon.com/claims/mafia-iii-definitive-edition-gog/dp/amzn1.pg.item.2d0579a0-585e-4cc9-be76-a5bdb057c440?ingress=amzn",
       "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2FA1tvAHh5m%2BL.jpg&w=480&output=webp&q=80",
-      "end_date": "2026-07-04T00:00:00.000Z",
-      "end_date_formatted": "Sat, 4 Jul · 00:00 UTC",
+      "end_date": "2026-07-07T00:00:00.000Z",
+      "end_date_formatted": "Tue, 7 Jul · 00:00 UTC",
       "first_seen": "2026-06-02 23:50:56",
+      "original_price": null
+    },
+    {
+      "id": "manual_1778790558547_lethal-honor-order-of-the-apocalypse",
+      "title": "Lethal Honor - Order of the Apocalypse",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/lethal-honor-order-of-the-apocalypse-epic/dp/amzn1.pg.item.f610100a-1240-41f8-84dd-767c2df675b4?g=s&ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F859ee4dc843d49efaa8c816bd187784d%2Flethal-honor--order-of-the-apocalypse-9rb3i.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-07-13T00:00:00.000Z",
+      "end_date_formatted": "Mon, 13 Jul · 00:00 UTC",
+      "first_seen": "2026-05-14 20:29:19",
+      "original_price": "$42.49"
+    },
+    {
+      "id": "manual_1780444346986_claim-tomb-raider-iv-vi-remastered-amazon-luna",
+      "title": "Tomb Raider IV-VI Remastered",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/tomb-raider-iv-vi-remastered-epic/dp/amzn1.pg.item.cba06ec0-64d2-445b-a17b-c3dba13414fe?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2FA1-9rnkEsEL.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-07-18T00:00:00.000Z",
+      "end_date_formatted": "Sat, 18 Jul · 00:00 UTC",
+      "first_seen": "2026-06-02 23:52:26",
       "original_price": null
     },
     {
@@ -216,6 +216,18 @@
       "end_date_formatted": "Thu, 20 Aug · 00:00 UTC",
       "first_seen": "2026-05-21 22:49:44",
       "original_price": "$9.99"
+    },
+    {
+      "id": "manual_1780444158499_xcom-chimera-squad",
+      "title": "XCOM: Chimera Squad",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/xcom-chimera-squad-gog/dp/amzn1.pg.item.aa22d9f6-a898-4be7-a6df-50c3561b41b9?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F91kHFECmCAL.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-08-31T00:00:00.000Z",
+      "end_date_formatted": "Mon, 31 Aug · 00:00 UTC",
+      "first_seen": "2026-06-02 23:49:18",
+      "original_price": null
     },
     {
       "id": "gp_3630",
@@ -276,18 +288,6 @@
       "end_date_formatted": null,
       "first_seen": "2026-05-19 22:00:00",
       "original_price": "$6.00"
-    },
-    {
-      "id": "manual_1780444346986_claim-tomb-raider-iv-vi-remastered-amazon-luna",
-      "title": "Tomb Raider IV-VI Remastered",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/tomb-raider-iv-vi-remastered-epic/dp/amzn1.pg.item.cba06ec0-64d2-445b-a17b-c3dba13414fe?ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2FA1-9rnkEsEL.jpg&w=480&output=webp&q=80",
-      "end_date": null,
-      "end_date_formatted": null,
-      "first_seen": "2026-06-02 23:52:26",
-      "original_price": null
     }
   ]
 }

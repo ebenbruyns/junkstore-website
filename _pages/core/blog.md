@@ -12,6 +12,7 @@ permalink: /blog/
     <button class="blog-filter-pill active" data-category="all">All Posts</button>
     <button class="blog-filter-pill" data-category="Weekly Update">Games Tested</button>
     <button class="blog-filter-pill" data-category="News">News</button>
+    <button class="blog-filter-pill" data-category="Dev Update">Dev Updates</button>
     <button class="blog-filter-pill" data-category="Feature Release">Feature Releases</button>
     <button class="blog-filter-pill" data-category="Tip of the Week">Tips & Tricks</button>
   </div>
