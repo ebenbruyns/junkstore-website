@@ -1,30 +1,6 @@
 {
-  "generated_at": "2026-06-09T20:12:44.201Z",
+  "generated_at": "2026-06-10T20:45:47.987Z",
   "games": [
-    {
-      "id": "manual_1778185556623_mafia-iii-definitive-edition",
-      "title": "Mafia II: Definitive Edition",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/mafia-ii-definitive-edition-gog/dp/amzn1.pg.item.e604b1c9-c80d-48fb-8f08-db31ce376bb7?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2F675f7bf7c242b6c80cb8e91834d01cfc2bc0ac1bb47c7184c8ccf4966ca22423.png&w=480&output=webp&q=80",
-      "end_date": "2026-06-10T00:00:00.000Z",
-      "end_date_formatted": "Wed, 10 Jun · 00:00 UTC",
-      "first_seen": "2026-05-07 20:25:57",
-      "original_price": "$29.99"
-    },
-    {
-      "id": "manual_1778185556623_fruitbus",
-      "title": "Fruitbus",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/fruitbus-gog/dp/amzn1.pg.item.8c20e953-fecb-47ba-9824-89c72c69e7eb?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2F764e8c108138e7a3cb9801f19d2f181df5aa57b3e24999d9ea0bf54f39f57597.png&w=480&output=webp&q=80",
-      "end_date": "2026-06-10T12:00:00.000Z",
-      "end_date_formatted": "Wed, 10 Jun · 12:00 UTC",
-      "first_seen": "2026-05-07 20:25:57",
-      "original_price": "$24.99"
-    },
     {
       "id": "gp-3668",
       "title": "Songs of Conquest",
@@ -60,6 +36,18 @@
       "end_date_formatted": "Thu, 11 Jun · 23:59 UTC",
       "first_seen": "2026-06-09 20:04:31",
       "original_price": "$5.99"
+    },
+    {
+      "id": "gp-3477",
+      "title": "CALLUS",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://emika-games.itch.io/callus",
+      "image": "https://www.gamerpower.com/offers/1b/697cea97b5a63.jpg",
+      "end_date": "2026-06-11T23:59:00Z",
+      "end_date_formatted": "Thu, 11 Jun · 23:59 UTC",
+      "first_seen": "2026-06-10 20:45:26",
+      "original_price": "$6.99"
     },
     {
       "id": "gp-3673",

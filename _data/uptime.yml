@@ -277,4 +277,10 @@ notes:
     text: "No issues or breakages - [SteamOS 3.8.8 Beta: Second
       Clutch](https://store.steampowered.com/news/app/1675200/view/697641379212\
       296197)"
+  - id: 1781143081073yng1
+    date: 2026-06-11T00:00:00
+    type: client-stable
+    text: "No issues or breakages - [Steam Deck Client Update: June
+      10th](https://store.steampowered.com/news/app/1675200/view/69764137921229\
+      6195)"
 breakHistory: []
