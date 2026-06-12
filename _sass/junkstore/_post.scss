@@ -319,6 +319,56 @@
 }
 
 /*
+   "In case you missed it" series callout (auto, top of post)
+   ========================================================================== */
+
+.js-post__prev-callout {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin: 0 0 2rem;
+  padding: 0.85rem 1.1rem;
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-border;
+  border-left: 3px solid $junkstore-primary;
+  border-radius: $border-radius;
+  text-decoration: none;
+  @include transition;
+
+  &:hover {
+    border-color: $junkstore-primary;
+    background: rgba($junkstore-primary, 0.05);
+  }
+
+  i {
+    color: $junkstore-primary;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+  }
+}
+
+.js-post__prev-callout-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.js-post__prev-callout-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: $junkstore-gray-text;
+}
+
+.js-post__prev-callout-title {
+  color: $junkstore-primary;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+
+/*
    Sticky TOC
    ========================================================================== */
 

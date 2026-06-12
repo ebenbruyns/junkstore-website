@@ -1,0 +1,28 @@
+{%- comment -%}
+  "In case you missed it" callout linking to the previous post that shares
+  this post's first category (the series). Build-time and automatic: works for
+  every post type (Weekly Update, Dev Update, News, ...) with no per-post or
+  admin-app changes. site.posts is newest-first, so the first same-category
+  post encountered after the current one is the next-older post in the series.
+{%- endcomment -%}
+{%- comment -%} Opt out on any single post with `prev_callout_disabled: true` in frontmatter. {%- endcomment -%}
+{%- assign this_cat = page.categories | first -%}
+{%- if this_cat and page.prev_callout_disabled != true -%}
+  {%- assign prev_in_cat = nil -%}
+  {%- assign seen_current = false -%}
+  {%- for post in site.posts -%}
+    {%- if post.categories contains this_cat -%}
+      {%- if seen_current and prev_in_cat == nil -%}{%- assign prev_in_cat = post -%}{%- endif -%}
+      {%- if post.url == page.url -%}{%- assign seen_current = true -%}{%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if prev_in_cat -%}
+  <a class="js-post__prev-callout" href="{{ prev_in_cat.url | relative_url }}">
+    <i class="fas fa-arrow-left"></i>
+    <span class="js-post__prev-callout-text">
+      <span class="js-post__prev-callout-label">In case you missed it</span>
+      <span class="js-post__prev-callout-title">{{ prev_in_cat.title }}</span>
+    </span>
+  </a>
+  {%- endif -%}
+{%- endif -%}
