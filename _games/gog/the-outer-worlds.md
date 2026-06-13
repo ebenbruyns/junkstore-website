@@ -84,7 +84,7 @@ hltb_url: "https://howlongtobeat.com/game/62935"
 store_url: "https://www.gog.com/en/game/the_outer_worlds"
 protondb_url: "https://www.protondb.com/app/578650"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Outer_Worlds"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Outer_Worlds%3A_Spacer's_Choice_Edition"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/the-outer-worlds/"
 

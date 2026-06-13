@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-07T00:53:52.905Z",
-  "total_games": 1011,
+  "generated_at": "2026-06-13T03:31:59.488Z",
+  "total_games": 1020,
   "storefronts": {
     "Epic": {
-      "total": 483,
-      "green_standalone": 421,
-      "green_decky": 431
+      "total": 486,
+      "green_standalone": 424,
+      "green_decky": 434
     },
     "GOG": {
-      "total": 381,
-      "green_standalone": 307,
-      "green_decky": 350
+      "total": 387,
+      "green_standalone": 313,
+      "green_decky": 353
     },
     "Amazon": {
       "total": 75,
@@ -3717,6 +3717,19 @@
       "databaseId": "c95f2c3e2e8b41f1bb9de3036e53f319"
     },
     {
+      "slug": "gi-joe-wrath-of-cobra",
+      "id": "fad70ee8eec245bfb4fb2c320d63dd2e",
+      "title": "G.I. Joe: Wrath of Cobra",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Freedom Games",
+      "controller_input": "native",
+      "requires_eac_runtime": false
+    },
+    {
       "slug": "galactic-civilizations-iii",
       "id": "a7ab0242-7a50-4dc6-b588-24f0d096c821",
       "title": "Galactic Civilizations III",
@@ -7029,6 +7042,17 @@
       "databaseId": "5919f2a03ba34e36b8e7de60acc26736"
     },
     {
+      "slug": "the-ouroboros-king",
+      "id": "d9faca1c98894dcca903a7f1afc05a77",
+      "title": "The Ouroboros King",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": true,
+      "publisher": "Oriol Cosp Games"
+    },
+    {
       "slug": "the-outer-worlds-spacers-choice-edition",
       "id": "18ae0556-f8d6-4008-94f4-f6f8835cab5b",
       "title": "The Outer Worlds: Spacer's Choice Edition",
@@ -7846,6 +7870,19 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "dd95e8c01b4b456f8ecbf18376a49c94"
+    },
+    {
+      "slug": "warhammer-40000-speed-freeks",
+      "id": "c22fcf8eec61424b9901f2888843a25a",
+      "title": "Warhammer 40,000: Speed Freeks",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Wired Productions",
+      "controller_input": "native",
+      "requires_eac_runtime": true
     },
     {
       "slug": "warpips",
@@ -8884,6 +8921,18 @@
       "databaseId": "1263094765"
     },
     {
+      "slug": "breath-of-fire-iv",
+      "id": "1587885678",
+      "title": "Breath of Fire IV",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Capcom",
+      "controller_input": "native"
+    },
+    {
       "slug": "brigador-up-armored-edition",
       "id": "54fc68b3-7afa-41ba-a403-0f7b08308bf4",
       "title": "Brigador: Up-Armored Edition",
@@ -9648,6 +9697,19 @@
       "publisher": "Midwest Games",
       "controller_input": "native",
       "databaseId": "1816031813"
+    },
+    {
+      "slug": "dungeon-hack",
+      "id": "0c0827a9-f761-4972-8d30-c23d3d029314",
+      "title": "Dungeon Hack",
+      "storefront": "GOG",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "SSI (Strategic Simulations, Inc.)",
+      "controller_input": "keyboard-mouse",
+      "databaseId": "1432579019"
     },
     {
       "slug": "elderborn",
@@ -11558,6 +11620,18 @@
       "controller_input": "native"
     },
     {
+      "slug": "paradise-killer",
+      "id": "2125225264",
+      "title": "Paradise Killer",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Fellow Traveller",
+      "controller_input": "native"
+    },
+    {
       "slug": "penumbra-black-plague",
       "id": "9a22dc41-fabf-4b5a-8a17-22942fc4ea32",
       "title": "Penumbra: Black Plague",
@@ -11864,6 +11938,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1989052770"
+    },
+    {
+      "slug": "robbo",
+      "id": "311b5bc3-7baa-4700-b7df-89b058bb1e3c",
+      "title": "Robbo",
+      "storefront": "GOG",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "publisher": "Epic MegaGames",
+      "controller_input": "native",
+      "databaseId": "1421207615"
     },
     {
       "slug": "saints-row-2",
@@ -12665,6 +12751,30 @@
       "controller_input": "keyboard-mouse",
       "requires_eac_runtime": false,
       "databaseId": "1990946201"
+    },
+    {
+      "slug": "tested-on-humans-escape-room",
+      "id": "1339662209",
+      "title": "Tested on Humans: Escape Room",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "mc2games",
+      "controller_input": "native"
+    },
+    {
+      "slug": "the-adventures-of-robbo",
+      "id": "fb12a23e-4cf7-4a43-a21a-5b46238a4447",
+      "title": "The Adventures of Robbo",
+      "storefront": "GOG",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "publisher": "xLand",
+      "controller_input": "native",
+      "databaseId": "1472210676"
     },
     {
       "slug": "the-coma-2-vicious-sisters",

@@ -1,6 +1,106 @@
 {
-  "generated_at": "2026-06-03T03:04:00.497Z",
+  "generated_at": "2026-06-13T03:31:59.510Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "gi-joe-wrath-of-cobra",
+      "featured_in": "2026-06-13",
+      "post_url": "/blog/games-tested-2026-06-13/",
+      "title": "",
+      "standalone_rating": "",
+      "icon_image": "",
+      "vertical_artwork": ""
+    },
+    {
+      "store": "gog",
+      "slug": "paradise-killer",
+      "featured_in": "2026-06-13",
+      "post_url": "/blog/games-tested-2026-06-13/",
+      "title": "",
+      "standalone_rating": "",
+      "icon_image": "",
+      "vertical_artwork": ""
+    },
+    {
+      "store": "gog",
+      "slug": "tested-on-humans-escape-room",
+      "featured_in": "2026-06-13",
+      "post_url": "/blog/games-tested-2026-06-13/",
+      "title": "Tested on Humans: Escape Room",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/ebe29e4cfc761bf974a083948c6f646b5219cfb17bc316fcbfb47d9904c0d262.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/008871f71fef9709cead28d66ab63a2ff476d0e369c55934ac71f50c75ac4061.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "the-ouroboros-king",
+      "featured_in": "2026-06-13",
+      "post_url": "/blog/games-tested-2026-06-13/",
+      "title": "The Ouroboros King",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2096510/header.jpg",
+      "vertical_artwork": "https://images.gog.com/d0d7493993eff78ba904f1597057b94c21ece2a9f9278822e53921dfa354fd10.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "warhammer-40k-speed-freeks",
+      "featured_in": "2026-06-13",
+      "post_url": "/blog/games-tested-2026-06-13/",
+      "title": "",
+      "standalone_rating": "",
+      "icon_image": "",
+      "vertical_artwork": ""
+    },
+    {
+      "store": "gog",
+      "slug": "mafia-iii-definitive-edition",
+      "featured_in": "2026-06-09",
+      "post_url": "/blog/games-tested-2026-06-09/",
+      "title": "Mafia III: Definitive Edition",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/3ae8163a47734a7eab1773fb3664d2ac2ec2fe34b024a5aa3f08c4840af2fc2a.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/4dd988e3f64e5cbfdb5898dc98d525cdea590e7957c08bbd4f7d6fa7466b4579.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "rogue-waters",
+      "featured_in": "2026-06-09",
+      "post_url": "/blog/games-tested-2026-06-09/",
+      "title": "Rogue Waters",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/e4f69bfe0d79bf5c68a9d8e25e2f11072fe8a506e93a1b2f5529503b4d05b412.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/ad7603df71e282bf750f5da5f9b10edb4be9909781be144111c26735b2f59c77.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "songs-of-conquest",
+      "featured_in": "2026-06-09",
+      "post_url": "/blog/games-tested-2026-06-09/",
+      "title": "Songs of Conquest",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/9adae21fb0d68786cddfc0b4a6f1da90a822d980ad52fe7bb199c0d25f0c8937.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/19efbf8aef7b3b34aca605279de6b83e3291510490c0aebea0adeea806f17562.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "tomb-raider-iv-vi-remastered",
+      "featured_in": "2026-06-09",
+      "post_url": "/blog/games-tested-2026-06-09/",
+      "title": "Tomb Raider IV-VI Remastered",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2525380/header.jpg",
+      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/df9df62f38994e3ead9c7cb5fa3a0bb0/tomb-raider-ivvi-remastered-1lpuo.jpg"
+    },
+    {
+      "store": "gog",
+      "slug": "xcom-chimera-squad",
+      "featured_in": "2026-06-09",
+      "post_url": "/blog/games-tested-2026-06-09/",
+      "title": "XCOM: Chimera Squad",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog-statics.com/1cc68a72f7320618fcf3a23bd78e86b7b1cef2f8841d8b3f7c6640f46b463ca3.png",
+      "vertical_artwork": "https://images.gog.com/fe726765f548ff60c5c749266adaf13702917d8f9d21e817a6a1083a0a392727.jpg?namespace=gamesdb"
+    },
     {
       "store": "epic",
       "slug": "calico",
@@ -20,106 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2056210/header.jpg",
       "vertical_artwork": "https://images.gog.com/4e170c56d21d357e0eaa0b551a74768181a3165f511b566e5f95b6ceff72a38e.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "amazon",
-      "slug": "pro-basketball-manager-2026",
-      "featured_in": "2026-06-01",
-      "post_url": "/blog/games-tested-2026-06-01/",
-      "title": "Pro Basketball Manager 2026",
-      "standalone_rating": "green",
-      "icon_image": "https://m.media-amazon.com/images/I/419HQ7r+PsL.png",
-      "vertical_artwork": "https://m.media-amazon.com/images/I/81q+RwHL7QL.jpg"
-    },
-    {
-      "store": "epic",
-      "slug": "the-mystery-of-the-moon",
-      "featured_in": "2026-06-01",
-      "post_url": "/blog/games-tested-2026-06-01/",
-      "title": "The Mystery Of The Moon",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/c83f6561c6f614ec11c4a5610691714d6795af06a89b19601efbcfe64f040741.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/1070102c777fd30404ab90f6421cb7684ef3587e209cdd23021ca837decf0a6c.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "down-in-bermuda",
-      "featured_in": "2026-05-28",
-      "post_url": "/blog/games-tested-2026-05-28/",
-      "title": "Down in Bermuda",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/3ac24b55fb4e39bd00fd97d8b8b5a6033831b9aefd85bd51f895d76da5aea8eb.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/6cc00a1162dbb0a5c59bcc8bad932c0feb67ece2340bcd169944be0d99c6af67.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "hot-brass",
-      "featured_in": "2026-05-28",
-      "post_url": "/blog/games-tested-2026-05-28/",
-      "title": "Hot Brass",
-      "standalone_rating": "green",
-      "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892860/capsule_184x69.jpg?t=1761641133",
-      "vertical_artwork": "https://images.gog.com/69e538b974ad9326b89a33ff61b9e73355d6a4f83f0db886b9c1ebf9fdfcf3d9.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "palindrome-syndrome-escape-room",
-      "featured_in": "2026-05-28",
-      "post_url": "/blog/games-tested-2026-05-28/",
-      "title": "Palindrome Syndrome: Escape Room",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/5f9289c62e12a2e5dd3cad3cd15d823a71f93da9dd396937a5f90e6d0731135f.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/35c0ed4bdaa82c98b10416069e58e9f9aa4f03468161ff53f4fe0942e6d71100.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "space-grunts",
-      "featured_in": "2026-05-28",
-      "post_url": "/blog/games-tested-2026-05-28/",
-      "title": "Space Grunts",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/d5f73d05fb0c5218d13660eb08240796219bf3b1edb21466ebbf2713e4ddc71b.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/6a7fb41758bacf2ed66b28dc08f3fd35609127d0d70d6f59f354b940fa5d7170.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "tomb-raider-i-iii-remastered-starring-lara-croft",
-      "featured_in": "2026-05-28",
-      "post_url": "/blog/games-tested-2026-05-28/",
-      "title": "Tomb Raider I-III Remastered Starring Lara Croft",
-      "standalone_rating": "green",
-      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2478970/header.jpg",
-      "vertical_artwork": "https://images.gog.com/804bc8bb865bf856939465a5724a63b98062bc4285e46f41e24c977fcc99d692.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "the-telltale-batman-shadows-edition",
-      "featured_in": "2026-05-20",
-      "post_url": "/blog/games-tested-may-20/",
-      "title": "The Telltale Batman: Shadows Edition",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/49d691510897b2bfee5f71cb493fa1283f6bb4b5d5b140ce9efbf09728b8e8df.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/250ccff8d12d830837fd02af300378681caaa8ce4f85b9c462ef20a4c4471393.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "sunderfolk",
-      "featured_in": "2026-05-20",
-      "post_url": "/blog/games-tested-may-20/",
-      "title": "Sunderfolk",
-      "standalone_rating": "green",
-      "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2414270/60c0c3f09f2e84a5b66b31faf8e488fbf1890480/capsule_184x69.jpg?t=1773940416",
-      "vertical_artwork": "https://images.gog.com/5e3c7975110f3ea1d9e56f23fe7c12e0247c964bcfe8121cd7f598734c73da8f.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "lethal-honor-order-of-the-apocalypse",
-      "featured_in": "2026-05-20",
-      "post_url": "/blog/games-tested-may-20/",
-      "title": "Lethal Honor: Order of the Apocalypse",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/dc8d698c8be3fe2822b30aa952763fdf0c1e072e1f9cf1b70d6733030e8467e5.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/cc0ad5d600548b8999e6ede3f0394d21285fe303c46f3142525818556037edbc.jpg?namespace=gamesdb"
     }
   ]
 }
