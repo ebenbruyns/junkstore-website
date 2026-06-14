@@ -6,20 +6,20 @@
       "slug": "gi-joe-wrath-of-cobra",
       "featured_in": "2026-06-14",
       "post_url": "/blog/games-tested-2026-06-14/",
-      "title": "",
-      "standalone_rating": "",
-      "icon_image": "",
-      "vertical_artwork": ""
+      "title": "G.I. Joe: Wrath of Cobra",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2516170/header.jpg",
+      "vertical_artwork": "https://images.gog.com/3aac9a575c915a5b81838591a4a2a2147826c2c51af9283311e4b8af1d35dfc6.jpg?namespace=gamesdb"
     },
     {
       "store": "gog",
       "slug": "paradise-killer",
       "featured_in": "2026-06-14",
       "post_url": "/blog/games-tested-2026-06-14/",
-      "title": "",
-      "standalone_rating": "",
-      "icon_image": "",
-      "vertical_artwork": ""
+      "title": "Paradise Killer",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/6da7cfe74764a4f780de331186ea90e6c6854ad3c6ada56158dcca498f2e315e.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/876da2045125f68c716cc49339b45bb2875b45cf186d0735c2262185cd4efaa1.jpg?namespace=gamesdb"
     },
     {
       "store": "gog",
@@ -43,13 +43,13 @@
     },
     {
       "store": "epic",
-      "slug": "warhammer-40k-speed-freeks",
+      "slug": "warhammer-40000-speed-freeks",
       "featured_in": "2026-06-14",
       "post_url": "/blog/games-tested-2026-06-14/",
-      "title": "",
-      "standalone_rating": "",
-      "icon_image": "",
-      "vertical_artwork": ""
+      "title": "Warhammer 40,000: Speed Freeks",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2078450/header.jpg",
+      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1siso.png"
     },
     {
       "store": "gog",
