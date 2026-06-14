@@ -12,7 +12,7 @@ featured_games:
   - { store: gog, slug: paradise-killer }
   - { store: gog, slug: tested-on-humans-escape-room }
   - { store: epic, slug: the-ouroboros-king }
-  - { store: epic, slug: warhammer-40k-speed-freeks }
+  - { store: epic, slug: warhammer-40000-speed-freeks }
 image: /assets/images/blog/260613-hero.webp
 header:
   teaser: /assets/images/blog/260613-hero-thumb.webp
@@ -55,9 +55,9 @@ This week featuring The Ouroboros King, Warhammer 40K Speed Freeks.
 </div>
 
 <div class="game-entry">
-  <img src="https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1siso.png" alt="Warhammer 40K Speed Freeks" class="game-thumbnail">
+  <img src="https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1siso.png" alt="Warhammer 40000: Speed Freeks" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/epic/warhammer-40k-speed-freeks/">Warhammer 40K Speed Freeks</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/warhammer-40000-speed-freeks/">Warhammer 40000: Speed Freeks</a></strong> <span class="store-badge epic">Epic</span>
     <p class="game-blurb">I'm not really a fan of competitive online multiplayer games, but if you are then this game will be one for you! Looks like it could be a fun game, but I'd need to have access to a better internet connection if I was to try it again solo against bots. But if you are keen for a change from Rocket League and want some more vehicle combat then give this one a spin.</p>
     <a href="/games/epic/warhammer-40000-speed-freeks/" class="view-details">View compatibility details →</a>
   </div>
