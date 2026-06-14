@@ -59,7 +59,7 @@ This week featuring The Ouroboros King, Warhammer 40K Speed Freeks.
   <div class="game-details">
     <strong><a href="/games/epic/warhammer-40k-speed-freeks/">Warhammer 40K Speed Freeks</a></strong> <span class="store-badge epic">Epic</span>
     <p class="game-blurb">I'm not really a fan of competitive online multiplayer games, but if you are then this game will be one for you! Looks like it could be a fun game, but I'd need to have access to a better internet connection if I was to try it again solo against bots. But if you are keen for a change from Rocket League and want some more vehicle combat then give this one a spin.</p>
-    <a href="/games/epic/warhammer-40k-speed-freeks/" class="view-details">View compatibility details →</a>
+    <a href="/games/epic/warhammer-40000-speed-freeks/" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
