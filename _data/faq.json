@@ -291,6 +291,6 @@
     "category": "Pricing & Trial",
     "order": 2,
     "question": "How many devices can I install Junk Store on?",
-    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nYou can install Junk Store on up to <strong>five</strong> devices under a single license. We think this strikes a fair balance between flexibility and sustainability.\n  <br>\n  <br>\n    <strong>Device management:</strong> Each installation counts toward your device limit when you first activate it. If you need to replace a device or reinstall, contact support for assistance with license transfers.\n</div>"
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nYou can have up to <strong>five</strong> devices with an active Junk Store Pro license at any one time. Inactive devices automatically free up a slot, so there's room to upgrade or change hardware down the line. We think five strikes a fair balance between flexibility and sustainability.\n</div>"
   }
 ]
