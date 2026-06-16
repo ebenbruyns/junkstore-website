@@ -6,8 +6,15 @@
   </div>
 
   <div class="writeups-carousel">
-    {% assign weekly_posts = site.posts | where_exp: "post", "post.categories contains 'Weekly Update'" | limit: 4 %}
-    {% for post in weekly_posts %}
+    {%- comment -%} Union all game-testing categories (new + legacy); where_exp can't OR. {%- endcomment -%}
+    {% assign testing_posts = "" | split: "" %}
+    {% assign writeup_cats = "Weekly Update,Giveaway Testing,Backlog Testing,Backlog,Game Retests,Retests" | split: "," %}
+    {% for c in writeup_cats %}
+      {% assign matched = site.posts | where_exp: "post", "post.categories contains c" %}
+      {% assign testing_posts = testing_posts | concat: matched %}
+    {% endfor %}
+    {% assign weekly_posts = testing_posts | sort: 'date' | reverse %}
+    {% for post in weekly_posts limit: 4 %}
     <a href="{{ post.url | relative_url }}" class="writeup-card">
       {% if post.image %}
       <div class="writeup-card__image">

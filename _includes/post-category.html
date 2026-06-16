@@ -1,0 +1,28 @@
+{%- comment -%}
+  Normalises a post's (possibly legacy) categories to a single canonical
+  category, and the pill group it filters under. Old posts are NOT edited;
+  they are mapped here at render time. Output: "Group|Label".
+
+  Group  = the blog filter pill the post belongs to.
+  Label  = the specific category shown on the card badge / used in RSS sense.
+
+  The three testing types (Giveaway/Backlog/Retests) all group under the
+  single "Game Compatibility" pill but keep distinct badge labels.
+
+  Matched on EXACT category membership in priority order so a legacy post
+  like [Tip of the Week, Features] files under Tips & Tricks, not Features.
+
+  Usage:
+    {% capture cc %}{% include post-category.html post=post %}{% endcapture %}
+    {% assign parts = cc | split: "|" %}  parts[0]=group, parts[1]=label
+{%- endcomment -%}
+{%- assign cats = include.post.categories -%}
+{%- if cats contains "Weekly Update" or cats contains "Giveaway Testing" or cats contains "Weekly Tested" -%}Game Compatibility|Giveaway Testing
+{%- elsif cats contains "Backlog Testing" or cats contains "Backlog" -%}Game Compatibility|Backlog Testing
+{%- elsif cats contains "Game Retests" or cats contains "Retests" or cats contains "Retest" -%}Game Compatibility|Game Retests
+{%- elsif cats contains "Tips & Tricks" or cats contains "Tip of the Week" -%}Tips & Tricks|Tips & Tricks
+{%- elsif cats contains "Dev Update" -%}Dev Update|Dev Update
+{%- elsif cats contains "News" -%}News|News
+{%- elsif cats contains "Feature Release" or cats contains "Major Release" or cats contains "Features" -%}Features|Features
+{%- else -%}{{ cats[0] }}|{{ cats[0] }}
+{%- endif -%}

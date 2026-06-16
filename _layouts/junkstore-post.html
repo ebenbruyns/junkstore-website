@@ -3,13 +3,15 @@ layout: junkstore-default
 ---
 
 {%- comment -%}
-  Weekly Update posts share a ~180-line CSS block (game entry layout,
+  Game-testing posts share a ~180-line CSS block (game entry layout,
   store badges, CTA blocks, blockquote tweaks). Centralised in
   _includes/weekly-update-styles.css so new posts don't have to ship
   the inline <style> any more. Gated on the category so other
-  junkstore-post posts (tips, features, news) aren't affected.
+  junkstore-post posts (tips, features, news) aren't affected. Covers
+  every game-card type: Giveaway / Backlog / Game Retests, plus legacy
+  Weekly Update / Backlog posts.
 {%- endcomment -%}
-{% if page.categories contains "Weekly Update" %}
+{% if page.categories contains "Weekly Update" or page.categories contains "Giveaway Testing" or page.categories contains "Backlog Testing" or page.categories contains "Backlog" or page.categories contains "Game Retests" or page.categories contains "Retests" %}
 <style>{% include weekly-update-styles.css %}</style>
 {% endif %}
 

@@ -10,11 +10,11 @@ permalink: /blog/
 <section class="blog-filters">
   <div class="blog-filter-pills">
     <button class="blog-filter-pill active" data-category="all">All Posts</button>
-    <button class="blog-filter-pill" data-category="Weekly Update">Games Tested</button>
+    <button class="blog-filter-pill" data-category="Game Compatibility">Game Compatibility</button>
+    <button class="blog-filter-pill" data-category="Tips & Tricks">Tips & Tricks</button>
+    <button class="blog-filter-pill" data-category="Features">Features</button>
     <button class="blog-filter-pill" data-category="News">News</button>
     <button class="blog-filter-pill" data-category="Dev Update">Dev Updates</button>
-    <button class="blog-filter-pill" data-category="Feature Release">Feature Releases</button>
-    <button class="blog-filter-pill" data-category="Tip of the Week">Tips & Tricks</button>
   </div>
 </section>
 
@@ -24,8 +24,10 @@ permalink: /blog/
 
 <!-- Featured Post (Latest) -->
 {% assign featured = sorted_posts.first %}
+{% capture featured_cc %}{% include post-category.html post=featured %}{% endcapture %}
+{% assign featured_parts = featured_cc | split: "|" %}
 <section class="blog-featured" id="featured-section">
-  <article class="featured-card" data-categories="{% for category in featured.categories %}{{ category }}{% unless forloop.last %},{% endunless %}{% endfor %}">
+  <article class="featured-card" data-categories="{{ featured_parts[0] }}">
     {% if featured.image %}
     <a href="{{ featured.url | relative_url }}" class="featured-card__image">
       <img src="{{ featured.image | relative_url }}" alt="{{ featured.title }}" loading="eager" width="600" height="338">
@@ -33,10 +35,8 @@ permalink: /blog/
     {% endif %}
     <div class="featured-card__content">
       <div class="featured-card__meta">
-        {% if featured.categories %}
-          {% for category in featured.categories limit: 1 %}
-            <span class="featured-card__category">{{ category }}</span>
-          {% endfor %}
+        {% if featured_parts[1] %}
+          <span class="featured-card__category">{{ featured_parts[1] }}</span>
         {% endif %}
         <span class="featured-card__date">{{ featured.date | date: "%B %d, %Y" }}</span>
         {% if featured.read_time %}
@@ -58,7 +58,9 @@ permalink: /blog/
 <section class="blog-grid-section">
   <div class="blog-grid" id="posts-grid">
     {% for post in sorted_posts offset: 1 %}
-    <article class="grid-card {% if forloop.index > 8 %}grid-card--hidden{% endif %}" data-categories="{% for category in post.categories %}{{ category }}{% unless forloop.last %},{% endunless %}{% endfor %}" data-index="{{ forloop.index }}">
+    {% capture post_cc %}{% include post-category.html post=post %}{% endcapture %}
+    {% assign post_parts = post_cc | split: "|" %}
+    <article class="grid-card {% if forloop.index > 8 %}grid-card--hidden{% endif %}" data-categories="{{ post_parts[0] }}" data-index="{{ forloop.index }}">
       {% if post.image %}
       <a href="{{ post.url | relative_url }}" class="grid-card__image">
         <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy" width="400" height="225">
@@ -66,10 +68,8 @@ permalink: /blog/
       {% endif %}
       <div class="grid-card__content">
         <div class="grid-card__meta">
-          {% if post.categories %}
-            {% for category in post.categories limit: 1 %}
-              <span class="grid-card__category">{{ category }}</span>
-            {% endfor %}
+          {% if post_parts[1] %}
+            <span class="grid-card__category">{{ post_parts[1] }}</span>
           {% endif %}
           <span class="grid-card__date">{{ post.date | date: "%b %d, %Y" }}</span>
         </div>

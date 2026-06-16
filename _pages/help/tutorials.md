@@ -90,7 +90,7 @@ excerpt: " "
 {%- assign all_tips_count = site.posts | where_exp: "post", "post.path contains '_posts/tips/'" | size -%}
 {%- if all_tips_count > 12 -%}
 <p class="text-center" style="margin-top: 1.5rem;">
-  <a href="/blog/?category=Tip%20of%20the%20Week">See all {{ all_tips_count }} tips →</a>
+  <a href="/blog/?category=Tips%20%26%20Tricks">See all {{ all_tips_count }} tips →</a>
 </p>
 {%- endif -%}
 
