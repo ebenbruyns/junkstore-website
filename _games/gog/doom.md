@@ -111,7 +111,7 @@ known_issues:
 # Meta
 database_id: "1390579243"
 is_featured: false
-owned: true
+owned: false
 ---
 
 Developed by id software, the studio that pioneered the first-person shooter genre and created multiplayer Deathmatch, Doom returns as a brutally fun and challenging modern-day shooter experience.

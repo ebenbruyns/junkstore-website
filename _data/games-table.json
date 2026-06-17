@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-17T02:29:22.169Z",
+  "generated_at": "2026-06-17T05:03:39.652Z",
   "total_games": 1021,
   "storefronts": {
     "Epic": {
       "total": 486,
-      "green_standalone": 424,
-      "green_decky": 434
+      "green_standalone": 425,
+      "green_decky": 435
     },
     "GOG": {
       "total": 388,
-      "green_standalone": 315,
-      "green_decky": 353
+      "green_standalone": 316,
+      "green_decky": 354
     },
     "Amazon": {
       "total": 75,
@@ -629,7 +629,7 @@
       "id": "amzn1.adg.product.c9bf4d23-435f-4bbd-b688-be47e4d3766a",
       "title": "Pro Basketball Manager 2026",
       "storefront": "Amazon",
-      "decky_rating": "",
+      "decky_rating": "unsupported",
       "standalone_rating": "green",
       "date_tested": "May '26",
       "native_linux": false,
@@ -3980,8 +3980,8 @@
       "id": "2042402d-a4e6-4e18-9e9c-7abf82ee7987",
       "title": "Grand Theft Auto V",
       "storefront": "Epic",
-      "decky_rating": "",
-      "standalone_rating": "",
+      "decky_rating": "broken",
+      "standalone_rating": "broken",
       "date_tested": "March '25",
       "cant_test_linux": false,
       "native_linux": false,
@@ -4316,8 +4316,8 @@
       "id": "2d9925b4-e3f2-4a87-a652-874ed50e6afc",
       "title": "Illuvium",
       "storefront": "Epic",
-      "decky_rating": "",
-      "standalone_rating": "",
+      "decky_rating": "yellow",
+      "standalone_rating": "yellow",
       "date_tested": "Aug '24",
       "cant_test_linux": false,
       "publisher": "Illuvium Labs",
@@ -4576,8 +4576,8 @@
       "id": "9b5371ba-7e62-4fad-b0a0-78a5f4d8efa9",
       "title": "Kid A Mnesia Exhibition",
       "storefront": "Epic",
-      "decky_rating": "",
-      "standalone_rating": "",
+      "decky_rating": "green",
+      "standalone_rating": "green",
       "date_tested": "July '25",
       "cant_test_linux": false,
       "publisher": "Epic Games Publishing",
@@ -12714,8 +12714,8 @@
       "id": "f5b2d068-9f36-4abd-a1b9-dc3552c3e79c",
       "title": "Symphonia",
       "storefront": "GOG",
-      "decky_rating": "",
-      "standalone_rating": "",
+      "decky_rating": "green",
+      "standalone_rating": "green",
       "date_tested": "Dec '24",
       "cant_test_linux": false,
       "native_linux": false,

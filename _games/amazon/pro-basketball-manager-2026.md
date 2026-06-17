@@ -8,7 +8,7 @@ storefront_key: "amazon"
 permalink: /games/amazon/pro-basketball-manager-2026/
 
 # Compatibility (Junk Store testing)
-decky_rating: ""
+decky_rating: "unsupported"
 standalone_rating: "green"
 date_tested: "May '26"
 proton_version: ""

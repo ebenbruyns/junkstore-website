@@ -110,7 +110,7 @@ known_issues:
 # Meta
 database_id: "c38f51843fdf4db0b24fc907b8d78221"
 is_featured: false
-owned: true
+owned: false
 ---
 
 From legendary game creator Hideo Kojima comes a genre-defying experience, now expanded in this definitive DIRECTOR’S CUT. As Sam Bridges, your mission is to deliver hope to humanity by connecting the last survivors of a decimated America. 

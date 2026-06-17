@@ -8,8 +8,8 @@ storefront_key: "epic"
 permalink: /games/epic/illuvium/
 
 # Compatibility (Junk Store testing)
-decky_rating: ""
-standalone_rating: ""
+decky_rating: "yellow"
+standalone_rating: "yellow"
 date_tested: "Aug '24"
 proton_version: ""
 

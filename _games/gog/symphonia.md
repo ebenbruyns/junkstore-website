@@ -8,8 +8,8 @@ storefront_key: "gog"
 permalink: /games/gog/symphonia/
 
 # Compatibility (Junk Store testing)
-decky_rating: ""
-standalone_rating: ""
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
 
