@@ -1,28 +1,79 @@
 {%- comment -%}
-  "In case you missed it" callout linking to the previous post that shares
-  this post's first category (the series). Build-time and automatic: works for
-  every post type (Weekly Update, Dev Update, News, ...) with no per-post or
-  admin-app changes. site.posts is newest-first, so the first same-category
-  post encountered after the current one is the next-older post in the series.
+  "In case you missed it" callout(s). Build-time, automatic, no admin-app or
+  per-post changes needed. Opt out on any single post with
+  `prev_callout_disabled: true` in frontmatter.
+
+  Two modes:
+    * Compat testing posts (Weekly Update / Backlog Testing / Game Retests)
+      get a compact "Catch up on recent testing" block linking the latest post
+      in EACH of the three compat categories, excluding the current post. A
+      category with no other post is silently skipped.
+    * Every other post type keeps the original single previous-in-series link.
+
+  Note: Weekly posts may also carry a hand-written "In case you missed it"
+  line in the body (e.g. pointing to dev updates) — that's separate content,
+  authored per-post, and is not affected by this include.
+
+  site.posts is newest-first, so the first matching post (other than the
+  current page) is the most recent one in that category.
 {%- endcomment -%}
-{%- comment -%} Opt out on any single post with `prev_callout_disabled: true` in frontmatter. {%- endcomment -%}
 {%- assign this_cat = page.categories | first -%}
 {%- if this_cat and page.prev_callout_disabled != true -%}
-  {%- assign prev_in_cat = nil -%}
-  {%- assign seen_current = false -%}
-  {%- for post in site.posts -%}
-    {%- if post.categories contains this_cat -%}
-      {%- if seen_current and prev_in_cat == nil -%}{%- assign prev_in_cat = post -%}{%- endif -%}
-      {%- if post.url == page.url -%}{%- assign seen_current = true -%}{%- endif -%}
-    {%- endif -%}
+
+  {%- assign trigger_cats = "Weekly Update|Backlog Testing|Game Retests" | split: "|" -%}
+  {%- assign is_compat = false -%}
+  {%- for c in trigger_cats -%}
+    {%- if this_cat == c -%}{%- assign is_compat = true -%}{%- endif -%}
   {%- endfor -%}
-  {%- if prev_in_cat -%}
-  <a class="js-post__prev-callout" href="{{ prev_in_cat.url | relative_url }}">
-    <i class="fas fa-arrow-left"></i>
-    <span class="js-post__prev-callout-text">
-      <span class="js-post__prev-callout-label">In case you missed it</span>
-      <span class="js-post__prev-callout-title">{{ prev_in_cat.title }}</span>
-    </span>
-  </a>
+
+  {%- if is_compat -%}
+    {%- comment -%} Gather the latest post in each compat category (not this page). {%- endcomment -%}
+    {%- assign weekly_pick = nil -%}
+    {%- assign backlog_pick = nil -%}
+    {%- assign retest_pick = nil -%}
+    {%- for post in site.posts -%}
+      {%- if post.url != page.url -%}
+        {%- if weekly_pick == nil and post.categories contains "Weekly Update" -%}{%- assign weekly_pick = post -%}{%- endif -%}
+        {%- if backlog_pick == nil and post.categories contains "Backlog Testing" -%}{%- assign backlog_pick = post -%}{%- endif -%}
+        {%- if retest_pick == nil and post.categories contains "Game Retests" -%}{%- assign retest_pick = post -%}{%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if weekly_pick or backlog_pick or retest_pick -%}
+    <div class="js-post__catchup">
+      <span class="js-post__catchup-label">In case you missed it &mdash; catch up on recent testing</span>
+      <ul class="js-post__catchup-list">
+        {%- if weekly_pick -%}
+        <li><a href="{{ weekly_pick.url | relative_url }}"><span class="js-post__catchup-cat">Weekly</span> {{ weekly_pick.title }}</a></li>
+        {%- endif -%}
+        {%- if backlog_pick -%}
+        <li><a href="{{ backlog_pick.url | relative_url }}"><span class="js-post__catchup-cat">Backlog</span> {{ backlog_pick.title }}</a></li>
+        {%- endif -%}
+        {%- if retest_pick -%}
+        <li><a href="{{ retest_pick.url | relative_url }}"><span class="js-post__catchup-cat">Retests</span> {{ retest_pick.title }}</a></li>
+        {%- endif -%}
+      </ul>
+    </div>
+    {%- endif -%}
+
+  {%- else -%}
+    {%- comment -%} Original single previous-in-series callout for all other post types. {%- endcomment -%}
+    {%- assign prev_in_cat = nil -%}
+    {%- assign seen_current = false -%}
+    {%- for post in site.posts -%}
+      {%- if post.categories contains this_cat -%}
+        {%- if seen_current and prev_in_cat == nil -%}{%- assign prev_in_cat = post -%}{%- endif -%}
+        {%- if post.url == page.url -%}{%- assign seen_current = true -%}{%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if prev_in_cat -%}
+    <a class="js-post__prev-callout" href="{{ prev_in_cat.url | relative_url }}">
+      <i class="fas fa-arrow-left"></i>
+      <span class="js-post__prev-callout-text">
+        <span class="js-post__prev-callout-label">In case you missed it</span>
+        <span class="js-post__prev-callout-title">{{ prev_in_cat.title }}</span>
+      </span>
+    </a>
+    {%- endif -%}
   {%- endif -%}
+
 {%- endif -%}
