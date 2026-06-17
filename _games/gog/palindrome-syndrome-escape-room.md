@@ -35,7 +35,7 @@ languages_audio: ["English"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"62","name":"Family Sharing"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "60-minutes-to-extinction-escape-room|palindrome-syndrome-escape-room|tested-on-humans-escape-room"
 igdb_url: ""
 was_free_before: false
 giveaway_events: []

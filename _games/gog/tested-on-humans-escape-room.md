@@ -35,7 +35,7 @@ languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"6","name":"Exploration"},{"id":"41","name":"Dark"},{"id":"141","name":"Point & Click"},{"id":"77","name":"Realistic"},{"id":"110","name":"Cinematic"},{"id":"91","name":"Walking Simulator"},{"id":"200","name":"Narration"},{"id":"288","name":"Interactive Fiction"},{"id":"285","name":"Psychological"},{"id":"140","name":"Hidden Object"},{"id":"183","name":"Thriller"},{"id":"87","name":"Science"},{"id":"291","name":"Conspiracy"},{"id":"326","name":"Investigation"},{"id":"3319","name":"solitaire"},{"id":"92376","name":"Aventure"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "60-minutes-to-extinction-escape-room|palindrome-syndrome-escape-room|tested-on-humans-escape-room"
 igdb_url: "https://www.igdb.com/games/tested-on-humans-escape-room"
 was_free_before: false
 giveaway_events: []
@@ -110,7 +110,7 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 ---
 

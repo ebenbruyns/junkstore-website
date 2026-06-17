@@ -42,7 +42,7 @@ giveaway_events: []
 free_games_aliases: []
 
 # Images
-banner_image: ""
+banner_image: "https://cdn1.epicgames.com/spt-assets/dd7d63bbdce542e8aa0f5af665530967/call-of-dragons-1v6pn.jpg?resize=1&w=480&h=270&quality=medium"
 cover_image: "https://images.gog.com/a1a27a0f5c40a3ae73b9a939a216dde67fe84d4a066d5eb53cb13d290b013af6.jpg?namespace=gamesdb"
 icon_image: "https://images.gog.com/10f1ff3d91cefac8c37f7dfb0ca8bcf94a809786e23b274032c4432a980fba58.jpg?namespace=gamesdb"
 

@@ -42,7 +42,7 @@ giveaway_events: []
 free_games_aliases: []
 
 # Images
-banner_image: ""
+banner_image: "https://cdn2.steamgriddb.com/hero_thumb/b24236ada3952a5051ddd179787f98cc.png"
 cover_image: "https://cdn2.steamgriddb.com/thumb/83d54de90c45accd18b3eb06e959f4c8.jpg"
 icon_image: "https://cdn2.steamgriddb.com/icon_thumb/1e8517f2a11988b48f5e7f0e12401d93.png"
 

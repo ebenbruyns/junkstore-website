@@ -9,7 +9,7 @@ permalink: /games/gog/akalabeth-world-of-doom/
 
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
-standalone_rating: "yellow"
+standalone_rating: "green"
 date_tested: "Dec '25"
 proton_version: ""
 
@@ -47,7 +47,7 @@ cover_image: "https://images.gog.com/511cf474562bdaf2c8b9eec1a0c94e1eb5cf4e3900a
 icon_image: "https://images.gog.com/2d27d25c79c329f186d1301d1eed4802614fe34607e4b90abb6929b3a174aecf.jpg?namespace=gamesdb"
 
 # Technical Details
-controller_input: "native"
+controller_input: "requires-mapping"
 community_layout: false
 required_launcher: "dosbox"
 requires_account_setup: false
@@ -103,7 +103,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: You need to change the platform to Dosbox under Game Configs from the cog icon on the game page.
+notes: "You'll need to map key bindings for hte game. Controls can be found in the **Introduction** menu in game."
 controller_config: 
 performance_notes: 
 known_issues: 

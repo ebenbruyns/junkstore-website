@@ -1,11 +1,11 @@
 ---
 layout: game-page
-title: "Dungeon Hack - Steam Deck Compatibility"
-game_title: "Dungeon Hack"
-slug: "dungeon-hack"
+title: "Menzoberranzan - Steam Deck Compatibility"
+game_title: "Menzoberranzan"
+slug: "menzoberranzan"
 storefront: "GOG"
 storefront_key: "gog"
-permalink: /games/gog/dungeon-hack/
+permalink: /games/gog/menzoberranzan/
 
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
@@ -22,7 +22,7 @@ steam_deck_verified: "unknown"
 steam_deck_category: 0
 
 # Game Info
-publisher: SSI (Strategic Simulations, Inc.)
+publisher: Mindscape
 developer: DreamForge Intertainment
 genre: Action, RPG
 franchise: 
@@ -30,10 +30,10 @@ age_rating_summary:
 age_ratings: {}
 release_date: "March 29, 2022"
 game_modes: ["Single-player"]
-languages: ["German","English","French"]
+languages: ["English"]
 languages_audio: []
-tags_structured: []
-size: "23 MB"
+tags_structured: [{"id":"1465","name":"combat"},{"id":"2030","name":"city"},{"id":"625","name":"party"},{"id":"624","name":"Monsters"},{"id":"4927","name":"fly"},{"id":"758","name":"challenging"}]
+size: "300 MB"
 franchise_siblings: []
 franchise_slug: "forgotten-realms-archives-3"
 igdb_url: ""
@@ -42,9 +42,9 @@ giveaway_events: []
 free_games_aliases: []
 
 # Images
-banner_image: "https://cdn2.steamgriddb.com/hero_thumb/4ce23e30a635b783fc8bb5d7844a07ee.jpg"
-cover_image: "https://cdn2.steamgriddb.com/thumb/acd3da98a97c10892671c6f02c7aae49.jpg"
-icon_image: "https://cdn2.steamgriddb.com/icon/2c533e51b1b4a5a6d99935ffe645d431/32/48x48.png"
+banner_image: "https://cdn2.steamgriddb.com/hero_thumb/0e3cef8007a8616092c708b69f529dd9.jpg"
+cover_image: "https://cdn2.steamgriddb.com/thumb/27c374f8f7a30c7930a931fdee28fad5.jpg"
+icon_image: "https://cdn2.steamgriddb.com/icon/624be6e34355719afee744791897d442/32/48x48.png"
 
 # Technical Details
 controller_input: "keyboard-mouse"
@@ -78,15 +78,15 @@ native_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: "https://howlongtobeat.com/game/2944"
+hltb_url: "https://howlongtobeat.com/game/15332"
 
 # Links
-store_url: "https://www.gog.com/en/game/forgotten_realms_the_archives_collection_three"
-protondb_url: "https://www.protondb.com/app/1904551"
+store_url: "https://www.gog.com/en/game/forgotten_realms_the_archives_collection_three_1209599383"
+protondb_url: "https://www.protondb.com/app/1904550"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dungeon_Hack"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Menzoberranzan"
 metacritic_score: 
-metacritic_url: "https://www.metacritic.com/game/dungeon-hack/"
+metacritic_url: "https://www.metacritic.com/game/menzoberranzan/"
 
 # Cross-Catalog IDs (Game Catalog API)
 opencritic_id: ""
@@ -109,9 +109,9 @@ performance_notes:
 known_issues: 
 
 # Meta
-database_id: "1432579019"
+database_id: "1432578339"
 is_featured: false
 owned: true
 ---
 
-Welcome to Dungeon Hack. Explore countless new dungeons in a game that never has to be the same twice. Send your character on quest after quest, down through the many pits, traps, and puzzles of Dungeon Hack. Take control, if you wish and generate a new dungeon for every game. The random dungeon generator gives you the power to create a strikingly fresh layout every time. There other games allow a few novel choices the second time around, Dungeon Hack delivers many combinations of play, a variety of magical and non-magical items to be found in each game, and a bestiary stocked with over fifty formidable foes.
+RPG set in the underground Drow city Menzoberranzan in the Forgotten Realms world.

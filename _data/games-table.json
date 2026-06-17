@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-13T03:31:59.488Z",
-  "total_games": 1020,
+  "generated_at": "2026-06-17T02:29:22.169Z",
+  "total_games": 1021,
   "storefronts": {
     "Epic": {
       "total": 486,
@@ -8,8 +8,8 @@
       "green_decky": 434
     },
     "GOG": {
-      "total": 387,
-      "green_standalone": 313,
+      "total": 388,
+      "green_standalone": 315,
       "green_decky": 353
     },
     "Amazon": {
@@ -8300,11 +8300,11 @@
       "title": "Akalabeth: World of Doom",
       "storefront": "GOG",
       "decky_rating": "unsupported",
-      "standalone_rating": "yellow",
+      "standalone_rating": "green",
       "date_tested": "Dec '25",
       "cant_test_linux": false,
       "publisher": "California Pacific Computer, Quantum Toast",
-      "controller_input": "native",
+      "controller_input": "requires-mapping",
       "requires_eac_runtime": false,
       "databaseId": "1207666073"
     },
@@ -11246,6 +11246,19 @@
       "controller_input": "keyboard-mouse",
       "requires_eac_runtime": false,
       "databaseId": "1207659126"
+    },
+    {
+      "slug": "menzoberranzan",
+      "id": "9b68e004-2206-4b47-b6b5-47be27cab22e",
+      "title": "Menzoberranzan",
+      "storefront": "GOG",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Mindscape",
+      "controller_input": "keyboard-mouse",
+      "databaseId": "1432578339"
     },
     {
       "slug": "metal-slug-tactics",
