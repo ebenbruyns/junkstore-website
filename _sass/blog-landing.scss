@@ -359,6 +359,13 @@
 .blog-cta__link--discord { background: #4752c4; }
 .blog-cta__link--bluesky { background: #0085ff; }
 .blog-cta__link--mastodon { background: #563acc; }
+.blog-cta__link--lemmy { background: #00bc8c; }
+
+.blog-cta__icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: -3px;
+}
 .blog-cta__link--twitter { background: #1a8cd8; }
 .blog-cta__link--rss { background: #e67e22; }
 

@@ -12,7 +12,7 @@
 
 - id: "c92a2528-4145-4f2b-bbe4-5ccd4d4b5154"
   title: "v3 Launch"
-  isActive: true
+  isActive: false
   priority: 10
   startDate: "2026-04-02T16:36"
   endDate: null
@@ -27,3 +27,12 @@
   endDate: null
   targetPages: []
   content: "<strong>⚠️ Decky Loader Users:</strong> Running both Decky Loader and 2.0?"
+
+- id: "aad3d5a6-b83e-463a-9089-34a3742d4e4b"
+  title: "Support Tickets Live"
+  isActive: true
+  priority: 11
+  startDate: null
+  endDate: null
+  targetPages: []
+  content: "🎫 <strong style=\"color: #00adb5;\">New: in-portal support tickets.</strong> Get help with Junk Store straight from the portal. <a href=\"https://portal.junkstore.xyz/support\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #ffa366; text-decoration: underline;\">Open a ticket →</a><br><span class=\"promo-banner__note\">Game-specific questions are still best on Discord, Reddit and Lemmy.</span>"

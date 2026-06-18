@@ -168,6 +168,13 @@
     });
 
     document.querySelectorAll('a[href*="portal.junkstore"]').forEach(function (link) {
+      // Normalise buy/trial CTAs to the configured portal URL, but leave
+      // path-specific links (e.g. /support) untouched so they aren't
+      // collapsed to the portal root.
+      try {
+        var u = new URL(link.href);
+        if (u.pathname && u.pathname !== '/') return;
+      } catch (e) {}
       link.href = portalUrl;
     });
   }

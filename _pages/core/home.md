@@ -185,7 +185,7 @@ function playDemoVideo(container) {
     <div class="question-item">
       <h4>What if I have problems?</h4>
       <p><strong>We've got you.</strong> Check our <a href="/help/">help page</a> or reach out - we're always happy to help.</p>
-      <p class="text-center mt-1"><a href="https://discord.gg/6mRUhR6Teh"><i class="fab fa-discord"></i> Discord</a> · <a href="https://www.reddit.com/r/JunkStore"><i class="fab fa-reddit"></i> Reddit</a></p>
+      <p class="text-center mt-1"><a href="https://portal.junkstore.xyz/support" target="_blank" rel="noopener noreferrer"><i class="fas fa-headset"></i> Support</a> · <a href="https://discord.gg/6mRUhR6Teh"><i class="fab fa-discord"></i> Discord</a> · <a href="https://www.reddit.com/r/JunkStore"><i class="fab fa-reddit"></i> Reddit</a> · <a href="https://lemmy.world/c/junkstore4deck"><span class="lemmy-icon"></span> Lemmy</a></p>
     </div>
   </div>
 </section>

@@ -233,6 +233,10 @@
     background: #563acc;
   }
 
+  &--lemmy {
+    background: #00bc8c;
+  }
+
   &--reddit {
     background: #c23a00;
   }
@@ -256,6 +260,15 @@
   &--copied {
     background: #28a745;
   }
+}
+
+.js-share-btn__svg {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: currentColor;
+  -webkit-mask: url("/assets/images/lemmy.svg") no-repeat center / contain;
+  mask: url("/assets/images/lemmy.svg") no-repeat center / contain;
 }
 
 /*

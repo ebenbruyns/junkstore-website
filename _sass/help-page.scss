@@ -749,11 +749,19 @@ details.faq-item-compact[open] {
   color: #fff;
 }
 
+.resource-card.support:hover { border-color: #00adb5; }
 .resource-card.discord:hover { border-color: #5865f2; }
 .resource-card.reddit:hover { border-color: #ff4500; }
+.resource-card.lemmy:hover { border-color: #00bc8c; }
 
 .resource-icon {
   font-size: $type-size-label;
+}
+
+.resource-icon-svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: -4px;
 }
 
 /* ========== MOBILE FAB ========== */

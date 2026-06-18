@@ -127,6 +127,9 @@ permalink: /blog/
       <a href="https://mastodon.social/@JunkStore" target="_blank" rel="noopener" class="blog-cta__link blog-cta__link--mastodon">
         <i class="fab fa-mastodon"></i> Mastodon
       </a>
+      <a href="https://lemmy.world/c/junkstore4deck" target="_blank" rel="noopener" class="blog-cta__link blog-cta__link--lemmy">
+        <img src="/assets/images/lemmy.svg" class="blog-cta__icon" alt="" aria-hidden="true" width="16" height="16"> Lemmy
+      </a>
       <a href="https://x.com/JunkStore4deck" target="_blank" rel="noopener" class="blog-cta__link blog-cta__link--twitter">
         <i class="fab fa-x-twitter"></i> Twitter
       </a>

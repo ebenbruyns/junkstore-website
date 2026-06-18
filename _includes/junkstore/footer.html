@@ -21,7 +21,7 @@
              target="_blank"
              rel="noopener noreferrer"
              class="js-footer__link js-footer__social-link">
-            {% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
+            {% if link.svg %}<span class="js-footer__social-svg" style="-webkit-mask-image:url('{{ link.svg | relative_url }}');mask-image:url('{{ link.svg | relative_url }}')" aria-hidden="true"></span>{% elsif link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
             {{ link.label }}
           </a>
         {% endfor %}

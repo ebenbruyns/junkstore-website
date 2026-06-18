@@ -201,8 +201,10 @@ A: Yes. Pro includes full support for GOG DOS, ScummVM, and native Linux games.
 
 ## Support Channels
 
-- **Discord**: https://discord.gg/6mRUhR6Teh (v2-support channel for tickets)
+- **Support Portal** (Junk Store app/account help, ticketing system): https://portal.junkstore.xyz/support — primary support channel for Junk Store and Junk Store Pro issues. Pro customers get priority; Decky users can sign up and file tickets too.
+- **Discord** (game-specific help and community chat): https://discord.gg/6mRUhR6Teh
 - **Reddit**: https://www.reddit.com/r/JunkStore
+- **Lemmy**: https://lemmy.world/c/junkstore4deck
 - **Bug Reports**: https://github.com/SDK-Innovation/JunkStoreBugs/issues
 
 ## Links
@@ -313,6 +315,7 @@ Yes. Junk Store is a launcher platform with extensible architecture. It includes
 - **Portal**: https://portal.junkstore.xyz
 - **Discord**: https://discord.gg/6mRUhR6Teh
 - **Reddit**: https://www.reddit.com/r/JunkStore
+- **Lemmy**: https://lemmy.world/c/junkstore4deck
 - **YouTube**: https://www.youtube.com/@Junk-Store
 - **Bug Reports**: https://github.com/SDK-Innovation/JunkStoreBugs/issues
 
@@ -320,6 +323,7 @@ Yes. Junk Store is a launcher platform with extensible architecture. It includes
 - **Facebook Page**: https://www.facebook.com/JunkStore4deck
 - **Facebook Group**: https://www.facebook.com/groups/junkstore
 - **Mastodon**: https://mastodon.social/@JunkStore
+- **Lemmy**: https://lemmy.world/c/junkstore4deck
 - **Bluesky**: https://bsky.app/profile/junkstore.bsky.social
 - **X/Twitter**: https://x.com/JunkStore4deck
 - **Ko-fi**: https://ko-fi.com/junkstore

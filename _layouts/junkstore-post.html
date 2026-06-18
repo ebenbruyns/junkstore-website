@@ -71,6 +71,10 @@ layout: junkstore-default
              target="_blank" rel="noopener" class="js-share-btn js-share-btn--mastodon" title="Share on Mastodon">
             <i class="fab fa-mastodon"></i>
           </a>
+          <a href="https://lemmy.world/create_post?title={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}"
+             target="_blank" rel="noopener" class="js-share-btn js-share-btn--lemmy" title="Share on Lemmy">
+            <span class="js-share-btn__svg" aria-hidden="true"></span>
+          </a>
           <a href="https://www.reddit.com/submit?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}"
              target="_blank" rel="noopener" class="js-share-btn js-share-btn--reddit" title="Share on Reddit">
             <i class="fab fa-reddit-alien"></i>

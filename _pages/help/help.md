@@ -49,6 +49,10 @@ excerpt: " "
 <hr class="my-4">
 
 <div class="resources-row">
+  <a href="https://portal.junkstore.xyz/support" class="resource-card support" target="_blank" rel="noopener noreferrer">
+    <span class="resource-icon"><i class="fas fa-headset"></i></span>
+    <span class="resource-text"><strong>Support Tickets</strong></span>
+  </a>
   <a href="/games/tested/" class="resource-card">
     <span class="resource-icon">🎮</span>
     <span class="resource-text"><strong><span data-games-count>900</span>+ Games Tested</strong></span>
@@ -60,6 +64,10 @@ excerpt: " "
   <a href="https://www.reddit.com/r/JunkStore/" class="resource-card reddit" target="_blank" rel="noopener">
     <span class="resource-icon"><i class="fab fa-reddit"></i></span>
     <span class="resource-text"><strong>Reddit</strong></span>
+  </a>
+  <a href="https://lemmy.world/c/junkstore4deck" class="resource-card lemmy" target="_blank" rel="noopener">
+    <span class="resource-icon"><img src="/assets/images/lemmy.svg" class="resource-icon-svg" alt="" aria-hidden="true" width="20" height="20"></span>
+    <span class="resource-text"><strong>Lemmy</strong></span>
   </a>
 </div>
 
@@ -103,5 +111,23 @@ excerpt: " "
     location.replace('/help/troubleshooting/#' + hash);
   }
   // Unknown hash — leave on hub.
+})();
+</script>
+
+<!-- Keep the "Games Tested" count in sync with the games table, which is
+     driven by the same games-table.json. Falls back to the static number
+     if the fetch fails or JS is off. -->
+<script>
+(function() {
+  fetch('/assets/data/games-table.json')
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      var total = d.total_games || (d.games ? d.games.length : null);
+      if (!total) return;
+      document.querySelectorAll('[data-games-count]').forEach(function(el) {
+        el.textContent = total;
+      });
+    })
+    .catch(function() {});
 })();
 </script>

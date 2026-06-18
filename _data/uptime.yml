@@ -5,6 +5,7 @@
 
 steamosVersion: 3.7.20
 lastResetDate: 2026-04-02T01:30:00.000Z
+currentStatus: up
 resetReason: Launch of version 3
 version: Pro
 fixedIn: ""
@@ -307,4 +308,10 @@ notes:
     text: "No issues or breakages - [SteamOS 3.8.9 Beta: Second
       Clutch](https://store.steampowered.com/news/app/1675200/view/697641379212\
       297807)"
+  - id: 1781735644165zuh7
+    date: 2026-06-17T00:00:00
+    type: beta
+    text: "No issues or breakages - [SteamOS 3.8.10 Beta: Second
+      Clutch](https://store.steampowered.com/news/app/1675200/view/685257114654\
+      869889)"
 breakHistory: []

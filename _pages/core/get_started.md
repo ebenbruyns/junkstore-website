@@ -317,7 +317,7 @@ function jsCopyBootstrap() {
 
 <div class="js-callout js-callout--help">
   <h3>Stuck or need help?</h3>
-  <p>Most issues are quick fixes. Join us on <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> and post a ticket in <strong>v2-support</strong>.</p>
+  <p>Most issues are quick fixes. For Junk Store problems, open a ticket in the <a href="https://portal.junkstore.xyz/support" target="_blank" rel="noopener noreferrer">Support Portal</a>. For game-specific help or a chat, join us on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord</a>, <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener">Reddit</a> or <a href="https://lemmy.world/c/junkstore4deck" target="_blank" rel="noopener">Lemmy</a>.</p>
   <p>Found a bug? <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues" target="_blank" rel="noopener">Report it here</a>.</p>
 </div>
 
