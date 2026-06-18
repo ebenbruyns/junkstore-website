@@ -235,9 +235,20 @@
     const input = document.getElementById('faq-search');
     const clear = document.getElementById('faq-clear-search');
     if (!input) return;
+
+    // Persist the search term across the four help sub-pages within a
+    // browsing session (sessionStorage, so it clears when the tab closes
+    // rather than pre-filling a stale search on a future visit).
+    const SEARCH_KEY = 'junkstore-help-search';
+
     input.addEventListener('input', () => {
       const term = input.value;
       if (clear) clear.style.display = term ? 'block' : 'none';
+      if (term) {
+        sessionStorage.setItem(SEARCH_KEY, term);
+      } else {
+        sessionStorage.removeItem(SEARCH_KEY);
+      }
       applySearch(term);
     });
     if (clear) {
@@ -253,6 +264,13 @@
         input.dispatchEvent(new Event('input'));
       }
     });
+
+    // Restore a term carried over from another help sub-page and apply it.
+    const saved = sessionStorage.getItem(SEARCH_KEY) || '';
+    if (saved) {
+      input.value = saved;
+      input.dispatchEvent(new Event('input'));
+    }
   }
 
   /* ============================================================
