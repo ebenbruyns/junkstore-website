@@ -1,6 +1,66 @@
 {
-  "generated_at": "2026-06-14T07:38:20.533Z",
+  "generated_at": "2026-06-20T03:51:47.497Z",
   "games": [
+    {
+      "store": "gog",
+      "slug": "between-time-escape-room",
+      "featured_in": "2026-06-20",
+      "post_url": "/blog/games-tested-2026-06-20/",
+      "title": "Between Time: Escape Room",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/9048c0d70929dae840fd196b955742b662570d3c8cbc8659c0227c01e319c5e2.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/7e20c56c0fad9cab89c09646da159d53fe1a57034b7641568ab0def44125c4e5.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "citizen-sleeper",
+      "featured_in": "2026-06-20",
+      "post_url": "/blog/games-tested-2026-06-20/",
+      "title": "Citizen Sleeper",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/e99add0503fcb7ba1ede5b924a83ad7350b2f09951b125180f6393a2b8de56d1.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/124bcacf6f90de09b7d7266010db088fbea4e91048d2db5ed4a8304c785979f7.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "robobeat",
+      "featured_in": "2026-06-20",
+      "post_url": "/blog/games-tested-2026-06-20/",
+      "title": "Robobeat",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1456760/header.jpg",
+      "vertical_artwork": "https://images.gog.com/7e4c6f6bff3ffc05475b03c9bfc979ca34a7bbc89104d28c9418a9351f681be3.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "space-grunts-2",
+      "featured_in": "2026-06-20",
+      "post_url": "/blog/games-tested-2026-06-20/",
+      "title": "Space Grunts 2",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/d71e7e444ec2d437a4aa45a83b541f6b4923e37c6845b53f26174b5433ebfc24.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/fac4e3ce7c1d24c17900107c8ebcf7182f39d9d4e0bf696d951ed21d8f67a843.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "sugardew-island-your-cozy-farm-shop",
+      "featured_in": "2026-06-20",
+      "post_url": "/blog/games-tested-2026-06-20/",
+      "title": "Sugardew Island: Your Cozy Farm Shop",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/a9a9f2013b6b166329819bc4f764c740a60286e344f9484cba7da698870f74bf.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/0d1181570289273f34ca8b108e3c28aeb00617a0c886d6889f0f524ba5bb1798.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "wargame-construction-set-iii-age-of-rifles-1846-1905",
+      "featured_in": "2026-06-20",
+      "post_url": "/blog/games-tested-2026-06-20/",
+      "title": "",
+      "standalone_rating": "",
+      "icon_image": "",
+      "vertical_artwork": ""
+    },
     {
       "store": "epic",
       "slug": "gi-joe-wrath-of-cobra",
@@ -60,66 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/3ae8163a47734a7eab1773fb3664d2ac2ec2fe34b024a5aa3f08c4840af2fc2a.jpg?namespace=gamesdb",
       "vertical_artwork": "https://images.gog.com/4dd988e3f64e5cbfdb5898dc98d525cdea590e7957c08bbd4f7d6fa7466b4579.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "rogue-waters",
-      "featured_in": "2026-06-09",
-      "post_url": "/blog/games-tested-2026-06-09/",
-      "title": "Rogue Waters",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/e4f69bfe0d79bf5c68a9d8e25e2f11072fe8a506e93a1b2f5529503b4d05b412.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/ad7603df71e282bf750f5da5f9b10edb4be9909781be144111c26735b2f59c77.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "songs-of-conquest",
-      "featured_in": "2026-06-09",
-      "post_url": "/blog/games-tested-2026-06-09/",
-      "title": "Songs of Conquest",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/9adae21fb0d68786cddfc0b4a6f1da90a822d980ad52fe7bb199c0d25f0c8937.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/19efbf8aef7b3b34aca605279de6b83e3291510490c0aebea0adeea806f17562.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "tomb-raider-iv-vi-remastered",
-      "featured_in": "2026-06-09",
-      "post_url": "/blog/games-tested-2026-06-09/",
-      "title": "Tomb Raider IV-VI Remastered",
-      "standalone_rating": "green",
-      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2525380/header.jpg",
-      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/df9df62f38994e3ead9c7cb5fa3a0bb0/tomb-raider-ivvi-remastered-1lpuo.jpg"
-    },
-    {
-      "store": "gog",
-      "slug": "xcom-chimera-squad",
-      "featured_in": "2026-06-09",
-      "post_url": "/blog/games-tested-2026-06-09/",
-      "title": "XCOM: Chimera Squad",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog-statics.com/1cc68a72f7320618fcf3a23bd78e86b7b1cef2f8841d8b3f7c6640f46b463ca3.png",
-      "vertical_artwork": "https://images.gog.com/fe726765f548ff60c5c749266adaf13702917d8f9d21e817a6a1083a0a392727.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "calico",
-      "featured_in": "2026-06-01",
-      "post_url": "/blog/games-tested-2026-06-01/",
-      "title": "Calico",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/3a7641a9fad24c1610b789b6fdb5825f8d5144a0813bc98239b81e7ad9fa5906.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/7358de23f258f2a874896cc59416ba61ed2bfe65b7a82f6d5c9faac0e84acc7c.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "lonestar",
-      "featured_in": "2026-06-01",
-      "post_url": "/blog/games-tested-2026-06-01/",
-      "title": "LoneStar",
-      "standalone_rating": "green",
-      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2056210/header.jpg",
-      "vertical_artwork": "https://images.gog.com/4e170c56d21d357e0eaa0b551a74768181a3165f511b566e5f95b6ceff72a38e.jpg?namespace=gamesdb"
     }
   ]
 }

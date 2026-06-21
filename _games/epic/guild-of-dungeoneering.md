@@ -8,7 +8,7 @@ storefront_key: "epic"
 permalink: /games/epic/guild-of-dungeoneering/
 
 # Compatibility (Junk Store testing)
-decky_rating: ""
+decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Nov '25"
 proton_version: ""

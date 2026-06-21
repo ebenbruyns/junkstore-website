@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-17T05:03:39.652Z",
-  "total_games": 1021,
+  "generated_at": "2026-06-20T03:51:47.429Z",
+  "total_games": 1026,
   "storefronts": {
     "Epic": {
-      "total": 486,
-      "green_standalone": 425,
-      "green_decky": 435
+      "total": 488,
+      "green_standalone": 427,
+      "green_decky": 438
     },
     "GOG": {
-      "total": 388,
-      "green_standalone": 316,
-      "green_decky": 354
+      "total": 391,
+      "green_standalone": 319,
+      "green_decky": 357
     },
     "Amazon": {
       "total": 75,
@@ -2534,6 +2534,18 @@
       "databaseId": "f9d7a68aa77a4b30902af341533abe22"
     },
     {
+      "slug": "citizen-sleeper",
+      "id": "308461dd5d8248058a65a2667f92e330",
+      "title": "Citizen Sleeper",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Fellow Traveller",
+      "controller_input": "native"
+    },
+    {
       "slug": "city-of-brass",
       "id": "268181aa-b3e0-41db-ab78-7413979e478b",
       "title": "City of Brass",
@@ -4063,7 +4075,7 @@
       "id": "01533248-c340-4f2d-a43a-0bcf17b336bb",
       "title": "Guild of Dungeoneering",
       "storefront": "Epic",
-      "decky_rating": "",
+      "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '25",
       "cant_test_linux": false,
@@ -5712,6 +5724,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "39b13b169e1d4e798543f931bc3a95b4"
+    },
+    {
+      "slug": "robobeat",
+      "id": "eeaf9fd0962d4ab29d72a42df19aaa4a",
+      "title": "Robobeat",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Kwalee",
+      "controller_input": "native"
     },
     {
       "slug": "rocket-league",
@@ -8680,6 +8704,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1090734724"
+    },
+    {
+      "slug": "between-time-escape-room",
+      "id": "1981112510",
+      "title": "Between Time: Escape Room",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "mc2games",
+      "controller_input": "native"
     },
     {
       "slug": "bio-menace",
@@ -12380,6 +12416,18 @@
       "controller_input": "native"
     },
     {
+      "slug": "space-grunts-2",
+      "id": "1682258648",
+      "title": "Space Grunts 2",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": true,
+      "publisher": "Orangepixel, HandyGames",
+      "controller_input": "native"
+    },
+    {
       "slug": "space-hulk-deathwing",
       "id": "c2e36a26-8fcf-44e2-bc62-6dd8e3153075",
       "title": "Space Hulk: Deathwing",
@@ -12636,6 +12684,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "2090261953"
+    },
+    {
+      "slug": "sugardew-island-your-cozy-farm-shop",
+      "id": "1549126051",
+      "title": "Sugardew Island: Your Cozy Farm Shop",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "rokaplay",
+      "controller_input": "native"
     },
     {
       "slug": "summers-gone-season-1",

@@ -20,7 +20,7 @@
 {%- assign this_cat = page.categories | first -%}
 {%- if this_cat and page.prev_callout_disabled != true -%}
 
-  {%- assign trigger_cats = "Weekly Update|Backlog Testing|Game Retests" | split: "|" -%}
+  {%- assign trigger_cats = "Giveaway Testing|Weekly Update|Backlog Testing|Game Retests" | split: "|" -%}
   {%- assign is_compat = false -%}
   {%- for c in trigger_cats -%}
     {%- if this_cat == c -%}{%- assign is_compat = true -%}{%- endif -%}
@@ -33,6 +33,7 @@
     {%- assign retest_pick = nil -%}
     {%- for post in site.posts -%}
       {%- if post.url != page.url -%}
+        {%- if weekly_pick == nil and post.categories contains "Giveaway Testing" -%}{%- assign weekly_pick = post -%}{%- endif -%}
         {%- if weekly_pick == nil and post.categories contains "Weekly Update" -%}{%- assign weekly_pick = post -%}{%- endif -%}
         {%- if backlog_pick == nil and post.categories contains "Backlog Testing" -%}{%- assign backlog_pick = post -%}{%- endif -%}
         {%- if retest_pick == nil and post.categories contains "Game Retests" -%}{%- assign retest_pick = post -%}{%- endif -%}
