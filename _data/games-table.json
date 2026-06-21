@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-20T03:51:47.429Z",
-  "total_games": 1026,
+  "generated_at": "2026-06-21T01:08:42.821Z",
+  "total_games": 1027,
   "storefronts": {
     "Epic": {
       "total": 488,
@@ -8,8 +8,8 @@
       "green_decky": 438
     },
     "GOG": {
-      "total": 391,
-      "green_standalone": 319,
+      "total": 392,
+      "green_standalone": 320,
       "green_decky": 357
     },
     "Amazon": {
@@ -13617,6 +13617,18 @@
       "controller_input": "requires-mapping",
       "requires_eac_runtime": false,
       "databaseId": "1485235422"
+    },
+    {
+      "slug": "wargame-construction-set-iii-age-of-rifles-1846-1905",
+      "id": "1180139263",
+      "title": "Wargame Construction Set III: Age of Rifles 1846-1905",
+      "storefront": "GOG",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "SNEG",
+      "controller_input": "keyboard-mouse"
     },
     {
       "slug": "warhammer-40000-rites-of-war",

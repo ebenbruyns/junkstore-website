@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T01:04:46.784Z",
+  "generated_at": "2026-06-21T01:08:42.863Z",
   "games": [
     {
       "store": "gog",
@@ -56,10 +56,10 @@
       "slug": "wargame-construction-set-iii-age-of-rifles-1846-1905",
       "featured_in": "2026-06-21",
       "post_url": "/blog/games-tested-2026-06-21/",
-      "title": "",
-      "standalone_rating": "",
-      "icon_image": "",
-      "vertical_artwork": ""
+      "title": "Wargame Construction Set III: Age of Rifles 1846-1905",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/888ead251d20467884475cfdb526d3990403b2737ca6814b50b650c95726e1f1.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/55bcac2e70a82a59b623ba076155c7d6c084b9f969eb2dde7fa53002d2ba0e64.jpg?namespace=gamesdb"
     },
     {
       "store": "epic",
