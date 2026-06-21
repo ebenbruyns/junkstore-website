@@ -105,7 +105,7 @@ Amazon Prime Gaming has a bunch worth grabbing too. There are three GOG games on
 
 They are also giving one Epic code away for <a href="https://store.epicgames.com/p/gi-joe-wrath-of-cobra-45e4ed" target="_blank" rel="noopener">G.I. Joe: Wrath of Cobra</a>. We'll get these tested once they're live.
 
-Got questions or want to share what you're keen to try? Flick us a message on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a> or <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a>
+Got questions or want to share what you're keen to try? Flick us a message on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a>, <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a> or <a href="https://lemmy.world/c/junkstore4deck" target="_blank" rel="noopener" class="community-btn lemmy-btn"><span class="lemmy-icon" style="margin-right: 6px;"></span>Lemmy</a>
 
 Cheers,<br>
 The Junk Store Team

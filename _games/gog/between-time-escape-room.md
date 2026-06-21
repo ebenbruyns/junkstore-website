@@ -35,7 +35,7 @@ languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"8","name":"First-Person"},{"id":"6","name":"Exploration"},{"id":"141","name":"Point & Click"},{"id":"107","name":"Family Friendly"},{"id":"571","name":"3D"},{"id":"77","name":"Realistic"},{"id":"110","name":"Cinematic"},{"id":"91","name":"Walking Simulator"},{"id":"142","name":"Detective"},{"id":"216","name":"Heist"},{"id":"208","name":"Alternate History"},{"id":"288","name":"Interactive Fiction"},{"id":"317","name":"Time Travel"},{"id":"140","name":"Hidden Object"},{"id":"326","name":"Investigation"},{"id":"575","name":"Logic"},{"id":"92376","name":"Aventure"}]
 size: ""
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "60-minutes-to-extinction-escape-room|palindrome-syndrome-escape-room|tested-on-humans-escape-room"
 igdb_url: "https://www.igdb.com/games/between-time-escape-room"
 was_free_before: false
 giveaway_events: []

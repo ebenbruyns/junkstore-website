@@ -102,7 +102,7 @@ Epic's got <a href="https://store.epicgames.com/en-US/p/doomblade-afdf9a" target
 <!-- PRIME GOG: Replace game-slug and Game Title -->
 Amazon Prime Gaming has a couple worth grabbing too: a GOG code for <a href="https://www.gog.com/en/game/neo_cab" target="_blank" rel="noopener">Neo Cab</a> and <a href="https://www.gog.com/en/game/the_pale_beyond" target="_blank" rel="noopener">The Pale Beyond</a>.
 
-Got questions or want to share what you're keen to try? Flick us a message on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a> or <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a>
+Got questions or want to share what you're keen to try? Flick us a message on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a>, <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a> or <a href="https://lemmy.world/c/junkstore4deck" target="_blank" rel="noopener" class="community-btn lemmy-btn"><span class="lemmy-icon" style="margin-right: 6px;"></span>Lemmy</a>
 
 Cheers,<br>
 The Junk Store Team

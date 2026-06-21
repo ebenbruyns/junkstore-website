@@ -323,6 +323,12 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
   background: #ff4500;
 }
 
+.layout--single .lemmy-btn,
+.layout--blog .lemmy-btn,
+.layout--post .lemmy-btn {
+  background: #00bc8c;
+}
+
 .layout--single .community-btn:hover,
 .layout--blog .community-btn:hover {
   transform: translateY(-1px);

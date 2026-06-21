@@ -51,6 +51,10 @@ blockquote p {
   background: #ff4500;
 }
 
+.lemmy-btn {
+  background: #00bc8c;
+}
+
 .support-btn {
   background: #e67300;
 }
