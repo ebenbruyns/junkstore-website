@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-06-21T00:18:45.081Z",
+  "generated_at": "2026-06-25T03:11:13.036Z",
   "games": [
-    {
-      "id": "manual_1779403835841_hot-brass",
-      "title": "Hot Brass",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/hot-brass-gog/dp/amzn1.pg.item.cbedd50b-8e66-4f96-9d47-a9773837afe8?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F919pN7LwLqL.jpg&w=480&output=webp&q=80",
-      "end_date": "2026-06-25T00:00:00.000Z",
-      "end_date_formatted": "Thu, 25 Jun · 00:00 UTC",
-      "first_seen": "2026-05-21 22:50:35",
-      "original_price": "$12.49"
-    },
     {
       "id": "gp-3688",
       "title": "ROBOBEAT",
