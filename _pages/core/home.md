@@ -193,14 +193,11 @@ function playDemoVideo(container) {
 <section class="pricing-highlight">
   <div class="pricing-box">
     <h3>🚀 The Only Professional Game Mode Solution</h3>
-    <p class="price-text"><strong><span data-pricing="original-crossed">US$39.99</span></strong></p>
-    <p class="pricing-features-inline">Software is yours to keep · 12 months of updates & support · <span data-pricing="trial">7-day free trial</span></p>
+    <p class="price-text"><strong>US$39.99</strong></p>
+    <p class="pricing-features-inline">Software is yours to keep · 12 months of updates & support · 7-day free trial</p>
     <p class="value-text">Install. Play. Configure. All in Game Mode.</p>
-    <div data-coupon-container style="display: none; margin: 0.5rem 0;">
-      <span class="promo-code" data-pricing="coupon-code"></span> <span data-pricing="coupon-discount"></span>
-    </div>
     <div class="pricing-cta">
-      <a href="/portal-redirect/" rel="noopener" class="button buy-button" data-pricing="portal-url" data-event="click" data-category="conversion" data-action="trial_signup" data-label="homepage_pricing">Start Free Trial</a>
+      <a href="/portal-redirect/" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="homepage_pricing">Start Free Trial</a>
       <a href="/features/gallery/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_gallery" data-label="homepage_pricing">See It In Action</a>
       <a href="/decky-vs-pro/" class="button button-secondary button-wide" data-event="click" data-category="engagement" data-action="view_comparison" data-label="homepage_pricing">Why Choose Junk Store</a>
     </div>

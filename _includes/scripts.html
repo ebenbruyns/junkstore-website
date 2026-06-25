@@ -62,12 +62,6 @@
 })();
 </script>
 
-<!-- Pricing renderer: reads window.JS_PRICING (set by pricing-config.html
-     from _data/pricing.yml at build time) and rewrites data-pricing="..."
-     elements. No Firebase fetch. -->
-{% include pricing-config.html %}
-<script src="{{ '/assets/js/pricing.js' | relative_url }}" defer></script>
-
 <!-- Testimonial rotation: testimonials are rendered server-side from
      _data/testimonials.yml; this just cycles the .active class. -->
 <script src="{{ '/assets/js/testimonials-rotation.js' | relative_url }}" defer></script>
