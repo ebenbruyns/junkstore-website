@@ -172,7 +172,7 @@ function playDemoVideo(container) {
   <div class="questions-grid">
     <div class="question-item">
       <h4>How much does it cost?</h4>
-      <p><strong>$40</strong> (not a subscription). 7-day free trial, 12 months of updates.<br><a href="/help/">More details →</a></p>
+      <p><strong>US$39.99</strong> (not a subscription). 7-day free trial, 12 months of updates.<br><a href="/help/">More details →</a></p>
     </div>
     <div class="question-item">
       <h4>Is Junk Store trustworthy?</h4>
@@ -193,7 +193,7 @@ function playDemoVideo(container) {
 <section class="pricing-highlight">
   <div class="pricing-box">
     <h3>🚀 The Only Professional Game Mode Solution</h3>
-    <p class="price-text"><strong><span data-pricing="original-crossed">$40</span></strong></p>
+    <p class="price-text"><strong><span data-pricing="original-crossed">US$39.99</span></strong></p>
     <p class="pricing-features-inline">Software is yours to keep · 12 months of updates & support · <span data-pricing="trial">7-day free trial</span></p>
     <p class="value-text">Install. Play. Configure. All in Game Mode.</p>
     <div data-coupon-container style="display: none; margin: 0.5rem 0;">

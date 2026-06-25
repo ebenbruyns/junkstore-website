@@ -433,7 +433,7 @@ excerpt: "Every feature, side by side. See exactly what Pro unlocks for your Ste
     <div class="version-card version-card--featured">
       <h3>Junk Store Pro</h3>
       <p class="version-tag">Standalone app</p>
-      <p class="version-price">US$40</p>
+      <p class="version-price">US$39.99</p>
       <ul class="version-list">
         <li>Epic, GOG, Amazon Prime &amp; itch &mdash; all included</li>
         <li>File Manager, Disk Analyser, Process Manager, SteamGridDB</li>

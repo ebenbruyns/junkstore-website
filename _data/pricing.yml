@@ -3,10 +3,10 @@
 # Edit pricing in the companion admin UI, not here — manual changes will
 # be overwritten on the next sync.
 
-annual_price: 40
+annual_price: 39.99
 trial_days: 7
 currency: "USD"
-currency_symbol: "$"
+currency_symbol: "US$"
 portal_url: "https://portal.junkstore.xyz"
 
 coupon:
