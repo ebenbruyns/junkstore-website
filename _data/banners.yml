@@ -30,9 +30,20 @@
 
 - id: "aad3d5a6-b83e-463a-9089-34a3742d4e4b"
   title: "Support Tickets Live"
-  isActive: true
+  isActive: false
   priority: 11
   startDate: null
   endDate: null
   targetPages: []
   content: "🎫 <strong style=\"color: #00adb5;\">New: in-portal support tickets.</strong> Get help with Junk Store straight from the portal. <a href=\"https://portal.junkstore.xyz/support\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #ffa366; text-decoration: underline;\">Open a ticket →</a><br><span class=\"promo-banner__note\">Game-specific questions are still best on Discord, Reddit and Lemmy.</span>"
+
+- id: "f4a1c7e2-9b83-4d6a-8e15-2c0a5f7b91d4"
+  title: "Pro v3.1.0.1 Update"
+  isActive: true
+  priority: 12
+  startDate: null
+  endDate: null
+  targetPages: []
+  content: "🚀 <strong style=\"color: #00adb5;\">Junk Store Pro v3.1.0.1: </strong> Network game import, file previews in the file 
+  manager, and other various bug fixes.<br> <a href=\"https://portal.junkstore.xyz/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #ffa366; 
+  text-decoration: underline;\">Get it from the Portal →</a><br><span class=\"promo-banner__note\">Already on Pro? Update directly in the app.</span>"

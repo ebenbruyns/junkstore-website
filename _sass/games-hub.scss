@@ -386,10 +386,10 @@ $hub-radius: 12px;
 
 // Game Card
 .game-card {
-  flex: 0 0 220px;
+  flex: 0 0 170px;
   // Lock height so the JS swap from skeleton → real card doesn't shift layout.
-  // 220w / 4:5 image = 275h + ~165px content (badges + 5-line title clamp at 13px).
-  height: 440px;
+  // 170w / 4:5 image = ~213h + ~97px content (badges + 3-line title clamp at 13px).
+  height: 310px;
   background: $hub-card-bg;
   border: 1px solid $hub-border;
   border-radius: $hub-radius;
@@ -437,7 +437,7 @@ $hub-radius: 12px;
   }
 
   &__content {
-    padding: 12px;
+    padding: 10px;
   }
 
   &__badges {
@@ -448,20 +448,23 @@ $hub-radius: 12px;
     margin-bottom: 6px;
   }
 
-  &__title {
+  // `& &__title` compiles to `.game-card .game-card__title` (two classes) so it
+  // beats the site-wide `.page__content h3` base rule (1.15rem ≈ 18px), which
+  // otherwise overrides a single-class `.game-card__title`.
+  & &__title {
     font-size: 13px;
     font-weight: 600;
     color: $hub-text;
     margin: 4px 0 0 0;
-    line-height: 1.3;
+    line-height: 1.2;
     display: -webkit-box;
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
 
   &__rating {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
 
     &--green { color: $hub-green; }
