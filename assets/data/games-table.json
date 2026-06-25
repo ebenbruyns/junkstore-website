@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-21T01:08:42.821Z",
-  "total_games": 1027,
+  "generated_at": "2026-06-25T03:59:39.887Z",
+  "total_games": 1033,
   "storefronts": {
     "Epic": {
       "total": 488,
@@ -13,8 +13,8 @@
       "green_decky": 357
     },
     "Amazon": {
-      "total": 75,
-      "green_standalone": 71,
+      "total": 81,
+      "green_standalone": 77,
       "green_decky": 0
     },
     "itch": {
@@ -115,6 +115,19 @@
       "databaseId": "amzn1.adg.product.8cac5ece-23c0-41c4-8045-81fa6905f9f0"
     },
     {
+      "slug": "besiege",
+      "id": "34d64942-ee42-4f62-abed-c362136a5e47",
+      "title": "Besiege",
+      "storefront": "Amazon",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": true,
+      "publisher": "Plug In Digital",
+      "controller_input": "keyboard-mouse",
+      "databaseId": "amzn1.adg.product.2a89bb26-b356-4c43-bee0-27835a9a8979"
+    },
+    {
       "slug": "clouds-sheep-2",
       "id": "f5af51c9-5bb7-4d27-ac85-21bff852472b",
       "title": "Clouds & Sheep 2",
@@ -128,6 +141,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "amzn1.adg.product.2cbd524e-6778-4f53-b367-b3255aca792c"
+    },
+    {
+      "slug": "dark-city-kyiv-collectors-edition",
+      "id": "eaddc6fb-8899-44fc-a99b-38a71e8aa2a4",
+      "title": "Dark City: Kyiv - Collector's Edition",
+      "storefront": "Amazon",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "publisher": "Big Fish Games",
+      "controller_input": "keyboard-mouse",
+      "databaseId": "amzn1.adg.product.58689e74-9689-4c62-b241-bfd0171aa32b"
     },
     {
       "slug": "deep-sky-derelicts",
@@ -158,6 +183,19 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "amzn1.adg.product.0d9fd292-f386-406f-895b-a9385d3dfcb5"
+    },
+    {
+      "slug": "disney-pixar-cars",
+      "id": "17bbbe01-db63-45cc-a5e7-c9f1b2290493",
+      "title": "Disney•Pixar Cars",
+      "storefront": "Amazon",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Disney",
+      "controller_input": "keyboard-mouse",
+      "databaseId": "amzn1.adg.product.c07ca4c1-c030-406b-a740-874db46f01c7"
     },
     {
       "slug": "dread-templar",
@@ -445,6 +483,33 @@
       "databaseId": "amzn1.adg.product.35054121-1014-4c44-a19e-4ab829f8ea86"
     },
     {
+      "slug": "halloween-stories-horror-movie-collectors-edition",
+      "id": "c25ee954-567a-461f-a904-a2baa5d38200",
+      "title": "Halloween Stories: Horror Movie Collector's Edition",
+      "storefront": "Amazon",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "cant_test_linux": false,
+      "native_linux": false,
+      "publisher": "Big Fish Games",
+      "controller_input": "keyboard-mouse",
+      "requires_eac_runtime": false,
+      "databaseId": ""
+    },
+    {
+      "slug": "haunted-hotel-personal-nightmare-collectors-edition",
+      "id": "9f5bb326-b5ab-41f1-b8e9-cb4ee015e6e3",
+      "title": "Haunted Hotel: Personal Nightmare - Collector's Edition",
+      "storefront": "Amazon",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "publisher": "Big Fish Games",
+      "controller_input": "keyboard-mouse",
+      "databaseId": "amzn1.adg.product.d94750f3-d3df-4f0b-87e0-c8c0d08b8b03"
+    },
+    {
       "slug": "heaven-dust-2",
       "id": "885a69e6-3c3d-4e12-aba9-4d83ae143d5a",
       "title": "Heaven Dust 2",
@@ -503,6 +568,21 @@
       "controller_input": "keyboard-mouse",
       "requires_eac_runtime": false,
       "databaseId": "amzn1.adg.product.8a584db6-f8e5-4bfa-87a8-256a9d3506c4"
+    },
+    {
+      "slug": "living-legends-the-crystal-tear-collectors-edition",
+      "id": "929a758b-8651-4023-baa1-455e67413e8c",
+      "title": "Living Legends: The Crystal Tear Collector's Edition",
+      "storefront": "Amazon",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "cant_test_linux": false,
+      "native_linux": false,
+      "publisher": "BFG Entertainment",
+      "controller_input": "keyboard-mouse",
+      "requires_eac_runtime": false,
+      "databaseId": ""
     },
     {
       "slug": "masterplan-tycoon",

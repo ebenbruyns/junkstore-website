@@ -1,30 +1,6 @@
 {
-  "generated_at": "2026-06-25T03:11:13.036Z",
+  "generated_at": "2026-06-25T23:16:19.035Z",
   "games": [
-    {
-      "id": "gp-3688",
-      "title": "ROBOBEAT",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/p/robobeat-5f084b",
-      "image": "https://www.gamerpower.com/offers/1b/6a3408d9a75df.jpg",
-      "end_date": "2026-06-25T15:00:00.000Z",
-      "end_date_formatted": "Thu, 25 Jun · 15:00 UTC",
-      "first_seen": "2026-06-18 20:02:52",
-      "original_price": "$19.99"
-    },
-    {
-      "id": "gp-3687",
-      "title": "Citizen Sleeper",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/p/citizen-sleeper-944858",
-      "image": "https://www.gamerpower.com/offers/1b/6a34084f6356e.jpg",
-      "end_date": "2026-06-25T15:00:00.000Z",
-      "end_date_formatted": "Thu, 25 Jun · 15:00 UTC",
-      "first_seen": "2026-06-18 20:02:52",
-      "original_price": "$19.99"
-    },
     {
       "id": "manual_1780001334153_claim-pro-basketball-manager-2026-amazon-luna",
       "title": "Pro Basketball Manager 2026",
@@ -48,6 +24,30 @@
       "end_date_formatted": "Thu, 2 Jul · 00:00 UTC",
       "first_seen": "2026-05-28 20:50:06",
       "original_price": null
+    },
+    {
+      "id": "gp-3692",
+      "title": "Voidwrought",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/voidwrought-ce8f4b",
+      "image": "https://www.gamerpower.com/offers/1b/6a3d437b1768d.jpg",
+      "end_date": "2026-07-02T15:00:00.000Z",
+      "end_date_formatted": "Thu, 2 Jul · 15:00 UTC",
+      "first_seen": "2026-06-25 20:48:35",
+      "original_price": "$19.99"
+    },
+    {
+      "id": "gp-392",
+      "title": "RollerCoaster Tycoon 3 Complete Edition",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://www.epicgames.com/store/en-US/product/rollercoaster-tycoon-3-complete-edition/home",
+      "image": "https://www.gamerpower.com/offers/1b/5f6cb4d5cc440.jpg",
+      "end_date": "2026-07-02T15:00:00.000Z",
+      "end_date_formatted": "Thu, 2 Jul · 15:00 UTC",
+      "first_seen": "2026-06-25 20:48:35",
+      "original_price": "$29.99"
     },
     {
       "id": "manual_1780444256090_mafia-iii-definitive-edition",
@@ -170,6 +170,18 @@
       "original_price": null
     },
     {
+      "id": "manual_1782421304157_claim-lost-eidolons-veil-of-the-witch-amazon-luna",
+      "title": "Claim Lost Eidolons: Veil of the Witch | Amazon Luna",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/lost-eidolons-veil-of-the-witch-aga/dp/amzn1.pg.item.6a617cd8-36cc-4652-bea1-d073b1fb89e5?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2FB1PL2P%2BN6bL.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-07-30T00:00:00.000Z",
+      "end_date_formatted": "Thu, 30 Jul · 00:00 UTC",
+      "first_seen": "2026-06-25 21:01:44",
+      "original_price": null
+    },
+    {
       "id": "gp-3096",
       "title": "Madness Inside",
       "storefront": "itchio",
@@ -178,7 +190,7 @@
       "image": "https://www.gamerpower.com/offers/1b/67c76007697b3.jpg",
       "end_date": "2026-08-01T23:59:59Z",
       "end_date_formatted": "Sat, 1 Aug · 23:59 UTC",
-      "first_seen": "2026-05-19 22:00:00",
+      "first_seen": "2026-04-23 02:18:12",
       "original_price": "$6.99"
     },
     {
@@ -192,6 +204,18 @@
       "end_date_formatted": "Thu, 20 Aug · 00:00 UTC",
       "first_seen": "2026-05-21 22:49:44",
       "original_price": "$9.99"
+    },
+    {
+      "id": "manual_1782421420505_claim-terraforming-mars-amazon-luna",
+      "title": "Claim Terraforming Mars | Amazon Luna",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/terraforming-mars-aga/dp/amzn1.pg.item.805ab02d-bcd9-4d95-81ad-6c495def553e?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2FA13LzjGRSiL.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-08-27T00:00:00.000Z",
+      "end_date_formatted": "Thu, 27 Aug · 00:00 UTC",
+      "first_seen": "2026-06-25 21:03:40",
+      "original_price": null
     },
     {
       "id": "manual_1780444158499_xcom-chimera-squad",
@@ -218,7 +242,19 @@
       "original_price": null
     },
     {
-      "id": "gp_3630",
+      "id": "manual_1782427258310_space-grunts-chrono-shard",
+      "title": "Space Grunts: Chrono Shard",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/space-grunts-chrono-shard-epic/dp/amzn1.pg.item.dbfe54c6-6298-46ec-808d-49d3915b9734?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2Fe2ddb86eec284ba5acb5cb2d96a48ef1%2Fspace-grunts-chrono-shard-1lwij.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-09-24T00:00:00.000Z",
+      "end_date_formatted": "Thu, 24 Sept · 00:00 UTC",
+      "first_seen": "2026-06-25 22:40:58",
+      "original_price": "$15.99"
+    },
+    {
+      "id": "gp-3630",
       "title": "APPLECALYPSE",
       "storefront": "itchio",
       "website_slug": null,
@@ -230,7 +266,7 @@
       "original_price": "$2.99"
     },
     {
-      "id": "gp_3628",
+      "id": "gp-3628",
       "title": "Liminal Lane",
       "storefront": "itchio",
       "website_slug": null,
@@ -240,18 +276,6 @@
       "end_date_formatted": "Sun, 4 Oct · 11:00 UTC",
       "first_seen": "2026-05-08 21:59:32",
       "original_price": "$1.99"
-    },
-    {
-      "id": "gp_3646",
-      "title": "Spirit Catcher 93'",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/p/spirit-catcher-93-ee155d",
-      "image": "https://www.gamerpower.com/offers/1b/6a08f8b2123a0.jpg",
-      "end_date": "2026-06-25T15:00:00.000Z",
-      "end_date_formatted": "Thu, 25 Jun · 15:00 UTC",
-      "first_seen": "2026-05-16 23:40:50",
-      "original_price": "$14.99"
     },
     {
       "id": "gp-2204",
