@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T23:16:19.035Z",
+  "generated_at": "2026-06-25T23:41:31.178Z",
   "games": [
     {
       "id": "manual_1780001334153_claim-pro-basketball-manager-2026-amazon-luna",
@@ -171,7 +171,7 @@
     },
     {
       "id": "manual_1782421304157_claim-lost-eidolons-veil-of-the-witch-amazon-luna",
-      "title": "Claim Lost Eidolons: Veil of the Witch | Amazon Luna",
+      "title": "Lost Eidolons: Veil of the Witch",
       "storefront": "amazon",
       "website_slug": null,
       "store_url": "https://luna.amazon.com/claims/lost-eidolons-veil-of-the-witch-aga/dp/amzn1.pg.item.6a617cd8-36cc-4652-bea1-d073b1fb89e5?ingress=amzn",
@@ -207,7 +207,7 @@
     },
     {
       "id": "manual_1782421420505_claim-terraforming-mars-amazon-luna",
-      "title": "Claim Terraforming Mars | Amazon Luna",
+      "title": "Terraforming Mars",
       "storefront": "amazon",
       "website_slug": null,
       "store_url": "https://luna.amazon.com/claims/terraforming-mars-aga/dp/amzn1.pg.item.805ab02d-bcd9-4d95-81ad-6c495def553e?ingress=amzn",
