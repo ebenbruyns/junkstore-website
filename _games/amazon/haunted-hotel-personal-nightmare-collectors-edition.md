@@ -28,8 +28,8 @@ genre: Adventure, Point-and-click, Puzzle
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "May 26, 2017"
-game_modes: []
+release_date: "January 20, 2023"
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"8","name":"First-Person"},{"id":"69","name":"Action-Adventure"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"305","name":"Linear"},{"id":"142","name":"Detective"},{"id":"326","name":"Investigation"}]

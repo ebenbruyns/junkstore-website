@@ -28,8 +28,8 @@ genre: Adventure, Point-and-click, Puzzle
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "August 4, 2023"
-game_modes: []
+release_date: "September 22, 2023"
+game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"8","name":"First-Person"},{"id":"6","name":"Exploration"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"305","name":"Linear"},{"id":"142","name":"Detective"},{"id":"140","name":"Hidden Object"},{"id":"326","name":"Investigation"}]

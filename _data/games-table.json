@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-25T03:59:39.887Z",
-  "total_games": 1033,
+  "generated_at": "2026-06-28T03:13:32.415Z",
+  "total_games": 1037,
   "storefronts": {
     "Epic": {
-      "total": 488,
-      "green_standalone": 427,
-      "green_decky": 438
+      "total": 490,
+      "green_standalone": 429,
+      "green_decky": 440
     },
     "GOG": {
       "total": 392,
@@ -13,8 +13,8 @@
       "green_decky": 357
     },
     "Amazon": {
-      "total": 81,
-      "green_standalone": 77,
+      "total": 83,
+      "green_standalone": 79,
       "green_decky": 0
     },
     "itch": {
@@ -150,6 +150,7 @@
       "decky_rating": "unsupported",
       "standalone_rating": "green",
       "date_tested": "Jun '26",
+      "native_linux": false,
       "publisher": "Big Fish Games",
       "controller_input": "keyboard-mouse",
       "databaseId": "amzn1.adg.product.58689e74-9689-4c62-b241-bfd0171aa32b"
@@ -505,6 +506,7 @@
       "decky_rating": "unsupported",
       "standalone_rating": "green",
       "date_tested": "Jun '26",
+      "native_linux": false,
       "publisher": "Big Fish Games",
       "controller_input": "keyboard-mouse",
       "databaseId": "amzn1.adg.product.d94750f3-d3df-4f0b-87e0-c8c0d08b8b03"
@@ -583,6 +585,18 @@
       "controller_input": "keyboard-mouse",
       "requires_eac_runtime": false,
       "databaseId": ""
+    },
+    {
+      "slug": "lost-eidolons-veil-of-the-witch",
+      "id": "amzn1.adg.product.568ed097-bbca-4bd1-84fb-935541d0ca2d",
+      "title": "Lost Eidolons: Veil of the Witch",
+      "storefront": "Amazon",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Ocean Drive Studio, Inc., Kakao Games",
+      "controller_input": "native"
     },
     {
       "slug": "masterplan-tycoon",
@@ -910,6 +924,18 @@
       "controller_input": "keyboard-mouse",
       "requires_eac_runtime": false,
       "databaseId": "amzn1.adg.product.16eaa398-e6f6-479b-86bd-468f02d493b2"
+    },
+    {
+      "slug": "terraforming-mars",
+      "id": "amzn1.adg.product.badcdd9b-a38e-46dd-b18e-61b8e6088210",
+      "title": "Terraforming Mars",
+      "storefront": "Amazon",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Twin Sails Interactive",
+      "controller_input": "keyboard-mouse"
     },
     {
       "slug": "the-abandoned-planet",
@@ -5901,6 +5927,18 @@
       "databaseId": "540f935fa0ad4bd498177ee5ad3b54e4"
     },
     {
+      "slug": "rollercoaster-tycoon-3-complete-edition",
+      "id": "281a47e363284108b82bf05c1a612145",
+      "title": "RollerCoaster Tycoon 3: Complete Edition",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Atari, Aspyr (Mac)",
+      "controller_input": "keyboard-mouse"
+    },
+    {
       "slug": "rugrats-adventures-in-gameland",
       "id": "6658e78f-5ad7-45f2-8f27-a460f52af6bb",
       "title": "Rugrats: Adventures in Gameland",
@@ -7900,6 +7938,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "595e35287b824902a2f7107139603732"
+    },
+    {
+      "slug": "voidwrought",
+      "id": "270094e9e9da4cdcadbeef8d59e9e444",
+      "title": "Voidwrought",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Kwalee",
+      "controller_input": "native"
     },
     {
       "slug": "vornyca",
