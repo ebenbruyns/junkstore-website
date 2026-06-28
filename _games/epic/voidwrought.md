@@ -59,9 +59,9 @@ dependencies:
 
 # Epic Features
 requires_eos: false
-supports_eos: false
+supports_eos: true
 epic_achievements: true
-epic_offline_mode: false
+epic_offline_mode: true
 epic_cloud_saves: false
 must_be_online: false
 
@@ -109,7 +109,7 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 ---
 

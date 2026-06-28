@@ -47,7 +47,7 @@ This week featuring RollerCoaster Tycoon 3: Complete Edition, Voidwrought.
   <img src="https://images.gog.com/81ce51277a132e10b920d256f4b1bf074fb8273fb2011d907a389f12e2864db0.jpg?namespace=gamesdb" alt="RollerCoaster Tycoon 3: Complete Edition" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/epic/rollercoaster-tycoon-3-complete-edition/">RollerCoaster Tycoon 3: Complete Edition</a></strong> <span class="store-badge epic">Epic</span>
-    <p class="game-blurb">This game is too much for me, which sucks because I love rollercoasters and was looking forward to creating my own theme park. It just wasn't meant to be, unfortunately. I don't have the patience for these types of games any more, but if you want to try and create your own dream theme park, then you'll be into this one.</p>
+    <p class="game-blurb">This game is too involved for me, which sucks because I love rollercoasters and was looking forward to creating my own theme park. It just wasn't meant to be, unfortunately. I don't have the patience for these types of games any more, but if you want to try and create your own dream theme park, then you'll be into this one.</p>
     <a href="/games/epic/rollercoaster-tycoon-3-complete-edition/" class="view-details">View compatibility details →</a>
   </div>
 </div>
