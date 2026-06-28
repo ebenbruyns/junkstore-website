@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-06-28T03:13:32.441Z",
+  "generated_at": "2026-06-28T05:23:39.696Z",
   "games": [
+    {
+      "store": "amazon",
+      "slug": "lost-eidolons-veil-of-the-witch",
+      "featured_in": "2026-06-28",
+      "post_url": "/blog/games-tested-2026-06-28/",
+      "title": "Lost Eidolons: Veil of the Witch",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2530490/header.jpg",
+      "vertical_artwork": "https://images.gog.com/4cc5c4b563d31d26aaf026d5e43f94ff22564a6d163486b4e8036771b10af25a.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "rollercoaster-tycoon-3-complete-edition",
+      "featured_in": "2026-06-28",
+      "post_url": "/blog/games-tested-2026-06-28/",
+      "title": "RollerCoaster Tycoon 3: Complete Edition",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/448f186dcb951dfbae713219f9ad39e5d35aac152b38da2a95101026ba3e5f85.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/81ce51277a132e10b920d256f4b1bf074fb8273fb2011d907a389f12e2864db0.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "amazon",
+      "slug": "terraforming-mars",
+      "featured_in": "2026-06-28",
+      "post_url": "/blog/games-tested-2026-06-28/",
+      "title": "Terraforming Mars",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/2bb632b80dbd844aa28063b3a4c3bcc4e3e483d232dd6de4c325063747c4637f.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/ff34b1cf21ba76220b3ec98e6b6af231800ffa9df851043aa1fdd6be25a7cbdf.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "voidwrought",
+      "featured_in": "2026-06-28",
+      "post_url": "/blog/games-tested-2026-06-28/",
+      "title": "Voidwrought",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2014550/header.jpg",
+      "vertical_artwork": "https://images.gog.com/491b54e6be947b3412c57a6468f92a6691225cc7398a2dced8f050f9018944d3.jpg?namespace=gamesdb"
+    },
     {
       "store": "amazon",
       "slug": "besiege",
@@ -80,46 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/e99add0503fcb7ba1ede5b924a83ad7350b2f09951b125180f6393a2b8de56d1.jpg?namespace=gamesdb",
       "vertical_artwork": "https://images.gog.com/124bcacf6f90de09b7d7266010db088fbea4e91048d2db5ed4a8304c785979f7.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "robobeat",
-      "featured_in": "2026-06-21",
-      "post_url": "/blog/games-tested-2026-06-21/",
-      "title": "Robobeat",
-      "standalone_rating": "green",
-      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1456760/header.jpg",
-      "vertical_artwork": "https://images.gog.com/7e4c6f6bff3ffc05475b03c9bfc979ca34a7bbc89104d28c9418a9351f681be3.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "space-grunts-2",
-      "featured_in": "2026-06-21",
-      "post_url": "/blog/games-tested-2026-06-21/",
-      "title": "Space Grunts 2",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/d71e7e444ec2d437a4aa45a83b541f6b4923e37c6845b53f26174b5433ebfc24.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/fac4e3ce7c1d24c17900107c8ebcf7182f39d9d4e0bf696d951ed21d8f67a843.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "sugardew-island-your-cozy-farm-shop",
-      "featured_in": "2026-06-21",
-      "post_url": "/blog/games-tested-2026-06-21/",
-      "title": "Sugardew Island: Your Cozy Farm Shop",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/a9a9f2013b6b166329819bc4f764c740a60286e344f9484cba7da698870f74bf.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/0d1181570289273f34ca8b108e3c28aeb00617a0c886d6889f0f524ba5bb1798.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "wargame-construction-set-iii-age-of-rifles-1846-1905",
-      "featured_in": "2026-06-21",
-      "post_url": "/blog/games-tested-2026-06-21/",
-      "title": "Wargame Construction Set III: Age of Rifles 1846-1905",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/888ead251d20467884475cfdb526d3990403b2737ca6814b50b650c95726e1f1.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/55bcac2e70a82a59b623ba076155c7d6c084b9f969eb2dde7fa53002d2ba0e64.jpg?namespace=gamesdb"
     }
   ]
 }
