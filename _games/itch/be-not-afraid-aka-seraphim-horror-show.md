@@ -94,7 +94,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "You may need to set an executable. I set **./BeNotAfraid_Windows/Be Not Afraid A.K.A. Seraphim Horror Show.exe"
+notes: You may need to set an executable. I set ./BeNotAfraid_Windows/Be Not Afraid A.K.A. Seraphim Horror Show.exe
 controller_config: 
 performance_notes: 
 known_issues: 
