@@ -376,4 +376,10 @@ notes:
     type: beta
     text: No issues or breakages - [SteamOS 3.8.20
       Beta](https://store.steampowered.com/news/app/1675200/view/701020348316911443)
+  - id: 1782793359063liru
+    date: 2026-06-30T00:00:00
+    type: client-beta
+    text: "No issues or breakages - [Steam Deck Beta Client Update: June
+      29th](https://store.steampowered.com/news/app/1675200/view/70102034831691\
+      1446)"
 breakHistory: []
