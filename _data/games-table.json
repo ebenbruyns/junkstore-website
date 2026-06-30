@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-28T03:13:32.415Z",
-  "total_games": 1037,
+  "generated_at": "2026-06-30T00:11:43.903Z",
+  "total_games": 1049,
   "storefronts": {
     "Epic": {
       "total": 490,
@@ -18,8 +18,8 @@
       "green_decky": 0
     },
     "itch": {
-      "total": 72,
-      "green_standalone": 72,
+      "total": 84,
+      "green_standalone": 77,
       "green_decky": 0
     }
   },
@@ -14310,6 +14310,21 @@
       "databaseId": ""
     },
     {
+      "slug": "alt-frequencies",
+      "id": "6ec059f5-bda3-4074-9e64-a937a009b2a4",
+      "title": "Alt-Frequencies",
+      "storefront": "itch",
+      "decky_rating": "unsupported",
+      "standalone_rating": "yellow",
+      "date_tested": "Jun '26",
+      "cant_test_linux": false,
+      "native_linux": false,
+      "publisher": "Plug In Digital",
+      "controller_input": "requires-mapping",
+      "requires_eac_runtime": false,
+      "databaseId": "403630"
+    },
+    {
       "slug": "amelie",
       "id": "2533b514-a6fd-43df-b0a9-79318bcbee62",
       "title": "Amelie",
@@ -14323,6 +14338,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1269964"
+    },
+    {
+      "slug": "amethyst-hearth",
+      "id": "a0423e47-5613-4491-9997-4fe78fab7cae",
+      "title": "Amethyst Hearth",
+      "storefront": "itch",
+      "decky_rating": "unsupported",
+      "standalone_rating": "yellow",
+      "date_tested": "Jun '26",
+      "publisher": "Drone Garden Studios",
+      "controller_input": "keyboard-mouse",
+      "databaseId": "1310480"
     },
     {
       "slug": "an-airport-game",
@@ -14397,6 +14424,45 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1092676"
+    },
+    {
+      "slug": "another-world-adventures",
+      "id": "2891036",
+      "title": "Another World Adventures",
+      "storefront": "itch",
+      "decky_rating": "",
+      "standalone_rating": "yellow",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "S Xavier Uy",
+      "controller_input": "native"
+    },
+    {
+      "slug": "antecrypt",
+      "id": "b2d46a6d-26bd-4c34-ab60-4d20fb9e71f3",
+      "title": "Antecrypt",
+      "storefront": "itch",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "cant_test_linux": false,
+      "native_linux": true,
+      "publisher": "PUNKCAKE Délicieux",
+      "controller_input": "native",
+      "requires_eac_runtime": false,
+      "databaseId": "1074536"
+    },
+    {
+      "slug": "applecalypse",
+      "id": "2529308",
+      "title": "APPLECALYPSE",
+      "storefront": "itch",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Pupicrap",
+      "controller_input": "keyboard-mouse"
     },
     {
       "slug": "arachnowopunk",
@@ -14503,6 +14569,29 @@
       "databaseId": "366363"
     },
     {
+      "slug": "back-to-modern-world-fantasy-hero",
+      "id": "2911772",
+      "title": "Back to Modern World - Fantasy Hero",
+      "storefront": "itch",
+      "decky_rating": "",
+      "standalone_rating": "yellow",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "S Xavier Uy",
+      "controller_input": "native"
+    },
+    {
+      "slug": "back-to-modern-world-fantasy-hero-2-magic-academy",
+      "id": "4547843",
+      "title": "Back to Modern World - Fantasy Hero 2: Magic Academy",
+      "storefront": "itch",
+      "decky_rating": "",
+      "standalone_rating": "yellow",
+      "date_tested": "Jun '26",
+      "publisher": "S Xavier Uy",
+      "controller_input": "keyboard-mouse"
+    },
+    {
       "slug": "backspace-bouken",
       "id": "517b8f25-2864-4ac4-bbc3-8e9a365f42fb",
       "title": "Backspace Bouken",
@@ -14531,6 +14620,59 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "598772"
+    },
+    {
+      "slug": "bard-harder",
+      "id": "3b0bed20-2045-424c-82c3-a9cd7098f454",
+      "title": "Bard Harder!",
+      "storefront": "itch",
+      "decky_rating": "unsupported",
+      "standalone_rating": "yellow",
+      "date_tested": "Jun '26",
+      "cant_test_linux": false,
+      "native_linux": true,
+      "publisher": "Shark and Pelican Games",
+      "controller_input": "keyboard-mouse",
+      "requires_eac_runtime": false,
+      "databaseId": "800614"
+    },
+    {
+      "slug": "batbarian-testament-of-the-primordials",
+      "id": "2901737d-caab-4132-8e9e-05e37651edfc",
+      "title": "Batbarian: Testament of the Primordials",
+      "storefront": "itch",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "DANGEN Entertainment",
+      "controller_input": "native",
+      "databaseId": "782931"
+    },
+    {
+      "slug": "be-not-afraid-aka-seraphim-horror-show",
+      "id": "651d619d-df40-451e-97af-26c76b211dcd",
+      "title": "Be Not Afraid A.K.A. Seraphim Horror Show!?",
+      "storefront": "itch",
+      "decky_rating": "unsupported",
+      "standalone_rating": "yellow",
+      "date_tested": "Jun '26",
+      "publisher": "Autumn Rain",
+      "controller_input": "keyboard-mouse",
+      "databaseId": "506083"
+    },
+    {
+      "slug": "beglitched",
+      "id": "7c706c30-0cf9-4718-b206-88f881c342fc",
+      "title": "Beglitched",
+      "storefront": "itch",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": true,
+      "publisher": "Hexecutable",
+      "controller_input": "keyboard-mouse",
+      "databaseId": "84840"
     },
     {
       "slug": "celeste",
@@ -14946,6 +15088,19 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "29655"
+    },
+    {
+      "slug": "tails-noir",
+      "id": "6c8b545d-a73c-4fcc-9cb5-d6b14ea1d407",
+      "title": "Tails Noir",
+      "storefront": "itch",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jun '26",
+      "native_linux": false,
+      "publisher": "Raw Fury",
+      "controller_input": "keyboard-mouse",
+      "databaseId": "1425405"
     },
     {
       "slug": "toree-2",
