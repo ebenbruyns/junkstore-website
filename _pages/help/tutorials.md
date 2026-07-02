@@ -14,16 +14,19 @@ excerpt: " "
 
 <div id="tutorials-content">
 
-<!-- Installation Guides Section -->
-<h2 class="text-center">Installation Guides</h2>
+{%- for sec in site.data.tutorial_sections -%}
+<!-- {{ sec.label }} Section -->
+<h2 class="text-center">{{ sec.label }}</h2>
 <div class="tutorial-grid">
+  {%- if sec.slug == "installation" -%}
   <div class="tutorial-item pro" data-category="pro">
     <h4><a href="/get_started/">Getting Started with Junk Store Pro</a></h4>
     <p>Quick start guide for Junk Store Pro - get up and running fast</p>
     <span class="tutorial-tag pro-tag">Pro Version</span>
   </div>
-  {%- assign installation = site.tutorials | where: "section", "installation" | sort: "order" -%}
-  {%- for t in installation -%}
+  {%- endif -%}
+  {%- assign sectutorials = site.tutorials | where: "section", sec.slug | sort: "order" -%}
+  {%- for t in sectutorials -%}
   <div class="tutorial-item {{ t.category }}" data-category="{{ t.category }}">
     <h4><a href="{{ t.url }}">{{ t.card_title | default: t.title }}</a></h4>
     <p>{{ t.card_blurb }}</p>
@@ -37,25 +40,7 @@ excerpt: " "
 </div>
 
 <hr class="my-4">
-
-<!-- Configuration & Setup Section -->
-<h2 class="text-center">Configuration & Setup</h2>
-<div class="tutorial-grid">
-  {%- assign configuration = site.tutorials | where: "section", "configuration" | sort: "order" -%}
-  {%- for t in configuration -%}
-  <div class="tutorial-item {{ t.category }}" data-category="{{ t.category }}">
-    <h4><a href="{{ t.url }}">{{ t.card_title | default: t.title }}</a></h4>
-    <p>{{ t.card_blurb }}</p>
-    {%- case t.category -%}
-      {%- when 'decky' -%}<span class="tutorial-tag decky-tag">Decky Plugin</span>
-      {%- when 'pro' -%}<span class="tutorial-tag pro-tag">Pro Version</span>
-      {%- else -%}<span class="tutorial-tag both-tag">Universal</span>
-    {%- endcase -%}
-  </div>
-  {%- endfor -%}
-</div>
-
-<hr class="my-4">
+{%- endfor -%}
 
 <!-- Quick Tips & Tricks Section -->
 <h2 class="text-center">Quick Tips & Tricks</h2>
