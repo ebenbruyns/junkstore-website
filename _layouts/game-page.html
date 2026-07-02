@@ -157,10 +157,31 @@ layout: null
       {% if notes_lower == "works out of the box!" or notes_lower == "works out of the box" or notes_lower == "works great!" or notes_lower == "works great" or notes_lower == "works out of the box on the decky plugin version." or notes_lower == "works out of the box on the standalone version." or notes_lower == "" %}
         {% assign is_generic = true %}
       {% endif %}
-      {% if page.notes and is_generic == false %}
+      {% assign has_notes = false %}
+      {% if page.notes and is_generic == false %}{% assign has_notes = true %}{% endif %}
+      {% assign has_shot = false %}
+      {% if page.notes_screenshot and page.notes_screenshot != "" %}{% assign has_shot = true %}{% endif %}
+      {% if has_notes or has_shot %}
       <div class="notes-box">
         <h3>Setup Notes</h3>
+        {% if has_notes %}
         <p>{{ page.notes | markdownify | strip_html }}</p>
+        {% endif %}
+        {% if has_shot %}
+        {% assign shot_alt = page.notes_screenshot_caption | default: 'Testing screenshot' %}
+        <figure class="notes-screenshot">
+          <a href="#notes-shot-zoom" class="notes-screenshot-open" aria-label="Enlarge screenshot">
+            <img src="{{ page.notes_screenshot }}" alt="{{ shot_alt | escape }}" class="notes-screenshot-thumb" loading="lazy">
+          </a>
+          {% if page.notes_screenshot_caption and page.notes_screenshot_caption != "" %}
+          <figcaption>{{ page.notes_screenshot_caption }}</figcaption>
+          {% endif %}
+        </figure>
+        <div class="notes-screenshot-lightbox" id="notes-shot-zoom">
+          <a href="#" class="notes-screenshot-backdrop" aria-label="Close"></a>
+          <img src="{{ page.notes_screenshot }}" alt="{{ shot_alt | escape }}">
+        </div>
+        {% endif %}
       </div>
       {% endif %}
     </div>

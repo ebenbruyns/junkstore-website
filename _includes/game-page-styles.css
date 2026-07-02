@@ -539,6 +539,51 @@ button:focus,
   line-height: 1.7;
 }
 
+/* Testing-notes screenshot: small thumbnail that enlarges via a CSS-only
+   (:target) lightbox — no JavaScript. */
+.notes-screenshot {
+  margin: 0.9rem 0 0;
+}
+.notes-screenshot-thumb {
+  display: block;
+  max-height: 140px;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  cursor: zoom-in;
+}
+.notes-screenshot figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #9aa4b2;
+}
+.notes-screenshot-lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.85);
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.notes-screenshot-lightbox:target {
+  display: flex;
+}
+.notes-screenshot-backdrop {
+  position: absolute;
+  inset: 0;
+  cursor: zoom-out;
+}
+.notes-screenshot-lightbox img {
+  position: relative;
+  max-width: 95%;
+  max-height: 95%;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
 /* Tech Notes */
 .tech-notes {
   margin-top: 1.25rem;
