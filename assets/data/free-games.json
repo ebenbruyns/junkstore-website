@@ -1,30 +1,6 @@
 {
-  "generated_at": "2026-07-01T20:50:13.896Z",
+  "generated_at": "2026-07-02T20:13:13.711Z",
   "games": [
-    {
-      "id": "manual_1780001334153_claim-pro-basketball-manager-2026-amazon-luna",
-      "title": "Pro Basketball Manager 2026",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/pro-basketball-manager-2026-aga/dp/amzn1.pg.item.eb7ccd3b-4efd-4b0a-9a45-722b53d76a16?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81o20uM9JwL.jpg&w=480&output=webp&q=80",
-      "end_date": "2026-07-02T00:00:00.000Z",
-      "end_date_formatted": "Thu, 2 Jul · 00:00 UTC",
-      "first_seen": "2026-05-28 20:48:54",
-      "original_price": null
-    },
-    {
-      "id": "manual_1780001406631_claim-moon-mystery-amazon-luna",
-      "title": "Moon Mystery",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/moon-mystery-epic/dp/amzn1.pg.item.fa6ec78f-327e-4dcb-8afe-8eae11afea3b?g=s&ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81ll0mLMMnL.jpg&w=480&output=webp&q=80",
-      "end_date": "2026-07-02T00:00:00.000Z",
-      "end_date_formatted": "Thu, 2 Jul · 00:00 UTC",
-      "first_seen": "2026-05-28 20:50:06",
-      "original_price": null
-    },
     {
       "id": "gp-3692",
       "title": "Voidwrought",
@@ -32,8 +8,8 @@
       "website_slug": null,
       "store_url": "https://store.epicgames.com/p/voidwrought-ce8f4b",
       "image": "https://www.gamerpower.com/offers/1b/6a3d437b1768d.jpg",
-      "end_date": "2026-07-02T15:00:00.000Z",
-      "end_date_formatted": "Thu, 2 Jul · 15:00 UTC",
+      "end_date": "2026-07-09T15:00:00.000Z",
+      "end_date_formatted": "Thu, 9 Jul · 15:00 UTC",
       "first_seen": "2026-06-25 20:48:35",
       "original_price": "$19.99"
     },
@@ -44,10 +20,94 @@
       "website_slug": null,
       "store_url": "https://www.epicgames.com/store/en-US/product/rollercoaster-tycoon-3-complete-edition/home",
       "image": "https://www.gamerpower.com/offers/1b/5f6cb4d5cc440.jpg",
-      "end_date": "2026-07-02T15:00:00.000Z",
-      "end_date_formatted": "Thu, 2 Jul · 15:00 UTC",
+      "end_date": "2026-07-09T15:00:00.000Z",
+      "end_date_formatted": "Thu, 9 Jul · 15:00 UTC",
       "first_seen": "2026-06-25 20:48:35",
       "original_price": "$29.99"
+    },
+    {
+      "id": "gp-3699",
+      "title": "Wraithmind",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://tekogames.itch.io/wraithmind",
+      "image": "https://www.gamerpower.com/offers/1b/6a466b5a73256.jpg",
+      "end_date": "2026-07-06T23:59:00Z",
+      "end_date_formatted": "Mon, 6 Jul · 23:59 UTC",
+      "first_seen": "2026-07-02 19:48:51",
+      "original_price": "$4.99"
+    },
+    {
+      "id": "gp-3698",
+      "title": "Path Defenders",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://benjaminadams.itch.io/path-defenders",
+      "image": "https://www.gamerpower.com/offers/1b/6a46687433f30.jpg",
+      "end_date": "2026-07-06T23:59:00Z",
+      "end_date_formatted": "Mon, 6 Jul · 23:59 UTC",
+      "first_seen": "2026-07-02 19:48:51",
+      "original_price": "$9.99"
+    },
+    {
+      "id": "gp-3338",
+      "title": "Drive Me to Hell",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://madbug.itch.io/drive-me-to-hell",
+      "image": "https://www.gamerpower.com/offers/1b/69015b9e4129f.jpg",
+      "end_date": "2026-07-06T23:59:00Z",
+      "end_date_formatted": "Mon, 6 Jul · 23:59 UTC",
+      "first_seen": "2026-07-02 19:48:51",
+      "original_price": "$1.99"
+    },
+    {
+      "id": "gp-3386",
+      "title": "Maze Burrow",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://kimimaru.itch.io/maze-burrow",
+      "image": "https://www.gamerpower.com/offers/1b/69299d3b3bc10.jpg",
+      "end_date": "2026-07-06T23:59:00Z",
+      "end_date_formatted": "Mon, 6 Jul · 23:59 UTC",
+      "first_seen": "2026-07-02 19:48:51",
+      "original_price": "$2.99"
+    },
+    {
+      "id": "gp-2109",
+      "title": "Tim-Tim 2: The Almighty Gnome",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://spoonweaver.itch.io/tim-tim-2-the-almighty-gnome",
+      "image": "https://www.gamerpower.com/offers/1b/63a7d58806279.jpg",
+      "end_date": "2026-07-06T23:59:01Z",
+      "end_date_formatted": "Mon, 6 Jul · 23:59 UTC",
+      "first_seen": "2026-07-02 19:48:51",
+      "original_price": "$3.99"
+    },
+    {
+      "id": "gp-2998",
+      "title": "Croaking Around",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://scallybag.itch.io/croaking-around",
+      "image": "https://www.gamerpower.com/offers/1b/674cc2be57fd8.jpg",
+      "end_date": "2026-07-06T23:59:01Z",
+      "end_date_formatted": "Mon, 6 Jul · 23:59 UTC",
+      "first_seen": "2026-07-02 19:48:51",
+      "original_price": "$3.00"
+    },
+    {
+      "id": "gp-958",
+      "title": "Hampton Court",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://chrisiscreative.itch.io/hampton-court",
+      "image": "https://www.gamerpower.com/offers/1b/60cb4b81eaec3.jpg",
+      "end_date": "2026-07-06T23:59:34Z",
+      "end_date_formatted": "Mon, 6 Jul · 23:59 UTC",
+      "first_seen": "2026-07-02 19:48:51",
+      "original_price": "$4.99"
     },
     {
       "id": "manual_1780444256090_mafia-iii-definitive-edition",
@@ -60,6 +120,30 @@
       "end_date_formatted": "Tue, 7 Jul · 00:00 UTC",
       "first_seen": "2026-06-02 23:50:56",
       "original_price": null
+    },
+    {
+      "id": "gp-3701",
+      "title": "River City Girls 2",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/river-city-girls-2-77af3a",
+      "image": "https://www.gamerpower.com/offers/1b/6a467dc384354.jpg",
+      "end_date": "2026-07-09T15:00:00.000Z",
+      "end_date_formatted": "Thu, 9 Jul · 15:00 UTC",
+      "first_seen": "2026-07-02 19:48:51",
+      "original_price": "$39.99"
+    },
+    {
+      "id": "gp-3700",
+      "title": "I Have No Mouth, and I Must Scream",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/i-have-no-mouth-and-i-must-scream-95c5c2",
+      "image": "https://www.gamerpower.com/offers/1b/6a467d055eb54.jpg",
+      "end_date": "2026-07-09T15:00:00.000Z",
+      "end_date_formatted": "Thu, 9 Jul · 15:00 UTC",
+      "first_seen": "2026-07-02 19:48:51",
+      "original_price": "$9.99"
     },
     {
       "id": "manual_1781215513396_tested-on-humans-escape-room",
@@ -203,6 +287,42 @@
       "end_date": "2026-08-01T23:59:59Z",
       "end_date_formatted": "Sat, 1 Aug · 23:59 UTC",
       "first_seen": "2026-04-23 02:18:12",
+      "original_price": "$6.99"
+    },
+    {
+      "id": "manual_1783023104167_cyclones",
+      "title": "CyClones",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/cyclones-gog/dp/amzn1.pg.item.34a07e29-18da-495f-9673-266fd4722390?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2F5d41de29d3410ba7cf13fff7d724f8fceeaf33eed214a2cf0e5aa024675ac8ed.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-08-02T00:00:00.000Z",
+      "end_date_formatted": "Sun, 2 Aug · 00:00 UTC",
+      "first_seen": "2026-07-02 20:11:44",
+      "original_price": "$2.95"
+    },
+    {
+      "id": "manual_1783023148627_symphony-of-war-the-nephilim-saga",
+      "title": "Symphony of War: The Nephilim Saga",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/symphony-of-war-the-nephilim-saga-epic/dp/amzn1.pg.item.db94348f-9423-423e-a707-aed5ebf07c0c?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2Fb6b32e63b1f94882b523ede79eac02ac%2Fsymphony-of-war-offer-1jbet.png&w=480&output=webp&q=80",
+      "end_date": "2026-08-06T00:00:00.000Z",
+      "end_date_formatted": "Thu, 6 Aug · 00:00 UTC",
+      "first_seen": "2026-07-02 20:12:28",
+      "original_price": "$19.99"
+    },
+    {
+      "id": "manual_1783023183409_lonestar",
+      "title": "LONESTAR",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/lonestar-epic/dp/amzn1.pg.item.6c65c488-c2bc-4715-b90a-d364dd587581?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F142bbd5f45fb4cf7a61b301d8a3b9900%2Flonestar-p0sgk.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-08-06T00:00:00.000Z",
+      "end_date_formatted": "Thu, 6 Aug · 00:00 UTC",
+      "first_seen": "2026-07-02 20:13:03",
       "original_price": "$6.99"
     },
     {
