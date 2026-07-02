@@ -638,6 +638,20 @@ excerpt: "Every feature, side by side. See exactly what Pro unlocks for your Ste
         <span class="free-status status-no">❌ No</span>
         <span class="pro-status status-yes">✅ Yes</span>
       </div>
+      <div class="feature-item">
+        <span class="feature-name">Multi-Account Profile Switching <span class="new-badge">NEW</span>
+          <span class="feature-note">Separate logins per storefront</span>
+        </span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Yes</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Network Game Imports <span class="new-badge">NEW</span>
+          <span class="feature-note">Copy installs from another Deck over your LAN</span>
+        </span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Yes</span>
+      </div>
     </div>
   </div>
 

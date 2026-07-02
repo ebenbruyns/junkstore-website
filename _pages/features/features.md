@@ -367,7 +367,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 <section class="library-value-callout">
   <div class="value-box">
     <h3>And That's Just the Start</h3>
-    <p>Process monitor, language selection, offline mode, ROM integration, selective DLC, cloud saves, and more.</p>
+    <p>Network game imports, multi-account profile switching, process monitor, language selection, offline mode, ROM integration, selective DLC, cloud saves, and more.</p>
     <a href="/decky-vs-pro/" class="value-unlock">View Full Feature List</a>
   </div>
 </section>
