@@ -12,6 +12,14 @@ section: installation
 order: 3
 card_title: 'GOG Extension Install Guide'
 card_blurb: 'Step-by-step guide on downloading and installing the GOG Extension'
+help_discord_channel: '#decky-support'
+help_links:
+  - text: "Decky Plugin FAQ"
+    url: "/help/faq/"
+    note: "General questions"
+  - text: "Troubleshooting"
+    url: "/help/troubleshooting/"
+    note: "All Decky issues"
 ---
 {% include content-schema.html type="tutorial" id="gogextension" %}
 
@@ -64,19 +72,4 @@ card_blurb: 'Step-by-step guide on downloading and installing the GOG Extension'
 </li>
 
 </ol>
-</div>
-
-<hr>
-
-<div class="js-callout js-callout--help">
-<h3>Stuck or need help?</h3>
-<p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
-
-<p><strong>Quick fixes for common issues:</strong></p>
-<ul>
-<li><a href="/help/faq/">Decky Plugin FAQ</a> - General questions</li>
-<li><a href="/help/troubleshooting/">Troubleshooting</a> - All Decky issues</li>
-</ul>
-
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> and post in <strong>#decky-support</strong> channel.</p>
 </div>

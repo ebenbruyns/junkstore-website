@@ -11,7 +11,7 @@ tags: ["wine-cellar", "compatibility", "proton", "ge-proton", "both-versions"]
 difficulty: "Advanced"
 category: both
 section: configuration
-order: 3
+order: 6
 card_title: 'How to Install Wine Cellar Plugin'
 card_blurb: 'Step-by-step guide on installing WineCellar to manage compatibility tools'
 ---
@@ -161,18 +161,3 @@ card_blurb: 'Step-by-step guide on installing WineCellar to manage compatibility
 <li>If unsure which Proton to use, check what's recommended on our <a href="/games/tested/">compatibility table</a> unless ProtonDB suggests a specific version</li>
 <li>Use <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB</a> for up-to-date community tips</li>
 </ul>
-
-<hr>
-
-<div class="js-callout js-callout--help">
-<h3>Stuck or need help?</h3>
-<p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
-
-<p><strong>Quick fixes for common issues:</strong></p>
-<ul>
-<li><a href="/help/faq/">FAQ</a> - General questions</li>
-<li><a href="/help/troubleshooting/">Troubleshooting</a> - Common issues</li>
-</ul>
-
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> for community support.</p>
-</div>

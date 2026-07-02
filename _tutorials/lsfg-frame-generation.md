@@ -9,7 +9,7 @@ tags: ["lsfg", "frame-generation", "performance", "both-versions"]
 difficulty: "Intermediate"
 category: both
 section: configuration
-order: 5
+order: 3
 card_title: 'Enable LSFG Frame Generation'
 card_blurb: 'Step-by-step guide on how to enable LSFG frame generation'
 ---
@@ -104,18 +104,3 @@ card_blurb: 'Step-by-step guide on how to enable LSFG frame generation'
   <li><strong>LSFG not working?</strong> Try a different Proton version. Some games work better with specific GE-Proton releases.</li>
   <li><strong>Settings not saving?</strong> Make sure you press X to save before exiting.</li>
 </ul>
-
-<hr>
-
-<div class="js-callout js-callout--help">
-  <h3>Stuck or need help?</h3>
-  <p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
-
-  <p><strong>Quick fixes for common issues:</strong></p>
-  <ul>
-    <li><a href="/help/faq/">FAQ</a> - General questions</li>
-    <li><a href="/help/troubleshooting/">Troubleshooting</a> - Common issues</li>
-  </ul>
-
-  <p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> for community support.</p>
-</div>

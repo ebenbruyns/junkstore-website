@@ -9,7 +9,7 @@ tags: ["ubisoft", "third-party-launchers", "epic-games", "both-versions"]
 difficulty: "Advanced"
 category: both
 section: configuration
-order: 7
+order: 8
 card_title: 'Play Ubisoft Connect Games'
 card_blurb: 'Install Ubisoft Connect and launch Ubisoft games through Epic Games Store'
 ---
@@ -181,18 +181,3 @@ card_blurb: 'Install Ubisoft Connect and launch Ubisoft games through Epic Games
 <p>There you have it. You can now play some of your Ubisoft games in Junk Store too!</p>
 
 <p><strong>Have fun gaming everyone,<br>The Junk Store Team</strong></p>
-
-<hr>
-
-<div class="js-callout js-callout--help">
-<h3>Stuck or need help?</h3>
-<p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
-
-<p><strong>Quick fixes for common issues:</strong></p>
-<ul>
-<li><a href="/help/faq/">FAQ</a> - General questions</li>
-<li><a href="/help/troubleshooting/">Troubleshooting</a> - Common issues</li>
-</ul>
-
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> for community support.</p>
-</div>

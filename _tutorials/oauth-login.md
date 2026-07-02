@@ -12,7 +12,7 @@ tags: ["oauth", "authentication", "epic-games", "login", "both-versions"]
 difficulty: "Beginner"
 category: both
 section: configuration
-order: 1
+order: 4
 card_title: 'How to Login using OAuth'
 card_blurb: 'Step-by-step guide on logging in via third party logins'
 ---
@@ -128,19 +128,4 @@ card_blurb: 'Step-by-step guide on logging in via third party logins'
 </li>
 
 </ol>
-</div>
-
-<hr>
-
-<div class="js-callout js-callout--help">
-<h3>Stuck or need help?</h3>
-<p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
-
-<p><strong>Quick fixes for common issues:</strong></p>
-<ul>
-<li><a href="/help/faq/">FAQ</a> - General questions</li>
-<li><a href="/help/troubleshooting/">Troubleshooting</a> - Common issues</li>
-</ul>
-
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> for community support.</p>
 </div>

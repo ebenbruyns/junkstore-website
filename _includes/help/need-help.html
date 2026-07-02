@@ -1,0 +1,36 @@
+<!--
+  Shared "Need Help" footer for tutorials. Injected automatically by the
+  junkstore-page layout for anything in the tutorials collection, so tutorial
+  .md files (and the companion app that generates them) don't carry this block.
+
+  Optional per-tutorial front matter:
+    help_links:                       # replaces the default FAQ + Troubleshooting list
+      - text: "Installation not completing"
+        url: "/help/troubleshooting/#installation-not-completing"
+        note: "If the installer seems stuck"   # note is optional
+    help_discord_channel: "v2-support"          # names a Discord channel to post in
+    help_footer: false                          # opt out of the block entirely
+-->
+<div class="js-callout js-callout--help">
+<h3>Stuck or need help?</h3>
+<p>Most issues are quick to sort out. Here's where to start.</p>
+
+<ul>
+{% if page.help_links %}{% for link in page.help_links %}
+<li><a href="{{ link.url }}">{{ link.text }}</a>{% if link.note %} - {{ link.note }}{% endif %}</li>
+{% endfor %}{% else %}
+<li><a href="/help/faq/">FAQ</a> - General questions</li>
+<li><a href="/help/troubleshooting/">Troubleshooting</a> - Common issues</li>
+{% endif %}
+</ul>
+
+<p><strong>Still stuck?</strong> Open a support ticket right in the <a href="https://portal.junkstore.xyz/support" target="_blank" rel="noopener" class="community-btn support-btn"><i class="fas fa-headset"></i>Support Portal</a></p>
+
+<p>For game-specific issues, feedback, or just a chat, you'll find us on:</p>
+<p>
+<a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord"></i>Discord</a>
+<a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit"></i>Reddit</a>
+<a href="https://lemmy.world/c/junkstore4deck" target="_blank" rel="noopener" class="community-btn lemmy-btn"><span class="lemmy-icon"></span>Lemmy</a>
+</p>
+{% if page.help_discord_channel %}<p>On Discord, head to the <strong>{{ page.help_discord_channel }}</strong> channel.</p>{% endif %}
+</div>

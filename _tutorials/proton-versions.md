@@ -11,7 +11,7 @@ tags: ["proton", "compatibility", "both-versions"]
 difficulty: "Intermediate"
 category: both
 section: configuration
-order: 2
+order: 5
 card_title: 'How to Check/Change Proton Version'
 card_blurb: 'Step-by-step guide on how to check and change your Proton version'
 ---
@@ -170,18 +170,3 @@ card_blurb: 'Step-by-step guide on how to check and change your Proton version'
 <li><strong>Need more versions?</strong> Use Wine Cellar to download additional options</li>
 <li><strong>Unsure which version to use?</strong> Check our <a href="/games/tested/">compatibility database</a></li>
 </ul>
-
-<hr>
-
-<div class="js-callout js-callout--help">
-<h3>Stuck or need help?</h3>
-<p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
-
-<p><strong>Quick fixes for common issues:</strong></p>
-<ul>
-<li><a href="/help/faq/">FAQ</a> - General questions</li>
-<li><a href="/help/troubleshooting/">Troubleshooting</a> - Common issues</li>
-</ul>
-
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> for community support.</p>
-</div>

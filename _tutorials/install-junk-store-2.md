@@ -9,6 +9,20 @@ section: installation
 order: 2
 card_title: 'Install Junk Store Pro'
 card_blurb: 'Guide on downloading and installing Junk Store Pro'
+help_discord_channel: 'v2-support'
+help_links:
+  - text: "Installation not completing"
+    url: "/help/troubleshooting/#installation-not-completing"
+    note: "If the installer seems stuck"
+  - text: "Executable won't run"
+    url: "/help/troubleshooting/#executables-wont-run"
+    note: "If Junk Store won't start"
+  - text: "FAQ"
+    url: "/help/faq/"
+    note: "General usage questions"
+  - text: "Troubleshooting"
+    url: "/help/troubleshooting/"
+    note: "All Pro version issues"
 ---
 {% include content-schema.html type="tutorial" id="install-junk-store-2" %}
 
@@ -87,20 +101,3 @@ card_blurb: 'Guide on downloading and installing Junk Store Pro'
 </div>
 
 <p>Your saves and settings will carry over automatically.</p>
-
-<hr>
-
-<div class="js-callout js-callout--help">
-<h3>🆘 Stuck or need help?</h3>
-<p><strong>Need setup help? We're here for you!</strong> Most installation issues are quick fixes we can resolve in minutes.</p>
-
-<p><strong>Quick fixes for common issues:</strong></p>
-<ul>
-<li><a href="/help/troubleshooting/#installation-not-completing">Installation not completing</a> - If the installer seems stuck</li>
-<li><a href="/help/troubleshooting/#executables-wont-run">Executable won't run</a> - If Junk Store won't start</li>
-<li><a href="/help/faq/">FAQ</a> - General usage questions</li>
-<li><a href="/help/troubleshooting/">Troubleshooting</a> - All Pro version issues</li>
-</ul>
-
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> and post in <strong>v2-support</strong> channel.</p>
-</div>

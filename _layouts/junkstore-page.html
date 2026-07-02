@@ -21,6 +21,15 @@ layout: junkstore-default
       {{ content }}
     </div>
 
+    {% comment %}
+      Shared Need Help footer for tutorials. See _includes/help/need-help.html.
+      Auto-injected for the tutorials collection; opt out with help_footer: false.
+    {% endcomment %}
+    {% if page.collection == "tutorials" and page.help_footer != false %}
+    <hr>
+    {% include help/need-help.html %}
+    {% endif %}
+
     {% if page.last_modified_at %}
     <footer class="js-page__footer">
       <p class="js-page__meta">

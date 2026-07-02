@@ -14,6 +14,14 @@ section: installation
 order: 1
 card_title: 'Install Junk Store Decky Plugin'
 card_blurb: 'Step-by-step guide to install Junk Store on your Steam Deck'
+help_discord_channel: '#decky-support'
+help_links:
+  - text: "Decky Plugin FAQ"
+    url: "/help/faq/"
+    note: "General questions"
+  - text: "Troubleshooting"
+    url: "/help/troubleshooting/"
+    note: "All Decky issues"
 ---
 {% include content-schema.html type="tutorial" id="install-decky-plugin" %}
 
@@ -173,18 +181,3 @@ Games that need <strong>EA App</strong> or <strong>Origin</strong> won't show up
   color: #aaa;
 }
 </style>
-
-<hr>
-
-<div class="js-callout js-callout--help">
-<h3>🆘 Stuck or need help?</h3>
-<p><strong>Need setup help? We're here for you!</strong> Most installation issues are quick fixes.</p>
-
-<p><strong>Quick fixes for common issues:</strong></p>
-<ul>
-<li><a href="/help/faq/">Decky Plugin FAQ</a> - General questions</li>
-<li><a href="/help/troubleshooting/">Troubleshooting</a> - All Decky issues</li>
-</ul>
-
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> and post in <strong>#decky-support</strong> channel.</p>
-</div>

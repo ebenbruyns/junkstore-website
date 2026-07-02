@@ -230,6 +230,40 @@ p.js-media-card__caption {
   h3, .js-callout__title {
     color: #e74c3c;
   }
+
+  // Community help buttons (Support Portal, Discord, Reddit, Lemmy).
+  // Mirrors the button styling used on the weekly blog posts so the
+  // support prompt looks the same everywhere it appears.
+  .community-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    margin: 4px 8px 4px 0;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1;
+    min-height: 34px; // uniform height regardless of icon font metrics (FA vs .lemmy-icon)
+    vertical-align: middle; // keep buttons level on the same text line
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      opacity: 0.9;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  .support-btn { background: #e67300; }
+  .discord-btn { background: #5865f2; }
+  .reddit-btn  { background: #ff4500; }
+  .lemmy-btn   { background: #00bc8c; }
 }
 
 // Warning box (yellow) - notes, cautions

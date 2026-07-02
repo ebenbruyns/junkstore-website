@@ -9,7 +9,7 @@ tags: ["c++", "runtime", "dependencies", "troubleshooting", "both-versions"]
 difficulty: "Intermediate"
 category: both
 section: configuration
-order: 6
+order: 7
 card_title: 'Install C++ Runtime'
 card_blurb: 'Fix game crashes and missing DLL errors by installing Visual C++ redistributables'
 ---
@@ -71,18 +71,3 @@ card_blurb: 'Fix game crashes and missing DLL errors by installing Visual C++ re
 <li><strong>Game works with "Run EXE" but not the Play button?</strong> — Try <strong>resetting the launch options</strong> in Junk Store to default.</li>
 <li><strong>Still no luck? Try a fresh start.</strong> — You can <strong>delete the game's prefix</strong> (basically its "Windows install environment") from Junk Store. Be careful — this will delete all saved data and settings for that game!</li>
 </ul>
-
-<hr>
-
-<div class="js-callout js-callout--help">
-<h3>Stuck or need help?</h3>
-<p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
-
-<p><strong>Quick fixes for common issues:</strong></p>
-<ul>
-<li><a href="/help/faq/">FAQ</a> - General questions</li>
-<li><a href="/help/troubleshooting/">Troubleshooting</a> - Common issues</li>
-</ul>
-
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> for community support.</p>
-</div>
