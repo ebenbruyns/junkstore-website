@@ -1,30 +1,6 @@
 {
-  "generated_at": "2026-07-02T21:14:17.902Z",
+  "generated_at": "2026-07-03T21:06:09.085Z",
   "games": [
-    {
-      "id": "gp-3692",
-      "title": "Voidwrought",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/p/voidwrought-ce8f4b",
-      "image": "https://www.gamerpower.com/offers/1b/6a3d437b1768d.jpg",
-      "end_date": "2026-07-09T15:00:00.000Z",
-      "end_date_formatted": "Thu, 9 Jul · 15:00 UTC",
-      "first_seen": "2026-06-25 20:48:35",
-      "original_price": "$19.99"
-    },
-    {
-      "id": "gp-392",
-      "title": "RollerCoaster Tycoon 3 Complete Edition",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://www.epicgames.com/store/en-US/product/rollercoaster-tycoon-3-complete-edition/home",
-      "image": "https://www.gamerpower.com/offers/1b/5f6cb4d5cc440.jpg",
-      "end_date": "2026-07-09T15:00:00.000Z",
-      "end_date_formatted": "Thu, 9 Jul · 15:00 UTC",
-      "first_seen": "2026-06-25 20:48:35",
-      "original_price": "$29.99"
-    },
     {
       "id": "gp-3699",
       "title": "Wraithmind",
@@ -72,6 +48,18 @@
       "end_date_formatted": "Mon, 6 Jul · 23:59 UTC",
       "first_seen": "2026-07-02 19:48:51",
       "original_price": "$2.99"
+    },
+    {
+      "id": "gp-3703",
+      "title": "Nexus: The Jupiter Incident",
+      "storefront": "gog",
+      "website_slug": null,
+      "store_url": "https://www.gog.com/en/game/nexus_the_jupiter_incident",
+      "image": "https://www.gamerpower.com/offers/1b/6a47b0fbdb0be.jpg",
+      "end_date": "2026-07-06T23:59:00Z",
+      "end_date_formatted": "Mon, 6 Jul · 23:59 UTC",
+      "first_seen": "2026-07-03 20:10:40",
+      "original_price": "$9.99"
     },
     {
       "id": "gp-2109",

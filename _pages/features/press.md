@@ -39,6 +39,14 @@ excerpt: "What people are saying about Junk Store — reviews, interviews & arti
 <div class="media-grid">
 
   <div class="media-item">
+    <a href="https://www.youtube.com/watch?v=wTLp91jJ4g4" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.youtube.com/vi/wTLp91jJ4g4/hqdefault.jpg" alt="It's Surprisingly Easy To Customize SteamOS" loading="lazy" width="320" height="180">
+    </a>
+    <p class="caption-title">It's Surprisingly Easy To Customize SteamOS</p>
+    <p class="caption">GameSpot - June 2026</p>
+  </div>
+
+  <div class="media-item">
     <a href="https://www.youtube.com/watch?v=CxfMmodBszI" target="_blank" rel="noopener noreferrer">
       <img src="https://img.youtube.com/vi/CxfMmodBszI/hqdefault.jpg" alt="GAME CHANGER: Epic Games Store on Your Steam Deck!" loading="lazy" width="320" height="180">
     </a>
@@ -85,6 +93,14 @@ excerpt: "What people are saying about Junk Store — reviews, interviews & arti
 <!-- Written Articles Section -->
 <h2 class="section-heading">Articles & Guides</h2>
 <div class="media-grid">
+
+  <div class="media-item">
+    <a href="https://www.gamespot.com/articles/unlock-the-potential-of-your-steam-deck-machine-with-decky-loader/" target="_blank" rel="noopener noreferrer">
+      <img src="/assets/images/press/gamespot-decky-loader.webp" alt="GameSpot - Unlock the potential of your Steam Deck with Decky Loader" loading="lazy" width="320" height="180">
+    </a>
+    <p class="caption-title">Unlock The Potential Of Your Steam Deck/Machine With Decky Loader</p>
+    <p class="caption">GameSpot (Jean-Luc Seipke) - June 2026</p>
+  </div>
 
   <div class="media-item">
     <a href="https://dadwithadeck.com/2026/02/26/how-to-install-epic-games-launcher-on-steam-deck-and-better-alternatives/" target="_blank" rel="noopener noreferrer">
