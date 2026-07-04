@@ -1,6 +1,66 @@
 {
-  "generated_at": "2026-07-04T04:48:22.166Z",
+  "generated_at": "2026-07-04T22:47:47.659Z",
   "games": [
+    {
+      "store": "gog",
+      "slug": "cyclones",
+      "featured_in": "2026-07-05",
+      "post_url": "/blog/games-tested-2026-07-05/",
+      "title": "CyClones",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/f70f6adba724a27266a2741288e456244c3f5f53b34228f40f7f774d741573cb.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/44117682aa02811effbd7b28f8d86e00439f110510baccd36d237ceb32eaaa5d.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "i-have-no-mouth-and-i-must-scream",
+      "featured_in": "2026-07-05",
+      "post_url": "/blog/games-tested-2026-07-05/",
+      "title": "I Have No Mouth, and I Must Scream",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/fddb364800ae81ef7d4d6d4e6c4841c3039f7f09982d0390125e8cd4cf7cc923.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/903ed4ffc58f534785a65a1abace7b54c220e2e50122ad15def5f8e63cce9551.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "lonestar",
+      "featured_in": "2026-07-05",
+      "post_url": "/blog/games-tested-2026-07-05/",
+      "title": "LoneStar",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2056210/header.jpg",
+      "vertical_artwork": "https://images.gog.com/4e170c56d21d357e0eaa0b551a74768181a3165f511b566e5f95b6ceff72a38e.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "nexus-the-jupiter-incident",
+      "featured_in": "2026-07-05",
+      "post_url": "/blog/games-tested-2026-07-05/",
+      "title": "Nexus: The Jupiter Incident",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/9076390ea3bf0adc4d36b4aca9e37a416ebbb56d73c7cd75e4c2d5d52ed84aa2.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/64b7af58fa2d6a19a435dde54ffe9b3f8cd67f48b55006c4432b7215c6947eeb.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "river-city-girls-2",
+      "featured_in": "2026-07-05",
+      "post_url": "/blog/games-tested-2026-07-05/",
+      "title": "River City Girls 2",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1920480/header.jpg",
+      "vertical_artwork": "https://images.gog.com/9ae7cabda37d7d52c606a878b74855a5a472a724ff2c17fe7eb239a1b21f75d5.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "symphony-of-war-the-nephilim-saga",
+      "featured_in": "2026-07-05",
+      "post_url": "/blog/games-tested-2026-07-05/",
+      "title": "Symphony of War: The Nephilim Saga",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/c9e226bdcca63ba9ada11e7122a58bf1d952544d1345af66dae9d016750032d3.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/0d7828a16e65853213343227d9a518494b2938ea396e85723ff617ad9c3da325.jpg?namespace=gamesdb"
+    },
     {
       "store": "itch",
       "slug": "applecalypse",
@@ -60,66 +120,6 @@
       "standalone_rating": "yellow",
       "icon_image": "",
       "vertical_artwork": "https://img.itch.zone/aW1nLzI3NDI1NTcwLnBuZw==/315x250%23c/srmjWs.png"
-    },
-    {
-      "store": "itch",
-      "slug": "back-to-modern-world-fantasy-hero-2-magic-academy",
-      "featured_in": "2026-06-30",
-      "post_url": "/blog/backlog-tested-2026-06-30/",
-      "title": "Back to Modern World - Fantasy Hero 2: Magic Academy",
-      "standalone_rating": "yellow",
-      "icon_image": "",
-      "vertical_artwork": "https://img.itch.zone/aW1nLzI4MDg4MTM2LnBuZw==/315x250%23c/9rdsWW.png"
-    },
-    {
-      "store": "itch",
-      "slug": "bard-harder",
-      "featured_in": "2026-06-30",
-      "post_url": "/blog/backlog-tested-2026-06-30/",
-      "title": "Bard Harder!",
-      "standalone_rating": "yellow",
-      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1534270/header.jpg",
-      "vertical_artwork": "https://images.gog.com/cb66299c79b83e641ae606ad452ca199a46402712664f320974d8f5f475e1b30.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "itch",
-      "slug": "batbarian-testament-of-the-primordials",
-      "featured_in": "2026-06-30",
-      "post_url": "/blog/backlog-tested-2026-06-30/",
-      "title": "Batbarian: Testament of the Primordials",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/edc0029064b28eb6d8038285c363d4c3cbf1b28042dd9a724bdf364758849d0b.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/f29881f43c0e5d7ef72b92adbe489930714bd7bf51d0e7fd1b8700ea5a938920.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "itch",
-      "slug": "be-not-afraid-aka-seraphim-horror-show",
-      "featured_in": "2026-06-30",
-      "post_url": "/blog/backlog-tested-2026-06-30/",
-      "title": "Be Not Afraid A.K.A. Seraphim Horror Show!?",
-      "standalone_rating": "yellow",
-      "icon_image": "",
-      "vertical_artwork": "https://images.gog.com/d2e8051719c9955ac2967677fb8107c2af14d2bb8a6dc459f88716202f2dc75d.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "itch",
-      "slug": "beglitched",
-      "featured_in": "2026-06-30",
-      "post_url": "/blog/backlog-tested-2026-06-30/",
-      "title": "Beglitched",
-      "standalone_rating": "green",
-      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/461220/header.jpg",
-      "vertical_artwork": "https://images.gog.com/45ca0bcabe425c085dcb7f194101af3f562e0b7cca063e1a6d64e8f6b241dc71.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "itch",
-      "slug": "tails-noir",
-      "featured_in": "2026-06-30",
-      "post_url": "/blog/backlog-tested-2026-06-30/",
-      "title": "Tails Noir",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/1a4eb70170f33b1447d071e9dca3ed092b7b22c003a304b5b3dcadbf09b96130.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/10b9b5c000953048352b6293db22dce5739f4eaecdfcd74ec6208fe5e96059b4.jpg?namespace=gamesdb"
     }
   ]
 }
