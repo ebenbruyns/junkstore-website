@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. May want to adjust scaling — text and menus get clipped."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
 performance_notes: 
 known_issues: 

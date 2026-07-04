@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! While it does have some native controls you do need to map more actions in game."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

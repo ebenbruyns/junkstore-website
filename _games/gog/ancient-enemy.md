@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! You can change controller maping to use the touch screen or mouse."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

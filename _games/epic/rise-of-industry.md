@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Will need to map additional key bindings.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

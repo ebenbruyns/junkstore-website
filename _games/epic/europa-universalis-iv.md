@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! You will need a Paradox Interactive account to play this game. You also need to either use the touch screen or change controller setting to use the mouse."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

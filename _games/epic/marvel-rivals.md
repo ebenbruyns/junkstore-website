@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. Install C++ runtime from sliders menu - ./dependency/VC_resist.x64.exe & set ./MarvelRivals_Launcher.exe from then sliders menue."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

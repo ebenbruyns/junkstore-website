@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!<br> Make sure you launch first time in **Desktop/Big Picture Mode** to accept the EULA otherwise game will crash in gamemode."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

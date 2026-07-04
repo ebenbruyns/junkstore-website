@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. You need to use touch screen on the Start screen to get into the game or change controller settings to mouse and keyboard to naviagte menus"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

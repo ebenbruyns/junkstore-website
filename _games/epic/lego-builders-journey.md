@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You may want to tweak the settings to help with initial low FPS: disable raytracing and tweak the graphics settings in game."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

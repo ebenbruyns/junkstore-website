@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-30T00:11:43.903Z",
-  "total_games": 1049,
+  "generated_at": "2026-07-04T04:37:27.121Z",
+  "total_games": 1054,
   "storefronts": {
     "Epic": {
-      "total": 490,
-      "green_standalone": 429,
-      "green_decky": 440
+      "total": 493,
+      "green_standalone": 432,
+      "green_decky": 443
     },
     "GOG": {
-      "total": 392,
-      "green_standalone": 320,
-      "green_decky": 357
+      "total": 394,
+      "green_standalone": 322,
+      "green_decky": 358
     },
     "Amazon": {
       "total": 83,
@@ -4415,6 +4415,18 @@
       "databaseId": "4c94a9ec733d40ccb0da37f43f0f9592"
     },
     {
+      "slug": "i-have-no-mouth-and-i-must-scream",
+      "id": "be206f84f9e94500a33e1265fa1d9117",
+      "title": "I Have No Mouth, and I Must Scream",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "native_linux": true,
+      "publisher": "Nightdive Studios",
+      "controller_input": "native"
+    },
+    {
       "slug": "idle-champions-of-the-forgotten-realms",
       "id": "44256e75-95b5-4a1c-9171-cb1ff5e4fe38",
       "title": "Idle Champions of the Forgotten Realms",
@@ -4879,7 +4891,7 @@
       "storefront": "Epic",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "May '26",
+      "date_tested": "Jul '26",
       "native_linux": false,
       "publisher": "Thermite Games",
       "controller_input": "native"
@@ -5817,6 +5829,18 @@
       "databaseId": "588cec64448242d8b61188205d97f887"
     },
     {
+      "slug": "river-city-girls-2",
+      "id": "972f47c7ed8e4eeaae92cb6b8d5b3fd7",
+      "title": "River City Girls 2",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "native_linux": false,
+      "publisher": "WayForward, ARC SYSTEM WORKS",
+      "controller_input": "native"
+    },
+    {
       "slug": "road-redemption",
       "id": "00674f28-4916-45ce-b3a1-8a5c66950ee7",
       "title": "Road Redemption",
@@ -6694,6 +6718,18 @@
       "controller_input": "keyboard-mouse",
       "requires_eac_runtime": false,
       "databaseId": "f140a7ed4f8141298cb024b12f70feb3"
+    },
+    {
+      "slug": "symphony-of-war-the-nephilim-saga",
+      "id": "defa19ce8d5e45488c054e94b4fdb588",
+      "title": "Symphony of War: The Nephilim Saga",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "native_linux": false,
+      "publisher": "Freedom Games",
+      "controller_input": "native"
     },
     {
       "slug": "tales-from-the-borderlands",
@@ -9453,6 +9489,18 @@
       "databaseId": "1423049311"
     },
     {
+      "slug": "cyclones",
+      "id": "1659763953",
+      "title": "CyClones",
+      "storefront": "GOG",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "native_linux": false,
+      "publisher": "SNEG",
+      "controller_input": "keyboard-mouse"
+    },
+    {
       "slug": "dagon-by-h-p-lovecraft",
       "id": "76b244d1-7fc4-4b61-b843-ccc3e8cbada3",
       "title": "Dagon: by H. P. Lovecraft",
@@ -11669,6 +11717,18 @@
       "controller_input": "keyboard-mouse",
       "requires_eac_runtime": false,
       "databaseId": "1097893768"
+    },
+    {
+      "slug": "nexus-the-jupiter-incident",
+      "id": "1207659080",
+      "title": "Nexus: The Jupiter Incident",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "native_linux": false,
+      "publisher": "HandyGames",
+      "controller_input": "keyboard-mouse"
     },
     {
       "slug": "noita",

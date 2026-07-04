@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. additional arguments > -epicdeploymentid=78a046d4ac1b42d7aaba9fe80f88a5d8"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

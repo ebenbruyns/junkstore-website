@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "May need to launch in desktop mode first to verify and link with your Epic account if it doesn't open the webview page in game mode.<br><br>\nEOS overlay works in classic mode for the game if you want to use it or see it you'll have to swap between remastered and classic."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

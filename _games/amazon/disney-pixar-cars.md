@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You'll need to map some key bindings with keyboard and mouse controls setting."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

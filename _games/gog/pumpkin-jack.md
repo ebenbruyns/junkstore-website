@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Add -dx11 to the target line after the executable.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

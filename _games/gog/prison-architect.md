@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to change the controller mapping to keyboard & mouse."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: "Keyboard & Mouse"
 performance_notes: 
 known_issues: 

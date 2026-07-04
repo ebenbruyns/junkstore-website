@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: You need to install DirectX (do this from the dependency menu in game mode). May want to adjust key bindings.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

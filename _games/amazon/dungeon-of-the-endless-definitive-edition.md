@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Need to set controller layout to Gamepad in game, then restart game.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

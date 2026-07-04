@@ -96,6 +96,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Keyboard & mouse controls. **Decky Plugin: Not Supported**. **Pro Version: Some tinkering required**. Must run ./dependencies/oalinst.exe to install OpenAL32.dll first. May need to set ./Baldur.exe"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
 performance_notes: 
 known_issues: 

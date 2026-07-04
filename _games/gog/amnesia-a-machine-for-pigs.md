@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. \nShips with required dependencies, just need to install."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: "Keyboard & Mouse"
 performance_notes: 
 known_issues: 

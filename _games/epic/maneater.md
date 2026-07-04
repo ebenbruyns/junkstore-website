@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Cannot currently disable EGS cloud saves"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
 performance_notes: 
 known_issues: 

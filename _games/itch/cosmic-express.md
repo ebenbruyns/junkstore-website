@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "It doesn't have gamepad support, so you will need to use the touchscreen or set the controller config to mouse."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: For the Decky version you will need to install C++ runtime then run the exe to install it. It is automatically downloaded in Junk Store Pro.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

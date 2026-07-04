@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! You will need to change the resolution to 1280x720 so the games fits the screen and make it Windowed or Fullscreen. You will also want to change the graphics settings to medium or low otherwise it lags."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

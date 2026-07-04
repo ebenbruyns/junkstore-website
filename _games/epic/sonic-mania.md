@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box on the Decky plugin version. Need to update the .ini file: Set windowed mode from Y to N & set resolution to 1280x800. Save settings."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

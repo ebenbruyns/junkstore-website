@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Decky version - the game might open in teh background, to get to it just click on **Play** again and the game should open in on top."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

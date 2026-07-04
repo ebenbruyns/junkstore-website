@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Broken on Decky version due to update Epic made, working on a fix.<br><br>\nWorks out of the box on Junk Store Pro - **beta** channel; you will need to toggle use Legacy clients off and download it on the new Junk Store Pro Epic client."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: You have to verify with your Epic account in order for achievements to be tracked. You may also need to have the EOS overlay enabled.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Need to log in to download & login to Uplay. Toggle on BattlEye"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
 performance_notes: 
 known_issues: 

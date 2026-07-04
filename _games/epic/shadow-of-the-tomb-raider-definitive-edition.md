@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Set the graphics to medium, enable Exclusive full screen, turn on AMD FidelityFX, HDR and set refresh rate to 45.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
 performance_notes: 
 known_issues: 

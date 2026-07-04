@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: May need to verify with Epic account before launch. Works out of the box on the Decky plugin version.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

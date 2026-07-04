@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You may need to set the executable **./Back to Modern World Fantasy Hero/Game.exe**"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Extract the game to S: and then set the <em>Game.exe</em> as the executable."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: May need to map additional keys for actions in game.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

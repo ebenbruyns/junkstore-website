@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Feedback from user who tested this game, also used built in LSFG configs in v1.1.13 on Decky Testing Store.<br> \n\n**Tested with Proton**: 10.0-3<br>\n\n\"Frame generation in the build that I tested worked awesomely .. get easy 85-90 fps medium settings 1920x1200 in FSR3 performance mode (50%).\""
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: You need to download and install X64 redistributable for Visual Studio 2015-2022.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
 performance_notes: 
 known_issues: 

@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "May need to launch in desktop/big picture mode first time. After that it works out of the box!"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

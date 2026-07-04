@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You need to install DirectX dependency. This can be done from the cog menu > Installation > Dependencies > DirectX.  You also need to map so keys beyond what is done with keyboard and mouse configs."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: There are some extra buttons you may want to map for quick shortcuts in game.  Ctrl - Sprinting, Weapon 1 - 2 swap, etc.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

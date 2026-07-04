@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Requires EOS Overlay to be enabled. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Need to install C++ Runtime (can be done from Run exe menu)"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

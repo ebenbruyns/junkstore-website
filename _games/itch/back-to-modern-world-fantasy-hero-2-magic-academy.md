@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You may have to set the exectuable **./itch2(Back to Modern World Fantasy Hero/Game.exe**"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

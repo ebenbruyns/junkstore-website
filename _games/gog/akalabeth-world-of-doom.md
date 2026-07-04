@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You'll need to map key bindings for hte game. Controls can be found in the **Introduction** menu in game."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

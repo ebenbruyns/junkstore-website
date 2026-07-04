@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Need to verify this game with your account and enable the EOS overlay.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Need to use the mouse/trackpad.
 performance_notes: 
 known_issues: 

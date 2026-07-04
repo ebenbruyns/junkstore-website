@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box but you need to change controller layout to Keyboard & Mouse. While it works on the Steam Deck you'll be better off playing with an external keyboard, was a pain testing using the on screen keyboard."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: "Keyboard & Mouse"
 performance_notes: 
 known_issues: 

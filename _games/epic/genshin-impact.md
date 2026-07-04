@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Requires HoyoPlay launcher. Requires HoyoPlay Account setup. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. You need to set the exe."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

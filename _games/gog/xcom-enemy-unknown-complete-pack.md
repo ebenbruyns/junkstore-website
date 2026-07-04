@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! Change the controller to XBox in game from the Settings menu and you'll be good to go!"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

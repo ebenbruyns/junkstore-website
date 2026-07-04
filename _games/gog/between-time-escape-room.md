@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Need to change controller settings in the option menu in game to Joystick from Keyboard and mouse.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

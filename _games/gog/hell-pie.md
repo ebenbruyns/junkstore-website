@@ -104,6 +104,8 @@ geforcenow_url: "https://play.geforcenow.com/games?game-id=69708ee3-00ac-4ca3-9c
 
 # Notes
 notes: "Works out of the box!"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
 performance_notes: 
 known_issues: 

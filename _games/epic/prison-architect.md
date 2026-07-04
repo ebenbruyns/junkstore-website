@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Requires Paradox Interactive setup. May need to verify with Epic account before launch. Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

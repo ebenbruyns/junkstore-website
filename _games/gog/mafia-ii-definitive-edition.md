@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You'll need to set the game executable."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

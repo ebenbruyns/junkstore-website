@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You need to toggle off a config, follow this path and toggle off: Game screen > Cog > Proton > Set Steam Compatibility Library Paths (toggle off for this game)."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

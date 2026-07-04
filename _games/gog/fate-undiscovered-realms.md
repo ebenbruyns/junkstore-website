@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Requires manual controller/key mapping. There are also a few lighting glitches when you enter the dungeons. To avoid these make the game look make sure your game options are set as follows: Light Blur: Off; Shadow Detail: High; VSYNC: Off; Shadow: All; ParticlesL High; Antialiasing: On; Fog: Animated"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

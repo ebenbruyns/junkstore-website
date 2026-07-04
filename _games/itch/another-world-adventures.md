@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You might need to se the executable <em>./Another World Adventures/Game.exe</em>."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

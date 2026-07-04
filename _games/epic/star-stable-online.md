@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Works without issue once successfully logged in and you have changed the controller layout.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

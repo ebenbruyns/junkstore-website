@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "I tested with this specfic Proton version as a my defualt GE-Pront and others didn't work. Not sure if you have to use this Proton version but this one worked for me."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
 performance_notes: 
 known_issues: 

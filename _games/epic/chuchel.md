@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box!<br>\nMay need to toggle off *Set Steam Compatibility Library Paths* - Cog > Set Dropdown to **All**"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

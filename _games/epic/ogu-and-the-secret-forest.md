@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: 
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
 performance_notes: 
 known_issues: A bit laggy but this seems to be a game issue.

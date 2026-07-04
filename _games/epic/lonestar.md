@@ -10,7 +10,7 @@ permalink: /games/epic/lonestar/
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
-date_tested: "May '26"
+date_tested: "Jul '26"
 proton_version: ""
 
 # Compat ratings (community / Steam)
@@ -103,13 +103,15 @@ geforcenow_url: ""
 
 # Notes
 notes: "You may need to verify with your Epic accoutn in desktop/big picture mode if the authentication browswer doesn't open.<br><br>\nYou may also want to change display to full screen in the game settings menu."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 
 
 # Meta
 database_id: ""
-is_featured: false
+is_featured: true
 owned: true
 ---
 

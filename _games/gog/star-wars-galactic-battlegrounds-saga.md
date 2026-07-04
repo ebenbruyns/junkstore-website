@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You may need to set an exe from: Cog > Run exe in Game Folder > *set whichever one you are wanting to play*<br>\nRemember to **Push X** to save and set the exe change (if you don't you'll have to do this before each launch)."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "To run each separate game you will need to select the exe from the sliders menu > Run exe."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

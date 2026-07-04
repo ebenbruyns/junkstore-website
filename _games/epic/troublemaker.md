@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Works out of the box with native controller support.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
 performance_notes: 
 known_issues: 

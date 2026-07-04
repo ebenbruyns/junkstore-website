@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "It launches no problem, and it says it has support for multiple different inputs, but I didn't find that to be the case. I had to manually map some keys to get the game to work."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

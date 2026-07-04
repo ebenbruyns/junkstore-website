@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: 
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Native controller support
 performance_notes: 
 known_issues: 

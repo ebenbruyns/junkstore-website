@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Does not work straight out the box! You need to do this small trick after download:<br><br>\n\nGo to Desktop Mode:<br>\n1. Head to /home/deck/Games/gog/SimCity 4 Deluxe Editon/Apps <br>\n2. Copy SimCity 4.exe to /home/deck/Games/gog/SimCity 4 Deluxe Editon/ <br>\n3. Head back to Game Mode, open Junk Store <br>\n4. From Simcity 4 Deluxe in Junk store, choose slidermenu and open exe in folder > choose SimCity4.exe and press X <br>\n5. Press Play!"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

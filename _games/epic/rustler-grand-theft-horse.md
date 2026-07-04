@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Work out of the box on Decky!"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

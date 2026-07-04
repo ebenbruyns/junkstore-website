@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "May want swap some of the key bindings around in the game settings/options menu.<br><br>\nTo be able to quit the game or return to the main menu you will need to map **F9**.<br><br>\nYou will also want to change the display settings in the options menu."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

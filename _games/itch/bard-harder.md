@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You may need to set an executable. I set <em>./BardHarder-1.0-pc/BardHarder.exe</em>"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

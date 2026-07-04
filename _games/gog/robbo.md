@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: To quit the game just move the mouse to the top of the screen.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: May need to set the exe - ./MINABO - A walk through life.exe
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

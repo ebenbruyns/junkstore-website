@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Change to keyboard and mouse.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: "Keyboard & Mouse"
 performance_notes: 
 known_issues: 

@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Once everything is installed and downloaded it works out of the box!\n\n**Note:** You need to make sure you have the correct account selected in order to successfully login. I had a few login failed until I saw the account icon on the right side of the screen and made sure I had an account selected. You may only have this issue if you have logged on from a different device previously."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

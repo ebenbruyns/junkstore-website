@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You need to '**Reset Launch Options**' prior to launch!"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

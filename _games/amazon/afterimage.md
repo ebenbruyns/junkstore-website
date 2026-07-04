@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: This game can take a while to load on first launch.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

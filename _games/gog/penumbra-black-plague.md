@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Gameplay will be a black screen unless you disable Post Effects in the settings menu.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

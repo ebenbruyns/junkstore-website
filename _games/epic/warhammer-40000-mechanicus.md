@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

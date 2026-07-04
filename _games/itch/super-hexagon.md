@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. Community controller layout available. **Decky Plugin: Not Supported**. **Pro Version: Works out of the box**."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

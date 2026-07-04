@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Advanced tinkering required**. **Pro Version: Advanced tinkering required**. Follow extra steps [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Chronoshot)"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

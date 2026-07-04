@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Change controller settings in game depending if you want keyboard and mouse or gamepad.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

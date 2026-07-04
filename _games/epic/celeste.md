@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Native controller support. Install dxvk to fix the red colour issue.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

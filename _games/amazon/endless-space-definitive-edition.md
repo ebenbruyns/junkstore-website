@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Works flawlessly once you change the controller mapping.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

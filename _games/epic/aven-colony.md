@@ -103,6 +103,8 @@ geforcenow_url: "https://play.geforcenow.com/games?game-id=2f306644-1899-4cf2-92
 
 # Notes
 notes: "Works out of the box!"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: "Keyboard & Mouse"
 performance_notes: 
 known_issues: 

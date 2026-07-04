@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Need to download & log in to Uplay"
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
 performance_notes: 
 known_issues: 

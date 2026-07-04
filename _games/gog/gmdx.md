@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: You might want to adjust the graphics settings in game as the text is small and difficult to read on default settings.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "Works out of the box! Tested with Delux Upgrade and works without issue."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: Game can be laggy and the audio can stutter. You will need to adjust the FPS and other settings to have the game run somewhat smoothly.
 known_issues: 

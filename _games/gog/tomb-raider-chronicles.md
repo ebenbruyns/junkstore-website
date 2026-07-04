@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping and scaling tweaks via QAM.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

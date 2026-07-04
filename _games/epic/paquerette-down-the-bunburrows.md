@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: You need to verify it with your Epic account.
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
 performance_notes: 
 known_issues: 

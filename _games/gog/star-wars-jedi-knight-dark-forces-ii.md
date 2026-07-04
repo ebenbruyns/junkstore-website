@@ -104,6 +104,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You'll want to adjust the scaling; this can be done in game."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

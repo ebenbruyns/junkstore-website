@@ -103,6 +103,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "The game launches in both versions, but for Junk Store Decky plugin the game doesn't let you navigate to the menu items. I'll do some more testing. If anyone has a solution let us know."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 

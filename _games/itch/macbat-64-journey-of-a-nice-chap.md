@@ -95,6 +95,8 @@ geforcenow_url: ""
 
 # Notes
 notes: "You will need to map controller keys for this game. Also if it doesn't launch first time you may need to repair the games files."
+notes_screenshot: ""
+notes_screenshot_caption: 
 controller_config: 
 performance_notes: 
 known_issues: 
