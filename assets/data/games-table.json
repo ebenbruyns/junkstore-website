@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-04T04:37:27.121Z",
-  "total_games": 1054,
+  "generated_at": "2026-07-14T02:48:50.521Z",
+  "total_games": 1057,
   "storefronts": {
     "Epic": {
-      "total": 493,
-      "green_standalone": 432,
-      "green_decky": 443
+      "total": 494,
+      "green_standalone": 433,
+      "green_decky": 444
     },
     "GOG": {
-      "total": 394,
-      "green_standalone": 322,
-      "green_decky": 358
+      "total": 396,
+      "green_standalone": 324,
+      "green_decky": 360
     },
     "Amazon": {
       "total": 83,
@@ -5335,6 +5335,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "7ba101a6119b460b9f272a0d02197ee0"
+    },
+    {
+      "slug": "nova-lands",
+      "id": "487bfeacfebe4d2a921b0b1478ad6625",
+      "title": "Nova Lands",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "native_linux": false,
+      "publisher": "HypeTrain Digital",
+      "controller_input": "native"
     },
     {
       "slug": "oddsparks-an-automation-adventure",
@@ -12134,6 +12146,18 @@
       "databaseId": "1435582019"
     },
     {
+      "slug": "regular-factory-escape-room",
+      "id": "1481221108",
+      "title": "Regular Factory: Escape Room",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "native_linux": false,
+      "publisher": "mc2games",
+      "controller_input": "native"
+    },
+    {
       "slug": "residual",
       "id": "041240c1-d0c3-40d2-a952-2d73eb58d7dc",
       "title": "Residual",
@@ -12831,6 +12855,18 @@
       "controller_input": "mouse-only",
       "requires_eac_runtime": false,
       "databaseId": "1207659007"
+    },
+    {
+      "slug": "still-there",
+      "id": "1215985085",
+      "title": "Still There",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "native_linux": false,
+      "publisher": "Iceberg Interactive",
+      "controller_input": "keyboard-mouse"
     },
     {
       "slug": "stray-gods-the-roleplaying-musical",

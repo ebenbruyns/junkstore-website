@@ -84,7 +84,7 @@ store_url: "https://store.epicgames.com/p/warhammer-40k-speed-freeks-12879c"
 protondb_url: "https://www.protondb.com/app/2078450"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warhammer_40,000:_Speed_Freeks"
-metacritic_score: 
+metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/warhammer-40000-mechanicus-ii/"
 
 # Cross-Catalog IDs (Game Catalog API)

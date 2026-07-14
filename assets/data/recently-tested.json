@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-07-04T22:47:47.659Z",
+  "generated_at": "2026-07-14T03:30:50.802Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "nova-lands",
+      "featured_in": "2026-07-14",
+      "post_url": "/blog/games-tested-2026-07-14/",
+      "title": "Nova Lands",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/50c00cc431c6bf296c6bff6e6efdb253edde5380ff8e60d87e665c6e6ade4e06.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/a2532db9f7589997ec116d6e5c9f90070fdeb54e84e039da232e040dc9b3e37e.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "regular-factory-escape-room",
+      "featured_in": "2026-07-14",
+      "post_url": "/blog/games-tested-2026-07-14/",
+      "title": "Regular Factory: Escape Room",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/89339c8a59c4a0be1bd25f93f05e28db3586f53b9543dfcb9d81ee512c1a2e35.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/00f5651bb464532e9475ec4d4fbf338503b05c5852bc5f34be3ae190bb619789.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "still-there",
+      "featured_in": "2026-07-14",
+      "post_url": "/blog/games-tested-2026-07-14/",
+      "title": "Still There",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/a32860dc4c02e5cc5291a96d24cf2c59247c22ec27c505185219ec79cb2260fe.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/29b65d7c87e3677c2c9ae3316c2e3bc7825b62c2508c835f6369d5f678578b76.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "tattoo-tycoon",
+      "featured_in": "2026-07-14",
+      "post_url": "/blog/games-tested-2026-07-14/",
+      "title": "Tattoo Tycoon",
+      "standalone_rating": "green",
+      "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2375260/capsule_231x87.jpg",
+      "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2375260/library_600x900.jpg"
+    },
     {
       "store": "gog",
       "slug": "cyclones",
@@ -80,46 +120,6 @@
       "standalone_rating": "yellow",
       "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1035050/capsule_231x87.jpg",
       "vertical_artwork": "https://images.gog.com/494bca1991167d78303355ff665b31f50d2791fc418136d5fc3bae8d38956b92.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "itch",
-      "slug": "amethyst-hearth",
-      "featured_in": "2026-06-30",
-      "post_url": "/blog/backlog-tested-2026-06-30/",
-      "title": "Amethyst Hearth",
-      "standalone_rating": "yellow",
-      "icon_image": "",
-      "vertical_artwork": "https://images.gog.com/cf3af54565bc7b1580d571e6277be0afbd794c27e970c574156d65d45174bc64.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "itch",
-      "slug": "another-world-adventures",
-      "featured_in": "2026-06-30",
-      "post_url": "/blog/backlog-tested-2026-06-30/",
-      "title": "Another World Adventures",
-      "standalone_rating": "yellow",
-      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3445980/header.jpg",
-      "vertical_artwork": "https://img.itch.zone/aW1nLzE3OTk4MjQxLnBuZw==/315x250%23c/E4E7eq.png"
-    },
-    {
-      "store": "itch",
-      "slug": "antecrypt",
-      "featured_in": "2026-06-30",
-      "post_url": "/blog/backlog-tested-2026-06-30/",
-      "title": "Antecrypt",
-      "standalone_rating": "green",
-      "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1659920/capsule_231x87.jpg",
-      "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1659920/library_600x900.jpg"
-    },
-    {
-      "store": "itch",
-      "slug": "back-to-modern-world-fantasy-hero",
-      "featured_in": "2026-06-30",
-      "post_url": "/blog/backlog-tested-2026-06-30/",
-      "title": "Back to Modern World - Fantasy Hero",
-      "standalone_rating": "yellow",
-      "icon_image": "",
-      "vertical_artwork": "https://img.itch.zone/aW1nLzI3NDI1NTcwLnBuZw==/315x250%23c/srmjWs.png"
     }
   ]
 }
