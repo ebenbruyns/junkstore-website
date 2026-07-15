@@ -2,7 +2,7 @@
 layout: junkstore-page
 title: "Steam Deck Game Compatibility"
 excerpt: ""
-description: "Discover 960+ games tested on Steam Deck. Browse by store, check compatibility ratings, and find setup tips for Epic, GOG, Amazon & itch games."
+description: "Discover 1000+ games tested on Steam Deck. Browse by store, check compatibility ratings, and find setup tips for Epic, GOG, Amazon & itch games."
 permalink: /games/
 image: /assets/images/blog/features/games-table/games-table-hero-card.webp
 hide_title: true

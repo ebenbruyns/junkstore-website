@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T19:38:35.211Z",
+  "generated_at": "2026-07-15T23:00:40.051Z",
   "games": [
     {
       "id": "manual_1781215372392_claim-g-i-joe-wrath-of-cobra-amazon-luna",
@@ -120,6 +120,18 @@
       "end_date_formatted": "Thu, 23 Jul · 00:00 UTC",
       "first_seen": "2026-06-18 20:37:19",
       "original_price": null
+    },
+    {
+      "id": "gp-3555",
+      "title": "Together After Dark",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/en-US/p/together-after-dark-fa0ce0",
+      "image": "https://www.gamerpower.com/offers/1b/69cafab460c8e.jpg",
+      "end_date": "2026-07-16T15:00:00.000Z",
+      "end_date_formatted": "Thu, 16 Jul · 15:00 UTC",
+      "first_seen": "2026-07-15 05:44:57",
+      "original_price": "$2.99"
     },
     {
       "id": "manual_1782421304157_claim-lost-eidolons-veil-of-the-witch-amazon-luna",
