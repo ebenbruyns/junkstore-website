@@ -20,6 +20,14 @@ protondb_total: 48
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 12063
+gog_rating_value: 4.3
+gog_rating_count: 106
 
 # Game Info
 publisher: Frictional Games
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"}]
 size: "8804 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":427519,"slug":"amnesia-rebirth","name":"Amnesia: Rebirth"},{"rawg_id":13268,"slug":"amnesia-a-machine-for-pigs","name":"Amnesia: A Machine for Pigs"},{"rawg_id":13668,"slug":"amnesia-the-dark-descent","name":"Amnesia: The Dark Descent"}]
 franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|amnesia-the-dark-descent"
 igdb_url: "https://www.igdb.com/games/amnesia-the-bunker"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-10-16","end":"2025-10-23"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ea493428c6a2324c4a0368e7f11199251307f3aba2e
 icon_image: "https://images.gog.com/ea493428c6a2324c4a0368e7f11199251307f3aba2ee3be88c8bf7cfc3b5522c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 2205
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Graffiti Games
@@ -32,13 +40,15 @@ release_date: "January 18, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Latin America","Korean","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "1042 MB"
+install_size: "1209 MB"
+achievements_total: 23
 franchise_siblings: [{"rawg_id":517384,"slug":"turnip-boy-commits-tax-evasion","name":"Turnip Boy Commits Tax Evasion"}]
 franchise_slug: "turnip-boy-commits-tax-evasion|turnip-boy-robs-a-bank"
 igdb_url: "https://www.igdb.com/games/turnip-boy-robs-a-bank"
 was_free_before: true
-giveaway_events: [{"_id":"69a05fb68d1a8a701e0da952","id":"68d9f0e261464ba284e10418d98532ea","namespace":"263de26be57d43528bb9c7fdb133b9fe","startDate":"2026-03-05T16:00:00.000Z","endDate":"2026-03-12T16:00:00.000Z","title":"Turnip Boy Robs a Bank","__v":0},{"_id":"69a06121d4f5f2e2534098b1","id":"68d9f0e261464ba284e10418d98532ea","namespace":"263de26be57d43528bb9c7fdb133b9fe","startDate":"2026-03-05T16:00:00.000Z","endDate":"2026-03-12T15:00:00.000Z","title":"Turnip Boy Robs a Bank","__v":0}]
+giveaway_events: [{"start":"2026-03-05","end":"2026-03-12"},{"start":"2026-03-05","end":"2026-03-12"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2097230/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2097230/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

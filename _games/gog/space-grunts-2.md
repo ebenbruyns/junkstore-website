@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "9 user reviews"
+steam_review_percent: 67
+steam_review_total: 9
+gog_rating_value: 1.7
+gog_rating_count: 24
 
 # Game Info
 publisher: Orangepixel, HandyGames
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"14","name":"Early Access"}]
 size: "92 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/space-grunts-2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-06-18","end":"2026-09-17"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fac4e3ce7c1d24c17900107c8ebcf7182f39d9d4e0b
 icon_image: "https://images.gog.com/d71e7e444ec2d437a4aa45a83b541f6b4923e37c6845b53f26174b5433ebfc24.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

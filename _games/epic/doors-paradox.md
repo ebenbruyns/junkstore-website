@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 2056
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Snapbreak Games
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "1743 MB"
+install_size: "1922 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/doors-paradox"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cc3631f27c961eb930","id":"b8dee54bce824477bc0b7cb298f9f9a9","namespace":"88c17fed155e43068c338d33d1bcd481","startDate":"2024-01-31T15:00:00.000Z","endDate":"2024-02-07T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-12-01"},{"start":"2024-01-31","end":"2024-02-07"},{"start":"2025-05-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f6c0f77fe95f9cd4e2db700e61d5f5d251e7c134046
 icon_image: "https://images.gog.com/b7d02fddbd48f656fd28be8034a7188401f43c218e3114992a87638d4ccb51a6.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/115708"
 store_url: "https://store.epicgames.com/en-US/p/doors-paradox-5896c7"
 protondb_url: "https://www.protondb.com/app/1622770"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doors%3A_Paradox"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doors:_Paradox"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/doors-paradox/"
 

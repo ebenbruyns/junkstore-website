@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 53
+steam_review_total: 535
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Silver Lining Interactive
@@ -28,17 +36,19 @@ genre: Casual, Exploration, Action-Adventure
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "August 31, 2021"
+release_date: "November 3, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Simplified Chinese","Japanese","Portuguese - Brazil","Russian","Korean"]
 languages_audio: []
-tags_structured: [{"id":"1296","name":"Casual"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"}]
-size: ""
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+size: "226 MB"
+install_size: "1252 MB"
+achievements_total: 10
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/monster-harvest"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-04-17"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/5f1eb1585c6049199a499059c232
 icon_image: "https://images.gog.com/a619548509f7106478975e16c80ac62c9b641e19f64d61382976358a113aaf89.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

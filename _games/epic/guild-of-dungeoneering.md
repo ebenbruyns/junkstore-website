@@ -20,6 +20,14 @@ protondb_total: 34
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 2627
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Gambrinous
@@ -28,17 +36,19 @@ genre: Card Game
 franchise: Guild of Dungeoneering
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "July 14, 2015"
+release_date: "November 18, 2021"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Japanese","Korean","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1181","name":"Card Game"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"}]
-size: ""
+size: "507 MB"
+install_size: "538 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/guild-of-dungeoneering"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2018-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0c2b08dc8ef1eee1128e380a6e11296c6594d11c6cb
 icon_image: "https://images.gog.com/3919bf804726119ed01fa5c414bf5db6c36513abcb7731e380b652a217769900.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

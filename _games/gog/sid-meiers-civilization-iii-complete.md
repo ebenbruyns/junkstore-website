@@ -20,6 +20,14 @@ protondb_total: 96
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 7727
+gog_rating_value: 4.2
+gog_rating_count: 452
 
 # Game Info
 publisher: 2K Games
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"6","name":"Exploration"},{"id":"193","name":"Classic"},{"id":"40838","name":"Includes level editor"},{"id":"102","name":"Turn-Based"},{"id":"5","name":"Replay Value"},{"id":"89","name":"Historical"},{"id":"101","name":"Turn-Based Strategy"},{"id":"81","name":"Military"},{"id":"100","name":"Grand Strategy"},{"id":"212","name":"4X"}]
 size: "1300 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":983201,"slug":"sid-meiers-civilization-vii","name":"Sid Meier’s Civilization VII"},{"rawg_id":10297,"slug":"civilization-vi","name":"Sid Meier’s Civilization VI"},{"rawg_id":13633,"slug":"civilization-v","name":"Sid Meier's Civilization V"},{"rawg_id":13780,"slug":"sid-meiers-civilization-iv","name":"Sid Meier's Civilization IV"},{"rawg_id":32060,"slug":"sid-meiers-civilization-2","name":"Sid Meier's Civilization 2"},{"rawg_id":32062,"slug":"sid-meiers-civilization","name":"Sid Meier's Civilization"}]
 franchise_slug: "civilization-v|civilization-vi|sid-meiers-civilization|sid-meiers-civilization-2|sid-meiers-civilization-iii-co|sid-meiers-civilization-iv|sid-meiers-civilization-vii"
 igdb_url: "https://www.igdb.com/games/sid-meiers-civilization-iv-gold-edition"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5266db8afcf7c4afb0d555209bcf13820e66128ed85
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/3910/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/8502"
 store_url: "https://www.gog.com/en/game/sid_meiers_civilization_iii_complete"
 protondb_url: "https://www.protondb.com/app/3910"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sid_Meier%27s_Civilization_III"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sid_Meier's_Civilization_III"
 metacritic_score: 90
 metacritic_url: "https://www.metacritic.com/game/sid-meiers-civilization-iii/"
 

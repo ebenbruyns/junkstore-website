@@ -20,6 +20,14 @@ protondb_total: 1698
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 97
+steam_review_total: 877616
+gog_rating_value: 4.8
+gog_rating_count: 14111
 
 # Game Info
 publisher: CD PROJEKT RED
@@ -32,8 +40,10 @@ release_date: "May 18, 2015"
 game_modes: ["Single-player"]
 languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","Czech","German","English","Spanish","Latin American Spanish","French","Hungarian","Italian","Japanese","Korean","Polish","Russian","Turkish","Chinese Traditional"]
 languages_audio: ["English","French","German","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
-tags_structured: []
-size: ""
+tags_structured: [{"id":"64","name":"Fantasy"},{"id":"70","name":"War"},{"id":"1465","name":"combat"},{"id":"82","name":"Magic"},{"id":"2326","name":"explore"},{"id":"624","name":"Monsters"},{"id":"3046","name":"destroy"},{"id":"2184","name":"hunt"},{"id":"1551","name":"ancient"},{"id":"3103","name":"evil"},{"id":"941","name":"Mountains"},{"id":"1605","name":"horse"}]
+size: "81656 MB"
+install_size: "85935 MB"
+achievements_total: 78
 franchise_siblings: [{"rawg_id":813543,"slug":"gwent-rogue-mage","name":"Gwent: Rogue Mage"},{"rawg_id":244722,"slug":"gwent-thronebreaker","name":"Thronebreaker: The Witcher Tales"},{"rawg_id":23557,"slug":"gwent-the-witcher-card-game","name":"Gwent: The Witcher Card Game"},{"rawg_id":6400,"slug":"the-witcher-adventure-game","name":"The Witcher Adventure Game"},{"rawg_id":28454,"slug":"the-witcher-2-assassins-of-kings","name":"The Witcher 2: Assassins of Kings"},{"rawg_id":35358,"slug":"the-witcher","name":"The Witcher"},{"rawg_id":39074,"slug":"the-witcher-rise-of-the-white-wolf","name":"The Witcher: Rise of the White Wolf"},{"rawg_id":758455,"slug":"the-witcher-4","name":"The Witcher (A New Saga Begins)"},{"rawg_id":871152,"slug":"the-witcher-remake","name":"The Witcher: Remake"}]
 franchise_slug: "gwent-rogue-mage|gwent-the-witcher-card-game|gwent-thronebreaker|the-witcher|the-witcher-2-assassins-of-kin|the-witcher-3-wild-hunt|the-witcher-4|the-witcher-adventure-game|the-witcher-remake|the-witcher-rise-of-the-white-"
 igdb_url: "https://www.igdb.com/games/the-witcher-3-wild-hunt"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/28b3ae57e6a29c5566e88503eb0cf31414d41f24c96
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -89,7 +102,7 @@ metacritic_score: 92
 metacritic_url: "https://www.metacritic.com/game/the-witcher-3-wild-hunt/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: "463"
+opencritic_id: "463/the-witcher-3-wild-hunt"
 opencritic_url: "https://opencritic.com/game/463/-"
 opencritic_score: 93
 opencritic_review_count: 179

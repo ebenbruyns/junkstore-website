@@ -20,6 +20,14 @@ protondb_total: 257
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 116338
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: WB Games
@@ -28,12 +36,14 @@ genre: Fighting
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Language, Fantasy Violence"},"pegi":{"rating":"12","descriptors":"Mild Swearing, In-Game Purchases"},"usk":{"rating":"6","descriptors":"Gelegentliches Fluchen, Abstrakte Gewalt, In-Game Purchases"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Online Interactivity, Mild Coarse Language, In-Game Purchases"},"kgrb":{"rating":"12","descriptors":"Language, In-Game Purchases"},"dejus":{"rating":"10","descriptors":"Violência, Compras on-line"}}
-release_date: "July 19, 2022"
+release_date: "May 28, 2024"
 game_modes: ["Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Japanese","Korean","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Spanish - Latin America"]
 tags_structured: [{"id":"1344","name":"Fighting"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "16646 MB"
+install_size: "17090 MB"
+achievements_total: 28
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9349f585260c2edf1fa4e2b58919294180e4d4424d0
 icon_image: "https://images.gog.com/4fda50311c1fc36b01ee45ca91ebf48ec16067c1a716b43bae6a947bc03c9c27.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: true
 epic_cloud_saves: false
 must_be_online: false
@@ -88,10 +101,10 @@ metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/multiversus?ftag=MCD-06-10aaa1f"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "13452/multiversus"
+opencritic_url: "https://opencritic.com/game/13452/multiversus"
+opencritic_score: 76
+opencritic_review_count: 51
 twitch_id: ""
 twitch_url: ""
 playstation_id: ""

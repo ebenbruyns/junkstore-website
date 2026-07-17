@@ -20,6 +20,14 @@ protondb_total: 16
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 1673
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Siactro, Diplodocus Games
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"134","name":"Anime"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"305","name":"Linear"},{"id":"133","name":"3D Vision"},{"id":"46","name":"Surreal"},{"id":"166","name":"Stylized"},{"id":"229","name":"3D Platformer"},{"id":"164","name":"Cartoony"},{"id":"49963","name":"Precision Platformer"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/toree-3d"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b390233b9a7608f21434c00c477dfd9b292451818ee
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1554840/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

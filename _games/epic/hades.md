@@ -20,6 +20,14 @@ protondb_total: 740
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 98
+steam_review_total: 306080
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Supergiant Games
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Polish","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1258","name":"Rogue-Like"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "10592 MB"
+install_size: "11460 MB"
+achievements_total: 49
 franchise_siblings: [{"rawg_id":891238,"slug":"hades-ii","name":"Hades II"}]
 franchise_slug: "hades-2018|hades-ii"
 igdb_url: "https://www.igdb.com/games/hades--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/36d18a0f28be767c64ccdaa47afd1722d4befea5e1b
 icon_image: "https://images.gog.com/36d18a0f28be767c64ccdaa47afd1722d4befea5e1b13e5a409154de7c3b0741.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

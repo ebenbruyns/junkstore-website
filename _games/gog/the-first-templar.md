@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 72
+steam_review_total: 1034
+gog_rating_value: 3.7
+gog_rating_count: 163
 
 # Game Info
 publisher: Kalypso Media, FX Interactive
@@ -34,6 +42,8 @@ languages: ["German","English","French"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"75","name":"Local Co-Op"},{"id":"68","name":"Hack and Slash"},{"id":"66","name":"Medieval"}]
 size: "4341 MB"
+install_size: ""
+achievements_total: 50
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-first-templar"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/55474b4bf927cacd3c225c2c50a186c18783794e8ce
 icon_image: "https://images.gog.com/d4ab3ddcf0cca700e807e59e2bf88554c9895c4b00d9773f8a70c72fc8424bfe.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

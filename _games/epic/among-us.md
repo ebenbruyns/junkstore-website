@@ -20,6 +20,14 @@ protondb_total: 1167
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 738994
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Innersloth
@@ -33,12 +41,14 @@ game_modes: ["Co-op"]
 languages: ["English","Portuguese - Brazil","Spanish - Latin America","Spanish - Spain","Korean","Russian","French","Italian","German","Dutch","Japanese","Portuguese - Portugal","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "654 MB"
+install_size: "1025 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":1002772,"slug":"among-us-3d-2","name":"Among Us 3D"},{"rawg_id":705663,"slug":"among-us-vr","name":"Among Us VR"}]
 franchise_slug: "among-us|among-us-3d-2|among-us-vr"
 igdb_url: "https://www.igdb.com/games/among-us"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2021-05-26","end":"2021-06-02"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7b4063fd7cff3e2a250d1f5a0493863d2ae4d9d9796
 icon_image: "https://images.gog.com/7b4063fd7cff3e2a250d1f5a0493863d2ae4d9d9796995c122d3f2f1a1f79795.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

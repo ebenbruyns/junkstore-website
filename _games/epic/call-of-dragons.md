@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Farlight Games
@@ -33,7 +41,9 @@ game_modes: ["Massively Multiplayer Online (MMO)"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1120","name":"RTS"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"1275","name":"MOBA"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "64 MB"
+install_size: "132 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/230103"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a1a27a0f5c40a3ae73b9a939a216dde67fe84d4a066
 icon_image: "https://images.gog.com/10f1ff3d91cefac8c37f7dfb0ca8bcf94a809786e23b274032c4432a980fba58.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

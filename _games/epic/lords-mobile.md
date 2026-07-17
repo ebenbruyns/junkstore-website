@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 67
+steam_review_total: 5858
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: IGG SINGAPORE PTE. LTD.
@@ -34,6 +42,8 @@ languages: ["English","French","Italian","German","Spanish - Spain","Ukrainian",
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21125","name":"Competitive Community"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"33639","name":"Promotional Content"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/lords-mobile"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ef570fa574eeecc1666e1e34a83337d180efb3b5855
 icon_image: "https://images.gog.com/0cf063c8d36640df637982c3d7f9c9eb838e347cbc55b3fad50da352ea81d2bb.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "touch-screen"
 community_layout: false
 required_launcher: ""

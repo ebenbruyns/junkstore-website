@@ -20,6 +20,14 @@ protondb_total: 72
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 97
+steam_review_total: 135649
+gog_rating_value: 4.2
+gog_rating_count: 3124
 
 # Game Info
 publisher: Linux Game Publishing, Whiptail Interactive, Running With Scissors
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","English","Spanish","P
 languages_audio: ["English","Russian","Simplified Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"4","name":"Funny"},{"id":"26","name":"Gore"},{"id":"193","name":"Classic"},{"id":"37","name":"Sandbox"},{"id":"123","name":"Comedy"},{"id":"34","name":"Violent"},{"id":"40852","name":"Steam Workshop"},{"id":"40838","name":"Includes level editor"},{"id":"62","name":"Moddable"},{"id":"107","name":"Family Friendly"},{"id":"37796","name":"exclusive"},{"id":"192","name":"Mature"},{"id":"37797","name":"true exclusive"},{"id":"148","name":"Dark Humor"},{"id":"153","name":"Satire"}]
 size: "2434 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":949985,"slug":"poostall-royale","name":"POOSTALL Royale"},{"rawg_id":922172,"slug":"postal-before-going-postal","name":"Postal: Before Going Postal"},{"rawg_id":489294,"slug":"postal-brain-damaged","name":"Postal: Brain Damaged"},{"rawg_id":383496,"slug":"postal-4-no-regerts","name":"Postal 4: No Regrets"},{"rawg_id":389577,"slug":"postal-run","name":"POSTAL: RUN!"},{"rawg_id":12157,"slug":"postal-redux","name":"POSTAL Redux"},{"rawg_id":13195,"slug":"postal-iii","name":"Postal III"},{"rawg_id":35607,"slug":"postal-3","name":"Postal 3"},{"rawg_id":1003018,"slug":"postal-x-10th-anniversary-collectors-edition","name":"Postal X: 10th Anniversary Collectors Edition"},{"rawg_id":22751,"slug":"postal-classic-and-uncut","name":"POSTAL: Classic and Uncut"},{"rawg_id":10665,"slug":"postal","name":"POSTAL"}]
 franchise_slug: "poostall-royale|postal|postal-2|postal-3|postal-4-no-regerts|postal-before-going-postal|postal-brain-damaged|postal-classic-and-uncut|postal-iii|postal-redux|postal-run|postal-x-10th-anniversary-coll"
 igdb_url: "https://www.igdb.com/games/postal-2"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9e648170bdb41216e8e427bcff5e790b7bfb41dc90e
 icon_image: "https://images.gog.com/658f0d15d02e2680112c85c4df1db4b27e00dcb34f5f0fa402c49d52da962c51.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

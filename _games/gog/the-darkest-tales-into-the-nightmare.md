@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 71
+steam_review_total: 921
+gog_rating_value: 3.4
+gog_rating_count: 33
 
 # Game Info
 publisher: 101XP
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English","Russian"]
 tags_structured: []
 size: "3034 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-darkest-tales"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/bdd7d4f0dd8da2d41ab55a8e0967edfda5c9d61e864
 icon_image: "https://images.gog.com/a83ebdf2fef24e28564be5c17b7a2eaf50cc715804e02c6654ff412c981af9de.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

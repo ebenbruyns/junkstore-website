@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Native resolution not supported"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 487
+gog_rating_value: 4.2
+gog_rating_count: 57
 
 # Game Info
 publisher: WildTangent
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"97","name":"Action RPG"},{"id":"468","name":"role-playing"},{"id":"68","name":"Hack and Slash"},{"id":"48","name":"Dungeon Crawler"}]
 size: "400 MB"
+install_size: ""
+achievements_total: 10
 franchise_siblings: [{"rawg_id":21347,"slug":"fate-the-cursed-king","name":"FATE: The Cursed King"},{"rawg_id":21315,"slug":"fate-the-traitor-soul","name":"FATE: The Traitor Soul"},{"rawg_id":36649,"slug":"fate","name":"Fate (2005)"}]
 franchise_slug: "fate|fate-the-cursed-king|fate-the-traitor-soul|fate-undiscovered-realms"
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7865c2f4abfedaecdf3d1f72e0c6701b31aef30f261
 icon_image: "https://images.gog.com/649ed8edd3cfce63defe122dea9813c7fdbbd65e42a7544c637a0f767969234e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

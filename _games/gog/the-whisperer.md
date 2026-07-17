@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 2.3
+gog_rating_count: 78
 
 # Game Info
 publisher: "Studio Chien d'Or"
@@ -34,6 +42,8 @@ languages: ["English","French"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"68","name":"Hack and Slash"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"113","name":"Side Scroller"},{"id":"166","name":"Stylized"},{"id":"268","name":"Comic Book"},{"id":"205","name":"Lore-Rich"},{"id":"572","name":"Emotional"},{"id":"59643","name":"Протагонистка"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"626","name":"cats"},{"id":"582","name":"Dog"},{"id":"58268","name":"Котики"}]
 size: "2229 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-whisperer--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a22f52b66faabc094ba8ef263a8ce0ab307fcfcda02
 icon_image: "https://images.gog.com/f2ae01f7853c6aebc16cc34392d23705547133c84734c3800b488a5b60da87b6.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

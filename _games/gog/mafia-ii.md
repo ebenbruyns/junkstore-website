@@ -20,6 +20,14 @@ protondb_total: 101
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 58355
+gog_rating_value: 4.1
+gog_rating_count: 812
 
 # Game Info
 publisher: 2K Games, Take-Two Interactive
@@ -34,6 +42,8 @@ languages: ["Czech","German","English","Spanish","French","Italian","Polish","Ru
 languages_audio: ["English","French","German","Italian","Spanish - Spain","Czech","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"193","name":"Classic"},{"id":"37","name":"Sandbox"},{"id":"150","name":"Third-Person Shooter"},{"id":"44","name":"Nudity"},{"id":"144","name":"Crime"},{"id":"130","name":"Driving"},{"id":"133","name":"3D Vision"},{"id":"136","name":"Music"},{"id":"78","name":"America"}]
 size: "7725 MB"
+install_size: ""
+achievements_total: 67
 franchise_siblings: [{"rawg_id":987515,"slug":"mafia-the-old-country","name":"Mafia: The Old Country"},{"rawg_id":442854,"slug":"mafia","name":"Mafia: Definitive Edition"},{"rawg_id":445430,"slug":"mafia-iii-definitive-edition","name":"Mafia III: Definitive Edition"},{"rawg_id":442855,"slug":"mafia-ii-definitive-edition","name":"Mafia II: Definitive Edition"},{"rawg_id":1169,"slug":"mafia-iii","name":"Mafia III"},{"rawg_id":30899,"slug":"mafia-the-city-of-lost-heaven","name":"Mafia: The City of Lost Heaven"}]
 franchise_slug: "mafia|mafia-ii|mafia-ii-definitive-edition|mafia-iii|mafia-iii-definitive-edition|mafia-the-city-of-lost-heaven|mafia-the-old-country"
 igdb_url: "https://www.igdb.com/games/mafia-ii"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/330f01409ea95584a446acc499b7c83309054ddb9e9
 icon_image: "https://images.gog.com/594e0fe635de32014e2c9abd0160b767b26e6750f02aff01a31215b3dd06535e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

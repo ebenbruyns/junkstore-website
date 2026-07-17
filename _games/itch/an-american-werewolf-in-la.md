@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 60
+steam_review_total: 10
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: PlayMedusa
@@ -33,7 +41,9 @@ game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Japanese"]
 languages_audio: []
 tags_structured: []
-size: ""
+size: "50 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/an-american-werewolf-in-la"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/376572bab0624164c0f5163611c83073cacc12a0a32
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2614640/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

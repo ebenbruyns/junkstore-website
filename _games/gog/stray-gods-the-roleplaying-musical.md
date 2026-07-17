@@ -20,6 +20,14 @@ protondb_total: 19
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 3866
+gog_rating_value: 4.5
+gog_rating_count: 398
 
 # Game Info
 publisher: Humble Games
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Latin American Spanish","Fr
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"468","name":"role-playing"},{"id":"145","name":"Choices Matter"},{"id":"110","name":"Cinematic"},{"id":"218","name":"Multiple Endings"},{"id":"136","name":"Music"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"217","name":"Romance"},{"id":"268","name":"Comic Book"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"288","name":"Interactive Fiction"},{"id":"59643","name":"Протагонистка"},{"id":"108","name":"Mythology"},{"id":"66536","name":"Романтика"}]
 size: "7460 MB"
+install_size: ""
+achievements_total: 45
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/stray-gods-the-roleplaying-musical"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/154ab577fee7aa4bed49821f1327854fcd0af62e675
 icon_image: "https://images.gog.com/a95684d8bdc1db679d17932899b78e754a0ddd69bf18a0cedaaf0ea0098adf7d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/105790"
 store_url: "https://www.gog.com/en/game/stray_gods_the_roleplaying_musical"
 protondb_url: "https://www.protondb.com/app/1920780"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stray_Gods%3A_The_Roleplaying_Musical"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stray_Gods:_The_Roleplaying_Musical"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/stray-gods-the-roleplaying-musical/"
 

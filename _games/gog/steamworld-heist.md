@@ -20,6 +20,14 @@ protondb_total: 13
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 6198
+gog_rating_value: 4.5
+gog_rating_count: 375
 
 # Game Info
 publisher: "Image & Form"
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian","Japanese","Russian"
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"189","name":"Female Protagonist"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"336","name":"controller support"},{"id":"197","name":"Robots"},{"id":"154","name":"Steampunk"},{"id":"176","name":"Turn-Based Tactics"},{"id":"216","name":"Heist"}]
 size: "357 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":914788,"slug":"steamworld-build","name":"SteamWorld Build"},{"rawg_id":286485,"slug":"steamworld-quest","name":"SteamWorld Quest: Hand of Gilgamech"},{"rawg_id":27938,"slug":"steamworld-dig-2","name":"SteamWorld Dig 2"},{"rawg_id":3748,"slug":"steamworld-dig","name":"SteamWorld Dig"},{"rawg_id":24382,"slug":"steamworld-tower-defense","name":"SteamWorld Tower Defense"}]
 franchise_slug: "steamworld-build|steamworld-dig|steamworld-dig-2|steamworld-heist|steamworld-quest|steamworld-tower-defense"
 igdb_url: "https://www.igdb.com/games/steamworld-heist"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d412550aebd7925d02fd5726518baa389832eeab253
 icon_image: "https://images.gog.com/d02707fb67d5ca82d965cd38a2976ad13aa19614219ff50aa970e6dffb4a0be9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

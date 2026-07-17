@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 314
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Blowfish Studios
@@ -27,18 +35,20 @@ developer: Indiesruption
 genre: Adventure, Indie, Puzzle, Point-and-click
 franchise: 
 age_rating_summary: T (ESRB) · 16 (PEGI)
-age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Crude Humor, Suggestive Themes, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence"},"usk":{"rating":"18","descriptors":"No Youth"},"oflc":{"rating":"ma15","descriptors":"Strong Crude Humor"},"kgrb":{"rating":"15","descriptors":"Alcohol, Tobacco, Drug, Violence"},"csrr":{"rating":"C15","descriptors":"Anti-Social Characteristics, Inappropriate Language, Sex, Violence"},"dejus":{"rating":"16","descriptors":"Inappropriate Language, Sexual Content, Violence"}}
-release_date: "July 20, 2020"
+age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
+release_date: "December 4, 2020"
 game_modes: ["Single player"]
 languages: ["English","Spanish - Spain","French","German","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Japanese"]
 languages_audio: []
 tags_structured: []
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-05-01"},{"start":"2024-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/95846f433a82e3f617e178f8232f7a436a0bd21fb48
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1034930/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

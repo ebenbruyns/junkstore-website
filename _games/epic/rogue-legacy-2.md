@@ -20,6 +20,14 @@ protondb_total: 59
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 15063
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Cellar Door Games
@@ -28,12 +36,14 @@ genre: Indie, Rogue-Lite
 franchise: Rogue Legacy
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "April 28, 2022"
+release_date: "August 18, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Japanese"]
 languages_audio: []
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "770 MB"
+install_size: "907 MB"
+achievements_total: 36
 franchise_siblings: [{"rawg_id":3635,"slug":"rogue-legacy","name":"Rogue Legacy"}]
 franchise_slug: "rogue-legacy|rogue-legacy-2"
 igdb_url: "https://www.igdb.com/games/rogue-legacy-2"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/961ea1f3240d791026b5d0a851fb7efa3ddfd7ff47d
 icon_image: "https://images.gog.com/961ea1f3240d791026b5d0a851fb7efa3ddfd7ff47d3c366308d40593f3f39ee.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false

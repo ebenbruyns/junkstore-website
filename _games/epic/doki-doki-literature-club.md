@@ -20,6 +20,14 @@ protondb_total: 44
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 97
+steam_review_total: 31564
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Team Salvato
@@ -32,13 +40,15 @@ release_date: "June 30, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Korean","Japanese"]
 languages_audio: []
-tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"39946","name":"Serenity Forge Publisher Sale"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"39946","name":"Serenity Forge Publisher Sale"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "2142 MB"
+install_size: "2142 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/55935"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cc3631f27c961eb927","id":"76cd108ce4354545bd825e181262dbad","namespace":"1311a5735ed844c0b3c47027cab321f0","startDate":"2024-02-07T15:00:00.000Z","endDate":"2024-02-14T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-02-07","end":"2024-02-14"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2d07b27fbfb6007903d5b662933ce501e4b90c3ce8f
 icon_image: "https://images.gog.com/7cd115a4191a350ecbc3f1be7686aa21457904ececedb9e4021a5c1ec0c8f9d0.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,15 +96,15 @@ hltb_url: "https://howlongtobeat.com/game/93892"
 store_url: "https://store.epicgames.com/en-US/p/doki-doki-literature-club-plus"
 protondb_url: "https://www.protondb.com/app/1388880"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doki_Doki_Literature_Club_Plus%21"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doki_Doki_Literature_Club_Plus!"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/doki-doki-literature-club-plus!?ftag=MCD-06-10aaa1f"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "11608/doki-doki-literature-club-plus-"
+opencritic_url: "https://opencritic.com/game/11608/doki-doki-literature-club-plus-"
+opencritic_score: 87
+opencritic_review_count: 38
 twitch_id: ""
 twitch_url: ""
 playstation_id: ""

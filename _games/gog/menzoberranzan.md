@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "2 user reviews"
+steam_review_percent: 50
+steam_review_total: 2
+gog_rating_value: 2.9
+gog_rating_count: 8
 
 # Game Info
 publisher: Mindscape
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1465","name":"combat"},{"id":"2030","name":"city"},{"id":"625","name":"party"},{"id":"624","name":"Monsters"},{"id":"4927","name":"fly"},{"id":"758","name":"challenging"}]
 size: "300 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "forgotten-realms-archives-3"
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://cdn2.steamgriddb.com/thumb/27c374f8f7a30c7930a931fdee28fad
 icon_image: "https://cdn2.steamgriddb.com/icon/624be6e34355719afee744791897d442/32/48x48.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

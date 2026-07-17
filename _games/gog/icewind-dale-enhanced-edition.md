@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 3633
+gog_rating_value: 4.1
+gog_rating_count: 906
 
 # Game Info
 publisher: Beamdog
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","Engl
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"121","name":"Character Customization"},{"id":"99","name":"Isometric"},{"id":"194","name":"Real-Time with Pause"},{"id":"238","name":"CRPG"},{"id":"206","name":"Party-Based RPG"},{"id":"574","name":"Dungeons & Dragons"}]
 size: "2590 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/icewind-dale-enhanced-edition"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2023-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1eea311f044b0eda759528d7444c63bf2ac9e331c5c
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/321800/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

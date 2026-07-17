@@ -20,6 +20,14 @@ protondb_total: 12
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 8050
+gog_rating_value: 4
+gog_rating_count: 85
 
 # Game Info
 publisher: Alawar Entertainment, Alawar Premium
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","Korean","Polish",
 languages_audio: ["English","Simplified Chinese","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"34","name":"Violent"}]
 size: "1276 MB"
+install_size: ""
+achievements_total: 52
 franchise_siblings: [{"rawg_id":678695,"slug":"beholder-3","name":"Beholder 3"},{"rawg_id":10090,"slug":"beholder","name":"Beholder"}]
 franchise_slug: "beholder|beholder-2|beholder-3"
 igdb_url: "https://www.igdb.com/games/beholder-2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2023-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b964138274b2e33439f4f2262729483cdc328003f39
 icon_image: "https://images.gog.com/3e9245a192e59e212439e2a55ae99ed13798ba415b5d14742bb915c19e2c8755.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

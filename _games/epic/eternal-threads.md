@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 884
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Secret Mode
@@ -28,17 +36,19 @@ genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Drogas lícitas"}}
-release_date: "May 19, 2022"
+release_date: "October 19, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
-size: ""
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+size: "5719 MB"
+install_size: "8794 MB"
+achievements_total: 10
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/eternal-threads"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d03631f27c961eba32","id":"921e40c4c69f4d728914ca2a4f0aa407","namespace":"35eda4ff87f94a7491dc28175b8f3b4f","startDate":"2023-10-18T15:00:00.000Z","endDate":"2023-10-25T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-10-18","end":"2023-10-25"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8ddcff9507659b075262e8949c45ba35dbda9a411e1
 icon_image: "https://images.gog.com/c423c1bdcb80c5dfde652a435b0a9dd90b46d61e7413aaca7a90a7b77e218dfe.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

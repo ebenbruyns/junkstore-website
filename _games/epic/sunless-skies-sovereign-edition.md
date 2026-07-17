@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 3454
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Failbetter Games
@@ -28,17 +36,19 @@ genre: Horror, RPG, Rogue-Lite
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Atos criminosos, Medo"}}
-release_date: "January 31, 2019"
+release_date: "June 27, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"33639","name":"Promotional Content"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
-size: ""
+size: "1132 MB"
+install_size: "3287 MB"
+achievements_total: 31
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sunless-skies"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1c93631f27c961eb833","id":"d64e188ad8034ffcacd038c4713f5c0a","namespace":"3f6f54e0f8164224b817d23075cbb2a8","startDate":"2024-06-26T15:00:00.000Z","endDate":"2024-07-03T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-06-26","end":"2024-07-03"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3d4b7d3c83d207355367d1710da5db0af51462139ac
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/596970/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

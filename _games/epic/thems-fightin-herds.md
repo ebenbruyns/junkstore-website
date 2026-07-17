@@ -20,6 +20,14 @@ protondb_total: 39
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 4500
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Gameplay Group International Inc.
@@ -32,13 +40,15 @@ release_date: "December 19, 2022"
 game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "4131 MB"
+install_size: "8057 MB"
+achievements_total: 28
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/203089"
 was_free_before: true
-giveaway_events: [{"_id":"67c0878edab818dea84d6a67","id":"1f723b00df58467998c4984ca39915ad","namespace":"a567c32599bf4d4fb609e424f3691b39","startDate":"2025-03-06T16:00:00.000Z","endDate":"2025-03-13T15:00:00.000Z","title":"Them's Fightin' Herds","__v":0},{"_id":"66abf1d83631f27c961ebc69","id":"1f723b00df58467998c4984ca39915ad","namespace":"a567c32599bf4d4fb609e424f3691b39","startDate":"2022-12-18T15:00:00.000Z","endDate":"2022-12-19T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-12-18","end":"2022-12-19"},{"start":"2025-03-06","end":"2025-03-13"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/29f7efee478bef53e84af821b8d525b4a4b70178813
 icon_image: "https://images.gog.com/83da31aabec972e8c0b85ad91744b13c23e9cb4856b0e2fbc654a96111a95230.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Game or launcher doesnt exit cleanly"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 10814
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Atari, Beamdog
@@ -35,11 +43,13 @@ languages_audio: ["English","German","French","Polish","Russian","Ukrainian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"41","name":"Dark"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"121","name":"Character Customization"},{"id":"40833","name":"Captions available"},{"id":"99","name":"Isometric"},{"id":"82","name":"Magic"},{"id":"271","name":"Remake"},{"id":"270","name":"Blood"},{"id":"981","name":"battle"},{"id":"194","name":"Real-Time with Pause"},{"id":"808","name":"character"},{"id":"217","name":"Romance"},{"id":"215","name":"Dragons"},{"id":"238","name":"CRPG"},{"id":"206","name":"Party-Based RPG"},{"id":"574","name":"Dungeons & Dragons"},{"id":"704","name":"Traps"},{"id":"3680","name":"defense"},{"id":"712","name":"school"},{"id":"920","name":"murder"},{"id":"2489","name":"dodge"},{"id":"5506","name":"wizards"}]
 size: "3804678799
 "
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "baldur-s-gate-enhanced-edition|baldur-s-gate-enhanced-edition-f1dce9|baldur-s-gate-ii-enhanced-edition|baldur-s-gate-ii-enhanced-edition-cef011"
 igdb_url: "https://www.igdb.com/games/baldur-s-gate-ii-enhanced-edition"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -48,6 +58,9 @@ cover_image: "https://images.gog.com/b1cc07ce74fbb022e41ab2828edd3258bb033d7e051
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/257350/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -76,7 +89,7 @@ hltb_url: "https://howlongtobeat.com/game/809"
 store_url: ""
 protondb_url: "https://www.protondb.com/app/257350"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Baldur%27s_Gate_II%3A_Enhanced_Edition"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Baldur's_Gate_II:_Enhanced_Edition"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/baldurs-gate-ii-enhanced-edition/"
 

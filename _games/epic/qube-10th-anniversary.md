@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 182
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Toxic Games
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21150","name":"Challenging Puzzles"}]
-size: ""
+size: "8329 MB"
+install_size: "8329 MB"
+achievements_total: 24
 franchise_siblings: []
 franchise_slug: "qube|qube-2"
 igdb_url: "https://www.igdb.com/games/5445"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9d2fbdfbc619fbde9767dbf233470454b275a44c5a3
 icon_image: "https://images.gog.com/e3ca37e993690dbe0cdf0d6a86d0b07841be88e9af516fce9c67b7e2cb7e25e5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

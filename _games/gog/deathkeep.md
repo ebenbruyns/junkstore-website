@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 48
+steam_review_total: 21
+gog_rating_value: 2.6
+gog_rating_count: 15
 
 # Game Info
 publisher: SNEG
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"8","name":"First-Person"},{"id":"64","name":"Fantasy"},{"id":"97","name":"Action RPG"},{"id":"74","name":"Retro"},{"id":"468","name":"role-playing"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"66","name":"Medieval"},{"id":"82","name":"Magic"},{"id":"48","name":"Dungeon Crawler"},{"id":"243","name":"1990's"},{"id":"265","name":"Class-Based"},{"id":"570","name":"Old School"},{"id":"574","name":"Dungeons & Dragons"},{"id":"329","name":"Mystery Dungeon"}]
 size: "225 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/deathkeep"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-01-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2350540/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2350540/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

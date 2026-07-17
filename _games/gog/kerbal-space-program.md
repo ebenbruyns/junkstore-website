@@ -20,6 +20,14 @@ protondb_total: 118
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 144486
+gog_rating_value: 4.6
+gog_rating_count: 1291
 
 # Game Info
 publisher: Private Division
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"1281","name":"Space Sim"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1400","name":"Physics"},{"id":"21146","name":"Educational"},{"id":"10719","name":"Mac OS"}]
 size: "2033 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":366877,"slug":"kerbal-space-program-2","name":"Kerbal Space Program 2"}]
 franchise_slug: "kerbal-space-program|kerbal-space-program-2"
 igdb_url: "https://www.igdb.com/games/kerbal-space-program"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2023-01-04","end":"2023-01-11"},{"start":"2024-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/dc68da69d6306d79c23bdddd69290ad585721579107
 icon_image: "https://images.gog.com/700ec1ea496cef400cba7c2b7cc701e4ae77448e0961be297320fbcb61c7a7b4.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

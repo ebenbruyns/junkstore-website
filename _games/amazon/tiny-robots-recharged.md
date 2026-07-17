@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 111
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Snapbreak
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Rich"},{"id":"4","name":"Funny"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"61","name":"Top-Down"},{"id":"197","name":"Robots"},{"id":"305","name":"Linear"},{"id":"1867","name":"puzzles"},{"id":"744","name":"friends"},{"id":"295","name":"Soundtrack"},{"id":"140","name":"Hidden Object"},{"id":"2590","name":"fun"},{"id":"49955","name":"Puzzle Platformer"},{"id":"575","name":"Logic"},{"id":"822","name":"escape"},{"id":"68059","name":"Escape Room"},{"id":"6706","name":"connect"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/tiny-robots-recharged"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2021-10-01"},{"start":"2024-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2b3771214aa0133bd27d95e9885de4744d6cfdcc086
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1709580/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

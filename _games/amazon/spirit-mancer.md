@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 82
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Dear Villagers
@@ -34,6 +42,8 @@ languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"18","name":"Co-op"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"68","name":"Hack and Slash"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"1465","name":"combat"},{"id":"113","name":"Side Scroller"},{"id":"138","name":"Relaxing"},{"id":"91686","name":"Family Sharing"},{"id":"45201","name":"Remote Play Together"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"46112","name":"Shared/Split Screen Co-op"},{"id":"14194","name":"deckbuilding"},{"id":"55320","name":"Creature Collector"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/spirit-mancer"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5ebb16c8a001e2d57c96f1dee7661f4bf4d3e24bbfa
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2172580/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

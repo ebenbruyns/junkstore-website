@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Play to Win Studios
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1296","name":"Casual"},{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"1310","name":"EARLY ACCESS"},{"id":"10719","name":"Mac OS"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/255466"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2acd172e1a0ea3d29c12c3cd807b4ed039094b42734
 icon_image: "https://images.gog.com/74b2e6f92c0c1fb86d26b4c8063692b7d51ca75f3ea7492f55105d01f2314902.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

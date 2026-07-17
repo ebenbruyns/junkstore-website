@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 71
+steam_review_total: 1604
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Dear Villagers
@@ -34,6 +42,8 @@ languages: ["English","French","German","Spanish - Spain","Polish","Russian","Si
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"123","name":"Comedy"},{"id":"107","name":"Family Friendly"},{"id":"5","name":"Replay Value"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"66","name":"Medieval"},{"id":"39","name":"Building"},{"id":"67","name":"Management"},{"id":"180","name":"Base Building"},{"id":"164","name":"Cartoony"},{"id":"147","name":"Resource Management"},{"id":"200","name":"Narration"}]
 size: "3913 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/naheulbeuks-dungeon-master"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/aa81868f73bd5d0ee7e4c4962be0fed90fdbe5f3b43
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2005160/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

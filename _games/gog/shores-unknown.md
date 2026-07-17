@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 69
+steam_review_total: 124
+gog_rating_value: 2.6
+gog_rating_count: 14
 
 # Game Info
 publisher: Hitcents
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"66","name":"Medieval"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"230","name":"Tactical RPG"}]
 size: "4450 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a6be6891b723aa7e48fe5723f79f30d0e1c881873e8
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/899460/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

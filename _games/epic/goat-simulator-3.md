@@ -20,6 +20,14 @@ protondb_total: 22
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 98
+steam_review_total: 15529
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Coffee Stain Publishing AB
@@ -28,12 +36,14 @@ genre: Comedy, Adventure
 franchise: Goat Simulator
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "February 15, 2024"
+release_date: "November 17, 2022"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21126","name":"Silly Community"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1400","name":"Physics"},{"id":"1370","name":"Single Player"},{"id":"1116","name":"Comedy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21126","name":"Silly Community"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1400","name":"Physics"},{"id":"1370","name":"Single Player"},{"id":"1116","name":"Comedy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "7069 MB"
+install_size: "14068 MB"
+achievements_total: 39
 franchise_siblings: [{"rawg_id":1959,"slug":"goat-simulator","name":"Goat Simulator"}]
 franchise_slug: "goat-simulator|goat-simulator-3"
 igdb_url: "https://www.igdb.com/games/goat-simulator-3"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/850190/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/850190/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 1265
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: IllFonic
@@ -34,6 +42,8 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: ["English","Japanese"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1203","name":"Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
 size: ""
+install_size: ""
+achievements_total: 51
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/ghostbusters-spirits-unleashed"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b19055765610b6bb7aede59ab71f40ff70af22c1aed
 icon_image: "https://images.gog.com/42f94d4069fdbf68e107710bea9cf15c2e0af0796096dc2f0e936b2c3308af5c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/114461"
 store_url: "https://store.epicgames.com/en-US/p/ghostbusters-spirits-unleashed"
 protondb_url: "https://www.protondb.com/app/2383990"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghostbusters%3A_Spirits_Unleashed"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghostbusters:_Spirits_Unleashed"
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/ghostbusters-spirits-unleashed/"
 

@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 1734
+gog_rating_value: 4.2
+gog_rating_count: 115
 
 # Game Info
 publisher: Thunderful
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Japanese
 languages_audio: []
 tags_structured: []
 size: "4086 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/hell-pie"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3ecda64ef543966a1e373cf7446e6eeaf02399e6728
 icon_image: "https://images.gog.com/747a42c9388b7cdca5f8ca5ead135843529a966d331a6ec6493c882537555f96.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

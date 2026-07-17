@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 1395
+gog_rating_value: 3.9
+gog_rating_count: 206
 
 # Game Info
 publisher: Transhuman Design, Transhuman Design
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","French","Port
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"8","name":"First-Person"},{"id":"45","name":"2D"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"40850","name":"Steam Leaderboards"},{"id":"34","name":"Violent"},{"id":"122","name":"Pixel Graphics"},{"id":"41","name":"Dark"},{"id":"74","name":"Retro"},{"id":"40852","name":"Steam Workshop"},{"id":"40838","name":"Includes level editor"}]
 size: "104 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/butcher"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5a78562d4e2a4485b55d38c71aa91a9cb07f7e243ca
 icon_image: "https://images.gog.com/ad8c312ae5a4789121fadd544ece7c534f1ec926d2a92a8b58e3938e1e65b8ef.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

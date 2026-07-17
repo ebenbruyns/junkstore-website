@@ -20,6 +20,14 @@ protondb_total: 29
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 5845
+gog_rating_value: 4.2
+gog_rating_count: 494
 
 # Game Info
 publisher: Thunderful
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"25","name":"Space"},{"id":"107","name":"Family Friendly"},{"id":"165","name":"Colorful"},{"id":"259","name":"Metroidvania"},{"id":"138","name":"Relaxing"},{"id":"305","name":"Linear"},{"id":"59643","name":"Протагонистка"},{"id":"774","name":"nature"},{"id":"583","name":"Narrative"}]
 size: "6268 MB"
+install_size: ""
+achievements_total: 17
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-gunk"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d7121af139cee2a62515be3c42c19d78ae5f834b72c
 icon_image: "https://images.gog.com/d0be8e9ccef5ce81c0360a78cb8b9759ed17fc08c383695c4535b8594bd93b9b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

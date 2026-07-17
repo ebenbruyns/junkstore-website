@@ -20,6 +20,14 @@ protondb_total: 205
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 52664
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: The Irregular Corporation
@@ -28,17 +36,19 @@ genre: Indie, Simulation
 franchise: PC Building Simulator
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "January 29, 2019"
+release_date: "October 7, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Spain","Korean","Polish"]
 languages_audio: []
-tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1263","name":"Indie"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "20715 MB"
+install_size: "20715 MB"
+achievements_total: 52
 franchise_siblings: [{"rawg_id":857635,"slug":"pc-building-simulator-2","name":"PC Building Simulator 2"}]
 franchise_slug: "pc-building-simulator|pc-building-simulator-2"
 igdb_url: "https://www.igdb.com/games/pc-building-simulator"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e43631f27c961ebf80","id":"7bfbb022d2fa4d67a4844631ecd5c027","namespace":"8f5f5eff22f3468fa5551771406fc868","startDate":"2021-10-06T15:00:00.000Z","endDate":"2021-10-13T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-10-06","end":"2021-10-13"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/792c1d0f32c6384afffa77f0f3ecc49fa5d0b471509
 icon_image: "https://images.gog.com/2e409be5ec749dc36b0ef9cd77832e75d3c43c237e5f8175194f80a88a12e027.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

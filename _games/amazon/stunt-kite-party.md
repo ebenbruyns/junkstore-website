@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 67
+steam_review_total: 24
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: HandyGames
@@ -33,12 +41,14 @@ game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"198","name":"Split Screen"},{"id":"72","name":"Local Multiplayer"},{"id":"11669","name":"stats"},{"id":"625","name":"party"}]
-size: ""
+size: "1864 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/stunt-kite-party"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/013017cf46f228ab34a601c7d20612493d34cd180ab
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/960240/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 42
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Unsupported graphics performance"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 7071
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: PLAION
@@ -28,17 +36,19 @@ genre: Simulation, Narration, RPG
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"kgrb":{"rating":"19"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Temas sensíveis, Linguagem imprópria"}}
-release_date: "July 17, 2024"
+release_date: "February 12, 2026"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
 size: "25387 MB"
+install_size: "27038 MB"
+achievements_total: 26
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/nobody-wants-to-die"
 was_free_before: true
-giveaway_events: [{"_id":"6984bec2b2ad37766d5336d8","id":"9da459f7c3984877bd5a12bdc3b6b3af","namespace":"60b8d9b4c2be4e34aeec311c953c2ee2","startDate":"2026-02-12T16:00:00.000Z","endDate":"2026-02-19T16:00:00.000Z","title":"Nobody Wants to Die","__v":0}]
+giveaway_events: [{"start":"2026-02-12","end":"2026-02-19"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1939970/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1939970/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

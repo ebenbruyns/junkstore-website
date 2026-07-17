@@ -20,25 +20,35 @@ protondb_total: 209
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 66434
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: "505 Games, All In! Games"
 developer: 3D Realms, One More Level, Slipgate Ironworks
 genre: Action, Shooter
 franchise: Ghostrunner
-age_rating_summary: M (ESRB) · 16 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"16","descriptors":"Strong Violence"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Strong Themes"},"kgrb":{"rating":"18","descriptors":"Violence, Language"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "October 27, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Korean","Traditional Chinese","Spanish - Spain","Ukrainian"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1132","name":"SCI-FI"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1132","name":"SCI-FI"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "19191 MB"
+install_size: "34935 MB"
+achievements_total: 34
 franchise_siblings: [{"rawg_id":677165,"slug":"ghostrunner-2","name":"Ghostrunner 2"}]
 franchise_slug: "ghostrunner|ghostrunner-2"
 igdb_url: "https://www.igdb.com/games/ghostrunner"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cb3631f27c961eb8b6","id":"19b650f9a98a45b0bfe07674b51fa7a0","namespace":"95d0b9561be1464cb43bd029e94cf526","startDate":"2024-04-10T15:00:00.000Z","endDate":"2024-04-17T15:00:00.000Z","__v":0},{"_id":"66abf1cd3631f27c961eb973","id":"19b650f9a98a45b0bfe07674b51fa7a0","namespace":"95d0b9561be1464cb43bd029e94cf526","startDate":"2023-12-30T15:00:00.000Z","endDate":"2023-12-31T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-10-01"},{"start":"2023-12-30","end":"2023-12-31"},{"start":"2024-04-10","end":"2024-04-17"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c22ac0283f670cbb8ba887ae220f0dc8df9356a91aa
 icon_image: "https://images.gog.com/28e94b1ca9af63c08c0d68b0241ec13cd9ea9f1dcd9b3b0acbf5ab5eee48a4b5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

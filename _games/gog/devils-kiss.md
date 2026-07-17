@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 104
+gog_rating_value: 3.3
+gog_rating_count: 20
 
 # Game Info
 publisher: Size Five Games
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40845","name":"Partial Controller Support"},{"id":"90","name":"Visual Novel"},{"id":"148","name":"Dark Humor"},{"id":"187","name":"Demons"},{"id":"744","name":"friends"},{"id":"291","name":"Conspiracy"},{"id":"712","name":"school"}]
 size: "93 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/devils-kiss"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/99a61085d763df1ba9db7b627f1d5cf52602c9d78a1
 icon_image: "https://images.gog.com/02bc70d55bbfcd575d36d58358dc5ff64ad6884c82ab54c0865f51c3812a2f7b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/141766"
 store_url: "https://www.gog.com/en/game/devils_kiss"
 protondb_url: "https://www.protondb.com/app/1213550"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Devil%27s_Kiss"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Devil's_Kiss"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/devils-kiss/"
 

@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Moving Pieces Interactive
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1198","name":"Retro"},{"id":"1151","name":"Platformer"}]
-size: ""
+size: "835 MB"
+install_size: "934 MB"
+achievements_total: 17
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/dodo-peak"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d13631f27c961eba86","id":"97576d7026ab4e4181fdf9b8711a95d9","namespace":"cea01263911a4e179a5e3892ef710930","startDate":"2023-08-16T15:00:00.000Z","endDate":"2023-08-23T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-08-16","end":"2023-08-23"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/31558c539aff9c9ad4d5e895cf2fced52f521b2e1fd
 icon_image: "https://images.gog.com/d0493aaa8cc36e77ef303703f8b8239acea71e698ce35e94ae891d755a605778.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

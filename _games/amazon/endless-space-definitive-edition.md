@@ -20,6 +20,14 @@ protondb_total: 74
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 9595
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Sega
@@ -33,12 +41,14 @@ game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Polish","Italian","Russian","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"25","name":"Space"},{"id":"102","name":"Turn-Based"},{"id":"5","name":"Replay Value"},{"id":"167","name":"Futuristic"},{"id":"172","name":"Aliens"},{"id":"101","name":"Turn-Based Strategy"},{"id":"100","name":"Grand Strategy"},{"id":"212","name":"4X"},{"id":"211","name":"Diplomacy"}]
-size: ""
+size: "2951 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "dungeon-of-the-endless|endless-dungeons|endless-legend|endless-space|endless-space-2"
 igdb_url: "https://www.igdb.com/games/endless-space"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e0e47b38f25c947cd02f0333123fbefbc46181437bf
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/208140/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

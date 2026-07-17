@@ -20,20 +20,30 @@ protondb_total: 46
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 34249
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Devolver Digital
 developer: Phobia Game Studio
 genre: Action, Horror, Indie
 franchise: CARRION
-age_rating_summary: 16 (USK)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"usk":{"rating":"16"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Violência, Medo"}}
-release_date: "July 23, 2020"
+release_date: "October 29, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","German","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1218","name":"Horror"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
 size: "123 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/carrion"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e12d536cbf288029907700aca837002f41e3db35015
 icon_image: "https://images.gog.com/365bdb3364b3e18189ac2527f3f254b48514d644eeeede8628099be04117a288.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

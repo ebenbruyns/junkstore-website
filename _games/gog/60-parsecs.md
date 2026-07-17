@@ -20,6 +20,14 @@ protondb_total: 20
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 4078
+gog_rating_value: 3.6
+gog_rating_count: 27
 
 # Game Info
 publisher: Robot Gentleman
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: []
 size: "831 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":349109,"slug":"60-seconds-reatomized","name":"60 Seconds! Reatomized"}]
 franchise_slug: "60-parsecs|60-seconds-reatomized"
 igdb_url: "https://www.igdb.com/games/60-parsecs"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/646270/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/646270/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

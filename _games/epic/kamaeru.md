@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 327
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Armor Games Studios
@@ -28,17 +36,19 @@ genre: Indie, Casual, Simulation
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "June 8, 2024"
+release_date: "December 4, 2024"
 game_modes: ["Single player"]
 languages: ["English","French","German","Japanese","Spanish - Spain","Simplified Chinese","Portuguese - Brazil","Korean"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1263","name":"Indie"},{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "363 MB"
+install_size: "445 MB"
+achievements_total: 28
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/kamaeru-a-frog-refuge"
 was_free_before: true
-giveaway_events: [{"_id":"689defa26697186cd4b34545","id":"4cbb6c3704d240f19c3dd5f5cb2b0cb4","namespace":"a1fb482c4c6c4dcd855a1cbef1ad79d1","startDate":"2025-08-21T15:00:00.000Z","endDate":"2025-08-28T15:00:00.000Z","title":"Kamaeru","__v":0}]
+giveaway_events: [{"start":"2025-08-21","end":"2025-08-28"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/19a50bf51b1bbd5dc88499ecc8c54b894dcbf51f1a8
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1978150/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false

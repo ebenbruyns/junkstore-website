@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 102
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Dolores Entertainment, MadGearGames
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"7808","name":"steam-trading-cards"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"49","name":"Difficult"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"224","name":"1980s"}]
-size: ""
+size: "136 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/a-hole-new-world"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4d0b809fad74449667370922dcdecc80bb2b811557f
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/434160/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

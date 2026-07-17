@@ -20,25 +20,35 @@ protondb_total: 23
 protondb_confidence: "good"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 827
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Uppercut Games
 developer: Uppercut Games
 genre: Action, Rogue-Lite, First Person
 franchise: 
-age_rating_summary: e10 (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Fantasy Violence"},"csrr":{"rating":"C12","descriptors":"Violence"}}
 release_date: "May 4, 2018"
 game_modes: ["Single player"]
 languages: ["English","French","German","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Turkish","Traditional Chinese","Spanish - Spain","Italian","Japanese","Korean"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "2564 MB"
+install_size: "4698 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/city-of-brass"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1df3631f27c961ebe3f","id":"ac2f9bdeb022454aab1ff77b59b2f3ed","namespace":"fa234e40c4d44dfa84fbcb302fef0233","startDate":"2022-03-30T15:00:00.000Z","endDate":"2022-04-06T15:00:00.000Z","__v":0},{"_id":"66abf1fd3631f27c961ec59b","id":"ac2f9bdeb022454aab1ff77b59b2f3ed","namespace":"fa234e40c4d44dfa84fbcb302fef0233","startDate":"2019-05-29T15:00:00.000Z","endDate":"2019-06-05T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2019-05-29","end":"2019-06-05"},{"start":"2022-03-30","end":"2022-04-06"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fa943a7584f7e21aea1935428cb40752001c6d49cea
 icon_image: "https://images.gog.com/f34976b874e63198fdfcf2f36b476568db061534b0a7842f49064684c03c25c9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

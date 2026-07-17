@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 57
+steam_review_total: 1539
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Saber Interactive Inc
@@ -32,13 +40,15 @@ release_date: "November 15, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil"]
-tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "63825 MB"
+install_size: "65293 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/dakar-desert-rally"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cc3631f27c961eb916","id":"aca45f8a6b124590af039f97e148bd89","namespace":"ac98aa34584648f2b71152e509191c1c","startDate":"2024-02-14T15:00:00.000Z","endDate":"2024-02-21T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-02-14","end":"2024-02-21"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c484090a7c055d9d38f2c1ce4cbb2e6a1c1f1aaf7c0
 icon_image: "https://images.gog.com/ce7196402932541a528fabb9d4c029a5a5411d469516212665a5a78b9cc8aa86.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

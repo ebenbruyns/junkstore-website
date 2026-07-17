@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 4.8
+gog_rating_count: 2148
 
 # Game Info
 publisher: Activision, Sierra Entertainment, Vivendi Universal
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: []
 size: "1441 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7457f1fbdce34c047a1f99f07723c6ee3d413c5ce17
 icon_image: "https://images.gog.com/17ab59811da3619889b9f01724f58d77909bbd94aa0534cc0d5424abbc3c097c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

@@ -20,25 +20,35 @@ protondb_total: 15
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 4489
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Akupara Games
 developer: Little Leo
 genre: Card Game, Adventure
 franchise: 
-age_rating_summary: 12 (USK)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"usk":{"rating":"12","descriptors":"Fantasy Violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "September 21, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Korean"]
 languages_audio: []
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1181","name":"Card Game"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1181","name":"Card Game"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "591 MB"
+install_size: "2232 MB"
+achievements_total: 80
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/astrea-six-sided-oracles"
 was_free_before: true
-giveaway_events: [{"_id":"67644b9984022ea9de151eb0","id":"7c14bf0cffdd43be968fdcf28e5af653","namespace":"a940fa38f001486a9884640924119576","startDate":"2024-12-20T16:00:00.000Z","endDate":"2024-12-21T16:00:00.000Z","title":"Astrea Six Sided Oracles","__v":0}]
+giveaway_events: [{"start":"2024-12-20","end":"2024-12-21"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/32e62ac12316689864046cd799dc449deff6ef60ba0
 icon_image: "https://images.gog.com/a53f7c4a099523b0403c253d9ae9db51531f6b7b547ad613fbcc11e8223fa727.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/121206"
 store_url: "https://store.epicgames.com/en-US/p/astrea-six-sided-oracles-33c949"
 protondb_url: "https://www.protondb.com/app/1755830"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Astrea%3A_Six-Sided_Oracles"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Astrea:_Six-Sided_Oracles"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/astrea-six-sided-oracles?ftag=MCD-06-10aaa1f"
 

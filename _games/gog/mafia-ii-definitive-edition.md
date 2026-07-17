@@ -20,6 +20,14 @@ protondb_total: 112
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 37857
+gog_rating_value: 4.3
+gog_rating_count: 1422
 
 # Game Info
 publisher: 2K
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","Engl
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"150","name":"Third-Person Shooter"},{"id":"44","name":"Nudity"},{"id":"50","name":"Sexual Content"},{"id":"144","name":"Crime"},{"id":"130","name":"Driving"},{"id":"289","name":"Noir"},{"id":"4458","name":"mafia"}]
 size: "36716 MB"
+install_size: ""
+achievements_total: 67
 franchise_siblings: [{"rawg_id":987515,"slug":"mafia-the-old-country","name":"Mafia: The Old Country"},{"rawg_id":442854,"slug":"mafia","name":"Mafia: Definitive Edition"},{"rawg_id":445430,"slug":"mafia-iii-definitive-edition","name":"Mafia III: Definitive Edition"},{"rawg_id":1169,"slug":"mafia-iii","name":"Mafia III"},{"rawg_id":1416,"slug":"mafia-ii","name":"Mafia II"},{"rawg_id":30899,"slug":"mafia-the-city-of-lost-heaven","name":"Mafia: The City of Lost Heaven"}]
 franchise_slug: "mafia|mafia-ii|mafia-ii-definitive-edition|mafia-iii|mafia-iii-definitive-edition|mafia-the-city-of-lost-heaven|mafia-the-old-country"
 igdb_url: "https://www.igdb.com/games/mafia-ii-definitive-edition"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-03-01"},{"start":"2026-05-07","end":"2026-06-10"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/05752d716fb822a15b0259f1555df73ce4a7f6a244e
 icon_image: "https://images.gog.com/0ca44670c29969c6af5eb72df14b1a21ccb8842e03bcb81bf58fdb00a8c9ebec.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/78142"
 store_url: "https://www.gog.com/en/game/mafia_ii_definitive_edition"
 protondb_url: "https://www.protondb.com/app/1030830"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mafia_II%3A_Definitive_Edition"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mafia_II:_Definitive_Edition"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/mafia-ii-definitive-edition/"
 

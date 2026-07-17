@@ -20,6 +20,14 @@ protondb_total: 158
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Interface text is legible"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 34283
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Eleon Game Studios SA
@@ -33,12 +41,14 @@ game_modes: ["Single-player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","German","French","Russian","Italian","Portuguese - Brazil","Simplified Chinese","Greek"]
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1121","name":"Space"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1183","name":"Local Multiplayer"}]
-size: ""
+size: "11250 MB"
+install_size: "16460 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/empyrion-galactic-survival"
 was_free_before: true
-giveaway_events: [{"_id":"67003d8b24bb30b2f60b34e1","id":"5d79a38c99e9432f8dec6288a17595ab","namespace":"edd938a6d7ec4a55ab82bba8f8dd5b22","startDate":"2024-10-10T15:00:00.000Z","endDate":"2024-10-17T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-10-10","end":"2024-10-17"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/677369d64ce5b0c6db59d1bd3295d927b517d7016e1
 icon_image: "https://images.gog.com/008e0f3a8a1403e524ab04d25d843dc9e3ce1fb04006a5b98c614af844dee228.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""
@@ -66,7 +79,7 @@ epic_cloud_saves: false
 must_be_online: false
 
 # Anti-Cheat
-requires_eac_runtime: false
+requires_eac_runtime: true
 requires_battleye_runtime: false
 cant_test_linux: false
 

@@ -20,6 +20,14 @@ protondb_total: 32
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 13650
+gog_rating_value: 4.1
+gog_rating_count: 1493
 
 # Game Info
 publisher: Harebrained Schemes
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"64","name":"Fantasy"},{"id":"189","name":"Female Protagonist"},{"id":"80","name":"Tactical"},{"id":"40838","name":"Includes level editor"},{"id":"62","name":"Moddable"},{"id":"102","name":"Turn-Based"},{"id":"99","name":"Isometric"},{"id":"101","name":"Turn-Based Strategy"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"96","name":"Kickstarter"},{"id":"238","name":"CRPG"},{"id":"59","name":"Crowdfunded"}]
 size: "899 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":43125,"slug":"shadowrun-hong-kong","name":"Shadowrun: Hong Kong"},{"rawg_id":42341,"slug":"shadowrun-returns-dragonfall","name":"Shadowrun Returns: Dragonfall"},{"rawg_id":28312,"slug":"shadowrun","name":"Shadowrun"},{"rawg_id":54308,"slug":"shadowrun-1996","name":"Shadowrun (1996)"},{"rawg_id":369068,"slug":"shadowrun-1994","name":"Shadowrun (1994)"},{"rawg_id":369069,"slug":"shadowrun-1993","name":"Shadowrun (1993)"}]
 franchise_slug: "shadowrun|shadowrun-1993|shadowrun-1994|shadowrun-1996|shadowrun-hong-kong|shadowrun-returns|shadowrun-returns-dragonfall"
 igdb_url: "https://www.igdb.com/games/shadowrun-returns"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/610fa3ecab0ad535accb3d06664ccaf62b04288fd7d
 icon_image: "https://images.gog.com/a8d87e8dbf96ca22e520a83aa8cd6c1d2006dc8d00de15dbacfca4afe0db1f67.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 889
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 426502
+gog_rating_value: 4
+gog_rating_count: 1721
 
 # Game Info
 publisher: Bethesda Softworks
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","French","Ital
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese"]
 tags_structured: []
 size: "32974 MB"
+install_size: ""
+achievements_total: 84
 franchise_siblings: [{"rawg_id":1015797,"slug":"fallout-4-creations-bundle","name":"Fallout 4 - Creations Bundle"},{"rawg_id":1000841,"slug":"fallout-4-next-gen","name":"Fallout 4: Next-Gen"},{"rawg_id":732504,"slug":"fallout-shelter-online","name":"Fallout Shelter Online"},{"rawg_id":58585,"slug":"fallout-76","name":"Fallout 76"},{"rawg_id":559,"slug":"fallout-shelter","name":"Fallout Shelter"},{"rawg_id":5563,"slug":"fallout-new-vegas","name":"Fallout: New Vegas"},{"rawg_id":5562,"slug":"fallout-3","name":"Fallout 3"},{"rawg_id":402492,"slug":"fallout-brotherhood-of-steel","name":"Fallout: Brotherhood of Steel"},{"rawg_id":19284,"slug":"fallout-tactics-brotherhood-of-steel","name":"Fallout Tactics: Brotherhood of Steel"},{"rawg_id":19299,"slug":"fallout-2-a-post-nuclear-role-playing-game","name":"Fallout 2"},{"rawg_id":13554,"slug":"fallout-a-post-nuclear-role-playing-game","name":"Fallout"},{"rawg_id":979041,"slug":"capital-wasteland","name":"Capital Wasteland"}]
 franchise_slug: "capital-wasteland|fallout-2-a-post-nuclear-role-|fallout-3|fallout-4|fallout-4-creations-bundle|fallout-4-next-gen|fallout-76|fallout-a-post-nuclear-role-pl|fallout-brotherhood-of-steel|fallout-new-vegas|fallout-shelter|fallout-shelter-online|fallout-tactics-brotherhood-of"
 igdb_url: "https://www.igdb.com/games/fallout-4"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/377160/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/377160/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

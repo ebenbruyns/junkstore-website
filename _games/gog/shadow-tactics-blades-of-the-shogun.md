@@ -20,6 +20,14 @@ protondb_total: 43
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 38334
+gog_rating_value: 4.7
+gog_rating_count: 1092
 
 # Game Info
 publisher: Daedalic Entertainment, Kalypso
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English","Japanese"]
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1120","name":"RTS"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "3958 MB"
+install_size: ""
+achievements_total: 44
 franchise_siblings: [{"rawg_id":598872,"slug":"shadow-tactics-blades-of-the-shogun-aikos-choice","name":"Shadow Tactics: Blades of the Shogun - Aiko's Choice"}]
 franchise_slug: "shadow-tactics|shadow-tactics-blades-of-the-s"
 igdb_url: "https://www.igdb.com/games/shadow-tactics-blades-of-the-shogun"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2019-12-27","end":"2019-12-28"},{"start":"2022-11-09","end":"2022-11-16"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/09efa51f1ca073ff78161875e5626804b4ffa354f4e
 icon_image: "https://images.gog.com/9fdc43f379fa9725b9aa8eb48001a549b0fa4aa6329269fd3706a6438ad4f183.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

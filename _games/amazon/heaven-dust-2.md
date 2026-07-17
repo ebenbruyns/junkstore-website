@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 848
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: indienova
@@ -34,11 +42,13 @@ languages: ["English","Simplified Chinese","Japanese","Traditional Chinese","Rus
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"150","name":"Third-Person Shooter"},{"id":"63","name":"Zombies"},{"id":"17","name":"Survival Horror"},{"id":"571","name":"3D"},{"id":"218","name":"Multiple Endings"},{"id":"48","name":"Dungeon Crawler"},{"id":"209","name":"Drama"},{"id":"147","name":"Resource Management"},{"id":"179","name":"Cartoon"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/heaven-dust-2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/672436cba1fdcf52f2bf30b127bf1063293d5933ec9
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1515900/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

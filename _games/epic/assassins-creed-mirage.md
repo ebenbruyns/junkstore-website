@@ -18,8 +18,16 @@ protondb_tier: "gold"
 protondb_score: 0.57
 protondb_total: 48
 protondb_confidence: "strong"
-steam_deck_verified: "playable"
-steam_deck_category: 2
+steam_deck_verified: "verified"
+steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 11909
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ubisoft
@@ -34,6 +42,8 @@ languages: ["English","Italian","German","Spanish - Spain","Arabic","Simplified 
 languages_audio: ["English","Italian","German","Spanish - Spain","Arabic","Japanese","Portuguese - Brazil","French"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":1017360,"slug":"assassins-creed-back-flag-resynced","name":"Assassin's Creed Back Flag Resynced"},{"rawg_id":981791,"slug":"assassins-creed-shadows","name":"Assassin's Creed Shadows"},{"rawg_id":974464,"slug":"assassins-creed-nexus-vr","name":"Assassin's Creed Nexus VR"},{"rawg_id":437059,"slug":"assassins-creed-valhalla","name":"Assassin's Creed Valhalla"},{"rawg_id":267229,"slug":"assassins-creed-rebellion","name":"Assassin's Creed: Rebellion"},{"rawg_id":58616,"slug":"assassins-creed-odyssey","name":"Assassin's Creed Odyssey"},{"rawg_id":57885,"slug":"assassins-creed-rogue-remastered-2","name":"Assassin’s Creed Rogue Remastered"},{"rawg_id":28153,"slug":"assassins-creed-origins","name":"Assassin's Creed Origins"},{"rawg_id":839,"slug":"assassins-creed-the-ezio-collection","name":"Assassin’s Creed The Ezio Collection"},{"rawg_id":330884,"slug":"assassins-creed-chronicles","name":"Assassin's Creed Chronicles"},{"rawg_id":42895,"slug":"assassins-creed-syndicate-2","name":"Assassin's Creed Syndicate"},{"rawg_id":8146,"slug":"assassins-creed-unity-2","name":"Assassin's Creed Unity"},{"rawg_id":17545,"slug":"assassins-creed-rogue-2","name":"Assassin’s Creed Rogue"},{"rawg_id":1873,"slug":"assassins-creed-pirates","name":"Assassin's Creed Pirates"},{"rawg_id":3801,"slug":"assassins-creed-liberation-hd","name":"Assassin’s Creed Liberation HD"},{"rawg_id":3841,"slug":"assassins-creed-iv-black-flag","name":"Assassin’s Creed IV: Black Flag"},{"rawg_id":4209,"slug":"assassins-creed-iii-liberation","name":"Assassin's Creed III: Liberation"},{"rawg_id":13305,"slug":"assassins-creed-iii-2","name":"Assassin’s Creed III"},{"rawg_id":4358,"slug":"assassins-creed-revelations","name":"Assassin's Creed Revelations"},{"rawg_id":10064,"slug":"assassins-creed-brotherhood-2","name":"Assassin’s Creed Brotherhood"},{"rawg_id":28568,"slug":"assassins-creed-ii","name":"Assassin's Creed II"},{"rawg_id":5160,"slug":"assassins-creed-bloodlines","name":"Assassin's Creed: Bloodlines"},{"rawg_id":4729,"slug":"assassins-creed","name":"Assassin's Creed"}]
 franchise_slug: "assassins-creed|assassins-creed-back-flag-resy|assassins-creed-bloodlines|assassins-creed-brotherhood-2|assassins-creed-chronicles|assassins-creed-ii|assassins-creed-iii-2|assassins-creed-iii-liberation|assassins-creed-iv-black-flag|assassins-creed-liberation-hd|assassins-creed-mirage|assassins-creed-nexus-vr|assassins-creed-odyssey|assassins-creed-origins|assassins-creed-pirates|assassins-creed-rebellion|assassins-creed-revelations|assassins-creed-rogue-2|assassins-creed-rogue-remaster|assassins-creed-shadows|assassins-creed-syndicate-2|assassins-creed-the-ezio-colle|assassins-creed-unity-2|assassins-creed-valhalla"
 igdb_url: "https://www.igdb.com/games/assassins-creed-mirage"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/11942b5d4b4e3b838312a9477b5037d3899eaf59c3a
 icon_image: "https://images.gog.com/11942b5d4b4e3b838312a9477b5037d3899eaf59c3a27a9e13c868c97835f52b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: "ubisoft-connect"

@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 100
+steam_review_total: 11
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: bighandinsky
@@ -33,7 +41,9 @@ game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"11669","name":"stats"},{"id":"141","name":"Point & Click"},{"id":"167","name":"Futuristic"},{"id":"116","name":"2.5D"},{"id":"112","name":"Minimalist"},{"id":"317","name":"Time Travel"},{"id":"87","name":"Science"},{"id":"220","name":"Experimental"},{"id":"84","name":"Abstract"},{"id":"568","name":"Time Management"},{"id":"9536","name":"looping"}]
-size: ""
+size: "267 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/a-forgetful-loop"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d0c936ad9b6847c5589dd505e743c73daca5ac7ebb9
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1399540/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

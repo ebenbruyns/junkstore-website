@@ -20,6 +20,14 @@ protondb_total: 271
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 28472
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Sega Games
@@ -33,12 +41,14 @@ game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "200 MB"
+install_size: "214 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":608563,"slug":"sonic-colors-ultimate","name":"Sonic Colors: Ultimate"},{"rawg_id":58878,"slug":"team-sonic-racing","name":"Team Sonic Racing"},{"rawg_id":27943,"slug":"sonic-forces","name":"Sonic Forces"},{"rawg_id":27826,"slug":"sonic-boom-fire-ice","name":"Sonic Boom: Fire & Ice"},{"rawg_id":335954,"slug":"sonic-runners","name":"Sonic Runners"},{"rawg_id":27505,"slug":"sonic-boom-rise-of-lyric","name":"Sonic Boom: Rise of Lyric"},{"rawg_id":27504,"slug":"sonic-boom-shattered-crystal","name":"Sonic Boom: Shattered Crystal"},{"rawg_id":48110,"slug":"sonic-jump-fever","name":"Sonic Jump Fever"},{"rawg_id":14988,"slug":"sonic-lost-world","name":"Sonic Lost World"},{"rawg_id":1281,"slug":"sonic-dash","name":"Sonic Dash"},{"rawg_id":4176,"slug":"sonic-the-fighters","name":"Sonic the Fighters"},{"rawg_id":966,"slug":"sonic-all-stars-racing-transformed","name":"Sonic & All-Stars Racing Transformed"},{"rawg_id":14930,"slug":"sonic-the-hedgehog-4-episode-ii-2","name":"Sonic the Hedgehog 4 - Episode II"},{"rawg_id":1559,"slug":"sonic-cd","name":"Sonic CD"},{"rawg_id":4331,"slug":"sonic-generations","name":"Sonic Generations"},{"rawg_id":26563,"slug":"sonic-colors","name":"Sonic Colors"},{"rawg_id":28531,"slug":"sonic-free-riders","name":"SONIC FREE RIDERS"},{"rawg_id":14938,"slug":"sonic-the-hedgehog-4-episode-1","name":"Sonic the Hedgehog 4 - Episode I"},{"rawg_id":14982,"slug":"dr-robotniks-mean-bean-machine","name":"Dr. Robotnik’s Mean Bean Machine"},{"rawg_id":683,"slug":"sonic-sega-all-stars-racing","name":"Sonic & SEGA All-Stars Racing"},{"rawg_id":5279,"slug":"sonic-rivals-2","name":"Sonic Rivals 2"},{"rawg_id":5278,"slug":"sonic-rivals","name":"Sonic Rivals"},{"rawg_id":24628,"slug":"sonic-and-the-black-knight","name":"Sonic and the Black Knight"},{"rawg_id":3731,"slug":"sonic-unleashed","name":"Sonic Unleashed"},{"rawg_id":24716,"slug":"sonic-chronicles-the-dark-brotherhood","name":"Sonic Chronicles: The Dark Brotherhood"},{"rawg_id":884679,"slug":"sonic-jump-2-2","name":"Sonic Jump 2"},{"rawg_id":24800,"slug":"sonic-riders-zero-gravity","name":"Sonic Riders: Zero Gravity"},{"rawg_id":25214,"slug":"sonic-rush-adventure","name":"Sonic Rush Adventure"},{"rawg_id":25103,"slug":"sonic-and-the-secret-rings","name":"Sonic and the Secret Rings"},{"rawg_id":283965,"slug":"sonic-the-hedgehog-4","name":"Sonic The Hedgehog (2006)"},{"rawg_id":37615,"slug":"sonic-riders","name":"Sonic Riders"},{"rawg_id":24980,"slug":"sonic-rush","name":"Sonic Rush"},{"rawg_id":56198,"slug":"shadow-the-hedgehog","name":"Shadow the Hedgehog"},{"rawg_id":5915,"slug":"sonic-jump","name":"Sonic Jump"},{"rawg_id":53548,"slug":"sonic-advance-3","name":"Sonic Advance 3"},{"rawg_id":36189,"slug":"sonic-heroes","name":"Sonic Heroes"},{"rawg_id":53549,"slug":"sonic-battle","name":"Sonic Battle"},{"rawg_id":53550,"slug":"sonic-pinball-party","name":"Sonic Pinball Party"},{"rawg_id":53547,"slug":"sonic-advance-2","name":"Sonic Advance 2"},{"rawg_id":53546,"slug":"sonic-advance","name":"Sonic Advance"}]
 franchise_slug: "dr-robotniks-mean-bean-machine|shadow-the-hedgehog|sonic-advance|sonic-advance-2|sonic-advance-3|sonic-all-stars-racing-transfo|sonic-and-the-black-knight|sonic-and-the-secret-rings|sonic-battle|sonic-boom-fire-ice|sonic-boom-rise-of-lyric|sonic-boom-shattered-crystal|sonic-cd|sonic-chronicles-the-dark-brot|sonic-colors|sonic-colors-ultimate|sonic-dash|sonic-forces|sonic-free-riders|sonic-generations|sonic-heroes|sonic-jump|sonic-jump-2-2|sonic-jump-fever|sonic-lost-world|sonic-mania|sonic-pinball-party|sonic-riders|sonic-riders-zero-gravity|sonic-rivals|sonic-rivals-2|sonic-runners|sonic-rush|sonic-rush-adventure|sonic-sega-all-stars-racing|sonic-the-fighters|sonic-the-hedgehog-4|sonic-the-hedgehog-4-episode-1|sonic-the-hedgehog-4-episode-i|sonic-unleashed|team-sonic-racing"
 igdb_url: "https://www.igdb.com/games/sonic-mania"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e73631f27c961ec03f","id":"8d50972d297f448cb3718d6e8094327a","namespace":"45e7cf3c49054f2fb20b673d9b0ae69e","startDate":"2021-06-23T15:00:00.000Z","endDate":"2021-06-30T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-06-23","end":"2021-06-30"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/12c4c548279e50732b075b58e4e8dcb3b397a584ec2
 icon_image: "https://images.gog.com/aa778d9ec37a68882ff3a4dfc10e402a5badf5e4d95a69b12784a59b443b64bc.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

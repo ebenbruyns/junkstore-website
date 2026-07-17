@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 51
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: GrahamOfLegend
@@ -28,17 +36,19 @@ genre: Action, Space, Indie
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "August 4, 2023"
+release_date: "January 23, 2025"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1121","name":"Space"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
-size: ""
+size: "125 MB"
+install_size: ""
+achievements_total: 27
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/super-space-club"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-05-01","end":"2025-05-08"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/31649461f108ba54ae15fe41dab468641f087a3d692
 icon_image: "https://images.gog.com/42c910373effb6e483bf46ee3653c08802277e7377466e4b4ec98ab6534bf1d2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 19
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 1526
+gog_rating_value: 3.9
+gog_rating_count: 138
 
 # Game Info
 publisher: Team17
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","La
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"134","name":"Anime"},{"id":"68","name":"Hack and Slash"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"40937","name":"Steam Trading Cards"},{"id":"259","name":"Metroidvania"},{"id":"258","name":"Hand-drawn"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"49955","name":"Puzzle Platformer"}]
 size: "1141 MB"
+install_size: ""
+achievements_total: 24
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/greak-memories-of-azur"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fada2822ee7ab2f6808b0d4f3facd88d14220b100b3
 icon_image: "https://images.gog.com/21ed0b06ca3bf5e4ccc8efafa6f1a9079580c362ada4d226dc2e973d545ec94a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

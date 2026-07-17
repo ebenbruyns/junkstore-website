@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: COGNOSPHERE PTE. LTD.
@@ -33,7 +41,9 @@ game_modes: ["Online Multiplayer"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "202 MB"
+install_size: "428 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/119277"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b89bfab3457391749dde48eb6957d1b3e5ee08252ae
 icon_image: "https://images.gog.com/26e0bf394bdbc14bd4bed5cf719832c880b7c9f0de26aa4c822e351c1f25edb9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: "hoyoplay"

@@ -20,6 +20,14 @@ protondb_total: 76
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 24625
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ubisoft
@@ -27,13 +35,15 @@ developer: Ubisoft Ivory Tower
 genre: Action, Racing
 franchise: 
 age_rating_summary: 13 (ESRB)
-age_ratings: {"dejus":{"rating":"6"}}
+age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Violence, Lyrics"},"pegi":{"rating":"12","descriptors":"Language, Sex, In-game Purchases"},"usk":{"rating":"12","descriptors":"Angedeutete Gewalt, In-Game Käufe"},"cero":{"rating":"B","descriptors":"Crime"},"oflc":{"rating":"PG","descriptors":"Mild Themes, Coarse Language, Online Interactivity, In-Game Purchases"},"kgrb":{"rating":"ALL"},"fpb":{"rating":"7-9PG","descriptors":"Violence, Photo Pattern Sensitivity, Competitive Intensity"},"csrr":{"rating":"C12"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Compras on-line"}}
 release_date: "July 4, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Simplified Chinese","Traditional Chinese","Korean","Japanese","Polish","Portuguese - Brazil","Russian"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":29238,"slug":"the-crew-2","name":"The Crew 2"},{"rawg_id":3489,"slug":"the-crew","name":"The Crew"}]
 franchise_slug: "the-crew|the-crew-2|the-crew-motorfest"
 igdb_url: "https://www.igdb.com/games/the-crew-motorfest"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/176c7c4e8e6637bbe57004d673f0cafa7e6d29ae615
 icon_image: "https://images.gog.com/5760a3ee36c38f0ab73bcfe707121c11799c807ba2d0f2fd8a5ec24ec4bede5a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: ""
 community_layout: false
 required_launcher: ""

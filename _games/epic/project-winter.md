@@ -20,6 +20,14 @@ protondb_total: 49
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 19077
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Other Ocean Group
@@ -28,17 +36,19 @@ genre: Indie, Casual, Action-Adventure
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Medo"}}
-release_date: "May 23, 2019"
+release_date: "September 18, 2025"
 game_modes: ["Online Multiplayer"]
 languages: ["English","Simplified Chinese","Spanish - Latin America","French","Italian","German","Japanese","Korean","Russian","Portuguese - Brazil","Greek","Swedish","Turkish","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1296","name":"Casual"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"22776","name":"Cross Platform"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "2.25 GB"
+install_size: "2683 MB"
+achievements_total: 78
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/project-winter"
 was_free_before: true
-giveaway_events: [{"_id":"68c2dd626dcba42d2ee63fc7","id":"185405ac2556457883827885b44e0e69","namespace":"788e00e07a364c4ab1a42708b6ea6e17","startDate":"2025-09-18T15:00:00.000Z","endDate":"2025-09-25T15:00:00.000Z","title":"Project Winter","__v":0}]
+giveaway_events: [{"start":"2025-09-18","end":"2025-09-25"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/774861/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/774861/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,25 +20,35 @@ protondb_total: 24
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 2981
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Frontier Foundry
 developer: KeokeN Interactive
 genre: Action, Indie, Adventure
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Mild Blood"},"pegi":{"rating":"12","descriptors":"Bad Language, Horror"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "February 2, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Polish"]
 languages_audio: ["English","French","German","Japanese","Russian","Simplified Chinese"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "12004 MB"
+install_size: "12442 MB"
+achievements_total: 33
 franchise_siblings: [{"rawg_id":43608,"slug":"deliver-us-the-moon","name":"Deliver Us the Moon"}]
 franchise_slug: "deliver-us-mars|deliver-us-the-moon"
 igdb_url: "https://www.igdb.com/games/deliver-us-mars"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cf3631f27c961eb9f7","id":"34c8b5efd29f48209928d74752584426","namespace":"53ec6d9f552241549c4d8aa1a42bcb3b","startDate":"2023-11-22T15:00:00.000Z","endDate":"2023-11-29T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-11-22","end":"2023-11-29"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7fc38c0dbc7fb12adab6655c2537b636b60b09ab47a
 icon_image: "https://images.gog.com/94c22e5075a71d997cd6531228eeff63fe002d3906d4e6a0c3c5b5b99e644115.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

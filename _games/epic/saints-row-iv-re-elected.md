@@ -20,6 +20,14 @@ protondb_total: 80
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 77525
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Deep Silver
@@ -28,17 +36,19 @@ genre: Action, Adventure
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong violence, gaming experience may change online"},"nzoflc":{"rating":"r18"},"dejus":{"rating":"18","descriptors":"Sexo Explícito, Drogas ilícitas, Violência"}}
-release_date: "August 22, 2013"
+release_date: "December 8, 2022"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Italian","Spanish - Spain","Polish","Russian","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21126","name":"Silly Community"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "12698 MB"
+install_size: "12567 MB"
+achievements_total: 72
 franchise_siblings: [{"rawg_id":650607,"slug":"saints-row-2022","name":"Saints Row (2022)"},{"rawg_id":3450,"slug":"saints-row-gat-out-of-hell","name":"Saints Row: Gat Out of Hell"},{"rawg_id":4386,"slug":"saints-row-the-third","name":"Saints Row: The Third"},{"rawg_id":4599,"slug":"saints-row-2","name":"Saints Row 2"},{"rawg_id":28478,"slug":"saints-row","name":"Saints Row"}]
 franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-hell|saints-row-iv|saints-row-the-third"
 igdb_url: "https://www.igdb.com/games/saints-row-iv"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d83631f27c961ebc94","id":"23ea1157ec89467d99f9b0fdf0ddb89b","namespace":"151e56468b5049628653dedab7c88007","startDate":"2022-12-07T15:00:00.000Z","endDate":"2022-12-14T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-12-07","end":"2022-12-14"},{"start":"2025-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fb9d394b7b79fd45f0f50bb4c16a87b3a27569f074e
 icon_image: "https://images.gog.com/bdf040ac56592bdac9ba3c7cada4a75102a89a4b49d67b48e24e4049a371cf6d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Native resolution not supported"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 124
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Quinn K.
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","French"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"79","name":"Free to Play"},{"id":"122","name":"Pixel Graphics"},{"id":"121","name":"Character Customization"},{"id":"5","name":"Replay Value"},{"id":"66","name":"Medieval"},{"id":"101","name":"Turn-Based Strategy"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"98","name":"Loot"},{"id":"175","name":"Turn-Based Combat"},{"id":"112","name":"Minimalist"},{"id":"272","name":"Inventory Management"},{"id":"231","name":"Strategy RPG"},{"id":"14194","name":"deckbuilding"}]
-size: ""
+size: "138 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/an-outcry"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/aa920f53b851c948f1f33e4f9ae06e3d825a48e8b6c
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1817470/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

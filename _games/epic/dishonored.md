@@ -20,20 +20,30 @@ protondb_total: 566
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 98
+steam_review_total: 87139
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Bethesda Softworks
 developer: Arkane Studios
 genre: Action, Stealth, Adventure
 franchise: Dishonored -
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"bbfc":{"rating":"18"}}
-release_date: "October 10, 2012"
+release_date: "November 3, 2022"
 game_modes: ["Single player"]
 languages: ["English","German","French","Italian","Spanish - Spain"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "14719 MB"
+install_size: "59024 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":29173,"slug":"dishonored-death-of-the-outsider","name":"Dishonored: Death of the Outsider"},{"rawg_id":864,"slug":"dishonored-2","name":"Dishonored 2"}]
 franchise_slug: "dishonored|dishonored-2|dishonored-death-of-the-outsid"
 igdb_url: "https://www.igdb.com/games/11118"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ef2122f5d91abead1a42ddacb07ea57558f596bf627
 icon_image: "https://images.gog.com/39f4dfc1951e7beb36b71271b2b415fabd882a56645a01fe03eedadbc5e0c298.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

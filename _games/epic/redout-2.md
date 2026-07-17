@@ -20,6 +20,14 @@ protondb_total: 36
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 1458
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: 34BigThings SRL
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Portuguese - Portugal"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+size: "31605 MB"
+install_size: "32718 MB"
+achievements_total: 52
 franchise_siblings: [{"rawg_id":62408,"slug":"redout-space-assault","name":"Redout: Space Assault"},{"rawg_id":10993,"slug":"redout-enhanced-edition","name":"Redout: Lightspeed Edition"}]
 franchise_slug: "redout-2|redout-enhanced-edition|redout-space-assault"
 igdb_url: "https://www.igdb.com/games/redout-2"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1c93631f27c961eb841","id":"b77095c5a9224fbe8a7222db84675873","namespace":"05ae696a3c5f49af91a7433547460c21","startDate":"2024-06-12T15:00:00.000Z","endDate":"2024-06-19T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-06-12","end":"2024-06-19"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/408033ad9b2fabe7514bd8cc0ab74e73b111ca5804b
 icon_image: "https://images.gog.com/9a7941b98ae094bb3ad2bb2a02e6280ac0b618b866618cccf4c608288b37197f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

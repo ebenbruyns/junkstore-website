@@ -20,6 +20,14 @@ protondb_total: 22
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 67
+steam_review_total: 3441
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Raw Fury
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"468","name":"role-playing"},{"id":"141","name":"Point & Click"}]
 size: "2066 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":914784,"slug":"tails-the-backbone-preludes","name":"Tails Noir Preludes"},{"rawg_id":292080,"slug":"backbone-prologue","name":"Backbone: Prologue"}]
 franchise_slug: "backbone|backbone-prologue|tails-the-backbone-preludes"
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/10b9b5c000953048352b6293db22dce5739f4eaecdf
 icon_image: "https://images.gog.com/1a4eb70170f33b1447d071e9dca3ed092b7b22c003a304b5b3dcadbf09b96130.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -66,10 +79,10 @@ cant_test_linux: false
 native_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "4.5 Hours"
+hltb_main_extra: "5.5 Hours"
+hltb_completionist: "8 Hours"
+hltb_url: "https://howlongtobeat.com/game/62990"
 
 # Links
 store_url: "https://rawfury.itch.io/backbone"
@@ -80,10 +93,10 @@ metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/tails-noir/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "11508/tails-noir"
+opencritic_url: "https://opencritic.com/game/11508/tails-noir"
+opencritic_score: 71
+opencritic_review_count: 44
 twitch_id: ""
 twitch_url: ""
 playstation_id: ""

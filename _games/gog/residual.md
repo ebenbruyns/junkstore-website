@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 32
+gog_rating_value: 3.4
+gog_rating_count: 41
 
 # Game Info
 publisher: Orangepixel
@@ -34,11 +42,13 @@ languages: ["Danish","German","English","Spanish","French","Italian","Japanese",
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"5","name":"Replay Value"},{"id":"165","name":"Colorful"},{"id":"125","name":"Crafting"},{"id":"167","name":"Futuristic"},{"id":"172","name":"Aliens"},{"id":"640","name":"Roguelite"},{"id":"164","name":"Cartoony"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"49955","name":"Puzzle Platformer"},{"id":"49954","name":"Open World Survival Craft"}]
 size: "106 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/residual"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1290780/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1290780/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

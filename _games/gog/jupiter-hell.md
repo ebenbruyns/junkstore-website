@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 2095
+gog_rating_value: 4.4
+gog_rating_count: 194
 
 # Game Info
 publisher: ChaosForge
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"32","name":"Sci-fi"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"639","name":"Roguelike"}]
 size: "2046 MB"
+install_size: ""
+achievements_total: 26
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/jupiter-hell"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a67b2b4d70aeb0bbdbf10cebf2c73d80874611fec2f
 icon_image: "https://images.gog.com/80a5ec18f073e992bec86170a554b333f295ccaa95eebd40bbe9c370da3bd175.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -72,7 +85,7 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # Native Linux support (Steam appdetails — Mac intentionally not tracked)
-native_linux: false
+native_linux: true
 
 # HowLongToBeat
 hltb_main: "8 hrs"
@@ -89,10 +102,10 @@ metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/jupiter-hell/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "11783/jupiter-hell"
+opencritic_url: "https://opencritic.com/game/11783/jupiter-hell"
+opencritic_score: 79
+opencritic_review_count: 22
 twitch_id: ""
 twitch_url: ""
 playstation_id: ""

@@ -20,6 +20,14 @@ protondb_total: 19
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 3297
+gog_rating_value: 4.1
+gog_rating_count: 131
 
 # Game Info
 publisher: Dear Villagers
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","French"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"41","name":"Dark"},{"id":"63","name":"Zombies"},{"id":"468","name":"role-playing"},{"id":"40","name":"Dark Fantasy"},{"id":"48","name":"Dungeon Crawler"},{"id":"258","name":"Hand-drawn"},{"id":"175","name":"Turn-Based Combat"},{"id":"808","name":"character"},{"id":"187","name":"Demons"},{"id":"1529","name":"fight"},{"id":"1484","name":"skill"},{"id":"3046","name":"destroy"},{"id":"2232","name":"journey"},{"id":"1129","name":"art"},{"id":"1190","name":"hell"},{"id":"663","name":"Ghosts"},{"id":"1796","name":"dungeon"},{"id":"3768","name":"demon"},{"id":"4336","name":"invaders"},{"id":"4027","name":"travel"},{"id":"6404","name":"devil"},{"id":"5878","name":"invasion"}]
 size: "618 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/hellslave"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1608450/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1608450/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

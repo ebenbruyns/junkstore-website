@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 2564
+gog_rating_value: 4
+gog_rating_count: 158
 
 # Game Info
 publisher: Lonely Troops
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","Danish","Germ
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"141","name":"Point & Click"},{"id":"99","name":"Isometric"},{"id":"140","name":"Hidden Object"},{"id":"255","name":"Pirates"}]
 size: "272 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/hero-of-the-kingdom-ii"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/eb35e6032e2e2655e983624f953352f361e3c4d9fee
 icon_image: "https://images.gog.com/cbde47589a21581bca8ac9b0936f1794cb09b01e40879784b70d8f755a2f501d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

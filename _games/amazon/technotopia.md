@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 671
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Alawar
@@ -34,11 +42,13 @@ languages: ["English","Russian","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"145","name":"Choices Matter"},{"id":"571","name":"3D"},{"id":"167","name":"Futuristic"},{"id":"39","name":"Building"},{"id":"226","name":"Cyberpunk"},{"id":"61","name":"Top-Down"},{"id":"119","name":"Dystopian"},{"id":"67","name":"Management"},{"id":"213","name":"City Builder"},{"id":"2030","name":"city"},{"id":"127","name":"Card Game"},{"id":"91686","name":"Family Sharing"},{"id":"211","name":"Diplomacy"},{"id":"219","name":"Politics"},{"id":"214","name":"God Game"},{"id":"2889","name":"balance"},{"id":"575","name":"Logic"},{"id":"14194","name":"deckbuilding"},{"id":"49952","name":"Political Sim"},{"id":"3584","name":"characters"}]
 size: "201 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/technotopia"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-01-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2825110/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2825110/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

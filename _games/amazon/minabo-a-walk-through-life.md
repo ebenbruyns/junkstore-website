@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 99
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Selecta Play
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Portugal","Russian","Simplified Chinese","Catalan","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"1","name":"Survival"},{"id":"11669","name":"stats"},{"id":"121","name":"Character Customization"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"218","name":"Multiple Endings"},{"id":"138","name":"Relaxing"},{"id":"258","name":"Hand-drawn"},{"id":"196","name":"Procedural Generation"},{"id":"164","name":"Cartoony"},{"id":"217","name":"Romance"},{"id":"42473","name":"Immersive Sim"},{"id":"774","name":"nature"},{"id":"309","name":"Dynamic Narration"},{"id":"43374","name":"Remote Play on TV"},{"id":"49960","name":"Life Sim"},{"id":"159","name":"Agriculture"},{"id":"66536","name":"Романтика"}]
-size: ""
+size: "539 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/minabo-a-walk-through-life"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a8e5b61c4aab49f55852b83ba01252704533bdd8152
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1822560/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

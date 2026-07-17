@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 717
+gog_rating_value: 3.9
+gog_rating_count: 14
 
 # Game Info
 publisher: Assemble Entertainment
@@ -34,6 +42,8 @@ languages: ["German","English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"115","name":"Controller"},{"id":"41","name":"Dark"},{"id":"88","name":"Cute"},{"id":"145","name":"Choices Matter"},{"id":"165","name":"Colorful"},{"id":"406","name":"Story"},{"id":"40937","name":"Steam Trading Cards"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"209","name":"Drama"},{"id":"258","name":"Hand-drawn"},{"id":"164","name":"Cartoony"},{"id":"200","name":"Narration"},{"id":"572","name":"Emotional"},{"id":"288","name":"Interactive Fiction"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"1709","name":"work"},{"id":"1484","name":"skill"},{"id":"1863","name":"challenge"},{"id":"342","name":"Conversation"},{"id":"3758","name":"speed"},{"id":"8234","name":"fall"},{"id":"2006","name":"castle"},{"id":"688","name":"relationship"},{"id":"1303","name":"Shadows"},{"id":"1699","name":"town"},{"id":"1580","name":"hospital"},{"id":"6829","name":"clock"},{"id":"1981","name":"beer"},{"id":"2360","name":"stress"},{"id":"3420","name":"doctor"}]
 size: "1141 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/fall-of-porcupine"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/80f132783b0e223657bb24294559fb9cc005ad4739f
 icon_image: "https://images.gog.com/7463a767fea5fcd33ffbf1bd7eadd841c43834925a348d75a850c3709b3ef571.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

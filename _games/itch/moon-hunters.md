@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 5212
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Kitfox Games
@@ -34,6 +42,8 @@ languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil",
 languages_audio: ["English","French"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"468","name":"role-playing"},{"id":"40833","name":"Captions available"},{"id":"639","name":"Roguelike"},{"id":"337","name":"overlay"},{"id":"334","name":"achievements"},{"id":"96","name":"Kickstarter"},{"id":"182","name":"4 Player Local"},{"id":"625","name":"party"},{"id":"108","name":"Mythology"}]
 size: "600 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/moon-hunters--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5b1d52a02c54221ca3c4393d647cbc9a5259bf16f1b
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/320040/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Vault Games
@@ -32,8 +40,10 @@ release_date: "September 4, 2025"
 game_modes: ["Single player"]
 languages: ["English","Turkish","Welsh","Vietnamese","Ukrainian","Swedish","Spanish (Latin America)","Slovak","Russian","Romanian","Portuguese (Brazil)","Portuguese","Polish","Serbian","Spanish (Spain)","Tagalog","Thai","Malay","Lithuanian","Korean","Japanese","Italian","Indonesian","Hungarian","Hindi","Hebrew","Greek","German","French","Finnish","Dutch","Croatian","Chinese (Traditional)","Chinese (Simplified)","Catalan","Arabic","Bulgarian","Danish","Czech","Norwegian"]
 languages_audio: []
-tags_structured: [{"id":"1296","name":"Casual"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
 size: ""
+install_size: ""
+achievements_total: 5
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/398292"
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/7ceb18d65aee4c36b5be5c745921
 icon_image: "https://images.gog.com/38439e0e37b44d4073955e385ceb71c36ee45f563df0ab1566aefb2c2f0fc366.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

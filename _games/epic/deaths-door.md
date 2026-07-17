@@ -20,20 +20,30 @@ protondb_total: 107
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 21671
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Devolver Digital
 developer: Acid Nerve
 genre: Action, RPG, Adventure
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Language, Use of Alcohol and Tobacco, Fantasy Violence"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"kgrb":{"rating":"12","descriptors":"violence, alcohol/tobacco/drugs"},"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "July 20, 2021"
+release_date: "July 22, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "1025 MB"
+install_size: "3179 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/deaths-door"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9e1136e1b407d373793043c530b79c28d7556b0b471
 icon_image: "https://images.gog.com/0e5acb2fc96024bc71ff860e81e4a8f7d999514242d8371cd840c56c7976947d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/90590"
 store_url: "https://store.epicgames.com/en-US/p/deaths-door"
 protondb_url: "https://www.protondb.com/app/894020"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death%27s_Door"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death's_Door"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/deaths-door/"
 

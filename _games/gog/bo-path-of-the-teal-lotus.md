@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 1684
+gog_rating_value: 4.5
+gog_rating_count: 191
 
 # Game Info
 publisher: Humble Games
@@ -33,7 +41,9 @@ game_modes: ["Single-player"]
 languages: ["Chinese Simplified","German","English","Latin American Spanish","French","Japanese","Korean","Ukrainian","Chinese Traditional"]
 languages_audio: []
 tags_structured: []
-size: ""
+size: "1206 MB"
+install_size: ""
+achievements_total: 41
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/bo-path-of-the-teal-lotus"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1614440/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1614440/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/111259"
 store_url: "https://www.gog.com/en/game/bo_path_of_the_teal_lotus"
 protondb_url: "https://www.protondb.com/app/1614440"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/B%C5%8D:_Path_of_the_Teal_Lotus"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bō:_Path_of_the_Teal_Lotus"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/bo-path-of-the-teal-lotus/"
 

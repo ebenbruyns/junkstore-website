@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 67
+steam_review_total: 353
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Dear Villagers
@@ -28,13 +36,15 @@ genre: RPG, Indie
 franchise: Vampire
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Medo"}}
-release_date: "September 10, 2024"
+release_date: "October 23, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French"]
 languages_audio: []
-tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
 size: "611045194
 "
+install_size: "721 MB"
+achievements_total: 24
 franchise_siblings: []
 franchise_slug: "bloodhunt|vampire-the-masquerade-bloodli|vampire-the-masquerade-bloodli|vampire-the-masquerade-coterie|vampire-the-masquerade-redempt|vampire-the-masquerade-shadows|vampire-the-masquerade-swanson"
 igdb_url: "https://www.igdb.com/games/vampire-the-masquerade-reckoning-of-new-york"
@@ -48,6 +58,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2658720/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2658720/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

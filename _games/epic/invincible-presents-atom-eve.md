@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 584
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Skybound Games
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-size: ""
+size: "2268 MB"
+install_size: "3051 MB"
+achievements_total: 35
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/invincible-presents-atom-eve"
 was_free_before: true
-giveaway_events: [{"_id":"6707e8e5fba102383060a403","id":"d8abd7984d034e21acafbce5ba0cca9b","namespace":"b79b8b81ba8c4bf9b4b1154670237131","startDate":"2024-10-17T15:00:00.000Z","endDate":"2024-10-24T15:00:00.000Z","__v":0},{"_id":"66abf1cb3631f27c961eb8d6","id":"d8abd7984d034e21acafbce5ba0cca9b","namespace":"b79b8b81ba8c4bf9b4b1154670237131","startDate":"2024-03-20T15:00:00.000Z","endDate":"2024-03-27T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-03-20","end":"2024-03-27"},{"start":"2024-10-17","end":"2024-10-24"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ca10a8aa3d9ceae42253d2d78fa11209beda9b27737
 icon_image: "https://images.gog.com/e08f26cd043c9379934090ca7baad0dee88a521e5b18055e055ca01de9267faf.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/132002"
 store_url: "https://store.epicgames.com/en-US/p/atom-eve-ff090d"
 protondb_url: "https://www.protondb.com/app/2060870"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Invincible_Presents%3A_Atom_Eve"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Invincible_Presents:_Atom_Eve"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/invincible-presents-atom-eve/"
 

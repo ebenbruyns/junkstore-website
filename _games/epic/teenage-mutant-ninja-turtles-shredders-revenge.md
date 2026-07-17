@@ -20,6 +20,14 @@ protondb_total: 55
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 14700
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Dotemu
@@ -28,17 +36,19 @@ genre: Action
 franchise: Teenage Mutant Ninja Turtles
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "June 16, 2022"
+release_date: "July 2, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Traditional Chinese","Korean","Japanese","Portuguese - Brazil"]
 languages_audio: ["English","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
-size: ""
+size: "822 MB"
+install_size: "1133 MB"
+achievements_total: 30
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/teenage-mutant-ninja-turtles-shredders-revenge"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-07-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/03b2592487e1cbea20277350e9a75f514af9d771138
 icon_image: "https://images.gog.com/f7324150d8a713a4d370c83461a89669c4928dcc2bb8ec77c0b6cd726e64146b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/89573"
 store_url: "https://store.epicgames.com/en-US/p/teenage-mutant-ninja-turtles-shredders-revenge"
 protondb_url: "https://www.protondb.com/app/1361510"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Teenage_Mutant_Ninja_Turtles%3A_Shredder%27s_Revenge"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Teenage_Mutant_Ninja_Turtles:_Shredder's_Revenge"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/teenage-mutant-ninja-turtles-shredders-revenge/"
 

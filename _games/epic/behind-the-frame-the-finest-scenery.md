@@ -20,6 +20,14 @@ protondb_total: 20
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 7628
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Akupara Games, Akatsuki Taiwan
@@ -32,13 +40,15 @@ release_date: "August 25, 2021"
 game_modes: ["Single player"]
 languages: ["English","Traditional Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"21151","name":"Easy Puzzles"}]
-size: ""
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"21151","name":"Easy Puzzles"}]
+size: "2313 MB"
+install_size: "2313 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/behind-the-frame-the-finest-scenery"
 was_free_before: true
-giveaway_events: [{"_id":"6789276254615f7148dd83d6","id":"ade0eed6f17a412b97d29a992b35754c","namespace":"5fb8093984924ff5bfad61ae28730818","startDate":"2025-01-23T16:00:00.000Z","endDate":"2025-01-30T16:00:00.000Z","title":"Behind the Frame: The Finest Scenery","__v":0}]
+giveaway_events: [{"start":"2023-11-01"},{"start":"2025-01-23","end":"2025-01-30"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/dbcf6f5fad7ca70025900f562ca2f51f88f9e7f3000
 icon_image: "https://images.gog.com/a3ab314cc9e311017e4ef1d56247a05cba74fea08b587f9b5ea669a5c149a410.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/93531"
 store_url: "https://store.epicgames.com/en-US/p/behind-the-frame-the-finest-scenery"
 protondb_url: "https://www.protondb.com/app/1634150"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Behind_the_Frame%3A_The_Finest_Scenery"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Behind_the_Frame:_The_Finest_Scenery"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/behind-the-frame-the-finest-scenery/"
 

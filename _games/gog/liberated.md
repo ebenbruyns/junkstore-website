@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 865
+gog_rating_value: 3.5
+gog_rating_count: 95
 
 # Game Info
 publisher: Walkabout Games
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"41","name":"Dark"},{"id":"167","name":"Futuristic"},{"id":"119","name":"Dystopian"},{"id":"90","name":"Visual Novel"},{"id":"209","name":"Drama"},{"id":"258","name":"Hand-drawn"},{"id":"200","name":"Narration"},{"id":"268","name":"Comic Book"},{"id":"289","name":"Noir"},{"id":"227","name":"Hacking"},{"id":"228","name":"Programming"}]
 size: "1421 MB"
+install_size: ""
+achievements_total: 18
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/liberated"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2021-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/29bf54b3ad1d0af097f6dc531d543df1e9d4232baa0
 icon_image: "https://images.gog.com/f40ff0211e465aaf814aff67b3fd040b56281f866f4846b5ec6ddb1e9717770f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 27
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 68
+steam_review_total: 11559
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Playstack
@@ -34,6 +42,8 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"40","name":"Dark Fantasy"},{"id":"580","name":"Souls-like"}]
 size: "8673 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "mortal-shell|mortal-shell-tech-beta"
 igdb_url: "https://www.igdb.com/games/mortal-shell"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c5ba8aca686f0e168bb35a3bad3a2b1b48a4051421a
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1110910/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

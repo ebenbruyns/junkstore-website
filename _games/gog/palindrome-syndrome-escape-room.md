@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 546
+gog_rating_value: 3.6
+gog_rating_count: 77
 
 # Game Info
 publisher: mc2games
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["Portuguese (Brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Korean","Portuguese","Russian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"62","name":"Family Sharing"}]
-size: ""
+size: "722 MB"
+install_size: ""
+achievements_total: 6
 franchise_siblings: []
 franchise_slug: "60-minutes-to-extinction-escape-room|palindrome-syndrome-escape-room|tested-on-humans-escape-room"
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-05-21","end":"2026-06-21"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/35c0ed4bdaa82c98b10416069e58e9f9aa4f0346816
 icon_image: "https://images.gog.com/5f9289c62e12a2e5dd3cad3cd15d823a71f93da9dd396937a5f90e6d0731135f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

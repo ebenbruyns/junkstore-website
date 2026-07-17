@@ -20,6 +20,14 @@ protondb_total: 15
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 7634
+gog_rating_value: 4.2
+gog_rating_count: 46
 
 # Game Info
 publisher: Maple Whispering Limited, Humble Games
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"18","name":"Co-op"},{"id":"45","name":"2D"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"122","name":"Pixel Graphics"},{"id":"72","name":"Local Multiplayer"},{"id":"40852","name":"Steam Workshop"},{"id":"468","name":"role-playing"},{"id":"639","name":"Roguelike"},{"id":"127","name":"Card Game"},{"id":"1317","name":"Deck Building"}]
 size: "416 MB"
+install_size: ""
+achievements_total: 35
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/one-step-from-eden"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f96d1be5773b06c3ad781e897abae9876d3932ec557
 icon_image: "https://images.gog.com/82de9589e41de7d8b3552cdfc31def22151728472e8b2d42847cc041fc954d43.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 3325
+gog_rating_value: 3.9
+gog_rating_count: 247
 
 # Game Info
 publisher: CremaGames
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: []
 size: "1761 MB"
+install_size: ""
+achievements_total: 44
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/immortal-redneck"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/40c75a874f282a9c6625256a1939f66b0e43fe5a0f1
 icon_image: "https://images.gog.com/982665b023691515b60115bc8acf0d04e18747586ba2336ba3d18a2ee88bfdaf.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

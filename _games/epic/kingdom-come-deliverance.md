@@ -20,26 +20,36 @@ protondb_total: 548
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 183429
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Deep Silver
 developer: Warhorse Studios
 genre: Action, RPG, Open World, Adventure
 franchise: Kingdom Come
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Nudity, Strong Language, Strong Sexual Content, Use of Alcohol"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"16"},"oflc":{"rating":"r18","descriptors":"High impact sex scenes and reference to sexual violence"},"nzoflc":{"rating":"r18","descriptors":"High impact sex scenes and reference to sexual violence"},"kgrb":{"rating":"18"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Nudez"}}
-release_date: "February 13, 2018"
+release_date: "February 13, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Czech","Polish","Russian","Italian","Simplified Chinese","Turkish","Korean","Ukrainian","Portuguese - Brazil","Japanese"]
 languages_audio: ["English","French","German","Czech","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21135","name":"Realistic Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"}]
 size: "60660732590
 "
+install_size: "61257 MB"
+achievements_total: 82
 franchise_siblings: [{"rawg_id":980502,"slug":"kingdom-come-deliverance-ii","name":"Kingdom Come: Deliverance II"},{"rawg_id":926852,"slug":"kingdom-come-deliverance-goodie-pack","name":"Kingdom Come: Deliverance - Royal Edition"}]
 franchise_slug: "kingdom-come-deliverance|kingdom-come-deliverance-goodi|kingdom-come-deliverance-ii"
 igdb_url: "https://www.igdb.com/games/kingdom-come-deliverance"
 was_free_before: true
-giveaway_events: [{"_id":"67740d09be7708a1a46d8a6a","id":"bd15ffd61c1744a295de36c164694e40","namespace":"ca4058f18b0a4a9e9e2ccc28f7f33000","startDate":"2025-01-01T16:00:00.000Z","endDate":"2025-01-02T16:00:00.000Z","title":"Kingdom Come: Deliverance","__v":0},{"_id":"66abf1f53631f27c961ec3d5","id":"bd15ffd61c1744a295de36c164694e40","namespace":"ca4058f18b0a4a9e9e2ccc28f7f33000","startDate":"2020-02-12T15:00:00.000Z","endDate":"2020-02-19T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2020-02-12","end":"2020-02-19"},{"start":"2025-01-01","end":"2025-01-02"}]
 free_games_aliases: []
 
 # Images
@@ -48,6 +58,9 @@ cover_image: "https://images.gog.com/5f27e41fb277deec694a2a44c0a24ed656860ad62bd
 icon_image: "https://images.gog.com/5e32f4b72226ff3066f8dc8a14a6a336beb2a9da84dfecc0a395468fa537567a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -61,7 +74,7 @@ dependencies:
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/21697"
 store_url: "https://store.epicgames.com/en-US/p/kingdom-come-deliverance"
 protondb_url: "https://www.protondb.com/app/379430"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Kingdom_Come%3A_Deliverance"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Kingdom_Come:_Deliverance"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/kingdom-come-deliverance/"
 

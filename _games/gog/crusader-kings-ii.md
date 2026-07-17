@@ -20,6 +20,14 @@ protondb_total: 48
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 73748
+gog_rating_value: 3.2
+gog_rating_count: 138
 
 # Game Info
 publisher: Paradox Interactive
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"37","name":"Sandbox"},{"id":"62","name":"Moddable"},{"id":"121","name":"Character Customization"},{"id":"5","name":"Replay Value"},{"id":"89","name":"Historical"},{"id":"66","name":"Medieval"},{"id":"168","name":"RTS"},{"id":"194","name":"Real-Time with Pause"},{"id":"100","name":"Grand Strategy"},{"id":"86","name":"Education"},{"id":"287","name":"Political"},{"id":"211","name":"Diplomacy"},{"id":"219","name":"Politics"}]
 size: "1420 MB"
+install_size: ""
+achievements_total: 161
 franchise_siblings: [{"rawg_id":384567,"slug":"crusader-kings-iii","name":"Crusader Kings III"},{"rawg_id":35163,"slug":"crusader-kings","name":"Crusader Kings"}]
 franchise_slug: "crusader-kings|crusader-kings-ii|crusader-kings-iii"
 igdb_url: "https://www.igdb.com/games/crusader-kings-ii"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/bff4404211ce8dc42e483d1ee4cfbd96472fc86714c
 icon_image: "https://images.gog.com/04c12a073469380354311ba403a71d65f335945ff34274dfd093bd8168aaf5f3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 28
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 43574
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Curve Digital
@@ -28,17 +36,19 @@ genre: Turn-Based, Adventure
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "April 19, 2018"
+release_date: "April 23, 2020"
 game_modes: ["Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Polish","Japanese","Korean"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "1250 MB"
+install_size: "2317 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/for-the-king"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2019-07-01"},{"start":"2020-04-22","end":"2020-04-29"},{"start":"2021-02-03","end":"2021-02-10"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/569e8dcd9e6ac8d3a5e4580dc172b5b33ca1cc03d17
 icon_image: "https://images.gog.com/8dcfb481a8344e107bdb6dec5aadaa77c43dca094c8255d69f22a7d40676f3c7.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

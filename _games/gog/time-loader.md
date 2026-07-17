@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 562
+gog_rating_value: 3.5
+gog_rating_count: 26
 
 # Game Info
 publisher: Flazm
@@ -28,12 +36,14 @@ genre: Action, Adventure, Casual, Indie, Racing, Simulation, Free To Play
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "November 11, 2020"
+release_date: "November 3, 2021"
 game_modes: ["Single-player"]
 languages: ["Arabic","Chinese Simplified","German","English","Spanish","French","Italian","Japanese"]
 languages_audio: ["English"]
 tags_structured: []
 size: "472 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/859ba8c7572176be6df976ec433c32443f77433cb54
 icon_image: "https://images.gog.com/790e38ab62b044f20684d9e20bf97eda1c6c91d579cf406edf5885f1b9167f18.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

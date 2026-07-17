@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 1138
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Freedom Games
@@ -32,13 +40,15 @@ release_date: "March 31, 2023"
 game_modes: ["Single player"]
 languages: ["English","Indonesian"]
 languages_audio: ["Indonesian"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: "8258 MB"
+install_size: "7974 MB"
+achievements_total: 25
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/troublemaker"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/30643786afa89c8a84be9b7537b0c403268118b9ed7
 icon_image: "https://images.gog.com/6ca838ee8cc82ffbe1d6901bcba101a63452ff39aa397bab93ec07d60650e7e9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

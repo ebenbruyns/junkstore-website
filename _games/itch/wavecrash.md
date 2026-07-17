@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 100
+steam_review_total: 19
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Flyover Games
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"4","name":"Funny"},{"id":"40850","name":"Steam Leaderboards"},{"id":"123","name":"Comedy"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"157","name":"PvP"},{"id":"134","name":"Anime"},{"id":"1465","name":"combat"},{"id":"135","name":"2D Fighter"},{"id":"45201","name":"Remote Play Together"},{"id":"46114","name":"Shared/Split Screen PvP"},{"id":"56825","name":"2D-файтинг"},{"id":"299","name":"Match 3"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/wavecrash"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/751490/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/751490/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

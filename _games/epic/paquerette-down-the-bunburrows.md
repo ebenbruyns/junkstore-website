@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 1265
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Abiding Bridge
@@ -32,8 +40,10 @@ release_date: "August 2, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","Simplified Chinese","Japanese","Italian","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Turkish"]
 languages_audio: []
-tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
 size: "166 MB"
+install_size: "353 MB"
+achievements_total: 60
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/paquerette-down-the-bunburrows"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/37e247e92d2f8715671922bb94798e3cc417b032f99
 icon_image: "https://images.gog.com/5a94dc856bdbff6320e458394a2fc104b2a658937fadb38808c1f2d3f8b29518.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: true
 epic_cloud_saves: false
 must_be_online: false

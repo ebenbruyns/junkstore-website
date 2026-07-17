@@ -20,6 +20,14 @@ protondb_total: 62
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 5421
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Blue Manchu Pty Ltd
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "5894 MB"
+install_size: "5894 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/void-bastards"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e53631f27c961ebfda","id":"c1bb7eb3554b42f0957cc87363e59e1d","namespace":"6b753bd045604be89d9779e741c604b1","startDate":"2021-08-18T15:00:00.000Z","endDate":"2021-08-25T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-01-01"},{"start":"2021-08-18","end":"2021-08-25"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/056c36bf6716da438eb78deeb0cc57752659e36ac71
 icon_image: "https://images.gog.com/2a876f13309e471905a9008050d93b567851a26915ca3654deb347cfc67fb5ed.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

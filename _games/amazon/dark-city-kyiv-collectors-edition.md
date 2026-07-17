@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 100
+steam_review_total: 11
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Big Fish Games
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"8","name":"First-Person"},{"id":"6","name":"Exploration"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"305","name":"Linear"},{"id":"142","name":"Detective"},{"id":"140","name":"Hidden Object"},{"id":"326","name":"Investigation"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://m.media-amazon.com/images/I/91jEt0H4J-L.jpg"
 icon_image: "https://m.media-amazon.com/images/I/61DvVTWoNdL.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

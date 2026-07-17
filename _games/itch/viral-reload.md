@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Retrocade Media
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"189","name":"Female Protagonist"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"167","name":"Futuristic"},{"id":"164","name":"Cartoony"},{"id":"59643","name":"Протагонистка"},{"id":"265","name":"Class-Based"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"310","name":"Runner"}]
-size: ""
+size: "148 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/badb6d3c6cabc673508de3e30505f7356fac8355f32
 icon_image: "https://cdn2.steamgriddb.com/icon_thumb/d56fac4fc074379769b86e77e00422dc.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

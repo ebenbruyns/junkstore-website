@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 346
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Flight School Studio, MWM Interactive
@@ -28,17 +36,19 @@ genre: Action, Indie
 franchise: 
 age_rating_summary: 0 (USK)
 age_ratings: {"usk":{"rating":"0"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "September 6, 2019"
+release_date: "March 25, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Simplified Chinese","Korean","Spanish - Latin America","Japanese","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]
 size: "763 MB"
+install_size: "2372 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/creature-in-the-well"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e93631f27c961ec0c3","id":"000f9a594ed44b3981272946d330d968","namespace":"e4ac2f8cd49b42f18821f3fc3b6fc1b6","startDate":"2021-03-24T15:00:00.000Z","endDate":"2021-03-31T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-03-24","end":"2021-03-31"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6193584ede776d6a853688f89b7b3940d8e48d667e0
 icon_image: "https://images.gog.com/20174d0922b387dc3000d5751275f8581cf1c748eaa45f4398766431efa5c43a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

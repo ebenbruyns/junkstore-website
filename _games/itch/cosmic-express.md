@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 621
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: "Draknek & Friends"
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"25","name":"Space"},{"id":"88","name":"Cute"},{"id":"2590","name":"fun"},{"id":"1129","name":"art"},{"id":"139","name":"Trains"},{"id":"784","name":"train"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/cosmic-express"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/81eca4fc04cdd3da7c88bf1dbc38d9b5c256f9721bb
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/583270/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "touch-screen"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 477
+gog_rating_value: 3.9
+gog_rating_count: 89
 
 # Game Info
 publisher: Bonus Stage Publishing
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","Finnish","Dut
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"118","name":"Story Rich"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"74","name":"Retro"},{"id":"88","name":"Cute"},{"id":"40833","name":"Captions available"},{"id":"113","name":"Side Scroller"},{"id":"406","name":"Story"},{"id":"305","name":"Linear"},{"id":"270","name":"Blood"},{"id":"1867","name":"puzzles"},{"id":"234","name":"Superhero"},{"id":"59643","name":"Протагонистка"},{"id":"295","name":"Soundtrack"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"1309","name":"hero"},{"id":"49955","name":"Puzzle Platformer"},{"id":"2232","name":"journey"},{"id":"49963","name":"Precision Platformer"},{"id":"2528","name":"brain"},{"id":"1746","name":"dialogue"},{"id":"844","name":"simulator"},{"id":"2631","name":"cat"},{"id":"402","name":"Training"},{"id":"573","name":"Unforgiving"},{"id":"2581","name":"spikes"},{"id":"4891","name":"Boring"}]
 size: "105 MB"
+install_size: ""
+achievements_total: 33
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sunblaze"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/52e61adae1bb2a645fd088f1f2d36791de0ab100004
 icon_image: "https://images.gog.com/344a4ba05c1579c8b60420fd21835659c957d96c91512034cd7e721604efc571.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

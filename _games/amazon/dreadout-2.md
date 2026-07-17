@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 2068
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Digerati Distribution, Digital Happiness
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","Russian","Simplified Chinese","Spanish - Spain","Hungarian","Indonesian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"16","name":"Horror"},{"id":"34","name":"Violent"},{"id":"50","name":"Sexual Content"}]
-size: ""
+size: "17354 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":49168,"slug":"dreadeye-vr","name":"DreadEye VR"},{"rawg_id":16296,"slug":"dreadout-keepers-of-the-dark","name":"DreadOut: Keepers of The Dark"},{"rawg_id":16295,"slug":"dreadout","name":"DreadOut"}]
 franchise_slug: "dreadeye-vr|dreadout|dreadout-2|dreadout-keepers-of-the-dark"
 igdb_url: "https://www.igdb.com/games/dreadout-2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"},{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b845bf5dfe6b356de2b91a90c22e44270bed8fd5c9c
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/945710/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

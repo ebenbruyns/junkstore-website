@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 4.5
+gog_rating_count: 23
 
 # Game Info
 publisher: Epic MegaGames
@@ -34,11 +42,13 @@ languages: ["Polish"]
 languages_audio: []
 tags_structured: []
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
 was_free_before: true
-giveaway_events: [{"id":"gp_3613","start":"2026-04-30T07:32:49.000Z","end":"2026-05-08T11:59:00.000Z","type":null}]
+giveaway_events: [{"start":"2026-04-30","end":"2026-05-08"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/006b01a3a64639f9f98e6ede01a9b86ff5fd3dafb7e
 icon_image: "https://images.gog.com/b440bf90b16f7ab49b6e28c7ab2a633f3a78ce7cdb570cdbef5edf99cfbd4084.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

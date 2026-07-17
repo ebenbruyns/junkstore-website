@@ -20,6 +20,14 @@ protondb_total: 31
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 64
+steam_review_total: 687
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: THQ Nordic
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"8","name":"First-Person"},{"id":"40850","name":"Steam Leaderboards"},{"id":"75","name":"Local Co-Op"},{"id":"72","name":"Local Multiplayer"},{"id":"113","name":"Side Scroller"},{"id":"56","name":"Shoot 'Em Up"},{"id":"57","name":"Bullet Hell"}]
 size: "815 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2021-02-01"},{"start":"2025-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3acc616c613ae9c6c2484e824c92792daf5db610479
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/606730/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

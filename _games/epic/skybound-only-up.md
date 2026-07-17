@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "3 user reviews"
+steam_review_percent: 67
+steam_review_total: 3
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Astralium Games
@@ -28,12 +36,14 @@ genre: Platformer
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "January 1, 2099"
+release_date: "June 9, 2026"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
-tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"}]
-size: ""
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1299","name":"Competitive"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
+size: "2959 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/b31041ff2f934d19954ee76213cf
 icon_image: "https://cdn1.epicgames.com/spt-assets/b31041ff2f934d19954ee76213cf8266/astralium-logo-1v19m.png?resize=1&w=480&h=270&quality=medium"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -115,4 +128,4 @@ is_featured: false
 owned: true
 ---
 
-Climb, jump, and parkour your way through Skybound Only Up. Choose safer or riskier routes, navigate obstacles, and reach new heights in this straightforward but challenging adventure. How far—and how fast—can you climb without falling?
+Free vertical platformer - jump, climb, and race to the top! Navigate floating platforms above the clouds with fast-paced parkour movement. Find shortcuts, beat the clock, compete on the global leaderboard. Easy to learn. Hard to master. How high can YOU go?

@@ -20,6 +20,14 @@ protondb_total: 16
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 5138
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Daedalic Entertainment
@@ -32,13 +40,15 @@ release_date: "April 21, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","German","Japanese","Russian","Simplified Chinese","Traditional Chinese","Polish","Portuguese - Brazil","Turkish","Spanish - Spain","Korean"]
 languages_audio: []
-tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "449 MB"
+install_size: "795 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/warpips"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d53631f27c961ebbb4","id":"f6e75092c08045afa343fb5c5aa817ae","namespace":"277788d421e748e580ca0972c339f1a6","startDate":"2023-02-15T15:00:00.000Z","endDate":"2023-02-22T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-02-15","end":"2023-02-22"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/189376e0849ed603351725c115baed3b6758fd0076d
 icon_image: "https://images.gog.com/6962aff9e641f3f76dafcaadc19e19f9db4f7b1a23b7ec9926e35593ff7ac439.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

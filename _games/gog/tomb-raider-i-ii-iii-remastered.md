@@ -20,6 +20,14 @@ protondb_total: 54
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 8488
+gog_rating_value: 4.2
+gog_rating_count: 765
 
 # Game Info
 publisher: Aspyr Media
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","Danish","Germ
 languages_audio: ["English","French","German","Russian","Japanese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"571","name":"3D"},{"id":"40937","name":"Steam Trading Cards"},{"id":"271","name":"Remake"},{"id":"59643","name":"Протагонистка"},{"id":"570","name":"Old School"},{"id":"78619","name":"Ремейк"}]
 size: "3990 MB"
+install_size: ""
+achievements_total: 284
 franchise_siblings: [{"rawg_id":990490,"slug":"tomb-raider-iv-vi-remastered","name":"Tomb Raider IV•V•VI Remastered"},{"rawg_id":998261,"slug":"tomb-raider-i-vi-remastered","name":"Tomb Raider I-VI Remastered"}]
 franchise_slug: "tomb-raider-i-iii-remastered|tomb-raider-i-vi-remastered|tomb-raider-iv-vi-remastered"
 igdb_url: "https://www.igdb.com/games/tomb-raider-ii--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/815237dc91df36507562e553bdc6e14cb8a69416349
 icon_image: "https://images.gog.com/45f08ddd7e0df97d19d63d48886c742b8526f2bf928bad1773c93ded9d4bf501.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/137867"
 store_url: "https://www.gog.com/en/game/tomb_raider_i_to_iii_remastered"
 protondb_url: "https://www.protondb.com/app/2478970"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider_I-III_Remastered"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider_I–III_Remastered"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/tomb-raider-i-iii-remastered-starring-lara-croft/"
 

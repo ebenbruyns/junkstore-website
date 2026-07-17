@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Gamepad not enabled by default"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 112
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: HandyGames
@@ -28,17 +36,19 @@ genre: Racing
 franchise: 
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "July 29, 2021"
+release_date: "May 6, 2022"
 game_modes: ["Multiplayer","Split screen"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1299","name":"Competitive"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1212","name":"Racing"}]
+tags_structured: [{"id":"1299","name":"Competitive"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"}]
 size: "1119 MB"
+install_size: "1028 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/9424"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-01-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c837ceb01ef669b8257753b2a1a23844cefcd186549
 icon_image: "https://images.gog.com/7ac7f54f204b38f8d7f23f7c8aa1f946258299ce0a499402b855ac12c44ea4fd.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

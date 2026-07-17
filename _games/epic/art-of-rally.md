@@ -20,6 +20,14 @@ protondb_total: 50
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 6485
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Funselektor Labs Inc.
@@ -32,13 +40,15 @@ release_date: "September 23, 2020"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 languages_audio: []
-tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1400","name":"Physics"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1400","name":"Physics"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "6.91 GB"
+install_size: "7034 MB"
+achievements_total: 43
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/art-of-rally"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1ce3631f27c961eb9b3","id":"8a2dd95a9fe04bdebde02b46a8f41aed","namespace":"4751c4f6a96547209a33831d847d2810","startDate":"2023-12-21T15:00:00.000Z","endDate":"2023-12-22T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-12-21","end":"2023-12-22"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/db135294b63037452062dbaf31476f14ce0e5f8a78a
 icon_image: "https://images.gog.com/b489b17adecb4e813fe37f8501373c52d233e259ce4ca1525f332b2917013abc.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

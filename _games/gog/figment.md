@@ -20,6 +20,14 @@ protondb_total: 41
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 5668
+gog_rating_value: 3.8
+gog_rating_count: 137
 
 # Game Info
 publisher: Bedtime Digital Games
@@ -34,11 +42,13 @@ languages: ["Arabic","Chinese Simplified","Danish","German","English","Spanish",
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: "725 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "figment|figment-2-creed-valley"
 igdb_url: "https://www.igdb.com/games/figment-2-creed-valley"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2020-03-25","end":"2020-04-01"},{"start":"2021-04-01"},{"start":"2025-07-03","end":"2025-07-10"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1286900fea4fb4f154987f15bb5e11396670b1c174c
 icon_image: "https://images.gog.com/aa02ba2f4562187f000799fb33e60c9c582c85fed5c76f24bf1c4f1e5ce84e15.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/48177"
 store_url: "https://www.gog.com/en/game/figment"
 protondb_url: "https://www.protondb.com/app/493540"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment_2%3A_Creed_Valley"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment_2:_Creed_Valley"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/figment/"
 

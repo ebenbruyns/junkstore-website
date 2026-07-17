@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 18
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Artak Avetisyan IE
@@ -32,13 +40,15 @@ release_date: "February 19, 2026"
 game_modes: ["Single-player"]
 languages: ["English","Russian"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1287","name":"Fantasy"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"},{"id":"1263","name":"Indie"}]
-size: ""
+tags_structured: [{"id":"1287","name":"Fantasy"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"},{"id":"1263","name":"Indie"}]
+size: "41710 MB"
+install_size: "42170 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-04-17"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/e0b2ef75c4ca470eae076d9d5408
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2711180/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

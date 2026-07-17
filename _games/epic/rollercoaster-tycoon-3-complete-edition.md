@@ -20,6 +20,14 @@ protondb_total: 33
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 2931
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Atari, Aspyr (Mac)
@@ -32,13 +40,15 @@ release_date: "September 24, 2020"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Danish","Dutch","Finnish","Norwegian","Swedish"]
 languages_audio: []
-tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"35244","name":"Epic Savings"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "703 MB"
+install_size: "1438 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/rollercoaster-tycoon-3-complete-edition"
 was_free_before: true
-giveaway_events: [{"_id":"6a33fb48570e3987f2d3d474","id":"4ec50a302f1449b3bf706a199c333ab8","namespace":"f01b3e0178d448f0b93911e292d8e614","startDate":"2026-06-25T15:00:00.000Z","endDate":"2026-07-02T15:00:00.000Z","title":"RollerCoaster Tycoon 3 Complete Edition","__v":0}]
+giveaway_events: [{"start":"2026-06-25","end":"2026-07-02"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/81ce51277a132e10b920d256f4b1bf074fb8273fb20
 icon_image: "https://images.gog.com/448f186dcb951dfbae713219f9ad39e5d35aac152b38da2a95101026ba3e5f85.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

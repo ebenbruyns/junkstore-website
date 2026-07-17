@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Cross platform cloud saves not supported"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 1117
+gog_rating_value: 4.2
+gog_rating_count: 184
 
 # Game Info
 publisher: Mooneye Studios, Fabien Weibel, Bubblebird Studio
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: []
 size: "205 MB"
+install_size: ""
+achievements_total: 19
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/haven-park"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/07f92c3c3b4f1918f297906f7f9f6c7a570346d17f2
 icon_image: "https://images.gog.com/1b0d706c51f2218852c48d2b3bfe2a427a7d98a9cb56e8ea0db4dd43a156a526.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 99
+steam_review_total: 135
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Shark and Pelican Games
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"134","name":"Anime"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"82","name":"Magic"},{"id":"90","name":"Visual Novel"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"164","name":"Cartoony"},{"id":"268","name":"Comic Book"},{"id":"179","name":"Cartoon"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"288","name":"Interactive Fiction"},{"id":"42410","name":"LGBTQ+"},{"id":"273","name":"Parody"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/bard-harder"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/cb66299c79b83e641ae606ad452ca199a4640271266
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1534270/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

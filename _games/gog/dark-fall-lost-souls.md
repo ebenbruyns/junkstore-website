@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "moderate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 61
+steam_review_total: 271
+gog_rating_value: 3.8
+gog_rating_count: 75
 
 # Game Info
 publisher: Iceberg Interactive
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English","French","Italian","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "1267 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":10644,"slug":"dark-fall-2-lights-out","name":"Dark Fall 2: Lights Out"},{"rawg_id":10640,"slug":"dark-fall-the-journal","name":"Dark Fall: The Journal"}]
 franchise_slug: "dark-fall-2-lights-out|dark-fall-3-lost-souls|dark-fall-the-journal"
 igdb_url: "https://www.igdb.com/games/dark-fall-lost-souls"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/bc7b20c72ae1d0bfb328aa234d33e33487289199999
 icon_image: "https://images.gog.com/bc7b20c72ae1d0bfb328aa234d33e33487289199999d699f1365400063d3b0fa.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/2208"
 store_url: "https://www.gog.com/en/game/dark_fall_3_lost_souls"
 protondb_url: "https://www.protondb.com/app/46750"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dark_Fall_3%3A_Lost_Souls"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dark_Fall_3:_Lost_Souls"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/dark-fall-3-lost-souls/"
 

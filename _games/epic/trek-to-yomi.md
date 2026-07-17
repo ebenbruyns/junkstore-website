@@ -20,13 +20,21 @@ protondb_total: 21
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 71
+steam_review_total: 3042
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Devolver Digital
 developer: Leonard Menchiari, Flying Wild Hog
 genre: Action, Action-Adventure, Adventure
 franchise: 
-age_rating_summary: 16 (USK)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"usk":{"rating":"16","descriptors":"Gewalt"},"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
 release_date: "May 5, 2022"
 game_modes: ["Single player"]
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Japanese","Korean","P
 languages_audio: ["Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "8897 MB"
+install_size: "9955 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/trek-to-yomi"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f42ebb72d23df7cc0b48ef59f8e1400b4788bf64ac8
 icon_image: "https://images.gog.com/169e498499665dd40496ed5fbdad06f2b50052eeab4ee1e9277aa1b0ba4d7697.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

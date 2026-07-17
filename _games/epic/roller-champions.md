@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 69
+steam_review_total: 891
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: UBISOFT
@@ -33,7 +41,9 @@ game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Turkish","Portuguese - Brazil"]
 languages_audio: ["English","French"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21125","name":"Competitive Community"},{"id":"21141","name":"Extremely Fun"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "469 MB"
+install_size: "597 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/roller-champions"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b0b8870a39c26b01a4d3c0350c0fe75ab888b8d33e8
 icon_image: "https://images.gog.com/a45d6f223a3b9ba78b371e66cae4e62ad3019907069915e0f5f3e0ea8ec1bb5d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: "ubisoft-connect"

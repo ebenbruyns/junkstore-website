@@ -20,6 +20,14 @@ protondb_total: 65
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 6913
+gog_rating_value: 4
+gog_rating_count: 216
 
 # Game Info
 publisher: Focus Entertainment
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian","Korean","Polish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"123","name":"Comedy"},{"id":"34","name":"Violent"},{"id":"15","name":"Stealth"},{"id":"40","name":"Dark Fantasy"},{"id":"120","name":"Memes"},{"id":"188","name":"Parkour"},{"id":"154","name":"Steampunk"},{"id":"148","name":"Dark Humor"},{"id":"278","name":"Assassin"}]
 size: "10731 MB"
+install_size: ""
+achievements_total: 38
 franchise_siblings: [{"rawg_id":1006936,"slug":"styx-blades-of-greed","name":"Styx: Blades of Greed"},{"rawg_id":3562,"slug":"styx-master-of-shadows","name":"Styx: Master of Shadows"},{"rawg_id":4228,"slug":"of-orcs-and-men","name":"Of Orcs and Men"}]
 franchise_slug: "of-orcs-and-men|styx-blades-of-greed|styx-master-of-shadows|styx-shards-of-darkness"
 igdb_url: "https://www.igdb.com/games/styx-shards-of-darkness"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/218c812fc1d5caab8fdb5b632160bfe0a1bb0fa9bd3
 icon_image: "https://images.gog.com/bd21f1ab319e0c8f5b04cb7e0a524cac4dca8a386f863c6dfae1f2632cf7e8b3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

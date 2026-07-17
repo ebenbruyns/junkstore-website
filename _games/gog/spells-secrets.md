@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 325
+gog_rating_value: 3.6
+gog_rating_count: 80
 
 # Game Info
 publisher: rokaplay
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: []
 tags_structured: []
 size: "1735 MB"
+install_size: ""
+achievements_total: 32
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/spells-and-secrets"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7834a7443842d1a866a1fecaa81ab1ba674e6306bf3
 icon_image: "https://images.gog.com/c47d236003a2f4a60e1278606ec8a504036e5c0a50a86196c96b9743c9550241.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

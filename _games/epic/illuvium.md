@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Illuvium Labs
@@ -33,7 +41,9 @@ game_modes: ["Online Multiplayer"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"21146","name":"Educational"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1310","name":"EARLY ACCESS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "31452 MB"
+install_size: "32108 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/198140"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1cf292d7d6c68e3647064cf58c55039547de76fb0d4
 icon_image: "https://images.gog.com/45e6d550ca36012f168e0719908bd2be742021bc03f6a05dfcdf0b7e70ddeb59.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

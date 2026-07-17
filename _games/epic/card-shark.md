@@ -20,6 +20,14 @@ protondb_total: 12
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 3184
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Devolver Digital
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: []
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"}]
 size: "1206 MB"
+install_size: "1288 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/card-shark"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9f6c4644185c56e0318812b8feae6ebe4867e60bdb2
 icon_image: "https://images.gog.com/dba510c15093c126961afa9bb3e0618f5763a16a667a3f789d3086cff46a5f07.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

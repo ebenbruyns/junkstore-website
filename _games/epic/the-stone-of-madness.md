@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 269
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Tripwire Presents
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Japanese","Korean","P
 languages_audio: ["English","Spanish - Spain"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"9549","name":"Controller Support"}]
 size: "3307 MB"
+install_size: "8451 MB"
+achievements_total: 41
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-stone-of-madness"
 was_free_before: true
-giveaway_events: [{"id":"epic_3d11f228c8a442318bc17abf13f7db3b","start":"2026-04-22T14:18:12.000Z","end":"2026-04-23T15:00:00.000Z","type":null}]
+giveaway_events: [{"start":"2026-04-22","end":"2026-04-23"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1309710/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

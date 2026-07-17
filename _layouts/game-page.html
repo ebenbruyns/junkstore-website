@@ -52,6 +52,15 @@ layout: null
     {% if page.publisher %}"publisher": { "@type": "Organization", "name": {{ page.publisher | jsonify }} },{% endif %}
     {% if page.developer %}"author": { "@type": "Organization", "name": {{ page.developer | jsonify }} },{% endif %}
     {% if page.release_date and page.release_date != "" and page.release_date != "Invalid Date" %}"datePublished": {{ page.release_date | date: '%Y-%m-%d' | jsonify }},{% endif %}
+    {%- comment -%}
+      aggregateRating powers Google's star-rating rich results. Ratings
+      must also be visible on the page (they are — the score tiles).
+      GOG's own 5-star rating wins on GOG games; otherwise the Steam
+      review percentage on a 0–100 scale.
+    {%- endcomment -%}
+    {% if page.gog_rating_value and page.gog_rating_count %}"aggregateRating": { "@type": "AggregateRating", "ratingValue": {{ page.gog_rating_value }}, "bestRating": 5, "worstRating": 1, "ratingCount": {{ page.gog_rating_count }} },
+    {% elsif page.steam_review_percent and page.steam_review_total %}"aggregateRating": { "@type": "AggregateRating", "ratingValue": {{ page.steam_review_percent }}, "bestRating": 100, "worstRating": 0, "ratingCount": {{ page.steam_review_total }} },
+    {% endif %}
     "gamePlatform": ["PC", "Steam Deck"],
     "applicationCategory": "Game"
   }
@@ -197,12 +206,23 @@ layout: null
     {% assign oc_has_score = false %}{% if page.opencritic_score and page.opencritic_score != "" %}{% assign oc_has_score = true %}{% endif %}
     {% assign oc_has_url = false %}{% if page.opencritic_url and page.opencritic_url != "" %}{% assign oc_has_url = true %}{% endif %}
     {% assign has_score_or_compat = false %}
-    {% if mc_has_score or mc_has_url or oc_has_score or oc_has_url or page.protondb_tier != "" or page.steam_deck_verified != "" %}{% assign has_score_or_compat = true %}{% endif %}
+    {% if mc_has_score or mc_has_url or oc_has_score or oc_has_url or page.protondb_tier != "" or page.steam_deck_verified != "" or page.steam_review_percent or page.gog_rating_value %}{% assign has_score_or_compat = true %}{% endif %}
     {% if has_score_or_compat %}
     <div class="scores-compat">
       <h2>3rd-Party References</h2>
       <p class="scores-compat__sub">These reflect each service's own testing, separate from the <strong>Steam Deck Compatibility</strong> result above. Compatibility shifts as games and Proton update. If anything here looks out of date for a game you've actually run, please let us know.</p>
-      <div class="scores-compat__grid">
+      {% comment %}
+        Count the tiles so 5-6 of them lay out as balanced 3-wide rows
+        (3+2 / 3+3) instead of auto-fit's lopsided 4+1 / 4+2.
+      {% endcomment %}
+      {% assign tile_count = 0 %}
+      {% if mc_has_score or mc_has_url %}{% assign tile_count = tile_count | plus: 1 %}{% endif %}
+      {% if oc_has_score or oc_has_url %}{% assign tile_count = tile_count | plus: 1 %}{% endif %}
+      {% if page.steam_review_percent %}{% assign tile_count = tile_count | plus: 1 %}{% endif %}
+      {% if page.gog_rating_value %}{% assign tile_count = tile_count | plus: 1 %}{% endif %}
+      {% if page.protondb_tier and page.protondb_tier != "" %}{% assign tile_count = tile_count | plus: 1 %}{% endif %}
+      {% if page.steam_deck_verified and page.steam_deck_verified != "" %}{% assign tile_count = tile_count | plus: 1 %}{% endif %}
+      <div class="scores-compat__grid scores-compat__grid--{{ tile_count }}">
         {% if mc_has_score or mc_has_url %}
           {% assign mc_class = "mc-score--tbd" %}
           {% if mc_has_score and page.metacritic_score >= 75 %}{% assign mc_class = "mc-score--green" %}
@@ -223,6 +243,32 @@ layout: null
           <div class="score-tile__label">OpenCritic</div>
           <div class="score-tile__value {{ oc_class }}">{% if oc_has_score %}{{ page.opencritic_score }}{% else %}TBD{% endif %}</div>
         {% if oc_has_url %}</a>{% else %}</div>{% endif %}
+        {% endif %}
+        {%- comment -%}
+          Steam user reviews — the aggregate score most gamers check first.
+          Colour by positive %, tooltip carries Valve's label + review count.
+        {%- endcomment -%}
+        {% if page.steam_review_percent %}
+          {% assign sr_class = "mc-score--red" %}
+          {% if page.steam_review_percent >= 80 %}{% assign sr_class = "mc-score--green" %}
+          {% elsif page.steam_review_percent >= 50 %}{% assign sr_class = "mc-score--yellow" %}{% endif %}
+        <div class="score-tile score-tile--steamrev" title="{{ page.steam_review_desc }}{% if page.steam_review_total %} · {{ page.steam_review_total }} Steam reviews{% endif %}">
+          <div class="score-tile__label">Steam Reviews</div>
+          <div class="score-tile__value {{ sr_class }}">{{ page.steam_review_percent }}%</div>
+          {% if page.steam_review_desc and page.steam_review_desc != "" %}<div class="score-tile__sub">{{ page.steam_review_desc }}</div>{% endif %}
+        </div>
+        {% endif %}
+        {%- comment -%}
+          GOG star rating (GOG games only — it's GOG's own reviewers).
+        {%- endcomment -%}
+        {% if page.gog_rating_value %}
+          {% assign gr_class = "mc-score--red" %}
+          {% if page.gog_rating_value >= 4 %}{% assign gr_class = "mc-score--green" %}
+          {% elsif page.gog_rating_value >= 3 %}{% assign gr_class = "mc-score--yellow" %}{% endif %}
+        <div class="score-tile score-tile--gograting" title="{% if page.gog_rating_count %}{{ page.gog_rating_count }} GOG reviews{% else %}GOG user rating{% endif %}">
+          <div class="score-tile__label">GOG Rating</div>
+          <div class="score-tile__value {{ gr_class }}">{{ page.gog_rating_value }} ★</div>
+        </div>
         {% endif %}
         {%- comment -%}
           When the 3rd-party tile says the game won't run (deck unsupported/
@@ -249,6 +295,24 @@ layout: null
         </div>
         {% endif %}
       </div>
+      {%- comment -%}
+        Valve's per-check Deck test notes — the detail behind the badge
+        ("Interface text is legible", "External controllers not supported…").
+        Collapsed so the strip stays compact.
+      {%- endcomment -%}
+      {% if page.steam_deck_notes.size > 0 %}
+      <details class="deck-notes">
+        <summary>Valve's Steam Deck test notes ({{ page.steam_deck_notes.size }})</summary>
+        <ul class="deck-notes__list">
+          {% for n in page.steam_deck_notes %}
+          <li class="deck-notes__item deck-notes__item--{{ n.type }}">
+            <span class="deck-notes__mark" aria-hidden="true">{% case n.type %}{% when 'pass' %}✓{% when 'warning' %}⚠{% when 'fail' %}✗{% else %}ℹ{% endcase %}</span>
+            {{ n.note }}
+          </li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endif %}
     </div>
     {% endif %}
 
@@ -260,6 +324,7 @@ layout: null
     {% assign tech_count = 1 %}{% comment %} Recommended Proton always shows {% endcomment %}
     {% if page.controller_input %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.community_layout %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.hdr %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.required_launcher and page.required_launcher != "" %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.requires_account_setup %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.requires_verification %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
@@ -278,6 +343,12 @@ layout: null
         <div class="info-item">
           <div class="info-label">Community Layout</div>
           <div class="info-value community-layout-badge">🎮 Available</div>
+        </div>
+        {% endif %}
+        {% if page.hdr %}
+        <div class="info-item">
+          <div class="info-label">HDR</div>
+          <div class="info-value" title="Supports HDR output out of the box — great on HDR displays like the Steam Deck OLED or a TV">Supported</div>
         </div>
         {% endif %}
         <div class="info-item">
@@ -652,6 +723,26 @@ layout: null
       <div class="info-item">
         <div class="info-label">Download Size</div>
         <div class="info-value">{{ size_display }}</div>
+      </div>
+      {% endif %}
+      {% if page.install_size and page.install_size != "" %}
+        {% assign isize_parts = page.install_size | split: " " %}
+        {% assign isize_num = isize_parts[0] | plus: 0 %}
+        {% assign isize_unit = isize_parts[1] %}
+        {% if isize_unit == "MB" and isize_num >= 1024 %}
+          {% assign isize_display = isize_num | divided_by: 1024.0 | round: 1 | append: " GB" %}
+        {% else %}
+          {% assign isize_display = page.install_size %}
+        {% endif %}
+      <div class="info-item">
+        <div class="info-label">Install Size</div>
+        <div class="info-value">{{ isize_display }}</div>
+      </div>
+      {% endif %}
+      {% if page.achievements_total %}
+      <div class="info-item">
+        <div class="info-label">Achievements</div>
+        <div class="info-value">🏆 {{ page.achievements_total }}</div>
       </div>
       {% endif %}
       {% if page.game_modes.size > 0 %}

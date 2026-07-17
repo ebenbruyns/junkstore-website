@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 1362
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ocean Drive Studio, Inc., Kakao Games
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["English","Korean","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"80","name":"Tactical"},{"id":"14","name":"Early Access"},{"id":"121","name":"Character Customization"},{"id":"571","name":"3D"},{"id":"40","name":"Dark Fantasy"},{"id":"1465","name":"combat"},{"id":"66","name":"Medieval"},{"id":"82","name":"Magic"},{"id":"101","name":"Turn-Based Strategy"},{"id":"61","name":"Top-Down"},{"id":"640","name":"Roguelite"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"91686","name":"Family Sharing"},{"id":"238","name":"CRPG"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"},{"id":"298","name":"Grid-Based Movement"}]
-size: ""
+size: "4388 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/lost-eidolons-veil-of-the-witch"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-06-25","end":"2026-07-30"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4cc5c4b563d31d26aaf026d5e43f94ff22564a6d163
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2530490/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

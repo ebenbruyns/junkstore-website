@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 95
+steam_review_total: 22
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Good Friend Studios
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/arlo-the-rabbit"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d795687da7338bfe02a40243f5bc87fefb4452a3866
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/854450/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

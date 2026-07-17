@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 3505
+gog_rating_value: 4.5
+gog_rating_count: 787
 
 # Game Info
 publisher: Level Up Labs
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","Czech","German","English","Spanish","French","
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"40852","name":"Steam Workshop"},{"id":"63","name":"Zombies"},{"id":"40838","name":"Includes level editor"},{"id":"62","name":"Moddable"},{"id":"66","name":"Medieval"},{"id":"233","name":"JRPG"},{"id":"194","name":"Real-Time with Pause"},{"id":"65","name":"Tower Defense"},{"id":"60","name":"Touch-Friendly"},{"id":"231","name":"Strategy RPG"},{"id":"4337","name":"real-time-with-pause"}]
 size: "516 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/defenders-quest-valley-of-the-forgotten"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0fa8bb74d51e100e559d24e656fad7f7bd1e5a28b98
 icon_image: "https://images.gog.com/0fa8bb74d51e100e559d24e656fad7f7bd1e5a28b9852cb46a77762ce94ed093.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/2409"
 store_url: "https://www.gog.com/en/game/defenders_quest"
 protondb_url: "https://www.protondb.com/app/218410"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Defender%27s_Quest%3A_Valley_of_the_Forgotten"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Defender's_Quest:_Valley_of_the_Forgotten"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/defenders-quest/"
 

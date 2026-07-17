@@ -18,8 +18,16 @@ protondb_tier: "platinum"
 protondb_score: 0.79
 protondb_total: 59
 protondb_confidence: "strong"
-steam_deck_verified: "playable"
-steam_deck_category: 2
+steam_deck_verified: "verified"
+steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 8968
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: The Astronauts
@@ -28,17 +36,19 @@ genre: Exploration
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
-release_date: "September 25, 2014"
+release_date: "December 19, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Czech"]
 languages_audio: ["English","Polish"]
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"1127","name":"Investigation"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
 size: "5194 MB"
+install_size: "5541 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-vanishing-of-ethan-carter"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1df3631f27c961ebe33","id":"bdea68145b61462f9cd17068e835aadf","namespace":"f401d7e187e349138380d22e991b29ca","startDate":"2022-04-06T15:00:00.000Z","endDate":"2022-04-13T15:00:00.000Z","__v":0},{"_id":"66abf1e23631f27c961ebef4","id":"bdea68145b61462f9cd17068e835aadf","namespace":"f401d7e187e349138380d22e991b29ca","startDate":"2021-12-18T15:00:00.000Z","endDate":"2021-12-19T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-12-18","end":"2021-12-19"},{"start":"2022-04-06","end":"2022-04-13"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4a10c26a2af82117df64a2e265935ea626eb8ce7198
 icon_image: "https://images.gog.com/659292536b3557ea22a7612045099f42ae42bda8f0cec5c57d00934767fb608c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/21142"
 store_url: "https://store.epicgames.com/en-US/p/the-vanishing-of-ethan-carter"
 protondb_url: "https://www.protondb.com/app/258520"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Vanishing_of_Ethan_Carter"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Vanishing_of_Ethan_Carter_Redux"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/the-vanishing-of-ethan-carter/"
 

@@ -20,6 +20,14 @@ protondb_total: 16
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 3598
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Maddy Makes Games Inc.
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"49","name":"Difficult"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"11669","name":"stats"},{"id":"74","name":"Retro"},{"id":"182","name":"4 Player Local"},{"id":"625","name":"party"},{"id":"87822","name":"4 giocatori divano"}]
 size: "376 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/towerfall"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2019-12-19","end":"2019-12-20"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/251470/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/251470/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

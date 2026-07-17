@@ -20,6 +20,14 @@ protondb_total: 23
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 16183
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Team17
@@ -32,13 +40,15 @@ release_date: "December 12, 2019"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Italian"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21119","name":"Great for Beginners"}]
+size: "181 MB"
+install_size: "217 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-escapists"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e43631f27c961ebf97","id":"409270ba4b814c20a761407ab7a49dbd","namespace":"61bc780f42f84fe29e6dfee957ab82de","startDate":"2021-09-22T15:00:00.000Z","endDate":"2021-09-29T15:00:00.000Z","__v":0},{"_id":"66abf1f83631f27c961ec482","id":"409270ba4b814c20a761407ab7a49dbd","namespace":"61bc780f42f84fe29e6dfee957ab82de","startDate":"2019-12-11T15:00:00.000Z","endDate":"2019-12-18T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2019-07-01"},{"start":"2019-12-11","end":"2019-12-18"},{"start":"2021-04-01"},{"start":"2021-09-22","end":"2021-09-29"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fae303c9288b985b94e28a90bd792703eb8456ca19d
 icon_image: "https://images.gog.com/663c8923ced2684a8a193b47ce315647be356956422be838881114577b3a9427.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

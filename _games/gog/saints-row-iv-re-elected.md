@@ -20,6 +20,14 @@ protondb_total: 80
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 77524
+gog_rating_value: 3.9
+gog_rating_count: 608
 
 # Game Info
 publisher: Koch Media
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian","Japanese","Polish",
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21126","name":"Silly Community"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "12698 MB"
+install_size: ""
+achievements_total: 72
 franchise_siblings: [{"rawg_id":650607,"slug":"saints-row-2022","name":"Saints Row (2022)"},{"rawg_id":3450,"slug":"saints-row-gat-out-of-hell","name":"Saints Row: Gat Out of Hell"},{"rawg_id":4386,"slug":"saints-row-the-third","name":"Saints Row: The Third"},{"rawg_id":4599,"slug":"saints-row-2","name":"Saints Row 2"},{"rawg_id":28478,"slug":"saints-row","name":"Saints Row"}]
 franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-hell|saints-row-iv|saints-row-the-third"
 igdb_url: "https://www.igdb.com/games/saints-row-iv"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2022-12-07","end":"2022-12-14"},{"start":"2025-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3bc1894a36591f2568f5f38b0bbd33cf4d90ed38cee
 icon_image: "https://images.gog.com/54242d39915d6be2aba4f1bce65a8192e198d36fbcc72e2612c29683cbb72e15.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

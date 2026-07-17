@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 707
+gog_rating_value: 4.3
+gog_rating_count: 26
 
 # Game Info
 publisher: Treasure Hunters FanClub
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","English","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"1","name":"Multi-player"},{"id":"9","name":"Co-op"},{"id":"38","name":"Online Co-op"},{"id":"39","name":"Shared/Split Screen Co-op"},{"id":"22","name":"Steam Achievements"},{"id":"66","name":"Color Alternatives"},{"id":"68","name":"Custom Volume Controls"},{"id":"69","name":"Stereo Sound"},{"id":"18","name":"Partial Controller Support"},{"id":"23","name":"Steam Cloud"},{"id":"44","name":"Remote Play Together"},{"id":"62","name":"Family Sharing"}]
 size: "686 MB"
+install_size: ""
+achievements_total: 30
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-05-21","end":"2026-06-25"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/69e538b974ad9326b89a33ff61b9e73355d6a4f83f0
 icon_image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892860/capsule_184x69.jpg?t=1761641133"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

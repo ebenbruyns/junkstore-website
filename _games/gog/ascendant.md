@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 219
+gog_rating_value: 3.3
+gog_rating_count: 116
 
 # Game Info
 publisher: Hapa Games
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"122","name":"Pixel Graphics"},{"id":"11669","name":"stats"},{"id":"336","name":"controller support"},{"id":"40","name":"Dark Fantasy"},{"id":"639","name":"Roguelike"},{"id":"82","name":"Magic"},{"id":"203","name":"Beat 'em up"},{"id":"61","name":"Top-Down"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"171","name":"PvE"},{"id":"196","name":"Procedural Generation"},{"id":"57","name":"Bullet Hell"},{"id":"124","name":"Perma Death"},{"id":"91686","name":"Family Sharing"},{"id":"236","name":"Top-Down Shooter"},{"id":"204","name":"Gothic"},{"id":"49964","name":"Action Roguelike"},{"id":"274","name":"Gun Customization"}]
 size: "518 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/ascendant"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/faaa39ce7bcf3d3d6ec8df1cddfb88cc8f89c65804f
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/296930/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

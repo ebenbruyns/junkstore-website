@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 66
+steam_review_total: 94
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Snapbreak
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: ["English"]
 tags_structured: [{"id":"117","name":"Mystery"},{"id":"406","name":"Story"},{"id":"1867","name":"puzzles"},{"id":"744","name":"friends"},{"id":"820","name":"secrets"},{"id":"1863","name":"challenge"},{"id":"712","name":"school"},{"id":"4851","name":"box"}]
 size: "2.08 GB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-academy-the-first-riddle"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a069bb28da91cf2a3de3c2cf8b1e3d4c758d23b5aae
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1155460/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

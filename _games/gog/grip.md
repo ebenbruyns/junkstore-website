@@ -20,6 +20,14 @@ protondb_total: 99
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 5127
+gog_rating_value: 3.7
+gog_rating_count: 205
 
 # Game Info
 publisher: Wired Productions
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Hungarian","Italian","Japanes
 languages_audio: []
 tags_structured: []
 size: "4946 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/grip"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-01-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9ab7338d228f1d4961c8ee276368aa986efbe3dafee
 icon_image: "https://images.gog.com/523cd421768ed38d6a4ec49d91256a1de044b7a32d9b3cb7f852d397b1bd8ee4.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/34553"
 store_url: "https://www.gog.com/en/game/grip"
 protondb_url: "https://www.protondb.com/app/396900"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/GRIP%3A_Combat_Racing"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/GRIP:_Combat_Racing"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/grip-combat-racing/"
 

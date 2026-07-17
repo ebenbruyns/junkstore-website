@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 68
+steam_review_total: 418
+gog_rating_value: 4.1
+gog_rating_count: 21
 
 # Game Info
 publisher: Valkyrie Initiative
@@ -34,6 +42,8 @@ languages: ["English","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"1","name":"Survival"},{"id":"145","name":"Choices Matter"},{"id":"192","name":"Mature"},{"id":"1465","name":"combat"},{"id":"639","name":"Roguelike"},{"id":"66","name":"Medieval"},{"id":"101","name":"Turn-Based Strategy"},{"id":"218","name":"Multiple Endings"},{"id":"98","name":"Loot"},{"id":"176","name":"Turn-Based Tactics"},{"id":"217","name":"Romance"},{"id":"238","name":"CRPG"},{"id":"185","name":"Swordplay"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"},{"id":"66536","name":"Романтика"}]
 size: "358 MB"
+install_size: ""
+achievements_total: 29
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/heads-will-roll-downfall"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6d9bd6d91c7bdfb1089961f88dd70fcf79305d963b8
 icon_image: "https://images.gog.com/169db8a7bfc21152b9ab74b8a0d119cbdd3846d3a804d4d3d158f4b7b1beea6a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""
@@ -62,7 +75,7 @@ dependencies:
 # website's GOG-Features section only shows Cloud Saves for now. Remove the
 # leading "# " on any line to enable that chip on the rendered page.)
 gog_cloud_saves: true
-# gog_achievements: false
+# gog_achievements: true
 # gog_overlay: true
 # gog_leaderboards: false
 

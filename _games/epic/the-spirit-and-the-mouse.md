@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 97
+steam_review_total: 1045
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Armor Games Studios
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Simplified Chinese","
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"21151","name":"Easy Puzzles"}]
 size: "296 MB"
+install_size: "931 MB"
+achievements_total: 40
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-spirit-and-the-mouse"
 was_free_before: true
-giveaway_events: [{"_id":"66ec31e51ec3a765af93722f","id":"b9763cf171e446d5864cfa0b8fe8b9bb","namespace":"300ee26a2d6746cdb7dd515ae819f5d4","startDate":"2024-09-26T15:00:00.000Z","endDate":"2024-10-03T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-09-26","end":"2024-10-03"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9a8751fe024394228fe0799d5ed96d2d52caee2ae46
 icon_image: "https://images.gog.com/969856a117a34c5fd71dc55081374910498bf703697c926dcefd0c8121a1cea4.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

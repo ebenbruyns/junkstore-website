@@ -20,6 +20,14 @@ protondb_total: 19
 protondb_confidence: "good"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 6673
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Armor Games Studios
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Japanese","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"9549","name":"Controller Support"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "4230 MB"
+install_size: "4230 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-last-stand-aftermath"
 was_free_before: true
-giveaway_events: [{"_id":"66e2f76537b88254981193cd","id":"8f58067d08bb454ab0eb8907345b8c76","namespace":"8d296e80f3ec42a79881f0693f3bded0","startDate":"2024-09-19T15:00:00.000Z","endDate":"2024-09-26T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-09-19","end":"2024-09-26"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b4d7e71b9b711b4c2f67f8759ad67dc78dab73e41bb
 icon_image: "https://images.gog.com/32ef0b3f3a6da97a84c77c5b8e18c5c585ecfdd3e7a5cc439837a41f0fbc4acf.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/87027"
 store_url: "https://store.epicgames.com/en-US/p/the-last-stand-aftermath"
 protondb_url: "https://www.protondb.com/app/1266840"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Last_Stand%3A_Aftermath"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Last_Stand:_Aftermath"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/the-last-stand-aftermath/"
 

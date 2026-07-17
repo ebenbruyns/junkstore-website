@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 1253
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Astra Logical
@@ -28,17 +36,19 @@ genre: Puzzle
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "May 4, 2015"
+release_date: "December 29, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"}]
-size: ""
+size: "90 MB"
+install_size: "305 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/239519"
 was_free_before: true
-giveaway_events: [{"_id":"67328389642319ff1e2a3f3b","id":"fddca2297b9a4354b59f8f83d4975c90","namespace":"efc30c2078a2499ab979d198255e2e4b","startDate":"2024-11-14T16:00:00.000Z","endDate":"2024-11-21T16:00:00.000Z","__v":0},{"_id":"66abf1cd3631f27c961eb981","id":"fddca2297b9a4354b59f8f83d4975c90","namespace":"efc30c2078a2499ab979d198255e2e4b","startDate":"2023-12-28T15:00:00.000Z","endDate":"2023-12-29T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-12-28","end":"2023-12-29"},{"start":"2024-11-14","end":"2024-11-21"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0f7ae1b9102962d0e707f985db4906d3a0ce76e605b
 icon_image: "https://images.gog.com/1fd58e00593898fb54735a3f2167ffa63c8edeb7a5766ab5f0781047186c81a9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

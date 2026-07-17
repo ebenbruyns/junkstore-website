@@ -20,25 +20,35 @@ protondb_total: 46
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 5556
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Serenity Forge
 developer: White Rabbit
 genre: RPG
 franchise: 
-age_rating_summary: T (ESRB) · 16 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood and Gore, Language, Use of Alcohol"},"pegi":{"rating":"16","descriptors":"Strong Violence"},"usk":{"rating":"16"}}
-release_date: "August 13, 2018"
+release_date: "July 25, 2024"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Portuguese - Brazil","Spanish - Latin America","Russian","Japanese","Korean","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"39946","name":"Serenity Forge Publisher Sale"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"39946","name":"Serenity Forge Publisher Sale"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "624 MB"
+install_size: "834 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/deaths-gambit"
 was_free_before: true
-giveaway_events: [{"_id":"66b4e0f58b71af5b22c4e540","id":"15ffd983174241ae8a00033f5f23f060","namespace":"7b9cdaaca4f5424e8d6bd7dabe559010","startDate":"2024-08-15T15:00:00.000Z","endDate":"2024-08-22T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-08-15","end":"2024-08-22"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/58c8925d94e440c7b0b420663527
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/356650/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/25040"
 store_url: "https://store.epicgames.com/en-US/p/deaths-gambit-afterlife-b5f411"
 protondb_url: "https://www.protondb.com/app/356650"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death%27s_Gambit"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death's_Gambit"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/deaths-gambit/"
 

@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 616
+gog_rating_value: 4.2
+gog_rating_count: 87
 
 # Game Info
 publisher: Iceberg Interactive
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: []
 size: "2083 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/mahokenshi-the-samurai-deckbuilder"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1717640/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1717640/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/123574"
 store_url: "https://www.gog.com/en/game/mahokenshi"
 protondb_url: "https://www.protondb.com/app/1717640"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mah%C5%8Dkenshi"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mahōkenshi"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/mahokenshi/"
 

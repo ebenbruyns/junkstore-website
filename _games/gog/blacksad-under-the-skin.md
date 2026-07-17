@@ -20,6 +20,14 @@ protondb_total: 36
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 6898
+gog_rating_value: 3.8
+gog_rating_count: 270
 
 # Game Info
 publisher: Maximum Games, Microids
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian","Dutch","Russian"]
 languages_audio: ["English","French","German","Spanish - Spain","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"41","name":"Dark"},{"id":"142","name":"Detective"},{"id":"2030","name":"city"},{"id":"269","name":"Quick-Time Events"},{"id":"289","name":"Noir"},{"id":"326","name":"Investigation"},{"id":"2184","name":"hunt"},{"id":"1943","name":"boxing"},{"id":"1158","name":"creative"}]
 size: "12859 MB"
+install_size: ""
+achievements_total: 39
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/blacksad-under-the-skin"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a3ba632a1c1f4b3dabbf717813737379cdb9fd4122e
 icon_image: "https://images.gog.com/88997a2d772663ac27e56625089b0479256bec09408696be9521d9607713876a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

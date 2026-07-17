@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 62
+steam_review_total: 52
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Disney
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"40","name":"Dark Fantasy"},{"id":"1465","name":"combat"},{"id":"113","name":"Side Scroller"},{"id":"406","name":"Story"},{"id":"305","name":"Linear"},{"id":"243","name":"1990's"},{"id":"334","name":"achievements"},{"id":"258","name":"Hand-drawn"},{"id":"981","name":"battle"},{"id":"51","name":"Destruction"},{"id":"164","name":"Cartoony"},{"id":"581","name":"Epic"},{"id":"295","name":"Soundtrack"},{"id":"204","name":"Gothic"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"151","name":"Modern"},{"id":"2232","name":"journey"},{"id":"1500","name":"immersive"},{"id":"2075","name":"sound"},{"id":"307","name":"Gaming"},{"id":"7207","name":"graphics"},{"id":"3718","name":"effects"},{"id":"9659","name":"rewind"}]
 size: "1.77 GB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/gargoyles-remastered"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/802da1c542dccde644ed6153dd9edfd9daefc9cfe88
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1928020/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

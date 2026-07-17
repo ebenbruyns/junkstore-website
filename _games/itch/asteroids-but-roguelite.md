@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 89
+steam_review_total: 19
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ghost Goats Games
@@ -33,7 +41,9 @@ game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"40850","name":"Steam Leaderboards"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"25","name":"Space"},{"id":"639","name":"Roguelike"},{"id":"61","name":"Top-Down"},{"id":"640","name":"Roguelite"},{"id":"56","name":"Shoot 'Em Up"},{"id":"57","name":"Bullet Hell"},{"id":"236","name":"Top-Down Shooter"},{"id":"201","name":"Twin Stick Shooter"},{"id":"54","name":"Score Attack"},{"id":"49964","name":"Action Roguelike"},{"id":"570","name":"Old School"},{"id":"274","name":"Gun Customization"},{"id":"49970","name":"Vehicular Combat"},{"id":"803","name":"Top down shooter"},{"id":"1162","name":"Asteroids"}]
-size: ""
+size: "91 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/asteroids-dot-dot-dot-but-roguelite"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/013fa69ce0d71c5793b32787ff9995deb13e4a0c078
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1392790/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

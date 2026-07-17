@@ -20,6 +20,14 @@ protondb_total: 23
 protondb_confidence: "good"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 4434
+gog_rating_value: 4.1
+gog_rating_count: 39
 
 # Game Info
 publisher: Frogwares
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","Engl
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"117","name":"Mystery"},{"id":"145","name":"Choices Matter"},{"id":"1465","name":"combat"},{"id":"218","name":"Multiple Endings"},{"id":"144","name":"Crime"},{"id":"406","name":"Story"},{"id":"40937","name":"Steam Trading Cards"},{"id":"142","name":"Detective"},{"id":"209","name":"Drama"},{"id":"200","name":"Narration"},{"id":"572","name":"Emotional"},{"id":"2030","name":"city"},{"id":"285","name":"Psychological"},{"id":"183","name":"Thriller"},{"id":"207","name":"Rhythm"},{"id":"326","name":"Investigation"},{"id":"3109","name":"weapons"},{"id":"997","name":"island"},{"id":"1079","name":"environment"},{"id":"654","name":"blocks"}]
 size: "27146 MB"
+install_size: ""
+achievements_total: 39
 franchise_siblings: [{"rawg_id":830271,"slug":"sherlock-holmes-the-awakened-2","name":"Sherlock Holmes The Awakened"}]
 franchise_slug: "sherlock-holmes-chapter-one|sherlock-holmes-the-awakened-2"
 igdb_url: "https://www.igdb.com/games/sherlock-holmes-chapter-one"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2aa2c11ac93b4f44279a210c282544107e654c09e27
 icon_image: "https://images.gog.com/2aa2c11ac93b4f44279a210c282544107e654c09e276234a72f2f54c077dc240.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/82678"
 store_url: "https://www.gog.com/en/game/sherlock_holmes_chapter_one"
 protondb_url: "https://www.protondb.com/app/1137300"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sherlock_Holmes%3A_Chapter_One"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sherlock_Holmes:_Chapter_One"
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/sherlock-holmes-chapter-one/"
 

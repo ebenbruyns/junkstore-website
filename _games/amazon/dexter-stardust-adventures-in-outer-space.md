@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 109
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: "Flynn's Arcade, Dexter Team Games"
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"69","name":"Action-Adventure"},{"id":"134","name":"Anime"},{"id":"141","name":"Point & Click"},{"id":"165","name":"Colorful"},{"id":"110","name":"Cinematic"},{"id":"113","name":"Side Scroller"},{"id":"90","name":"Visual Novel"},{"id":"258","name":"Hand-drawn"},{"id":"164","name":"Cartoony"},{"id":"268","name":"Comic Book"},{"id":"179","name":"Cartoon"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"288","name":"Interactive Fiction"},{"id":"224","name":"1980s"},{"id":"87","name":"Science"},{"id":"246","name":"Clicker"}]
-size: ""
+size: "1201 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/dexter-stardust-adventures-in-outer-space"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2023-09-01"},{"start":"2024-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/88be3293b3fcaa36cdd8e5f83c084178c4c01ea4243
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1647390/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,20 +20,30 @@ protondb_total: 231
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Display output has nonblocking issues"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 112008
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: NetEase Games
 developer: Everstone Studio
 genre: Action, RPG, Open World
 franchise: 
-age_rating_summary: 12 (USK)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"10","descriptors":"ClassInd 10anos"}}
 release_date: "November 14, 2025"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","Japanese","Simplified Chinese","Traditional Chinese","Korean","French","German","Spanish - Latin America","Portuguese - Brazil","Thai","Vietnamese"]
 languages_audio: ["English","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "116225 MB"
+install_size: "120152 MB"
+achievements_total: 34
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/where-winds-meet"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/3564740/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/3564740/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

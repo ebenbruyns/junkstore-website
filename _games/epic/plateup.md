@@ -20,6 +20,14 @@ protondb_total: 96
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 26687
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Yogscast Games Limited
@@ -28,17 +36,19 @@ genre: Action, Indie, Rogue-Lite
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas"}}
-release_date: "August 4, 2022"
+release_date: "October 16, 2025"
 game_modes: ["Single-player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Korean","Turkish"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"39940","name":"Gift A Game"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"39940","name":"Gift A Game"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+size: "353 MB"
+install_size: "1616 MB"
+achievements_total: 26
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/plateup"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1599600/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1599600/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

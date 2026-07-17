@@ -20,6 +20,14 @@ protondb_total: 144
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 19035
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Sega
@@ -33,7 +41,9 @@ game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Polish","Russian","Italian","Spanish - Spain","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: []
-size: ""
+size: "6925 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":529816,"slug":"endless-dungeons","name":"Endless Dungeon"},{"rawg_id":10309,"slug":"endless-space-2","name":"Endless Space 2"},{"rawg_id":1830,"slug":"dungeon-of-the-endless","name":"Dungeon of the Endless"},{"rawg_id":41457,"slug":"endless-space","name":"Endless Space"}]
 franchise_slug: "dungeon-of-the-endless|endless-dungeons|endless-legend|endless-space|endless-space-2"
 igdb_url: "https://www.igdb.com/games/endless-legend"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f74b1ce2d56b7324420579d59878d70be5734017df5
 icon_image: "https://images.gog.com/f74b1ce2d56b7324420579d59878d70be5734017df5a04aca69795f62e3306f3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

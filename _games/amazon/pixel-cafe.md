@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 858
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Baltoro Games
@@ -34,11 +42,13 @@ languages: ["English","French","German","Traditional Chinese","Japanese","Polish
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"189","name":"Female Protagonist"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"145","name":"Choices Matter"},{"id":"165","name":"Colorful"},{"id":"125","name":"Crafting"},{"id":"67","name":"Management"},{"id":"90","name":"Visual Novel"},{"id":"138","name":"Relaxing"},{"id":"305","name":"Linear"},{"id":"200","name":"Narration"},{"id":"59643","name":"Протагонистка"},{"id":"49960","name":"Life Sim"},{"id":"262","name":"Capitalism"},{"id":"568","name":"Time Management"},{"id":"666","name":"cooking"},{"id":"66655","name":"Кулинария"}]
 size: "1.19 GB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/pixel-cafe"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2409360/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2409360/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

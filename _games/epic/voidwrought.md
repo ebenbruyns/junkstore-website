@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 985
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Kwalee
@@ -32,13 +40,15 @@ release_date: "October 24, 2024"
 game_modes: ["Single Player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Hungarian","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21138","name":"Recommend this Game"},{"id":"1381","name":"Exploration"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
+size: "1363 MB"
+install_size: "1771 MB"
+achievements_total: 69
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/voidwrought"
 was_free_before: true
-giveaway_events: [{"_id":"6a327fd4570e3987f2d39e66","id":"bbccf66ad70e492d812e031e17f93b9d","namespace":"1c6e13038e00432ba0a3c11bb85d1d5f","startDate":"2026-06-25T15:00:00.000Z","endDate":"2026-07-02T15:00:00.000Z","title":"Voidwrought","__v":0}]
+giveaway_events: [{"start":"2026-06-25","end":"2026-07-02"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/491b54e6be947b3412c57a6468f92a6691225cc7398
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2014550/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

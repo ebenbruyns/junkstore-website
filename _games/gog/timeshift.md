@@ -20,6 +20,14 @@ protondb_total: 22
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 1425
+gog_rating_value: 3.8
+gog_rating_count: 193
 
 # Game Info
 publisher: Activision, Sierra Entertainment
@@ -34,6 +42,8 @@ languages: ["English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"8","name":"First-Person"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"122","name":"Pixel Graphics"},{"id":"114","name":"Physics"},{"id":"167","name":"Futuristic"},{"id":"572","name":"Emotional"},{"id":"317","name":"Time Travel"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"308","name":"Bullet Time"},{"id":"302","name":"Time Manipulation"},{"id":"49955","name":"Puzzle Platformer"}]
 size: "2828 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/timeshift"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e1084bdcf1db79336597dba8e05dc06dd5c0fe87fca
 icon_image: "https://images.gog.com/5cdebd6ad1110e1e4e102bf07347c61081f5144bc605179557097fb36fe23a68.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

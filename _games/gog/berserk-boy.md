@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 421
+gog_rating_value: 4.4
+gog_rating_count: 90
 
 # Game Info
 publisher: BerserkBoy Games
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","La
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"70","name":"War"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"167","name":"Futuristic"},{"id":"259","name":"Metroidvania"},{"id":"136","name":"Music"},{"id":"243","name":"1990's"},{"id":"981","name":"battle"},{"id":"2030","name":"city"},{"id":"91686","name":"Family Sharing"},{"id":"224","name":"1980s"},{"id":"295","name":"Soundtrack"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"1529","name":"fight"},{"id":"1309","name":"hero"},{"id":"570","name":"Old School"},{"id":"1105","name":"planet"},{"id":"1897","name":"fire"},{"id":"749","name":"army"},{"id":"1986","name":"ice"},{"id":"2483","name":"nostalgia"},{"id":"2743","name":"dash"},{"id":"8949","name":"attack"},{"id":"6287","name":"slide"},{"id":"17813","name":"merge"}]
 size: "232 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/berserk-boy"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/789d3a94573a1f8209652d0a15193161ec79b62d2d2
 icon_image: "https://images.gog.com/df7a652c5203d5298fa77ada72de61c81c662ac0ee614c03dd726358c33acb47.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

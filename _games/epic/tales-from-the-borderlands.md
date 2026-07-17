@@ -20,25 +20,35 @@ protondb_total: 53
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 19435
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Telltale Games, Take-Two Interactive
 developer: Telltale Games
 genre: Narration, Exploration, Adventure
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Drug Reference, Sexual Themes, Strong Language, Violence"},"pegi":{"rating":"18","descriptors":"Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong Violence"},"nzoflc":{"rating":"r13","descriptors":"Violence"},"dejus":{"rating":"16"}}
-release_date: "February 16, 2021"
+release_date: "February 17, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"}]
+tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "28.3 GB"
+install_size: "7830 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":836447,"slug":"new-tales-from-the-borderlands","name":"New Tales from the Borderlands"},{"rawg_id":692541,"slug":"tiny-tinas-assault-on-dragon-keep-a-wonderlands-on","name":"Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure"},{"rawg_id":58617,"slug":"borderlands-3","name":"Borderlands 3"},{"rawg_id":3543,"slug":"borderlands-the-pre-sequel","name":"Borderlands: The Pre-Sequel"},{"rawg_id":330906,"slug":"borderlands-legends","name":"Borderlands Legends"},{"rawg_id":802,"slug":"borderlands-2","name":"Borderlands 2"},{"rawg_id":4828,"slug":"borderlands","name":"Borderlands"}]
 franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|borderlands-the-pre-sequel|new-tales-from-the-borderlands|tales-from-the-borderlands|tiny-tinas-assault-on-dragon-k"
 igdb_url: "https://www.igdb.com/games/tales-from-the-borderlands"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2018-04-01"},{"start":"2024-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ac2d73c7f480687730f04eb640cb6b0f3910c440a78
 icon_image: "https://images.gog.com/b1a2cbaefd25d5bc4473de82cc070bffbf7ad861d84ae0bbab0a38483736115d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

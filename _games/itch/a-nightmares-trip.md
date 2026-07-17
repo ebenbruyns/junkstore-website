@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 98
+steam_review_total: 48
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: SKY HOUR WORKS
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"90","name":"Visual Novel"},{"id":"42410","name":"LGBTQ+"}]
-size: ""
+size: "656 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/a-nightmares-trip"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/dec25182da54c541d259b052d26725e29fa392e8381
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1156630/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -75,7 +88,7 @@ hltb_url: "https://howlongtobeat.com/game/76537"
 store_url: "https://skyhour.itch.io/a-nightmares-trip"
 protondb_url: "https://www.protondb.com/app/1156630"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_NIGHTMARE%27S_TRIP"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_NIGHTMARE'S_TRIP"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/a-nightmares-trip/"
 

@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 164
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Headup
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","Japanese","French","German","Korean","Simplified Chinese","Traditional Chinese","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "650 MB"
+install_size: "2720 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/aerial-knights-never-yield"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cc3631f27c961eb90b","id":"2fecb1793ce446408cd869611400a797","namespace":"2ed7ed64d8604265924b85bbd5670220","startDate":"2024-02-28T15:00:00.000Z","endDate":"2024-03-06T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-02-28","end":"2024-03-06"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0e34711e86db6da170929b5a31ffad6c5decccab10a
 icon_image: "https://images.gog.com/adca3d1fd74240d7694c0adf4464d8f7c278ad522382a8cf1ee71c884d1c0af5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/91068"
 store_url: "https://store.epicgames.com/en-US/p/aerial-knights-never-yield"
 protondb_url: "https://www.protondb.com/app/1323540"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aerial_Knight%27s_Never_Yield"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aerial_Knight's_Never_Yield"
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/aerialknights-never-yield/"
 

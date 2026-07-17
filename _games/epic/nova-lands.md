@@ -20,6 +20,14 @@ protondb_total: 16
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 3480
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: HypeTrain Digital
@@ -34,11 +42,13 @@ languages: ["English","Portuguese - Brazil","French","Spanish - Spain","Russian"
 languages_audio: []
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: "188 MB"
+install_size: "999 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/nova-lands"
 was_free_before: true
-giveaway_events: [{"_id":"6a44e5d5e50bf041c3ffbb0a","id":"e5da2c017d4d4afab9f4c56525b66100","namespace":"740ba4a6fbed4062a9c43d52c5996b0b","startDate":"2026-07-09T15:00:00.000Z","endDate":"2026-07-16T15:00:00.000Z","title":"Nova Lands","__v":0}]
+giveaway_events: [{"start":"2026-07-09","end":"2026-07-16"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a2532db9f7589997ec116d6e5c9f90070fdeb54e84e
 icon_image: "https://images.gog.com/50c00cc431c6bf296c6bff6e6efdb253edde5380ff8e60d87e665c6e6ade4e06.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -111,7 +124,7 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 ---
 

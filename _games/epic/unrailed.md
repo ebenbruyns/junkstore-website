@@ -20,6 +20,14 @@ protondb_total: 62
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 19633
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Daedalic Entertainment
@@ -28,17 +36,19 @@ genre: Action, Indie, Party
 franchise: 
 age_rating_summary: 0 (USK)
 age_ratings: {"usk":{"rating":"0","descriptors":"Freigegeben ohne Altersbeschränkung"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "September 23, 2020"
+release_date: "April 25, 2022"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Simplified Chinese","Korean","Portuguese - Brazil","Russian","Traditional Chinese","Italian","Spanish - Spain","Japanese","Polish","Turkish","Spanish - Latin America","Czech"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "555 MB"
+install_size: "971 MB"
+achievements_total: 52
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/unrailed"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1dc3631f27c961ebd68","id":"38ad328025584a26bab9ca92c5f5b842","namespace":"5a6d34ba28bc45d081d9311c3885feef","startDate":"2022-08-03T15:00:00.000Z","endDate":"2022-08-10T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-08-03","end":"2022-08-10"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b30d7650c5e0406aac19fb8ecb0ef486877ec329756
 icon_image: "https://images.gog.com/173496952263f8b731dad7c80e566e7f24e7f7efa911a737534e35ff229a388d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

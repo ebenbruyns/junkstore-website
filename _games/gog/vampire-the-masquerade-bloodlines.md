@@ -20,6 +20,14 @@ protondb_total: 99
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 15256
+gog_rating_value: 4.7
+gog_rating_count: 3405
 
 # Game Info
 publisher: Activision, Electronic Arts
@@ -34,6 +42,8 @@ languages: ["German","English","French"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"15","name":"Stealth"},{"id":"97","name":"Action RPG"},{"id":"41","name":"Dark"},{"id":"284","name":"Cult Classic"},{"id":"279","name":"Supernatural"},{"id":"204","name":"Gothic"},{"id":"338","name":"cloud saves"},{"id":"300","name":"Vampire"}]
 size: "2659 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":303576,"slug":"vampire-the-masquerade-bloodlines-2","name":"Vampire: The Masquerade – Bloodlines 2"},{"rawg_id":462685,"slug":"vampire-the-masquerade-swansong","name":"Vampire: The Masquerade – Swansong"},{"rawg_id":662357,"slug":"bloodhunt","name":"Vampire: The Masquerade - Bloodhunt"},{"rawg_id":430275,"slug":"vampire-the-masquerade-shadows-of-new-york","name":"Vampire: The Masquerade - Shadows of New York"},{"rawg_id":325034,"slug":"vampire-the-masquerade-coteries-of-new-york","name":"Vampire: The Masquerade - Coteries of New York"},{"rawg_id":22230,"slug":"vampire-the-masquerade-redemption","name":"Vampire: The Masquerade - Redemption"}]
 franchise_slug: "bloodhunt|vampire-the-masquerade-bloodli|vampire-the-masquerade-bloodli|vampire-the-masquerade-coterie|vampire-the-masquerade-redempt|vampire-the-masquerade-shadows|vampire-the-masquerade-swanson"
 igdb_url: "https://www.igdb.com/games/vampire-the-masquerade-bloodlines"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d281ccb40ec2ab6c498da7ddfbd7d84135567cefa71
 icon_image: "https://images.gog.com/3fc25c7ebf7ff6a122fb4a7578f6bd82b39b0cd70ce5fdc9f84eff0908cb982f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/10890"
 store_url: "https://www.gog.com/en/game/vampire_the_masquerade_bloodlines"
 protondb_url: "https://www.protondb.com/app/2600"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vampire%3A_The_Masquerade_-_Bloodlines"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vampire:_The_Masquerade_-_Bloodlines"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/vampire-the-masquerade-bloodlines/"
 

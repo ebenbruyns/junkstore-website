@@ -20,6 +20,14 @@ protondb_total: 42
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 3067
+gog_rating_value: 4.3
+gog_rating_count: 335
 
 # Game Info
 publisher: Rising Star Games, Intergrow, WayForward
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian","Japanese"]
 languages_audio: ["English"]
 tags_structured: []
 size: "441 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":366894,"slug":"shantae-and-the-seven-sirens","name":"Shantae and the Seven Sirens"},{"rawg_id":607,"slug":"shantae-half-genie-hero","name":"Shantae: Half-Genie Hero"},{"rawg_id":239252,"slug":"watch-quest-heroes-of-time","name":"Watch Quest! Heroes of Time"},{"rawg_id":1693,"slug":"shantae-riskys-revenge","name":"Shantae: Risky's Revenge"},{"rawg_id":24077,"slug":"shantae","name":"Shantae"}]
 franchise_slug: "shantae|shantae-and-the-pirates-curse|shantae-and-the-seven-sirens|shantae-half-genie-hero|shantae-riskys-revenge|watch-quest-heroes-of-time"
 igdb_url: "https://www.igdb.com/games/shantae-and-the-pirates-curse"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b09afa75a1ef85e3d600f5ef18078ac7362fdf2d27a
 icon_image: "https://images.gog.com/71d182923e7ffee703475a1b09529735bc9cd9827619cf0f2692366d13f54d3d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/22140"
 store_url: "https://www.gog.com/en/game/shantae_and_the_pirates_curse"
 protondb_url: "https://www.protondb.com/app/345820"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shantae_and_the_Pirate%27s_Curse"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shantae_and_the_Pirate's_Curse"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/shantae-and-the-pirates-curse/"
 

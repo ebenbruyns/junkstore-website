@@ -20,6 +20,14 @@ protondb_total: 108
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 18267
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Deck13 Interactive, WhisperGames, DANGEN Entertainment, Mayflower Entertainment
@@ -34,6 +42,8 @@ languages: ["English","German","Simplified Chinese","Japanese","Korean"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"14","name":"Early Access"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"468","name":"role-playing"},{"id":"336","name":"controller support"},{"id":"226","name":"Cyberpunk"},{"id":"337","name":"overlay"},{"id":"233","name":"JRPG"},{"id":"143","name":"RPGMaker"},{"id":"340","name":"in development"}]
 size: "545 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/crosscode"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5ffe049a4a1ad1a357f74b46360e62c8a417acee92c
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/368340/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 1383
+gog_rating_value: 3.3
+gog_rating_count: 115
 
 # Game Info
 publisher: Mi-Clos Studio
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","French","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"40850","name":"Steam Leaderboards"},{"id":"70","name":"War"},{"id":"102","name":"Turn-Based"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"808","name":"character"},{"id":"2889","name":"balance"},{"id":"2689","name":"rocket"},{"id":"1724","name":"Superpowers"},{"id":"836","name":"drone"}]
 size: "609 MB"
+install_size: ""
+achievements_total: 32
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sigma-theory-global-cold-war--1"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2020-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8a2707a16f86862e043cad24821d1796f1220ca6ab8
 icon_image: "https://images.gog.com/285497372a4bce446748cdceb7aa0dde8cc034112824849ee27df4a35610e600.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/67690"
 store_url: "https://www.gog.com/en/game/sigma_theory_global_cold_war"
 protondb_url: "https://www.protondb.com/app/716640"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sigma_Theory%3A_Global_Cold_War"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sigma_Theory:_Global_Cold_War"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/sigma-theory-global-cold-war/"
 

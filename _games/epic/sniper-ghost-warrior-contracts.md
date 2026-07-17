@@ -20,25 +20,35 @@ protondb_total: 49
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 13141
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: CI Games SE
 developer: CI Games SE
 genre: First Person, Shooter, Stealth
 franchise: Sniper Ghost Warrior Contracts
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18"},"oflc":{"rating":"ma15"},"nzoflc":{"rating":"r16"},"csrr":{"rating":"R"},"dejus":{"rating":"16"}}
-release_date: "November 22, 2019"
+release_date: "September 5, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Traditional Chinese","Simplified Chinese","Polish","Portuguese - Brazil","Russian","Czech","Korean","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21135","name":"Realistic Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "12527 MB"
+install_size: "39244 MB"
+achievements_total: 40
 franchise_siblings: [{"rawg_id":457730,"slug":"sniper-ghost-warrior-contracts-2","name":"Sniper: Ghost Warrior Contracts 2"},{"rawg_id":42151,"slug":"sniper-ghost-warrior-3","name":"Sniper: Ghost Warrior 3"},{"rawg_id":17600,"slug":"sniper-ghost-warrior-2-2","name":"Sniper: Ghost Warrior 2"},{"rawg_id":17536,"slug":"sniper-ghost-warrior","name":"Sniper: Ghost Warrior"}]
 franchise_slug: "sniper-ghost-warrior|sniper-ghost-warrior-2-2|sniper-ghost-warrior-3|sniper-ghost-warrior-contracts|sniper-ghost-warrior-contracts"
 igdb_url: "https://www.igdb.com/games/199639"
 was_free_before: true
-giveaway_events: [{"_id":"66d090765f16ab5d12c0aa2c","id":"20f88d53af6e4e59876ed82749db4ee5","namespace":"3196925cb7ea45c3a9c47118e52a820e","startDate":"2024-09-05T15:00:00.000Z","endDate":"2024-09-12T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-09-05","end":"2024-09-12"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/44c519c637b49201c0c2753307e765de2acf49d5a4e
 icon_image: "https://images.gog.com/25a868a34b73aba4a0ab0ca2381f33ff6868a7974f47c50363513d70e1f17193.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/68384"
 store_url: "https://store.epicgames.com/en-US/p/sniper-ghost-warrior-contracts-c772b9"
 protondb_url: "https://www.protondb.com/app/973580"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sniper%3A_Ghost_Warrior_Contracts"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sniper:_Ghost_Warrior_Contracts"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/sniper-ghost-warrior-contracts/"
 

@@ -20,6 +20,14 @@ protondb_total: 157
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 15504
+gog_rating_value: 4.8
+gog_rating_count: 4495
 
 # Game Info
 publisher: Square Enix
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"3605","name":"tool"},{"id":"891","name":"jam"},{"id":"973","name":"libGDX"}]
 size: "525 MB"
+install_size: ""
+achievements_total: 255
 franchise_siblings: []
 franchise_slug: "deus-ex|deus-ex-2-invisible-war|deus-ex-go|deus-ex-human-revolution|deus-ex-mankind-divided|deus-ex-the-fall"
 igdb_url: "https://www.igdb.com/games/deus-ex-special-limited-edition"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c527efe7f50e88311d107beaed21add8c421837f01e
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/6910/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -62,7 +75,7 @@ dependencies:
 # website's GOG-Features section only shows Cloud Saves for now. Remove the
 # leading "# " on any line to enable that chip on the rendered page.)
 gog_cloud_saves: true
-# gog_achievements: false
+# gog_achievements: true
 # gog_overlay: false
 # gog_leaderboards: false
 

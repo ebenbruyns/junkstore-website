@@ -20,6 +20,14 @@ protondb_total: 28
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 67
+steam_review_total: 4119
+gog_rating_value: 3.6
+gog_rating_count: 334
 
 # Game Info
 publisher: Dear Villagers
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"25","name":"Space"},{"id":"110","name":"Cinematic"},{"id":"91","name":"Walking Simulator"},{"id":"40937","name":"Steam Trading Cards"},{"id":"305","name":"Linear"},{"id":"209","name":"Drama"},{"id":"200","name":"Narration"},{"id":"269","name":"Quick-Time Events"},{"id":"288","name":"Interactive Fiction"},{"id":"183","name":"Thriller"},{"id":"583","name":"Narrative"},{"id":"263","name":"Mars"},{"id":"1500","name":"immersive"},{"id":"5468","name":"qte"}]
 size: "6259 MB"
+install_size: ""
+achievements_total: 20
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/fort-solis"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1931730/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1931730/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

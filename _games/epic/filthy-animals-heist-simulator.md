@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 68
+steam_review_total: 164
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Green Man Gaming Publishing
@@ -33,12 +41,14 @@ game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Simplified Chinese"]
 languages_audio: ["English","French","German","Spanish - Spain","Simplified Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-size: ""
+size: "1897 MB"
+install_size: "6819 MB"
+achievements_total: 28
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/filthy-animals-heist-simulator"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3411622cd93d0657d7395462ed605c121eafe0ec794
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1195420/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

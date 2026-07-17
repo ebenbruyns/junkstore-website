@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 328
+gog_rating_value: 4.3
+gog_rating_count: 24
 
 # Game Info
 publisher: Midwest Games
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"32","name":"Sci-fi"},{"id":"37","name":"Sandbox"},{"id":"1","name":"Survival"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"14","name":"Early Access"},{"id":"88","name":"Cute"},{"id":"114","name":"Physics"},{"id":"113","name":"Side Scroller"},{"id":"56","name":"Shoot 'Em Up"},{"id":"57","name":"Bullet Hell"},{"id":"317","name":"Time Travel"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"87","name":"Science"},{"id":"308","name":"Bullet Time"},{"id":"607","name":"Unity"},{"id":"1965","name":"duck"},{"id":"12867","name":"adaptive-music"}]
 size: "214 MB"
+install_size: ""
+achievements_total: 35
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/duck-paradox"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/81b4b2de2c1bd47cfef075448627c4aa036b86523ee
 icon_image: "https://images.gog.com/2b6fa4cff9f42266c7a541bc9ca2da7032719fbad010cb5e704c11b174ac9e4a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

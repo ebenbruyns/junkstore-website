@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 735
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: indie.io
@@ -34,11 +42,13 @@ languages: ["English","Korean","Simplified Chinese","Russian","Hungarian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"1","name":"Survival"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"80","name":"Tactical"},{"id":"41","name":"Dark"},{"id":"43","name":"Post-apocalyptic"},{"id":"1465","name":"combat"},{"id":"167","name":"Futuristic"},{"id":"61","name":"Top-Down"},{"id":"270","name":"Blood"},{"id":"175","name":"Turn-Based Combat"},{"id":"91686","name":"Family Sharing"},{"id":"1529","name":"fight"},{"id":"3109","name":"weapons"},{"id":"272","name":"Inventory Management"},{"id":"570","name":"Old School"},{"id":"64326","name":"Постапокалипсис"},{"id":"1079","name":"environment"},{"id":"1743","name":"collect"},{"id":"822","name":"escape"},{"id":"1753","name":"guns"},{"id":"298","name":"Grid-Based Movement"},{"id":"568","name":"Time Management"},{"id":"316","name":"Mining"},{"id":"18426","name":"enemy"},{"id":"1887","name":"moon"},{"id":"4336","name":"invaders"},{"id":"1642","name":"melee"},{"id":"6581","name":"enemies"},{"id":"1699","name":"town"},{"id":"1412","name":"design"},{"id":"1397","name":"meteor"},{"id":"8007","name":"movement"},{"id":"1733","name":"harvest"}]
 size: "671 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/subterrain-mines-of-titan"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1573100/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1573100/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

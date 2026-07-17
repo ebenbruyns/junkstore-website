@@ -20,6 +20,14 @@ protondb_total: 15
 protondb_confidence: "moderate"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 68
+steam_review_total: 1226
+gog_rating_value: 3.6
+gog_rating_count: 463
 
 # Game Info
 publisher: Eidos Interactive
@@ -34,6 +42,8 @@ languages: ["German","English"]
 languages_audio: ["English"]
 tags_structured: []
 size: "1144 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "blood-omen-legacy-of-kain|legacy-of-kain-ascendance|legacy-of-kain-blood-omen-2|legacy-of-kain-defiance|legacy-of-kain-defiance-remast|legacy-of-kain-soul-reaver|legacy-of-kain-soul-reaver-12-|legacy-of-kain-soul-reaver-2|nosgoth"
 igdb_url: "https://www.igdb.com/games/blood-omen-2-legacy-of-kain"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0b5c9da185049adf99cad4a17da664f3e76f0a7b080
 icon_image: "https://images.gog.com/bade7ae5bd972805ec4e65df9ce1544a7477b4ebc5cb8a030fcf2132722b540a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/1183"
 store_url: "https://www.gog.com/en/game/legacy_of_kain_blood_omen_2"
 protondb_url: "https://www.protondb.com/app/242960"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legacy_of_Kain%3A_Blood_Omen_2"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legacy_of_Kain:_Blood_Omen_2"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/blood-omen-2/"
 

@@ -20,6 +20,14 @@ protondb_total: 259
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 58597
+gog_rating_value: 4.2
+gog_rating_count: 1778
 
 # Game Info
 publisher: Microsoft Game Studios, Nordic Games Publishing, E-Frontier, Remedy Entertainment, Namco Bandai Partners, Legacy Interactive
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: ["English","German","French","Italian","Spanish - Spain","Japanese","Spanish - Latin America"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"1","name":"Survival"},{"id":"150","name":"Third-Person Shooter"},{"id":"41","name":"Dark"},{"id":"17","name":"Survival Horror"},{"id":"336","name":"controller support"},{"id":"117","name":"Mystery"},{"id":"110","name":"Cinematic"},{"id":"232","name":"Episodic"},{"id":"200","name":"Narration"},{"id":"279","name":"Supernatural"},{"id":"183","name":"Thriller"},{"id":"36002","name":"psycholoical-horror"},{"id":"7629","name":"enviroment"}]
 size: "7973 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":580972,"slug":"alan-wake-2","name":"Alan Wake 2"},{"rawg_id":18336,"slug":"alan-wakes-american-nightmare","name":"Alan Wake's American Nightmare"}]
 franchise_slug: "alan-wake|alan-wake-2|alan-wakes-american-nightmare"
 igdb_url: "https://www.igdb.com/games/alan-wake"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2019-08-01","end":"2019-08-08"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/33aa9867f8b843e23f35837c44e73524c6fba0aef81
 icon_image: "https://images.gog.com/33aa9867f8b843e23f35837c44e73524c6fba0aef81c40f2d0f9e02117356550.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

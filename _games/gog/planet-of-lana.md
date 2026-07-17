@@ -20,6 +20,14 @@ protondb_total: 34
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 10156
+gog_rating_value: 4.7
+gog_rating_count: 888
 
 # Game Info
 publisher: Thunderful
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"115","name":"Controller"},{"id":"134","name":"Anime"},{"id":"107","name":"Family Friendly"},{"id":"165","name":"Colorful"},{"id":"110","name":"Cinematic"},{"id":"113","name":"Side Scroller"},{"id":"167","name":"Futuristic"},{"id":"40937","name":"Steam Trading Cards"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"572","name":"Emotional"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"49955","name":"Puzzle Platformer"},{"id":"202","name":"Artificial Intelligence"}]
 size: "6228 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":1015907,"slug":"planet-of-lana-2-children-of-the-leaf","name":"planet of lana 2 children of the leaf"}]
 franchise_slug: "planet-of-lana|planet-of-lana-2-children-of-t"
 igdb_url: "https://www.igdb.com/games/planet-of-lana"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f54fbdd9b52507f4a56d2119fdb2e94e842253acd08
 icon_image: "https://images.gog.com/7e807626f4bf9ca28fc3fd57b35f0ddec542f0644a35f77a1d60272a9d535960.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

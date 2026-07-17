@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 56
+gog_rating_value: 4.3
+gog_rating_count: 12
 
 # Game Info
 publisher: SSI (Strategic Simulations, Inc.)
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: []
 size: "321 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "ravenloft-stone-prophet|ravenloft-strahd-s-possession"
 igdb_url: "https://www.igdb.com/games/al-qadim-the-genie-s-curse"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8a29ab25397c17c7205a65bfecb23989dcbb9b7699c
 icon_image: "https://images.gog.com/75aa24717e3ef05396f2fe74e2149fd7fb5dbe18b11ea0f670e8cc5e7d031a51.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: "dosbox"

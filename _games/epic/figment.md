@@ -20,6 +20,14 @@ protondb_total: 41
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 5668
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Bedtime Digital Games
@@ -32,13 +40,15 @@ release_date: "March 26, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian","Portuguese - Brazil"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: "725 MB"
+install_size: "713 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "figment|figment-2-creed-valley"
 igdb_url: "https://www.igdb.com/games/figment-2-creed-valley"
 was_free_before: true
-giveaway_events: [{"_id":"685be089ab24856ad1451018","id":"addd4e86c4d746ab86f21606bdadce7d","namespace":"270e1d648a5e4060b7b441615c4da4d9","startDate":"2025-07-03T15:00:00.000Z","endDate":"2025-07-10T15:00:00.000Z","title":"Figment","__v":0},{"_id":"66abf1f43631f27c961ec381","id":"addd4e86c4d746ab86f21606bdadce7d","namespace":"270e1d648a5e4060b7b441615c4da4d9","startDate":"2020-03-25T15:00:00.000Z","endDate":"2020-04-01T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2020-03-25","end":"2020-04-01"},{"start":"2021-04-01"},{"start":"2025-07-03","end":"2025-07-10"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1286900fea4fb4f154987f15bb5e11396670b1c174c
 icon_image: "https://images.gog.com/aa02ba2f4562187f000799fb33e60c9c582c85fed5c76f24bf1c4f1e5ce84e15.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/99345"
 store_url: "https://store.epicgames.com/en-US/p/figment"
 protondb_url: "https://www.protondb.com/app/493540"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment_2%3A_Creed_Valley"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment_2:_Creed_Valley"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/figment/"
 

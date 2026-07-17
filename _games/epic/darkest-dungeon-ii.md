@@ -20,20 +20,30 @@ protondb_total: 89
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 160525
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Red Hook Studios
 developer: Red Hook Studios
 genre: Turn-Based Strategy, RPG, Strategy
 franchise: 
-age_rating_summary: T (ESRB) · 16 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Alcohol Reference, Blood and Gore, Mild Language, Partial Nudity, Suggestive Themes, Violence"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Mature themes and violence"},"dejus":{"rating":"12","descriptors":"Drogas lícitas, Linguagem imprópria, Medo"}}
-release_date: "January 19, 2016"
+release_date: "October 26, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Czech","Polish","Portuguese - Brazil","Russian","Italian","Simplified Chinese","Korean","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
-size: ""
+size: "1801 MB"
+install_size: ""
+achievements_total: 65
 franchise_siblings: [{"rawg_id":295014,"slug":"darkest-dungeon-2","name":"Darkest Dungeon 2"}]
 franchise_slug: "darkest-dungeon|darkest-dungeon-2"
 igdb_url: "https://www.igdb.com/games/115425"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9f933e7dfd547c509a100d85d64d476fcb359ad4da2
 icon_image: "https://images.gog.com/4706601359313181ab74f53a1089b4be781897f3ade363bbaf7624a745a95797.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false

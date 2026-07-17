@@ -20,25 +20,35 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 63
+steam_review_total: 515
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: KONAMI
 developer: KeelWorks
 genre: Action, Shooter
 franchise: 
-age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Suggestive Themes, Mild Languages"},"pegi":{"rating":"7","descriptors":"Violence, Fear"},"usk":{"rating":"12","descriptors":"Handlungsdruck"},"cero":{"rating":"B","descriptors":"Sexual Content"},"oflc":{"rating":"PG","descriptors":"Mild science fiction violence, online interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild science fiction violence, online interactivity"},"kgrb":{"rating":"12","descriptors":"Mild Sexual, Mild Violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
 release_date: "August 5, 2024"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Polish","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","German","Japanese","Spanish - Latin America"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
 size: "20.3 GB"
+install_size: "21023 MB"
+achievements_total: 22
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/cygni-all-guns-blazing"
 was_free_before: true
-giveaway_events: [{"_id":"66abfad55736a265e483cb25","id":"ce86ed5a3c0d48eaa5326dda50105a9b","namespace":"5d9f109e44ec4c8bbc5495f43b601f25","startDate":"2024-08-08T15:00:00.000Z","endDate":"2024-08-15T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-08-08","end":"2024-08-15"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8a5026460e0c138e9c021186e64c9a86ea0854e42f4
 icon_image: "https://images.gog.com/74977800473cf7d3b14ede29f9ec819e95698ef74bd79da4247ed701f7e4a13c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -18,8 +18,16 @@ protondb_tier: ""
 protondb_score: 
 protondb_total: 
 protondb_confidence: ""
-steam_deck_verified: "unknown"
-steam_deck_category: 0
+steam_deck_verified: "verified"
+steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 89
+steam_review_total: 37
+gog_rating_value: 3.6
+gog_rating_count: 14
 
 # Game Info
 publisher: Bonus Stage Publishing
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"41","name":"Dark"},{"id":"571","name":"3D"},{"id":"131","name":"Fast-Paced"},{"id":"56","name":"Shoot 'Em Up"},{"id":"57","name":"Bullet Hell"},{"id":"187","name":"Demons"},{"id":"236","name":"Top-Down Shooter"},{"id":"201","name":"Twin Stick Shooter"}]
 size: "2149 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/bullet-runner-the-first-slaughter"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8d42b3af216cd035c5e45f9c6da8564996071e36a48
 icon_image: "https://images.gog.com/417ad99dc9673a36701f95942a2d839209d4254aaaa04d012bc37a41b55062ff.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Riot Games, Inc.
@@ -33,7 +41,9 @@ game_modes: ["Multiplayer"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+size: "64 MB"
+install_size: "71 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ae2f5c501deed14ff64d9f64d8ab2b34de2d6566ac3
 icon_image: "https://images.gog.com/048679d4dc6ea2eb2d417bbf0180885afb1fa017a0e6311d8b15cb5bf6861d75.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 97
+steam_review_total: 35
+gog_rating_value: 4.4
+gog_rating_count: 34
 
 # Game Info
 publisher: SNEG
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"80","name":"Tactical"},{"id":"74","name":"Retro"},{"id":"70","name":"War"},{"id":"102","name":"Turn-Based"},{"id":"89","name":"Historical"},{"id":"99","name":"Isometric"},{"id":"101","name":"Turn-Based Strategy"},{"id":"243","name":"1990's"},{"id":"175","name":"Turn-Based Combat"},{"id":"104","name":"Wargame"}]
 size: "534 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/wargame-construction-set-iii-age-of-rifles-1846-1905"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-06-18","end":"2026-07-19"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/55bcac2e70a82a59b623ba076155c7d6c084b9f969e
 icon_image: "https://images.gog.com/888ead251d20467884475cfdb526d3990403b2737ca6814b50b650c95726e1f1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

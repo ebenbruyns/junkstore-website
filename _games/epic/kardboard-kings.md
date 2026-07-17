@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 72
+steam_review_total: 478
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Akupara Games
@@ -32,13 +40,15 @@ release_date: "February 10, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Spanish - Spain","Japanese","Simplified Chinese","Russian"]
 languages_audio: []
-tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21119","name":"Great for Beginners"}]
+size: "873 MB"
+install_size: "1038 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/kardboard-kings-card-shop-simulator"
 was_free_before: true
-giveaway_events: [{"_id":"6707e9d570dc7ffdb323cd6d","id":"747d522e0451439590fa6647ae67f58a","namespace":"22a9bc193ad94ab78155b5c2f9541e6b","startDate":"2024-10-17T15:00:00.000Z","endDate":"2024-10-24T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-05-01"},{"start":"2024-10-17","end":"2024-10-24"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/70badf061e4e084da349b916951cc8558cf79844ca2
 icon_image: "https://images.gog.com/83b6a3cee1ed006503869529c81173ee477fef27c9f06370da830e0e4753dd47.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

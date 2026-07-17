@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 1452
+gog_rating_value: 4.1
+gog_rating_count: 42
 
 # Game Info
 publisher: Hooded Horse
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","Engl
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"80","name":"Tactical"},{"id":"14","name":"Early Access"},{"id":"25","name":"Space"},{"id":"102","name":"Turn-Based"},{"id":"5","name":"Replay Value"},{"id":"1465","name":"combat"},{"id":"639","name":"Roguelike"},{"id":"39","name":"Building"},{"id":"168","name":"RTS"},{"id":"101","name":"Turn-Based Strategy"},{"id":"406","name":"Story"},{"id":"40937","name":"Steam Trading Cards"},{"id":"640","name":"Roguelite"},{"id":"196","name":"Procedural Generation"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"2030","name":"city"},{"id":"127","name":"Card Game"},{"id":"91686","name":"Family Sharing"},{"id":"1221","name":"history"},{"id":"2232","name":"journey"},{"id":"1505","name":"ship"},{"id":"14194","name":"deckbuilding"},{"id":"754","name":"gun"},{"id":"18426","name":"enemy"},{"id":"49950","name":"Card Battler"},{"id":"3680","name":"defense"},{"id":"3574","name":"laser"},{"id":"2546","name":"ships"},{"id":"55322","name":"Roguelike Deckbuilder"},{"id":"6581","name":"enemies"},{"id":"3729","name":"choices"},{"id":"1605","name":"horse"},{"id":"6063","name":"cook"},{"id":"3209","name":"grapple"}]
 size: "1714 MB"
+install_size: ""
+achievements_total: 24
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/50bcd4c72cbbc4ffd75d794663bc0ba3f441f3850fc
 icon_image: "https://images.gog.com/50bcd4c72cbbc4ffd75d794663bc0ba3f441f3850fcd595fc4b8644edda8a790.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

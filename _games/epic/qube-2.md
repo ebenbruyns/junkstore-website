@@ -20,6 +20,14 @@ protondb_total: 37
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 1740
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Toxic Games
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Italian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"}]
-size: ""
+size: "7137 MB"
+install_size: "7137 MB"
+achievements_total: 29
 franchise_siblings: [{"rawg_id":41054,"slug":"qube","name":"Q.U.B.E."}]
 franchise_slug: "qube|qube-2"
 igdb_url: "https://www.igdb.com/games/qube-2"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1f93631f27c961ec4cd","id":"0c8b6d95ff2746648ccd356dbf941c12","namespace":"4b5f1eb366dc45f0920d397c01b291ba","startDate":"2019-10-23T15:00:00.000Z","endDate":"2019-10-30T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2018-07-01"},{"start":"2019-10-23","end":"2019-10-30"},{"start":"2020-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6f1e1add47032d8ce810239085521b5b1382b7abedc
 icon_image: "https://images.gog.com/8d365d5a57e9c3d3c1ff7c1f79a390cae78d9468badd04e73c83b5d5d1c124c0.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

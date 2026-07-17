@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 85
+steam_review_total: 26
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Blowfish Studios
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Jap
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"2865","name":"girl"}]
 size: "1.28 GB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/projection-first-light"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-06-01"},{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1a9f1afb3f1762974cd618771be0fffd6233774e007
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/726490/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

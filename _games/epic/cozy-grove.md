@@ -20,6 +20,14 @@ protondb_total: 15
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 8413
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Spry Fox
@@ -28,17 +36,19 @@ genre: Indie, Casual
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"10"}}
-release_date: "April 7, 2021"
+release_date: "April 8, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Dutch","Korean","Portuguese - Brazil","Russian","Traditional Chinese","Turkish","Arabic"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"21894","name":"Cloud Saves"},{"id":"1127","name":"Investigation"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1296","name":"Casual"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "713 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/cozy-grove"
 was_free_before: true
-giveaway_events: [{"_id":"69a99e6e6ec24ef56244ed97","id":"c367569acede446995c5a3663e993446","namespace":"768ec2d3b5114ac4a800631b12ee3f31","startDate":"2026-03-12T15:00:00.000Z","endDate":"2026-03-19T15:00:00.000Z","title":"Cozy Grove","__v":0}]
+giveaway_events: [{"start":"2026-03-12","end":"2026-03-19"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1458100/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1458100/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

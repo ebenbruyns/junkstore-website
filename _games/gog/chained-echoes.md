@@ -20,6 +20,14 @@ protondb_total: 20
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 8013
+gog_rating_value: 4.4
+gog_rating_count: 178
 
 # Game Info
 publisher: Ark Heiral, Deck13 Spotlight
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","French","Japanese","Korean"
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"6","name":"Exploration"},{"id":"122","name":"Pixel Graphics"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"}]
 size: "792 MB"
+install_size: ""
+achievements_total: 37
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/chained-echoes"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/578196d109bcb439c4b440db7fd63580b236013c836
 icon_image: "https://images.gog.com/578196d109bcb439c4b440db7fd63580b236013c8368abe02b2f4b95758e6368.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -62,7 +75,7 @@ dependencies:
 # website's GOG-Features section only shows Cloud Saves for now. Remove the
 # leading "# " on any line to enable that chip on the rendered page.)
 gog_cloud_saves: false
-# gog_achievements: false
+# gog_achievements: true
 # gog_overlay: false
 # gog_leaderboards: false
 

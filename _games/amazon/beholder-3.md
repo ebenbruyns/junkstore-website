@@ -20,6 +20,14 @@ protondb_total: 12
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 65
+steam_review_total: 2796
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Alawar Premium
@@ -34,11 +42,13 @@ languages: ["English","German","Russian","Simplified Chinese","French","Turkish"
 languages_audio: ["English","German","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"41","name":"Dark"},{"id":"141","name":"Point & Click"},{"id":"145","name":"Choices Matter"},{"id":"99","name":"Isometric"},{"id":"218","name":"Multiple Endings"},{"id":"119","name":"Dystopian"},{"id":"67","name":"Management"},{"id":"148","name":"Dark Humor"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"42410","name":"LGBTQ+"},{"id":"287","name":"Political"},{"id":"1529","name":"fight"},{"id":"1709","name":"work"},{"id":"146","name":"Nonlinear"},{"id":"3803","name":"boss"},{"id":"1328","name":"office"},{"id":"3786","name":"sacrifice"},{"id":"5222","name":"avoid"},{"id":"49952","name":"Political Sim"},{"id":"2480","name":"spy"},{"id":"9081","name":"search"},{"id":"56824","name":"单人"},{"id":"59174","name":"Steam 成就"},{"id":"77160","name":"部分支持控制器"},{"id":"77161","name":"Steam 云"}]
 size: "5.19 GB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":51081,"slug":"beholder-2","name":"Beholder 2"},{"rawg_id":10090,"slug":"beholder","name":"Beholder"}]
 franchise_slug: "beholder|beholder-2|beholder-3"
 igdb_url: "https://www.igdb.com/games/beholder-3"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"},{"start":"2025-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ca20e874d51e84dafbbd1ff531a25df93b85a2dec47
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1570070/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

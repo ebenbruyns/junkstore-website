@@ -20,6 +20,14 @@ protondb_total: 18
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 8217
+gog_rating_value: 4
+gog_rating_count: 333
 
 # Game Info
 publisher: Daedalic Entertainment
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Hungaria
 languages_audio: ["English","Russian","French","German","Simplified Chinese","Traditional Chinese","Japanese"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
 size: "1790 MB"
+install_size: ""
+achievements_total: 75
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/iratus-lord-of-the-dead"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2022-06-29","end":"2022-07-06"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/27470eea4b8846eb1cb73359fb1e37697ce512e18c1
 icon_image: "https://images.gog.com/2ebdc8b79594b38999e281e85d4d8fc3ecfbe5695e70998857edcbf969827fda.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

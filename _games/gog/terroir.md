@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 395
+gog_rating_value: 2.7
+gog_rating_count: 104
 
 # Game Info
 publisher: General Interactive
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"14","name":"Early Access"},{"id":"67","name":"Management"},{"id":"195","name":"Economy"}]
 size: "527 MB"
+install_size: ""
+achievements_total: 26
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/455066f995a6ee16301996afddb2d2adc73da6271fe
 icon_image: "https://images.gog.com/f522a265009e85e9190aa790ba5358c97b19666e184bbacebd26bb20380506a1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 53
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 2115
+gog_rating_value: 4.9
+gog_rating_count: 1560
 
 # Game Info
 publisher: Square Enix, Eidos Interactive, Eidos Montréal
@@ -34,6 +42,8 @@ languages: ["English","French"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"40","name":"Dark Fantasy"},{"id":"66","name":"Medieval"},{"id":"154","name":"Steampunk"},{"id":"284","name":"Cult Classic"},{"id":"42473","name":"Immersive Sim"}]
 size: "824 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":3766,"slug":"thief","name":"Thief"},{"rawg_id":22846,"slug":"thief-3-deadly-shadows","name":"Thief 3: Deadly Shadows"},{"rawg_id":31777,"slug":"thief-the-dark-project","name":"Thief: The Dark Project"}]
 franchise_slug: "thief|thief-3-deadly-shadows|thief-ii-the-metal-age|thief-the-dark-project"
 igdb_url: "https://www.igdb.com/games/thief-ii-the-metal-age"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5cb91ca20bf25bd1f1aa1e6982d27207ce931f1f738
 icon_image: "https://images.gog.com/2230e78e9a25221d729db2607644704a1891e924324332375c1e43a03fa3462a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/10298"
 store_url: "https://www.gog.com/en/game/thief_2_the_metal_age"
 protondb_url: "https://www.protondb.com/app/211740"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thief_II%3A_The_Metal_Age"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thief_II:_The_Metal_Age"
 metacritic_score: 87
 metacritic_url: "https://www.metacritic.com/game/thief-ii-the-metal-age/"
 

@@ -20,25 +20,35 @@ protondb_total: 16
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 414
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: KONAMI
 developer: Far Out Games
 genre: Action, Narration, Adventure
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Crude Humor, Language"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"usk":{"rating":"16","descriptors":"Violence"},"cero":{"rating":"C","descriptors":"Crime, Violence"},"oflc":{"rating":"PG","descriptors":"Mild themes, violence and coarse language"},"kgrb":{"rating":"15","descriptors":"Violence, Bad Language"},"fpb":{"rating":"16","descriptors":"Mild Language, Low impact Violence, Photo Pattern Sensitivity, Competative intensity."},"csrr":{"rating":"C12"},"dejus":{"rating":"14","descriptors":"Violência,, Linguagem Imprópria"}}
 release_date: "May 22, 2025"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Spanish - Latin America","Japanese","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"1395","name":"Narration"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"1395","name":"Narration"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "4.05 GB"
+install_size: "8391 MB"
+achievements_total: 39
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/deliver-at-all-costs"
 was_free_before: true
-giveaway_events: [{"_id":"6825f9c0a9f7ba0ebca35cbe","id":"75a9f751a9964f46b3a37b396d2edc52","namespace":"2ef976af17b74478a4b2938d54bb3db4","startDate":"2025-05-22T15:00:00.000Z","endDate":"2025-05-29T15:00:00.000Z","title":"Deliver At All Costs","__v":0}]
+giveaway_events: [{"start":"2025-05-22","end":"2025-05-29"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/60cfdf0d8d1a18868bac0d04cbf735c9f35aaa63ea8
 icon_image: "https://images.gog.com/a44d45c7630571d1614ef8a3789c29d0ec450a5cd2bd9a6b1309050f08b04008.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

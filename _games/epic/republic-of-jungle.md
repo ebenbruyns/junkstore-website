@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 199
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Gerdoo Games
@@ -33,12 +41,14 @@ game_modes: ["Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1299","name":"Competitive"},{"id":"1110","name":"Party"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
-size: ""
+size: "353 MB"
+install_size: "1014 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/republic-of-jungle"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b425f5e7038e7965ef30f5871d4cfc6e76790794649
 icon_image: "https://images.gog.com/2e70c112f297d86e1dd98254933e7fdb719242e1ba7e2b9bc218a0532ce3260f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

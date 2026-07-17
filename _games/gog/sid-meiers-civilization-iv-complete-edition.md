@@ -20,6 +20,14 @@ protondb_total: 53
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 3626
+gog_rating_value: 4.6
+gog_rating_count: 700
 
 # Game Info
 publisher: 2K Games
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: []
 size: "3041 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":983201,"slug":"sid-meiers-civilization-vii","name":"Sid Meier’s Civilization VII"},{"rawg_id":10297,"slug":"civilization-vi","name":"Sid Meier’s Civilization VI"},{"rawg_id":13633,"slug":"civilization-v","name":"Sid Meier's Civilization V"},{"rawg_id":17380,"slug":"sid-meiers-civilization-iii-complete","name":"Sid Meier's Civilization III Complete"},{"rawg_id":32060,"slug":"sid-meiers-civilization-2","name":"Sid Meier's Civilization 2"},{"rawg_id":32062,"slug":"sid-meiers-civilization","name":"Sid Meier's Civilization"}]
 franchise_slug: "civilization-v|civilization-vi|sid-meiers-civilization|sid-meiers-civilization-2|sid-meiers-civilization-iii-co|sid-meiers-civilization-iv|sid-meiers-civilization-vii"
 igdb_url: "https://www.igdb.com/games/sid-meier-s-civilization-iv"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/16183278025dc84b93bb3392d326e108ac006122d73
 icon_image: "https://images.gog.com/f1fd32be26fb7a06039c97e6e45a5d2f41bfeea58147e3ecec4a15e0e19beaa3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/8505"
 store_url: "https://www.gog.com/en/game/sid_meiers_civilization_iv_the_complete_edition"
 protondb_url: "https://www.protondb.com/app/3900"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sid_Meier%27s_Civilization_IV"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sid_Meier's_Civilization_IV"
 metacritic_score: 90
 metacritic_url: "https://www.metacritic.com/game/sid-meiers-civilization-iii/"
 

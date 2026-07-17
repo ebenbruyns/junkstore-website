@@ -20,6 +20,14 @@ protondb_total: 11
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 960
+gog_rating_value: 3.2
+gog_rating_count: 170
 
 # Game Info
 publisher: Blini Games
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","Italian","Rus
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
 size: "337 MB"
+install_size: ""
+achievements_total: 35
 franchise_siblings: [{"rawg_id":670705,"slug":"lovecrafts-untold-stories-2-2","name":"Lovecraft's Untold Stories 2"}]
 franchise_slug: "lovecrafts-untold-stories|lovecrafts-untold-stories-2-2"
 igdb_url: "https://www.igdb.com/games/lovecrafts-untold-stories"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/01518a0327601a53b419a60e7f4ff5580f1b0e62377
 icon_image: "https://images.gog.com/6c7dd8c1b3faed031a3963bf2354c6ce125cccc61b7ec037486bb120cc189245.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/59847"
 store_url: "https://www.gog.com/en/game/lovecrafts_untold_stories"
 protondb_url: "https://www.protondb.com/app/871420"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lovecraft%27s_Untold_Stories"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lovecraft's_Untold_Stories"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/lovecrafts-untold-stories?ftag=MCD-06-10aaa1f"
 

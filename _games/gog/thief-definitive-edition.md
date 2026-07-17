@@ -20,6 +20,14 @@ protondb_total: 136
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 23935
+gog_rating_value: 3.6
+gog_rating_count: 394
 
 # Game Info
 publisher: Eidos Interactive Corporation
@@ -34,11 +42,13 @@ languages: ["Czech","German","English","Spanish","French","Italian","Polish","Ru
 languages_audio: ["English","German","French","Italian","Spanish - Spain","Russian"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "23957 MB"
+install_size: ""
+achievements_total: 37
 franchise_siblings: [{"rawg_id":22846,"slug":"thief-3-deadly-shadows","name":"Thief 3: Deadly Shadows"},{"rawg_id":10241,"slug":"thief-ii-the-metal-age","name":"Thief II: The Metal Age"},{"rawg_id":31777,"slug":"thief-the-dark-project","name":"Thief: The Dark Project"}]
 franchise_slug: "thief|thief-3-deadly-shadows|thief-ii-the-metal-age|thief-the-dark-project"
 igdb_url: "https://www.igdb.com/games/thief"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/340014520fce89589954de3354849c4a49639007e12
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/239160/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 1147
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: HandyGames
@@ -34,11 +42,13 @@ languages: ["English","German","French","Spanish - Spain","Japanese","Russian","
 languages_audio: ["English","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"}]
 size: "1292 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/through-the-darkest-of-times"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-03-01"},{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5e1ae178554be0aed43e7bcd11e7314aad151dece75
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1003090/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

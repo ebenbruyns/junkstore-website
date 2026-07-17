@@ -20,6 +20,14 @@ protondb_total: 13
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 3114
+gog_rating_value: 3
+gog_rating_count: 216
 
 # Game Info
 publisher: Draw Distance
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"468","name":"role-playing"},{"id":"192","name":"Mature"},{"id":"808","name":"character"},{"id":"288","name":"Interactive Fiction"},{"id":"300","name":"Vampire"},{"id":"1652","name":"night"},{"id":"1746","name":"dialogue"}]
 size: "1677 MB"
+install_size: ""
+achievements_total: 28
 franchise_siblings: [{"rawg_id":303576,"slug":"vampire-the-masquerade-bloodlines-2","name":"Vampire: The Masquerade – Bloodlines 2"},{"rawg_id":462685,"slug":"vampire-the-masquerade-swansong","name":"Vampire: The Masquerade – Swansong"},{"rawg_id":662357,"slug":"bloodhunt","name":"Vampire: The Masquerade - Bloodhunt"},{"rawg_id":430275,"slug":"vampire-the-masquerade-shadows-of-new-york","name":"Vampire: The Masquerade - Shadows of New York"},{"rawg_id":19397,"slug":"vampire-the-masquerade-bloodlines","name":"Vampire: The Masquerade - Bloodlines"},{"rawg_id":22230,"slug":"vampire-the-masquerade-redemption","name":"Vampire: The Masquerade - Redemption"}]
 franchise_slug: "bloodhunt|vampire-the-masquerade-bloodli|vampire-the-masquerade-bloodli|vampire-the-masquerade-coterie|vampire-the-masquerade-redempt|vampire-the-masquerade-shadows|vampire-the-masquerade-swanson"
 igdb_url: "https://www.igdb.com/games/vampire-the-masquerade-coteries-of-new-york"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e9cffaf86b2b2cee13baf9f9b354b879d9b3acea915
 icon_image: "https://images.gog.com/80ef8b0f9f3c15900fa58e41b21377c1ca36d8dac4bab0ea6379cbf3119c984d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/72916"
 store_url: "https://www.gog.com/en/game/vampire_the_masquerade_coteries_of_new_york"
 protondb_url: "https://www.protondb.com/app/1096410"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vampire%3A_The_Masquerade_-_Coteries_of_New_York"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vampire:_The_Masquerade_-_Coteries_of_New_York"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/vampire-the-masquerade-coteries-of-new-york/"
 

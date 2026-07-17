@@ -20,6 +20,14 @@ protondb_total: 43
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 71
+steam_review_total: 7201
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Twin Sails Interactive
@@ -32,13 +40,15 @@ release_date: "May 5, 2022"
 game_modes: ["Single-player","Online Multiplayer","Local Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Swedish"]
 languages_audio: []
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"}]
-size: ""
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"}]
+size: "174 MB"
+install_size: "291 MB"
+achievements_total: 30
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/terraforming-mars"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1de3631f27c961ebdfd","id":"f2496286331e405793d69807755b7b23","namespace":"25d726130e6c4fe68f88e71933bda955","startDate":"2022-05-04T15:00:00.000Z","endDate":"2022-05-11T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-05-04","end":"2022-05-11"},{"start":"2026-06-25","end":"2026-08-27"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ff34b1cf21ba76220b3ec98e6b6af231800ffa9df85
 icon_image: "https://images.gog.com/6e82bd9137d15e74ac088dbdbcdeab3a6e14b7398c8fc172b07206735ecc85ec.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

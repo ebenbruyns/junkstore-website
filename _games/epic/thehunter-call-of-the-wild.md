@@ -20,6 +20,14 @@ protondb_total: 248
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 200460
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Expansive Worlds
@@ -32,13 +40,15 @@ release_date: "November 25, 2021"
 game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","French","German","Portuguese - Brazil","Russian","Spanish - Spain","Czech","Polish","Simplified Chinese","Japanese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "70413 MB"
+install_size: "108407 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/thehunter-call-of-the-wild"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d23631f27c961ebaf1","id":"7b0d120a875547e9bec70192ddcc96e2","namespace":"c7f9346e3db148fca6dd63e9dd8451bd","startDate":"2023-06-21T15:00:00.000Z","endDate":"2023-06-28T15:00:00.000Z","__v":0},{"_id":"66abf1e33631f27c961ebf38","id":"7b0d120a875547e9bec70192ddcc96e2","namespace":"c7f9346e3db148fca6dd63e9dd8451bd","startDate":"2021-11-24T15:00:00.000Z","endDate":"2021-12-01T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-11-24","end":"2021-12-01"},{"start":"2023-06-21","end":"2023-06-28"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f71c68aab9641f07969854b0d50ec80300e8f4f3820
 icon_image: "https://images.gog.com/f348f6176b76b2b5ce44adb2fd126dd15e3f133e99cd500c8d5d7a579a659010.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/43633"
 store_url: "https://store.epicgames.com/en-US/p/thehunter-call-of-the-wild"
 protondb_url: "https://www.protondb.com/app/518790"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Hunter%3A_Call_of_the_Wild"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Hunter:_Call_of_the_Wild"
 metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/thehunter-call-of-the-wild/"
 

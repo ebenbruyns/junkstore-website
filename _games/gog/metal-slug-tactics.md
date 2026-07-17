@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 1506
+gog_rating_value: 4.5
+gog_rating_count: 63
 
 # Game Info
 publisher: DotEmu
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"80","name":"Tactical"},{"id":"74","name":"Retro"},{"id":"70","name":"War"},{"id":"102","name":"Turn-Based"},{"id":"1465","name":"combat"},{"id":"81","name":"Military"},{"id":"67","name":"Management"},{"id":"640","name":"Roguelite"},{"id":"91686","name":"Family Sharing"},{"id":"184","name":"Mechs"},{"id":"55","name":"Tanks"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"}]
 size: "1279 MB"
+install_size: ""
+achievements_total: 93
 franchise_siblings: [{"rawg_id":651393,"slug":"metal-slug-commander","name":"Metal Slug: Commander"},{"rawg_id":7426,"slug":"metal-slug-attack","name":"METAL SLUG ATTACK"},{"rawg_id":215,"slug":"metal-slug-defence","name":"METAL SLUG DEFENSE"},{"rawg_id":4985,"slug":"metal-slug-xx","name":"METAL SLUG XX"},{"rawg_id":24654,"slug":"metal-slug-7","name":"Metal Slug 7"},{"rawg_id":2246,"slug":"metal-slug-anthology","name":"Metal Slug Anthology"},{"rawg_id":359207,"slug":"metal-slug-6","name":"Metal Slug 6"},{"rawg_id":53419,"slug":"metal-slug-advance","name":"Metal Slug Advance"},{"rawg_id":311734,"slug":"metal-slug-5","name":"Metal Slug 5"},{"rawg_id":26941,"slug":"metal-slug-4","name":"Metal Slug 4"},{"rawg_id":460423,"slug":"metal-slug-2nd-mission","name":"Metal Slug: 2nd Mission"},{"rawg_id":1488,"slug":"metal-slug-3","name":"METAL SLUG 3"},{"rawg_id":816304,"slug":"metal-slug-1st-mission","name":"Metal Slug: 1st Mission"},{"rawg_id":4808,"slug":"metal-slug-x","name":"Metal Slug X"},{"rawg_id":6256,"slug":"metal-slug-2","name":"METAL SLUG 2"},{"rawg_id":14948,"slug":"metal-slug","name":"METAL SLUG"}]
 franchise_slug: "metal-slug|metal-slug-1st-mission|metal-slug-2|metal-slug-2nd-mission|metal-slug-3|metal-slug-4|metal-slug-5|metal-slug-6|metal-slug-7|metal-slug-advance|metal-slug-anthology|metal-slug-attack|metal-slug-commander|metal-slug-defence|metal-slug-tactics|metal-slug-x|metal-slug-xx"
 igdb_url: "https://www.igdb.com/games/metal-slug-tactics"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5a12160636bc2aad5f98aef8a2bc17ff686167b0126
 icon_image: "https://images.gog.com/2fb58e7779fd5afd39f04159e01367531455ac18efe1909f0ce238e11018734c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

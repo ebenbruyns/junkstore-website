@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 99
+steam_review_total: 286
+gog_rating_value: 3.9
+gog_rating_count: 83
 
 # Game Info
 publisher: Crunching Koalas
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","French","Dutc
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"69","name":"Action-Adventure"},{"id":"88","name":"Cute"},{"id":"5","name":"Replay Value"},{"id":"110","name":"Cinematic"},{"id":"113","name":"Side Scroller"},{"id":"136","name":"Music"},{"id":"209","name":"Drama"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"288","name":"Interactive Fiction"},{"id":"295","name":"Soundtrack"},{"id":"309","name":"Dynamic Narration"}]
 size: "250 MB"
+install_size: ""
+achievements_total: 9
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/once-upon-a-jester"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2023-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e8ed0b4aab4a112838257349267680bf98a47d2a150
 icon_image: "https://images.gog.com/668b46389ea6edb4ee91e635df1e92d5003b6b8c805f45d651b88a697cf34e34.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

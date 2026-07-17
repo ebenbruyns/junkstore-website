@@ -20,6 +20,14 @@ protondb_total: 38
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 72
+steam_review_total: 2766
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Team17
@@ -32,13 +40,15 @@ release_date: "November 4, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Italian"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1146","name":"City Builder"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21127","name":"Creative Community"},{"id":"1146","name":"City Builder"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "12485 MB"
+install_size: "16967 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/aven-colony"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e43631f27c961ebf58","id":"408e1dacff9c4ddabecb93b1e6183db9","namespace":"31bd7140ab344cd59a770e14b2afbcea","startDate":"2021-11-03T15:00:00.000Z","endDate":"2021-11-10T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-11-03","end":"2021-11-10"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0691ae0fc6a367dbab499a0bf07680f98e6faeccc33
 icon_image: "https://images.gog.com/5e3d01f14212ea1a5d722a10bad6fe7ca0b138a7fb7a0e3f7dfc163761b4c2f2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

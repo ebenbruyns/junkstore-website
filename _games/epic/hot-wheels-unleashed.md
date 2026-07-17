@@ -20,6 +20,14 @@ protondb_total: 59
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 7579
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Milestone S.r.l.
@@ -33,12 +41,14 @@ game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese","Portuguese - Brazil","Korean"]
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "26923 MB"
+install_size: "27188 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":367210,"slug":"hot-wheels-infinite-loop","name":"Hot Wheels Infinite Loop"},{"rawg_id":73104,"slug":"hot-wheels-race-off","name":"Hot Wheels: Race Off"},{"rawg_id":42346,"slug":"hot-wheels-worlds-best-driver","name":"Hot Wheels: World's Best Driver"},{"rawg_id":357792,"slug":"hot-wheels-ultimate-racing","name":"Hot Wheels: Ultimate Racing"},{"rawg_id":26195,"slug":"hot-wheels-battle-force-5","name":"Hot Wheels Battle Force 5"},{"rawg_id":25219,"slug":"hot-wheels-beat-that","name":"Hot Wheels: Beat That!"},{"rawg_id":36383,"slug":"hot-wheels-stunt-track-challenge","name":"Hot Wheels: Stunt Track Challenge"},{"rawg_id":53329,"slug":"hot-wheels-world-race-2","name":"Hot Wheels: World Race"},{"rawg_id":30884,"slug":"hot-wheels-bash-arena","name":"Hot Wheels Bash Arena"},{"rawg_id":30140,"slug":"hot-wheels-velocity-x","name":"Hot Wheels: Velocity X"},{"rawg_id":53019,"slug":"hot-wheels-extreme-racing","name":"Hot Wheels Extreme Racing"},{"rawg_id":32137,"slug":"hot-wheels-mechanix","name":"Hot Wheels Mechanix"},{"rawg_id":32123,"slug":"hot-wheels-stunt-track-driver-2-getn-dirty","name":"Hot Wheels Stunt Track Driver 2: Get'n Dirty"},{"rawg_id":32472,"slug":"hot-wheels-micro-racers","name":"Hot Wheels Micro Racers"},{"rawg_id":53021,"slug":"hot-wheels-turbo-racing","name":"Hot Wheels Turbo Racing"},{"rawg_id":330594,"slug":"hot-wheels-stunt-track-driver","name":"Hot Wheels Stunt Track Driver"},{"rawg_id":535534,"slug":"hot-wheels-all-out","name":"Hot Wheels All Out"}]
 franchise_slug: "hot-wheels-all-out|hot-wheels-bash-arena|hot-wheels-battle-force-5|hot-wheels-beat-that|hot-wheels-extreme-racing|hot-wheels-infinite-loop|hot-wheels-mechanix|hot-wheels-micro-racers|hot-wheels-race-off|hot-wheels-stunt-track-challen|hot-wheels-stunt-track-driver|hot-wheels-stunt-track-driver-|hot-wheels-turbo-racing|hot-wheels-ultimate-racing|hot-wheels-unleashed|hot-wheels-velocity-x|hot-wheels-world-race-2|hot-wheels-worlds-best-driver"
 igdb_url: "https://www.igdb.com/games/hot-wheels-unleashed"
 was_free_before: true
-giveaway_events: [{"_id":"676d7602b48c71ac5e1f8a98","id":"7626d56f226c49c5af79685abf167cb6","namespace":"71e6bd85af1841f598526da595f22a62","startDate":"2024-12-27T16:00:00.000Z","endDate":"2024-12-28T16:00:00.000Z","title":"HOT WHEELS UNLEASHED™","__v":0}]
+giveaway_events: [{"start":"2024-12-27","end":"2024-12-28"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5addbd7394a8f15b8894d93301746d0a5eec785078f
 icon_image: "https://images.gog.com/ac6e0fd44705acf9b6dd412ed127b50a2389049a3cfcef8d366ab9cf528747b8.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

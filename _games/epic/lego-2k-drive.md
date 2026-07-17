@@ -20,25 +20,35 @@ protondb_total: 23
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 62
+steam_review_total: 1836
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: 2K
 developer: Visual Concepts
 genre: Racing
 franchise: 
-age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Violence, In-Game Purchases"},"usk":{"rating":"6","descriptors":"Handlunsdruck, Schreckmomente"},"oflc":{"rating":"G","descriptors":"Very mild crude humour, violence and coarse language, online interactivity"},"nzoflc":{"rating":"G","descriptors":"Very mild crude humour, violence and coarse language, online interactivity"},"kgrb":{"rating":"ALL","descriptors":"Violence"},"fpb":{"rating":"7-9PG"},"csrr":{"rating":"P6","descriptors":"Violence"},"dejus":{"rating":"L","descriptors":"Violência Fantasiosa"}}
-release_date: "May 18, 2023"
+release_date: "May 19, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Danish","Dutch","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Spanish - Latin America"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "11479 MB"
+install_size: "11866 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/lego-2k-drive"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1451810/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1451810/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 61
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 5603
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Dreamhaven
@@ -28,17 +36,19 @@ genre: Action, Adventure, Casual, Massively Multiplayer, Racing, RPG, Strategy
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"pegi":{"rating":"12","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "July 22, 2025"
+release_date: "January 1, 2099"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Russian","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Russian"]
 tags_structured: [{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"30","name":"FPS"},{"id":"9","name":"Online Co-Op"},{"id":"157","name":"PvP"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"25","name":"Space"},{"id":"40837","name":"In-App Purchases"},{"id":"11","name":"Team-Based"},{"id":"45878","name":"Online PvP"},{"id":"171","name":"PvE"},{"id":"91686","name":"Family Sharing"},{"id":"255","name":"Pirates"},{"id":"241","name":"Space Sim"},{"id":"35162","name":"Battle Royale"},{"id":"38844","name":"looter shooter"},{"id":"91537","name":"HDR available"},{"id":"49998","name":"Лутер-шутер"},{"id":"92228","name":"Stereo Sound"},{"id":"92227","name":"Custom Volume Controls"},{"id":"92237","name":"Surround Sound"},{"id":"92225","name":"Playable without Timed Input"},{"id":"92236","name":"Subtitle Options"},{"id":"92233","name":"Color Alternatives"},{"id":"92234","name":"Adjustable Text Size"},{"id":"91424","name":"Extraction Shooter"},{"id":"10790","name":"spaceships"},{"id":"92260","name":"Chat Text-to-speech"},{"id":"92271","name":"Chat Speech-to-text"}]
-size: ""
+size: "8651 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/wildgate"
 was_free_before: true
-giveaway_events: [{"_id":"695ba6d2db5053ca545695a9","id":"acd0b5048a0d43ec80909788a388964a","namespace":"d5241c76f178492ea1540fce45616757","startDate":"2026-01-01T16:00:00.000Z","endDate":"2026-01-08T16:00:00.000Z","title":"Wildgate","__v":0}]
+giveaway_events: [{"start":"2026-01-01","end":"2026-01-08"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/3504780/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/3504780/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

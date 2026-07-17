@@ -20,6 +20,14 @@ protondb_total: 33
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 98
+steam_review_total: 9333
+gog_rating_value: 4.7
+gog_rating_count: 45
 
 # Game Info
 publisher: Epopeia Games, HAMMER95
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","English","Spanish","L
 languages_audio: ["English","Portuguese - Brazil"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"40850","name":"Steam Leaderboards"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"571","name":"3D"},{"id":"131","name":"Fast-Paced"},{"id":"226","name":"Cyberpunk"},{"id":"640","name":"Roguelite"},{"id":"197","name":"Robots"},{"id":"243","name":"1990's"},{"id":"166","name":"Stylized"},{"id":"116","name":"2.5D"},{"id":"91686","name":"Family Sharing"},{"id":"224","name":"1980s"},{"id":"54","name":"Score Attack"},{"id":"88047","name":"boomer shooter"}]
 size: "3670 MB"
+install_size: ""
+achievements_total: 48
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/mullet-madjack"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a2e6e3fe5f6f2a7c7a178563d5061ca9121a7acbbf3
 icon_image: "https://images.gog.com/a2e6e3fe5f6f2a7c7a178563d5061ca9121a7acbbf37b0f81e11be8e99984cec.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

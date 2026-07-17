@@ -20,6 +20,14 @@ protondb_total: 96
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 6836
+gog_rating_value: 3.9
+gog_rating_count: 329
 
 # Game Info
 publisher: Square Enix, Eidos Interactive, Feral Interactive, Warner Bros. Interactive Entertainment
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian","Dutch"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"149","name":"Third Person"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"150","name":"Third-Person Shooter"},{"id":"188","name":"Parkour"},{"id":"133","name":"3D Vision"},{"id":"306","name":"Lara Croft"}]
 size: "6992 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":51329,"slug":"shadow-of-the-tomb-raider","name":"Shadow of the Tomb Raider"},{"rawg_id":7689,"slug":"rise-of-the-tomb-raider","name":"Rise of the Tomb Raider"},{"rawg_id":700,"slug":"lara-croft-go","name":"Lara Croft GO"},{"rawg_id":1875,"slug":"lara-croft-relic-run","name":"Lara Croft: Relic Run"},{"rawg_id":3474,"slug":"lara-croft-and-the-temple-of-osiris","name":"Lara Croft and the Temple of Osiris"},{"rawg_id":5286,"slug":"tomb-raider","name":"Tomb Raider"},{"rawg_id":4882,"slug":"lara-croft-gol","name":"Lara Croft and the Guardian of Light"},{"rawg_id":5297,"slug":"tomb-raider-anniversary","name":"Tomb Raider: Anniversary"},{"rawg_id":25045,"slug":"lara-croft-tomb-raider-legend","name":"Lara Croft Tomb Raider: Legend"},{"rawg_id":5298,"slug":"tomb-raider-legend","name":"Tomb Raider: Legend"},{"rawg_id":22865,"slug":"tomb-raider-the-angel-of-darkness","name":"Tomb Raider: The Angel of Darkness"},{"rawg_id":53485,"slug":"tomb-raider-the-prophecy","name":"Tomb Raider: The Prophecy"},{"rawg_id":54917,"slug":"tomb-raider-curse-of-the-sword","name":"Tomb Raider: Curse of the Sword"},{"rawg_id":12279,"slug":"tomb-raider-chronicles","name":"Tomb Raider V: Chronicles"},{"rawg_id":938006,"slug":"tomb-raider-gbc","name":"Tomb Raider (GBC)"},{"rawg_id":368083,"slug":"tomb-raider-starring-lara-croft","name":"Tomb Raider Starring Lara Croft"},{"rawg_id":31218,"slug":"tomb-raider-3-the-lost-artifact","name":"Tomb Raider 3: The Lost Artifact"},{"rawg_id":22864,"slug":"tomb-raider-the-last-revelation-chronicles","name":"Tomb Raider: The Last Revelation + Chronicles"},{"rawg_id":12280,"slug":"tomb-raider-the-last-revelation","name":"Tomb Raider IV: The Last Revelation"},{"rawg_id":34588,"slug":"tomb-raider-2-golden-mask","name":"Tomb Raider 2: Golden Mask"},{"rawg_id":32122,"slug":"tomb-raider-3-adventures-of-lara-croft","name":"Tomb Raider 3: Adventures of Lara Croft"},{"rawg_id":57908,"slug":"tomb-raider-ii","name":"Tomb Raider II"},{"rawg_id":31759,"slug":"tomb-raider-1996","name":"Tomb Raider (1996)"}]
 franchise_slug: "lara-croft-and-the-temple-of-o|lara-croft-go|lara-croft-gol|lara-croft-relic-run|lara-croft-tomb-raider-legend|rise-of-the-tomb-raider|shadow-of-the-tomb-raider|tomb-raider|tomb-raider-1996|tomb-raider-2-golden-mask|tomb-raider-3-adventures-of-la|tomb-raider-3-the-lost-artifac|tomb-raider-anniversary|tomb-raider-chronicles|tomb-raider-curse-of-the-sword|tomb-raider-gbc|tomb-raider-ii|tomb-raider-legend|tomb-raider-starring-lara-crof|tomb-raider-the-angel-of-darkn|tomb-raider-the-last-revelatio|tomb-raider-the-last-revelatio|tomb-raider-the-prophecy|tomb-raider-underworld"
 igdb_url: "https://www.igdb.com/games/tomb-raider-underworld"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/14afb687627bba99bf56f29d09fb63cbcd72678784a
 icon_image: "https://images.gog.com/715a4f8c5fe906ace44bc5083bfe356dd26029f750506608e31ed35d6d8902f3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/10482"
 store_url: "https://www.gog.com/en/game/tomb_raider_underworld"
 protondb_url: "https://www.protondb.com/app/8140"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider%3A_Underworld"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider:_Underworld"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/tomb-raider-underworld/"
 

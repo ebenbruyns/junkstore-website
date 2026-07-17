@@ -20,13 +20,21 @@ protondb_total: 64
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 36422
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Devolver Digital
 developer: Four Quarters
 genre: Indie, Card Game
 franchise: Loop Hero
-age_rating_summary: 12 (USK)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"usk":{"rating":"12"},"kgrb":{"rating":"ALL","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Drogas lícitas"}}
 release_date: "March 4, 2021"
 game_modes: ["Single player"]
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Japanese","Korean","R
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "185 MB"
+install_size: "210 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/loop-hero"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d13631f27c961ebaa5","id":"db122f42b41f4dec927e0f280cf653bd","namespace":"ff50f85ed609454e80ac46d9496da34d","startDate":"2023-08-02T15:00:00.000Z","endDate":"2023-08-09T15:00:00.000Z","__v":0},{"_id":"66abf1e23631f27c961ebeee","id":"db122f42b41f4dec927e0f280cf653bd","namespace":"ff50f85ed609454e80ac46d9496da34d","startDate":"2021-12-19T15:00:00.000Z","endDate":"2021-12-20T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-12-19","end":"2021-12-20"},{"start":"2023-08-02","end":"2023-08-09"},{"start":"2024-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8ef3980678c5a1a96bc924663def96362a91fdcf362
 icon_image: "https://images.gog.com/dc1f63ac806f9cd519266d5e76ccf042319a97f42df2e3d9974e578544594f61.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

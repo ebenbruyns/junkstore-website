@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 86
+steam_review_total: 37
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: HandyGames
@@ -33,7 +41,9 @@ game_modes: ["Single-player"]
 languages: ["English","German","Spanish - Latin America"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "29236 MB"
+install_size: "51282 MB"
+achievements_total: 12
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/a-rats-quest-the-way-back-home"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1124420/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1124420/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

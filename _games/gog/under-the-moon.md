@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 71
+steam_review_total: 24
+gog_rating_value: 2
+gog_rating_count: 58
 
 # Game Info
 publisher: The Pack Studios
@@ -34,6 +42,8 @@ languages: ["English","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"6","name":"Exploration"},{"id":"14","name":"Early Access"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"117","name":"Mystery"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"91","name":"Walking Simulator"},{"id":"138","name":"Relaxing"},{"id":"166","name":"Stylized"},{"id":"140","name":"Hidden Object"},{"id":"326","name":"Investigation"},{"id":"49955","name":"Puzzle Platformer"},{"id":"323","name":"Word Game"},{"id":"1234","name":"ambient"}]
 size: "1355 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/under-the-moon--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/95eab1a8360dec7618c73648dd4f41d1452fa53a8a7
 icon_image: "https://images.gog.com/45367b215bdf87b0e035654d9e71e2cd329d3354b09eedbf7c10a7d2b0117bca.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

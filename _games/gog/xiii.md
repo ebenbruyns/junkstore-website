@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Negative"
+steam_review_percent: 39
+steam_review_total: 1593
+gog_rating_value: 4.1
+gog_rating_count: 1374
 
 # Game Info
 publisher: Ubisoft Entertainment, Feral Interactive
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","French","Italian","Spanish - Spain","German"]
 tags_structured: []
 size: "2124 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/xiii--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c2bc02847ddc05851b2959faa22723543dc001d9972
 icon_image: "https://images.gog.com/c2bc02847ddc05851b2959faa22723543dc001d99722c8b9d44c3d51569c0496.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/11413"
 store_url: "https://www.gog.com/en/game/xiii"
 protondb_url: "https://www.protondb.com/app/1154790"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/XIII_%282020%29"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/XIII_(2020)"
 metacritic_score: 41
 metacritic_url: "https://www.metacritic.com/game/xiii-remake/"
 

@@ -20,6 +20,14 @@ protondb_total: 123
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 42083
+gog_rating_value: 4.1
+gog_rating_count: 658
 
 # Game Info
 publisher: Square Enix, Feral Interactive, Eidos Montréal
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","French","Ital
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "35528 MB"
+install_size: ""
+achievements_total: 64
 franchise_siblings: [{"rawg_id":74114,"slug":"deus-ex-go","name":"Deus Ex GO"},{"rawg_id":441,"slug":"deus-ex-the-fall","name":"Deus Ex: The Fall"},{"rawg_id":4440,"slug":"deus-ex-human-revolution","name":"Deus Ex: Human Revolution"},{"rawg_id":22859,"slug":"deus-ex-2-invisible-war","name":"Deus Ex 2: Invisible War"},{"rawg_id":30243,"slug":"deus-ex","name":"Deus Ex"}]
 franchise_slug: "deus-ex|deus-ex-2-invisible-war|deus-ex-go|deus-ex-human-revolution|deus-ex-mankind-divided|deus-ex-the-fall"
 igdb_url: "https://www.igdb.com/games/deus-ex-mankind-divided"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-03-13","end":"2024-03-20"},{"start":"2024-08-01"},{"start":"2025-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8a612a80a3113cfba87f451255ec70e6f7dfb89ce5e
 icon_image: "https://images.gog.com/f8981a8d45ada3097eecf4f5823564e605c9710fdaafb1a67e4431a1e6d990e1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

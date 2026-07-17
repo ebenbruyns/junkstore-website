@@ -20,6 +20,14 @@ protondb_total: 36
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 16959
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Turning Wheel LLC
@@ -28,17 +36,19 @@ genre: First Person, Dungeon Crawler
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Medo, Temas sensíveis, Linguagem imprópria, Conteúdo sexual, Drogas lícitas"}}
-release_date: "June 23, 2015"
+release_date: "July 30, 2020"
 game_modes: ["Single-player","Co-op"]
 languages: ["English"]
 languages_audio: ["English"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1258","name":"Rogue-Like"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
-size: ""
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1258","name":"Rogue-Like"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+size: "789 MB"
+install_size: "1290 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/barony"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1f03631f27c961ec293","id":"3fb9665744a5404d95de612ddc445f35","namespace":"b79cdb6e07ea4ce9a82c00a0fb079ca5","startDate":"2020-07-29T15:00:00.000Z","endDate":"2020-08-05T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2020-07-29","end":"2020-08-05"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/08b7fa342d3f93bbdffda1233afbcfb1aac253fba97
 icon_image: "https://images.gog.com/ceb4c869081cb452d9135943e1491f3d3124865b88b104728dbf6c7ef4a9ed69.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,25 +20,35 @@ protondb_total: 17
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 994
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: FLARB LLC
 developer: WIZNWAR
 genre: Action, Horror
 franchise: 
-age_rating_summary: 7 (PEGI) · 6 (USK)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"pegi":{"rating":"7","descriptors":"Mild Violence"},"usk":{"rating":"6","descriptors":"Abstract Violence"},"oflc":{"rating":"PG","descriptors":"Mild Violence, Scary Scenes"},"csrr":{"rating":"C12","descriptors":"Horror, Violence"},"dejus":{"rating":"L","descriptors":"Violence"}}
-release_date: "December 13, 2019"
+release_date: "May 10, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1218","name":"Horror"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1218","name":"Horror"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "337 MB"
+install_size: "738 MB"
+achievements_total: 29
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/demons-tilt"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1df3631f27c961ebe4a","id":"08f2539567df4d43a1b0f8a5196f43cc","namespace":"c4a39e8e304c4356afcddd79820b223d","startDate":"2022-03-23T15:00:00.000Z","endDate":"2022-03-30T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-03-23","end":"2022-03-30"},{"start":"2024-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/17225b367b8831a84cf12fb1cfeec10e0353dc5352b
 icon_image: "https://images.gog.com/9fa7ee6320734b45901e3db59bf492c9d20753f3b9b59a4b396efd6965832500.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/64628"
 store_url: "https://store.epicgames.com/en-US/p/demons-tilt"
 protondb_url: "https://www.protondb.com/app/422510"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Demon%27s_Tilt"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Demon's_Tilt"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/demons-tilt/"
 

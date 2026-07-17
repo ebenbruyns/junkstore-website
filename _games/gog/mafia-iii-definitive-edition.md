@@ -20,6 +20,14 @@ protondb_total: 116
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 57
+steam_review_total: 63456
+gog_rating_value: 3.5
+gog_rating_count: 1683
 
 # Game Info
 publisher: 2K
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","Engl
 languages_audio: ["English","French","Italian","German","Spanish - Spain"]
 tags_structured: []
 size: "52061 MB"
+install_size: ""
+achievements_total: 85
 franchise_siblings: [{"rawg_id":987515,"slug":"mafia-the-old-country","name":"Mafia: The Old Country"},{"rawg_id":442854,"slug":"mafia","name":"Mafia: Definitive Edition"},{"rawg_id":442855,"slug":"mafia-ii-definitive-edition","name":"Mafia II: Definitive Edition"},{"rawg_id":1169,"slug":"mafia-iii","name":"Mafia III"},{"rawg_id":1416,"slug":"mafia-ii","name":"Mafia II"},{"rawg_id":30899,"slug":"mafia-the-city-of-lost-heaven","name":"Mafia: The City of Lost Heaven"}]
 franchise_slug: "mafia|mafia-ii|mafia-ii-definitive-edition|mafia-iii|mafia-iii-definitive-edition|mafia-the-city-of-lost-heaven|mafia-the-old-country"
 igdb_url: "https://www.igdb.com/games/mafia-iii"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-04-01"},{"start":"2026-06-02","end":"2026-07-07"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4dd988e3f64e5cbfdb5898dc98d525cdea590e7957c
 icon_image: "https://images.gog.com/3ae8163a47734a7eab1773fb3664d2ac2ec2fe34b024a5aa3f08c4840af2fc2a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

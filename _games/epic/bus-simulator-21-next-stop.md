@@ -20,6 +20,14 @@ protondb_total: 19
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 70
+steam_review_total: 6626
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Astragon Entertainment GmbH
@@ -28,17 +36,19 @@ genre: Simulation
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"oflc":{"rating":"G"},"dejus":{"rating":"6"}}
-release_date: "September 7, 2021"
+release_date: "May 16, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Korean","Polish","Russian","Traditional Chinese","Turkish","Simplified Chinese","Spanish - Latin America"]
 languages_audio: ["English","German","Simplified Chinese"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "9728 MB"
+install_size: "23602 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/bus-simulator-21--1"
 was_free_before: true
-giveaway_events: [{"_id":"6748884182a0ee999bf30e4a","id":"10adac482d1647e1afc237b66dc45066","namespace":"2b09519576cb4276bfd8df52f5288e4a","startDate":"2024-12-05T16:00:00.000Z","endDate":"2024-12-12T16:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-03-01"},{"start":"2024-12-05","end":"2024-12-12"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c7f4521cc1b15e34c3223b8af2c7347057d528e6be2
 icon_image: "https://images.gog.com/e9d176ce18d73e4b98e4d7a76c65c02236af16e4df4b8b3dde2303e2e8543f40.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

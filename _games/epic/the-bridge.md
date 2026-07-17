@@ -20,6 +20,14 @@ protondb_total: 11
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 4353
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: The Quantum Astrophysicists Guild
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","Dutch","French","German","Hungarian","Italian","Portuguese - Portugal","Romanian","Spanish - Spain","Turkish","Russian","Portuguese - Brazil","Arabic","Japanese","Korean","Polish","Simplified Chinese","Thai","Danish","Finnish","Norwegian","Swedish","Traditional Chinese","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"}]
-size: ""
+size: "277 MB"
+install_size: "346 MB"
+achievements_total: 20
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-bridge"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cb3631f27c961eb8ee","id":"674967c55648467ba8e9d163a27170db","namespace":"d5ee752640ef4cee8b7f5364410ba41f","startDate":"2024-03-13T15:00:00.000Z","endDate":"2024-03-20T15:00:00.000Z","__v":0},{"_id":"66abf1f63631f27c961ec3fa","id":"674967c55648467ba8e9d163a27170db","namespace":"d5ee752640ef4cee8b7f5364410ba41f","startDate":"2020-01-22T15:00:00.000Z","endDate":"2020-01-29T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2018-07-01"},{"start":"2020-01-22","end":"2020-01-29"},{"start":"2024-03-13","end":"2024-03-20"},{"start":"2025-01-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6b1cfe004faab996d2cb12ac20186ae77929e092873
 icon_image: "https://images.gog.com/f0787647c12414b67b645821c529b19ea5727314e9f8a914ad45445f70bcdde1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

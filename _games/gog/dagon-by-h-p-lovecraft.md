@@ -20,6 +20,14 @@ protondb_total: 32
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 12288
+gog_rating_value: 4.2
+gog_rating_count: 314
 
 # Game Info
 publisher: Bit Golem
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","Engl
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"41","name":"Dark"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"77","name":"Realistic"},{"id":"91","name":"Walking Simulator"},{"id":"90","name":"Visual Novel"},{"id":"200","name":"Narration"},{"id":"205","name":"Lore-Rich"},{"id":"572","name":"Emotional"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"288","name":"Interactive Fiction"},{"id":"47","name":"Lovecraftian"},{"id":"303","name":"Text-Based"}]
 size: "1439 MB"
+install_size: ""
+achievements_total: 6
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/dagon"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/086d0268f5d70310d60c77c8298e75df2a9145830fc
 icon_image: "https://images.gog.com/a20be7c068dd85dc3bd4f41e2b7a49a191c7096c522668942fe9c415384a9b7e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

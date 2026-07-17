@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Not fully functional without external keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 116
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Mythwright
@@ -32,13 +40,15 @@ release_date: "March 28, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Turkish"]
 languages_audio: ["English"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "11310 MB"
+install_size: "20413 MB"
+achievements_total: 33
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/touch-type-tale"
 was_free_before: true
-giveaway_events: [{"_id":"6813870d9fb6f9a890be22e3","id":"ac63bc06c6d44a5d8c423675bd7208d9","namespace":"7029f6353d7f468eb6940bbe6041474e","startDate":"2025-05-08T15:00:00.000Z","endDate":"2025-05-15T15:00:00.000Z","title":"Touch Type Tale","__v":0}]
+giveaway_events: [{"start":"2025-05-08","end":"2025-05-15"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/26334d747a6f76b5245adbffc54bec0817a44c03c40
 icon_image: "https://images.gog.com/f42cde13de166a61f55a5a10c15333224f2a093edc3b517c744235041ec63511.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

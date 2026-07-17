@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 839
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Freedom Games
@@ -28,17 +36,19 @@ genre: Action, RPG, Adventure
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "October 27, 2023"
+release_date: "October 21, 2021"
 game_modes: ["Single Player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
 size: "19736 MB"
+install_size: "18802 MB"
+achievements_total: 58
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sands-of-aura"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6a06c459c2b6bcbfd52d9c5d041720535b0ede1d750
 icon_image: "https://images.gog.com/ac1320b176b2d91b00bcf6df605930018f1624f886d76ce899eadfccee504968.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

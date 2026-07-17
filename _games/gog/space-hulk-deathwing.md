@@ -20,6 +20,14 @@ protondb_total: 45
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 72
+steam_review_total: 10805
+gog_rating_value: 3.6
+gog_rating_count: 229
 
 # Game Info
 publisher: Focus Entertainment
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Korean",
 languages_audio: ["English"]
 tags_structured: []
 size: "18232 MB"
+install_size: ""
+achievements_total: 23
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9f5631352fbb3a0090d32e25fc559e8c6c3e3ec094e
 icon_image: "https://images.gog.com/ab624c010bcf769aff8770e2d2ab29f008f23e6f53f91a171414fd1ac51ee3f7.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/56967"
 store_url: "https://www.gog.com/en/game/space_hulk_deathwing_enhanced_edition"
 protondb_url: "https://www.protondb.com/app/816090"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Space_Hulk%3A_Deathwing_-_Enhanced_Edition"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Space_Hulk:_Deathwing_-_Enhanced_Edition"
 metacritic_score: 58
 metacritic_url: "https://www.metacritic.com/game/space-hulk-deathwing/"
 

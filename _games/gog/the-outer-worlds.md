@@ -20,6 +20,14 @@ protondb_total: 271
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 28284
+gog_rating_value: 4
+gog_rating_count: 1480
 
 # Game Info
 publisher: Private Division
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"30","name":"FPS"},{"id":"97","name":"Action RPG"},{"id":"25","name":"Space"},{"id":"468","name":"role-playing"},{"id":"145","name":"Choices Matter"}]
 size: "55952 MB"
+install_size: ""
+achievements_total: 68
 franchise_siblings: [{"rawg_id":617120,"slug":"the-outer-worlds-2","name":"The Outer Worlds 2"}]
 franchise_slug: "the-outer-worlds|the-outer-worlds-2"
 igdb_url: "https://www.igdb.com/games/the-outer-worlds"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9df2f12e6bcace0b065e5ad18ee41cb8f498573fdde
 icon_image: "https://images.gog.com/aa19797f0bd02195753d7152db811245a86c3b066d9b8a4fc3c86e050f3358a6.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/62935"
 store_url: "https://www.gog.com/en/game/the_outer_worlds"
 protondb_url: "https://www.protondb.com/app/578650"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Outer_Worlds%3A_Spacer's_Choice_Edition"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Outer_Worlds"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/the-outer-worlds/"
 

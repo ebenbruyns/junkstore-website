@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 137
+gog_rating_value: 4
+gog_rating_count: 20
 
 # Game Info
 publisher: Plug In Digital, TyGAMES
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"198","name":"Split Screen"},{"id":"157","name":"PvP"},{"id":"182","name":"4 Player Local"},{"id":"45201","name":"Remote Play Together"},{"id":"46114","name":"Shared/Split Screen PvP"},{"id":"299","name":"Match 3"}]
 size: "220 MB"
+install_size: ""
+achievements_total: 16
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/flipon"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/84ddee8db51e10ae78898e4d4a0e517d3cbd4724aa4
 icon_image: "https://images.gog.com/84ddee8db51e10ae78898e4d4a0e517d3cbd4724aa4638040f28882c5b379ec2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

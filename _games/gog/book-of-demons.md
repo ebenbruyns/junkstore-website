@@ -20,6 +20,14 @@ protondb_total: 56
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 9451
+gog_rating_value: 4
+gog_rating_count: 274
 
 # Game Info
 publisher: 505 Games, Thing Trunk
@@ -34,11 +42,13 @@ languages: ["Belarusian","Bulgarian","Portuguese (brazilian)","Chinese Simplifie
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"115","name":"Controller"},{"id":"14","name":"Early Access"},{"id":"11669","name":"stats"},{"id":"468","name":"role-playing"},{"id":"68","name":"Hack and Slash"},{"id":"40","name":"Dark Fantasy"},{"id":"99","name":"Isometric"},{"id":"48","name":"Dungeon Crawler"},{"id":"187","name":"Demons"},{"id":"127","name":"Card Game"}]
 size: "770 MB"
+install_size: ""
+achievements_total: 202
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/book-of-demons"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2023-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c714c00aad8ee6a05157d377f51459fb060a9a78234
 icon_image: "https://images.gog.com/111298d88895f7832f74e4a37a2d27e9ffebbcaf6f0276c47d9d67a3a4e88387.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

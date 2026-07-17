@@ -20,25 +20,35 @@ protondb_total: 95
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 136899
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Paradox Interactive
 developer: Paradox Development Studio
 genre: Simulation, Strategy
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Drug Reference, Mild Language, Mild Sexual Themes, Mild Violence"},"pegi":{"rating":"12","descriptors":"Bad Language, Violence, Online Gameplay, In-Game Purchases"},"usk":{"rating":"6"},"kgrb":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Drogas ilícitas, Conteúdo sexual, Linguagem imprópria"}}
-release_date: "August 13, 2013"
+release_date: "September 30, 2021"
 game_modes: ["Single-player"]
 languages: ["English","German","French","Spanish - Spain"]
 languages_audio: []
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"10719","name":"Mac OS"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"10719","name":"Mac OS"}]
 size: "1815 MB"
+install_size: "2 MB"
+achievements_total: 62
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/europa-universalis-iv"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d13631f27c961ebaa1","id":"45b82cb4454b40439b61ba126adfabec","namespace":"80d3aeb1d7c3434981e0bcbc47700a83","startDate":"2023-08-09T15:00:00.000Z","endDate":"2023-08-16T15:00:00.000Z","__v":0},{"_id":"66abf1e43631f27c961ebf88","id":"45b82cb4454b40439b61ba126adfabec","namespace":"80d3aeb1d7c3434981e0bcbc47700a83","startDate":"2021-09-29T15:00:00.000Z","endDate":"2021-10-06T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-09-29","end":"2021-10-06"},{"start":"2023-08-09","end":"2023-08-16"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8dedebdcd9f03a59a825b9e833c74be297bb8fc1566
 icon_image: "https://images.gog.com/4549f2e85bd14d7a8f2009fa1dc773c8dc7a6a64ccea4ec3cdb95709e9389e62.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

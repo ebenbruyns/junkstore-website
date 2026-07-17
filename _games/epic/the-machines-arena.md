@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 72
+steam_review_total: 32
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Directive Games Limited
@@ -33,7 +41,9 @@ game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1310","name":"EARLY ACCESS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "5297 MB"
+install_size: "5708 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-machines-arena"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/bda160821ad78d82f674c29fa940cde498e8ca5afd6
 icon_image: "https://images.gog.com/0adec07af689fafafb371861de900d6c7f1ecce7c859dee0704bab0e2c145a26.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

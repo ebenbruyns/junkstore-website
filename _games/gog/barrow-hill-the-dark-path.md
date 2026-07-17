@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 156
+gog_rating_value: 4
+gog_rating_count: 25
 
 # Game Info
 publisher: Iceberg Interactive
@@ -34,6 +42,8 @@ languages: ["German","English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "3434 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "barrow-hill-curse-of-the-ancient-circle|barrow-hill-the-dark-path"
 igdb_url: "https://www.igdb.com/games/barrow-hill-the-dark-path"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/90c6ece32bce181f071271de7f29e60412b3a4ef83e
 icon_image: "https://images.gog.com/90c6ece32bce181f071271de7f29e60412b3a4ef83e05fe7cd371064b81ec31d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/45207"
 store_url: "https://www.gog.com/en/game/barrow_hill_the_dark_path"
 protondb_url: "https://www.protondb.com/app/520990"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill%3A_The_Dark_Path"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill:_The_Dark_Path"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/barrow-hill-the-dark-path/"
 

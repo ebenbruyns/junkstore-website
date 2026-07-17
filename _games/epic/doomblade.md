@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 374
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Iceberg Interactive
@@ -32,13 +40,15 @@ release_date: "May 31, 2023"
 game_modes: ["Single-player"]
 languages: ["English","German","Russian","Simplified Chinese","French","Spanish - Spain","Portuguese - Brazil","Dutch"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "2666 MB"
+install_size: "12209 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/doomblade"
 was_free_before: true
-giveaway_events: [{"_id":"69e0e3a411c56b4e7a4516e4","id":"9e7d6a034aaf450dacda4b51695d113a","namespace":"12a3a68913864eaa8420e575eb6dbd42","startDate":"2026-04-23T15:00:00.000Z","endDate":"2026-04-30T15:00:00.000Z","title":"DOOMBLADE","__v":0}]
+giveaway_events: [{"start":"2026-04-23","end":"2026-04-30"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b44
 icon_image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/922050/capsule_184x69.jpg?t=1762953800"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

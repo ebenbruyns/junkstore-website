@@ -20,6 +20,14 @@ protondb_total: 20
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 996
+gog_rating_value: 3.7
+gog_rating_count: 50
 
 # Game Info
 publisher: Techland Publishing
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"9","name":"Online Co-Op"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"75","name":"Local Co-Op"},{"id":"131","name":"Fast-Paced"},{"id":"163","name":"Co-op Campaign"}]
 size: "3335 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/gods-trigger"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2020-08-19","end":"2020-08-26"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f07da1c2b7d2a4901aac879a646b360c049119ec674
 icon_image: "https://images.gog.com/295d8b2d40004499bc033ebb0270d06494e28eade9c2325dddfb88b6f611aba5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/65581"
 store_url: "https://www.gog.com/en/game/gods_trigger"
 protondb_url: "https://www.protondb.com/app/488730"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/God%27s_Trigger"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/God's_Trigger"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/gods-trigger/"
 

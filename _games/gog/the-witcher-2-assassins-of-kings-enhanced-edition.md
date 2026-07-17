@@ -20,6 +20,14 @@ protondb_total: 139
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 89874
+gog_rating_value: 4.7
+gog_rating_count: 14408
 
 # Game Info
 publisher: CD Projekt
@@ -34,6 +42,8 @@ languages: ["Czech","German","English","Spanish","French","Hungarian","Italian",
 languages_audio: ["English","German","French","Russian","Polish"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"40850","name":"Steam Leaderboards"},{"id":"41","name":"Dark"},{"id":"44","name":"Nudity"},{"id":"145","name":"Choices Matter"},{"id":"40","name":"Dark Fantasy"},{"id":"192","name":"Mature"},{"id":"66","name":"Medieval"},{"id":"82","name":"Magic"},{"id":"218","name":"Multiple Endings"},{"id":"283","name":"Based On A Novel"},{"id":"146","name":"Nonlinear"}]
 size: "20647 MB"
+install_size: ""
+achievements_total: 52
 franchise_siblings: []
 franchise_slug: "gwent-rogue-mage|gwent-the-witcher-card-game|gwent-thronebreaker|the-witcher|the-witcher-2-assassins-of-kin|the-witcher-3-wild-hunt|the-witcher-4|the-witcher-adventure-game|the-witcher-remake|the-witcher-rise-of-the-white-"
 igdb_url: "https://www.igdb.com/games/the-witcher-2-assassins-of-kings-dark-edition"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/37fa9409b8756108e64eacba4345b5380e59e93e99d
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/20920/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

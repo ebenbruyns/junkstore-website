@@ -20,6 +20,14 @@ protondb_total: 68
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 13453
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Coffee Stain Publishing
@@ -28,17 +36,19 @@ genre: Adventure, RPG, Strategy
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "May 20, 2024"
+release_date: "May 10, 2022"
 game_modes: ["Single Player","Online Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Portuguese - Brazil","Simplified Chinese","Korean","Traditional Chinese","Ukrainian","Turkish","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"},{"id":"10719","name":"Mac OS"}]
 size: "1923 MB"
+install_size: "2106 MB"
+achievements_total: 54
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/songs-of-conquest--1"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-06-04","end":"2026-06-11"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/19efbf8aef7b3b34aca605279de6b83e3291510490c
 icon_image: "https://images.gog.com/9adae21fb0d68786cddfc0b4a6f1da90a822d980ad52fe7bb199c0d25f0c8937.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

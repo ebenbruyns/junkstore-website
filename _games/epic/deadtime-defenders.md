@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 80
+steam_review_total: 56
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Arcane Embers
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "138 MB"
+install_size: "683 MB"
+achievements_total: 35
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/deadtime-defenders"
 was_free_before: true
-giveaway_events: [{"_id":"681382221c94f5db1fe119d1","id":"cff516f0708444ee8ee06a96e6986b34","namespace":"bd93f0ee6bcb47f9abc3ef018cb97a0d","startDate":"2025-05-08T15:00:00.000Z","endDate":"2025-05-15T15:00:00.000Z","title":"Deadtime Defenders","__v":0}]
+giveaway_events: [{"start":"2025-05-08","end":"2025-05-15"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4404d48fc316ecad61c2ce3266e9ca00f96c0a7f19c
 icon_image: "https://images.gog.com/f77e81a399b5cd121f1e57e03cf3fef009dffec50db9748e4390249c1b60d257.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

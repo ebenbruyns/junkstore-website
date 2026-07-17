@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 180
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Minimol Games
@@ -28,12 +36,14 @@ genre: Turn-Based Strategy, Puzzle, Strategy
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "December 5, 2023"
+release_date: "April 17, 2025"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Hungarian","Indonesian","Japanese","Korean","Norwegian","Polish","Portuguese - Brazil","Russian","Swedish","Turkish","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21150","name":"Challenging Puzzles"}]
 size: "1.35 GB"
+install_size: "3922 MB"
+achievements_total: 48
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/chessarama"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/bfaf07881e620e8ae4cf2b13870437be1f768156317
 icon_image: "https://images.gog.com/11463421424a3d372973e0dd32eacd439d3be8fa0bbe0d52f8cc35dfe5c7a1b1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 29
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 68
+steam_review_total: 3345
+gog_rating_value: 3.8
+gog_rating_count: 521
 
 # Game Info
 publisher: Bethesda Softworks
@@ -34,6 +42,8 @@ languages: ["German","English","French"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"193","name":"Classic"},{"id":"1","name":"Survival"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"17","name":"Survival Horror"},{"id":"47","name":"Lovecraftian"},{"id":"283","name":"Based On A Novel"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/call-of-cthulhu-dark-corners-of-the-earth"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/236787b1fad78a04320c7215e0f323bbc9e1379bb06
 icon_image: "https://images.gog.com/236787b1fad78a04320c7215e0f323bbc9e1379bb06b27dbad4e05f25f5fcf3c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/1463"
 store_url: "https://www.gog.com/en/game/call_of_cthulhu_dark_corners_of_the_earth"
 protondb_url: "https://www.protondb.com/app/22340"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_Cthulhu%3A_Dark_Corners_of_the_Earth"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_Cthulhu:_Dark_Corners_of_the_Earth"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/call-of-cthulhu-dark-corners-of-the-earth/"
 

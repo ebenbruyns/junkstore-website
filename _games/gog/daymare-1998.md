@@ -20,6 +20,14 @@ protondb_total: 18
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 69
+steam_review_total: 4237
+gog_rating_value: 3.3
+gog_rating_count: 263
 
 # Game Info
 publisher: Destructive Creations
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"}]
 size: "22025 MB"
+install_size: ""
+achievements_total: 45
 franchise_siblings: [{"rawg_id":608552,"slug":"daymare-1994-sandcastle","name":"Daymare 1994: Sandcastle"}]
 franchise_slug: "daymare-1994-sandcastle|daymare-1998"
 igdb_url: "https://www.igdb.com/games/daymare-1998"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d1fb2d2349c6ce918d12df1d5592bd009409d83260d
 icon_image: "https://images.gog.com/c8505aa355bd6a9be5cfe1b6c364fb36e855ae405050e39c41a69cd46b618a3d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/70786"
 store_url: "https://www.gog.com/en/game/daymare_1998"
 protondb_url: "https://www.protondb.com/app/842100"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Daymare%3A_1998"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Daymare:_1998"
 metacritic_score: 53
 metacritic_url: "https://www.metacritic.com/game/daymare-1998/"
 

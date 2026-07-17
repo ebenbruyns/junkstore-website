@@ -20,6 +20,14 @@ protondb_total: 54
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 8488
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Aspyr
@@ -28,17 +36,19 @@ genre: Adventure
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Drogas lícitas"}}
-release_date: "February 13, 2024"
+release_date: "February 14, 2024"
 game_modes: ["Single Player"]
 languages: ["English","French","German","Russian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Polish","Portuguese - Brazil","Swedish","Turkish","Ukrainian","Slovak","Japanese","Simplified Chinese","Italian","Spanish - Spain"]
 languages_audio: ["English","French","German","Russian","Japanese"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "3990 MB"
+install_size: "6270 MB"
+achievements_total: 200
 franchise_siblings: [{"rawg_id":990490,"slug":"tomb-raider-iv-vi-remastered","name":"Tomb Raider IV•V•VI Remastered"},{"rawg_id":998261,"slug":"tomb-raider-i-vi-remastered","name":"Tomb Raider I-VI Remastered"}]
 franchise_slug: "tomb-raider-i-iii-remastered|tomb-raider-i-vi-remastered|tomb-raider-iv-vi-remastered"
 igdb_url: "https://www.igdb.com/games/tomb-raider-ii--1"
 was_free_before: true
-giveaway_events: [{"_id":"6a05da4c175a0ecbe8e09397","id":"9e2567e57e61458686d53f5aeaf1e2e0","namespace":"d5241c76f178492ea1540fce45616757","startDate":"2026-05-21T15:00:00.000Z","endDate":"2026-05-28T15:00:00.000Z","title":"Tomb Raider I-III Remastered Starring Lara Croft","__v":0}]
+giveaway_events: [{"start":"2025-06-01"},{"start":"2026-05-21","end":"2026-05-28"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/804bc8bb865bf856939465a5724a63b98062bc4285e
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2478970/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/137867"
 store_url: "https://store.epicgames.com/p/tomb-raider-iiii-remastered-538640"
 protondb_url: "https://www.protondb.com/app/2478970"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider_I-III_Remastered"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider_I–III_Remastered"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/tomb-raider-i-iii-remastered-starring-lara-croft/"
 

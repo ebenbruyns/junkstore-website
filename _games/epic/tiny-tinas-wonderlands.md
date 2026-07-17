@@ -20,25 +20,35 @@ protondb_total: 103
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 71
+steam_review_total: 24534
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: 2K Games
 developer: Gearbox Software
 genre: Action, Fantasy, Action-Adventure, Adventure
 franchise: 
-age_rating_summary: T (ESRB) · 16 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Suggestive Themes, Partial Nudity, Language, Crude Humor"},"pegi":{"rating":"16","descriptors":"Violence, In-Game Purchases"},"usk":{"rating":"16"},"oflc":{"rating":"M","descriptors":"Fantasy themes and violence, Online interactivity"},"nzoflc":{"rating":"M","descriptors":"Fantasy themes and violence, Online interactivity"},"kgrb":{"rating":"15"},"fpb":{"rating":"18"},"csrr":{"rating":"C15","descriptors":"Sex, Violence, Inappropriate Speech"},"mda":{"rating":"AA16"},"dejus":{"rating":"14","descriptors":"Violência, Conteúdo sexual"}}
-release_date: "June 23, 2022"
+release_date: "March 24, 2022"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Thai","Traditional Chinese"]
 languages_audio: ["English","French","German","Spanish - Spain","Japanese","Korean","Simplified Chinese"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"1287","name":"Fantasy"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"1287","name":"Fantasy"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "49039 MB"
+install_size: "49749 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":692541,"slug":"tiny-tinas-assault-on-dragon-keep-a-wonderlands-on","name":"Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure"},{"rawg_id":3388,"slug":"borderlands-the-handsome-collection","name":"Borderlands: The Handsome Collection"},{"rawg_id":802,"slug":"borderlands-2","name":"Borderlands 2"}]
 franchise_slug: "borderlands-2|borderlands-the-handsome-colle|tiny-tinas-assault-on-dragon-k|tiny-tinas-wonderlands"
 igdb_url: "https://www.igdb.com/games/tiny-tinas-wonderlands"
 was_free_before: true
-giveaway_events: [{"_id":"682f3437113383424c4d21b5","id":"ba702e6d4e3f407ab2bb2370b7f0f983","namespace":"c37115918ccc4969a57b6b1bdc28af4a","startDate":"2025-05-29T15:00:00.000Z","endDate":"2025-06-05T15:00:00.000Z","title":"Tiny Tina's Wonderlands","__v":0}]
+giveaway_events: [{"start":"2025-05-29","end":"2025-06-05"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c43830e8b2ec6524dfbc18974cf171de38ed3eafa0d
 icon_image: "https://images.gog.com/774d9e0410bf21f36ede2f8525f61c0bbf460e268e4d98fff49643cbc3ce4889.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/93455"
 store_url: "https://store.epicgames.com/en-US/p/tiny-tinas-wonderlands"
 protondb_url: "https://www.protondb.com/app/1286680"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tiny_Tina%27s_Wonderlands"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tiny_Tina's_Wonderlands"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/tiny-tinas-wonderlands/"
 

@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 25
+gog_rating_value: 2.1
+gog_rating_count: 61
 
 # Game Info
 publisher: The Iterative Collective, Lost Native Games
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"115","name":"Controller"},{"id":"80","name":"Tactical"},{"id":"157","name":"PvP"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"1465","name":"combat"},{"id":"170","name":"Competitive"},{"id":"45878","name":"Online PvP"},{"id":"213","name":"City Builder"},{"id":"127","name":"Card Game"},{"id":"91686","name":"Family Sharing"},{"id":"162","name":"Board Game"},{"id":"774","name":"nature"},{"id":"103","name":"Hex Grid"},{"id":"235","name":"Trading Card Game"},{"id":"49950","name":"Card Battler"},{"id":"4880","name":"tabletop"}]
 size: "831 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/wild-country"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9baf6e17d748f73e6ec2ed565e48e77e3097a622acd
 icon_image: "https://images.gog.com/2e43ea19f3f6a49e3b22bd34d74d351b4b6617fe6a8839639487ad29bf6bcff8.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

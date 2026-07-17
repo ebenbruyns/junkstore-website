@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 2056
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Sinkhole Studio
@@ -28,17 +36,19 @@ genre: Action, Puzzle, Adventure
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"kgrb":{"rating":"ALL","descriptors":"GC-DG-NP-23-00003"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "July 29, 2024"
+release_date: "June 5, 2025"
 game_modes: ["Single player"]
 languages: ["Korean","English","Japanese","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "1555 MB"
+install_size: "1772 MB"
+achievements_total: 41
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/ogu-and-the-secret-forest"
 was_free_before: true
-giveaway_events: [{"_id":"683878190875712fb7d3548b","id":"7b96ffa7b1654c6dafa0b54cf1afd413","namespace":"03b2f198c0ec447db7ceff375b4bfe6b","startDate":"2025-06-05T15:00:00.000Z","endDate":"2025-06-12T15:00:00.000Z","title":"Ogu and the Secret Forest","__v":0}]
+giveaway_events: [{"start":"2025-06-05","end":"2025-06-12"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1e275db86dcd516e78b2b5aa67b9ccc57b611d28ab2
 icon_image: "https://images.gog.com/c9321c4d60d1be05b886a789091fd6ac94e5719fc2004a757da96f76452865ef.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

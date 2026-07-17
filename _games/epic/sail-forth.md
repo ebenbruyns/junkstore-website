@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 638
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: The Quantum Astrophysicists Guild
@@ -34,11 +42,13 @@ languages: ["English","German","Simplified Chinese","Japanese","Portuguese - Bra
 languages_audio: []
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "348 MB"
+install_size: "577 MB"
+achievements_total: 47
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sail-forth"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cc3631f27c961eb94b","id":"c819b6b40a034231ad64b8406f75814e","namespace":"d93cf08971eb4920862a95870a051f81","startDate":"2024-01-10T15:00:00.000Z","endDate":"2024-01-17T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-01-10","end":"2024-01-17"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/92412cd56e45c8b545503cc5db1eb689d1511f4754c
 icon_image: "https://images.gog.com/7c8cfd986b3327a8d4e11c235398364e132f995a370d8dd75c592c5b71406e3b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

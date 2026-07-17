@@ -20,6 +20,14 @@ protondb_total: 12
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Audio output has nonblocking issues"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 6762
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Wildfire Game
@@ -28,17 +36,19 @@ genre: RPG, Action-Adventure
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Temas sensíveis, Medo"}}
-release_date: "July 7, 2021"
+release_date: "November 20, 2023"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Japanese","Traditional Chinese","Turkish","Russian"]
 languages_audio: ["Simplified Chinese"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "4260 MB"
+install_size: "6923 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/eastern-exorcist"
 was_free_before: true
-giveaway_events: [{"_id":"68cb353e29da2ddc38aaf1ae","id":"aa2e42dde7b64a3183855ac1803a829c","namespace":"630a4b97a55545bb9941aee38ec799db","startDate":"2025-09-25T15:00:00.000Z","endDate":"2025-10-02T15:00:00.000Z","title":"Eastern Exorcist","__v":0}]
+giveaway_events: [{"start":"2025-01-01"},{"start":"2025-09-25","end":"2025-10-02"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b3ed84a110a4e8617bb9a1ac3b0288629b52248fb7a
 icon_image: "https://images.gog.com/d45b0bc1c72dc9faa30ebfe7290b35508b777dcd121f9185828ba0fa5ecd9cb2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

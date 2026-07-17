@@ -20,6 +20,14 @@ protondb_total: 52
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 10910
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Raw Fury
@@ -28,17 +36,19 @@ genre: Indie, RPG
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "April 26, 2023"
+release_date: "January 1, 2099"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"198","name":"Split Screen"},{"id":"122","name":"Pixel Graphics"},{"id":"134","name":"Anime"},{"id":"121","name":"Character Customization"},{"id":"102","name":"Turn-Based"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"233","name":"JRPG"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"45201","name":"Remote Play Together"},{"id":"46112","name":"Shared/Split Screen Co-op"},{"id":"2896","name":"collectathon"},{"id":"55320","name":"Creature Collector"}]
-size: ""
+size: "782 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/cassette-beasts"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-12-27","end":"2025-12-28"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1321440/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1321440/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 4.4
+gog_rating_count: 1690
 
 # Game Info
 publisher: Konami
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: []
 size: "2421 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":868087,"slug":"silent-hill-f","name":"Silent Hill f"},{"rawg_id":976007,"slug":"silent-hill-the-short-message","name":"Silent Hill: The Short Message"},{"rawg_id":58862,"slug":"pt","name":"P.T."},{"rawg_id":4230,"slug":"silent-hill-book-of-memories","name":"Silent Hill: Book of Memories"},{"rawg_id":29082,"slug":"silent-hill-downpour","name":"Silent Hill: Downpour"},{"rawg_id":321222,"slug":"silent-hill-mobile-3","name":"Silent Hill: Mobile 3"},{"rawg_id":26226,"slug":"silent-hill-shattered-memories","name":"Silent Hill: Shattered Memories"},{"rawg_id":321223,"slug":"silent-hill-the-escape","name":"Silent Hill: The Escape"},{"rawg_id":19372,"slug":"silent-hill-homecoming-2","name":"Silent Hill Homecoming"},{"rawg_id":459189,"slug":"silent-hill-the-arcade","name":"Silent Hill - The Arcade"},{"rawg_id":39038,"slug":"silent-hill-origins-2","name":"Silent Hill: Origins"},{"rawg_id":321219,"slug":"silent-hill-orphan","name":"Silent Hill: Orphan"},{"rawg_id":35314,"slug":"silent-hill-3","name":"Silent Hill 3"},{"rawg_id":29642,"slug":"silent-hill-2","name":"Silent Hill 2 (2001)"},{"rawg_id":53478,"slug":"silent-hill","name":"Silent Hill"},{"rawg_id":868088,"slug":"silent-hill-townfall","name":"Silent Hill Townfall"},{"rawg_id":335839,"slug":"silent-hills","name":"Silent Hills"}]
 franchise_slug: "pt|silent-hill|silent-hill-2|silent-hill-3|silent-hill-4-the-room|silent-hill-book-of-memories|silent-hill-downpour|silent-hill-f|silent-hill-homecoming-2|silent-hill-mobile-3|silent-hill-origins-2|silent-hill-orphan|silent-hill-shattered-memories|silent-hill-the-arcade|silent-hill-the-escape|silent-hill-the-short-message|silent-hill-townfall|silent-hills"
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/403a40ed14f69d867c86a0a0bf01d7ce695bb405c35
 icon_image: "https://images.gog.com/403a40ed14f69d867c86a0a0bf01d7ce695bb405c35fbb697d6dccb095a269f4.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

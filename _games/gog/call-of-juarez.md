@@ -20,6 +20,14 @@ protondb_total: 39
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 4486
+gog_rating_value: 3.8
+gog_rating_count: 452
 
 # Game Info
 publisher: Ubisoft Entertainment, Ascaron Entertainment, Techland, Focus Entertainment
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Polish","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"15","name":"Stealth"},{"id":"152","name":"Western"}]
 size: "2721 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":4013,"slug":"call-of-juarez-gunslinger","name":"Call of Juarez: Gunslinger"},{"rawg_id":19524,"slug":"call-of-juarez-the-cartel","name":"Call of Juarez: The Cartel"},{"rawg_id":4521,"slug":"call-of-juarez-2","name":"Call of Juarez: Bound in Blood"}]
 franchise_slug: "call-of-juarez|call-of-juarez-2|call-of-juarez-gunslinger|call-of-juarez-the-cartel"
 igdb_url: "https://www.igdb.com/games/call-of-juarez"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d8504c47d22afe11654b43a2c790af0caa6ac4c59dd
 icon_image: "https://images.gog.com/fd11272cf69bc5aa4f3be9e5f0588cef129369dc93535e82b2045d5fba6a0690.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

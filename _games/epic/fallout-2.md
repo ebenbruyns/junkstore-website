@@ -20,25 +20,35 @@ protondb_total: 71
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 17291
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Bethesda Softworks
 developer: Bethesda Game Studios
 genre: RPG, Open World
 franchise: Fallout
-age_rating_summary: M (ESRB) · 16 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Strong Language"},"pegi":{"rating":"16"},"usk":{"rating":"16"}}
-release_date: "August 19, 2009"
+release_date: "October 20, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","German"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "719 MB"
+install_size: "1668 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":1015797,"slug":"fallout-4-creations-bundle","name":"Fallout 4 - Creations Bundle"},{"rawg_id":1000841,"slug":"fallout-4-next-gen","name":"Fallout 4: Next-Gen"},{"rawg_id":732504,"slug":"fallout-shelter-online","name":"Fallout Shelter Online"},{"rawg_id":58585,"slug":"fallout-76","name":"Fallout 76"},{"rawg_id":3070,"slug":"fallout-4","name":"Fallout 4"},{"rawg_id":559,"slug":"fallout-shelter","name":"Fallout Shelter"},{"rawg_id":5563,"slug":"fallout-new-vegas","name":"Fallout: New Vegas"},{"rawg_id":5562,"slug":"fallout-3","name":"Fallout 3"},{"rawg_id":402492,"slug":"fallout-brotherhood-of-steel","name":"Fallout: Brotherhood of Steel"},{"rawg_id":19284,"slug":"fallout-tactics-brotherhood-of-steel","name":"Fallout Tactics: Brotherhood of Steel"},{"rawg_id":13554,"slug":"fallout-a-post-nuclear-role-playing-game","name":"Fallout"},{"rawg_id":979041,"slug":"capital-wasteland","name":"Capital Wasteland"}]
 franchise_slug: "capital-wasteland|fallout-2-a-post-nuclear-role-|fallout-3|fallout-4|fallout-4-creations-bundle|fallout-4-next-gen|fallout-76|fallout-a-post-nuclear-role-pl|fallout-brotherhood-of-steel|fallout-new-vegas|fallout-shelter|fallout-shelter-online|fallout-tactics-brotherhood-of"
 igdb_url: "https://www.igdb.com/games/fallout-2"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d73631f27c961ebc46","id":"f7eb422464774537915ee423ca84a59a","namespace":"aae22da1fb884fa395b25bc30dd61faf","startDate":"2022-12-21T15:00:00.000Z","endDate":"2022-12-22T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-12-21","end":"2022-12-22"},{"start":"2024-03-01"},{"start":"2025-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/075d571e3fa0a116830132e3a3f820f6e4a64ba8e2d
 icon_image: "https://images.gog.com/b4e8e399a785a5c58bc44d1f9317202c9e2610dfff3ecf6f1c63b670c5613d93.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

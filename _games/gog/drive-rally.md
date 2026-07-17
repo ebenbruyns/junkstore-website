@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 80
+steam_review_total: 783
+gog_rating_value: 3.8
+gog_rating_count: 32
 
 # Game Info
 publisher: Pixel Perfect Dude
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","Engl
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"4","name":"Funny"},{"id":"40850","name":"Steam Leaderboards"},{"id":"115","name":"Controller"},{"id":"14","name":"Early Access"},{"id":"11669","name":"stats"},{"id":"74","name":"Retro"},{"id":"121","name":"Character Customization"},{"id":"114","name":"Physics"},{"id":"130","name":"Driving"},{"id":"243","name":"1990's"},{"id":"166","name":"Stylized"},{"id":"91686","name":"Family Sharing"},{"id":"744","name":"friends"},{"id":"224","name":"1980s"},{"id":"273","name":"Parody"},{"id":"1221","name":"history"},{"id":"2232","name":"journey"},{"id":"132","name":"Offroad"},{"id":"1632","name":"cars"},{"id":"3758","name":"speed"},{"id":"1497","name":"car"},{"id":"3728","name":"memory"},{"id":"49951","name":"Automobile Sim"},{"id":"2483","name":"nostalgia"},{"id":"604","name":"simple"},{"id":"15128","name":"community"},{"id":"3278","name":"rally"},{"id":"5479","name":"drive"},{"id":"1412","name":"design"}]
 size: "1351 MB"
+install_size: ""
+achievements_total: 39
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/number-drive-rally"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/91a6815d2cbd4e3a01f0e47e3f709866b9927f565ea
 icon_image: "https://images.gog.com/91a6815d2cbd4e3a01f0e47e3f709866b9927f565ea79c2668bae667a43ab929.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

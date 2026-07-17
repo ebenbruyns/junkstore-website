@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 732
+gog_rating_value: 4.1
+gog_rating_count: 42
 
 # Game Info
 publisher: Square Enix
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian","Japanese","Polish",
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"32","name":"Sci-fi"},{"id":"4","name":"Funny"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"43","name":"Post-apocalyptic"},{"id":"571","name":"3D"},{"id":"77","name":"Realistic"},{"id":"167","name":"Futuristic"},{"id":"101","name":"Turn-Based Strategy"},{"id":"81","name":"Military"},{"id":"67","name":"Management"},{"id":"271","name":"Remake"},{"id":"233","name":"JRPG"},{"id":"197","name":"Robots"},{"id":"176","name":"Turn-Based Tactics"},{"id":"184","name":"Mechs"},{"id":"55","name":"Tanks"},{"id":"64326","name":"Постапокалипсис"},{"id":"78619","name":"Ремейк"}]
 size: "13466 MB"
+install_size: ""
+achievements_total: 29
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/front-mission-1st-remake"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d6b1c74435303819c3dd91d67c4ce0b4fe5a3b2f4c5
 icon_image: "https://images.gog.com/2bed78df795a532e3bd61d9a9f586111f3a707ac1e42b1e66ce879e89ea97407.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/117885"
 store_url: "https://www.gog.com/en/game/front_mission_1st_remake"
 protondb_url: "https://www.protondb.com/app/2399730"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Front_Mission_1st%3A_Remake"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Front_Mission_1st:_Remake"
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/front-mission-1st-remake/"
 

@@ -20,6 +20,14 @@ protondb_total: 84
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 11628
+gog_rating_value: 4
+gog_rating_count: 319
 
 # Game Info
 publisher: Focus Entertainment
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1287","name":"Fantasy"},{"id":"1336","name":"Action-Adventure"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "6203 MB"
+install_size: ""
+achievements_total: 33
 franchise_siblings: [{"rawg_id":1006936,"slug":"styx-blades-of-greed","name":"Styx: Blades of Greed"},{"rawg_id":194,"slug":"styx-shards-of-darkness","name":"Styx: Shards of Darkness"},{"rawg_id":4228,"slug":"of-orcs-and-men","name":"Of Orcs and Men"}]
 franchise_slug: "of-orcs-and-men|styx-blades-of-greed|styx-master-of-shadows|styx-shards-of-darkness"
 igdb_url: "https://www.igdb.com/games/styx-master-of-shadows"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-05-01"},{"start":"2026-01-15","end":"2026-01-22"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/02f38bef5aec2faae4a38e6495055a968b308aaa1a7
 icon_image: "https://images.gog.com/c691b3f979f591ec3d45d17f4031d68be364218d280b5b5e21bcd4cc6a136730.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -89,10 +102,10 @@ metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/styx-master-of-shadows/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "199/styx-master-of-shadows"
+opencritic_url: "https://opencritic.com/game/199/styx-master-of-shadows"
+opencritic_score: 68
+opencritic_review_count: 41
 twitch_id: ""
 twitch_url: ""
 playstation_id: ""

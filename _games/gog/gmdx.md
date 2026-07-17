@@ -20,6 +20,14 @@ protondb_total: 157
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 15503
+gog_rating_value: 4.6
+gog_rating_count: 68
 
 # Game Info
 publisher: "|Totalitarian|"
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"3605","name":"tool"},{"id":"891","name":"jam"},{"id":"973","name":"libGDX"}]
 size: "3043 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "deus-ex|deus-ex-2-invisible-war|deus-ex-go|deus-ex-human-revolution|deus-ex-mankind-divided|deus-ex-the-fall"
 igdb_url: "https://www.igdb.com/games/deus-ex-special-limited-edition"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0c0b926fc0781754010bfb71ab0aff7937ea0daaff7
 icon_image: "https://images.gog-statics.com/11e47de4b79dcd65e1988378893b2272074a9d5af4996e0a58fe1a1672ef1711.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

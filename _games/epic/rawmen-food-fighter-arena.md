@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: tinyBuild
@@ -33,12 +41,14 @@ game_modes: ["Online Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "11368 MB"
+install_size: "13238 MB"
+achievements_total: 43
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/rawmen"
 was_free_before: true
-giveaway_events: [{"_id":"66abfad55736a265e483cb22","id":"e7e111c658584357a25ff993fca52a3c","namespace":"b9665613f2b94636bf4536a411002d22","startDate":"2024-08-01T15:00:00.000Z","endDate":"2024-08-08T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-08-01","end":"2024-08-08"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/925b89bff456434291f264924ab5
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/782940/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -66,7 +79,7 @@ epic_cloud_saves: false
 must_be_online: false
 
 # Anti-Cheat
-requires_eac_runtime: false
+requires_eac_runtime: true
 requires_battleye_runtime: false
 cant_test_linux: false
 

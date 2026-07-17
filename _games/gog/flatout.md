@@ -20,6 +20,14 @@ protondb_total: 65
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 6564
+gog_rating_value: 4.2
+gog_rating_count: 1317
 
 # Game Info
 publisher: Empire Interactive, Strategy First, Konami
@@ -34,6 +42,8 @@ languages: ["English","Spanish","French","Italian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"42","name":"Great Soundtrack"},{"id":"4","name":"Funny"},{"id":"193","name":"Classic"},{"id":"130","name":"Driving"},{"id":"51","name":"Destruction"}]
 size: "924 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":979342,"slug":"flatout-ultimate-carnage-collectors-edition","name":"FlatOut: Ultimate Carnage — Collector's Edition"},{"rawg_id":22220,"slug":"flatout-4-total-insanity","name":"FlatOut 4: Total Insanity"},{"rawg_id":21229,"slug":"flatout-3-chaos-destruction","name":"Flatout 3: Chaos & Destruction"},{"rawg_id":298398,"slug":"flatout-head-on","name":"FlatOut: Head On"},{"rawg_id":19347,"slug":"flatout-ultimate-carnage","name":"FlatOut: Ultimate Carnage"},{"rawg_id":19628,"slug":"flatout-2","name":"FlatOut 2"}]
 franchise_slug: "flatout|flatout-2|flatout-3-chaos-destruction|flatout-4-total-insanity|flatout-head-on|flatout-ultimate-carnage|flatout-ultimate-carnage-colle"
 igdb_url: "https://www.igdb.com/games/flatout"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2571f13646fa266dfe3a27f19f34b4baeee022cece2
 icon_image: "https://images.gog.com/2571f13646fa266dfe3a27f19f34b4baeee022cece2a1b984b0196cbb1e6074d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

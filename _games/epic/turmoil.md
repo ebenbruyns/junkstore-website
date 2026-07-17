@@ -20,6 +20,14 @@ protondb_total: 20
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 16041
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Gamious
@@ -28,17 +36,19 @@ genre: Turn-Based, Simulation, Strategy
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "June 2, 2016"
+release_date: "January 9, 2025"
 game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Hungarian","Japanese","Korean","Turkish"]
 languages_audio: []
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "201 MB"
+install_size: "1802 MB"
+achievements_total: 39
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/turmoil--1"
 was_free_before: true
-giveaway_events: [{"_id":"6776b83ed94daa69207f69b6","id":"92acefe8e4e845169ea160bb92e3e4e0","namespace":"85c72a063b884d249a554fee9f71125d","startDate":"2025-01-09T16:00:00.000Z","endDate":"2025-01-16T16:00:00.000Z","title":"Turmoil","__v":0}]
+giveaway_events: [{"start":"2019-11-01"},{"start":"2020-12-01"},{"start":"2025-01-09","end":"2025-01-16"},{"start":"2026-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/361280/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/361280/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

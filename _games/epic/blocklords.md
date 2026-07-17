@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Negative"
+steam_review_percent: 34
+steam_review_total: 65
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: MetaKing Studios
@@ -34,6 +42,8 @@ languages: ["English","German","Spanish - Spain","Simplified Chinese","French","
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22775","name":"MMO"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1310","name":"EARLY ACCESS"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/blocklords--2"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1e9cc08e417fbc8483f5520233b209126a7f37493c1
 icon_image: "https://images.gog.com/cad2e8809854bb9536bf165c9e132375897069c6c46d812509b33acee8eb9382.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

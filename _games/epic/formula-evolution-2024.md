@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 70
+steam_review_total: 703
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Petr Šimůnek
@@ -33,7 +41,9 @@ game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Dutch","Hungarian","Portuguese - Brazil","Swedish","Danish","Finnish","Greek","Japanese","Polish","Romanian","Russian","Spanish - Latin America","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"22775","name":"MMO"},{"id":"33639","name":"Promotional Content"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "1375 MB"
+install_size: "2539 MB"
+achievements_total: 33
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/254904"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d9ba1943274776a111cd525f05c25d285db9834c6da
 icon_image: "https://images.gog.com/1fc1070dfa421c453f79610750cfc6bec81f44ccd5fd4c8b39aa96f963d82ed8.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

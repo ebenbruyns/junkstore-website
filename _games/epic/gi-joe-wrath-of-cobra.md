@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 46
+steam_review_total: 171
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Freedom Games
@@ -33,12 +41,14 @@ game_modes: ["Single Player","Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Indonesian","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Thai","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
-size: ""
+size: "555 MB"
+install_size: ""
+achievements_total: 14
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/gi-joe-wrath-of-cobra"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-06-11","end":"2026-07-16"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3aac9a575c915a5b81838591a4a2a2147826c2c51af
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2516170/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 39
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Game or launcher doesnt exit cleanly"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 72
+steam_review_total: 4567
+gog_rating_value: 3.9
+gog_rating_count: 361
 
 # Game Info
 publisher: Deep Silver
@@ -34,11 +42,13 @@ languages: ["Czech","German","English","Spanish","French","Italian","Japanese","
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"9","name":"Online Co-Op"},{"id":"4","name":"Funny"},{"id":"37","name":"Sandbox"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"69","name":"Action-Adventure"},{"id":"150","name":"Third-Person Shooter"},{"id":"121","name":"Character Customization"},{"id":"571","name":"3D"},{"id":"130","name":"Driving"},{"id":"56","name":"Shoot 'Em Up"},{"id":"148","name":"Dark Humor"},{"id":"229","name":"3D Platformer"},{"id":"51","name":"Destruction"},{"id":"2030","name":"city"},{"id":"59643","name":"Протагонистка"},{"id":"153","name":"Satire"},{"id":"49960","name":"Life Sim"},{"id":"1753","name":"guns"},{"id":"5488","name":"tank"},{"id":"1131","name":"sex"},{"id":"1876","name":"drugs"}]
 size: "42797 MB"
+install_size: ""
+achievements_total: 79
 franchise_siblings: [{"rawg_id":650607,"slug":"saints-row-2022","name":"Saints Row (2022)"},{"rawg_id":3450,"slug":"saints-row-gat-out-of-hell","name":"Saints Row: Gat Out of Hell"},{"rawg_id":3931,"slug":"saints-row-iv","name":"Saints Row IV"},{"rawg_id":4386,"slug":"saints-row-the-third","name":"Saints Row: The Third"},{"rawg_id":4599,"slug":"saints-row-2","name":"Saints Row 2"}]
 franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-hell|saints-row-iv|saints-row-the-third"
 igdb_url: "https://www.igdb.com/games/saints-row-the-third-remastered"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2021-08-25","end":"2021-09-01"},{"start":"2025-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a13e9e9c21752485e4e79631bb5059a4b4e6a17a5a4
 icon_image: "https://images.gog.com/d5b0d87e86c535f8b4d2cadcd2d8674e629acd348709b64a419e97858cb6c3c4.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/66591"
 store_url: "https://www.gog.com/en/game/saints_row_the_third_remastered"
 protondb_url: "https://www.protondb.com/app/978300"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row%3A_The_Third_Remastered"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row:_The_Third_Remastered"
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/saints-row-the-third/"
 

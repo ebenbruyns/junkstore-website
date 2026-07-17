@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 60
+steam_review_total: 264
+gog_rating_value: 2.5
+gog_rating_count: 93
 
 # Game Info
 publisher: Goblinz Publishing
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","French","Japanese","Korean"
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"11669","name":"stats"},{"id":"41","name":"Dark"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"5","name":"Replay Value"},{"id":"639","name":"Roguelike"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"196","name":"Procedural Generation"},{"id":"175","name":"Turn-Based Combat"},{"id":"808","name":"character"},{"id":"127","name":"Card Game"},{"id":"285","name":"Psychological"},{"id":"47","name":"Lovecraftian"},{"id":"624","name":"Monsters"},{"id":"740","name":"demo"},{"id":"4934","name":"health"}]
 size: "245 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/neurodeck"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1253860/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1253860/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

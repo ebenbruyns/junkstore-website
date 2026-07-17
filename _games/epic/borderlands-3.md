@@ -20,25 +20,35 @@ protondb_total: 585
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 163300
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: 2K Games
 developer: Gearbox Software
 genre: First Person, RPG, Shooter
 franchise: Borderlands
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Sexual Themes, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language, Gambling, In-Game Purchases"},"usk":{"rating":"18"},"nzoflc":{"rating":"r16","descriptors":"Violence"},"kgrb":{"rating":"18","descriptors":"Violence, Language"},"csrr":{"rating":"R","descriptors":"Sex, Violence, Improper Language"},"mda":{"rating":"M18","descriptors":"Violence and Coarse Language"},"dejus":{"rating":"16","descriptors":"Arma com violência (10 anos);, Ossada ou esqueleto com resquício de violência (10 anos);, Ato violento (12 anos);, Descrição de violência (12 anos);, Exposição de cadáver (12 anos);, Linguagem chula (12 anos);, Presença de sangue (12 anos);, Morte intencional (14 anos);, Banalização da violência (16 anos);, Mutilação (16 anos);"}}
-release_date: "March 13, 2020"
+release_date: "September 13, 2019"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "96936 MB"
+install_size: "97859 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":836447,"slug":"new-tales-from-the-borderlands","name":"New Tales from the Borderlands"},{"rawg_id":692541,"slug":"tiny-tinas-assault-on-dragon-keep-a-wonderlands-on","name":"Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure"},{"rawg_id":2100,"slug":"tales-from-the-borderlands","name":"Tales from the Borderlands: A Telltale Game Series"},{"rawg_id":3543,"slug":"borderlands-the-pre-sequel","name":"Borderlands: The Pre-Sequel"},{"rawg_id":330906,"slug":"borderlands-legends","name":"Borderlands Legends"},{"rawg_id":802,"slug":"borderlands-2","name":"Borderlands 2"},{"rawg_id":4828,"slug":"borderlands","name":"Borderlands"}]
 franchise_slug: "borderlands|borderlands-2|borderlands-3|borderlands-legends|borderlands-the-pre-sequel|new-tales-from-the-borderlands|tales-from-the-borderlands|tiny-tinas-assault-on-dragon-k"
 igdb_url: "https://www.igdb.com/games/borderlands-3"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1de3631f27c961ebde1","id":"dd845909e1504c048c14499eab60ec62","namespace":"catnip","startDate":"2022-05-18T15:00:00.000Z","endDate":"2022-05-25T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-05-18","end":"2022-05-25"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a06a169bf17d0f29dec52113f09ff0a3800a11a77ed
 icon_image: "https://images.gog.com/4cb1416932fb5b02420992dbbb0783aa339662ef3f813aa863a28acfe1bed9f9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 81
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Cross platform cloud saves not supported"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 80179
+gog_rating_value: 4.3
+gog_rating_count: 1084
 
 # Game Info
 publisher: Deep Silver, Deep Silver
@@ -34,11 +42,13 @@ languages: ["Czech","German","English","Spanish","French","Italian","Dutch","Pol
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"}]
 size: "8695 MB"
+install_size: ""
+achievements_total: 49
 franchise_siblings: []
 franchise_slug: "metro-2033|metro-2033-redux|metro-exodus|metro-last-light|metro-last-light-redux|metro-redux"
 igdb_url: "https://www.igdb.com/games/metro-last-light-redux"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2021-02-03","end":"2021-02-10"},{"start":"2022-12-23","end":"2022-12-24"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d1bca392cb9e83d537c68dc3f3ac464ae67e85aca0e
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/287390/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 1064
+gog_rating_value: 3.6
+gog_rating_count: 94
 
 # Game Info
 publisher: Akupara Games
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Russian"]
 languages_audio: []
 tags_structured: []
 size: "337 MB"
+install_size: ""
+achievements_total: 13
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/chicken-assassin-reloaded"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2019-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9fc42db2849c8898ac97327d2507041502a021dc109
 icon_image: "https://images.gog.com/a5494ee5ff41abc855281aa9c40297b02ef02195d400dd3d728a8b83c74f1998.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

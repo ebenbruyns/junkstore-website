@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 65
+steam_review_total: 263
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Disney Interactive
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"4","name":"Funny"},{"id":"193","name":"Classic"},{"id":"74","name":"Retro"},{"id":"63","name":"Zombies"},{"id":"136","name":"Music"},{"id":"243","name":"1990's"},{"id":"334","name":"achievements"},{"id":"284","name":"Cult Classic"},{"id":"2030","name":"city"},{"id":"3109","name":"weapons"},{"id":"997","name":"island"},{"id":"1221","name":"history"},{"id":"1652","name":"night"},{"id":"263","name":"Mars"},{"id":"1753","name":"guns"},{"id":"3626","name":"treasure"},{"id":"663","name":"Ghosts"},{"id":"620","name":"Spooky"},{"id":"1325","name":"kids"},{"id":"1171","name":"block"},{"id":"1310","name":"machine"},{"id":"1627","name":"museum"},{"id":"720","name":"shopping"},{"id":"1892","name":"ants"}]
 size: "333 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":57363,"slug":"ghoul-patrol-1995","name":"Ghoul Patrol (1995)"},{"rawg_id":57278,"slug":"zombies-ate-my-neighbors-1993","name":"Zombies Ate My Neighbors (1993)"}]
 franchise_slug: "ghoul-patrol-1995|zombies-ate-my-neighbors-1993|zombies-ate-my-neighbors-and-g"
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3070d3b7d3b49ecc7bf9f021dc8e733cd7ff1fded77
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1137970/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

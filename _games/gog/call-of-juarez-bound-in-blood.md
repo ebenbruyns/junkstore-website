@@ -20,6 +20,14 @@ protondb_total: 38
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 5020
+gog_rating_value: 4
+gog_rating_count: 308
 
 # Game Info
 publisher: Ubisoft Entertainment, Techland
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"89","name":"Historical"},{"id":"152","name":"Western"},{"id":"308","name":"Bullet Time"}]
 size: "3761 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":4013,"slug":"call-of-juarez-gunslinger","name":"Call of Juarez: Gunslinger"},{"rawg_id":19524,"slug":"call-of-juarez-the-cartel","name":"Call of Juarez: The Cartel"},{"rawg_id":19572,"slug":"call-of-juarez","name":"Call of Juarez"}]
 franchise_slug: "call-of-juarez|call-of-juarez-2|call-of-juarez-gunslinger|call-of-juarez-the-cartel"
 igdb_url: "https://www.igdb.com/games/call-of-juarez-bound-in-blood"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-07-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1d6300652495d557ffc4fcaa8c31b39f6bcbf1fff83
 icon_image: "https://images.gog.com/e5e7d02a3a5870e741727888817b363417130c6a8a26e7dcabba6b052a17aeae.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/1486"
 store_url: "https://www.gog.com/en/game/call_of_juarez_bound_in_blood"
 protondb_url: "https://www.protondb.com/app/21980"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.protondb.com/app/21980"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_Juarez:_Bound_in_Blood"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/call-of-juarez-bound-in-blood/"
 

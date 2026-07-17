@@ -20,6 +20,14 @@ protondb_total: 105
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 15288
+gog_rating_value: 3.4
+gog_rating_count: 146
 
 # Game Info
 publisher: Merge Games, ION LANDS
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"167","name":"Futuristic"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"209","name":"Drama"}]
 size: "3930 MB"
+install_size: ""
+achievements_total: 79
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/cloudpunk"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a0e5b4817eb3cced67307d9df98c998dfcbece6507f
 icon_image: "https://images.gog.com/eb2c2298dbc957c4b5a39e4a1bb345752e6fe919ca237598f758577c1b43950d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,25 +20,35 @@ protondb_total: 453
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 129095
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Deep Silver, Iceberg Interactive, Tripwire Interactive
 developer: Tripwire Interactive
 genre: Action, Horror, First Person, Survival, Shooter
 franchise: Killing Floor
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence, In-Game Purchases, In-Game Purchases(Includes Random Items)"},"usk":{"rating":"18"}}
-release_date: "November 18, 2016"
+release_date: "July 9, 2020"
 game_modes: ["Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Portuguese - Brazil","Japanese","Simplified Chinese","Korean","Traditional Chinese"]
 languages_audio: ["English","French","German","Spanish - Spain","Russian","Japanese"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "1 MB"
+install_size: "1 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":17352,"slug":"killing-floor","name":"Killing Floor"}]
 franchise_slug: "killing-floor|killing-floor-2"
 igdb_url: "https://www.igdb.com/games/killing-floor-2"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1dd3631f27c961ebd8f","id":"85f5ff10c31c4cd99978f4d57d3ec97a","namespace":"affc33b82405457595a032f00284abd2","startDate":"2022-07-06T15:00:00.000Z","endDate":"2022-07-13T15:00:00.000Z","__v":0},{"_id":"66abf1f13631f27c961ec2b7","id":"85f5ff10c31c4cd99978f4d57d3ec97a","namespace":"affc33b82405457595a032f00284abd2","startDate":"2020-07-08T15:00:00.000Z","endDate":"2020-07-15T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2020-07-08","end":"2020-07-15"},{"start":"2022-07-06","end":"2022-07-13"},{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8638324ce417bb1b218a89bd6a4137978ad449616f6
 icon_image: "https://images.gog.com/4200471306ae23b0e3cd09762b354fe032f26ae2135e71087a3dd9e1a0e92777.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 595
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 106825
+gog_rating_value: 4.6
+gog_rating_count: 221
 
 # Game Info
 publisher: Crate Entertainment
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","Engl
 languages_audio: ["English"]
 tags_structured: []
 size: ""
+install_size: ""
+achievements_total: 234
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/grim-dawn"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/219990/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/219990/library_600x900.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

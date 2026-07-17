@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Epic Games Publishing
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","German","Spanish - Spain","Japanese","French"]
 languages_audio: []
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+size: "99339 MB"
+install_size: "108242 MB"
+achievements_total: 66
 franchise_siblings: [{"rawg_id":18336,"slug":"alan-wakes-american-nightmare","name":"Alan Wake's American Nightmare"},{"rawg_id":19487,"slug":"alan-wake","name":"Alan Wake"}]
 franchise_slug: "alan-wake|alan-wake-2|alan-wakes-american-nightmare"
 igdb_url: "https://www.igdb.com/games/185246"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/295e762fbd0b9e0127aefe75b901928b43fa1d420c1
 icon_image: "https://images.gog.com/458c67cd5e4139e7f58d2e4a69c0ec6c6a5f3913f09980b4ed88d6ed2e05b257.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

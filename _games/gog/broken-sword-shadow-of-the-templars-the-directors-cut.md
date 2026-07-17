@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 2848
+gog_rating_value: 4.6
+gog_rating_count: 3328
 
 # Game Info
 publisher: Kalypso Media, Ubisoft, Revolution Software
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","French","German","Spanish - Spain","Italian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"149","name":"Third Person"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"74","name":"Retro"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"243","name":"1990's"},{"id":"258","name":"Hand-drawn"},{"id":"291","name":"Conspiracy"}]
 size: "1180 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/522f5110cda6c01bc9d4e2521ba94e4ac20e710c455
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/57640/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/1338"
 store_url: "https://www.gog.com/en/game/broken_sword_shadow_of_the_templars_reforged"
 protondb_url: "https://www.protondb.com/app/57640"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Broken_Sword:_Shadow_of_the_Templars:_Director%27s_Cut"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Broken_Sword:_Shadow_of_the_Templars:_Director's_Cut"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/broken-sword-shadow-of-the-templars/"
 

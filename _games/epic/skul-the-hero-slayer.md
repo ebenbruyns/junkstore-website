@@ -20,6 +20,14 @@ protondb_total: 30
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Unsupported graphics performance"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 57399
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Playdigious
@@ -34,6 +42,8 @@ languages: ["English","Japanese","Korean","Simplified Chinese","German","French"
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"39070","name":"iOS"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/skul-the-hero-slayer"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b6f5f632bad0ea16b0c6ae2f4b398c26f29a477ec70
 icon_image: "https://images.gog.com/b6f5f632bad0ea16b0c6ae2f4b398c26f29a477ec702ff38b8e6e55e91886629.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

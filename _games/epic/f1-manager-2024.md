@@ -20,6 +20,14 @@ protondb_total: 22
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 6792
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: FrontierDevelopments
@@ -32,13 +40,15 @@ release_date: "July 23, 2024"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"33639","name":"Promotional Content"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"33639","name":"Promotional Content"},{"id":"9547","name":"Windows"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "15790 MB"
+install_size: "17784 MB"
+achievements_total: 31
 franchise_siblings: [{"rawg_id":964330,"slug":"f1-manager-2023","name":"F1 Manager 2023"},{"rawg_id":844359,"slug":"f1-manager-2022","name":"F1 Manager 2022"},{"rawg_id":30925,"slug":"f1-manager","name":"F1 Manager"}]
 franchise_slug: "f1-manager|f1-manager-2022|f1-manager-2023|f1-manager-2024"
 igdb_url: "https://www.igdb.com/games/f1-manager-2024"
 was_free_before: true
-giveaway_events: [{"_id":"67a4d1413c7060b662c5d928","id":"80480c4dce974e03a009beeffc625b21","namespace":"53ea1f0a585f4fbc9c8adc6b76af1165","startDate":"2025-02-13T16:00:00.000Z","endDate":"2025-02-20T16:00:00.000Z","title":"F1® Manager 2024","__v":0}]
+giveaway_events: [{"start":"2025-02-13","end":"2025-02-20"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2dacfe82f029a709027f3e77b026aed5051a16d8abe
 icon_image: "https://images.gog.com/9e1dcac5fb9134ab022538999940ddf703333e85b10697ef592cb1623db23fea.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-su
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false

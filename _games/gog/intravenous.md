@@ -20,6 +20,14 @@ protondb_total: 15
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 5514
+gog_rating_value: 4.1
+gog_rating_count: 156
 
 # Game Info
 publisher: HypeTrain Digital, Roman Glebenkov
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","Latin America
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"45","name":"2D"},{"id":"30","name":"FPS"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"15","name":"Stealth"},{"id":"122","name":"Pixel Graphics"},{"id":"80","name":"Tactical"},{"id":"1465","name":"combat"},{"id":"144","name":"Crime"},{"id":"61","name":"Top-Down"},{"id":"406","name":"Story"},{"id":"278","name":"Assassin"},{"id":"744","name":"friends"},{"id":"236","name":"Top-Down Shooter"},{"id":"289","name":"Noir"},{"id":"3109","name":"weapons"},{"id":"2590","name":"fun"},{"id":"1079","name":"environment"},{"id":"2906","name":"police"},{"id":"1753","name":"guns"},{"id":"892","name":"love"},{"id":"3117","name":"shoot"},{"id":"712","name":"school"},{"id":"1303","name":"Shadows"},{"id":"3076","name":"rush"}]
 size: "660 MB"
+install_size: ""
+achievements_total: 45
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/intravenous"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8cac6229578e368007550c1dc6808812914b609b88c
 icon_image: "https://images.gog.com/7e0cc9bc49e7ff230155e4535cca566f7df0b417b579e30efe9c3b8e687d9bf0.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

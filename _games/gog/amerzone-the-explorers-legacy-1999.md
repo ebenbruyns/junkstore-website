@@ -20,6 +20,14 @@ protondb_total: 18
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 729
+gog_rating_value: 3.5
+gog_rating_count: 388
 
 # Game Info
 publisher: Microïds, Anuman Interactive
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"8","name":"First-Person"},{"id":"141","name":"Point & Click"}]
 size: "1800 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/amerzone-the-explorers-legacy"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a92aa18cc5366072d8d84f2f61ab206b1a0b9d7573a
 icon_image: "https://images.gog.com/ce0c2a7bd9518ec87293b2505d0047f0e576904328e66bd8cf9a3515bad4145d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/434"
 store_url: "https://www.gog.com/en/game/amerzone_the_explorer_legacy"
 protondb_url: "https://www.protondb.com/app/302190"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amerzone%3A_The_Explorer%27s_Legacy"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amerzone:_The_Explorer's_Legacy"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/amerzone-the-explorers-legacy-1999/"
 

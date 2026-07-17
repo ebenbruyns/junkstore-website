@@ -20,25 +20,35 @@ protondb_total: 60
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 15004
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Codename Entertainment
 developer: Codename Entertainment
 genre: Strategy
 franchise: 
-age_rating_summary: T (ESRB)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood, Mild Language"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Atos criminosos, Medo"}}
-release_date: "March 25, 2020"
+release_date: "February 16, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"21136","name":"Playful Visuals"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"1141","name":"Free to Play"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "1576 MB"
+install_size: "1811 MB"
+achievements_total: 200
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/idle-champions-of-the-forgotten-realms"
 was_free_before: true
-giveaway_events: [{"_id":"69a06197e2e1cc62607d17d0","id":"a9748abde1c94b66aae5250bb9fc5503","namespace":"7e508f543b05465abe3a935960eb70ac","startDate":"2026-03-05T16:00:00.000Z","endDate":"2026-03-12T15:00:00.000Z","title":"Idle Champions of the Forgotten Realms","__v":0},{"_id":"69037105eb53115b2c3e8080","id":"a9748abde1c94b66aae5250bb9fc5503","namespace":"7e508f543b05465abe3a935960eb70ac","startDate":"2025-11-06T16:00:00.000Z","endDate":"2025-11-13T16:00:00.000Z","title":"Idle Champions of the Forgotten Realms","__v":0},{"_id":"67ee96f51eb228e92b7dee27","id":"a9748abde1c94b66aae5250bb9fc5503","namespace":"7e508f543b05465abe3a935960eb70ac","startDate":"2025-04-10T15:00:00.000Z","endDate":"2025-04-17T15:00:00.000Z","title":"Idle Champions of the Forgotten Realms","__v":0},{"_id":"66abf1c93631f27c961eb849","id":"a9748abde1c94b66aae5250bb9fc5503","namespace":"7e508f543b05465abe3a935960eb70ac","startDate":"2024-06-12T15:00:00.000Z","endDate":"2024-06-19T15:00:00.000Z","__v":0},{"_id":"66abf1d23631f27c961ebaf9","id":"a9748abde1c94b66aae5250bb9fc5503","namespace":"7e508f543b05465abe3a935960eb70ac","startDate":"2023-06-21T15:00:00.000Z","endDate":"2023-06-28T15:00:00.000Z","__v":0},{"_id":"66abf1e83631f27c961ec08a","id":"a9748abde1c94b66aae5250bb9fc5503","namespace":"7e508f543b05465abe3a935960eb70ac","startDate":"2021-04-28T15:00:00.000Z","endDate":"2021-05-05T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-04-28","end":"2021-05-05"},{"start":"2023-06-21","end":"2023-06-28"},{"start":"2024-06-12","end":"2024-06-19"},{"start":"2025-04-10","end":"2025-04-17"},{"start":"2025-11-06","end":"2025-11-13"},{"start":"2026-03-05","end":"2026-03-12"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/74208c03ea2f51ff74ff5822ea3e54b2bd64ff7c45f
 icon_image: "https://images.gog.com/7881c8c78ad998fd39c2d9d6170d0c7e15eaca56cacb9b21122d12785546ceb2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

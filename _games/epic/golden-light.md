@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 3983
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: HypeTrain Digital
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","Russian","German","Spanish - Spain","French","Italian","Portuguese - Brazil","Korean","Simplified Chinese","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"1198","name":"Retro"}]
-size: ""
+size: "3366 MB"
+install_size: "4350 MB"
+achievements_total: 67
 franchise_siblings: [{"rawg_id":871182,"slug":"golden-light-of-rose","name":"Golden Light of Rose"}]
 franchise_slug: "golden-light|golden-light-of-rose"
 igdb_url: "https://www.igdb.com/games/golden-light"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cf3631f27c961eba11","id":"f787056536bf43298e39305a0c5c20c8","namespace":"ca05bd340e84436ebea4a0c0ca55befa","startDate":"2023-11-08T15:00:00.000Z","endDate":"2023-11-15T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-10-01"},{"start":"2023-11-08","end":"2023-11-15"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d68628682068d7873e83237f12e25aaaecac8a737da
 icon_image: "https://images.gog.com/73b79d1f3d51d9ecad2555c2250544d1afe43cb21e93d8e6cae3081959f0379d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

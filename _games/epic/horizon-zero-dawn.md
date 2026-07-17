@@ -20,6 +20,14 @@ protondb_total: 85
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 7338
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: PlayStation Publishing LLC
@@ -33,7 +41,9 @@ game_modes: ["Single Player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Dutch","Finnish","Japanese","Korean","Norwegian","Polish","Portuguese - Brazil","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Polish","Portuguese - Brazil","Portuguese - Portugal","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-size: ""
+size: "73125 MB"
+install_size: "73963 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":13817,"slug":"horizon","name":"Horizon"}]
 franchise_slug: "horizon|horizon-zero-dawn-remastered"
 igdb_url: "https://www.igdb.com/games/horizon-zero-dawn-remastered"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/de7ae011caa64c7de49710c9cc378bc65ede644a83e
 icon_image: "https://images.gog.com/16c3b731536c7aeb61749001e3b3e6e6c44e77c4bb1da330d984d2a95bd348b3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

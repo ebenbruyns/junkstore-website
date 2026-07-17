@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 215
+gog_rating_value: 4.1
+gog_rating_count: 1743
 
 # Game Info
 publisher: Atari, Beamdog
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: ["English","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "3232 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "baldur-s-gate-enhanced-edition|baldur-s-gate-enhanced-edition-f1dce9|baldur-s-gate-ii-enhanced-edition|baldur-s-gate-ii-enhanced-edition-cef011"
 igdb_url: "https://www.igdb.com/games/barrow-hill-curse-of-the-ancient-circle"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b1cc07ce74fbb022e41ab2828edd3258bb033d7e051
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/494360/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/849"
 store_url: "https://www.gog.com/en/game/baldurs_gate_2_enhanced_edition"
 protondb_url: "https://www.protondb.com/app/494360"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill%3A_Curse_of_the_Ancient_Circle"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill:_Curse_of_the_Ancient_Circle"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/baldurs-gate-ii-enhanced-edition?ftag=MCD-06-10aaa1f"
 

@@ -20,6 +20,14 @@ protondb_total: 256
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 69357
+gog_rating_value: 4.5
+gog_rating_count: 1876
 
 # Game Info
 publisher: Focus Entertainment
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","Engl
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "36263 MB"
+install_size: ""
+achievements_total: 35
 franchise_siblings: [{"rawg_id":616697,"slug":"a-plague-tale-requiem","name":"A Plague Tale: Requiem"}]
 franchise_slug: "a-plague-tale-innocence|a-plague-tale-requiem"
 igdb_url: "https://www.igdb.com/games/a-plague-tale-innocence"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2021-08-04","end":"2021-08-11"},{"start":"2024-01-02","end":"2024-01-03"},{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d011a348d40d61f090cb1aae27f2113e0cd242dec6d
 icon_image: "https://images.gog.com/eecd71f5b65bb9672434cb1f7249a4e5e251ee994339835eb4f6a9ac5fcd5ef7.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

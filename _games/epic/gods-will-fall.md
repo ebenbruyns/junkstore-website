@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 59
+steam_review_total: 112
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Deep Silver, Koch Media
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Russian","S
 languages_audio: ["English"]
 tags_structured: [{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"}]
 size: "7328 MB"
+install_size: "8293 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/gods-will-fall"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e13631f27c961ebe9e","id":"5207cdd79e9145d0bbb947c6bd3699a3","namespace":"28d06644e2f84b398c1b7fb96a2b6bd5","startDate":"2022-01-05T15:00:00.000Z","endDate":"2022-01-12T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-01-05","end":"2022-01-12"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8deede4ffd21d80b2eb2c065285be6f8b002b6fa103
 icon_image: "https://images.gog.com/1c57c2e1950c52b69cbc3e357487278e029b66ffb4d75f234a3efa8f4d705c0f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

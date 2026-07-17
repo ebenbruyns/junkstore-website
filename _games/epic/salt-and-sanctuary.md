@@ -20,6 +20,14 @@ protondb_total: 12
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 21747
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ska Studios
@@ -28,17 +36,19 @@ genre: Action
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Partial Nudity, Violence"},"pegi":{"rating":"16","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "May 17, 2016"
+release_date: "December 29, 2021"
 game_modes: ["Single-player"]
 languages: ["English","German","Japanese","French","Italian","Spanish - Spain","Korean","Portuguese - Brazil","Polish","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1333","name":"Action RPG"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+size: "514 MB"
+install_size: "966 MB"
+achievements_total: 37
 franchise_siblings: [{"rawg_id":614966,"slug":"salt-sacrifice","name":"Salt and Sacrifice"}]
 franchise_slug: "salt-and-sanctuary|salt-sacrifice"
 igdb_url: "https://www.igdb.com/games/salt-and-sanctuary"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e13631f27c961ebeb8","id":"b69fb17fe548401297c61f0e88807031","namespace":"79d9bff700bb46a790b21e8c73b34899","startDate":"2021-12-28T15:00:00.000Z","endDate":"2021-12-29T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-12-28","end":"2021-12-29"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c5717ca20a817e3b17b770c34326749e1b64215e1f3
 icon_image: "https://images.gog.com/0e02b1eda5c0b787bc6ccc86298b79309b14faf236e35e0f89b4a50c0b240552.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

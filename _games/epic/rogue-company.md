@@ -20,6 +20,14 @@ protondb_total: 113
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 25972
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Hi-Rez Studios
@@ -33,7 +41,9 @@ game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"1164","name":"TEAM-BASED"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1234","name":"PVP"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"1141","name":"Free to Play"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+size: "25493 MB"
+install_size: "26309 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/rogue-company"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b746433f4501a705f799f73240be80b4ce44cf9843c
 icon_image: "https://images.gog.com/c1cedd065e06453f9ea489df862376a1b2f05423149c793e2f7b8608e4d572c0.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

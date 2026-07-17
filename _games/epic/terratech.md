@@ -20,6 +20,14 @@ protondb_total: 29
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 24794
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Mythwright
@@ -28,17 +36,19 @@ genre: Action-Adventure, Open World, Adventure
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "August 10, 2018"
+release_date: "December 21, 2024"
 game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","German","Russian","French","Dutch","Polish","Portuguese - Portugal","Portuguese - Brazil","Italian","Swedish","Spanish - Spain","Japanese","Korean","Simplified Chinese","Traditional Chinese","Czech","Danish"]
 languages_audio: []
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "525 MB"
+install_size: "716 MB"
+achievements_total: 15
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/terratech"
 was_free_before: true
-giveaway_events: [{"_id":"67658cc6df3ce7c92b7b8d2a","id":"e50af47d4be74b50a0dd99b42ae44470","namespace":"96830aff053e404c808a54300c941e57","startDate":"2024-12-21T16:00:00.000Z","endDate":"2024-12-22T16:00:00.000Z","title":"TerraTech","__v":0}]
+giveaway_events: [{"start":"2024-12-21","end":"2024-12-22"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4bff13a3f2537956f924b288caee78907df93c4e452
 icon_image: "https://images.gog.com/d98526cc6611a0f68c8ee5c3350abac9304534e5fddb75148d7a8894a887073c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false

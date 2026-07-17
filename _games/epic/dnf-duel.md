@@ -20,6 +20,14 @@ protondb_total: 28
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 63
+steam_review_total: 4182
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Nexon
@@ -33,12 +41,14 @@ game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","Japanese","Korean","Simplified Chinese","German","Spanish - Spain","Traditional Chinese"]
 languages_audio: ["Japanese","Korean","Simplified Chinese"]
 tags_structured: [{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "9137 MB"
+install_size: "9449 MB"
+achievements_total: 43
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/dnf-duel"
 was_free_before: true
-giveaway_events: [{"_id":"66abfad55736a265e483cb1f","id":"9f314276c254423bb9b145480b5b150b","namespace":"3eb832eb6d9f4496818a0b0d667420c0","startDate":"2024-08-08T15:00:00.000Z","endDate":"2024-08-15T15:00:00.000Z","__v":0},{"_id":"66abf1ce3631f27c961eb9c6","id":"9f314276c254423bb9b145480b5b150b","namespace":"3eb832eb6d9f4496818a0b0d667420c0","startDate":"2023-12-19T15:00:00.000Z","endDate":"2023-12-20T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-12-19","end":"2023-12-20"},{"start":"2024-08-08","end":"2024-08-15"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/92e93f67b1e6ee74d848a353597904a3b0bbae5b5cc
 icon_image: "https://images.gog.com/1b1c73afa17d7caa37c757dba3a6bac58a9713d4a986b1ffbca2877a6b2c60e8.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

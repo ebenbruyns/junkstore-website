@@ -20,6 +20,14 @@ protondb_total: 40
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 2467
+gog_rating_value: 3.9
+gog_rating_count: 274
 
 # Game Info
 publisher: Kalypso Media Digital
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Russian"]
 languages_audio: ["English","German"]
 tags_structured: []
 size: "8253 MB"
+install_size: ""
+achievements_total: 45
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/shadows-awakening"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/585450/library_600x900.
 icon_image: "https://images.gog.com/15bb49e36d7ef79b10c885b8626d0dca1755c9da9be36c4ab5831ab236d09ceb.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

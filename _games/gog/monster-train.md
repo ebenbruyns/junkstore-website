@@ -20,6 +20,14 @@ protondb_total: 90
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 22885
+gog_rating_value: 4.7
+gog_rating_count: 489
 
 # Game Info
 publisher: Good Shepherd Entertainment
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","French","Portuguese","Russi
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"157","name":"PvP"},{"id":"639","name":"Roguelike"},{"id":"45878","name":"Online PvP"},{"id":"175","name":"Turn-Based Combat"},{"id":"127","name":"Card Game"},{"id":"14194","name":"deckbuilding"},{"id":"49950","name":"Card Battler"}]
 size: "651 MB"
+install_size: ""
+achievements_total: 53
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/monster-train"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4dd5f9972ae323726db46cac47b16241eb15c98a7a3
 icon_image: "https://images.gog.com/5acdb2b509be4eee2facf0452ef0671ad4d6db1ad91b24ab982b6e81c5e6a6cc.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

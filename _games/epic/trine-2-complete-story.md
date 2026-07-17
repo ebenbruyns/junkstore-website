@@ -20,20 +20,30 @@ protondb_total: 31
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 22009
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Frozenbyte
 developer: Frozenbyte
 genre: Puzzle, Action-Adventure, Platformer
 franchise: Trine
-age_rating_summary: e10 (ESRB) · 12 (PEGI)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Animated Blood, Fantasy Violence"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"oflc":{"rating":"PG"}}
-release_date: "June 6, 2013"
+release_date: "December 31, 2025"
 game_modes: ["Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","Finnish","French","German","Italian","Spanish - Spain","Czech","Hungarian","Korean","Portuguese - Brazil","Romanian","Russian","Turkish","Polish","Traditional Chinese"]
 languages_audio: ["English","French","German","Spanish - Spain"]
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+size: "3614 MB"
+install_size: "4136 MB"
+achievements_total: 97
 franchise_siblings: []
 franchise_slug: "trine|trine-2|trine-3-the-artifacts-of-power|trine-4-the-nightmare-prince"
 igdb_url: "https://www.igdb.com/games/trine-2"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/35720/library_600x900.j
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/35720/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: true
 epic_cloud_saves: false
 must_be_online: false

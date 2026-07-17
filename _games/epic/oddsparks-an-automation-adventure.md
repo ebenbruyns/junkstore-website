@@ -20,6 +20,14 @@ protondb_total: 19
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 2254
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: HandyGames
@@ -28,17 +36,19 @@ genre: Adventure
 franchise: 
 age_rating_summary: 6 (USK)
 age_ratings: {"usk":{"rating":"6","descriptors":"Angedeutete Gewalt"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "May 27, 2025"
+release_date: "April 24, 2024"
 game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","French","German","Japanese","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "3213 MB"
+install_size: "6093 MB"
+achievements_total: 60
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/oddsparks-an-automation-adventure"
 was_free_before: true
-giveaway_events: [{"_id":"69ea2928913d32872c2face0","id":"102da1ac6e864d7f84889f2c0a107ee2","namespace":"77c83b36cd1047f7aceeef2e5f84ab85","startDate":"2026-04-30T15:00:00.000Z","endDate":"2026-05-07T15:00:00.000Z","title":"Oddsparks: An Automation Adventure","__v":0}]
+giveaway_events: [{"start":"2026-04-30","end":"2026-05-07"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/43acd700c002a17a40c6b6866738e27c7c28cbb19e5
 icon_image: "https://images.gog.com/575e2f2892626c038e7a544f81d33756c9300e7485c909e1047d199654dc0d66.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

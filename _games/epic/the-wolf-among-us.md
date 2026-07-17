@@ -20,6 +20,14 @@ protondb_total: 77
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 98
+steam_review_total: 39805
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Telltale Games
@@ -32,13 +40,15 @@ release_date: "December 1, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "4907 MB"
+install_size: "5668 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":51432,"slug":"wolf-among-us-2","name":"The Wolf Among Us 2"}]
 franchise_slug: "the-wolf-among-us|wolf-among-us-2"
 igdb_url: "https://www.igdb.com/games/the-wolf-among-us"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1f83631f27c961ec489","id":"ea40bbb5451649e38472912b11f338b8","namespace":"a8f9fb4a881e47b489715f18f7d08e2f","startDate":"2019-12-11T15:00:00.000Z","endDate":"2019-12-18T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2019-12-11","end":"2019-12-18"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/45fe32d8cdb9c7fda468eff071d6fb7f736560da19d
 icon_image: "https://images.gog.com/49f976b81be54ae20dd5d49235e6a349e991532f1611236d62dc5ee4a017f1e1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

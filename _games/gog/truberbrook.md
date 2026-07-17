@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 2334
+gog_rating_value: 3.3
+gog_rating_count: 392
 
 # Game Info
 publisher: WhisperGames, Headup Games
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","Czech","German","English","Spanish","French","
 languages_audio: ["English","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"141","name":"Point & Click"},{"id":"3394","name":"germany"},{"id":"13593","name":"1960s"}]
 size: "2215 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/truberbrook"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/54ded5b7f9e16510485dcdcdbb39bf2a2c7996adc78
 icon_image: "https://images.gog.com/a5e10b14e984a435c12b6f1493b7f579accd9379714406469682460efe3c8e16.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/65656"
 store_url: "https://www.gog.com/en/game/truberbrook"
 protondb_url: "https://www.protondb.com/app/757300"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tr%C3%BCberbrook"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trüberbrook"
 metacritic_score: 66
 metacritic_url: "https://www.metacritic.com/game/truberbrook/"
 

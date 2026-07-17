@@ -20,6 +20,14 @@ protondb_total: 15
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 6549
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Hyperstrange
@@ -28,17 +36,19 @@ genre: First Person, Shooter, Stealth
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
-release_date: "December 5, 2023"
+release_date: "July 8, 2024"
 game_modes: ["Single-player"]
 languages: ["English","German","Polish","Russian","Hungarian","Portuguese - Brazil"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "3982 MB"
+install_size: "1216 MB"
+achievements_total: 35
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/blood-west"
 was_free_before: true
-giveaway_events: [{"_id":"69456ec8abbacf986f13b865","id":"b5c0decff4f24c0892a63d8704f677f0","namespace":"cfd5606247d5400480bb7dccec626f1a","startDate":"2025-12-20T16:00:00.000Z","endDate":"2025-12-21T16:00:00.000Z","title":"Blood West","__v":0}]
+giveaway_events: [{"start":"2025-01-01"},{"start":"2025-12-20","end":"2025-12-21"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1587130/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1587130/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

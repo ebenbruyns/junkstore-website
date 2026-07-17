@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 502
+gog_rating_value: 3.7
+gog_rating_count: 61
 
 # Game Info
 publisher: mc2games
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["Portuguese (Brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Portuguese","Russian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"6","name":"Exploration"},{"id":"41","name":"Dark"},{"id":"141","name":"Point & Click"},{"id":"77","name":"Realistic"},{"id":"110","name":"Cinematic"},{"id":"91","name":"Walking Simulator"},{"id":"200","name":"Narration"},{"id":"288","name":"Interactive Fiction"},{"id":"285","name":"Psychological"},{"id":"140","name":"Hidden Object"},{"id":"183","name":"Thriller"},{"id":"87","name":"Science"},{"id":"291","name":"Conspiracy"},{"id":"326","name":"Investigation"},{"id":"3319","name":"solitaire"},{"id":"92376","name":"Aventure"}]
-size: ""
+size: "1114 MB"
+install_size: ""
+achievements_total: 7
 franchise_siblings: []
 franchise_slug: "60-minutes-to-extinction-escape-room|palindrome-syndrome-escape-room|tested-on-humans-escape-room"
 igdb_url: "https://www.igdb.com/games/tested-on-humans-escape-room"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-06-11","end":"2026-07-12"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/008871f71fef9709cead28d66ab63a2ff476d0e369c
 icon_image: "https://images.gog.com/ebe29e4cfc761bf974a083948c6f646b5219cfb17bc316fcbfb47d9904c0d262.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

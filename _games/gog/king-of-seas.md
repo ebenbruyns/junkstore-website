@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 59
+steam_review_total: 772
+gog_rating_value: 2.7
+gog_rating_count: 157
 
 # Game Info
 publisher: Team17, 3DClouds
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"97","name":"Action RPG"},{"id":"11669","name":"stats"},{"id":"468","name":"role-playing"},{"id":"68","name":"Hack and Slash"},{"id":"99","name":"Isometric"},{"id":"640","name":"Roguelite"},{"id":"171","name":"PvE"},{"id":"196","name":"Procedural Generation"},{"id":"164","name":"Cartoony"},{"id":"255","name":"Pirates"},{"id":"49964","name":"Action Roguelike"},{"id":"256","name":"Naval"},{"id":"257","name":"Sailing"},{"id":"49971","name":"Naval Combat"}]
 size: "1468 MB"
+install_size: ""
+achievements_total: 29
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/king-of-seas"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2d251ddbf6ccae31b06896f0390f5453ccaa171e64b
 icon_image: "https://images.gog.com/b2b45e1d1a00ebbab92f0ba3b80cf02bf8967dc3a3eb71474a03b851f326076a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -62,7 +75,7 @@ dependencies:
 # website's GOG-Features section only shows Cloud Saves for now. Remove the
 # leading "# " on any line to enable that chip on the rendered page.)
 gog_cloud_saves: false
-# gog_achievements: false
+# gog_achievements: true
 # gog_overlay: false
 # gog_leaderboards: false
 

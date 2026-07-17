@@ -20,6 +20,14 @@ protondb_total: 29
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 4803
+gog_rating_value: 4.2
+gog_rating_count: 345
 
 # Game Info
 publisher: Fireplace Games
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"149","name":"Third Person"},{"id":"4","name":"Funny"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"69","name":"Action-Adventure"},{"id":"107","name":"Family Friendly"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"114","name":"Physics"},{"id":"1465","name":"combat"},{"id":"89","name":"Historical"},{"id":"188","name":"Parkour"},{"id":"203","name":"Beat 'em up"},{"id":"166","name":"Stylized"},{"id":"164","name":"Cartoony"},{"id":"59643","name":"Протагонистка"},{"id":"185","name":"Swordplay"},{"id":"254","name":"Spectacle fighter"},{"id":"835","name":"Swords"},{"id":"591","name":"Unreal Engine"}]
 size: "6949 MB"
+install_size: ""
+achievements_total: 30
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/061af0cdc1d8e2ff648ea2115c2d7d82c3289c9441a
 icon_image: "https://images.gog.com/baf5b044f084a92170793b2a1a9915494986a86100727838477763e38fd59085.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/129877"
 store_url: "https://www.gog.com/en/game/en_garde"
 protondb_url: "https://www.protondb.com/app/1654660"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/En_Garde%21"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/En_Garde!"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/en-garde/"
 

@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Unsupported graphics performance"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 53
+steam_review_total: 434
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: RedForge
@@ -28,17 +36,19 @@ genre: Action, Horror, Exploration
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Temas sensíveis, Medo"}}
-release_date: "January 19, 2025"
+release_date: "May 27, 2025"
 game_modes: ["Online Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese","Turkish","Ukrainian"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1218","name":"Horror"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1218","name":"Horror"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"}]
+size: "5278 MB"
+install_size: "5912 MB"
+achievements_total: 10
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/together-after-dark"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-07-15","end":"2026-07-27"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/42a9aa9f7d7f40d1a0c1aa5c6956
 icon_image: "https://images.gog.com/539db339693c35973cbe076517f578bce146bdb160102664d831f0ad88becc1e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

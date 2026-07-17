@@ -20,6 +20,14 @@ protondb_total: 39
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 9659
+gog_rating_value: 4.3
+gog_rating_count: 335
 
 # Game Info
 publisher: Headup Games, Thunderful, Beep Japan
@@ -34,11 +42,13 @@ languages: ["Arabic","Chinese Simplified","German","English","Spanish","French",
 languages_audio: ["English","French"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"41","name":"Dark"},{"id":"229","name":"3D Platformer"},{"id":"624","name":"Monsters"},{"id":"1652","name":"night"},{"id":"460","name":"Endless"},{"id":"5222","name":"avoid"},{"id":"832","name":"Halloween"}]
 size: "2058 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/pumpkin-jack"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2767169a528ef535470f441675169e9d7b454fd4a14
 icon_image: "https://images.gog.com/67197b4cba13d33761717c7bd3eaa4eed244ace6026b3e658a288df4ea452836.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: ""
 community_layout: false
 required_launcher: ""

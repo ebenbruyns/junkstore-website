@@ -20,6 +20,14 @@ protondb_total: 28
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Native resolution not supported"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 4433
+gog_rating_value: 4.4
+gog_rating_count: 249
 
 # Game Info
 publisher: WildTangent
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: []
 size: "286 MB"
+install_size: ""
+achievements_total: 10
 franchise_siblings: [{"rawg_id":21347,"slug":"fate-the-cursed-king","name":"FATE: The Cursed King"},{"rawg_id":21315,"slug":"fate-the-traitor-soul","name":"FATE: The Traitor Soul"},{"rawg_id":20798,"slug":"fate-undiscovered-realms","name":"FATE: Undiscovered Realms"}]
 franchise_slug: "fate|fate-the-cursed-king|fate-the-traitor-soul|fate-undiscovered-realms"
 igdb_url: "https://www.igdb.com/games/fate"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-05-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/055d0077f6daa9153d1c64fe22c36fa9225ad6740f7
 icon_image: "https://images.gog.com/e144e6635ffafeb4ba97a45a64d2e20b9515f8f14c90d3c537d73b8a2dbb5351.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 680
+gog_rating_value: 4.3
+gog_rating_count: 1061
 
 # Game Info
 publisher: Sierra Entertainment
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"70","name":"War"},{"id":"210","name":"Real-Time"},{"id":"151","name":"Modern"}]
 size: "5943 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1fbc687346c2ff17d809cc797bd4eaa30befadcd44f
 icon_image: "https://images.gog.com/1fbc687346c2ff17d809cc797bd4eaa30befadcd44f6d960329a2b6883a5271f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

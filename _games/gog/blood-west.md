@@ -20,6 +20,14 @@ protondb_total: 15
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 6549
+gog_rating_value: 4.4
+gog_rating_count: 431
 
 # Game Info
 publisher: New Blood Interactive
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","German","English","Hungarian","Polish","Ru
 languages_audio: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "3982 MB"
+install_size: ""
+achievements_total: 59
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/blood-west"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-01-01"},{"start":"2025-12-20","end":"2025-12-21"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/85d9df6e80afdd8245dda20445a9484766ba4f31619
 icon_image: "https://images.gog.com/66d06e4137e4f37d5aae79b0106b902a21d608adb24c1c320f6d9e4ab98060a9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

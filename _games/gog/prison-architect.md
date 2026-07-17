@@ -20,6 +20,14 @@ protondb_total: 66
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 73548
+gog_rating_value: 3.5
+gog_rating_count: 547
 
 # Game Info
 publisher: Paradox Interactive
@@ -34,11 +42,13 @@ languages: ["Bulgarian","Portuguese (brazilian)","Chinese Simplified","Czech","D
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1123","name":"2D"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1293","name":"SANDBOX"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "527 MB"
+install_size: ""
+achievements_total: 16
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/prison-architect"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2021-12-08","end":"2021-12-15"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/824738dd3534fba4838d9d4920cc0a780c9dea998a5
 icon_image: "https://images.gog.com/c7186a5b12707b76214189da86ba135c7ec8e3cd3149ef1c432658c2456b2250.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

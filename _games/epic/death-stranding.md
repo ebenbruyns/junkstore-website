@@ -20,25 +20,35 @@ protondb_total: 336
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 66359
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: 505 Games, Sony Interactive Entertainment
 developer: Kojima Productions
 genre: Action, Action-Adventure, Open World, Adventure
 franchise: 
-age_rating_summary: M (ESRB)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Partial Nudity, Strong Language"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
-release_date: "March 30, 2022"
+release_date: "January 1, 2099"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Greek","Hungarian","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Greek","Japanese","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-size: ""
+size: "353 MB"
+install_size: "353 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "death-stranding|death-stranding-director-s-cut"
 igdb_url: "https://www.igdb.com/games/death-stranding-collectors-edition"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2022-12-24","end":"2022-12-25"},{"start":"2023-05-17","end":"2023-05-24"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ed2686e6e2c0ad2fe13793556583b1613d1291979ed
 icon_image: "https://images.gog.com/9b17ce9b632e859cbb4fa7b9a67cddb37f5aa97ffc0591b85e3131757e6300ea.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/93457"
 store_url: "https://store.epicgames.com/en-US/p/death-stranding"
 protondb_url: "https://www.protondb.com/app/1850570"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death_Stranding_Director%27s_Cut"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death_Stranding_Director's_Cut"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/death-stranding/"
 

@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 3.9
+gog_rating_count: 21
 
 # Game Info
 publisher: Gaming Factory, Gaming Factory
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"77","name":"Realistic"},{"id":"114","name":"Physics"},{"id":"406","name":"Story"},{"id":"130","name":"Driving"},{"id":"42473","name":"Immersive Sim"},{"id":"302","name":"Time Manipulation"},{"id":"1407","name":"race"},{"id":"1652","name":"night"},{"id":"1079","name":"environment"},{"id":"6465","name":"unique"},{"id":"1497","name":"car"},{"id":"712","name":"school"},{"id":"49951","name":"Automobile Sim"},{"id":"49966","name":"Combat Racing"},{"id":"2156","name":"drift"},{"id":"8949","name":"attack"},{"id":"9986","name":"summer"},{"id":"1472","name":"competition"},{"id":"2786","name":"skills"},{"id":"2609","name":"vehicle"},{"id":"7270","name":"find"},{"id":"1957","name":"weather"},{"id":"5479","name":"drive"},{"id":"8134","name":"traffic"},{"id":"2235","name":"drifting"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d33bb05d9daa82ec8fdec6bd290b8beed181a6fb20f
 icon_image: "https://images.gog.com/b9e263abbf3bcde43fc12238017c249458febf860378af207d5c8a71f94c848c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

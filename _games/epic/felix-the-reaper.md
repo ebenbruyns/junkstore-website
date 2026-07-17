@@ -20,25 +20,35 @@ protondb_total: 17
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 467
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Daedalic Entertainment
 developer: Kong Orange
 genre: Puzzle, Indie
 franchise: 
-age_rating_summary: 12 (USK)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Conteúdo sexual"}}
-release_date: "October 17, 2019"
+release_date: "November 6, 2099"
 game_modes: ["Single-player"]
 languages: ["English","German","French","Italian","Spanish - Spain","Portuguese - Brazil","Japanese","Korean","Polish","Russian","Traditional Chinese","Turkish","Simplified Chinese","Danish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
 size: "2.51 GB"
+install_size: ""
+achievements_total: 26
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/felix-the-reaper"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-11-06","end":"2025-11-13"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/96348e15fd2c25f9a7bf35ff32b9321b5ba657a7cce
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/919410/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 13
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 4805
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Daedalic Entertainment
@@ -32,13 +40,15 @@ release_date: "December 6, 2021"
 game_modes: ["Single player"]
 languages: ["English","German","Japanese","French","Italian","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: ["English","Japanese"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1084","name":"Stealth"},{"id":"9549","name":"Controller Support"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"9549","name":"Controller Support"}]
+size: "4292 MB"
+install_size: "4292 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "shadow-tactics|shadow-tactics-blades-of-the-s"
 igdb_url: "https://www.igdb.com/games/19085"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d63631f27c961ebbfb","id":"ef6a61163419450ba4dcf2eacb6b88e7","namespace":"39c6dd5409944922a04cac3f59fbbcd4","startDate":"2023-01-04T15:00:00.000Z","endDate":"2023-01-11T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-01-04","end":"2023-01-11"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/61636070654f9116b074496336bcff4bd3c1c387cd1
 icon_image: "https://images.gog.com/c97c3b5310487d610fe5e868eb1264b1474c08d4b27b7931a833e0a8b2089b6a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/101222"
 store_url: "https://store.epicgames.com/en-US/p/shadow-tactics-aikos-choice-5678c1"
 protondb_url: "https://www.protondb.com/app/1579380"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shadow_Tactics:_Blades_of_the_Shogun_-_Aiko%27s_Choice"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shadow_Tactics:_Blades_of_the_Shogun_-_Aiko's_Choice"
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/shadow-tactics-blades-of-the-shogun-aikos-choice/"
 

@@ -20,6 +20,14 @@ protondb_total: 93
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Unsupported graphics performance"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 31708
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Saber Interactive
@@ -32,8 +40,10 @@ release_date: "April 16, 2019"
 game_modes: ["Single-player","Co-op"]
 languages: ["Russian","English","Spanish - Spain","Traditional Chinese","French","Italian","German","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Japanese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"39940","name":"Gift A Game"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1279","name":"Vampire"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"39940","name":"Gift A Game"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1279","name":"Vampire"}]
+size: "51830 MB"
+install_size: "62320 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/world-war-z-game-of-the-year-edition"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e7c51451bf1d85cbc70a1e4213b1061b6376f0c0b17
 icon_image: "https://images.gog.com/20e76259a150cc9168dd07cf37cde86270ebf538c35d11f2e8315bc056932294.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

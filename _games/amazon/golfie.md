@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 68
+steam_review_total: 418
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Yogscast Games
@@ -33,12 +41,14 @@ game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Danish","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"4","name":"Funny"},{"id":"14","name":"Early Access"},{"id":"121","name":"Character Customization"},{"id":"165","name":"Colorful"},{"id":"114","name":"Physics"},{"id":"639","name":"Roguelike"},{"id":"138","name":"Relaxing"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"166","name":"Stylized"},{"id":"196","name":"Procedural Generation"},{"id":"124","name":"Perma Death"},{"id":"127","name":"Card Game"},{"id":"14194","name":"deckbuilding"},{"id":"23","name":"Mini Golf"},{"id":"55322","name":"Roguelike Deckbuilder"}]
-size: ""
+size: "778 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/golfie"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/46c1a2cc594a342615c9d21e3636e5679be7520d664
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1579020/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

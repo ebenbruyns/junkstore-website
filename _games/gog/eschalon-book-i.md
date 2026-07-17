@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 413
+gog_rating_value: 3.8
+gog_rating_count: 407
 
 # Game Info
 publisher: Basilisk Games
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"99","name":"Isometric"}]
 size: "105 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "eschalon-book-i|eschalon-book-ii"
 igdb_url: "https://www.igdb.com/games/eschalon-book-i"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/855723aa2e49504b7883c0c3384cf0cbb4575b29d8e
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/25600/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

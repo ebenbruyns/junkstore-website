@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 1876
+gog_rating_value: 3.4
+gog_rating_count: 71
 
 # Game Info
 publisher: Abstraction Games, LOOT Interactive, Akupara Games, Night Light Interactive
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"189","name":"Female Protagonist"},{"id":"134","name":"Anime"},{"id":"141","name":"Point & Click"},{"id":"40833","name":"Captions available"},{"id":"279","name":"Supernatural"},{"id":"663","name":"Ghosts"},{"id":"597","name":"artgame"}]
 size: "681 MB"
+install_size: ""
+achievements_total: 20
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/whispering-willows"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2019-05-01"},{"start":"2022-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/88d60c167cdfa2476f0f1f1de4f14866bd828792b4d
 icon_image: "https://images.gog.com/09ca0a7f94f3429cfffcbe64c862c24efeaedcb642b7ebf6697dc15a87fef0f1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -62,7 +75,7 @@ dependencies:
 # website's GOG-Features section only shows Cloud Saves for now. Remove the
 # leading "# " on any line to enable that chip on the rendered page.)
 gog_cloud_saves: false
-# gog_achievements: false
+# gog_achievements: true
 # gog_overlay: true
 # gog_leaderboards: false
 

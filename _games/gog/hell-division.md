@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 237
+gog_rating_value: 2.7
+gog_rating_count: 109
 
 # Game Info
 publisher: Whale Rock Games
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: []
 tags_structured: []
 size: "2632 MB"
+install_size: ""
+achievements_total: 6
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/hell-division"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/02be5a277aa7148c6a02523efb270a5fb5e33f6f978
 icon_image: "https://images.gog.com/d25654e803294836abb0f87257e69f787ebabecfce3ee7438370b94f5bd8110b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -62,7 +75,7 @@ dependencies:
 # website's GOG-Features section only shows Cloud Saves for now. Remove the
 # leading "# " on any line to enable that chip on the rendered page.)
 gog_cloud_saves: false
-# gog_achievements: false
+# gog_achievements: true
 # gog_overlay: true
 # gog_leaderboards: false
 

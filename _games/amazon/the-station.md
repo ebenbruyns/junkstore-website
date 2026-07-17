@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 1118
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: The Station Game ltd
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","French","Spanish - Spain","Russian","Italian","German"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"}]
-size: ""
+size: "7094 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-station"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0ff3b6e1a436786219db97fc6c15e4365abfb6fae28
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/565120/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

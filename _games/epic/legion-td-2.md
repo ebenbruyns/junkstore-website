@@ -20,6 +20,14 @@ protondb_total: 50
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 15150
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ninja Kiwi
@@ -35,11 +43,13 @@ languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"33639","name":"Promotional Content"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "1665442693
 "
+install_size: "2395 MB"
+achievements_total: 78
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/legion-td-2"
 was_free_before: true
-giveaway_events: [{"_id":"6877a19e80dba5e64115c1e8","id":"71f1c64e7e41477ca09228c1253c9ce7","namespace":"524c3386e7e6470a8d8400cc51d92296","startDate":"2025-07-24T15:00:00.000Z","endDate":"2025-07-31T15:00:00.000Z","title":"Legion TD 2","__v":0}]
+giveaway_events: [{"start":"2025-07-24","end":"2025-07-31"}]
 free_games_aliases: []
 
 # Images
@@ -48,6 +58,9 @@ cover_image: "https://images.gog.com/3f074b3852fc6119d415f77c4911b9971184354e2ab
 icon_image: "https://images.gog.com/dda0fb6579d93db41f3652a4b5e215bcafeaf1a5091e45ae5d857ad4ac15a4af.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

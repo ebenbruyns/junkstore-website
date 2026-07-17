@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 98
+steam_review_total: 6870
+gog_rating_value: 4.2
+gog_rating_count: 61
 
 # Game Info
 publisher: Pun Intended
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"26","name":"Gore"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"1465","name":"combat"},{"id":"61","name":"Top-Down"},{"id":"259","name":"Metroidvania"},{"id":"57","name":"Bullet Hell"},{"id":"187","name":"Demons"},{"id":"580","name":"Souls-like"},{"id":"204","name":"Gothic"},{"id":"201","name":"Twin Stick Shooter"},{"id":"146","name":"Nonlinear"}]
 size: "70 MB"
+install_size: ""
+achievements_total: 11
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/bloody-hell"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9496d5835ae607f78b44e6813a5aa12be2329e1bc1b
 icon_image: "https://images.gog.com/459e484079ab7cfe0ce39e06ec311564544735631493b3dc641343d0d2a46657.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

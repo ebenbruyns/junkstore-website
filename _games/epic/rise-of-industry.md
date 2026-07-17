@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 4179
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Kasedo Games
@@ -28,17 +36,19 @@ genre: Strategy
 franchise: Rise of Industry
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"10"}}
-release_date: "May 2, 2019"
+release_date: "August 11, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "865 MB"
+install_size: "1900 MB"
+achievements_total: 27
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/rise-of-industry"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d53631f27c961ebba4","id":"c04a2ab8ff4442cba0a41fb83453e701","namespace":"9f101e25b1a9427a9e6971d2b21c5f82","startDate":"2023-03-01T15:00:00.000Z","endDate":"2023-03-08T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-03-01","end":"2023-03-08"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c2f74f7719891b4f7639cd94f7851ec37a96e6f98e0
 icon_image: "https://images.gog.com/0617f704f5fcdaea9d1460b9ca7d993d7a50730590bb519f9b2126cad2239ae7.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 289
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: DANGEN Entertainment
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"74","name":"Retro"},{"id":"40","name":"Dark Fantasy"},{"id":"113","name":"Side Scroller"},{"id":"218","name":"Multiple Endings"},{"id":"259","name":"Metroidvania"},{"id":"136","name":"Music"},{"id":"48","name":"Dungeon Crawler"},{"id":"83","name":"Puzzle-Platformer"},{"id":"1867","name":"puzzles"},{"id":"820","name":"secrets"},{"id":"624","name":"Monsters"},{"id":"583","name":"Narrative"},{"id":"782","name":"humor"},{"id":"2075","name":"sound"},{"id":"5559","name":"elements"},{"id":"1746","name":"dialogue"},{"id":"2296","name":"crash"},{"id":"3720","name":"numbers"},{"id":"3953","name":"words"},{"id":"2654","name":"fruit"},{"id":"4429","name":"bat"}]
-size: ""
+size: "282 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f29881f43c0e5d7ef72b92adbe489930714bd7bf51d
 icon_image: "https://images.gog.com/edc0029064b28eb6d8038285c363d4c3cbf1b28042dd9a724bdf364758849d0b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -66,24 +79,24 @@ cant_test_linux: false
 native_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
+hltb_main: "13 Hours"
+hltb_main_extra: "17.5 Hours"
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/84071"
 
 # Links
 store_url: "https://dangen-entertainment.itch.io/batbarian-testament-of-the-primordials"
 protondb_url: "https://www.protondb.com/app/837460"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Batbarian%3A_Testament_of_the_Primordials"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Batbarian:_Testament_of_the_Primordials"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/batbarian-testament-of-the-primordials/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "10342/batbarian-testament-of-the-primordials"
+opencritic_url: "https://opencritic.com/game/10342/batbarian-testament-of-the-primordials"
+opencritic_score: 80
+opencritic_review_count: 16
 twitch_id: ""
 twitch_url: ""
 playstation_id: ""

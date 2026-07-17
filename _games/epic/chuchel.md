@@ -20,6 +20,14 @@ protondb_total: 33
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 4803
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Amanita Design
@@ -28,17 +36,19 @@ genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "March 7, 2018"
+release_date: "March 25, 2025"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Swedish","Thai","Traditional Chinese","Turkish","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Swedish","Thai","Traditional Chinese","Turkish","Ukrainian"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
 size: "673 MB"
+install_size: ""
+achievements_total: 7
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/chuchel"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-04-24","end":"2025-05-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1e78df381dea0492f2d134fe0202ebc40ac36e6ae78
 icon_image: "https://images.gog.com/ddc0477e778a147480b925e9d952952e84e18924e5ec95a0c6947ca98dbe6ef7.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

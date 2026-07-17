@@ -20,6 +20,14 @@ protondb_total: 48
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 28286
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: SEGA
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Danish","Dutch","Greek","Japanese","Korean","Norwegian","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Swedish","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
-size: ""
+size: "43 MB"
+install_size: "43 MB"
+achievements_total: 100
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/266382"
 was_free_before: true
-giveaway_events: [{"_id":"66d082657b67b48c6846f75d","id":"d0ec3758eb4b4224a2037cd438d51cc1","namespace":"610a546d4e204215a0b9a1c8a382bacb","startDate":"2024-09-05T15:00:00.000Z","endDate":"2024-09-12T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-09-05","end":"2024-09-12"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a3fdf0ee4026c257a75140a2843b85a2e3e844e67ba
 icon_image: "https://images.gog.com/61c108f33def83d631ec67f2c2f8194c45b9393d0d17e5fc989a21f68c466384.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""
@@ -88,10 +101,10 @@ metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/football-manager-2024/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "15780/football-manager-2024"
+opencritic_url: "https://opencritic.com/game/15780/football-manager-2024"
+opencritic_score: 83
+opencritic_review_count: 38
 twitch_id: ""
 twitch_url: ""
 playstation_id: ""

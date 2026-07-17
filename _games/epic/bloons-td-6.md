@@ -20,6 +20,14 @@ protondb_total: 730
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 97
+steam_review_total: 390832
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ninja Kiwi
@@ -33,12 +41,14 @@ game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Danish","Finnish","Japanese","Korean","Norwegian","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Traditional Chinese","Turkish","Polish","Spanish - Spain","Arabic","Dutch","Thai"]
 languages_audio: []
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"39070","name":"iOS"}]
-size: ""
+size: "1935 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":6898,"slug":"bloons-td-5","name":"Bloons TD 5"},{"rawg_id":6498,"slug":"bloons-td-4","name":"Bloons TD 4"},{"rawg_id":1621,"slug":"bloons-td","name":"Bloons TD"},{"rawg_id":407890,"slug":"bloons-tower-defense-3","name":"Bloons Tower Defense 3"},{"rawg_id":407888,"slug":"bloons-tower-defense-2","name":"Bloons Tower Defense 2"}]
 franchise_slug: "bloons-td|bloons-td-4|bloons-td-5|bloons-td-6|bloons-tower-defense-2|bloons-tower-defense-3"
 igdb_url: "https://www.igdb.com/games/bloons-td-6"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2022-12-14","end":"2022-12-15"},{"start":"2023-08-02","end":"2023-08-09"},{"start":"2026-01-08","end":"2026-01-15"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f67d34b0404a4ac115d5047b3425eb3d88b4b30de00
 icon_image: "https://images.gog.com/aa1700b28782f43da1d61c33bd01eb4b677a3a5c46a15ad0fb1a210493f9fa2b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

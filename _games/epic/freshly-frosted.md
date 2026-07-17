@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 99
+steam_review_total: 373
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: The Quantum Astrophysicists Guild
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Jap
 languages_audio: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1263","name":"Indie"}]
 size: "204 MB"
+install_size: "314 MB"
+achievements_total: 78
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/freshly-frosted"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1c93631f27c961eb83c","id":"eba5b90a4eda4234a26259bf2ea8b07a","namespace":"013ef1cdbe5a4408919025207ddb9c99","startDate":"2024-06-19T15:00:00.000Z","endDate":"2024-06-26T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-06-19","end":"2024-06-26"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/51988980e85d2c14df39ad2d2da730e2cfb0f77b372
 icon_image: "https://images.gog.com/88586f350e622cd179e01a9507d5624e0d4ab3bb292c727d8d5047cfe6c6a3a5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

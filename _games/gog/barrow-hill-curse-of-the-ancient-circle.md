@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 215
+gog_rating_value: 3.9
+gog_rating_count: 58
 
 # Game Info
 publisher: Shadow Tor Studios
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "1249 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "barrow-hill-curse-of-the-ancient-circle|barrow-hill-the-dark-path"
 igdb_url: "https://www.igdb.com/games/barrow-hill-curse-of-the-ancient-circle"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3d62d7f2b717e1ce382ee931d8a199e518270942685
 icon_image: "https://images.gog.com/3d62d7f2b717e1ce382ee931d8a199e518270942685249e9e81469bef847f392.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/849"
 store_url: "https://www.gog.com/en/game/barrow_hill_curse_of_the_ancient_circle"
 protondb_url: "https://www.protondb.com/app/494360"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill%3A_Curse_of_the_Ancient_Circle"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill:_Curse_of_the_Ancient_Circle"
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/barrow-hill-curse-of-the-ancient-circle/"
 

@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 2039
+gog_rating_value: 4.5
+gog_rating_count: 2191
 
 # Game Info
 publisher: The Digital Lounge
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"49","name":"Difficult"},{"id":"193","name":"Classic"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"74","name":"Retro"},{"id":"25","name":"Space"},{"id":"110","name":"Cinematic"},{"id":"172","name":"Aliens"},{"id":"271","name":"Remake"},{"id":"334","name":"achievements"},{"id":"624","name":"Monsters"},{"id":"2191","name":"alien"},{"id":"2075","name":"sound"},{"id":"2489","name":"dodge"}]
 size: "117 MB"
+install_size: ""
+achievements_total: 13
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/another-world-20th-anniversary-edition"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/233550/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/233550/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

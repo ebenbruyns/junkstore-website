@@ -20,6 +20,14 @@ protondb_total: 20
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 2166
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ice BEAM
@@ -28,17 +36,19 @@ genre: Action, Party, Racing
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "December 4, 2023"
+release_date: "August 28, 2025"
 game_modes: ["Online Multiplayer","Local Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+size: "634 MB"
+install_size: "1628 MB"
+achievements_total: 27
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/make-way--1"
 was_free_before: true
-giveaway_events: [{"_id":"68a6a84adadba17b2e7d3ac1","id":"5e416c7c1444483e828899b0c30ce2cd","namespace":"99d8ac4b0cd94611b52bae792d84b0e4","startDate":"2025-08-28T15:00:00.000Z","endDate":"2025-09-04T15:00:00.000Z","title":"Make Way","__v":0}]
+giveaway_events: [{"start":"2025-08-28","end":"2025-09-04"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1e68c542d43427da6716a2cfc530a97024c9582ce11
 icon_image: "https://images.gog.com/1e68c542d43427da6716a2cfc530a97024c9582ce11853f5fd67c617f028f140.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: true
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false

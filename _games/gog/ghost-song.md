@@ -20,6 +20,14 @@ protondb_total: 19
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 1443
+gog_rating_value: 4.4
+gog_rating_count: 281
 
 # Game Info
 publisher: Humble Games
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Latin American Spanish","Fr
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"32","name":"Sci-fi"},{"id":"259","name":"Metroidvania"}]
 size: "1399 MB"
+install_size: ""
+achievements_total: 42
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/ghost-song"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fdc7ef2bbbcb89f1fbf133e94046138322ad0754bdd
 icon_image: "https://images.gog.com/918b3ca9795ee8d6321ffbe002ed6644c321243d89cdc6a30a133ddd6288de88.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

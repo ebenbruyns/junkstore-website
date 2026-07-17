@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 103
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: BancyCo
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"1","name":"Survival"},{"id":"69","name":"Action-Adventure"},{"id":"150","name":"Third-Person Shooter"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"52","name":"Arena Shooter"},{"id":"304","name":"Character Action Game"},{"id":"49953","name":"Hero Shooter"},{"id":"49954","name":"Open World Survival Craft"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/alone-with-you--1"
@@ -47,6 +57,9 @@ cover_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/564940/library_6
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/564940/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

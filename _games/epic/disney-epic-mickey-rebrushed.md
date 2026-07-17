@@ -20,6 +20,14 @@ protondb_total: 12
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 1649
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Disney
@@ -34,6 +42,8 @@ languages: ["English","French","Italian","German","Spanish - Spain","Portuguese 
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Dutch","Norwegian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"145","name":"Choices Matter"},{"id":"113","name":"Side Scroller"},{"id":"82","name":"Magic"},{"id":"218","name":"Multiple Endings"},{"id":"406","name":"Story"},{"id":"271","name":"Remake"},{"id":"229","name":"3D Platformer"},{"id":"205","name":"Lore-Rich"},{"id":"179","name":"Cartoon"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"91686","name":"Family Sharing"},{"id":"581","name":"Epic"},{"id":"820","name":"secrets"},{"id":"1309","name":"hero"},{"id":"49955","name":"Puzzle Platformer"},{"id":"1079","name":"environment"},{"id":"2232","name":"journey"},{"id":"6465","name":"unique"},{"id":"2743","name":"dash"},{"id":"78619","name":"Ремейк"},{"id":"3584","name":"characters"},{"id":"1716","name":"rabbit"},{"id":"2177","name":"shapes"},{"id":"2786","name":"skills"},{"id":"3111","name":"paint"},{"id":"827","name":"choice"},{"id":"7258","name":"shape"},{"id":"8007","name":"movement"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/epic-mickey-rebrushed"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/738993e8b97b72434d6c7f5b78eec109209fd29b0a9
 icon_image: "https://images.gog.com/6c650a178319d99173d62bfaa9bb57ce4ff7f9279a9364518e800dbd8f6f7d14.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/145872"
 store_url: "https://store.epicgames.com/en-US/p/disney-epic-mickey-rebrushed"
 protondb_url: "https://www.protondb.com/app/1522160"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Epic_Mickey%3A_Rebrushed"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Epic_Mickey:_Rebrushed"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/disney-epic-mickey-rebrushed/"
 

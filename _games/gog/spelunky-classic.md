@@ -20,6 +20,14 @@ protondb_total: 101
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 16621
+gog_rating_value: 4.1
+gog_rating_count: 760
 
 # Game Info
 publisher: Derek Yu
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: []
 size: "148 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":59613,"slug":"spelunky-2","name":"Spelunky 2"}]
 franchise_slug: "spelunky|spelunky-2"
 igdb_url: "https://www.igdb.com/games/spelunky"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/14c5596826c6fae0bbf9552421de21b4445f3bbd39f
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/239350/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

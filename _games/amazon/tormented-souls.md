@@ -20,6 +20,14 @@ protondb_total: 21
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 8018
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: PQube
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Russian","Spanish - L
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"1","name":"Survival"},{"id":"41","name":"Dark"},{"id":"44","name":"Nudity"},{"id":"17","name":"Survival Horror"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"59643","name":"Протагонистка"},{"id":"140","name":"Hidden Object"},{"id":"151","name":"Modern"},{"id":"570","name":"Old School"}]
 size: "14.8 GB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":965411,"slug":"tormented-souls-2","name":"Tormented Souls 2"}]
 franchise_slug: "tormented-souls|tormented-souls-2"
 igdb_url: "https://www.igdb.com/games/tormented-souls"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1367590/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1367590/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

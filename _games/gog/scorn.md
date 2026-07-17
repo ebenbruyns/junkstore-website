@@ -20,6 +20,14 @@ protondb_total: 61
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 19285
+gog_rating_value: 3.9
+gog_rating_count: 601
 
 # Game Info
 publisher: Ebb Software, Kepler Interactive
@@ -34,11 +42,13 @@ languages: ["Bulgarian","Portuguese (brazilian)","Chinese Simplified","Czech","D
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"44","name":"Nudity"}]
 size: "17757 MB"
+install_size: ""
+achievements_total: 12
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/scorn"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/40f9492db6bdc2f0ffa7fc0225dd4cd90b592331d94
 icon_image: "https://images.gog.com/65cb67ae368291bcde67d2d307ace678d53c993a68bcce1f90ce862c13e6c8cd.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 1747
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Gentle Troll Entertainment
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["English","German","Japanese","Simplified Chinese","Korean"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"134","name":"Anime"},{"id":"145","name":"Choices Matter"},{"id":"165","name":"Colorful"},{"id":"218","name":"Multiple Endings"},{"id":"90","name":"Visual Novel"},{"id":"138","name":"Relaxing"},{"id":"164","name":"Cartoony"},{"id":"572","name":"Emotional"},{"id":"91686","name":"Family Sharing"},{"id":"288","name":"Interactive Fiction"},{"id":"42410","name":"LGBTQ+"},{"id":"342","name":"Conversation"},{"id":"49960","name":"Life Sim"},{"id":"658","name":"Cozy"}]
-size: ""
+size: "723 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/tavern-talk"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2076140/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2076140/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -75,7 +88,7 @@ hltb_url: "https://howlongtobeat.com/game/139114"
 store_url: ""
 protondb_url: "https://www.protondb.com/app/2076140"
 protondb_report_url: ""
-pcgamingwiki_url: "https://store.epicgames.com/en-US/p/boxes-lost-fragments-079041"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tavern_Talk"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/tavern-talk/"
 

@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 72
+steam_review_total: 800
+gog_rating_value: 3.9
+gog_rating_count: 68
 
 # Game Info
 publisher: Thunderful
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"121","name":"Character Customization"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"114","name":"Physics"},{"id":"113","name":"Side Scroller"},{"id":"639","name":"Roguelike"},{"id":"640","name":"Roguelite"},{"id":"413","name":"online"},{"id":"48","name":"Dungeon Crawler"},{"id":"176","name":"Turn-Based Tactics"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"54","name":"Score Attack"},{"id":"2326","name":"explore"},{"id":"1863","name":"challenge"},{"id":"161","name":"Golf"},{"id":"1796","name":"dungeon"},{"id":"4451","name":"obstacles"},{"id":"15556","name":"catch"},{"id":"2581","name":"spikes"}]
 size: "677 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":470699,"slug":"cursed-to-golf","name":"Cursed to Golf (itch)"}]
 franchise_slug: "cursed-to-golf|cursed-to-golf-2"
 igdb_url: "https://www.igdb.com/games/cursed-to-golf"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2023-12-26","end":"2023-12-27"},{"start":"2024-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/04123daf3ceb7a83266d40348930dfa56ac041eb38a
 icon_image: "https://images.gog.com/fabe3a4788a2434e8408c93e1acdb445224c54def3c072b77005184a86dae5e2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/93251"
 store_url: "https://www.gog.com/en/game/cursed_to_golf"
 protondb_url: "https://www.protondb.com/app/1726120"
 protondb_report_url: ""
-pcgamingwiki_url: "https://store.epicgames.com/en-US/p/cursed-to-golf-a6bc22"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cursed_to_Golf"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/cursed-to-golf/"
 

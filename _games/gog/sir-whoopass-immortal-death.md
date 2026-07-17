@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 1898
+gog_rating_value: 4.3
+gog_rating_count: 266
 
 # Game Info
 publisher: AtomicElbow AB
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: []
 size: "10589 MB"
+install_size: ""
+achievements_total: 82
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sir-whoopass-immortal-death"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/981ca873dcca733c2afb4ddd20a690e15f7012bb4c0
 icon_image: "https://images.gog.com/270d8f41a876a664c2aac5c664d030b25eb8e501168442f787c209b240d37c78.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

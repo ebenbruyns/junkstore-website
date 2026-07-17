@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 67
+steam_review_total: 186
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Anshar Publishing
@@ -32,8 +40,10 @@ release_date: "July 3, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
 size: "1847 MB"
+install_size: "3480 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/liberte"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d4638e16160f0a1411e693f213e6dca7001272aa5d5
 icon_image: "https://images.gog.com/fafbfdaf31c133ba734b12aed9664104afceb45fb8b81ff2dcd938f634e7def2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/104440"
 store_url: "https://store.epicgames.com/en-US/p/liberte-96a5e5"
 protondb_url: "https://www.protondb.com/app/1590160"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Libert%C3%A9"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Liberté"
 metacritic_score: 52
 metacritic_url: "https://www.metacritic.com/game/liberte/"
 

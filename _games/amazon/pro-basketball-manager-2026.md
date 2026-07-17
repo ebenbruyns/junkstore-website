@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 70
+steam_review_total: 120
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Umix Studios
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Traditional Chinese","Greek","Polish","Portuguese - Brazil","Portuguese - Portugal","Russian","Czech","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"80","name":"Tactical"},{"id":"40852","name":"Steam Workshop"},{"id":"40838","name":"Includes level editor"},{"id":"62","name":"Moddable"},{"id":"145","name":"Choices Matter"},{"id":"571","name":"3D"},{"id":"67","name":"Management"},{"id":"147","name":"Resource Management"},{"id":"91686","name":"Family Sharing"},{"id":"266","name":"Level Editor"},{"id":"42473","name":"Immersive Sim"},{"id":"247","name":"Real Time Tactics"},{"id":"146","name":"Nonlinear"},{"id":"303","name":"Text-Based"},{"id":"202","name":"Artificial Intelligence"},{"id":"322","name":"Basketball"},{"id":"92228","name":"Stereo Sound"},{"id":"92227","name":"Custom Volume Controls"},{"id":"92225","name":"Playable without Timed Input"},{"id":"92231","name":"Camera Comfort"},{"id":"92226","name":"Save Anytime"},{"id":"92235","name":"Adjustable Difficulty"},{"id":"92233","name":"Color Alternatives"},{"id":"91996","name":"Спорт"},{"id":"92229","name":"Mouse Only Option"}]
-size: ""
+size: "4048 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/pro-basketball-manager-2026"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-05-28","end":"2026-07-02"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://m.media-amazon.com/images/I/81q+RwHL7QL.jpg"
 icon_image: "https://m.media-amazon.com/images/I/419HQ7r+PsL.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

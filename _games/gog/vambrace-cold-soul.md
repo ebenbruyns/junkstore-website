@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Cross platform cloud saves not supported"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 66
+steam_review_total: 948
+gog_rating_value: 3.3
+gog_rating_count: 249
 
 # Game Info
 publisher: Headup Games
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","Latin American Spanish","Fr
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"189","name":"Female Protagonist"},{"id":"468","name":"role-playing"},{"id":"48","name":"Dungeon Crawler"},{"id":"258","name":"Hand-drawn"}]
 size: "2605 MB"
+install_size: ""
+achievements_total: 54
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/vambrace-cold-soul"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/960547e20c8bb3cfaa05491032557974d8fb4611d18
 icon_image: "https://images.gog.com/b8f8ae16c455a96ce185e5be4e93f69d709a8ea50d08d1e1599c998ea39509fb.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/67877"
 store_url: "https://www.gog.com/en/game/vambrace_cold_soul"
 protondb_url: "https://www.protondb.com/app/904380"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vambrace%3A_Cold_Soul"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vambrace:_Cold_Soul"
 metacritic_score: 59
 metacritic_url: "https://www.metacritic.com/game/vambrace-cold-soul/"
 

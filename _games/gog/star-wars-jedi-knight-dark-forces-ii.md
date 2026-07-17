@@ -20,6 +20,14 @@ protondb_total: 43
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 2250
+gog_rating_value: 4.3
+gog_rating_count: 75
 
 # Game Info
 publisher: LucasArts
@@ -34,11 +42,13 @@ languages: ["English","Spanish","French","Italian"]
 languages_audio: ["English","French","Italian","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"8","name":"First-Person"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"40845","name":"Partial Controller Support"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"72","name":"Local Multiplayer"},{"id":"74","name":"Retro"},{"id":"25","name":"Space"},{"id":"318","name":"Star Wars"},{"id":"290","name":"FMV"}]
 size: "716 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":11970,"slug":"star-wars-jedi-knight-jedi-academy","name":"Star Wars Jedi Knight: Jedi Academy"},{"rawg_id":12018,"slug":"star-wars-jedi-knight-ii-jedi-outcast","name":"Star Wars Jedi Knight II: Jedi Outcast"},{"rawg_id":15852,"slug":"star-wars-jedi-knight-mysteries-of-the-sith","name":"STAR WARS Jedi Knight - Mysteries of the Sith"},{"rawg_id":15851,"slug":"star-wars-dark-forces-2","name":"Star Wars: Dark Forces"}]
 franchise_slug: "star-wars-dark-forces-2|star-wars-jedi-knight-dark-for|star-wars-jedi-knight-ii-jedi-|star-wars-jedi-knight-jedi-aca|star-wars-jedi-knight-mysterie"
 igdb_url: "https://www.igdb.com/games/star-wars-jedi-knight-dark-forces-ii"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-07-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ef2e953d8330a4af2bea0c947e660e2b857aef0e1e4
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/32380/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

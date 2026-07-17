@@ -20,6 +20,14 @@ protondb_total: 75
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 98631
+gog_rating_value: 3.9
+gog_rating_count: 2118
 
 # Game Info
 publisher: Panic
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Japanese
 languages_audio: ["English"]
 tags_structured: [{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"117","name":"Mystery"},{"id":"111","name":"Short"},{"id":"165","name":"Colorful"},{"id":"192","name":"Mature"},{"id":"91","name":"Walking Simulator"},{"id":"90","name":"Visual Novel"},{"id":"209","name":"Drama"},{"id":"288","name":"Interactive Fiction"},{"id":"183","name":"Thriller"},{"id":"43576","name":"interactive movie"},{"id":"91217","name":"interactive game"}]
 size: "2124 MB"
+install_size: ""
+achievements_total: 10
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/firewatch"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b99c68f8231d2576bbcb2a37247e214beed0b89df29
 icon_image: "https://images.gog.com/b99c68f8231d2576bbcb2a37247e214beed0b89df2918ebc438e322d8935b63c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

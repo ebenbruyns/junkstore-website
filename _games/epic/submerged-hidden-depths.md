@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 853
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Uppercut Games Pty Ltd
@@ -28,17 +36,19 @@ genre: Exploration, Adventure
 franchise: Submerged
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "March 9, 2022"
+release_date: "March 10, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Portugal","Danish","Finnish","Korean","Norwegian","Russian","Swedish","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "6083 MB"
+install_size: "11245 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":2738,"slug":"submerged-miku-and-the-sunken-city","name":"Submerged: Miku and the Sunken City"},{"rawg_id":670693,"slug":"submerged","name":"Submerged"}]
 franchise_slug: "submerged|submerged-hidden-depths|submerged-miku-and-the-sunken-"
 igdb_url: "https://www.igdb.com/games/submerged-hidden-depths"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1db3631f27c961ebd42","id":"befad00f8b354f52a4f10e927025e9f8","namespace":"6006c7c9d8534b0ca4605ea3a759f3e1","startDate":"2022-08-31T15:00:00.000Z","endDate":"2022-09-07T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-08-31","end":"2022-09-07"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/225eec7c689f1e473f3b416c73b25a38a84cfbbc407
 icon_image: "https://images.gog.com/9185c0e9189a6fa034e874de14c5af562d9e1f8ec5dd35adaf33516a7267ab55.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

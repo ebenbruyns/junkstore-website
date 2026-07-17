@@ -20,13 +20,21 @@ protondb_total: 68
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 16351
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: HypeTrain Digital
 developer: RedRuins Softworks
 genre: Action, Survival
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Crude Humor, Mild Language, Mild Violence, Suggestive Themes, Use of Alcohol and Tobacco"},"pegi":{"rating":"12","descriptors":"Horror, Sex"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Nudez, Violência"}}
 release_date: "February 25, 2021"
 game_modes: ["Single player"]
@@ -34,11 +42,13 @@ languages: ["English","Russian","French","German","Simplified Chinese","Japanese
 languages_audio: ["English","Russian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1281","name":"Space Sim"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "6713 MB"
+install_size: "11286 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/breathedge"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d33631f27c961ebb50","id":"8401414902e84f2cb9afa9142f051d32","namespace":"08ae29e4f70a4b62aa055e383381aa82","startDate":"2023-04-26T15:00:00.000Z","endDate":"2023-05-03T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-01-01"},{"start":"2023-04-26","end":"2023-05-03"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f927e40bb2977a2461d2675306cdcb71fa96ec7c65c
 icon_image: "https://images.gog.com/267992ec9bfbae142508d66ddd8fe41730af1573377242e83080f9bdc082ef48.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""
@@ -88,10 +101,10 @@ metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/breathedge/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "10984/breathedge"
+opencritic_url: "https://opencritic.com/game/10984/breathedge"
+opencritic_score: 69
+opencritic_review_count: 25
 twitch_id: ""
 twitch_url: ""
 playstation_id: "10002392"

@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 1057
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Fellow Traveller
@@ -34,11 +42,13 @@ languages: ["English","French","German","Simplified Chinese","Japanese","Russian
 languages_audio: ["English"]
 tags_structured: [{"id":"144","name":"Crime"},{"id":"136","name":"Music"},{"id":"209","name":"Drama"},{"id":"625","name":"party"},{"id":"1709","name":"work"},{"id":"1129","name":"art"},{"id":"712","name":"school"},{"id":"2865","name":"girl"},{"id":"2384","name":"rock"},{"id":"663","name":"Ghosts"},{"id":"2774","name":"learn"},{"id":"684","name":"children"},{"id":"3735","name":"loop"}]
 size: "262 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/kraken-academy"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"},{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c294e178fc7479d0b6fed97129ab7d15b31c7834e7b
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1158220/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

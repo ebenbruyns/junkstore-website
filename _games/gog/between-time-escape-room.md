@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 80
+steam_review_total: 351
+gog_rating_value: 3
+gog_rating_count: 26
 
 # Game Info
 publisher: mc2games
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["Portuguese (Brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Portuguese","Russian","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"8","name":"First-Person"},{"id":"6","name":"Exploration"},{"id":"141","name":"Point & Click"},{"id":"107","name":"Family Friendly"},{"id":"571","name":"3D"},{"id":"77","name":"Realistic"},{"id":"110","name":"Cinematic"},{"id":"91","name":"Walking Simulator"},{"id":"142","name":"Detective"},{"id":"216","name":"Heist"},{"id":"208","name":"Alternate History"},{"id":"288","name":"Interactive Fiction"},{"id":"317","name":"Time Travel"},{"id":"140","name":"Hidden Object"},{"id":"326","name":"Investigation"},{"id":"575","name":"Logic"},{"id":"92376","name":"Aventure"}]
-size: ""
+size: "2856 MB"
+install_size: ""
+achievements_total: 5
 franchise_siblings: []
 franchise_slug: "60-minutes-to-extinction-escape-room|palindrome-syndrome-escape-room|tested-on-humans-escape-room"
 igdb_url: "https://www.igdb.com/games/between-time-escape-room"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-06-18","end":"2026-07-19"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7e20c56c0fad9cab89c09646da159d53fe1a57034b7
 icon_image: "https://images.gog.com/9048c0d70929dae840fd196b955742b662570d3c8cbc8659c0227c01e319c5e2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

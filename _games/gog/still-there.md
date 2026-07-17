@@ -20,6 +20,14 @@ protondb_total: 15
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 1349
+gog_rating_value: 3.9
+gog_rating_count: 54
 
 # Game Info
 publisher: Iceberg Interactive
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","French","Italian","Russian"
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"141","name":"Point & Click"},{"id":"200","name":"Narration"},{"id":"285","name":"Psychological"}]
 size: "296 MB"
+install_size: ""
+achievements_total: 23
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/still-there"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-07-09","end":"2026-08-13"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/29b65d7c87e3677c2c9ae3316c2e3bc7825b62c2508
 icon_image: "https://images.gog.com/a32860dc4c02e5cc5291a96d24cf2c59247c22ec27c505185219ec79cb2260fe.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -112,7 +125,7 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 ---
 

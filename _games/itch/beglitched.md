@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 124
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Hexecutable
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"122","name":"Pixel Graphics"},{"id":"88","name":"Cute"},{"id":"299","name":"Match 3"}]
-size: ""
+size: "47 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/beglitched"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/45ca0bcabe425c085dcb7f194101af3f562e0b7cca0
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/461220/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

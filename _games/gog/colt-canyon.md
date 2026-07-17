@@ -20,6 +20,14 @@ protondb_total: 12
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 2095
+gog_rating_value: 4.3
+gog_rating_count: 104
 
 # Game Info
 publisher: Headup Games
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"45","name":"2D"},{"id":"72","name":"Local Multiplayer"},{"id":"56","name":"Shoot 'Em Up"}]
 size: "519 MB"
+install_size: ""
+achievements_total: 40
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/colt-canyon"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b3fad7d8d11ec496323a889d634082cc5b07575b952
 icon_image: "https://images.gog.com/98a6e91037000e251d37935a5a79721c35466a4e729499ccb8dec6fe94426e1b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

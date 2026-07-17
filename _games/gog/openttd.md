@@ -20,6 +20,14 @@ protondb_total: 39
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 16794
+gog_rating_value: 4.8
+gog_rating_count: 285
 
 # Game Info
 publisher: OpenTTD
@@ -34,6 +42,8 @@ languages: ["Arabic","Belarusian","Bulgarian","Portuguese (brazilian)","Catalan"
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"9","name":"Online Co-Op"},{"id":"37","name":"Sandbox"},{"id":"79","name":"Free to Play"},{"id":"157","name":"PvP"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"62","name":"Moddable"},{"id":"99","name":"Isometric"},{"id":"39","name":"Building"},{"id":"45878","name":"Online PvP"},{"id":"67","name":"Management"},{"id":"147","name":"Resource Management"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"},{"id":"139","name":"Trains"},{"id":"46115","name":"LAN Co-op"},{"id":"46113","name":"LAN PvP"},{"id":"4270","name":"transportation"}]
 size: "31 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":31231,"slug":"transport-tycoon-deluxe","name":"Transport Tycoon Deluxe"}]
 franchise_slug: "openttd|transport-tycoon-deluxe"
 igdb_url: "https://www.igdb.com/games/openttd"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2aaa7f1b1b50b7d9a382b7de060cc4584cbfefa35dd
 icon_image: "https://images.gog.com/9531038872dde85dbed650b592b7ff9d843cf7aec52274027cd0357c5330b857.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

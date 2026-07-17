@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 605
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: The Arcade Crew
@@ -33,12 +41,14 @@ game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Traditional Chinese","Korean","Japanese","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"198","name":"Split Screen"},{"id":"97","name":"Action RPG"},{"id":"68","name":"Hack and Slash"},{"id":"121","name":"Character Customization"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"203","name":"Beat 'em up"},{"id":"48","name":"Dungeon Crawler"},{"id":"98","name":"Loot"},{"id":"179","name":"Cartoon"},{"id":"580","name":"Souls-like"},{"id":"45201","name":"Remote Play Together"},{"id":"46112","name":"Shared/Split Screen Co-op"},{"id":"309","name":"Dynamic Narration"},{"id":"163","name":"Co-op Campaign"},{"id":"1252","name":"portal"}]
-size: ""
+size: "5274 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/young-souls"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/974081286094c9cd1eb06174d0f28e924596a4a3f7c
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/985900/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

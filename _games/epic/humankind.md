@@ -20,20 +20,30 @@ protondb_total: 155
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 69
+steam_review_total: 28547
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Sega
 developer: Amplitude Studios
 genre: Strategy, Turn-based strategy (TBS), Simulator
 franchise: 
-age_rating_summary: e10 (ESRB) · 12 (PEGI)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Mild Violence, Mild Language, Alcohol Reference"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"usk":{"rating":"12"},"oflc":{"rating":"PG","descriptors":"Mild themes and battle violence, online interactivity"},"nzoflc":{"rating":"PG","descriptors":"Mild themes and battle violence, online interactivity"},"kgrb":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "August 17, 2021"
+release_date: "November 18, 2021"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Korean","Italian","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"397","name":"Online multiplayer"},{"id":"89","name":"Historical"},{"id":"101","name":"Turn-Based Strategy"},{"id":"212","name":"4X"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/humankind"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2146b184adc926899345df093e40eee6e6d5030537a
 icon_image: "https://images.gog.com/6ed62e43c21be5382dde5617aa07a98fe0fba758dfa4abd285bbf2832d08f4d5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

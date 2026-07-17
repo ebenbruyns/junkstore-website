@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Default controller config fully functional"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 1925
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Pretty Soon
@@ -28,17 +36,19 @@ genre: Indie, Casual, Simulation
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "April 22, 2025"
+release_date: "March 19, 2026"
 game_modes: ["Single-player"]
 languages: ["English","Japanese","Simplified Chinese","Traditional Chinese","Spanish - Spain","Thai","Ukrainian","French","German","Korean"]
 languages_audio: []
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "493 MB"
+install_size: "1303 MB"
+achievements_total: 18
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/havendock"
 was_free_before: true
-giveaway_events: [{"_id":"69bd1e9ab0f9478e3e00e5d9","id":"d7b336a5c49f4a14b16359193caeb296","namespace":"dc6b31eb3a7540f28ccff83204aa1c3d","startDate":"2026-03-26T15:00:00.000Z","endDate":"2026-04-02T15:00:00.000Z","title":"Havendock","__v":0}]
+giveaway_events: [{"start":"2026-03-26","end":"2026-04-02"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2020710/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2020710/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

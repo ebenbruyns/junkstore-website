@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 95
+steam_review_total: 40
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: m12y
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"116","name":"2.5D"},{"id":"252","name":"Mouse only"},{"id":"298","name":"Grid-Based Movement"}]
-size: ""
+size: "2 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/a-snakes-tale"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b3dead00a47847352acd3cd8d32231c80cacc8a0a5e
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/654810/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -75,7 +88,7 @@ hltb_url: "https://howlongtobeat.com/game/56634"
 store_url: "https://m12y.itch.io/a-snakes-tale"
 protondb_url: "https://www.protondb.com/app/654810"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Snake%27s_Tale"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Snake's_Tale"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/a-snakes-tale/"
 

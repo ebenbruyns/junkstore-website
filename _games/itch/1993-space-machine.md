@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 70
+steam_review_total: 380
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Limit Break
@@ -33,7 +41,9 @@ game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"75","name":"Local Co-Op"},{"id":"56","name":"Shoot 'Em Up"},{"id":"57","name":"Bullet Hell"}]
-size: ""
+size: "130 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/1993-space-machine"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/da84f2b24b2b424a15a05b37bda025bc734690e658c
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/373480/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 55
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 7935
+gog_rating_value: 4.4
+gog_rating_count: 423
 
 # Game Info
 publisher: indie.io
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"122","name":"Pixel Graphics"},{"id":"134","name":"Anime"},{"id":"121","name":"Character Customization"},{"id":"102","name":"Turn-Based"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"233","name":"JRPG"},{"id":"581","name":"Epic"}]
 size: "889 MB"
+install_size: ""
+achievements_total: 80
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/coromon"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0e764b2db19ae40a64b036eaac8c25c9747c74bd09b
 icon_image: "https://images.gog.com/c44c64710bdc8d51f45d29f9601e30be40d862deb46790045e39bc17b4e1cfa2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

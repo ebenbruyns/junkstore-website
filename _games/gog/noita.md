@@ -20,6 +20,14 @@ protondb_total: 429
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 87821
+gog_rating_value: 4.5
+gog_rating_count: 526
 
 # Game Info
 publisher: Nolla Games
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"40","name":"Dark Fantasy"},{"id":"114","name":"Physics"},{"id":"639","name":"Roguelike"},{"id":"640","name":"Roguelite"}]
 size: "1437 MB"
+install_size: ""
+achievements_total: 14
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/noita"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fca702c2a0104d2d5301d7f95e261a4fb0d06a22c8d
 icon_image: "https://images.gog.com/147bd49852f5504e06832871ac6479650bff7cb572f58820682e22c494ca5aa7.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

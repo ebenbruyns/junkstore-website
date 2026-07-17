@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 98
+gog_rating_value: 3.9
+gog_rating_count: 11
 
 # Game Info
 publisher: Shady Corner Games
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"14","name":"Early Access"},{"id":"134","name":"Anime"},{"id":"167","name":"Futuristic"},{"id":"172","name":"Aliens"},{"id":"101","name":"Turn-Based Strategy"},{"id":"50","name":"Sexual Content"},{"id":"226","name":"Cyberpunk"},{"id":"90","name":"Visual Novel"},{"id":"48","name":"Dungeon Crawler"},{"id":"91686","name":"Family Sharing"},{"id":"59643","name":"Протагонистка"},{"id":"247","name":"Real Time Tactics"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"},{"id":"786","name":"hentai"},{"id":"58128","name":"Хентай"}]
 size: "4966 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3ebd26cdf3c92c38c37eb31ddbbe4019ec528d8eb8d
 icon_image: "https://images.gog.com/3ebd26cdf3c92c38c37eb31ddbbe4019ec528d8eb8d28045b046517f1323706d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

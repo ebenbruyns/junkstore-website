@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 4.5
+gog_rating_count: 11
 
 # Game Info
 publisher: xLand
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: []
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/29d981c09790e2447d98004ebf2901baaf104840331
 icon_image: "https://images.gog.com/7f88f775fa6bc2da17a07c20a2210b014582350d0c6ce935e90fcd863be4b43b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

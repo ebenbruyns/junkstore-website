@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 247
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Double Dash Studios
@@ -28,17 +36,19 @@ genre: Adventure, Indie
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "June 14, 2023"
+release_date: "August 4, 2025"
 game_modes: ["Single-player"]
 languages: ["English","Portuguese - Brazil","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "1169 MB"
+install_size: "1331 MB"
+achievements_total: 49
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/jorels-brother-and-the-most-important-game-of-the-galaxy"
 was_free_before: true
-giveaway_events: [{"_id":"68cb30164c1256e6363497d7","id":"70d56e56409e4a0384282d9bea1b4e20","namespace":"d5b2727bc277495facca061b00b9876c","startDate":"2025-09-25T15:00:00.000Z","endDate":"2025-10-02T15:00:00.000Z","title":"Jorel’s Brother and The Most Important Game of the Galaxy","__v":0}]
+giveaway_events: [{"start":"2025-09-25","end":"2025-10-02"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/bcbd418ccc1109122286cd97eb0015a32797545da11
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1398910/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

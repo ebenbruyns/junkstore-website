@@ -20,6 +20,14 @@ protondb_total: 16
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 66
+steam_review_total: 4444
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Arc Games
@@ -33,12 +41,14 @@ game_modes: ["Online Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English","French","German","Korean","Simplified Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"39940","name":"Gift A Game"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
-size: ""
+size: "13461 MB"
+install_size: "15375 MB"
+achievements_total: 26
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/gigantic"
 was_free_before: true
-giveaway_events: [{"_id":"66be10e9e48e26808bd3721b","id":"5a387d243a05401b926575736262a929","namespace":"ba2eb1ee9bfc434b8c06d33f9df7d15a","startDate":"2024-08-22T15:00:00.000Z","endDate":"2024-08-29T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-08-22","end":"2024-08-29"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/6630e3dcc72a4e2285e91ca48aa0
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1924490/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -66,7 +79,7 @@ epic_cloud_saves: false
 must_be_online: false
 
 # Anti-Cheat
-requires_eac_runtime: false
+requires_eac_runtime: true
 requires_battleye_runtime: false
 cant_test_linux: false
 
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/41986"
 store_url: "https://store.epicgames.com/en-US/p/gigantic-rampage-edition-03f532"
 protondb_url: "https://www.protondb.com/app/1924490"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gigantic%3A_Rampage_Edition"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gigantic:_Rampage_Edition"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/gigantic/"
 

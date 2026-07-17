@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "2 user reviews"
+steam_review_percent: 50
+steam_review_total: 2
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: S Xavier Uy
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"123","name":"Comedy"},{"id":"69","name":"Action-Adventure"},{"id":"134","name":"Anime"},{"id":"110","name":"Cinematic"},{"id":"90","name":"Visual Novel"},{"id":"166","name":"Stylized"},{"id":"91686","name":"Family Sharing"},{"id":"160","name":"Dating Sim"},{"id":"288","name":"Interactive Fiction"},{"id":"143","name":"RPGMaker"},{"id":"662","name":"RPG Maker"},{"id":"302","name":"Time Manipulation"},{"id":"246","name":"Clicker"},{"id":"303","name":"Text-Based"},{"id":"4270","name":"transportation"}]
-size: ""
+size: "142 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/back-to-modern-world-fantasy-hero"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-05-14","end":"2026-05-24"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://img.itch.zone/aW1nLzI3NDI1NTcwLnBuZw==/315x250%23c/srmjWs.
 icon_image: ""
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

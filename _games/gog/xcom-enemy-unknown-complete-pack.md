@@ -20,6 +20,14 @@ protondb_total: 89
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 58390
+gog_rating_value: 4.5
+gog_rating_count: 1016
 
 # Game Info
 publisher: 2K Games
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian","Japanese","Korean",
 languages_audio: ["English","German","French","Italian","Spanish - Spain","Russian","Polish"]
 tags_structured: []
 size: "18986 MB"
+install_size: ""
+achievements_total: 83
 franchise_siblings: [{"rawg_id":428555,"slug":"xcom-chimera-squad","name":"XCOM: Chimera Squad"},{"rawg_id":1256,"slug":"xcom-2","name":"XCOM 2"},{"rawg_id":3932,"slug":"the-bureau-xcom-declassified","name":"The Bureau: XCOM Declassified"},{"rawg_id":19459,"slug":"x-com-enforcer","name":"X-COM: Enforcer"},{"rawg_id":20570,"slug":"x-com-interceptor","name":"X-COM: Interceptor"},{"rawg_id":20567,"slug":"x-com-apocalypse","name":"X-COM: Apocalypse"},{"rawg_id":20568,"slug":"x-com-terror-from-the-deep","name":"X-COM: Terror From the Deep"},{"rawg_id":20569,"slug":"ufo-enemy-unknown","name":"X-COM: UFO Defense"},{"rawg_id":35389,"slug":"x-com-genesis","name":"X-COM: Genesis"},{"rawg_id":35388,"slug":"x-com-alliance","name":"X-COM: Alliance"}]
 franchise_slug: "the-bureau-xcom-declassified|ufo-enemy-unknown|x-com-alliance|x-com-apocalypse|x-com-enforcer|x-com-genesis|x-com-interceptor|x-com-terror-from-the-deep|xcom-2|xcom-chimera-squad|xcom-enemy-unknown"
 igdb_url: "https://www.igdb.com/games/xcom-enemy-unknown"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/200510/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/200510/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -89,10 +102,10 @@ metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/xcom-enemy-unknown/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "1303/xcom-enemy-within"
+opencritic_url: "https://opencritic.com/game/1303/xcom-enemy-within"
+opencritic_score: 86
+opencritic_review_count: 35
 twitch_id: ""
 twitch_url: ""
 playstation_id: ""

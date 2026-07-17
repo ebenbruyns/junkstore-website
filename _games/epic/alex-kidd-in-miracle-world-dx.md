@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 915
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Silver Lining Interactive
@@ -32,13 +40,15 @@ release_date: "June 22, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Russian","Italian"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
+size: "1013 MB"
+install_size: "1013 MB"
+achievements_total: 16
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/26778"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-07-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5c36563fb4746df00c50ffbec4d137e4b7ee0e0d5cf
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1333470/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

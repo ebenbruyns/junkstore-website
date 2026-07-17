@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 2804
+gog_rating_value: 3.7
+gog_rating_count: 215
 
 # Game Info
 publisher: Love in Space
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"49","name":"Difficult"},{"id":"79","name":"Free to Play"},{"id":"80","name":"Tactical"},{"id":"134","name":"Anime"},{"id":"25","name":"Space"},{"id":"44","name":"Nudity"},{"id":"102","name":"Turn-Based"},{"id":"101","name":"Turn-Based Strategy"},{"id":"90","name":"Visual Novel"},{"id":"217","name":"Romance"},{"id":"184","name":"Mechs"},{"id":"103","name":"Hex Grid"},{"id":"312","name":"NSFW"},{"id":"1081","name":"adult"}]
 size: "1124 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":16514,"slug":"sunrider-liberation-day-captains-edition","name":"Sunrider: Liberation Day - Captain's Edition"},{"rawg_id":13218,"slug":"sunrider-academy","name":"Sunrider Academy"},{"rawg_id":331569,"slug":"sunrider-first-arrival","name":"Sunrider: First Arrival"}]
 franchise_slug: "sunrider-academy|sunrider-first-arrival|sunrider-liberation-day-captai|sunrider-mask-of-arcadius"
 igdb_url: "https://www.igdb.com/games/sunrider-mask-of-arcadius"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fd621ccb38732a61c0bca0fbfb21a913772dba45b62
 icon_image: "https://images.gog.com/2cfa08eebf08e3940261bfb8a0233c7641b3e4335ea20729516cf2280d13871d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/23246"
 store_url: "https://www.gog.com/en/game/sunrider_mask_of_arcadius"
 protondb_url: "https://www.protondb.com/app/313730"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sunrider%3A_Mask_of_Arcadius"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sunrider:_Mask_of_Arcadius"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/sunrider-mask-of-arcadius/"
 

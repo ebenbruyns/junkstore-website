@@ -20,6 +20,14 @@ protondb_total: 13
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 2276
+gog_rating_value: 4.2
+gog_rating_count: 252
 
 # Game Info
 publisher: Thunderful
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"468","name":"role-playing"},{"id":"3731","name":"role-playing-game"}]
 size: "1033 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":914788,"slug":"steamworld-build","name":"SteamWorld Build"},{"rawg_id":27938,"slug":"steamworld-dig-2","name":"SteamWorld Dig 2"},{"rawg_id":1165,"slug":"steamworld-heist","name":"SteamWorld Heist"},{"rawg_id":3748,"slug":"steamworld-dig","name":"SteamWorld Dig"},{"rawg_id":24382,"slug":"steamworld-tower-defense","name":"SteamWorld Tower Defense"}]
 franchise_slug: "steamworld-build|steamworld-dig|steamworld-dig-2|steamworld-heist|steamworld-quest|steamworld-tower-defense"
 igdb_url: "https://www.igdb.com/games/steamworld-quest-hand-of-gilgamech"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2022-03-01"},{"start":"2025-01-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f9da756a6230574ad4e24dfab1c2a3955879af5413d
 icon_image: "https://images.gog.com/24733fb7b72feb4b3537947514062989ce62deaa950a91b0c9045abe6d75596e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/66603"
 store_url: "https://www.gog.com/en/game/steamworld_quest_hand_of_gilgamech"
 protondb_url: "https://www.protondb.com/app/804010"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SteamWorld_Quest%3A_Hand_of_Gilgamech"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SteamWorld_Quest:_Hand_of_Gilgamech"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/steamworld-quest-hand-of-gilgamech/"
 

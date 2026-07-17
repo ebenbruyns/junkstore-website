@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 1240
+gog_rating_value: 4.3
+gog_rating_count: 180
 
 # Game Info
 publisher: The Digital Lounge
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","Czech","German","Engl
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"16","name":"Horror"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"40833","name":"Captions available"},{"id":"140","name":"Hidden Object"},{"id":"2114","name":"psychological-horror"}]
 size: "509 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "true-fear-forsaken-souls-part-1|true-fear-forsaken-souls-part-2"
 igdb_url: "https://www.igdb.com/games/true-fear-forsaken-souls-part-1"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/440420/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/440420/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

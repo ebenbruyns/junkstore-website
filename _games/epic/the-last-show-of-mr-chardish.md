@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 131
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Anshar Publishing
@@ -28,17 +36,19 @@ genre: Adventure, Indie
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "November 5, 2020"
+release_date: "August 12, 2021"
 game_modes: ["Single player"]
 languages: ["English","Polish","French","Italian","German","Spanish - Spain","Simplified Chinese","Portuguese - Brazil","Russian","Japanese","Korean","Turkish"]
 languages_audio: ["English"]
-tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: "3221 MB"
+install_size: "3841 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-last-show-of-mr-chardish"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/56a8de3cec12c49d9c5a39a1c58d4d67fe4bd506c79
 icon_image: "https://images.gog.com/c1d1ea8c5b4c3825aed7e47191361ecef0e04ac9e39f8ce44a8cd4fd8a0288dc.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/82702"
 store_url: "https://store.epicgames.com/en-US/p/the-last-show-of-mr-chardish"
 protondb_url: "https://www.protondb.com/app/1164060"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Last_Show_of_Mr._Chardish"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ars_Fabulae"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/the-last-show-of-mr-chardish/"
 

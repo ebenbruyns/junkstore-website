@@ -20,6 +20,14 @@ protondb_total: 36
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 2252
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: KONAMI
@@ -32,13 +40,15 @@ release_date: "November 14, 2024"
 game_modes: ["Single-player"]
 languages: ["English","Japanese"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1198","name":"Retro"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1198","name":"Retro"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
+size: "775 MB"
+install_size: "790 MB"
+achievements_total: 14
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/116138"
 was_free_before: true
-giveaway_events: [{"_id":"672cdd71b420bbe30568932e","id":"8f80897c0b6e4e678fed08da169d44be","namespace":"247d4d4b4e424afd9b474334fe450a43","startDate":"2024-11-14T16:00:00.000Z","endDate":"2024-11-21T16:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-11-14","end":"2024-11-21"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7ff5dba0766680d0a7693d0f57db05cc0536bf32038
 icon_image: "https://images.gog.com/2920263403abac29c17415a8581a48a41b778d82ac6fb8f2e6422c2be0158308.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 5424
+gog_rating_value: 3.6
+gog_rating_count: 147
 
 # Game Info
 publisher: Goblinz Studio
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"40850","name":"Steam Leaderboards"},{"id":"122","name":"Pixel Graphics"},{"id":"11669","name":"stats"},{"id":"74","name":"Retro"},{"id":"102","name":"Turn-Based"},{"id":"639","name":"Roguelike"},{"id":"233","name":"JRPG"},{"id":"48","name":"Dungeon Crawler"}]
 size: "658 MB"
+install_size: ""
+achievements_total: 24
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/legend-of-keepers"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-04-23","end":"2026-04-23"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3da8f7a2ea6cdfe73eb34ccd5857beb963ecf3f06e5
 icon_image: "https://images.gog.com/5051d598ff30f15e30169798e507da40294b7613bc8ea51ffc23f0842b3031cd.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

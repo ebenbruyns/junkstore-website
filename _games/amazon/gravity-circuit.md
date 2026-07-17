@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 5696
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: PID Games
@@ -35,11 +43,13 @@ languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
 size: "327151133
 "
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/gravity-circuit"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"},{"start":"2025-04-01"},{"start":"2025-10-09","end":"2025-10-16"},{"start":"2026-06-01","end":"2026-06-14"}]
 free_games_aliases: []
 
 # Images
@@ -48,6 +58,9 @@ cover_image: "https://images.gog.com/d18cfa287ea68dd97dce0a2678fb8a31b728dc0c695
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/858710/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

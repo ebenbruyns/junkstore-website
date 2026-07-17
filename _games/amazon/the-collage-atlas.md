@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 53
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: John Evelyn
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Du
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"8","name":"First-Person"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"111","name":"Short"},{"id":"571","name":"3D"},{"id":"91","name":"Walking Simulator"},{"id":"138","name":"Relaxing"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"91686","name":"Family Sharing"},{"id":"1452","name":"philosophical"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-collage-atlas"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/40f27c1a4b9b4041dddc1ac245aeb1e648070c62054
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2581960/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

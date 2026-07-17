@@ -20,6 +20,14 @@ protondb_total: 63
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 6362
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Raw Fury
@@ -35,11 +43,13 @@ languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "1978704154
 "
+install_size: "2133 MB"
+achievements_total: 56
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sable"
 was_free_before: true
-giveaway_events: [{"_id":"68541a7555be257c9cffcb3c","id":"d19627e74ac445bcbcfc8157a35d6f80","namespace":"66a0893b7b9a42a695f0a387d64dfcc6","startDate":"2025-06-26T15:00:00.000Z","endDate":"2025-07-03T15:00:00.000Z","title":"Sable","__v":0},{"_id":"66abf1d83631f27c961ebc71","id":"d19627e74ac445bcbcfc8157a35d6f80","namespace":"66a0893b7b9a42a695f0a387d64dfcc6","startDate":"2022-12-17T15:00:00.000Z","endDate":"2022-12-18T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-12-17","end":"2022-12-18"},{"start":"2025-06-26","end":"2025-07-03"}]
 free_games_aliases: []
 
 # Images
@@ -48,6 +58,9 @@ cover_image: "https://images.gog.com/a40624d0956cb30c1ee23deb349de75aacc2d26b637
 icon_image: "https://images.gog.com/3abe9d6244238d1567629ec22d8508a14cb19739571b51e59795ab6a3d198331.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -61,7 +74,7 @@ dependencies:
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false

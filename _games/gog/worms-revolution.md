@@ -20,6 +20,14 @@ protondb_total: 52
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 9073
+gog_rating_value: 3.1
+gog_rating_count: 159
 
 # Game Info
 publisher: Team17
@@ -34,6 +42,8 @@ languages: ["Czech","German","English","Spanish","French","Italian","Polish","Ru
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"4","name":"Funny"},{"id":"40850","name":"Steam Leaderboards"},{"id":"193","name":"Classic"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"80","name":"Tactical"},{"id":"72","name":"Local Multiplayer"},{"id":"107","name":"Family Friendly"},{"id":"102","name":"Turn-Based"},{"id":"114","name":"Physics"},{"id":"113","name":"Side Scroller"},{"id":"11","name":"Team-Based"},{"id":"101","name":"Turn-Based Strategy"},{"id":"116","name":"2.5D"},{"id":"182","name":"4 Player Local"}]
 size: "1393 MB"
+install_size: ""
+achievements_total: 26
 franchise_siblings: [{"rawg_id":460524,"slug":"worms-rumble","name":"Worms Rumble"},{"rawg_id":1820,"slug":"worms-wmd","name":"Worms W.M.D"},{"rawg_id":7350,"slug":"worms-4","name":"Worms 4"},{"rawg_id":3679,"slug":"worms-battlegrounds","name":"Worms Battlegrounds"},{"rawg_id":17778,"slug":"worms-clan-wars","name":"Worms Clan Wars"},{"rawg_id":1962,"slug":"worms3","name":"Worms 3"},{"rawg_id":20554,"slug":"worms-pinball","name":"Worms Pinball"},{"rawg_id":4569,"slug":"worms-crazy-golf","name":"Worms Crazy Golf"},{"rawg_id":16792,"slug":"worms-reloaded","name":"Worms Reloaded"},{"rawg_id":2090,"slug":"worms-2-armageddon","name":"Worms 2: Armageddon"},{"rawg_id":36527,"slug":"worms-4-mayhem","name":"Worms 4: Mayhem"},{"rawg_id":22902,"slug":"worms-forts-under-siege","name":"Worms Forts: Under Siege"},{"rawg_id":35385,"slug":"worms-3d","name":"Worms 3D"},{"rawg_id":19645,"slug":"worms-blast","name":"Worms Blast"},{"rawg_id":31309,"slug":"worms-world-party","name":"Worms World Party"},{"rawg_id":20466,"slug":"worms-armageddon","name":"Worms Armageddon"},{"rawg_id":22871,"slug":"worms-2","name":"Worms 2"},{"rawg_id":5383,"slug":"worms","name":"Worms"}]
 franchise_slug: "worms|worms-2|worms-2-armageddon|worms-3d|worms-4|worms-4-mayhem|worms-armageddon|worms-battlegrounds|worms-blast|worms-clan-wars|worms-crazy-golf|worms-forts-under-siege|worms-pinball|worms-reloaded|worms-revolution|worms-rumble|worms-wmd|worms-world-party|worms3"
 igdb_url: "https://www.igdb.com/games/worms-revolution--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1c9ef68b60af2418fc595c45d671be462a6afebe3bd
 icon_image: "https://images.gog.com/1443d7e99df4acacfce0403597249d546cf17f1efc20cae31e379d4fbecf93c6.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

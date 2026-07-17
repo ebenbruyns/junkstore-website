@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 90
+steam_review_total: 39
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Retroware
@@ -34,6 +42,8 @@ languages: ["English","French","Italian","German","Spanish - Spain","Danish","Du
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"18","name":"Co-op"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"157","name":"PvP"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"61","name":"Top-Down"},{"id":"215","name":"Dragons"},{"id":"45201","name":"Remote Play Together"},{"id":"46112","name":"Shared/Split Screen Co-op"},{"id":"126","name":"Dinosaurs"},{"id":"46114","name":"Shared/Split Screen PvP"},{"id":"570","name":"Old School"},{"id":"575","name":"Logic"},{"id":"654","name":"blocks"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/dumpy-and-bumpy"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/24b36ae2e07c11b187eeb149f0ba6aadd75be7b498e
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1631500/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -75,7 +88,7 @@ hltb_url: "https://howlongtobeat.com/game/98825"
 store_url: "https://programancer.itch.io/dumpy"
 protondb_url: "https://www.protondb.com/app/1631500"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dumpy_%26_Bumpy"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dumpy_&amp;_Bumpy"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/dumpy-and-bumpy/"
 

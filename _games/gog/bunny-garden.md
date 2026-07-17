@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 1268
+gog_rating_value: 4.7
+gog_rating_count: 19
 
 # Game Info
 publisher: qureate, MediBang
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","English","Japanese","Chinese Traditional"]
 languages_audio: ["Japanese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"123","name":"Comedy"},{"id":"115","name":"Controller"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"50","name":"Sexual Content"},{"id":"229","name":"3D Platformer"},{"id":"91686","name":"Family Sharing"},{"id":"160","name":"Dating Sim"}]
 size: "1400 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/bunny-garden"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/bbcff77644356f063ec143157396d0d5722efc5d91a
 icon_image: "https://images.gog.com/bbcff77644356f063ec143157396d0d5722efc5d91afd9e01353df0ff0b6a44c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 4
+gog_rating_count: 166
 
 # Game Info
 publisher: Square Enix, Square Enix, Square Enix, Square Enix, Square Enix
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"}]
 size: "92 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":718055,"slug":"gex-3-deep-pocket-gecko-gba","name":"Gex 3: Deep Pocket Gecko (GBA)"},{"rawg_id":52989,"slug":"gex-3-deep-cover-gecko","name":"Gex 3: Deep Cover Gecko (1999)"},{"rawg_id":52988,"slug":"gex-enter-the-gecko","name":"Gex: Enter the Gecko (1998)"}]
 franchise_slug: "gex|gex-3-deep-cover-gecko|gex-3-deep-pocket-gecko-gba|gex-enter-the-gecko"
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fe53d0d863f0fbf5513fa6f1276b0f5b2e4b198593d
 icon_image: "https://images.gog-statics.com/d172102beda1d1ca9bdcdcc786cac4866300294e7e1f0a0da9af8d88fc000541.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 21
 protondb_confidence: "good"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 72
+steam_review_total: 883
+gog_rating_value: 2.8
+gog_rating_count: 13
 
 # Game Info
 publisher: Square Enix, Eidos Interactive, Aspyr Media
@@ -34,6 +42,8 @@ languages: ["German","English","French"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"149","name":"Third Person"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"306","name":"Lara Croft"},{"id":"425","name":"Single player only"}]
 size: "444 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":51329,"slug":"shadow-of-the-tomb-raider","name":"Shadow of the Tomb Raider"},{"rawg_id":7689,"slug":"rise-of-the-tomb-raider","name":"Rise of the Tomb Raider"},{"rawg_id":700,"slug":"lara-croft-go","name":"Lara Croft GO"},{"rawg_id":1875,"slug":"lara-croft-relic-run","name":"Lara Croft: Relic Run"},{"rawg_id":3474,"slug":"lara-croft-and-the-temple-of-osiris","name":"Lara Croft and the Temple of Osiris"},{"rawg_id":5286,"slug":"tomb-raider","name":"Tomb Raider"},{"rawg_id":4882,"slug":"lara-croft-gol","name":"Lara Croft and the Guardian of Light"},{"rawg_id":4869,"slug":"tomb-raider-underworld","name":"Tomb Raider: Underworld"},{"rawg_id":5297,"slug":"tomb-raider-anniversary","name":"Tomb Raider: Anniversary"},{"rawg_id":5298,"slug":"tomb-raider-legend","name":"Tomb Raider: Legend"},{"rawg_id":25045,"slug":"lara-croft-tomb-raider-legend","name":"Lara Croft Tomb Raider: Legend"},{"rawg_id":22865,"slug":"tomb-raider-the-angel-of-darkness","name":"Tomb Raider: The Angel of Darkness"},{"rawg_id":53485,"slug":"tomb-raider-the-prophecy","name":"Tomb Raider: The Prophecy"},{"rawg_id":54917,"slug":"tomb-raider-curse-of-the-sword","name":"Tomb Raider: Curse of the Sword"},{"rawg_id":938006,"slug":"tomb-raider-gbc","name":"Tomb Raider (GBC)"},{"rawg_id":368083,"slug":"tomb-raider-starring-lara-croft","name":"Tomb Raider Starring Lara Croft"},{"rawg_id":31218,"slug":"tomb-raider-3-the-lost-artifact","name":"Tomb Raider 3: The Lost Artifact"},{"rawg_id":22864,"slug":"tomb-raider-the-last-revelation-chronicles","name":"Tomb Raider: The Last Revelation + Chronicles"},{"rawg_id":12280,"slug":"tomb-raider-the-last-revelation","name":"Tomb Raider IV: The Last Revelation"},{"rawg_id":34588,"slug":"tomb-raider-2-golden-mask","name":"Tomb Raider 2: Golden Mask"},{"rawg_id":32122,"slug":"tomb-raider-3-adventures-of-lara-croft","name":"Tomb Raider 3: Adventures of Lara Croft"},{"rawg_id":57908,"slug":"tomb-raider-ii","name":"Tomb Raider II"},{"rawg_id":31759,"slug":"tomb-raider-1996","name":"Tomb Raider (1996)"}]
 franchise_slug: "lara-croft-and-the-temple-of-o|lara-croft-go|lara-croft-gol|lara-croft-relic-run|lara-croft-tomb-raider-legend|rise-of-the-tomb-raider|shadow-of-the-tomb-raider|tomb-raider|tomb-raider-1996|tomb-raider-2-golden-mask|tomb-raider-3-adventures-of-la|tomb-raider-3-the-lost-artifac|tomb-raider-anniversary|tomb-raider-chronicles|tomb-raider-curse-of-the-sword|tomb-raider-gbc|tomb-raider-ii|tomb-raider-legend|tomb-raider-starring-lara-crof|tomb-raider-the-angel-of-darkn|tomb-raider-the-last-revelatio|tomb-raider-the-last-revelatio|tomb-raider-the-prophecy|tomb-raider-underworld"
 igdb_url: "https://www.igdb.com/games/tomb-raider-chronicles"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f8e98335cf482e0b8261cdf97754ca862aaddb87d1b
 icon_image: "https://images.gog.com/32b4d8adc22c81e34db06f6c011769e3b4878587ad076bdccc74eec7b45b23a9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/10470"
 store_url: "https://www.gog.com/en/game/tomb_raider_chronicles"
 protondb_url: "https://www.protondb.com/app/225000"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider_Chronicles"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider:_Chronicles"
 metacritic_score: 91
 metacritic_url: "https://www.metacritic.com/game/tomb-raider-1996/"
 

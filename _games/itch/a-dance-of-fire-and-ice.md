@@ -20,6 +20,14 @@ protondb_total: 104
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 82139
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: indienova, 7th Beat Games
@@ -34,6 +42,8 @@ languages: ["English","Spanish - Spain","Korean","Simplified Chinese","Tradition
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/a-dance-of-fire-and-ice"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3205919a10b566c6839849edd04dbc43145d708fbed
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/977950/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

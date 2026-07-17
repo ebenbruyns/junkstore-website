@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 3124
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: META Publishing
@@ -28,17 +36,19 @@ genre: Simulation, Puzzle, Strategy
 franchise: Train Valley
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "April 15, 2019"
+release_date: "June 8, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Korean","Turkish","Czech","Swedish"]
 languages_audio: []
-tags_structured: [{"id":"22978","name":"Post Meta Publisher Sale"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"22978","name":"Post Meta Publisher Sale"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"21119","name":"Great for Beginners"}]
+size: "401 MB"
+install_size: "1053 MB"
+achievements_total: 63
 franchise_siblings: [{"rawg_id":15314,"slug":"train-valley","name":"Train Valley"}]
 franchise_slug: "train-valley|train-valley-2"
 igdb_url: "https://www.igdb.com/games/train-valley-2"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d23631f27c961ebad2","id":"e499fc9429044cda83c141213a831592","namespace":"5c59642227a2412fb38f324d1772914e","startDate":"2023-07-12T15:00:00.000Z","endDate":"2023-07-19T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-07-12","end":"2023-07-19"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/cd24af43fef14abcf9fa292d785a1c49a248681609e
 icon_image: "https://images.gog.com/d097b61dd3102fb48014b6f770d7b0f7604725e5e39955539c0f19b8be07ef3a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false

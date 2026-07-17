@@ -20,6 +20,14 @@ protondb_total: 49
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 4663
+gog_rating_value: 4.4
+gog_rating_count: 742
 
 # Game Info
 publisher: LucasArts
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French"]
 languages_audio: ["English","French","German","Spanish - Spain"]
 tags_structured: []
 size: "544 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "star-wars-battlefront|star-wars-battlefront-2|star-wars-battlefront-3|star-wars-battlefront-elite-sq|star-wars-battlefront-ii-2|star-wars-battlefront-renegade"
 igdb_url: "https://www.igdb.com/games/star-wars-galactic-battlegrounds"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-05-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ced2e9013b1128ab890dc72d0dcc7a96c82442e0c82
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/356500/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

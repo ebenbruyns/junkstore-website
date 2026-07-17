@@ -20,6 +20,14 @@ protondb_total: 39
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 25962
+gog_rating_value: 4.1
+gog_rating_count: 623
 
 # Game Info
 publisher: Paradox Interactive
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["German","English","Spanish","French","Italian","Korean","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+size: "15767 MB"
+install_size: "30193 MB"
+achievements_total: 48
 franchise_siblings: [{"rawg_id":49874,"slug":"pillars-of-eternity-ii-deadfire","name":"Pillars of Eternity II: Deadfire"}]
 franchise_slug: "pillars-of-eternity|pillars-of-eternity-ii-deadfir"
 igdb_url: "https://www.igdb.com/games/pillars-of-eternity"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2018-07-01"},{"start":"2020-12-09","end":"2020-12-16"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6db04304b8e3c2e97582076ccc2f7045876ae5a9401
 icon_image: "https://images.gog.com/6db04304b8e3c2e97582076ccc2f7045876ae5a94015b4ed777c0bfa2f5643ec.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

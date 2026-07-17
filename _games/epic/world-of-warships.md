@@ -20,20 +20,30 @@ protondb_total: 367
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 155587
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Wargaming
 developer: Wargaming
 genre: Action, Turn-Based Strategy, Shooter
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Sex, In-Game Purchases (Includes Random Items)"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Chance-based and in-game purchases, online interactivity and chat"},"kgrb":{"rating":"12","descriptors":"Sexy/Nudity"},"csrr":{"rating":"C15","descriptors":"Anti-Social Characteristics, Sex"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "November 15, 2017"
+release_date: "March 18, 2021"
 game_modes: ["Online Multiplayer","Co-op"]
 languages: ["English","French","German","Czech","Japanese","Polish","Russian","Thai","Turkish","Spanish - Spain","Korean","Portuguese - Brazil","Traditional Chinese","Italian","Simplified Chinese","Ukrainian","Dutch","Spanish - Latin America"]
 languages_audio: ["English","French","German","Japanese","Polish","Russian","Spanish - Spain","Korean","Portuguese - Brazil","Traditional Chinese","Italian","Simplified Chinese","Dutch","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1088","name":"Turn-Based Strategy"},{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21135","name":"Realistic Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+size: "81468 MB"
+install_size: "82263 MB"
+achievements_total: 44
 franchise_siblings: [{"rawg_id":309900,"slug":"world-of-warships-legends","name":"WORLD OF WARSHIPS: LEGENDS"},{"rawg_id":74365,"slug":"world-of-warships-blitz-mmo","name":"World of Warships Blitz"}]
 franchise_slug: "world-of-warships|world-of-warships-blitz-mmo|world-of-warships-legends"
 igdb_url: "https://www.igdb.com/games/world-of-warships"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0ef85e7b82cd47577eabe77fdf784dfbb6d40dadd3a
 icon_image: "https://images.gog.com/1ed29c344de258ee89aa6bb07e9baf9022ca103534c7637effa57e2d1bb744cc.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

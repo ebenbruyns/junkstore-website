@@ -20,6 +20,14 @@ protondb_total: 21
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 2580
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Aspyr
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Russian","Simplified 
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1137","name":"3D"},{"id":"1220","name":"ZOMBIES"},{"id":"1301","name":"FUNNY"},{"id":"21109","name":"Great Boss Battles"},{"id":"1161","name":"VIOLENT"},{"id":"1306","name":"VILLAIN PROTAGONIST"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
 size: "2172 MB"
+install_size: "3834 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/stubbs-the-zombie-in-rebel-without-a-pulse"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e43631f27c961ebf70","id":"f060c900b80441fda67a7d986c327905","namespace":"dcbacb85c17e4d39b885d0ba252dc8a7","startDate":"2021-10-13T15:00:00.000Z","endDate":"2021-10-20T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-10-13","end":"2021-10-20"},{"start":"2021-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2bf8513f04deb5c290483f6f804eedfab320c3b956a
 icon_image: "https://images.gog.com/d7bedb67da5ac1051829526aa6a66e5d5b16fe5dab9e6e0be19e533c3afd78bb.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 79
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 20336
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Amanita Design
@@ -28,17 +36,19 @@ genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas, Violência fantasiosa"}}
-release_date: "October 16, 2009"
+release_date: "February 18, 2025"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Czech","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Ukrainian"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
-size: ""
+size: "300 MB"
+install_size: ""
+achievements_total: 12
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/machinarium"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-08-28","end":"2025-09-04"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a00d7e17f7009f9b8a6ea02afd9892d49a5dd4764cc
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/40700/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

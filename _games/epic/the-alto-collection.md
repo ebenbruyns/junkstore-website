@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 259
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Snowman
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Welsh"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "157 MB"
+install_size: "364 MB"
+achievements_total: 39
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
 was_free_before: true
-giveaway_events: [{"_id":"66abf1f03631f27c961ec267","id":"754412e3df444c0c84653ea7aa047fe6","namespace":"b4e95103463b491ab34b29e616404325","startDate":"2020-08-12T15:00:00.000Z","endDate":"2020-08-19T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2020-08-12","end":"2020-08-19"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/059239dce0358c9d827fb533f88585afea8d855bd1b
 icon_image: "https://images.gog.com/477a01b7c077e1583e7666a408a285f216b079a8580b6db8452471d17d5245b5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

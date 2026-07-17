@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "3 user reviews"
+steam_review_percent: 33
+steam_review_total: 3
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: S Xavier Uy
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"97","name":"Action RPG"},{"id":"80","name":"Tactical"},{"id":"134","name":"Anime"},{"id":"125","name":"Crafting"},{"id":"82","name":"Magic"},{"id":"233","name":"JRPG"},{"id":"217","name":"Romance"},{"id":"91686","name":"Family Sharing"},{"id":"206","name":"Party-Based RPG"},{"id":"285","name":"Psychological"},{"id":"143","name":"RPGMaker"},{"id":"662","name":"RPG Maker"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"},{"id":"66536","name":"Романтика"}]
-size: ""
+size: "472 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/another-world-adventures"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-05-05","end":"2026-05-20"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://img.itch.zone/aW1nLzE3OTk4MjQxLnBuZw==/315x250%23c/E4E7eq.
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/3445980/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

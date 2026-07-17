@@ -20,6 +20,14 @@ protondb_total: 34
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 98
+steam_review_total: 8621
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: ustwo games
@@ -28,17 +36,19 @@ genre: Casual, Puzzle, Adventure
 franchise: Monument Valley
 age_rating_summary: 3 (PEGI)
 age_ratings: {"pegi":{"rating":"3"},"dejus":{"rating":"L"}}
-release_date: "July 12, 2022"
+release_date: "September 4, 2025"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Portuguese - Portugal","Russian","Simplified Chinese","Swedish","Traditional Chinese","Turkish"]
 languages_audio: ["English","French","German","Dutch","Japanese","Korean","Portuguese - Portugal","Russian","Simplified Chinese","Swedish","Traditional Chinese","Turkish","Italian","Spanish - Spain"]
-tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"}]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "291 MB"
+install_size: "373 MB"
+achievements_total: 19
 franchise_siblings: [{"rawg_id":23741,"slug":"monument-valley-2","name":"Monument Valley 2"}]
 franchise_slug: "monument-valley|monument-valley-2"
 igdb_url: "https://www.igdb.com/games/8900"
 was_free_before: true
-giveaway_events: [{"_id":"68b06f31da2260c43b24eaba","id":"f967cff9761c4198b4e972cfd71e40d7","namespace":"e236e73a294b462d85715f5ba23a6346","startDate":"2025-09-04T15:00:00.000Z","endDate":"2025-09-11T15:00:00.000Z","title":"Monument Valley","__v":0}]
+giveaway_events: [{"start":"2025-09-04","end":"2025-09-11"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1927720/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1927720/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

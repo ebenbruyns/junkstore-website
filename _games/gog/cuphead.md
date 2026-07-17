@@ -20,6 +20,14 @@ protondb_total: 334
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 216600
+gog_rating_value: 4.5
+gog_rating_count: 1054
 
 # Game Info
 publisher: Studio MDHR
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"49","name":"Difficult"},{"id":"75","name":"Local Co-Op"},{"id":"74","name":"Retro"},{"id":"40833","name":"Captions available"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"56","name":"Shoot 'Em Up"},{"id":"258","name":"Hand-drawn"},{"id":"164","name":"Cartoony"},{"id":"57","name":"Bullet Hell"},{"id":"179","name":"Cartoon"}]
 size: "3408 MB"
+install_size: ""
+achievements_total: 42
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/cuphead"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4d6b0a6880ee435d089414f9bbf144ceb9074f95b2e
 icon_image: "https://images.gog.com/4d6b0a6880ee435d089414f9bbf144ceb9074f95b2e130443394ad24a9ea29f6.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

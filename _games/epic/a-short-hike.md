@@ -20,6 +20,14 @@ protondb_total: 55
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 99
+steam_review_total: 22392
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Whippoorwill, Adam Gryu
@@ -34,11 +42,13 @@ languages: ["English","French","Spanish - Latin America","Japanese","Portuguese 
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
 size: "220 MB"
+install_size: "309 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/a-short-hike"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1f43631f27c961ec39e","id":"e97596b69a334eb896d3567ffad85093","namespace":"fd0183d33a5a40ff8cd4a6ebb52f6ace","startDate":"2020-03-11T15:00:00.000Z","endDate":"2020-03-18T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2020-03-11","end":"2020-03-18"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7cffad16560764af2a9cfdb34df54b12bd3e042913e
 icon_image: "https://images.gog.com/9707c721bb655caf72a99e6cc4755c1ad6cf31565e1ce5a01d34acac48be5d09.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

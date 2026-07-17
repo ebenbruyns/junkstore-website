@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 56
+steam_review_total: 1136
+gog_rating_value: 2.4
+gog_rating_count: 26
 
 # Game Info
 publisher: HeroCraft PC
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"117","name":"Mystery"}]
 size: "3004 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/gravewood-high"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/35b5628292f545e7ca27f7a0f02942d7a9f2571f1dc
 icon_image: "https://images.gog.com/884befe44d11613cd1200c4128f60d1ecd8fd121a3624f629a3adf8eb6ddde5e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

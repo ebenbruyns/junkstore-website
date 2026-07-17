@@ -20,6 +20,14 @@ protondb_total: 114
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 9775
+gog_rating_value: 4.5
+gog_rating_count: 724
 
 # Game Info
 publisher: Electronic Arts, Aspyr Media
@@ -34,6 +42,8 @@ languages: ["Danish","German","English","Spanish","Finnish","French","Italian","
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"193","name":"Classic"},{"id":"37","name":"Sandbox"},{"id":"79","name":"Free to Play"},{"id":"62","name":"Moddable"},{"id":"39","name":"Building"},{"id":"67","name":"Management"},{"id":"194","name":"Real-Time with Pause"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"}]
 size: "1054 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/simcity-4"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b6eaa43d6485e869a4e2bfc1d166e4b7958bda962b4
 icon_image: "https://images.gog.com/b6eaa43d6485e869a4e2bfc1d166e4b7958bda962b451bc111a75d2028efac30.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 22
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 6555
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Thomas Happ Games
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]
-size: ""
+size: "102 MB"
+install_size: "471 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":397479,"slug":"axiom-verge-2","name":"Axiom Verge 2"}]
 franchise_slug: "axiom-verge|axiom-verge-2"
 igdb_url: "https://www.igdb.com/games/axiom-verge"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2019-02-06","end":"2019-02-21"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3e509365aa3315c9287844d83c9abd03ebea0e82249
 icon_image: "https://images.gog.com/6e7377b04649b72ba9123f4e6a81ff24bba28b9382c3a5423f8bd26e4a1a6a04.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

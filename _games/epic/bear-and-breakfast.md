@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 5310
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Armor Games Studios
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Simplified Chinese","
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "921 MB"
+install_size: "1292 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/bear-and-breakfast"
 was_free_before: true
-giveaway_events: [{"_id":"66f56c0fe4fd9b98c59797a1","id":"5a05b93354d74d2687b3b002d4bfc1a3","namespace":"6c3a09646a954c04b5ab774e5b8c861d","startDate":"2024-10-03T15:00:00.000Z","endDate":"2024-10-10T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-10-03","end":"2024-10-10"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/517cbbb8152387755dda9467383271017dac9d46a1d
 icon_image: "https://images.gog.com/6b4e1250fe973dabb3ab765bc87e731114e30d206bcc28a8347e3f016ec718e4.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

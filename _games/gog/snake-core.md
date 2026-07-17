@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "9 user reviews"
+steam_review_percent: 56
+steam_review_total: 9
+gog_rating_value: 2.8
+gog_rating_count: 17
 
 # Game Info
 publisher: Orangepixel
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"70","name":"War"},{"id":"1465","name":"combat"},{"id":"172","name":"Aliens"},{"id":"61","name":"Top-Down"},{"id":"2184","name":"hunt"},{"id":"2191","name":"alien"},{"id":"3680","name":"defense"},{"id":"691","name":"quick"},{"id":"307","name":"Gaming"},{"id":"1549","name":"snake"}]
 size: "66 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/snake-core"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-04-17"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e49ab3e1b405234acceab90b90ea9cf7a22aa3a31f8
 icon_image: "https://images.gog.com/45d5c4f8647030f4f26e257104848e579875346cdfbe8a7b0df0064f79ef35bc.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: true
 required_launcher: ""

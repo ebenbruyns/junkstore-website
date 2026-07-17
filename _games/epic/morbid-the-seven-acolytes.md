@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 1495
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Silver Lining Interactive
@@ -32,13 +40,15 @@ release_date: "September 19, 2024"
 game_modes: ["Single Player"]
 languages: ["English","French","German","Spanish - Spain","Russian","Japanese","Simplified Chinese","Korean","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-size: ""
+tags_structured: [{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+size: "423 MB"
+install_size: "569 MB"
+achievements_total: 25
 franchise_siblings: [{"rawg_id":979528,"slug":"morbid-the-lords-of-ire","name":"Morbid: The Lords of Ire"}]
 franchise_slug: "morbid-the-lords-of-ire|morbid-the-seven-acolytes"
 igdb_url: "https://www.igdb.com/games/morbid-the-seven-acolytes"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8fe6336e3bd548a795809475f97ad112549c5afda30
 icon_image: "https://images.gog.com/3f63b0257bc7ba6253d1e143fd76d9ed54ab9732af278e4973f592c8ffe6ea65.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/83854"
 store_url: "https://store.epicgames.com/en-US/p/morbid-the-seven-acolytes-7c5303"
 protondb_url: "https://www.protondb.com/app/1140890"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Morbid%3A_The_Seven_Acolytes"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Morbid:_The_Seven_Acolytes"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/morbid-the-seven-acolytes/"
 

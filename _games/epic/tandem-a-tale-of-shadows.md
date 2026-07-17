@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 228
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Hatinh Interactive
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Portugal","Czech","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"}]
-size: ""
+size: "7853 MB"
+install_size: "7853 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/tandem-a-tale-of-shadows"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cf3631f27c961eba23","id":"9142916d80f54720b01f8f62b21014be","namespace":"d1a3ff292b2f4ee289a83d7a91ae3458","startDate":"2023-10-25T15:00:00.000Z","endDate":"2023-11-01T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-10-25","end":"2023-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c2e4c8284bd8794f08075ffe2a68b9fc29cc1fc5cbb
 icon_image: "https://images.gog.com/d40b8d03c5f2948947ccef1a160fcd4b57f39d0d1f3cda20b06e431bea873b91.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/94776"
 store_url: "https://store.epicgames.com/en-US/p/tandem-a-tale-of-shadows-c3f55e"
 protondb_url: "https://www.protondb.com/app/1436920"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tandem%3A_A_Tale_of_Shadows"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tandem:_A_Tale_of_Shadows"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/tandem-a-tale-of-shadows/"
 

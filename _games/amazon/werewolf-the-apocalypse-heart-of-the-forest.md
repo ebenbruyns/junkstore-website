@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 1114
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Different Tales
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"16","name":"Horror"},{"id":"189","name":"Female Protagonist"},{"id":"41","name":"Dark"},{"id":"468","name":"role-playing"},{"id":"70","name":"War"},{"id":"117","name":"Mystery"},{"id":"145","name":"Choices Matter"},{"id":"90","name":"Visual Novel"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"51","name":"Destruction"},{"id":"808","name":"character"},{"id":"187","name":"Demons"},{"id":"572","name":"Emotional"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"288","name":"Interactive Fiction"},{"id":"204","name":"Gothic"},{"id":"774","name":"nature"},{"id":"108","name":"Mythology"},{"id":"820","name":"secrets"},{"id":"286","name":"Psychedelic"},{"id":"1221","name":"history"},{"id":"303","name":"Text-Based"},{"id":"2863","name":"darkness"},{"id":"1396","name":"apocalypse"},{"id":"740","name":"demo"},{"id":"315","name":"Werewolves"},{"id":"4934","name":"health"},{"id":"3942","name":"rage"},{"id":"869","name":"fear"},{"id":"3754","name":"werewolf"}]
 size: "738 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/werewolf-the-apocalypse-heart-of-the-forest"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1342620/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1342620/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 1723
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Fulqrum Publishing
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"122","name":"Pixel Graphics"},{"id":"14","name":"Early Access"},{"id":"74","name":"Retro"},{"id":"131","name":"Fast-Paced"},{"id":"243","name":"1990's"},{"id":"166","name":"Stylized"},{"id":"187","name":"Demons"},{"id":"234","name":"Superhero"},{"id":"186","name":"Ninja"},{"id":"308","name":"Bullet Time"},{"id":"570","name":"Old School"},{"id":"993","name":"Archery"}]
 size: "2297 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/dread-templar"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1334730/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1334730/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

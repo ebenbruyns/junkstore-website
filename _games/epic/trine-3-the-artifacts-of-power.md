@@ -20,6 +20,14 @@ protondb_total: 16
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 63
+steam_review_total: 9175
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Frozenbyte
@@ -28,12 +36,14 @@ genre: Puzzle, Action-Adventure, Platformer
 franchise: Trine
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa"}}
-release_date: "August 20, 2015"
+release_date: "December 31, 2025"
 game_modes: ["Single-player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Danish","Norwegian","Russian","Swedish","Portuguese - Brazil","Japanese","Simplified Chinese","Finnish"]
 languages_audio: ["English","French","German","Spanish - Spain","Russian","Portuguese - Brazil","Japanese"]
-tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"}]
-size: ""
+tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"}]
+size: "3902 MB"
+install_size: "4444 MB"
+achievements_total: 28
 franchise_siblings: [{"rawg_id":257252,"slug":"trine-4-the-nightmare-prince","name":"Trine 4: The Nightmare Prince"},{"rawg_id":4519,"slug":"trine-2","name":"Trine 2"},{"rawg_id":5196,"slug":"trine","name":"Trine"}]
 franchise_slug: "trine|trine-2|trine-3-the-artifacts-of-power|trine-4-the-nightmare-prince"
 igdb_url: "https://www.igdb.com/games/trine-3-the-artifacts-of-power"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/319910/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/319910/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: true
 epic_cloud_saves: false
 must_be_online: false

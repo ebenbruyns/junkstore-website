@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 71
+steam_review_total: 875
+gog_rating_value: 3.9
+gog_rating_count: 134
 
 # Game Info
 publisher: Event Horizon
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Latin American Spanish","Fr
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"9","name":"Online Co-Op"},{"id":"40850","name":"Steam Leaderboards"},{"id":"397","name":"Online multiplayer"},{"id":"72","name":"Local Multiplayer"},{"id":"40852","name":"Steam Workshop"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"77","name":"Realistic"},{"id":"205","name":"Lore-Rich"},{"id":"206","name":"Party-Based RPG"},{"id":"247","name":"Real Time Tactics"},{"id":"230","name":"Tactical RPG"}]
 size: "38161 MB"
+install_size: ""
+achievements_total: 52
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/dark-envoy"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ec0b7522c8e90bdf6d1bb1aba034f51f2069462a657
 icon_image: "https://images.gog.com/c084714047ad0d8cd5bd1625640b0ef721c2d92b7a4f39e31418bb99274c4173.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

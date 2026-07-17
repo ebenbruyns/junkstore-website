@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Audio output has nonblocking issues"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 83
+steam_review_total: 35
+gog_rating_value: 4.3
+gog_rating_count: 34
 
 # Game Info
 publisher: Strategic Simulations, SNEG
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"468","name":"role-playing"},{"id":"117","name":"Mystery"},{"id":"165","name":"Colorful"},{"id":"168","name":"RTS"},{"id":"82","name":"Magic"},{"id":"61","name":"Top-Down"},{"id":"243","name":"1990's"},{"id":"215","name":"Dragons"},{"id":"100","name":"Grand Strategy"},{"id":"247","name":"Real Time Tactics"},{"id":"570","name":"Old School"},{"id":"104","name":"Wargame"},{"id":"574","name":"Dungeons & Dragons"}]
 size: "48 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/fantasy-empires"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3231386d62f8187b649c5e42517b5d6bf6b789f0ca1
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2350530/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: "dosbox"

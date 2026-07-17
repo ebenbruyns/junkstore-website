@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 1995
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: WayForward, ARC SYSTEM WORKS
@@ -28,17 +36,19 @@ genre: Action, Adventure, RPG
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Violência"}}
-release_date: "December 14, 2022"
+release_date: "February 4, 2025"
 game_modes: ["Single Player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","Japanese"]
-tags_structured: [{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1183","name":"Local Multiplayer"}]
-size: ""
+tags_structured: [{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+size: "4361 MB"
+install_size: "6607 MB"
+achievements_total: 59
 franchise_siblings: [{"rawg_id":810295,"slug":"river-city-saga-three-kingdoms","name":"River City Saga: Three Kingdoms"},{"rawg_id":389012,"slug":"stay-cool-kobayashi-san-a-river-city-ransom-story","name":"STAY COOL, KOBAYASHI-SAN!: A RIVER CITY RANSOM STORY"},{"rawg_id":371847,"slug":"river-city-girls","name":"River City Girls"},{"rawg_id":49772,"slug":"river-city-rival-showdown","name":"River City: Rival Showdown"},{"rawg_id":29186,"slug":"river-city-knights-of-justice","name":"River City: Knights of Justice"},{"rawg_id":22533,"slug":"river-city-melee-battle-royal-special","name":"River City Melee: Battle Royal Special"},{"rawg_id":10555,"slug":"river-city-ransom-underground","name":"River City Ransom: Underground"},{"rawg_id":27825,"slug":"river-city-tokyo-rumble","name":"River City: Tokyo Rumble"},{"rawg_id":333223,"slug":"downtown-nekketsu-jidaigeki","name":"Downtown Nekketsu Jidaigeki"},{"rawg_id":3099,"slug":"downtown-nekketsu-koushinkyoku-soreyuke-daiundouka","name":"River City Super Sports Challenge ~All Stars Special~ Downtown Nekketsu"},{"rawg_id":335601,"slug":"riki-densetsu","name":"Riki Densetsu"},{"rawg_id":335614,"slug":"river-city-soccer-hooligans","name":"River City Soccer Hooligans"},{"rawg_id":335615,"slug":"river-city-super-sports-challenge","name":"River City Super Sports Challenge"},{"rawg_id":39799,"slug":"river-city-dodgeball-all-stars","name":"River City Dodgeball All-Stars!!"},{"rawg_id":24749,"slug":"super-dodgeball-brawlers","name":"Super Dodgeball Brawlers"},{"rawg_id":248401,"slug":"shin-nekketsu-koha-kunio-tachi-no-banka","name":"Shin Nekketsu Kouha: Kunio Tachi no Banka"},{"rawg_id":246464,"slug":"kunio-kun-no-nekketsu-soccer-league","name":"Kunio-kun no Nekketsu Soccer League"},{"rawg_id":409572,"slug":"nekketsu-kakutou-densetsu","name":"Nekketsu Kakutou Densetsu"},{"rawg_id":413878,"slug":"shodai-nekketsu-kouha-kunio-kun","name":"River City Ransom 2"},{"rawg_id":53765,"slug":"crash-n-the-boys-street-challenge-2","name":"Crash 'n' the Boys: Street Challenge (1992)"},{"rawg_id":59124,"slug":"nintendo-world-cup","name":"Nintendo World Cup"},{"rawg_id":53499,"slug":"river-city-ransom","name":"River City Ransom"},{"rawg_id":53366,"slug":"super-dodgeball","name":"Super Dodge Ball (1988)"},{"rawg_id":54015,"slug":"renegade-1986","name":"Renegade (1986)"}]
 franchise_slug: "crash-n-the-boys-street-challe|downtown-nekketsu-jidaigeki|downtown-nekketsu-koushinkyoku|kunio-kun-no-nekketsu-soccer-l|nekketsu-kakutou-densetsu|nintendo-world-cup|renegade-1986|riki-densetsu|river-city-dodgeball-all-stars|river-city-girls|river-city-girls-2|river-city-knights-of-justice|river-city-melee-battle-royal-|river-city-ransom|river-city-ransom-underground|river-city-rival-showdown|river-city-saga-three-kingdoms|river-city-soccer-hooligans|river-city-super-sports-challe|river-city-tokyo-rumble|shin-nekketsu-koha-kunio-tachi|shodai-nekketsu-kouha-kunio-ku|stay-cool-kobayashi-san-a-rive|super-dodgeball|super-dodgeball-brawlers"
 igdb_url: "https://www.igdb.com/games/river-city-girls-2"
 was_free_before: true
-giveaway_events: [{"_id":"6a3d37308ba8ebe9446de46d","id":"9bf3d3188d1e498095bc23c0955538d9","namespace":"973ce75835994a35ab386d56ed2dffa3","startDate":"2026-07-02T15:00:00.000Z","endDate":"2026-07-09T15:00:00.000Z","title":"River City Girls 2","__v":0}]
+giveaway_events: [{"start":"2026-07-02","end":"2026-07-09"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9ae7cabda37d7d52c606a878b74855a5a472a724ff2
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1920480/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

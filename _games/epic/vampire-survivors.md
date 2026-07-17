@@ -20,6 +20,14 @@ protondb_total: 584
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 98
+steam_review_total: 263994
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Poncle
@@ -28,17 +36,19 @@ genre: Indie, Action-Adventure, Rogue-Lite
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência fantasiosa"}}
-release_date: "October 20, 2022"
+release_date: "December 19, 2024"
 game_modes: ["Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Turkish","Ukrainian","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "729 MB"
+install_size: "1136 MB"
+achievements_total: 40
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/vampire-survivors"
 was_free_before: true
-giveaway_events: [{"_id":"676448407d0651036b1845be","id":"9b6d6cc0e10a42a3a0aa4fe02f5dbee5","namespace":"a4e77bc04aa440a096962c14b63a41e8","startDate":"2024-12-19T16:00:00.000Z","endDate":"2024-12-20T16:00:00.000Z","title":"Vampire Survivors","__v":0}]
+giveaway_events: [{"start":"2024-12-19","end":"2024-12-20"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/45ba8e3a8a126acfc22c344b24e99423522e6c7bc41
 icon_image: "https://images.gog.com/cc40e792418ec465f72c1cd668fb2bf54012970996524d9cbb66f8527b29aff4.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 843
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Black Pants Game Studio
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"}]
-size: ""
+size: "110 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/about-love-hate-and-the-other-ones"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3c445d86306f8f874bb5106a7c1413c61d899a6b698
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/277680/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

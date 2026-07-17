@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 1758
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Spilt Milk Studios Ltd
@@ -28,17 +36,19 @@ genre: Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "May 28, 2025"
+release_date: "May 7, 2026"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese","Korean","Simplified Chinese","Thai","Traditional Chinese","Hungarian"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"21894","name":"Cloud Saves"},{"id":"1287","name":"Fantasy"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "1797 MB"
+install_size: "5449 MB"
+achievements_total: 50
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/trash-goblin"
 was_free_before: true
-giveaway_events: [{"_id":"69f36ee8175a0ecbe8ddcbf3","id":"40980262fdb24c149094f3febfe84cb6","namespace":"f14e8d865ad04b93a5df850ce7a59fe2","startDate":"2026-05-07T15:00:00.000Z","endDate":"2026-05-14T15:00:00.000Z","title":"Trash Goblin","__v":0}]
+giveaway_events: [{"start":"2026-05-07","end":"2026-05-14"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f56bc59e1c4b0b07bfa19e8dde261309840074babd7
 icon_image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2407830/b5f73d55cbca5df86e2feb1a92636ce62bb1439e/capsule_184x69.jpg?t=1778170992"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 18
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 7183
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: House on Fire
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian","Polish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "256 MB"
+install_size: "3532 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-silent-age"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d43631f27c961ebb7d","id":"9f476effdb174d789a6d7894d7c39dbb","namespace":"46d340566781448ebdc2cb576f91d3b6","startDate":"2023-03-29T15:00:00.000Z","endDate":"2023-04-05T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-03-29","end":"2023-04-05"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d5a01680afe3a10953abfde36005693fb2c992f810e
 icon_image: "https://images.gog.com/f754774f40d36f8f384365aabac8e8f996a610bb4ea746875c63bab04a257442.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

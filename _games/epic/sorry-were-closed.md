@@ -20,6 +20,14 @@ protondb_total: 11
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 98
+steam_review_total: 1962
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Akupara Games
@@ -32,13 +40,15 @@ release_date: "November 14, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1218","name":"Horror"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"9549","name":"Controller Support"},{"id":"21119","name":"Great for Beginners"}]
 size: "2187 MB"
+install_size: "2565 MB"
+achievements_total: 64
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sorry-were-closed"
 was_free_before: true
-giveaway_events: [{"_id":"6946c04a03f4fa2fe2d230b5","id":"4e469c7d8bbf49bcabc2c07127d3d946","namespace":"489af623d8284d518502f8ee9d33b828","startDate":"2025-12-21T16:00:00.000Z","endDate":"2025-12-22T16:00:00.000Z","title":"Sorry We're Closed","__v":0}]
+giveaway_events: [{"start":"2025-12-21","end":"2025-12-22"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1796580/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1796580/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/125118"
 store_url: "https://store.epicgames.com/en-US/p/sorry-were-closed-724c86"
 protondb_url: "https://www.protondb.com/app/1796580"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sorry_We%27re_Closed"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sorry_We're_Closed"
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/sorry-were-closed/"
 

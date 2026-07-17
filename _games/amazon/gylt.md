@@ -20,6 +20,14 @@ protondb_total: 18
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 1265
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Tequila Works
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Korean","Da
 languages_audio: ["English","French","Italian","German","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"15","name":"Stealth"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"17","name":"Survival Horror"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"218","name":"Multiple Endings"},{"id":"200","name":"Narration"},{"id":"572","name":"Emotional"},{"id":"59643","name":"Протагонистка"},{"id":"279","name":"Supernatural"},{"id":"140","name":"Hidden Object"}]
 size: "5964 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/gylt"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2206210/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2206210/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

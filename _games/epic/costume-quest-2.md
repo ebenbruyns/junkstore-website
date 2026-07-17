@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 1006
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Midnight City, Majesco Entertainment
@@ -28,17 +36,19 @@ genre: Action, Action-Adventure, Turn-Based, Adventure
 franchise: Costume Quest
 age_rating_summary: e10 (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence"},"pegi":{"rating":"7","descriptors":"Fear, Violence"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "October 7, 2014"
+release_date: "October 22, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1386","name":"Turn-Based"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "963 MB"
+install_size: "1046 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/costume-quest-2--1"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d83631f27c961ebc79","id":"62488ccca67b455891967a4cfc6dea24","namespace":"c660f57e1a164930a7196f1fd27ae45a","startDate":"2022-12-16T15:00:00.000Z","endDate":"2022-12-17T15:00:00.000Z","__v":0},{"_id":"66abf1ee3631f27c961ec1f6","id":"62488ccca67b455891967a4cfc6dea24","namespace":"c660f57e1a164930a7196f1fd27ae45a","startDate":"2020-10-21T15:00:00.000Z","endDate":"2020-10-28T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2020-10-21","end":"2020-10-28"},{"start":"2022-12-16","end":"2022-12-17"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/02e0b4378b88039e99c39b3b22fbf331390ff32d19b
 icon_image: "https://images.gog.com/23cf39a791b3d3ad4c40fcd7534541e6ffaa1a0030a8304ee614f634590c91f1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

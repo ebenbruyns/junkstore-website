@@ -20,6 +20,14 @@ protondb_total: 66
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 15734
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Nacon
@@ -28,17 +36,19 @@ genre: Simulation
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Suggestive Themes, Language, Drug Reference"},"pegi":{"rating":"12","descriptors":"Bad Language"},"usk":{"rating":"0"},"oflc":{"rating":"PG","descriptors":"Mild Themes and Coarse Language"},"nzoflc":{"rating":"PG","descriptors":"Mild Themes and Coarse Language"},"csrr":{"rating":"C12","descriptors":"Objectionable language"},"dejus":{"rating":"14","descriptors":"Drogas ilícitas, Conteúdo sexual, Linguagem imprópria"}}
-release_date: "September 22, 2022"
+release_date: "February 17, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1400","name":"Physics"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1400","name":"Physics"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "7656 MB"
+install_size: "17946 MB"
+achievements_total: 48
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/session-skate-sim"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/34445fb75ff99e69bbd156ef4c75e3915cfbd9ef27a
 icon_image: "https://images.gog.com/dcb8213359aed5675d17d7cb596485b5cf310d4403b7e23b18597c2510e1c1d6.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

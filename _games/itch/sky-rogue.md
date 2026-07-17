@@ -20,6 +20,14 @@ protondb_total: 12
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 1223
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Fractal Phase
@@ -33,7 +41,9 @@ game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Japanese","Simplified Chinese","Italian","German","Korean","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil","Russian","Spanish - Latin America","Traditional Chinese"]
 languages_audio: []
 tags_structured: []
-size: ""
+size: "128 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sky-rogue"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b87172008807789392fbcf493d73d4bd801ef1df7bf
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/381020/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

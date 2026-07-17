@@ -20,25 +20,35 @@ protondb_total: 32
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 2910
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Bethesda Softworks
 developer: 14° East
 genre: Turn-Based Strategy, RPG, Strategy
 franchise: 
-age_rating_summary: M (ESRB) · 16 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Strong Language"},"pegi":{"rating":"16","descriptors":"Gambling, Bad Language, Violence"},"usk":{"rating":"16"}}
-release_date: "August 19, 2009"
+release_date: "October 20, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","German"]
 languages_audio: []
-tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "4659 MB"
+install_size: "4834 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":1015797,"slug":"fallout-4-creations-bundle","name":"Fallout 4 - Creations Bundle"},{"rawg_id":1000841,"slug":"fallout-4-next-gen","name":"Fallout 4: Next-Gen"},{"rawg_id":732504,"slug":"fallout-shelter-online","name":"Fallout Shelter Online"},{"rawg_id":58585,"slug":"fallout-76","name":"Fallout 76"},{"rawg_id":3070,"slug":"fallout-4","name":"Fallout 4"},{"rawg_id":559,"slug":"fallout-shelter","name":"Fallout Shelter"},{"rawg_id":5563,"slug":"fallout-new-vegas","name":"Fallout: New Vegas"},{"rawg_id":5562,"slug":"fallout-3","name":"Fallout 3"},{"rawg_id":402492,"slug":"fallout-brotherhood-of-steel","name":"Fallout: Brotherhood of Steel"},{"rawg_id":19299,"slug":"fallout-2-a-post-nuclear-role-playing-game","name":"Fallout 2"},{"rawg_id":13554,"slug":"fallout-a-post-nuclear-role-playing-game","name":"Fallout"},{"rawg_id":979041,"slug":"capital-wasteland","name":"Capital Wasteland"}]
 franchise_slug: "capital-wasteland|fallout-2-a-post-nuclear-role-|fallout-3|fallout-4|fallout-4-creations-bundle|fallout-4-next-gen|fallout-76|fallout-a-post-nuclear-role-pl|fallout-brotherhood-of-steel|fallout-new-vegas|fallout-shelter|fallout-shelter-online|fallout-tactics-brotherhood-of"
 igdb_url: "https://www.igdb.com/games/fallout-tactics-brotherhood-of-steel"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d73631f27c961ebc40","id":"550b1ad4adcc414a966d459587bcdb30","namespace":"b90be973f6e74975ac1a6ff15dbfd0b3","startDate":"2022-12-21T15:00:00.000Z","endDate":"2022-12-22T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-12-21","end":"2022-12-22"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/167a302bf82ec4edfcfc2a10493069abf1174e737d4
 icon_image: "https://images.gog.com/d0c8aeb40f65c8e036dd476e19995e96a6ebcf605fcda10f6d074e33b36692f9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/3349"
 store_url: "https://store.epicgames.com/en-US/p/fallout-tactics-brotherhood-of-steel"
 protondb_url: "https://www.protondb.com/app/38420"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_Tactics%3A_Brotherhood_of_Steel"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_Tactics:_Brotherhood_of_Steel"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/fallout-tactics-brotherhood-of-steel/"
 

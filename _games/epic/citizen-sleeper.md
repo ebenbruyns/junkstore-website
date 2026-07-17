@@ -20,6 +20,14 @@ protondb_total: 47
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 10321
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Fellow Traveller
@@ -32,13 +40,15 @@ release_date: "May 5, 2022"
 game_modes: ["Single Player"]
 languages: ["English","French","Japanese","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1395","name":"Narration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: "327 MB"
+install_size: "1183 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/citizen-sleeper"
 was_free_before: true
-giveaway_events: [{"_id":"6a2935dc570e3987f2d21eac","id":"ea365d314ecf4224a5f58d2d7430e7aa","namespace":"e4ef0c8c500a41eaa57c53d32410595d","startDate":"2026-06-18T15:00:00.000Z","endDate":"2026-06-25T15:00:00.000Z","title":"Citizen Sleeper","__v":0}]
+giveaway_events: [{"start":"2026-06-18","end":"2026-06-25"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/124bcacf6f90de09b7d7266010db088fbea4e91048d
 icon_image: "https://images.gog.com/e99add0503fcb7ba1ede5b924a83ad7350b2f09951b125180f6393a2b8de56d1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 22
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 3258
+gog_rating_value: 4.2
+gog_rating_count: 560
 
 # Game Info
 publisher: Freedom Games
@@ -34,11 +42,13 @@ languages: ["English","Latin American Spanish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"113","name":"Side Scroller"},{"id":"82","name":"Magic"},{"id":"259","name":"Metroidvania"},{"id":"205","name":"Lore-Rich"},{"id":"59643","name":"Протагонистка"},{"id":"40855","name":"Un jugador"},{"id":"60876","name":"Compat. total con mando"}]
 size: "1356 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/9-years-of-shadows"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/96a9dff985f6c77e8cca0a24c9a77e66ce459dc6bbd
 icon_image: "https://images.gog.com/4ee6b7492cb030a07b2f647aecf85d190efdf2e35c503aabef5c99c278289a14.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

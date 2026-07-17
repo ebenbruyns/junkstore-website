@@ -20,6 +20,14 @@ protondb_total: 86
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 19655
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Games Operators
@@ -28,17 +36,19 @@ genre: Simulation, Strategy, Indie
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Atos criminosos, Linguagem imprópria, Drogas ilícitas"}}
-release_date: "February 24, 2017"
+release_date: "April 23, 2026"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Simplified Chinese","Russian","Japanese","Czech","Korean","Portuguese - Brazil","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
 size: ""
+install_size: ""
+achievements_total: 18
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/911-operator"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2023-09-13","end":"2023-09-20"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fd98901f03f8c4f11e46194813b091234b1e1b1e958
 icon_image: "https://images.gog.com/65fdc726b0c36539663682313824b376bb64e13ebaa0b5f4493825c6b5181bc1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 9747
+gog_rating_value: 4.3
+gog_rating_count: 24
 
 # Game Info
 publisher: 101XP
@@ -28,12 +36,14 @@ genre: Adventure, Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "December 1, 2020"
+release_date: "March 4, 2021"
 game_modes: ["Single-player"]
 languages: ["English","Russian"]
 languages_audio: []
 tags_structured: []
 size: "588 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-life-and-suffering-of-sir-brante"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/231a5aa3f8157c31a2cdc75a93c0b166950d23cafb8
 icon_image: "https://images.gog.com/b594407dd97769761b05457e93457ccc05d8357dc3961500d07e5e3469bf15c1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 15
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 2301
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Noio
@@ -34,6 +42,8 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"37","name":"Sandbox"},{"id":"14","name":"Early Access"},{"id":"107","name":"Family Friendly"},{"id":"43","name":"Post-apocalyptic"},{"id":"111","name":"Short"},{"id":"571","name":"3D"},{"id":"39","name":"Building"},{"id":"138","name":"Relaxing"},{"id":"46","name":"Surreal"},{"id":"196","name":"Procedural Generation"},{"id":"213","name":"City Builder"},{"id":"266","name":"Level Editor"},{"id":"774","name":"nature"},{"id":"220","name":"Experimental"}]
 size: "148 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/cloud-gardens"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5746e1e4b29716cce704ea03f7756d76135866652de
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1372320/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

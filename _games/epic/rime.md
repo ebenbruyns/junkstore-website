@@ -20,6 +20,14 @@ protondb_total: 50
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 5179
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Grey Box, Six Foot
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Ja
 languages_audio: []
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21151","name":"Easy Puzzles"}]
 size: "7412 MB"
+install_size: "7440 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/rime"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1fd3631f27c961ec5a3","id":"afaa5744cbcd46caa500e342f9f47d84","namespace":"d0d1b5541a6540d5a81daacb3324639b","startDate":"2019-05-22T15:00:00.000Z","endDate":"2019-05-29T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2019-05-22","end":"2019-05-29"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/18ae5ab62998a324fc92b7b0b54c9bfbc48c440e1f4
 icon_image: "https://images.gog.com/41715442a974c69af88cbffbae8d7c0385fd3be8554c70a4fe853ac2412bdf8e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

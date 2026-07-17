@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "6 user reviews"
+steam_review_percent: 50
+steam_review_total: 6
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: XDEVS LTD
@@ -33,7 +41,9 @@ game_modes: ["Online Multiplayer"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "2403 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/305716"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7b85adab7e7f6e0c97e773b9b8a1d52909cedd39727
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2018320/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

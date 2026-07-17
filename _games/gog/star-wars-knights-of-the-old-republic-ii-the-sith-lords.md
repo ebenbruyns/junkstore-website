@@ -20,6 +20,14 @@ protondb_total: 41
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Cross platform cloud saves not supported"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 25883
+gog_rating_value: 4.5
+gog_rating_count: 1411
 
 # Game Info
 publisher: Activision, LucasArts, Aspyr Media
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"40852","name":"Steam Workshop"},{"id":"25","name":"Space"},{"id":"468","name":"role-playing"},{"id":"62","name":"Moddable"},{"id":"121","name":"Character Customization"},{"id":"102","name":"Turn-Based"},{"id":"145","name":"Choices Matter"},{"id":"218","name":"Multiple Endings"},{"id":"175","name":"Turn-Based Combat"},{"id":"194","name":"Real-Time with Pause"},{"id":"206","name":"Party-Based RPG"},{"id":"318","name":"Star Wars"}]
 size: "3462 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":38965,"slug":"star-wars-the-old-republic","name":"Star Wars: The Old Republic"},{"rawg_id":15859,"slug":"star-wars-knights-of-the-old-republic-2","name":"Star Wars: Knights of the Old Republic"}]
 franchise_slug: "kotor-ii|star-wars-knights-of-the-old-r|star-wars-the-old-republic"
 igdb_url: "https://www.igdb.com/games/star-wars-knights-of-the-old-republic-ii-the-sith-lords"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/883eb5100d49ff1cb1e63efbcb574cd1aeadfa4cfbc
 icon_image: "https://images.gog.com/883eb5100d49ff1cb1e63efbcb574cd1aeadfa4cfbcff38c91ef4e999116d9cf.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

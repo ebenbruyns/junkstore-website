@@ -20,6 +20,14 @@ protondb_total: 13
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 5008
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Whitethorn Games
@@ -34,11 +42,13 @@ languages: ["English","Simplified Chinese","Japanese","French","Italian","German
 languages_audio: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"}]
 size: "435 MB"
+install_size: "842 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/calico"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2022-06-01"},{"start":"2026-05-28","end":"2026-06-04"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7358de23f258f2a874896cc59416ba61ed2bfe65b7a
 icon_image: "https://images.gog.com/3a7641a9fad24c1610b789b6fdb5825f8d5144a0813bc98239b81e7ad9fa5906.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

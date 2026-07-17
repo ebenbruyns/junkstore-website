@@ -20,6 +20,14 @@ protondb_total: 45
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 4360
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: LucasArts, Feral Interactive
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"40845","name":"Partial Controller Support"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"107","name":"Family Friendly"},{"id":"297","name":"LEGO"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":5606,"slug":"lego-indiana-jones-2","name":"LEGO Indiana Jones 2: The Adventure Continues"}]
 franchise_slug: "lego-indiana-jones|lego-indiana-jones-2"
 igdb_url: "https://www.igdb.com/games/lego-indiana-jones-the-original-adventures"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/91aa47d1429f38112ceaccdd358d7bac5e42a6c522b
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/32330/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

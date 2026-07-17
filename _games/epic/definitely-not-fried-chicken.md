@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 2537
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Silver Lining Interactive
@@ -28,17 +36,19 @@ genre: Simulation, Strategy, Indie
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"18","descriptors":"Drogas ilícitas, Violência Extrema, Temas sensíveis"}}
-release_date: "September 29, 2023"
+release_date: "January 29, 2026"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Japanese","Spanish - Latin America","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "465 MB"
+install_size: "1108 MB"
+achievements_total: 58
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/definitely-not-fried-chicken"
 was_free_before: true
-giveaway_events: [{"_id":"69723e42ec757d41c75dff4f","id":"b916500f733b4973802bdb4fdb276515","namespace":"8d8fb21ac3554271853582bad9d394d7","startDate":"2026-01-29T16:00:00.000Z","endDate":"2026-02-05T16:00:00.000Z","title":"Definitely Not Fried Chicken","__v":0}]
+giveaway_events: [{"start":"2026-01-29","end":"2026-02-05"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1036240/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1036240/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: true
 epic_cloud_saves: false
 must_be_online: false

@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 72
+steam_review_total: 781
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Hypetrain Digital LTD
@@ -33,12 +41,14 @@ game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
-size: ""
+size: "9436 MB"
+install_size: "9436 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/tunche"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d43631f27c961ebb75","id":"1cfc3e68b14940719bbc0bce58fae8a4","namespace":"78683b0edafd4a978a5ab61a7f6b0594","startDate":"2023-03-29T15:00:00.000Z","endDate":"2023-04-05T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-02-01"},{"start":"2023-03-29","end":"2023-04-05"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a7d891b393f24ed69f690da8b7bcaee3473968328ce
 icon_image: "https://images.gog.com/a5862997711a7e2313331a05f638b20e2db3117f8f4e61a0744f709c50857be0.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: ""
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 49
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 9980
+gog_rating_value: 3.4
+gog_rating_count: 168
 
 # Game Info
 publisher: Asmodee Digital, Nomad Games
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"40850","name":"Steam Leaderboards"},{"id":"75","name":"Local Co-Op"},{"id":"72","name":"Local Multiplayer"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"102","name":"Turn-Based"},{"id":"127","name":"Card Game"},{"id":"60","name":"Touch-Friendly"},{"id":"162","name":"Board Game"},{"id":"29","name":"Games Workshop"}]
 size: "1020 MB"
+install_size: ""
+achievements_total: 249
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/talisman-digital-edition"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/34d477cd11f84dfe6e83c6cff7624dd1a222a3958c3
 icon_image: "https://images.gog.com/385ac5aa01bd2b65e648e8a0dba801f729d093ca14d93ba4adb51ad6d42376de.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/17600"
 store_url: "https://www.gog.com/en/game/talisman_digital_edition"
 protondb_url: "https://www.protondb.com/app/247000"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Talisman%3A_Digital_Edition"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Talisman:_Digital_Edition"
 metacritic_score: 51
 metacritic_url: "https://www.metacritic.com/game/talisman-digital-edition/"
 

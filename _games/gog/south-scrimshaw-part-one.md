@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 99
+steam_review_total: 1602
+gog_rating_value: 4.5
+gog_rating_count: 35
 
 # Game Info
 publisher: Nathan O. Marsh
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"25","name":"Space"},{"id":"110","name":"Cinematic"},{"id":"172","name":"Aliens"},{"id":"90","name":"Visual Novel"},{"id":"305","name":"Linear"},{"id":"258","name":"Hand-drawn"},{"id":"205","name":"Lore-Rich"},{"id":"572","name":"Emotional"},{"id":"208","name":"Alternate History"},{"id":"774","name":"nature"},{"id":"87","name":"Science"},{"id":"220","name":"Experimental"},{"id":"250","name":"Underwater"},{"id":"2197","name":"submarine"}]
 size: "1263 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/south-scrimshaw"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/22c7ec16c7ce5d00d075b2328947f6c4bf1983597ac
 icon_image: "https://images.gog.com/cbcf8356e0c6fbcda1e5c3bc71d14d128fa3bb73b427448255103a4c7f3e7ebc.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

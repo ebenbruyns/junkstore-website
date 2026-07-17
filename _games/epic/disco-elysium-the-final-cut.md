@@ -20,25 +20,35 @@ protondb_total: 518
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 128793
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: ZA/UM
 developer: ZA/UM
 genre: RPG, Adventure
 franchise: 
-age_rating_summary: 16 (USK)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"usk":{"rating":"16"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Drogas, Drogas ilícitas"}}
-release_date: "October 15, 2019"
+release_date: "June 6, 2020"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Spanish - Spain","Korean","Portuguese - Brazil","French","German","Traditional Chinese","Russian","Polish","Japanese","Turkish","Arabic"]
 languages_audio: ["English"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"1127","name":"Investigation"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"21146","name":"Educational"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"1127","name":"Investigation"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"21146","name":"Educational"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
 size: "9025 MB"
+install_size: "9790 MB"
+achievements_total: 40
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/disco-elysium"
 was_free_before: true
-giveaway_events: [{"_id":"694c060c5eebebff7d330e52","id":"1112adb4b6af47238cbc563ae2b1c6ab","namespace":"ff52981b1d9947978153c7a7f8bc6d90","startDate":"2025-12-25T16:00:00.000Z","endDate":"2025-12-26T16:00:00.000Z","title":"Disco Elysium - The Final Cut","__v":0}]
+giveaway_events: [{"start":"2025-12-25","end":"2025-12-26"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/632470/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/632470/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

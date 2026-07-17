@@ -20,6 +20,14 @@ protondb_total: 226
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Game or launcher doesnt exit cleanly"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 21042
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ubisoft
@@ -33,7 +41,9 @@ game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Turkish","Japanese","Dutch","Portuguese - Brazil"]
 languages_audio: []
 tags_structured: [{"id":"1203","name":"Multiplayer"},{"id":"1159","name":"Arcade"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"1279","name":"Vampire"}]
-size: ""
+size: "2842 MB"
+install_size: "3618 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":426098,"slug":"trackmania-2020","name":"TrackMania (2020)"},{"rawg_id":23480,"slug":"trackmania2-lagoon","name":"Trackmania² Lagoon"},{"rawg_id":2659,"slug":"trackmania-turbo","name":"Trackmania Turbo"},{"rawg_id":12909,"slug":"trackmania2-valley","name":"TrackMania² Valley"},{"rawg_id":12908,"slug":"trackmania2-stadium","name":"TrackMania² Stadium"},{"rawg_id":12907,"slug":"trackmania2-canyon","name":"TrackMania² Canyon"},{"rawg_id":25848,"slug":"trackmania-ds","name":"TrackMania DS"},{"rawg_id":20511,"slug":"trackmania-nations-forever","name":"TrackMania Nations Forever"},{"rawg_id":19406,"slug":"trackmania-united-forever-star-edition","name":"Trackmania United Forever Star Edition"},{"rawg_id":38595,"slug":"trackmania-united-forever","name":"TrackMania United Forever"},{"rawg_id":37745,"slug":"trackmania-united","name":"TrackMania United"},{"rawg_id":37104,"slug":"trackmania-nations","name":"TrackMania Nations"},{"rawg_id":36065,"slug":"trackmania-sunrise","name":"TrackMania Sunrise"},{"rawg_id":35367,"slug":"trackmania-2003","name":"TrackMania (2003)"}]
 franchise_slug: "trackmania-2003|trackmania-2010|trackmania-2020|trackmania-ds|trackmania-nations|trackmania-nations-forever|trackmania-sunrise|trackmania-turbo|trackmania-united|trackmania-united-forever|trackmania-united-forever-star|trackmania2-canyon|trackmania2-lagoon|trackmania2-stadium|trackmania2-valley"
 igdb_url: "https://www.igdb.com/games/trackmania--2"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d8e21a85ebe8372d90f954719a9f57d695e082a338a
 icon_image: "https://images.gog.com/a35069cf7423462df97f501498a5a3c26e65783bb925e3541bc94ec9bea4a25b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: "ubisoft-connect"
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/76075"
 store_url: "https://store.epicgames.com/en-US/p/trackmania"
 protondb_url: "https://www.protondb.com/app/2225070"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trackmania_%282020%29"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trackmania_(2020)"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/trackmania-2003/"
 

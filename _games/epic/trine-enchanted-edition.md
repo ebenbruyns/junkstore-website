@@ -20,20 +20,30 @@ protondb_total: 32
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 15900
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Frozenbyte
 developer: Frozenbyte
 genre: Puzzle, Action-Adventure, Platformer
 franchise: 
-age_rating_summary: 12 (PEGI)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"pegi":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência fantasiosa"}}
-release_date: "July 2, 2009"
+release_date: "December 31, 2025"
 game_modes: ["Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","French","German","Italian","Spanish - Spain"]
 languages_audio: ["English","French","German","Italian","Spanish - Spain"]
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
 size: "3353 MB"
+install_size: "3166 MB"
+achievements_total: 33
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/trine"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/35700/library_600x900.j
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/35700/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: true
 epic_cloud_saves: false
 must_be_online: false
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/10651"
 store_url: "https://store.epicgames.com/en-US/bundles/trine-classic-collection"
 protondb_url: "https://www.protondb.com/app/35700"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trine_Enchanted_Edition"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trine"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/trine/"
 

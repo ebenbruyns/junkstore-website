@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 4492
+gog_rating_value: 3.5
+gog_rating_count: 367
 
 # Game Info
 publisher: tinyBuild
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"34","name":"Violent"},{"id":"198","name":"Split Screen"},{"id":"468","name":"role-playing"},{"id":"580","name":"Souls-like"},{"id":"45201","name":"Remote Play Together"},{"id":"46112","name":"Shared/Split Screen Co-op"}]
 size: "5554 MB"
+install_size: ""
+achievements_total: 42
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/hellpoint-the-thespian-feast"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/82d70c60a9ce6d1134e22d038ced112f8edfbd6b988
 icon_image: "https://images.gog.com/61d56292bc68cd76c5ef60e7588a1418a8119e3709b1f5fbf607cc173a1bbce7.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

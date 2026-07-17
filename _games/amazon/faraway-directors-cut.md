@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Cross platform cloud saves not supported"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 70
+steam_review_total: 135
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Pine Studio
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Cz
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"6","name":"Exploration"},{"id":"107","name":"Family Friendly"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"138","name":"Relaxing"},{"id":"112","name":"Minimalist"},{"id":"575","name":"Logic"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "faraway-arctic-escape|faraway-director-s-cut|faraway-jungle-escape"
 igdb_url: "https://www.igdb.com/games/faraway-directors-cut"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2021-05-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/28b8c6284133a55bfaa6f482bbe970fff6073da4e9f
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/883880/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -75,7 +88,7 @@ hltb_url: "https://howlongtobeat.com/game/91969"
 store_url: ""
 protondb_url: "https://www.protondb.com/app/883880"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Faraway:_Director%27s_Cut"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Faraway:_Director's_Cut"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/faraway-directors-cut/"
 

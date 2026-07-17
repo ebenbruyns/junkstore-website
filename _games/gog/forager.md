@@ -20,6 +20,14 @@ protondb_total: 81
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 43807
+gog_rating_value: 4.4
+gog_rating_count: 633
 
 # Game Info
 publisher: Humble Bundle, Humble Games
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"36","name":"Open World"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"5","name":"Replay Value"},{"id":"125","name":"Crafting"},{"id":"39","name":"Building"},{"id":"67","name":"Management"},{"id":"138","name":"Relaxing"},{"id":"180","name":"Base Building"},{"id":"147","name":"Resource Management"},{"id":"159","name":"Agriculture"}]
 size: "134 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/forager"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2c9c372e2469b81b23d2732c5d8c41cf32a2c1d538a
 icon_image: "https://images.gog.com/66410f37e13b3b3544cf74557e1a88d044f95d0ee62ea1d480d0541d0fb9d5d2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

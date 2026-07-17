@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 119
+gog_rating_value: 4.1
+gog_rating_count: 39
 
 # Game Info
 publisher: Wired Productions
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"14","name":"Early Access"},{"id":"107","name":"Family Friendly"},{"id":"571","name":"3D"},{"id":"33","name":"VR"},{"id":"209","name":"Drama"},{"id":"200","name":"Narration"},{"id":"572","name":"Emotional"}]
 size: "10934 MB"
+install_size: ""
+achievements_total: 30
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/tin-hearts"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a4e2232bc9851277b1e493979cce0698e879332f35b
 icon_image: "https://images.gog.com/7e8f0bcae720306bfafc14eea320dd3bec5058c739813e39fa3be9f48d373837.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

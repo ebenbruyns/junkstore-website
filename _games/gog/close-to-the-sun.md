@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 1325
+gog_rating_value: 3.2
+gog_rating_count: 177
 
 # Game Info
 publisher: Wired Productions
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Hungaria
 languages_audio: ["English","French","Italian","German","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"8","name":"First-Person"},{"id":"26","name":"Gore"},{"id":"6","name":"Exploration"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"41","name":"Dark"},{"id":"192","name":"Mature"},{"id":"154","name":"Steampunk"},{"id":"270","name":"Blood"},{"id":"289","name":"Noir"},{"id":"40858","name":"Other"},{"id":"88536","name":"statement "}]
 size: "20554 MB"
+install_size: ""
+achievements_total: 27
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/close-to-the-sun"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2020-04-08","end":"2020-04-15"},{"start":"2020-12-01"},{"start":"2024-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/de61e83a212b91b7b7e83392d22216141b01ea9e35f
 icon_image: "https://images.gog.com/ba3153ec408e008658e7a9ee94a3cd313f0692e95a52f4ccab36ee3a4e567f37.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

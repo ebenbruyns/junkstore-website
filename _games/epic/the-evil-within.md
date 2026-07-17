@@ -20,25 +20,35 @@ protondb_total: 95
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"External controllers not supported primary player"},{"type":"info","note":"Simultaneous input gyro trackpad friendly"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 33170
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Bethesda Softworks
 developer: Tango Gameworks
 genre: Horror, Survival, Shooter
 franchise: The Evil Within
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"18"},"oflc":{"rating":"r18"},"nzoflc":{"rating":"r18"},"fpb":{"rating":"18"},"dejus":{"rating":"18"}}
-release_date: "October 13, 2014"
+release_date: "August 2, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain"]
-tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "48108 MB"
+install_size: "52979 MB"
+achievements_total: 41
 franchise_siblings: [{"rawg_id":29171,"slug":"the-evil-within-2","name":"The Evil Within 2"}]
 franchise_slug: "the-evil-within|the-evil-within-2"
 igdb_url: "https://www.igdb.com/games/the-evil-within"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cf3631f27c961eba29","id":"087155540ecc47239c98c1265b40ba99","namespace":"d602fd70876141ba9bf4d54809c423d1","startDate":"2023-10-18T15:00:00.000Z","endDate":"2023-10-25T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-10-18","end":"2023-10-25"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/236137d8ab1e89325159424b3e090dd3f9f5b0b486d
 icon_image: "https://images.gog.com/5e82c01c116083f2fca8915ee88ab65589dfd13426c64ac54df7623d7100682a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

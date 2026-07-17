@@ -20,6 +20,14 @@ protondb_total: 161
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 138432
+gog_rating_value: 4.2
+gog_rating_count: 1286
 
 # Game Info
 publisher: Deep Silver, Koch Media
@@ -34,11 +42,13 @@ languages: ["Czech","German","English","Spanish","French","Italian","Dutch","Pol
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Ukrainian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"26","name":"Gore"},{"id":"193","name":"Classic"},{"id":"1","name":"Survival"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"17","name":"Survival Horror"},{"id":"43","name":"Post-apocalyptic"},{"id":"192","name":"Mature"},{"id":"337","name":"overlay"},{"id":"271","name":"Remake"},{"id":"413","name":"online"},{"id":"2030","name":"city"},{"id":"283","name":"Based On A Novel"},{"id":"1897","name":"fire"},{"id":"3397","name":"light"}]
 size: "7321 MB"
+install_size: ""
+achievements_total: 49
 franchise_siblings: []
 franchise_slug: "metro-2033|metro-2033-redux|metro-exodus|metro-last-light|metro-last-light-redux|metro-redux"
 igdb_url: "https://www.igdb.com/games/metro-2033-redux"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2019-09-25","end":"2019-10-02"},{"start":"2020-12-21","end":"2020-12-22"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/cf395cec43f3cdc4594d9d096ebfdc7f56b9248d816
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/286690/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

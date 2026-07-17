@@ -20,6 +20,14 @@ protondb_total: 12
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 2246
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Fellow Traveller
@@ -34,11 +42,13 @@ languages: ["English","French","German","Japanese","Portuguese - Brazil","Russia
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"25","name":"Space"},{"id":"406","name":"Story"},{"id":"136","name":"Music"},{"id":"179","name":"Cartoon"},{"id":"295","name":"Soundtrack"},{"id":"774","name":"nature"},{"id":"1709","name":"work"},{"id":"1221","name":"history"},{"id":"626","name":"cats"},{"id":"3046","name":"destroy"},{"id":"2232","name":"journey"},{"id":"1626","name":"collection"},{"id":"1129","name":"art"},{"id":"892","name":"love"},{"id":"1081","name":"adult"},{"id":"753","name":"god"},{"id":"2774","name":"learn"},{"id":"1994","name":"tap"},{"id":"3598","name":"jazz"}]
 size: "3610 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/genesis-noir"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-06-01"},{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1f66a327705f4708251e96e36e060446bd28e404f4a
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/735290/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

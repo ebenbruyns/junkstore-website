@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 198
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Blowfish Studios
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Russian","Spanish - L
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"41","name":"Dark"},{"id":"74","name":"Retro"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"113","name":"Side Scroller"},{"id":"406","name":"Story"},{"id":"46","name":"Surreal"},{"id":"209","name":"Drama"},{"id":"148","name":"Dark Humor"},{"id":"285","name":"Psychological"},{"id":"183","name":"Thriller"},{"id":"1129","name":"art"},{"id":"822","name":"escape"},{"id":"2075","name":"sound"},{"id":"5559","name":"elements"},{"id":"1746","name":"dialogue"},{"id":"9973","name":"madness"},{"id":"5218","name":"circus"}]
 size: "927 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/vlad-circus-descend-into-madness"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-04-01"},{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/cb1873e2360c09229454802e48cf3e0cc367a7cf3c0
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1702430/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

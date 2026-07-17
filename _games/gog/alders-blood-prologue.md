@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 146
+gog_rating_value: 3.6
+gog_rating_count: 55
 
 # Game Info
 publisher: No Gravity Games
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"40850","name":"Steam Leaderboards"},{"id":"34","name":"Violent"},{"id":"79","name":"Free to Play"},{"id":"15","name":"Stealth"},{"id":"80","name":"Tactical"},{"id":"102","name":"Turn-Based"},{"id":"40","name":"Dark Fantasy"},{"id":"1465","name":"combat"},{"id":"639","name":"Roguelike"},{"id":"101","name":"Turn-Based Strategy"},{"id":"406","name":"Story"},{"id":"270","name":"Blood"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"47","name":"Lovecraftian"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"},{"id":"974","name":"death"},{"id":"2184","name":"hunt"},{"id":"753","name":"god"},{"id":"740","name":"demo"},{"id":"1261","name":"lovecraft"}]
 size: "208 MB"
+install_size: ""
+achievements_total: 20
 franchise_siblings: [{"rawg_id":60409,"slug":"alders-blood","name":"Alder's Blood"}]
 franchise_slug: "alders-blood|alders-blood-prologue"
 igdb_url: "https://www.igdb.com/games/alders-blood-prologue"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e29061683a15383e38bdf2895b0b8b0aee284980272
 icon_image: "https://images.gog.com/d73bd92d00156ad1e8333d957545562958370349f621da55cf00e65f8c49f830.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

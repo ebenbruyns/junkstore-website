@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 2152
+gog_rating_value: 3.7
+gog_rating_count: 511
 
 # Game Info
 publisher: Daedalic Entertainment
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","Italian","Polish","Russian"]
 languages_audio: ["English","German","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"64","name":"Fantasy"},{"id":"141","name":"Point & Click"},{"id":"40834","name":"Commentary available"}]
 size: "2097 MB"
+install_size: ""
+achievements_total: 20
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-whispered-world"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/bba7bb78e2a1f2d658b5df1d80a7bae4d2ce0dc2af2
 icon_image: "https://images.gog.com/3f9e6fda5b0095cd431049898c38ad4319d75d5b42e7c90fd70d218ef9bd6b84.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

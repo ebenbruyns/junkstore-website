@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 85
+steam_review_total: 40
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Burgos Games
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1298","name":"Puzzle"},{"id":"1299","name":"Competitive"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"},{"id":"1151","name":"Platformer"}]
-size: ""
+size: "2233 MB"
+install_size: "7263 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/126329"
 was_free_before: true
-giveaway_events: [{"_id":"67e56251851069296359f184","id":"8c06c52475f04adb9cdfea4c0a50f734","namespace":"c4c7d3cd0a2f4ea2bf7d4a57e46e8d68","startDate":"2025-03-27T15:00:00.000Z","endDate":"2025-04-03T15:00:00.000Z","title":"Neko Ghost, Jump!","__v":0}]
+giveaway_events: [{"start":"2025-03-27","end":"2025-04-03"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fe62da8c8d50c93c8c67e3256d9ee0a7805e43c7ac9
 icon_image: "https://images.gog.com/591d179b15a312cc70ecf685dcbaf3117c5d1361c27a651109ebc4f3c5bac849.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/98066"
 store_url: "https://store.epicgames.com/en-US/p/neko-ghost-jump"
 protondb_url: "https://www.protondb.com/app/1194750"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Neko_Ghost%2C_Jump%21"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Neko_Ghost,_Jump!"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/neko-ghost-jump/"
 

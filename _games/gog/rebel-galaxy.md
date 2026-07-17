@@ -20,6 +20,14 @@ protondb_total: 58
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 8356
+gog_rating_value: 4
+gog_rating_count: 966
 
 # Game Info
 publisher: Double Damage Games
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Japanese
 languages_audio: ["English"]
 tags_structured: [{"id":"1281","name":"Space Sim"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "2354 MB"
+install_size: ""
+achievements_total: 37
 franchise_siblings: [{"rawg_id":247058,"slug":"rebel-galaxy-outlaw","name":"Rebel Galaxy Outlaw"}]
 franchise_slug: "rebel-galaxy|rebel-galaxy-outlaw"
 igdb_url: "https://www.igdb.com/games/rebel-galaxy"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2019-06-19","end":"2019-06-26"},{"start":"2021-08-11","end":"2021-08-18"},{"start":"2026-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/290300/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/290300/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 125
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 27506
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: 505 Games
@@ -32,13 +40,15 @@ release_date: "August 2, 2016"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
 size: "1397 MB"
+install_size: "4596 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/abzu"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1ee3631f27c961ec214","id":"dedd448c38d947ab90291540f183378b","namespace":"7af7476ff9eb4a8d9cd9d6486224de76","startDate":"2020-10-07T15:00:00.000Z","endDate":"2020-10-14T15:00:00.000Z","__v":0},{"_id":"66abf1fb3631f27c961ec520","id":"dedd448c38d947ab90291540f183378b","namespace":"7af7476ff9eb4a8d9cd9d6486224de76","startDate":"2019-09-04T15:00:00.000Z","endDate":"2019-09-11T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2019-09-04","end":"2019-09-11"},{"start":"2020-10-07","end":"2020-10-14"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f84c80d3b1956dc40fe2398a86e8b901d4a1e4e2821
 icon_image: "https://images.gog.com/b5357de8bd82c95db4da2d6058ae13ea7332edc4bdeac04f2b78dc61af1a2483.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/20076"
 store_url: "https://store.epicgames.com/en-US/p/abzu"
 protondb_url: "https://www.protondb.com/app/384190"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Abz%C3%BB"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Abzû"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/abzu/"
 

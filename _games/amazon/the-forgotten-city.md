@@ -20,6 +20,14 @@ protondb_total: 65
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 13418
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Plug In Digital, Dear Villagers
@@ -34,11 +42,13 @@ languages: ["English","German","French","Spanish - Spain","Simplified Chinese","
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"6","name":"Exploration"},{"id":"40833","name":"Captions available"},{"id":"145","name":"Choices Matter"},{"id":"218","name":"Multiple Endings"},{"id":"271","name":"Remake"},{"id":"317","name":"Time Travel"},{"id":"108","name":"Mythology"},{"id":"319","name":"Silent Protagonist"},{"id":"302","name":"Time Manipulation"},{"id":"281","name":"Philisophical"},{"id":"292","name":"Rome"}]
 size: "13551 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-forgotten-city"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-05-01"},{"start":"2025-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/08eb557d99d4fac5a8a41aa51268e97af9d42411626
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/874260/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

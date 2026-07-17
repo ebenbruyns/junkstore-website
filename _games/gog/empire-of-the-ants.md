@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "moderate"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Unsupported graphics performance"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 1149
+gog_rating_value: 4.2
+gog_rating_count: 29
 
 # Game Info
 publisher: Microids
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"80","name":"Tactical"},{"id":"157","name":"PvP"},{"id":"40832","name":"Cross-Platform Multiplayer"},{"id":"5","name":"Replay Value"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"77","name":"Realistic"},{"id":"168","name":"RTS"},{"id":"45878","name":"Online PvP"},{"id":"171","name":"PvE"},{"id":"147","name":"Resource Management"},{"id":"200","name":"Narration"},{"id":"91686","name":"Family Sharing"},{"id":"100","name":"Grand Strategy"},{"id":"774","name":"nature"},{"id":"247","name":"Real Time Tactics"},{"id":"104","name":"Wargame"},{"id":"49967","name":"Colony Sim"}]
 size: "36735 MB"
+install_size: ""
+achievements_total: 41
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/empire-of-the-ants--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f4f570ab0f5e5da11a8cd3d4418688490d8dbecc845
 icon_image: "https://images.gog.com/f4f570ab0f5e5da11a8cd3d4418688490d8dbecc8451496558d671c8258c8a1d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/147067"
 store_url: "https://www.gog.com/en/game/empire_of_the_ants"
 protondb_url: "https://www.protondb.com/app/2287330"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Empire_of_the_Ants_%282024%29"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Empire_of_the_Ants_(2024)"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/empire-of-the-ants/"
 

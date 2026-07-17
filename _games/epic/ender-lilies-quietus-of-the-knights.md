@@ -20,25 +20,35 @@ protondb_total: 72
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 45191
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Binary Haze Interactive
 developer: Live Wire, Adglobe
 genre: Exploration, RPG, Action-Adventure
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence"},"pegi":{"rating":"12"},"usk":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência, Medo"}}
-release_date: "June 21, 2021"
+release_date: "January 22, 2025"
 game_modes: ["Single Player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Japanese","Korean","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+size: "1190 MB"
+install_size: "1270 MB"
+achievements_total: 38
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/ender-lilies-quietus-of-the-knights"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-01-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0cf96dac5b70393019bb146d5c0a1c1b92b2e9f7666
 icon_image: "https://images.gog.com/02fcebba3615fd7c851c685adbc2b52831d3036aa416dd83a06748d4b4a59f57.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/87524"
 store_url: "https://store.epicgames.com/en-US/p/ender-lilies-quietus-of-the-knights-9cea76"
 protondb_url: "https://www.protondb.com/app/1369630"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ender_Lilies%3A_Quietus_of_the_Knights"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ender_Lilies:_Quietus_of_the_Knights"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/ender-lilies-quietus-of-the-knights/"
 

@@ -20,6 +20,14 @@ protondb_total: 16
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 2448
+gog_rating_value: 4.5
+gog_rating_count: 69
 
 # Game Info
 publisher: Thunderful Publishing
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"123","name":"Comedy"},{"id":"97","name":"Action RPG"},{"id":"80","name":"Tactical"},{"id":"165","name":"Colorful"},{"id":"101","name":"Turn-Based Strategy"},{"id":"154","name":"Steampunk"},{"id":"166","name":"Stylized"},{"id":"164","name":"Cartoony"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"91686","name":"Family Sharing"},{"id":"230","name":"Tactical RPG"}]
 size: "1765 MB"
+install_size: ""
+achievements_total: 34
 franchise_siblings: [{"rawg_id":914788,"slug":"steamworld-build","name":"SteamWorld Build"},{"rawg_id":286485,"slug":"steamworld-quest","name":"SteamWorld Quest: Hand of Gilgamech"},{"rawg_id":27938,"slug":"steamworld-dig-2","name":"SteamWorld Dig 2"},{"rawg_id":3748,"slug":"steamworld-dig","name":"SteamWorld Dig"},{"rawg_id":24382,"slug":"steamworld-tower-defense","name":"SteamWorld Tower Defense"}]
 franchise_slug: "steamworld-build|steamworld-dig|steamworld-dig-2|steamworld-heist|steamworld-quest|steamworld-tower-defense"
 igdb_url: "https://www.igdb.com/games/steamworld-heist-ii"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4da8ee90d80d7532fc933ff74791ba11f399ed29394
 icon_image: "https://images.gog.com/8472d6de63977bce0c171e35dc0bf534b1ce0f4c8ef67362e9221523044b840a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -62,7 +75,7 @@ dependencies:
 # website's GOG-Features section only shows Cloud Saves for now. Remove the
 # leading "# " on any line to enable that chip on the rendered page.)
 gog_cloud_saves: false
-# gog_achievements: false
+# gog_achievements: true
 # gog_overlay: false
 # gog_leaderboards: false
 

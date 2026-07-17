@@ -20,6 +20,14 @@ protondb_total: 32
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 57
+steam_review_total: 2592
+gog_rating_value: 3
+gog_rating_count: 132
 
 # Game Info
 publisher: Warpzone Studios
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"64","name":"Fantasy"},{"id":"37","name":"Sandbox"},{"id":"1","name":"Survival"},{"id":"125","name":"Crafting"},{"id":"39","name":"Building"},{"id":"67","name":"Management"},{"id":"180","name":"Base Building"},{"id":"196","name":"Procedural Generation"},{"id":"194","name":"Real-Time with Pause"},{"id":"147","name":"Resource Management"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"}]
 size: "1745 MB"
+install_size: ""
+achievements_total: 16
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/hammerting"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f409ac3094a4843f4a7753a5e5fcd5f1749238c86e6
 icon_image: "https://images.gog.com/c9d2031a8edddf88885d444dfcf8487330c95823924bebed765945d387bf935e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -89,10 +102,10 @@ metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/hammerting/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "12333/hammerting"
+opencritic_url: "https://opencritic.com/game/12333/hammerting"
+opencritic_score: 73
+opencritic_review_count: 10
 twitch_id: ""
 twitch_url: ""
 playstation_id: ""

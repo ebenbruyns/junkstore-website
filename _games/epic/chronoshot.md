@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 416
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: RFLXT Studio
@@ -33,7 +41,9 @@ game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"}]
-size: ""
+size: "5222 MB"
+install_size: "5506 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/138736"
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/91abea567e824d16ab4b93c78057
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1326700/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

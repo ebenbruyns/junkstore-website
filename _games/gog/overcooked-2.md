@@ -20,6 +20,14 @@ protondb_total: 79
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 82925
+gog_rating_value: 4.5
+gog_rating_count: 488
 
 # Game Info
 publisher: Team17
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
 size: "6937 MB"
+install_size: ""
+achievements_total: 54
 franchise_siblings: [{"rawg_id":517399,"slug":"overcooked-all-you-can-eat","name":"Overcooked! All You Can Eat"},{"rawg_id":2115,"slug":"overcooked","name":"Overcooked"}]
 franchise_slug: "overcooked|overcooked-2|overcooked-all-you-can-eat"
 igdb_url: "https://www.igdb.com/games/overcooked-2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2021-06-16","end":"2021-06-23"},{"start":"2024-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3513fb0bec7c93bfead3977d4d7e8d193f86f6247ce
 icon_image: "https://images.gog.com/1ca013c6b7d94bccb5739ac1648bdfca7e489467f76e47a2ab1e00c826611268.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/57518"
 store_url: "https://www.gog.com/en/game/overcooked_2"
 protondb_url: "https://www.protondb.com/app/728880"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Overcooked%21_2"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Overcooked!_2"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/overcooked-2/"
 

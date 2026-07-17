@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-07-14T03:30:50.802Z",
+  "generated_at": "2026-07-17T21:54:02.821Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "echo-generation-midnight-edition",
+      "featured_in": "2026-07-18",
+      "post_url": "/blog/games-tested-2026-07-18/",
+      "title": "Echo Generation: Midnight Edition",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1072300/header.jpg",
+      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/d85d8cbcd8bd43308d262ba62af5b5ce/echo-generation-midnight-edition-ddk67.jpg"
+    },
+    {
+      "store": "epic",
+      "slug": "escape-academy",
+      "featured_in": "2026-07-18",
+      "post_url": "/blog/games-tested-2026-07-18/",
+      "title": "Escape Academy",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/7d3a484332bdb22c666c00426784c540133e36b1acba2b4cd23eb6f045f96f16.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/546fce5acfc1217bb879bfd4445d7207ec8df6c0cd9d54413bdcd7c80eab08cf.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "luto",
+      "featured_in": "2026-07-18",
+      "post_url": "/blog/games-tested-2026-07-18/",
+      "title": "Luto",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1729740/header.jpg",
+      "vertical_artwork": "https://images.gog.com/8ec5135b7049b028ad2d032db8a1b31638ad594aa7ce407ac81cdbe7222f6cf8.jpg?namespace=gamesdb"
+    },
     {
       "store": "epic",
       "slug": "nova-lands",
@@ -90,36 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1920480/header.jpg",
       "vertical_artwork": "https://images.gog.com/9ae7cabda37d7d52c606a878b74855a5a472a724ff2c17fe7eb239a1b21f75d5.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "symphony-of-war-the-nephilim-saga",
-      "featured_in": "2026-07-05",
-      "post_url": "/blog/games-tested-2026-07-05/",
-      "title": "Symphony of War: The Nephilim Saga",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/c9e226bdcca63ba9ada11e7122a58bf1d952544d1345af66dae9d016750032d3.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/0d7828a16e65853213343227d9a518494b2938ea396e85723ff617ad9c3da325.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "itch",
-      "slug": "applecalypse",
-      "featured_in": "2026-06-30",
-      "post_url": "/blog/backlog-tested-2026-06-30/",
-      "title": "APPLECALYPSE",
-      "standalone_rating": "green",
-      "icon_image": "",
-      "vertical_artwork": "https://img.itch.zone/aW1nLzI2OTc4NjYzLnBuZw==/315x250%23c/Z4HksY.png"
-    },
-    {
-      "store": "itch",
-      "slug": "alt-frequencies",
-      "featured_in": "2026-06-30",
-      "post_url": "/blog/backlog-tested-2026-06-30/",
-      "title": "Alt-Frequencies",
-      "standalone_rating": "yellow",
-      "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1035050/capsule_231x87.jpg",
-      "vertical_artwork": "https://images.gog.com/494bca1991167d78303355ff665b31f50d2791fc418136d5fc3bae8d38956b92.jpg?namespace=gamesdb"
     }
   ]
 }

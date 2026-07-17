@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 82
+steam_review_total: 28
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Outsider Games
@@ -28,17 +36,19 @@ genre: Narration, Adventure, Indie
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Nudez, Violência, Drogas lícitas"}}
-release_date: "October 18, 2022"
+release_date: "June 9, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "630 MB"
+install_size: "3705 MB"
+achievements_total: 10
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/jennifer-wilde-unlikely-revolutionaries"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-05-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7b1dadd949817858a37a1b33daa8dd0108ded8b7b3b
 icon_image: "https://images.gog.com/d73158d14cde3bd8a629208384066ebc0b7305edf2261a4698010255a4369828.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

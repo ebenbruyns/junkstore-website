@@ -20,25 +20,35 @@ protondb_total: 13
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 8262
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Krillbite Studio AS
 developer: Krillbite Studio AS
 genre: Horror, Adventure, Indie
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Violence"},"pegi":{"rating":"12"},"usk":{"rating":"16"}}
-release_date: "May 29, 2014"
+release_date: "October 21, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Norwegian","Russian","Czech","Hungarian","Turkish","Ukrainian","Arabic","Dutch","Portuguese - Brazil","Simplified Chinese","Polish","Japanese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
 size: "1790 MB"
+install_size: "3749 MB"
+achievements_total: 10
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/among-the-sleep"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e43631f27c961ebf68","id":"2a112cd37b774426990583a259e25ef9","namespace":"53ef2f4592684c4c97d6d32e40467274","startDate":"2021-10-20T15:00:00.000Z","endDate":"2021-10-27T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-10-20","end":"2021-10-27"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/310730529d8b87c0bf4c049eda965c933ec6796ef57
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/250620/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 31
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 4441
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Focus Entertainment
@@ -34,6 +42,8 @@ languages: ["English","French","Italian","German","Spanish - Spain","Czech","Kor
 languages_audio: ["English","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
 size: ""
+install_size: ""
+achievements_total: 36
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/atlas-fallen"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/485c10b83a49abb179c5adad1e9a78d4483f87b9ccc
 icon_image: "https://images.gog.com/0afa02626b8d4911a1b58e2dce90211a1049d62fc29edb45407a3315f8c071b8.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

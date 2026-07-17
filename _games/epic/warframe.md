@@ -20,6 +20,14 @@ protondb_total: 1541
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 670179
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Digital Extremes
@@ -27,13 +35,15 @@ developer: Digital Extremes
 genre: Action, RPG, Shooter
 franchise: 
 age_rating_summary: 17 (ESRB)
-age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Language"},"pegi":{"rating":"18","descriptors":"Violence, Online Gameplay"},"usk":{"rating":"16"},"kgrb":{"rating":"18","descriptors":"Violence"},"dejus":{"rating":"16","descriptors":"Violência"}}
+age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood and Gore, Language"},"pegi":{"rating":"18","descriptors":"Violence, Online Gameplay"},"usk":{"rating":"16"},"kgrb":{"rating":"18","descriptors":"Violence"},"dejus":{"rating":"18","descriptors":"Violence, Legal Drugs, Inappropriate Language"}}
 release_date: "December 11, 2020"
 game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","German","French","Italian","Korean","Spanish - Spain","Simplified Chinese","Russian","Japanese","Polish","Portuguese - Brazil","Traditional Chinese","Turkish","Ukrainian","Thai"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1141","name":"Free to Play"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1141","name":"Free to Play"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "147 MB"
+install_size: "147 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/warframe"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/72ae76bfab07dcd4e60087a14899ae4237cfc0676af
 icon_image: "https://images.gog.com/5fa66450b28c496fd943d199ea45842f923ee1f0d9fff65573845e3f6d785efb.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/11037"
 store_url: "https://www.pcgamingwiki.com/wiki/Warframe"
 protondb_url: "https://www.protondb.com/app/230410"
 protondb_report_url: ""
-pcgamingwiki_url: "https://store.epicgames.com/en-US/p/warframe"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warframe"
 metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/warframe/"
 

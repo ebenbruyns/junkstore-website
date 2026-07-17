@@ -20,6 +20,14 @@ protondb_total: 26
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 14630
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Freedom Games
@@ -33,12 +41,14 @@ game_modes: ["Single Player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Russian"]
 languages_audio: ["English","Simplified Chinese"]
 tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"}]
-size: ""
+size: "1024 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/symphony-of-war-the-nephilim-saga"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-07-02","end":"2026-08-06"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0d7828a16e65853213343227d9a518494b2938ea396
 icon_image: "https://images.gog.com/c9e226bdcca63ba9ada11e7122a58bf1d952544d1345af66dae9d016750032d3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

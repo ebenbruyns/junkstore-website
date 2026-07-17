@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 1349
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Mischief
@@ -28,17 +36,19 @@ genre: Narration, Adventure, First Person
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "March 16, 2021"
+release_date: "June 29, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1294","name":"First Person"}]
 size: "2283 MB"
+install_size: "2387 MB"
+achievements_total: 25
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/adios"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d63631f27c961ebbd9","id":"7334a6f04f5b47218e691f805891bc5d","namespace":"a3dd9f3da8ec49c7b25dec42cce2ec46","startDate":"2023-01-25T15:00:00.000Z","endDate":"2023-02-01T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-01-25","end":"2023-02-01"},{"start":"2023-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e2d61f63e21a57daa74e6e4873f508d653c86a31602
 icon_image: "https://images.gog.com/6dd436603c9f02c4ef0a56ad0107756da89c4941b252bf9ce359acad679426df.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-su
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false

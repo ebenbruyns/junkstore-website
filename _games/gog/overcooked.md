@@ -20,6 +20,14 @@ protondb_total: 125
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 16530
+gog_rating_value: 4.5
+gog_rating_count: 203
 
 # Game Info
 publisher: Team17
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"39940","name":"Gift A Game"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: "301 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":517399,"slug":"overcooked-all-you-can-eat","name":"Overcooked! All You Can Eat"},{"rawg_id":58827,"slug":"overcooked-2","name":"Overcooked! 2"}]
 franchise_slug: "overcooked|overcooked-2|overcooked-all-you-can-eat"
 igdb_url: "https://www.igdb.com/games/overcooked"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2018-11-01"},{"start":"2019-07-03","end":"2019-07-10"},{"start":"2020-06-03","end":"2020-06-10"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/19441380864bec00af6229738cdf68660138e7cb9ab
 icon_image: "https://images.gog.com/65fc76fa247b52e02df95cd2c12556f463fa2854ccbff929b092b753ee17ea15.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

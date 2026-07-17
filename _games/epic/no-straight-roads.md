@@ -20,6 +20,14 @@ protondb_total: 16
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 2067
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: H2 Interactive Co., Ltd., Sold Out, Fireshine Games
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: ["English","French","Spanish - Spain","Japanese","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/no-straight-roads"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2b08825c20aaa8077a2b856956a5a68e697b0e3e965
 icon_image: "https://images.gog.com/bbdea179730cc557417a6b861d837f8f973aee76f9aada919f1a4d353fd75b97.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

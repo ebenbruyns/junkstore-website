@@ -20,6 +20,14 @@ protondb_total: 107
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 7677
+gog_rating_value: 4.4
+gog_rating_count: 311
 
 # Game Info
 publisher: New Blood Interactive
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"42","name":"Great Soundtrack"},{"id":"40845","name":"Partial Controller Support"},{"id":"30","name":"FPS"},{"id":"64","name":"Fantasy"},{"id":"189","name":"Female Protagonist"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"98","name":"Loot"}]
 size: "4770 MB"
+install_size: ""
+achievements_total: 43
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/amid-evil"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a733a63dd76b0f7aac89321d634b8af67a3320978a9
 icon_image: "https://images.gog.com/a733a63dd76b0f7aac89321d634b8af67a3320978a9d1a066fac91b5fff23405.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

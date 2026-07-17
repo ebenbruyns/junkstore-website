@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Horizon Studios
@@ -32,8 +40,10 @@ release_date: "November 11, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
-tags_structured: [{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
-size: ""
+tags_structured: [{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
+size: "863 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/397320"
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201
 icon_image: "https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201ca07/vornyca-logo-mqm8i.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

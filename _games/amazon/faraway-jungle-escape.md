@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 60
+steam_review_total: 35
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Snapbreak
@@ -34,6 +42,8 @@ languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Da
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"8","name":"First-Person"},{"id":"141","name":"Point & Click"},{"id":"107","name":"Family Friendly"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"138","name":"Relaxing"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"200","name":"Narration"},{"id":"140","name":"Hidden Object"},{"id":"575","name":"Logic"},{"id":"2896","name":"collectathon"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "faraway-arctic-escape|faraway-director-s-cut|faraway-jungle-escape"
 igdb_url: "https://www.igdb.com/games/faraway-jungle-escape"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/efd572fbaced173ec29f0ab349fbf4f079a0b9b793e
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1747680/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 624
+gog_rating_value: 3.6
+gog_rating_count: 71
 
 # Game Info
 publisher: Wired Productions
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"},{"id":"1263","name":"Indie"}]
 size: "916 MB"
+install_size: ""
+achievements_total: 29
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-falconeer-revolution-remaster"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5e0f98cdfa34dd97185fc4d510b06dddfd6067a9cb4
 icon_image: "https://images.gog.com/dd14f8be81c1fde7a28f9acc5142d3c31c628d8e8e84e67585a042bcf575a7d8.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

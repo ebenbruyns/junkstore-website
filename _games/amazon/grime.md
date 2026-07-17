@@ -20,6 +20,14 @@ protondb_total: 35
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 6655
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Akupara Games
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Korean","Portuguese - Brazil","Russian","Hebrew"]
 languages_audio: []
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]
-size: ""
+size: "4457 MB"
+install_size: "5040 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":965928,"slug":"grime-ii","name":"Grime II"}]
 franchise_slug: "grime|grime-ii"
 igdb_url: "https://www.igdb.com/games/grime"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2023-04-01"},{"start":"2023-07-05","end":"2023-07-12"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a01eb58ae056e34ec7d7eff28c749c8f0c91316d24f
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1123050/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

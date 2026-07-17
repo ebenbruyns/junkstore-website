@@ -20,25 +20,35 @@ protondb_total: 492
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 62135
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Remedy Entertainment
 developer: Remedy Entertainment Plc
 genre: Action, Adventure
 franchise: Control
-age_rating_summary: M (ESRB) · 16 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Strong Language, Violence"},"pegi":{"rating":"16","descriptors":"Violence, Bad Language"},"oflc":{"rating":"ma15","descriptors":"Strong violence"},"nzoflc":{"rating":"r13","descriptors":"Violence, Horror scenes, Offensive language"},"fpb":{"rating":"16"},"csrr":{"rating":"C15","descriptors":"Violence, Improper language"},"dejus":{"rating":"16","descriptors":"Drogas lícitas, Violência Extrema, Medo"}}
-release_date: "August 27, 2020"
+release_date: "August 27, 2019"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","French","German","Spanish - Spain"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"1341","name":"Supernatural"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"1341","name":"Supernatural"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "26496 MB"
+install_size: "42896 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":627520,"slug":"condor-2","name":"Condor"}]
 franchise_slug: "condor-2|control"
 igdb_url: "https://www.igdb.com/games/control"
 was_free_before: true
-giveaway_events: [{"_id":"676ad28abd1517773bf59ec7","id":"8a97a7d4d0e44523b9aa064f457627da","namespace":"calluna","startDate":"2024-12-25T16:00:00.000Z","endDate":"2024-12-26T16:00:00.000Z","title":"Control","__v":0},{"_id":"66abf1e13631f27c961ebecc","id":"8a97a7d4d0e44523b9aa064f457627da","namespace":"calluna","startDate":"2021-12-25T15:00:00.000Z","endDate":"2021-12-26T15:00:00.000Z","__v":0},{"_id":"66abf1e73631f27c961ec05c","id":"8a97a7d4d0e44523b9aa064f457627da","namespace":"calluna","startDate":"2021-06-09T15:00:00.000Z","endDate":"2021-06-16T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-06-09","end":"2021-06-16"},{"start":"2021-12-25","end":"2021-12-26"},{"start":"2024-12-25","end":"2024-12-26"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a7109b6805ba44c05a110ceb6401422f3ed6de9289f
 icon_image: "https://images.gog.com/f5d4c750155f5ed637ed1b3c207b01d32429ded62d66a41e654a5894abbc6906.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

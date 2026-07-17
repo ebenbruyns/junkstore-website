@@ -20,6 +20,14 @@ protondb_total: 179
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 57511
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Tripwire Interactive
@@ -33,12 +41,14 @@ game_modes: ["Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+size: "24565 MB"
+install_size: "25207 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":3015,"slug":"chivalry-medieval-warfare","name":"Chivalry: Medieval Warfare"},{"rawg_id":58568,"slug":"age-of-chivalry","name":"Age of Chivalry"}]
 franchise_slug: "age-of-chivalry|chivalry-2|chivalry-medieval-warfare"
 igdb_url: "https://www.igdb.com/games/chivalry-2"
 was_free_before: true
-giveaway_events: [{"_id":"6953ef0c5c4853d053190bee","id":"79e93c9a70b14b1cba2c8c9b45a1c36b","namespace":"bd46d4ce259349e5bd8b3ded20274737","startDate":"2025-12-31T16:00:00.000Z","endDate":"2026-01-01T16:00:00.000Z","title":"Chivalry 2","__v":0},{"_id":"66abf1ca3631f27c961eb857","id":"79e93c9a70b14b1cba2c8c9b45a1c36b","namespace":"bd46d4ce259349e5bd8b3ded20274737","startDate":"2024-05-29T15:00:00.000Z","endDate":"2024-06-05T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-04-01"},{"start":"2024-05-29","end":"2024-06-05"},{"start":"2024-07-01"},{"start":"2025-12-31","end":"2026-01-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f89196ac5b4aea7c7e54ed4f5168c3395eb4d7b992e
 icon_image: "https://images.gog.com/c59064c38d2d3ecbf6d15ae76ec2c110113f8375ea662d8fb33cb4a6e24d1402.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -66,7 +79,7 @@ epic_cloud_saves: false
 must_be_online: false
 
 # Anti-Cheat
-requires_eac_runtime: false
+requires_eac_runtime: true
 requires_battleye_runtime: false
 cant_test_linux: true
 

@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 16
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: 10mg
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"122","name":"Pixel Graphics"},{"id":"40","name":"Dark Fantasy"},{"id":"144","name":"Crime"},{"id":"61","name":"Top-Down"},{"id":"90","name":"Visual Novel"},{"id":"166","name":"Stylized"},{"id":"112","name":"Minimalist"},{"id":"269","name":"Quick-Time Events"},{"id":"285","name":"Psychological"},{"id":"291","name":"Conspiracy"},{"id":"220","name":"Experimental"},{"id":"326","name":"Investigation"},{"id":"309","name":"Dynamic Narration"},{"id":"84","name":"Abstract"}]
-size: ""
+size: "97 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "10mg-sealed-estate|10mg-snaaak"
 igdb_url: "https://www.igdb.com/games/10mg-sealed-estate"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/29adcf722a8e7506fdf6196332fb60fd9ef76eb355b
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1435480/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

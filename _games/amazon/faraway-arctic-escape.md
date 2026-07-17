@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 70
+steam_review_total: 30
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Snapbreak
@@ -33,7 +41,9 @@ game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Dutch","Finnish","Greek","Japanese","Korean","Norwegian","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Thai","Traditional Chinese","Turkish","Vietnamese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"8","name":"First-Person"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"140","name":"Hidden Object"},{"id":"575","name":"Logic"},{"id":"2896","name":"collectathon"},{"id":"2118","name":"snow"}]
-size: ""
+size: "386 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "faraway-arctic-escape|faraway-director-s-cut|faraway-jungle-escape"
 igdb_url: "https://www.igdb.com/games/faraway-3-arctic-escape"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7c6358ab4c14e639aee1356a9f9e163ffdea96adbbf
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1747690/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

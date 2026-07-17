@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 4.6
+gog_rating_count: 6349
 
 # Game Info
 publisher: Atari, Inc.
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian","Polish"]
 languages_audio: []
 tags_structured: []
 size: "2508 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":30669,"slug":"neverwinter-nights-2","name":"Neverwinter Nights 2"}]
 franchise_slug: "neverwinter-nights-2|neverwinter-nights-2002"
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8e8df168c2bbf4b34a804d671041643eea1d6e6a05c
 icon_image: "https://images.gog-statics.com/dc0908495f20ec3a9cb3433ea70ed0907a4c3de6e6abf673e259e34219fd4c3b.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

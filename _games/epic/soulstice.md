@@ -20,6 +20,14 @@ protondb_total: 21
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 2736
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Maximum Entertainment LLC
@@ -28,17 +36,19 @@ genre: Action, RPG
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Conteúdo sexual"}}
-release_date: "September 19, 2022"
+release_date: "September 28, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Czech"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"20151","name":"Adjustable Text"},{"id":"20152","name":"Brightness Adjustments"},{"id":"20155","name":"Adjustable Color Options"},{"id":"20156","name":"Subtitles"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+size: "24107 MB"
+install_size: "25375 MB"
+achievements_total: 40
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/soulstice"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d03631f27c961eba4d","id":"4b19305fb8ec4640b4fa8d6ea5e5e3c4","namespace":"cb8afc06acb14f6a8cf3ab01f4b361ce","startDate":"2023-09-27T15:00:00.000Z","endDate":"2023-10-04T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-09-27","end":"2023-10-04"},{"start":"2024-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/bb3d2f7ea3dd7aa019d974486b872208060073349f1
 icon_image: "https://images.gog.com/793ad3e1a924cae4e253f34ec560393533e1d1a7c744d2ff8234241cd8aa7556.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

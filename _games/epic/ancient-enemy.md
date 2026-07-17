@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Device compatibility warnings shown"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 514
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Grey Alien Games
@@ -28,17 +36,19 @@ genre: Card Game, Indie
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência fantasiosa, Violência, Medo, Atos criminosos"}}
-release_date: "April 9, 2020"
+release_date: "March 18, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
 size: "131 MB"
+install_size: "138 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/ancient-enemy"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1dd3631f27c961ebd9b","id":"07c6a2e544274070b9e9ee78316c5774","namespace":"138c9362d8ff4c239076bc556e18cdac","startDate":"2022-07-06T15:00:00.000Z","endDate":"2022-07-13T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-07-06","end":"2022-07-13"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/160a8b89ce30e123bb2022a8f54983a73a02f728fc0
 icon_image: "https://images.gog.com/fd7d74970949648fd606bd5100b3ff299d3d3118412c82512956bbfa8827a51d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

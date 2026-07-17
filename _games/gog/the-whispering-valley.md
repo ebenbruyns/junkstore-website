@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 170
+gog_rating_value: 3.7
+gog_rating_count: 68
 
 # Game Info
 publisher: "Studio Chien d'Or"
@@ -34,11 +42,13 @@ languages: ["English","French"]
 languages_audio: ["French"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"62","name":"Family Sharing"}]
 size: "5146 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":970107,"slug":"the-whisperer-le-murmureur","name":"The Whisperer  (Le murmureur)"}]
 franchise_slug: "the-whisperer-le-murmureur|the-whispering-valley"
 igdb_url: "https://www.igdb.com/games/the-whispering-valley"
 was_free_before: true
-giveaway_events: [{"id":"gp_3597","start":"2026-04-22T14:18:12.000Z","end":"2026-04-28T11:59:00.000Z","type":null}]
+giveaway_events: [{"start":"2026-04-22","end":"2026-04-28"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/00a5557d5297739fc5ba6b493c265f75e66b2bfdb06
 icon_image: "https://images.gog.com/3feed2c9964ff4e7f34b4fb7f78b31f152794aef0b17cfbd5c9e24509b97ed70.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

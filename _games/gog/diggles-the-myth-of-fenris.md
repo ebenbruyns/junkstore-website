@@ -20,6 +20,14 @@ protondb_total: 12
 protondb_confidence: "moderate"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 653
+gog_rating_value: 4.4
+gog_rating_count: 204
 
 # Game Info
 publisher: Innonics, CD Projekt
@@ -34,6 +42,8 @@ languages: ["German","English","Polish","Russian"]
 languages_audio: ["English","German","Polish","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"123","name":"Comedy"},{"id":"121","name":"Character Customization"},{"id":"165","name":"Colorful"},{"id":"125","name":"Crafting"},{"id":"1465","name":"combat"},{"id":"39","name":"Building"},{"id":"82","name":"Magic"},{"id":"67","name":"Management"},{"id":"116","name":"2.5D"},{"id":"147","name":"Resource Management"},{"id":"195","name":"Economy"},{"id":"108","name":"Mythology"},{"id":"272","name":"Inventory Management"},{"id":"316","name":"Mining"},{"id":"49967","name":"Colony Sim"},{"id":"329","name":"Mystery Dungeon"}]
 size: "511 MB"
+install_size: ""
+achievements_total: 10
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/diggles-the-myth-of-fenris"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f94f1170e2385f4da0cddd63b8b5e5a7ecd2bc2d6a6
 icon_image: "https://images.gog.com/ce9989399318173e86b4b57040b2cff11a0fa2c6a0aaa0cb0adb55e7cb37d749.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

@@ -20,25 +20,35 @@ protondb_total: 769
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 369635
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Warner Bros. Games
 developer: Avalanche Software
 genre: Action, RPG, Adventure
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Blood, Mild Language, Use of Alcohol"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language, In-Game Purchases"},"usk":{"rating":"12"},"cero":{"rating":"C","descriptors":"Violence"},"oflc":{"rating":"M","descriptors":"Supernatural themes, Violence, Online Interactivity, In-Game Purchases"},"kgrb":{"rating":"12","descriptors":"Violence, Fear"},"fpb":{"rating":"13","descriptors":"H V L PPS CI"},"csrr":{"rating":"C15","descriptors":"Horror, Tobacco and Alcohol, Inappropriate Speech"},"dejus":{"rating":"12","descriptors":"Violência"}}
 release_date: "February 10, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "88099 MB"
+install_size: "90307 MB"
+achievements_total: 45
 franchise_siblings: [{"rawg_id":959818,"slug":"harry-potter-quidditch-champions","name":"Harry Potter: Quidditch Champions"},{"rawg_id":494373,"slug":"harry-potter-magic-awakened","name":"Harry Potter: Magic Awakened"},{"rawg_id":349439,"slug":"the-henry-stickmin-collection","name":"The Henry Stickmin Collection"},{"rawg_id":58277,"slug":"harry-potter-hogwarts-mystery","name":"Harry Potter: Hogwarts Mystery"},{"rawg_id":335388,"slug":"pottermore","name":"Pottermore"},{"rawg_id":40254,"slug":"harry-potter-and-the-deathly-hallows-part-2","name":"Harry Potter and the Deathly Hallows: Part 2"},{"rawg_id":40243,"slug":"harry-potter-and-the-deathly-hallows-part-1","name":"Harry Potter and the Deathly Hallows: Part 1"},{"rawg_id":25986,"slug":"harry-potter-and-the-half-blood-prince","name":"Harry Potter and the Half-Blood Prince"},{"rawg_id":24877,"slug":"harry-potter-and-the-order-of-the-phoenix","name":"Harry Potter and the Order of the Phoenix"},{"rawg_id":24948,"slug":"harry-potter-and-the-goblet-of-fire","name":"Harry Potter and the Goblet of Fire"},{"rawg_id":35573,"slug":"harry-potter-and-the-prisoner-of-azkaban","name":"Harry Potter and the Prisoner of Azkaban"},{"rawg_id":35225,"slug":"harry-potter-quidditch-world-cup","name":"Harry Potter: Quidditch World Cup"},{"rawg_id":31476,"slug":"harry-potter-and-the-chamber-of-secrets","name":"Harry Potter and the Chamber of Secrets"},{"rawg_id":57918,"slug":"harry-potter-and-the-philosophers-stone","name":"Harry Potter and the Sorcerer's Stone"}]
 franchise_slug: "harry-potter-and-the-chamber-o|harry-potter-and-the-deathly-h|harry-potter-and-the-deathly-h|harry-potter-and-the-goblet-of|harry-potter-and-the-half-bloo|harry-potter-and-the-order-of-|harry-potter-and-the-philosoph|harry-potter-and-the-prisoner-|harry-potter-hogwarts-mystery|harry-potter-magic-awakened|harry-potter-quidditch-champio|harry-potter-quidditch-world-c|hogwarts-legacy|pottermore|the-henry-stickmin-collection"
 igdb_url: "https://www.igdb.com/games/hogwarts-legacy"
 was_free_before: true
-giveaway_events: [{"_id":"6939a8f2a558c846cb2bd019","id":"a31950aa730b4ae391e42a1c3f26b839","namespace":"e97659b501af4e3981d5430dad170911","startDate":"2025-12-12T02:23:00.000Z","endDate":"2025-12-18T16:00:00.000Z","title":"Hogwarts Legacy","__v":0}]
+giveaway_events: [{"start":"2025-12-12","end":"2025-12-18"},{"start":"2026-04-30","end":"2026-05-03"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/990080/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/990080/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,25 +20,35 @@ protondb_total: 26
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 36059
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Joey Drew Studio
 developer: Joey Drew Studio
 genre: Horror, First Person, Indie
 franchise: 
-age_rating_summary: T (ESRB)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "April 27, 2017"
+release_date: "September 9, 2025"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "1.18 GB"
+install_size: "3207 MB"
+achievements_total: 61
 franchise_siblings: [{"rawg_id":399391,"slug":"bendy-and-the-dark-revival","name":"Bendy and the Dark Revival"},{"rawg_id":411651,"slug":"boris-and-the-dark-survival","name":"Boris and the Dark Survival"},{"rawg_id":74362,"slug":"bendy-in-nightmare-run","name":"Bendy in Nightmare Run"}]
 franchise_slug: "bendy-and-the-dark-revival|bendy-and-the-ink-machine|bendy-in-nightmare-run|boris-and-the-dark-survival"
 igdb_url: "https://www.igdb.com/games/bendy-and-the-ink-machine"
 was_free_before: true
-giveaway_events: [{"_id":"68fa38dece43157c666a4e49","id":"fb722544c8314c45bf9a42c66b2a5a73","namespace":"4ebf21b7761e40cdb180d0604127e4a6","startDate":"2025-10-30T15:00:00.000Z","endDate":"2025-11-06T16:00:00.000Z","title":"Bendy and the Ink Machine","__v":0}]
+giveaway_events: [{"start":"2025-10-30","end":"2025-11-06"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/622650/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/622650/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

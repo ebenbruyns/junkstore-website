@@ -20,25 +20,35 @@ protondb_total: 264
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 30302
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Bethesda Softworks
 developer: Arkane Studios
 genre: Action, Stealth, Adventure
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Sexual Themes, Strong Language, Drug Reference"},"pegi":{"rating":"18","descriptors":"Violence, Bad Language"},"usk":{"rating":"18"},"oflc":{"rating":"ma15","descriptors":"Strong Violence, Coarse Language, Online Interactivity"},"nzoflc":{"rating":"r16","descriptors":"Violence, Offensive Language"},"kgrb":{"rating":"18"},"fpb":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Conteúdo Sexual, Drogas"}}
-release_date: "September 13, 2021"
+release_date: "March 24, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Spanish - Latin America"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "31710 MB"
+install_size: "31710 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/deathloop"
 was_free_before: true
-giveaway_events: [{"_id":"683878150875712fb7d35472","id":"b1f88c2f7d114879838a3e79d1d6f163","namespace":"7dee3ddeac7d427eb35def472be64d9c","startDate":"2025-06-05T15:00:00.000Z","endDate":"2025-06-12T15:00:00.000Z","title":"DEATHLOOP","__v":0}]
+giveaway_events: [{"start":"2023-12-01"},{"start":"2025-06-05","end":"2025-06-12"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6deabd4cec8430e32e6013d50fad19063571491a93e
 icon_image: "https://images.gog.com/9596be4f76e23ca041d6588c3fed52c56c58bd88d9470226eea3b0a816d71200.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 18
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 70
+steam_review_total: 2509
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: QubicGames S.A.
@@ -28,17 +36,19 @@ genre: Strategy
 franchise: 
 age_rating_summary: M (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence, Blood, Strong Language"},"pegi":{"rating":"12","descriptors":"Bad Language"},"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "January 11, 2016"
+release_date: "September 16, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"}]
 size: "177 MB"
+install_size: "516 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/tharsis"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e53631f27c961ebf9e","id":"0c7924b21589422581c7cbe8d5a336c5","namespace":"be67e141378446cf9399b3db1a22ceb3","startDate":"2021-09-15T15:00:00.000Z","endDate":"2021-09-22T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-09-15","end":"2021-09-22"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fb593d37b155ec000b9c39f54266f3f5b61420970ec
 icon_image: "https://images.gog.com/d9c3b48254a9cb72ac7d0f3d61b79ff365f601fff6e41f2f8c56d264aadb61dd.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

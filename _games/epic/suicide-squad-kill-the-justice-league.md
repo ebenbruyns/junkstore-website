@@ -20,6 +20,14 @@ protondb_total: 42
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 61
+steam_review_total: 17863
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Warner Bros. Interactive Entertainment
@@ -33,12 +41,14 @@ game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Japanese","Spanish - Latin America"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Spanish - Latin America"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "121338 MB"
+install_size: "150089 MB"
+achievements_total: 50
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/suicide-squad-kill-the-justice-league"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-07-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/455457b1493a24c010e27f1b136276aea7c5ee377f7
 icon_image: "https://images.gog.com/fb5437d5878429a9fe5de2c72520dcaa9756aa276c4165ed3968452a5117233a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -66,7 +79,7 @@ epic_cloud_saves: false
 must_be_online: false
 
 # Anti-Cheat
-requires_eac_runtime: false
+requires_eac_runtime: true
 requires_battleye_runtime: false
 cant_test_linux: false
 
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/82067"
 store_url: "https://store.epicgames.com/en-US/p/suicide-squad-kill-the-justice-league"
 protondb_url: "https://www.protondb.com/app/315210"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Suicide_Squad%3A_Kill_the_Justice_League"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Suicide_Squad:_Kill_the_Justice_League"
 metacritic_score: 60
 metacritic_url: "https://www.metacritic.com/game/suicide-squad-kill-the-justice-league/"
 

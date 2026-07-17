@@ -20,6 +20,14 @@ protondb_total: 18
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 3181
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Funselektor Labs
@@ -28,17 +36,19 @@ genre: Racing, Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "July 29, 2015"
+release_date: "February 18, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1212","name":"Racing"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
 size: "155 MB"
+install_size: "346 MB"
+achievements_total: 20
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/absolute-drift"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1ea3631f27c961ec0f3","id":"0c90d229f27a4251beee8b4776a8fb44","namespace":"9d2f484bbec64aa8ad234b3199dcaf1c","startDate":"2021-02-17T15:00:00.000Z","endDate":"2021-02-24T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-02-17","end":"2021-02-24"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5610076c2e08b70452f744ea069f973244763dcaa5f
 icon_image: "https://images.gog.com/8d3ae65ad3eeb135c284838f109c5988e27253315419a09ae781885c0a2a2a76.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false
@@ -88,10 +101,10 @@ metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/absolute-drift/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "3236/absolute-drift-zen-edition"
+opencritic_url: "https://opencritic.com/game/3236/absolute-drift-zen-edition"
+opencritic_score: 71
+opencritic_review_count: 16
 twitch_id: ""
 twitch_url: ""
 playstation_id: ""

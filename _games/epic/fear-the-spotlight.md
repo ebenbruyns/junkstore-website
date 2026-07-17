@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 97
+steam_review_total: 1273
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Blumhouse Games
@@ -28,17 +36,19 @@ genre: Horror, Puzzle, Adventure
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
-release_date: "October 22, 2024"
+release_date: "October 23, 2025"
 game_modes: ["Single-player"]
 languages: ["English","German","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","French","Italian","Spanish - Spain","Japanese","Korean","Traditional Chinese","Polish","Portuguese - Portugal"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"}]
 size: "429 MB"
+install_size: "882 MB"
+achievements_total: 35
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/fear-the-spotlight"
 was_free_before: true
-giveaway_events: [{"_id":"68f108b1be9fd6c9dab0f591","id":"1f1bb7fd09a94d8f9d9219210ffacf95","namespace":"61159823352c4467b9f6205c01d8d3ee","startDate":"2025-10-23T15:00:00.000Z","endDate":"2025-10-30T15:00:00.000Z","title":"Fear the Spotlight","__v":0}]
+giveaway_events: [{"start":"2025-10-23","end":"2025-10-30"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1959390/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1959390/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

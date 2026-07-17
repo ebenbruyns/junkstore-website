@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 98
+steam_review_total: 107
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Cloudy Games LLC
@@ -33,7 +41,9 @@ game_modes: ["Multiplayer"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40845","name":"Partial Controller Support"},{"id":"4","name":"Funny"},{"id":"198","name":"Split Screen"},{"id":"72","name":"Local Multiplayer"},{"id":"14","name":"Early Access"},{"id":"157","name":"PvP"},{"id":"121","name":"Character Customization"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"170","name":"Competitive"},{"id":"61","name":"Top-Down"},{"id":"164","name":"Cartoony"},{"id":"116","name":"2.5D"},{"id":"182","name":"4 Player Local"},{"id":"179","name":"Cartoon"},{"id":"215","name":"Dragons"},{"id":"45201","name":"Remote Play Together"},{"id":"46114","name":"Shared/Split Screen PvP"},{"id":"55318","name":"Party Game"}]
-size: ""
+size: "535 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/dragon-drop--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8104ff2b3a99f7d58c830fe4f9189c09fa18004e38e
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1581500/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

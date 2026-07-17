@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported local multiplayer"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 2416
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Fireshine Games
@@ -28,17 +36,19 @@ genre: Casual, Puzzle, Indie
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "August 31, 2021"
+release_date: "April 28, 2022"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"1203","name":"Multiplayer"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1263","name":"Indie"}]
-size: ""
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"1203","name":"Multiplayer"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]
+size: "724 MB"
+install_size: "1749 MB"
+achievements_total: 16
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/keywe"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/59aca5c4bb90c45a33e94f9869bb815c01904af1f69
 icon_image: "https://images.gog.com/66de93691e2416a8f7bf0aa87eb97940d6a54f482667b8995962499e4f6dd7ba.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

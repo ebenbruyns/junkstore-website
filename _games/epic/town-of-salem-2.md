@@ -20,6 +20,14 @@ protondb_total: 33
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 70
+steam_review_total: 9083
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Digital Bandidos
@@ -33,12 +41,14 @@ game_modes: ["Online Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Portuguese - Portugal","Russian","Simplified Chinese","Spanish - Latin America","Turkish","Thai","Vietnamese"]
 languages_audio: []
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
-size: ""
+size: "1045 MB"
+install_size: "1280 MB"
+achievements_total: 71
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/town-of-salem-2"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cb3631f27c961eb8a8","id":"f4c04d050f8c459ab1261ecbeeb5720a","namespace":"ab9f1f7354a8418388b43132d420524a","startDate":"2024-04-17T15:00:00.000Z","endDate":"2024-04-24T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-04-17","end":"2024-04-24"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2140510/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2140510/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 2182
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: tinyBuild
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Simplified Chinese","
 languages_audio: ["English"]
 tags_structured: [{"id":"1400","name":"Physics"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/totally-reliable-delivery-service"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1f43631f27c961ec369","id":"4f480f675a6c4947b1bbfbc73a7d3a93","namespace":"epic","startDate":"2020-03-31T15:00:00.000Z","endDate":"2020-04-07T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2020-03-31","end":"2020-04-07"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/dfa740f6e9cac4eab3cc88f05057b6d3a876fd40170
 icon_image: "https://images.gog.com/dfa740f6e9cac4eab3cc88f05057b6d3a876fd401706ea7c4ca47301f6e83dac.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

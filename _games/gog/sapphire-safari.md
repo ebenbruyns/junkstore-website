@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 1653
+gog_rating_value: 4.1
+gog_rating_count: 408
 
 # Game Info
 publisher: Critical Bliss
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","La
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"189","name":"Female Protagonist"},{"id":"15","name":"Stealth"},{"id":"150","name":"Third-Person Shooter"},{"id":"14","name":"Early Access"},{"id":"44","name":"Nudity"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"50","name":"Sexual Content"},{"id":"91686","name":"Family Sharing"},{"id":"59643","name":"Протагонистка"},{"id":"774","name":"nature"},{"id":"312","name":"NSFW"},{"id":"2896","name":"collectathon"},{"id":"1081","name":"adult"},{"id":"55320","name":"Creature Collector"},{"id":"785","name":"Erotic"}]
 size: "3014 MB"
+install_size: ""
+achievements_total: 33
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f4b16cb79bf7e315573d6d9b1637f865cc7d62939e0
 icon_image: "https://images.gog.com/4f4524daa352652317c7d6cfc6193eb71a438e4a0d42da56dfc64d0ddd422ca2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -62,7 +75,7 @@ dependencies:
 # website's GOG-Features section only shows Cloud Saves for now. Remove the
 # leading "# " on any line to enable that chip on the rendered page.)
 gog_cloud_saves: false
-# gog_achievements: false
+# gog_achievements: true
 # gog_overlay: false
 # gog_leaderboards: false
 

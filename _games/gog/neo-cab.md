@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 2846
+gog_rating_value: 3.7
+gog_rating_count: 63
 
 # Game Info
 publisher: Fellow Traveller
@@ -34,11 +42,13 @@ languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","German","Eng
 languages_audio: []
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"13","name":"Captions available"},{"id":"68","name":"Custom Volume Controls"},{"id":"76","name":"Mouse Only Option"},{"id":"23","name":"Steam Cloud"},{"id":"41","name":"Remote Play on Phone"},{"id":"42","name":"Remote Play on Tablet"},{"id":"62","name":"Family Sharing"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/neo-cab"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-04-23","end":"2026-05-27"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3b424f32c2c8848e3f137ef9d51fb922110cbeeecae
 icon_image: "https://images.gog.com/f1f0e2bfeefc84be76886c4c478afa6362fbb7bc970d783c92b2ebf26d4ad793.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

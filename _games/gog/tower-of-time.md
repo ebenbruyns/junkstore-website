@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 2618
+gog_rating_value: 4
+gog_rating_count: 576
 
 # Game Info
 publisher: Digerati Distribution, Digerati Distribution
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","French","Italian","Polish",
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"14","name":"Early Access"},{"id":"468","name":"role-playing"},{"id":"77","name":"Realistic"},{"id":"48","name":"Dungeon Crawler"},{"id":"194","name":"Real-Time with Pause"},{"id":"205","name":"Lore-Rich"},{"id":"247","name":"Real Time Tactics"}]
 size: "5854 MB"
+install_size: ""
+achievements_total: 77
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/tower-of-time"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-09-01"},{"start":"2026-05-20","end":"2026-05-22"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/85dfe1e38ca66f736eaacf0b88995cc3b18a904a00d
 icon_image: "https://images.gog.com/a7a09b3ac646a6cb2ff952df4c6ff40d5ffe2e073db809b1bae25584736d94a9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

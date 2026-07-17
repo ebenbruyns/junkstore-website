@@ -18,8 +18,16 @@ protondb_tier: "gold"
 protondb_score: 0.57
 protondb_total: 22
 protondb_confidence: "good"
-steam_deck_verified: "playable"
-steam_deck_category: 2
+steam_deck_verified: "verified"
+steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 66
+steam_review_total: 4624
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ubisoft
@@ -32,8 +40,10 @@ release_date: "February 16, 2024"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Arabic","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Italian","Polish"]
 languages_audio: ["English","French","German","Spanish - Spain","Japanese"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/skull-and-bones"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7ffb812153b2c8f95fbc0f9921e2898a327e6121a9b
 icon_image: "https://images.gog.com/788c179a3b60fbddb828b10086f807e3e770cb2f5617fe82d297a722eabbe713.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: ""
 community_layout: false
 required_launcher: "ubisoft-connect"

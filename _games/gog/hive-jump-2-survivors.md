@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 113
+gog_rating_value: 4.4
+gog_rating_count: 121
 
 # Game Info
 publisher: Midwest Games
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"14","name":"Early Access"},{"id":"25","name":"Space"},{"id":"172","name":"Aliens"},{"id":"61","name":"Top-Down"},{"id":"640","name":"Roguelite"},{"id":"57","name":"Bullet Hell"},{"id":"91686","name":"Family Sharing"},{"id":"236","name":"Top-Down Shooter"},{"id":"201","name":"Twin Stick Shooter"},{"id":"49964","name":"Action Roguelike"},{"id":"274","name":"Gun Customization"}]
 size: "159 MB"
+install_size: ""
+achievements_total: 100
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/hive-jump-2-survivors"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c02d29226e943122316497dda45e7ad928304ea27dd
 icon_image: "https://images.gog.com/eae1b9d63f504f8de5a5d53ba88e1bbd0c040431322c149af02ad2f8156b68a1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/157669"
 store_url: "https://www.gog.com/en/game/hive_jump_2_survivors"
 protondb_url: "https://www.protondb.com/app/2545740"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hive_Jump_2%3A_Survivors"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hive_Jump_2:_Survivors"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/hive-jump-2-survivors?ftag=MCD-06-10aaa1f"
 

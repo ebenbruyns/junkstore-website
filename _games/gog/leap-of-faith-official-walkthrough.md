@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 2299
+gog_rating_value: 4.7
+gog_rating_count: 292
 
 # Game Info
 publisher: DriftyGames
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: []
 size: "7091 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/leap-of-faith"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f3bdd0af70cec0ba354dc4bfddb3c5f3a0342378e32
 icon_image: "https://images.gog.com/5a5fe104b2f85afd504fd5c240ada06e58b326723f197e7468dcd60a86c06c74.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 26
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 65
+steam_review_total: 549
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Maximum Entertainment LLC
@@ -34,11 +42,13 @@ languages: ["English","French","German","Japanese","Simplified Chinese","Spanish
 languages_audio: ["English"]
 tags_structured: [{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1263","name":"Indie"}]
 size: "2883 MB"
+install_size: "8513 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/cris-tales"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e03631f27c961ebe6e","id":"132a0780b11d4cdf8932a239ce86aa4b","namespace":"ef361cdf19514595a8cb0945fb66962e","startDate":"2022-02-23T15:00:00.000Z","endDate":"2022-03-02T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-02-23","end":"2022-03-02"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/791b972c7b79ecf7010bd180ced8bea4505642e4325
 icon_image: "https://images.gog.com/9418a69fa74cae8dd24799a503daeb5dad6dfad43b00e0325ce9784af3cd324f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

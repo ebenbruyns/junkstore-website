@@ -20,6 +20,14 @@ protondb_total: 168
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Native resolution not supported"},{"type":"warning","note":"Display output not correctly scaled"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 33750
+gog_rating_value: 4.7
+gog_rating_count: 2393
 
 # Game Info
 publisher: Activision, LucasArts, Aspyr Media
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","German","French"]
 tags_structured: [{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"64","name":"Fantasy"},{"id":"6","name":"Exploration"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"25","name":"Space"},{"id":"468","name":"role-playing"},{"id":"62","name":"Moddable"},{"id":"102","name":"Turn-Based"},{"id":"145","name":"Choices Matter"},{"id":"194","name":"Real-Time with Pause"},{"id":"206","name":"Party-Based RPG"},{"id":"318","name":"Star Wars"},{"id":"425","name":"Single player only"}]
 size: "2479 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":38965,"slug":"star-wars-the-old-republic","name":"Star Wars: The Old Republic"},{"rawg_id":15858,"slug":"kotor-ii","name":"Star Wars: Knights of the Old Republic II – The Sith Lords"}]
 franchise_slug: "kotor-ii|star-wars-knights-of-the-old-r|star-wars-the-old-republic"
 igdb_url: "https://www.igdb.com/games/star-wars-knights-of-the-old-republic"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2023-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5726995de2f8aefa629898726bd336937a82bb85ccb
 icon_image: "https://images.gog.com/830040ae731c46773ca9be6b918487763f3aa4e9429630e5bc9aa26d2248e9f0.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/9111"
 store_url: "https://www.gog.com/en/game/star_wars_knights_of_the_old_republic"
 protondb_url: "https://www.protondb.com/app/32370"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars%3A_Knights_of_the_Old_Republic"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars:_Knights_of_the_Old_Republic"
 metacritic_score: 94
 metacritic_url: "https://www.metacritic.com/game/star-wars-knights-of-the-old-republic/"
 

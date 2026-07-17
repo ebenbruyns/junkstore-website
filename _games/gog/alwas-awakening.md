@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 80
+steam_review_total: 939
+gog_rating_value: 3.7
+gog_rating_count: 142
 
 # Game Info
 publisher: Elden Pixels, Mega Cat Studios
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","French","Ital
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"45","name":"2D"},{"id":"189","name":"Female Protagonist"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"40833","name":"Captions available"},{"id":"259","name":"Metroidvania"}]
 size: "104 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":455604,"slug":"alwas-legacy","name":"Alwa's Legacy"}]
 franchise_slug: "alwas-awakening|alwas-legacy"
 igdb_url: "https://www.igdb.com/games/alwas-awakening"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8c0834b7d6a1f0ca654ba565eca7a999edc7d4fdfe0
 icon_image: "https://images.gog.com/a473a87ef8760118b45d36dc42cdca5ca2fa913b87c3329a3b55ef9230f067f7.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/43500"
 store_url: "https://www.gog.com/en/game/alwas_awakening"
 protondb_url: "https://www.protondb.com/app/549260"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alwa%27s_Awakening"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alwa's_Awakening"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/alwas-awakening/"
 

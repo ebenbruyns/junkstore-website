@@ -20,6 +20,14 @@ protondb_total: 2595
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 958726
+gog_rating_value: 4.7
+gog_rating_count: 29370
 
 # Game Info
 publisher: CD Projekt
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
 tags_structured: []
 size: "107826 MB"
+install_size: ""
+achievements_total: 57
 franchise_siblings: [{"rawg_id":551124,"slug":"cyberpunk-the-arasakas-plot","name":"Cyberpunk: The Arasaka's Plot"}]
 franchise_slug: "cyberpunk-2077|cyberpunk-the-arasakas-plot"
 igdb_url: "https://www.igdb.com/games/cyberpunk-2077"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1091500/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1091500/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

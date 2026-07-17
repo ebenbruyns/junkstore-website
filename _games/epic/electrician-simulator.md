@@ -20,6 +20,14 @@ protondb_total: 16
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 80
+steam_review_total: 4312
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Gaming Factory, Ultimate Games S.A.
@@ -28,17 +36,19 @@ genre: First Person, Indie, Simulation
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "September 21, 2022"
+release_date: "August 4, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Japanese","Russian","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1263","name":"Indie"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "7805 MB"
+install_size: "13955 MB"
+achievements_total: 26
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/electrician-simulator"
 was_free_before: true
-giveaway_events: [{"_id":"69bc185cb9e0f858c47330d0","id":"b3d56c3e27fc4816bf6cc0cefecd4948","namespace":"d400b874b09b4cd49d149358c67aa453","startDate":"2026-03-19T15:00:00.000Z","endDate":"2026-03-26T15:00:00.000Z","title":"Electrician Simulator","__v":0}]
+giveaway_events: [{"start":"2024-05-01"},{"start":"2024-12-01"},{"start":"2026-03-19","end":"2026-03-26"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/28d8abf4b733c7dc8da26525c9d8a751bd067976f5e
 icon_image: "https://images.gog.com/8cdeda31c2730580952a958ae0786cc5ac5dc9c4a3af67aae8b0074cc7755157.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

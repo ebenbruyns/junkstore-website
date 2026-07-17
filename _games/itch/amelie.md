@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 458
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Two and a Half Studios
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","Simplified Chinese"]
 languages_audio: []
 tags_structured: []
-size: ""
+size: "322 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/amelie"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a4716ebbeb9f5658b29c1ab357eb5ef054465db8308
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1835810/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

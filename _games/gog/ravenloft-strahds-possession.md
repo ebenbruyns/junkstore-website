@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 56
+gog_rating_value: 3.5
+gog_rating_count: 16
 
 # Game Info
 publisher: Softgold Computerspiele GmbH
@@ -34,6 +42,8 @@ languages: ["German","English"]
 languages_audio: []
 tags_structured: []
 size: "180 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "ravenloft-stone-prophet|ravenloft-strahd-s-possession"
 igdb_url: "https://www.igdb.com/games/al-qadim-the-genie-s-curse"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/92d845952cc70a759ee45410200047dba5bea3dcd50
 icon_image: "https://images.gog.com/0c17ff167722260e5c42a1f268ac0ea0c3e0c41210ede55edd8123475278ed8a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: "dosbox"
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/109076"
 store_url: "https://www.gog.com/en/game/dungeons_dragons_ravenloft_series"
 protondb_url: "https://www.protondb.com/app/1904560"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ravenloft:_Strahd%27s_Possession"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ravenloft:_Stone_Prophet"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/ravenloft-strahds-possession/"
 

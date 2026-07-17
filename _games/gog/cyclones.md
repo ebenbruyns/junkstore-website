@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 81
+steam_review_total: 21
+gog_rating_value: 3.4
+gog_rating_count: 29
 
 # Game Info
 publisher: SNEG
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"30","name":"FPS"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"15","name":"Stealth"},{"id":"74","name":"Retro"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"167","name":"Futuristic"},{"id":"243","name":"1990's"},{"id":"52","name":"Arena Shooter"},{"id":"49953","name":"Hero Shooter"},{"id":"66537","name":"Арена-шутер"}]
 size: "411 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/cyclones"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-07-02","end":"2026-08-02"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/44117682aa02811effbd7b28f8d86e00439f110510b
 icon_image: "https://images.gog.com/f70f6adba724a27266a2741288e456244c3f5f53b34228f40f7f774d741573cb.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

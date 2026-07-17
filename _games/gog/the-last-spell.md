@@ -20,6 +20,14 @@ protondb_total: 38
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 13493
+gog_rating_value: 4.6
+gog_rating_count: 407
 
 # Game Info
 publisher: Nacon, The Arcade Crew
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Japanese
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"49","name":"Difficult"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"43","name":"Post-apocalyptic"},{"id":"40","name":"Dark Fantasy"},{"id":"99","name":"Isometric"},{"id":"640","name":"Roguelite"},{"id":"176","name":"Turn-Based Tactics"},{"id":"230","name":"Tactical RPG"}]
 size: "1563 MB"
+install_size: ""
+achievements_total: 94
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-last-spell"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b8bac0580868318d0eed99f45df0f021f9ed7d687d7
 icon_image: "https://images.gog.com/0d5fb757053623a27655ab70dd6e6f2b1fb57f15135965af581bae6854cfe373.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

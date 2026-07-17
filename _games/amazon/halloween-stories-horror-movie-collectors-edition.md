@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 95
+steam_review_total: 40
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Big Fish Games
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"16","name":"Horror"},{"id":"189","name":"Female Protagonist"},{"id":"41","name":"Dark"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"165","name":"Colorful"},{"id":"82","name":"Magic"},{"id":"305","name":"Linear"},{"id":"142","name":"Detective"},{"id":"59643","name":"Протагонистка"},{"id":"140","name":"Hidden Object"},{"id":"183","name":"Thriller"},{"id":"326","name":"Investigation"},{"id":"275","name":"Movie"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/halloween-stories-horror-movie-collectors-edition"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1777090/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1777090/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

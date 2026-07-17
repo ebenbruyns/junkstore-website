@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Cross platform cloud saves not supported"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 253
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Snapbreak
@@ -34,11 +42,13 @@ languages: ["English","Spanish - Spain","French","German","Japanese","Korean","P
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"25","name":"Space"},{"id":"141","name":"Point & Click"},{"id":"167","name":"Futuristic"},{"id":"305","name":"Linear"},{"id":"243","name":"1990's"},{"id":"91686","name":"Family Sharing"},{"id":"59643","name":"Протагонистка"},{"id":"140","name":"Hidden Object"},{"id":"570","name":"Old School"},{"id":"246","name":"Clicker"}]
 size: "555 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-abandoned-planet"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5fca3f9d170163e65c6345e71dc90d207869424e503
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2014470/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

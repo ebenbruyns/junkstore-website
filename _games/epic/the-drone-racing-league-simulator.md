@@ -20,6 +20,14 @@ protondb_total: 35
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Gamepad not enabled by default"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 80
+steam_review_total: 4457
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: The Drone Racing League
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "8552 MB"
+install_size: "8552 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-drone-racing-league-simulator"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1db3631f27c961ebd0f","id":"1578c50f725742fab1863952e01efc52","namespace":"b6aa6a98bb394a53870bd6b026fefd1d","startDate":"2022-09-28T15:00:00.000Z","endDate":"2022-10-05T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-09-28","end":"2022-10-05"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b9709889af30d6ba17a36d9ca377ce14e08894c79e3
 icon_image: "https://images.gog.com/35ffab31602c9257c5284e67ea0ccf51788f0b09ff330c50cb3761eb179c32f5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

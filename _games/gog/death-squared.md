@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 717
+gog_rating_value: 4.6
+gog_rating_count: 25
 
 # Game Info
 publisher: CIRCLE Entertainment, SMG Studio
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"4","name":"Funny"},{"id":"49","name":"Difficult"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"11669","name":"stats"},{"id":"107","name":"Family Friendly"},{"id":"165","name":"Colorful"},{"id":"197","name":"Robots"},{"id":"148","name":"Dark Humor"},{"id":"1867","name":"puzzles"},{"id":"116","name":"2.5D"},{"id":"182","name":"4 Player Local"},{"id":"112","name":"Minimalist"},{"id":"625","name":"party"},{"id":"153","name":"Satire"},{"id":"309","name":"Dynamic Narration"},{"id":"163","name":"Co-op Campaign"},{"id":"202","name":"Artificial Intelligence"},{"id":"332","name":"Intentionally Awkward Controls"}]
 size: "136 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/death-squared"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2018-08-01"},{"start":"2022-07-01"},{"start":"2025-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f9be94486a0567c18e6cf80f7056193d1bf925c645a
 icon_image: "https://images.gog.com/8c1b72834ac297da525273e9d9cd55c7c039a1510da9aae5e7b0973e31cae3fa.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

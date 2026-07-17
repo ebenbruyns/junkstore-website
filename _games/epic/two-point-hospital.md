@@ -20,25 +20,35 @@ protondb_total: 32
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 34774
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: SEGA
 developer: Two Point Studios
 genre: Casual, Simulation, Strategy
 franchise: 
-age_rating_summary: e10 (ESRB) · 3 (PEGI)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Animated blood, Crude Humor"},"pegi":{"rating":"3"},"usk":{"rating":"0"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "August 29, 2018"
+release_date: "February 13, 2025"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Korean"]
 languages_audio: ["English","German","Simplified Chinese"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "4313 MB"
+install_size: "8709 MB"
+achievements_total: 61
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/two-point-hospital"
 was_free_before: true
-giveaway_events: [{"_id":"6841a5b15f954aefba128c6c","id":"1078bc6439ab4b92b8786695e5f7f37d","namespace":"0f4a572a3c1541319db70c3737d3a123","startDate":"2025-06-12T15:00:00.000Z","endDate":"2025-06-19T15:00:00.000Z","title":"Two Point Hospital","__v":0}]
+giveaway_events: [{"start":"2022-01-01"},{"start":"2025-06-12","end":"2025-06-19"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9e9d090973a43b0cbb69c5f49a57086a051047f0549
 icon_image: "https://images.gog.com/e2442af4ebc2e005933d85fe5ef12d25a497b6568ac0584438fbd4292b2ac2c2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

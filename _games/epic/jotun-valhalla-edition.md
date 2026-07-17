@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 8547
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Thunder Lotus Games
@@ -28,17 +36,19 @@ genre: Action, Adventure, Indie
 franchise: 
 age_rating_summary: 12 (PEGI) · 12 (USK)
 age_ratings: {"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"cero":{"rating":"B"},"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "September 29, 2015"
+release_date: "December 6, 2019"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Icelandic","Korean","Traditional Chinese"]
 languages_audio: ["Icelandic"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
-size: ""
+size: "1415 MB"
+install_size: "3915 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/jotun-valhalla-edition--2"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1de3631f27c961ebdf5","id":"cbbde99547d54f41b8f7bd5fc46726c5","namespace":"ba3149b6d7a7488ab5cc674154458757","startDate":"2022-05-11T15:00:00.000Z","endDate":"2022-05-18T15:00:00.000Z","__v":0},{"_id":"66abf1f83631f27c961ec48f","id":"cbbde99547d54f41b8f7bd5fc46726c5","namespace":"ba3149b6d7a7488ab5cc674154458757","startDate":"2019-12-05T15:00:00.000Z","endDate":"2019-12-11T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2018-08-01"},{"start":"2019-12-05","end":"2019-12-11"},{"start":"2022-05-11","end":"2022-05-18"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/edd21e7a826f7774caf7138d57f75365c4c5c3f9b20
 icon_image: "https://images.gog.com/c6ac66402e84a6151c4976a8b5e4a15ad8f75ef45c3d2eec392b292a345d9a39.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 13
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 1709
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: historia Inc.
@@ -28,13 +36,15 @@ genre: Action, Casual, Racing
 franchise: 
 age_rating_summary: A (CERO)
 age_ratings: {"cero":{"rating":"A"},"dejus":{"rating":"14"}}
-release_date: "September 19, 2024"
+release_date: "September 20, 2024"
 game_modes: ["Online Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Japanese","Korean"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Japanese","Korean"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "4997240248
 "
+install_size: "9129 MB"
+achievements_total: 28
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/faaast-penguin"
@@ -48,6 +58,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2590150/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2590150/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

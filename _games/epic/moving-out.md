@@ -20,6 +20,14 @@ protondb_total: 30
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 2312
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Team17
@@ -28,17 +36,19 @@ genre: Casual, Party
 franchise: 
 age_rating_summary: 3 (PEGI) · 6 (USK)
 age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"6"},"oflc":{"rating":"PG"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "April 28, 2020"
+release_date: "December 28, 2021"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Swedish","Polish","Russian","Italian","Spanish - Spain"]
 languages_audio: ["English"]
-tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "740 MB"
+install_size: "740 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/moving-out"
 was_free_before: true
-giveaway_events: [{"_id":"67111d8931aa816cb17254a7","id":"0a8b32256f374cf4998c3ecf44c31db9","namespace":"f919a1262081444fb28f0fdef68d6b14","startDate":"2024-10-24T15:00:00.000Z","endDate":"2024-10-31T15:00:00.000Z","__v":0},{"_id":"66abf1e13631f27c961ebec0","id":"0a8b32256f374cf4998c3ecf44c31db9","namespace":"f919a1262081444fb28f0fdef68d6b14","startDate":"2021-12-27T15:00:00.000Z","endDate":"2021-12-28T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-04-01"},{"start":"2021-12-27","end":"2021-12-28"},{"start":"2024-10-24","end":"2024-10-31"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f1474c475ae2f9391bccc7d30ae0e02563d70adb622
 icon_image: "https://images.gog.com/60b5084975995b78d6da28a533fa36520ddfc26e1a668fdf28cc56ca8188468c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

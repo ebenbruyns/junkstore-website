@@ -20,6 +20,14 @@ protondb_total: 27
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 97
+steam_review_total: 25057
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Distractionware, Terry Cavanagh
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"45","name":"2D"},{"id":"49","name":"Difficult"},{"id":"115","name":"Controller"},{"id":"336","name":"controller support"},{"id":"5","name":"Replay Value"},{"id":"165","name":"Colorful"},{"id":"131","name":"Fast-Paced"},{"id":"136","name":"Music"},{"id":"57","name":"Bullet Hell"},{"id":"112","name":"Minimalist"},{"id":"207","name":"Rhythm"},{"id":"54","name":"Score Attack"},{"id":"286","name":"Psychedelic"},{"id":"84","name":"Abstract"}]
 size: "29 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/super-hexagon"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/887c91f1a734305b1e183a9e78badf01be5845afce0
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/221640/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: true
 required_launcher: ""

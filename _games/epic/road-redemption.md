@@ -20,6 +20,14 @@ protondb_total: 33
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 13453
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Pixel Dash Studios
@@ -28,17 +36,19 @@ genre: Action, Racing
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Atos criminosos, Violência, Temas sensíveis, Linguagem imprópria"}}
-release_date: "October 4, 2017"
+release_date: "August 7, 2025"
 game_modes: ["Single-player","Local Multiplayer","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Japanese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "3045 MB"
+install_size: "5754 MB"
+achievements_total: 55
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/road-redemption"
 was_free_before: true
-giveaway_events: [{"_id":"688b85366ab52e0bd856c2b0","id":"91a0b419d5b741c39cc35ce3a35138c0","namespace":"462451248e9640f4a211294193034dda","startDate":"2025-08-07T15:00:00.000Z","endDate":"2025-08-14T15:00:00.000Z","title":"Road Redemption","__v":0}]
+giveaway_events: [{"start":"2025-08-07","end":"2025-08-14"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0c3d986eaab24223ec0b3e59a1b199cbbf46d42cc0e
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/300380/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

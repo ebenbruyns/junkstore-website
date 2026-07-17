@@ -20,6 +20,14 @@ protondb_total: 83
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 27906
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Sloclap
@@ -28,17 +36,19 @@ genre: "Indie, Hack and slash/Beat 'em up, Fighting"
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Strong Language, Violence, Blood, Drug Reference"},"pegi":{"rating":"16","descriptors":"Bad Language, Violence"},"usk":{"rating":"16"},"nzoflc":{"rating":"M","descriptors":"Violence"},"kgrb":{"rating":"15","descriptors":"Violence, Drugs"},"csrr":{"rating":"C15","descriptors":"Violence"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria, Drogas ilícitas"}}
-release_date: "March 28, 2023"
+release_date: "January 1, 2099"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Polish","Czech"]
 languages_audio: ["English","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"149","name":"Third Person"},{"id":"49","name":"Difficult"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"41","name":"Dark"},{"id":"68","name":"Hack and Slash"},{"id":"70","name":"War"},{"id":"40","name":"Dark Fantasy"},{"id":"639","name":"Roguelike"},{"id":"203","name":"Beat 'em up"},{"id":"144","name":"Crime"},{"id":"270","name":"Blood"},{"id":"580","name":"Souls-like"},{"id":"185","name":"Swordplay"},{"id":"49964","name":"Action Roguelike"},{"id":"240","name":"Martial Arts"},{"id":"256","name":"Naval"},{"id":"500","name":"Solo"},{"id":"40910","name":"Succès Steam"},{"id":"73243","name":"Флот"},{"id":"90369","name":"Compat. contrôleurs complète"}]
-size: ""
+size: "22495 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sifu"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-12-31","end":"2025-01-01"},{"start":"2025-05-22","end":"2025-05-29"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b305cf4e270e4ed6e7b46dd6f20ab3cd27ef1427722
 icon_image: "https://images.gog.com/b370e0b6776f35303272ce3c95c78cb14aefc47131adfdece68d40bf8f477e94.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

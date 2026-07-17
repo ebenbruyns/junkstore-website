@@ -20,6 +20,14 @@ protondb_total: 42
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 15659
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: "tobspr IT Solutions UG (haftungsbeschränkt) & Co. KG (German partnership)"
@@ -34,11 +42,13 @@ languages: ["English","French","Czech","German","Korean","Spanish - Spain","Dutc
 languages_audio: []
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "253 MB"
+install_size: "361 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/shapez"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d43631f27c961ebb6e","id":"35f8d25247154fca9b900c13d2be04f6","namespace":"315e6807f6684c279fc286d0fc36a44f","startDate":"2023-04-05T15:00:00.000Z","endDate":"2023-04-12T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-04-05","end":"2023-04-12"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b96a30ed8ca818439bb9b83ea6daeed2fba0565ec8b
 icon_image: "https://images.gog.com/f18865fae589ec95a9add8a2aa090939dc344b86f365fd3373c1595d980341c5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

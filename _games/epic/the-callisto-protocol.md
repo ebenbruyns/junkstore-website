@@ -20,6 +20,14 @@ protondb_total: 65
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 65
+steam_review_total: 43413
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: KRAFTON, Inc.
@@ -28,17 +36,19 @@ genre: Adventure, Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18","descriptors":"Bad Language, Violence"},"usk":{"rating":"18"},"oflc":{"rating":"r18","descriptors":"High impact bloody violence"},"nzoflc":{"rating":"r18","descriptors":"Violence and horror"},"kgrb":{"rating":"18","descriptors":"Violence, Language, Horror"},"csrr":{"rating":"R","descriptors":"Violence and Offensive Language"},"mda":{"rating":"M18","descriptors":"Violence and Gore"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Medo"}}
-release_date: "December 1, 2022"
+release_date: "January 1, 2099"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Russian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"150","name":"Third-Person Shooter"},{"id":"41","name":"Dark"},{"id":"25","name":"Space"},{"id":"17","name":"Survival Horror"},{"id":"571","name":"3D"},{"id":"77","name":"Realistic"},{"id":"110","name":"Cinematic"},{"id":"167","name":"Futuristic"},{"id":"197","name":"Robots"},{"id":"305","name":"Linear"},{"id":"171","name":"PvE"}]
-size: ""
+size: "92200 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-callisto-protocol"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-22","end":"2024-08-29"},{"start":"2025-12-24","end":"2025-12-25"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/71561336ac8481eb8bf9f057f99f8df0acc10fcef3b
 icon_image: "https://images.gog.com/ae3bfbc3931e80570f1d47b795b3cfa68be8dd9de2337849c96915ca7c3e049c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

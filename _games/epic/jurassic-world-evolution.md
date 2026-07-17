@@ -20,25 +20,35 @@ protondb_total: 109
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 55187
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Frontier Developments, Universal Pictures
 developer: Frontier Developments
 genre: Simulation, Strategy
 franchise: Jurassic World Evolution
-age_rating_summary: T (ESRB) · 16 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Blood, Violence"},"pegi":{"rating":"16"},"usk":{"rating":"12"}}
-release_date: "June 11, 2018"
+release_date: "December 31, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Italian","Korean","Spanish - Latin America"]
 languages_audio: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Italian","Korean","Spanish - Latin America"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "7375 MB"
+install_size: "7669 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":1006932,"slug":"jurassic-world-evolution-3","name":"Jurassic World Evolution 3"},{"rawg_id":614965,"slug":"jurassic-world-evolution-2-2","name":"Jurassic World Evolution 2"},{"rawg_id":416021,"slug":"jurassic-park-the-new-park","name":"Jurassic Park: The New Park"},{"rawg_id":103182,"slug":"jurassic-park-legacy","name":"Jurassic Park: Legacy"},{"rawg_id":34651,"slug":"jurassic-park-operation-genesis","name":"Jurassic Park: Operation Genesis"},{"rawg_id":29924,"slug":"jurassic-park-dinosaur-battles","name":"Jurassic Park: Dinosaur Battles"},{"rawg_id":53344,"slug":"jurassic-park-iii-island-attack","name":"Jurassic Park III: Island Attack"},{"rawg_id":53345,"slug":"jurassic-park-iii-park-builder","name":"Jurassic Park III: Park Builder"},{"rawg_id":53346,"slug":"jurassic-park-iii-the-dna-factor","name":"Jurassic Park III: The DNA Factor"},{"rawg_id":30727,"slug":"jurassic-park-3-danger-zone","name":"Jurassic Park 3: Danger Zone!"},{"rawg_id":32637,"slug":"jurassic-park-3-dino-defender","name":"Jurassic Park 3: Dino Defender"},{"rawg_id":57970,"slug":"warpath-jurassic-park","name":"Warpath: Jurassic Park"},{"rawg_id":402501,"slug":"the-lost-world-jurassic-park-1997","name":"The Lost World: Jurassic Park (1997)"},{"rawg_id":53105,"slug":"the-lost-world-jurassic-park","name":"The Lost World: Jurassic Park"},{"rawg_id":57390,"slug":"jurassic-park-2-the-chaos-continues","name":"Jurassic Park 2: The Chaos Continues"},{"rawg_id":57075,"slug":"jurassic-park-rampage-edition","name":"Jurassic Park: Rampage Edition"},{"rawg_id":53349,"slug":"jurassic-park","name":"Jurassic Park"},{"rawg_id":43129,"slug":"jurassic-park-aftermath","name":"Jurassic Park: Aftermath"}]
 franchise_slug: "jurassic-park|jurassic-park-2-the-chaos-cont|jurassic-park-3-danger-zone|jurassic-park-3-dino-defender|jurassic-park-aftermath|jurassic-park-dinosaur-battles|jurassic-park-iii-island-attac|jurassic-park-iii-park-builder|jurassic-park-iii-the-dna-fact|jurassic-park-legacy|jurassic-park-operation-genesi|jurassic-park-rampage-edition|jurassic-park-the-new-park|jurassic-world-evolution-2|jurassic-world-evolution-2-2|jurassic-world-evolution-3|the-lost-world-jurassic-park|the-lost-world-jurassic-park-1|warpath-jurassic-park"
 igdb_url: "https://www.igdb.com/games/jurassic-world-evolution"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1eb3631f27c961ec12f","id":"d5a8d607058f4accb71aa406dc8cece0","namespace":"047392e91d5e4cfdb19e2767440ab206","startDate":"2020-12-30T15:00:00.000Z","endDate":"2021-01-06T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2020-12-30","end":"2021-01-06"},{"start":"2024-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/019098600d2d6ef550d3692365b2906d1b69e93b11b
 icon_image: "https://images.gog.com/a5f81632f3526dcf4f1ad1c4dc9dac72ddd26f1456b35fc20183287683124d89.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

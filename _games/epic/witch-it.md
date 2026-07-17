@@ -20,6 +20,14 @@ protondb_total: 57
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 19842
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Barrel Roll Games
@@ -33,12 +41,14 @@ game_modes: ["Online Multiplayer"]
 languages: ["English","German","Simplified Chinese","Turkish","French","Italian","Dutch","Russian","Portuguese - Brazil","Romanian","Traditional Chinese","Czech","Spanish - Spain","Korean","Danish","Swedish","Ukrainian","Hungarian","Galician","Japanese","Polish","Basque"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "8239 MB"
+install_size: "8701 MB"
+achievements_total: 41
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/witch-it"
 was_free_before: true
-giveaway_events: [{"_id":"671a5ed5a16dd6d63bcc3398","id":"d2db7ad960a84551825707261c8437c4","namespace":"b9e6e3d5a4474a8ead248c62bfdf08b7","startDate":"2024-10-31T15:00:00.000Z","endDate":"2024-11-07T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-10-31","end":"2024-11-07"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d03d6402a3982d215c8a191019e2f7c64dc812db9c5
 icon_image: "https://images.gog.com/765de0ea5299dfc04209868f8637c23133df641b8dd4265893e0f0b035ac35cd.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

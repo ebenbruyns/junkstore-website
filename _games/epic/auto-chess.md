@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 66
+steam_review_total: 989
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Dragonest Games
@@ -33,7 +41,9 @@ game_modes: ["Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Japanese","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America","Vietnamese","Korean"]
 languages_audio: ["English","Simplified Chinese"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1141","name":"Free to Play"},{"id":"21141","name":"Extremely Fun"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+size: "6554 MB"
+install_size: "7493 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/auto-chess"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0a0fae09bc84ce958daa30797cf61f8bb7968222ea7
 icon_image: "https://images.gog.com/56c4ebc8cdf0d7f0f75c5de899bff9888bf53a40b635226b3f64d2caf8b5f7b5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: "other"

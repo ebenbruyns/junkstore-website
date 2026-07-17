@@ -20,6 +20,14 @@ protondb_total: 13
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 97
+steam_review_total: 1093
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Siactro, Diplodocus Games
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"134","name":"Anime"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"133","name":"3D Vision"},{"id":"243","name":"1990's"},{"id":"166","name":"Stylized"},{"id":"229","name":"3D Platformer"},{"id":"164","name":"Cartoony"},{"id":"286","name":"Psychedelic"},{"id":"570","name":"Old School"},{"id":"49963","name":"Precision Platformer"},{"id":"631","name":"Low-poly"},{"id":"762","name":"psx"},{"id":"39234","name":"sega-saturn"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/toree-2"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6cca132c08608b412dfacc3c645a21e3d5632c52677
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1722620/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

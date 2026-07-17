@@ -20,6 +20,14 @@ protondb_total: 22
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 13983
+gog_rating_value: 4.2
+gog_rating_count: 493
 
 # Game Info
 publisher: No More Robots
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","French","Polish","Russian"]
 languages_audio: ["English","Simplified Chinese","French","German","Russian","Polish","Japanese","Italian","Spanish - Spain","Portuguese - Brazil"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"1","name":"Survival"},{"id":"122","name":"Pixel Graphics"},{"id":"468","name":"role-playing"},{"id":"141","name":"Point & Click"},{"id":"70","name":"War"},{"id":"89","name":"Historical"},{"id":"639","name":"Roguelike"},{"id":"66","name":"Medieval"},{"id":"67","name":"Management"},{"id":"180","name":"Base Building"},{"id":"147","name":"Resource Management"},{"id":"208","name":"Alternate History"},{"id":"287","name":"Political"},{"id":"272","name":"Inventory Management"}]
 size: "353 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":983706,"slug":"yes-your-grace-snowfall","name":"Yes, Your Grace: Snowfall"}]
 franchise_slug: "yes-your-grace|yes-your-grace-snowfall"
 igdb_url: "https://www.igdb.com/games/yes-your-grace"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8c804cf6ea6d52136ebc4de661227ea24fa359bb68f
 icon_image: "https://images.gog.com/32478b20cb9e189ff0220f222b9e550912d1052aabbf028f5495d459e2fc3f73.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/71500"
 store_url: "https://www.gog.com/en/game/yes_your_grace"
 protondb_url: "https://www.protondb.com/app/1115690"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Yes%2C_Your_Grace"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Yes,_Your_Grace"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/yes-your-grace/"
 

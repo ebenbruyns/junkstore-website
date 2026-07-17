@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-14T02:48:50.521Z",
-  "total_games": 1057,
+  "generated_at": "2026-07-17T20:39:18.246Z",
+  "total_games": 1062,
   "storefronts": {
     "Epic": {
-      "total": 494,
-      "green_standalone": 433,
-      "green_decky": 444
+      "total": 496,
+      "green_standalone": 435,
+      "green_decky": 446
     },
     "GOG": {
-      "total": 396,
-      "green_standalone": 324,
+      "total": 399,
+      "green_standalone": 327,
       "green_decky": 360
     },
     "Amazon": {
@@ -1710,7 +1710,7 @@
       "native_linux": false,
       "publisher": "Embark Studios",
       "controller_input": "native",
-      "requires_eac_runtime": false,
+      "requires_eac_runtime": true,
       "databaseId": "20f01ab5e0fa4e798c6d58eeb8d86989"
     },
     {
@@ -2516,7 +2516,7 @@
       "standalone_rating": "green",
       "date_tested": "July '25",
       "cant_test_linux": false,
-      "native_linux": true,
+      "native_linux": false,
       "publisher": "Nicalis, Inc.",
       "controller_input": "native",
       "requires_eac_runtime": false,
@@ -2562,7 +2562,7 @@
       "native_linux": false,
       "publisher": "Playwing",
       "controller_input": "native",
-      "requires_eac_runtime": false,
+      "requires_eac_runtime": true,
       "databaseId": "c40939566ad44585bde9302bdbe82734"
     },
     {
@@ -2592,7 +2592,7 @@
       "native_linux": false,
       "publisher": "Tripwire Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
+      "requires_eac_runtime": true,
       "databaseId": "Peppermint"
     },
     {
@@ -3325,6 +3325,18 @@
       "databaseId": "15b19b0c4791459f8e60942b328ee460"
     },
     {
+      "slug": "echo-generation-midnight-edition",
+      "id": "2e483b6788584c11b9441941e7e76b53",
+      "title": "Echo Generation: Midnight Edition",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "native_linux": false,
+      "publisher": "Cococucumber",
+      "controller_input": "native"
+    },
+    {
       "slug": "el-hijo-a-wild-west-tale",
       "id": "5db2f911-2843-4c1a-9a5d-7bbbe5b67fd7",
       "title": "El Hijo – A Wild West Tale",
@@ -3379,7 +3391,7 @@
       "native_linux": false,
       "publisher": "Eleon Game Studios SA",
       "controller_input": "requires-mapping",
-      "requires_eac_runtime": false,
+      "requires_eac_runtime": true,
       "databaseId": "16db0e48c4d84d1490ab96be62a83c4c"
     },
     {
@@ -3992,6 +4004,7 @@
       "native_linux": false,
       "publisher": "Arc Games",
       "controller_input": "native",
+      "requires_eac_runtime": true,
       "databaseId": "d4d31e492ea24c0fbcc239c0bb29aed8"
     },
     {
@@ -4968,6 +4981,18 @@
       "databaseId": "5ff96008f7314df4bb188cd085b1cdf4"
     },
     {
+      "slug": "luto",
+      "id": "fb81c41914b345e3bad3ce9b6db4463b",
+      "title": "Luto",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "native_linux": false,
+      "publisher": "Broken Bird Games, Selecta Play",
+      "controller_input": "native"
+    },
+    {
       "slug": "lysfanga-the-time-shift-warrior",
       "id": "05e81b5f-ed49-4607-8982-ee29dd02076a",
       "title": "Lysfanga: The Time Shift Warrior",
@@ -5463,7 +5488,7 @@
       "native_linux": false,
       "publisher": "Hi-Rez Studios",
       "controller_input": "native",
-      "requires_eac_runtime": false,
+      "requires_eac_runtime": true,
       "databaseId": "Antbird"
     },
     {
@@ -5668,7 +5693,7 @@
       "native_linux": false,
       "publisher": "tinyBuild",
       "controller_input": "native",
-      "requires_eac_runtime": false,
+      "requires_eac_runtime": true,
       "databaseId": "cf66e90baeed4871aaf6be56ce16479c"
     },
     {
@@ -6613,6 +6638,7 @@
       "native_linux": false,
       "publisher": "Warner Bros. Interactive Entertainment",
       "controller_input": "native",
+      "requires_eac_runtime": true,
       "databaseId": "e3306721e7c64f1cbf71235bcb260d53"
     },
     {
@@ -8554,6 +8580,51 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "2018305509"
+    },
+    {
+      "slug": "alone-in-the-dark",
+      "id": "d03b0e78-cebe-40e7-ad63-d3e4639528ac",
+      "title": "Alone in the Dark",
+      "storefront": "GOG",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "cant_test_linux": false,
+      "native_linux": false,
+      "publisher": "THQ Nordic",
+      "controller_input": "requires-mapping",
+      "requires_eac_runtime": false,
+      "databaseId": "1207660923"
+    },
+    {
+      "slug": "alone-in-the-dark-2",
+      "id": "3694f089-32a6-414b-8bfb-71d872c57d3e",
+      "title": "Alone in the Dark 2",
+      "storefront": "GOG",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "cant_test_linux": false,
+      "native_linux": false,
+      "publisher": "Infogrames",
+      "controller_input": "requires-mapping",
+      "requires_eac_runtime": false,
+      "databaseId": "1207660963"
+    },
+    {
+      "slug": "alone-in-the-dark-3",
+      "id": "3407c11c-5393-43f9-83de-b76a3eeb4a14",
+      "title": "Alone in the Dark 3",
+      "storefront": "GOG",
+      "decky_rating": "unsupported",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "cant_test_linux": false,
+      "native_linux": false,
+      "publisher": "Infogrames",
+      "controller_input": "requires-mapping",
+      "requires_eac_runtime": false,
+      "databaseId": "1207660973"
     },
     {
       "slug": "alwas-awakening",
@@ -11023,7 +11094,7 @@
       "standalone_rating": "green",
       "date_tested": "July '25",
       "cant_test_linux": false,
-      "native_linux": false,
+      "native_linux": true,
       "publisher": "ChaosForge",
       "controller_input": "keyboard-mouse",
       "databaseId": "1603513052"

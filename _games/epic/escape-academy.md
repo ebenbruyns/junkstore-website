@@ -20,6 +20,14 @@ protondb_total: 18
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 1323
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: iam8bit Presents
@@ -28,17 +36,19 @@ genre: First Person, Puzzle, Adventure
 franchise: Escape Academy
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência"}}
-release_date: "July 13, 2022"
+release_date: "July 14, 2022"
 game_modes: ["Single-player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","French","German","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "4007 MB"
+install_size: "4671 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/escape-academy"
 was_free_before: true
-giveaway_events: [{"_id":"677efefd0da9d7e276a5377a","id":"224ed07084444c619cedc473c7cd1498","namespace":"040baa2d100d465caf428c688cc3cdba","startDate":"2025-01-16T16:00:00.000Z","endDate":"2025-01-23T16:00:00.000Z","title":"Escape Academy","__v":0},{"_id":"66abf1cd3631f27c961eb96b","id":"224ed07084444c619cedc473c7cd1498","namespace":"040baa2d100d465caf428c688cc3cdba","startDate":"2023-12-31T15:00:00.000Z","endDate":"2024-01-01T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-12-31","end":"2024-01-01"},{"start":"2025-01-16","end":"2025-01-23"},{"start":"2026-07-16","end":"2026-08-20"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/546fce5acfc1217bb879bfd4445d7207ec8df6c0cd9
 icon_image: "https://images.gog.com/7d3a484332bdb22c666c00426784c540133e36b1acba2b4cd23eb6f045f96f16.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -61,7 +74,7 @@ dependencies:
 requires_eos: false
 supports_eos: false
 epic_achievements: false
-epic_offline_mode: false
+epic_offline_mode: true
 epic_cloud_saves: true
 must_be_online: false
 
@@ -111,7 +124,7 @@ known_issues:
 
 # Meta
 database_id: "4237ffc575c94a0e89ef9ab7dd884ad5"
-is_featured: false
+is_featured: true
 owned: true
 ---
 

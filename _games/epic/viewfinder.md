@@ -20,6 +20,14 @@ protondb_total: 40
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 12639
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Thunderful Publishing
@@ -28,17 +36,19 @@ genre: Adventure, Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "July 18, 2023"
+release_date: "January 1, 2099"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Portuguese - Brazil","Arabic","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"74","name":"Retro"},{"id":"165","name":"Colorful"},{"id":"114","name":"Physics"},{"id":"46","name":"Surreal"},{"id":"166","name":"Stylized"},{"id":"148","name":"Dark Humor"},{"id":"229","name":"3D Platformer"},{"id":"200","name":"Narration"},{"id":"285","name":"Psychological"},{"id":"84","name":"Abstract"},{"id":"49955","name":"Puzzle Platformer"}]
 size: "7140 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/viewfinder"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-12-29","end":"2025-12-30"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1382070/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1382070/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 217
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 43809
+gog_rating_value: 4.4
+gog_rating_count: 654
 
 # Game Info
 publisher: Ubisoft Entertainment, Techland
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","French","Ital
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"4","name":"Funny"},{"id":"26","name":"Gore"},{"id":"40850","name":"Steam Leaderboards"},{"id":"123","name":"Comedy"},{"id":"89","name":"Historical"},{"id":"305","name":"Linear"},{"id":"200","name":"Narration"},{"id":"208","name":"Alternate History"},{"id":"152","name":"Western"},{"id":"308","name":"Bullet Time"},{"id":"309","name":"Dynamic Narration"}]
 size: "4453 MB"
+install_size: ""
+achievements_total: 26
 franchise_siblings: [{"rawg_id":19524,"slug":"call-of-juarez-the-cartel","name":"Call of Juarez: The Cartel"},{"rawg_id":4521,"slug":"call-of-juarez-2","name":"Call of Juarez: Bound in Blood"},{"rawg_id":19572,"slug":"call-of-juarez","name":"Call of Juarez"}]
 franchise_slug: "call-of-juarez|call-of-juarez-2|call-of-juarez-gunslinger|call-of-juarez-the-cartel"
 igdb_url: "https://www.igdb.com/games/call-of-juarez-gunslinger"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/483824fe0627f13a84b802b6dbda093440de79b28f4
 icon_image: "https://images.gog.com/295ec0f95fd727a20937ffdf3b85bcd2d74dc2b24ee9c9870cef63f1e7349bfb.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

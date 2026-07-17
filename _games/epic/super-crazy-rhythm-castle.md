@@ -20,25 +20,35 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 513
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: KONAMI
 developer: Second Impact Games Ltd.
 genre: Action, Indie, Puzzle
 franchise: 
-age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Fantasy Violence, Lyrics, Mild Blood"},"pegi":{"rating":"7","descriptors":"Violence"},"usk":{"rating":"12","descriptors":"Handlungsdruck"},"cero":{"rating":"A"},"oflc":{"rating":"PG","descriptors":"Mild fantasy themes, violence and occasional coarse language, online, interactivity"},"kgrb":{"rating":"ALL"},"csrr":{"rating":"P6","descriptors":"DGSC"},"dejus":{"rating":"12","descriptors":"Violence, Innapropiate Language"}}
-release_date: "November 13, 2023"
+release_date: "August 15, 2024"
 game_modes: ["Single-player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Korean","Simplified Chinese","Traditional Chinese","Japanese","Polish","Portuguese - Brazil","Russian","Spanish - Latin America","Italian"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1183","name":"Local Multiplayer"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1183","name":"Local Multiplayer"}]
+size: "3267 MB"
+install_size: "3656 MB"
+achievements_total: 27
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/super-crazy-rhythm-castle"
 was_free_before: true
-giveaway_events: [{"_id":"66d9c3ed2c281297078ed14a","id":"c1480c18d56f476c96b36037f2a81f51","namespace":"048550a9623d4824894430a2c2823e02","startDate":"2024-09-12T15:00:00.000Z","endDate":"2024-09-19T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-09-12","end":"2024-09-19"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6d11ab15d39f91551e0640404e73ac7ceaa533265db
 icon_image: "https://images.gog.com/ee835ec53a0632d9f2aaae8b19b8dff652f7a56fa6665dc34869faa82d8326bf.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

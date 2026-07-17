@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 828
+gog_rating_value: 4
+gog_rating_count: 140
 
 # Game Info
 publisher: xRedGames
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","English","Russian","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"468","name":"role-playing"}]
 size: "5250 MB"
+install_size: ""
+achievements_total: 63
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7d2400f45e71f465921ad9ce5bbc0e6648e67fbc506
 icon_image: "https://images.gog.com/ab5d2ff070fe439afe2d000dbbb326b70311df25d8fc15b337e5e3ad0631b344.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

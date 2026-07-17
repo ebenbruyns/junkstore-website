@@ -20,20 +20,30 @@ protondb_total: 336
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 66362
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: 505 Games
 developer: KOJIMA PRODUCTIONS
 genre: Action, Open World, Adventure
 franchise: 
-age_rating_summary: M (ESRB)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood, Intense Violence, Partial Nudity, Strong Language"},"dejus":{"rating":"14","descriptors":"Violência, Linguagem imprópria"}}
 release_date: "March 30, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Greek","Hungarian","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Greek","Japanese","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Spanish - Latin America"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "100 MB"
+install_size: "100 MB"
+achievements_total: 63
 franchise_siblings: []
 franchise_slug: "death-stranding|death-stranding-director-s-cut"
 igdb_url: "https://www.igdb.com/games/19564"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c05f4f579a6bc3c13e8fc413470a13a366697b8eade
 icon_image: "https://images.gog.com/625da82e2de2bfb335a60af86c7736c91a212a0ee121eb65000188cc07c87d9c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/93457"
 store_url: "https://store.epicgames.com/en-US/p/death-stranding-directors-cut"
 protondb_url: "https://www.protondb.com/app/1850570"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death_Stranding_Director%27s_Cut"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death_Stranding_Director's_Cut"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/death-stranding/"
 

@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 58
+steam_review_total: 608
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Kikimora Games
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"122","name":"Pixel Graphics"},{"id":"88","name":"Cute"},{"id":"668","name":"creepy"},{"id":"706","name":"gamepad"},{"id":"1150","name":"godot"},{"id":"1872","name":"godot-engine"},{"id":"30109","name":"microbe"}]
-size: ""
+size: "41 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/763b0c2e1f250bac5b3071066999e4cb35d5f3629c2
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1005340/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

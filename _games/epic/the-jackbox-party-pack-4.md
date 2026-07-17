@@ -20,25 +20,35 @@ protondb_total: 11
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 3391
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Jackbox Games
 developer: Jackbox Games
 genre: Casual, Party, Trivia
 franchise: The Jackbox Party Pack
-age_rating_summary: T (ESRB) · 12 (USK)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Sexual Themes, Drug Reference, Mild Language, Crude Humor"},"usk":{"rating":"12","descriptors":"Sexuelle Andeutungen, Drogenkonsum"},"dejus":{"rating":"14","descriptors":"Violência, Temas sensíveis, Linguagem imprópria"}}
-release_date: "October 18, 2017"
+release_date: "October 19, 2017"
 game_modes: ["Local Multiplayer"]
 languages: ["English"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1296","name":"Casual"},{"id":"1299","name":"Competitive"},{"id":"1110","name":"Party"},{"id":"1318","name":"Trivia"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"}]
-size: ""
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1299","name":"Competitive"},{"id":"1110","name":"Party"},{"id":"1318","name":"Trivia"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"}]
+size: "928 MB"
+install_size: "1005 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":868095,"slug":"the-jackbox-party-pack-9","name":"The Jackbox Party Pack 9"},{"rawg_id":678642,"slug":"the-jackbox-party-pack-8","name":"The Jackbox Party Pack 8"},{"rawg_id":505871,"slug":"the-jackbox-party-pack-7","name":"The Jackbox Party Pack 7"},{"rawg_id":372595,"slug":"the-jackbox-party-pack-6","name":"The Jackbox Party Pack 6"},{"rawg_id":59640,"slug":"the-jackbox-party-pack-5","name":"The Jackbox Party Pack 5"},{"rawg_id":1036,"slug":"the-jackbox-party-pack-3","name":"The Jackbox Party Pack 3"},{"rawg_id":3133,"slug":"the-jackbox-party-pack-2","name":"The Jackbox Party Pack 2"},{"rawg_id":342,"slug":"the-jackbox-party-pack","name":"The Jackbox Party Pack"}]
 franchise_slug: "the-jackbox-party-pack|the-jackbox-party-pack-2|the-jackbox-party-pack-3|the-jackbox-party-pack-4|the-jackbox-party-pack-5|the-jackbox-party-pack-6|the-jackbox-party-pack-7|the-jackbox-party-pack-8|the-jackbox-party-pack-9"
 igdb_url: "https://www.igdb.com/games/the-jackbox-party-pack-4"
 was_free_before: true
-giveaway_events: [{"_id":"69286915e164247289f3d6e0","id":"da763a33956745888bea060de7ecf059","namespace":"snowdrop","startDate":"2025-12-04T16:00:00.000Z","endDate":"2025-12-11T16:00:00.000Z","title":"The Jackbox Party Pack 4","__v":0}]
+giveaway_events: [{"start":"2025-12-04","end":"2025-12-11"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/610180/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/610180/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

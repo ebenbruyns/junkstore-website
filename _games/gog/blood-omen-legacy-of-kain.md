@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 4.5
+gog_rating_count: 890
 
 # Game Info
 publisher: Activision, Crystal Dynamics, Sony Computer Entertainment, Square Enix Europe
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"}]
 size: "583 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":1015975,"slug":"legacy-of-kain-ascendance","name":"Legacy of Kain: Ascendance"},{"rawg_id":1015978,"slug":"legacy-of-kain-defiance-remastered","name":"Legacy of Kain: Defiance Remastered"},{"rawg_id":989747,"slug":"legacy-of-kain-soul-reaver-12-remastered","name":"Legacy of Kain Soul Reaver 1&2 Remastered"},{"rawg_id":10118,"slug":"legacy-of-kain-defiance","name":"Legacy of Kain: Defiance"},{"rawg_id":22870,"slug":"legacy-of-kain-blood-omen-2","name":"Legacy of Kain: Blood Omen 2"},{"rawg_id":10119,"slug":"legacy-of-kain-soul-reaver-2","name":"Legacy of Kain: Soul Reaver 2"},{"rawg_id":5158,"slug":"legacy-of-kain-soul-reaver","name":"Legacy of Kain: Soul Reaver"},{"rawg_id":42391,"slug":"nosgoth","name":"Nosgoth"}]
 franchise_slug: "blood-omen-legacy-of-kain|legacy-of-kain-ascendance|legacy-of-kain-blood-omen-2|legacy-of-kain-defiance|legacy-of-kain-defiance-remast|legacy-of-kain-soul-reaver|legacy-of-kain-soul-reaver-12-|legacy-of-kain-soul-reaver-2|nosgoth"
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/07e821ef6805f37dc0baa9b5a0afc9ea9873766c093
 icon_image: "https://images.gog.com/2052f7ddc8cf0565c78ab2dc05ba023422f83537ad621eaff8f9f1005462dd7f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

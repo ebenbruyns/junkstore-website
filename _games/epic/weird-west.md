@@ -20,6 +20,14 @@ protondb_total: 29
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 4437
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Devolver Digital
@@ -32,8 +40,10 @@ release_date: "March 31, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Russian","Simplified Chinese","Traditional Chinese","Korean","Portuguese - Brazil"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"21139","name":"Amazing Characters"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
-size: ""
+tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+size: "12101 MB"
+install_size: "12101 MB"
+achievements_total: 53
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/weird-west"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9731637da397edd662030d563c33d46c0737e8769c6
 icon_image: "https://images.gog.com/6b39a8ecbd1722c4694d6fcbb170950fe2699c33cd952224b379f512bb5340cb.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

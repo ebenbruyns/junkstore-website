@@ -18,27 +18,37 @@ protondb_tier: "silver"
 protondb_score: 0.42
 protondb_total: 36
 protondb_confidence: "strong"
-steam_deck_verified: "playable"
-steam_deck_category: 2
+steam_deck_verified: "unsupported"
+steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 6503
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: SEGA
 developer: Creative Assembly
 genre: Action, Strategy
 franchise: Total War
-age_rating_summary: T (ESRB) · 16 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Mild Language, Alcohol Reference"},"pegi":{"rating":"16","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"M","descriptors":"Mature themes and violence, online interactvity and chat"},"kgrb":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "July 25, 2024"
+release_date: "February 11, 2026"
 game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"16011","name":"Epic MEGA Sale"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"}]
+size: "51171 MB"
+install_size: "74822 MB"
+achievements_total: 105
 franchise_siblings: []
 franchise_slug: "empire-total-war|medieval-ii-total-war|medieval-total-war|napoleon-total-war|rome-total-war|shogun-total-war|total-war|total-war-attila|total-war-battles-kingdom|total-war-battles-shogun|total-war-pharaoh|total-war-rome-ii|total-war-rome-ii-emperor-edit|total-war-rome-remastered|total-war-saga-thrones-of-brit|total-war-saga-troy|total-war-shogun-2|total-war-three-kingdoms|total-war-warhammer|total-war-warhammer-ii|total-war-warhammer-iii"
 igdb_url: "https://www.igdb.com/games/250531"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2951630/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2951630/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

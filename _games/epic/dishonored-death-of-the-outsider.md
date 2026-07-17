@@ -20,25 +20,35 @@ protondb_total: 79
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 13189
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Bethesda Softworks
 developer: Arkane Studios
 genre: Action, Stealth, Adventure
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence and Bad Language"},"usk":{"rating":"18"},"cero":{"rating":"Z"},"oflc":{"rating":"ma15","descriptors":"Strong Bloody Violence"},"nzoflc":{"rating":"r16","descriptors":"Graphic Violence"},"fpb":{"rating":"18"},"csrr":{"rating":"R"},"dejus":{"rating":"16","descriptors":"Language and Violence"}}
-release_date: "September 14, 2017"
+release_date: "December 15, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Portuguese - Brazil","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Portuguese - Brazil"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "30316 MB"
+install_size: "32544 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":864,"slug":"dishonored-2","name":"Dishonored 2"},{"rawg_id":4248,"slug":"dishonored","name":"Dishonored"}]
 franchise_slug: "dishonored|dishonored-2|dishonored-death-of-the-outsid"
 igdb_url: "https://www.igdb.com/games/11118"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d53631f27c961ebbc1","id":"faf518d367de4306a911ce211c8e47e4","namespace":"87c84bc5f43d4fe69ad8f3ccde0594b0","startDate":"2023-02-01T15:00:00.000Z","endDate":"2023-02-08T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-02-01","end":"2023-02-08"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/186704a0d6616c43b93c7122605f8b539b3abf95383
 icon_image: "https://images.gog.com/b56ac8e83d6d4ebd2b1bd097cba252b05289e4ee3fe935875d36a4a64a51d9a6.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

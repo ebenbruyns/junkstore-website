@@ -20,6 +20,14 @@ protondb_total: 314
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 76263
+gog_rating_value: 4.4
+gog_rating_count: 2176
 
 # Game Info
 publisher: Ninja Theory Ltd.
@@ -34,6 +42,8 @@ languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","Danish","Ger
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"64","name":"Fantasy"},{"id":"189","name":"Female Protagonist"},{"id":"34","name":"Violent"},{"id":"69","name":"Action-Adventure"},{"id":"41","name":"Dark"},{"id":"68","name":"Hack and Slash"},{"id":"40","name":"Dark Fantasy"},{"id":"77","name":"Realistic"},{"id":"91","name":"Walking Simulator"},{"id":"270","name":"Blood"},{"id":"285","name":"Psychological"},{"id":"108","name":"Mythology"}]
 size: ""
+install_size: ""
+achievements_total: 14
 franchise_siblings: [{"rawg_id":398401,"slug":"senuas-saga-hellblade-ii","name":"Senua's Saga: Hellblade II"}]
 franchise_slug: "hellblade-senuas-sacrifice|senuas-saga-hellblade-ii"
 igdb_url: "https://www.igdb.com/games/hellblade-senuas-sacrifice"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e3a58ceb5ae56a1c5d55765fc7c79d64349b1fd113c
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/414340/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/41638"
 store_url: "https://www.gog.com/en/game/hellblade_senuas_sacrifice_pack"
 protondb_url: "https://www.protondb.com/app/414340"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hellblade%3A_Senua%27s_Sacrifice"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hellblade:_Senua's_Sacrifice"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/hellblade-senuas-sacrifice/"
 

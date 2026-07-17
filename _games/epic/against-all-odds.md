@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 64
+steam_review_total: 251
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Freedom Games
@@ -32,13 +40,15 @@ release_date: "May 4, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1283","name":"Sports"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1283","name":"Sports"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+size: "690 MB"
+install_size: "863 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/against-all-odds--2"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d33631f27c961ebb40","id":"5b99274688e9465aa9d5ca5cea176cfd","namespace":"676a89b2e8344c9db39a79724150cba6","startDate":"2023-05-03T15:00:00.000Z","endDate":"2023-05-10T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-05-03","end":"2023-05-10"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1465560/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1465560/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

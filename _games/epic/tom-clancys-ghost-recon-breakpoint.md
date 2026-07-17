@@ -20,6 +20,14 @@ protondb_total: 113
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 43361
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ubisoft Entertainment
@@ -34,6 +42,8 @@ languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Cz
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Spanish - Latin America"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1370","name":"Single Player"},{"id":"1210","name":"Shooter"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":10125,"slug":"tom-clancys-ghost-recon-wildlands-2","name":"Tom Clancy's Ghost Recon Wildlands"},{"rawg_id":40910,"slug":"tom-clancys-ghost-recon-phantoms","name":"Tom Clancy's Ghost Recon Phantoms"},{"rawg_id":4345,"slug":"ghost-recon-future-soldier","name":"Tom Clancy's Ghost Recon: Future Soldier"},{"rawg_id":24174,"slug":"tom-clancys-ghost-recon-shadow-wars","name":"Tom Clancy's Ghost Recon Shadow Wars"},{"rawg_id":4847,"slug":"tom-clancys-ghost-recon-predator","name":"Tom Clancy's Ghost Recon Predator"},{"rawg_id":4679,"slug":"tcs-graw2","name":"Tom Clancy's Ghost Recon Advanced Warfighter 2"},{"rawg_id":36777,"slug":"tcs-graw","name":"Tom Clancy's Ghost Recon: Advanced Warfighter"},{"rawg_id":35626,"slug":"tom-clancys-ghost-recon-2","name":"Tom Clancy's Ghost Recon 2"},{"rawg_id":359003,"slug":"tom-clancys-ghost-recon-jungle-storm","name":"Tom Clancy's Ghost Recon: Jungle Storm"},{"rawg_id":353412,"slug":"tom-clancys-ghost-recon-2-summit-strike","name":"Tom Clancy's Ghost Recon 2: Summit Strike"},{"rawg_id":31741,"slug":"tom-clancys-ghost-recon-island-thunder-2","name":"Tom Clancy's Ghost Recon: Island Thunder"},{"rawg_id":29696,"slug":"tom-clancys-ghost-recon-desert-siege","name":"Tom Clancy's Ghost Recon: Desert Siege"},{"rawg_id":14002,"slug":"tom-clancys-ghost-recon","name":"Tom Clancy's Ghost Recon"},{"rawg_id":674192,"slug":"tom-clancys-ghost-recon-frontline","name":"Tom Clancy's Ghost Recon Frontline"}]
 franchise_slug: "ghost-recon-future-soldier|tcs-graw|tcs-graw2|tom-clancys-ghost-recon|tom-clancys-ghost-recon-2|tom-clancys-ghost-recon-2-summ|tom-clancys-ghost-recon-breakp|tom-clancys-ghost-recon-desert|tom-clancys-ghost-recon-frontl|tom-clancys-ghost-recon-island|tom-clancys-ghost-recon-jungle|tom-clancys-ghost-recon-phanto|tom-clancys-ghost-recon-predat|tom-clancys-ghost-recon-shadow|tom-clancys-ghost-recon-wildla"
 igdb_url: "https://www.igdb.com/games/tom-clancys-ghost-recon-breakpoint"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5aabab35a2741c43195af64ebe7040737995be65588
 icon_image: "https://images.gog.com/de6bc00087302ccfd1fd14e76c0a95f7fb519c91419a09d17f2fd67dd5290bc3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/67987"
 store_url: "https://store.epicgames.com/en-US/p/ghost-recon-breakpoint"
 protondb_url: "https://www.protondb.com/app/2231380"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tom_Clancy%27s_Ghost_Recon_Breakpoint"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Ghost_Recon_Breakpoint"
 metacritic_score: 56
 metacritic_url: "https://www.metacritic.com/game/tom-clancys-ghost-recon-breakpoint/"
 

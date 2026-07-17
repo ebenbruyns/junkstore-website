@@ -20,6 +20,14 @@ protondb_total: 56
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 31197
+gog_rating_value: 4.3
+gog_rating_count: 615
 
 # Game Info
 publisher: Supergiant Games
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"189","name":"Female Protagonist"},{"id":"97","name":"Action RPG"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"68","name":"Hack and Slash"},{"id":"102","name":"Turn-Based"},{"id":"111","name":"Short"},{"id":"99","name":"Isometric"},{"id":"226","name":"Cyberpunk"},{"id":"136","name":"Music"},{"id":"258","name":"Hand-drawn"},{"id":"200","name":"Narration"},{"id":"583","name":"Narrative"}]
 size: "2472 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/transistor"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2019-04-17","end":"2019-05-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fc51e64084e42ca3bfd43c8c9740d16758110447442
 icon_image: "https://images.gog.com/fc51e64084e42ca3bfd43c8c9740d167581104474421d5342a735fd7adef4b45.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

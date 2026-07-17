@@ -20,25 +20,35 @@ protondb_total: 48
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 6896
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: 505 Games
 developer: Typhoon Studios
 genre: Action, Exploration
 franchise: 
-age_rating_summary: T (ESRB)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "January 28, 2021"
+release_date: "January 28, 2020"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Spanish - Latin America"]
 languages_audio: ["English","French"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1381","name":"Exploration"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1381","name":"Exploration"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
 size: "5501 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/journey-to-the-savage-planet"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2021-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/880e167b491aab62723145f506f1b72e2b2bc9cdd8f
 icon_image: "https://images.gog.com/18cdc41bd2bc89d74b6956a41abfe87200e2f2eff0e4f4b30770d80b4c8638c3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

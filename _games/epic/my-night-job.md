@@ -20,25 +20,35 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 98
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Webcore Games
 developer: Webcore Games
 genre: Action, Horror, Platformer
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Blood"},"pegi":{"rating":"12","descriptors":"Violence"},"dejus":{"rating":"12"}}
-release_date: "April 21, 2016"
+release_date: "June 20, 2025"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Polish","Russian","Portuguese - Portugal","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"10719","name":"Mac OS"}]
-size: ""
+size: "137 MB"
+install_size: "552 MB"
+achievements_total: 14
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/my-night-job"
 was_free_before: true
-giveaway_events: [{"_id":"699728f688af394f008edba5","id":"0c9ceba4cc60473f97510ab2514a4b6e","namespace":"08e225ed73a2433198c025de20ec8173","startDate":"2026-02-26T16:00:00.000Z","endDate":"2026-03-05T16:00:00.000Z","title":"My Night Job","__v":0}]
+giveaway_events: [{"start":"2026-02-26","end":"2026-03-05"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/437100/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/437100/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

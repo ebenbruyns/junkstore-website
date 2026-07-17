@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 407
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Rose City Games, wiip, PlayEveryWare
@@ -28,17 +36,19 @@ genre: Turn-Based Strategy, Indie, Card Game
 franchise: 
 age_rating_summary: 7 (PEGI) · 6 (USK)
 age_ratings: {"pegi":{"rating":"7","descriptors":"Mild Violence"},"usk":{"rating":"6","descriptors":"Abstract Violence"},"oflc":{"rating":"PG","descriptors":"Mild Violence"},"kgrb":{"rating":"ALL","descriptors":"Fear / Horror / Threatening, Violence"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "May 24, 2022"
+release_date: "July 11, 2024"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "1052 MB"
+install_size: "1233 MB"
+achievements_total: 18
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/floppy-knights"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1c93631f27c961eb81e","id":"2e84cea730144ac79c3b7f34a2e20d3f","namespace":"f7ca5706875344d8a1fe695093353fae","startDate":"2024-07-10T15:00:00.000Z","endDate":"2024-07-17T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-07-10","end":"2024-07-17"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/294e69ecff539103f56cdcb5247e5c3b43554eade34
 icon_image: "https://images.gog.com/2319066743a0e33bdef380a37a9480c54e8b28bb8b2993e4e1964915eb6b8f73.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

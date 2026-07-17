@@ -20,25 +20,35 @@ protondb_total: 140
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 55567
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Team17 Digital
 developer: Black Salt Games
 genre: Horror, Exploration, Open World
 franchise: 
-age_rating_summary: 12 (USK)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"usk":{"rating":"12"},"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
-release_date: "March 30, 2023"
+release_date: "December 24, 2024"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Polish"]
 languages_audio: []
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "614 MB"
+install_size: "775 MB"
+achievements_total: 40
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/dredge"
 was_free_before: true
-giveaway_events: [{"_id":"6769810aaea32c2d459730b6","id":"c52eda250c0043358ee825b870d49fcd","namespace":"8b454b47f5544fc6829cf0fed42ebae0","startDate":"2024-12-24T16:00:00.000Z","endDate":"2024-12-25T16:00:00.000Z","title":"DREDGE","__v":0}]
+giveaway_events: [{"start":"2024-12-24","end":"2024-12-25"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fb262e008995fad102368fc360b2aeba0ffd6218680
 icon_image: "https://images.gog.com/069ed42dc14d22de574dc61b3d46c2f9690b6ca70288f23571aaa259b6bb5e93.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

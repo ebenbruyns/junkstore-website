@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 99
+steam_review_total: 187
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Animo Games Studio LLC
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","German","Japanese","Portuguese - Brazil","Simplified Chinese","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"},{"id":"1151","name":"Platformer"}]
-size: ""
+size: "868 MB"
+install_size: "2215 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/star-stuff"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-01-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/859a41cb4c414518865fc2e07d10cb3ce4db4988ced
 icon_image: "https://images.gog.com/0ea35cee69fa93abbc99c5f15eda0ac508632e4dd33066fd71ebdbcfe3c1991e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

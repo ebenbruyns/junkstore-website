@@ -20,6 +20,14 @@ protondb_total: 13
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Cross platform cloud saves not supported"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 8448
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Different Tales
@@ -34,11 +42,13 @@ languages: ["English","German","Czech","Dutch","Polish","Portuguese - Brazil","R
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "180 MB"
+install_size: "506 MB"
+achievements_total: 35
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/backpack-hero"
 was_free_before: true
-giveaway_events: [{"_id":"685be791d0a59468e4e9f5c2","id":"d95cc849f45e406e88c1c371c7af309f","namespace":"0dc17d69dbfa4dd7b4eeb480d3adad6d","startDate":"2025-07-03T15:00:00.000Z","endDate":"2025-07-10T15:00:00.000Z","title":"Backpack Hero","__v":0}]
+giveaway_events: [{"start":"2025-07-03","end":"2025-07-10"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b9b85c4a09ca47c6a48d8652d30db31cf938aaa6789
 icon_image: "https://images.gog.com/4474622eef651e3ec95156b4732f7c7037c4d1045fceb218884029eae2c7c5c3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

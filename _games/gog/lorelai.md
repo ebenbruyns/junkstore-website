@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 1649
+gog_rating_value: 4.1
+gog_rating_count: 186
 
 # Game Info
 publisher: Screen 7
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Czech","German","English","Spanish","Frenc
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"16","name":"Horror"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"}]
 size: "2392 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/lorelai"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/654b36507052f660e031ee9977dbc099f4a883ac796
 icon_image: "https://images.gog.com/070a7edc127818a46d9d5cad64ef97c5bfce6e13162d205932e1be329c640e2c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

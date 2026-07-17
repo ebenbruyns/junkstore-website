@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 3921
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Nightdive Studios
@@ -28,17 +36,19 @@ genre: Adventure
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência, Temas sensíveis, Linguagem imprópria"}}
-release_date: "October 17, 2013"
+release_date: "July 2, 2026"
 game_modes: ["Single Player"]
 languages: ["English","French","Italian","German","Spanish - Spain"]
 languages_audio: ["English","French","German","Spanish - Spain"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1198","name":"Retro"}]
 size: "611 MB"
+install_size: ""
+achievements_total: 13
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/i-have-no-mouth-and-i-must-scream"
 was_free_before: true
-giveaway_events: [{"_id":"6a3d394c8ba8ebe9446de4d8","id":"4ef54d5829b04656902dfa1f29b3b732","namespace":"2e13c6ccfb3147ec8c67985160c48296","startDate":"2026-07-02T15:00:00.000Z","endDate":"2026-07-09T15:00:00.000Z","title":"I Have No Mouth, and I Must Scream","__v":0}]
+giveaway_events: [{"start":"2026-07-02","end":"2026-07-09"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/903ed4ffc58f534785a65a1abace7b54c220e2e5012
 icon_image: "https://images.gog.com/fddb364800ae81ef7d4d6d4e6c4841c3039f7f09982d0390125e8cd4cf7cc923.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

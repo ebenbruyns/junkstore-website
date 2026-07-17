@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Daniel Linssen
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"45","name":"2D"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"639","name":"Roguelike"},{"id":"196","name":"Procedural Generation"},{"id":"717","name":"jumping"},{"id":"882","name":"Game Boy"},{"id":"887","name":"GBJam"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://cdn2.steamgriddb.com/thumb/271d440a11031f1d0d40e26e46999ae
 icon_image: "https://cdn2.steamgriddb.com/thumb/420f64a4fd57fd93e1fc45a0c9c5aa85.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

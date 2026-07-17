@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "7 user reviews"
+steam_review_percent: 71
+steam_review_total: 7
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Big Fish Games
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"8","name":"First-Person"},{"id":"69","name":"Action-Adventure"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"305","name":"Linear"},{"id":"142","name":"Detective"},{"id":"326","name":"Investigation"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/haunted-hotel-personal-nightmare-collectors-edition"
@@ -47,6 +57,9 @@ cover_image: "https://m.media-amazon.com/images/I/91SWxhaiMsL.jpg"
 icon_image: "https://m.media-amazon.com/images/I/618w5EJRmeL.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

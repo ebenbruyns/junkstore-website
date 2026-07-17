@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 2192
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Dreamhaven
@@ -28,17 +36,19 @@ genre: Role-playing (RPG)
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "April 23, 2025"
+release_date: "March 10, 2026"
 game_modes: ["Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Polish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish"]
-tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"1183","name":"Local Multiplayer"}]
-size: ""
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+size: "9129 MB"
+install_size: "10191 MB"
+achievements_total: 14
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sunderfolk"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-05-14","end":"2026-05-21"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5e3c7975110f3ea1d9e56f23fe7c12e0247c964bcfe
 icon_image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2414270/60c0c3f09f2e84a5b66b31faf8e488fbf1890480/capsule_184x69.jpg?t=1773940416"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

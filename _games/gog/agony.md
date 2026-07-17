@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 47
+steam_review_total: 2965
+gog_rating_value: 2.3
+gog_rating_count: 50
 
 # Game Info
 publisher: Forever Entertainment S. A., PlayWay
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"40850","name":"Steam Leaderboards"},{"id":"1","name":"Survival"},{"id":"34","name":"Violent"},{"id":"41","name":"Dark"},{"id":"44","name":"Nudity"},{"id":"17","name":"Survival Horror"},{"id":"50","name":"Sexual Content"},{"id":"187","name":"Demons"},{"id":"286","name":"Psychedelic"}]
 size: "13148 MB"
+install_size: ""
+achievements_total: 35
 franchise_siblings: [{"rawg_id":277931,"slug":"succubus","name":"SUCCUBUS"}]
 franchise_slug: "agony|succubus"
 igdb_url: "https://www.igdb.com/games/agony--1"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/487720/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/487720/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

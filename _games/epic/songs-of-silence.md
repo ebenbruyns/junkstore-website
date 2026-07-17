@@ -20,25 +20,35 @@ protondb_total: 10
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 2697
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Chimera Entertainment GmbH
 developer: Chimera Entertainment GmbH
 genre: Turn-Based Strategy, Fantasy, Indie
 franchise: 
-age_rating_summary: 12 (PEGI) · 12 (USK)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"pegi":{"rating":"12","descriptors":"Violence, Bad Language"},"usk":{"rating":"12","descriptors":"Kriegsthematik, Fantasy-Gewalt"},"kgrb":{"rating":"12"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "November 13, 2024"
+release_date: "November 13, 2025"
 game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Simplified Chinese","Russian","Korean","Turkish","Italian","Ukrainian","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "6586 MB"
+install_size: "7613 MB"
+achievements_total: 56
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/songs-of-silence"
 was_free_before: true
-giveaway_events: [{"_id":"690cc67cdb25beaced85b881","id":"25aa14df3f40465c8fb997de5d5cf8fe","namespace":"900054606a74444badf56b2f2abd7c69","startDate":"2025-11-13T16:00:00.000Z","endDate":"2025-11-20T16:00:00.000Z","title":"Songs of Silence","__v":0}]
+giveaway_events: [{"start":"2025-11-13","end":"2025-11-20"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2195410/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2195410/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,25 +20,35 @@ protondb_total: 8
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 978
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: IllFonic Publishing
 developer: IllFonic
 genre: Shooter
 franchise: 
-age_rating_summary: M (OFLC)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"oflc":{"rating":"M","descriptors":"Violence, online interactivity and in-game purchases"},"kgrb":{"rating":"15","descriptors":"Violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "July 18, 2023"
+release_date: "July 5, 2022"
 game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Traditional Chinese","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "6949 MB"
+install_size: "7334 MB"
+achievements_total: 50
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/arcadegeddon"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-09-01"},{"start":"2025-04-10","end":"2025-04-17"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a4bb7464d34a4542ea46a55c168f58cb7386d200419
 icon_image: "https://images.gog.com/924fbbd2ffe703a0dfb53847e87f778190fcb9693104f75cc8e5bfdaf083ab5e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

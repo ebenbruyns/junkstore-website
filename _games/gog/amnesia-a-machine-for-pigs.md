@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 70
+steam_review_total: 12052
+gog_rating_value: 3.2
+gog_rating_count: 552
 
 # Game Info
 publisher: Frictional Games
@@ -34,11 +42,13 @@ languages: ["Czech","German","English","Spanish","French","Hungarian","Italian",
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
 size: "2495 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":911543,"slug":"amnesia-the-bunker","name":"Amnesia: The Bunker"},{"rawg_id":427519,"slug":"amnesia-rebirth","name":"Amnesia: Rebirth"},{"rawg_id":13668,"slug":"amnesia-the-dark-descent","name":"Amnesia: The Dark Descent"}]
 franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|amnesia-the-dark-descent"
 igdb_url: "https://www.igdb.com/games/amnesia-a-machine-for-pigs"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2020-10-14","end":"2020-10-21"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/132f6bc800287ab73a8a23d4b7358c315c2bf7e4b85
 icon_image: "https://images.gog.com/34a0106583eb37c6d1ae152520f080b2d46265aa25ce03fc0d6f97f2ed9b4b5b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/438"
 store_url: "https://www.gog.com/en/game/amnesia_a_machine_for_pigs"
 protondb_url: "https://www.protondb.com/app/239200"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia%3A_A_Machine_for_Pigs"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia:_A_Machine_for_Pigs"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/amnesia-a-machine-for-pigs/"
 

@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 1130
+gog_rating_value: 4.4
+gog_rating_count: 62
 
 # Game Info
 publisher: Krillbite Studio
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English","French","German","Japanese","Simplified Chinese","Norwegian"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
 size: ""
+install_size: ""
+achievements_total: 30
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/fruitbus"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-05-07","end":"2026-06-10"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e681bada9d65113f40be2c15e72ab90a215e11be423
 icon_image: "https://images.gog.com/3a867b4348ca83f6c30bde86b483b5935cb431bab515ddc69feacd106c39c4e7.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

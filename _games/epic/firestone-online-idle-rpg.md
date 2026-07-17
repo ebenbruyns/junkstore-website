@@ -20,25 +20,35 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 6866
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Holyday Studios
 developer: Holyday Studios
 genre: Action, Casual, Adventure
 franchise: 
-age_rating_summary: 3 (PEGI) · 6 (USK)
+age_rating_summary: 10 (ESRB)
 age_ratings: {"pegi":{"rating":"3"},"usk":{"rating":"6","descriptors":"Comic Violence"},"cero":{"rating":"A"},"oflc":{"rating":"G","descriptors":"Online Interactivity, Very Mild Violence"},"nzoflc":{"rating":"G"},"fpb":{"rating":"A"},"csrr":{"rating":"G"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa, Violência"}}
-release_date: "April 1, 2024"
+release_date: "January 23, 2025"
 game_modes: ["Single-player","Online Multiplayer","Co-op"]
 languages: ["English","German","Spanish - Spain","Greek","Portuguese - Brazil","Russian","Simplified Chinese","French","Japanese","Korean","Polish","Traditional Chinese","Turkish","Danish","Finnish","Swedish","Portuguese - Portugal","Spanish - Latin America","Dutch","Italian","Czech","Hungarian","Norwegian","Ukrainian"]
-languages_audio: ["English","German","Spanish - Spain","Greek","Portuguese - Brazil","Russian","Simplified Chinese","French","Japanese","Korean","Polish","Traditional Chinese","Turkish","Danish","Finnish","Swedish","Portuguese - Portugal","Spanish - Latin America","Dutch","Italian","Czech","Hungarian","Norwegian","Ukrainian"]
+languages_audio: ["English","German","Spanish - Spain","Greek","Portuguese - Brazil","Russian","Simplified Chinese","French","Japanese","Korean","Polish","Traditional Chinese","Turkish","Danish","Finnish","Swedish","Portuguese - Portugal","Spanish - Latin America","Dutch","Italian","Czech","Hungarian","Norwegian","Ukrainian","Vietnamese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"29088","name":"Online Multiplayer"},{"id":"21894","name":"Cloud Saves"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"}]
-size: ""
+size: "312 MB"
+install_size: ""
+achievements_total: 75
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/firestone-online-idle-rpg"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-04-17","end":"2025-04-24"},{"start":"2025-10-02","end":"2025-10-09"},{"start":"2026-04-30","end":"2026-05-07"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7da6f26ca40b30dab24be3b62501f78e2e0511fa0c9
 icon_image: "https://images.gog.com/b2449c5b44e83b74a6d21e9b1cc7a3eb6da588b1667431a7e0aa5722a3e8695d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "touch-screen"
 community_layout: false
 required_launcher: ""

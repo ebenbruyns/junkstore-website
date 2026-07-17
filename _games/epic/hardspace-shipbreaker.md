@@ -20,6 +20,14 @@ protondb_total: 219
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 22162
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Blackbird Interactive
@@ -28,17 +36,19 @@ genre: Exploration, Simulation
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "May 24, 2022"
+release_date: "July 19, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","German","Simplified Chinese","Russian","Italian","Spanish - Spain","Portuguese - Brazil","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "2995 MB"
+install_size: "3459 MB"
+achievements_total: 27
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/hardspace-shipbreaker"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/74bb52664988d2780752672cdd60011e858426a4ce4
 icon_image: "https://images.gog.com/cc6b8f127af34914bad25df04ab682699982c9b051c1fee7962fe7bb3299c92b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/77865"
 store_url: "https://store.epicgames.com/en-US/p/hardspace-shipbreaker"
 protondb_url: "https://www.protondb.com/app/1161580"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hardspace%3A_Shipbreaker"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hardspace:_Shipbreaker"
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/hardspace-shipbreaker/"
 

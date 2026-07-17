@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 2570
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: StoreRider
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1296","name":"Casual"},{"id":"1370","name":"Single Player"},{"id":"39070","name":"iOS"},{"id":"1151","name":"Platformer"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":610300,"slug":"wonder-boy-asha-in-monster-world","name":"WONDER BOY ASHA in Monster World"},{"rawg_id":392059,"slug":"sega-ages-wonder-boy-monster-land","name":"SEGA AGES Wonder Boy: Monster Land"},{"rawg_id":45868,"slug":"monster-boy-and-the-cursed-kingdom","name":"Monster Boy and the Cursed Kingdom"},{"rawg_id":58,"slug":"wonder-boy-returns","name":"WONDER BOY RETURNS"},{"rawg_id":4374,"slug":"wonder-boy-in-monster-land","name":"Wonder Boy in Monster Land"},{"rawg_id":24777,"slug":"wonder-boy","name":"Wonder Boy"},{"rawg_id":57105,"slug":"monster-world-iv-1994","name":"Monster World IV (1994)"},{"rawg_id":4375,"slug":"wonder-boy-in-monster-world","name":"WONDER BOY IN MONSTER WORLD"},{"rawg_id":57232,"slug":"wonder-boy-in-monster-world-1991","name":"Wonder Boy in Monster World (1991)"},{"rawg_id":127688,"slug":"wonder-boy-iii-the-dragons-trap-2","name":"Wonder Boy III: The Dragon's Trap"}]
 franchise_slug: "monster-boy-and-the-cursed-kin|monster-world-iv-1994|sega-ages-wonder-boy-monster-l|wonder-boy|wonder-boy-asha-in-monster-wor|wonder-boy-iii-the-dragons-tra|wonder-boy-in-monster-land|wonder-boy-in-monster-world|wonder-boy-in-monster-world-19|wonder-boy-returns|wonder-boy-the-dragons-trap"
 igdb_url: "https://www.igdb.com/games/wonder-boy-the-dragons-trap"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2022-07-13","end":"2022-07-20"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/056e9a04957aeaf47b03a1870f39199e9ff27220e9c
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/543260/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/45210"
 store_url: "https://store.epicgames.com/en-US/p/wonder-boy-the-dragon-s-trap"
 protondb_url: "https://www.protondb.com/app/543260"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wonder_Boy%3A_The_Dragon%27s_Trap"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wonder_Boy:_The_Dragon's_Trap"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/wonder-boy-the-dragons-trap/"
 

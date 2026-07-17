@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 1675
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: MidBoss
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"134","name":"Anime"},{"id":"141","name":"Point & Click"},{"id":"165","name":"Colorful"},{"id":"226","name":"Cyberpunk"},{"id":"90","name":"Visual Novel"},{"id":"197","name":"Robots"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"96","name":"Kickstarter"},{"id":"42410","name":"LGBTQ+"},{"id":"309","name":"Dynamic Narration"},{"id":"151","name":"Modern"},{"id":"904","name":"Gay"},{"id":"1916","name":"memories"},{"id":"893","name":"queer"},{"id":"1918","name":"read"},{"id":"1919","name":"san-francisco"},{"id":"1917","name":"only"}]
-size: ""
+size: "556 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/2064-read-only-memories"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/27555895dd9600c72e7ca6dafd637f56251c84370db
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/330820/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

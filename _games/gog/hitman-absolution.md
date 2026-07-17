@@ -20,6 +20,14 @@ protondb_total: 137
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 62903
+gog_rating_value: 4.2
+gog_rating_count: 1050
 
 # Game Info
 publisher: Square Enix, Feral Interactive
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian","Japanese","Polish",
 languages_audio: ["English","French","German","Italian","Spanish - Spain","Polish","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"49","name":"Difficult"},{"id":"15","name":"Stealth"},{"id":"115","name":"Controller"},{"id":"80","name":"Tactical"},{"id":"150","name":"Third-Person Shooter"},{"id":"5","name":"Replay Value"},{"id":"110","name":"Cinematic"},{"id":"144","name":"Crime"},{"id":"305","name":"Linear"},{"id":"278","name":"Assassin"},{"id":"54","name":"Score Attack"}]
 size: "12513 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":452645,"slug":"hitman-3","name":"Hitman 3"},{"rawg_id":58654,"slug":"hitman-2","name":"Hitman 2"},{"rawg_id":10035,"slug":"hitman","name":"Hitman"},{"rawg_id":87356,"slug":"hitman-absolution-elite-edition","name":"Hitman: Absolution - Elite Edition"},{"rawg_id":1628,"slug":"hitman-go","name":"Hitman GO"},{"rawg_id":19569,"slug":"hitman-blood-money","name":"Hitman: Blood Money"},{"rawg_id":22961,"slug":"hitman-3-contracts","name":"Hitman: Contracts"},{"rawg_id":19592,"slug":"hitman-2-silent-assassin","name":"Hitman 2: Silent Assassin"},{"rawg_id":10049,"slug":"hitman-codename-47","name":"Hitman: Codename 47"}]
 franchise_slug: "hitman|hitman-2|hitman-2-silent-assassin|hitman-3|hitman-3-contracts|hitman-absolution|hitman-absolution-elite-editio|hitman-blood-money|hitman-codename-47|hitman-go"
 igdb_url: "https://www.igdb.com/games/hitman-absolution"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-07-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f0ef30838d95a796396425e626219578f07e5737ac8
 icon_image: "https://images.gog.com/89b2ba393a0c5bde92dae05f0c23f2d50f17bfb0720244c105516c1d84ac673c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

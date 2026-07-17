@@ -20,6 +20,14 @@ protondb_total: 57
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 18287
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Playwing
@@ -33,7 +41,9 @@ game_modes: ["Online Multiplayer"]
 languages: ["English","German","Spanish - Spain","Simplified Chinese","Portuguese - Brazil","Russian","French","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+size: "15368 MB"
+install_size: "15368 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/century-age-of-ashes"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/51e16ae6f0862a762324a853f7dffcb6799e7822e7d
 icon_image: "https://images.gog.com/1eb6898b9a7225cb0781f4e5018a44a6bc7c92a743a41206339bbdcd2eb72ba9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -66,7 +79,7 @@ epic_cloud_saves: false
 must_be_online: true
 
 # Anti-Cheat
-requires_eac_runtime: false
+requires_eac_runtime: true
 requires_battleye_runtime: false
 cant_test_linux: false
 

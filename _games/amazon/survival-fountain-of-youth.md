@@ -20,6 +20,14 @@ protondb_total: 11
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 4421
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Plug In Digital
@@ -34,11 +42,13 @@ languages: ["English","Simplified Chinese","French","German","Russian","Spanish 
 languages_audio: ["English"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"62","name":"Family Sharing"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/survival-fountain-of-youth"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-05-14","end":"2026-06-15"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://m.media-amazon.com/images/I/91ENK-vkosL.jpg"
 icon_image: "https://m.media-amazon.com/images/I/41Rk8aGJ44L.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 11627
+gog_rating_value: 4.4
+gog_rating_count: 491
 
 # Game Info
 publisher: Dr PinkCake
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"468","name":"role-playing"},{"id":"785","name":"Erotic"},{"id":"1402","name":"porn"},{"id":"45207","name":"porn-game"}]
 size: "6366 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/being-a-dik"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/57658322948dae6d0d0dc85cded52387d35bb430cd9
 icon_image: "https://images.gog.com/fdce54ab93af11eb3180afbf4ca8f596eef8151d1105755119f7d2caeca44fef.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

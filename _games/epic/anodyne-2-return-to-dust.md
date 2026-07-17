@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 816
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ratalaika Games
@@ -28,17 +36,19 @@ genre: Exploration, Adventure, Indie
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência, Medo"}}
-release_date: "August 12, 2019"
+release_date: "February 28, 2020"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Portuguese - Brazil","French","German","Spanish - Spain","Spanish - Latin America","Japanese","Russian","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "197 MB"
+install_size: "448 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/anodyne-2-return-to-dust"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2020-03-11","end":"2020-03-18"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f6dfb8bdccea769db4ef88f2960da287f75dbb748ae
 icon_image: "https://images.gog.com/183e9faf440f689e45b076acb9423b26ff3081f3db6bee8c75a75723e68985bf.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

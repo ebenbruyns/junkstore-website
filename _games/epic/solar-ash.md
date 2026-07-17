@@ -20,20 +20,30 @@ protondb_total: 12
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 1474
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Annapurna Interactive
 developer: Heart Machine
 genre: Action, Adventure, Indie
 franchise: 
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Fantasy Violence, Blood, Mild Language"},"pegi":{"rating":"12","descriptors":"Horror"},"usk":{"rating":"12","descriptors":"Belastende Themen, Fantasy-Gewalt"},"oflc":{"rating":"M","descriptors":"Fantasy violence"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "December 8, 2022"
+release_date: "December 2, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/solar-ash--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/95ca2e59883021dc694a8472e8fc8f68091c8414122
 icon_image: "https://images.gog.com/4c1eb26a369a2871c1d3b6a3eda9329d1b4fddb91a892b448ad630a09ebf77f6.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

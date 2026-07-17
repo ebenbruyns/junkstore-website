@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 3581
+gog_rating_value: 4.3
+gog_rating_count: 147
 
 # Game Info
 publisher: Visai Games
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"189","name":"Female Protagonist"},{"id":"145","name":"Choices Matter"},{"id":"125","name":"Crafting"},{"id":"110","name":"Cinematic"},{"id":"90","name":"Visual Novel"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"572","name":"Emotional"},{"id":"288","name":"Interactive Fiction"},{"id":"59643","name":"Протагонистка"},{"id":"224","name":"1980s"},{"id":"295","name":"Soundtrack"},{"id":"583","name":"Narrative"},{"id":"342","name":"Conversation"},{"id":"666","name":"cooking"},{"id":"66655","name":"Кулинария"}]
 size: "606 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/venba"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-07-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6d4bbe6cdd8703e97551d68befac8c20d9addd6f12f
 icon_image: "https://images.gog.com/375921e9d754cd72b0e5b7dc8418e100a653dce7bc6506437ec7c43656e997eb.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

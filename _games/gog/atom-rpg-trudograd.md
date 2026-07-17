@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 4413
+gog_rating_value: 4.3
+gog_rating_count: 159
 
 # Game Info
 publisher: AtomTeam
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","English","Spanish","French","Japanese","Polish
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"26","name":"Gore"},{"id":"6","name":"Exploration"},{"id":"193","name":"Classic"},{"id":"1","name":"Survival"},{"id":"34","name":"Violent"},{"id":"80","name":"Tactical"},{"id":"14","name":"Early Access"},{"id":"25","name":"Space"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"43","name":"Post-apocalyptic"},{"id":"5","name":"Replay Value"},{"id":"145","name":"Choices Matter"},{"id":"1465","name":"combat"},{"id":"99","name":"Isometric"},{"id":"50","name":"Sexual Content"},{"id":"119","name":"Dystopian"},{"id":"406","name":"Story"},{"id":"175","name":"Turn-Based Combat"},{"id":"808","name":"character"},{"id":"2030","name":"city"},{"id":"238","name":"CRPG"},{"id":"1529","name":"fight"},{"id":"326","name":"Investigation"},{"id":"1309","name":"hero"},{"id":"3046","name":"destroy"},{"id":"1746","name":"dialogue"}]
 size: "9433 MB"
+install_size: ""
+achievements_total: 32
 franchise_siblings: [{"rawg_id":11383,"slug":"atom-rpg","name":"Atom RPG"}]
 franchise_slug: "atom-rpg|atom-rpg-trudograd"
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e53c56ac94c36b5f78a21ec5955072ce690b600ba71
 icon_image: "https://images.gog.com/e53c56ac94c36b5f78a21ec5955072ce690b600ba719633f35d6d03e88781041.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

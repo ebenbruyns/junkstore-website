@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 490
+gog_rating_value: 4
+gog_rating_count: 156
 
 # Game Info
 publisher: Megamedia, WizardWorks Group, Inc., SNEG, GT Interactive Software
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"122","name":"Pixel Graphics"},{"id":"41","name":"Dark"},{"id":"74","name":"Retro"},{"id":"40","name":"Dark Fantasy"},{"id":"1465","name":"combat"},{"id":"46","name":"Surreal"},{"id":"243","name":"1990's"},{"id":"570","name":"Old School"},{"id":"49953","name":"Hero Shooter"}]
 size: "763 MB"
+install_size: ""
+achievements_total: 26
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/chasm-the-rift"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0488f348a2e487e3f3d1f6b5c504d1550ce20d1e759
 icon_image: "https://images.gog.com/1558f3997be9e6f3bffa63944355644c3d37834c03b7cd13f001907d28eb0cae.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/1658"
 store_url: "https://www.gog.com/en/game/chasmtherift"
 protondb_url: "https://www.protondb.com/app/2061230"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Chasm%3A_The_Rift"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Chasm:_The_Rift"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/chasm-the-rift/"
 

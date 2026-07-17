@@ -20,25 +20,35 @@ protondb_total: 36
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 11349
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: 505 Games
 developer: One More Level
 genre: Action, Adventure
 franchise: Ghostrunner
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Strong Language"},"pegi":{"rating":"18"},"usk":{"rating":"18","descriptors":"Drastische Gewalt"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria"}}
 release_date: "October 26, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Ukrainian"]
 languages_audio: ["English","Simplified Chinese","Traditional Chinese"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "34528 MB"
+install_size: "70986 MB"
+achievements_total: 34
 franchise_siblings: [{"rawg_id":366850,"slug":"ghostrunner","name":"Ghostrunner"}]
 franchise_slug: "ghostrunner|ghostrunner-2"
 igdb_url: "https://www.igdb.com/games/ghostrunner-ii"
 was_free_before: true
-giveaway_events: [{"_id":"68b99e31e47c29e0cd91802f","id":"be5600439b434624802764f704755cde","namespace":"708f57aaa04b42ef885be16c8288f0ac","startDate":"2025-09-11T15:00:00.000Z","endDate":"2025-09-18T15:00:00.000Z","title":"Ghostrunner 2","__v":0},{"_id":"676c4c5e7277ebb64bc91314","id":"be5600439b434624802764f704755cde","namespace":"708f57aaa04b42ef885be16c8288f0ac","startDate":"2024-12-26T16:00:00.000Z","endDate":"2024-12-27T16:00:00.000Z","title":"Ghostrunner 2","__v":0}]
+giveaway_events: [{"start":"2024-12-26","end":"2024-12-27"},{"start":"2025-09-11","end":"2025-09-18"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a969a5dced891995149845576f5c814e2f60c57146a
 icon_image: "https://images.gog.com/916054a7da196bb23e1c50bd29511ada7c87ea1db08de1d26339b829f25dc66b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

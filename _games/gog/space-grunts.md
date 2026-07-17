@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 78
+gog_rating_value: 3.7
+gog_rating_count: 9
 
 # Game Info
 publisher: Orangepixel, HandyGames
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"29","name":"Steam Trading Cards"},{"id":"23","name":"Steam Cloud"},{"id":"25","name":"Steam Leaderboards"},{"id":"62","name":"Family Sharing"}]
 size: "77 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-05-21","end":"2026-08-20"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6a7fb41758bacf2ed66b28dc08f3fd35609127d0d70
 icon_image: "https://images.gog.com/d5f73d05fb0c5218d13660eb08240796219bf3b1edb21466ebbf2713e4ddc71b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

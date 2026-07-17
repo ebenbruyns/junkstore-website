@@ -20,6 +20,14 @@ protondb_total: 32
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 52964
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Plug In Digital
@@ -33,7 +41,9 @@ game_modes: ["Single-player","Multi-player","PvP","Online PvP","Co-op","Remote P
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Portugal","Russian","Simplified Chinese","Italian","Polish","Portuguese - Brazil","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"4","name":"Funny"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"37","name":"Sandbox"},{"id":"14","name":"Early Access"},{"id":"40852","name":"Steam Workshop"},{"id":"114","name":"Physics"},{"id":"66","name":"Medieval"},{"id":"39","name":"Building"},{"id":"337","name":"overlay"},{"id":"270","name":"Blood"},{"id":"51","name":"Destruction"},{"id":"340","name":"in development"}]
-size: ""
+size: "4019 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/besiege"
@@ -47,6 +57,9 @@ cover_image: "https://m.media-amazon.com/images/I/A1quZkgvrsL.jpg"
 icon_image: "https://m.media-amazon.com/images/I/314dMqFjcsL.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

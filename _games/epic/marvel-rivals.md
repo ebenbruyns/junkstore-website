@@ -20,6 +20,14 @@ protondb_total: 1552
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 400728
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: UK Netease
@@ -33,7 +41,9 @@ game_modes: ["Online Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Turkish","Thai","Simplified Chinese","Traditional Chinese","Spanish - Latin America","Korean","Japanese","Polish","Portuguese - Brazil","Arabic"]
 languages_audio: ["English","Simplified Chinese","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "117298 MB"
+install_size: "119148 MB"
+achievements_total: 40
 franchise_siblings: []
 franchise_slug: "daredevil|deadpool|ghost-rider|guardians-of-the-galaxy|howard-the-duck|marvel-contest-of-champions|marvel-future-fight|marvel-future-revolution|marvel-heroes-omega|marvel-mighty-heroes|marvel-nemesis-rise-of-the-imp|marvel-pinball|marvel-powers-united-vr|marvel-puzzle-quest|marvel-realm-of-champions|marvel-strike-force|marvel-super-hero-squad|marvel-super-hero-squad-comic-|marvel-super-hero-squad-online|marvel-super-hero-squad-the-in|marvel-super-heroes|marvel-super-heroes-in-war-of-|marvel-super-war|marvel-trading-card-game|marvel-ult-alliance|marvel-ultimate-alliance-2|marvel-ultimate-alliance-3-the|marvels-avengers|marvels-guardians-of-the-galax|marvels-midnight-suns|silver-surfer|super-hero-squad-tig"
 igdb_url: "https://www.igdb.com/games/marvel-rivals"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/05bd5962720947491ef52e882d0b7373ecf5f4853a1
 icon_image: "https://images.gog.com/6ff5aa21eeaaf0812fcae7664310d81e5883b43063cf9f26342f57a8a34ea6b1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

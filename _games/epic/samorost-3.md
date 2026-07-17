@@ -20,6 +20,14 @@ protondb_total: 31
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 5506
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Amanita Design
@@ -28,17 +36,19 @@ genre: Puzzle, Adventure, Indie
 franchise: Samorost
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "March 24, 2016"
+release_date: "January 23, 2025"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Portuguese - Brazil","Bulgarian","Danish","Finnish","Dutch","Japanese","Korean","Hungarian","Norwegian","Polish","Portuguese - Portugal","Romanian","Russian","Thai","Traditional Chinese","Turkish","Ukrainian","Simplified Chinese","Czech","Greek","Swedish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Portuguese - Brazil","Bulgarian","Danish","Finnish","Dutch","Japanese","Korean","Hungarian","Norwegian","Polish","Portuguese - Portugal","Romanian","Russian","Thai","Traditional Chinese","Turkish","Ukrainian","Simplified Chinese","Czech","Greek","Swedish"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
 size: "957 MB"
+install_size: ""
+achievements_total: 30
 franchise_siblings: []
 franchise_slug: "samorost-2|samorost-3"
 igdb_url: "https://www.igdb.com/games/samorost-3"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-10-16","end":"2025-10-23"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/421120/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/421120/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 887
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Angry Mob Games
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Japanese","Simplified
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"189","name":"Female Protagonist"},{"id":"97","name":"Action RPG"},{"id":"14","name":"Early Access"},{"id":"41","name":"Dark"},{"id":"68","name":"Hack and Slash"},{"id":"167","name":"Futuristic"},{"id":"639","name":"Roguelike"},{"id":"203","name":"Beat 'em up"},{"id":"259","name":"Metroidvania"},{"id":"640","name":"Roguelite"},{"id":"116","name":"2.5D"},{"id":"59643","name":"Протагонистка"},{"id":"580","name":"Souls-like"},{"id":"49964","name":"Action Roguelike"}]
 size: "5316 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/trinity-fusion"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-05-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/09f5d9c109f2c9a2afdecfa395ba1aca495a98ef95f
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1911360/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

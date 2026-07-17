@@ -20,6 +20,14 @@ protondb_total: 24
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 5403
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Snapbreak Games
@@ -28,17 +36,19 @@ genre: Casual, Puzzle, Adventure
 franchise: 
 age_rating_summary: 6 (PEGI)
 age_ratings: {"pegi":{"rating":"6"},"dejus":{"rating":"L"}}
-release_date: "February 1, 2024"
+release_date: "February 26, 2026"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Indonesian","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"}]
 size: ""
+install_size: ""
+achievements_total: 12
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/boxes-lost-fragments"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-02-26","end":"2026-03-05"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2019810/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2019810/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

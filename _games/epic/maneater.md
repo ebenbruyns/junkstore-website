@@ -20,25 +20,35 @@ protondb_total: 44
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 25683
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Tripwire Interactive
 developer: Tripwire Interactive
 genre: Action, RPG
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Drug Reference, Intense Violence, Mature Humor, Mild Language"},"pegi":{"rating":"18","descriptors":"Violence"},"usk":{"rating":"16"},"oflc":{"rating":"ma15","descriptors":"Strong themes, Violence"},"nzoflc":{"rating":"M","descriptors":"Bloody Violence &amp; Cruelty"},"csrr":{"rating":"R","descriptors":"Violence, Inappropriate Language"},"dejus":{"rating":"16","descriptors":"Violência Extrema, Linguagem imprópria, Drogas lícitas"}}
-release_date: "May 25, 2021"
+release_date: "May 22, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish"]
 languages_audio: ["English","German","Portuguese - Brazil","Russian","Spanish - Latin America"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "17323 MB"
+install_size: "25448 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/maneater"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1dd3631f27c961ebdcb","id":"cf0f9c305d5d4dc9bd0fc4c14b5f2c5d","namespace":"turtle","startDate":"2022-06-08T15:00:00.000Z","endDate":"2022-06-15T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-06-08","end":"2022-06-15"},{"start":"2024-07-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/babf4ce95f73704060313ba2d52e2432aee419a5229
 icon_image: "https://images.gog.com/d23307fa4101b4e30c5adca61b3123cb29a2d5b8a73ab2f92e83c5efada5bd5b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

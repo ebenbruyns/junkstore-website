@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: GRYPHLINE
@@ -33,7 +41,9 @@ game_modes: ["Singleplayer","Multiplayer"]
 languages: ["Chinese (Simplified)","Chinese (Traditional)","English","Japanese","Korean","French","German","Indonesian","Italian","Portuguese (Brazil)","Russian","Spanish (Latin America)","Thai","Vietnamese"]
 languages_audio: []
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"31313","name":"First Run"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "126 MB"
+install_size: "269 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/194558"
@@ -47,6 +57,9 @@ cover_image: "https://cdn2.steamgriddb.com/thumb/83d54de90c45accd18b3eb06e959f4c
 icon_image: "https://cdn2.steamgriddb.com/icon_thumb/1e8517f2a11988b48f5e7f0e12401d93.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

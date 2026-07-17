@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 97
+steam_review_total: 3420
+gog_rating_value: 4.7
+gog_rating_count: 1386
 
 # Game Info
 publisher: Wadjet Eye Games
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Hungarian","Italian","Turkish
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"122","name":"Pixel Graphics"},{"id":"41","name":"Dark"},{"id":"74","name":"Retro"},{"id":"141","name":"Point & Click"},{"id":"43","name":"Post-apocalyptic"},{"id":"145","name":"Choices Matter"},{"id":"218","name":"Multiple Endings"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"197","name":"Robots"},{"id":"154","name":"Steampunk"},{"id":"289","name":"Noir"}]
 size: "1103 MB"
+install_size: ""
+achievements_total: 29
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/primordia"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2996bf2774f0ceb532ec5bac47db8decf31c8eb4cf4
 icon_image: "https://images.gog.com/6922c6b28802cf24148c0b3769b5298384f0513f4168d82439c588e6b6a804e3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

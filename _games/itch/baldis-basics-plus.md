@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 98
+steam_review_total: 11287
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: "Basically, Games!"
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"8","name":"First-Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"16","name":"Horror"},{"id":"4","name":"Funny"},{"id":"122","name":"Pixel Graphics"},{"id":"14","name":"Early Access"},{"id":"74","name":"Retro"},{"id":"17","name":"Survival Horror"},{"id":"639","name":"Roguelike"},{"id":"640","name":"Roguelite"},{"id":"46","name":"Surreal"},{"id":"243","name":"1990's"},{"id":"153","name":"Satire"},{"id":"273","name":"Parody"},{"id":"570","name":"Old School"},{"id":"579","name":"Addictive"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/02d30a3fbf5ad607dd10381bb680f0ddabab38b162d
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1275890/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -75,7 +88,7 @@ hltb_url: "https://howlongtobeat.com/game/81037"
 store_url: "https://basically-games.itch.io/baldis-basics-plus"
 protondb_url: "https://www.protondb.com/app/1275890"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Baldi%27s_Basics_Plus"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Baldi's_Basics_Plus"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/baldis-basics-plus/"
 

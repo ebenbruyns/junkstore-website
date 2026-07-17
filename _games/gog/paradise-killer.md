@@ -20,6 +20,14 @@ protondb_total: 37
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 4471
+gog_rating_value: 4.2
+gog_rating_count: 126
 
 # Game Info
 publisher: Fellow Traveller
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","English","Japanese","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"44","name":"Nudity"},{"id":"50","name":"Sexual Content"},{"id":"119","name":"Dystopian"},{"id":"90","name":"Visual Novel"}]
 size: "1893 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/paradise-killer"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-12-22","end":"2025-12-23"},{"start":"2026-06-11","end":"2026-07-16"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/876da2045125f68c716cc49339b45bb2875b45cf186
 icon_image: "https://images.gog.com/6da7cfe74764a4f780de331186ea90e6c6854ad3c6ada56158dcca498f2e315e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

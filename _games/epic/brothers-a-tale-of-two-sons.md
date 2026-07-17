@@ -20,6 +20,14 @@ protondb_total: 117
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 41248
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: 505 Games
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: []
 tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "1151 MB"
+install_size: "1421 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/brothers-a-tale-of-two-sons"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e03631f27c961ebe74","id":"751c3ae311cf48e1926233fdddae9cb8","namespace":"615659ff36244d258ef6c6a827e32c5d","startDate":"2022-02-16T15:00:00.000Z","endDate":"2022-02-23T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-02-16","end":"2022-02-23"},{"start":"2022-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/38843fd0b2952e518beda11fd59cf0f80215991a5a9
 icon_image: "https://images.gog.com/3c09148d2a14bcc7a8d4928315de283272b40b1d6868ba9f73b369f70865f1e2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/12660"
 store_url: "https://store.epicgames.com/en-US/p/brothers-a-tale-of-two-sons"
 protondb_url: "https://www.protondb.com/app/225080"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Brothers%3A_A_Tale_of_Two_Sons"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Brothers:_A_Tale_of_Two_Sons"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/brothers-a-tale-of-two-sons/"
 

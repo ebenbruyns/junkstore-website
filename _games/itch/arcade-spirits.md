@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 630
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: PQube
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"121","name":"Character Customization"},{"id":"145","name":"Choices Matter"},{"id":"192","name":"Mature"},{"id":"50","name":"Sexual Content"},{"id":"90","name":"Visual Novel"},{"id":"217","name":"Romance"},{"id":"160","name":"Dating Sim"},{"id":"42410","name":"LGBTQ+"},{"id":"40858","name":"Other"},{"id":"585","name":"LGBT"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":580700,"slug":"arcade-spirits-the-new-challengers","name":"Arcade Spirits: The New Challengers"}]
 franchise_slug: "arcade-spirits|arcade-spirits-the-new-challen"
 igdb_url: "https://www.igdb.com/games/arcade-spirits"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/910630/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/910630/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

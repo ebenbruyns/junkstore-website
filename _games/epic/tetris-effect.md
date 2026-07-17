@@ -20,6 +20,14 @@ protondb_total: 146
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 8921
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Enhance
@@ -34,6 +42,8 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1159","name":"Arcade"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1179","name":"VR"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":58818,"slug":"tetris-effect","name":"Tetris Effect"}]
 franchise_slug: "tetris-effect|tetris-effect-connected"
 igdb_url: "https://www.igdb.com/games/tetris-effect"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1003590/library_600x900
 icon_image: "https://images.gog.com/f26f06bb4dc49bc8ebcb08565dd811402d75ae41733f822cdefff895885a9224.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/84923"
 store_url: "https://store.epicgames.com/en-US/p/tetris-effect"
 protondb_url: "https://www.protondb.com/app/1003590"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tetris_Effect%3A_Connected"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tetris_Effect:_Connected"
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/tetris-effect/"
 

@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 1635
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: "Yak & Co"
@@ -28,17 +36,19 @@ genre: Role-playing (RPG)
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "January 14, 2021"
+release_date: "May 21, 2099"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Arabic","Dutch","Turkish"]
 languages_audio: []
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"62","name":"Family Sharing"}]
 size: "372 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
 was_free_before: true
-giveaway_events: [{"_id":"6a05d95f175a0ecbe8e09358","id":"cd37ebd7ce804df9b51b84578e631b8a","namespace":"d5241c76f178492ea1540fce45616757","startDate":"2026-05-21T15:00:00.000Z","endDate":"2026-05-28T15:00:00.000Z","title":"Down in Bermuda","__v":0}]
+giveaway_events: [{"start":"2026-05-21","end":"2026-05-28"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6cc00a1162dbb0a5c59bcc8bad932c0feb67ece2340
 icon_image: "https://images.gog.com/3ac24b55fb4e39bd00fd97d8b8b5a6033831b9aefd85bd51f895d76da5aea8eb.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -88,7 +101,7 @@ metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/down-in-bermuda/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
+opencritic_id: "10767/down-in-bermuda"
 opencritic_url: "https://opencritic.com/game/10767/down-in-bermuda"
 opencritic_score: 64
 opencritic_review_count: 8

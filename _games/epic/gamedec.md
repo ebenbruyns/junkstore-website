@@ -20,6 +20,14 @@ protondb_total: 18
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 1714
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Anshar Publishing
@@ -34,6 +42,8 @@ languages: ["English","Polish","German","Simplified Chinese","Russian","French",
 languages_audio: []
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "9109 MB"
+install_size: "15457 MB"
+achievements_total: 52
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/gamedec"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3aee41efec12f662c7adc05eda61e6570f05628e8e0
 icon_image: "https://images.gog.com/34bac5ad8bd5fb7675c91c4b78aab0239f1c68e9a8db2d5e1715d39859081392.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Netmarble Monster
@@ -33,12 +41,14 @@ game_modes: ["Single Player"]
 languages: ["Korean","English","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"33639","name":"Promotional Content"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1198","name":"Retro"}]
-size: ""
+size: "841 MB"
+install_size: "934 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
 was_free_before: true
-giveaway_events: [{"_id":"69cdb1812d378580942c07e6","id":"9f67865fcf0749a58f4d35827473266f","namespace":"7de6896ed120435fba9433d2732dadb4","startDate":"2026-04-02T00:00:00.000Z","endDate":"2026-04-16T15:00:00.000Z","title":"TOMAK: Save the Earth Regeneration","__v":0}]
+giveaway_events: [{"start":"2026-04-02","end":"2026-04-16"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5c
 icon_image: "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-logo-k9ad9.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

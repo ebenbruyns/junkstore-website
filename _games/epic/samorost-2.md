@@ -20,6 +20,14 @@ protondb_total: 46
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 2889
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Amanita Design
@@ -28,17 +36,19 @@ genre: Puzzle, Adventure, Indie
 franchise: Samorost
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas"}}
-release_date: "December 10, 2009"
+release_date: "June 30, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Portuguese - Brazil","Bulgarian","Danish","Finnish","Dutch","Japanese","Korean","Spanish - Latin America","Hungarian","Norwegian","Polish","Portuguese - Portugal","Romanian","Russian","Thai","Traditional Chinese","Turkish","Ukrainian","Vietnamese","Simplified Chinese","Czech","Greek","Swedish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Arabic","Portuguese - Brazil","Bulgarian","Danish","Finnish","Dutch","Japanese","Korean","Spanish - Latin America","Hungarian","Norwegian","Polish","Portuguese - Portugal","Romanian","Russian","Thai","Traditional Chinese","Turkish","Ukrainian","Vietnamese","Simplified Chinese","Czech","Greek","Swedish"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: "114 MB"
+install_size: "145 MB"
+achievements_total: 13
 franchise_siblings: []
 franchise_slug: "samorost-2|samorost-3"
 igdb_url: "https://www.igdb.com/games/samorost-2"
 was_free_before: true
-giveaway_events: [{"_id":"68c2dd2552bb220796c45caa","id":"15176675e3bd4fcc98949566caa754e4","namespace":"3341d4dd5b8d44c3a372da3f10122485","startDate":"2025-09-18T15:00:00.000Z","endDate":"2025-09-25T15:00:00.000Z","title":"Samorost 2","__v":0}]
+giveaway_events: [{"start":"2025-09-18","end":"2025-09-25"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/40720/library_600x900.j
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/40720/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

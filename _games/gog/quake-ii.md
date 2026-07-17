@@ -20,6 +20,14 @@ protondb_total: 88
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 10204
+gog_rating_value: 4.8
+gog_rating_count: 311
 
 # Game Info
 publisher: Activision, TecToy, Hyperion Entertainment, Macmillan Digital Publishing
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"26","name":"Gore"},{"id":"193","name":"Classic"},{"id":"74","name":"Retro"},{"id":"62","name":"Moddable"},{"id":"131","name":"Fast-Paced"},{"id":"243","name":"1990's"},{"id":"52","name":"Arena Shooter"},{"id":"62349","name":"vr mod"}]
 size: "3612 MB"
+install_size: ""
+achievements_total: 13
 franchise_siblings: [{"rawg_id":968497,"slug":"quake-ii-enhanced-edition","name":"Quake II: Enhanced Edition"},{"rawg_id":43877,"slug":"quake-champions","name":"Quake Champions"},{"rawg_id":17473,"slug":"quake-live","name":"Quake Live"},{"rawg_id":36787,"slug":"enemy-territory-quake-wars","name":"Enemy Territory: Quake Wars"},{"rawg_id":17831,"slug":"quake-iv","name":"Quake IV"},{"rawg_id":54718,"slug":"quake-iii-arena-1999","name":"Quake III Arena"},{"rawg_id":23064,"slug":"quake-ii-quad-damage","name":"Quake II: Quad Damage"},{"rawg_id":54491,"slug":"quake","name":"Quake"}]
 franchise_slug: "enemy-territory-quake-wars|quake|quake-2|quake-champions|quake-ii-enhanced-edition|quake-ii-quad-damage|quake-iii-arena-1999|quake-iv|quake-live"
 igdb_url: "https://www.igdb.com/games/quake-ii--1"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c639df5ddcee19658d101de7293692738a47935c4f9
 icon_image: "https://images.gog.com/c5c504f49427b9182fff3f0d3796c5db38bac9a9c9020da13d823ae30b4df46f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/7455"
 store_url: "https://www.gog.com/en/game/quake_ii"
 protondb_url: "https://www.protondb.com/app/2320"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Quake_II_RTX"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Quake_II"
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/quake-ii-enhanced-edition/"
 

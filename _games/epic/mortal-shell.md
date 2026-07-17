@@ -20,6 +20,14 @@ protondb_total: 27
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 68
+steam_review_total: 11559
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Playstack Ltd
@@ -28,17 +36,19 @@ genre: Indie, RPG
 franchise: 
 age_rating_summary: M (ESRB) · 16 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Blood and Gore, Violence"},"pegi":{"rating":"16","descriptors":"Strong Violence, Use of Alcohol/Tobacco"},"usk":{"rating":"16","descriptors":"Gewalt"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Strong themes and violence"},"csrr":{"rating":"R"},"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "August 18, 2021"
+release_date: "August 18, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Portugal","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Russian","Ukrainian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: "8673 MB"
+install_size: "12219 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "mortal-shell|mortal-shell-tech-beta"
 igdb_url: "https://www.igdb.com/games/mortal-shell"
 was_free_before: true
-giveaway_events: [{"_id":"67c9bb414c1576dd4b2760dd","id":"10c62ba6044c4cbba8b50ad16dc58c4d","namespace":"ff8c96d781824ba1ae62d18d207fc52e","startDate":"2025-03-13T15:00:00.000Z","endDate":"2025-03-20T15:00:00.000Z","title":"Mortal Shell","__v":0},{"_id":"66abf1d73631f27c961ebc16","id":"10c62ba6044c4cbba8b50ad16dc58c4d","namespace":"ff8c96d781824ba1ae62d18d207fc52e","startDate":"2022-12-27T15:00:00.000Z","endDate":"2022-12-28T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-12-27","end":"2022-12-28"},{"start":"2025-03-13","end":"2025-03-20"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c5ba8aca686f0e168bb35a3bad3a2b1b48a4051421a
 icon_image: "https://images.gog.com/652afb5ec636a1c0e89913fd5dcc65bd138c2a9cf6a8ef001a9f1d3371dd0afd.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,25 +20,35 @@ protondb_total: 30
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 1979
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Games Operators, Modus Games
 developer: Jutsu Games
 genre: Action, RPG, Open World
 franchise: 
-age_rating_summary: M (ESRB) · 16 (USK)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Strong Language, Blood and Gore, Suggestive Themes, Use of Drugs, Violence"},"usk":{"rating":"16"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Violência, Atos criminosos, Linguagem imprópria"}}
-release_date: "August 31, 2021"
+release_date: "January 22, 2026"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Portuguese - Brazil","Korean","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
 size: "2292 MB"
+install_size: "4505 MB"
+achievements_total: 29
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/rustler"
 was_free_before: true
-giveaway_events: [{"_id":"69690f4271268c8ce78c88ef","id":"3d10f32b87b94b769524cd44a12e634a","namespace":"aca2ee0619aa482791f0a71dbf3eeac0","startDate":"2026-01-22T16:00:00.000Z","endDate":"2026-01-29T16:00:00.000Z","title":"Rustler - Grand Theft Horse","__v":0}]
+giveaway_events: [{"start":"2026-01-22","end":"2026-01-29"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/844260/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/844260/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

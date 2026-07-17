@@ -20,6 +20,14 @@ protondb_total: 18
 protondb_confidence: "good"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 3171
+gog_rating_value: 4.2
+gog_rating_count: 442
 
 # Game Info
 publisher: Good Shepherd Entertainment
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"16","name":"Horror"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"40","name":"Dark Fantasy"},{"id":"1465","name":"combat"},{"id":"99","name":"Isometric"},{"id":"101","name":"Turn-Based Strategy"},{"id":"61","name":"Top-Down"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"187","name":"Demons"},{"id":"279","name":"Supernatural"},{"id":"152","name":"Western"},{"id":"230","name":"Tactical RPG"},{"id":"298","name":"Grid-Based Movement"}]
 size: "21340 MB"
+install_size: ""
+achievements_total: 38
 franchise_siblings: [{"rawg_id":12893,"slug":"hard-west","name":"Hard West"}]
 franchise_slug: "hard-west|hard-west-2"
 igdb_url: "https://www.igdb.com/games/hard-west-2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/71f7dd3aded183188a0f6e889b8f3557a0fbd6e66fe
 icon_image: "https://images.gog.com/0b0cc689c22a83978737d0de517814f2f20570da6db6918d6c40f95b48bd9edf.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 4.1
+gog_rating_count: 296
 
 # Game Info
 publisher: Warner Bros. Interactive Entertainment
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"37796","name":"exclusive"},{"id":"418","name":"2 players"}]
 size: "224 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":868082,"slug":"mortal-kombat-onslaught","name":"Mortal Kombat: Onslaught"},{"rawg_id":960873,"slug":"mortal-kombat-1-2023","name":"Mortal Kombat 1"},{"rawg_id":767836,"slug":"mortal-kombat-kanos-dungeon","name":"Mortal Kombat Kano's Dungeon"},{"rawg_id":274480,"slug":"mortal-kombat-11","name":"Mortal Kombat 11"},{"rawg_id":108,"slug":"mortal-kombat-x","name":"Mortal Kombat X"},{"rawg_id":4628,"slug":"mortal-kombat-arcade","name":"Mortal Kombat Arcade Kollection"},{"rawg_id":343602,"slug":"mortal-kombat-2011","name":"Mortal Kombat (2011)"},{"rawg_id":5220,"slug":"mortal-kombat-unchained","name":"Mortal Kombat: Unchained"},{"rawg_id":4561,"slug":"mortal-kombat-vs-dcu","name":"Mortal Kombat vs. DC Universe"},{"rawg_id":25153,"slug":"mortal-kombat-armageddon","name":"Mortal Kombat: Armageddon"},{"rawg_id":241043,"slug":"mortal-kombat-shaolin-monks","name":"Mortal Kombat: Shaolin Monks"},{"rawg_id":56129,"slug":"mortal-kombat-deception","name":"Mortal Kombat: Deception"},{"rawg_id":53433,"slug":"mortal-kombat-deadly-alliance","name":"Mortal Kombat: Deadly Alliance"},{"rawg_id":57626,"slug":"mortal-kombat-special-forces","name":"Mortal Kombat: Special Forces"},{"rawg_id":54692,"slug":"mortal-kombat-gold","name":"Mortal Kombat Gold"},{"rawg_id":54447,"slug":"mortal-kombat-mythologies-sub-zero","name":"Mortal Kombat Mythologies: Sub-Zero"},{"rawg_id":29429,"slug":"mortal-kombat-4","name":"Mortal Kombat 4"},{"rawg_id":29427,"slug":"mortal-kombat-3","name":"Mortal Kombat 3"},{"rawg_id":29426,"slug":"mortal-kombat-2","name":"Mortal Kombat 2"},{"rawg_id":31629,"slug":"mortal-kombat-1993","name":"Mortal Kombat (1993)"},{"rawg_id":54285,"slug":"mortal-kombat","name":"Mortal Kombat"},{"rawg_id":366904,"slug":"ultimate-mortal-kombat","name":"Ultimate Mortal Kombat"}]
 franchise_slug: "mortal-kombat|mortal-kombat-1-2023|mortal-kombat-11|mortal-kombat-1993|mortal-kombat-2|mortal-kombat-2011|mortal-kombat-3|mortal-kombat-4|mortal-kombat-arcade|mortal-kombat-armageddon|mortal-kombat-deadly-alliance|mortal-kombat-deception|mortal-kombat-gold|mortal-kombat-kanos-dungeon|mortal-kombat-mythologies-sub-|mortal-kombat-onslaught|mortal-kombat-shaolin-monks|mortal-kombat-special-forces|mortal-kombat-trilogy|mortal-kombat-unchained|mortal-kombat-vs-dcu|mortal-kombat-x|ultimate-mortal-kombat"
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1c0b99f6103821f5bc15ef6f9bfa9a91d61b09ff46a
 icon_image: "https://images.gog.com/1c0b99f6103821f5bc15ef6f9bfa9a91d61b09ff46a2766224a36333d3291564.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

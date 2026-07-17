@@ -20,6 +20,14 @@ protondb_total: 16
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 5622
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Illfonic
@@ -28,17 +36,19 @@ genre: Action, Shooter
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Partial Nudity, Blood and Gore, Drug Reference, Intense Violence, Strong Language"},"pegi":{"rating":"18","descriptors":"Violence, Language"},"usk":{"rating":"18"},"cero":{"rating":"Z","descriptors":"Violence"},"oflc":{"rating":"ma15","descriptors":"Blood and Gore, Online Interactivity, Violence"},"nzoflc":{"rating":"r16","descriptors":"Graphic Violence"},"kgrb":{"rating":"18","descriptors":"Violence, Language"},"fpb":{"rating":"18"},"csrr":{"rating":"R"},"mda":{"rating":"M18"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Linguagem imprópria"}}
-release_date: "April 29, 2021"
+release_date: "December 31, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Dutch","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1090","name":"Tactical"},{"id":"1203","name":"Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":566454,"slug":"aliens-fireteam","name":"Aliens: Fireteam Elite"},{"rawg_id":287466,"slug":"alien-blackout","name":"Alien: Blackout"},{"rawg_id":43698,"slug":"aliens-vs-pinball","name":"Aliens vs. Pinball"},{"rawg_id":3556,"slug":"alien-isolation","name":"Alien: Isolation"},{"rawg_id":3991,"slug":"aliens-colonial-marines","name":"Aliens: Colonial Marines"},{"rawg_id":24277,"slug":"aliens-infestation","name":"Aliens: Infestation"},{"rawg_id":357882,"slug":"aliens-vs-predator-requiem","name":"Aliens vs. Predator: Requiem"},{"rawg_id":1305,"slug":"predators","name":"PREDATORS"},{"rawg_id":39277,"slug":"aliens-vs-predator-3","name":"Aliens vs. Predator"},{"rawg_id":58374,"slug":"predator-concrete-jungle","name":"Predator: Concrete Jungle"},{"rawg_id":58375,"slug":"aliens-versus-predator-extinction","name":"Aliens Versus Predator: Extinction"},{"rawg_id":29849,"slug":"aliens-versus-predator-2","name":"Aliens Versus Predator 2"},{"rawg_id":52659,"slug":"alien-resurrection","name":"Alien: Resurrection"},{"rawg_id":30261,"slug":"aliens-vs-predator","name":"Aliens Versus Predator"},{"rawg_id":40402,"slug":"aliens-online","name":"Aliens Online"},{"rawg_id":30513,"slug":"alien-trilogy","name":"Alien Trilogy"},{"rawg_id":817977,"slug":"alien-vs-predator-atari-jaguar","name":"Alien vs Predator (Atari Jaguar)"},{"rawg_id":813544,"slug":"alien-vs-predator-snes","name":"Alien vs Predator (SNES)"},{"rawg_id":546468,"slug":"predator-2-1992","name":"Predator 2 (1992)"},{"rawg_id":31898,"slug":"predator-2","name":"Predator 2"},{"rawg_id":53996,"slug":"predator","name":"Predator"},{"rawg_id":336797,"slug":"aliens-alien-2","name":"Aliens: Alien 2"},{"rawg_id":778187,"slug":"alien-atari-2600","name":"Alien (Atari 2600)"},{"rawg_id":380891,"slug":"predator-vr","name":"Predator VR"},{"rawg_id":479676,"slug":"predator-the-duel","name":"Predator -The Duel"},{"rawg_id":368107,"slug":"aliens-thanatos-encounter","name":"Aliens: Thanatos Encounter"},{"rawg_id":419913,"slug":"aliens-armageddon","name":"Aliens: Armageddon"},{"rawg_id":451525,"slug":"aliens-extermination","name":"Aliens: Extermination"}]
 franchise_slug: "alien-atari-2600|alien-blackout|alien-isolation|alien-resurrection|alien-trilogy|alien-vs-predator-atari-jaguar|alien-vs-predator-snes|aliens-alien-2|aliens-armageddon|aliens-colonial-marines|aliens-extermination|aliens-fireteam|aliens-infestation|aliens-online|aliens-thanatos-encounter|aliens-versus-predator-2|aliens-versus-predator-extinct|aliens-vs-pinball|aliens-vs-predator|aliens-vs-predator-3|aliens-vs-predator-requiem|predator|predator-2|predator-2-1992|predator-concrete-jungle|predator-hunting-grounds|predator-the-duel|predator-vr|predators"
 igdb_url: "https://www.igdb.com/games/predator-hunting-grounds"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a524c1ac7591f44448847228e29da4714fba003e99b
 icon_image: "https://images.gog.com/15f551db0bb35b5a66a4f3c54ae398ea122946440415c9e5eb754c4a990ba92a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/77687"
 store_url: "https://store.epicgames.com/en-US/p/predator-hunting-grounds"
 protondb_url: "https://www.protondb.com/app/1556200"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Predator%3A_Hunting_Grounds"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Predator:_Hunting_Grounds"
 metacritic_score: 56
 metacritic_url: "https://www.metacritic.com/game/predator-hunting-grounds/"
 

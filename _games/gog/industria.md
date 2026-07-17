@@ -20,6 +20,14 @@ protondb_total: 30
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 71
+steam_review_total: 4243
+gog_rating_value: 3.6
+gog_rating_count: 264
 
 # Game Info
 publisher: Headup Games
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"}]
 size: "9094 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/industria"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-04-24","end":"2024-05-01"},{"start":"2024-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0424514c2d6089337d143b2ca11a543dbb9cc4af075
 icon_image: "https://images.gog.com/ddfffeee5940a9b246ea06607f96bafdd8b0452891b72603b1083d204c8f842f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: true
 required_launcher: ""
@@ -89,10 +102,10 @@ metacritic_score: 67
 metacritic_url: "https://www.metacritic.com/game/industria/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "12070/industria"
+opencritic_url: "https://opencritic.com/game/12070/industria"
+opencritic_score: 63
+opencritic_review_count: 28
 twitch_id: ""
 twitch_url: ""
 playstation_id: "10004546"

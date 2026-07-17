@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 100
+steam_review_total: 26
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Crystal Game Works
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"25","name":"Space"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"46","name":"Surreal"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"116","name":"2.5D"},{"id":"572","name":"Emotional"},{"id":"91686","name":"Family Sharing"},{"id":"288","name":"Interactive Fiction"},{"id":"774","name":"nature"},{"id":"42410","name":"LGBTQ+"},{"id":"207","name":"Rhythm"},{"id":"84","name":"Abstract"},{"id":"174","name":"Audio Production"}]
-size: ""
+size: "304 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/asterism--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/dea4758faf3eea2dec348068fb2925c665d5a49a14a
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2187450/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

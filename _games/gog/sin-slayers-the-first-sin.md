@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 286
+gog_rating_value: 3
+gog_rating_count: 21
 
 # Game Info
 publisher: Black Tower Entertainment
@@ -34,6 +42,8 @@ languages: ["English","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"79","name":"Free to Play"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"40","name":"Dark Fantasy"},{"id":"125","name":"Crafting"},{"id":"639","name":"Roguelike"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"231","name":"Strategy RPG"}]
 size: "277 MB"
+install_size: ""
+achievements_total: 7
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fbb5045f22b300740e2757e75fa1b07cb4bcfcc7496
 icon_image: "https://images.gog.com/c329c0a550ce41f1277d7f5a2f9e70883847c76fa757225bccfe34159bc70de6.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 91
+gog_rating_value: 3.4
+gog_rating_count: 59
 
 # Game Info
 publisher: Andrealphus Games
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","English","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"468","name":"role-playing"},{"id":"44","name":"Nudity"},{"id":"145","name":"Choices Matter"},{"id":"50","name":"Sexual Content"},{"id":"406","name":"Story"},{"id":"67","name":"Management"},{"id":"90","name":"Visual Novel"},{"id":"334","name":"achievements"},{"id":"808","name":"character"},{"id":"160","name":"Dating Sim"},{"id":"2590","name":"fun"},{"id":"1709","name":"work"},{"id":"312","name":"NSFW"},{"id":"303","name":"Text-Based"},{"id":"892","name":"love"},{"id":"786","name":"hentai"},{"id":"58128","name":"Хентай"},{"id":"1156","name":"princess"},{"id":"2743","name":"dash"},{"id":"4132","name":"wizard"},{"id":"3729","name":"choices"},{"id":"1131","name":"sex"},{"id":"15556","name":"catch"},{"id":"2169","name":"kingdom"},{"id":"2791","name":"king"},{"id":"2110","name":"novel"}]
 size: "322 MB"
+install_size: ""
+achievements_total: 50
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/leap-of-love"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1786d8d1d8eb2a5739df22ba655c610f83d66551b85
 icon_image: "https://images.gog.com/89a0de7bc7b74ad5b4ad4110fa3bb2d5859bfaa69716a89bdf8941c6a8eddf41.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

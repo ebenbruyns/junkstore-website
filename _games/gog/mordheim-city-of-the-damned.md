@@ -20,6 +20,14 @@ protondb_total: 31
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 70
+steam_review_total: 8393
+gog_rating_value: 3.4
+gog_rating_count: 264
 
 # Game Info
 publisher: Focus Entertainment
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"40845","name":"Partial Controller Support"},{"id":"64","name":"Fantasy"},{"id":"115","name":"Controller"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"40","name":"Dark Fantasy"},{"id":"66","name":"Medieval"},{"id":"101","name":"Turn-Based Strategy"},{"id":"170","name":"Competitive"},{"id":"196","name":"Procedural Generation"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"124","name":"Perma Death"},{"id":"162","name":"Board Game"},{"id":"230","name":"Tactical RPG"},{"id":"29","name":"Games Workshop"}]
 size: "4973 MB"
+install_size: ""
+achievements_total: 100
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/mordheim-city-of-the-damned"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fb288e5d532c19b8558aabb4f8e4246178c5e241ac5
 icon_image: "https://images.gog.com/1aa180bc9c6709d00ad562f20a7bb4b28af031a028baf21be257f9d4ba058c55.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/25231"
 store_url: "https://www.gog.com/en/game/mordheim_city_of_the_damned"
 protondb_url: "https://www.protondb.com/app/276810"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mordheim%3A_City_of_the_Damned"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mordheim:_City_of_the_Damned"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/mordheim-city-of-the-damned/"
 

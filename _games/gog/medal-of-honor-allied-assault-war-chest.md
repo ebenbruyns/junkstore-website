@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 4.4
+gog_rating_count: 1538
 
 # Game Info
 publisher: Electronic Arts, Inc.
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"}]
 size: "2437 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":484696,"slug":"medal-of-honor-above-and-beyond","name":"Medal of Honor: Above and Beyond"},{"rawg_id":4219,"slug":"medal-of-honor-warfighter","name":"Medal of Honor: Warfighter"},{"rawg_id":5342,"slug":"medal-of-honor","name":"Medal of Honor"},{"rawg_id":5263,"slug":"medal-of-honor-heroes-2","name":"Medal of Honor Heroes 2"},{"rawg_id":28473,"slug":"medal-of-honor-airborne-2","name":"Medal of Honor: Airborne"},{"rawg_id":24893,"slug":"medal-of-honor-vanguard","name":"Medal of Honor: Vanguard"},{"rawg_id":5262,"slug":"medal-of-honor-heroes","name":"Medal of Honor: Heroes"},{"rawg_id":54441,"slug":"medal-of-honor-european-assault","name":"Medal of Honor: European Assault"},{"rawg_id":23129,"slug":"medal-of-honor-pacific-assault","name":"Medal of Honor: Pacific Assault"},{"rawg_id":53405,"slug":"medal-of-honor-infiltrator","name":"Medal of Honor: Infiltrator"},{"rawg_id":56115,"slug":"medal-of-honor-rising-sun-2003","name":"Medal of Honor: Rising Sun"},{"rawg_id":34781,"slug":"medal-of-honor-allied-assault-breakthrough","name":"Medal of Honor Allied Assault: Breakthrough"},{"rawg_id":29867,"slug":"medal-of-honor-allied-assault-spearhead","name":"Medal of Honor Allied Assault: Spearhead"},{"rawg_id":56114,"slug":"medal-of-honor-frontline","name":"Medal of Honor: Frontline"},{"rawg_id":30373,"slug":"medal-of-honor-allied-assault","name":"Medal of Honor: Allied Assault"},{"rawg_id":53406,"slug":"medal-of-honor-underground","name":"Medal of Honor: Underground"},{"rawg_id":54311,"slug":"medal-of-honor-1999","name":"Medal of Honor (1999)"}]
 franchise_slug: "medal-of-honor|medal-of-honor-1999|medal-of-honor-above-and-beyon|medal-of-honor-airborne-2|medal-of-honor-allied-assault|medal-of-honor-allied-assault-|medal-of-honor-allied-assault-|medal-of-honor-allied-assault-|medal-of-honor-european-assaul|medal-of-honor-frontline|medal-of-honor-heroes|medal-of-honor-heroes-2|medal-of-honor-infiltrator|medal-of-honor-pacific-assault|medal-of-honor-rising-sun-2003|medal-of-honor-underground|medal-of-honor-vanguard|medal-of-honor-warfighter"
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4df6247e22472fd759a6b2342f2d120b354bb60c55f
 icon_image: "https://images.gog.com/0fa9935044a4934cce427aa4ee54a913ab989f9da8d866ece065afbc441176af.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

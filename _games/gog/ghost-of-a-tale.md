@@ -20,6 +20,14 @@ protondb_total: 44
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 5270
+gog_rating_value: 4.5
+gog_rating_count: 748
 
 # Game Info
 publisher: Plug In Digital, SeithCG
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: []
 tags_structured: []
 size: "2812 MB"
+install_size: ""
+achievements_total: 20
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/ghost-of-a-tale"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b40c0a34c7c849c2060e3aab0e07281123e95f3216f
 icon_image: "https://images.gog.com/118ed75c7edf136a86e800b0f12d1171c21f9a68ca8d8f9bf143d8ce5ebe77d6.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 118
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 22092
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Subset Games
@@ -28,17 +36,19 @@ genre: Turn-Based Strategy, Turn-Based, Rogue-Lite, Strategy
 franchise: 
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Animated Blood, Fantasy Violence, Language"},"pegi":{"rating":"12","descriptors":"Bad Language"},"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Violência"}}
-release_date: "February 27, 2018"
+release_date: "December 19, 2019"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Arabic","Korean","Spanish - Latin America","Swedish","Thai","Traditional Chinese","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Arabic","Korean","Spanish - Latin America","Swedish","Thai","Traditional Chinese","Turkish"]
-tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "444 MB"
+install_size: "523 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/into-the-breach"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1ef3631f27c961ec23d","id":"a08681e2143d4c218167e45d76db8de0","namespace":"5c0d568c71174cff8026db2606771d96","startDate":"2020-09-02T15:00:00.000Z","endDate":"2020-09-09T15:00:00.000Z","__v":0},{"_id":"66abf1f83631f27c961ec47a","id":"a08681e2143d4c218167e45d76db8de0","namespace":"5c0d568c71174cff8026db2606771d96","startDate":"2019-12-18T15:00:00.000Z","endDate":"2019-12-19T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2019-12-18","end":"2019-12-19"},{"start":"2020-09-02","end":"2020-09-09"},{"start":"2025-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3950b262a9a2d4f10712a688f2687c9d166b03e931d
 icon_image: "https://images.gog.com/7c7579d6f9bf02de0810b2de594d9c1906620b046c6a98d1992e993ce690a3b6.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

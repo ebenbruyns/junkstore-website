@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 3697
+gog_rating_value: 3.8
+gog_rating_count: 205
 
 # Game Info
 publisher: Inceton games
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","English","Spanish","Russian"]
 languages_audio: ["English"]
 tags_structured: []
 size: "5727 MB"
+install_size: ""
+achievements_total: 50
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/lust-theory"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c02b1d6cf99510b88556e1f845ba6725a5131a71474
 icon_image: "https://images.gog.com/c7deec3469436f9ecf524f5c2138ad0296d0fd01d9100c37d96badb951f0bfde.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -62,7 +75,7 @@ dependencies:
 # website's GOG-Features section only shows Cloud Saves for now. Remove the
 # leading "# " on any line to enable that chip on the rendered page.)
 gog_cloud_saves: true
-# gog_achievements: false
+# gog_achievements: true
 # gog_overlay: true
 # gog_leaderboards: false
 

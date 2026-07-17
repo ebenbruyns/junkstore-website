@@ -20,6 +20,14 @@ protondb_total: 128
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 96485
+gog_rating_value: 4.7
+gog_rating_count: 1937
 
 # Game Info
 publisher: WB Games
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","French","Ital
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"26","name":"Gore"},{"id":"37","name":"Sandbox"},{"id":"15","name":"Stealth"},{"id":"97","name":"Action RPG"},{"id":"68","name":"Hack and Slash"},{"id":"40","name":"Dark Fantasy"},{"id":"82","name":"Magic"},{"id":"188","name":"Parkour"},{"id":"278","name":"Assassin"},{"id":"205","name":"Lore-Rich"},{"id":"283","name":"Based On A Novel"},{"id":"5842","name":"steam"},{"id":"7517","name":"category"},{"id":"44631","name":"microtranzations"}]
 size: "54741 MB"
+install_size: ""
+achievements_total: 74
 franchise_siblings: [{"rawg_id":25,"slug":"middle-earth-shadow-of-war","name":"Middle-earth: Shadow of War"}]
 franchise_slug: "middle-earth-shadow-of-war|shadow-of-mordor"
 igdb_url: "https://www.igdb.com/games/middle-earth-shadow-of-mordor"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/38e383367d9102dfce1de39be5036eec931b3a28f9d
 icon_image: "https://images.gog.com/6f928435959e80bdef736ac3026a9775f0e1f3c243b97b6a7afe0d47012df68c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/31384"
 store_url: "https://www.gog.com/en/game/middleearth_shadow_of_mordor"
 protondb_url: "https://www.protondb.com/app/241930"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Middle-earth%3A_Shadow_of_Mordor"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Middle-earth:_Shadow_of_Mordor"
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/middle-earth-shadow-of-mordor/"
 

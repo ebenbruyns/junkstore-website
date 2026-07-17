@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 703
+gog_rating_value: 4.1
+gog_rating_count: 163
 
 # Game Info
 publisher: OceanAVN
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"44","name":"Nudity"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"77","name":"Realistic"},{"id":"192","name":"Mature"},{"id":"110","name":"Cinematic"},{"id":"90","name":"Visual Novel"},{"id":"209","name":"Drama"},{"id":"217","name":"Romance"},{"id":"572","name":"Emotional"},{"id":"91686","name":"Family Sharing"},{"id":"160","name":"Dating Sim"},{"id":"288","name":"Interactive Fiction"},{"id":"42473","name":"Immersive Sim"},{"id":"309","name":"Dynamic Narration"},{"id":"312","name":"NSFW"},{"id":"66536","name":"Романтика"}]
 size: "9229 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/summers-gone-season-1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/eef1d1f92b622c382a80cc53e7c9b2f70c802510af0
 icon_image: "https://images.gog.com/7b5a17e98cb02454ff47e650c8c1243b0ff27e1674514dbcd7d90ecd57532816.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

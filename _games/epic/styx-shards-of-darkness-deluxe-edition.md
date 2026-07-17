@@ -20,6 +20,14 @@ protondb_total: 65
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 6913
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Nacon
@@ -32,13 +40,15 @@ release_date: "January 15, 2026"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Korean","Japanese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"19764","name":"Nacon Publisher Sale"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"19764","name":"Nacon Publisher Sale"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "10731 MB"
+install_size: "10690 MB"
+achievements_total: 37
 franchise_siblings: [{"rawg_id":1006936,"slug":"styx-blades-of-greed","name":"Styx: Blades of Greed"},{"rawg_id":3562,"slug":"styx-master-of-shadows","name":"Styx: Master of Shadows"},{"rawg_id":4228,"slug":"of-orcs-and-men","name":"Of Orcs and Men"}]
 franchise_slug: "of-orcs-and-men|styx-blades-of-greed|styx-master-of-shadows|styx-shards-of-darkness"
 igdb_url: "https://www.igdb.com/games/styx-shards-of-darkness"
 was_free_before: true
-giveaway_events: [{"_id":"695fe0b6b9a52099d4c819ca","id":"9b99ffa5a53e4317824f4ccb2b6e68d2","namespace":"795fdebb6c6e497d98cee43057286743","startDate":"2026-01-15T16:00:00.000Z","endDate":"2026-01-22T16:00:00.000Z","title":"Styx: Shards of Darkness - Deluxe Edition","__v":0}]
+giveaway_events: [{"start":"2026-01-15","end":"2026-01-22"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/355790/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/355790/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 1396
+gog_rating_value: 4.3
+gog_rating_count: 96
 
 # Game Info
 publisher: Akupara Games
@@ -34,11 +42,13 @@ languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","Danish","Ger
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"}]
 size: "2198 MB"
+install_size: ""
+achievements_total: 20
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/mutazione"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2020-03-11","end":"2020-03-18"},{"start":"2025-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5d1343810cbafd1a67667d47709f0a9d1c4e02b4aa3
 icon_image: "https://images.gog.com/b90dd63f27ac36271698eed2c6187f7cdec0f8a095117aae7abe6f1b70bbe273.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

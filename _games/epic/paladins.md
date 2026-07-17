@@ -20,6 +20,14 @@ protondb_total: 583
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Unsupported anti cheat configuration"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 345341
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Hi-Rez Studios
@@ -33,7 +41,9 @@ game_modes: ["Co-operative","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Turkish","Portuguese - Brazil","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21125","name":"Competitive Community"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "26490 MB"
+install_size: "30938 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/paladins"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0249e180986dfa55899dd17db68b95953e152d4227b
 icon_image: "https://images.gog.com/93c26e6c94e833bba81e8ecf17bf0a8de5309dab3d0f91f18b530647b2226f69.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -66,7 +79,7 @@ epic_cloud_saves: false
 must_be_online: true
 
 # Anti-Cheat
-requires_eac_runtime: false
+requires_eac_runtime: true
 requires_battleye_runtime: false
 cant_test_linux: false
 

@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 1710
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Rose City Games
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "90 MB"
+install_size: "90 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/garden-story"
 was_free_before: true
-giveaway_events: [{"_id":"67ae1431244b064e3c16af7b","id":"794bbf45d5fe451d9f805d99d30bbbd0","namespace":"0f3f352865294c3ea5e10454f24fde85","startDate":"2025-02-20T16:00:00.000Z","endDate":"2025-02-27T16:00:00.000Z","title":"Garden Story","__v":0}]
+giveaway_events: [{"start":"2025-02-20","end":"2025-02-27"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0cd098f59a34b974802fcb95c18010f33328b07ec37
 icon_image: "https://images.gog.com/88107dbc65b6b0c77c4f4c8be417f8b7ead669bfcc638e8b8c4a0efbe6bcb289.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

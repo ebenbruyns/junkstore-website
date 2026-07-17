@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 44
+gog_rating_value: 2.8
+gog_rating_count: 17
 
 # Game Info
 publisher: Orangepixel, HandyGames
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"7808","name":"steam-trading-cards"},{"id":"45","name":"2D"},{"id":"40850","name":"Steam Leaderboards"},{"id":"122","name":"Pixel Graphics"},{"id":"98","name":"Loot"}]
 size: "73 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "heroes-of-loot|heroes-of-loot-2"
 igdb_url: "https://www.igdb.com/games/heroes-of-loot-2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4a988fb8ffc3958cbdc7753ae13afa7e408d4948c2e
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/439880/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 11
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 8149
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Nival
@@ -28,17 +36,19 @@ genre: Simulation, Puzzle
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "January 17, 2019"
+release_date: "December 2, 2021"
 game_modes: ["Single player"]
 languages: ["English","Russian","German","Hungarian","Korean","Greek","Portuguese - Brazil","Simplified Chinese","Polish","French","Italian","Spanish - Spain","Czech","Japanese","Spanish - Latin America","Traditional Chinese","Turkish","Vietnamese","Arabic","Bulgarian","Danish","Dutch","Finnish","Indonesian","Portuguese - Portugal","Romanian","Swedish","Thai","Ukrainian","Hebrew","Norwegian","Malay"]
 languages_audio: []
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1102","name":"Programming"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"}]
-size: ""
+size: "812 MB"
+install_size: "812 MB"
+achievements_total: 28
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/while-true-learn"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e33631f27c961ebf1f","id":"154108003e4e4f099634188deb9a01b8","namespace":"9359fa123dbf4b89b7d70be316d7810c","startDate":"2021-12-01T15:00:00.000Z","endDate":"2021-12-08T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-12-01","end":"2021-12-08"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9c3a91b6fbf7e05009dadb8e38cb02f82694547707f
 icon_image: "https://images.gog.com/25fc593dfe2b9d96bb89e0b279b6c4cad73590514e7a8f5170ebdb9d17ca31db.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/56591"
 store_url: "https://store.epicgames.com/en-US/p/while-true-learn"
 protondb_url: "https://www.protondb.com/app/619150"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/While_True%3A_learn%28%29"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/While_True:_learn()"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/while-true-learn()?ftag=MCD-06-10aaa1f"
 

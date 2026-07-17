@@ -466,4 +466,9 @@ notes:
     type: beta
     text: No issues or breakages - [SteamOS 3.8.23
       Beta](https://store.steampowered.com/news/app/1675200/view/698770449667981485)
+  - id: 1784321063504ihqx
+    date: 2026-07-16T00:00:00
+    type: client-stable
+    text: No issues or breakages - [SteamOS
+      3.8.16](https://store.steampowered.com/news/app/1675200/view/698770449667981856)
 breakHistory: []

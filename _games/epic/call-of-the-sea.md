@@ -20,6 +20,14 @@ protondb_total: 40
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 6244
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Raw Fury
@@ -28,17 +36,19 @@ genre: Casual, Puzzle, Adventure
 franchise: 
 age_rating_summary: T (ESRB) · 7 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Blood, Violence, Use of Tobacco"},"pegi":{"rating":"7","descriptors":"Fear"},"usk":{"rating":"6","descriptors":"Rare Scary Situations"},"oflc":{"rating":"PG"},"csrr":{"rating":"G"},"dejus":{"rating":"L"}}
-release_date: "December 8, 2020"
+release_date: "February 17, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "11894 MB"
+install_size: "38532 MB"
+achievements_total: 34
 franchise_siblings: [{"rawg_id":1017859,"slug":"call-of-the-elder-gods","name":"Call of the Elder Gods"}]
 franchise_slug: "call-of-the-elder-gods|call-of-the-sea"
 igdb_url: "https://www.igdb.com/games/call-of-the-sea"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d53631f27c961ebb9b","id":"92da5d8d918543b6b408e36d9af81765","namespace":"5e427319eea1401ab20c6cd78a4163c4","startDate":"2023-03-08T15:00:00.000Z","endDate":"2023-03-15T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-03-08","end":"2023-03-15"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5e4472ad66f6234e17db6c3ce4d854d0235af8b2980
 icon_image: "https://images.gog.com/c5976299afe1c4767ba39658163f7bcb12769008ad9c8ca94ec353ea6a5a7407.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

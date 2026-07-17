@@ -20,6 +20,14 @@ protondb_total: 49
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 3860
+gog_rating_value: 4.1
+gog_rating_count: 955
 
 # Game Info
 publisher: Ubisoft Entertainment
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian","Dutch","Russian"]
 languages_audio: []
 tags_structured: [{"id":"1333","name":"android"}]
 size: "7242 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "prince-of-persia|prince-of-persia-2-the-shadow-|prince-of-persia-arabian-night|prince-of-persia-epilogue|prince-of-persia-escape|prince-of-persia-escape-2|prince-of-persia-nes|prince-of-persia-redemption|prince-of-persia-the-fallen-ki|prince-of-persia-the-forgotten|prince-of-persia-the-sands-of-|prince-of-persia-the-shadow-an|prince-of-persia-the-two-thron|prince-of-persia-warrior-withi"
 igdb_url: "https://www.igdb.com/games/prince-of-persia"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/bd9f0431ffa373766a4dab56d5b100c475507e862b3
 icon_image: "https://images.gog.com/57fffff759ab58e7aa97d5d2ca1f2fff20135f698a05cf38c2a9c6b0a6249ea2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/7288"
 store_url: "https://www.gog.com/en/game/prince_of_persia"
 protondb_url: "https://www.protondb.com/app/19980"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prince_of_Persia_%282008%29"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prince_of_Persia_(2008)"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/prince-of-persia-2008/"
 

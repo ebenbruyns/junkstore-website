@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Default controller config not fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 72
+steam_review_total: 2402
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Digerati
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "773 MB"
+install_size: "773 MB"
+achievements_total: 29
 franchise_siblings: [{"rawg_id":29228,"slug":"valfaris","name":"Valfaris"}]
 franchise_slug: "slain-back-from-hell|valfaris"
 igdb_url: "https://www.igdb.com/games/slain-back-from-hell"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1da3631f27c961ebd02","id":"e5267e621ed14b84829c82a69e289c8e","namespace":"5a85738bd9e74940ad8409ed8a2c680a","startDate":"2022-10-05T15:00:00.000Z","endDate":"2022-10-12T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-10-05","end":"2022-10-12"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/07fb597cdc7723ebdae42cfc91cd20a99700ad82e1a
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/369070/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/40103"
 store_url: "https://store.epicgames.com/en-US/p/slain-aea303"
 protondb_url: "https://www.protondb.com/app/369070"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Slain%3A_Back_from_Hell"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Slain:_Back_from_Hell"
 metacritic_score: 40
 metacritic_url: "https://www.metacritic.com/game/slain/"
 

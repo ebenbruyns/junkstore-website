@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 1652
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Microsoft Studios, Wired Productions, Flashbulb Games, Stage Clear Studios
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Portuguese 
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"115","name":"Controller"},{"id":"82","name":"Magic"},{"id":"406","name":"Story"},{"id":"1867","name":"puzzles"},{"id":"624","name":"Monsters"},{"id":"2590","name":"fun"},{"id":"3068","name":"future"},{"id":"982","name":"run"},{"id":"8604","name":"kid"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/max-the-curse-of-brotherhood"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2020-06-01"},{"start":"2024-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7179480a0968154bb5f2aa2a0b5be3d593a848412fc
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/255390/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

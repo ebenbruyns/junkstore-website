@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 64
+steam_review_total: 122
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Daedalic Entertainment
@@ -32,13 +40,15 @@ release_date: "May 4, 2022"
 game_modes: ["Single player"]
 languages: ["English","Russian","Simplified Chinese","French","Italian","German","Spanish - Spain","Arabic","Czech","Danish","Dutch","Hungarian","Japanese","Korean","Polish","Portuguese - Brazil","Romanian","Spanish - Latin America","Thai","Traditional Chinese","Turkish"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: "818 MB"
+install_size: "6481 MB"
+achievements_total: 20
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/wildcat-gun-machine"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d83631f27c961ebc8f","id":"d6531a64aa334d8d9c993cc607e48406","namespace":"13cba1b288ec417badb9a276cbb6d819","startDate":"2022-12-07T15:00:00.000Z","endDate":"2022-12-14T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-12-07","end":"2022-12-14"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ebdd9e79225adf4adadcb782699ba4ea55d09815453
 icon_image: "https://images.gog.com/965628186c77bd0bc87c5979114992a1d52b784e64c17968fe3145a9aa1c21a3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false

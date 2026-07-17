@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 55
+steam_review_total: 308
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: IMGN.PRO
@@ -34,6 +42,8 @@ languages: ["English","French","German","Spanish - Spain","Polish","Portuguese -
 languages_audio: ["English"]
 tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
 size: "196 MB"
+install_size: "423 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/symmetry"
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/12979c6c16ec4c6a8d7735b4a821
 icon_image: "https://images.gog.com/eb4d3a82d9d0ced16a43c3b37dcbdee91639c9b77d71c76a239eba055d832d5a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

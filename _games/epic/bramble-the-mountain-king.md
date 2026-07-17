@@ -20,20 +20,30 @@ protondb_total: 17
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 7668
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Merge Games
 developer: Dimfrost Studio
 genre: Adventure, Indie
 franchise: 
-age_rating_summary: 18 (USK) · ma15 (OFLC)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"usk":{"rating":"18","descriptors":"Explicit Violence, Shock and/or Horror Content"},"oflc":{"rating":"ma15","descriptors":"Strong Horror Themes, Strong Themes, Strong Violence"},"nzoflc":{"rating":"ma15","descriptors":"Strong Horror Themes, Strong Themes, Strong Violence"},"csrr":{"rating":"R","descriptors":"Violence"},"dejus":{"rating":"18","descriptors":"Extreme Violence, Sensitive Themes"}}
 release_date: "April 27, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Portuguese - Portugal","Russian","Simplified Chinese","Turkish","Finnish","Norwegian","Swedish","Korean","Polish","Traditional Chinese","Ukrainian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "6991 MB"
+install_size: "7104 MB"
+achievements_total: 30
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/bramble-the-mountain-king"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/233477b7de1891561b29051d86299382d6f2cd5c561
 icon_image: "https://images.gog.com/aa896099945ca32b5660f048bb8dbe664eb535354fe63ebc76083177f8a6754b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: true
 epic_cloud_saves: false
 must_be_online: false

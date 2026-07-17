@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 1668
+gog_rating_value: 4
+gog_rating_count: 116
 
 # Game Info
 publisher: Freedom Games
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"138","name":"Relaxing"},{"id":"166","name":"Stylized"},{"id":"164","name":"Cartoony"},{"id":"572","name":"Emotional"},{"id":"59643","name":"Протагонистка"},{"id":"42410","name":"LGBTQ+"},{"id":"146","name":"Nonlinear"},{"id":"342","name":"Conversation"}]
 size: "718 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/mail-time"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-05-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e82df21256aa95f1a8d5b31c4da38d8b64ba348e4a0
 icon_image: "https://images.gog.com/7a5f1145a10c357c48a26bd8a80b30530e7c45a2abaea63a2806ba525f1ee44d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

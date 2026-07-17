@@ -20,6 +20,14 @@ protondb_total: 87
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 10556
+gog_rating_value: 4.1
+gog_rating_count: 202
 
 # Game Info
 publisher: WB Games, MGM Interactive
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Danish","German","English","Spanish","Fren
 languages_audio: ["English","French","German","Spanish - Spain","Portuguese - Brazil"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"107","name":"Family Friendly"},{"id":"297","name":"LEGO"}]
 size: "7707 MB"
+install_size: ""
+achievements_total: 39
 franchise_siblings: [{"rawg_id":833436,"slug":"lego-bricktales","name":"LEGO Bricktales"},{"rawg_id":401818,"slug":"lego-builders-journey","name":"LEGO Builder’s Journey"},{"rawg_id":330295,"slug":"lego-city-builder","name":"Lego City Builder"},{"rawg_id":58597,"slug":"lego-dc-super-villains","name":"LEGO DC Super-Villains"},{"rawg_id":58086,"slug":"lego-the-incredibles","name":"LEGO The Incredibles"},{"rawg_id":67971,"slug":"lego-city-game","name":"LEGO City game"},{"rawg_id":27244,"slug":"lego-city-undercover-the-chase-begins-3ds","name":"LEGO City Undercover: The Chase Begins 3DS"},{"rawg_id":2597,"slug":"lego-lord-of-the-rings","name":"LEGO The Lord of the Rings"},{"rawg_id":53375,"slug":"lego-bionicle","name":"Lego Bionicle"},{"rawg_id":32359,"slug":"lego-island-2-the-bricksters-revenge","name":"LEGO Island 2: The Brickster's Revenge"},{"rawg_id":32251,"slug":"lego-racers","name":"LEGO Racers"},{"rawg_id":330584,"slug":"lego-island","name":"LEGO Island"}]
 franchise_slug: "lego-bionicle|lego-bricktales|lego-builders-journey|lego-city-builder|lego-city-game|lego-city-undercover-the-chase|lego-dc-super-villains|lego-island|lego-island-2-the-bricksters-r|lego-lord-of-the-rings|lego-racers|lego-the-hobbit|lego-the-incredibles"
 igdb_url: "https://www.igdb.com/games/lego-the-hobbit"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8a41353f5730cff58274dd0d75c9c3ec62aec257f1f
 icon_image: "https://images.gog.com/291216bd5583695220765f2887e1ce9bd29c803c8bcc4aaadc66bd7c7c1fc53e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

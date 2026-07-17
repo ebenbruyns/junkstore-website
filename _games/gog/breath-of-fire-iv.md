@@ -20,6 +20,14 @@ protondb_total: 13
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 576
+gog_rating_value: 4.6
+gog_rating_count: 1144
 
 # Game Info
 publisher: Capcom
@@ -28,12 +36,14 @@ genre: Role-playing (RPG)
 franchise: 
 age_rating_summary: T (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Mild Animated Violence, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Violence, Horror"},"usk":{"rating":"6"},"cero":{"rating":"C"},"oflc":{"rating":"PG","descriptors":"Low level animated violence"},"fpb":{"rating":"16","descriptors":"DNPV(CI)"},"csrr":{"rating":"C15"},"dejus":{"rating":"12","descriptors":"Violence"}}
-release_date: "April 26, 2000"
+release_date: "April 1, 2026"
 game_modes: ["Single-player"]
 languages: ["English","Japanese"]
 languages_audio: ["Japanese"]
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"68","name":"Custom Volume Controls"},{"id":"75","name":"Keyboard Only Option"},{"id":"18","name":"Partial Controller Support"},{"id":"62","name":"Family Sharing"}]
 size: "527 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/faba68c193f5d5a9aef5f4b978e087ea642ae9fb1f7
 icon_image: "https://images.gog.com/38b4778746bba4a6ab056bcaabc7296a65af07552f51bd2e110b6672cb14290d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

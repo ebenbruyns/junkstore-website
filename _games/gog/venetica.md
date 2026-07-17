@@ -20,6 +20,14 @@ protondb_total: 15
 protondb_confidence: "moderate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 784
+gog_rating_value: 3.9
+gog_rating_count: 440
 
 # Game Info
 publisher: Atari, Inc., DTP Entertainment
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","German"]
 tags_structured: []
 size: "6353 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/venetica-gold-edition"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3b7fafc43e5af3151e9b0273eac1c6f95e4d43c1b32
 icon_image: "https://images.gog.com/63c10a759dfa710c3f952a930b0b6b7e99b59221012f17923c0053f0c3dfb91e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

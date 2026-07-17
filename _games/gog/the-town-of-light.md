@@ -20,6 +20,14 @@ protondb_total: 22
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 2799
+gog_rating_value: 3.9
+gog_rating_count: 143
 
 # Game Info
 publisher: Wired Productions, LKA
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English","Italian","German","Japanese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"44","name":"Nudity"},{"id":"117","name":"Mystery"},{"id":"89","name":"Historical"},{"id":"33","name":"VR"},{"id":"91","name":"Walking Simulator"},{"id":"50","name":"Sexual Content"},{"id":"209","name":"Drama"},{"id":"200","name":"Narration"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"285","name":"Psychological"},{"id":"309","name":"Dynamic Narration"}]
 size: "3787 MB"
+install_size: ""
+achievements_total: 20
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-town-of-light"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/050fcf5f812b36b1b25b166c507562bd953d56c20af
 icon_image: "https://images.gog.com/d7eacd20e08568894279201f2ff47e8be10f92c2301fd73155ab2a916605935c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

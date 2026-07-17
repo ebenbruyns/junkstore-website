@@ -20,25 +20,35 @@ protondb_total: 38
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 4848
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Wired Productions
 developer: Caged Element
 genre: Racing
 franchise: 
-age_rating_summary: 12 (USK)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"usk":{"rating":"12","descriptors":"Comic-Gewalt, Handlungsdrunk"},"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "May 22, 2025"
+release_date: "June 11, 2026"
 game_modes: ["Online Multiplayer"]
 languages: ["English","French","Italian","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","German","Polish"]
 languages_audio: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1283","name":"Sports"},{"id":"1299","name":"Competitive"},{"id":"19847","name":"Achievements"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "17426 MB"
+install_size: ""
+achievements_total: 44
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/warhammer-40000-speed-freeks"
 was_free_before: true
-giveaway_events: [{"_id":"6a21877c570e3987f2d0f77f","id":"eb6ae87e73d94d2c96bab3c4da4dd3de","namespace":"e64225d40c214f32a71ccf6a7a612d6b","startDate":"2026-06-11T15:00:00.000Z","endDate":"2026-06-18T15:00:00.000Z","title":"Warhammer 40K Speed Freeks","__v":0}]
+giveaway_events: [{"start":"2026-06-11","end":"2026-06-18"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2078450/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

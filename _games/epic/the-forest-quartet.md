@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 457
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Bedtime Digital Games
@@ -28,17 +36,19 @@ genre: Puzzle, Music, Adventure
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "December 8, 2022"
+release_date: "February 25, 2025"
 game_modes: ["Single player"]
 languages: ["English","Danish","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish"]
 languages_audio: []
-tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1129","name":"Music"},{"id":"1370","name":"Single Player"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"39070","name":"iOS"}]
-size: ""
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1129","name":"Music"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"39070","name":"iOS"}]
+size: "857 MB"
+install_size: ""
+achievements_total: 9
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-forest-quartet"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2023-09-20","end":"2023-09-27"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6dfd80e006772e9e643e885375d52f51ab36a9bf8d2
 icon_image: "https://images.gog.com/61c8876721088c28296c5e7929955e88e79f1764f2f43746cea454d4ff193323.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

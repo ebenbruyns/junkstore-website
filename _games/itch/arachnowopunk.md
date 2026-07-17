@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: ""
 steam_deck_category: 
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: 
@@ -33,7 +41,9 @@ game_modes: []
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"6","name":"Exploration"},{"id":"122","name":"Pixel Graphics"},{"id":"259","name":"Metroidvania"},{"id":"2948","name":"infinite-runner"}]
-size: ""
+size: "14 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1b2337f98e9c9319e1b44872aed528d398aaf1db7e5
 icon_image: "https://cdn2.steamgriddb.com/icon/306ee6a27d95b01dd69ee72920cf25ed/24/256x256.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

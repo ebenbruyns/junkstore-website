@@ -20,6 +20,14 @@ protondb_total: 15
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 7612
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Grindstone
@@ -28,17 +36,19 @@ genre: Action, Indie, RPG
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema"}}
-release_date: "September 3, 2025"
+release_date: "January 21, 2025"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean","Slovak","Portuguese - Brazil","Russian"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "8802 MB"
+install_size: "15047 MB"
+achievements_total: 38
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/jotunnslayer-hordes-of-hel"
 was_free_before: true
-giveaway_events: [{"_id":"693ae28b3675276c86d2f86b","id":"1f5e404bb1144fecb8616c2c7bdf3ac6","namespace":"d8a39ea2f35e49b58f18c2b96aec276a","startDate":"2025-12-18T16:00:00.000Z","endDate":"2025-12-19T16:00:00.000Z","title":"Jotunnslayer: Hordes of Hel","__v":0}]
+giveaway_events: [{"start":"2025-12-18","end":"2025-12-19"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2820820/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2820820/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

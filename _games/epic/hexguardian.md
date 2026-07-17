@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Display output not correctly scaled"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 695
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Yogscast Games
@@ -28,17 +36,19 @@ genre: Tower Defense, Rogue-Lite, Strategy
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "May 2, 2024"
+release_date: "February 4, 2026"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian"]
 languages_audio: []
-tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21136","name":"Playful Visuals"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "1004 MB"
+install_size: "1312 MB"
+achievements_total: 88
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/hexguardian"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2381740/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2381740/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

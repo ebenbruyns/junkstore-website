@@ -20,6 +20,14 @@ protondb_total: 76
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 1917
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Black Forest Games
@@ -33,12 +41,14 @@ game_modes: ["Single player","Multiplayer"]
 languages: ["English","German","French","Italian","Spanish - Spain","Japanese","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"49","name":"Difficult"},{"id":"40850","name":"Steam Leaderboards"},{"id":"189","name":"Female Protagonist"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"336","name":"controller support"},{"id":"113","name":"Side Scroller"},{"id":"116","name":"2.5D"},{"id":"96","name":"Kickstarter"}]
-size: ""
+size: "1294 MB"
+install_size: "2465 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/giana-sisters-twisted-dreams"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2022-07-01"},{"start":"2024-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/eb27b48e1c0a51467308d9fbd9d834825638997bc37
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/223220/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

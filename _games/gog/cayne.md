@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 1913
+gog_rating_value: 3.3
+gog_rating_count: 395
 
 # Game Info
 publisher: The Brotherhood Games
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian","Polish","Russian","
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"189","name":"Female Protagonist"},{"id":"34","name":"Violent"},{"id":"79","name":"Free to Play"},{"id":"141","name":"Point & Click"},{"id":"99","name":"Isometric"}]
 size: "2027 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/cayne"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/342e5a10fd6060f6644b0b6faeadfb8b3f9682fe31c
 icon_image: "https://images.gog.com/21a1d795caaff92803fb1eea5548fe6dd53faad8a853afb349b58d6868317fa2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

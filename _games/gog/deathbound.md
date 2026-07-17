@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Display output not correctly scaled"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 316
+gog_rating_value: 3.6
+gog_rating_count: 21
 
 # Game Info
 publisher: Trialforge Studio
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"97","name":"Action RPG"},{"id":"40","name":"Dark Fantasy"},{"id":"1465","name":"combat"},{"id":"167","name":"Futuristic"},{"id":"66","name":"Medieval"},{"id":"82","name":"Magic"},{"id":"119","name":"Dystopian"},{"id":"136","name":"Music"},{"id":"2030","name":"city"},{"id":"91686","name":"Family Sharing"},{"id":"625","name":"party"},{"id":"206","name":"Party-Based RPG"},{"id":"580","name":"Souls-like"},{"id":"87","name":"Science"},{"id":"1309","name":"hero"},{"id":"1221","name":"history"},{"id":"974","name":"death"},{"id":"1129","name":"art"},{"id":"2723","name":"trees"},{"id":"8949","name":"attack"},{"id":"11068","name":"technology"},{"id":"3584","name":"characters"},{"id":"6581","name":"enemies"},{"id":"1916","name":"memories"},{"id":"2233","name":"soul"},{"id":"4467","name":"culture"}]
 size: "8649 MB"
+install_size: ""
+achievements_total: 35
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/deathbound"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/994b735c745d57053e4a2b02624f9aa42d5914a5d23
 icon_image: "https://images.gog.com/994b735c745d57053e4a2b02624f9aa42d5914a5d2327971779038dfa91a9524.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

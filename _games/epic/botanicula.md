@@ -20,6 +20,14 @@ protondb_total: 30
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 6652
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Amanita Design
@@ -28,17 +36,19 @@ genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: 7 (PEGI)
 age_ratings: {"pegi":{"rating":"7"},"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "May 7, 2012"
+release_date: "March 25, 2025"
 game_modes: ["Single player"]
 languages: ["English","German","French","Italian","Spanish - Spain","Russian","Japanese","Polish","Czech","Simplified Chinese"]
 languages_audio: ["English","German","French","Italian","Spanish - Spain","Russian","Japanese","Polish","Czech","Simplified Chinese"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
 size: "543 MB"
+install_size: ""
+achievements_total: 53
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/botanicula"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-04-17","end":"2025-04-24"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/59ffec1fbe40505c524fa12f7d294c5e52d8f4943cc
 icon_image: "https://images.gog.com/b67f44301fb08c60154c97bd5c8bf01d294d6c4f1210a2aa26a49a5c42af43da.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

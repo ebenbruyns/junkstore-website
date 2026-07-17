@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 1080
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: PLAYISM
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","Japanese","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"122","name":"Pixel Graphics"},{"id":"68","name":"Hack and Slash"},{"id":"121","name":"Character Customization"},{"id":"88","name":"Cute"},{"id":"89","name":"Historical"},{"id":"99","name":"Isometric"},{"id":"61","name":"Top-Down"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"196","name":"Procedural Generation"},{"id":"116","name":"2.5D"},{"id":"205","name":"Lore-Rich"},{"id":"179","name":"Cartoon"},{"id":"186","name":"Ninja"},{"id":"108","name":"Mythology"},{"id":"49964","name":"Action Roguelike"}]
-size: ""
+size: "445 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/samurai-bringer"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-07-01"},{"start":"2025-05-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9b2cee92b7870f1f06f35339a0c3a15c758ed17b9e7
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1851280/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

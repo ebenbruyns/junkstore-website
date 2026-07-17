@@ -20,6 +20,14 @@ protondb_total: 24
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 575
+gog_rating_value: 4.3
+gog_rating_count: 9646
 
 # Game Info
 publisher: Virgin Interactive Entertainment (Europe) Ltd., Virgin Interactive Entertainment, Inc., Revolution Software
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"4","name":"Funny"},{"id":"79","name":"Free to Play"},{"id":"122","name":"Pixel Graphics"},{"id":"141","name":"Point & Click"},{"id":"43","name":"Post-apocalyptic"},{"id":"145","name":"Choices Matter"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"284","name":"Cult Classic"},{"id":"227","name":"Hacking"}]
 size: "87 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":304182,"slug":"beyond-a-steel-sky","name":"Beyond a Steel Sky"}]
 franchise_slug: "beneath-a-steel-sky|beyond-a-steel-sky"
 igdb_url: "https://www.igdb.com/games/beneath-a-steel-sky"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/cfa2550bbfd27506a0b5099423aab3cc0cbfb1ae2ed
 icon_image: "https://images.gog.com/69140ff481409e4f6d553c5bb43ae63d28c3b44a8266408001e196168083c008.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: "dosbox"

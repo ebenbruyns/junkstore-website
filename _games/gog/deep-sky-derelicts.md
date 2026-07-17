@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 2878
+gog_rating_value: 3.8
+gog_rating_count: 371
 
 # Game Info
 publisher: 1C Entertainment
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Polish",
 languages_audio: []
 tags_structured: []
 size: "957 MB"
+install_size: ""
+achievements_total: 68
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/deep-sky-derelicts"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c2945e0e1fa4f9690b485744d30e27331ec2f8acd6b
 icon_image: "https://images.gog.com/92f6c693dccaf7845187ab7682a41d40df4b76c12edad62e8774723db907010c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

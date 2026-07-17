@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 2510
+gog_rating_value: 3.9
+gog_rating_count: 148
 
 # Game Info
 publisher: ViNovella Games
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: []
 size: "1896 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":684945,"slug":"fetish-locator-week-two","name":"Fetish Locator Week Two"},{"rawg_id":386737,"slug":"fetish-locator","name":"Fetish Locator"}]
 franchise_slug: "fetish-locator|fetish-locator-week-one-extend|fetish-locator-week-two"
 igdb_url: "https://www.igdb.com/games/fetish-locator"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/db11b1e542b4921629b2729530bafa8cf40b0d35537
 icon_image: "https://images.gog.com/420406831fb76b6ef35bd1b6609dbf884e149ddd59552497af497bc3e07cc620.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

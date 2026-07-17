@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 77
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: The MIX Games
@@ -28,17 +36,19 @@ genre: Action, Action-Adventure
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"6"}}
-release_date: "September 10, 2024"
+release_date: "September 12, 2024"
 game_modes: ["Single-player","Co-op"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
-size: ""
+size: "716 MB"
+install_size: "840 MB"
+achievements_total: 20
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/rugrats-adventures-in-gameland"
 was_free_before: true
-giveaway_events: [{"_id":"66d97e339061624bcb5a2b4a","id":"03fa35d7ade24540b5902b662570a270","namespace":"c20d98862be8473b896df438004868c5","startDate":"2024-09-12T15:00:00.000Z","endDate":"2024-09-19T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-09-12","end":"2024-09-19"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/29906802da168241ef70052a8fad84d35b572581bb1
 icon_image: "https://images.gog.com/c5c3eb418516de68f1af0043245ebb8805e05d8ad9fa289f6dc58dd3e256ac5a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/136080"
 store_url: "https://store.epicgames.com/en-US/p/rugrats-adventures-in-gameland-737402"
 protondb_url: "https://www.protondb.com/app/2633950"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rugrats%3A_Adventures_in_Gameland"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rugrats:_Adventures_in_Gameland"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/rugrats-adventures-in-gameland/"
 

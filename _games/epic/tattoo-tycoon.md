@@ -20,25 +20,35 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 67
+steam_review_total: 43
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: HandyGames
 developer: CrazyBunch
 genre: Simulation, Strategy, Indie
 franchise: 
-age_rating_summary: 6 (USK)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"usk":{"rating":"6","descriptors":"Angedeutete Gewalt"},"dejus":{"rating":"14","descriptors":"Nudez, Drogas ilícitas, Linguagem imprópria"}}
 release_date: "October 24, 2025"
 game_modes: ["Single-player"]
 languages: ["English","German","French","Spanish - Spain","Simplified Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]
 size: "1755 MB"
+install_size: "2022 MB"
+achievements_total: 30
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/tattoo-tycoon"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-03-01"},{"start":"2026-07-09","end":"2026-07-16"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2375260/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2375260/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

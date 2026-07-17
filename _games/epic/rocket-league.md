@@ -20,6 +20,14 @@ protondb_total: 829
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 579652
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Psyonix
@@ -28,12 +36,14 @@ genre: Racing
 franchise: 
 age_rating_summary: E (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"E","descriptors":"Mild Lyrics"},"pegi":{"rating":"3","descriptors":"Online Interactivity."},"usk":{"rating":"6"},"oflc":{"rating":"G","descriptors":"Online interactivity."},"nzoflc":{"rating":"G","descriptors":"Online interactivity."},"fpb":{"rating":"A"},"dejus":{"rating":"L"}}
-release_date: "July 6, 2015"
+release_date: "September 23, 2020"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Portuguese - Portugal","Japanese","Korean","Russian","Turkish","Polish"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1141","name":"Free to Play"},{"id":"1205","name":"DRIVING"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"}]
-size: ""
+size: "37292 MB"
+install_size: "38010 MB"
+achievements_total: 88
 franchise_siblings: [{"rawg_id":576359,"slug":"rocket-league-sideswipe","name":"Rocket League Sideswipe"}]
 franchise_slug: "rocket-league|rocket-league-sideswipe"
 igdb_url: "https://www.igdb.com/games/rocket-league"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a51c4c8d790bd4f71a9746d5c02aa6974600310d703
 icon_image: "https://images.gog.com/6c3492f74e8098466f1fcf23365c50dc40262b2cfc7ebb4e8e22e11c031963af.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 1829
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Kwalee
@@ -32,13 +40,15 @@ release_date: "May 14, 2024"
 game_modes: ["Single Player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese","Ukrainian","Portuguese - Brazil","Italian","Polish","Spanish - Latin America","Turkish","Filipino"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"}]
+size: "1274 MB"
+install_size: "2372 MB"
+achievements_total: 38
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/robobeat"
 was_free_before: true
-giveaway_events: [{"_id":"6a293258570e3987f2d21e00","id":"aee7ec395d054078a48d867849e2a550","namespace":"9704b88f02244a60b9b0ab81e0e31389","startDate":"2026-06-18T15:00:00.000Z","endDate":"2026-06-25T15:00:00.000Z","title":"ROBOBEAT","__v":0}]
+giveaway_events: [{"start":"2026-06-18","end":"2026-06-25"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7e4c6f6bff3ffc05475b03c9bfc979ca34a7bbc8910
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1456760/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

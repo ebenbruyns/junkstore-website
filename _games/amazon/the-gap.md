@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 59
+steam_review_total: 22
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Bonko Games
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"79","name":"Free to Play"},{"id":"117","name":"Mystery"},{"id":"111","name":"Short"},{"id":"571","name":"3D"},{"id":"77","name":"Realistic"},{"id":"192","name":"Mature"},{"id":"110","name":"Cinematic"},{"id":"91","name":"Walking Simulator"},{"id":"218","name":"Multiple Endings"},{"id":"305","name":"Linear"},{"id":"142","name":"Detective"},{"id":"243","name":"1990's"},{"id":"209","name":"Drama"},{"id":"200","name":"Narration"},{"id":"572","name":"Emotional"},{"id":"112","name":"Minimalist"},{"id":"279","name":"Supernatural"},{"id":"285","name":"Psychological"},{"id":"183","name":"Thriller"},{"id":"220","name":"Experimental"},{"id":"326","name":"Investigation"},{"id":"84","name":"Abstract"},{"id":"1452","name":"philosophical"}]
 size: "1827 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-gap--2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f6fd4bb2abc1f56c5d3fdf56425bcddbae9a58133f6
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2972040/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

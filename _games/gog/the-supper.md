@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 99
+steam_review_total: 4406
+gog_rating_value: 4.3
+gog_rating_count: 47
 
 # Game Info
 publisher: Octavi Navarro
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"79","name":"Free to Play"},{"id":"122","name":"Pixel Graphics"},{"id":"141","name":"Point & Click"},{"id":"111","name":"Short"}]
 size: "55 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-supper"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3bba4d20532863c3c51c63249d2ac821f3a743962d7
 icon_image: "https://images.gog.com/e56106f4c682377d7f59d65c15dd8f29f865f01b48197a289d183e1580b46e85.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

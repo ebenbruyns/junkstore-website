@@ -20,6 +20,14 @@ protondb_total: 24
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 4973
+gog_rating_value: 4.4
+gog_rating_count: 288
 
 # Game Info
 publisher: Microids
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English","French","German","Polish","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"149","name":"Third Person"},{"id":"6","name":"Exploration"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"145","name":"Choices Matter"},{"id":"90","name":"Visual Novel"},{"id":"305","name":"Linear"},{"id":"200","name":"Narration"},{"id":"222","name":"Choose Your Own Adventure"},{"id":"326","name":"Investigation"},{"id":"1129","name":"art"},{"id":"3064","name":"poetry"}]
 size: "14386 MB"
+install_size: ""
+achievements_total: 30
 franchise_siblings: [{"rawg_id":10986,"slug":"syberia-3","name":"Syberia 3"},{"rawg_id":22781,"slug":"syberia-2","name":"Syberia 2"},{"rawg_id":3486,"slug":"syberia","name":"Syberia"}]
 franchise_slug: "syberia|syberia-2|syberia-3|syberia-the-world-before"
 igdb_url: "https://www.igdb.com/games/syberia-the-world-before"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/80ff4de5c8d8c0a60fdead68c03ed56b2dc5b99f006
 icon_image: "https://images.gog.com/296bc51f6fc481023a5783c3d23512b993d118fb23f1bf30051fb9cf643d65c6.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/83890"
 store_url: "https://www.gog.com/en/game/syberia_the_world_before"
 protondb_url: "https://www.protondb.com/app/1410640"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Syberia%3A_The_World_Before"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Syberia:_The_World_Before"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/syberia-the-world-before/"
 

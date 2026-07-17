@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 100
+steam_review_total: 11
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: ScaniX
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"42","name":"Great Soundtrack"},{"id":"40845","name":"Partial Controller Support"},{"id":"193","name":"Classic"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"74","name":"Retro"}]
-size: ""
+size: "86 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/spass-taxi"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a528e1f24d17767211ad87a9e2717f48ffcb8242c3d
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1206770/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -75,7 +88,7 @@ hltb_url: "https://howlongtobeat.com/game/105213"
 store_url: "https://scanix.itch.io/spasstaxi"
 protondb_url: "https://www.protondb.com/app/1206770"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Spa%C3%9F_Taxi"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Spaß_Taxi"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/spa-taxi/"
 

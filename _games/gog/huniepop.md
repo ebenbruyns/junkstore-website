@@ -20,6 +20,14 @@ protondb_total: 25
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Native resolution not supported"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 31652
+gog_rating_value: 4.2
+gog_rating_count: 980
 
 # Game Info
 publisher: HuniePot
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"123","name":"Comedy"},{"id":"134","name":"Anime"},{"id":"141","name":"Point & Click"},{"id":"44","name":"Nudity"},{"id":"88","name":"Cute"},{"id":"192","name":"Mature"},{"id":"120","name":"Memes"},{"id":"50","name":"Sexual Content"},{"id":"217","name":"Romance"},{"id":"160","name":"Dating Sim"},{"id":"299","name":"Match 3"}]
 size: "309 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":404489,"slug":"huniepop-2-double-date","name":"HuniePop 2: Double Date"}]
 franchise_slug: "huniepop|huniepop-2-double-date"
 igdb_url: "https://www.igdb.com/games/huniepop"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/cf5d753ffd964628a020a0cd777fd78e0f233a548ac
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/339800/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

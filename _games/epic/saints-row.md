@@ -20,25 +20,35 @@ protondb_total: 32
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Unsupported graphics performance"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 57
+steam_review_total: 8564
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Deep Silver
 developer: Deep Silver Volition
 genre: Action, Action-Adventure, Shooter, Open World, Adventure
 franchise: 
-age_rating_summary: M (ESRB) · 18 (PEGI)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Violence,, Blood,, Sexual Themes,, Nudity,, Strong Language,, Use of Drugs"},"pegi":{"rating":"18","descriptors":"Violence,, Bad Language"},"usk":{"rating":"18"},"cero":{"rating":"Z"},"oflc":{"rating":"ma15","descriptors":"Strong violence,, Coarse language and crude sexual humour,, Online interactivity"},"nzoflc":{"rating":"r16","descriptors":"Violence,, Offensive Language,, Sexual Material,, Content that may disturb"},"kgrb":{"rating":"18"},"fpb":{"rating":"18"},"csrr":{"rating":"R"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Drogas ilícitas, Linguagem imprópria"}}
-release_date: "August 24, 2023"
+release_date: "August 23, 2022"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Traditional Chinese","Simplified Chinese","Japanese","Korean","Russian","Portuguese - Brazil","Spanish - Latin America","Czech","Polish"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21126","name":"Silly Community"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21126","name":"Silly Community"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "49997 MB"
+install_size: "55222 MB"
+achievements_total: 50
 franchise_siblings: [{"rawg_id":650607,"slug":"saints-row-2022","name":"Saints Row (2022)"},{"rawg_id":3450,"slug":"saints-row-gat-out-of-hell","name":"Saints Row: Gat Out of Hell"},{"rawg_id":3931,"slug":"saints-row-iv","name":"Saints Row IV"},{"rawg_id":4386,"slug":"saints-row-the-third","name":"Saints Row: The Third"},{"rawg_id":4599,"slug":"saints-row-2","name":"Saints Row 2"}]
 franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-hell|saints-row-iv|saints-row-the-third"
 igdb_url: "https://www.igdb.com/games/saints-row--1"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cd3631f27c961eb978","id":"c8ae275e995940b0868d9f44e75d05d9","namespace":"0d23bb77ee2f45b7a571bde68caddb09","startDate":"2023-12-29T15:00:00.000Z","endDate":"2023-12-30T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-12-29","end":"2023-12-30"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a4ae7740d3c9ece528a4ee041ef9a3d81a3436cfaad
 icon_image: "https://images.gog.com/28f799911089622923228e7617ffd338a7565d7f6d0eeb467efeeee447f7291f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

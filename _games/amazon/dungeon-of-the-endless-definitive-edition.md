@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 65
+steam_review_total: 3832
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Sega, Amplitude Studios
@@ -33,12 +41,14 @@ game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Polish","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Russian"]
 languages_audio: ["English","Japanese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"18","name":"Co-op"},{"id":"411","name":"cooperative"},{"id":"32","name":"Sci-fi"},{"id":"9","name":"Online Co-Op"},{"id":"97","name":"Action RPG"},{"id":"5","name":"Replay Value"},{"id":"571","name":"3D"},{"id":"639","name":"Roguelike"},{"id":"61","name":"Top-Down"},{"id":"40937","name":"Steam Trading Cards"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"171","name":"PvE"},{"id":"196","name":"Procedural Generation"},{"id":"65","name":"Tower Defense"},{"id":"295","name":"Soundtrack"},{"id":"201","name":"Twin Stick Shooter"},{"id":"230","name":"Tactical RPG"},{"id":"49964","name":"Action Roguelike"},{"id":"329","name":"Mystery Dungeon"}]
-size: ""
+size: "808 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":10309,"slug":"endless-space-2","name":"Endless Space 2"},{"rawg_id":1830,"slug":"dungeon-of-the-endless","name":"Dungeon of the Endless"},{"rawg_id":12980,"slug":"endless-legend","name":"Endless Legend"},{"rawg_id":41457,"slug":"endless-space","name":"Endless Space"}]
 franchise_slug: "dungeon-of-the-endless|endless-dungeons|endless-legend|endless-space|endless-space-2"
 igdb_url: "https://www.igdb.com/games/endless-dungeon"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/532c5d953dce14ea2623833bf97ecdda3e63599cb31
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1485590/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -75,7 +88,7 @@ hltb_url: "https://howlongtobeat.com/game/94132"
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1485590"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dungeon_of_the_Endless"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Endless_Dungeon"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/endless-dungeon/"
 

@@ -20,6 +20,14 @@ protondb_total: 1179
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 219722
+gog_rating_value: 4.5
+gog_rating_count: 921
 
 # Game Info
 publisher: Bethesda Softworks
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","French","Ital
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian"]
 tags_structured: []
 size: "63434 MB"
+install_size: ""
+achievements_total: 31
 franchise_siblings: [{"rawg_id":58777,"slug":"doom-eternal","name":"DOOM Eternal"},{"rawg_id":2364,"slug":"doom-ii-rpg","name":"DOOM II RPG"},{"rawg_id":36355,"slug":"doom-3-resurrection-of-evil","name":"Doom 3: Resurrection of Evil"},{"rawg_id":19458,"slug":"doom-3","name":"Doom 3"},{"rawg_id":54381,"slug":"doom-64","name":"Doom 64"},{"rawg_id":22448,"slug":"final-doom","name":"Final DOOM"},{"rawg_id":22412,"slug":"ultimate-doom","name":"Ultimate Doom"},{"rawg_id":17975,"slug":"doom-ii","name":"DOOM II"},{"rawg_id":52884,"slug":"doom-2","name":"DOOM"}]
 franchise_slug: "doom|doom-2|doom-3|doom-3-resurrection-of-evil|doom-64|doom-eternal|doom-ii|doom-ii-rpg|final-doom|ultimate-doom"
 igdb_url: "https://www.igdb.com/games/doom--2"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/24d33ed620ca4d94cdd4024b1f017a25c27ee0d5c60
 icon_image: "https://images.gog.com/24d33ed620ca4d94cdd4024b1f017a25c27ee0d5c600c84efee5f39176fd5f44.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/2708"
 store_url: "https://www.gog.com/en/game/doom_2016"
 protondb_url: "https://www.protondb.com/app/379720"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doom_%282016%29"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doom_(2016)"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/doom/"
 

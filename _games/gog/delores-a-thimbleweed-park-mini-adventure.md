@@ -20,6 +20,14 @@ protondb_total: 19
 protondb_confidence: "good"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 630
+gog_rating_value: 3.9
+gog_rating_count: 136
 
 # Game Info
 publisher: Terrible Toybox
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"4","name":"Funny"},{"id":"193","name":"Classic"},{"id":"123","name":"Comedy"},{"id":"79","name":"Free to Play"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"271","name":"Remake"},{"id":"142","name":"Detective"},{"id":"243","name":"1990's"},{"id":"284","name":"Cult Classic"}]
 size: "68 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/64d3e9f5301b8bdc754bcffb50cc1200a584e5867fe
 icon_image: "https://images.gog.com/859bd78e07e0ecc5a0716d43fb290e3eea61946a2b3596f7886f22a85604dfe1.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/78011"
 store_url: "https://www.gog.com/en/game/delores_a_thimbleweed_park_miniadventure"
 protondb_url: "https://www.protondb.com/app/1305720"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Delores%3A_A_Thimbleweed_Park_Mini-Adventure"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Delores:_A_Thimbleweed_Park_Mini-Adventure"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/delores-a-thimbleweed-park-mini-adventure/"
 

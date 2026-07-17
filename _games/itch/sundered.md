@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Game or launcher doesnt exit cleanly"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 5152
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Thunder Lotus
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Japanese","Korean","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"49","name":"Difficult"},{"id":"189","name":"Female Protagonist"},{"id":"336","name":"controller support"},{"id":"113","name":"Side Scroller"},{"id":"639","name":"Roguelike"},{"id":"259","name":"Metroidvania"},{"id":"258","name":"Hand-drawn"},{"id":"47","name":"Lovecraftian"}]
-size: ""
+size: "1453 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sundered"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a8e2c349316fde74c4e31ff20d37034ee39de3f5c69
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/535480/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

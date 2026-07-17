@@ -20,25 +20,35 @@ protondb_total: 372
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 148582
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Team17
 developer: Team17
 genre: First Person, Shooter
 franchise: Hell Let Loose
-age_rating_summary: 18 (USK)
+age_rating_summary: 17 (ESRB)
 age_ratings: {"usk":{"rating":"18"},"dejus":{"rating":"18","descriptors":"Violência Extrema, Interacao de Usarios"}}
-release_date: "July 27, 2021"
+release_date: "January 2, 2025"
 game_modes: ["Online Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Polish","Portuguese - Brazil","Traditional Chinese","Korean","Japanese"]
 languages_audio: []
-tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1294","name":"First Person"},{"id":"21135","name":"Realistic Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21135","name":"Realistic Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "37378 MB"
+install_size: "65760 MB"
+achievements_total: 38
 franchise_siblings: [{"rawg_id":1017335,"slug":"hell-let-loose-vietnam","name":"Hell Let Loose: Vietnam"}]
 franchise_slug: "hell-let-loose|hell-let-loose-vietnam"
 igdb_url: "https://www.igdb.com/games/hell-let-loose"
 was_free_before: true
-giveaway_events: [{"_id":"67755ec6ae6d37966fcdf207","id":"5cee37b551534963887a11f6744f6951","namespace":"6430e58041234e41b8f81f68f01450ed","startDate":"2025-01-02T16:00:00.000Z","endDate":"2025-01-09T16:00:00.000Z","title":"Hell Let Loose","__v":0}]
+giveaway_events: [{"start":"2025-01-02","end":"2025-01-09"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/14864ff1c935f0a95f4c2a90069ea7a175e38fc651b
 icon_image: "https://images.gog.com/13d37a5b973a4b3343b62fa4d8d2daaa0c327493fed17c0f52a19ab344fedf08.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

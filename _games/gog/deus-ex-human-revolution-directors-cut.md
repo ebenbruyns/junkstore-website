@@ -20,6 +20,14 @@ protondb_total: 307
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 29691
+gog_rating_value: 4.4
+gog_rating_count: 904
 
 # Game Info
 publisher: Square Enix, Feral Interactive
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"40845","name":"Partial Controller Support"},{"id":"30","name":"FPS"},{"id":"15","name":"Stealth"},{"id":"97","name":"Action RPG"},{"id":"40833","name":"Captions available"},{"id":"5","name":"Replay Value"},{"id":"1465","name":"combat"},{"id":"167","name":"Futuristic"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"406","name":"Story"},{"id":"40834","name":"Commentary available"},{"id":"808","name":"character"},{"id":"291","name":"Conspiracy"},{"id":"227","name":"Hacking"},{"id":"3109","name":"weapons"},{"id":"272","name":"Inventory Management"},{"id":"820","name":"secrets"},{"id":"301","name":"Transhumanism"}]
 size: "15764 MB"
+install_size: ""
+achievements_total: 59
 franchise_siblings: []
 franchise_slug: "deus-ex|deus-ex-2-invisible-war|deus-ex-go|deus-ex-human-revolution|deus-ex-mankind-divided|deus-ex-the-fall"
 igdb_url: ""
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/471fbf6892a5f3c54da5ebf72915fc272e0e663450f
 icon_image: "https://images.gog.com/bc78260cde95c97488d9e5702d96b4188ac505bd59d6491148bec117d60adc37.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/14286"
 store_url: "https://www.gog.com/en/game/deus_ex_human_revolution_directors_cut"
 protondb_url: "https://www.protondb.com/app/238010"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deus_Ex%3A_Human_Revolution_-_Director%27s_Cut"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deus_Ex:_Human_Revolution_-_Director's_Cut"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/deus-ex-human-revolution-directors-cut/"
 

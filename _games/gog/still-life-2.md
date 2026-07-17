@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Native resolution not supported"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 44
+steam_review_total: 571
+gog_rating_value: 3
+gog_rating_count: 284
 
 # Game Info
 publisher: Meridian4, cdv Software Entertainment, Iceberg Interactive
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"144","name":"Crime"},{"id":"142","name":"Detective"}]
 size: "3730 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":16437,"slug":"still-life","name":"Still Life"}]
 franchise_slug: "still-life|still-life-2"
 igdb_url: "https://www.igdb.com/games/still-life-2"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/26dc61f0c41ea4a2a21c0ae82670aa6e9bae18fd58f
 icon_image: "https://images.gog.com/26dc61f0c41ea4a2a21c0ae82670aa6e9bae18fd58fa821dd8f45cd09f679a1e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

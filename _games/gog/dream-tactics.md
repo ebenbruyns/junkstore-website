@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 680
+gog_rating_value: 4.7
+gog_rating_count: 39
 
 # Game Info
 publisher: indie.io
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","English","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"189","name":"Female Protagonist"},{"id":"122","name":"Pixel Graphics"},{"id":"80","name":"Tactical"},{"id":"134","name":"Anime"},{"id":"121","name":"Character Customization"},{"id":"88","name":"Cute"},{"id":"1465","name":"combat"},{"id":"233","name":"JRPG"},{"id":"981","name":"battle"},{"id":"51","name":"Destruction"},{"id":"176","name":"Turn-Based Tactics"},{"id":"808","name":"character"},{"id":"91686","name":"Family Sharing"},{"id":"59643","name":"Протагонистка"},{"id":"625","name":"party"},{"id":"206","name":"Party-Based RPG"},{"id":"230","name":"Tactical RPG"},{"id":"245","name":"Trading"},{"id":"2326","name":"explore"},{"id":"231","name":"Strategy RPG"},{"id":"1309","name":"hero"},{"id":"1411","name":"build"},{"id":"2232","name":"journey"},{"id":"14194","name":"deckbuilding"},{"id":"49950","name":"Card Battler"},{"id":"657","name":"Dreams"},{"id":"1212","name":"combos"},{"id":"3584","name":"characters"},{"id":"2821","name":"tactics"},{"id":"7270","name":"find"},{"id":"1955","name":"landscape"},{"id":"5523","name":"points"},{"id":"5459","name":"key"},{"id":"5668","name":"rng"}]
 size: "179 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/dream-tactics"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1897650/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1897650/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

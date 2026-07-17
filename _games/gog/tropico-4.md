@@ -20,6 +20,14 @@ protondb_total: 110
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 12714
+gog_rating_value: 4.4
+gog_rating_count: 408
 
 # Game Info
 publisher: Kalypso Media, Feral Interactive, Zoo Corporation, FX Interactive
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian","Korean","Polish"]
 languages_audio: ["English","French","German","Italian","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"4","name":"Funny"},{"id":"37","name":"Sandbox"},{"id":"123","name":"Comedy"},{"id":"39","name":"Building"},{"id":"168","name":"RTS"},{"id":"67","name":"Management"},{"id":"194","name":"Real-Time with Pause"},{"id":"147","name":"Resource Management"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"},{"id":"287","name":"Political"},{"id":"251","name":"Cold War"},{"id":"219","name":"Politics"},{"id":"214","name":"God Game"},{"id":"262","name":"Capitalism"}]
 size: "4766 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":29231,"slug":"tropico-6","name":"Tropico 6"},{"rawg_id":3358,"slug":"tropico-5","name":"Tropico 5"},{"rawg_id":14072,"slug":"tropico-3","name":"Tropico 3"},{"rawg_id":35072,"slug":"tropico-2-pirate-cove","name":"Tropico 2: Pirate Cove"},{"rawg_id":31298,"slug":"tropico","name":"Tropico"}]
 franchise_slug: "tropico|tropico-2-pirate-cove|tropico-3|tropico-4|tropico-5|tropico-6"
 igdb_url: "https://www.igdb.com/games/tropico-4"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3a992097bc23946f10d920584786be5812288bbb2d2
 icon_image: "https://images.gog.com/c626544f925f71f5c2cde5373f16512097eb9eccf47c19a644b5bb43ebc372bf.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

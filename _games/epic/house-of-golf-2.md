@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "8 user reviews"
+steam_review_percent: 63
+steam_review_total: 8
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Starlight Games
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Danish","Du
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1283","name":"Sports"},{"id":"1299","name":"Competitive"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
 size: "20654 MB"
+install_size: "20828 MB"
+achievements_total: 31
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/house-of-golf-2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f7475138083a5225e4924b4ed72473ad23e49ba92f9
 icon_image: "https://images.gog.com/4d57daa4bcf301b782ce06afa8b443ba7841880502c4eac632e9d7037c4d18c7.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

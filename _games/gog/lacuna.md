@@ -20,6 +20,14 @@ protondb_total: 22
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 2897
+gog_rating_value: 4
+gog_rating_count: 170
 
 # Game Info
 publisher: Assemble Entertainment
@@ -34,6 +42,8 @@ languages: ["German","English","Korean","Russian"]
 languages_audio: []
 tags_structured: []
 size: "560 MB"
+install_size: ""
+achievements_total: 25
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/lacuna"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0351dd2efbefeedf134a779e1d6a538cf8da482a0c6
 icon_image: "https://images.gog.com/d7721a07aa3640c8d02101fe48876a915935cc36d2eb7fa734cee6b3395c2eaa.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

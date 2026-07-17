@@ -20,6 +20,14 @@ protondb_total: 557
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 376300
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: 2K Games, Aspyr Media
@@ -28,17 +36,19 @@ genre: Strategy, Simulator
 franchise: 
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Drug Reference, Language, Mild Violence, Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Violence"},"usk":{"rating":"12"},"oflc":{"rating":"PG"},"nzoflc":{"rating":"PG"},"kgrb":{"rating":"12"},"fpb":{"rating":"13","descriptors":"Violence"},"csrr":{"rating":"C12"},"dejus":{"rating":"10","descriptors":"Violence"}}
-release_date: "October 20, 2016"
+release_date: "January 1, 2099"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"9","name":"Online Co-Op"},{"id":"80","name":"Tactical"},{"id":"40852","name":"Steam Workshop"},{"id":"62","name":"Moddable"},{"id":"70","name":"War"},{"id":"102","name":"Turn-Based"},{"id":"89","name":"Historical"},{"id":"120","name":"Memes"},{"id":"101","name":"Turn-Based Strategy"},{"id":"164","name":"Cartoony"},{"id":"179","name":"Cartoon"},{"id":"100","name":"Grand Strategy"},{"id":"212","name":"4X"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":983201,"slug":"sid-meiers-civilization-vii","name":"Sid Meier’s Civilization VII"},{"rawg_id":13633,"slug":"civilization-v","name":"Sid Meier's Civilization V"},{"rawg_id":13780,"slug":"sid-meiers-civilization-iv","name":"Sid Meier's Civilization IV"},{"rawg_id":17380,"slug":"sid-meiers-civilization-iii-complete","name":"Sid Meier's Civilization III Complete"},{"rawg_id":32060,"slug":"sid-meiers-civilization-2","name":"Sid Meier's Civilization 2"},{"rawg_id":32062,"slug":"sid-meiers-civilization","name":"Sid Meier's Civilization"}]
 franchise_slug: "civilization-v|civilization-vi|sid-meiers-civilization|sid-meiers-civilization-2|sid-meiers-civilization-iii-co|sid-meiers-civilization-iv|sid-meiers-civilization-vii"
 igdb_url: "https://www.igdb.com/games/sid-meiers-civilization-vi"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2020-05-20","end":"2020-05-27"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ddae044b3dc291e15f4d4b06286da6057514cfdc61a
 icon_image: "https://images.gog.com/18d95bbd1690461bd3820e0064a23db72dce383a4fcb1cbc2c049913bc0a9f58.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/37867"
 store_url: "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vi"
 protondb_url: "https://www.protondb.com/app/289070"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sid_Meier%27s_Civilization_VI"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sid_Meier's_Civilization_VI"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/sid-meiers-civilization-vi/"
 

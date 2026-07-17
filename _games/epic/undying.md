@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 1875
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Skystone Games Inc.
@@ -28,17 +36,19 @@ genre: Horror, Adventure
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "December 7, 2023"
+release_date: "October 19, 2021"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Japanese","French","German","Korean","Russian","Traditional Chinese","Spanish - Spain","Portuguese - Brazil","Italian","Turkish"]
 languages_audio: ["English","Simplified Chinese"]
-tags_structured: [{"id":"21137","name":"Unique Visuals"},{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
-size: ""
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
+size: "1106 MB"
+install_size: "1288 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/undying"
 was_free_before: true
-giveaway_events: [{"_id":"67912dea7dc7ed91f6edbdb9","id":"c9d2e42d8b404add9390c0182093abbd","namespace":"487df1dfd24b44c381a2a376fbf78946","startDate":"2025-01-30T16:00:00.000Z","endDate":"2025-02-06T16:00:00.000Z","title":"Undying","__v":0}]
+giveaway_events: [{"start":"2025-01-30","end":"2025-02-06"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6e349fe202b31a31953ecf4cca364e641f3e89d830b
 icon_image: "https://images.gog.com/f6e8cd321f8dd89a7448b746dd14d71d773079f0515f5628ea6cc867104eab51.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

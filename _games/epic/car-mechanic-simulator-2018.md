@@ -20,6 +20,14 @@ protondb_total: 61
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 56023
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: PlayWay
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Czech","Hungarian","Japanese","Polish","Russian","Simplified Chinese","Turkish","Portuguese - Portugal","Greek","Portuguese - Brazil","Finnish","Korean"]
 languages_audio: []
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21127","name":"Creative Community"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "6096 MB"
+install_size: "9038 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/car-mechanic-simulator-2018"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1dd3631f27c961ebdb6","id":"5eb27cf1747c40b5a0d4f5492774678d","namespace":"226306adde104c9092247dcd4bfa1499","startDate":"2022-06-22T15:00:00.000Z","endDate":"2022-06-29T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-06-22","end":"2022-06-29"},{"start":"2026-05-21","end":"2026-05-27"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6628c486e95fbcd473bc89b3021aba42325e5d2a198
 icon_image: "https://images.gog.com/3eec69dea83e56cf05e0285839ed3a512e05873e1c068e84245af3783c2dd514.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

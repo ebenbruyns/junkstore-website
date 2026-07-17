@@ -20,6 +20,14 @@ protondb_total: 18
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 97
+steam_review_total: 9520
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Adriaan de Jongh
@@ -28,17 +36,19 @@ genre: Indie, Casual, Comedy
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "February 15, 2017"
+release_date: "August 14, 2025"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Turkish","Arabic","Czech","Danish","Finnish","Norwegian","Swedish","Ukrainian","Spanish - Latin America","Vietnamese"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1263","name":"Indie"},{"id":"1296","name":"Casual"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1116","name":"Comedy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "100 MB"
+install_size: "288 MB"
+achievements_total: 8
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/hidden-folks"
 was_free_before: true
-giveaway_events: [{"_id":"6894bfecaaf3d73cfbbe0459","id":"8ea3500dc38e4f429702bf889c172d3d","namespace":"b0545d64f90248208a5dd6f213f4dde7","startDate":"2025-08-14T15:00:00.000Z","endDate":"2025-08-21T15:00:00.000Z","title":"Hidden Folks","__v":0}]
+giveaway_events: [{"start":"2025-08-14","end":"2025-08-21"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/21590071a3becb3c941e217f0a1793453c8bf1c394f
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/435400/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

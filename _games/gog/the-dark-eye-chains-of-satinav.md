@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 2519
+gog_rating_value: 4
+gog_rating_count: 557
 
 # Game Info
 publisher: Daedalic Entertainment, Deep Silver, Merge Games
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian","Polish","Russian"]
 languages_audio: ["English","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"64","name":"Fantasy"},{"id":"141","name":"Point & Click"},{"id":"40","name":"Dark Fantasy"}]
 size: "2532 MB"
+install_size: ""
+achievements_total: 36
 franchise_siblings: [{"rawg_id":16711,"slug":"blackguards-2","name":"Blackguards 2"},{"rawg_id":12166,"slug":"blackguards","name":"Blackguards"},{"rawg_id":16253,"slug":"memoria","name":"Memoria"}]
 franchise_slug: "blackguards|blackguards-2|memoria|the-dark-eye-chains-of-satinav"
 igdb_url: "https://www.igdb.com/games/the-dark-eye-chains-of-satinav"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c302b386a186a727a962ecc797b6bf899eda15aadc6
 icon_image: "https://images.gog.com/82a0de390c3b1f60a7d71f35be0f2eaed7de9ff01ceed62082d697e8aad165cb.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/9826"
 store_url: "https://www.gog.com/en/game/the_dark_eye_chains_of_satinav"
 protondb_url: "https://www.protondb.com/app/203830"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Dark_Eye%3A_Chains_of_Satinav"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Dark_Eye:_Chains_of_Satinav"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/the-dark-eye-chains-of-satinav/"
 

@@ -20,6 +20,14 @@ protondb_total: 330
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 66206
+gog_rating_value: 4.4
+gog_rating_count: 729
 
 # Game Info
 publisher: Bethesda Softworks
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","French","Ital
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Japanese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"26","name":"Gore"},{"id":"6","name":"Exploration"},{"id":"189","name":"Female Protagonist"},{"id":"15","name":"Stealth"},{"id":"82","name":"Magic"},{"id":"188","name":"Parkour"},{"id":"119","name":"Dystopian"},{"id":"154","name":"Steampunk"},{"id":"278","name":"Assassin"},{"id":"178","name":"Illuminati"},{"id":"216","name":"Heist"},{"id":"279","name":"Supernatural"},{"id":"42473","name":"Immersive Sim"}]
 size: "40514 MB"
+install_size: ""
+achievements_total: 50
 franchise_siblings: [{"rawg_id":29173,"slug":"dishonored-death-of-the-outsider","name":"Dishonored: Death of the Outsider"},{"rawg_id":4248,"slug":"dishonored","name":"Dishonored"}]
 franchise_slug: "dishonored|dishonored-2|dishonored-death-of-the-outsid"
 igdb_url: "https://www.igdb.com/games/dishonored-2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2022-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7d3872f065587be6c41181111401938dee58819fbc0
 icon_image: "https://images.gog.com/a28c39f3450b74507701cece797eb07b4ad67a70c89f9ae5e62942f1f53e96cf.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

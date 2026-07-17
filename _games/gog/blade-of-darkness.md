@@ -20,6 +20,14 @@ protondb_total: 16
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 2541
+gog_rating_value: 4.6
+gog_rating_count: 164
 
 # Game Info
 publisher: SNEG
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: ["English","French","Italian","German","Spanish - Spain"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"26","name":"Gore"},{"id":"49","name":"Difficult"},{"id":"34","name":"Violent"},{"id":"79","name":"Free to Play"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"41","name":"Dark"},{"id":"468","name":"role-playing"},{"id":"62","name":"Moddable"},{"id":"68","name":"Hack and Slash"},{"id":"5","name":"Replay Value"},{"id":"40","name":"Dark Fantasy"},{"id":"114","name":"Physics"},{"id":"1465","name":"combat"},{"id":"270","name":"Blood"},{"id":"981","name":"battle"},{"id":"1867","name":"puzzles"},{"id":"116","name":"2.5D"},{"id":"200","name":"Narration"},{"id":"205","name":"Lore-Rich"},{"id":"187","name":"Demons"},{"id":"580","name":"Souls-like"},{"id":"3109","name":"weapons"},{"id":"1309","name":"hero"},{"id":"49964","name":"Action Roguelike"},{"id":"3046","name":"destroy"},{"id":"1897","name":"fire"},{"id":"704","name":"Traps"},{"id":"878","name":"sword"},{"id":"18426","name":"enemy"},{"id":"3728","name":"memory"},{"id":"2863","name":"darkness"},{"id":"749","name":"army"},{"id":"627","name":"Skeletons"},{"id":"1117","name":"chaos"},{"id":"2888","name":"hack"},{"id":"4706","name":"knights"}]
 size: "1354 MB"
+install_size: ""
+achievements_total: 56
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/blade-of-darkness"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d21787b00042fd4de8aad85342509b958617d426c1f
 icon_image: "https://images.gog.com/5400d7b0be5163dcb46255c469a2c357a33bd9e5f3704d7ff454ea47c7aaba11.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

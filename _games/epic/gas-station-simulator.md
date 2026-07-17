@@ -20,6 +20,14 @@ protondb_total: 47
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 27270
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: DRAGO entertainment
@@ -28,17 +36,19 @@ genre: Casual, Simulation
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas, Violência"}}
-release_date: "September 15, 2021"
+release_date: "September 25, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Turkish","Czech","Portuguese - Brazil","Ukrainian","Italian","Thai","Portuguese - Portugal","Vietnamese","Korean","Japanese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "5.65 GB"
+install_size: "6154 MB"
+achievements_total: 91
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/gas-station-simulator"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2d7850b75d89eb443837e49ab539b7fd541a771f184
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1149620/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

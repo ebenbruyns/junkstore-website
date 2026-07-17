@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 9467
+gog_rating_value: 4.7
+gog_rating_count: 483
 
 # Game Info
 publisher: Beamdog
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian","Polish"]
 languages_audio: ["English","French","German","Polish"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"411","name":"cooperative"},{"id":"9","name":"Online Co-Op"},{"id":"397","name":"Online multiplayer"},{"id":"574","name":"Dungeons & Dragons"}]
 size: "3282 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "neverwinter-nights-2|neverwinter-nights-2002"
 igdb_url: "https://www.igdb.com/games/neverwinter-nights-enhanced-edition"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2023-06-01"},{"start":"2024-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7ca8e2974f49daca1f2b037c5af04652f1d224a68b5
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/704450/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

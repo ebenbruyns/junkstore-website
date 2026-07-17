@@ -20,6 +20,14 @@ protondb_total: 12
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 1495
+gog_rating_value: 4.5
+gog_rating_count: 364
 
 # Game Info
 publisher: Humble Games
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Latin American Spanish","Fr
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"45","name":"2D"},{"id":"189","name":"Female Protagonist"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"68","name":"Hack and Slash"},{"id":"113","name":"Side Scroller"},{"id":"259","name":"Metroidvania"},{"id":"166","name":"Stylized"},{"id":"59643","name":"Протагонистка"},{"id":"580","name":"Souls-like"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"}]
 size: "260 MB"
+install_size: ""
+achievements_total: 34
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/moonscars"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/be392cba6ba80997511cf8d7568609fc51568949a1b
 icon_image: "https://images.gog.com/738c359506944e06a664a4c97d342f714389ecce6a0ddc9b52520965889a3425.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

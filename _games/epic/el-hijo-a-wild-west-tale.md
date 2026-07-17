@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 228
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: HandyGames
@@ -28,12 +36,14 @@ genre: Casual, Exploration, Stealth
 franchise: 
 age_rating_summary: 6 (USK)
 age_ratings: {"usk":{"rating":"6"},"dejus":{"rating":"L"}}
-release_date: "December 3, 2020"
+release_date: "March 11, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Bulgarian","Czech","Danish","Dutch","Finnish","Greek","Hungarian","Japanese","Korean","Norwegian","Polish","Portuguese - Brazil","Romanian","Russian","Simplified Chinese","Swedish","Thai","Traditional Chinese","Turkish","Vietnamese"]
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"}]
 size: "2837 MB"
+install_size: "3072 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/el-hijo-a-wild-west-tale"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/60b030222b77141944194b67ed7819c2b5bf01bd4c7
 icon_image: "https://images.gog.com/b2ebfa474c7f7fdb174a84130c204003c8a48965b080f2ef7337447ee9279033.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

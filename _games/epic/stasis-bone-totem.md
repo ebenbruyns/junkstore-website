@@ -20,6 +20,14 @@ protondb_total: 13
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 2630
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: THE BROTHERHOOD
@@ -28,17 +36,19 @@ genre: Puzzle, Horror, Adventure
 franchise: 
 age_rating_summary: 17 (ESRB)
 age_ratings: {"dejus":{"rating":"16","descriptors":"Violência Extrema, Medo, Linguagem imprópria"}}
-release_date: "May 31, 2023"
+release_date: "June 20, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Spanish - Latin America","Turkish","Japanese","Portuguese - Brazil","Portuguese - Portugal"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1218","name":"Horror"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21150","name":"Challenging Puzzles"}]
-size: ""
+size: "9854 MB"
+install_size: "17032 MB"
+achievements_total: 20
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/stasis-bone-totem"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a8294fdf3dc0005daa3b18b9f668bdb4c6367be2699
 icon_image: "https://images.gog.com/2a19d9bb8cda6fb07b01bbf28f0719abc6cb977bc55de989e65e318fa1745f98.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/86843"
 store_url: "https://store.epicgames.com/en-US/p/stasis-bone-totem-ca8320"
 protondb_url: "https://www.protondb.com/app/1426010"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stasis%3A_Bone_Totem"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stasis:_Bone_Totem"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/stasis-bone-totem/"
 

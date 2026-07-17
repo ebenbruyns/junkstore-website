@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 143
+gog_rating_value: 4.2
+gog_rating_count: 182
 
 # Game Info
 publisher: Microïds
@@ -34,11 +42,13 @@ languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","Czech","Germ
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"75","name":"Local Co-Op"},{"id":"69","name":"Action-Adventure"},{"id":"72","name":"Local Multiplayer"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"1465","name":"combat"},{"id":"138","name":"Relaxing"},{"id":"229","name":"3D Platformer"},{"id":"744","name":"friends"},{"id":"45201","name":"Remote Play Together"},{"id":"774","name":"nature"},{"id":"49955","name":"Puzzle Platformer"},{"id":"1743","name":"collect"},{"id":"3103","name":"evil"},{"id":"3748","name":"terror"},{"id":"1117","name":"chaos"},{"id":"4909","name":"village"},{"id":"4027","name":"travel"},{"id":"5459","name":"key"},{"id":"3389","name":"green"}]
 size: "8970 MB"
+install_size: ""
+achievements_total: 37
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-smurfs-2-the-prisoner-of-the-green-stone"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fc3747f44deb8835f9ff27f30873738edef64625aa3
 icon_image: "https://images.gog.com/8e7b471f2d14a590b5686e0b3be95f43ced55f5887c6fc2e933e62b4f4f3d90a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/128830"
 store_url: "https://www.gog.com/en/game/the_smurfs_2_the_prisoner_of_the_green_stone"
 protondb_url: "https://www.protondb.com/app/2397500"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Smurfs_2%3A_The_Prisoner_of_the_Green_Stone"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Smurfs_2:_The_Prisoner_of_the_Green_Stone"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/the-smurfs-2-the-prisoner-of-the-green-stone/"
 

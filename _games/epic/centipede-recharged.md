@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 175
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Atari
@@ -32,13 +40,15 @@ release_date: "September 29, 2021"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"10719","name":"Mac OS"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"}]
+size: "296 MB"
+install_size: "296 MB"
+achievements_total: 16
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/2235"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e03631f27c961ebe60","id":"b44a2808223f4cd0a8ca1376410b5460","namespace":"a1edd0d2e28d4d298152c001e7c47e22","startDate":"2022-03-02T15:00:00.000Z","endDate":"2022-03-09T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-03-02","end":"2022-03-09"},{"start":"2023-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9ddb19cc379f903092f2bfffb5d51bd08a0a91d9ff2
 icon_image: "https://images.gog.com/44afc285371adb637740856b9ae5214e86b1fb4482169a3637df29b639583566.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/98572"
 store_url: "https://store.epicgames.com/en-US/p/centipede-recharged"
 protondb_url: "https://www.protondb.com/app/1630960"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Centipede%3A_Recharged"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Centipede:_Recharged"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/centipede-recharged/"
 

@@ -20,6 +20,14 @@ protondb_total: 21
 protondb_confidence: "good"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 2393
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Armor Games Studios
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil",
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"21119","name":"Great for Beginners"}]
 size: "446 MB"
+install_size: "525 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/islets"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cb3631f27c961eb8cd","id":"4862aa73b8b048c782958b8f22118d28","namespace":"cecc5a53aa534e15881fdbd67a1e83b7","startDate":"2024-03-27T15:00:00.000Z","endDate":"2024-04-03T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-03-27","end":"2024-04-03"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/46fd5104075ff8f6c72fcddbec4751b06c59af3b6cf
 icon_image: "https://images.gog.com/92fb13c36a32f3e7eb8bc400d8b427b6fead1fedd33352359b72bc2281de49c4.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

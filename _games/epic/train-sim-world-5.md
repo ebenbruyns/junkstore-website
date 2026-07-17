@@ -20,6 +20,14 @@ protondb_total: 26
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 5205
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Dovetail Games
@@ -32,8 +40,10 @@ release_date: "September 17, 2024"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Russian","Simplified Chinese","Polish","Italian"]
 languages_audio: ["English","French","German"]
-tags_structured: [{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"}]
-size: ""
+tags_structured: [{"id":"9547","name":"Windows"}]
+size: "4247 MB"
+install_size: "10712 MB"
+achievements_total: 65
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/train-sim-world-5"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/17b53477362e73095d06e1dfb2e63bc2f698d9c622b
 icon_image: "https://images.gog.com/2ba8c46427d8cc30edefddb4e02b2ab244bb04a3e1a5374680744d29bdb324ee.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 8
 protondb_confidence: "moderate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 9819
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: COGNOSPHERE PTE. LTD.
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Korean","French","German","Spanish - Spain","Russian","Indonesian","Japanese","Thai","Traditional Chinese","Vietnamese","Portuguese - Brazil"]
 languages_audio: ["English","Simplified Chinese","Korean","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "198 MB"
+install_size: "419 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/zenless-zone-zero"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e312823add70222ffb01671a18217afe22b5c20acac
 icon_image: "https://images.gog.com/a06a6b054a714930af14422e727380d93f1d544b6c8b742e3b1ce9659eccc1bc.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: "hoyoplay"

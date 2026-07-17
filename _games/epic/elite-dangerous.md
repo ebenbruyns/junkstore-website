@@ -20,6 +20,14 @@ protondb_total: 975
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 106823
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Frontier Developments
@@ -32,13 +40,15 @@ release_date: "November 19, 2020"
 game_modes: ["Single-player","Online Multiplayer"]
 languages: ["English","French","German","Russian","Spanish - Spain","Portuguese - Brazil"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"1121","name":"Space"},{"id":"1281","name":"Space Sim"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"217","name":"SPACE SIMULATION"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1279","name":"Vampire"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"1121","name":"Space"},{"id":"1281","name":"Space Sim"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"217","name":"SPACE SIMULATION"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1279","name":"Vampire"}]
+size: "19856 MB"
+install_size: "20166 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":32705,"slug":"frontier-first-encounters","name":"Frontier: First Encounters"},{"rawg_id":29794,"slug":"frontier-elite-2","name":"Frontier: Elite 2"},{"rawg_id":53811,"slug":"elite","name":"Elite"}]
 franchise_slug: "elite|elite-dangerous|frontier-elite-2|frontier-first-encounters"
 igdb_url: "https://www.igdb.com/games/elite-dangerous"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1ed3631f27c961ec1c2","id":"7b002177046841a69da1adc0e1d0c98f","namespace":"3db17abfd650423f993291624b1b2ac1","startDate":"2020-11-18T15:00:00.000Z","endDate":"2020-11-25T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2020-11-18","end":"2020-11-25"},{"start":"2024-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f368b027a75adec59686cb1463993f7291d923ac88c
 icon_image: "https://images.gog.com/db32e7159351eae41b8f3406ec0bde9ac150373911d566a2610e613762a4bc34.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

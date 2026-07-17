@@ -20,6 +20,14 @@ protondb_total: 141
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 144992
+gog_rating_value: 4.3
+gog_rating_count: 1023
 
 # Game Info
 publisher: 2K Games
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","French","Ital
 languages_audio: ["English","French","German","Italian","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "39336 MB"
+install_size: ""
+achievements_total: 80
 franchise_siblings: [{"rawg_id":884223,"slug":"bioshock-pinball","name":"Bioshock Pinball"},{"rawg_id":422857,"slug":"bioshock-2-minervas-den-remastered","name":"BioShock 2: Minerva's Den Remastered"},{"rawg_id":987520,"slug":"bioshock-2-the-protector-trials","name":"BioShock 2: The Protector Trials"},{"rawg_id":41962,"slug":"bioshock-2-sinclair-solutions-test-pack","name":"BioShock 2: Sinclair Solutions Test Pack"},{"rawg_id":4427,"slug":"bioshock-2","name":"BioShock 2"},{"rawg_id":987521,"slug":"bioshock-challenge-rooms","name":"BioShock: Challenge Rooms"},{"rawg_id":4286,"slug":"bioshock","name":"BioShock"},{"rawg_id":397468,"slug":"bioshock-4","name":"BioShock 4"}]
 franchise_slug: "bioshock|bioshock-2|bioshock-2-minervas-den-remast|bioshock-2-sinclair-solutions-|bioshock-2-the-protector-trial|bioshock-4|bioshock-challenge-rooms|bioshock-infinite|bioshock-pinball"
 igdb_url: "https://www.igdb.com/games/bioshock-infinite"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7f5f0b28a2d93580010dec745b655bbfa4185ac9004
 icon_image: "https://images.gog.com/774616f1d941ceb13b598657f1641caa2891b9c90f06ad5953ec9a688382bf87.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

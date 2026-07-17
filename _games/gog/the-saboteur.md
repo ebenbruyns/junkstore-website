@@ -20,6 +20,14 @@ protondb_total: 26
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Game or launcher doesnt exit cleanly"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 2816
+gog_rating_value: 4.3
+gog_rating_count: 1111
 
 # Game Info
 publisher: Electronic Arts
@@ -34,6 +42,8 @@ languages: ["German","English","French","Italian","Polish","Russian"]
 languages_audio: ["English","French","German","Italian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"15","name":"Stealth"},{"id":"69","name":"Action-Adventure"},{"id":"478","name":"3rd-Person Perspective"},{"id":"105","name":"World War II"},{"id":"91686","name":"Family Sharing"}]
 size: "6653 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-saboteur"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/092caef9f25a60a03dd8587a911a59176b4bbcd1501
 icon_image: "https://images.gog.com/f8526520f368cd025c435cf55b312bd53fbda67faa0e5cf5be79c571e4233b50.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

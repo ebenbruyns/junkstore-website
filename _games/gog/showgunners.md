@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 1926
+gog_rating_value: 4.5
+gog_rating_count: 333
 
 # Game Info
 publisher: Good Shepherd Entertainment
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"6","name":"Exploration"},{"id":"80","name":"Tactical"},{"id":"41","name":"Dark"},{"id":"121","name":"Character Customization"},{"id":"145","name":"Choices Matter"},{"id":"1465","name":"combat"},{"id":"101","name":"Turn-Based Strategy"},{"id":"61","name":"Top-Down"},{"id":"119","name":"Dystopian"},{"id":"305","name":"Linear"},{"id":"243","name":"1990's"},{"id":"171","name":"PvE"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"247","name":"Real Time Tactics"},{"id":"230","name":"Tactical RPG"},{"id":"290","name":"FMV"}]
 size: "10286 MB"
+install_size: ""
+achievements_total: 54
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/showgunners"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-09-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7742a0de714f56fbaa4ce1718b2419043476f0fdda3
 icon_image: "https://images.gog.com/235071564b8f0e6795dad4433dadc1c38d5789f865a8f9ce7e94915c59ad2517.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

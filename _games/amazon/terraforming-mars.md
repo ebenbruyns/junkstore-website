@@ -20,6 +20,14 @@ protondb_total: 43
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 71
+steam_review_total: 7201
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Twin Sails Interactive
@@ -33,12 +41,14 @@ game_modes: ["Single-player","Multi-player","PvP","Online PvP","Remote Play Toge
 languages: ["English","French","Italian","German","Spanish - Spain","Swedish"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"397","name":"Online multiplayer"},{"id":"72","name":"Local Multiplayer"},{"id":"162","name":"Board Game"},{"id":"40851","name":"Steam Turn Notifications"}]
-size: ""
+size: "174 MB"
+install_size: "291 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/terraforming-mars"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2022-05-04","end":"2022-05-11"},{"start":"2026-06-25","end":"2026-08-27"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ff34b1cf21ba76220b3ec98e6b6af231800ffa9df85
 icon_image: "https://images.gog.com/2bb632b80dbd844aa28063b3a4c3bcc4e3e483d232dd6de4c325063747c4637f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

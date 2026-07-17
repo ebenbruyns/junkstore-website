@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 65
+steam_review_total: 905
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: IGG SINGAPORE PTE. LTD.
@@ -33,7 +41,9 @@ game_modes: ["Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English","French","Italian","German","Russian","Turkish","Japanese","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Portugal","Spanish - Latin America","Vietnamese","Arabic","Korean","Indonesian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1120","name":"RTS"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "3807 MB"
+install_size: "4542 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/doomsday-last-survivors"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/92c9afb5ec57f9deb8cc9821bdce0bc9986f0ba9d08
 icon_image: "https://images.gog.com/8b29aad4f524cd501c3c60472249fa0ab122676434bc1cd2c7f5c43bb7d31113.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""
@@ -115,4 +128,4 @@ is_featured: false
 owned: true
 ---
 
-Fight the Post-Human crisis in the Ghost in the Shell collab!
+Otherworldly magic invades the post-apocalyptic world in this FAIRY TAIL collab!

@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 71
+steam_review_total: 964
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Varsav Game Studios, Untold Tales
@@ -34,11 +42,13 @@ languages: ["English","French","German","Polish","Korean","Portuguese - Brazil",
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"69","name":"Action-Adventure"},{"id":"125","name":"Crafting"},{"id":"138","name":"Relaxing"},{"id":"164","name":"Cartoony"},{"id":"179","name":"Cartoon"},{"id":"304","name":"Character Action Game"},{"id":"231","name":"Strategy RPG"},{"id":"626","name":"cats"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/everdream-valley"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-06-01"},{"start":"2025-05-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5f749579eac29075cc52433bb01f17c264bccc9d43c
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1403650/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

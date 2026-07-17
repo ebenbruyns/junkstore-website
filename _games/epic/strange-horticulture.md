@@ -20,6 +20,14 @@ protondb_total: 31
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 15796
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Iceberg Interactive
@@ -35,11 +43,13 @@ languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "283214202
 "
+install_size: "683 MB"
+achievements_total: 18
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/strange-horticulture"
 was_free_before: true
-giveaway_events: [{"_id":"689ca565c96b425098fc25a8","id":"0d9a533f0e684cc18620a8f408e8e72c","namespace":"c9d0a59bf89c45ceadc5960d6bc1ae4c","startDate":"2025-08-21T15:00:00.000Z","endDate":"2025-08-28T15:00:00.000Z","title":"Strange Horticulture","__v":0}]
+giveaway_events: [{"start":"2025-08-21","end":"2025-08-28"}]
 free_games_aliases: []
 
 # Images
@@ -48,6 +58,9 @@ cover_image: "https://images.gog.com/e7c78884cac0d381fb0bea9a567e19b5287c7d50898
 icon_image: "https://images.gog.com/9ef214fd189fdcd12ec9707ec516e21b896c3e039e0c6399091da8c4246c9506.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

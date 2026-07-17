@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 338
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Armor Games Studios
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Russian","Italian","A
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21151","name":"Easy Puzzles"}]
 size: "176 MB"
+install_size: "454 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/lumbearjack"
 was_free_before: true
-giveaway_events: [{"_id":"66abfad55736a265e483cb1c","id":"ed744042986f41f791d295459d75725f","namespace":"b112cc17de8c4b43a2372993b5916fec","startDate":"2024-08-01T15:00:00.000Z","endDate":"2024-08-08T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-08-01","end":"2024-08-08"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f80e9d171c9c723a04ba580d3c31420e9708933e200
 icon_image: "https://images.gog.com/35aab8d2df1c7849dd303b3da363ead39d5e4533e56d5bd2661e4c2927f99fc8.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

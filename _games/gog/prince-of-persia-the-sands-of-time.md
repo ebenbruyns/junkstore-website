@@ -20,6 +20,14 @@ protondb_total: 57
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Native resolution not supported"},{"type":"warning","note":"Device compatibility warnings shown"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 5192
+gog_rating_value: 4.4
+gog_rating_count: 1958
 
 # Game Info
 publisher: Ubisoft Entertainment
@@ -34,6 +42,8 @@ languages: ["German","English","French","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"68","name":"Hack and Slash"},{"id":"336","name":"controller support"},{"id":"188","name":"Parkour"},{"id":"83","name":"Puzzle-Platformer"},{"id":"317","name":"Time Travel"},{"id":"302","name":"Time Manipulation"}]
 size: "1221 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":854540,"slug":"prince-of-persia-escape-2","name":"Prince of Persia: Escape 2"},{"rawg_id":246692,"slug":"prince-of-persia-escape","name":"Prince of Persia: Escape"},{"rawg_id":6305,"slug":"prince-of-persia-the-shadow-and-the-flame","name":"Prince of Persia The Shadow and the Flame"},{"rawg_id":4518,"slug":"prince-of-persia-the-forgotten-sands","name":"Prince of Persia: The Forgotten Sands"},{"rawg_id":39233,"slug":"prince-of-persia-epilogue","name":"Prince of Persia: Epilogue"},{"rawg_id":4744,"slug":"prince-of-persia","name":"Prince of Persia (2008)"},{"rawg_id":25728,"slug":"prince-of-persia-the-fallen-king","name":"Prince of Persia: The Fallen King"},{"rawg_id":13926,"slug":"prince-of-persia-the-two-thrones","name":"Prince of Persia: The Two Thrones"},{"rawg_id":13925,"slug":"prince-of-persia-warrior-within","name":"Prince of Persia: Warrior Within"},{"rawg_id":772534,"slug":"prince-of-persia-arabian-nights","name":"Prince of Persia: Arabian Nights"},{"rawg_id":32685,"slug":"prince-of-persia-2-the-shadow-and-the-flame","name":"Prince of Persia 2: The Shadow and the Flame"},{"rawg_id":45957,"slug":"prince-of-persia-nes","name":"Prince of Persia (1989)"},{"rawg_id":644662,"slug":"prince-of-persia-redemption","name":"Prince of Persia: Redemption"}]
 franchise_slug: "prince-of-persia|prince-of-persia-2-the-shadow-|prince-of-persia-arabian-night|prince-of-persia-epilogue|prince-of-persia-escape|prince-of-persia-escape-2|prince-of-persia-nes|prince-of-persia-redemption|prince-of-persia-the-fallen-ki|prince-of-persia-the-forgotten|prince-of-persia-the-sands-of-|prince-of-persia-the-shadow-an|prince-of-persia-the-two-thron|prince-of-persia-warrior-withi"
 igdb_url: "https://www.igdb.com/games/prince-of-persia-the-sands-of-time"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/54d7272a2e130c52ef47d5b2ea4fd88220a8da28003
 icon_image: "https://images.gog.com/105d0042f39dcc112b4fc7b09daf2a06c11dc1846a3308c5669c6ad0739ac9c9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/7297"
 store_url: "https://www.gog.com/en/game/prince_of_persia_the_sands_of_time"
 protondb_url: "https://www.protondb.com/app/13600"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prince_of_Persia%3A_The_Sands_of_Time"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prince_of_Persia:_The_Sands_of_Time"
 metacritic_score: 92
 metacritic_url: "https://www.metacritic.com/game/prince-of-persia-the-sands-of-time/"
 

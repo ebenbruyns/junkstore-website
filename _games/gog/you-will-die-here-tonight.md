@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 662
+gog_rating_value: 4
+gog_rating_count: 24
 
 # Game Info
 publisher: Spiral Bound Interactive LLC
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","Hungarian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"8","name":"First-Person"},{"id":"45","name":"2D"},{"id":"149","name":"Third Person"},{"id":"16","name":"Horror"},{"id":"6","name":"Exploration"},{"id":"69","name":"Action-Adventure"},{"id":"97","name":"Action RPG"},{"id":"115","name":"Controller"},{"id":"41","name":"Dark"},{"id":"63","name":"Zombies"},{"id":"17","name":"Survival Horror"},{"id":"145","name":"Choices Matter"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"218","name":"Multiple Endings"},{"id":"61","name":"Top-Down"}]
 size: "937 MB"
+install_size: ""
+achievements_total: 21
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/you-will-die-here-tonight"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1446350/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1446350/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

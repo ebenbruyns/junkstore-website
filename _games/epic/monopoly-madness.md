@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 41
+steam_review_total: 99
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ubisoft
@@ -32,8 +40,10 @@ release_date: "December 9, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Spanish - Latin America"]
-tags_structured: [{"id":"1296","name":"Casual"},{"id":"1203","name":"Multiplayer"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"}]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1203","name":"Multiplayer"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/monopoly-madness"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f83f5fcb7b9623ac585be74dfd92773ff414cd02219
 icon_image: "https://images.gog.com/2b7e5464a1731f98af075ffd6d9b7b91526304145a87def63a05977bc18613d7.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: "ubisoft-connect"

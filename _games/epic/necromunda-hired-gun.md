@@ -20,6 +20,14 @@ protondb_total: 50
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 65
+steam_review_total: 7933
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Focus Entertainment
@@ -32,13 +40,15 @@ release_date: "May 31, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","French","German"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21380","name":"Warhammer Skulls Festival"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+size: "21152 MB"
+install_size: "40209 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/necromunda-hired-gun"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e57c8adb355e280ec1e094665efd1895978e79afee0
 icon_image: "https://images.gog.com/644daea536caedcce6a0336f2c53bc0b86c186b61e27e5ff2ca1ceb2e73cef43.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/90106"
 store_url: "https://store.epicgames.com/en-US/p/necromunda-hired-gun"
 protondb_url: "https://www.protondb.com/app/1222370"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Necromunda%3A_Hired_Gun"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Necromunda:_Hired_Gun"
 metacritic_score: 62
 metacritic_url: "https://www.metacritic.com/game/necromunda-hired-gun/"
 

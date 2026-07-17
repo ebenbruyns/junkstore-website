@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 361
+gog_rating_value: 3.8
+gog_rating_count: 46
 
 # Game Info
 publisher: rokaplay
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["Portuguese (Brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"64","name":"Fantasy"},{"id":"115","name":"Controller"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"99","name":"Isometric"},{"id":"67","name":"Management"},{"id":"138","name":"Relaxing"},{"id":"195","name":"Economy"},{"id":"91686","name":"Family Sharing"},{"id":"774","name":"nature"},{"id":"43374","name":"Remote Play on TV"},{"id":"159","name":"Agriculture"},{"id":"49969","name":"Farming Sim"},{"id":"658","name":"Cozy"},{"id":"14653","name":"wholesome"},{"id":"598","name":"Farming"},{"id":"85409","name":"Shop Keeper"},{"id":"85410","name":"Работа в магазине"}]
-size: ""
+size: "911 MB"
+install_size: ""
+achievements_total: 18
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sugardew-island-your-cozy-farm-shop--1"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-06-20"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/0d1181570289273f34ca8b108e3c28aeb00617a0c88
 icon_image: "https://images.gog.com/a9a9f2013b6b166329819bc4f764c740a60286e344f9484cba7da698870f74bf.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

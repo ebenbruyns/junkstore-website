@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 96
+steam_review_total: 178
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Mameshiba Games
@@ -28,17 +36,19 @@ genre: Adventure
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Violência, Conteúdo sexual, Drogas lícitas"}}
-release_date: "March 19, 2024"
+release_date: "June 20, 2025"
 game_modes: ["Single-player"]
 languages: ["English","Spanish - Spain","Japanese","French","Italian","German","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil","Portuguese - Portugal","Russian"]
 languages_audio: ["English","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "680 MB"
+install_size: "1553 MB"
+achievements_total: 13
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/kinnikuneko-super-muscle-cat"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-04-30","end":"2026-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e9a4a5a394252a881adb185b7666b2e9dcdd0e4b562
 icon_image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332950/capsule_184x69.jpg?t=1749585009"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

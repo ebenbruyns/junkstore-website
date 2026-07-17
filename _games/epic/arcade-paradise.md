@@ -20,6 +20,14 @@ protondb_total: 20
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 2047
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Wired Productions
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: ["English","French","German"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
 size: "2592 MB"
+install_size: "4335 MB"
+achievements_total: 54
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/arcade-paradise"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1c93631f27c961eb814","id":"f7ce9c6bfed74819894366568193d4f8","namespace":"89b9c510e8d74b9da34c447915b1ffb1","startDate":"2024-07-17T15:00:00.000Z","endDate":"2024-07-24T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-07-17","end":"2024-07-24"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/988294590b4a4f80c1cd747ba8e5bc613fb3b4855fa
 icon_image: "https://images.gog.com/7a517a104b8ca8e996cb61c29102735f7b9909b6d7aba1afa0506440204f37d3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

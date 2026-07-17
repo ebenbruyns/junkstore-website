@@ -20,6 +20,14 @@ protondb_total: 13
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 2866
+gog_rating_value: 3.9
+gog_rating_count: 76
 
 # Game Info
 publisher: Frogwares
@@ -34,6 +42,8 @@ languages: ["Arabic","Portuguese (brazilian)","Chinese Simplified","Czech","Germ
 languages_audio: ["English"]
 tags_structured: []
 size: "26361 MB"
+install_size: ""
+achievements_total: 28
 franchise_siblings: []
 franchise_slug: "sherlock-holmes-chapter-one|sherlock-holmes-the-awakened-2"
 igdb_url: "https://www.igdb.com/games/sherlock-holmes-the-awakened--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/761d502520e756d30ced2403c0e79b4b62a3a4492d9
 icon_image: "https://images.gog.com/6001eeb31a976342ab8c82a4ce42b9e5ecc58968e53e244b1a568ca3140bf810.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/8408"
 store_url: "https://www.gog.com/en/game/sherlock_holmes_the_awakened"
 protondb_url: "https://www.protondb.com/app/1949030"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sherlock_Holmes:_The_Awakened"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sherlock_Holmes:_The_Awakened_(2023)"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/sherlock-holmes-the-awakened/"
 

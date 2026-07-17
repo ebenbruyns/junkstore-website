@@ -20,25 +20,35 @@ protondb_total: 15
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 5185
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Akupara Games
 developer: Spooky Doorway
 genre: Exploration, Comedy, Adventure
 franchise: 
-age_rating_summary: 12 (USK)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"usk":{"rating":"12","descriptors":"Sexual Innuendo, Violence"},"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "July 27, 2017"
+release_date: "December 7, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1116","name":"Comedy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1116","name":"Comedy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "183 MB"
+install_size: "1032 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "the-darkside-detective|the-darkside-detective-a-fumble-in-the-dark"
 igdb_url: "https://www.igdb.com/games/the-darkside-detective"
 was_free_before: true
-giveaway_events: [{"_id":"69286eb6647143d1787365be","id":"537f9c03801d45c293b2a75eecd7170c","namespace":"29857990e5434b7db5dd026ef18dbc96","startDate":"2025-12-04T16:00:00.000Z","endDate":"2025-12-11T16:00:00.000Z","title":"The Darkside Detective","__v":0}]
+giveaway_events: [{"start":"2022-07-01"},{"start":"2025-12-04","end":"2025-12-11"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/368390/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/368390/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

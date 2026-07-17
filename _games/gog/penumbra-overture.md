@@ -20,6 +20,14 @@ protondb_total: 23
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 4136
+gog_rating_value: 4.1
+gog_rating_count: 13
 
 # Game Info
 publisher: Paradox Interactive
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"16","name":"Horror"},{"id":"1","name":"Survival"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"17","name":"Survival Horror"},{"id":"40833","name":"Captions available"},{"id":"47","name":"Lovecraftian"},{"id":"62349","name":"vr mod"}]
 size: "351 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":14001,"slug":"penumbra-requiem","name":"Penumbra: Requiem"},{"rawg_id":38286,"slug":"penumbra-black-plague","name":"Penumbra: Black Plague"}]
 franchise_slug: "penumbra-black-plague|penumbra-overture|penumbra-requiem"
 igdb_url: "https://www.igdb.com/games/penumbra-overture"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3baefc58b4fb5bad1a7f484bd8953555fbd0fc17e77
 icon_image: "https://images.gog.com/da27dea872d227978b698e6ba96fd6f0f18c259d7e9853695dbddec2a9653be5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

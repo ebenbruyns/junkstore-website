@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "3 user reviews"
+steam_review_percent: 67
+steam_review_total: 3
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Beijing 1023 Technology CO., Ltd
@@ -34,11 +42,13 @@ languages: ["English","Simplified Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1121","name":"Space"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-mystery-of-the-moon"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-05-30"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1070102c777fd30404ab90f6421cb7684ef3587e209
 icon_image: "https://images.gog.com/c83f6561c6f614ec11c4a5610691714d6795af06a89b19601efbcfe64f040741.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

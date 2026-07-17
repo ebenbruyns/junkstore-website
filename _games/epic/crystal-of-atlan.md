@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 65
+steam_review_total: 504
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Skystone Games
@@ -33,7 +41,9 @@ game_modes: ["Online Multiplayer"]
 languages: ["English","French","German","Indonesian","Japanese","Thai","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Vietnamese","Korean","Spanish - Spain"]
 languages_audio: ["English","Japanese","Simplified Chinese","Traditional Chinese","Korean"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "134 MB"
+install_size: "345 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/crystal-of-atlan"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/15bbd01cc39c6fe8e0316b05aa7410338b87e4a1e90
 icon_image: "https://images.gog.com/903062439bffee948d5febf507c46a36bc4bdb5d3781edb8dae3dd0bca11f756.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 371
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 86799
+gog_rating_value: 4.6
+gog_rating_count: 13983
 
 # Game Info
 publisher: Atari, CD Projekt
@@ -34,6 +42,8 @@ languages: ["Czech","German","English","Spanish","French","Hungarian","Italian",
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"42","name":"Great Soundtrack"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"149","name":"Third Person"},{"id":"64","name":"Fantasy"},{"id":"193","name":"Classic"},{"id":"97","name":"Action RPG"},{"id":"44","name":"Nudity"},{"id":"145","name":"Choices Matter"},{"id":"40","name":"Dark Fantasy"},{"id":"192","name":"Mature"},{"id":"66","name":"Medieval"},{"id":"82","name":"Magic"},{"id":"218","name":"Multiple Endings"},{"id":"283","name":"Based On A Novel"}]
 size: "9706 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "gwent-rogue-mage|gwent-the-witcher-card-game|gwent-thronebreaker|the-witcher|the-witcher-2-assassins-of-kin|the-witcher-3-wild-hunt|the-witcher-4|the-witcher-adventure-game|the-witcher-remake|the-witcher-rise-of-the-white-"
 igdb_url: "https://www.igdb.com/games/the-witcher"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/7fbb815727527616881cb45a56f51a19e90ddf21ba0
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/20900/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 67
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 61549
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Playdead
@@ -28,17 +36,19 @@ genre: Puzzle, Platformer, Indie
 franchise: Limbo
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência, Medo"}}
-release_date: "August 2, 2011"
+release_date: "July 18, 2019"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Japanese","Korean","Portuguese - Portugal","Spanish - Spain","Traditional Chinese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Turkish"]
 languages_audio: []
-tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
-size: ""
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
+size: "84 MB"
+install_size: "100 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/limbo"
 was_free_before: true
-giveaway_events: [{"_id":"682f343b113383424c4d21d2","id":"49bdb24baa564f8c92848abe14112436","namespace":"92053006068e4aa9b1ad413f72090f5e","startDate":"2025-05-29T15:00:00.000Z","endDate":"2025-06-05T15:00:00.000Z","title":"Limbo","__v":0},{"_id":"66abf1fc3631f27c961ec56a","id":"49bdb24baa564f8c92848abe14112436","namespace":"92053006068e4aa9b1ad413f72090f5e","startDate":"2019-07-16T15:00:00.000Z","endDate":"2019-07-24T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2019-07-16","end":"2019-07-24"},{"start":"2025-05-29","end":"2025-06-05"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/41f3f7bae126bb95aef290f488c27df7acf02bb74c3
 icon_image: "https://images.gog.com/69572f9f8589c5cd4072debe9e727cf2719441abf829747d0c490258e1b53e0a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

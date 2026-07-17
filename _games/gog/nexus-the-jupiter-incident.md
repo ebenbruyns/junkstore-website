@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 1077
+gog_rating_value: 4.4
+gog_rating_count: 542
 
 # Game Info
 publisher: HandyGames
@@ -34,11 +42,13 @@ languages: ["German","English","French","Hungarian","Italian","Russian"]
 languages_audio: ["English","German","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"13","name":"Atmospheric"},{"id":"32","name":"Sci-fi"},{"id":"193","name":"Classic"},{"id":"80","name":"Tactical"},{"id":"25","name":"Space"},{"id":"40838","name":"Includes level editor"},{"id":"62","name":"Moddable"},{"id":"168","name":"RTS"},{"id":"284","name":"Cult Classic"},{"id":"247","name":"Real Time Tactics"}]
 size: "2638 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/nexus-the-jupiter-incident--1"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-07-03","end":"2026-07-06"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/64b7af58fa2d6a19a435dde54ffe9b3f8cd67f48b55
 icon_image: "https://images.gog.com/9076390ea3bf0adc4d36b4aca9e37a416ebbb56d73c7cd75e4c2d5d52ed84aa2.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

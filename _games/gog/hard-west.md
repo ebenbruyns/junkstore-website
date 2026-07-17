@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Cross platform cloud saves not supported"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 4911
+gog_rating_value: 3.6
+gog_rating_count: 537
 
 # Game Info
 publisher: Gambitious Digital Entertainment
@@ -34,6 +42,8 @@ languages: ["German","English","French","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"36","name":"Open World"},{"id":"16","name":"Horror"},{"id":"26","name":"Gore"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"102","name":"Turn-Based"},{"id":"336","name":"controller support"},{"id":"99","name":"Isometric"},{"id":"101","name":"Turn-Based Strategy"},{"id":"334","name":"achievements"},{"id":"96","name":"Kickstarter"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"152","name":"Western"}]
 size: "3443 MB"
+install_size: ""
+achievements_total: 35
 franchise_siblings: [{"rawg_id":754881,"slug":"hard-west-2","name":"Hard West 2"}]
 franchise_slug: "hard-west|hard-west-2"
 igdb_url: "https://www.igdb.com/games/hard-west"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4f3cad12e039976d6e8cb3323100339b110859f0e82
 icon_image: "https://images.gog.com/29cc4827c6302ccb7d7565b49d9f4db8eff8039725b9ec47f7380153cf998e5d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

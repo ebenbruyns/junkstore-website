@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: ""
+steam_review_percent: 
+steam_review_total: 
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: DarkGoose4
@@ -28,12 +36,14 @@ genre: Horror, Indie
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Medo"}}
-release_date: "January 26, 2026"
+release_date: "December 18, 2025"
 game_modes: ["Single-player"]
 languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "406 MB"
+install_size: "538 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/nightreaper2"
@@ -47,6 +57,9 @@ cover_image: "https://shared.steamstatic.com/store_item_assets/steam/apps/428259
 icon_image: "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4282590/d4dd38b2a29526bfb851050bdb43434ad81d296b.ico"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 49
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 35517
+gog_rating_value: 4.6
+gog_rating_count: 875
 
 # Game Info
 publisher: Frictional Games
@@ -32,13 +40,15 @@ release_date: "September 8, 2010"
 game_modes: ["Single player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Russian"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"11631","name":"Requires 2FA"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1218","name":"Horror"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"11631","name":"Requires 2FA"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "1312 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":911543,"slug":"amnesia-the-bunker","name":"Amnesia: The Bunker"},{"rawg_id":427519,"slug":"amnesia-rebirth","name":"Amnesia: Rebirth"},{"rawg_id":13268,"slug":"amnesia-a-machine-for-pigs","name":"Amnesia: A Machine for Pigs"}]
 franchise_slug: "amnesia-a-machine-for-pigs|amnesia-rebirth|amnesia-the-bunker|amnesia-the-dark-descent"
 igdb_url: "https://www.igdb.com/games/amnesia-the-dark-descent"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2020-04-29","end":"2020-05-06"},{"start":"2025-07-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/c249233f5ae92174498f2252eae54d2ee01ff11d934
 icon_image: "https://images.gog.com/4bd8be8144db2a8277b072c15a7ba6f70695e094135dd51d958cc489e080762f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

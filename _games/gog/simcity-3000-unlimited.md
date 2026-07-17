@@ -20,6 +20,14 @@ protondb_total: 29
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Native resolution not supported"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 754
+gog_rating_value: 4.4
+gog_rating_count: 571
 
 # Game Info
 publisher: Electronic Arts
@@ -34,6 +42,8 @@ languages: ["German","English","French","Italian","Dutch","Swedish"]
 languages_audio: ["English","French","Italian","German","Dutch","Swedish"]
 tags_structured: []
 size: "536 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":1690,"slug":"simcity-buildit","name":"SimCity BuildIt"},{"rawg_id":41324,"slug":"simcity-2013","name":"SimCity (2013)"},{"rawg_id":35736,"slug":"simcity-societies","name":"SimCity Societies"},{"rawg_id":24872,"slug":"simcity-ds","name":"SimCity DS"},{"rawg_id":31510,"slug":"simcity-4","name":"SimCity 4"},{"rawg_id":5360,"slug":"simcity-2000","name":"SimCity 2000"},{"rawg_id":54172,"slug":"simcity","name":"SimCity"}]
 franchise_slug: "simcity|simcity-2000|simcity-2013|simcity-3000|simcity-4|simcity-buildit|simcity-ds|simcity-societies"
 igdb_url: "https://www.igdb.com/games/simcity-3000"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/77a20fa258d58dbf62491684210538677456b746d8d
 icon_image: "https://images.gog.com/77a20fa258d58dbf62491684210538677456b746d8d6b23e09e175f51654f5c5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 11
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 2631
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: The Irregular Corporation, Maximum Entertainment
@@ -34,11 +42,13 @@ languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"36","name":"Open World"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"121","name":"Character Customization"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"40937","name":"Steam Trading Cards"},{"id":"138","name":"Relaxing"},{"id":"126","name":"Dinosaurs"},{"id":"49960","name":"Life Sim"},{"id":"159","name":"Agriculture"},{"id":"49969","name":"Farming Sim"},{"id":"55320","name":"Creature Collector"}]
 size: "1558 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/paleo-pines"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/991d068c17f56fb94868882a6ec189b2fdfca2b5f60
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1202200/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

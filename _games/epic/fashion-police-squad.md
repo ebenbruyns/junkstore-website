@@ -20,6 +20,14 @@ protondb_total: 22
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 1577
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: No More Robots, Mopeful Games
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","German","Simplified Chinese","Russian","Spanish - Spain"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1185","name":"FPS"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"}]
-size: ""
+size: "2600 MB"
+install_size: "3093 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/fashion-police-squad"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3055ae3a82170a8eddcb6ff89a14950d5c5dcc4934f
 icon_image: "https://images.gog.com/cf3faa95205f1a06bbd064bffe141bd25cdfe468192aa0d9345d8214233197a7.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -88,8 +101,8 @@ metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/fashion-police-squad/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
+opencritic_id: "13537"
+opencritic_url: "https://opencritic.com/game/13537"
 opencritic_score: 
 opencritic_review_count: 
 twitch_id: ""

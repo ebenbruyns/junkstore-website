@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 2414
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Thermite Games
@@ -34,11 +42,13 @@ languages: ["English","Simplified Chinese","Japanese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"1083","name":"Rogue-Lite"},{"id":"1181","name":"Card Game"},{"id":"39070","name":"iOS"}]
 size: ""
+install_size: ""
+achievements_total: 46
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/lonestar"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-05-28","end":"2026-06-04"},{"start":"2026-07-02","end":"2026-08-06"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4e170c56d21d357e0eaa0b551a74768181a3165f511
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2056210/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

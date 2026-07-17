@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 67
+steam_review_total: 12
+gog_rating_value: 2.9
+gog_rating_count: 16
 
 # Game Info
 publisher: Orangepixel
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"45","name":"2D"},{"id":"64","name":"Fantasy"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"141","name":"Point & Click"},{"id":"88","name":"Cute"},{"id":"117","name":"Mystery"},{"id":"639","name":"Roguelike"},{"id":"138","name":"Relaxing"},{"id":"640","name":"Roguelite"},{"id":"98","name":"Loot"},{"id":"164","name":"Cartoony"},{"id":"116","name":"2.5D"},{"id":"238","name":"CRPG"},{"id":"227","name":"Hacking"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"},{"id":"624","name":"Monsters"},{"id":"1315","name":"room"},{"id":"1454","name":"quest"},{"id":"1796","name":"dungeon"},{"id":"329","name":"Mystery Dungeon"},{"id":"49965","name":"Traditional Roguelike"}]
 size: "81 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sir-questionnaire"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2124790/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2124790/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

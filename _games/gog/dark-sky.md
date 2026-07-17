@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 70
+gog_rating_value: 3.6
+gog_rating_count: 55
 
 # Game Info
 publisher: Midwest Games
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Russian"
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"43","name":"Post-apocalyptic"},{"id":"117","name":"Mystery"},{"id":"1465","name":"combat"},{"id":"99","name":"Isometric"},{"id":"101","name":"Turn-Based Strategy"},{"id":"233","name":"JRPG"},{"id":"171","name":"PvE"},{"id":"51","name":"Destruction"},{"id":"175","name":"Turn-Based Combat"},{"id":"808","name":"character"},{"id":"205","name":"Lore-Rich"},{"id":"127","name":"Card Game"},{"id":"91686","name":"Family Sharing"},{"id":"625","name":"party"},{"id":"206","name":"Party-Based RPG"},{"id":"230","name":"Tactical RPG"},{"id":"231","name":"Strategy RPG"},{"id":"1709","name":"work"},{"id":"974","name":"death"},{"id":"64326","name":"Постапокалипсис"},{"id":"1411","name":"build"},{"id":"2232","name":"journey"},{"id":"1105","name":"planet"},{"id":"14194","name":"deckbuilding"},{"id":"6903","name":"galaxy"},{"id":"316","name":"Mining"},{"id":"1527","name":"rain"},{"id":"49950","name":"Card Battler"},{"id":"3584","name":"characters"},{"id":"944","name":"wolf"},{"id":"6581","name":"enemies"},{"id":"827","name":"choice"},{"id":"10790","name":"spaceships"},{"id":"3718","name":"effects"},{"id":"5394","name":"magnet"}]
 size: "1928 MB"
+install_size: ""
+achievements_total: 58
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/dark-sky"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f7b0e09e1a044a87f850462f54448a32b6cfc5ded77
 icon_image: "https://images.gog.com/34aa2a42eb1fa04b75484562287d98201bf2ca553740e7ab46c12ef9b82e7bfb.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

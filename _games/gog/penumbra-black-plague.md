@@ -20,6 +20,14 @@ protondb_total: 18
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 2954
+gog_rating_value: 4.3
+gog_rating_count: 8
 
 # Game Info
 publisher: Paradox Interactive
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"16","name":"Horror"},{"id":"73350","name":"survival-horror"}]
 size: "610 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":14001,"slug":"penumbra-requiem","name":"Penumbra: Requiem"},{"rawg_id":13999,"slug":"penumbra-overture","name":"Penumbra Overture"}]
 franchise_slug: "penumbra-black-plague|penumbra-overture|penumbra-requiem"
 igdb_url: "https://www.igdb.com/games/penumbra-black-plague"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e58671a0c19fbe675548b711d666697172cf90fe20b
 icon_image: "https://images.gog.com/e58671a0c19fbe675548b711d666697172cf90fe20b5cbf85ab77d34e6b81a4e.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

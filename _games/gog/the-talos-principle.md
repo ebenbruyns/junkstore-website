@@ -20,6 +20,14 @@ protondb_total: 72
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 95
+steam_review_total: 32926
+gog_rating_value: 4.6
+gog_rating_count: 585
 
 # Game Info
 publisher: Devolver Digital
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Russian","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"149","name":"Third Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"115","name":"Controller"},{"id":"40852","name":"Steam Workshop"},{"id":"40838","name":"Includes level editor"},{"id":"43","name":"Post-apocalyptic"},{"id":"117","name":"Mystery"},{"id":"91","name":"Walking Simulator"},{"id":"218","name":"Multiple Endings"},{"id":"197","name":"Robots"},{"id":"281","name":"Philisophical"}]
 size: "6549 MB"
+install_size: ""
+achievements_total: 40
 franchise_siblings: [{"rawg_id":961200,"slug":"talos-principle-2","name":"The Talos Principle 2"}]
 franchise_slug: "talos-principle-2|the-talos-principle"
 igdb_url: "https://www.igdb.com/games/the-talos-principle"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2019-12-28","end":"2019-12-29"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f5c4238964c0d5267f1260b17a97302ad2d90f505c7
 icon_image: "https://images.gog.com/1a1567e49dbd3d85f3955121a8de64113184f35cfa93345cf586e13de33d3064.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

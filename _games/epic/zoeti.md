@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 64
+steam_review_total: 513
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Akupara Games
@@ -28,17 +36,19 @@ genre: Turn-Based Strategy, Rogue-Lite, Card Game
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "April 20, 2023"
+release_date: "May 16, 2023"
 game_modes: ["Single-player"]
 languages: ["English","Traditional Chinese","French","Spanish - Spain","Simplified Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "577 MB"
+install_size: "984 MB"
+achievements_total: 30
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/zoeti"
 was_free_before: true
-giveaway_events: [{"_id":"6915fc0e153424331c215370","id":"257195bad91744b1803c616135332bdb","namespace":"1a7cbda7efe7435dabda1af662aeb1ba","startDate":"2025-11-20T16:00:00.000Z","endDate":"2025-11-27T16:00:00.000Z","title":"Zoeti","__v":0}]
+giveaway_events: [{"start":"2025-11-20","end":"2025-11-27"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1434540/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1434540/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

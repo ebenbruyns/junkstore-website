@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 68
+steam_review_total: 1931
+gog_rating_value: 3.1
+gog_rating_count: 93
 
 # Game Info
 publisher: Merge Games
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","Italian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"18","name":"Co-op"},{"id":"45","name":"2D"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"122","name":"Pixel Graphics"},{"id":"72","name":"Local Multiplayer"},{"id":"40838","name":"Includes level editor"},{"id":"89","name":"Historical"},{"id":"287","name":"Political"}]
 size: "1049 MB"
+install_size: ""
+achievements_total: 10
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/riot-civil-unrest"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fb8ab84b330e34292993422d473e536ffc156eb2f8f
 icon_image: "https://images.gog.com/1c970a07c9e8bf3c6782c7334c72eee647a89730aa9c9ff988f2aa6203b39eea.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/34405"
 store_url: "https://www.gog.com/en/game/riot_civil_unrest"
 protondb_url: "https://www.protondb.com/app/342310"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Riot%3A_Civil_Unrest"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Riot:_Civil_Unrest"
 metacritic_score: 54
 metacritic_url: "https://www.metacritic.com/game/riot-civil-unrest/"
 

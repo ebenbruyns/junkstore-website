@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 830
+gog_rating_value: 4.3
+gog_rating_count: 74
 
 # Game Info
 publisher: Hyperstrange
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"40850","name":"Steam Leaderboards"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"115","name":"Controller"},{"id":"41","name":"Dark"},{"id":"74","name":"Retro"},{"id":"17","name":"Survival Horror"},{"id":"1465","name":"combat"},{"id":"639","name":"Roguelike"},{"id":"61","name":"Top-Down"},{"id":"640","name":"Roguelite"},{"id":"49964","name":"Action Roguelike"},{"id":"570","name":"Old School"}]
 size: "132 MB"
+install_size: ""
+achievements_total: 81
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/empty-shell"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-10-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2243110/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2243110/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

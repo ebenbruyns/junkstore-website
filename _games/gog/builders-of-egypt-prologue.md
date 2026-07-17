@@ -20,6 +20,14 @@ protondb_total: 15
 protondb_confidence: "good"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Negative"
+steam_review_percent: 34
+steam_review_total: 487
+gog_rating_value: 2.6
+gog_rating_count: 82
 
 # Game Info
 publisher: Creative Forge Games
@@ -28,12 +36,14 @@ genre: Strategy, Strategy, Strategy
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Violência"}}
-release_date: "March 2, 2020"
+release_date: "January 8, 2025"
 game_modes: ["Single player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Polish","Portuguese","Russian","Chinese Traditional"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"49","name":"Difficult"},{"id":"193","name":"Classic"},{"id":"37","name":"Sandbox"},{"id":"79","name":"Free to Play"},{"id":"80","name":"Tactical"},{"id":"14","name":"Early Access"},{"id":"70","name":"War"},{"id":"77","name":"Realistic"},{"id":"89","name":"Historical"},{"id":"39","name":"Building"},{"id":"168","name":"RTS"},{"id":"406","name":"Story"},{"id":"67","name":"Management"},{"id":"180","name":"Base Building"},{"id":"195","name":"Economy"},{"id":"213","name":"City Builder"},{"id":"2030","name":"city"},{"id":"210","name":"Real-Time"},{"id":"245","name":"Trading"},{"id":"1221","name":"history"},{"id":"974","name":"death"},{"id":"219","name":"Politics"},{"id":"1079","name":"environment"},{"id":"4338","name":"egypt"}]
 size: "2291 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b3365954fc50e9d78c44c6b69bc5b202fe7464e8ca2
 icon_image: "https://images.gog.com/f61d8d1bf0eaf5e6170132c2801c25af811b4bc61b51e04dd553940248c8bd1c.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "mouse-only"
 community_layout: false
 required_launcher: ""

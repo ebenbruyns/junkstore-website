@@ -20,6 +20,14 @@ protondb_total: 2253
 protondb_confidence: "strong"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Unsupported anti cheat configuration"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 2068801
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Take-Two Interactive, Rockstar Games
@@ -28,12 +36,14 @@ genre: Adventure, Shooter, Racing
 franchise: 
 age_rating_summary: M (ESRB) · 18 (PEGI)
 age_ratings: {"esrb":{"rating":"M","descriptors":"Intense Violence, Blood and Gore, Nudity, Mature Humor, Strong Language, Strong Sexual Content, Use of Drugs and Alcohol"},"pegi":{"rating":"18","descriptors":"Violence, Online Play,, Strong Language"},"usk":{"rating":"18"},"kgrb":{"rating":"18"}}
-release_date: "April 13, 2015"
+release_date: "January 1, 2099"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese","Simplified Chinese","Spanish - Latin America"]
 languages_audio: ["English"]
 tags_structured: [{"id":"11631","name":"Requires 2FA"}]
-size: ""
+size: "96641 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":972995,"slug":"grand-theft-aito-vi","name":"Grand Theft Auto VI"},{"rawg_id":5200,"slug":"gta-chinatown-wars","name":"Grand Theft Auto: Chinatown Wars"},{"rawg_id":4459,"slug":"grand-theft-auto-iv","name":"Grand Theft Auto IV"},{"rawg_id":4059,"slug":"grand-theft-auto-vice-city-stories","name":"Grand Theft Auto: Vice City Stories"},{"rawg_id":979345,"slug":"san-andreas-multiplayer-sa-mp","name":"San Andreas Multiplayer (SA-MP)"},{"rawg_id":4058,"slug":"gta-liberty-city-stories","name":"Grand Theft Auto: Liberty City Stories"},{"rawg_id":59122,"slug":"grand-theft-auto-advance","name":"Grand Theft Auto Advance"},{"rawg_id":416,"slug":"grand-theft-auto-san-andreas","name":"Grand Theft Auto: San Andreas"},{"rawg_id":430,"slug":"grand-theft-auto-vice-city","name":"Grand Theft Auto: Vice City"},{"rawg_id":432,"slug":"grand-theft-auto-iii","name":"Grand Theft Auto III"},{"rawg_id":52997,"slug":"grand-theft-auto-2-1999","name":"Grand Theft Auto 2"},{"rawg_id":52998,"slug":"grand-theft-auto-1998","name":"Grand Theft Auto"}]
 franchise_slug: "grand-theft-aito-vi|grand-theft-auto-1998|grand-theft-auto-2-1999|grand-theft-auto-advance|grand-theft-auto-iii|grand-theft-auto-iv|grand-theft-auto-san-andreas|grand-theft-auto-v|grand-theft-auto-vice-city|grand-theft-auto-vice-city-sto|gta-chinatown-wars|gta-liberty-city-stories|san-andreas-multiplayer-sa-mp"
 igdb_url: "https://www.igdb.com/games/grand-theft-auto-v"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2d5277bd1949774a1b79e18157c84817968c4d6893c
 icon_image: "https://images.gog.com/d60b6efc6e687d66821c52d8b31c3b60cfb30d83d3e32f5c2c94ab108a65f13f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

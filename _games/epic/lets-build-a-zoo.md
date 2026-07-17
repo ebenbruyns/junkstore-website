@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 4088
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: No More Robots
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","French","German","Japanese","Thai","Spanish - Spain","Italian"]
 languages_audio: []
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1146","name":"City Builder"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "236 MB"
+install_size: "320 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/lets-build-a-zoo"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4958b59889b003f89ab19b8fed7b55ab3e4c1a56114
 icon_image: "https://images.gog.com/7a7f1abc7ef4191be8825620d100b3e014824abd396dba56578b6c97ca4f0238.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/95925"
 store_url: "https://store.epicgames.com/en-US/p/lets-build-a-zoo"
 protondb_url: "https://www.protondb.com/app/1547890"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Let%27s_Build_a_Zoo"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Let's_Build_a_Zoo"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/lets-build-a-zoo/"
 

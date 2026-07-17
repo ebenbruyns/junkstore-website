@@ -20,6 +20,14 @@ protondb_total: 21
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 3741
+gog_rating_value: 4.4
+gog_rating_count: 362
 
 # Game Info
 publisher: Aspyr Media
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","Spanish","French","Italian"
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Russian"]
 tags_structured: []
 size: "7996 MB"
+install_size: ""
+achievements_total: 83
 franchise_siblings: []
 franchise_slug: "blood-omen-legacy-of-kain|legacy-of-kain-ascendance|legacy-of-kain-blood-omen-2|legacy-of-kain-defiance|legacy-of-kain-defiance-remast|legacy-of-kain-soul-reaver|legacy-of-kain-soul-reaver-12-|legacy-of-kain-soul-reaver-2|nosgoth"
 igdb_url: "https://www.igdb.com/games/legacy-of-kain-soul-reaver-remastered"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f7ad20726b53ca4db833b11b25791a9e3ae3474f8cd
 icon_image: "https://images.gog.com/e14f64ea9c7386d37bcb88360b3f69dd01425db99b0db849eade93d588b05da8.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

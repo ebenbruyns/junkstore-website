@@ -20,6 +20,14 @@ protondb_total: 63
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 102648
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: EXBO
@@ -33,7 +41,9 @@ game_modes: ["Co-op"]
 languages: ["English","Russian","Spanish - Spain","French","Korean"]
 languages_audio: ["Russian"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21125","name":"Competitive Community"},{"id":"22775","name":"MMO"},{"id":"21129","name":"Challenging Combat"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"}]
-size: ""
+size: "38244 MB"
+install_size: "42346 MB"
+achievements_total: 17
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/stalcraft-x"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1818450/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1818450/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/114697"
 store_url: "https://store.epicgames.com/en-US/p/stalcraft-x-stalcraft-x-starter-edition-0b06d4"
 protondb_url: "https://www.protondb.com/app/1818450"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stalcraft:_X"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stalzone"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/stalcraft-x/"
 
@@ -115,6 +128,4 @@ is_featured: false
 owned: true
 ---
 
-STALCRAFT: X is a free-to-play MMOFPS with RPG elements.
-
-Explore an open world, engage in PvPvE activities, participate in events, and choose from a variety of weapons — all set in the post-Soviet Chernobyl Exclusion Zone!
+STALZONE is the extraction shooter where you don't have to start over — and the only one with a world worth belonging to. You are invited to explore the Chernobyl Exclusion Zone twisted by anomalies and divided between rival factions whose territories shape the danger around you.

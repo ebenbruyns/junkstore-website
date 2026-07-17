@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 2213
+gog_rating_value: 4.3
+gog_rating_count: 58
 
 # Game Info
 publisher: Surprise Attack Games
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"2","name":"Single-player"},{"id":"22","name":"Steam Achievements"},{"id":"28","name":"Full controller support"},{"id":"64","name":"Adjustable Text Size"},{"id":"67","name":"Camera Comfort"},{"id":"68","name":"Custom Volume Controls"},{"id":"78","name":"Adjustable Difficulty"},{"id":"75","name":"Keyboard Only Option"},{"id":"76","name":"Mouse Only Option"},{"id":"74","name":"Playable without Timed Input"},{"id":"69","name":"Stereo Sound"},{"id":"23","name":"Steam Cloud"},{"id":"62","name":"Family Sharing"}]
 size: "2021 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-pale-beyond"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-04-23","end":"2026-05-27"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/44f7aa48dbbd595dc470ee64d6320534dc8aec1a821
 icon_image: "https://images.gog.com/feffd491f055a0bcdf9972876ee07f1bdbc31d5b904b8468170169fd5c6838d4.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

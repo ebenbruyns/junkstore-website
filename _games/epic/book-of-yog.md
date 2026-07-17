@@ -20,6 +20,14 @@ protondb_total: 12
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 65
+steam_review_total: 8712
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: YuanQi Studio
@@ -33,7 +41,9 @@ game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21139","name":"Amazing Characters"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1310","name":"EARLY ACCESS"},{"id":"21134","name":"Beautiful Visuals"}]
-size: ""
+size: "19357 MB"
+install_size: "22283 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/128478"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8fc04b4423177b9c5b8d315c1e94ebdc05a4bd0f7fd
 icon_image: "https://images.gog.com/4aada9ca03334feca7097354d1ef0fb3622309ad5ee0773635a1ea125444def5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 97
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 71
+steam_review_total: 34930
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ubisoft Entertainment
@@ -32,8 +40,10 @@ release_date: "November 29, 2022"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Thai","Traditional Chinese"]
 languages_audio: ["English","French","German","Japanese","Portuguese - Brazil","Russian","Spanish - Latin America"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "47645 MB"
+install_size: "53155 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":274767,"slug":"far-cry-new-dawn","name":"Far Cry New Dawn"},{"rawg_id":23585,"slug":"far-cry-5","name":"Far Cry 5"},{"rawg_id":2767,"slug":"far-cry-primal","name":"Far Cry Primal"},{"rawg_id":3497,"slug":"far-cry-4","name":"Far Cry 4"},{"rawg_id":4161,"slug":"far-cry-3","name":"Far Cry 3"},{"rawg_id":19600,"slug":"far-cry-2-fortunes-edition","name":"Far Cry 2"},{"rawg_id":19560,"slug":"far-cry","name":"Far Cry"}]
 franchise_slug: "far-cry|far-cry-2-fortunes-edition|far-cry-3|far-cry-4|far-cry-5|far-cry-6|far-cry-new-dawn|far-cry-primal"
 igdb_url: "https://www.igdb.com/games/far-cry-6"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/41d02ab644ba5a7a9a7b44013e9549e560975f5b26a
 icon_image: "https://images.gog.com/1d6eba93e376f15cfd957101efbb3a15fde8cc542d74240b212fc0575352d0e5.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: "ubisoft-connect"
@@ -115,6 +128,4 @@ is_featured: false
 owned: true
 ---
 
-Enter the adrenaline-filled world of a modern-day guerrilla revolution. With stunning vistas, visceral gunplay, and a huge variety of gameplay experiences, there's never been a better time to join the fight. 
-
-Play the Far Cry® 6 FREE TRIAL and discover why GAME INFORMER calls it "A nonstop thrill ride from start to finish." And, when you buy the full game, all of your progression will be saved.
+Lead the revolution in this first-person open world guerrilla shooter. Fight with improvised weapons, travel however you can, and build your rebel network to take down Castillo's regime.

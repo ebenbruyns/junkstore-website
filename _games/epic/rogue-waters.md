@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 1249
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Tripwire Presents
@@ -32,13 +40,15 @@ release_date: "September 30, 2024"
 game_modes: ["Single Player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese","Italian","Portuguese - Brazil"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"}]
+tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "5060 MB"
+install_size: "5653 MB"
+achievements_total: 18
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/rogue-waters"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-06-04","end":"2026-06-11"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ad7603df71e282bf750f5da5f9b10edb4be9909781b
 icon_image: "https://images.gog.com/e4f69bfe0d79bf5c68a9d8e25e2f11072fe8a506e93a1b2f5529503b4d05b412.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

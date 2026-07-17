@@ -20,6 +20,14 @@ protondb_total: 15
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 659
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: "Digital Reality Software & Playbox"
@@ -34,11 +42,13 @@ languages: ["English","German","French","Italian","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"40845","name":"Partial Controller Support"},{"id":"40850","name":"Steam Leaderboards"},{"id":"198","name":"Split Screen"},{"id":"72","name":"Local Multiplayer"},{"id":"61","name":"Top-Down"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/bang-bang-racing"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2022-07-01"},{"start":"2024-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/fa372dd7d23566a139d6fde8a0de12910774a1da873
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/207020/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

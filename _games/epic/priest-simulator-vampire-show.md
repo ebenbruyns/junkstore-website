@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 912
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ultimate Games
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","Polish"]
 languages_audio: ["English","Polish"]
 tags_structured: [{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1116","name":"Comedy"}]
-size: ""
+size: "12891 MB"
+install_size: "13188 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/priest-simulator-vampire-show"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-10-01"},{"start":"2025-04-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a356f7578607c149bce92215259e6ce8cc3454f4805
 icon_image: "https://images.gog.com/feda366a4259a2a08ebc0724a6bafdd2fb57306cef1c7213b6f34616e5dbf32d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

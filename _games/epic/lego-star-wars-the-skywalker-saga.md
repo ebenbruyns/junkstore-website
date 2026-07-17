@@ -20,13 +20,21 @@ protondb_total: 176
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 48160
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Warner Bros.
 developer: TT Games
 genre: Action, Adventure
 franchise: 
-age_rating_summary: e10 (ESRB) · 7 (PEGI)
+age_rating_summary: e10 (ESRB) · 3 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Cartoon Violence, Comic Mischief"},"pegi":{"rating":"7","descriptors":"Violence, Fear, In-Game Purchases"},"usk":{"rating":"12"},"cero":{"rating":"B","descriptors":"Violence, Criminal Acts"},"oflc":{"rating":"PG","descriptors":"Mild science fiction violence"},"kgrb":{"rating":"12","descriptors":"Violence"},"csrr":{"rating":"P6","descriptors":"Violence"},"dejus":{"rating":"10","descriptors":"Violência fantasiosa"}}
 release_date: "April 5, 2022"
 game_modes: ["Single-player","Co-op"]
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Da
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Spanish - Latin America","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
 size: "4462 MB"
+install_size: "1 MB"
+achievements_total: 45
 franchise_siblings: [{"rawg_id":717012,"slug":"lego-star-wars-castaways","name":"LEGO Star Wars: Castaways"},{"rawg_id":632559,"slug":"lego-star-wars-the-skywalker-saga-prototype","name":"LEGO Star Wars: The Skywalker Saga Prototype"},{"rawg_id":612434,"slug":"lego-star-wars-the-last-jedi","name":"Lego Star Wars: The Last Jedi"},{"rawg_id":1935,"slug":"lego-star-wars-tfa","name":"LEGO Star Wars: The Force Awakens"},{"rawg_id":12729,"slug":"lego-star-wars-iii","name":"LEGO Star Wars III - The Clone Wars"},{"rawg_id":42176,"slug":"lego-star-wars-the-quest-for-r2-d2","name":"LEGO Star Wars: The Quest for R2-D2"},{"rawg_id":270713,"slug":"lego-star-wars-ii","name":"LEGO Star Wars II"},{"rawg_id":12662,"slug":"lego-star-wars-tcs","name":"LEGO Star Wars - The Complete Saga"},{"rawg_id":53378,"slug":"lego-star-wars-2-the-original-trilogy","name":"Lego Star Wars II: The Original Trilogy"},{"rawg_id":53377,"slug":"lego-star-wars","name":"Lego Star Wars: The Video Game"}]
 franchise_slug: "lego-star-wars|lego-star-wars-2-the-original-|lego-star-wars-castaways|lego-star-wars-ii|lego-star-wars-iii|lego-star-wars-tcs|lego-star-wars-tfa|lego-star-wars-the-last-jedi|lego-star-wars-the-quest-for-r|lego-star-wars-the-skywalker-s|lego-star-wars-the-sywalker-sa"
 igdb_url: "https://www.igdb.com/games/lego-star-wars-the-skywalker-saga"
 was_free_before: true
-giveaway_events: [{"_id":"68178169544fe60151920d3d","id":"283939b792814f5e87d8bdd5a8375fac","namespace":"9c59efaabb6a48f19b3485d5d9416032","startDate":"2025-05-04T15:00:00.000Z","endDate":"2025-05-05T15:00:00.000Z","title":"LEGO® Star Wars™: The Skywalker Saga","__v":0},{"_id":"67488a5da7867f105d25197b","id":"283939b792814f5e87d8bdd5a8375fac","namespace":"9c59efaabb6a48f19b3485d5d9416032","startDate":"2024-12-05T16:00:00.000Z","endDate":"2024-12-12T16:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-12-05","end":"2024-12-12"},{"start":"2025-05-04","end":"2025-05-05"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b7bfa836f251c85e369d654b237a9f5238acede712a
 icon_image: "https://images.gog.com/267edb798f59e49175189e0095553aeeeb33cfbbb1e44da6e9d739525a41ae96.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/68261"
 store_url: "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga"
 protondb_url: "https://www.protondb.com/app/920210"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_Star_Wars%3A_The_Skywalker_Saga"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_Star_Wars:_The_Skywalker_Saga"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/lego-star-wars-the-skywalker-saga/"
 

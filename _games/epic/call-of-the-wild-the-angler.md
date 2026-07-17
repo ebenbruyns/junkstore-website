@@ -20,6 +20,14 @@ protondb_total: 26
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 64
+steam_review_total: 7545
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Expansive Worlds
@@ -32,13 +40,15 @@ release_date: "August 31, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Polish","Russian","Simplified Chinese"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1124","name":"FISHING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1124","name":"FISHING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "30716 MB"
+install_size: "34720 MB"
+achievements_total: 30
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/call-of-the-wild-the-angler"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cb3631f27c961eb8e2","id":"e5cfeb2ef72e4cae8a237317fed902ee","namespace":"75d74aeb36024d95b8a30bad40dc19c3","startDate":"2024-03-20T15:00:00.000Z","endDate":"2024-03-27T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-03-20","end":"2024-03-27"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/f6753951a5baf5cb11ac061595fec4d9ce3ac02d488
 icon_image: "https://images.gog.com/0b0e8a2d90f32bb2db7eb256cc7f40788d5a585de6737b343b3e564af37268ad.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

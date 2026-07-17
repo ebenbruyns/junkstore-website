@@ -20,25 +20,35 @@ protondb_total: 106
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 83
+steam_review_total: 20555
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Bethesda Softworks
 developer: Tango Gameworks
 genre: Action, Action-Adventure, Adventure
 franchise: Ghostwire
-age_rating_summary: T (ESRB) · 12 (PEGI)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"esrb":{"rating":"T","descriptors":"Violence, Language"},"pegi":{"rating":"12","descriptors":"Violence, Bad Language, Horror"},"usk":{"rating":"16"},"oflc":{"rating":"M","descriptors":"Supernatural Themes and Violence"},"nzoflc":{"rating":"M","descriptors":"Supernatural Themes and Violence"},"kgrb":{"rating":"15","descriptors":"Violence"},"fpb":{"rating":"16"},"csrr":{"rating":"C15","descriptors":"Violence, Innapropriate Language"},"dejus":{"rating":"14","descriptors":"Linguagem Imprópria, Violência"}}
-release_date: "March 24, 2022"
+release_date: "March 25, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Spanish - Latin America","Portuguese - Brazil","Polish","Russian","Simplified Chinese","Traditional Chinese","Japanese","Korean"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America","Portuguese - Brazil","Polish","Russian","Japanese"]
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+size: "23068 MB"
+install_size: "23667 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/ghostwire-tokyo"
 was_free_before: true
-giveaway_events: [{"_id":"671a5908b3264e205e024342","id":"53a6356d1f4945e58d8c8e9f511c3c9d","namespace":"a93cd6111251461c953776a0c4ea4d80","startDate":"2024-10-31T15:00:00.000Z","endDate":"2024-11-07T16:00:00.000Z","__v":0},{"_id":"66abf1ce3631f27c961eb9a2","id":"53a6356d1f4945e58d8c8e9f511c3c9d","namespace":"a93cd6111251461c953776a0c4ea4d80","startDate":"2023-12-23T15:00:00.000Z","endDate":"2023-12-24T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-10-01"},{"start":"2023-12-23","end":"2023-12-24"},{"start":"2024-10-31","end":"2024-11-07"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3d3f7e20415052a9aa2b525a8513870afd94e2d7034
 icon_image: "https://images.gog.com/c4f2a2aa89f1102f1176f1e7d465a77de0da6db5aa14a32183ed7bd095733d45.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""

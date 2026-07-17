@@ -20,6 +20,14 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 926
+gog_rating_value: 4.2
+gog_rating_count: 134
 
 # Game Info
 publisher: Alawar
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"45","name":"2D"},{"id":"122","name":"Pixel Graphics"},{"id":"80","name":"Tactical"},{"id":"41","name":"Dark"},{"id":"639","name":"Roguelike"},{"id":"82","name":"Magic"},{"id":"640","name":"Roguelite"},{"id":"981","name":"battle"},{"id":"51","name":"Destruction"},{"id":"196","name":"Procedural Generation"},{"id":"176","name":"Turn-Based Tactics"},{"id":"127","name":"Card Game"},{"id":"49964","name":"Action Roguelike"},{"id":"974","name":"death"},{"id":"2232","name":"journey"},{"id":"575","name":"Logic"},{"id":"14194","name":"deckbuilding"},{"id":"49950","name":"Card Battler"},{"id":"691","name":"quick"},{"id":"2863","name":"darkness"},{"id":"749","name":"army"},{"id":"5559","name":"elements"},{"id":"49968","name":"Auto Battler"},{"id":"627","name":"Skeletons"},{"id":"58271","name":"Автобаттлер"},{"id":"1117","name":"chaos"},{"id":"55322","name":"Roguelike Deckbuilder"},{"id":"6581","name":"enemies"},{"id":"2503","name":"intense"},{"id":"2786","name":"skills"},{"id":"7207","name":"graphics"},{"id":"91930","name":"シングルプレイヤー"},{"id":"91933","name":"ファミリーシェアリング"},{"id":"91932","name":"Steamクラウド"},{"id":"4413","name":"reflexes"},{"id":"91931","name":"Steam実績"}]
 size: "210 MB"
+install_size: ""
+achievements_total: 38
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/necroking"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/37841db09d5e0971d64e02351ad19dc3351d6a2d91d
 icon_image: "https://images.gog.com/05a271e991394fe94a3dca65c7bd40bb80ae1b05ade3fa30784170e32d94f0c0.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

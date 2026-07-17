@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 94
+steam_review_total: 36
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: LuckyVerse
@@ -28,12 +36,14 @@ genre: Sports, Indie
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "January 1, 2025"
+release_date: "October 4, 2023"
 game_modes: ["Single-player","Online Multiplayer","Local Multiplayer","Co-op"]
 languages: ["English","Czech","Slovak","French","German","Spanish - Spain","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America","Russian","Traditional Chinese","Simplified Chinese"]
 languages_audio: ["English","Czech","Slovak","French","German","Spanish - Spain","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America","Russian","Traditional Chinese","Simplified Chinese"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1264","name":"Co-op"},{"id":"1283","name":"Sports"},{"id":"1299","name":"Competitive"},{"id":"19847","name":"Achievements"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
-size: ""
+size: "901 MB"
+install_size: "1164 MB"
+achievements_total: 29
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/lucky-goal"
@@ -47,6 +57,9 @@ cover_image: "https://cdn1.epicgames.com/spt-assets/6666791b9d354f288ae95f6c243d
 icon_image: "https://images.gog.com/581990700dea20340af4dd657d5de89da53e7ecf3f3ca2d3300e47b73b6d8e49.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

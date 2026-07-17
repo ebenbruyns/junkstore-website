@@ -20,6 +20,14 @@ protondb_total: 31
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 8018
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Dear Villagers
@@ -28,17 +36,19 @@ genre: RPG, Adventure
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"14","descriptors":"Linguagem imprópria, Conteúdo sexual, Drogas lícitas"}}
-release_date: "September 17, 2020"
+release_date: "May 25, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Simplified Chinese","Spanish - Spain","Russian"]
 languages_audio: ["English","French","German"]
-tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
-size: ""
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+size: "9262 MB"
+install_size: "9771 MB"
+achievements_total: 23
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-dungeon-of-naheulbeuk-the-amulet-of-chaos"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2023-11-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/89a2922654c226b350ef940b728d6606e698d0b880d
 icon_image: "https://images.gog.com/e23dbbce5b4898944c602adf2b667bb2e81862b85a401b6e73a151cee8e0421b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false

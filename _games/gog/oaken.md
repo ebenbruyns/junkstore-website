@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 74
+steam_review_total: 387
+gog_rating_value: 4.2
+gog_rating_count: 58
 
 # Game Info
 publisher: Goblinz Publishing
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","French","Japanese","Polish"
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"64","name":"Fantasy"},{"id":"14","name":"Early Access"},{"id":"102","name":"Turn-Based"},{"id":"165","name":"Colorful"},{"id":"82","name":"Magic"},{"id":"101","name":"Turn-Based Strategy"},{"id":"640","name":"Roguelite"},{"id":"175","name":"Turn-Based Combat"},{"id":"176","name":"Turn-Based Tactics"},{"id":"127","name":"Card Game"},{"id":"162","name":"Board Game"},{"id":"103","name":"Hex Grid"},{"id":"14194","name":"deckbuilding"},{"id":"49950","name":"Card Battler"},{"id":"4880","name":"tabletop"}]
 size: "928 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/oaken"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5fdd844aa0b917affaa0fb4ee30594ed0f45892a79d
 icon_image: "https://images.gog.com/155d0685c9ed94d6f0ac4c6de32cc7d703318ad1f2a81dd1f6b7c895697980fc.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 234
+gog_rating_value: 3.2
+gog_rating_count: 9
 
 # Game Info
 publisher: mc2games
@@ -33,12 +41,14 @@ game_modes: ["Single-player"]
 languages: ["Portuguese (Brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Portuguese","Chinese Traditional"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"141","name":"Point & Click"},{"id":"117","name":"Mystery"},{"id":"571","name":"3D"},{"id":"77","name":"Realistic"},{"id":"110","name":"Cinematic"},{"id":"91","name":"Walking Simulator"},{"id":"197","name":"Robots"},{"id":"288","name":"Interactive Fiction"},{"id":"140","name":"Hidden Object"},{"id":"291","name":"Conspiracy"},{"id":"326","name":"Investigation"},{"id":"262","name":"Capitalism"},{"id":"92376","name":"Aventure"},{"id":"68059","name":"Escape Room"}]
-size: ""
+size: "3570 MB"
+install_size: ""
+achievements_total: 5
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/regular-factory-escape-room"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-07-09","end":"2026-08-09"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/00f5651bb464532e9475ec4d4fbf338503b05c5852b
 icon_image: "https://images.gog.com/89339c8a59c4a0be1bd25f93f05e28db3586f53b9543dfcb9d81ee512c1a2e35.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -112,7 +125,7 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 ---
 

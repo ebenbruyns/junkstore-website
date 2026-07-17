@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 12
+gog_rating_value: 4
+gog_rating_count: 13
 
 # Game Info
 publisher: Orangepixel
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: []
 size: "74 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "gunslugs|gunslugs-3-rogue-tactics"
 igdb_url: "https://www.igdb.com/games/gunslugs-rogue-tactics"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1012360/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1012360/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

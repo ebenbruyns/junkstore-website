@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 70
+steam_review_total: 1334
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: DeNA Co., Ltd., Broken Rules
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Japanese","Spanish - Spain"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"},{"id":"40845","name":"Partial Controller Support"},{"id":"46","name":"Surreal"},{"id":"1867","name":"puzzles"},{"id":"220","name":"Experimental"},{"id":"40899","name":"Physics-based Platformer"}]
-size: ""
+size: "50 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/and-yet-it-moves--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/83704a59cdf13550a2bb489e461fb47b18c11b83870
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/18700/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

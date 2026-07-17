@@ -20,6 +20,14 @@ protondb_total: 7
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 93
+steam_review_total: 6519
+gog_rating_value: 4.3
+gog_rating_count: 404
 
 # Game Info
 publisher: NLT Media
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"118","name":"Story Rich"},{"id":"149","name":"Third Person"},{"id":"123","name":"Comedy"},{"id":"141","name":"Point & Click"},{"id":"44","name":"Nudity"},{"id":"117","name":"Mystery"},{"id":"192","name":"Mature"},{"id":"50","name":"Sexual Content"},{"id":"61","name":"Top-Down"},{"id":"90","name":"Visual Novel"},{"id":"209","name":"Drama"},{"id":"217","name":"Romance"},{"id":"312","name":"NSFW"},{"id":"66536","name":"Романтика"},{"id":"1081","name":"adult"},{"id":"89966","name":"adventures"}]
 size: "7731 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":965869,"slug":"the-genesis-order","name":"The Genesis Order"},{"rawg_id":428202,"slug":"lust-epidemic","name":"Lust Epidemic"},{"rawg_id":976301,"slug":"visiting-aunt-sara","name":"Visiting Aunt Sara"},{"rawg_id":395976,"slug":"my-summer-with-mom-sis","name":"My Summer with Mom & Sis"}]
 franchise_slug: "lust-epidemic|my-summer-with-mom-sis|the-genesis-order|treasure-of-nadia|visiting-aunt-sara"
 igdb_url: "https://www.igdb.com/games/treasure-of-nadia"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3e57472ae6bc74fff33bf90005557f5ce5d36d6fd69
 icon_image: "https://images.gog.com/0986269c034ce4a7e2b51e7b9c0344fe86880c2ab03f4626ee3eab2d0b09e3ac.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

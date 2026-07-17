@@ -20,6 +20,14 @@ protondb_total: 17
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 5696
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: PID Games
@@ -32,14 +40,16 @@ release_date: "July 13, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese","Dutch"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
 size: "327151133
 "
+install_size: "331 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/gravity-circuit"
 was_free_before: true
-giveaway_events: [{"_id":"68dcf6022fc7c5a4e213c01b","id":"ca6648eabced4312bd29c543307ecd29","namespace":"de295b694198450fad4569530b0e9419","startDate":"2025-10-09T15:00:00.000Z","endDate":"2025-10-16T15:00:00.000Z","title":"Gravity Circuit","__v":0}]
+giveaway_events: [{"start":"2024-08-01"},{"start":"2025-04-01"},{"start":"2025-10-09","end":"2025-10-16"},{"start":"2026-06-01","end":"2026-06-14"}]
 free_games_aliases: []
 
 # Images
@@ -48,6 +58,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/858710/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/858710/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

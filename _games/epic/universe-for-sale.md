@@ -20,25 +20,35 @@ protondb_total: 6
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 400
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Akupara Games
 developer: Tmesis Studio
 genre: Exploration, Adventure, Indie
 franchise: 
-age_rating_summary: 16 (USK)
+age_rating_summary: 13 (ESRB)
 age_ratings: {"usk":{"rating":"16","descriptors":"Horror"},"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "November 16, 2023"
 game_modes: ["Single-player"]
 languages: ["English","Italian","French","Japanese","Simplified Chinese","Spanish - Spain","Korean","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
 size: "710 MB"
+install_size: "942 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/universe-for-sale"
 was_free_before: true
-giveaway_events: [{"_id":"6927517a06036f0f824f9d55","id":"b2b995e52f7a413099e2b1421b9fb2d8","namespace":"60525048f11c46b88bb6d7492ce7b67d","startDate":"2025-11-27T16:00:00.000Z","endDate":"2025-12-04T16:00:00.000Z","title":"Universe for Sale","__v":0}]
+giveaway_events: [{"start":"2025-11-27","end":"2025-12-04"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1627840/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1627840/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

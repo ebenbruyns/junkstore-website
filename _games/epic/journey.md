@@ -20,6 +20,14 @@ protondb_total: 108
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 94
+steam_review_total: 38043
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Sony Computer Entertainment, Annapurna Interactive
@@ -32,8 +40,10 @@ release_date: "June 6, 2019"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Dutch","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Swedish","Thai","Traditional Chinese","Turkish"]
 languages_audio: []
-tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
-size: ""
+tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+size: "1638 MB"
+install_size: "3384 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/journey"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/83c7f20baf508df32f6f7928c44bf3026e5fd679377
 icon_image: "https://images.gog.com/adfb8be311b898831689cd3dc2ac0df1cec9c467b7f518ae46eec2e55e32f054.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

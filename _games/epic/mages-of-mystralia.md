@@ -20,6 +20,14 @@ protondb_total: 22
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 1499
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Borealys Games
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Spanish - Spain","Russian","S
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
 size: "4472 MB"
+install_size: "11430 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/mages-of-mystralia"
 was_free_before: true
-giveaway_events: [{"_id":"67b7476db682fff5237f6b61","id":"464a19f4865248b5948c9514af11d563","namespace":"bd12fd574df14846ad24703ca7b1a12b","startDate":"2025-02-27T16:00:00.000Z","endDate":"2025-03-06T16:00:00.000Z","title":"Mages of Mystralia","__v":0},{"_id":"66abf1e13631f27c961ebec6","id":"464a19f4865248b5948c9514af11d563","namespace":"bd12fd574df14846ad24703ca7b1a12b","startDate":"2021-12-26T15:00:00.000Z","endDate":"2021-12-27T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-12-26","end":"2021-12-27"},{"start":"2025-02-27","end":"2025-03-06"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3881869e67b1e68cc0e2956f07d7e7a65c9bee45864
 icon_image: "https://images.gog.com/5fc29675dd68f7ad5e51ceac83dbe176708933a007019741695fdfddcd35ef53.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

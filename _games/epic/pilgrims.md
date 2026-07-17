@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 6209
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Amanita Design
@@ -28,17 +36,19 @@ genre: Adventure, Card Game, Indie
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"12","descriptors":"Drogas lícitas, Violência fantasiosa"}}
-release_date: "October 7, 2019"
+release_date: "June 16, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Czech","Dutch","Japanese","Korean","Polish","Portuguese - Portugal","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Turkish","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1181","name":"Card Game"},{"id":"1263","name":"Indie"}]
 size: "255 MB"
+install_size: "489 MB"
+achievements_total: 45
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/pilgrims"
 was_free_before: true
-giveaway_events: [{"_id":"6882441e366f78541c6a4d4d","id":"605ced56db424539ba3ac26f904a83f2","namespace":"0693e8391e49492096424712a5595484","startDate":"2025-07-31T15:00:00.000Z","endDate":"2025-08-07T15:00:00.000Z","title":"Pilgrims","__v":0}]
+giveaway_events: [{"start":"2025-07-31","end":"2025-08-07"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/8b0418b41a004975f88690a291814af0035b0d0e022
 icon_image: "https://images.gog.com/d33f919578628d112ad442305f3c91f655d22aa25b7c8d4184e3a49465baf2bc.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

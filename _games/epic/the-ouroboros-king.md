@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 564
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Oriol Cosp Games
@@ -28,17 +36,19 @@ genre: Indie, Strategy
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "February 27, 2023"
+release_date: "June 11, 2026"
 game_modes: ["Single Player","Local Multiplayer"]
 languages: ["English","Spanish - Spain","Simplified Chinese","Traditional Chinese","French","German","Portuguese - Brazil","Portuguese - Portugal","Russian","Spanish - Latin America","Catalan","Polish"]
 languages_audio: []
-tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1370","name":"Single Player"},{"id":"1386","name":"Turn-Based"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"}]
-size: ""
+tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"1386","name":"Turn-Based"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"}]
+size: "145 MB"
+install_size: "849 MB"
+achievements_total: 6
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-ouroboros-king"
 was_free_before: true
-giveaway_events: [{"_id":"6a219cc8570e3987f2d0fb04","id":"7f0ab2828f9743d0abc6612a11222fdf","namespace":"b002ccbe10f946f082a63bf85fa30558","startDate":"2026-06-11T15:00:00.000Z","endDate":"2026-06-18T15:00:00.000Z","title":"The Ouroboros King","__v":0}]
+giveaway_events: [{"start":"2026-06-11","end":"2026-06-18"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d0d7493993eff78ba904f1597057b94c21ece2a9f92
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2096510/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""

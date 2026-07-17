@@ -20,6 +20,14 @@ protondb_total: 11
 protondb_confidence: "moderate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 80
+steam_review_total: 2159
+gog_rating_value: 3.6
+gog_rating_count: 201
 
 # Game Info
 publisher: MuHa Games, RockGame
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"9","name":"Online Co-Op"},{"id":"64","name":"Fantasy"},{"id":"1","name":"Survival"},{"id":"14","name":"Early Access"},{"id":"44","name":"Nudity"},{"id":"102","name":"Turn-Based"},{"id":"40","name":"Dark Fantasy"},{"id":"125","name":"Crafting"},{"id":"639","name":"Roguelike"},{"id":"101","name":"Turn-Based Strategy"},{"id":"50","name":"Sexual Content"},{"id":"640","name":"Roguelite"},{"id":"127","name":"Card Game"},{"id":"212","name":"4X"}]
 size: "2741 MB"
+install_size: ""
+achievements_total: 26
 franchise_siblings: [{"rawg_id":10887,"slug":"thea-the-awakening","name":"Thea: The Awakening"}]
 franchise_slug: "thea-2-the-shattering|thea-the-awakening"
 igdb_url: "https://www.igdb.com/games/thea-2-the-shattering"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ba662440fa15982a91140b0538398aedc0baa72acce
 icon_image: "https://images.gog.com/03fc0c0178ff665fb4b2b6e92d62d53696eccce8158518f85e4b826ca0330fab.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/64270"
 store_url: "https://www.gog.com/en/game/thea_2_the_shattering"
 protondb_url: "https://www.protondb.com/app/606230"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thea_2%3A_The_Shattering"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thea_2:_The_Shattering"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/thea-2-the-shattering/"
 

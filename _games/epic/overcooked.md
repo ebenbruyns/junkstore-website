@@ -20,6 +20,14 @@ protondb_total: 125
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 16530
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: team17
@@ -28,17 +36,19 @@ genre: Action, Simulation, Indie
 franchise: "Overcooked!"
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"dejus":{"rating":"6"}}
-release_date: "August 3, 2016"
+release_date: "August 7, 2018"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Japanese"]
 languages_audio: []
-tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"39940","name":"Gift A Game"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"39940","name":"Gift A Game"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"29899","name":"Deals of the Week"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: "301 MB"
+install_size: "708 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":517399,"slug":"overcooked-all-you-can-eat","name":"Overcooked! All You Can Eat"},{"rawg_id":58827,"slug":"overcooked-2","name":"Overcooked! 2"}]
 franchise_slug: "overcooked|overcooked-2|overcooked-all-you-can-eat"
 igdb_url: "https://www.igdb.com/games/overcooked"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1f23631f27c961ec2ee","id":"e9428ad618aa45f4b3371b8c8c4f9de9","namespace":"2d94b7b33d7f4d02a8fff6fbf71ac7ab","startDate":"2020-06-03T15:00:00.000Z","endDate":"2020-06-10T15:00:00.000Z","__v":0},{"_id":"66abf1fc3631f27c961ec578","id":"e9428ad618aa45f4b3371b8c8c4f9de9","namespace":"2d94b7b33d7f4d02a8fff6fbf71ac7ab","startDate":"2019-07-03T15:00:00.000Z","endDate":"2019-07-10T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2018-11-01"},{"start":"2019-07-03","end":"2019-07-10"},{"start":"2020-06-03","end":"2020-06-10"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/19441380864bec00af6229738cdf68660138e7cb9ab
 icon_image: "https://images.gog.com/0e48f0398155beb6cdeff128e09c608d94ecf3e27b48fef30bd387a580bc56fd.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

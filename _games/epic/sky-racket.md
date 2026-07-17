@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 168
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Double Dash Studios
@@ -33,12 +41,14 @@ game_modes: ["Co-op"]
 languages: ["English","Portuguese - Brazil","Portuguese - Portugal","Spanish - Spain","Spanish - Latin America","Russian","Japanese","Simplified Chinese","Korean"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"1283","name":"Sports"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-size: ""
+size: "1038 MB"
+install_size: "1038 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/sky-racket"
 was_free_before: true
-giveaway_events: [{"_id":"68652a466cdb9e9293130186","id":"4d83f5e4aa8d42bdb2bdda9081a13ef3","namespace":"43c0da4f8c774c23a76a213fb8dfe59b","startDate":"2025-07-10T15:00:00.000Z","endDate":"2025-07-17T15:00:00.000Z","title":"Sky Racket","__v":0}]
+giveaway_events: [{"start":"2025-07-10","end":"2025-07-17"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2ad35cd050be6003fd278bee59c00e811008f136a29
 icon_image: "https://images.gog.com/a6e49a1e1f2f22754fd5146d7f47d7762b61c5fb3dcafa446440413fccd1a9ad.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

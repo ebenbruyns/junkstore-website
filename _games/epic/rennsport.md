@@ -20,6 +20,14 @@ protondb_total: 15
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 46
+steam_review_total: 1463
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Competition Company
@@ -34,6 +42,8 @@ languages: ["English","French","Italian","German","Spanish - Spain","Japanese","
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Portugal","Russian","Simplified Chinese"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1283","name":"Sports"},{"id":"21125","name":"Competitive Community"},{"id":"33639","name":"Promotional Content"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1179","name":"VR"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
+install_size: ""
+achievements_total: 40
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/rennsport--1"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/509fcdda9a125b2573ed9172278e68560b92902e596
 icon_image: "https://images.gog.com/b5831f0d9cfc95576aa1a66e3f363a64c55768ebb94240198c6e84b4ea4db265.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

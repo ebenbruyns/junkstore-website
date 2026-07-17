@@ -20,6 +20,14 @@ protondb_total: 153
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 97
+steam_review_total: 25364
+gog_rating_value: 4.5
+gog_rating_count: 502
 
 # Game Info
 publisher: WB Games, LucasArts, Feral Interactive
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Spanish - Latin America","Japanese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"32","name":"Sci-fi"},{"id":"4","name":"Funny"},{"id":"193","name":"Classic"},{"id":"123","name":"Comedy"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"115","name":"Controller"},{"id":"72","name":"Local Multiplayer"},{"id":"25","name":"Space"},{"id":"107","name":"Family Friendly"},{"id":"318","name":"Star Wars"},{"id":"297","name":"LEGO"}]
 size: "4462 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":326239,"slug":"lego-star-wars-the-sywalker-saga","name":"Lego Star Wars: The Skywalker Saga"},{"rawg_id":717012,"slug":"lego-star-wars-castaways","name":"LEGO Star Wars: Castaways"},{"rawg_id":632559,"slug":"lego-star-wars-the-skywalker-saga-prototype","name":"LEGO Star Wars: The Skywalker Saga Prototype"},{"rawg_id":612434,"slug":"lego-star-wars-the-last-jedi","name":"Lego Star Wars: The Last Jedi"},{"rawg_id":1935,"slug":"lego-star-wars-tfa","name":"LEGO Star Wars: The Force Awakens"},{"rawg_id":12729,"slug":"lego-star-wars-iii","name":"LEGO Star Wars III - The Clone Wars"},{"rawg_id":42176,"slug":"lego-star-wars-the-quest-for-r2-d2","name":"LEGO Star Wars: The Quest for R2-D2"},{"rawg_id":270713,"slug":"lego-star-wars-ii","name":"LEGO Star Wars II"},{"rawg_id":53378,"slug":"lego-star-wars-2-the-original-trilogy","name":"Lego Star Wars II: The Original Trilogy"},{"rawg_id":53377,"slug":"lego-star-wars","name":"Lego Star Wars: The Video Game"}]
 franchise_slug: "lego-star-wars|lego-star-wars-2-the-original-|lego-star-wars-castaways|lego-star-wars-ii|lego-star-wars-iii|lego-star-wars-tcs|lego-star-wars-tfa|lego-star-wars-the-last-jedi|lego-star-wars-the-quest-for-r|lego-star-wars-the-skywalker-s|lego-star-wars-the-sywalker-sa"
 igdb_url: "https://www.igdb.com/games/lego-star-wars-the-complete-saga"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-05-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/cfcdc585a7dffef327545201dd78181387905458357
 icon_image: "https://images.gog.com/1509986679b6dd34a6fce56c11bdc5c51b2701484cb712cea6ff076bd33fe42a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/5263"
 store_url: "https://www.gog.com/en/game/lego_star_wars_the_complete_saga"
 protondb_url: "https://www.protondb.com/app/32440"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_Star_Wars%3A_The_Complete_Saga"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_Star_Wars:_The_Complete_Saga"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/lego-star-wars-the-complete-saga/"
 

@@ -20,6 +20,14 @@ protondb_total: 53
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 77
+steam_review_total: 10387
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Stardock
@@ -28,17 +36,19 @@ genre: Strategy
 franchise: 
 age_rating_summary: e10 (ESRB) · 12 (PEGI)
 age_ratings: {"esrb":{"rating":"e10","descriptors":"Alcohol Reference, Fantasy Violence, Mild Suggestive Themes"},"pegi":{"rating":"12","descriptors":"Non-realistic looking violence towards human characters., This game allows the player to interact with other players ONLINE."},"usk":{"rating":"6"},"kgrb":{"rating":"12"},"dejus":{"rating":"12","descriptors":"Violência fantasiosa, Drogas lícitas, Drogas ilícitas"}}
-release_date: "May 14, 2015"
+release_date: "January 21, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","German","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1166","name":"4X"}]
-size: ""
+size: "11909 MB"
+install_size: "14468 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":36318,"slug":"galactic-civilizations-ii-dread-lords","name":"Galactic Civilizations II: Dread Lords"},{"rawg_id":34654,"slug":"galactic-civilizations-2003","name":"Galactic Civilizations (2003)"}]
 franchise_slug: "galactic-civilizations-2003|galactic-civilizations-ii-drea|galactic-civilizations-iii"
 igdb_url: "https://www.igdb.com/games/galactic-civilizations-iii"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1e13631f27c961ebe96","id":"5d63b78c08184c10933a47874117db8c","namespace":"3c52fbac843d4375803187739db84801","startDate":"2022-01-12T15:00:00.000Z","endDate":"2022-01-19T15:00:00.000Z","__v":0},{"_id":"66abf1ea3631f27c961ec117","id":"5d63b78c08184c10933a47874117db8c","namespace":"3c52fbac843d4375803187739db84801","startDate":"2021-01-20T15:00:00.000Z","endDate":"2021-01-27T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-01-20","end":"2021-01-27"},{"start":"2022-01-12","end":"2022-01-19"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a1006f98eb3d965a4716adaff4848de2342a5a69229
 icon_image: "https://images.gog.com/76cc0bbd1babe91bced57d69b84e0436256631333791fc470f3105a50b4603fb.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

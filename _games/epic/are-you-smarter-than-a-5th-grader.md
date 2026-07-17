@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Display output not correctly scaled"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 66
+steam_review_total: 177
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: HandyGames
@@ -32,13 +40,15 @@ release_date: "August 23, 2022"
 game_modes: ["Co-op"]
 languages: ["English","French"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1318","name":"Trivia"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"}]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1318","name":"Trivia"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"}]
 size: "1678 MB"
+install_size: "2103 MB"
+achievements_total: 19
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/are-you-smarter-than-a-5th-grader--2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-01-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1521160/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1521160/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-su
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/118851"
 store_url: "https://store.epicgames.com/en-US/p/are-you-smarter-than-a-5th-grader-bc328a"
 protondb_url: "https://www.protondb.com/app/1521160"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Are_You_Smarter_Than_a_5th_Grader%3F_%282022%29"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Are_You_Smarter_Than_a_5th_Grader?_(2022)"
 metacritic_score: 58
 metacritic_url: "https://www.metacritic.com/game/are-you-smarter-than-a-5th-grader/"
 

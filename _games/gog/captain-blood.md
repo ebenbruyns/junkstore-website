@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 78
+steam_review_total: 304
+gog_rating_value: 3.4
+gog_rating_count: 128
 
 # Game Info
 publisher: SNEG
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English","Russian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"255","name":"Pirates"},{"id":"764","name":"slasher"}]
 size: "6307 MB"
+install_size: ""
+achievements_total: 39
 franchise_siblings: [{"rawg_id":34460,"slug":"commander-blood","name":"Commander Blood"},{"rawg_id":32031,"slug":"captain-blood","name":"Captain Blood (1988)"}]
 franchise_slug: "age-of-pirates-captain-blood|captain-blood|commander-blood"
 igdb_url: "https://www.igdb.com/games/captain-blood--2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-02-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/3040220/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/3040220/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: true
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/167849"
 store_url: "https://www.gog.com/en/game/captain_blood"
 protondb_url: "https://www.protondb.com/app/3040220"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Captain_Blood"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Captain_Blood_(Seawolf_Studio)"
 metacritic_score: 50
 metacritic_url: "https://www.metacritic.com/game/captain-blood/"
 

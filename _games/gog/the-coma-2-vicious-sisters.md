@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 3495
+gog_rating_value: 4.1
+gog_rating_count: 59
 
 # Game Info
 publisher: Digerati Distribution, Headup Games, Devespresso Games
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","French","Kore
 languages_audio: ["Korean"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"40858","name":"Other"}]
 size: "1332 MB"
+install_size: ""
+achievements_total: 35
 franchise_siblings: [{"rawg_id":11772,"slug":"the-coma-cutting-class","name":"The Coma: Cutting Class"}]
 franchise_slug: "the-coma-2-vicious-sisters|the-coma-cutting-class"
 igdb_url: "https://www.igdb.com/games/the-coma-2-vicious-sisters"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/5c473ff4349dacadb39b3c06b54751da892354b7f60
 icon_image: "https://images.gog.com/f88b684794ee5c82719569741ec5c859bd58b5788f19b4e30b09dbce5d8a988a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/75365"
 store_url: "https://www.gog.com/en/game/the_coma_2_vicious_sisters"
 protondb_url: "https://www.protondb.com/app/1045720"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Coma_2%3A_Vicious_Sisters"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Coma_2:_Vicious_Sisters"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/the-coma-2-vicious-sisters?ftag=MCD-06-10aaa1f"
 

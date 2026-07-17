@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 90
+steam_review_total: 67
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: GangoGames LLC
@@ -28,17 +36,19 @@ genre: Space, Retro, Shooter
 franchise: 
 age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
-release_date: "November 10, 2021"
+release_date: "December 11, 2025"
 game_modes: ["Single-player","Local Multiplayer","Co-op"]
 languages: ["English","German","Japanese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1121","name":"Space"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1198","name":"Retro"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "292 MB"
+install_size: "708 MB"
+achievements_total: 36
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/hyper-echelon"
 was_free_before: true
-giveaway_events: [{"_id":"69bd1e8a60a61ec16dd8f736","id":"5d15c054641543c9a535b3b4ac29e843","namespace":"5ffdf739f9b549ebba9caf3596e7c632","startDate":"2026-03-26T15:00:00.000Z","endDate":"2026-04-02T15:00:00.000Z","title":"Hyper Echelon","__v":0}]
+giveaway_events: [{"start":"2026-03-26","end":"2026-04-02"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/953330/library_600x900.
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/953330/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

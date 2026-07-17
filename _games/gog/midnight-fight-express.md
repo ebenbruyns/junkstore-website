@@ -20,6 +20,14 @@ protondb_total: 19
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 2752
+gog_rating_value: 4.6
+gog_rating_count: 238
 
 # Game Info
 publisher: Humble Games
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","La
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"42","name":"Great Soundtrack"},{"id":"26","name":"Gore"},{"id":"34","name":"Violent"},{"id":"571","name":"3D"},{"id":"1465","name":"combat"},{"id":"99","name":"Isometric"},{"id":"203","name":"Beat 'em up"},{"id":"166","name":"Stylized"},{"id":"151","name":"Modern"}]
 size: "5944 MB"
+install_size: ""
+achievements_total: 40
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/midnight-fight-express"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-07-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/75f7c3cbe2cb2a18619d866e6618848d7ab0cc0c8d7
 icon_image: "https://images.gog.com/24154cd1f8bc5aa3793be7ba97a72810407b6dbdb784bb2a7ff7dff21c32e92b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

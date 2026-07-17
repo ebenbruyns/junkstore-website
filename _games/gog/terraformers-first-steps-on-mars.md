@@ -18,8 +18,16 @@ protondb_tier: "pending"
 protondb_score: 0.21
 protondb_total: 3
 protondb_confidence: "inadequate"
-steam_deck_verified: "unknown"
-steam_deck_category: 0
+steam_deck_verified: "verified"
+steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 88
+steam_review_total: 3716
+gog_rating_value: 2.8
+gog_rating_count: 66
 
 # Game Info
 publisher: Goblinz Publishing
@@ -28,12 +36,14 @@ genre: Strategy, Turn-based strategy (TBS), Simulator
 franchise: 
 age_rating_summary: 
 age_ratings: {"dejus":{"rating":"L"}}
-release_date: "October 23, 2021"
+release_date: "March 9, 2023"
 game_modes: ["Single-player"]
 languages: ["Chinese Simplified","German","English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"32","name":"Sci-fi"},{"id":"40850","name":"Steam Leaderboards"},{"id":"11669","name":"stats"},{"id":"107","name":"Family Friendly"},{"id":"167","name":"Futuristic"},{"id":"101","name":"Turn-Based Strategy"},{"id":"67","name":"Management"},{"id":"138","name":"Relaxing"},{"id":"640","name":"Roguelite"},{"id":"166","name":"Stylized"},{"id":"147","name":"Resource Management"},{"id":"213","name":"City Builder"},{"id":"212","name":"4X"},{"id":"774","name":"nature"},{"id":"241","name":"Space Sim"},{"id":"263","name":"Mars"},{"id":"4880","name":"tabletop"},{"id":"49967","name":"Colony Sim"}]
 size: "1185 MB"
+install_size: ""
+achievements_total: 3
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/terraformers-first-steps-on-mars"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/593bf4ef5dccbb41bb7de463336d6ddd8134be82bd5
 icon_image: "https://images.gog.com/f2ff9d959a5e66e1799f77409ae2e6868210c3d5ede8ae3d214c1cbd5395c12b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

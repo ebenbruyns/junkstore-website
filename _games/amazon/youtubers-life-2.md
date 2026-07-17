@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 72
+steam_review_total: 2275
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Raiser Games
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","Spanish - Spain","French","Italian","German","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Turkish","Catalan"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"36","name":"Open World"},{"id":"4","name":"Funny"},{"id":"37","name":"Sandbox"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"121","name":"Character Customization"},{"id":"107","name":"Family Friendly"},{"id":"88","name":"Cute"},{"id":"120","name":"Memes"},{"id":"67","name":"Management"},{"id":"138","name":"Relaxing"},{"id":"164","name":"Cartoony"},{"id":"2030","name":"city"},{"id":"744","name":"friends"},{"id":"59643","name":"Протагонистка"},{"id":"42473","name":"Immersive Sim"},{"id":"42410","name":"LGBTQ+"},{"id":"2326","name":"explore"},{"id":"1743","name":"collect"},{"id":"49960","name":"Life Sim"},{"id":"568","name":"Time Management"},{"id":"2201","name":"grow"},{"id":"3892","name":"reaction"},{"id":"4398","name":"pewdiepie"}]
-size: ""
+size: "2486 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/youtubers-life-2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-07-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d1df7a6fbec85f5f20679e17ee602ebecd85324b7f7
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1493760/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

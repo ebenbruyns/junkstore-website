@@ -20,6 +20,14 @@ protondb_total: 32
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 13922
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Graffiti Games
@@ -34,11 +42,13 @@ languages: ["English","French","Italian","German","Portuguese - Brazil","Russian
 languages_audio: []
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
 size: "107 MB"
+install_size: "634 MB"
+achievements_total: 
 franchise_siblings: [{"rawg_id":975269,"slug":"turnip-boy-robs-a-bank","name":"Turnip Boy Robs a Bank"}]
 franchise_slug: "turnip-boy-commits-tax-evasion|turnip-boy-robs-a-bank"
 igdb_url: "https://www.igdb.com/games/turnip-boy-commits-tax-evasion"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cf3631f27c961eba17","id":"e0282b701ea04c42ac1b5a55c1a3bfde","namespace":"80be39e522204fd0942916d73234d044","startDate":"2023-11-01T15:00:00.000Z","endDate":"2023-11-08T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-04-01"},{"start":"2023-11-01","end":"2023-11-08"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/56da2af58edc09684982d2f4618fc0989a278ed3e1d
 icon_image: "https://images.gog.com/8b1a122b3035dc4f9d2a436918bb0c4e18a4be42b585fd164d81b3ebd0574ea0.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

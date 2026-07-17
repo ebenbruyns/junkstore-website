@@ -20,6 +20,14 @@ protondb_total: 48
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 76
+steam_review_total: 21601
+gog_rating_value: 3.9
+gog_rating_count: 1044
 
 # Game Info
 publisher: THQ
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","Czech","Danish","German","English","Spanish","
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"411","name":"cooperative"},{"id":"149","name":"Third Person"},{"id":"9","name":"Online Co-Op"},{"id":"4","name":"Funny"},{"id":"37","name":"Sandbox"},{"id":"189","name":"Female Protagonist"},{"id":"123","name":"Comedy"},{"id":"150","name":"Third-Person Shooter"},{"id":"62","name":"Moddable"},{"id":"121","name":"Character Customization"},{"id":"5","name":"Replay Value"},{"id":"144","name":"Crime"},{"id":"337","name":"overlay"},{"id":"163","name":"Co-op Campaign"}]
 size: "6093 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":650607,"slug":"saints-row-2022","name":"Saints Row (2022)"},{"rawg_id":3450,"slug":"saints-row-gat-out-of-hell","name":"Saints Row: Gat Out of Hell"},{"rawg_id":3931,"slug":"saints-row-iv","name":"Saints Row IV"},{"rawg_id":4386,"slug":"saints-row-the-third","name":"Saints Row: The Third"},{"rawg_id":28478,"slug":"saints-row","name":"Saints Row"}]
 franchise_slug: "saints-row|saints-row-2|saints-row-2022|saints-row-gat-out-of-hell|saints-row-iv|saints-row-the-third"
 igdb_url: "https://www.igdb.com/games/saints-row-2"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/53808202040f9bcb4d6d171d18837917cf79959b5e6
 icon_image: "https://images.gog.com/ac1002791a41acfddcf45da87ebdf861d0e57bbd6f63082e2ca4d318d4404f9b.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

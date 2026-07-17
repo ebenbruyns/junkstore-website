@@ -20,6 +20,14 @@ protondb_total: 14
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 3959
+gog_rating_value: 3.7
+gog_rating_count: 510
 
 # Game Info
 publisher: SOEDESCO Publishing, SOEDESCO Publishing
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","German","English","Spanish","French","Hung
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"8","name":"First-Person"},{"id":"30","name":"FPS"},{"id":"4","name":"Funny"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"40850","name":"Steam Leaderboards"},{"id":"11669","name":"stats"},{"id":"468","name":"role-playing"},{"id":"5","name":"Replay Value"},{"id":"639","name":"Roguelike"},{"id":"131","name":"Fast-Paced"},{"id":"82","name":"Magic"},{"id":"218","name":"Multiple Endings"},{"id":"640","name":"Roguelite"},{"id":"48","name":"Dungeon Crawler"},{"id":"334","name":"achievements"},{"id":"98","name":"Loot"},{"id":"196","name":"Procedural Generation"},{"id":"164","name":"Cartoony"},{"id":"124","name":"Perma Death"},{"id":"52","name":"Arena Shooter"}]
 size: "663 MB"
+install_size: ""
+achievements_total: 38
 franchise_siblings: [{"rawg_id":685039,"slug":"ziggurat-2","name":"Ziggurat 2"}]
 franchise_slug: "ziggurat|ziggurat-2"
 igdb_url: "https://www.igdb.com/games/ziggurat"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1fb8861137377afc1af32ffa46c64ff2498336a99d2
 icon_image: "https://images.gog.com/398e33ba5bab11dcb7b636a4976d321d180c8809134fa588c9f150cdf53d52f8.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

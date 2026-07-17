@@ -20,6 +20,14 @@ protondb_total: 21
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 79
+steam_review_total: 2437
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Wales Interactive
@@ -32,13 +40,15 @@ release_date: "October 27, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Arabic","Turkish","Polish","Hungarian","Japanese","Welsh"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
 size: "7118 MB"
+install_size: "14695 MB"
+achievements_total: 30
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/maid-of-sker"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1c93631f27c961eb808","id":"3795a845a05d4b3baacb8126635ffd74","namespace":"89a30c2a3fdb4281b5df57350e797ca9","startDate":"2024-07-17T15:00:00.000Z","endDate":"2024-07-24T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-07-17","end":"2024-07-24"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3c854a5193fd112f2bdbdca2c9a598328af856f0fd6
 icon_image: "https://images.gog.com/a89b29d344a036ecfa38d0136b5ef7f57d3ebf748256657578752fd7e9e09e1d.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

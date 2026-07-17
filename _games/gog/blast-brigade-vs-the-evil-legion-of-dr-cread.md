@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 89
+steam_review_total: 344
+gog_rating_value: 4.1
+gog_rating_count: 83
 
 # Game Info
 publisher: MY.GAMES, Knights Peak
@@ -34,11 +42,13 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"13","name":"Atmospheric"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"49","name":"Difficult"},{"id":"123","name":"Comedy"},{"id":"69","name":"Action-Adventure"},{"id":"115","name":"Controller"},{"id":"14","name":"Early Access"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"113","name":"Side Scroller"},{"id":"40937","name":"Steam Trading Cards"},{"id":"259","name":"Metroidvania"},{"id":"164","name":"Cartoony"},{"id":"179","name":"Cartoon"},{"id":"49959","name":"2D Platformer"},{"id":"49995","name":"2D-платформер"}]
 size: "690 MB"
+install_size: ""
+achievements_total: 52
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/blast-brigade-vs-the-evil-legion-of-dr-cread"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/3a7fa80980c2cdd5d5a29f1f963fefb55eb0e4721a0
 icon_image: "https://images.gog.com/e431b982dcd1fb9918dcbc78067b79f4e988c5764d29b4e398f153591138c8f9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

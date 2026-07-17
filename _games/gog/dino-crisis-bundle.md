@@ -20,6 +20,14 @@ protondb_total: 20
 protondb_confidence: "good"
 steam_deck_verified: "unsupported"
 steam_deck_category: 1
+steam_deck_notes: [{"type":"fail","note":"Steam os does not support"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 80
+steam_review_total: 957
+gog_rating_value: 4.6
+gog_rating_count: 187
 
 # Game Info
 publisher: Capcom
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"5641","name":"bundle"},{"id":"3345","name":"dino"}]
 size: "474 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":59151,"slug":"dino-crisis-3","name":"Dino Crisis 3"},{"rawg_id":59150,"slug":"dino-stalker","name":"Dino Stalker"},{"rawg_id":52872,"slug":"dino-crisis-2-2011","name":"Dino Crisis 2"}]
 franchise_slug: "dino-crisis|dino-crisis-2-2011|dino-crisis-3|dino-stalker"
 igdb_url: "https://www.igdb.com/games/dino-crisis--3"
@@ -47,6 +57,9 @@ cover_image: "https://items.gog.com/dino_crisis_bundle/1.png"
 icon_image: "https://items.gog.com/dino_crisis_bundle/1.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

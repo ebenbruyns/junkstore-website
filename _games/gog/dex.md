@@ -20,6 +20,14 @@ protondb_total: 12
 protondb_confidence: "moderate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 87
+steam_review_total: 3513
+gog_rating_value: 4
+gog_rating_count: 872
 
 # Game Info
 publisher: Qubic Games, Badland Indie
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Czech","German","English","Spanish","Frenc
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"36","name":"Open World"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"189","name":"Female Protagonist"},{"id":"34","name":"Violent"},{"id":"15","name":"Stealth"},{"id":"468","name":"role-playing"},{"id":"44","name":"Nudity"},{"id":"40833","name":"Captions available"},{"id":"336","name":"controller support"},{"id":"113","name":"Side Scroller"},{"id":"226","name":"Cyberpunk"},{"id":"259","name":"Metroidvania"},{"id":"337","name":"overlay"},{"id":"334","name":"achievements"},{"id":"96","name":"Kickstarter"},{"id":"40858","name":"Other"}]
 size: "1775 MB"
+install_size: ""
+achievements_total: 32
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/dex"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/613a8fa9b28b3979d07f9db9ecee3639170a9d23bd9
 icon_image: "https://images.gog.com/f5574011e86306679cada4a9a2dc41e77dd2865abb2494481ef2c74734ccf935.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

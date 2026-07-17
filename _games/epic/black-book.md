@@ -20,6 +20,14 @@ protondb_total: 32
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 6670
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: HypeTrain Digital
@@ -34,11 +42,13 @@ languages: ["English","Russian","Simplified Chinese","Japanese","Korean"]
 languages_audio: ["English","Russian"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
 size: "1856 MB"
+install_size: "2189 MB"
+achievements_total: 50
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/black-book"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1d13631f27c961eba8e","id":"0bce0871129140d894da3789e2fe0a7f","namespace":"8211dc6089af4542926b7a8137b9079e","startDate":"2023-08-16T15:00:00.000Z","endDate":"2023-08-23T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2023-08-16","end":"2023-08-23"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d58f6736a36cb53c35f684272b4a072625812e8c886
 icon_image: "https://images.gog.com/f21199637ce74e2638cc189db4c3b39909003451f7d7d6c4030083c6e9e181b3.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: true
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false

@@ -20,6 +20,14 @@ protondb_total: 36
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"First time setup requires active internet connection"},{"type":"info","note":"Singleplayer gameplay requires active internet connection"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 66
+steam_review_total: 3135
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Ubisoft
@@ -32,8 +40,10 @@ release_date: "January 20, 2022"
 game_modes: ["Single-player","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Simplified Chinese","Traditional Chinese","Korean","Spanish - Latin America","Japanese","Polish","Portuguese - Brazil","Russian","Thai","Turkish"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Spanish - Latin America","Japanese","Portuguese - Brazil","Russian"]
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "ghost-recon-future-soldier|tcs-graw|tcs-graw2|tom-clancys-ghost-recon|tom-clancys-ghost-recon-2|tom-clancys-ghost-recon-2-summ|tom-clancys-ghost-recon-breakp|tom-clancys-ghost-recon-desert|tom-clancys-ghost-recon-frontl|tom-clancys-ghost-recon-island|tom-clancys-ghost-recon-jungle|tom-clancys-ghost-recon-phanto|tom-clancys-ghost-recon-predat|tom-clancys-ghost-recon-shadow|tom-clancys-ghost-recon-wildla"
 igdb_url: "https://www.igdb.com/games/tom-clancys-rainbow-six-extraction"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/1d893f7f9c1426b4d01858dec9249792f4441cfa6c4
 icon_image: "https://images.gog.com/7ba3b58b9d061884c4885b234d45fdcd50b2da774a7c0cef81fec22c7ca0ff73.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""
@@ -83,7 +96,7 @@ hltb_url: "https://howlongtobeat.com/game/68213"
 store_url: "https://store.epicgames.com/en-US/p/rainbow-six-extraction"
 protondb_url: "https://www.protondb.com/app/2379390"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tom_Clancy%27s_Rainbow_Six_Extraction"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tom_Clancy's_Rainbow_Six_Extraction"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/tom-clancys-rainbow-six-extraction/"
 

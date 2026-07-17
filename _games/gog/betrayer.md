@@ -20,6 +20,14 @@ protondb_total: 16
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 3744
+gog_rating_value: 4
+gog_rating_count: 181
 
 # Game Info
 publisher: Blackpowder Games
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Hungarian","Italian","Russian
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"13","name":"Atmospheric"},{"id":"7808","name":"steam-trading-cards"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"36","name":"Open World"},{"id":"8","name":"First-Person"},{"id":"40845","name":"Partial Controller Support"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"6","name":"Exploration"},{"id":"1","name":"Survival"},{"id":"15","name":"Stealth"},{"id":"41","name":"Dark"},{"id":"17","name":"Survival Horror"},{"id":"89","name":"Historical"},{"id":"66","name":"Medieval"},{"id":"91","name":"Walking Simulator"}]
 size: "2943 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/e8d9ebcfcdafa2f8a2f4bbfd7d40194fb1d35ae9f7d
 icon_image: "https://images.gog.com/bac980ce776e792a409b68d4a5c5edd9cfe47999ebb9ce517ccd878325fab3a4.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 9
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Overwhelmingly Positive"
+steam_review_percent: 96
+steam_review_total: 2261
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Pixmain
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"45","name":"2D"},{"id":"6","name":"Exploration"},{"id":"115","name":"Controller"},{"id":"88","name":"Cute"},{"id":"165","name":"Colorful"},{"id":"138","name":"Relaxing"},{"id":"305","name":"Linear"},{"id":"166","name":"Stylized"},{"id":"258","name":"Hand-drawn"},{"id":"116","name":"2.5D"},{"id":"200","name":"Narration"},{"id":"268","name":"Comic Book"},{"id":"179","name":"Cartoon"},{"id":"140","name":"Hidden Object"},{"id":"2896","name":"collectathon"},{"id":"607","name":"Unity"},{"id":"55320","name":"Creature Collector"},{"id":"5357","name":"comics"}]
-size: ""
+size: "2646 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/labyrinth-city-pierre-the-maze-detective"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-08-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/853bbad6662bbed0349318fc0ca9c0cef274427d989
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1421790/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

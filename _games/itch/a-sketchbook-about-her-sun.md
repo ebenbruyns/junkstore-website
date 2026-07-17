@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 89
+steam_review_total: 19
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Team SolEtude
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"118","name":"Story Rich"},{"id":"45","name":"2D"},{"id":"189","name":"Female Protagonist"},{"id":"141","name":"Point & Click"},{"id":"88","name":"Cute"},{"id":"145","name":"Choices Matter"},{"id":"90","name":"Visual Novel"},{"id":"209","name":"Drama"},{"id":"258","name":"Hand-drawn"},{"id":"217","name":"Romance"},{"id":"200","name":"Narration"},{"id":"268","name":"Comic Book"},{"id":"572","name":"Emotional"},{"id":"288","name":"Interactive Fiction"},{"id":"59643","name":"Протагонистка"},{"id":"285","name":"Psychological"},{"id":"42410","name":"LGBTQ+"},{"id":"151","name":"Modern"},{"id":"342","name":"Conversation"}]
-size: ""
+size: "424 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/a-sketchbook-about-her-sun"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/bf78c474ff64f0b0ab32a0c2c5e9a16f616c7fbd7ff
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1611760/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

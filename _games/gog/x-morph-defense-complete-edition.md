@@ -20,6 +20,14 @@ protondb_total: 39
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Aux functionality not accessible_map editor"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 4139
+gog_rating_value: 4.4
+gog_rating_count: 190
 
 # Game Info
 publisher: EXOR Studios
@@ -34,6 +42,8 @@ languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Sp
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"7808","name":"steam-trading-cards"},{"id":"411","name":"cooperative"},{"id":"40850","name":"Steam Leaderboards"},{"id":"198","name":"Split Screen"},{"id":"75","name":"Local Co-Op"},{"id":"65","name":"Tower Defense"}]
 size: "4335 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/x-morph-defense"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/92da10f4b74e78323eb9fd7454eb128e492ecc574aa
 icon_image: "https://images.gog.com/b273d61b2d2f2ab7fc9cc115f270d6938a4656883db6dc853cfc2446eba77de4.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/52418"
 store_url: "https://www.gog.com/en/game/xmorph_defense_complete_edition"
 protondb_url: "https://www.protondb.com/app/408410"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/X-Morph%3A_Defense"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/X-Morph:_Defense"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/x-morph-defense/"
 

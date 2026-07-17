@@ -20,6 +20,14 @@ protondb_total: 1
 protondb_confidence: "inadequate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Positive"
+steam_review_percent: 89
+steam_review_total: 35
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: PUNKCAKE Délicieux
@@ -33,7 +41,9 @@ game_modes: ["Single player"]
 languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"122","name":"Pixel Graphics"},{"id":"74","name":"Retro"},{"id":"43","name":"Post-apocalyptic"},{"id":"1465","name":"combat"},{"id":"226","name":"Cyberpunk"},{"id":"61","name":"Top-Down"},{"id":"197","name":"Robots"},{"id":"166","name":"Stylized"},{"id":"56","name":"Shoot 'Em Up"},{"id":"171","name":"PvE"},{"id":"236","name":"Top-Down Shooter"},{"id":"52","name":"Arena Shooter"},{"id":"54","name":"Score Attack"},{"id":"227","name":"Hacking"},{"id":"286","name":"Psychedelic"},{"id":"64326","name":"Постапокалипсис"},{"id":"66537","name":"Арена-шутер"}]
-size: ""
+size: "92 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/antecrypt"
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1659920/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1659920/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

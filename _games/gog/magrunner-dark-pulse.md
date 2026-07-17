@@ -20,6 +20,14 @@ protondb_total: 18
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Display output has nonblocking issues"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 73
+steam_review_total: 1134
+gog_rating_value: 3.6
+gog_rating_count: 324
 
 # Game Info
 publisher: Focus Entertainment
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Italian","Korean","Polish","R
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"16","name":"Horror"},{"id":"30","name":"FPS"},{"id":"226","name":"Cyberpunk"},{"id":"47","name":"Lovecraftian"}]
 size: "2940 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/magrunner-dark-pulse"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/a911a9a9e18dcbb477dc888cf20d8c55c23d9696867
 icon_image: "https://images.gog.com/6de7956da28624077f1c815d59f87d241212d7b1f50c245b7057712bff631580.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/11640"
 store_url: "https://www.gog.com/en/game/magrunner_dark_pulse"
 protondb_url: "https://www.protondb.com/app/209630"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Magrunner%3A_Dark_Pulse"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Magrunner:_Dark_Pulse"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/magrunner-dark-pulse/"
 

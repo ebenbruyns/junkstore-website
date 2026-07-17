@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Native resolution not default"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 68
+steam_review_total: 132
+gog_rating_value: 3.3
+gog_rating_count: 59
 
 # Game Info
 publisher: Jujubee S.A.
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40845","name":"Partial Controller Support"},{"id":"115","name":"Controller"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"295","name":"Soundtrack"},{"id":"53","name":"Flight"},{"id":"49970","name":"Vehicular Combat"},{"id":"49961","name":"3D Fighter"},{"id":"56826","name":"3D-файтинг"},{"id":"49966","name":"Combat Racing"}]
 size: "383 MB"
+install_size: ""
+achievements_total: 16
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/flashout-3d-enhanced-edition"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/237161d745a564f62edad01fd73fe243a64e2f89db5
 icon_image: "https://images.gog.com/f71cb61ec7328ccd27804184f8000d16f7967708fedc1dbf24b632bb12150fcf.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

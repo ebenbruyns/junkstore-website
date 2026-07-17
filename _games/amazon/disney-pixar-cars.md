@@ -20,6 +20,14 @@ protondb_total: 22
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Native resolution not default"},{"type":"warning","note":"Gamepad not enabled by default"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 2882
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Disney
@@ -34,6 +42,8 @@ languages: ["English","French","Italian","German","Spanish - Spain","Danish","Du
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Polish","Swedish"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40849","name":"Steam Cloud"},{"id":"36","name":"Open World"},{"id":"40845","name":"Partial Controller Support"},{"id":"198","name":"Split Screen"},{"id":"107","name":"Family Friendly"}]
 size: ""
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":12967,"slug":"disneypixar-finding-nemo","name":"Disney•Pixar Finding Nemo"},{"rawg_id":17078,"slug":"disneypixar-toy-story-mania","name":"Disney•Pixar Toy Story Mania!"},{"rawg_id":13019,"slug":"disneypixar-brave","name":"Disney's Pixar Brave: The Video Game"},{"rawg_id":4754,"slug":"toy-story-racer","name":"Disney•Pixar Toy Story Racer"},{"rawg_id":4748,"slug":"bugs-life-a","name":"Disney•Pixar A Bug's Life"}]
 franchise_slug: "bugs-life-a|disneypixar-brave|disneypixar-cars-2|disneypixar-finding-nemo|disneypixar-toy-story-mania|toy-story-racer"
 igdb_url: "https://www.igdb.com/games/wall-e--7"
@@ -47,6 +57,9 @@ cover_image: "https://m.media-amazon.com/images/I/91vYTrRAn8L.jpg"
 icon_image: "https://m.media-amazon.com/images/I/61izkn0N+sL.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

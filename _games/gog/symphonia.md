@@ -20,6 +20,14 @@ protondb_total: 3
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 377
+gog_rating_value: 3.7
+gog_rating_count: 164
 
 # Game Info
 publisher: Headup, Sunny Peak
@@ -34,6 +42,8 @@ languages: ["English","French"]
 languages_audio: []
 tags_structured: []
 size: "524 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/6c7f1a9216a977f5ac7519c35d25c8cad6d8a0cbf1d
 icon_image: "https://images.gog.com/f63384198923c8106187afb4b258ddaf911eba32b38b4d14c2c4dfb9dcff1f40.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: ""
 community_layout: false
 required_launcher: ""
@@ -84,15 +97,15 @@ hltb_url: "https://howlongtobeat.com/game/134813"
 store_url: "https://www.gog.com/en/game/symphonia_2020"
 protondb_url: "https://www.protondb.com/app/1865960"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Symphonia_%282024%29"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Symphonia_(2024)"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/symphonia/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
-opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_id: "11810/symphonia"
+opencritic_url: "https://opencritic.com/game/11810/symphonia"
+opencritic_score: 80
+opencritic_review_count: 24
 twitch_id: ""
 twitch_url: ""
 playstation_id: "10008825"

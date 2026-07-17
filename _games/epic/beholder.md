@@ -20,6 +20,14 @@ protondb_total: 21
 protondb_confidence: "good"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 30735
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Alawar
@@ -32,14 +40,16 @@ release_date: "November 1, 2024"
 game_modes: ["Single player"]
 languages: ["English","Russian","French","German","Simplified Chinese","Italian","Traditional Chinese","Japanese","Polish","Spanish - Spain","Portuguese - Brazil","Dutch","Turkish","Korean"]
 languages_audio: ["English","Russian","French","German","Simplified Chinese","Italian","Traditional Chinese","Japanese","Polish","Spanish - Spain","Portuguese - Brazil","Dutch","Korean"]
-tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"1117","name":"Adventure"}]
+tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
 size: "1132756591
 "
+install_size: "2568 MB"
+achievements_total: 37
 franchise_siblings: [{"rawg_id":678695,"slug":"beholder-3","name":"Beholder 3"},{"rawg_id":51081,"slug":"beholder-2","name":"Beholder 2"}]
 franchise_slug: "beholder|beholder-2|beholder-3"
 igdb_url: "https://www.igdb.com/games/beholder"
 was_free_before: true
-giveaway_events: [{"_id":"6734a8e95a524090f5ea1460","id":"5ef8a7dc06384428a3effed5cefd0ee1","namespace":"7109c2e220544434ad355bce3cf69120","startDate":"2024-11-21T16:00:00.000Z","endDate":"2024-11-28T16:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2021-05-01"},{"start":"2024-11-21","end":"2024-11-28"}]
 free_games_aliases: []
 
 # Images
@@ -48,6 +58,9 @@ cover_image: "https://images.gog.com/14ec44d793ae48af6326dda0e428dc1ff06c95a852c
 icon_image: "https://images.gog.com/077841a410ebbe38e7d5b010b03e0d055286e5c761687c59df28b25c97c14044.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 28
 protondb_confidence: "strong"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 91
+steam_review_total: 12449
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Alawar
@@ -33,12 +41,14 @@ game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Korean","Polish","Russian","Traditional Chinese","Japanese"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"1","name":"Survival"},{"id":"69","name":"Action-Adventure"},{"id":"122","name":"Pixel Graphics"},{"id":"11669","name":"stats"},{"id":"1465","name":"combat"},{"id":"113","name":"Side Scroller"},{"id":"639","name":"Roguelike"},{"id":"172","name":"Aliens"},{"id":"67","name":"Management"},{"id":"640","name":"Roguelite"},{"id":"196","name":"Procedural Generation"},{"id":"147","name":"Resource Management"},{"id":"65","name":"Tower Defense"},{"id":"184","name":"Mechs"},{"id":"1529","name":"fight"},{"id":"3109","name":"weapons"},{"id":"624","name":"Monsters"},{"id":"1652","name":"night"},{"id":"1753","name":"guns"},{"id":"3117","name":"shoot"},{"id":"316","name":"Mining"},{"id":"3680","name":"defense"},{"id":"5559","name":"elements"},{"id":"2286","name":"tower"},{"id":"8949","name":"attack"},{"id":"1310","name":"machine"},{"id":"2629","name":"mine"},{"id":"2888","name":"hack"},{"id":"7270","name":"find"},{"id":"1957","name":"weather"},{"id":"675","name":"creatures"},{"id":"2092","name":"rogue"},{"id":"3187","name":"break"}]
-size: ""
+size: "1945 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/wall-world"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-07-01"},{"start":"2025-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/27a0c414c964384fb66646b6cc345f5200659eec89d
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2187290/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 28
 protondb_confidence: "good"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"warning","note":"Default configuration is not performant"},{"type":"pass","note":"Default controller config fully functional"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 86
+steam_review_total: 15374
+gog_rating_value: 3.4
+gog_rating_count: 287
 
 # Game Info
 publisher: Eek Games
@@ -34,6 +42,8 @@ languages: ["Chinese Simplified","German","English","Latin American Spanish","Fr
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"8","name":"First-Person"},{"id":"14","name":"Early Access"},{"id":"44","name":"Nudity"},{"id":"192","name":"Mature"},{"id":"120","name":"Memes"},{"id":"50","name":"Sexual Content"},{"id":"160","name":"Dating Sim"},{"id":"312","name":"NSFW"},{"id":"1081","name":"adult"},{"id":"785","name":"Erotic"}]
 size: "2911 MB"
+install_size: ""
+achievements_total: 91
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/house-party"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/2caef2749321d508bd25bc0d991209bb7b667198b38
 icon_image: "https://images.gog.com/5ea7c3dcbb0718c3d608e7b9895765896fb6446c6a8dd38d5cc7eb6211b92b53.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

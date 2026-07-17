@@ -20,6 +20,14 @@ protondb_total:
 protondb_confidence: ""
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "5 user reviews"
+steam_review_percent: 100
+steam_review_total: 5
+gog_rating_value: 4.7
+gog_rating_count: 51
 
 # Game Info
 publisher: SSI (Strategic Simulations, Inc.)
@@ -34,6 +42,8 @@ languages: ["German","English","French"]
 languages_audio: []
 tags_structured: []
 size: "23 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "forgotten-realms-archives-3"
 igdb_url: ""
@@ -47,6 +57,9 @@ cover_image: "https://cdn2.steamgriddb.com/thumb/acd3da98a97c10892671c6f02c7aae4
 icon_image: "https://cdn2.steamgriddb.com/icon/2c533e51b1b4a5a6d99935ffe645d431/32/48x48.png"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 974
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Launcher interaction issues"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 81
+steam_review_total: 468952
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Epic Games
@@ -28,12 +36,14 @@ genre: Party
 franchise: 
 age_rating_summary: 3 (PEGI)
 age_ratings: {"pegi":{"rating":"3"},"dejus":{"rating":"6","descriptors":"Violência fantasiosa"}}
-release_date: "August 3, 2020"
+release_date: "June 21, 2022"
 game_modes: ["Co-operative","Multiplayer","Battle Royale"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"39070","name":"iOS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "6786 MB"
+install_size: ""
+achievements_total: 34
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/fall-guys"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/718ad73ea9a459cc2fb7e0eefa1cda46c310f353a8e
 icon_image: "https://images.gog.com/cfb6cebdc7d940f02b14fcce50ad76cc6d9804746f5c64cab556d10e3fd0a88a.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

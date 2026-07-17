@@ -20,6 +20,14 @@ protondb_total: 4
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 84
+steam_review_total: 3053
+gog_rating_value: 3.5
+gog_rating_count: 100
 
 # Game Info
 publisher: Digerati Distribution
@@ -34,11 +42,13 @@ languages: ["Chinese Simplified","English","Spanish","French","Japanese","Korean
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"45","name":"2D"},{"id":"16","name":"Horror"},{"id":"34","name":"Violent"},{"id":"40858","name":"Other"}]
 size: "279 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: "the-coma-2-vicious-sisters|the-coma-cutting-class"
 igdb_url: "https://www.igdb.com/games/the-coma-recut"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-12-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4f4e008f2daf8c029c19812115749b13e9573b5042a
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/600090/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/49417"
 store_url: "https://www.gog.com/en/game/the_coma_recut"
 protondb_url: "https://www.protondb.com/app/600090"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Coma%3A_Recut"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Coma:_Recut"
 metacritic_score: 62
 metacritic_url: "https://www.metacritic.com/game/the-coma-recut/"
 

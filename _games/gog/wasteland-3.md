@@ -20,6 +20,14 @@ protondb_total: 80
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 22229
+gog_rating_value: 4.6
+gog_rating_count: 217
 
 # Game Info
 publisher: inXile Entertainment
@@ -34,6 +42,8 @@ languages: ["German","English","Spanish","French","Polish","Russian"]
 languages_audio: ["English"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40836","name":"Full controller support"},{"id":"24","name":"RPG"},{"id":"18","name":"Co-op"},{"id":"26","name":"Gore"},{"id":"6","name":"Exploration"},{"id":"34","name":"Violent"},{"id":"80","name":"Tactical"},{"id":"468","name":"role-playing"},{"id":"70","name":"War"},{"id":"102","name":"Turn-Based"},{"id":"1465","name":"combat"},{"id":"99","name":"Isometric"},{"id":"50","name":"Sexual Content"},{"id":"406","name":"Story"},{"id":"981","name":"battle"},{"id":"238","name":"CRPG"},{"id":"684","name":"children"}]
 size: "14899 MB"
+install_size: ""
+achievements_total: 86
 franchise_siblings: [{"rawg_id":41336,"slug":"wasteland-2","name":"Wasteland 2"},{"rawg_id":333664,"slug":"fountain-of-dreams","name":"Fountain of Dreams"},{"rawg_id":30119,"slug":"wasteland","name":"Wasteland"}]
 franchise_slug: "fountain-of-dreams|wasteland|wasteland-2|wasteland-3"
 igdb_url: "https://www.igdb.com/games/wasteland-3"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/88359b69ab9eb90e847aef717ec6943c44e963b15d4
 icon_image: "https://images.gog.com/b4ebced64c5dce6b0cad33c12312c44ca02cee908034147b611be3053995b129.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

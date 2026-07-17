@@ -20,6 +20,14 @@ protondb_total: 50
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mixed"
+steam_review_percent: 57
+steam_review_total: 2483
+gog_rating_value: 3.4
+gog_rating_count: 1103
 
 # Game Info
 publisher: Square Enix, Eidos Interactive, Eidos Montréal
@@ -34,11 +42,13 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"13","name":"Atmospheric"},{"id":"24","name":"RPG"},{"id":"118","name":"Story Rich"},{"id":"8","name":"First-Person"},{"id":"32","name":"Sci-fi"},{"id":"30","name":"FPS"},{"id":"193","name":"Classic"},{"id":"189","name":"Female Protagonist"},{"id":"15","name":"Stealth"},{"id":"97","name":"Action RPG"},{"id":"226","name":"Cyberpunk"},{"id":"119","name":"Dystopian"},{"id":"178","name":"Illuminati"},{"id":"42473","name":"Immersive Sim"},{"id":"291","name":"Conspiracy"},{"id":"301","name":"Transhumanism"}]
 size: "2187 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":1447,"slug":"deus-ex-mankind-divided","name":"Deus Ex: Mankind Divided"},{"rawg_id":74114,"slug":"deus-ex-go","name":"Deus Ex GO"},{"rawg_id":441,"slug":"deus-ex-the-fall","name":"Deus Ex: The Fall"},{"rawg_id":4440,"slug":"deus-ex-human-revolution","name":"Deus Ex: Human Revolution"},{"rawg_id":30243,"slug":"deus-ex","name":"Deus Ex"}]
 franchise_slug: "deus-ex|deus-ex-2-invisible-war|deus-ex-go|deus-ex-human-revolution|deus-ex-mankind-divided|deus-ex-the-fall"
 igdb_url: "https://www.igdb.com/games/deus-ex-invisible-war"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2025-03-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/72adf0fa1245bb929ed476b7d6456983795453bb4c3
 icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/6920/header.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""
@@ -84,7 +97,7 @@ hltb_url: "https://howlongtobeat.com/game/2491"
 store_url: "https://www.gog.com/en/game/deus_ex_invisible_war"
 protondb_url: "https://www.protondb.com/app/6920"
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deus_Ex%3A_Invisible_War"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deus_Ex:_Invisible_War"
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/deus-ex-invisible-war/"
 

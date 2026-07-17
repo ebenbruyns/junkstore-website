@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "unknown"
 steam_deck_category: 0
+steam_deck_notes: []
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Mostly Positive"
+steam_review_percent: 75
+steam_review_total: 63
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: GBROSSOFT
@@ -32,13 +40,15 @@ release_date: "July 18, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Turkish"]
 languages_audio: ["English"]
-tags_structured: [{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"}]
-size: ""
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+size: "1680 MB"
+install_size: "3577 MB"
+achievements_total: 21
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/outliver-tribulation"
 was_free_before: true
-giveaway_events: [{"_id":"67003d8a24bb30b2f60b34ce","id":"a4d3ae371e674ce3b2892d63c8bb4041","namespace":"13e30807efce43ea9e04ac1c45668d8e","startDate":"2024-10-10T15:00:00.000Z","endDate":"2024-10-17T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-10-10","end":"2024-10-17"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/4fbe5ecc316020145aa1997a4b126f02ba529b190e8
 icon_image: "https://images.gog.com/df6f34e3368e9bbcd97f203228a9711394849499ca055ea7783c300f93ba17e7.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Native resolution not supported"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 85
+steam_review_total: 277
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Serenity Forge
@@ -28,17 +36,19 @@ genre: Turn-Based, Indie, RPG
 franchise: 
 age_rating_summary: 13 (ESRB)
 age_ratings: {"dejus":{"rating":"L","descriptors":"Violência fantasiosa"}}
-release_date: "September 18, 2024"
+release_date: "July 31, 2025"
 game_modes: ["Single player"]
 languages: ["English","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"39946","name":"Serenity Forge Publisher Sale"},{"id":"9547","name":"Windows"},{"id":"16011","name":"Epic MEGA Sale"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"39946","name":"Serenity Forge Publisher Sale"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21119","name":"Great for Beginners"}]
+size: "574 MB"
+install_size: "660 MB"
+achievements_total: 49
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/keylocker-turn-based-cyberpunk-action"
 was_free_before: true
-giveaway_events: [{"_id":"68824aebd8ed05d05dbaaf4e","id":"3de25d0eaa7f4b9dbb3fa3f08fd55746","namespace":"1c0e80ffead94d1f911254d457ebb48b","startDate":"2025-07-31T15:00:00.000Z","endDate":"2025-08-07T15:00:00.000Z","title":"Keylocker | Turn Based Cyberpunk Action","__v":0}]
+giveaway_events: [{"start":"2025-07-31","end":"2025-08-07"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/ad1ce0856f1e62bc533d61b65834c18350925555663
 icon_image: "https://images.gog.com/236491c86ca323c1c0d2fdb8fec88a64ed0603813a5eca9fb8ef0153dfabe557.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

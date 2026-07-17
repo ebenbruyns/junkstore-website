@@ -20,6 +20,14 @@ protondb_total: 172
 protondb_confidence: "strong"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Default controller config not fully functional"},{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 54187
+gog_rating_value: 4.6
+gog_rating_count: 922
 
 # Game Info
 publisher: Activision, Electronic Arts, LucasArts
@@ -34,11 +42,13 @@ languages: ["German","English","Spanish","French","Italian"]
 languages_audio: ["English"]
 tags_structured: []
 size: "6415 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: [{"rawg_id":28152,"slug":"star-wars-battlefront-2","name":"STAR WARS Battlefront II"},{"rawg_id":3052,"slug":"star-wars-battlefront","name":"STAR WARS Battlefront"},{"rawg_id":26149,"slug":"star-wars-battlefront-elite-squadron","name":"Star Wars Battlefront: Elite Squadron"},{"rawg_id":5308,"slug":"star-wars-battlefront-renegade-squadron","name":"Star Wars: Battlefront Renegade Squadron"},{"rawg_id":35629,"slug":"star-wars-battlefront-3","name":"Star Wars: Battlefront (2004)"}]
 franchise_slug: "star-wars-battlefront|star-wars-battlefront-2|star-wars-battlefront-3|star-wars-battlefront-elite-sq|star-wars-battlefront-ii-2|star-wars-battlefront-renegade"
 igdb_url: "https://www.igdb.com/games/star-wars-battlefront-ii"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2024-06-01"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/9c3ea358df6ad3547ea57247b96a65daaedc3a735e2
 icon_image: "https://images.gog.com/9568160b20eb815774a04207e7152c4ba86f316b010e70a2830e3e1e492e71d9.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

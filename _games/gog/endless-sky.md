@@ -20,6 +20,14 @@ protondb_total: 11
 protondb_confidence: "low"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Text input does not automatically invokes keyboard"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 92
+steam_review_total: 7060
+gog_rating_value: 4.4
+gog_rating_count: 110
 
 # Game Info
 publisher: Michael Zahniser
@@ -34,6 +42,8 @@ languages: ["English"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"7","name":"Multiplayer"},{"id":"24","name":"RPG"},{"id":"36","name":"Open World"},{"id":"45","name":"2D"},{"id":"32","name":"Sci-fi"},{"id":"6","name":"Exploration"},{"id":"37","name":"Sandbox"},{"id":"79","name":"Free to Play"},{"id":"25","name":"Space"},{"id":"245","name":"Trading"},{"id":"241","name":"Space Sim"}]
 size: "359 MB"
+install_size: ""
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/endless-sky"
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/b847f182016a6127e4391121cf9d97c4c9965da76c7
 icon_image: "https://images.gog.com/98451d0056af5a656fddd568b2f10b06a76681c8e1587a01038ffd34009583ea.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
 required_launcher: ""

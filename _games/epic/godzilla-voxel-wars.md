@@ -20,6 +20,14 @@ protondb_total: 2
 protondb_confidence: "inadequate"
 steam_deck_verified: "playable"
 steam_deck_category: 2
+steam_deck_notes: [{"type":"warning","note":"Controller glyphs do not match deck device"},{"type":"warning","note":"Interface text is not legible"},{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 95
+steam_review_total: 123
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: TOHO Games
@@ -28,17 +36,19 @@ genre: Turn-Based Strategy, Indie, Puzzle
 franchise: 
 age_rating_summary: Everyone (ESRB)
 age_ratings: {"kgrb":{"rating":"ALL","descriptors":"Violence"},"dejus":{"rating":"L"}}
-release_date: "October 31, 2023"
+release_date: "November 8, 2023"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Japanese","Traditional Chinese"]
 languages_audio: []
-tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+size: "948 MB"
+install_size: "1826 MB"
+achievements_total: 63
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/godzilla-voxel-wars"
 was_free_before: true
-giveaway_events: [{"_id":"691cafea56a6a5012d1a64f9","id":"88a37c5ab8db412380708a2b9933d626","namespace":"8549e5bffe744f67933bf4f8689030c4","startDate":"2025-11-20T16:00:00.000Z","endDate":"2025-11-27T16:00:00.000Z","title":"Godzilla Voxel Wars","__v":0}]
+giveaway_events: [{"start":"2025-11-20","end":"2025-11-27"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2439780/library_600x900
 icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2439780/capsule_231x87.jpg"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""

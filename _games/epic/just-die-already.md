@@ -20,6 +20,14 @@ protondb_total: 10
 protondb_confidence: "moderate"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"},{"type":"info","note":"External controllers not supported primary player"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 82
+steam_review_total: 3841
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Curve Digital, DoubleMoose Games
@@ -33,12 +41,14 @@ game_modes: ["Single-player","Co-op"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
 languages_audio: []
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21126","name":"Silly Community"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1116","name":"Comedy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "1436 MB"
+install_size: "2142 MB"
+achievements_total: 
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/just-die-already"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1de3631f27c961ebe0c","id":"fd05ded73f7944798434bd7ee7b39e9c","namespace":"8c7ed85dae4341d385919ee4d832eb1a","startDate":"2022-04-27T15:00:00.000Z","endDate":"2022-05-04T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2022-04-27","end":"2022-05-04"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/dcfc9a8fc07912874bd9cd329760619f49881367daa
 icon_image: "https://images.gog.com/b704dceb7856f4d36b1f1b71a281d4a5411b11e5463bc7d817e78f62ce5c2e8f.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "requires-mapping"
 community_layout: false
 required_launcher: ""

@@ -20,6 +20,14 @@ protondb_total: 5
 protondb_confidence: "low"
 steam_deck_verified: "verified"
 steam_deck_category: 3
+steam_deck_notes: [{"type":"pass","note":"Default controller config fully functional"},{"type":"pass","note":"Controller glyphs match deck device"},{"type":"pass","note":"Interface text is legible"},{"type":"pass","note":"Default configuration is performant"}]
+
+# Store review scores (Steam user reviews; GOG star rating on GOG games)
+steam_review_desc: "Very Positive"
+steam_review_percent: 99
+steam_review_total: 68
+gog_rating_value: 
+gog_rating_count: 
 
 # Game Info
 publisher: Wild Rooster
@@ -33,12 +41,14 @@ game_modes: ["Single-player","Local Multiplayer","Co-op"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1299","name":"Competitive"},{"id":"21109","name":"Great Boss Battles"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-size: ""
+size: "62 MB"
+install_size: "106 MB"
+achievements_total: 30
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/astro-duel-2"
 was_free_before: true
-giveaway_events: [{"_id":"66abf1cb3631f27c961eb900","id":"bc38eac0277d41ec955690e25779cb53","namespace":"4a681a809a094e2c8dcc68353c68fed6","startDate":"2024-03-06T15:00:00.000Z","endDate":"2024-03-13T15:00:00.000Z","__v":0}]
+giveaway_events: [{"start":"2024-03-06","end":"2024-03-13"}]
 free_games_aliases: []
 
 # Images
@@ -47,6 +57,9 @@ cover_image: "https://images.gog.com/d7f198d3447104ad3b8e86b94805180b7dc6a13445e
 icon_image: "https://images.gog.com/4e395a1a8742b226f39ad584eec9053be160c637f196670805e2a25a07805484.jpg?namespace=gamesdb"
 
 # Technical Details
+# hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
+# hackable/limited deliberately excluded — no "HDR with a mod" claims.
+hdr: false
 controller_input: "native"
 community_layout: false
 required_launcher: ""
@@ -60,7 +73,7 @@ dependencies:
 # Epic Features
 requires_eos: false
 supports_eos: false
-epic_achievements: false
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: true
 must_be_online: false
