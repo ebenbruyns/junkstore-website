@@ -116,7 +116,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "You need to download and run the exe for the following: Install DirectX & Install VC_redist.x64 (the C++ runtime is automatically installed in verision 2.0). You also need to use an older version of Proton. I successfullly tested with Proton 7.0-6."
+notes: "You need to download and run the exe for the following: Install DirectX & Install VC_redist.x64 (the C++ runtime is automatically installed in version 2.0). You also need to use an older version of Proton. I successfully tested with Proton 7.0-6."
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
