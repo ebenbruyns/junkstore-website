@@ -198,7 +198,7 @@
     "order": 4,
     "contentType": "faq",
     "question": "How do I uninstall Junk Store Pro?",
-    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\n  <br>\nTo uninstall Junk Store Pro, run the uninstall script in konsole:\n    <code>~/.local/share/junkstore/uninstall.sh</code>\n  <br>\n  <br>\n    Your Junk Store data lives in <code>~/.config/junkstore/</code>.\n  <br>\n  <br>\n    Non-Steam shortcuts will remain in Steam unless you uninstall the games first.\n</div>"
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\n<ol>\n  <li><strong>Uninstall the dependencies first.</strong> In Junk Store, open <strong>Settings</strong> and scroll down to <strong>Uninstall dependencies</strong>. This removes the Flatpaks that Junk Store installed.</li>\n  <li><strong>Run the uninstall script</strong> in Konsole: <code>~/.local/share/junkstore/uninstall.sh</code></li>\n</ol>\n    The script removes Junk Store Pro itself, but it leaves your own Junk Store user data in place at <code>~/.config/junkstore/</code>. If you want that gone too, delete the folder yourself. We deliberately don't touch it, in the same way uninstalling Microsoft Office doesn't delete your Word documents or Excel spreadsheets.\n  <br>\n  <br>\n    Non-Steam shortcuts will remain in Steam unless you uninstall the games first.\n</div>"
   },
   {
     "id": "9a30ddfe-0987-424f-8486-dd410bbc13d0",
