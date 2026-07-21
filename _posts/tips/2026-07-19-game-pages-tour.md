@@ -1,6 +1,6 @@
 ---
 layout: junkstore-post
-categories: [Tip of the Week]
+categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips]
 toc: true
 title: "A Proper Tour of Our Junk Store Tested Game Pages"
@@ -50,7 +50,7 @@ When a game needed more than "works out of the box", the **setup notes** live ri
 
 Below our results sits the 3rd-party references section, and it's grown a fair bit. For review scores you get **Metacritic** and **OpenCritic**, plus the **Steam user review** percentage and, on GOG games, GOG's own **star rating**. For compatibility there's **ProtonDB** and Steam's own **Deck Verified** rating. Hover over a tile for the detail behind it: ProtonDB tells you how many reports the rating is based on, and the Steam reviews tile carries the review count.
 
-The Witcher 3 sweeps this whole section: 92 on Metacritic, 97% (Overwhelmingly Positive) across 877,000 Steam reviews, 4.8 stars on GOG, Platinum on ProtonDB and Verified from Steam. One thing to keep in mind though: these reflect each service's own testing, not ours, and they don't always agree with what we found. I'm sure you've had this experience, or seen someone asking about how or if a game runs; Steam or ProtonDB can be misleading, saying it's unverified, unsupported or broken when it actually works fine. If that's been our finding for a game, the tile gets a little note pointing you back up to our result.
+The Witcher 3 is an awesome game and it's not surprising that it sweeps this whole section: 92 on Metacritic, 97% (Overwhelmingly Positive) across 877,000 Steam reviews, 4.8 stars on GOG, Platinum on ProtonDB and Verified from Steam. One thing to keep in mind though: these reflect each service's own testing, not ours, and they don't always agree with what we found. I'm sure you've had this experience, or seen someone asking about how or if a game runs; Steam or ProtonDB can be misleading, saying it's unverified, unsupported or broken when it actually works fine. If that's been our finding for a game, the tile gets a little note pointing you back up to our result.
 
 And if you want to know why a game got its Deck Verified badge, there's a dropdown with Valve's own test notes: the individual checks they passed or flagged, like whether the on-screen text is legible or the default controls just work. Handy when you want to see what's behind the badge rather than just take its word for it.
 

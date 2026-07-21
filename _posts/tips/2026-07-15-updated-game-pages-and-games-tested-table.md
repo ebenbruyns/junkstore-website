@@ -1,6 +1,6 @@
 ---
 layout: junkstore-post
-categories: [Tip of the Week]
+categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips]
 toc: false
 title: "Every Tested Game Now Has Its Own Page"

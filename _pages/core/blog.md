@@ -26,6 +26,8 @@ permalink: /blog/
 {% assign featured = sorted_posts.first %}
 {% capture featured_cc %}{% include post-category.html post=featured %}{% endcapture %}
 {% assign featured_parts = featured_cc | split: "|" %}
+{% capture featured_prod %}{% include post-product.html post=featured %}{% endcapture %}
+{% assign featured_product = featured_prod | strip %}
 <section class="blog-featured" id="featured-section">
   <article class="featured-card" data-categories="{{ featured_parts[0] }}">
     {% if featured.image %}
@@ -36,7 +38,10 @@ permalink: /blog/
     <div class="featured-card__content">
       <div class="featured-card__meta">
         {% if featured_parts[1] %}
-          <span class="featured-card__category">{{ featured_parts[1] }}</span>
+          <span class="featured-card__category cat--{{ featured_parts[1] | slugify }}">{{ featured_parts[1] }}</span>
+        {% endif %}
+        {% if featured_product != "" %}
+          <span class="card-product-badge product--{{ featured_product | slugify }}">{{ featured_product }}</span>
         {% endif %}
         <span class="featured-card__date">{{ featured.date | date: "%B %d, %Y" }}</span>
         {% if featured.read_time %}
@@ -60,6 +65,8 @@ permalink: /blog/
     {% for post in sorted_posts offset: 1 %}
     {% capture post_cc %}{% include post-category.html post=post %}{% endcapture %}
     {% assign post_parts = post_cc | split: "|" %}
+    {% capture post_prod %}{% include post-product.html post=post %}{% endcapture %}
+    {% assign post_product = post_prod | strip %}
     <article class="grid-card {% if forloop.index > 8 %}grid-card--hidden{% endif %}" data-categories="{{ post_parts[0] }}" data-index="{{ forloop.index }}">
       {% if post.image %}
       <a href="{{ post.url | relative_url }}" class="grid-card__image">
@@ -69,7 +76,10 @@ permalink: /blog/
       <div class="grid-card__content">
         <div class="grid-card__meta">
           {% if post_parts[1] %}
-            <span class="grid-card__category">{{ post_parts[1] }}</span>
+            <span class="grid-card__category cat--{{ post_parts[1] | slugify }}">{{ post_parts[1] }}</span>
+          {% endif %}
+          {% if post_product != "" %}
+            <span class="card-product-badge product--{{ post_product | slugify }}">{{ post_product }}</span>
           {% endif %}
           <span class="grid-card__date">{{ post.date | date: "%b %d, %Y" }}</span>
         </div>

@@ -2,7 +2,7 @@
 layout: junkstore-post
 title: "How to Run Expansion Packs & Alternate EXEs on Steam Deck (Epic, GOG, Amazon & itch)"
 date: 2026-03-17 11:20:00 +1300
-categories: [Tip of the Week, Features]
+categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips]
 slug: "run-alternate-exe"
 description: "Run alternate executables, expansion packs, and DLC for Epic & GOG games on Steam Deck. Junk Store does it in Game Mode - no Desktop Mode needed."

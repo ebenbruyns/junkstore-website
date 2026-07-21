@@ -16,6 +16,22 @@ $junkstore-success: #48bb78 !default;      /* Green - compatible, working */
 $junkstore-warning: #ecc94b !default;      /* Yellow - caution, partial */
 $junkstore-danger: #f56565 !default;       /* Red - error, incompatible */
 
+/* Blog badge palette — shared by the listing cards (blog-landing.scss) and the
+   post-page category chips (junkstore/post.scss) so the two never drift.
+   Category badges are solid fills; the three testing categories share a
+   green/teal family. Product badges are outlined (secondary marker). */
+$cat-tips:      #5aa9e6 !default;   /* Tips & Tricks — blue */
+$cat-giveaway:  #48bb78 !default;   /* Giveaway Testing — green  (testing family) */
+$cat-backlog:   #38b2ac !default;   /* Backlog Testing — teal    (testing family) */
+$cat-retests:   #68d391 !default;   /* Game Retests — light green (testing family) */
+$cat-features:  #ed8936 !default;   /* Features — orange */
+$cat-news:      #fc8181 !default;   /* News — coral */
+$cat-devupdate: #b794f6 !default;   /* Dev Update — purple */
+
+$product-pro:       #e0a83a !default;  /* Pro — gold */
+$product-decky:     #4fd1c5 !default;  /* Decky — teal */
+$product-universal: #9aa4b2 !default;  /* Universal — slate */
+
 /* Dark theme backgrounds */
 $junkstore-bg-dark: #252a34 !default;      /* Main background */
 $junkstore-bg-card: #1e2a38 !default;      /* Card/section background */

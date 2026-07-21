@@ -43,7 +43,7 @@ layout: junkstore-default
         <div class="js-post__categories">
           <i class="fas fa-tags"></i>
           {% for category in page.categories %}
-            <span class="js-post__category">{{ category }}</span>
+            <span class="js-post__category cat--{{ category | slugify }}">{{ category }}</span>
           {% endfor %}
         </div>
         {% endif %}

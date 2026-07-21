@@ -2,7 +2,7 @@
 layout: junkstore-post
 title: "How to Install EasyAntiCheat & BattlEye on Steam Deck for Epic Games"
 date: 2026-03-04 15:10:00 +1300
-categories: [Tip of the Week, Features]
+categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips]
 slug: "anticheat-dependencies-tip"
 description: "Install EasyAntiCheat, BattlEye, and game dependencies on Steam Deck in Game Mode. One-click setup with Junk Store."

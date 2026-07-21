@@ -1,0 +1,14 @@
+{%- comment -%}
+  Emits the product label for a post based on its categories, matching the
+  chips shown on the opened post: "Pro Version" | "Decky Plugin" | "Universal".
+  Posts with none of these (most non-tip posts) → empty output (no badge).
+
+  Usage:
+    {% capture p %}{% include post-product.html post=post %}{% endcapture %}
+    {% assign product = p | strip %}   → "Pro Version" | "Decky Plugin" | "Universal" | ""
+{%- endcomment -%}
+{%- assign cats = include.post.categories -%}
+{%- if cats contains "Pro Version" -%}Pro Version
+{%- elsif cats contains "Decky Plugin" -%}Decky Plugin
+{%- elsif cats contains "Universal" -%}Universal
+{%- endif -%}

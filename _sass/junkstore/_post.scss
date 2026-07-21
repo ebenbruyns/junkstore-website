@@ -73,6 +73,30 @@
   font-size: 0.8rem;
   font-weight: 600;
   margin-right: 5px;
+
+  // Category chips: solid fill, colour per category (palette shared with the
+  // blog cards — see _variables.scss). "Tip of the Week" is the legacy raw
+  // category that normalises to Tips & Tricks, so it takes the same blue.
+  // Unmapped legacy categories keep the default $junkstore-primary fill.
+  &.cat--tip-of-the-week,
+  &.cat--tips-tricks      { background: $cat-tips; }
+  &.cat--giveaway-testing { background: $cat-giveaway; }
+  &.cat--backlog-testing  { background: $cat-backlog; }
+  &.cat--game-retests     { background: $cat-retests; }
+  &.cat--features         { background: $cat-features; }
+  &.cat--news             { background: $cat-news; }
+  &.cat--dev-update       { background: $cat-devupdate; }
+
+  // Product chips: outlined, secondary — mirrors the card product badge.
+  &.cat--pro-version,
+  &.cat--decky-plugin,
+  &.cat--universal {
+    background: transparent;
+    border: 1px solid currentColor;
+  }
+  &.cat--pro-version  { color: $product-pro; }
+  &.cat--decky-plugin { color: $product-decky; }
+  &.cat--universal    { color: $product-universal; }
 }
 
 /*

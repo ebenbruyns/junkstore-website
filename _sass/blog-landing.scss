@@ -105,6 +105,41 @@
   letter-spacing: 0.5px;
 }
 
+// Secondary product badge (Pro Version / Decky Plugin / Universal). Outlined
+// pill so it reads as a lighter, secondary tag next to the solid category
+// badge. Shared by the featured and grid cards.
+.card-product-badge {
+  background: transparent;
+  padding: 3px 9px;
+  border-radius: 4px;
+  border: 1px solid currentColor;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  line-height: 1.4;
+
+  &.product--pro-version   { color: $product-pro; }        // gold
+  &.product--decky-plugin  { color: $product-decky; }      // teal (off the Tips blue)
+  &.product--universal     { color: $product-universal; }  // slate
+}
+
+// Category badge colour-coding. The base .featured/.grid-card__category rules
+// keep the sizing + solid black text; these modifiers just swap the fill so
+// each category is distinct instead of every badge being $junkstore-primary.
+// Palette shared with the post-page chips — see _sass/junkstore/_variables.scss.
+.featured-card__category,
+.grid-card__category {
+  &.cat--tips-tricks      { background: $cat-tips; }
+  &.cat--giveaway-testing { background: $cat-giveaway; }
+  &.cat--backlog-testing  { background: $cat-backlog; }
+  &.cat--game-retests     { background: $cat-retests; }
+  &.cat--features         { background: $cat-features; }
+  &.cat--news             { background: $cat-news; }
+  &.cat--dev-update       { background: $cat-devupdate; }
+}
+
 .featured-card__title {
   font-size: $type-size-section;
   line-height: 1.3;
