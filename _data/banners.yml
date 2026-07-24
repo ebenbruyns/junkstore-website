@@ -44,6 +44,5 @@
   startDate: null
   endDate: null
   targetPages: []
-  content: "🚀 <strong style=\"color: #00adb5;\">Junk Store Pro v3.1.0.1: </strong> Network game import, file previews in the file 
-  manager, and other various bug fixes.<br> <a href=\"https://portal.junkstore.xyz/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #ffa366; 
+  content: "🚀 <strong style=\"color: #00adb5;\">Junk Store Pro v3.2.0.0: </strong> Fixes Steam and QAM UI bugs.<br> <a href=\"https://portal.junkstore.xyz/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #ffa366; 
   text-decoration: underline;\">Get it from the Portal →</a><br><span class=\"promo-banner__note\">Already on Pro? Update directly in the app.</span>"
