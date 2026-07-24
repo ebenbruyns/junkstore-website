@@ -53,3 +53,6 @@ Recently we released a new [support ticketing system](/blog/portal-support-steam
 So what's next? We don't publish roadmaps, because with only one developer it isn't possible to deliver on any roadmap we could publish. We've got a full year of production track record behind Junk Store Pro, and that's a better indicator of where we're headed than any roadmap. We'll leave you with this: there are several things on the reverse engineering workbench right now, and several features in varying stages of R&D. We've listened to everything people want, and while we're not making any promises, we're looking into all of them.
 
 To those who signed up for the first year only: we look forward to seeing just how well Junk Store stands up without updates. We're very optimistic. To those who continue on this journey with us: we can't wait for you to see what we have cooking.
+
+Game On!<br>
+Eben
