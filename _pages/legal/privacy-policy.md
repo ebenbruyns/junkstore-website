@@ -5,11 +5,21 @@ layout: junkstore-page
 permalink: /privacy-policy/
 ---
 
-<p><em>Effective Date: June 27, 2025 | Last Updated: March 9, 2026</em></p>
+<p><em>Effective Date: June 27, 2025 | Last Updated: July 27, 2026</em></p>
 
 <section class="js-section">
   <h2 class="js-section-header">What We Track (But Don't Collect Personally)</h2>
-  <p>This website does not collect or store personal information directly. With your consent, we use third-party services to track anonymous usage patterns.</p>
+  <p>This website does not collect or store personal information directly. We use third-party services to track anonymous usage patterns. Apart from Umami (described below, which sets no cookies), these only load if you accept cookies.</p>
+
+  <h3>Umami</h3>
+  <p>Umami is our privacy-focused analytics tool. It runs on every page and gives us basic traffic numbers:</p>
+  <ul>
+    <li>Which pages you visit</li>
+    <li>Device type, browser and operating system</li>
+    <li>General location (country level)</li>
+    <li>How you found our site (search, direct link, etc.)</li>
+  </ul>
+  <p>Umami sets no cookies, doesn't track you across sites, and doesn't store IP addresses or anything that could identify you. Because it collects no personal data, it isn't tied to the cookie banner.</p>
 
   <h3>Google Analytics 4</h3>
   <ul>
@@ -32,7 +42,7 @@ permalink: /privacy-policy/
 
 <section class="js-section">
   <h2 class="js-section-header">Your Rights & Choices</h2>
-  <p><strong>Cookie Consent:</strong> Use our cookie banner to accept or decline all tracking.</p>
+  <p><strong>Cookie Consent:</strong> Use our cookie banner to accept or decline cookie-based tracking. Declining stops Google Analytics, Google Tag Manager and the Reddit pixel. Umami keeps running, as it sets no cookies and collects nothing personal.</p>
   <p><strong>Opt-Out Anytime:</strong></p>
   <ul>
     <li><a href="https://tools.google.com/dlpage/gaoptout">Google Analytics Opt-out Browser Add-on</a></li>

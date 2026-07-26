@@ -79,20 +79,9 @@ img[alt="Junk Store"] {
 })();
 </script>
 
-<!-- Deferred JavaScript Loading -->
-<script>
-// Defer non-critical JavaScript until after page load
-window.addEventListener('load', function() {
-  // Load analytics and other non-critical scripts
-  var scripts = [
-    '/assets/js/conversion-tracking.js'
-  ];
-  
-  scripts.forEach(function(src) {
-    var script = document.createElement('script');
-    script.src = src;
-    script.async = true;
-    document.head.appendChild(script);
-  });
-});
-</script>
+<!-- conversion-tracking.js used to be injected here on window 'load'. That was a
+     duplicate second copy: it is already served as a footer script via
+     site.after_footer_scripts (_includes/scripts.html). Worse, the injected copy
+     could never work, because the script binds its handlers inside its own
+     window 'load' listener, which never fires when the script is appended during
+     the load event. Removed — the footer copy is the one that does the work. -->
