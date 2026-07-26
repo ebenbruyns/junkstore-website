@@ -120,4 +120,4 @@ is_featured: false
 owned: true
 ---
 
-10 Flights of Ballooning is 10 mini-games based on the Balloon Trip mode in the original game Balloon Fight for NES.
+Ten short arcade mini-games inspired by the Balloon Trip mode from the NES classic Balloon Fight. Drift through each stage, steering your balloonist past obstacles for as long as you can.

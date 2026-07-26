@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-17T20:39:18.246Z",
-  "total_games": 1062,
+  "generated_at": "2026-07-25T23:28:43.289Z",
+  "total_games": 1065,
   "storefronts": {
     "Epic": {
-      "total": 496,
-      "green_standalone": 435,
-      "green_decky": 446
+      "total": 497,
+      "green_standalone": 436,
+      "green_decky": 447
     },
     "GOG": {
-      "total": 399,
-      "green_standalone": 327,
-      "green_decky": 360
+      "total": 400,
+      "green_standalone": 328,
+      "green_decky": 361
     },
     "Amazon": {
-      "total": 83,
-      "green_standalone": 79,
+      "total": 84,
+      "green_standalone": 80,
       "green_decky": 0
     },
     "itch": {
@@ -525,6 +525,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "amzn1.adg.product.625256c0-9e82-47e3-9bcb-7d1154a7d4a8"
+    },
+    {
+      "slug": "in-sound-mind",
+      "id": "amzn1.adg.product.171df735-9fe7-4c74-82ff-cd9ab92ce15a",
+      "title": "In Sound Mind",
+      "storefront": "Amazon",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "native_linux": false,
+      "publisher": "Modus Games",
+      "controller_input": "native"
     },
     {
       "slug": "kraken-academy",
@@ -3815,6 +3827,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "Discus"
+    },
+    {
+      "slug": "foretales",
+      "id": "4256d7c7170f4326a1a861d0b30f1af7",
+      "title": "Foretales",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "native_linux": false,
+      "publisher": "Dear Villagers",
+      "controller_input": "native"
     },
     {
       "slug": "formula-evolution-2024",
@@ -11726,6 +11750,18 @@
       "publisher": "Akupara Games",
       "controller_input": "native",
       "databaseId": "1621558174"
+    },
+    {
+      "slug": "mystic-academy-escape-room",
+      "id": "1100902638",
+      "title": "Mystic Academy: Escape Room",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jul '26",
+      "native_linux": false,
+      "publisher": "mc2games",
+      "controller_input": "native"
     },
     {
       "slug": "necroking",

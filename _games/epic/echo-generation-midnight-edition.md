@@ -41,7 +41,7 @@ game_modes: ["Single Player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Ukrainian"]
 languages_audio: []
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-size: ""
+size: "778 MB"
 install_size: ""
 achievements_total: 50
 franchise_siblings: []
@@ -90,7 +90,7 @@ native_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/81126"
 
 # Links
 store_url: "https://store.epicgames.com/p/echo-generation-midnight-edition-069026"
@@ -124,7 +124,7 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 ---
 

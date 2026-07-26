@@ -46,7 +46,7 @@ install_size: "18666 MB"
 achievements_total: 27
 franchise_siblings: []
 franchise_slug: ""
-igdb_url: ""
+igdb_url: "https://www.igdb.com/games/luto"
 was_free_before: true
 giveaway_events: [{"start":"2026-07-16","end":"2026-07-23"}]
 free_games_aliases: []
@@ -107,10 +107,10 @@ opencritic_score: 80
 opencritic_review_count: 39
 twitch_id: ""
 twitch_url: ""
-playstation_id: ""
-playstation_url: ""
-xbox_id: ""
-xbox_url: ""
+playstation_id: "10008690"
+playstation_url: "https://store.playstation.com/en-us/concept/10008690"
+xbox_id: "9NVNLHCG248D"
+xbox_url: "https://www.xbox.com/games/store/-/9NVNLHCG248D"
 geforcenow_id: ""
 geforcenow_url: ""
 
@@ -124,7 +124,7 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 ---
 

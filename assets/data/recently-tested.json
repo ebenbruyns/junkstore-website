@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-07-17T21:54:02.821Z",
+  "generated_at": "2026-07-26T00:29:15.880Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "foretales",
+      "featured_in": "2026-07-26",
+      "post_url": "/blog/games-tested-2026-07-26/",
+      "title": "Foretales",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/a32b63ff3a2703c9b525e4e8ba8b0275f7a43cbefde271fe55c332457a1acd27.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/b73e6059e5bbf93d25ef855706b71710ee89cbacc8b0026bc7e398597deb432e.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "amazon",
+      "slug": "in-sound-mind",
+      "featured_in": "2026-07-26",
+      "post_url": "/blog/games-tested-2026-07-26/",
+      "title": "In Sound Mind",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/576b6cb5a2bb4db79ffb230e9ea037083f6ccfcbbbd72a64a53ae0ee0fc78a66.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/8d62cb972b268cb0a3c143cd8cbdbb00f810a68328ca6e4e414f9c16593b5db1.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "mystic-academy-escape-room",
+      "featured_in": "2026-07-26",
+      "post_url": "/blog/games-tested-2026-07-26/",
+      "title": "Mystic Academy: Escape Room",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/f332cc2add7bf6c9e136f5a1875bf07f6686f939ddd160f8e5485794096791ea.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/e5d135edfb45599f466d065e3bc1aa9cb6cd559b23a5ec8628b49b49eff1b724.jpg?namespace=gamesdb"
+    },
     {
       "store": "epic",
       "slug": "echo-generation-midnight-edition",
@@ -90,36 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/fddb364800ae81ef7d4d6d4e6c4841c3039f7f09982d0390125e8cd4cf7cc923.jpg?namespace=gamesdb",
       "vertical_artwork": "https://images.gog.com/903ed4ffc58f534785a65a1abace7b54c220e2e50122ad15def5f8e63cce9551.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "lonestar",
-      "featured_in": "2026-07-05",
-      "post_url": "/blog/games-tested-2026-07-05/",
-      "title": "LoneStar",
-      "standalone_rating": "green",
-      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2056210/header.jpg",
-      "vertical_artwork": "https://images.gog.com/4e170c56d21d357e0eaa0b551a74768181a3165f511b566e5f95b6ceff72a38e.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "nexus-the-jupiter-incident",
-      "featured_in": "2026-07-05",
-      "post_url": "/blog/games-tested-2026-07-05/",
-      "title": "Nexus: The Jupiter Incident",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/9076390ea3bf0adc4d36b4aca9e37a416ebbb56d73c7cd75e4c2d5d52ed84aa2.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/64b7af58fa2d6a19a435dde54ffe9b3f8cd67f48b55006c4432b7215c6947eeb.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "river-city-girls-2",
-      "featured_in": "2026-07-05",
-      "post_url": "/blog/games-tested-2026-07-05/",
-      "title": "River City Girls 2",
-      "standalone_rating": "green",
-      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1920480/header.jpg",
-      "vertical_artwork": "https://images.gog.com/9ae7cabda37d7d52c606a878b74855a5a472a724ff2c17fe7eb239a1b21f75d5.jpg?namespace=gamesdb"
     }
   ]
 }

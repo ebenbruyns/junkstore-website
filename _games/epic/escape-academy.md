@@ -124,7 +124,7 @@ known_issues:
 
 # Meta
 database_id: "4237ffc575c94a0e89ef9ab7dd884ad5"
-is_featured: true
+is_featured: false
 owned: true
 ---
 

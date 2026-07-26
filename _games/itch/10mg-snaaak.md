@@ -120,4 +120,4 @@ is_featured: false
 owned: true
 ---
 
-A short Snakevania about encarnating a formless critter delving into the bowels of a bleak complex.
+A short, atmospheric mix of Snake and Metroidvania, part of the 10mg series of ten-minute games. Wind your way through a forgotten underground laboratory as a formless creature, exploring its non-linear passages and the hazards lurking in them.

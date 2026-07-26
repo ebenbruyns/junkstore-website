@@ -62,7 +62,7 @@ icon_image: "https://images.gog.com/6e9cfdab547bbe7f9931f13f0ff47a91a7e91aa0df38
 hdr: false
 controller_input: "requires-mapping"
 community_layout: true
-required_launcher: "scummvm"
+required_launcher: ""
 requires_account_setup: false
 account_type: ""
 requires_verification: false
@@ -75,6 +75,9 @@ dependencies:
 # website's GOG-Features section only shows Cloud Saves for now. Remove the
 # leading "# " on any line to enable that chip on the rendered page.)
 gog_cloud_saves: true
+# Classic-game engine tags (highlighted as pills on the game page)
+dos_game: true
+scummvm_game: false
 # gog_achievements: false
 # gog_overlay: false
 # gog_leaderboards: false

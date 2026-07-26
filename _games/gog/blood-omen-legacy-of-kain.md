@@ -75,6 +75,9 @@ dependencies:
 # website's GOG-Features section only shows Cloud Saves for now. Remove the
 # leading "# " on any line to enable that chip on the rendered page.)
 gog_cloud_saves: true
+# Classic-game engine tags (highlighted as pills on the game page)
+dos_game: false
+scummvm_game: false
 # gog_achievements: false
 # gog_overlay: false
 # gog_leaderboards: false

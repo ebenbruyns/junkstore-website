@@ -47,8 +47,8 @@ achievements_total:
 franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/the-life-and-suffering-of-sir-brante"
-was_free_before: false
-giveaway_events: []
+was_free_before: true
+giveaway_events: [{"start":"2026-07-17","end":"2026-07-23"}]
 free_games_aliases: []
 
 # Images
@@ -75,6 +75,9 @@ dependencies:
 # website's GOG-Features section only shows Cloud Saves for now. Remove the
 # leading "# " on any line to enable that chip on the rendered page.)
 gog_cloud_saves: false
+# Classic-game engine tags (highlighted as pills on the game page)
+dos_game: false
+scummvm_game: false
 # gog_achievements: false
 # gog_overlay: true
 # gog_leaderboards: false

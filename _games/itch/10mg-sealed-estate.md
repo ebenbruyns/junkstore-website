@@ -120,4 +120,4 @@ is_featured: false
 owned: true
 ---
 
-A psychological horror game in which you are locked inside by a creature ready to hunt you down, whilst you figure out how to escape from the estate you have been locked inside. Who lived here? Who are the voices haunting your every step?
+A bite-sized psychological horror game from the 10mg series of ten-minute experiences. Trapped inside a darkened estate with a creature stalking you, you piece together a way out while unseen things watch from the shadows.
