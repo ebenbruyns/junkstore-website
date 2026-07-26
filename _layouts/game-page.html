@@ -40,6 +40,11 @@ layout: null
     {% include game-page-styles.css %}
   </style>
 
+  <!-- Tracking. This layout builds its own head (layout: null) instead of using
+       _includes/junkstore/head.html, so the shared include is pulled in directly. -->
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  {% include junkstore/tracking.html %}
+
   <!-- VideoGame Schema -->
   <script type="application/ld+json">
   {
@@ -103,7 +108,7 @@ layout: null
   <span class="breadcrumb-trail">
     <a href="/">Home</a> / <a href="/games/">Games</a> / <a href="/games/tested/?store={{ page.storefront }}">{{ page.storefront }}</a> / {{ page.game_title }}
   </span>
-  <a href="/portal-redirect/" class="breadcrumb-cta">Play with Junk Store — Try Free for 7 Days →</a>
+  <a href="/portal-redirect/" class="breadcrumb-cta" data-event="click" data-category="conversion" data-action="cta_click" data-label="game_page_cta">Play with Junk Store — Try Free for 7 Days →</a>
 </div>
 <script type="application/ld+json">
 {
@@ -466,11 +471,13 @@ layout: null
       underlying data is already populated in source_data.
     {% endcomment %}
     {% if page.storefront_key == 'gog' %}
-      {% if page.gog_cloud_saves %}
+      {% if page.gog_cloud_saves or page.dos_game or page.scummvm_game %}
       <div class="info-section info-section--compact">
         <h2>GOG Features</h2>
         <div class="feature-chips">
-          <span class="feature-chip">✓ Cloud Saves</span>
+          {% if page.gog_cloud_saves %}<span class="feature-chip">✓ Cloud Saves</span>{% endif %}
+          {% if page.dos_game %}<span class="feature-chip feature-chip--dos">🕹️ DOS</span>{% endif %}
+          {% if page.scummvm_game %}<span class="feature-chip feature-chip--scummvm">👾 ScummVM</span>{% endif %}
           {%- comment -%}
           Achievements / Overlay / Leaderboards / Linux Build chips kept
           in source here (wrapped in this Liquid comment) until the data
@@ -835,6 +842,10 @@ layout: null
 </div>
 
 <script src="/assets/js/free-games-overlay.js" defer></script>
+<!-- Conversion/engagement events. Matches site.after_footer_scripts for the
+     junkstore-* layouts; must be a real script tag (not injected on load) so its
+     window 'load' handler is registered in time. Inert without consent. -->
+<script src="/assets/js/conversion-tracking.js" defer></script>
 
 </body>
 </html>

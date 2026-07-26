@@ -222,6 +222,18 @@ button:focus,
   border-color: rgba(248, 113, 113, 0.4);
   color: #f87171;
 }
+/* Classic-game engine tags — retro amber (DOS) and violet (ScummVM) so they
+   read as "how this runs", distinct from the green "feature supported" chips. */
+.feature-chip--dos {
+  background: rgba(234, 179, 8, 0.13);
+  border-color: rgba(234, 179, 8, 0.4);
+  color: #eab308;
+}
+.feature-chip--scummvm {
+  background: rgba(167, 139, 250, 0.13);
+  border-color: rgba(167, 139, 250, 0.4);
+  color: #a78bfa;
+}
 .info-section--compact {
   padding: 0.75rem 1rem;
 }
