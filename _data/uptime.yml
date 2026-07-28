@@ -511,4 +511,10 @@ notes:
     text: "No issues or breakages - [Steam Beta Client Update: July
       24th](https://store.steampowered.com/news/app/1675200/view/67625308555575\
       3508)"
+  - id: 1785208176174ved3
+    date: 2026-07-28T00:00:00
+    type: client-stable
+    text: "No issues or breakages - [Steam Client Update: July
+      27th](https://store.steampowered.com/news/app/1675200/view/67625308555575\
+      5903)"
 breakHistory: []
