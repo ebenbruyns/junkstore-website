@@ -25,6 +25,8 @@ We wish all of you the best heading into the New Year! Wherever you are in the w
 
 Now, let's dive into this week's testing!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: v2.3.1.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**:v1.1.12 (Test Store)

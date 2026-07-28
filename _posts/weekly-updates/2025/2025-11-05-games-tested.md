@@ -25,6 +25,8 @@ We announced yesterday that we're moving to portal-only sales of the GOG Extensi
 
 Anyway, here's how the weekend's testing session went:
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9

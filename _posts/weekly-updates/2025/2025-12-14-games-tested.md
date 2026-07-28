@@ -31,6 +31,8 @@ Quick reminders before we jump into the games:
 
 Fair warning: this week's testing list is absolutely massive. But we found some incredible games in there, so hopefully you will too!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.10 (Main Store)

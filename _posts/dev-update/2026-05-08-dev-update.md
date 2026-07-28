@@ -19,6 +19,8 @@ It's been a while since I posted a dev update, I generally just get on with it. 
 
 Since Junk Store Pro v3 shipped I've been flat out filling the R&D pipeline back up, the release emptied it. Something we didn't really highlight at launch: v3 ships with new Amazon, Epic, and GOG clients. They're not exciting on their own, but they're the foundation for a bunch of features that were tough to get to before.
 
+{% include discord-follow.html channels="news" label="Get the updates on Discord:" %}
+
 ## Multi-account profile switching
 
 One I'm pretty pleased with is profile switching. If you share a Steam Deck with kids, you can now keep separate logins for online games where you don't want them, ahem, *experimenting* with your gaming profile.

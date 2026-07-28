@@ -19,6 +19,8 @@ We're currently battening down the hatches here as Mother Nature serves up our t
 
 Fortunately, I managed to get some solid testing done earlier in the week before the weather turned. I'm particularly excited to dive into the Monument Valley games (they seem perfect for shorter, seasickness-friendly gaming sessions), and I'm absolutely stoked about Samorost 2 coming to Epic next week – Amanita Design's atmospheric puzzle adventures are exactly the type of games I love!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9

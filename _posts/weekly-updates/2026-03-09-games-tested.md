@@ -25,6 +25,8 @@ When I wasn't testing games, I've been busy fixing up the website and watching J
 
 But enough about basketball, below are this week's testing results.
  
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick reminders before we dive into the games:

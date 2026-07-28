@@ -31,6 +31,8 @@ In case you missed Eben's two Dev updates, be sure you have a read of them as he
  * [Dev Update: Portal Support Tickets, Log Uploads, and Rock-Solid Through Steam Updates](/blog/portal-support-steam-stability/)
  * [Dev Update: View Any File as Text or PDF in the Junk Store File Manager](/blog/file-manager-text-viewer/)
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **Junk Store Pro**: v3.0.1.0 (Beta Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)

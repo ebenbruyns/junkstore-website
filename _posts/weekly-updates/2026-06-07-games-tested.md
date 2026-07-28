@@ -25,6 +25,8 @@ Geeez it's been cold this past week, and windy as! I even felt a bit seasick sit
 
 Other than the weather changing on us, not much else has happened this week. Eben has set up a support ticketing system in the Portal, and he's written up the full details in his latest [dev update](/blog/portal-support-steam-stability/). It lets you upload logs from Junk Store Pro to help us diagnose issues quicker and easier. We've tested it out this past week with some users and managed to fix some bugs with itch integration along the way.
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: v3.0.1.0 (Beta Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)

@@ -30,6 +30,8 @@ That turned into a mission. Eben jumped in the dinghy to run a warp line across,
 
 Anyway, this is just a quick post of the Amazon games I managed to test from my backlog this week. It's also why I haven't done a blurb for each game like I promised, too tired and out of sorts after all that. I'll do my best to get this week's giveaways out in the next day or two.
 
+{% include discord-follow.html channels="compat" label="Talk compatibility on Discord:" %}
+
 ## Current System Setup
 * **Junk Store Pro**: v3.1.0.1 (Stable Channel)
 * **Proton**: GE-Proton 10.28

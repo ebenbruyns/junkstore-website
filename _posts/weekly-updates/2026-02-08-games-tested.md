@@ -25,6 +25,8 @@ It's also our last long weekend until Easter, so everyone around us has been out
 
 At least summer seems to have finally arrived for us. Hopefully it hangs around a bit longer than usual so we get a decent stretch of sun and hot weather. While we have lots of work to do on Junk Store, we have just as many jobs to do on our boat, and a lot of them need long stretches of dry and sunny weather!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:

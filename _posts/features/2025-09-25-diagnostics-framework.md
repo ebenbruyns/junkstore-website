@@ -15,6 +15,8 @@ cta_disabled: true
 
 It's unusual for us to release early R&D work, but we have a diagnostics tool based on extensive research that we think would be useful to users. This framework is still in the early phases of development, but we have already found it useful. It's available on the beta build channel for Junk Store Pro.
 
+{% include discord-follow.html channels="news" label="Get the updates on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">What Does It Do?</h2>
 
 The diagnostics framework will attempt to detect issues and suggest remedies on your Steam Deck. It deliberately does not interface with Valve's APIs and controls, which means it can enable Junk Store updates even if things are broken. Think of this as an emergency escape hatch.

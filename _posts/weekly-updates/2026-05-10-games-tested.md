@@ -26,6 +26,8 @@ It highlights a few things he's been cooking up, and he's got his sights set on 
 
 Other than that, not much else to report. Hope you all had a fantastic weekend and are looking forward to the week ahead!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: v3.0.1.0 (Stable Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)

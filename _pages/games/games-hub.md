@@ -15,6 +15,8 @@ hide_title: true
   <span class="free-games-banner__cta">See all →</span>
 </a>
 
+{% include discord-follow.html channels="free,compat" label="Join us on Discord:" %}
+
 {% include games-hub/recently-tested.html %}
 
 {% include games-hub/browse-stores.html %}

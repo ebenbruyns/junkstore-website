@@ -21,6 +21,8 @@ Kia ora Everyone!
 
 Hope everyone's had a great start to 2026! Sorry for the delay with this week's post, we only got back to the boat on January 4th. The holidays were exactly what we needed: lots of time with family and a proper break. We're slowly getting back into the swing of things now. We couldn't test all the games given away over the break, but we'll catch up on the ones we missed in next week's post.
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:

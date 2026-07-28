@@ -14,6 +14,8 @@ toc: true
 
 *Originally shared on <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>r/JunkStore</a> - reformatted for our blog.*
 
+{% include discord-follow.html channels="news" label="Get the updates on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">For the First Time Ever: Itch.io → Steam Integration</h2>
 
 This is hot off the press: I've been on a little side quest to get **Itch.io working**, and it's now live in the beta branch for all existing Junk Store Pro customers.

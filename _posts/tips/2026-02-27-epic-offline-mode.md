@@ -17,6 +17,8 @@ cta_disabled: true
 
 **This Week's Pro Tip:** Want to play your Epic games without an internet connection? Junk Store makes it easy to enable offline mode.
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
 Epic games, once downloaded, tend to 'phone home' to the Epic servers when launched. The problem arises when you try to launch games while not connected to the internet. They can't reach Epic's servers, so they refuse to launch. You can easily fix this in Junk Store by toggling offline mode for games that support this feature.

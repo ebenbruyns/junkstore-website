@@ -27,6 +27,8 @@ We will be antifouling (cleaning and painting) the bottom of the boat at some po
 
 Anyways, sorry for the late post this week. I've been head down working on some things while keeping an eye on the NBA finals. I'll do my best to be more timely this weekend.
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:

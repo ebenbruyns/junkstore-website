@@ -23,6 +23,8 @@ cta_disabled: true
 - **Junk Store Pro (without Decky):** v2.5.0.0-beta-20260111-140530 (Beta channel)
 - **Junk Store Pro (with Decky):** v2.4.1.0-test-20260108-100341 (Test channel)
 
+{% include discord-follow.html channels="news" label="Get the updates on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">Requirements</h2>
 
 Before you start, you'll need:

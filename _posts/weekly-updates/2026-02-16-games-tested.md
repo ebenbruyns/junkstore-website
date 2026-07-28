@@ -25,6 +25,8 @@ Thankfully the worst has moved on and we've had some sun today. Hope this keeps 
 
 In spite of the weather and wifi struggles, I managed to get some testing done and found a couple of gems I'm keen to keep playing.
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:

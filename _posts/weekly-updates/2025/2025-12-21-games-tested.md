@@ -25,6 +25,8 @@ I tested as many games as I could this week, though I missed a few and ran out o
 
 We hope you all have a fantastic Christmas wherever you are and whatever you're doing! Now, let's get into this week's testing results:
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: v2.3.1.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.11 (Main Store)

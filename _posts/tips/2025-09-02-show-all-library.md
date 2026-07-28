@@ -16,6 +16,8 @@ toc: true
 
 *Note: This tip applies to the free Decky plugin version. Junk Store Pro (Professional version) loads up to 1000 games automatically.*
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
 You've installed Junk Store and your Epic/GOG games are syncing perfectly, but you can only see games alphabetically from A-L. Games starting with M-Z seem to be completely missing, even though you know you own them.

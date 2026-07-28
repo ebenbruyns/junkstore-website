@@ -397,3 +397,127 @@ table .free-now-badge {
     }
   }
 }
+
+// ==========================================================================
+// Discord follow buttons (#free-games / #game-bundle-alerts)
+// Used on /free-games/ and /games/ via _includes/discord-follow.html
+// ==========================================================================
+.discord-follow {
+  max-width: 1200px;
+  margin: 0 auto 1.75rem;
+  text-align: center;
+
+  // `p.` needed to outrank .js-page__content p { text-align: justify }
+  p.discord-follow__intro {
+    max-width: 640px;
+    margin: 0 auto 0.9rem;
+    font-size: 0.95rem;
+    color: #aaa;
+    text-align: center;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  &__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.15rem;
+    background: #5865f2;
+    color: #ffffff !important;
+    border: 1px solid #4752c4;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.15s ease, transform 0.15s ease;
+
+    i {
+      font-size: 1.05rem;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    &:hover,
+    &:focus {
+      background: #4752c4;
+      color: #ffffff !important;
+      text-decoration: none;
+      transform: translateY(-1px);
+    }
+  }
+
+  @media (max-width: 600px) {
+    &__buttons {
+      flex-direction: column;
+    }
+
+    &__btn {
+      justify-content: center;
+    }
+  }
+}
+
+// Compact variant: single low-profile strip, sits quietly above the content.
+.discord-follow--compact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 1.5rem;
+  padding: 0.55rem 1rem;
+  background: rgba(88, 101, 242, 0.08);
+  border: 1px solid rgba(88, 101, 242, 0.3);
+  border-radius: 8px;
+  font-size: 0.9rem;
+
+  .discord-follow__icon {
+    color: #8b95f5;
+    font-size: 1.1rem;
+  }
+
+  .discord-follow__label {
+    color: #b8b8c0;
+  }
+
+  .discord-follow__btn {
+    padding: 0.3rem 0.7rem;
+    background: rgba(88, 101, 242, 0.9);
+    color: #ffffff !important;
+    border: 0;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.15s ease;
+
+    &:hover,
+    &:focus {
+      background: #4752c4;
+      color: #ffffff !important;
+      text-decoration: none;
+      transform: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .discord-follow__label {
+      flex-basis: 100%;
+      text-align: center;
+    }
+
+    .discord-follow__icon {
+      display: none;
+    }
+  }
+}

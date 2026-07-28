@@ -14,6 +14,8 @@ read_time: "3 min read"
 toc: true
 ---
 
+{% include discord-follow.html channels="news" label="Get the updates on Discord:" %}
+
 ## We're Consolidating
 
 The Junk Store GOG extension is now only available through our [Portal](https://portal.junkstore.xyz/). We're no longer selling it on Patreon or Ko-fi.

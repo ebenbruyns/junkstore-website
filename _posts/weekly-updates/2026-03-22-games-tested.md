@@ -26,6 +26,8 @@ Anyway, hope you're all having a great weekend or start to your week, if like us
 
 We've got 10 games tested this week across Epic, GOG and itch. Let's dive in!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping
 
 * **Decky Loader Update:** If you're running the Steam beta, grab the latest Decky pre-release update (v3.2.2-pre1). The recent Steam beta broke something that's now been fixed.

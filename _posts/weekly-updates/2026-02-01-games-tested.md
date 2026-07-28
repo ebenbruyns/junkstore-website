@@ -25,6 +25,8 @@ This week's Epic giveaway is *Definitely Not Fried Chicken*, and it's an interes
 
 I have a confession so please don't judge, but retesting Arcade Paradise totally has my number this weekend! Between that and revisiting Cat Quest II (a series I love), I knew I was going to get lost in a game at some point. I'd been feeling the pull to actually invest in something recently, and the arcade games within Arcade Paradise have me completely hooked. Looks like this was the one that finally got me.
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:

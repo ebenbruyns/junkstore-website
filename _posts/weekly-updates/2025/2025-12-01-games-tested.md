@@ -38,6 +38,8 @@ Just a few housekeeping things before we get into it:
   **→ [Submit Testing Report](https://github.com/SteamDeckHomebrew/decky-plugin-database/pull/895)**<br>
   **→ [Test Report Template](https://wiki.deckbrew.xyz/user-guide/testing)**
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.10 (Testing Store)

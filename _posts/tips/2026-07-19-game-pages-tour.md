@@ -16,6 +16,8 @@ excerpt: "A top-to-bottom tour of our Junk Store tested game pages - every secti
 
 Earlier this week I [posted](/blog/new-game-pages/) about the updates I've been steadily making to how we show what we've found testing games on Steam Deck. What started out as a basic [searchable table](/games/tested/) progressed to one with modals containing testing info for each game, and now to what we have today: a full page per game packed with not only Junk Store compatibility and testing data but other useful bits collated into one place. This is the follow-up to that post, where I'll walk you through the sections so you know what's there.
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">Starting at the Top</h2>
 
 <img src="/assets/images/blog/tips/game-pages-tour/sections/01-hero.webp" alt="Top of a Junk Store game page showing the banner art, game title and badge row">

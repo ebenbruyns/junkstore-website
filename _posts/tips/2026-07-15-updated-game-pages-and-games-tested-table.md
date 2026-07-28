@@ -18,6 +18,8 @@ header:
 
 That's over 1,000 pages across Epic, GOG, Amazon and itch, all searchable from the same table you already know.
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">What's On a Game Page Now</h2>
 
 A quick taste of what you'll find:

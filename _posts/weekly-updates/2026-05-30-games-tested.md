@@ -24,9 +24,7 @@ Sadly our amazing streak of autumn weather has come to an end. A massive patch o
 
 We decided to splurge and pick up the Capcom Classic Bundle from Fanatical, the one with the Resident Evil games. That's a franchise I enjoyed as movies, so I'm looking forward to giving the games a go soon. It's still available if you're keen, and just in case you didn't know, I post the latest bundles and free games in our Discord server. Feel free to join and follow those channels so you don't miss out!
 
-Discord invite: <a href="https://discord.com/invite/HS9QtX5kXW" target="_blank" rel="noopener">discord.com/invite/HS9QtX5kXW</a><br>
-Game bundles: <a href="https://discord.gg/mQ5U5cnxPU" rel="noopener">discord.gg/PFrWdVM93e</a><br>
-Free games: <a href="https://discord.gg/A8YSd5Rg4p" target="_blank" rel="noopener">discord.gg/A8YSd5Rg4p</a><br>
+{% include discord-follow.html channels="free,bundles,compat" label="Follow along on Discord:" %}
 
 ## Current System Setup
 * **Junk Store Pro**: v3.0.1.0 (Beta Channel)

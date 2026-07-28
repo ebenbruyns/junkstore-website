@@ -25,6 +25,8 @@ We've had one stunner of a week weatherwise! Crisp, clear autumn days, blue skie
 
 While Eben has been coding his butt off, I've been steadily working on the new individual game pages, improving metadata and tidying up other bits of the website. Would be nice to step away for a bit, but we both feel guilty when we do. If we do sneak in a break, we end up thinking about all the stuff we <em>should</em> be doing instead. Catch-22 if ever there was one. Anyway, there are some fun games this week, a few from my fave genre, which made testing even more enjoyable. Hope you all had an awesome weekend and that you're having a fantastic week so far!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: v3.0.1.0 (Stable Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)

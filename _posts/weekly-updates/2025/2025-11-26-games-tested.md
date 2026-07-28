@@ -35,6 +35,8 @@ Apologies for missing last week's post—the past couple of weeks have been full
 
 Onto the past two weeks' testing results—apologies for the massive post!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: v2.1.0.0 (for itch.io use Extension Channel: beta)
 * **Junk Store Plugin**: v1.1.10 (Testing Store)

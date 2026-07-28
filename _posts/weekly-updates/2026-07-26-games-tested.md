@@ -23,6 +23,8 @@ What an eventful week, and not all of it in a good way. We've settled into a rou
 
 On the flip side, we've just passed one year since we launched Junk Store Pro. We can't quite believe it's been a year already, and it's just over two years since version 1 of Junk Store landed on Decky Loader. It's been a rollercoaster of highs and lows for both of us, and we're excited about year two. There's still plenty we want to get done, and Eben's vision is far from finished. If you missed it, you can read his full reflection on the past year in [One Year of Junk Store Pro](/blog/one-year-junk-store-pro/).
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **Junk Store Pro**: v3.2.0.0 (Stable Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)

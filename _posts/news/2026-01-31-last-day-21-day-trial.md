@@ -21,6 +21,8 @@ Quick heads up: today is the **last day** to get the extended 21-day trial for J
 
 Starting tomorrow, trials return to the standard 7 days.
 
+{% include discord-follow.html channels="news" label="Get the updates on Discord:" %}
+
 ## Get Started Now
 
 If you've been thinking about trying Junk Store Pro, now's the time:

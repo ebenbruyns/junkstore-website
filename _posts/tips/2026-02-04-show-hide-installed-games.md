@@ -19,6 +19,8 @@ cta_disabled: true
 
 *Note: This feature works identically in both the free Decky plugin and Junk Store Pro (Professional version).*
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
 You've got hundreds of Epic, GOG, itch.io or Amazon games in your library, but you only want to see the ones actually installed on your Steam Deck. Scrolling through your entire collection to find what's ready to play gets tedious fast.

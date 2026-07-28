@@ -25,6 +25,8 @@ Wow, I can't remember the last time I had the time or energy to do game testing 
 
 I'll also get back to retesting games to see if anything has shifted since they were last tested. I'm hoping to get onto this over the weekend, fingers crossed nothing else pops up that needs urgent attention.
 
+{% include discord-follow.html channels="compat" label="Talk compatibility on Discord:" %}
+
 ## Current System Setup
 * **Junk Store Pro**: v3.0.1.0 (Beta Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)

@@ -27,6 +27,8 @@ Other than working, we haven't gotten up to much as usual. We did go for a meal 
 
 As always we hope you are all having a fantastic week wherever you are in the world! This week's games were fun to test, so if you haven't already, make sure you give them a go yourself!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: v3.0.1.0 (Beta Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)

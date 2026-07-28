@@ -21,6 +21,8 @@ The sun is shining, the internet is cooperating, AND I managed to resist turning
 
 Hope you all get a chance to try some of these out - there are some genuinely good ones in this week's batch.
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9

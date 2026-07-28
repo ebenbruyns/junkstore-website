@@ -19,6 +19,8 @@ We love being back on board our boat after winter - we really missed the calming
 
 Anyway, on to what you came for - let's see how last week's giveaways fared.
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9  

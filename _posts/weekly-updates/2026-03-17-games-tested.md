@@ -26,6 +26,8 @@ Needless to say, this is yet another week where more games have been added to my
 
 Let's get to it! You can find this week's compatibility findings below.
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store 2.0</a>**: v2.5.0.0 (Channel: Stable Decky)
 * **Junk Store Plugin**: v1.1.13 (Main Store)

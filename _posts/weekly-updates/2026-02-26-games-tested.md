@@ -21,6 +21,8 @@ G'day Everyone!
 
 This week has been a bit disrupted with a quick trip across to the mainland. We had a fair few things to do, most importantly our monthly grocery shop! Almost everything has been put away and we are now recovered from the chaos and speed of navigating the city. It takes us a while to get over our excursions to town, we're not used to the noise and pace of city life. It was enjoyable though as we got to catch up with my sister, brother-in-law and my two nephews. Always great to have the opportunity to catch up with family! Anyway, we've got plenty to get through so need to get stuck back in to Junk Store tasks. Unfortunately I wasn't able to test that many games this week, but I'm hoping to get back on track this weekend!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:

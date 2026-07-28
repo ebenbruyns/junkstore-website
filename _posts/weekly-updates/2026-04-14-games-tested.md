@@ -26,6 +26,8 @@ We prepped the boat to ride it out: tied everything down, took our solar panels 
 
 Had to conserve power with the solar panels down, which is why this one's a bit late. Did manage to test the giveaways from the weekend though!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:

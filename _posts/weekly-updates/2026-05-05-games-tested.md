@@ -31,6 +31,8 @@ I've also updated our [Uptime / Status page](/status/) for Junk Store Pro so you
 ![Junk Store Pro Status: 33 days stable, 1 Steam Client update passed](/assets/images/blog/260505-status-card.png)
 
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:

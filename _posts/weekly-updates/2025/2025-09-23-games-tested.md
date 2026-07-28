@@ -30,6 +30,8 @@ I got completely sucked into FATE: The Cursed King this weekend — my "testing"
 
 Let's get to this week's results — some real gems!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9

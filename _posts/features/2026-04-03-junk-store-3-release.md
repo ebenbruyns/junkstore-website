@@ -21,6 +21,8 @@ cta_disabled: true
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/DI-5Wdvu7Kw" title="Junk Store 3.0 Release" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+{% include discord-follow.html channels="news" label="Get the updates on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">What's New in 3.0</h2>
 
 ### Built-in File Manager

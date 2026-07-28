@@ -26,6 +26,8 @@ We're in the final countdown until we pack up and move to land for the next two 
 
 I always enjoy house/cat sitting as I get to cuddle Mimi, our friends' cool cat. We're cat people and had two before moving onto the boat full time. Unfortunately Bailey, my little guy, passed from cancer before we made the move, and Rocky, Eben's buddy, passed after from kidney failure. So yeah, we miss having furry friends around to keep us company, but house sitting lets us have that even if only for a short time. The other things I'm hanging out for: hot running water (no boiling water for two months), easy access to shops (no planning days to weeks in advance to get stuff delivered, or organising which day I'll shoot across to the mainland), and most importantly, I get to see my parents, who live 20 minutes from the friends we're house sitting for, which is awesome! So this week will be a daily effort to get the boat ready and ourselves organised to be away for two months. Should be all good though; I don't think we have too much to do... I hope!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **Junk Store Pro**: v3.1.0.1 (Beta Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)

@@ -19,6 +19,8 @@ cta_disabled: true
 
 *Note: This tip applies to both versions, but the steps differ slightly between Decky Plugin and Pro Version.*
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
 You need to add advanced launch parameters to fix compatibility issues, enable specific features, or optimize performance for your non-Steam games.

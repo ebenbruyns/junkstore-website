@@ -17,6 +17,8 @@ cta_disabled: true
 
 **This Week's Pro Tip:** Some games bundle multiple executables like expansion packs, config tools, or alternate launchers. Here's how to run any of them without switching to Desktop Mode.
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
 We sometimes get asked how to launch a specific executable for games that ship with multiple, like expansion packs or config tools. *Star Wars: Galactic Battlegrounds Saga* on GOG is a good example. It includes both the base game (`Battlegrounds.exe`) and the *Clone Campaigns* expansion (`CloneCampaigns.exe`). By default, Junk Store launches the main exe, but what if you want to play the expansion?

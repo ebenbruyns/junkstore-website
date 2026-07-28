@@ -34,6 +34,8 @@ There was a decent mixed bag of games, from visual novels to puzzle games (just 
 
 Anyways, if you have any of these in your library, there are definitely some you really should try out!
 
+{% include discord-follow.html channels="compat" label="Talk compatibility on Discord:" %}
+
 ## Current System Setup
 * **Junk Store Pro**: v3.1.0.1 (Stable Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)

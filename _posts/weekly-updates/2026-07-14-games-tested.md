@@ -26,6 +26,8 @@ Once safely on the other side, we hopped in the car, stopped for a quick coffee 
 
 Hope your weekend involved fewer leaky dinghies and a lot more sleep, but was just as awesome!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **Junk Store Pro**: v3.1.0.1 (Beta Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)

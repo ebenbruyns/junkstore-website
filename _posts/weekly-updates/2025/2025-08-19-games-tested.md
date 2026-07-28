@@ -13,6 +13,8 @@ toc: true
 
 *Originally shared on <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>r/JunkStore</a> - reformatted for our blog.*
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">TL;DR</h2>
 
 **itch integration (beta) is live!** Junk Store now supports a fourth storefront alongside Epic, GOG, and Amazon.

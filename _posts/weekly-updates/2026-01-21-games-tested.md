@@ -21,6 +21,8 @@ G'day Everyone!
 
 I'm back down in Papamoa for the week helping my parents out with a few things, heading back up on Monday. The weather here in NZ has been absolutely shocking this week. Not much of a summer happening at the moment, and it looks set to stick around until late in the week. Fingers crossed for some warm sunny days next week so we can all dry out! On the bright side, being stuck indoors means plenty of time for testing. I'll be taking full advantage of my parents' super fast and stable internet to get cracking on as many games as I can handle.
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:

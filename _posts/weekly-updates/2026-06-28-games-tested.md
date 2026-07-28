@@ -29,6 +29,8 @@ The one I couldn't get sorted this week was Space Grunts. I tried it on both ver
 Anyways, here's this week's round-up of games. Hope you all can find something that might make your playlist.
 
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **Junk Store Pro**: v3.1.0.1 (Stable Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)

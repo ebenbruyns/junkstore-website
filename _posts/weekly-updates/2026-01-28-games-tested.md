@@ -21,6 +21,8 @@ G'day Everyone!
 
 Made it back to the boat a couple of days ago; I am so glad to be home! I've got quite a lot to catch up on, and the to-do list has grown while I was away. The weather's also turned nice, which means the pull to tackle our overdue boat jobs is strong. I'll need to prioritise between my two longest lists: Junk Store and boat maintenance. Getting back into my routines should help, and with things quieting down heading into February, I'm hoping to find my feet and hit the ground running.
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:

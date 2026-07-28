@@ -27,6 +27,8 @@ Merry Christmas from us. A small gift for anyone wanting to try Junk Store Pro, 
 
 Use promo code <span class="promo-code">JUNKMAS25</span> at checkout for your first year
 
+{% include discord-follow.html channels="news" label="Get the updates on Discord:" %}
+
 ## How to get the deal
 
 [Sign up to the portal](https://portal.junkstore.xyz/) for Junk Store Pro. The 21-day trial applies automatically to new accounts during this period. Use coupon code <strong style="color: #ffa366;">JUNKMAS25</strong> for 25% off when you purchase.

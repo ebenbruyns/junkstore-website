@@ -1,0 +1,46 @@
+{%- comment -%}
+  Discord channel follow buttons.
+
+  Params:
+    channels — comma-separated keys: free, bundles, compat, tips, news
+               (default: "free,bundles")
+    label    — text shown before the buttons in the compact variant
+    intro    — if set, renders the tall variant with an intro paragraph instead
+
+  Usage:
+    {% include discord-follow.html %}
+    {% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+{%- endcomment -%}
+{%- assign channels = include.channels | default: "free,bundles" | split: "," -%}
+{%- if include.intro -%}
+<div class="discord-follow">
+  <p class="discord-follow__intro">{{ include.intro }}</p>
+  <div class="discord-follow__buttons">
+{%- else -%}
+<div class="discord-follow discord-follow--compact">
+  <i class="fab fa-discord discord-follow__icon" aria-hidden="true"></i>
+  <span class="discord-follow__label">{{ include.label | default: "Get a ping when one drops:" }}</span>
+{%- endif -%}
+{%- for ch in channels -%}
+  {%- assign key = ch | strip -%}
+  {%- case key -%}
+    {%- when 'free' -%}{%- assign url = 'https://discord.gg/A8YSd5Rg4p' -%}{%- assign name = '#free-games' -%}
+    {%- when 'bundles' -%}{%- assign url = 'https://discord.gg/mQ5U5cnxPU' -%}{%- assign name = '#game-bundle-alerts' -%}
+    {%- when 'compat' -%}{%- assign url = 'https://discord.gg/AfG9Wv8yS6' -%}{%- assign name = '#game-compatibility' -%}
+    {%- when 'tips' -%}{%- assign url = 'https://discord.gg/VmF7hkadBq' -%}{%- assign name = '#junk-store-tips' -%}
+    {%- when 'news' -%}{%- assign url = 'https://discord.gg/dbSCGS8agC' -%}{%- assign name = '#junkstore' -%}
+    {%- else -%}{%- continue -%}
+  {%- endcase -%}
+  {%- if include.intro %}
+    <a class="discord-follow__btn" href="{{ url }}" target="_blank" rel="noopener">
+      <i class="fab fa-discord" aria-hidden="true"></i>
+      <span>Follow <strong>{{ name }}</strong></span>
+    </a>
+  {%- else %}
+  <a class="discord-follow__btn" href="{{ url }}" target="_blank" rel="noopener">{{ name }}</a>
+  {%- endif -%}
+{%- endfor -%}
+{%- if include.intro %}
+  </div>
+{%- endif %}
+</div>

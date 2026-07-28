@@ -30,6 +30,8 @@ We're a bit bummed about daylight savings, we had so many jobs we needed to do o
 <strong>🚀 Junk Store Pro 3.0 is here!</strong> In case you missed the <a href="/blog/junk-store-3-release/" target="_blank" rel="noopener">announcement</a>, we've added heaps of new goodies: built-in SteamGridDB, a File Manager, Disk Analyser, and Process Manager. Check out the <a href="https://youtu.be/DI-5Wdvu7Kw" target="_blank" rel="noopener">YouTube video</a> for a full rundown. If you've got a license, update now. If you haven't tried it yet, give it a go with our 7 day free trial. Features like these aren't available anywhere else, and yes they all run right in Game Mode.
 </div>
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:

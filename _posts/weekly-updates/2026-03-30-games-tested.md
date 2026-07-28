@@ -28,6 +28,8 @@ For some reason Total War: Three Kingdoms is <em>still</em> giving me issues on 
 
 Anyways, all of the other games tested work out of the box on both versions of Junk Store. 
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping
 
 * **Decky Loader Update:** If you're running the Steam beta, grab the latest Decky pre-release update (v3.2.2-pre3). The recent Steam beta broke something in Decky Loader that's now been fixed.

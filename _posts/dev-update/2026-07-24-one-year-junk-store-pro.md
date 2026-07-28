@@ -56,3 +56,5 @@ To those who signed up for the first year only: we look forward to seeing just h
 
 Game On!<br>
 Eben
+
+{% include discord-follow.html channels="news" label="Get the updates on Discord:" %}

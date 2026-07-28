@@ -19,6 +19,8 @@ cta_disabled: true
 
 *Note: This feature works in both versions of Junk Store.*
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
 Every now and then we get questions about how to update games due to new patches, or how to add newly purchased DLC content to already downloaded games (i.e. Cyberpunk 2077). Don't waste time downloading games over and over again, instead use the <strong>Update, Repair or Verify</strong> functionality built into Junk Store without leaving Game Mode or needing to restart your Steam Deck.

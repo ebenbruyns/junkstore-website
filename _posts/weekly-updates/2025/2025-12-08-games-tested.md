@@ -25,6 +25,8 @@ We're currently on the mainland house-sitting for my sister, which gives us a ch
 
 Alright, let's dive into this week's testing results.
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.10 (Testing Store)

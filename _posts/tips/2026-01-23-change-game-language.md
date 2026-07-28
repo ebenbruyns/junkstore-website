@@ -19,6 +19,8 @@ cta_disabled: true
 
 *Note: This tip is for Decky Plugin users. Junk Store Pro has a built-in language menu for easier switching.*
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
 You're using the **Decky Plugin** and want to play your games in a different language. The Decky Plugin doesn't have a built-in language menu, so you need to use environment variables to tell games which language to use.

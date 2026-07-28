@@ -19,6 +19,8 @@ cta_disabled: true
 
 *Note: This feature is exclusive to Junk Store Pro Version.*
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
 Your game crashes on launch with missing Visual C++, .NET Framework, or DirectX errors. Fixing this usually requires learning Protontricks, Winetricks, or manually downloading and installing dependencies yourself through Desktop Mode.

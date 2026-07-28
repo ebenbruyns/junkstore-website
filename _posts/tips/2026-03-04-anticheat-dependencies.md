@@ -18,6 +18,8 @@ cta_disabled: true
 
 **This Week's Pro Tip:** Some games require anti-cheat dependencies to run properly. Junk Store makes it easy to download and enable them in game mode.
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 ## The Problem
 
 You've downloaded your game and launched it, only to get stuck at an EAC or BattlEye screen and unable to progress further. Or you get into the game only to be kicked immediately due to anti-cheat not being installed.

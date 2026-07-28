@@ -15,6 +15,8 @@ Kia ora Everyone!
 
 We are back on the boat after being away for almost 3 months (basically all of winter here in NZ). Over the weekend we had 50kt winds and rain - proper rough conditions - today it's a beautiful sunny day and calm. Perfect weather catch up on some computer work without the fear getting seasick!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9  

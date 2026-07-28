@@ -25,6 +25,8 @@ Winter is definitely upon us here in NZ. The days are getting noticeably shorter
 
 Quiet week otherwise, just hard at work on Junk Store as always! Hope you've got some gaming time carved out this weekend! And since the NBA playoffs are here, let's go Celtics! ☘️
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:

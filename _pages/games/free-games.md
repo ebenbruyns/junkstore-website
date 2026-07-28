@@ -49,6 +49,8 @@ hide_title: true
     {%- endif -%}
   </header>
 
+  {% include discord-follow.html %}
+
 {%- if newly_count > 0 -%}
   <section class="free-games-page__new-section">
     <h2 class="free-games-page__section-title">Newly Added</h2>

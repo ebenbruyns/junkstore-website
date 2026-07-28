@@ -23,6 +23,8 @@ We've both had a busy weekend since getting back to the boat, each of us working
 
 Looks like the incoming weather might keep us boat-bound for a bit, which is a good excuse to get stuck in and make progress on Junk Store. Hopefully some nicer weather is on its way so we can get back out on our excursions!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 A few quick reminders before we dive into the games:

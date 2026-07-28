@@ -25,6 +25,8 @@ Eben has set up his work space and barely leaves it. He's got a lot he wants to 
 
 Just a heads up: I couldn't get Framed Collection (GOG) working from this week's Amazon Prime giveaway. I'll rope Eben in to help me diagnose what's going on and report back.
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **Junk Store Pro**: v3.1.0.1 (Beta Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)

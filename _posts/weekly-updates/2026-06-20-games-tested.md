@@ -26,6 +26,8 @@ Stop the presses! Eben and I actually had time and energy to <em>play</em> some 
 
 Other than finally <em>playing</em> on our Steam Decks instead of just working, not much else to report. As mentioned, we've got a new Lemmy community now, so come find us there if you prefer that platform to our current ones. Anyways, better get back to it before Eben thinks I'm slacking off work.
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Housekeeping Notes
 
 * **Junk Store Update**: v3.1.0.1 (Stable)

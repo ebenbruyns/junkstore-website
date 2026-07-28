@@ -20,6 +20,8 @@ Following on from the log uploader, sometimes when I’m down a rabbit hole I ca
 
 This is the type of thing that leads me down rabbit holes. What if users could preview the logs? Heck what about just view as text on any file?
 
+{% include discord-follow.html channels="news" label="Get the updates on Discord:" %}
+
 ## Enter the text viewer:
 
 <figure>

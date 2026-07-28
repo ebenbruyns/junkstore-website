@@ -19,6 +19,8 @@ cta_disabled: true
 
 *Note: This works on both the free Decky plugin and Junk Store 2.0.*
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
 We've all been there: you install a game, hit play, and... nothing. After a bit of digging, someone suggests trying a different Proton version.

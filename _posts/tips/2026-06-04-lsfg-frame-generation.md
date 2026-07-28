@@ -24,6 +24,8 @@ toc: true
 
 > **Heads up:** LSFG doesn't work with all games and may actually make some perform worse. Your mileage may vary.
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">What You'll Need</h2>
 
 Before you start, you'll need:

@@ -19,6 +19,8 @@ Our games compatibility table has been quietly helping Steam Deck users find com
 ![Complete games table overview showing recently tested games and full interface](/assets/images/blog/features/games-table/overview-new.webp)
 *Complete overview of our games compatibility table with all key features visible*
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 ## Live Statistics Dashboard
 
 First thing you'll see is our real-time breakdown of tested games across all supported platforms. No guessing - you know exactly what's been verified.

@@ -21,6 +21,8 @@ Apologies for the lateness of this week's post! The weather hasn't been the best
 
 Anyway, let's get to it!
 
+{% include discord-follow.html channels="free,compat" label="Follow along on Discord:" %}
+
 ## Current System Setup
 * **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9

@@ -20,6 +20,8 @@ toc: true
 
 > **Heads up:** This doesn't get around DRM. It copies game files you already have from another source on your local network, then runs the normal install. You still need to own the games to play them.
 
+{% include discord-follow.html channels="tips" label="More tips on Discord:" %}
+
 <h2 style="text-align: left !important; margin-left: 0;">What You'll Need</h2>
 
 - **Junk Store Pro** on both devices

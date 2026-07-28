@@ -19,6 +19,8 @@ It's been a long road to get here, but all the pieces are now in place. With thi
 
 Let's start with that last one, because it matters the most.
 
+{% include discord-follow.html channels="news" label="Get the updates on Discord:" %}
+
 ## Another Steam update, still rock solid
 
 We've briefly mentioned our [status page](/status/) before. It tracks Steam updates breaking Junk Store. If you're a Decky user, you know exactly what this issue is.
