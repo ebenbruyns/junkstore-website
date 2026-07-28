@@ -1,8 +1,8 @@
 ---
 layout: junkstore-post
 title: "Junk Store Pro Quick Access Shortcuts: File Browser, Diagnostics & More on Steam Deck"
-date: 2026-07-27
-published: false
+date: 2026-07-29
+published: True
 categories: [Tip of the Week, Pro Version]
 tags: [junk-store, steam-deck, tips]
 slug: "pro-quick-access-shortcuts"
