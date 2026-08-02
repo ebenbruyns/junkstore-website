@@ -1,0 +1,26 @@
+# Every URL published under /docs/, written by scripts/import-docs.py.
+# Committed so a URL disappearing between runs can be spotted and redirected.
+- /docs/extensions/
+- /docs/extensions/concepts/config-layering/
+- /docs/extensions/concepts/config-schema/
+- /docs/extensions/concepts/how-extensions-are-found/
+- /docs/extensions/concepts/how-launching-works/
+- /docs/extensions/concepts/the-generator/
+- /docs/extensions/guides/authoring-by-hand/
+- /docs/extensions/guides/emulators-and-roms/
+- /docs/extensions/guides/overriding-actions/
+- /docs/extensions/guides/quickstart/
+- /docs/extensions/guides/when-a-game-will-not-run/
+- /docs/extensions/introduction/
+- /docs/extensions/reference/actions-and-types/
+- /docs/extensions/reference/custom-scripts/
+- /docs/extensions/reference/dosbox-import/
+- /docs/extensions/reference/download-methods/
+- /docs/extensions/reference/downloader-protocol/
+- /docs/extensions/reference/script-output/
+- /docs/extensions/reference/settings/
+- /docs/extensions/reference/sharing-and-licensing/
+- /docs/extensions/reference/static-json/
+- /docs/extensions/troubleshooting/
+- /docs/extensions/workflows/
+- /docs/glossary/

@@ -1,0 +1,46 @@
+{%- comment -%}
+  Previous and next page within the section, in reading order.
+
+  Jekyll's built-in page.previous and page.next only exist for posts, so the
+  neighbours are found by walking the section ordered by doc_order, which the
+  importer assigns from the reading order recorded in the docs repo.
+
+  Nothing is rendered at the ends of a section: no previous on the first page,
+  no next on the last.
+{%- endcomment -%}
+
+{%- assign siblings = site.docs | where: "doc_section", page.doc_section | sort: "doc_order" -%}
+
+{%- assign prev_doc = nil -%}
+{%- assign next_doc = nil -%}
+{%- for doc in siblings -%}
+  {%- if doc.url == page.url -%}
+    {%- unless forloop.first -%}
+      {%- assign prev_index = forloop.index0 | minus: 1 -%}
+      {%- assign prev_doc = siblings[prev_index] -%}
+    {%- endunless -%}
+    {%- unless forloop.last -%}
+      {%- assign next_doc = siblings[forloop.index] -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if prev_doc or next_doc -%}
+<nav class="js-docs-pager" aria-label="Documentation pages">
+  {%- if prev_doc -%}
+  <a class="js-docs-pager__link js-docs-pager__link--prev" href="{{ prev_doc.url }}" rel="prev">
+    <span class="js-docs-pager__label">Previous</span>
+    <span class="js-docs-pager__title">{{ prev_doc.title }}</span>
+  </a>
+  {%- else -%}
+  <span></span>
+  {%- endif -%}
+
+  {%- if next_doc -%}
+  <a class="js-docs-pager__link js-docs-pager__link--next" href="{{ next_doc.url }}" rel="next">
+    <span class="js-docs-pager__label">Next</span>
+    <span class="js-docs-pager__title">{{ next_doc.title }}</span>
+  </a>
+  {%- endif -%}
+</nav>
+{%- endif -%}

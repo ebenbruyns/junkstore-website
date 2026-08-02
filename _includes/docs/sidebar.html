@@ -1,0 +1,103 @@
+{%- comment -%}
+  Docs sidebar: the whole page tree for the current section.
+
+  Same data as the contents page (site.docs, ordered by doc_order, grouped by
+  doc_group), rendered as a persistent nav. The filter box narrows the rendered
+  list client side, so there is no index to build and it works the instant the
+  page loads.
+
+  On the /docs/ index there is no current section, so every section is listed.
+{%- endcomment -%}
+
+{%- comment -%}
+  doc_index marks the /docs/ contents page, which has no doc_section of its
+  own. Everything else is a real page. doc_section is an empty string for a
+  page belonging to no section, such as the glossary, so it is filtered on
+  doc_order being present rather than on the section.
+{%- endcomment -%}
+{%- assign all_docs = site.docs | where_exp: "d", "d.doc_index != true" | sort: "doc_order" -%}
+{%- assign standalone = all_docs | where: "doc_section", "" -%}
+
+{%- comment -%}
+  On a section page only that section is listed, to keep the tree short. On the
+  contents page, or on a standalone page like the glossary, all of them are.
+{%- endcomment -%}
+{%- if page.doc_section and page.doc_section != "" -%}
+  {%- assign nav_sections = page.doc_section | split: "," -%}
+{%- else -%}
+  {%- assign nav_sections = all_docs | map: "doc_section" | uniq -%}
+{%- endif -%}
+
+<nav class="js-docs-nav" aria-label="Documentation">
+  <div class="js-docs-nav__search">
+    <label class="js-visually-hidden" for="docs-filter">Filter documentation</label>
+    <input type="search" id="docs-filter" class="js-docs-nav__filter"
+           placeholder="Filter pages…" autocomplete="off">
+    <p class="js-docs-nav__empty" hidden>No pages match.</p>
+  </div>
+
+  {%- comment -%}
+    Pages outside every section sit at the top, above the section tree, and
+    stay visible from anywhere in the docs. The glossary is meant to be
+    reachable at the moment you hit a word you do not know.
+  {%- endcomment -%}
+  {%- if standalone.size > 0 -%}
+  <ul class="js-docs-nav__list js-docs-nav__list--standalone">
+    {%- for doc in standalone -%}
+    <li class="js-docs-nav__item">
+      <a href="{{ doc.url }}"
+         class="js-docs-nav__link{% if page.url == doc.url %} is-current{% endif %}"
+         {% if page.url == doc.url %}aria-current="page"{% endif %}>{{ doc.title }}</a>
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+
+  {%- for section in nav_sections -%}
+    {%- if section == "" -%}{%- continue -%}{%- endif -%}
+    {%- assign meta = site.data.doc_sections[section] -%}
+    {%- assign section_pages = all_docs | where: "doc_section", section -%}
+    {%- assign section_label = meta.label | default: section | replace: "-", " " | capitalize -%}
+    {%- assign section_url = "/docs/" | append: section | append: "/" -%}
+
+    <div class="js-docs-nav__section">
+      <a class="js-docs-nav__section-title{% if page.url == section_url %} is-current{% endif %}"
+         href="{{ section_url }}"
+         {% if page.url == section_url %}aria-current="page"{% endif %}>{{ section_label }}</a>
+
+      {%- assign loose = section_pages | where: "doc_group", "" -%}
+      {%- if loose.size > 0 -%}
+      <ul class="js-docs-nav__list">
+        {%- for doc in loose -%}
+          {%- unless doc.url == section_url -%}
+          <li class="js-docs-nav__item">
+            <a href="{{ doc.url }}"
+               class="js-docs-nav__link{% if page.url == doc.url %} is-current{% endif %}"
+               {% if page.url == doc.url %}aria-current="page"{% endif %}>{{ doc.title }}</a>
+          </li>
+          {%- endunless -%}
+        {%- endfor -%}
+      </ul>
+      {%- endif -%}
+
+      {%- assign groups = section_pages | map: "doc_group" | uniq -%}
+      {%- for group in groups -%}
+        {%- unless group == "" -%}
+          {%- assign gmeta = meta.groups[group] -%}
+          {%- assign group_label = gmeta.label | default: group | replace: "-", " " | capitalize -%}
+          {%- assign group_pages = section_pages | where: "doc_group", group -%}
+          <p class="js-docs-nav__group">{{ group_label }}</p>
+          <ul class="js-docs-nav__list">
+            {%- for doc in group_pages -%}
+            <li class="js-docs-nav__item">
+              <a href="{{ doc.url }}"
+                 class="js-docs-nav__link{% if page.url == doc.url %} is-current{% endif %}"
+                 {% if page.url == doc.url %}aria-current="page"{% endif %}>{{ doc.title }}</a>
+            </li>
+            {%- endfor -%}
+          </ul>
+        {%- endunless -%}
+      {%- endfor -%}
+    </div>
+  {%- endfor -%}
+</nav>

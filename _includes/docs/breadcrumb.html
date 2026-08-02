@@ -1,0 +1,55 @@
+{%- comment -%}
+  Docs breadcrumb.
+
+  Matches the slash-separated trail used on game and franchise pages
+  (.breadcrumb-bar / .breadcrumb-trail) rather than the shared
+  _includes/breadcrumb.html, which emits an <ol> with '›' separators and whose
+  only stylesheet, _sass/landing-pages.scss, is not imported by either CSS
+  entry point, so it currently renders as a numbered list.
+
+  Driven by page.breadcrumbs, written by scripts/import-docs.py from
+  _data/doc_sections.yml. The trail starts at Documentation: the masthead logo
+  already goes home.
+
+  The schema.org BreadcrumbList is carried over from the shared include so the
+  structured data is not lost by using a different trail.
+{%- endcomment -%}
+
+{%- if page.breadcrumbs and page.breadcrumbs.size > 0 -%}
+  {%- assign last_index = page.breadcrumbs.size | minus: 1 -%}
+  {%- assign site_url = site.url | default: "https://www.junkstore.xyz" -%}
+
+<div class="breadcrumb-bar breadcrumb-bar--no-cta">
+  <span class="breadcrumb-trail">
+    {%- for crumb in page.breadcrumbs -%}
+      {%- if forloop.index0 == last_index -%}
+        <span aria-current="page">{{ crumb.name }}</span>
+      {%- else -%}
+        {%- comment -%}
+          The separator is its own element and spaced with CSS, because the
+          whitespace-trimming tags around this loop would eat plain spaces and
+          run the slash into the next crumb.
+        {%- endcomment -%}
+        <a href="{{ crumb.url }}">{{ crumb.name }}</a><span class="breadcrumb-sep" aria-hidden="true">/</span>
+      {%- endif -%}
+    {%- endfor -%}
+  </span>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {%- for crumb in page.breadcrumbs -%}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "name": {{ crumb.name | jsonify }},
+      "item": "{{ site_url }}{{ crumb.url }}"
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}

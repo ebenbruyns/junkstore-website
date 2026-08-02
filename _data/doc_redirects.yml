@@ -1,0 +1,23 @@
+# Old URLs for documentation pages that have been renamed or moved.
+#
+# The URL of a docs page comes from its path in the junk-docs repository, so
+# renaming or moving a file there changes its URL and the old one stops
+# existing. Record the old URL here and it keeps working: visitors and search
+# results are redirected to the page's new home instead of hitting a 404.
+#
+# Key is the page as it exists NOW, relative to the docs repo root. The list
+# under it is every URL that should now land on that page.
+#
+#   extensions/guides/quickstart.md:
+#     - /docs/extensions/quickstart/
+#     - /docs/extensions/getting-started/
+#
+# scripts/import-docs.py turns these into redirect_from front matter, which
+# jekyll-redirect-from publishes as redirecting stubs. It also checks them:
+# the import fails if a key names a page that no longer exists, or if an old
+# URL collides with a page that is still live.
+#
+# How you find out a page moved: the import warns when a URL that existed on
+# the previous run is gone. Add it here when that happens.
+#
+# No entries yet. Nothing has been renamed since /docs/ was set up.

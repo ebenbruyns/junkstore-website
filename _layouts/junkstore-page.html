@@ -10,7 +10,12 @@ layout: junkstore-default
     {% if page.hero_title or page.title %}
     <header class="js-page__header">
       <h1 class="js-page__title">{{ page.hero_title | default: page.title }}</h1>
-      {% if page.excerpt %}
+      {% comment %}
+        hide_excerpt suppresses the subtitle where the excerpt is derived from
+        the opening paragraph rather than written as one, so it would read as a
+        duplicate. The excerpt itself stays available for cards and meta tags.
+      {% endcomment %}
+      {% if page.excerpt and page.hide_excerpt != true %}
         <p class="js-page__excerpt">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
     </header>
