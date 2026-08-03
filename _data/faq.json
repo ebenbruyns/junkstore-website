@@ -273,14 +273,14 @@
     "order": 6,
     "contentType": "faq",
     "question": "What new platforms are planned for future releases?",
-    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\n<strong>Current platform support:</strong>\n  <ul>\n    <li><strong>Itch.io</strong> - Now available in beta</li>\n  </ul>\n    <strong>Planned platform support</strong> (pending successful launch and resources):\n  <ul>\n    <li><strong>EA, Ubisoft, Battle.net</strong> - If technically viable</li>\n    <li><strong>Community extension sharing</strong> - User-created platform support</li>\n  </ul>\n    <strong>Development approach:</strong> Each new platform requires extensive testing and compatibility work. We prioritize stable, Game Mode native implementations over quick additions.\n  <br>\n  <br>\n    <strong>Important:</strong> Base your purchase decision on current features, not future promises. New platforms will be added as development resources allow.\n</div>"
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\n<strong>Current platform support:</strong>\n  <ul>\n    <li><strong>Itch.io</strong> - Now available in beta</li>\n  </ul>\n    <strong>Planned platform support</strong> (pending successful launch and resources):\n  <ul>\n    <li><strong>EA, Ubisoft, Battle.net</strong> - If technically viable</li>\n    <li><strong>Community extension sharing</strong> - User-created platform support</li>\n  </ul>\n    <strong>Development approach:</strong> Each new platform requires extensive testing and compatibility work. We prioritize stable, Game Mode native implementations over quick additions.\n  <br>\n  <br>\n    <strong>You do not have to wait for us.</strong> Every tab in Junk Store is an extension, and the same machinery the built in stores use is available to you. If a platform you want is not here, you can build it yourself. See the <a href=\"/docs/\">Developer Documentation</a>.\n  <br>\n  <br>\n    <strong>Important:</strong> Base your purchase decision on current features, not future promises. New platforms will be added as development resources allow.\n</div>"
   },
   {
     "id": "11f05ea3-59cf-49c2-b5e8-34f5de8fd869",
     "originalId": "can-i-try-before-buy",
     "product": "pro",
     "category": "Overview",
-    "order": 7,
+    "order": 8,
     "contentType": "faq",
     "question": "What's included in the free trial and what happens when it ends?",
     "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nEvery purchase includes a <strong>7-day free trial</strong> with full access to all features:\n<br><br>\n<strong>Trial includes:</strong>\n<ul>\n  <li>Full Epic, GOG, Amazon & itch integration</li>\n  <li>Emulator setup and ROM management</li>\n  <li>All premium features (cloud saves, dependencies, automation)</li>\n  <li>Technical support via Discord</li>\n</ul>\n<strong>When the trial ends:</strong>\n<ul>\n  <li>If you purchase → Continue using everything seamlessly</li>\n  <li>If you cancel → You lose access to Pro features and games installed via Pro</li>\n  <li>You can reactivate anytime to restore full functionality</li>\n  <li>The free Decky version remains available for basic Epic support</li>\n</ul>\n<strong>No commitment:</strong> Cancel anytime during trial for zero charges.\n</div>"
@@ -302,5 +302,15 @@
     "order": 2,
     "question": "How many devices can I install Junk Store on?",
     "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nYou can have up to <strong>five</strong> devices with an active Junk Store Pro license at any one time. Inactive devices automatically free up a slot, so there's room to upgrade or change hardware down the line. We think five strikes a fair balance between flexibility and sustainability.\n</div>"
+  },
+  {
+    "id": "ce33464f-2f47-454e-8546-8871a09cb2d8",
+    "originalId": "build-your-own-extension",
+    "product": "pro",
+    "category": "Overview",
+    "order": 7,
+    "question": "Can I add a store or system that Junk Store does not support yet?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\n<strong>Yes.</strong> Every tab you see, including Epic, GOG, Amazon and itch, is an extension. There is no separate internal path the built in ones use.\n  <br>\n  <br>\n    <strong>The easy route:</strong> the extension wizard in the Generator builds a working extension by asking you a handful of questions. That covers most emulators and simple launchers with no scripting at all.\n  <br>\n  <br>\n    <strong>Going further:</strong> the <a href=\"/docs/\">Developer Documentation</a> covers the whole surface, including which scripts get called and when, what they receive, what they must print, and how configuration reaches them.\n  <br>\n  <br>\n    <strong>What you need:</strong> no compiler, no source checkout, no development tools. The scripts are shell and Python, and the configuration is a form you fill in.\n</div>",
+    "contentType": "faq"
   }
 ]

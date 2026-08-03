@@ -27,15 +27,24 @@ layout: junkstore-default
 {%- endcomment -%}
 
 <div class="js-docs{% if page.doc_index %} js-docs--index{% endif %}">
+  {%- comment -%}
+    No page tree on the contents page. Its section cards are the navigation,
+    and a full tree beside them is two navigations competing for the same job.
+    The sidebar appears from the section landing pages onward and stays.
+  {%- endcomment -%}
+  {%- unless page.doc_index -%}
   <button type="button" class="js-docs__menu-toggle" aria-expanded="false"
           aria-controls="js-docs-sidebar">
     <span aria-hidden="true">☰</span> Documentation menu
   </button>
+  {%- endunless -%}
 
   <div class="js-docs__grid">
+    {%- unless page.doc_index -%}
     <div class="js-docs__sidebar" id="js-docs-sidebar">
       {% include docs/sidebar.html %}
     </div>
+    {%- endunless -%}
 
     <main class="js-docs__main">
       {% include docs/breadcrumb.html %}
@@ -75,7 +84,9 @@ layout: junkstore-default
     {%- endunless -%}
   </div>
 
+  {%- unless page.doc_index -%}
   <div class="js-docs__backdrop" hidden></div>
+  {%- endunless -%}
 </div>
 
 <script src="{{ '/assets/js/docs.js' | relative_url }}" defer></script>

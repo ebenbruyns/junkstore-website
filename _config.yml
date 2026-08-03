@@ -151,6 +151,8 @@ footer:
       url: "/about/"
     - label: "Help"
       url: "/help/"
+    - label: "Developer Documentation"
+      url: "/docs/"
     - label: "Support"
       url: "https://portal.junkstore.xyz/support"
       target: "_blank"

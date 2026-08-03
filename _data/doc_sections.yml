@@ -9,6 +9,12 @@
 # Read by _includes/docs/*.html. scripts/import-docs.py does not use this file
 # and has no opinion on names, so there is only one place to change them.
 
+# Where the documentation is written. Surfaced as a card on /docs/ and used
+# nowhere else, so moving the repo means changing this one line. Not a section,
+# and never treated as one: the section list is derived from the pages
+# themselves, not from the keys in this file.
+repo_url: "https://github.com/SDK-Innovation/junk-docs"
+
 extensions:
   label: "Extensions"
   blurb: >-

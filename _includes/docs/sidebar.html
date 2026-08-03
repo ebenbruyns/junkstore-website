@@ -65,39 +65,52 @@
          href="{{ section_url }}"
          {% if page.url == section_url %}aria-current="page"{% endif %}>{{ section_label }}</a>
 
-      {%- assign loose = section_pages | where: "doc_group", "" -%}
-      {%- if loose.size > 0 -%}
-      <ul class="js-docs-nav__list">
-        {%- for doc in loose -%}
-          {%- unless doc.url == section_url -%}
-          <li class="js-docs-nav__item">
-            <a href="{{ doc.url }}"
-               class="js-docs-nav__link{% if page.url == doc.url %} is-current{% endif %}"
-               {% if page.url == doc.url %}aria-current="page"{% endif %}>{{ doc.title }}</a>
-          </li>
-          {%- endunless -%}
-        {%- endfor -%}
-      </ul>
-      {%- endif -%}
+      {%- comment -%}
+        One pass in reading order, emitting a group heading whenever the group
+        changes. Order wins over structure: a page sitting directly in the
+        section keeps its place in the sequence instead of being hoisted into a
+        block at the top. Troubleshooting is written to be read last, after the
+        reference material, and this is what keeps it there.
 
-      {%- assign groups = section_pages | map: "doc_group" | uniq -%}
-      {%- for group in groups -%}
-        {%- unless group == "" -%}
-          {%- assign gmeta = meta.groups[group] -%}
-          {%- assign group_label = gmeta.label | default: group | replace: "-", " " | capitalize -%}
-          {%- assign group_pages = section_pages | where: "doc_group", group -%}
-          <p class="js-docs-nav__group">{{ group_label }}</p>
-          <ul class="js-docs-nav__list">
-            {%- for doc in group_pages -%}
-            <li class="js-docs-nav__item">
-              <a href="{{ doc.url }}"
-                 class="js-docs-nav__link{% if page.url == doc.url %} is-current{% endif %}"
-                 {% if page.url == doc.url %}aria-current="page"{% endif %}>{{ doc.title }}</a>
-            </li>
-            {%- endfor -%}
-          </ul>
-        {%- endunless -%}
+        current_group starts at a value no real group can hold, so the first
+        page always opens a list.
+      {%- endcomment -%}
+      {%- assign current_group = "__start__" -%}
+      {%- for doc in section_pages -%}
+        {%- if doc.url == section_url -%}{%- continue -%}{%- endif -%}
+
+        {%- if doc.doc_group != current_group -%}
+          {%- unless current_group == "__start__" -%}
+            </ul>
+          {%- endunless -%}
+          {%- if doc.doc_group != "" -%}
+            {%- assign gmeta = meta.groups[doc.doc_group] -%}
+            {%- assign group_label = gmeta.label | default: doc.doc_group | replace: "-", " " | capitalize -%}
+            <p class="js-docs-nav__group">{{ group_label }}</p>
+          {%- endif -%}
+          {%- comment -%}
+            An ungrouped page following a group needs a gap, or it reads as the
+            last item of that group. Troubleshooting sits after Reference and
+            belongs to neither.
+          {%- endcomment -%}
+          {%- if doc.doc_group == "" and current_group != "__start__" -%}
+            {%- assign list_class = "js-docs-nav__list js-docs-nav__list--after-group" -%}
+          {%- else -%}
+            {%- assign list_class = "js-docs-nav__list" -%}
+          {%- endif -%}
+          <ul class="{{ list_class }}">
+          {%- assign current_group = doc.doc_group -%}
+        {%- endif -%}
+
+        <li class="js-docs-nav__item">
+          <a href="{{ doc.url }}"
+             class="js-docs-nav__link{% if page.url == doc.url %} is-current{% endif %}"
+             {% if page.url == doc.url %}aria-current="page"{% endif %}>{{ doc.title }}</a>
+        </li>
       {%- endfor -%}
+      {%- unless current_group == "__start__" -%}
+        </ul>
+      {%- endunless -%}
     </div>
   {%- endfor -%}
 </nav>

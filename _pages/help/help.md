@@ -43,6 +43,26 @@ excerpt: " "
     <p class="help-hub-card__desc">Step-by-step setup guides — Decky Plugin install, Pro install, GOG Extension, OAuth login, Wine Cellar, frame generation, and more.</p>
     <span class="help-hub-card__count">Setup &amp; how-to guides</span>
   </a>
+
+  <!-- Generated from the junk-docs repository. The description stays generic
+       on purpose: this covers how Junk Store works as well as extensions, and
+       more sections are coming. The count and the section list are both read
+       from the collection, so this card describes itself accurately as the
+       documentation grows without anyone editing it. -->
+  {%- assign doc_pages = site.docs | where_exp: "d", "d.doc_index != true" -%}
+  {%- assign doc_sections = doc_pages | map: "doc_section" | uniq | where_exp: "s", "s != ''" -%}
+  <a href="/docs/" class="help-hub-card">
+    <h2 class="help-hub-card__title">Developer Documentation</h2>
+    <p class="help-hub-card__desc">Technical documentation for Junk Store: how it works under the bonnet, and how to build your own extensions. Written for people building or digging into things rather than for everyday use.</p>
+    <span class="help-hub-card__count">
+      {{- doc_pages | size }} pages
+      {%- for s in doc_sections -%}
+        {%- assign meta = site.data.doc_sections[s] -%}
+        {%- if forloop.first %} &middot; {% else %}, {% endif -%}
+        {{ meta.label | default: s | replace: "-", " " | capitalize }}
+      {%- endfor -%}
+    </span>
+  </a>
 </section>
 
 <!-- ==================== MORE RESOURCES ==================== -->
@@ -56,6 +76,12 @@ excerpt: " "
   <a href="/games/tested/" class="resource-card">
     <span class="resource-icon">🎮</span>
     <span class="resource-text"><strong><span data-games-count>900</span>+ Games Tested</strong></span>
+  </a>
+  <!-- The repo carries build-pdf.sh, so this is also the route to a single
+       PDF of the whole documentation set. -->
+  <a href="https://github.com/SDK-Innovation/junk-docs" class="resource-card" target="_blank" rel="noopener">
+    <span class="resource-icon"><i class="fab fa-github"></i></span>
+    <span class="resource-text"><strong>Docs Source &amp; PDF</strong></span>
   </a>
   <a href="https://discord.gg/6mRUhR6Teh" class="resource-card discord" target="_blank" rel="noopener">
     <span class="resource-icon"><i class="fab fa-discord"></i></span>
