@@ -32,7 +32,16 @@ scripts/*hltb-failed-cache.json
 # _archive/ - commented out to track archived files
 
 # All documentation and project management files (exclude from version control)
-docs/
+# Anchored with a leading slash so it matches only the notes folder at the repo
+# root. Unanchored, it matched any directory named docs at any depth, which
+# silently swallowed _includes/docs/ and would have shipped a broken site.
+/docs/
+
+# Generated from the junk-docs repo by scripts/import-docs.py.
+# Edit the docs there, not here — these are overwritten on every run.
+_docs/
+assets/images/docs/
+
 # Draft files should never be committed
 _drafts/
 # Performance monitoring and optimization files

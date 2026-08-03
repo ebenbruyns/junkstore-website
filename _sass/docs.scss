@@ -1,0 +1,1013 @@
+/* ==========================================================================
+   Documentation (/docs/)
+   ==========================================================================
+
+   Everything here is scoped under .js-docs. Two reasons:
+
+   1. The docs must not change the other pages on the site. The shared page
+      styles are built for short marketing pages (full container width, centred
+      headers, justified body copy) and stay exactly as they are.
+
+   2. Scoping wins on specificity. The global code-block rules are spread over
+      four files and conflict with each other; _sass/base-styles.scss ends with
+      `pre code span { color: #50fa7b }`, which paints every syntax token the
+      same green. `.js-docs pre code span` beats that without deleting a rule
+      other pages rely on.
+
+   Layout is three columns on a wide screen: page tree, content, on this page.
+   The content column is deliberately narrow. Line length is the single biggest
+   readability factor and these pages run to 6,000 words.
+   ========================================================================== */
+
+$docs-sidebar-width: 260px;
+$docs-rail-width: 220px;
+$docs-shell-max: 1440px;
+
+/* Content measure. Measured against the rendered pages rather than assumed:
+   at 17px Roboto this lands around 80 characters per line, the top of the
+   65 to 80 band for sustained reading. 760px, the first value tried, came out
+   at 90 and still read as too wide. */
+$docs-measure: 680px;
+
+$docs-gap: 48px;
+$docs-gap-tight: 32px;
+
+/* Breakpoints. Named for what they do rather than device sizes:
+   - rail: below this there is no room for the third column
+   - drawer: below this the page tree becomes a slide-out */
+$docs-bp-rail: 1280px;
+$docs-bp-drawer: 1024px;
+
+$docs-code-bg: #1b2029;
+
+.js-docs {
+  --docs-header-offset: 90px; /* masthead height, for sticky columns */
+
+  max-width: $docs-shell-max;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 4rem;
+
+  /* ----------------------------------------------------------------------
+     Grid
+     ---------------------------------------------------------------------- */
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $docs-gap-tight;
+
+    @media (min-width: $docs-bp-drawer) {
+      grid-template-columns: $docs-sidebar-width minmax(0, 1fr);
+      gap: $docs-gap-tight;
+    }
+
+    @media (min-width: $docs-bp-rail) {
+      grid-template-columns: $docs-sidebar-width minmax(0, 1fr) $docs-rail-width;
+      gap: $docs-gap;
+    }
+  }
+
+  /* minmax(0, 1fr) above matters: without it a wide table or long code line
+     blows the column out instead of scrolling inside it. */
+  &__main {
+    min-width: 0;
+  }
+
+  /* The contents page has no page tree, so it is a single column at every
+     width. Held to the same measure as a docs page so the cards and the lede
+     line up with the rest of the section rather than sprawling. */
+  &--index {
+    max-width: 1040px;
+
+    .js-docs__grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+
+  /* ----------------------------------------------------------------------
+     Sidebar, and its mobile drawer
+     ---------------------------------------------------------------------- */
+
+  &__sidebar {
+    @media (min-width: $docs-bp-drawer) {
+      position: sticky;
+      top: var(--docs-header-offset);
+      align-self: start;
+      max-height: calc(100vh - var(--docs-header-offset) - 2rem);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      @include custom-scrollbar;
+    }
+
+    @media (max-width: ($docs-bp-drawer - 1px)) {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      z-index: 1001;
+      width: min(320px, 85vw);
+      padding: 1.5rem 1.25rem;
+      background: $junkstore-bg-card;
+      border-right: 1px solid $junkstore-border;
+      overflow-y: auto;
+      transform: translateX(-100%);
+      transition: transform 0.2s ease;
+
+      .js-docs.is-menu-open & {
+        transform: translateX(0);
+      }
+    }
+  }
+
+  &__menu-toggle {
+    display: none;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.6rem 1rem;
+    min-height: $min-touch-target;
+    background: $junkstore-bg-card;
+    color: $junkstore-light-text;
+    border: 1px solid $junkstore-border;
+    border-radius: $border-radius;
+    font-size: 0.95rem;
+    cursor: pointer;
+
+    &:hover {
+      border-color: $junkstore-primary;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+    }
+
+    @media (max-width: ($docs-bp-drawer - 1px)) {
+      display: inline-flex;
+    }
+  }
+
+  &__backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.6);
+
+    &[hidden] {
+      display: none;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Page tree
+   -------------------------------------------------------------------------- */
+
+.js-docs-nav {
+  font-size: 0.95rem;
+
+  &__search {
+    margin-bottom: 1.25rem;
+  }
+
+  &__filter {
+    width: 100%;
+    padding: 0.55rem 0.75rem;
+    background: $junkstore-bg-dark;
+    color: $junkstore-light-text;
+    border: 1px solid $junkstore-border;
+    border-radius: $border-radius;
+    font-size: 0.9rem;
+
+    &::placeholder {
+      color: $junkstore-meta-text;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+    }
+  }
+
+  &__empty {
+    margin: 0.75rem 0 0;
+    color: $junkstore-meta-text;
+    font-size: 0.85rem;
+  }
+
+  &__section {
+    margin-bottom: 1.5rem;
+  }
+
+  &__section-title {
+    display: block;
+    margin-bottom: 0.6rem;
+    color: $junkstore-primary;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  /* Group headings are labels, not links: a group is organisational and has
+     no page of its own. */
+  &__group {
+    margin: 1.25rem 0 0.4rem;
+    color: $junkstore-meta-text;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-left: 1px solid $junkstore-border;
+  }
+
+  /* An ungrouped page that follows a group, such as Troubleshooting after
+     Reference. Without the gap it reads as that group's last entry. */
+  &__list--after-group {
+    margin-top: 1.5rem;
+  }
+
+  /* Pages outside every section, above the tree. No rule down the side, since
+     there is no section heading for them to hang off. */
+  &__list--standalone {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.25rem;
+    border-left: 0;
+    border-bottom: 1px solid $junkstore-border;
+
+    .js-docs-nav__link {
+      padding-left: 0;
+      border-left: 0;
+      color: $junkstore-light-text;
+
+      &.is-current {
+        color: $junkstore-primary;
+      }
+    }
+  }
+
+  &__item {
+    margin: 0;
+  }
+
+  &__link {
+    display: block;
+    padding: 0.35rem 0 0.35rem 0.85rem;
+    margin-left: -1px;
+    border-left: 2px solid transparent;
+    color: $junkstore-gray-text;
+    line-height: 1.4;
+    text-decoration: none;
+
+    &:hover {
+      color: $junkstore-light-text;
+      border-left-color: $junkstore-border;
+    }
+
+    &.is-current {
+      color: $junkstore-primary;
+      border-left-color: $junkstore-primary;
+      font-weight: 600;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   On this page
+   -------------------------------------------------------------------------- */
+
+.js-docs__rail {
+  display: none;
+
+  @media (min-width: $docs-bp-rail) {
+    display: block;
+    position: sticky;
+    top: var(--docs-header-offset);
+    align-self: start;
+    max-height: calc(100vh - var(--docs-header-offset) - 2rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    @include custom-scrollbar;
+  }
+}
+
+/* Below the rail breakpoint the same list folds into the top of the content,
+   so the page never loses its contents entirely. */
+.js-docs__toc-inline {
+  max-width: $docs-measure;
+  margin-bottom: 2rem;
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-border;
+  border-radius: $border-radius;
+
+  @media (min-width: $docs-bp-rail) {
+    display: none;
+  }
+
+  .js-docs-toc {
+    padding: 0 1.25rem 1rem;
+  }
+
+  /* The rail already has this heading; inside the fold the summary is it. */
+  .js-docs-toc__title {
+    display: none;
+  }
+}
+
+.js-docs__toc-summary {
+  padding: 0.75rem 1.25rem;
+  color: $junkstore-meta-text;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:focus-visible {
+    @include focus-ring;
+  }
+}
+
+.js-docs-toc {
+  font-size: 0.875rem;
+
+  &__title {
+    margin: 0 0 0.75rem;
+    color: $junkstore-meta-text;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    ul {
+      margin: 0;
+      padding-left: 0.9rem;
+      list-style: none;
+    }
+
+    li {
+      margin: 0;
+      font-size: 0.875rem;
+    }
+
+    a {
+      display: block;
+      padding: 0.3rem 0 0.3rem 0.75rem;
+      border-left: 2px solid transparent;
+      color: $junkstore-gray-text;
+      line-height: 1.4;
+      text-decoration: none;
+
+      &:hover {
+        color: $junkstore-light-text;
+      }
+
+      &.is-active {
+        color: $junkstore-primary;
+        border-left-color: $junkstore-primary;
+      }
+
+      &:focus-visible {
+        @include focus-ring;
+      }
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Breadcrumbs
+
+   Same slash-separated trail as the game and franchise pages. Those styles
+   live in _includes/game-page-styles.css, which is inlined only on those
+   layouts, so the rules are restated here rather than shared. Sizes and
+   colours match so the two read as the same component.
+
+   Layout differs in one way: no max-width or centring, because the docs grid
+   already positions this inside the content column.
+   -------------------------------------------------------------------------- */
+
+.js-docs {
+  .breadcrumb-bar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: $docs-measure;
+    margin: 0 0 1.25rem;
+    padding: 0;
+    font-size: 0.9375rem;
+    color: $junkstore-gray-text;
+  }
+
+  .breadcrumb-trail {
+    flex: 1;
+    min-width: 0;
+
+    a,
+    a:visited {
+      color: $junkstore-primary;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a:focus-visible {
+      @include focus-ring;
+    }
+
+    [aria-current="page"] {
+      color: $junkstore-gray-text;
+    }
+
+    .breadcrumb-sep {
+      margin: 0 0.45rem;
+      color: $junkstore-border;
+      user-select: none;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Page header
+   -------------------------------------------------------------------------- */
+
+.js-docs {
+  &__header {
+    max-width: $docs-measure;
+    margin: 0 0 2rem;
+    text-align: left; /* the shared page header is centred; docs are not */
+  }
+
+  &__title {
+    margin: 0.5rem 0 0;
+    color: $junkstore-primary;
+    font-size: 2.125rem;
+    line-height: 1.2;
+
+    /* Below 768px, _sass/other-pages-specific.scss:250 centres and resizes
+       every h1 on the site that is not a splash, single or blog page:
+
+         h1:not(.js-splash h1):not(.layout--single h1):not(.layout--blog h1)
+
+       Three :not() clauses put that at specificity (0,3,4) with !important on
+       the size, which no reasonable class selector here can beat. Rather than
+       add a fourth :not() to a shared file and risk the other pages, the docs
+       title opts out explicitly. A centred heading over left-aligned body copy
+       reads as a marketing page, not a reference page. */
+    @media (max-width: 768px) {
+      text-align: left !important;
+      font-size: 1.75rem !important;
+      margin-bottom: 0 !important;
+      padding: 0 !important;
+    }
+  }
+
+  &__lede {
+    max-width: $docs-measure;
+    margin: 0.75rem 0 0;
+    color: $junkstore-gray-text;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    text-align: left;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Body copy
+   -------------------------------------------------------------------------- */
+
+.js-docs__content {
+  color: $junkstore-light-text;
+  font-size: 1.0625rem; /* 17px */
+  line-height: 1.7;
+
+  /* Everything is constrained to the reading measure. Tables and code get
+     their width back below, since they are scanned rather than read. */
+  > * {
+    max-width: $docs-measure;
+  }
+
+  p,
+  li {
+    /* The site sets text-align: justify on page content. Without hyphenation
+       that opens uneven gaps between words, which is what makes the current
+       pages look stretched. */
+    text-align: left;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+  }
+
+  p {
+    margin: 0 0 1.25em;
+  }
+
+  ul,
+  ol {
+    margin: 0 0 1.25em;
+    padding-left: 1.5em;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  li > ul,
+  li > ol {
+    margin: 0.5em 0 0;
+  }
+
+  /* Headings bind to the text below them: space above, little below. */
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $junkstore-light-text;
+    font-weight: 700;
+    scroll-margin-top: calc(var(--docs-header-offset) + 1rem);
+  }
+
+  h2 {
+    margin: 2.5em 0 0.5em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid $junkstore-border;
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+
+  h3 {
+    margin: 2em 0 0.4em;
+    font-size: 1.25rem;
+    line-height: 1.35;
+  }
+
+  h4 {
+    margin: 1.5em 0 0.3em;
+    font-size: 1.0625rem;
+    line-height: 1.4;
+  }
+
+  /* First heading on a page should not push a large gap under the title. */
+  > h2:first-child,
+  > h3:first-child {
+    margin-top: 0;
+  }
+
+  a {
+    color: $junkstore-primary;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+    text-decoration-thickness: 1px;
+
+    &:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+    }
+  }
+
+  strong {
+    color: $white;
+  }
+
+  blockquote {
+    margin: 1.5em 0;
+    padding: 0.25rem 0 0.25rem 1.25rem;
+    border-left: 3px solid $junkstore-accent;
+    color: $junkstore-gray-text;
+  }
+
+  hr {
+    margin: 2.5em 0;
+    border: 0;
+    border-top: 1px solid $junkstore-border;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.5em 0;
+    border: 1px solid $junkstore-border;
+    border-radius: $border-radius;
+  }
+
+  /* ----------------------------------------------------------------------
+     Code
+     ---------------------------------------------------------------------- */
+
+  code {
+    font-family: $monospace;
+    font-size: 0.9em;
+  }
+
+  :not(pre) > code {
+    padding: 0.15em 0.4em;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 3px;
+    color: $junkstore-accent;
+    white-space: nowrap;
+  }
+
+  pre {
+    max-width: none; /* code is scanned, not read: let it use the column */
+    margin: 1.5em 0;
+    padding: 1rem 1.25rem;
+    background: $docs-code-bg;
+    border: 1px solid $junkstore-border;
+    border-radius: 6px;
+    /* Scroll rather than wrap. A wrapped shell command reads as two commands
+       and is actively misleading. */
+    overflow-x: auto;
+    @include custom-scrollbar;
+
+    code {
+      display: block;
+      padding: 0;
+      background: none;
+      border: 0;
+      color: #e6edf3;
+      font-size: 0.875rem;
+      line-height: 1.6;
+      white-space: pre;
+    }
+  }
+
+  .highlight,
+  div.highlighter-rouge {
+    max-width: none;
+    margin: 1.5em 0;
+
+    pre {
+      margin: 0;
+    }
+  }
+
+  /* ----------------------------------------------------------------------
+     Tables
+
+     Wrapped in a scroll container by assets/js/docs.js, because kramdown
+     emits a bare <table> with nothing to hang overflow on. Rows in the
+     settings reference run to 346 characters, so this is not optional.
+     ---------------------------------------------------------------------- */
+
+  .js-docs-table-scroll {
+    max-width: none;
+    margin: 1.5em 0;
+    overflow-x: auto;
+    @include custom-scrollbar;
+
+    &.is-scrollable {
+      /* Fades the right edge so it is discoverable rather than a surprise. */
+      background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0) 85%,
+        rgba(0, 0, 0, 0.35) 100%
+      );
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+
+  table {
+    width: 100%;
+    min-width: 640px; /* below this, columns crush into unreadable slivers */
+    margin: 0;
+    border-collapse: collapse;
+    background: $junkstore-bg-card;
+    border: 1px solid $junkstore-border;
+    border-radius: $border-radius;
+    font-size: 0.9375rem;
+  }
+
+  th,
+  td {
+    padding: 0.6rem 0.85rem;
+    vertical-align: top;
+    line-height: 1.55;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  th {
+    color: $junkstore-primary;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  thead {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  tr:last-child td {
+    border-bottom: 0;
+  }
+
+  /* ----------------------------------------------------------------------
+     Heading anchor links
+     ---------------------------------------------------------------------- */
+
+  .js-docs-anchor {
+    margin-left: 0.4em;
+    color: $junkstore-meta-text;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+
+    &:focus-visible {
+      opacity: 1;
+      @include focus-ring;
+    }
+  }
+
+  h2:hover .js-docs-anchor,
+  h3:hover .js-docs-anchor,
+  h4:hover .js-docs-anchor {
+    opacity: 1;
+  }
+
+  /* ----------------------------------------------------------------------
+     Copy button on code blocks
+     ---------------------------------------------------------------------- */
+
+  .js-docs-code {
+    position: relative;
+    max-width: none;
+
+    &:hover .js-docs-code__copy,
+    .js-docs-code__copy:focus-visible {
+      opacity: 1;
+    }
+  }
+
+  .js-docs-code__copy {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    background: $junkstore-bg-elevated;
+    color: $junkstore-gray-text;
+    border: 1px solid $junkstore-border;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+
+    &:hover {
+      color: $junkstore-light-text;
+      border-color: $junkstore-primary;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+    }
+
+    /* No hover on touch, so it stays visible there. */
+    @media (hover: none) {
+      opacity: 1;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Syntax highlighting
+
+   Rouge is the configured highlighter but no Rouge theme was ever loaded: the
+   only stylesheet on the site is highlight.js's light default, whose .hljs-*
+   classes never appear in the markup. This is a dark theme for the classes
+   Rouge actually emits, scoped so it cannot affect other pages.
+   -------------------------------------------------------------------------- */
+
+.js-docs__content .highlight {
+  .c, .cm, .c1, .cs, .cd  { color: #8b949e; font-style: italic; } // comments
+  .k, .kc, .kd, .kn, .kp, .kr, .kt { color: #ff7b72; }            // keywords
+  .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .s1, .sr, .ss { color: #a5d6ff; } // strings
+  .m, .mf, .mh, .mi, .mo, .il { color: #79c0ff; }                 // numbers
+  .na  { color: #ffa657; }                                        // attribute names
+  .nb, .bp { color: #79c0ff; }                                    // builtins
+  .nc, .nn, .no { color: #ffa657; }                               // classes, namespaces
+  .nf, .nd { color: #d2a8ff; }                                    // functions
+  .nt  { color: #7ee787; }                                        // tags
+  .nv, .vc, .vg, .vi { color: #ffa657; }                          // variables
+  .o, .ow { color: #ff7b72; }                                     // operators
+  .p   { color: #e6edf3; }                                        // punctuation
+  .gd  { color: #ffdcd7; background: rgba(255, 129, 130, 0.15); } // diff removed
+  .gi  { color: #aff5b4; background: rgba(63, 185, 80, 0.15); }   // diff added
+  .gh, .gu { color: #79c0ff; font-weight: 700; }
+  .err { color: #ffa198; background: none; }
+}
+
+/* --------------------------------------------------------------------------
+   Previous / next
+   -------------------------------------------------------------------------- */
+
+.js-docs-pager {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  max-width: $docs-measure;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid $junkstore-border;
+
+  /* Explicit media query, not @include breakpoint(medium): assets/css/main.scss
+     imports the vendor breakpoint library after the junkstore mixins, so the
+     vendor mixin shadows ours here and emits `@media (min-width: medium)`,
+     which is invalid and never matches. */
+  @media (min-width: $medium) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.9rem 1.1rem;
+    background: $junkstore-bg-card;
+    border: 1px solid $junkstore-border;
+    border-radius: $border-radius;
+    text-decoration: none;
+
+    &:hover {
+      border-color: $junkstore-primary;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+    }
+
+    &--next {
+      text-align: right;
+    }
+  }
+
+  &__label {
+    color: $junkstore-meta-text;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    color: $junkstore-primary;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Contents page (/docs/)
+   -------------------------------------------------------------------------- */
+
+/* Nested inside .js-docs__content deliberately. The body copy rules in this
+   file target `.js-docs__content h2` and `.js-docs__content p`, which are more
+   specific than a single class, so unnested card rules lose to them and the
+   cards inherit body-heading spacing: a 2.5em top margin, a rule underneath
+   the title, and paragraph margins sized for prose. Matching the parent puts
+   these back in charge. */
+.js-docs__content .js-docs-contents {
+  /* Full width of the contents page shell. The reading measure that governs
+     body copy does not apply here: these are cards to scan, not prose to read,
+     and .js-docs__content > * would otherwise clamp them to 680px. */
+  max-width: none;
+
+  /* A card per section rather than a list of every page. The section landing
+     pages describe their own contents, and the sidebar carries the full tree,
+     so an exhaustive list here would be duplication that stops scaling the
+     moment a second section lands. */
+  /* One column at every width, deliberately, rather than a grid. The sections
+     have a reading order, and a row per section reads as a sequence where a
+     grid reads as a set of equal, unordered choices. It also avoids cards
+     stretching to match the tallest in a row, and an odd card sitting alone
+     in a half empty one. */
+  &__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  &__card {
+    display: block;
+    padding: 1rem 1.25rem 1.1rem;
+    background: $junkstore-bg-card;
+    border: 1px solid $junkstore-border;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+
+    &:hover {
+      border-color: $junkstore-primary;
+      transform: translateY(-2px);
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+    }
+
+    @include reduce-motion;
+  }
+
+  &__card-title {
+    margin: 0 0 0.35rem;
+    padding: 0;
+    border: 0;
+    color: $junkstore-primary;
+    font-size: 1.25rem;
+    line-height: 1.3;
+  }
+
+  &__card-blurb {
+    margin: 0 0 0.5rem;
+    color: $junkstore-gray-text;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    text-align: left;
+  }
+
+  &__card-meta {
+    margin: 0;
+    color: $junkstore-meta-text;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  /* A page that is not a section, such as the glossary. Quieter, so the
+     sections stay the primary route in. */
+  &__card--single {
+    .js-docs-contents__card-title {
+      color: $junkstore-light-text;
+      font-size: 1.0625rem;
+    }
+  }
+
+  /* Leaves the site, so it is marked as such and kept quieter than the
+     sections, which are the primary route in. */
+  &__card--external {
+    .js-docs-contents__card-title {
+      color: $junkstore-light-text;
+      font-size: 1.0625rem;
+
+      &::after {
+        content: " ↗";
+        color: $junkstore-meta-text;
+        font-size: 0.85em;
+      }
+    }
+
+    &:hover {
+      border-color: $junkstore-accent;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Small screens
+   -------------------------------------------------------------------------- */
+
+@include breakpoint-max(small) {
+  .js-docs {
+    padding: 1rem 1rem 3rem;
+
+    &__content {
+      font-size: 1rem;
+
+      p,
+      li {
+        font-size: 1rem;
+      }
+
+      pre code {
+        font-size: 0.8125rem;
+      }
+    }
+  }
+}
+
+.js-visually-hidden {
+  @include visually-hidden;
+}

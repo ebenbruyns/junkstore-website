@@ -1,0 +1,92 @@
+---
+layout: junkstore-default
+---
+
+{%- comment -%}
+  Documentation layout.
+
+  Separate from junkstore-page, which is built for short marketing pages: full
+  container width, centred headers, justified body copy. None of that suits
+  24 pages of dense technical reference.
+
+  Extends junkstore-default, so the announcement bar, masthead and footer stay
+  shared and are maintained in one place.
+
+  Every rule in _sass/docs.scss is scoped under .js-docs. That is deliberate:
+  it keeps the docs from touching the other pages on the site, and it wins on
+  specificity against the conflicting global code-block rules in
+  _sass/base-styles.scss without deleting anything other pages rely on.
+{%- endcomment -%}
+
+{%- comment -%}
+  Breadcrumbs come from page.breadcrumbs, written by the importer, which reads
+  the same _data/doc_sections.yml this layout uses for every other label. They
+  are not assembled here because Liquid cannot build an array of maps without a
+  plugin, and the shared breadcrumb include (which also emits the schema.org
+  JSON-LD) expects exactly that shape.
+{%- endcomment -%}
+
+<div class="js-docs{% if page.doc_index %} js-docs--index{% endif %}">
+  {%- comment -%}
+    No page tree on the contents page. Its section cards are the navigation,
+    and a full tree beside them is two navigations competing for the same job.
+    The sidebar appears from the section landing pages onward and stays.
+  {%- endcomment -%}
+  {%- unless page.doc_index -%}
+  <button type="button" class="js-docs__menu-toggle" aria-expanded="false"
+          aria-controls="js-docs-sidebar">
+    <span aria-hidden="true">☰</span> Documentation menu
+  </button>
+  {%- endunless -%}
+
+  <div class="js-docs__grid">
+    {%- unless page.doc_index -%}
+    <div class="js-docs__sidebar" id="js-docs-sidebar">
+      {% include docs/sidebar.html %}
+    </div>
+    {%- endunless -%}
+
+    <main class="js-docs__main">
+      {% include docs/breadcrumb.html %}
+
+      <header class="js-docs__header">
+        <h1 class="js-docs__title">{{ page.title }}</h1>
+        {%- if page.doc_index and page.excerpt -%}
+        <p class="js-docs__lede">{{ page.excerpt }}</p>
+        {%- endif -%}
+      </header>
+
+      {%- unless page.doc_index -%}
+      {%- comment -%}
+        Below the rail breakpoint the same contents fold in here, collapsed:
+        the longest page has 18 entries, which open would push the actual
+        content most of a screen down on a phone.
+      {%- endcomment -%}
+      <details class="js-docs__toc-inline">
+        <summary class="js-docs__toc-summary">On this page</summary>
+        {% include docs/on-this-page.html %}
+      </details>
+      {%- endunless -%}
+
+      <div class="js-docs__content">
+        {{ content }}
+      </div>
+
+      {%- if page.doc_section and page.doc_index != true -%}
+      {% include docs/pager.html %}
+      {%- endif -%}
+    </main>
+
+    {%- unless page.doc_index -%}
+    <div class="js-docs__rail">
+      {% include docs/on-this-page.html %}
+    </div>
+    {%- endunless -%}
+  </div>
+
+  {%- unless page.doc_index -%}
+  <div class="js-docs__backdrop" hidden></div>
+  {%- endunless -%}
+</div>
+
+<script src="{{ '/assets/js/docs.js' | relative_url }}" defer></script>

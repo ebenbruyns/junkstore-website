@@ -1,0 +1,25 @@
+{%- comment -%}
+  "On this page" rail: the h2 and h3 headings of the current page.
+
+  Built at build time from the rendered HTML, using the vendored allejo
+  jekyll-toc include, so it renders with JavaScript disabled and never flashes
+  in after load. sanitize=true strips inline markup, since several headings
+  contain <code> spans that would otherwise appear as tags in the rail.
+
+  This relies on every heading having an id, which scripts/import-docs.py adds
+  explicitly because _config.yml sets kramdown auto_ids: false site-wide.
+
+  The scroll-spy highlight in assets/js/docs.js is an enhancement on top; the
+  links work without it.
+{%- endcomment -%}
+
+{%- capture toc_body -%}
+  {%- include toc.html html=content sanitize=true h_min=2 h_max=3 class="js-docs-toc__list" -%}
+{%- endcapture -%}
+
+{%- if toc_body contains "<li" -%}
+<aside class="js-docs-toc" aria-labelledby="js-docs-toc-title">
+  <p class="js-docs-toc__title" id="js-docs-toc-title">On this page</p>
+  {{ toc_body }}
+</aside>
+{%- endif -%}

@@ -2,11 +2,27 @@
 /* Extracted from help.md - March 2026 */
 
 /* ========== HUB-PAGE GRID (4 sub-page cards) ========== */
+/* Capped at three columns rather than auto-fit. auto-fit packs in as many as
+   will fit, which is four at this width, leaving a fifth card stranded alone
+   on the second row. Three gives 3 + 2 now and an even 3 + 3 once the videos
+   card lands.
+
+   Explicit media queries rather than @include breakpoint(): assets/css/main.scss
+   imports the vendor breakpoint library before this file, so that mixin name
+   resolves to the vendor one and a named size compiles to an invalid query. */
 .help-hub-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: 1.25rem;
   margin: 2rem 0 2.5rem 0;
+
+  @media (min-width: $small) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media (min-width: $large) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 .help-hub-card {

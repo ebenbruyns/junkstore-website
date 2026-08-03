@@ -1,0 +1,34 @@
+# Human-readable names and blurbs for the /docs/ sections and their groups.
+#
+# Keys are folder names in the junk-docs repository. A section is a top level
+# folder, a group is a folder inside it. Anything not listed here still
+# renders: the folder name is title-cased as a fallback, so adding a folder
+# upstream never breaks the site. Fill it in here when you want it described
+# properly.
+#
+# Read by _includes/docs/*.html. scripts/import-docs.py does not use this file
+# and has no opinion on names, so there is only one place to change them.
+
+# Where the documentation is written. Surfaced as a card on /docs/ and used
+# nowhere else, so moving the repo means changing this one line. Not a section,
+# and never treated as one: the section list is derived from the pages
+# themselves, not from the keys in this file.
+repo_url: "https://github.com/SDK-Innovation/junk-docs"
+
+extensions:
+  label: "Extensions"
+  blurb: >-
+    Writing extensions: the scripts Junk Store calls, what they receive, what
+    they must print, and how configuration reaches them.
+  groups:
+    guides:
+      label: "Guides"
+      blurb: "Read these in order the first time. Each one takes you through a whole task."
+    concepts:
+      label: "Concepts"
+      blurb: >-
+        Read one of these when you need to understand how a mechanism works,
+        rather than to look something up.
+    reference:
+      label: "Reference"
+      blurb: "Look these up while you work."

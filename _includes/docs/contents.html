@@ -1,0 +1,84 @@
+{%- comment -%}
+  The contents page at /docs/.
+
+  A card per section, not a list of every page. Three reasons:
+
+  1. It scales. Listing every page inline is fine with one section and
+     unreadable with four.
+  2. The section landing pages are hand written in the docs repo, with their
+     own tables describing each page. Repeating that list here would duplicate
+     a better version of it.
+  3. The sidebar already carries the full tree on every docs page, so nobody
+     needs an exhaustive list to get around.
+
+  Sections come from the collection itself, and names and blurbs from
+  _data/doc_sections.yml, falling back to a title-cased folder name so a new
+  folder in the docs repo renders sensibly rather than blank. Nothing here
+  needs editing when documentation is added.
+
+  Pages belonging to no section, such as the glossary, get a card of their own
+  after the sections.
+{%- endcomment -%}
+
+{%- assign all_docs = site.docs | where_exp: "d", "d.doc_index != true" | sort: "doc_order" -%}
+{%- assign sections = all_docs | map: "doc_section" | uniq -%}
+{%- assign standalone = all_docs | where: "doc_section", "" -%}
+
+<div class="js-docs-contents">
+  <div class="js-docs-contents__grid">
+
+    {%- for section in sections -%}
+      {%- if section == "" -%}{%- continue -%}{%- endif -%}
+      {%- assign meta = site.data.doc_sections[section] -%}
+      {%- assign section_pages = all_docs | where: "doc_section", section -%}
+      {%- assign section_label = meta.label | default: section | replace: "-", " " | capitalize -%}
+      {%- assign groups = section_pages | map: "doc_group" | uniq | where_exp: "g", "g != ''" -%}
+
+      <a class="js-docs-contents__card" href="/docs/{{ section }}/">
+        <h2 class="js-docs-contents__card-title">{{ section_label }}</h2>
+        {%- if meta.blurb -%}
+        <p class="js-docs-contents__card-blurb">{{ meta.blurb }}</p>
+        {%- endif -%}
+        <p class="js-docs-contents__card-meta">
+          {{- section_pages | size }} page{% if section_pages.size != 1 %}s{% endif %}
+          {%- for g in groups -%}
+            {%- assign gmeta = meta.groups[g] -%}
+            {%- if forloop.first %} &middot; {% else %}, {% endif -%}
+            {{ gmeta.label | default: g | replace: "-", " " | capitalize }}
+          {%- endfor -%}
+        </p>
+      </a>
+    {%- endfor -%}
+
+    {%- comment -%}
+      A page outside every section. The glossary is written to be dipped into
+      from anywhere in the docs, so it sits beside the sections rather than
+      inside one.
+    {%- endcomment -%}
+    {%- for doc in standalone -%}
+      <a class="js-docs-contents__card js-docs-contents__card--single" href="{{ doc.url }}">
+        <h2 class="js-docs-contents__card-title">{{ doc.title }}</h2>
+        {%- if doc.excerpt -%}
+        <p class="js-docs-contents__card-blurb">{{ doc.excerpt }}</p>
+        {%- endif -%}
+        <p class="js-docs-contents__card-meta">Single page</p>
+      </a>
+    {%- endfor -%}
+
+    {%- comment -%}
+      The source repository. Worth a card here rather than only on /help/,
+      because anyone arriving on this page from a search result would
+      otherwise have no route to the source or to the PDF build.
+    {%- endcomment -%}
+    {%- if site.data.doc_sections.repo_url -%}
+      <a class="js-docs-contents__card js-docs-contents__card--external"
+         href="{{ site.data.doc_sections.repo_url }}"
+         target="_blank" rel="noopener noreferrer">
+        <h2 class="js-docs-contents__card-title">Source on GitHub</h2>
+        <p class="js-docs-contents__card-blurb">The documentation is written in its own repository. Read it there, raise an issue, or build the whole set as a single PDF.</p>
+        <p class="js-docs-contents__card-meta">External link</p>
+      </a>
+    {%- endif -%}
+
+  </div>
+</div>

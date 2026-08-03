@@ -45,6 +45,18 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
+      # Generates _docs/ and assets/images/docs/ from the junk-docs submodule.
+      # Both are gitignored, so without this step the /docs/ section simply does
+      # not exist in the build. Must run before Jekyll.
+      #
+      # The import fails on a broken link between documentation pages, which
+      # stops the deploy. That is deliberate: a dead link is better caught here
+      # than by a reader.
+      - name: Import documentation
+        run: |
+          python3 -c "import yaml" 2>/dev/null || python3 -m pip install --quiet pyyaml
+          python3 scripts/import-docs.py
+
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
