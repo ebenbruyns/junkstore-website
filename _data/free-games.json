@@ -1,54 +1,6 @@
 {
-  "generated_at": "2026-08-04T02:16:50.673Z",
+  "generated_at": "2026-08-06T20:03:24.078Z",
   "games": [
-    {
-      "id": "manual_1783023148627_symphony-of-war-the-nephilim-saga",
-      "title": "Symphony of War: The Nephilim Saga",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/symphony-of-war-the-nephilim-saga-epic/dp/amzn1.pg.item.db94348f-9423-423e-a707-aed5ebf07c0c?ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2Fb6b32e63b1f94882b523ede79eac02ac%2Fsymphony-of-war-offer-1jbet.png&w=480&output=webp&q=80",
-      "end_date": "2026-08-06T00:00:00.000Z",
-      "end_date_formatted": "Thu, 6 Aug · 00:00 UTC",
-      "first_seen": "2026-07-02 20:12:28",
-      "original_price": "$19.99"
-    },
-    {
-      "id": "manual_1783023183409_lonestar",
-      "title": "LONESTAR",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/lonestar-epic/dp/amzn1.pg.item.6c65c488-c2bc-4715-b90a-d364dd587581?ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F142bbd5f45fb4cf7a61b301d8a3b9900%2Flonestar-p0sgk.jpg&w=480&output=webp&q=80",
-      "end_date": "2026-08-06T00:00:00.000Z",
-      "end_date_formatted": "Thu, 6 Aug · 00:00 UTC",
-      "first_seen": "2026-07-02 20:13:03",
-      "original_price": "$6.99"
-    },
-    {
-      "id": "gp-3725",
-      "title": "Sol Cesto",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/p/sol-cesto-e9b803",
-      "image": "https://www.gamerpower.com/offers/1b/6a6b67cd147d2.jpg",
-      "end_date": "2026-08-06T15:00:00.000Z",
-      "end_date_formatted": "Thu, 6 Aug · 15:00 UTC",
-      "first_seen": "2026-07-30 18:00:43",
-      "original_price": "$13.99"
-    },
-    {
-      "id": "gp-3724",
-      "title": "OTXO",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/p/otxo-396b8b",
-      "image": "https://www.gamerpower.com/offers/1b/6a6b672c49794.jpg",
-      "end_date": "2026-08-06T15:00:00.000Z",
-      "end_date_formatted": "Thu, 6 Aug · 15:00 UTC",
-      "first_seen": "2026-07-30 18:00:43",
-      "original_price": "$14.99"
-    },
     {
       "id": "manual_1783628953761_regular-factory-escape-room",
       "title": "Regular Factory: Escape Room",
@@ -108,6 +60,42 @@
       "end_date_formatted": "Thu, 13 Aug · 00:00 UTC",
       "first_seen": "2026-07-09 20:30:29",
       "original_price": "$12.49"
+    },
+    {
+      "id": "gp-3734",
+      "title": "Spider Fox",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/spider-fox-efd273",
+      "image": "https://www.gamerpower.com/offers/1b/6a74a6d662f14.jpg",
+      "end_date": "2026-08-13T15:00:00.000Z",
+      "end_date_formatted": "Thu, 13 Aug · 15:00 UTC",
+      "first_seen": "2026-08-06 18:02:26",
+      "original_price": "$7.99"
+    },
+    {
+      "id": "gp-3732",
+      "title": "Beacon Pines",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/beacon-pines-629fc3",
+      "image": "https://www.gamerpower.com/offers/1b/6a74a4382f00e.jpg",
+      "end_date": "2026-08-13T15:00:00.000Z",
+      "end_date_formatted": "Thu, 13 Aug · 15:00 UTC",
+      "first_seen": "2026-08-06 18:02:26",
+      "original_price": "$19.99"
+    },
+    {
+      "id": "gp-3731",
+      "title": "We Were Here Together",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/we-were-here-together-6a6d66",
+      "image": "https://www.gamerpower.com/offers/1b/6a74a30f073c6.jpg",
+      "end_date": "2026-08-13T15:00:00.000Z",
+      "end_date_formatted": "Thu, 13 Aug · 15:00 UTC",
+      "first_seen": "2026-08-06 18:02:26",
+      "original_price": "$12.99"
     },
     {
       "id": "gp-3729",
@@ -204,6 +192,30 @@
       "end_date_formatted": "Mon, 31 Aug · 00:00 UTC",
       "first_seen": "2026-07-16 19:54:09",
       "original_price": "$9.75"
+    },
+    {
+      "id": "manual_1786041721255_right-and-down",
+      "title": "Right and Down",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/right-and-down-gog/dp/amzn1.pg.item.8fe59485-dd11-4558-9a36-8a9d367b10e9?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2F970f61924659d0aae8e869a3bcb9e0cb904f2b181f98c0c831e8fd837f13c124.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-09-06T00:00:00.000Z",
+      "end_date_formatted": "Sun, 6 Sept · 00:00 UTC",
+      "first_seen": "2026-08-06 18:42:01",
+      "original_price": "$4.99"
+    },
+    {
+      "id": "manual_1786041810381_hiveswap-friendsim",
+      "title": "Hiveswap Friendsim",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/hiveswap-friendsim-gog/dp/amzn1.pg.item.8e0d3ee4-446f-435e-bfb4-33fe97d25af8?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2F1dffba9c4471ca706d8d567ffc58818b804f9f30b351628a9f9062abeb3372c6.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-09-10T00:00:00.000Z",
+      "end_date_formatted": "Thu, 10 Sept · 00:00 UTC",
+      "first_seen": "2026-08-06 18:43:30",
+      "original_price": "$1.59"
     },
     {
       "id": "manual_1781815170095_space-grunts-2",
