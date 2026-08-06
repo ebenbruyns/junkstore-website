@@ -126,6 +126,13 @@ known_issues:
 database_id: "52d88e9a6df248da913c8e99f1e4c526"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "281d1d0a4fa0d882"
 ---
 
 In Prey, you awaken aboard Talos I, a space station orbiting the moon in the year 2032. You are the key subject of an experiment meant to alter humanity forever – but things have gone terribly wrong.

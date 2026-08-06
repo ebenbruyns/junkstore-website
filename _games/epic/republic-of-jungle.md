@@ -126,6 +126,13 @@ known_issues:
 database_id: "3bb6343f56bd47e095610348c8fabdba"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "638c7b951c3faa83"
 ---
 
 Gather your friends (5 to 10 players) and play as advisors to President Puma. In a social deduction party game, Leakers try to sneak into missions to leak Puma's secrets- Loyalists try to suss them out. Read the room and bluff your way to a political victory.

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-25T23:28:43.289Z",
-  "total_games": 1065,
+  "generated_at": "2026-08-06T03:01:04.514Z",
+  "total_games": 1069,
   "storefronts": {
     "Epic": {
-      "total": 497,
-      "green_standalone": 436,
-      "green_decky": 447
+      "total": 499,
+      "green_standalone": 438,
+      "green_decky": 449
     },
     "GOG": {
-      "total": 400,
-      "green_standalone": 328,
+      "total": 402,
+      "green_standalone": 330,
       "green_decky": 361
     },
     "Amazon": {
@@ -5442,6 +5442,18 @@
       "databaseId": "3047a2d268da49588bbd22c806cde4de"
     },
     {
+      "slug": "otxo",
+      "id": "198fa31d58d344608a05cfd698482863",
+      "title": "OTXO",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": false,
+      "publisher": "Super Rare Originals",
+      "controller_input": "native"
+    },
+    {
       "slug": "outliver-tribulation",
       "id": "533cb5c7-4a4b-40e5-9094-0bca3ccb2696",
       "title": "Outliver: Tribulation",
@@ -6406,6 +6418,19 @@
       "publisher": "CI Games SE",
       "controller_input": "native",
       "databaseId": "f8b6cc851ab34f5f9f07654426dc2429"
+    },
+    {
+      "slug": "sol-cesto",
+      "id": "e1b0c0d3a2ed407bba6437842eb8f5ac",
+      "title": "Sol Cesto",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "cant_test_linux": false,
+      "native_linux": false,
+      "publisher": "Maple Whispering Limited",
+      "controller_input": "keyboard-mouse"
     },
     {
       "slug": "solar-ash",
@@ -14009,6 +14034,17 @@
       "databaseId": "2057748185"
     },
     {
+      "slug": "weakless",
+      "id": "1993411830",
+      "title": "Weakless",
+      "storefront": "GOG",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": false,
+      "publisher": "Punk Notion"
+    },
+    {
       "slug": "whispering-willows",
       "id": "5f186232-4df1-4a15-85dc-68887f8006ca",
       "title": "Whispering Willows",
@@ -14189,6 +14225,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1437564865"
+    },
+    {
+      "slug": "zoria-age-of-shattering",
+      "id": "1976780992",
+      "title": "Zoria: Age of Shattering",
+      "storefront": "GOG",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": true,
+      "publisher": "Surefire.Games",
+      "controller_input": "native"
     },
     {
       "slug": "10-flights-of-ballooning",

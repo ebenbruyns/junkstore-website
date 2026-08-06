@@ -126,6 +126,13 @@ known_issues:
 database_id: "b979fad811c64939af282f5892049b50"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-07-01"
+content_hash: "7a4bd298d4ed521c"
 ---
 
 SAIL THE STARS. BETRAY YOUR QUEEN. MURDER A SUN. Sunless Skies is a Gothic Horror roleplay game with a focus on exploration and exquisite storytelling.

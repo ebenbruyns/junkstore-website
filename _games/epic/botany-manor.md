@@ -126,6 +126,13 @@ known_issues:
 database_id: "19903497b6bf4b4fb601e96680333173"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "f87fcab5f8b2e530"
 ---
 
 Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora.

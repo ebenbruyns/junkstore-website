@@ -126,6 +126,13 @@ known_issues:
 database_id: "ab277c0995e945d2b2c50c46883627f1"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "cb719eb5ab012448"
 ---
 
 Build and grow your very own computer repair enterprise as you learn to diagnose, fix and build PCs. With real-world licensed components and comprehensive hardware and software simulation, you can plan and bring your ultimate PC to life.

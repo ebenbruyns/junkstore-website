@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.84582bbf-6d74-4d4b-b9ea-40a7ebc7da27"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "89e49d5914f20efd"
 ---
 
 Spitlings is a cute but hardcore Arcade game that’s made for playing locally with friends. Over hundred levels to start with and an easy-to-learn level editor will make sure, you never run out of challenges. Keep playing to unlock new music tracks, new characters to play with and new visual themes for certain levels. With the level editor, players can first build a level together and play it right afterwards. The multiplayer is cooperative to the last extend: If one player fails, everyone has to restart the level. Prepare for a lot of shouting.

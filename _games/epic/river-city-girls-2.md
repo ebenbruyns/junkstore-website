@@ -126,6 +126,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-07-01"
+content_hash: "927db28f62daf5b3"
 ---
 
 Picking up shortly after the original, River City Girls 2 once again put you in control of Misako and Kyoko - as well as Kunio, Riki, and a few new characters - as they set out on an all-new beat-'em-up adventure across the mean streets of River City. New moves, new enemies, new recruits, new environments, and the return of an old foe await, along with the same over-the-top sense of humor and adrenaline-pumping combat of its predecessor. The game will also feature two-player co-op action both locally and online.

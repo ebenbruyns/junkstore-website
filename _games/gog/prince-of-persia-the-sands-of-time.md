@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207658747"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "4ebe80bab8538ca4"
 ---
 
 Prince of Persia: The Sands of Time is a third-person puzzle-platformer and action-adventure computer and video game published by Ubisoft. It is a reboot of the landmark video game series Prince of Persia created by Jordan Mechner, who served as creative consultant, designer, and scenario writer for The Sands of Time.

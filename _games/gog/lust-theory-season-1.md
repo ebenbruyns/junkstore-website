@@ -130,6 +130,13 @@ known_issues:
 database_id: "1582333296"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "2c1633761d87844f"
 ---
 
 Lust Theory is an adult Visual Novel in which you take control of a 20 year old guy whose life is turned up side down when he finds out that the same day is repeating. The game is packed with sex, humor, romance, drama and mystery.

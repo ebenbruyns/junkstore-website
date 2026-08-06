@@ -126,6 +126,13 @@ known_issues:
 database_id: "0b2f8e139c2344e7ac30b8de7239fcb0"
 is_featured: true
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "48724bd5eb0b3950"
 ---
 
 This brutal, obscure, and punishing action-adventure roguelite is set in a shady and beset post-apocalyptic world. Play relentless isometric close-quarter battles with an art style reminiscent of the 1980s dark age of adult superhero graphic novels.

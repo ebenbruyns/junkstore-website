@@ -126,6 +126,13 @@ known_issues:
 database_id: "29d12cc907b148dd957a709f1414843e"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "0c7daf5b56c5d312"
 ---
 
 Death's Gambit: Afterlife is a challenging 2D action platformer with deep RPG elements. As an agent of Death bound to his service, unravel the mystery of Siradon and discover the true price of immortality.

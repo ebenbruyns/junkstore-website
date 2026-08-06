@@ -130,6 +130,13 @@ known_issues:
 database_id: "2095461205"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "a0dea7bf631008e9"
 ---
 
 Godfather Odin has chosen the Diggles to set out on a long and burdensome expedition to the center of the earth where the hound of hell, Fenris, spreads terror. Fenris was once Odin's watchdog and ran away. Ever since he became aware of his growing power and strength he has been terrifying the underground world. Fenris must be disarmed and put on a chain. This task requires a very special chain, a chain that can only be forged by the Diggles...

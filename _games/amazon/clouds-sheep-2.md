@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.2cbd524e-6778-4f53-b367-b3255aca792c"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "9591ea829d986b8d"
 ---
 
 In this eagerly anticipated sequel of the game “Clouds & Sheep”, the cute sheep are finally on the loose again! Solve countless quests and fulfill your wooly friends’ needs.

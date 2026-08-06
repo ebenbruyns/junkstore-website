@@ -130,6 +130,13 @@ known_issues:
 database_id: "1345516108"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "b15a5a4a9c70ed99"
 ---
 
 Hard West 2 is a supernatural journey to the dark heart of the West. With a gun full of lead and a fistful of witchcraft, raise an outlaw posse and chase down the devil to take back what’s yours.

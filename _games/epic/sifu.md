@@ -126,6 +126,13 @@ known_issues:
 database_id: "d36336f190094951873ed6138ac208d8"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-05-01"
+content_hash: "8a3a5e96ea7af72e"
 ---
 
 A third person action game featuring intense hand-to-hand combat, it puts you in control of a young Kung-Fu student on his path of revenge throughout the city.

@@ -126,6 +126,13 @@ known_issues:
 database_id: "be0f81a12c8c462b98ffae5813f2dcc8"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "90f1c4a05f50503e"
 ---
 
 Join Detective McQueen as he puzzles his way through 6 cases, risking life and pixelated limb to solve the macabre mysteries that plague the poor town.

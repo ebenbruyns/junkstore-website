@@ -126,6 +126,13 @@ known_issues:
 database_id: "c5109bdceb3a453bb38c2fdc964ddee8"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "f98bd486f61e585b"
 ---
 
 Welcome to the club! Write poems for your crush and experience the terror of school romance in this critically-acclaimed psychological horror story.

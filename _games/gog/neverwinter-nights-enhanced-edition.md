@@ -130,6 +130,13 @@ known_issues:
 database_id: "1097893768"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "b9c53652cee20cc4"
 ---
 
 Neverwinter Nights: Enhanced Edition is an updated version of the 2002 video game Neverwinter Nights. The Enhanced Edition is based on Neverwinter Nights: Diamond Edition and it comes with the base game as well as the Shadows of Undrentide, Hordes of the Underdark, Kingmaker, Witch's Wake and ShadowGuard expansions. Remastered version brings numerous technological improvements to the game, including an updated graphics engine and revitalized multiplayer support.

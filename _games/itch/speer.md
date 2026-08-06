@@ -118,6 +118,13 @@ known_issues:
 database_id: "153813"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "5dcf99a9b9050a3e"
 ---
 
 Grab your Speer and use it to make your way through this puzzle-platformer! Throw your Speer into walls and use it as a platform, hurl it at switches, hit enemies in the face with it, power it up with unique abilities...the possibilities are endless!* 

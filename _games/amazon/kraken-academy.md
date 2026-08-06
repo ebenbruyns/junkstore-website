@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.3779e9cb-56b9-4f31-937c-16d18ddc8610"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "e252259973129c35"
 ---
 
 Make friends, free spirits and make sure that the world doesn’t end! Welcome to Kraken Academy, a technicolor fever dream that for legal reasons can only be described as "technically a school." Join forces with a magical kraken to manipulate a time loop and save the world.

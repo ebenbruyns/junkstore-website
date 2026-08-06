@@ -126,6 +126,13 @@ known_issues:
 database_id: "69bac58b0e6b4149b66024b4232e057f"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-08-01"
+content_hash: "649798729f52f4ea"
 ---
 
 Chronoshot is a free-to-play sci-fi arena shooting game, with specialized time mechanics. Time in the game moves when the player does, allowing players to set up shots, create combos, or examine the arena to determine their next move against a growing number of enemies.

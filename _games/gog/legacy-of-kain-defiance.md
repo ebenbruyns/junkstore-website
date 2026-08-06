@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207659088"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "96bdf64c132c2a1a"
 ---
 
 Swords, sorcery, souls, and buckets of blood await you in Legacy of Kain: Defiance. Return to the corrupt world of Nosgoth, where the disfigured wraith Raziel pursues his creator, the vampire overlord Kain. Separated by their common enemies and time itself, the two anti-heroes must wage their own personal battles to discover what lies behind their destinies and defeat the vicious forces that seek to condemn their world to eternal damnation. While their foes plot and scheme, Kain and Raziel embark on a dark and twisted odyssey. In the end, only one of them may be left standing. 

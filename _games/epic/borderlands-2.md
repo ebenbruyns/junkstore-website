@@ -126,6 +126,13 @@ known_issues:
 database_id: "Dodo"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-09-01"
+content_hash: "a7b9868ab9377ebf"
 ---
 
 The time is now to take out Handsome Jack.  Gather up your friends as you run rampant through the world collecting bazillions of loot and guns in an effort to save Pandora from the evil grips of the Hyperion Corporation.

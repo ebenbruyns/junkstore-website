@@ -130,6 +130,13 @@ known_issues:
 database_id: "1345182195"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "ccbfc79ab4a711fd"
 ---
 
 In a fantastical Venice, The Corpus are deceived by a cunning necromancer. Transformed into an undead fiend, the conniving imposter is hell-bent on destroying the reinstated Death and the council of Corpus. Only Scarlett, the daughter of Death, can stand in his way.

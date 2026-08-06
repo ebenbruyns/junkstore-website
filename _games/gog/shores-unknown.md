@@ -130,6 +130,13 @@ known_issues:
 database_id: "1689019552"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "9b9a167fbaf9ab21"
 ---
 
 A turn-based tactical RPG rendered in a rich, low-poly aesthetic. Build your own team of mercenaries, forge alliances, wage battles, and journey beyond the seething wall of fog known only as the Murk in this decision-influenced, narrative-driven adventure. What dangers await you on Shores Unknown?

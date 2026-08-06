@@ -118,6 +118,13 @@ known_issues:
 database_id: "51308"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "d4ea1043937e67f9"
 ---
 
 About Love, Hate and the other ones“ is a mindbending puzzle game in which you take control of the two main characters Love and Hate. Guide them through 60 levels to take them back home to their beloved hill. You will encounter different Other Ones with unique behaviours, depending on whether Love or Hate interacts with them.

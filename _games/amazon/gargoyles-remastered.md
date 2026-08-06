@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.78bcc9f5-4880-40e9-8635-0908a207e752"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "ad22d3e5760c7eb3"
 ---
 
 Relive the legend of Goliath and save the world from destruction.

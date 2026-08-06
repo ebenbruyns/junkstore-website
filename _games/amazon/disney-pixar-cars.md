@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.c07ca4c1-c030-406b-a740-874db46f01c7"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "47b3b4ce326cdfb1"
 ---
 
 Play as Lightning McQueen, a rookie racecar looking to win fame and fortune at the Piston Cup Championship, in the video game adaptation of Disney&bull;Pixar's Cars. A racing adventure game with ten playable characters from the film, Cars offers more than 30 races and mini-games through open environments. The game includes voice talent from the movie, so listen for moral lessons from Larry the Cable Guy and comic relief from Cheech Marin.

@@ -126,6 +126,13 @@ known_issues:
 database_id: "e87a43f695bc409ca8858206678ac7e7"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "d670296d6b86f7fc"
 ---
 
 shapez is a game about building factories to automate the creation and processing of increasingly complex shapes across an infinitely expanding map.

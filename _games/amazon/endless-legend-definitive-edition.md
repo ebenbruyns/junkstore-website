@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.6d93b0e4-54dd-4046-9363-d72d877ef6fd"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "0c8c29c4e4548bc9"
 ---
 
 Endless Legend is the turn-based 4X fantasy strategy game from Amplitude Studios. Your home planet of Auriga is an inhospitable planet. As the leader of your people, it is your duty to protect and guide them... but you are not the only one trying to survive and thrive on this planet. Will you be remembered as the explorer who unlocked the secrets of Auriga, the magnate who mastered the subtle arts of diplomacy and trade, or the warmonger whose legacy was written in blood? The choice is yours.

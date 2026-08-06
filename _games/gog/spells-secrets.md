@@ -130,6 +130,13 @@ known_issues:
 database_id: "1377413834"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "689f8da034bb058e"
 ---
 
 Spells & Secrets is a modern-day fantasy roguelike set in a procedurally generated wizarding school. Players can craft their own wizard using in-depth character creation, team up with a friend via local co-op, and get creative with an arsenal of physics-based magic, using clever combinations of spells to get the upper hand against puzzles and enemies alike.

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1666688320"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-09-01"
+content_hash: "3e04b78698a39d62"
 ---
 
 You and your sister had finally found a safe haven in a small fishing village. But more troubles came soon after that. The threat of an unstoppable crew of pirates spread its shadow over the entire kingdom. Your beloved sister was kidnapped by the pirates and taken far away to lands unknown. You have no choice but to embark on a journey to save her. You must be brave. You will travel to the end of the world, helping people, fulfilling quests, learning valuable skills, and finding hundreds of useful items.

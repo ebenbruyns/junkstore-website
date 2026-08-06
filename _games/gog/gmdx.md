@@ -130,6 +130,13 @@ known_issues:
 database_id: "1553376539"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "be89f5bfaaca6466"
 ---
 
 Dubbed the "Definitive Deus Ex Experience" web-wide, GMDX is a one-of-a-kind all-encompassing modification of the classic video game Deus Ex, currently half a decade into rigorous development. Intended to be the best looking and playing version of Deus Ex available all the while remaining true to the original identity of the game, GMDX is the greatest thinking man's Shooter/Sneaker/RPG hybrid on another level. Prepare to be blown away by Deus Ex once more.

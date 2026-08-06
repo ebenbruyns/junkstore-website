@@ -126,6 +126,13 @@ known_issues:
 database_id: "fdbd9987b8344d2ead326c7f18d6da0e"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "7ce5be643e13eaaf"
 ---
 
 Witch It is a multiplayer "hide & seek" game in a living, magical world. Brave hunters seek hidden witches that curse their villages!

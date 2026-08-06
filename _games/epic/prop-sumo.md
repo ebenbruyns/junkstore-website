@@ -126,6 +126,13 @@ known_issues:
 database_id: "f8e2163786ea463d81e1374df329fe5b"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-04-01"
+content_hash: "fb5e3773a97c696e"
 ---
 
 Prop Sumo is a party fighting game that pits ordinary props against each other in extraordinary battles!

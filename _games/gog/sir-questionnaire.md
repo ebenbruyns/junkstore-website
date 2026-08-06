@@ -130,6 +130,13 @@ known_issues:
 database_id: "1900796646"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "fbb435f6caab3282"
 ---
 
 "Sir Questionnaire is a turn-based hack’n’slash game, where you enter a dungeon and each room gives you two options: leave the room, or interact with what ever is in the room. This can be monsters, but also debris, treasure chests, pools of water, or just another door!

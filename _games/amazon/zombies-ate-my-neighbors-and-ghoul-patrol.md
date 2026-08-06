@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.6a9ea1e3-a5b6-4798-b708-2206da9999ef"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "de43f7e6ae554c95"
 ---
 
 The cult classic Zombies Ate My Neighbors and its sequel make their long awaited return in Zombies Ate My Neighbors and Ghoul Patrol! Play these classics from the golden age of 16-bit gaming with new enhancements and never before seen museum features.

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1321737474"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-09-01"
+content_hash: "e1ea78da3904c499"
 ---
 
 Hell Division is a game from the 3rd person, which is a battle of combat drones.

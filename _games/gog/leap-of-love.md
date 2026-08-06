@@ -130,6 +130,13 @@ known_issues:
 database_id: "1111421371"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "0dbb30c9d8faebe2"
 ---
 
 Leap of Love is a fantasy game where you play as Kaheroux a frog turned prince by a shady wizard. The catch of that spell is that he needs to find and marry a princess within a month or go back to being a frog.

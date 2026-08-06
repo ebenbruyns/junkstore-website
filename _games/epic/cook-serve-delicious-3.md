@@ -126,6 +126,13 @@ known_issues:
 database_id: "680599141dc14accb456887a2be3ac0c"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "61f7447da04a9d8b"
 ---
 
 Cook, serve and manage your food truck as you dish out hundreds of different foods across war-torn America in this massive sequel to the million-selling series!

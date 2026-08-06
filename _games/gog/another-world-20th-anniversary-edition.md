@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207658845"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "2568221a4092ed99"
 ---
 
 Also known as Out Of This World™, Another World is a pioneer action/platformer that released across more than a dozen platforms since its debut in 1991. Along the years, Another World™ has attained cult status among critics and sophisticated gamers alike.

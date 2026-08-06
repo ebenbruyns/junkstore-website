@@ -126,6 +126,13 @@ known_issues:
 database_id: "6dfbeb5a6f2e42b5a6a5dcf7a8269e9c"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "9d59f4a4713ed8b1"
 ---
 
 Become a medieval thug in a crazy open-world action game, full of pop-culture references. Complete insane quests, kill heroes, steal horses, fight guards, rob peasants, listen to some bard music, and much more! All packed in old-school gameplay style!

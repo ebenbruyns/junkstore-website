@@ -130,6 +130,13 @@ known_issues:
 database_id: "1950069341"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "7371fc14087a19c4"
 ---
 
 Coromon is a modern monster taming game with retro pixelart. Coromon brings an immersive storyline, strategic turn-based combat and challenging puzzles to a classic genre.

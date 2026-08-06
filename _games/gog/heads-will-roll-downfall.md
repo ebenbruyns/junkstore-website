@@ -130,6 +130,13 @@ known_issues:
 database_id: "1541870183"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-09-01"
+content_hash: "564c4c8b1dfd513a"
 ---
 
 Heads Will Roll: Downfall is a combination of a tactical role-playing game and visual novel, in which you will assume the role of a medieval soldier.

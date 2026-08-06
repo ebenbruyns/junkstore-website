@@ -126,6 +126,13 @@ known_issues:
 database_id: "f0c0868c860f4eb7a150d980e037e1c6"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-04-01"
+content_hash: "4c0d334b42835231"
 ---
 
 Monster Harvest is a monster collecting and farming action RPG with a twist! Grow, collect and mutate your crops then take them into battle!

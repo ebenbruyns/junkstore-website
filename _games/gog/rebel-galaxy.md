@@ -130,6 +130,13 @@ known_issues:
 database_id: "1435582019"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "204f7fc09ab2a5e7"
 ---
 
 Rebel Galaxy is a game of action-packed combat, exploration, discovery, trade, and “negotiation” with the outlandish denizens at the edge of the known universe.  You’ll battle pirates, explore anomalies, befriend aliens, scavenge battle wreckage, mine asteroids, and discover a...

@@ -126,6 +126,13 @@ known_issues:
 database_id: "Hoatzin"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "643b341b4f52dab8"
 ---
 
 Delivery Attempted. T.R.D.S. is a ragdoll physics simulation about terrible package delivery couriers.

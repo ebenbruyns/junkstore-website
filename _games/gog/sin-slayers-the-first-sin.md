@@ -130,6 +130,13 @@ known_issues:
 database_id: "1603656118"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "e0e3aed1efc4df28"
 ---
 
 Sin Slayers is an RPG with roguelike elements set in a dark fantasy world, where your choices determine how challenging the fights and enemies will be. You have arrived in an unfamiliar place, where demons are kings. Find a way to get out of here or wander these lands endlessly.

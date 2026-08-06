@@ -130,6 +130,13 @@ known_issues:
 database_id: "1426240474"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "9cd2cb8744bb689c"
 ---
 
 Explore an abandoned trading post and solve a complex puzzle to investigate the terrible secret it holds. The Whisperer is a short story-driven point & click game set in Lower Canada at the beginning of the 19th century.

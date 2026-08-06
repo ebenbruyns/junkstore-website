@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.ad2df02e-142e-48ac-95ce-51b7e75b065e"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "ef2e1918daf2f9b2"
 ---
 
 Dread Templar is a fast-paced hardcore old-school FPS, combining classic 90s shooter and modern FPS elements. Unlock and combine dozens of weapon upgrades and skills, embrace the Dread Force and obliterate hordes of fiendish enemies. Become the scariest thing in hell and get your revenge!

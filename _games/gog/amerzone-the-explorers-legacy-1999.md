@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207658847"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "c388cf50fce31cef"
 ---
 
 Amerzone is a first person adventure, similar to Myst, using 360º vision, movement and point & click interface. It's the first adventure game from the author of Syberia and Syberia 2, Benoît Sokal, presenting very rich scenarios and more than 50 puzzles to solve and 200 locations to visit.

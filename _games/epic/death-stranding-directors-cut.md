@@ -126,6 +126,13 @@ known_issues:
 database_id: "c38f51843fdf4db0b24fc907b8d78221"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "27bb7768c74328ba"
 ---
 
 From legendary game creator Hideo Kojima comes a genre-defying experience, now expanded in this definitive DIRECTOR’S CUT. As Sam Bridges, your mission is to deliver hope to humanity by connecting the last survivors of a decimated America. 

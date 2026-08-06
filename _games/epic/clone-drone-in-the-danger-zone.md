@@ -126,6 +126,13 @@ known_issues:
 database_id: "c83b3a3d5d3e4658a87724f0bbf32e27"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-04-01"
+content_hash: "766dbfc0b7f81ac2"
 ---
 
 Clone Drone in the Danger Zone is a robot voxel slice-em-up where any part of your body can be sliced off. With your mind downloaded into a robot gladiator, you must survive the sinister trials of the arena.

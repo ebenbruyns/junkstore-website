@@ -126,6 +126,13 @@ known_issues:
 database_id: "0a2d9f6403244d12969e11da6713137b"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "3e89a78793f6e4d9"
 ---
 
 Fall Guys is a free, cross-platform multiplayer party royale game. Dive into escalating rounds of hilarious obstacle courses, lively survival arenas and more!

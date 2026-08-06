@@ -126,6 +126,13 @@ known_issues:
 database_id: "f3a0b50da2dd4226b8308c7e5fa1fbb6"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "733291b7c37fc300"
 ---
 
 Lead armies, rebuild fallen kingdoms, and rise to greatness! Embark on an epic journey of strategy in a visually stunning world. Fight intense battles and uncover a captivating story.

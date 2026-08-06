@@ -130,6 +130,13 @@ known_issues:
 database_id: "1990946201"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "1c955d99a8a092c0"
 ---
 
 Terroir is a 3D tile-based tycoon game where you manage your very own vineyard. In Terroir, you grow a variety of different grape varietals, craft your wine, and expand and manage your Chateau, all the while dealing with the weather and events that can either make or break your business.

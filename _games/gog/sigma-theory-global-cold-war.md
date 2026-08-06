@@ -130,6 +130,13 @@ known_issues:
 database_id: "1986246769"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "073ad7110b621599"
 ---
 
 A Turn-based Strategy game in a futuristic global cold war from the award-winning creators of Out There. Recruit a squad of special agents and run your intel agency to secure the control of the singularity.

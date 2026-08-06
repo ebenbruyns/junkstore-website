@@ -130,6 +130,13 @@ known_issues:
 database_id: "1963513391"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-06-01"
+content_hash: "8a70de96dd83f1d3"
 ---
 
 Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era...

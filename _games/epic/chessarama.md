@@ -126,6 +126,13 @@ known_issues:
 database_id: "a1292bca78514801bc03571e9247909d"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-05-01"
+content_hash: "b7c05f9a403dfab4"
 ---
 
 Chessarama is a collection of chess-inspired puzzle and strategy games that use chess pieces and their established move sets, then reimagines their goals and themes. Solve challenges, unlock collectibles, and compete against each other on the leaderboards. Welcome to Chessarama!

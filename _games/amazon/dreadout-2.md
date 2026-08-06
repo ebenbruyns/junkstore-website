@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.c2f04483-a8a8-496d-88df-80831dd2bbb6"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "16c2b3765255b2c1"
 ---
 
 Second installment of a third person action adventure survival horror with Indonesian supernatural in veins. Mixed gameplay of city exploring, “DreadOut” style smartphone ghost hunting and new action packed battle within DreadOut supernatural world.

@@ -126,6 +126,13 @@ known_issues:
 database_id: "Wombat"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "a7695caaeeaa21f1"
 ---
 
 Humanity is on the brink of extinction. From New York to Moscow and Jerusalem, the undead apocalypse continues to spread. As the end looms, a hardened few bands together to defeat the horde and outlive the dead.

@@ -126,6 +126,13 @@ known_issues:
 database_id: "Eider"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-07-01"
+content_hash: "1f7189bf7ed6e2f5"
 ---
 
 Become Agent 47 in the ultimate spy-thriller adventure across more than 20 locations

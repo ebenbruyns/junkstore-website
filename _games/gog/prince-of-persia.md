@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207659109"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "ec6188dc0c5637d0"
 ---
 
 Prince of Persia is an action-adventure and platforming video game developed by Ubisoft Montreal and published by Ubisoft. It is part of the Prince of Persia franchise.

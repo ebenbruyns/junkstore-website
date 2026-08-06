@@ -126,6 +126,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "92d8823dbbb86bd9"
 ---
 
 Yo Joe! Cobra returns once again with its most fiendish plot yet and it's up to G.I. JOE to defeat them once more! Pick one of the real American heroes, gear up, and get straight into the fight in this retro side-scrolling beat 'em up - and make Cobra RETREAT yet again!

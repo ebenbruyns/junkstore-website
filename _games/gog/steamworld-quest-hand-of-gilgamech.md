@@ -130,6 +130,13 @@ known_issues:
 database_id: "1941294775"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-01-01"
+content_hash: "0bf5bca459103a77"
 ---
 
 SteamWorld Quest is the roleplaying card game you’ve been waiting for! Lead a party of aspiring heroes through a hand-drawn world and build, craft and upgrade your party’s decks in order to stop an ancient menace…

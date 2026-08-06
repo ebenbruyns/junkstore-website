@@ -130,6 +130,13 @@ known_issues:
 database_id: "1760534591"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "ea10a62ce5cb77a6"
 ---
 
 Sid Meier’s Civilization is widely recognized as one the greatest PC game franchises of all-time. Heralded as one of the top ten games of 2005, Civilization IV is a must-have for gamers around the globe. Sid Meier’s Civilization IV: The Complete Edition includes Civilization IV, plus all three expansions: Warlords, Beyond the Sword and Colonization.

@@ -118,6 +118,13 @@ known_issues:
 database_id: "340583"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "9a14a85d4712cd3a"
 ---
 
 Welcome to Arlo's first adventure, in an old-school platformer fashion! Complete with amazing chiptune tracks!

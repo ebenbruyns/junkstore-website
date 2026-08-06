@@ -130,6 +130,13 @@ known_issues:
 database_id: "1603513052"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "61c943f8e86843ee"
 ---
 
 Jupiter Hell is a classic turn-based roguelike set in a 90's flavored sci-fi universe. Rip and tear zombies, demons and unmentionable monstrosities, using shotguns, chainguns and the trusty chainsaw, to the shine of CRT monitors and the tune of heavy metal!

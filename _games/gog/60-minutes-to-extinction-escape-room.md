@@ -130,6 +130,13 @@ known_issues:
 database_id: "1790237640"
 is_featured: true
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "5a37c51e7be0bb94"
 ---
 
 You have exactly 60 minutes to save humanity from nuclear extinction. There are no second attempts. No manual saves. Explore a collapsing bunker, repair critical systems, and solve puzzles under pressure. Succeed or watch the world end.

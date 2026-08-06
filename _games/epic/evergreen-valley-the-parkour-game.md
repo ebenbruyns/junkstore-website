@@ -126,6 +126,13 @@ known_issues:
 database_id: "6706b62c1c184f1ebea7121eaeeade9a"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-04-01"
+content_hash: "7f427112f3d2278d"
 ---
 
 Evergreen Valley is a parkour adventure set in a stylized town. Jump, climb, and conquer every obstacle to reach the top! But beware! One fall, and it’s back to the very beginning!

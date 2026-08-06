@@ -118,6 +118,13 @@ known_issues:
 database_id: "403630"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "b80b7cfecae648a3"
 ---
 
 Alt-Frequencies takes players on an audio-based journey where interactive investigation meets podcasting, and players are tasked with unravelling a mystery taking place between multiple radio stations among a disparate group of people.

@@ -126,6 +126,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "b5d8c1c108b4f517"
 ---
 
 Keep your trigger finger on the pulse! In rhythm shooter Robobeat, it’s all about maximising your damage by shooting to the beat. Wall run, grapple hook, slide, and bunny hop your way through the haphazard mansion of a crazed robot-showman.

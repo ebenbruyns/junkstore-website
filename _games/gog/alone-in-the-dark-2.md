@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207660963"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-07-01"
+content_hash: "1dc83c728852d7eb"
 ---
 
 Alone in the Dark 2 is the second instalment in the series and a direct sequel to Alone in the Dark. Like its predecessor, the game uses hybrid 2D–3D graphics and requires players to solve numerous puzzles while fighting zombie pirates along the way. Some enemies can be killed using the wide range of weapons at the player’s disposal, while others must be defeated through trickery.

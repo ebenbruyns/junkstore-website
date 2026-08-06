@@ -126,6 +126,13 @@ known_issues:
 database_id: "23cbdd44de914e9caec216acefc51f9b"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-05-01"
+content_hash: "5debf9aa8e31d8de"
 ---
 
 Complete bounties, acquire legendary loot, upgrade your gear, and level up as you fight back against invading monsters in this side-scrolling looter shooter RPG.

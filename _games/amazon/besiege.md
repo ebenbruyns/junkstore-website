@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.2a89bb26-b356-4c43-bee0-27835a9a8979"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "1deef35abd7c4520"
 ---
 
 Besiege is a physics building game about constructing mechanical machines to annihilate armies, obliterate castles, and overcome obstacles.

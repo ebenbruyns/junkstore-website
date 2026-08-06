@@ -130,6 +130,13 @@ known_issues:
 database_id: "1876546888"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "0022d71f7e559eff"
 ---
 
 Guide young Finley through his first weeks at a provincial hospital. He is on fire for his apprenticeship as an internist. But a lot of pressure makes Finley's life difficult and our gameplay challenging.

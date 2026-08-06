@@ -126,6 +126,13 @@ known_issues:
 database_id: "bd35425c9548494082d002f36601ff45"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-05-01"
+content_hash: "15d890ed2f0e4295"
 ---
 
 Rogue Legacy 2 is an Action Platforming RPG Rogue-LITE, where every time you die, your children succeed you. Each child is unique. Your daughter might be a Colourblind Archer, and your son could be a Pacifistic Chef.

@@ -118,6 +118,13 @@ known_issues:
 database_id: "800614"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "0ce275f052278261"
 ---
 
 BARD HARDER! is a tabletop-inspired visual novel game about saving your friends from the Big Bad Evil Guy by using your strongest weapon: romance! So brush up on your pick-up lines and prepare some sexy tunes…what’s the worst that could happen?

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1370227705"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "a2b60d62ce120ba7"
 ---
 
 Deus Ex: Human Revolution - Director's Cut was released on October 22, 2013 for Xbox 360, PS3, PC and Wii U. It features approximately 8 hours of director's commentaries and a 45 minute “Making Of” video. It also features an improved visual engine and a complete overhaul of the boss battles.

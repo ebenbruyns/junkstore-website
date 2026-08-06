@@ -130,6 +130,13 @@ known_issues:
 database_id: "2037689757"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "138391935cb715bb"
 ---
 
 The US President must save the Earth from alien overlord Zinyak using superpowers and strange weapons in the wildest open world game ever. Includes all available DLC!

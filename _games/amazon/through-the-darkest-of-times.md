@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.d306715a-5b83-467f-9795-ffb3e0b9575b"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "a1abaf4206582d8b"
 ---
 
 Through the Darkest of Times is a strategy game, that let's you play a resistance group in Third Reich Berlin. The game covers the entire time from Hitler's seizure of power 1933 to Germany's unconditional surrender 1945.

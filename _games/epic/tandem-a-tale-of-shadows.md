@@ -126,6 +126,13 @@ known_issues:
 database_id: "57ad8e72d9a446dea9ef5cac2770a0b8"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-12-01"
+content_hash: "d0e4d362d3b4a37a"
 ---
 
 Tandem : A Tale of Shadows redefines the puzzle platformer genre with a unique gameplay and exceptional aesthetics. Help Emma and the teddy bear Fenton solve the mystery of the disappearance of the famous magician Thomas Kane.

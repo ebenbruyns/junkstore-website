@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.07193203-cbad-4497-8311-2ef7bf749bc9"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "1fdccdd4149ad563"
 ---
 
 Night Reverie is a Puzzle/Adventure game in which a child must solve the mystery behind the distortion of his house. Explore puzzle-filled environments and discover strange creatures living in the house as you reach the truth behind of what looks like a bizarre nightmare.

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1263855454"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "376eab0a6a8bd86a"
 ---
 
 DeathKeep is a D&D dungeon delving the way you like it - fast, furious and fun! An evil Necromancer has escaped from his icy prison and is wreaking havoc upon the surrounding lands. Journey to this frozen wasteland and destroy the forces of evil - if you dare.

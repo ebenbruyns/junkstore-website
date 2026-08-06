@@ -130,6 +130,13 @@ known_issues:
 database_id: "2037198195"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "f4da2dd804f25280"
 ---
 
 Create alliances, defeat enemy kingdoms and forge an empire in this Dungeons & Dragons game world! Under the computer Dungeon Master, you'll interact with fantastic races, command dozens of troop types, send your heroes on quests and construct a variety of buildings and fortifications.

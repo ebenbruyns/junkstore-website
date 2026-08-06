@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207659101"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-05-01"
+content_hash: "c59559b776a41dbb"
 ---
 
 Blood Omen 2, the second instalment in the Legacy of Kain Series, is a 3rd person 3D action/combat game in which you assume the role of the vampire Kain. A compelling story takes you through huge, lushly detailed 3D environments and challenges your skills in combat, puzzle solving, stealth and exploration. With each success, you’ll gain new dark gifts that will grant Kain the ability to access treacherous new areas to explore and the power to face stronger, more aggressive enemies. As you develop a stronger, more skilled vampire, you’ll be rewarded with dozens of dazzling in-game cinematic sequences that unfold the continuing epic of Nosgoth, and Kain’s attempts to ultimately rule over it.

@@ -126,6 +126,13 @@ known_issues:
 database_id: "0fcb6881984f4e9ab91f5e22e4bf844c"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-12-01"
+content_hash: "6b6e32c390010e7c"
 ---
 
 It's your stop! Bus Simulator 21 Next Stop is here! Enjoy many game improvements and a brand-new game mode with this comprehensive update.

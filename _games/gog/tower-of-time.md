@@ -130,6 +130,13 @@ known_issues:
 database_id: "1411626324"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "7296837e9f87b25f"
 ---
 
 Tower of Time is an incredible adventure packed with over 50 hours of gameplay, hand-crafted levels, and a rich story told through cinematics. Taking classic RPG gameplay to the next level, Tower of Time features flexible character development, thousands of pieces of loot and equipment and the complex and tactical Arrow-Time real-time combat system.

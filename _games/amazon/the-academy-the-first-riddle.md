@@ -118,6 +118,13 @@ known_issues:
 database_id: "7f279a69-296c-4ab4-b82f-e4c0129c1b70"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "da66946386b792d4"
 ---
 
 The Academy is a puzzle-packed adventure set in a school filled with mystery. Leave your mark on Arbor's Academy and find out why it only welcomes the best and the brightest.

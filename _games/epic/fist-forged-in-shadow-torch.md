@@ -126,6 +126,13 @@ known_issues:
 database_id: "bf4808b3395b43fb80afbe6773e1661f"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "9be6cec612022339"
 ---
 
 Explore more than a dozen unique areas in a Metroidvania style map. 

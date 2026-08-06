@@ -126,6 +126,13 @@ known_issues:
 database_id: "a79746038c6948558274065d24f3faa3"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "e5671bf5acbe639c"
 ---
 
 Experience epic, free-to-play naval combat when you helm one of over 350 historic vessels in the exciting balance of strategy and real-time combat that World of Warships offers.

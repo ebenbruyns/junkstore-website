@@ -130,6 +130,13 @@ known_issues:
 database_id: "1166021990"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "11231a86e25970ee"
 ---
 
 Lost Ruins is a 2D side-scrolling survival action game, where you play as a young girl that has awoken in a strange and foreign place without her memories. With the aid of weapons, spells and tonics, and the guidance of the magical and mysterious Beatrice, you will explore a dark and dangerous world, battle hideous monsters, and topple incredible bosses.

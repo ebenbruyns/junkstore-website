@@ -126,6 +126,13 @@ known_issues:
 database_id: "7786b355a13b47a6b3915335117cd0b2"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "341039a0458d22bf"
 ---
 
 Mega Popular Tower Defense

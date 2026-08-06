@@ -118,6 +118,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "86b7bb3353ae2389"
 ---
 
 From the world of "Lost Eidolons" comes an all-new turn-based strategy RPG. Stranded on a mysterious island with scattered memories, your only means of survival is to fight. Recruit allies, undertake a perilous journey, and battle to reclaim what you've lost... no matter how many deaths it takes.

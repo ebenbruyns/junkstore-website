@@ -126,6 +126,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "81b855234754afd8"
 ---
 
 The game of survival and construction on the surface of the moon. Learn to build a base on the surface of the moon, maintain survival, explore and discover the secrets inside the moon, and solve abnormal problems.

@@ -126,6 +126,13 @@ known_issues:
 database_id: "1151640"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-08-01"
+content_hash: "7227496244134914"
 ---
 
 Welcome to a vibrant world rich with the beauty of nature – but inhabited by awe-inspiring, highly advanced machines.

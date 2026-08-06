@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.e13c50c9-d548-4e6f-a85a-7f70308279e8"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "128e18109df0b3ab"
 ---
 
 Bang Bang Racing is a distinct arcade game focusing not only on the speed but also on the technical driving skills. The very intuitive control system and the exciting tracks provide endless fun for everyone in the family.

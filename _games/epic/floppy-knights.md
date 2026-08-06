@@ -126,6 +126,13 @@ known_issues:
 database_id: "ef041e69837d410ea851934ef879ba7b"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "976099c86420cd65"
 ---
 
 Tactics fuse with card game mechanics as Phoebe and Carlton, a brilliant young inventor & her robot-arm bestie, square off in turn-based battles. Select your Knights, hone your deck, and execute your strategy for victory!

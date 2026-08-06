@@ -126,6 +126,13 @@ known_issues:
 database_id: "086fe0e0dc97479da235fc9562895da5"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-07-01"
+content_hash: "fc25d407db29cee4"
 ---
 
 RENNSPORT is the playground that car enthusiasts have been waiting for. It is a photo-realistic racing simulation offering the highest levels of competition and a space for drivers, modders, and car lovers to come together to drive, and share their passion for racing and cars.

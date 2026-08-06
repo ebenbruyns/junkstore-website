@@ -130,6 +130,13 @@ known_issues:
 database_id: "1485235422"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "f10f85e11b27f611"
 ---
 
 War of the Lance is presented in a top-down view. In single player mode, the player plays the Whitestone side to fight the evil forces of the Highlord (controlled by the computer). In a two-player game, the second player will play the Highlord forces.

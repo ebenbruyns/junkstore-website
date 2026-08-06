@@ -126,6 +126,13 @@ known_issues:
 database_id: "71d86610f6d4447086528778da3c384e"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "70d8321699520acf"
 ---
 
 Zoeti is a turn-based roguelike that features a deck of playing cards used to create card combos and activate skills in the heat of battle. Bolster your arsenal of skills through battles and discoverable upgrades, or aid from locals to overcome the evil plaguing your land.

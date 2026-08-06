@@ -130,6 +130,13 @@ known_issues:
 database_id: "2050639399"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-05-01"
+content_hash: "fc8700dee7e1955b"
 ---
 
 Live the adventurer’s life in this character-based fantasy game. Choose your character and pet companion as you journey through limitless caverns, dungeons, and tunnels and determine your destiny.

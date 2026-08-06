@@ -126,6 +126,13 @@ known_issues:
 database_id: "48cfbcf29a4441a894d05a203e03dc74"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "1025e75503866779"
 ---
 
 Embark on an unforgettable golfing adventure with House of Golf 2 – not just a game, but an invitation to create lasting memories with family and friends. Whether you're a seasoned pro or a newcomer to the virtual greens, dive into a world brimming with challenges and excitement.

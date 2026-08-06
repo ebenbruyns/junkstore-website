@@ -126,6 +126,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "3eae49e6246e3356"
 ---
 
 Calico is a low stress day-in-the-life community-sim where you move to a town of magical girls and are given a harrowing yet adorable task: make the town's cat café active and full of cuddly creatures again! You will journey to a small village of Magical Girls and other fantastical friends to fix up the cat cafe, as well as fill it with furniture, decorations, yummy pastries and most importantly cats!

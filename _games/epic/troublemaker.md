@@ -126,6 +126,13 @@ known_issues:
 database_id: "4ef688c407a048aba79b8c5e1fdfa61f"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "c531ef6ea37ca168"
 ---
 
 Grab a backpack, boxing tape, and focus on what high school is all about: Beating the ever loving crap out of one another! Troublemaker brings favorite action-adventure-beat-'em-up elements from the strongest traditions in the genre.

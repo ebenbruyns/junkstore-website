@@ -130,6 +130,13 @@ known_issues:
 database_id: "1429223464"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "9b8f0b676fca77ff"
 ---
 
 In Time Loader, you play as a small, time-traveling robot sent on a mission by its inventor to alter past events in order to undo a tragic childhood accident. But meddling with time has serious consequences. You can change the past but will you be able to deal with the repercussions in the present?

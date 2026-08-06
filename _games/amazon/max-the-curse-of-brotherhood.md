@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.bbdb2fca-2ca5-4589-ab85-857993089b4e"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "ca7f06f9da5c241c"
 ---
 
 In its core Max: The Curse of Brotherhood is a physics-based puzzle/platformer and set in a 2.5D environment with a free and cinematic camera. The game has 7 chapters and 20 levels in total All levels are connected so the game feels like one long journey. Besides platforming, the gameplay twist is the magic marker which introduces a creative and open approach to how puzzles can be solved. Throughout the game the magic marker will gain different powers.

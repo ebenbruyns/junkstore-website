@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.e9b762cd-e130-4c5b-aaf5-070d785d1cd2"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "5d43016cee4c892b"
 ---
 
 Dungeon of the Endless - Definitive Edition

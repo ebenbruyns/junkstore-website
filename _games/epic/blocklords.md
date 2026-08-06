@@ -126,6 +126,13 @@ known_issues:
 database_id: "3e6dbf49bd4a466d96e3caf9767a26ff"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-08-01"
+content_hash: "63527f24ef269e15"
 ---
 
 BLOCKLORDS is a player-driven grand strategy game by MetaKing Studios. Rule, conquer, and grow with your medieval Hero Now!

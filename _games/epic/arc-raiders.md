@@ -126,6 +126,13 @@ known_issues:
 database_id: "20f01ab5e0fa4e798c6d58eeb8d86989"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "7b1b9f31ff4ea18f"
 ---
 
 ARC Raiders is an upcoming multiplayer, extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.

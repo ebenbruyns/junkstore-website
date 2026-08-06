@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.33d3288f-092e-43da-8ff2-dbc452abbf44"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "9ad68d5a8ddc3e05"
 ---
 
 With a focus on fast-action RTS gameplay, Dawn of War II brings to life the science fiction universe of Warhammer 40,000 like never before. Experience the intimate brutality of battle as you play through your chosen race's epic campaign.

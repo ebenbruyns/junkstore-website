@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.da5419c8-9fba-477b-ad20-cf0143331aa8"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "597818596c054014"
 ---
 
 When an occult German WW2 division releases an ancient curse upon the world, a supernatural problem is going to require a supernatural solution. Take control of two playable heroes as they embark on a comedic, alternate-history adventure with a truly original story (99.9999% guaranteed).

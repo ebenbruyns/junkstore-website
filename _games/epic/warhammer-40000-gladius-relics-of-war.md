@@ -126,6 +126,13 @@ known_issues:
 database_id: "da5b18cb1e7a452196c3142f2c1d7dd3"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "930587230594623b"
 ---
 
 Warhammer 40,000: Gladius – Relics of War is the first turn-based 4X strategy game set in the Warhammer 40,000 universe. Four factions will engage in a brutal war for dominance over the planet’s resources.

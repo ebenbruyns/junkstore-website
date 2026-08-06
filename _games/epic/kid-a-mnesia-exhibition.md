@@ -126,6 +126,13 @@ known_issues:
 database_id: "33411619626243f1859d0b7fb5cc5405"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "e0f0d837bcd78c1c"
 ---
 
 An upside-down digital/analogue universe created from original artwork and recordings to commemorate 21 years of Radiohead’s Kid A and Amnesiac. Coming in November 2021. Add it to your wishlist now.

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1443428641"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "2a661ebc5d92ab79"
 ---
 
 HuniePop is a 2015 adult dating sim/match-3 puzzle game published and developed by HuniePot. Funding for the game was raised via Kickstarter. It is available in two versions, one censored and one uncensored, although the censored one can easily be patched. The game follows a player (can be male/female) trying to woo a variety of women by going on dates with them, giving them gifts and talking to them.

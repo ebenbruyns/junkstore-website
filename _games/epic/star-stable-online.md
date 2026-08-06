@@ -126,6 +126,13 @@ known_issues:
 database_id: "31634fed8f464d7db5268199355944de"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "d5c86a715efd0225"
 ---
 
 Star Stable is an exciting online game where adventures are waiting to be explored from horseback. With over 6000 quests and 300 unique horses, Star Stable gathers a global community of millions of players with one thing in common: horses.

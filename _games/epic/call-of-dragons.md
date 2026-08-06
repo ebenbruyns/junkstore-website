@@ -126,6 +126,13 @@ known_issues:
 database_id: "19d251f59bbb42e29abc42405f7c9c99"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "551b59fe500863a5"
 ---
 
 An MMO Fantasy Conquest Game by the RoK Team! Capture behemoths to fight. Use hero skills with allies. Deploy flying units over 3D terrain. Huge wars. Huge choices. Your journey starts here!

@@ -126,6 +126,13 @@ known_issues: A bit laggy but this seems to be a game issue.
 database_id: "ad10e9b2f38d491499785412149cdc49"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-06-01"
+content_hash: "cb75e55bc15c61e4"
 ---
 
 Explore the wonderful world with baby Ogu! 'Ogu and the Secret Forest' is a 2D adventure game with hand-drawn characters and various types of puzzles. Befriend bouncy characters and defeat strange creatures to unravel the mystery of the charming world.

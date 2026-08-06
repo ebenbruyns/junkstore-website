@@ -118,6 +118,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "b072a53210db4bee"
 ---
 
 Three highschool students got transported to another world. Shuichiro the weird who loves to wear mascot, Takeshi the popular the so called prince of tennis in school and Tosaka the cool headed girl. They've been sent to unknown forest without having any clues and one of them turned into a goblin, without present knowledge how will they overcome all of these?

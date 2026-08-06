@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.20b87aa4-24b1-444b-80d0-8a5cbc277c56"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "a62e4014325fb043"
 ---
 
 It was all fun and games until the bad guy took your friends. It's not their fault he built his super-secret laboratory next to the park.

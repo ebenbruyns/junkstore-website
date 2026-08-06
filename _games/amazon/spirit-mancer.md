@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.ca0cc97f-575b-45b7-8eee-8463026b3028"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "0200b0a598ba38ff"
 ---
 
 Slash, Shoot and Break demons, Capture their spirits and summon them out into your battle in the beautiful yet dangerous world of Inferno, Fight against hordes of demons from Ars Goetia and stop the evil queen with the power of the Spirit Mancer.

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207660693"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "b89644dfa3c307bb"
 ---
 
 The follow-up to the original Lords of Midnight game uses a similar game system to its predecessor, but the story is now much more complex. Luxor the Moonprince's son Morkin has been kidnapped by Shareth, daughter of Doomdark, the evil ruler deposed in the first game. The player initially takes control of Luxor, Rothron the Wise, and Morkin's lover Tarithel the Fey, although many more characters can be recruited as the game progresses, as they aim to banish Shareth and rescue Morkin. Shareth has brainwashed him, so he must also be turned back to Luxor's side.

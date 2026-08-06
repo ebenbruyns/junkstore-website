@@ -126,6 +126,13 @@ known_issues:
 database_id: "cd393ea1bb0145e58442acaf8ac70820"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "bdd02006621e98bc"
 ---
 
 Free vertical platformer - jump, climb, and race to the top! Navigate floating platforms above the clouds with fast-paced parkour movement. Find shortcuts, beat the clock, compete on the global leaderboard. Easy to learn. Hard to master. How high can YOU go?

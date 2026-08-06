@@ -126,6 +126,13 @@ known_issues:
 database_id: "4c30fe9841264abfb120b581d061a8fd"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "691880c181025b9a"
 ---
 
 The cult classic returns with hand-drawn animation and re-orchestrated music! Battle dragons, transform into unique animal forms, and explore vast lands in search of a cure. Switch anytime between modern visuals or retro 8-bit style!

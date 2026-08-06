@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.bcb2c9bd-b7ef-4d2b-acb0-f6b544269f69"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "917b6bcb86259da0"
 ---
 
 Samurai Bringer is a roguelite action game with levels which change with every playthrough, where you cut down hordes of Samurai and Demons to collect combat techniques and polish your fighting style in order to defeat Yamata-no-Orochi, the eight-headed dragon of Japanese mythology.

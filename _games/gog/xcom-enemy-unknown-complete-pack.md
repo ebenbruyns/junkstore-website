@@ -130,6 +130,13 @@ known_issues:
 database_id: "1558688142"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-04-01"
+content_hash: "347da47500ed236f"
 ---
 
 From the makers of Sid Meier’s Civilization comes a game about civilization’s last stand. As the commander of an elite paramilitary organization known as XCOM, you control Earth’s defences against a terrifying alien invasion. This package includes the award-winning XCOM: Enemy Unknown and XCOM: Enemy Within expansion, plus all of the released add-on content.

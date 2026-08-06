@@ -126,6 +126,13 @@ known_issues:
 database_id: "46f5370341aa44308a2b2433ee59fdfb"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-04-01"
+content_hash: "3cde3d0fa0fd0194"
 ---
 
 Set in a world where humanity has defeated its own creations, Vornyca follows the journey of a lone surviving AI struggling to find purpose, freedom, and identity in the ruins of a fallen civilization.

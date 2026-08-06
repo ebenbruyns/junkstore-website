@@ -126,6 +126,13 @@ known_issues:
 database_id: "9b2c200d7dec4825a83664d8888adad8"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-08-01"
+content_hash: "4674f2d6b94a652d"
 ---
 
 Take the role of Wally. A mysterious character that has recovered what was taken from him. Hopefully, you're fast enough to outrun your enemies.   Run, Jump, Slide or Dash for acrobatic variants leading to dope combinations and avoid the challenges that await.

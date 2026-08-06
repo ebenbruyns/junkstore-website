@@ -126,6 +126,13 @@ known_issues:
 database_id: "b5271de997b44ef993d7a84196717452"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-07-01"
+content_hash: "b502ce1146c14d6a"
 ---
 
 The Walking Dead: No Man’s Land is a turn-based tactical RPG based on AMC’s massive hit show “The Walking Dead”. In this action-packed strategy game you attempt to survive in a post-apocalyptic world.

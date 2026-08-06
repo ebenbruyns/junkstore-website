@@ -126,6 +126,13 @@ known_issues:
 database_id: "f46cc053068146bdbc8a591f4c410616"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "a0a9cf90a2b8b882"
 ---
 
 Crime Boss: Rockay City is a 1-4 player co-op FPS heist game with enjoyable stealth and epic killing spree combat. Featuring a solo roguelike campaign that combines FPS and strategy elements with the most hilariously cheesy voice acting that make you laugh. 

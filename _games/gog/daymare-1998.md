@@ -130,6 +130,13 @@ known_issues:
 database_id: "1544460195"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "6b6367ebe31ace6e"
 ---
 
 Daymare: 1998 is a third-person survival horror game that recreates the mood of iconic titles from the '90s, with a fresh storyline. An incident that turns a small town into a deadly zone, three characters to play with and little time to find the truth, before its mutated citizens abruptly end your mission.

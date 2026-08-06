@@ -126,6 +126,13 @@ known_issues:
 database_id: "c40939566ad44585bde9302bdbe82734"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "7d3ef36fbb905627"
 ---
 
 Century: Age of Ashes is a free-to-play multiplayer dragon battle game. Master a growing roster of classes and dragons, compete in intense arena battles and rule the skies in fast-paced aerial combats.

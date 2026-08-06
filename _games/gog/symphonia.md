@@ -130,6 +130,13 @@ known_issues:
 database_id: "2069516170"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-12-01"
+content_hash: "c73b638eac5d7dc4"
 ---
 
 Embody a violinist and awaken a gigantic, forsaken world in this highly poetic platformer! Using your violin and bow, move towards the core of the realm to understand your role in this universe and play the best Concerto!

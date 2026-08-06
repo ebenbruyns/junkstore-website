@@ -126,6 +126,13 @@ known_issues:
 database_id: "ad57f5278b2f4a3b94b18d450f7736ae"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "408f9370d0623ad6"
 ---
 
 A little boy falls asleep to a horrible nightmare. Can you make him happy again?

@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.97b53157-8867-4e2b-9936-e1425b8b5dea"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "a79e549e1253553d"
 ---
 
 Classic survival horror is back! Inspired by the original Resident Evil and Alone in the Dark series, Tormented Souls modernises with a fresh twist on the fixed perspective adventure - as Caroline Walker investigates the mysterious disappearance of twin girls in a terrifying mansion-turned-hospital.

@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.eba30613-6e47-4fda-bd66-1a35d1624df7"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "befda134fe3e8c75"
 ---
 
 The Station is a first-person exploration game set on a space station sent to study a sentient alien civilization. Assuming the role of a recon specialist, players must unravel a mystery which will decide the fate of two civilizations.

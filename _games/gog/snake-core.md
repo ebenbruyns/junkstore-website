@@ -130,6 +130,13 @@ known_issues:
 database_id: "1276268370"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-04-01"
+content_hash: "282d88431b668452"
 ---
 
 Are you ready to command a range of different units as they battle aliens in a mission-based take on the classic Snake? Select your path to victory!

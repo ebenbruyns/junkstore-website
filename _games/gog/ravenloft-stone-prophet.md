@@ -130,6 +130,13 @@ known_issues:
 database_id: "1432906190"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "941796e175d4eae8"
 ---
 
 A space-time portal has suddenly appeared, and two brave adventures entered it. It led to Har'Akir, a scorched desert populated by vicious creatures who hold the few peaceful settlements in fear. The only way to escape this wretched place is to find the Stone Prophet, a wall of a obelisk with mysterious hieroglyphs written on it. The adventurers must find the path that leads to the Stone Prophet, but the cursed mummy of the ancient pharaoh Anhktepot is watching every step they make...

@@ -118,6 +118,13 @@ known_issues:
 database_id: "782931"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "9b8a1c580a03164d"
 ---
 
 Batbarian: Testament of the Primordials is a snarky action-adventure puzzle game with a good dose of humor. Explore hundreds of secret-filled rooms, fight big bosses, gather companions for your party and use the powers of Pip -your bat buddy- to solve puzzles and escape the eldritch abyss!

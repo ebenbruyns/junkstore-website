@@ -126,6 +126,13 @@ known_issues:
 database_id: "827f7c9f19de4ad89537be44d819a238"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "554d07be81d0f799"
 ---
 
 Clash with global players in this epic real-time strategy game!

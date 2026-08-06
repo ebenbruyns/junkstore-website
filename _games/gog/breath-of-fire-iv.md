@@ -130,6 +130,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "5b50880e7540f125"
 ---
 
 Breath of Fire IV is a single-player game that continues the story with these "dragon people," who gave their lives to eradicate the evil goddess and restore peace in their world. This time around, battle has broken out between two powerful continents, and the fair Princess Elena has disappeared during a tour of the war-torn region. The princess's sister, Nina, who reigns o'er the Windia Kingdom, vows to retrieve her missing sibling. She meets Ryu along the way, who joins the epic quest

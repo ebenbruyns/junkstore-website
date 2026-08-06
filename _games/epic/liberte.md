@@ -126,6 +126,13 @@ known_issues:
 database_id: "fdf3e1fda2ea4a7384c3cc7b0e7267ed"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-05-01"
+content_hash: "8bc665967bead2de"
 ---
 
 Liberté is a deck-builder roguelite inspired by the French Revolution and body horror. Brave the war-torn streets as Rene - a regular Parisian entangled in a civil war caused by a cryptic invader, Lady Bliss. Collect cards, nurture alliances, and try to stay alive!

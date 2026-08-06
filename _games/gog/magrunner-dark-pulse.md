@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207659236"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "b6159fe87d907ca9"
 ---
 
 When technology meets Cthulhu! Magrunner: Dark Pulse is an action-puzzle game in which technology confronts the Cthulhu Mythos, as imagined by author, H. P. Lovecraft. You are Dax, one of seven Magrunners selected among the elite to participate in MagTech Corporation's space training program. But, what should be the chance of a lifetime quickly becomes a horrific nightmare.\n\nEquipped with your Magtech glove, you must harness the ability to magnetically polarize and manipulate objects in the environment to survive and surpass challenging puzzles. Your reflexes and ingenuity will be pushed to their limits as you make your way through 40+ immense and dangerous levels, including high-tech training rooms and the endless chasms of the lost cosmos, on a path to confront the horrendous creatures of Cthulhu!

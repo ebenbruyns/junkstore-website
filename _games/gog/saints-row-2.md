@@ -130,6 +130,13 @@ known_issues:
 database_id: "1430740458"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "3c9f8b16eeb35310"
 ---
 
 After the events of the first game, the protagonist awakens from a coma to find that the Third Street Saints have all but disappeared. Much like Saints Row, you are charged with retaking the city from three rival gangs, only this time as the leader of the saints. While fighting the Sons of Samedi, The Brotherhood, and The Ronin, the Saints also antagonize the Ultor Corporation, which seeks to eradicate gang violence in Stilwater once and for all.

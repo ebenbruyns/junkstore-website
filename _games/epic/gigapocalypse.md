@@ -126,6 +126,13 @@ known_issues:
 database_id: "a7270bff1bad44298091dd61c6c7bc00"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-05-01"
+content_hash: "ddfec9c1b117e84e"
 ---
 
 Become a customizable giant monster with manifold skills in Gigapocalypse, inspired by classical Kaijū movies such as “Godzilla” and “King Kong” and the game classic “Rampage”.

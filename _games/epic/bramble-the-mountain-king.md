@@ -126,6 +126,13 @@ known_issues:
 database_id: "206d048847f1491282cec0593065a2c2"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "2bb15f33a985c1b8"
 ---
 
 Bramble The Mountain King is a grim adventure set in a world inspired by dark, Nordic fables. Explore the beautiful yet dangerous and twisted land of Bramble, traverse a wondrous landscape and survive deadly encounters with Bramble's many hideous creatures.

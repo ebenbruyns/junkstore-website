@@ -130,6 +130,13 @@ known_issues:
 database_id: "1250071528"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "ed130b42d58c9a98"
 ---
 
 Delores is back home and working as a photographer for the Nickel News. Thimbleweed Park hasn’t changed at all in the year she’s been away… or has it? Sample Ron Gilbert’s new adventure game engine in this free prototype that uses “found art” from the award-winning Thimbleweed Park.

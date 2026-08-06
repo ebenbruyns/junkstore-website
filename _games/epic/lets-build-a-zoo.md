@@ -126,6 +126,13 @@ known_issues:
 database_id: "f7a456368be244ddbb2424774917a3a8"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "099f6473f966ea08"
 ---
 
 It's time to build a zoo! Let out your wild side, and create your own animal empire with this cute, expansive management sim. Import and breed rare creatures, hire the right staff, keep your visitors happy, and deal with plenty of weird and wonderful events.

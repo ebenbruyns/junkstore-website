@@ -130,6 +130,13 @@ known_issues:
 database_id: "1709371377"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "c801dd2df29c6995"
 ---
 
 Lock and load for chaotic, fast-paced action in Gunslugs! Battle the evil Black Duck Army across wild, procedurally generated levels packed with explosions, jetpacks, chicken guns, and rogue-like permadeath. Unlock heroes, conquer bizarre worlds, and fight your way to the gates of Hell!

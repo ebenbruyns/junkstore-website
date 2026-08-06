@@ -126,6 +126,13 @@ known_issues:
 database_id: "c2bbe19e0cfd4ae09a10d17c83f1c02a"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "9af73ea68fe0ac35"
 ---
 
 Design automated workshops for your odd and adorable Sparks to carry and craft everything, including more of themselves. Lead your squad of Sparks into combat. Explore a strange fantasy world, in single player or online co-op. Unearth the ancient mystery of the Sparks!

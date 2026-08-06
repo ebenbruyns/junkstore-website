@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.03e49736-1880-4850-a59f-012b70e7dc96"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "49fae7434142f80f"
 ---
 
 When a wormhole tears open in space, an astronaut is hurled down and crashes on a distant planet. But where is she? Where are all the inhabitants of the planet? And how is she going to get back home? Solve the puzzle and piece together the mystery in this 2D, pixel art, first person, point and click adventure.

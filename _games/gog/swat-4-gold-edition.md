@@ -130,6 +130,13 @@ known_issues:
 database_id: "1409964317"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "9855e26bab4d5228"
 ---
 
 SWAT 4 Gold Edition includes the critically acclaimed SWAT 4 and its exciting new expansion pack, SWAT 4: The Stetchkov Syndicate.

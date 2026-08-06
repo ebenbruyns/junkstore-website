@@ -126,6 +126,13 @@ known_issues:
 database_id: "dec246c71964468f94ef4d686f0802c3"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-06-01"
+content_hash: "63ccf879340f599f"
 ---
 
 An action-platformer with rogue-like features, challenging maps. Guide 'Skul' to take on the Imperial Army and rescue his King.

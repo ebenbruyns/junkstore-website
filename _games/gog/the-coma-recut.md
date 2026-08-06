@@ -130,6 +130,13 @@ known_issues:
 database_id: "1163487128"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "aadb6a73893d1efd"
 ---
 
 "In this creepy Korean survival-horror you take the role of Youngho, a hapless student who finds himself trapped in the nightmarish halls of his high school. After drifting asleep during his final exam, he awakes in the school at night. The only problem is...he’s not alone. Relentlessly pursued by a psychotic killer, he must now muster the courage to solve the mystery of why he is here and how to escape."

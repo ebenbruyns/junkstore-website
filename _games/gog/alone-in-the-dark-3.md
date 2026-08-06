@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207660973"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-07-01"
+content_hash: "34baae1b09181732"
 ---
 
 Alone in the Dark 3 is a direct sequel to Alone in the Dark 2 and the last game of the original canon of the series. It has the exact same gameplay as the first two games but with reload action removed, more responsive shooting/fighting and more puzzles than the previous game. The main theme is the Wild West as Carnby is pitted against a town filled with zombie cowboy outlaws who attack him with revolvers and lever-action rifles.

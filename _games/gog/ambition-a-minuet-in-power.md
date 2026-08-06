@@ -130,6 +130,13 @@ known_issues:
 database_id: "1748947415"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "d2544285cf1e742b"
 ---
 
 A young woman finds herself alone in the streets of Paris, far from home and abandoned by the love of her life. In that moment, she decides to live for herself and seek her own passions, as France marches towards a violent uprising that will change history forever. Navigate the twisting social politics of pre-revolutionary Paris in a game world that’s different every time you play. Court, snub and seduce your way to the top of society. Extend your influence, uncover the intrigue of the coming revolution, and ensure that you end up on the winning side of history.

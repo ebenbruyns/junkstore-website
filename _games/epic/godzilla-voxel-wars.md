@@ -126,6 +126,13 @@ known_issues:
 database_id: "1fb35ad93dd64570a1a8b08525ea83de"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "6283ec598d18e4b1"
 ---
 
 Godzilla, Mothra, King Ghidorah, and more are here to rampage across an 8x8 grid! Control Toho monsters and save the world from the Fungoid mushroom invasion! Relish the sense of accomplishment earned from clearing each stage of this all-new strategy puzzle game!

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1547541023"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "6e81340f381845f5"
 ---
 
 Necroking is a turn-based tactics roguelite with pixel art graphics. You play as a Master of Necromancy. Build your sculls deck, rise skeletons and other scum to defeat settlements desecrated by life.

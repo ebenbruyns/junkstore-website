@@ -126,6 +126,13 @@ known_issues:
 database_id: "588cec64448242d8b61188205d97f887"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "ffada79d7ae223de"
 ---
 
 There's trouble again in River City, and this time only the girls can save the day! Using a variety of attacks, weapons, and items, these hot-blooded heroines are ready to teach the city’s lowlifes a lesson - solo or 2-player co-op! An old-school rumble for a new generation!

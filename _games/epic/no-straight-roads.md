@@ -126,6 +126,13 @@ known_issues:
 database_id: "Raven"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "da39717dd293901b"
 ---
 
 Welcome to Vinyl City! Play with Mayday and Zuke for the Musical Revolution in this action adventure game created by Wan Hazmer, one of the lead game designer of FF XV and Daim Dziauddin, SFV's concept artist.

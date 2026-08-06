@@ -126,6 +126,13 @@ known_issues:
 database_id: "91eac4ac00304bcc9d7d4a55a95894b3"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "670ddfd67c1c5160"
 ---
 
 Spellbound by the magical object Trine, three heroes must join forces to overcome obstacles and puzzles in a fully interactive physics-based world, battle the undead and their minions, and restore balance to the kingdom!

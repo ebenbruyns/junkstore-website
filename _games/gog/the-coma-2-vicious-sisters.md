@@ -130,6 +130,13 @@ known_issues:
 database_id: "1854689188"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "aa842ac39e1f7fe8"
 ---
 
 The Coma 2: Vicious Sisters is a Korean survival horror-adventure. As Mina Park, you must venture from your deserted school to survive.

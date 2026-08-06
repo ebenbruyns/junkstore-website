@@ -126,6 +126,13 @@ known_issues:
 database_id: "0a0841c5f62f4c59bdb78ee9b5a7d58b"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "54975b01ccef8c73"
 ---
 
 Descending suddenly on the world, the macabre Mort armies destroy nation after nation, leaving humanity decimated in their wake.

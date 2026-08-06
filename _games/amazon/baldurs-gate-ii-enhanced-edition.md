@@ -119,6 +119,13 @@ known_issues:
 database_id: "amzn1.adg.product.852e8b11-4233-42dc-be63-89f2ea9ce78f"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "f6d70c4d5f319820"
 ---
 
 Kidnapped. Imprisoned. Tortured. The wizard Irenicus holds you captive in his stronghold, attempting to strip you of the powers that are your birthright. 

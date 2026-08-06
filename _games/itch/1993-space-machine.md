@@ -118,6 +118,13 @@ known_issues:
 database_id: "1425368"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "3b61166b6d234e43"
 ---
 
 Space shooters never die. 1993 is a testament to that. 1993 is a classic shoot em up celebrating games like Gradius, R-Type and Life Force.

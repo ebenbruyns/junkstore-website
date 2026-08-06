@@ -126,6 +126,13 @@ known_issues:
 database_id: "cb28095340aa4bb8ace6f42c9a6e5f13"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-09-01"
+content_hash: "18225786dcb0fd41"
 ---
 
 When Tommy, Chuckie, Phil, and Lil see a Reptar video game commercial, they imagine their own game! Switch between 8-bit and HD art, pick your favorite baby, and play solo or co-op in Rugrats: Adventures in Gameland—a neo-retro platformer bursting with nostalgia

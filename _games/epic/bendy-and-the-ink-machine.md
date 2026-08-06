@@ -126,6 +126,13 @@ known_issues:
 database_id: "39700e23ec114d7581aedea23779ce2d"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "6379102350d9e85a"
 ---
 
 Bendy and the Ink Machine® is the first person puzzle action horror game that will forever ruin your childhood love of cartoons.

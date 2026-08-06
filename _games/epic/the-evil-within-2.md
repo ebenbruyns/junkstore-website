@@ -126,6 +126,13 @@ known_issues:
 database_id: "74977fee80de4e5e9f663e62560a0f2f"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "440f83b505c2a262"
 ---
 
 To save his daughter, Detective Sebastian Castellanos returns to a world of nightmares in The Evil Within 2. 

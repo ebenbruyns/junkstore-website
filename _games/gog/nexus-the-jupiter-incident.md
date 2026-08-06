@@ -130,6 +130,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-07-01"
+content_hash: "c8ce3e98b0091301"
 ---
 
 At the dawn of the 22nd century, the conquest of space and the colonization of the solar system is being monopolized by several huge and ambitious mega-corporations. Although extremely delicate and vulnerable, a balance is maintained by these companies. At the very edge of the solar system the companies make a discovery which will shift the technological advantage and upset the balance. And so a new conflict is born: "The Jupiter Incident".

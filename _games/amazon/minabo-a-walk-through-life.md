@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.57a56b9b-210d-4346-aa9a-3985b3d9a982"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "cee21cdfe56fe695"
 ---
 
 Minabo - A walk through life is a social simulation game where you walk the path of life while your turnip grows and thrives (or not) in its social relationships.

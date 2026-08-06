@@ -126,6 +126,13 @@ known_issues:
 database_id: "818447bb519b46d48d365d5753362796"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-05-01"
+content_hash: "6ff5978c6bbb6631"
 ---
 
 The ultimate celebration of past and future. An all-new adventure full of unique bosses, rolling 2D landscapes, and fun classic gameplay. Sonic Mania brings retro fast-paced platforming into the future through pixel perfect 2D graphics running at 60FPS.

@@ -126,6 +126,13 @@ known_issues:
 database_id: "ed5e8d42b2ac461eb6f9176d163b9515"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "86954d97ae8d7514"
 ---
 
 Figment is an action-adventure game that invites you to explore a unique surreal universe filled with music, humor and multi layered narrative.

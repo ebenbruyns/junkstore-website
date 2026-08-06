@@ -130,6 +130,13 @@ known_issues:
 database_id: "1654462894"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "08f79fa5c203b1cf"
 ---
 
 Play as a young college student exploring love, lust, and sexual fetishes with the hottest women in town. Score points in the Fetish Locator app, which has taken the campus by storm. Make choices and decide the fate of the story in Fetish Locator!

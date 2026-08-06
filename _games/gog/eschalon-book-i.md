@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207659221"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "caefe354e90a359a"
 ---
 
 Classic turn-based role-playing game, played with one customizable character. The player travels between towns, does quests and explores dungeons.

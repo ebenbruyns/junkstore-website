@@ -130,6 +130,13 @@ known_issues:
 database_id: "2121320116"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "d3e4161ac4c29cc6"
 ---
 
 Action adventure meets pinball in this one-of-a-kind pinballvania adventure. When a mysterious spire appears from thin air, it's up to an intrepid pinball to bump, spin, shoot, and flip its way to the top and solve the tower’s mysteries!

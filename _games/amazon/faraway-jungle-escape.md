@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.a1ff60e3-ad99-4f3e-a284-2ca407c3f35a"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "aedefe5478760fb7"
 ---
 
 Escape all new temples in Faraway 2: Jungle Escape that are full of new challenges and mysterious puzzles. This room escape game will surely challenge your puzzle escaping ability. Sequel to one of the best escape games ever with over a million players! A room escape puzzle game that will completely challenge your mind, captivate you & offer hours of amazing mobile gaming entertainment.

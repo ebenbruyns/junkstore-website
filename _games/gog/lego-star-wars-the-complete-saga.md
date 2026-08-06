@@ -130,6 +130,13 @@ known_issues:
 database_id: "1731318270"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-05-01"
+content_hash: "12a54cdaf9cc5f2a"
 ---
 
 Play through a fun Star Wars galaxy that combines the endless customization of LEGO with the epic story from all six episodes of Star Wars. This is the definitive LEGO Star Wars comprising the first two games and expanding them with new characters, enhanced visuals, and more bonus levels than you can shake a lightsaber at.

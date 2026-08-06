@@ -130,6 +130,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "9a93dc48bfc8a0f9"
 ---
 
 You are going to steal a time machine. In this escape room, you have to travel through time, explore mysterious places and solve puzzles to get priceless treasures. Will you be able to make it back alive?

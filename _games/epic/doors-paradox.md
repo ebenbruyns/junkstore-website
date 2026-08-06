@@ -126,6 +126,13 @@ known_issues:
 database_id: "91e82f342ebf42309703e9ba363daedf"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-05-01"
+content_hash: "a4eb2065f6df35c7"
 ---
 
 A relaxing puzzle escape game! Make your way through a variety of hand-crafted 3D dioramas, look for useful objects, find hidden clues, and solve fun puzzles! Unravel this mysterious adventure about chaos, order, and the surreal.

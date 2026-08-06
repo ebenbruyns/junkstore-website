@@ -130,6 +130,13 @@ known_issues:
 database_id: "1297646450"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-09-01"
+content_hash: "439dc03a0979aa17"
 ---
 
 Iris and The Giant is a fusion of the CCG, RPG and roguelike genres. You play as Iris, who must brave her fears in her imaginary world. Dive into a melancholic and gripping adventure, filled with cute monsters and buried memories. Ready to face your inner demons?

@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.f148257f-8cd4-4608-8671-265ff2bfaaaf"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "4e2957de668dc26f"
 ---
 
 Swim, launch and bounce through this meditative floating platformer. A reactive soundscape creates the soundtrack to your exploration through the playful puzzles of Ynglet's hand drawn levels.

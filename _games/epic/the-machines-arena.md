@@ -126,6 +126,13 @@ known_issues:
 database_id: "7ef7674938b84a46898ddf01598a4d07"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "2e73faa5d7dc6a8d"
 ---
 
 The Machines Arena is an adrenaline-fueled PvP game where players are put right into the action! Battle competitively in teams of 4vs4 for some fast-paced combat mayhem, delivered in a top-down perspective. Get rewarded with digital collectibles in PvP and PvE game plays.

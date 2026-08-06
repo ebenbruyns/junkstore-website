@@ -118,6 +118,13 @@ known_issues:
 database_id: "1195751"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "a7ec1374de067b11"
 ---
 
 Viral Reload is an Infinite Wave based shoot-em-up with a unique dash mechanic. Blast away at deadly viruses and mechanical hybrids, as well as 2 unique bosses. Dash through bullets, lasers, and enemies to say alive and score!

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1669882559"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "5ee8f0bb613f4198"
 ---
 
 Oaken is a tactical turn-based roguelike with deck management and 3D figurines. Explore the world of the Great Oak, gather allies and enhancements, learn to use the positioning and rotation for your advantage, choose how to upgrade your cards - all in order to restore the Oak's Song.

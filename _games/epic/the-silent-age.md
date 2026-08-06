@@ -126,6 +126,13 @@ known_issues:
 database_id: "19a750a7d7974f9291c0584feedb94b0"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "6ae33e13bba1a0eb"
 ---
 
 Experience a post-apocalyptic world like never before in The Silent Age, a thrilling point-and-click adventure game. Use time travel to unravel the mystery behind humanity's disappearance and save the world from extinction. Start your journey now!

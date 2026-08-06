@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.8d4d80fa-3d41-49dc-a3e7-1106b3cf003f"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "c676cc55baf8b7bf"
 ---
 
 A cozy visual novel about running a tavern in a D&D-inspired fantasy! Gather rumors, serve magical drinks, and meet adventurers on a life-changing quest.

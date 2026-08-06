@@ -130,6 +130,13 @@ known_issues:
 database_id: "1690611606"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "c955f982aaa9a53e"
 ---
 
 The Feast is a short and intensely dramatic experience designed to be completed in one sitting (20-30 minutes).

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1848744423"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-06-01"
+content_hash: "684845fb1630996a"
 ---
 
 Mordheim: City of the Damned is the first video game adaptation of Games Workshop's cult classic tabletop game Mordheim. Set in the Warhammer World's decimated Empire city, Mordheim: City of the Damned is a turn-based tactical game where you lead warbands into bloody and lethal skirmishes. The game blends RPG elements, fast-paced tactical combat and intricate unit customization in a time wrought by chaos and rivalry where only the strongest survive.

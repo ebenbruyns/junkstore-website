@@ -118,6 +118,13 @@ known_issues:
 database_id: "504636"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "0548267f473f0b89"
 ---
 
 A 2D Pirate themed Survival RPG. Mutiny Island follows a young pirate's journey in reclaiming their ship and lost dignity. The primary objective is to defeat your mutinous first mate and reclaim your ship, The Red Dawn, by any means necessary.

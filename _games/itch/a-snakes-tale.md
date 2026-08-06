@@ -118,6 +118,13 @@ known_issues:
 database_id: "124280"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "87b34e0f5ec0b749"
 ---
 
 A Snake's Tale is a puzzle game about snakes in cramped places. Clear a path to get to the hole, eat some eggs along the way, and make sure to press all the buttons.

@@ -126,6 +126,13 @@ known_issues:
 database_id: "Sunbird"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-01-01"
+content_hash: "807626ac886e28b5"
 ---
 
 The Bridge is a logic puzzle game that forces the player to reevaluate their preconceptions of physics and perspective. It is Isaac Newton meets M.C. Escher. Manipulate gravity to redefine the ceiling as the floor while venturing through impossible architectures.

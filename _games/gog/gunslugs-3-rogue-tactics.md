@@ -130,6 +130,13 @@ known_issues:
 database_id: "1299228602"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "0856a5695a9767c4"
 ---
 
 Grab your bandana and get ready for Gunslugs : Rogue Tactics! Sneak, shoot, and explode your way through ever-changing enemy strongholds in this rogue-lite stealth-action mashup. Go full-on Commando or channel your inner Snake—just make it out alive. No mission ever plays the same twice!

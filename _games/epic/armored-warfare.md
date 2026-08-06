@@ -126,6 +126,13 @@ known_issues:
 database_id: "cd8c906fa00d4e45b51e35dd8d800e6f"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-08-01"
+content_hash: "0707abc349b44be6"
 ---
 
 Armored Warfare is a free-to-play MMO where you can engage in explosive online tank battles against millions of players around the world.  With a force of the most powerful combat vehicles, take to the battlefield to wage war with over 100 powerful vehicles.

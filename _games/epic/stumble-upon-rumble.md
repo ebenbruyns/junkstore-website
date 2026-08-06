@@ -126,6 +126,13 @@ known_issues:
 database_id: "f521b09c6495418790ff54cfa9ba619b"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "224d797892c8780a"
 ---
 
 Retro Zelda meets Punch Out. Players use their movement to deceive their opponents and use the attacks to strike at the right time. The winner keeps on fighting while the others watch and chat. It's a real-time multiplayer game with servers of up to 30 players.

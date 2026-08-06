@@ -130,6 +130,13 @@ known_issues:
 database_id: "1557744677"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-12-01"
+content_hash: "62bd56db1206cd37"
 ---
 
 Talisman Digital Edition - The Magical Quest Game for 1 to 4 players.

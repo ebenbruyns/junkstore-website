@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.2acb36df-2414-4f0d-8fa4-cdfe9fe604fe"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "f1fd91cae2de9e02"
 ---
 
 Faraway: Arctic Escape is a relaxing adventure escape game full of new puzzles to solve. The final sequel of the Faraway trilogy.

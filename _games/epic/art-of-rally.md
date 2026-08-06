@@ -126,6 +126,13 @@ known_issues:
 database_id: "01805192c8074820b1257fcfd97f2648"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "b3abd2feda6f672e"
 ---
 
 art of rally is a stylized experience inspired by the golden era of rally from the creator of Absolute Drift  Race across the world through colorful and stylized environments in top-down view.  Will you master the art of rally?

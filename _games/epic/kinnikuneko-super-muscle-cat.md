@@ -126,6 +126,13 @@ known_issues:
 database_id: "7555248a2a3242f2ac3627a80fcfba69"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "882c6229230a1569"
 ---
 
 Join KinnikuNeko, a cat with a bodybuilder's body, in this fun 2D platformer and fight against the mysterious alien invasion. A story full of goofy humor, friendship, drama and action. Its aesthetics are a love letter to 90s anime along with an unforgettable soundtrack.

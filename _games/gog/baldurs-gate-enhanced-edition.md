@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207666353"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-12-01"
+content_hash: "5dade756b4748322"
 ---
 
 Running on an upgraded and improved version of the Infinity Engine, Baldur's Gate: Enhanced Edition™ includes the entire Baldur's Gate adventure, the Tales of the Sword Coast expansion pack, and never-before-seen content including a new adventure and three new party members: the Calishite monk Rasaad yn Bashir, Neera the wild mage, and Dorn Il-Khan, the evil blackguard.

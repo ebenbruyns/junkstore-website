@@ -130,6 +130,13 @@ known_issues:
 database_id: "1303124319"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "e2dc5c16e097c29a"
 ---
 
 Heroes of Loot combines the action of twin-stick shooters with the dungeon crawling of rogue-likes. You'll find yourself in the middle of hordes of ghosts, skulls, cyclops, critters and much more… Survive using quick reflexes, level up to improve your weapon, and if you have time complete some quests for extra loot and upgrades.

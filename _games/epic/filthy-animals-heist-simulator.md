@@ -126,6 +126,13 @@ known_issues:
 database_id: "c9bc73b3ec5e4cd6bce44b77783a58c8"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "91a26b557389c6e6"
 ---
 
 Filthy Animals is a chaotic multiplayer heist game for 1-4 players. Become a mutant animal working for criminal mastermind Tony as you steal, fight, fall over, and eat tacos while trying to make off with the loot. Solve puzzles, avoid enemies, and bumble your way to victory.

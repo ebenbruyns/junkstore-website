@@ -118,6 +118,13 @@ known_issues:
 database_id: "amazon_935097f4-3cea-4e41-b22e-b20edb41e0dd"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "00128abe9706189c"
 ---
 
 Grab your board and take on legendary waves in Surf World Series

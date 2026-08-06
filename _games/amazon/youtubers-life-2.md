@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.fc36e6d2-9ee9-4ff8-a5f5-1600eb62bb9d"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "2d98486786a80617"
 ---
 
 Become the trendiest youtuber in the world and live your dream. Make friends, deal with rivals, attend events, film and edit videos, and share it all !! Fame, Fortune and Fans are waiting for you.

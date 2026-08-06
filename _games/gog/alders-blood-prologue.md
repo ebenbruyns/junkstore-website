@@ -130,6 +130,13 @@ known_issues:
 database_id: "2018305509"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "06ee1f21da3dacdf"
 ---
 
 Alder's Blood is a grim, dark and damp turn-based, tactical, strategic, 2D game. Lead a group of Hunters in a world, where nature have lost her mind and repelled the civilisation. Use cold steel and trustworthy rifles or guns to fight back.

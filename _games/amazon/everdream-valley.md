@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.65f323b0-349c-4273-83be-8ac8456173a0"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "f5d91d01668a69d3"
 ---
 
 A farming adventure with a dash of magic. By day, restore your quaint homestead into a summer paradise. Raise crops, care for animals and rebuild to your heart's content. At night inhabit the various farmland creatures through your dreams and bring enchantment to the valley.

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1937407919"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-05-01"
+content_hash: "20c2ebc078205787"
 ---
 
 Cottagecore cozy adventure game about delivering mail to forest animals! take on the role of a fresh-on-the-job Mail Scout given her very first letter to deliver. All you have to do is find out exactly where the recipient Greg lives and deliver the letter, no biggie!

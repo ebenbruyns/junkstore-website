@@ -118,6 +118,13 @@ known_issues:
 database_id: "118243"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "8f56487616e4d264"
 ---
 
 A Mortician's Tale is a narrative-driven death positive video game where you play as a mortician tasked with running a funeral home—preparing the cadavers of the deceased (via embalming or cremation), attending their funerals and listening to their loved ones' stories, and running the business.

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1355225376"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "50f8f4f21a543838"
 ---
 
 Teeth-clenching stealth, followed by hardcore gunplay for those not looking for a quiet way in. Intravenous will keep you at the edge of your seat regardless of how you play!

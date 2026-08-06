@@ -126,6 +126,13 @@ known_issues:
 database_id: "a617890cec1542d6ba760ba13f79225e"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "eb1a6952f6d3d83b"
 ---
 
 Build even more complex railway networks than ever before! Building on the success of the original, you’ll get more of what you loved about the original and then some. With increasingly difficult and complex challenges from local industries, the Valley has never felt so vast!

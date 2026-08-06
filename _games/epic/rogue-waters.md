@@ -126,6 +126,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "b9c94294bdae1268"
 ---
 
 Rogue Waters is a tactical turn-based rogue-lite in a cursed pirate world. Build a fierce crew of rogues and form alliances with mythical creatures as you navigate an ever-changing world and master combat on land and sea. The crew and the Kraken await your command—will you heed the call?

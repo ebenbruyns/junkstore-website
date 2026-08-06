@@ -126,6 +126,13 @@ known_issues:
 database_id: "8e29583ae4b44a21883038668f7e301e"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "1191bb62557ae5ef"
 ---
 
 Moving Out is a ridiculous physics-based moving simulator that brings new meaning to "couch co-op"! As a newly certified Furniture Arrangement & Relocation Technician, you’ll take on moving jobs all across the busy town of Packmore.

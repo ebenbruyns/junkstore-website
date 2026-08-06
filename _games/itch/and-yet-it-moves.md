@@ -118,6 +118,13 @@ known_issues:
 database_id: "131126"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "a5dffe2a40b0a664"
 ---
 
 And Yet It Moves is a puzzle-platformer, set in a unique world, made of ripped paper. Within the paper-collage you can jump, run and last but certainly not least: rotate the world. Learn how to apply the physical consequences of rotation to master the many tricky situations you may encounter.

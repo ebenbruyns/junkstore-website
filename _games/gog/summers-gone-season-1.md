@@ -130,6 +130,13 @@ known_issues:
 database_id: "1384091612"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "530aee441d388527"
 ---
 
 Summer's Gone is a high-quality, Interactive Visual Novel. This game is about healing, hope, and love. Overcome obstacles together, face demons of the past, and eventually... be happy.

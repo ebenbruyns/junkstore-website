@@ -130,6 +130,13 @@ known_issues:
 database_id: "1381541022"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "fa72f46910e33139"
 ---
 
 Dream Tactics is a GBA-styled strategy RPG with cunning card combos and deep character customization. Pick your party, manage cards to create unique playstyles, and outsmart hordes of pillows in turn-based combat to save the Dream World from its inevitable collapse.

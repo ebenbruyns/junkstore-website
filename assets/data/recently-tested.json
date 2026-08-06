@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-07-26T00:29:15.880Z",
+  "generated_at": "2026-08-06T03:59:08.237Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "otxo",
+      "featured_in": "2026-08-06",
+      "post_url": "/blog/games-tested-2026-08-06/",
+      "title": "OTXO",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/16cbb93d11834659e6eda76c169dc73444923e4dac93497528216101853e05f6.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/07c26125930ad808fa2ff6de999239419d18629beaf8f84e2741c92f4153bf8e.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "sol-cesto",
+      "featured_in": "2026-08-06",
+      "post_url": "/blog/games-tested-2026-08-06/",
+      "title": "Sol Cesto",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2738490/header.jpg",
+      "vertical_artwork": "https://images.gog.com/db59c9868c1e1b221316f29f8934a366d7c3643a8088758fad6cb750a55076bb.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "weakless",
+      "featured_in": "2026-08-06",
+      "post_url": "/blog/games-tested-2026-08-06/",
+      "title": "Weakless",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/166076db45ffe8f470fda986a2ac12198d5d11588bcfa5f58c5091d79a047196.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/79b8f9f51b47bcfe96ce2c50791b530daee621f00ec969c18e058bddc0edfff8.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "zoria-age-of-shattering",
+      "featured_in": "2026-08-06",
+      "post_url": "/blog/games-tested-2026-08-06/",
+      "title": "Zoria: Age of Shattering",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/19197cbf12098540c76061ffec00bc90827c298bb41909108b54273c2b7bfc93.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/d8ab67cf72aaa449997c7ff11725fcb674bf56f6b436816d4136a86c8d0cbe39.jpg?namespace=gamesdb"
+    },
     {
       "store": "epic",
       "slug": "foretales",
@@ -80,46 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/89339c8a59c4a0be1bd25f93f05e28db3586f53b9543dfcb9d81ee512c1a2e35.jpg?namespace=gamesdb",
       "vertical_artwork": "https://images.gog.com/00f5651bb464532e9475ec4d4fbf338503b05c5852bc5f34be3ae190bb619789.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "still-there",
-      "featured_in": "2026-07-14",
-      "post_url": "/blog/games-tested-2026-07-14/",
-      "title": "Still There",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/a32860dc4c02e5cc5291a96d24cf2c59247c22ec27c505185219ec79cb2260fe.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/29b65d7c87e3677c2c9ae3316c2e3bc7825b62c2508c835f6369d5f678578b76.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "tattoo-tycoon",
-      "featured_in": "2026-07-14",
-      "post_url": "/blog/games-tested-2026-07-14/",
-      "title": "Tattoo Tycoon",
-      "standalone_rating": "green",
-      "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2375260/capsule_231x87.jpg",
-      "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2375260/library_600x900.jpg"
-    },
-    {
-      "store": "gog",
-      "slug": "cyclones",
-      "featured_in": "2026-07-05",
-      "post_url": "/blog/games-tested-2026-07-05/",
-      "title": "CyClones",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/f70f6adba724a27266a2741288e456244c3f5f53b34228f40f7f774d741573cb.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/44117682aa02811effbd7b28f8d86e00439f110510baccd36d237ceb32eaaa5d.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "i-have-no-mouth-and-i-must-scream",
-      "featured_in": "2026-07-05",
-      "post_url": "/blog/games-tested-2026-07-05/",
-      "title": "I Have No Mouth, and I Must Scream",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/fddb364800ae81ef7d4d6d4e6c4841c3039f7f09982d0390125e8cd4cf7cc923.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/903ed4ffc58f534785a65a1abace7b54c220e2e50122ad15def5f8e63cce9551.jpg?namespace=gamesdb"
     }
   ]
 }

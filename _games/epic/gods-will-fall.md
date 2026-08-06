@@ -126,6 +126,13 @@ known_issues:
 database_id: "69911638c74449d2a2651241be1b3ad4"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "cfbfaec2be39e3bb"
 ---
 
 Experience the trials of 8 warriors in their plight to sever the gods’ grip on humanity as you take on legions of beasts in each of the gods’ realms.

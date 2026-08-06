@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.827fa625-e3c0-4671-9557-71bbcf7c7115"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "65e388255285e45e"
 ---
 
 Explore the myths and monsters of Europe’s last primeval wilderness. Play as Maia, who arrives at the ancient Białowieża Forest looking to explore her family history. Discover Rage in an adventure game inspired by the experience of the legendary tabletop roleplaying game Werewolf: The Apocalypse.

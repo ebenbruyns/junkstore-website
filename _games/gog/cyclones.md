@@ -130,6 +130,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-07-01"
+content_hash: "80a2d6b5e444cc2c"
 ---
 
 In 2010, the Advanced Ideas Corporation (AI Corp) has discovered the remains of a crashed alien ship. The technological ability of this race (and the race itself) were far superior to what the Humans had. A few days after this discovery, the mothership of the alien race began to attack Earth, without provocation. The aliens quickly subdued the superpowers of the Earth and held them down under their mighty technological power.

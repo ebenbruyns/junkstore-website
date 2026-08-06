@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.9274ae27-f99c-4594-a917-9cc01e3f65ad"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "b24af412edcfaf14"
 ---
 
 Golfie is a run-based, roguelike minigolf deck builder. Play through procedurally-generated levels, build a deck of crazy card abilities, and try to beat all 18 holes. Pick your route carefully because no two runs – or shots – are the same!

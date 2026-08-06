@@ -130,6 +130,13 @@ known_issues:
 database_id: "1356485086"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "8be2c0563cc950d8"
 ---
 
 Pilot a mech to hunt down and destroy the oppressive government of a cyberpunk autocracy. In this fast-paced, top-down shooter, use overwhelming firepower to destroy columns of tanks and level buildings. Unlock up to 56 unique vehicles and 40 weapons.

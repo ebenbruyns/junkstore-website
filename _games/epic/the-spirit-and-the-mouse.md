@@ -126,6 +126,13 @@ known_issues:
 database_id: "8de4840d52d645119f0a08d1f6ce206d"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-09-01"
+content_hash: "92c3970aa5871693"
 ---
 
 Bring kindness and light to the people of Sainte-et-Claire as Lila—a tiny mouse with a big heart! Explore a quaint French village, make electrifying new friends, and do good deeds for those in need in this lush narrative adventure game.

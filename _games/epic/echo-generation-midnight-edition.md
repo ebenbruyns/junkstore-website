@@ -87,9 +87,9 @@ cant_test_linux: false
 native_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
+hltb_main: "8 Hours"
+hltb_main_extra: "9 Hours"
+hltb_completionist: "10 Hours"
 hltb_url: "https://howlongtobeat.com/game/81126"
 
 # Links
@@ -126,6 +126,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-07-01"
+content_hash: "f6136c21a76da8ac"
 ---
 
 Echo Generation: Midnight Edition

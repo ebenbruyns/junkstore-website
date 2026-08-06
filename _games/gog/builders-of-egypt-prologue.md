@@ -130,6 +130,13 @@ known_issues:
 database_id: "1212177362"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "a32d6cf2c07ae334"
 ---
 
 Builders Of Egypt: Prologue is a city-building economic strategy taking place in the Nile Valley. Immerse yourself in a world full of pyramids, where you will become a part of the ancient world. Create history, be history!

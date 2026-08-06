@@ -130,6 +130,13 @@ known_issues:
 database_id: "1423058413"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "cf0a727567cba746"
 ---
 
 You are an elite soldier trained to deal with unusual situations others can't even imagine. Called in to confront a murderous force with paranormal abilities, you must contain a crisis spiraling quickly out of control. Discover the true meaning of F.E.A.R. in this unique fusion of stylized combat and supernatural suspense. 

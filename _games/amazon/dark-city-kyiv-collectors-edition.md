@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.58689e74-9689-4c62-b241-bfd0171aa32b"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "b2f9bda4c7808694"
 ---
 
 A deeply mysterious point-and-click adventure game, Dark City: Kyiv will take you to locales you couldn't dream.

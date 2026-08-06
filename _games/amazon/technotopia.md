@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.16eaa398-e6f6-479b-86bd-468f02d493b2"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "821588788a84a06d"
 ---
 
 Welcome to Technotopia, a city-builder card game. Take on the role of an AI designed to build a perfect city. Build districts, meet the needs of diverse communities and maintain the delicate balance between factions vying for control over you!

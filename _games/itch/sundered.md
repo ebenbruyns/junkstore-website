@@ -118,6 +118,13 @@ known_issues:
 database_id: "664936"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "463eabce1e7c8403"
 ---
 
 Sundered is a horrifying fight for survival and sanity, a hand­-drawn epic from the ​creators of ​Jotun. You play Eshe, a wanderer in a ruined world, trapped in ever­-changing caverns teeming with eldritch horrors. Harness the power of corrupted relics to defeat gigantic bosses, at the cost of your humanity.

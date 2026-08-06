@@ -130,6 +130,13 @@ known_issues:
 database_id: "1342466874"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-01-01"
+content_hash: "2e365e738d28711d"
 ---
 
 Inspired by the Rollcage games of 1999 and 2000, Grip is a new IP for a new generation. A return to the hardcore combat racer, bristling with heavy weapons and packing ferocious speed, the game is an intense, sensory feast.

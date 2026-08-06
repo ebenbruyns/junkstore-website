@@ -130,6 +130,13 @@ known_issues:
 database_id: "1816031813"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "b7c336b043159ae3"
 ---
 
 Shoot bouncing bullets to kill corrupted versions of your Pet Duck. Slow down time to maneuver in a flashy way as you try to solve puzzles under pressure and chain explosions to rescue the original version of your Pet Duck!

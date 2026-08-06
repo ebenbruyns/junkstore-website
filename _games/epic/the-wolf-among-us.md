@@ -126,6 +126,13 @@ known_issues:
 database_id: "Cobbler"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-06-01"
+content_hash: "bd624e1a0911d912"
 ---
 
 Based on the award-winning Fables comic books (DC Comics/Vertigo). As Bigby Wolf - THE big bad wolf - discover that a brutal, bloody murder is just a taste of things to come in a game series where your every decision can have enormous consequences.

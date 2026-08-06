@@ -130,6 +130,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-07-01"
+content_hash: "f5fe1029cc25a6d0"
 ---
 
 You don't work in a regular assembly line. In this escape room, you will investigate what is really being manufactured in a secret factory, explore mysterious places and solve puzzles. Will you unravel the truth?

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207658867"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "d1d3d8282fd1dc5c"
 ---
 
 King's Bounty: The Legend is a Real-time / Turn-based Strategy with RPG elements. In a fairy tale fantasy world of fearless knights, evil mages, wise kings and beautiful princesses the player controls a hero. Leading their character through the game world, exploring it, commanding armies in battle and accomplishing various quests can mean great reward or huge defeats.

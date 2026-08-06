@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207659037"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "fe2ff18963d9ae57"
 ---
 
 Presented in the style of a TV series, Alan Wake features the trademark Remedy storytelling and pulse-pounding action sequences. As players dive deeper into the mystery, they'll face overwhelming odds, plot twists, and cliffhangers.

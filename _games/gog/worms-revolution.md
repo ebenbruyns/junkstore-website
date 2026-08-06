@@ -130,6 +130,13 @@ known_issues:
 database_id: "1421309312"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "6324b3aa27f7b78a"
 ---
 
 Worms Revolution is the latest game in the classic turn-based strategy series to come to the PC, featuring exciting new features and beautiful 3D graphics whilst retaining the classic 2D gameplay that fans love. Choose to play the extensive single player mode which features both campaign and puzzle missions or dive straight into multiplayer warfare via online or local play. For the first time ever see the inclusion of dynamic water, physics objects and worm classes! Customize your experience by choosing what classes you play with, what they look like and even how they speak!

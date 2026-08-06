@@ -118,6 +118,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "51da45c5e422be6e"
 ---
 
 Many years passed since then, yoha taka journey continues it seems many things had already happened. He's currently attending in magic academy in another world with some important mission along with his companions.

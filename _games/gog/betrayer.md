@@ -130,6 +130,13 @@ known_issues:
 database_id: "1090734724"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "f01f3d620cf1b227"
 ---
 
 Betrayer is a first person action adventure game that takes you to the New World at the turn of the 17th century. The year is 1604. You sailed from England expecting to join a struggling colony on the coast of Virginia. Instead, you find only ghosts and mysteries. What catastrophe blighted the land and drained it of color and life?

@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.0a76e83e-1ecc-43eb-84bd-93e6675ec697"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "843f3af5ae74c857"
 ---
 
 Giana Sisters: Twisted Dreams is a blistering hardcore platformer with contrasting worlds. Warp Giana’s vivid dreams to alter your abilities and destroy the twisted creatures lurking within. Giana Sisters: Twisted Dreams combines the challenge of retro era platforming with graphics that pack a visual punch and tight controls.

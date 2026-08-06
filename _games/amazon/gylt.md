@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.35054121-1014-4c44-a19e-4ab829f8ea86"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "e86484e658c62745"
 ---
 
 Shape your fears… Fear the shapes. Embark on a journey where you face your worst fears and are confronted with the emotional impact of your actions in this narrative adventure game with puzzles, stealth and action.

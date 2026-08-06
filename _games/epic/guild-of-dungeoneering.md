@@ -126,6 +126,13 @@ known_issues:
 database_id: "b8bdc716e79e461bbf161d99f842f29a"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "d16b87043e0a28b9"
 ---
 
 Guild of Dungeoneering is a turn-based, dungeon-crawling, card-battler with a twist: instead of controlling the hero you build the dungeon around them.

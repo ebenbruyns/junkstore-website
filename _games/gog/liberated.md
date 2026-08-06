@@ -130,6 +130,13 @@ known_issues:
 database_id: "1780442795"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "33669be58dd87a66"
 ---
 
 Players will experience a story about a world where government authorities use advanced technology to manipulate the population. Civil rights are a thing of the past, with the government engaging in complete surveillance of every citizen in the world. Social media activity, online payments, and GPS location tracking from mobile devices are just some of the ways every single person is being monitored. In this world, there are insurgents resisting this oppression, fighting for their freedom, while government agents try to maintain order and control. In Liberated, players will experience both sides of this conflict, with every choice they make changing the course of the story.

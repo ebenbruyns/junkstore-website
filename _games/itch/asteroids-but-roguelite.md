@@ -118,6 +118,13 @@ known_issues:
 database_id: "714041"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "de3ed2da7ffa3b03"
 ---
 
 Start off as a weak ship with a simple attack and fight through waves of enemies, earning currency in order to purchase upgrades for your ship. The never ending waves of enemies grow in number, power, and variety as you progress. Purchase upgrades to keep pace with them.

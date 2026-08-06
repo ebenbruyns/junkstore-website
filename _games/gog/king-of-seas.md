@@ -130,6 +130,13 @@ known_issues:
 database_id: "1105915912"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "c206eb409122e995"
 ---
 
 King of Seas is an Action Role playing game set in a procedural pirate world. An epic adventure awaits you in a fantastic world, dotted with fights, lost islands and treasures. A universe that will keep you anchored as you struggle to become the king of all pirates.

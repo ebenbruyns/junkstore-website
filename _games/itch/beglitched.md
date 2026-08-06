@@ -118,6 +118,13 @@ known_issues:
 database_id: "84840"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "1799e4955ce153c4"
 ---
 
 Beglitched is a game about insecurity, in our computers and ourselves. In a pastel world of networks where nobody truly knows what they’re doing, hacking is a magical art and the notorious Glitch Witch is the most premium archmagi of the net. Through what appears to be nothing more than random circumstance, YOU are her new apprentice. You must use your wits and cunning to unravel the mechanisms of an alien computer and survive amongst a veritable web of clowns, leftclickers, and filedraggers.

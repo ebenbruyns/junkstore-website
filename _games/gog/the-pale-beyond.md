@@ -130,6 +130,13 @@ known_issues:
 database_id: "1254359050"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-04-01"
+content_hash: "ea1b1923f4442c17"
 ---
 
 You didn't ask to lead this expedition but here you are: stuck in the ice, Captain missing, miles from civilization and everyone looking for you to lead. Manage your meager resources, balance safety and morale, make the hard calls and head in the only direction you can - into The Pale Beyond.

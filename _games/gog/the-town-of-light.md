@@ -130,6 +130,13 @@ known_issues:
 database_id: "1655492231"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-12-01"
+content_hash: "227d06f59c8bf6e3"
 ---
 
 The Town of Light is a psychological adventure told in the first person. The story is set in Italy in the first half of the 20th Century in a place which really existed and has been meticulously reconstructed. Exploring and interacting with the environment you will relive the history of the main character through her confused viewpoint and on the basis of your choices, the story will develop in different ways.

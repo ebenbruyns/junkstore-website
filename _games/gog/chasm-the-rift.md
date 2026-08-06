@@ -130,6 +130,13 @@ known_issues:
 database_id: "1302753134"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "defcbc5610286f7d"
 ---
 
 Humankind, in the process of evolution, has encountered a mysterious phenomenon - the destruction of the normal flow of time. From the past to the future, time rifts are forming in Earth's atmosphere. These rifts lead to different periods of history. Through them the most aggressive creatures from the past, present, and the future, have begun to infiltrate our time. These mutants, known as Timestrikers, have begun a complete and systemic eradication of all human life. You are a specially trained commando who has been volunteered to investigate a recent attack by the Timestrikers.

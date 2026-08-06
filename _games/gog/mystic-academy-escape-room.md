@@ -41,7 +41,7 @@ game_modes: ["Single-player"]
 languages: ["Portuguese (Brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Portuguese"]
 languages_audio: ["English"]
 tags_structured: [{"id":"92376","name":"Aventure"},{"id":"7337","name":"c"}]
-size: ""
+size: "4507 MB"
 install_size: ""
 achievements_total: 5
 franchise_siblings: []
@@ -128,8 +128,15 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-07-01"
+content_hash: "e48f971ea4a7c05e"
 ---
 
 Today is the day of your final exam to become a wizard. Within this enchanting escape room, you'll navigate a wizardry school, unravel puzzles, master new spells, and put your magical skills to the ultimate test. Will you emerge triumphant?

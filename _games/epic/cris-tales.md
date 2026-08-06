@@ -126,6 +126,13 @@ known_issues:
 database_id: "e7d92786abe54fae9319c1ddb94ae271"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "6fb85ed4c0878271"
 ---
 
 Experience Past, Present, and Future simultaneously in this gorgeous, indie love letter to classic JRPGs

@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.9f8a01b5-8b8a-4bf8-b016-037fe6944c6e"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "f37108f84d4dad29"
 ---
 
 Deep Sky Derelicts will bring the players into the burdensome life of a society outcast, a scavenger trying to make a living, while aspiring for a better life of a full-fledged citizen. Players will be exploring derelict alien ships, fight, loot, hire mercenaries into their team, buy new weapons and upgrade their gear. The game’s retro-futuristic comic book aesthetic style creates a distinctive dark atmosphere of deep space, unknown locations and lost dystopian society. Rogue-like elements featuring such popular mechanics as procedurally-generated dungeons, turn-based combat with card-based actions and lethal threat lurking around every corner, are here to draw the players into an unforgiving, yet fascinating world with its own unique lore.

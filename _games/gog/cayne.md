@@ -130,6 +130,13 @@ known_issues:
 database_id: "2016844216"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "ff7f244ef1931d45"
 ---
 
 In this grim return to the STASIS universe, expectant protagonist, Hadley, wakes up in a facility. Where is she? Why is she there? And, why do they want her baby?

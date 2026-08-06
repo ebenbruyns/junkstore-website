@@ -126,6 +126,13 @@ known_issues:
 database_id: "f59de18db4dc445f88ffeff24d081234"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "43c79e492ef50dae"
 ---
 
 Amnesia: Rebirth, a new descent into darkness from the creators of the iconic Amnesia series. A harrowing journey through desolation and despair, exploring the limits of human resilience.

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1547269859"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-12-01"
+content_hash: "75eaee670eb02435"
 ---
 
 Hero's Hour is a game inspired by the Heroes of Might and Magic turnbased strategy games. "Hour" refers to the more fast-paced gameplay, with combat taking place on a real-time simulated battlefield. You may just watch the battle as a casual player, or take control of your units as desired.

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1807052519"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "40b72c7301e3f2d2"
 ---
 
 Find out how it all started in this enticing Visual Novel prequel for "Lair of the Clockwork God". Join heroes Dan and Ben as they navigate a rough first school day stuffed with flirting, demons, a vast conspiracy and all manner of compromising personal information.

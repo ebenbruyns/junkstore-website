@@ -126,6 +126,13 @@ known_issues:
 database_id: "c90f02864e054feba10b315af7592fa3"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-04-01"
+content_hash: "466eea4f223b5fb6"
 ---
 
 Wage total war across the ancient world from the Aegean to Mesopotamia in Total War: PHARAOH DYNASTIES. Challenge the Bronze Age Collapse, build your dynasty and lead your faction to victory with new cultures, units and battle mechanics.

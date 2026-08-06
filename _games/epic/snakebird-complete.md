@@ -126,6 +126,13 @@ known_issues:
 database_id: "8337d1f975514d35ad0c1176e8a29f26"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "ab873b855cf1f8e0"
 ---
 
 Experience hit puzzle classic Snakebird and Snakebird Primer in Snakebird Complete, a brand new package that reunites both beloved titles into one seamless experience. Now with a hint system!

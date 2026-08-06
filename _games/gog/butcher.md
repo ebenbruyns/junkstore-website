@@ -130,6 +130,13 @@ known_issues:
 database_id: "1689871374"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "fb29c502b36ce7ff"
 ---
 
 Butcher is a fast-paced 2D shooter game and a blood-soaked love letter to the early 90s. As a cyborg programmed to eradicate the last remains of humanity, your sole purpose is to well... annihilate anything that moves.

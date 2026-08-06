@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207659126"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "c9dffb24de105817"
 ---
 
 Compilation pack including the Medal of Honor: Allied Assault main game and the Medal of Honor: Allied Assault Spearhead and Medal of Honor: Allied Assault Breakthrough expansion packs.

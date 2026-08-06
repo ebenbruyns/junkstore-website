@@ -118,6 +118,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "3c3d79e3ac54ebc7"
 ---
 
 When Yoha Taka died in an accident, God appears before him in a space only filled with blank and white. Your case is very special the God said, "I will revive you into another world." and with a big responsibility to carry. Yoha Taka only want one thing is to go back to his former world and stay besides his sensei again but that's only possible if he defeats the demonlord. So what will happen if a chuunibyou got sent to another world that only filled with fantasy.

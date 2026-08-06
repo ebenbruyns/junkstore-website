@@ -126,6 +126,13 @@ known_issues:
 database_id: "24b4ee8b16e4450184fe33ff871cc0ee"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-12-01"
+content_hash: "fe96daaced3fe2d7"
 ---
 
 TerraTech is an open-world, sandbox adventure game, where you design & build your own creations through a mix of crafting, combat and discovery. Design vehicles from a huge library of blocks. Scavenge, craft & buy new parts to survive and become the ultimate planetary prospector.

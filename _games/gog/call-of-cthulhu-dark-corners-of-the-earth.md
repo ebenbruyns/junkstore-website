@@ -130,6 +130,13 @@ known_issues:
 database_id: "1557265213"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "d7dc51d345c9c699"
 ---
 
 Call of Cthulhu: Dark Corners of the Earth is a first-person horror game that combines intense action and adventure elements. You will draw upon your skills in exploration, investigation, and combat while faced with the seemingly impossible task of battling evil incarnate. Features a dynamic sanity system resulting in hallucinations, panic attacks, vertigo, paranoia, and more! Includes 1920s weaponry and vehicles as well as evil artifacts and alien technology, with Lovecraft's famous monsters and locations.

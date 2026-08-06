@@ -127,6 +127,13 @@ known_issues:
 database_id: "bd60c8f307e24e70abf12938e606d0c9"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "437abade1b66ea5b"
 ---
 
 Vampire: The Masquerade - Reckoning of New York is a narrative game set in the World of Darkness Universe. Play as one of the members of the Vampire Clans in a shifting political landscape between the Camarilla and the Anarchs while trying your best to survive.

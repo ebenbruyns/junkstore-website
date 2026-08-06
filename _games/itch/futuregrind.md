@@ -118,6 +118,13 @@ known_issues:
 database_id: "356260"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "14b8a03622c84573"
 ---
 
 Grab your bike and hit the rails in FutureGrind, a stylish stunt-racer all about tricks, skill, and speed. Use your futuristic motorcycle to do crazy combos on tracks made of floating rails, but be careful: If you touch the wrong rail you'll explode! Only skilled players will earn endorsements from The Sponsors and make a name for themselves.

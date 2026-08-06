@@ -126,6 +126,13 @@ known_issues:
 database_id: "Arrowroot"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "741d50f766deb5b6"
 ---
 
 Become a daring thief in City of Brass, a first-person action adventure from senior BioShock developers.  

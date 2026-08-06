@@ -130,6 +130,13 @@ known_issues:
 database_id: "1128601888"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "ea7f2a882abcca7f"
 ---
 
 An all new adventure temps your Fate Product Information Your valor has won freedom for the people of Grove and the manxome scourge has retreated into the shadows. In the midst of celebration a stranger appears warning of new evil that will ensnare your peaceful town. He speaks of ancient secrets locked within a temple and of gateways to mysterious yet Undiscovered Realms. Typhon an outpost built around cold snowy dungeons and Druantia a land of lush forests and endless beauty. Of the temple's secrets he divulges only the greatest: hidden within is an ancient tome - the Book of Fate which maintains the balance between all realms. The townsfolk look to you their new champion to take up this perilous quest and guide the stranger through the dungeon in search of the ancient temple. You will encounter new dungeons pet transformations weapons monsters and five completely new quests to test your mettle. New features include Hardcore mode (cheats disabled more difficult monsters) and a level cap of 199 - import characters from the original FATE and continue your quest. It is time once again to determine Explore two new realms with all new art and music. Transform your pets into new ally creatures! Fight an onslaught of monsters while protecting sacred places.Imprison evil foes and bring them to justice. Use your powers to lead allies to safety. Import your original Fate hero into the Undiscovered Realms.

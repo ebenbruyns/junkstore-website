@@ -126,6 +126,13 @@ known_issues:
 database_id: "9598a70268124b108d80af9d873917b5"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "288fba898984b8ed"
 ---
 
 Decide the fates of altruistic scientist Anu, her ambitious, "streetwise" brother Octavio, and the fierce, frogurt-slinging Fran. Claw and con your way through five thrilling chapters!

@@ -118,6 +118,13 @@ known_issues:
 database_id: "1092676"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "6865fff180a8cac8"
 ---
 
 Control &quot;The Nerd&quot; in a retro-inspired action platformer! It's two games in one, remixed and rebalanced to bring you the ultimate experience of Nerd Rage. Featuring stylized pixel art inspired by classic games, a highly energetic soundtrack, and challenging levels -- plus a special NEW chapter!

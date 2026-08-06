@@ -118,6 +118,13 @@ known_issues:
 database_id: "1074536"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "b97c7ce31760c463"
 ---
 
 Save mankind's last hard-drive with your rechargeable laser-beam in this tight single-stick top-down shooter!

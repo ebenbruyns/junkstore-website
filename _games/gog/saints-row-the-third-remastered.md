@@ -130,6 +130,13 @@ known_issues:
 database_id: "1435738629"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "95c7f7762822a79f"
 ---
 
 Saints Row®: The Third™ Remastered gives you control of the Saints at the height of their power, and you live the life to show for it. This is your City. These are your rules. 

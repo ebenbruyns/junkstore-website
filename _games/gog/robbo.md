@@ -130,6 +130,13 @@ known_issues:
 database_id: "1421207615"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "ae00408031bef4af"
 ---
 
 Robbo is an action puzzle video game designed by Janusz Pelc and published by LK Avalon in 1989. It was originally released in Poland for the Atari XL/XE computers. It was later ported to other computer platforms and also released in the United States as The Adventures of Robbo in 1993.

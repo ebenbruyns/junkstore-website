@@ -126,6 +126,13 @@ known_issues:
 database_id: "d2da64bd4c4e422da4b1a88041492a3a"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "508b9540591e5b57"
 ---
 
 Dishonored 2 is set 15 years after the Lord Regent has been vanquished. An otherworldly usurper has seized Empress Emily Kaldwin’s throne. As Emily or Corvo, travel to Karnaca to track down your enemies and take back what’s rightfully yours. 

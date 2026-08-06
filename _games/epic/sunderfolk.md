@@ -126,6 +126,13 @@ known_issues:
 database_id: "860368784274471e8d4082df2a4dc120"
 is_featured: true
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "fc7418fabf952706"
 ---
 
 Rediscover game night in this tactical RPG where shared strategy shapes every turn. Adventure across the Sunderlands with up to four players in online multiplayer using your mouse & keyboard or play couch co-op using phones as controllers. Play the first 4 missions for free!

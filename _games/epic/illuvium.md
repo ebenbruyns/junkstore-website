@@ -126,6 +126,13 @@ known_issues:
 database_id: "e757cb1a95f4459ba0950ef51f05ccb4"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-08-01"
+content_hash: "5318ceb27be69b23"
 ---
 
 Stranded on Illuvium—build your dream squad and conquer the Arena in a thrilling auto-battler!

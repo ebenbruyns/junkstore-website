@@ -130,6 +130,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "dac7395dcc121c06"
 ---
 
 Build armies and participate in endless battles fought all over the world between 1846-1905. Age of Rifles features 8 campaigns, 65 scenarios. You can create your own battles - Game Editor allows for custom scenarios, campaigns, maps, uniforms and weaponry. You’ll never fight the same battle twice.

@@ -126,6 +126,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "a605196f56ac2d9c"
 ---
 
 The Ouroboros King combines the strategic tactical depth of chess with the build variety and replayability of roguelikes. Build a formidable army, discover powerful relics, and buy surprising gadgets to defeat the three evil witches.

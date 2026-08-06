@@ -126,6 +126,13 @@ known_issues:
 database_id: "2dd699910d5a4542994868a716be537f"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-09-01"
+content_hash: "f88c315559b58912"
 ---
 
 Enter the perilous world of Skull and Bones, a co-op pirate open world action-RPG experience, to become the most infamous pirate kingpin! Engage in thrilling naval battles, craft a variety of unique ships, forge unlikely alliances as you overcome the odds, and bring mayhem on the seas. Be part of an immersive world that introduces new challenges and features every season.

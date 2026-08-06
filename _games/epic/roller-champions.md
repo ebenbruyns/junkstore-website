@@ -126,6 +126,13 @@ known_issues:
 database_id: "540f935fa0ad4bd498177ee5ad3b54e4"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-09-01"
+content_hash: "a05f166d88b16f17"
 ---
 
 Skate and roll your way up to glory in Roller Champions™. Discover a free-to-play, team PvP sports game like no other!

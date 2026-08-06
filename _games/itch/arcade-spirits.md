@@ -118,6 +118,13 @@ known_issues:
 database_id: "147395"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "552b900530a9f00c"
 ---
 
 "Set in 20XX, Arcade Spirits follows an alternative timeline where the 1983 video game crash never occurred - after a turbulant work history you are granted employment at the Funplex, a popular arcade, home to a host of unique personalities and customers. Where will this new found employment take you? Who will you meet along the way? Will you find the romance you're seeking?"

@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.94dbc467-ec5f-47c4-bba0-15fc05f6106f"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "0a8a255010f7617b"
 ---
 
 Escape to an island populated with welcoming townsfolk and dozens of friendly dinosaurs. Tame them, care for them, run your ranch, and saddle up your trusted steeds for adventures into the wild countryside!

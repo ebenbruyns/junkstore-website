@@ -126,6 +126,13 @@ known_issues:
 database_id: "feb56be2152940029af3bc193970799d"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "21167a7af000e510"
 ---
 
 "El Hijo - A Wild West Tale" is an exciting spaghetti-western stealth game, in which you guide a 6-year-old boy on his quest to find his mother.

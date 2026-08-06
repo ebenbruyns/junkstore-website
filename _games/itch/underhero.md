@@ -118,6 +118,13 @@ known_issues:
 database_id: "36029"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "2ba45f4f850a4799"
 ---
 
 Underhero is a 2D side-scroller RPG adventure game with timing-based combat. It tells an intriguing and mysterious story, full of silly characters brimming with personality, quirky dialogue, and lots of weird humor.

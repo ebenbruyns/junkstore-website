@@ -130,6 +130,13 @@ known_issues:
 database_id: "1432579019"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "a479499e8a28cb5c"
 ---
 
 Welcome to Dungeon Hack. Explore countless new dungeons in a game that never has to be the same twice. Send your character on quest after quest, down through the many pits, traps, and puzzles of Dungeon Hack. Take control, if you wish and generate a new dungeon for every game. The random dungeon generator gives you the power to create a strikingly fresh layout every time. There other games allow a few novel choices the second time around, Dungeon Hack delivers many combinations of play, a variety of magical and non-magical items to be found in each game, and a bestiary stocked with over fifty formidable foes.

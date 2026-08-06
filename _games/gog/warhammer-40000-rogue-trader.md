@@ -130,6 +130,13 @@ known_issues:
 database_id: "1347700224"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "9d74d925fff44379"
 ---
 
 You will take on the role of a Rogue Trader, a scion of an ancient dynasty of daring privateers, that reign over their own merchant empire and explore the fringes of Imperial space with the blessing of the Emperor Himself. Thanks to their Warrant of Trade - the Rogue Trader is endowed with privileges and power beyond imagination as well as the task of expanding the borders of the Imperium. At their disposal is a gargantuan voidship of immense power and innumerable servants and personnel ready to do the bidding of their lord. Their adventures begin in the vast Koronus Expanse - a treacherous region of unexplored space at the edge of Humanity’s domain.

@@ -126,6 +126,13 @@ known_issues:
 database_id: "5b8398d00cb445b3b819e2317b2b2b71"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "d0868877806086c9"
 ---
 
 Decades have passed and the Actress, Ella, returns to the abandoned theatre to uncover a preserved collection of extraordinary performances. Explore a variety of magical, hand-painted worlds as you collect the lost pieces of the past.

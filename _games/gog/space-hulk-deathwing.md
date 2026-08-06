@@ -130,6 +130,13 @@ known_issues:
 database_id: "1896039326"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-12-01"
+content_hash: "5489b0746183e853"
 ---
 
 Space Hulk: Deathwing is a First-Person Shooter experience of Games Workshop's classic Space Hulk boardgame set in the universe of Warhammer 40,000, developed on Unreal Engine 4 by Streum On Studio, the team behind E.Y.E: Divine Cybermancy. Published by Focus Home Interactive and co-produced by Cyanide Studio, Space Hulk: Deathwing offers players the chance to experience a desperate battle against Genestealers in the claustrophobic tunnels of a Space Hulk, as they will gain skills, new abilities and new equipment thanks to experience earned during perilous missions.

@@ -126,6 +126,13 @@ known_issues:
 database_id: "39b13b169e1d4e798543f931bc3a95b4"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "ecaf2c0406ebd2d9"
 ---
 
 Road Redemption lets you lead a biker gang on an epic journey across the country in this driving combat road rage adventure.

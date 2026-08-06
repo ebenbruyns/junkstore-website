@@ -118,6 +118,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "718efbaee3aaaf1e"
 ---
 
 <h2 class="bb_tag" >STORY</h2>Can love bloom on a doomed space colony? <strong>Alone With You</strong> is the tragic sci-fi follow-up to indie horror hit <i>Home</i>, in which you discover the fate of your crumbling installation with the help of a very emotive AI companion and four fully-realized holograms. Providing a rich story that adapts to your choices, Alone With You is the <i>Space Quest</i>-meets-OK Cupid adventure game you never knew you wanted — until now!<h2 class="bb_tag" >FEATURES</h2><br><ul class="bb_ul"><li>Over a dozen missions, multiple endings, varied conversation choices, and some surprising decisions provide a story you can sink your teeth into and experience multiple times<br></li><li>A love letter to the Sega CD — vibrant, colourful 16-bit visuals and detailed cut-scene vignettes paint a beautiful sci-fi universe<br></li><li>Completely original soundtrack with more than 30 foot-tapping, otherworldly tunes<br></li><li>Accessibility features: separate music/sound effects volume sliders; full-screen/windowed modes; simultaneous keyboard/controller support</li></ul>

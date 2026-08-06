@@ -126,6 +126,13 @@ known_issues:
 database_id: "80510c874abe43149f3db85756351da6"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "83c4c5c1a34c583f"
 ---
 
 Join three iconic heroes as they set off on a quest through fantastical fairytale landscapes to save the world from the Nightmare Prince’s shadows. Trine 4: Definitive Edition includes Trine 4: The Nightmare Prince and the Trine 4: Melody of Mystery DLC campaign.

@@ -126,6 +126,13 @@ known_issues:
 database_id: "dd95e8c01b4b456f8ecbf18376a49c94"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "b139aa06dff894cc"
 ---
 
 Heretek is the expansion to the critically acclaimed tactical turn-based Warhammer 40,000: Mechanicus. Opening a whole new plot line, Heretek exposes the dark underbelly of the Adeptus Mechanicus faction like never before.

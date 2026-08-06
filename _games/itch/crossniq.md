@@ -118,6 +118,13 @@ known_issues:
 database_id: "454004"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "d12c4f1e310ef50f"
 ---
 
 Crossniq is a new tile-sliding puzzle game to be played with your mouse or your fingers! The goal of the game is to create a "cross" of same-colored tiles to clear them from the screen, which gives you points and refills your time meter. Keep on swiping and race against the clock!

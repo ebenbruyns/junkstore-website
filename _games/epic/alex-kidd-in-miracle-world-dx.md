@@ -126,6 +126,13 @@ known_issues:
 database_id: "90a9dbcace12452ebd9cab6d8d750490"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "c8837bf433d71083"
 ---
 
 A legend returns in stunning new detail with Alex Kidd in Miracle World DX! Fire up your power bracelet and relive a platforming classic alongside new modes, levels and features!

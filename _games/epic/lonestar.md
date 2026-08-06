@@ -126,6 +126,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-07-01"
+content_hash: "a83eb6dd7901b4d1"
 ---
 
 LoneStar is a strategic Roguelike spaceship combat game. As a bounty hunter, you will capture criminals scattered across the universe. Win the shockwave battle to gain bounty rewards and vacations. Find the treasures, customize your spaceship, unlock talents, defeat the felons and be a legend!

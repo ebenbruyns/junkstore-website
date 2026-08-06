@@ -126,6 +126,13 @@ known_issues:
 database_id: "2e0e91d701c34abf851de5b535a2617a"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-04-01"
+content_hash: "e5bed63b7f37ae8f"
 ---
 
 Mat, a young rat, risks everything for love. Determined to reunite with Nat, a pet mouse, he secretly ventures to the upper floors of the Giant's house. Longing for a new life on the Outside, Mat's actions and the dark secrets harbored by his commune put their lives in danger.

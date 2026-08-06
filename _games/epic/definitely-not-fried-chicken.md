@@ -126,6 +126,13 @@ known_issues:
 database_id: "3da2975945f34c27b536147685816607"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "07c184c2ae295b0c"
 ---
 
 Definitely Not Fried Chicken is a business management sim with a Twist! Grow your drugs trade through legitimate fronts, managing both sides of the business. Acquire new "businesses", meet new clientele, Develop more potent narcotics, make lots of money and leave a city in ruin!

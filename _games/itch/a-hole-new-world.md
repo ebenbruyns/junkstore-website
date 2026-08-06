@@ -118,6 +118,13 @@ known_issues:
 database_id: "13021"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "5946c574cd4023fc"
 ---
 
 The city is being invaded by monsters from the Upside Down World! You, the Potion Master, must defeat evil all alone, with no tutorials or "Easy Mode" to assist you. You'll have to rely on the help of Fäy, your companion fairy, and your potions!

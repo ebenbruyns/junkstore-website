@@ -130,6 +130,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "96c28a4c295cc169"
 ---
 
 As an elite SWAT operator, think fast and put your tactics to the test to master a series of missions and save lives. Summon your team of up to four players in online and local co-op, or hone your skills solo. Don’t just be the best—be the best of the best.

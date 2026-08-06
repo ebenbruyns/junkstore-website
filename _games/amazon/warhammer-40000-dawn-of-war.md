@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.86ca16ee-c209-4dab-8ded-9971d3ac6fad"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "ce6845a18fb7e612"
 ---
 
 Warhammer 40,000: Dawn of War is a revolutionary science fiction real-time strategy (RTS) game set in the violent, post-apocalyptic universe of the 41st Millennium. Utilizing the exceptional game design skills of Relic Entertainment, Dawn of War provides an immersive entertainment experience of epic proportions. Command hardened troops, deadly vehicles and high-tech weaponry with one goal in mind, the complete extermination of the opposition.

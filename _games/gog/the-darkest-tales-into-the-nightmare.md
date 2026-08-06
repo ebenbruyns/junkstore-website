@@ -130,6 +130,13 @@ known_issues:
 database_id: "1358213898"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "86f9fd6b1eee0b96"
 ---
 
 When a nightmare creeps into reality, the only ones that can help are those whose magical powers we’ve believed in since childhood. A brave teddy bear and his fairy sidekick head to the darker side of “happily ever after” to rescue his owner, Alicia.

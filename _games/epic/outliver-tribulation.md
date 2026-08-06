@@ -126,6 +126,13 @@ known_issues:
 database_id: "f5b2bda11e0f4e22b552f03be3f15f62"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "0968daf736814d22"
 ---
 
 A dark history comes calling in this "African Mythology meets Survival-Horror and Souls-like" experience! You play as the soldier who mysteriously ends up in a supernatural realm, of which her only way out is to partake in an ancient ritual... or so she believes.

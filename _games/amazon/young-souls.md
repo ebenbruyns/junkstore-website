@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.42b0b23e-bf02-4cd4-b449-8ba071bb997d"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "d41a16891ab119cc"
 ---
 
 Young Souls combines the beat'em up and RPG genres in a world created with stunning art direction. Explore the world of humans and that of the goblins, both teeming with enemies but also full of unexpected and friendly encounters waiting to be discovered.

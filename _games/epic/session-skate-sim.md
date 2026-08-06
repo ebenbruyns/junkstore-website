@@ -126,6 +126,13 @@ known_issues:
 database_id: "6c1001a19926456db77fd1b4dd705a79"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "60ac7884a113eba3"
 ---
 
 Made by and for skaters, dual stick controls faithfully reproduce your feet on the skateboard for an ultra-realistic skateboarding experience. Try out real-life iconic skate spots, customize your skater and equipment with items from the top brands.

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1939715083"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-05-01"
+content_hash: "2d21847522fcdecc"
 ---
 
 Hypnospace Outlaw is a '90s internet simulator in which players act as Enforcers, volunteer moderators who scour Hypnospace's surreal network of weird and wonderful websites to hunt down wrongdoers while also keeping an eye on their inbox, avoiding viruses and adware, and downloading a plethora of apps that may or may not be useful.

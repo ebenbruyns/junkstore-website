@@ -126,6 +126,13 @@ known_issues:
 database_id: "f3208566bd004bbfb1a7a4d40fbf8ea4"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-02-01"
+content_hash: "e3698bd6016dd02c"
 ---
 
 Your Kingdom’s fate relies on you… you… and you. Rewind time to create clones of your past-selves, and fight with an army of your own. Become legion and triumph over hordes of monsters to rescue Antala in this Hack'N'Slash game with a tactical twist.

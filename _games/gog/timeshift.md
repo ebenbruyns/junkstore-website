@@ -130,6 +130,13 @@ known_issues:
 database_id: "1460032883"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "706c6ada060ad741"
 ---
 
 Master time to become the ultimate weapon! Dr. Aiden Krone has made a Time Jump across the space-time continuum - a reckless act with frightening consequences.

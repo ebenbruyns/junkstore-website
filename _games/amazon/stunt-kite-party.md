@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.ec071644-cbb9-4bb8-9b39-f4f453691878"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "16fdc8844baf9ffd"
 ---
 
 Stunt Kite Party is a family-friendly single player and couch-coop multiplayer game with an exciting storyline and endless fun in numerous game modes.

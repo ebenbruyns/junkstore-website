@@ -126,6 +126,13 @@ known_issues:
 database_id: "1dea8a6ddb544842a58e4b5c8675ff58"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "a74f21c10f3e2449"
 ---
 
 Arguably the most well-known indie game of all time, Cave Story+ features an original story brimming with personality, mystery and fast-paced fun. Run, jump, shoot, fly and explore your way through a massive adventure reminiscent of classic 8 and 16-bit games!

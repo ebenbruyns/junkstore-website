@@ -130,6 +130,13 @@ known_issues:
 database_id: "1432905053"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "0121ed4c366dac93"
 ---
 
 Lord Dhelt of Elturel was attacked in his own castle. The mysterious assassin stole the Hole Symbol of Helm, a precious amulet with magical powers. Lord Dhelt asks you to bring the amulet back. But when you kill the assassin and retrieve the amulet, you are suddenly teleported into an unknown area. The way back is blocked by poisonous mist, and there is nothing you can do but explore the hostile surroundings and to solve the mystery of the amulet.

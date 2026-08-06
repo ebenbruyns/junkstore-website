@@ -130,6 +130,13 @@ known_issues:
 database_id: "2033569195"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-02-01"
+content_hash: "dfd72d1596b84179"
 ---
 
 Lead a party of unlikely heroes as they uncover the truth behind a planetary catastrophe in this immersive turn-based RPG. Craft and upgrade character cards into powerful combos while you battle your way through this beautifully hand-drawn alien world!

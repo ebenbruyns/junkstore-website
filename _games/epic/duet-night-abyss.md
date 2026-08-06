@@ -126,6 +126,13 @@ known_issues:
 database_id: "58c7aa4f48be44f3b40f5f78f62c84b7"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "eec3fa05d0f67bb3"
 ---
 
 Duet Night Abyss is a fantasy adventure RPG with a high degree of freedom. The game features "Multiple Weapon Loadouts x 3D Combat" at its core, and tells the story of "Demons" from dual perspectives.

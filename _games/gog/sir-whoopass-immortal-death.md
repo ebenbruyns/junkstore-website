@@ -130,6 +130,13 @@ known_issues:
 database_id: "1542885660"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "4fa993f00370c581"
 ---
 
 Meet Sir Whoopass, the hero who due to a series of hilarious and poor life choices manages to bring chaos and disarray to an utopian world. He must find The Villain-Beating Artifact to vanquish The Immortal and stop him from spawning all manner of evil monsters and creatures. Also cheese.

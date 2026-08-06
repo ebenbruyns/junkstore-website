@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207659154"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "5c34b73712817caf"
 ---
 
 King's Bounty: Crossworlds is the expansion for the famous King's Bounty: Armored Princess role-playing game.

@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.1509ede6-ce29-4066-89cb-addbe88ed5e9"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "794cc8ef70783adc"
 ---
 
 Experience the obsessive life of a mid-level stockbroker, pursuing wealth and success at the cost of everything else... possibly even your freedom.

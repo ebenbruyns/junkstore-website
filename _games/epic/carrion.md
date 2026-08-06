@@ -126,6 +126,13 @@ known_issues:
 database_id: "9faa3b0871e44b639d49a209f9405aab"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-05-01"
+content_hash: "1e48240a4b5e4a29"
 ---
 
 CARRION is a reverse horror game in which you assume the role of an amorphous creature of unknown origins, stalking and consuming those that imprisoned you.  STALK. CONSUME. GROW. EVOLVE.

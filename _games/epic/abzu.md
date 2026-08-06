@@ -126,6 +126,13 @@ known_issues:
 database_id: "Curry"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "d906b92c4857bd58"
 ---
 
 From the art director of Journey® and Flower®, ABZÛ is a beautiful underwater adventure that evokes the dream of diving.

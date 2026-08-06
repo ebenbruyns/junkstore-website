@@ -130,6 +130,13 @@ known_issues:
 database_id: "1485834662"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "f3a1f945a21c29d7"
 ---
 
 Fight, scavenge, and survive in Ashworld, a post-apocalyptic open world filled with danger. Explore the desolate Ragelands, battle ruthless Ragers, and fend off night-stalking Skellies. Drive, craft, and strategize to endure this unforgiving wasteland where every resource matters.

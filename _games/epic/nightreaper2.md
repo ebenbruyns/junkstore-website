@@ -126,6 +126,13 @@ known_issues:
 database_id: "62eb295b3ee3482893ed9dd8b3c69841"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "3ee28fb1f683d1ef"
 ---
 
 A dark stylized action game where you hunt villagers, escape the police, and battle four powerful kings in a fast-paced chaotic world.

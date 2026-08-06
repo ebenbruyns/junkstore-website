@@ -126,6 +126,13 @@ known_issues:
 database_id: "1203dd46538a4abd8cd12d715528e2c2"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "d5dd48f2d6281639"
 ---
 
 Lucky goal offers an experience of a soccer game through a third-person view. Create or participate in an online match and show who is a better soccer player. A singleplayer adventure is waiting for you to improve your gaming skills.

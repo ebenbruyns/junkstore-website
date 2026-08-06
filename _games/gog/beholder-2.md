@@ -130,6 +130,13 @@ known_issues:
 database_id: "1451215361"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "b27625e88ed7ae91"
 ---
 
 Every citizen of our great State dreams of working at the Prime Ministry! You are lucky, intern – your dream has come true! While you are at the bottom of the career ladder, that is more than many of your fellow citizens will ever achieve! Have you already decided what you're going to become? Will you become a diligent and responsible officer decorated by the Wise Leader himself? Or will you become a hardline careerist capable of destroying anyone who stands between you and the Prime Minister's seat? Or maybe you are just a whistle-blower? If so, who sent you? And why? Whatever the case, you are now part of the Ministry! From this moment on, no one beyond these walls has ascendance over you! You are free to shape your own future! So, what are you going to become?

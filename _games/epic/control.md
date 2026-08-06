@@ -126,6 +126,13 @@ known_issues:
 database_id: "Calluna"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-12-01"
+content_hash: "74a5a7426c558780"
 ---
 
 After a secretive agency in New York is invaded by an otherworldly threat, you become the new Director struggling to regain Control.

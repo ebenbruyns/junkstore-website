@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.42611da8-7064-4bf0-83a7-9147add5b6d9"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "06a82c63d2ee5013"
 ---
 
 Aces of the Luftwaffe - Squadron is an action-packed, vertically scrolling shoot ‘em up. 

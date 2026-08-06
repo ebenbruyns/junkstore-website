@@ -130,6 +130,13 @@ known_issues:
 database_id: "1929718166"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-04-01"
+content_hash: "bee42a28ca40466f"
 ---
 
 Welcome to Wild Country, the cozy-competitive card game with city-building elements. Compete against quirky animals in a competition to become the next Mayor of Sun City. Collect cards, challenge friends and furry foes in the single-player campaign, and play online in ranked and unranked matches.

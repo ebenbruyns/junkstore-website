@@ -118,6 +118,13 @@ known_issues:
 database_id: "814781"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "a5123dc9b16ec634"
 ---
 
 Dragon Drop is a frantic couch-multiplayer game where lovable dragons try to drop the blocks out from below their opponents. Drop the dragons! Don't get dropped! In this groundbreaking game of timing, tactics and quick twists of luck, your fire breath temporarily wipes a line of cuboid platforms away. Try to stay on while dropping your rivals, but don't delay your next step, it could be your last! Hatch into Dragon Drop, and may the last (and best) dragon win!

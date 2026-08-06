@@ -130,6 +130,13 @@ known_issues:
 database_id: "1832934376"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "a2d48c6218346429"
 ---
 
 EMPTY SHELL will throw you in a dark industrial environment, a secret facility on a Japanese island. Each volunteer has signed a contract for a &quot;recovery operation&quot; without being privy to too many details. A tense roguelite survival horror with a top down perspective.

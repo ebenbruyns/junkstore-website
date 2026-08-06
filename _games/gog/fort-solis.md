@@ -130,6 +130,13 @@ known_issues:
 database_id: "1654564600"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "657e0c8ba3c71651"
 ---
 
 Answer the call from a mining base on Mars as engineer Jack Leary and search for the missing crew. Fort Solis will immerse you with cinematic visuals powered by UE 5 and voice acting of Roger Clark and Troy Baker. Explore the mining complex and reach climax of this narrative thriller experience.

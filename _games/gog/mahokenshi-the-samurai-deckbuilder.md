@@ -130,6 +130,13 @@ known_issues:
 database_id: "1409800471"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "0eb0e2f765c3688a"
 ---
 
 Mahokenshi is a turn-based blend of adventure, deck-building and deep hex-grid strategy. Create your deck, out-smart your enemy, battle challenging demons and adventure through the Celestial Islands to protect your home from the forces of corruption.

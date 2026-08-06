@@ -118,6 +118,13 @@ known_issues:
 database_id: "1269964"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "aa68e07d6a1fa569"
 ---
 
 A psychological mystery yuri visual novel about a girl named Amelie. Forbidden from leaving the house, Amelie awaits the arrival of her long time penpal, Sofia, to her dear friend Lilika’s dismay. What secrets will Sofia unravel that were best kept buried?

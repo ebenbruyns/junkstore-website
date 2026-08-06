@@ -126,6 +126,13 @@ known_issues:
 database_id: "04b548b98c934229842ffc00fb93aaba"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-12-01"
+content_hash: "e2f6a56ebc339ea7"
 ---
 
 Become a Hired Gun. The money’s good, the dog’s loyal, and the gun’s reliable. Embark on an indie fast-paced, violent, and thrilling FPS set in the darkest reaches of Warhammer 40,000’s most infamous hive city.

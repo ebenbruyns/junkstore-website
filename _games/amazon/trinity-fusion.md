@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.49c149a1-6efb-4c80-9bd0-20f49518da23"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "6848070be87489fa"
 ---
 
 Take control of your parallel selves on a mission to save the dying multiverse in this rogue-lite action platformer! Explore dark, sci-fi worlds and engage in fast-paced, smooth and precise combat.

@@ -126,6 +126,13 @@ known_issues:
 database_id: "44950011e7b544fc82c0a2e464b1afcd"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "221142e922c07f50"
 ---
 
 Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker.

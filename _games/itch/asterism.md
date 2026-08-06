@@ -118,6 +118,13 @@ known_issues:
 database_id: "446239"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "70b1c72add2854ee"
 ---
 
 Kotachi Asterio wants to help people that can’t fight for themselves. But, he isn't some sort of superhero- he can just see things other people can't. During the day, he goes to high school- but at night, he fights off specters, monsters that lurk in shadows and can harm people.

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1897057118"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-12-01"
+content_hash: "364f820db292f651"
 ---
 
 Join Kat and her crew in an epic quest in Flipon, a juicy, fun and fast-paced arcade puzzle game!

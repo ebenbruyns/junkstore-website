@@ -126,6 +126,13 @@ known_issues:
 database_id: "d366ae16e31b41869cf26c6ee309e7f3"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-07-01"
+content_hash: "13531404024eb099"
 ---
 
 Explore a dark world brimming with hidden mysteries, master a diverse combat system, and inhabit the dual forces of two sisters in a coming-of-age dark fantasy story with fast-paced action, vicious enemies, and spectacular boss fights.

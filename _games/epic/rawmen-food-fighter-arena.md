@@ -126,6 +126,13 @@ known_issues:
 database_id: "cf66e90baeed4871aaf6be56ce16479c"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-08-01"
+content_hash: "2c2587372bfbc3f8"
 ---
 
 RAWMEN is an outrageous multiplayer battler that cooks up a refreshingly tasty take on the arena shooter. Dine solo or call on your broth buds to feast as a party of up to four in food-based fighting across locales around the world.

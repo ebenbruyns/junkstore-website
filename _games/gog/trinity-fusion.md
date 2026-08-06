@@ -130,6 +130,13 @@ known_issues:
 database_id: "2090070295"
 is_featured: false
 owned: false
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "24bae67a1314237e"
 ---
 
 Take control of your parallel selves on a mission to save the dying multiverse in this rogue-lite action platformer!

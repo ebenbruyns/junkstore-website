@@ -118,6 +118,13 @@ known_issues:
 database_id: "1055631"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "13cd3bcc361592ed"
 ---
 
 Through a narrative based on Red Ribbon’s new album “Planet X”, experience a broken-heart girl’s journey through thoughts, daydreams and music.

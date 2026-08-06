@@ -118,6 +118,13 @@ known_issues:
 database_id: "758991"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "cf27187cd9fe6fd3"
 ---
 
 Battle your way through 3 realms of 'Sector 781', a pixel art platformer. Upgrade your character and weapons; collect shards to increase your energy supply. Use teleports to navigate around the realms. Shoot things that move and some that don't move. Activate checkpoints to save your position.

@@ -118,6 +118,13 @@ known_issues:
 database_id: "29872"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "e06238c4713eae18"
 ---
 
 Macbat 64 is a low poly 3D Platformer and 4:3 loveletter to the late 90s. All the 3D platforming goodness from the late 90s is back! Search, Collect and Jump (multiple times in a row even!) like it's 1998!

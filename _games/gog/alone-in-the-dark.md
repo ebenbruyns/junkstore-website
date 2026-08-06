@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207660923"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-07-01"
+content_hash: "aca9e9d81152b1c1"
 ---
 
 Alone in the Dark is one of the first survival horror games and the first to utilize 3D models superimposed on pre-rendered backgrounds, which would become a key inspiration for upcoming horror games at the time, like the Resident Evil franchise. The player can use various weapons, such as pistol, rifle, swords and knives, though it is possible to kill most enemies with melee attacks. Some opponents can be beaten by solving a particular puzzle, while a significant number of opponents cannot be killed at all or only with certain weapons.

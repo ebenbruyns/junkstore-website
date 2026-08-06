@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.6b0515f6-6684-42a9-81b7-5034c38c14b4"
 is_featured: true
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "04283dd82eb7c4d3"
 ---
 
 Survival: Fountain of Youth is a challenging single-player open-world survival game set on the Caribbean islands. Survive as a shipwrecked 16th-century explorer, craft tools and shelter, and uncover the secrets of both an ancient civilization and your own fate.

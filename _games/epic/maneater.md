@@ -126,6 +126,13 @@ known_issues:
 database_id: "Turtle"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-07-01"
+content_hash: "b7a5190432df179a"
 ---
 
 Experience the ultimate power fantasy as the apex predator of the seas - a terrifying SHARK! Maneater is a single player, open world action RPG (ShaRkPG) where YOU are the shark. Eat! Explore! Evolve!

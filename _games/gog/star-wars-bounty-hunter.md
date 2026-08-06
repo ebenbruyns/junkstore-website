@@ -130,6 +130,13 @@ known_issues:
 database_id: "1158717618"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-12-01"
+content_hash: "782225509bea9cbb"
 ---
 
 Star Wars: Bounty Hunter (released in Japan as Star Wars: Jango Fett) is a Star Wars video game developed and published by LucasArts for the GameCube and Sony PlayStation 2, released in 2002. In the game, players play as the bounty hunter Jango Fett, featured in the 2002 film Star Wars Episode II: Attack of the Clones, to which this game serves as a prequel. Both Temuera Morrison and Leeanna Walsman reprise their roles from the film as Jango Fett and Zam Wesell, respectively.

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1442827661"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-08-01"
+content_hash: "e129d7e28f44801b"
 ---
 
 A supernatural turn-based strategy game in the Wild West. Lead an unlikely posse of heroes across multiple challenging scenarios. Recruit new members and unlock new abilities. Collect upgradeable gear and grow in power to make your story truly legendary.

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1732383191"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "a48b7c610ce634d4"
 ---
 
 ELDERBORN - a Metal AF* Slasher with brutal FPP melee combat and souls-like/RPG character progression. In the times of legend, barbarian tribes need a new dark messiah. Be that merciless slayer. Uncover ancient secrets in the city of doom. Forge your own destiny! *Action Fantasy.

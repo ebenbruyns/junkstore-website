@@ -130,6 +130,13 @@ known_issues:
 database_id: "1386468605"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-11-01"
+content_hash: "6675075d0adde1fd"
 ---
 
 Under the Moon is an indie, platformer - riddle game which adorned with great stylized graphics and atmosphere. Join Ali Kemal on his fantastic world-wide journey on the path of true love!

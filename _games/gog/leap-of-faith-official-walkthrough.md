@@ -130,6 +130,13 @@ known_issues:
 database_id: "1787109378"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "899d60f543dffb42"
 ---
 
 Leap of Faith is a Visual Novel story about bonding through friendship and romance, and the journey through life in early adulthood. It keeps a comedic tone, while still at times addressing serious issues that arise along the way.

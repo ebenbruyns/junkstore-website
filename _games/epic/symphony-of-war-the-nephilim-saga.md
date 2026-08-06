@@ -126,6 +126,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-07-01"
+content_hash: "63fbf9ad1c10c17b"
 ---
 
 Enter Tahnra, a land savaged by war. You, a fresh academy graduate with humble beginnings, will grow to lead a grand army against a corrupt adversary. Gather heroes, form bonds, and lead your force in turn-based battles. Make use of tactics, terrain, morale and more to bring peace to the land!

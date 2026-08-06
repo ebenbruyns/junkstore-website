@@ -130,6 +130,13 @@ known_issues:
 database_id: "1372090895"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "9623487feaf4ed72"
 ---
 
 Berserk Boy is a vibrant, retro-inspired 2D action platformer that lets you… GO BERSERK! Change into different forms and use the power of Lightning, Fire, Earth, Air, and Ice as you race through stylish stages in a heroic battle to save the planet from the evil Dr. Genos!

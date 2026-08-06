@@ -130,6 +130,13 @@ known_issues:
 database_id: "1597953210"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "d7182714dd3c681f"
 ---
 
 Discover the beginning of the story of the titular "Scorpion" through a story guided by manga panels. Take on the role of Hatori ‘Scorpion’ Hasashi - an offspring of a traditional Japanese family who became one of the best racers in the area. Strict parents and high school expectations couldn’t stop him from becoming a part of the drifting revolution!

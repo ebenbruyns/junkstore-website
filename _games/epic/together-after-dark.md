@@ -126,6 +126,13 @@ known_issues:
 database_id: "a2ffb8fba4894fc8b4ce37db61c96e96"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-04-01"
+content_hash: "d49682b7f21ca432"
 ---
 
 Together After Dark is a co-op horror psychological game with a survival touch for 1-4 players. 4 Teens are stuck in the forest and need to find a way out but they are not alone

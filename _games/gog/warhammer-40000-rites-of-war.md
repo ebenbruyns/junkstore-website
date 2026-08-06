@@ -130,6 +130,13 @@ known_issues:
 database_id: "1443606025"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-05-01"
+content_hash: "eaf95e01f6003bc9"
 ---
 
 Inspired by the board and figurine games made popular by Games Workshop, the universe of Warhammer 40,000 is a vast and violent one, rife with strange, alien races, including the Eldar.

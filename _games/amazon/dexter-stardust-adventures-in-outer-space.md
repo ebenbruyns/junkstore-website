@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.0d9fd292-f386-406f-895b-a9385d3dfcb5"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-07-01"
+content_hash: "0157021c2673f152"
 ---
 
 A spacey classic adventure for all! Dexter Stardust: Adventures in Outer Space is a classic point and click adventure; you can walk, talk, and interact with everything in your surroundings. Use and pick up inventory items to solve puzzles in over 100 unique scenes. Playing Dexter Stardust is like watching back to back episodes of a Saturday morning cartoon! With 5 total episodes, feel free to jump to or replay any episode you’d like, at any time.

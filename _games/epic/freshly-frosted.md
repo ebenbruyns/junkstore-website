@@ -126,6 +126,13 @@ known_issues:
 database_id: "c95f2c3e2e8b41f1bb9de3036e53f319"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-03-01"
+content_hash: "dbae3798da596fee"
 ---
 
 Place conveyor belts to solve puzzles in the world's most adorable donut factory!

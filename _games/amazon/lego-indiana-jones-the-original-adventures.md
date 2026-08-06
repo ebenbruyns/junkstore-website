@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.8a584db6-f8e5-4bfa-87a8-256a9d3506c4"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "c91c8a5e73f042fe"
 ---
 
 Build, Battle and Brawl your way out of trouble! Play through all three classic Indiana Jones movies and relive your favorite Indy adventures in the tongue-in-cheek worlds of LEGO. Explore and Discover - Battle enemies, solve puzzles, and seek out the world's greatest treasures.

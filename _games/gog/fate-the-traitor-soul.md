@@ -130,6 +130,13 @@ known_issues:
 database_id: "1595490147"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "6c9e051b5a071f71"
 ---
 
 When the Traveler speaks of a test within the Temple of Fate, presented to only the most dedicated of champions, you stand confident that the spoils beyond the portal will be yours. The challenge of FATE - The Traitor Soul is your destiny...will you accept it?

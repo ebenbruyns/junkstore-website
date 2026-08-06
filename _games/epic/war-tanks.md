@@ -126,6 +126,13 @@ known_issues:
 database_id: "f26ba684041947b5b2fbe0a1f7e8630d"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "9c4d46ffb1d9ce61"
 ---
 
 War Tanks is an intense online tank warfare game that combines the best elements of simulator, action, shooter, and strategy.

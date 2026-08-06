@@ -118,6 +118,13 @@ known_issues:
 database_id: "16726"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "21d144d262dd5415"
 ---
 
 Neo-San Francisco, 2064 AD. Your life as a struggling journalist is interrupted by the world’s first sapient machine, a ROM (Relationship and Organizational Manager) named Turing. Together, you and the quirky robot will encounter a colorful cast of locals and overcome challenges as you uncover the city’s secrets behind the overlapping futures of technology and humanity. 2064: Read Only Memories is a new cyberpunk adventure that will take you on a journey of puzzle-solving and exploring as you investigate the mysterious world and characters of Neo-San Francisco.

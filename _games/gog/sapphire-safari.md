@@ -130,6 +130,13 @@ known_issues:
 database_id: "1804860967"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "8dc72af927920a97"
 ---
 
 Answer the call of the wild with Sapphire Safari, an open-world Photography Adventure Game! Capture the beauty of real-life Monster Girls in their natural habitats, use tools to lure them into more erotic poses, and become intimate with them if you are brave enough...

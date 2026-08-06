@@ -126,6 +126,13 @@ known_issues:
 database_id: "BatfishS2"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "a9a2e5fd738d3bd7"
 ---
 
 Batman: The Telltale Series is an episodic graphic adventure game developed by Telltale Games, first released in 2016. The game offers a narrative-focused experience, where players control Bruce Wayne and his alter ego, Batman, making choices that shape the story and relationships with characters.

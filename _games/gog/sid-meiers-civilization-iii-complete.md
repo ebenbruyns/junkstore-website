@@ -130,6 +130,13 @@ known_issues:
 database_id: "1471405734"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "4d8e36b34897dcec"
 ---
 
 Sid Meier's Civilization III: Complete, the latest offering in the Sid Meier's Civilization III franchise, provides gaming fans with Sid Meier's Civilization III, the highly-addictive journey of discovery, combined with the updated and enhanced multiplayer expansion pack Sid Meier's Civilization III: Play the World*, as well as all of the great new civilizations, scenarios, and features from Sid Meier's Civilization III: Conquests! Sid Meier's Civilization III: Complete provides more ways to explore, more strategies to employ, more modes of play, and more ways to win, all in one box!

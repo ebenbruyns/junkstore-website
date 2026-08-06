@@ -130,6 +130,13 @@ known_issues:
 database_id: "1875167847"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "a96ae27f550d00e1"
 ---
 
 Ghost of a Tale is an action-RPG game in which you play as Tilo, a mouse and minstrel thrown into a perilous adventure. Through stealth and cunning you’ll be able to explore the secrets of Dwindling Heights Keep and navigate its dangers.

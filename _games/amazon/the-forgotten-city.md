@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.e31e4571-b8d9-444e-852f-93846749eb40"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-10-01"
+content_hash: "f8e18bd2b1419f1b"
 ---
 
 The Forgotten City is a mystery adventure game of exploration and deduction, and a re-imagining of the critically acclaimed mod of the same name. Combat is an option, but violence will only get you so far. Only by questioning an intertwined community of colorful characters, cleverly exploiting the time loop, and making difficult moral choices can you hope to solve this epic mystery. Here, your decisions matter. The fate of the city is in your hands.

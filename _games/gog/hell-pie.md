@@ -130,6 +130,13 @@ known_issues:
 database_id: "1156382433"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-09-01"
+content_hash: "eef4f5e4cccd0626"
 ---
 
 Hell Pie is a single player 3D-Platformer which empowers the player with an extensive set of moves based on a swing mechanic and lets him explore a combination of twisted large worlds and small challenging levels. Fighting against enemies, collecting weird cake ingredients and interactions with bizarre characters complement the gameplay. Our target audience are fans of old-school Action-Adventures and gamers who loved to play N64 classics such as Mario 64 or Banjo-Kazooie. Right now the game is in production and will be released in the 3rd quarter of 2020.

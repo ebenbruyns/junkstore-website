@@ -126,6 +126,13 @@ known_issues:
 database_id: "dbee85010fa34bef9f3611faee19220e"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-02-01"
+content_hash: "913422ee909a0ec3"
 ---
 
 Sands of Aura is an open-world adventure set in a world buried beneath a sea of sand. Sail across the sandseas to return life to a dying world in an unforgettable experience that is equal parts engaging story and unrelenting, souls-like combat.

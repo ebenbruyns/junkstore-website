@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.90a0091c-8db1-4188-9f27-ed6046379aec"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "8bfa260fef77e23c"
 ---
 
 Masterplan Tycoon is a real-time strategy game about building interconnected chains of resources in a minimalist visual style. The nodes are buildings. The pins are contact points between them. The links are supply lines. Create the largest logistics system possible.

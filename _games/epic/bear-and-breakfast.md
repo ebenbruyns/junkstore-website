@@ -126,6 +126,13 @@ known_issues:
 database_id: "b3cb6e007019430ebb1dd87f6e8c87d3"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2024-10-01"
+content_hash: "6d56ce2522bb2381"
 ---
 
 Bear and Breakfast is a laid-back management adventure game where you build and run a bed and breakfast...but you’re a bear.

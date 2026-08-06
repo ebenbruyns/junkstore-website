@@ -130,6 +130,13 @@ known_issues:
 database_id: "1207664543"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-09-01"
+content_hash: "9627cf7385b668bc"
 ---
 
 Ascendant is the unforgiving beat 'em up that challenges you with a new world each time you play. It utilizes a number of modern roguelike elements such as permadeath and procedurally generated environments. You are a demigod who invades a plane controlled by your rivals. They will stop at nothing to eliminate you. Only the most impressive warriors will triumph over their armies of zealots and beasts.

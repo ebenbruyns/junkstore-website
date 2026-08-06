@@ -126,6 +126,13 @@ known_issues:
 database_id: "5981cb19a1a845fba4d245fafa856968"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-05-01"
+content_hash: "6b481744dc2f2114"
 ---
 
 In 1921, young French artist Jennifer Chevalier becomes embroiled in death, espionage and revolution, assisted by the ghost of Oscar Wilde. A hand-drawn Point & Click adventure with a unique comic book inventory design

@@ -130,6 +130,13 @@ known_issues:
 database_id: "1969775197"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "8c972dca5ceb8ca5"
 ---
 
 Fruitbus is a cute culinary adventure, set in an open world where taste is everything. Upgrade your trusty truck and visit a whole world of new destinations together.

@@ -118,6 +118,13 @@ known_issues:
 database_id: "amzn1.adg.product.79330d47-859b-4578-a519-0717bd0c44ea"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-08-01"
+content_hash: "d01100e90a6dbcfc"
 ---
 
 Based on the bestseller, Pierre The Maze Detective, Labyrinth City is an adventure puzzle game in which you play Pierre, a detective, to retrieve a lost stone. Journey through 10 visually-stunning locations, you will explore universes while discovering Easter eggs and sublayers of the story.

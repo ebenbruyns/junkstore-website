@@ -126,6 +126,13 @@ known_issues:
 database_id: "a922e114727142e8b24d1499c274f223"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-01-01"
+content_hash: "c42ecd1c8b189d85"
 ---
 
 By night, delve deep into your subconscious and discover powerful artifacts to conquer your nightmares. By day, explore the city of Red Haven and build relationships to unlock the power of your dreams. DREAM. DIE. WAKE. REPEAT.

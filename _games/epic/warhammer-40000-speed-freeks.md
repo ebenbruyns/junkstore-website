@@ -126,6 +126,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "44b9bb21670e7ce0"
 ---
 
 Adrenaline-fueled combat racing in the brutal Warhammer 40,000 universe! Drive ferocious vehicles equipped with powerful weapons and abilities into a full-throttle battle to the death. Speed Freeks is a fresh, Ork-y take on vehicle combat that you’ve never seen before. WAAAGH!

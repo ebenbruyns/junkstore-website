@@ -126,6 +126,13 @@ known_issues:
 database_id: "0a127baea2204bad8824602568fd2206"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-02-01"
+content_hash: "1e13d1d3174c45b1"
 ---
 
 CHUCHEL is a comedy adventure game from the creators of Machinarium, Botanicula and Samorost. Join the hairy hero Chuchel and his rival Kekel as they will be facing numerous puzzles and challenges in their quest to retrieve the precious cherry!

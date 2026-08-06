@@ -130,6 +130,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-06-01"
+content_hash: "89c082f95e274af7"
 ---
 
 In this cozy farming game, you have to run your own farm shop. Take care of your animals and your farm, sell your goods to the cute Forest Folk, upgrade the island and fulfill small orders from the Harmony Tree to fill the island with life again.

@@ -130,6 +130,13 @@ known_issues:
 database_id: ""
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2026-05-01"
+content_hash: "f1177770658341e0"
 ---
 
 You wake up in a spaceship with no memories. In this escape room with a sci-fi setting you will have to investigate your past solving different puzzles. Will you be able to discover what happened to you and how did you get there?

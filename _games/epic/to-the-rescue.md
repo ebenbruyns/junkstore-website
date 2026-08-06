@@ -126,6 +126,13 @@ known_issues:
 database_id: "b52629f0e26f42adb0ee85573bb7fc87"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-01-01"
+content_hash: "c27a7d90509c04c0"
 ---
 
 To The Rescue! is a charming dog shelter simulator. Take care of unique dogs and find the right homes for as many of them as you can. Upgrade your shelter, control disease outbreaks, and learn each dog's preferences, all while helping support real-world animal shelters!

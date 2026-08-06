@@ -130,6 +130,13 @@ known_issues:
 database_id: "1964712512"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-03-01"
+content_hash: "28c2110fdb2da61a"
 ---
 
 Colt Canyon is a pixel art rogue-lite shooter where you have to save your kidnapped partner from the ruthless bandits. Shoot your way through a hostile canyon full of hidden treasures, weapons, obstacles and all kinds of bloodthirsty scum.

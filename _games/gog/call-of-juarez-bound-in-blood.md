@@ -130,6 +130,13 @@ known_issues:
 database_id: "1770556474"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-12-01"
+content_hash: "0acbc7144f4306d7"
 ---
 
 In the remote and deadly Wild West, the outlaw McCall brothers are on a quest for the legendary Gold of Juarez. In their journey across a vast landscape, these lawless gunslingers will stop at nothing to achieve their goal. Arm yourself with pistols, cannons, machine guns and more as you strike out on a mission with two fearless compatriots whose bonds of blood are only strengthened by the blood they spill together.

@@ -118,6 +118,13 @@ known_issues:
 database_id: "32275"
 is_featured: false
 owned: true
+
+# Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
+# AND that changes what a reader gets is edited (ratings, testing notes, Proton
+# version, description). content_hash is how the next export knows whether
+# anything material changed; don't hand-edit either line.
+last_modified_at: "2025-11-01"
+content_hash: "26054eb42ffb907a"
 ---
 
 Head-to-head puzzle brawling action! Match blocks to send waves at your opponent! Dodge their waves or crash them head-on to survive. Unleash unique super attacks and explosive Hype Mode to tip the scales. It's a back-and-forth struggle for arcade puzzling dominance!
