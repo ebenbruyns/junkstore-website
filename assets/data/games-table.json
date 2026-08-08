@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-06T03:01:04.514Z",
-  "total_games": 1069,
+  "generated_at": "2026-08-07T23:48:39.365Z",
+  "total_games": 1072,
   "storefronts": {
     "Epic": {
-      "total": 499,
-      "green_standalone": 438,
-      "green_decky": 449
+      "total": 500,
+      "green_standalone": 439,
+      "green_decky": 450
     },
     "GOG": {
-      "total": 402,
-      "green_standalone": 330,
+      "total": 404,
+      "green_standalone": 331,
       "green_decky": 361
     },
     "Amazon": {
@@ -1974,6 +1974,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "c98c4cd6d83a4524b4b22f13af95a104"
+    },
+    {
+      "slug": "beacon-pines",
+      "id": "5e40f77f7e934af181110e88fdb9fca8",
+      "title": "Beacon Pines",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": false,
+      "publisher": "Hiding Spot Games",
+      "controller_input": "native"
     },
     {
       "slug": "bear-and-breakfast",
@@ -10976,6 +10988,18 @@
       "databaseId": "1577460220"
     },
     {
+      "slug": "hiveswap-friendsim",
+      "id": "1766046223",
+      "title": "Hiveswap Friendsim",
+      "storefront": "GOG",
+      "decky_rating": "",
+      "standalone_rating": "red",
+      "date_tested": "Aug '26",
+      "native_linux": true,
+      "publisher": "Fellow Traveller",
+      "controller_input": "native"
+    },
+    {
       "slug": "hot-brass",
       "id": "1075439258",
       "title": "Hot Brass",
@@ -12303,6 +12327,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1688702977"
+    },
+    {
+      "slug": "right-and-down",
+      "id": "1741027632",
+      "title": "Right and Down",
+      "storefront": "GOG",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": false,
+      "publisher": "mc2games",
+      "controller_input": "native"
     },
     {
       "slug": "rime",

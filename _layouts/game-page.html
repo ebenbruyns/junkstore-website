@@ -179,7 +179,14 @@ layout: null
       <div class="notes-box">
         <h3>Setup Notes</h3>
         {% if has_notes %}
-        <p>{{ page.notes | markdownify | strip_html }}</p>
+        {% comment %}
+          markdownify (not strip_html) so testing notes can carry Markdown
+          links out to a tutorial — e.g. "see the [nil path error fix](...)".
+          strip_html used to delete the <a> that markdownify had just built,
+          leaving bare text. No <p> wrapper here: markdownify emits its own,
+          and .notes-box p in game-page-styles.css still styles it.
+        {% endcomment %}
+        {{ page.notes | markdownify }}
         {% endif %}
         {% if has_shot %}
         {% assign shot_alt = page.notes_screenshot_caption | default: 'Testing screenshot' %}

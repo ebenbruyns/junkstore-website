@@ -87,9 +87,9 @@ cant_test_linux: false
 native_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
+hltb_main: "10 Hours"
+hltb_main_extra: "15.5 Hours"
+hltb_completionist: "28 Hours"
 hltb_url: "https://howlongtobeat.com/game/127211"
 
 # Links
@@ -124,7 +124,7 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 
 # Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own

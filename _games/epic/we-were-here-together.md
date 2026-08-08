@@ -48,7 +48,7 @@ franchise_siblings: [{"rawg_id":574766,"slug":"we-were-here-forever","name":"We 
 franchise_slug: "we-were-here|we-were-here-forever|we-were-here-together|we-were-here-too"
 igdb_url: "https://www.igdb.com/games/we-were-here-together"
 was_free_before: true
-giveaway_events: [{"start":"2025-12-26","end":"2025-12-27"}]
+giveaway_events: [{"start":"2025-12-26","end":"2025-12-27"},{"start":"2026-08-06","end":"2026-08-13"}]
 free_games_aliases: []
 
 # Images

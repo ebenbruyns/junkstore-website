@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-08-06T03:59:08.237Z",
+  "generated_at": "2026-08-08T00:02:35.450Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "beacon-pines",
+      "featured_in": "2026-08-08",
+      "post_url": "/blog/games-tested-2026-08-08/",
+      "title": "Beacon Pines",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/05b16aa177d5e1392b35c737ddcacfae666f9a8c121003c889060107596e2f91.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/086f08af97f86cbd6ab69f328e98fe8536d515f8ee6a7e264efffef76b48ddd4.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "hiveswap-friendsim",
+      "featured_in": "2026-08-08",
+      "post_url": "/blog/games-tested-2026-08-08/",
+      "title": "Hiveswap Friendsim",
+      "standalone_rating": "red",
+      "icon_image": "https://images.gog-statics.com/4d258277f7e83b7a62a7511ba620cb9d8a07478e21734ec2039b7ee3de80362e.png",
+      "vertical_artwork": "https://images.gog.com/0f35ff8f6f06220f73b0baa7682dad74a7f698afc6cfc7482317f7aea8b39c83.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "right-and-down",
+      "featured_in": "2026-08-08",
+      "post_url": "/blog/games-tested-2026-08-08/",
+      "title": "Right and Down",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/73e007ff4c15ecd3bd92703dc560c5ebfd36d701acb241d64c152897de48e70d.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/b65b457bda60daa7984634eb491c40e3b4d8b1f6276ed834e67c309f5c61340d.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "we-were-here-together",
+      "featured_in": "2026-08-08",
+      "post_url": "/blog/games-tested-2026-08-08/",
+      "title": "We Were Here Together",
+      "standalone_rating": "green",
+      "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/865360/capsule_231x87.jpg",
+      "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/865360/library_600x900.jpg"
+    },
     {
       "store": "epic",
       "slug": "otxo",
@@ -80,46 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1072300/header.jpg",
       "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/d85d8cbcd8bd43308d262ba62af5b5ce/echo-generation-midnight-edition-ddk67.jpg"
-    },
-    {
-      "store": "epic",
-      "slug": "escape-academy",
-      "featured_in": "2026-07-18",
-      "post_url": "/blog/games-tested-2026-07-18/",
-      "title": "Escape Academy",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/7d3a484332bdb22c666c00426784c540133e36b1acba2b4cd23eb6f045f96f16.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/546fce5acfc1217bb879bfd4445d7207ec8df6c0cd9d54413bdcd7c80eab08cf.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "luto",
-      "featured_in": "2026-07-18",
-      "post_url": "/blog/games-tested-2026-07-18/",
-      "title": "Luto",
-      "standalone_rating": "green",
-      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1729740/header.jpg",
-      "vertical_artwork": "https://images.gog.com/8ec5135b7049b028ad2d032db8a1b31638ad594aa7ce407ac81cdbe7222f6cf8.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "nova-lands",
-      "featured_in": "2026-07-14",
-      "post_url": "/blog/games-tested-2026-07-14/",
-      "title": "Nova Lands",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/50c00cc431c6bf296c6bff6e6efdb253edde5380ff8e60d87e665c6e6ade4e06.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/a2532db9f7589997ec116d6e5c9f90070fdeb54e84e039da232e040dc9b3e37e.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "regular-factory-escape-room",
-      "featured_in": "2026-07-14",
-      "post_url": "/blog/games-tested-2026-07-14/",
-      "title": "Regular Factory: Escape Room",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/89339c8a59c4a0be1bd25f93f05e28db3586f53b9543dfcb9d81ee512c1a2e35.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/00f5651bb464532e9475ec4d4fbf338503b05c5852bc5f34be3ae190bb619789.jpg?namespace=gamesdb"
     }
   ]
 }

@@ -48,7 +48,7 @@ franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/moonlighter"
 was_free_before: true
-giveaway_events: [{"start":"2019-07-24","end":"2019-08-01"},{"start":"2024-09-01"}]
+giveaway_events: [{"start":"2019-07-24","end":"2019-08-01"},{"start":"2024-09-01"},{"start":"2026-08-05","end":"2026-08-09"}]
 free_games_aliases: []
 
 # Images

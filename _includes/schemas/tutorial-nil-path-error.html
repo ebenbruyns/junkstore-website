@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Fix the NIL Path Error When a Game Won't Launch",
+  "description": "Fix \"Default pathname NIL is not an absolute pathname\" in Junk Store Pro on Steam Deck. When the usual fixes don't work, set the install path and game executable by hand.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "text": "Try the automated fixes first. A NIL path error means the game's install folder isn't set, and most of the time Reset Launch Options, Verify game, Repair game or a full reinstall will put that right. Only carry on with the manual steps below if the error keeps coming back after all of those."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Set the Install Path. On the game's page in Junk Store, select the cog icon, then choose Game Details. Scroll down to Install Path and select it to open the file manager in directory picker mode. Navigate to the folder the game installed to and press X to choose it, then press X again to Save Config."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Find out which executable to run. Open the sliders menu and choose File Manager, which opens in the game's directory. For a GOG game, open goggame-<gameid>.info with X and scroll to the playTasks section. The path value is the executable Junk Store needs to run."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Set the game executable. Open the sliders menu again and select Run exe in Game folder. Find the executable you noted down and press X to Set Game Executable so the Play button uses it every time."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Force a compatibility tool. Press Y on the game's page in Junk Store to open its Steam page, select the cog icon, then choose Properties. Go to Compatibility, tick Force the use of a specific Steam Play compatibility tool, and pick the version you want."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Head back to the game's page in Junk Store and press Play Game."
+    }
+  ]
+}
+</script>
