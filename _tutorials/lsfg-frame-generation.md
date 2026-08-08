@@ -4,12 +4,13 @@ description: "Step-by-step guide to enable LSFG-VK (Lossless Scaling Frame Gener
 excerpt: "Boost frame rates with LSFG-VK (Lossless Scaling Frame Generation) using built-in Junk Store toggles"
 layout: junkstore-page
 permalink: /tutorials/lsfg-frame-generation/
+date: 2026-03-07
 categories: ["Universal"]
 tags: ["lsfg", "frame-generation", "performance", "both-versions"]
 difficulty: "Intermediate"
 category: both
 section: configuration
-order: 3
+order: 4
 card_title: 'Enable LSFG Frame Generation'
 card_blurb: 'Step-by-step guide on how to enable LSFG frame generation'
 ---

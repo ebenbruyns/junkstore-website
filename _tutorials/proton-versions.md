@@ -4,6 +4,7 @@ description: "Step-by-step guide to check and change Proton versions for Epic/GO
 excerpt: "Check and change which Proton version a game uses directly in Game Mode"
 layout: junkstore-page
 permalink: /tutorials/proton-versions/
+date: 2025-06-26
 redirect_from:
   - /posts/j-how-to-check-or-change-your-proton-version-in-junk-store/
 categories: ["Universal"]
@@ -11,7 +12,7 @@ tags: ["proton", "compatibility", "both-versions"]
 difficulty: "Intermediate"
 category: both
 section: configuration
-order: 5
+order: 6
 card_title: 'How to Check/Change Proton Version'
 card_blurb: 'Step-by-step guide on how to check and change your Proton version'
 ---

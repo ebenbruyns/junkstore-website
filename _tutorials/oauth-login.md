@@ -4,6 +4,7 @@ description: "Use third-party authentication with Google, PlayStation, Xbox, Nin
 excerpt: "Log in to Epic Games using Google, PlayStation, Xbox, Nintendo or other third-party accounts"
 layout: junkstore-page
 permalink: /tutorials/oauth-login/
+date: 2025-06-26
 redirect_from:
   - /posts/i-how-to-login-via-third-party-authentication-oauth/
   - /posts/c-epic-login-issues-fixed/
@@ -12,7 +13,7 @@ tags: ["oauth", "authentication", "epic-games", "login", "both-versions"]
 difficulty: "Beginner"
 category: both
 section: configuration
-order: 4
+order: 5
 card_title: 'How to Login using OAuth'
 card_blurb: 'Step-by-step guide on logging in via third party logins'
 ---

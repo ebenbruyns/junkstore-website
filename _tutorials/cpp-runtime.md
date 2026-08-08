@@ -4,12 +4,13 @@ description: "Fix game crashes and missing DLL errors by manually installing Mic
 excerpt: "Fix games that crash due to missing Visual C++ redistributables using Junk Store's built-in tool"
 layout: junkstore-page
 permalink: /tutorials/cpp-runtime/
+date: 2025-06-26
 categories: ["Universal"]
 tags: ["c++", "runtime", "dependencies", "troubleshooting", "both-versions"]
 difficulty: "Intermediate"
 category: both
 section: configuration
-order: 7
+order: 8
 card_title: 'Install C++ Runtime'
 card_blurb: 'Fix game crashes and missing DLL errors by installing Visual C++ redistributables'
 ---

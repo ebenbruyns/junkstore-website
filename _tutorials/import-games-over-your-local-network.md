@@ -4,11 +4,12 @@ description: "Import games over your local network in Junk Store Pro on Steam De
 excerpt: "Copy a game's files from another device over your local network instead of downloading it again"
 layout: junkstore-page
 permalink: /tutorials/import-games-over-your-local-network/
+date: 2026-07-03
 categories: [Pro Version]
 difficulty: "Beginner"
 category: pro
 section: configuration
-order: 1
+order: 2
 card_title: 'Import Games Over the Network'
 card_blurb: 'Copy a game from another device over your local network instead of re-downloading'
 ---

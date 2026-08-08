@@ -4,6 +4,7 @@ description: "Access advanced compatibility tools like GE-Proton and Wine-GE for
 excerpt: "Install Wine Cellar to download GE-Proton and Wine-GE compatibility tools in Game Mode"
 layout: junkstore-page
 permalink: /tutorials/wine-cellar/
+date: 2025-06-26
 redirect_from:
   - /posts/k-how-to-install-decky-plugin-wine-cellar-for-proton-versions-management/
 categories: ["Universal"]
@@ -11,7 +12,7 @@ tags: ["wine-cellar", "compatibility", "proton", "ge-proton", "both-versions"]
 difficulty: "Advanced"
 category: both
 section: configuration
-order: 6
+order: 7
 card_title: 'How to Install Wine Cellar Plugin'
 card_blurb: 'Step-by-step guide on installing WineCellar to manage compatibility tools'
 ---

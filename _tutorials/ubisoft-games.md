@@ -4,12 +4,13 @@ description: "Step-by-step guide on installing Ubisoft Connect and launching Ubi
 excerpt: "Play Ubisoft Connect games from your Epic library including Assassin's Creed and Far Cry"
 layout: junkstore-page
 permalink: /tutorials/ubisoft-games/
+date: 2025-09-28
 categories: ["Universal"]
 tags: ["ubisoft", "third-party-launchers", "epic-games", "both-versions"]
 difficulty: "Advanced"
 category: both
 section: configuration
-order: 8
+order: 9
 card_title: 'Play Ubisoft Connect Games'
 card_blurb: 'Install Ubisoft Connect and launch Ubisoft games through Epic Games Store'
 ---

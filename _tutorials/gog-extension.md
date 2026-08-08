@@ -4,6 +4,7 @@ description: "Add GOG game library integration to Junk Store Decky plugin on Ste
 excerpt: "Add GOG Galaxy games to Junk Store with the community-built GOG extension"
 layout: junkstore-page
 permalink: /tutorials/gog-extension/
+date: 2025-07-16
 categories: ["Decky Plugin"]
 tags: ["gog", "extension", "decky-plugin", "installation"]
 difficulty: "Intermediate"
