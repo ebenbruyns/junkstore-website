@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Needs C++ runtime."
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "1025e75503866779"
+last_modified_at: "2026-08-10"
+content_hash: "e9824915858d0fb0"
 ---
 
-Embark on an unforgettable golfing adventure with House of Golf 2 – not just a game, but an invitation to create lasting memories with family and friends. Whether you're a seasoned pro or a newcomer to the virtual greens, dive into a world brimming with challenges and excitement.
+A miniature golf game played across courses built out of household furniture, scaled as if you were putting across a living room. You play alone or pass the controller around, with each hole set up as a small physics puzzle.

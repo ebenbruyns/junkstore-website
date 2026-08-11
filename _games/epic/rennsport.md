@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Install"
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-07-01"
-content_hash: "fc25d407db29cee4"
+last_modified_at: "2026-08-10"
+content_hash: "e7d4a836644e2c5e"
 ---
 
-RENNSPORT is the playground that car enthusiasts have been waiting for. It is a photo-realistic racing simulation offering the highest levels of competition and a space for drivers, modders, and car lovers to come together to drive, and share their passion for racing and cars.
+A racing simulation aimed at competitive online play, built on laser-scanned recreations of real circuits. You practise, qualify and race against other drivers, alongside roads and events made by the community itself.

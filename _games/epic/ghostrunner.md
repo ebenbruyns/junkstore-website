@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency"
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "c418ca473bcfe1d9"
+last_modified_at: "2026-08-10"
+content_hash: "8e11a2f9a4deb03d"
 ---
 
-Ghostrunner offers a unique single-player experience: fast-paced, violent combat, and an original setting that blends science fiction with post-apocalyptic themes. It tells the story of a world that has already ended and its inhabitants who fight to survive.
+A first-person action game about a cybernetic assassin climbing a tower holding the last of humanity. One hit kills you and one hit kills them, so every room is a short, fast puzzle of wall-runs, dashes and a single sword.

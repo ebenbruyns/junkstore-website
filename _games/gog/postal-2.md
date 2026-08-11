@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Need to set an exe for Decky version."
+notes: Need to set an exe for Decky version.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "771ee03b799c0177"
+last_modified_at: "2026-08-10"
+content_hash: "2a90311000c90b12"
 ---
 
-Try to live a week as The Postal Dude doing everyday chores on your to-do list, such as picking up milk at the grocery store. In a world where cats can be used as assault rifle silencers, it's not surprising that a milk carton costs 5 bucks. Stealing said carton might be relatively easy in your basic corner shop, but when the shop is owned by a bunch of trigger happy jihadists, you might want to think twice about trying to leave without paying for your overpriced groceries. Little mistakes like that might just flip the switch and make you go postal.
+A first-person black comedy built around a week of mundane errands, like cashing a cheque or returning a library book, in a town that reacts badly to everything. How much violence that week involves is left to you. The whole game can be finished without killing anyone.

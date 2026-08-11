@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. Does have an audio issue that you need to install xact and d3dx9.27 to fix."
+notes: Does have an audio issue that you need to install xact and d3dx9.27 to fix.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "cb6d47bb5c3be6b9"
+last_modified_at: "2026-08-10"
+content_hash: "065e65ec3c45d102"
 ---
 
-Super Meat Boy is a tough as nails platformer where you play as a boy without skin who needs to save his girlfriend made of bandages from an evil fetus in a jar wearing a top hat and a monocle.
+A precision platformer about a skinless boy crossing saw blades and salt to reach his bandage girlfriend. Levels last seconds, death is constant and instant, and every failed attempt replays alongside you once you finally clear one.

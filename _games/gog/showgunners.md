@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. Set executable: ./ArtificerOne/Binaries/Win64/Showgunner-Win64-Shippng.exe"
+notes: "Set executable: ./ArtificerOne/Binaries/Win64/Showgunner-Win64-Shippng.exe"
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "d9c917650c41d8a6"
+last_modified_at: "2026-08-10"
+content_hash: "2d12483fd11c5683"
 ---
 
-As a contestant on a brutal reality game show of the future, you must survive a deadly urban environment packed with lethal traps, confounding puzzles, and murderous, heavily armed psychopaths. Turn-based combat in hand crafted levels, built for entertainment.
+A turn-based tactics game staged as a televised blood sport, following a contestant named Scarlett through a city rebuilt into an arena. You plan each fight around traps, sightlines and a camera crew that rewards showmanship.

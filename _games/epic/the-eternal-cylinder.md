@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency."
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "2722322c16c7c369"
+last_modified_at: "2026-08-10"
+content_hash: "da70442e24107411"
 ---
 
-Control a herd of strange creatures called Trebhums and explore an unforgettable alien world filled with exotic lifeforms and surreal environments. Discover dozens of mutations and evolve to reach new areas, overcome puzzles and survive a dangerous world. 
+A survival adventure in which you guide a herd of small creatures across an alien plain, ahead of an enormous rolling cylinder that flattens everything behind it. What they eat mutates them, and those mutations are how you get past obstacles.

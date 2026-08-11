@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. VC 2010/2012 Redists, DirectX Jun 2010 Redist"
+notes: "Need to install: VC 2010/2012 Redists, DirectX Jun 2010 Redist"
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -135,8 +135,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "2aa595589c3be303"
+last_modified_at: "2026-08-10"
+content_hash: "15f31a8b70e71da7"
 ---
 
-An unconventional tactical action RPG in which after a powerful group called the Camerata cause measureless destruction through the ambiguous settlement of Cloudbank, Red, a famous singer in the city, goes on a journey along with her lover who is trapped inside the Transistor...
+An isometric action role-playing game from the makers of Bastion, set in a city being erased around you. You carry a talking sword and build your own attacks by slotting functions together, freezing time to plan each exchange before it plays out.

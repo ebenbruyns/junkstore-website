@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Requires EOS Overlay to be enabled. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Need to install C++ Runtime (can be done from Run exe menu)"
+notes: Need to install C++ Runtime which can be done from Run exe menu (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "2df0e47592227d75"
+last_modified_at: "2026-08-10"
+content_hash: "551729e586f3e0dc"
 ---
 
-Lead your team to glory in F1® Manager 2024. A new Formula 1® season has arrived, and with it, the most comprehensive F1® management experience to date. Build a legacy with one of 10 official F1® constructors or create your own team for the very first time.
+An officially licensed Formula 1 management game covering the 2024 season. You handle car development, strategy and staff for one of the ten constructors or a team of your own, calling pit stops and tyre changes live during each race.

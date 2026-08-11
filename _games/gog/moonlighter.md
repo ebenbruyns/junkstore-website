@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. You need to install the C++ runtime dependency."
+notes: You need to install the C++ runtime dependency.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "feddf716226e8ea5"
+last_modified_at: "2026-08-10"
+content_hash: "3a445c62f0b89741"
 ---
 
-Moonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will, an adventurous shopkeeper that secretly dreams of becoming a hero.
+An action role-playing game split between two jobs: raiding procedurally generated dungeons at night, and selling what you find in your shop by day. You set your own prices and read customer reactions to work out what the town will actually pay.

@@ -123,31 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "aedefe5478760fb7"
+last_modified_at: "2026-08-10"
+content_hash: "324da712e1801bd0"
 ---
 
-Escape all new temples in Faraway 2: Jungle Escape that are full of new challenges and mysterious puzzles. This room escape game will surely challenge your puzzle escaping ability. Sequel to one of the best escape games ever with over a million players! A room escape puzzle game that will completely challenge your mind, captivate you & offer hours of amazing mobile gaming entertainment.
-
-COMPLEX PUZZLES
-Explore 18 new temples packed with escape puzzles, Explore a 3D world that will captivate you from the moment you begin. Turn, look and explore mind-bending puzzles and contraptions.
-
-IMMERSIVE WORLD
-Relax to the ambient soundtrack and the easy to navigate the 3D world that you will find in an escape game, with an abundance of secrets to discover.
-
-THE MYSTERY CONTINUES
-You have many more pages of your father’s missing journal to find, maybe then you will unlock your family’s past. This is an escape game that will keep you engaged for many hours!
-
-NEW FEATURES
-In game camera allows you to take snapshots and save them for later use.
-
-TRY FOR FREE
-Enjoy 9 free escape levels before you decide to purchase the remaining levels and experience the whole Faraway 2: Jungle Escape story that will leave you impressed.
-
-SUPER WIDESCREEN SUPPORT
-The puzzle game looks beautiful on new 18:9 phones and also shines on tablet devices. Enjoy stunning and astoundingly detailed graphics that look exquisite.
-
-SUPPORTS IPHONE X SCREEN
-Compatible with new standard screen sizes for iPhone X.
-
-Enter an all-new intriguing environment of room escape games & puzzles with Faraway 2: Jungle Escape!
+The second Faraway puzzle game, set in overgrown temples on a continent you have not seen before. Still following a missing father’s trail, about a year into the search, you reach the point where his notes stop reading like a solo expedition. He is not out here alone.

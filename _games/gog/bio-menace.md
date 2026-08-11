@@ -135,10 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "b04f234ff1807443"
+last_modified_at: "2026-08-10"
+content_hash: "1452f496d2c31c4c"
 ---
 
-Intelligence reports indicate that a man calling himself Dr. Mangle is responsible for the mutants and the destruction of Metro. You will have to battle your way through levels packed with evil mutants and robotic guards to finally infiltrate Mangle's fortress and defeat him. You think to yourself that this will be the most dangerous mission of your life.
-
-Snake Logan is a weapons expert, and uses several throughout the game, including a high-powered machine gun and grenades.
+A 1993 Apogee side-scrolling shooter starring CIA agent Snake Logan, stranded in a Metro City overrun by mutants. You fight through three episodes of streets and laboratories with a growing arsenal, working toward Dr. Mangle's fortress.

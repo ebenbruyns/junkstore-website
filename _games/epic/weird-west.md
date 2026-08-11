@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime."
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-07-01"
-content_hash: "57e5fc42e7d0670b"
+last_modified_at: "2026-08-10"
+content_hash: "34d1b3538af2c5e9"
 ---
 
-Survive and unveil the mysteries of the Weird West through the intertwined destinies of its unusual heroes in an Action RPG from the co-creators of Dishonored and Prey.
+An isometric immersive sim set on a frontier where the supernatural is ordinary, told through five characters whose stories overlap. Choices carry between them, and most problems have several solutions, from sneaking past to talking round to burning the place down.

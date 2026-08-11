@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime"
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "d7f9472f3547420b"
+last_modified_at: "2026-08-10"
+content_hash: "d5ef6857552b8036"
 ---
 
-Experience the hustle and bustle of packed-in commuters, trains every few minutes, the echo of screeching rails in tunnels with the classic Bakerloo Line, rendered in its entirety within Train Sim World!
+A train simulator that models real routes in detail, from cab controls to signalling and passenger timetables. This entry includes the London Underground's Bakerloo Line in full, alongside other licensed British, German and American routes.

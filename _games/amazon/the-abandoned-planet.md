@@ -123,8 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "49fae7434142f80f"
+last_modified_at: "2026-08-10"
+content_hash: "47643f4094a88616"
 ---
 
-When a wormhole tears open in space, an astronaut is hurled down and crashes on a distant planet. But where is she? Where are all the inhabitants of the planet? And how is she going to get back home? Solve the puzzle and piece together the mystery in this 2D, pixel art, first person, point and click adventure.
+A pixel-art point-and-click adventure about an astronaut thrown through a wormhole onto a deserted planet. You work through first-person screens in the Myst tradition, piecing together where the inhabitants went and how to get home.

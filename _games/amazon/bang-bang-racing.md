@@ -123,10 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "128e18109df0b3ab"
+last_modified_at: "2026-08-10"
+content_hash: "964d81003559da84"
 ---
 
-Bang Bang Racing is a distinct arcade game focusing not only on the speed but also on the technical driving skills. The very intuitive control system and the exciting tracks provide endless fun for everyone in the family.
-
-Bang Bang Racing delivers fast-paced racing around every corner and down every straight. Drive high-speed, pumped-up racing cars through cones, tires and exploding barrels! Be one step ahead of your competitors, finding shortcuts, repairing your car in the pit lane, and dominating your opponents from the top-down view.
+A top-down arcade racer built around clean cornering rather than raw speed. You pick from four classes of car and work through nine reversible circuits, hunting shortcuts and pit stops while cones and exploding barrels scatter across the track.

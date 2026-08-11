@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Requires Frontier Account setup. Native controller support. **Decky Plugin: Not working (Paid version only)**. **Pro Version: Works out of the box**."
+notes: Requires Frontier Account setup.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "bda71b573e602ab6"
+last_modified_at: "2026-08-10"
+content_hash: "9ac6cf1ee7e43a11"
 ---
 
-Take control of your own starship and blaze your trail in an ever-changing galaxy. Master the arts of combat, mining and trade or venture out into the unknown across a 1:1 scale universe.
+A space simulation set in a 1:1 recreation of the Milky Way, shared with everyone else playing it. You own a ship and pick your own line of work, from hauling cargo to hunting bounties, mining or exploring, with no fixed campaign to follow.

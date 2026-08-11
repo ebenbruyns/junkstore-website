@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. Community controller layout available. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. You need to either use the mouse or touch screen to get past main menu and into the game. If you want to, you can remap controls in game from the 'Options' menu. Community layout is for the 'Steam Controller'."
+notes: "You need to either use the mouse or touch screen to get past main menu and into the game. If you want to, you can remap controls in game from the 'Options' menu. Community layout is for the 'Steam Controller'."
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "7ec5c00c01663a3a"
+last_modified_at: "2026-08-10"
+content_hash: "079390e80d171a84"
 ---
 
-INDUSTRIA is a first-person shooter that takes you from East Berlin into a parallel reality, shortly before the end of the Cold War. On the search for a missing work colleague, you decypher a dark past in a mysterious parallel dimension.
+A short first-person shooter that opens in East Berlin the night the Wall falls and crosses into a parallel version of the city. Searching for a missing colleague, you push through rusting industrial districts with a small arsenal and very few answers.

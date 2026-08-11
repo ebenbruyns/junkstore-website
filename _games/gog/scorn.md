@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. May need C++ Runtime. Resolution wrong on launch but automatically set to correct one after opening settings menu."
+notes: May need C++ Runtime. Resolution wrong on launch but automatically set to correct one after opening settings menu.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "d75ab3e70cbd80d2"
+last_modified_at: "2026-08-10"
+content_hash: "a74df73af286779a"
 ---
 
-Scorn is an atmospheric first person horror adventure game set in a nightmarish universe of odd forms and somber tapestry. It is designed around an idea of "being thrown into the world". Isolated and lost inside this dream-like world you will explore different interconnected regions in a non-linear fashion. The unsettling environment is a character itself. Every location contains its own theme (story), puzzles and characters that are integral in creating a cohesive lived in world. Throughout the game you will open up new areas, acquire different skill sets, weapons, various items and try to comprehend the sights presented to you.
+A first-person horror adventure set in a biomechanical world with no map, no dialogue and very little explanation. You solve mechanical puzzles built from bone and tissue, fight only when cornered, and read the story out of the architecture itself.

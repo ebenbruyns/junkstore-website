@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Needs C++ Runtime, otherwise no extra setup required."
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "023dc6709985983d"
+last_modified_at: "2026-08-10"
+content_hash: "0a6513cd0ef46360"
 ---
 
-Deliver Us Mars is an atmospheric sci-fi adventure taking you on a suspense-fuelled, high-stakes mission to recover the ARK colony ships stolen by the mysterious Outward.
+A science fiction adventure that lands a small crew on Mars to recover stolen colony ships, pairing climbing and puzzle sections with a family story told in flashback. You explore abandoned installations with a cutting tool and a companion robot.

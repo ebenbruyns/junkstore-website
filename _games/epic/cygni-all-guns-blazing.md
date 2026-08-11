@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. additional arguments > -epicdeploymentid=78a046d4ac1b42d7aaba9fe80f88a5d8"
+notes: "Need to add additional arguments > -epicdeploymentid=78a046d4ac1b42d7aaba9fe80f88a5d8"
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-08-01"
-content_hash: "e2e8fbe132f9c218"
+last_modified_at: "2026-08-10"
+content_hash: "c98961b8859e3089"
 ---
 
-An unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes CYGNI the vanguard for the next generation of shoot-em ups. Outgunned, outmanned and out on your own, plunge into a sky full of hell in a last-ditch battle for survival.
+A vertically scrolling shooter with heavy modern presentation and a punishing difficulty curve. You shift power between weapons and shields on the fly, threading dense bullet patterns while also attacking targets on the ground below.

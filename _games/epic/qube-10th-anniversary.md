@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime"
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-05-01"
-content_hash: "489ad7617536dcbf"
+last_modified_at: "2026-08-10"
+content_hash: "1d30e26ad0b8a994"
 ---
 
-Entirely rebuilt from the ground up, Q.U.B.E. 10th Anniversary is the ultimate celebration of the decade-old original, bringing refined visuals, completely redesigned and revised gameplay sections, and a whole new chapter to the award-winning, brain-twisting first-person puzzler
+A rebuilt version of the first-person puzzle game in which gloves let you extend, launch and tilt coloured blocks out of blank white walls. The anniversary edition revises the original chapters and adds a new one.

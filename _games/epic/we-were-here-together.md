@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "92ec96343bd76101"
+last_modified_at: "2026-08-10"
+content_hash: "45ea400f0048563f"
 ---
 
-As we explore these frozen wastes, misfortune strikes once again. Through the fierce blizzard, a flare lights the sky, followed by a cry for help over the radio - broken, dying... No one else can come to their rescue. Can we make it back - together?
+A two-player co-operative puzzle game that begins at an Antarctic base camp and separates you and a partner inside the medieval castle you set out to reach, leaving radio as your only contact. Neither of you can see the other’s room, so every puzzle is solved by describing what is in front of you.

@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-01-01"
-content_hash: "4df2ba9fd2a28842"
+last_modified_at: "2026-08-10"
+content_hash: "a9c9584a4fe28afc"
 ---
 
-Deliver At All Costs is a thrilling action game where destruction, absurdity and intrigue collide! Join Winston Green, a down-on-his-luck courier with a fiery temper and a mysterious past — as he delivers highly unconventional cargo, leaving a trail of havoc and chaos behind him.
+A top-down action game about a courier taking increasingly unreasonable deliveries across a 1950s American town. Almost everything in the world can be destroyed, and most of the job involves driving through it rather than around it.

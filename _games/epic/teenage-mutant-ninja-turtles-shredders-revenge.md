@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. May need to install C++ Runtime"
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-07-01"
-content_hash: "f536f4bffea6e03f"
+last_modified_at: "2026-08-10"
+content_hash: "31a1e1ad4e58ed3a"
 ---
 
-Teenage Mutant Ninja Turtles: Shredder’s Revenge reunites Leonardo, Michelangelo, Donatello and Raphael as they kick shell in a beautifully realized beat ’em up.
+A side-scrolling beat ’em up in the style of the arcade Turtles games, with pixel art and up to six players at once. The roster runs past the four turtles to April, Splinter and Casey, fighting through Foot Clan levels drawn from the 1987 cartoon.

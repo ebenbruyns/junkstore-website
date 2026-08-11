@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency."
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,9 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "27af2dba0e9e4fcf"
+last_modified_at: "2026-08-10"
+content_hash: "36e8356e5d43fbc2"
 ---
 
-Collect the best vehicles in the Hot Wheels™ universe, build spectacular tracks and dive into breathtaking races.
-The most iconic and sought after Hot Wheels™ vehicles are waiting for you. Get ready to make them race at full speed!
+An arcade racer built from Hot Wheels track pieces laid through everyday spaces like a garage, a college campus or a skate park. You collect licensed cars, race them around orange loops and build your own circuits in an editor.

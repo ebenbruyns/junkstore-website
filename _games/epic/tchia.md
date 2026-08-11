@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. Need to install C++ runtime."
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "5985d06db5304804"
+last_modified_at: "2026-08-10"
+content_hash: "d47000f3420ae799"
 ---
 
-A Tropical Open-World adventure. Climb, glide, swim, and sail your boat around a beautiful archipelago in this physics-driven sandbox. Take control of any animal or object you can find, and Jam on your fully playable Ukulele. A game inspired by New Caledonia.
+An open-world adventure set in an archipelago modelled on New Caledonia, where a girl can throw her soul into any animal or object she finds. You sail, climb and glide between islands, and play a ukulele that works as a real instrument.

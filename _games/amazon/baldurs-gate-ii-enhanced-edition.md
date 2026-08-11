@@ -108,7 +108,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Keyboard & mouse controls. **Decky Plugin: Not Supported**. **Pro Version: Some tinkering required**. Must run ./dependencies/oalinst.exe to install OpenAL32.dll first. May need to set ./Baldur.exe"
+notes: Must run ./dependencies/oalinst.exe to install OpenAL32.dll first. May need to set ./Baldur.exe
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
@@ -124,12 +124,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "f6d70c4d5f319820"
+last_modified_at: "2026-08-10"
+content_hash: "2084a05e74952fcd"
 ---
 
-Kidnapped. Imprisoned. Tortured. The wizard Irenicus holds you captive in his stronghold, attempting to strip you of the powers that are your birthright. 
- 
-Can you resist the evil within you, forge a legend of heroic proportions, and ultimately destroy the dark essence that haunts your dreams? Or will you embrace your monstrous nature, carve a swath of destruction across the realms, and ascend to godhood as the new Lord of Murder? 
- 
-Baldur's Gate II: Enhanced Edition brings this critically acclaimed role-playing experience to PC, Mac, iPad, and Android.
+The second chapter of the Bhaalspawn saga, an isometric Dungeons & Dragons role-playing game rebuilt with a modern interface and extra companions. You break out of a wizard's dungeon in Amn, gather a party and follow the story through Shadows of Amn into its Throne of Bhaal conclusion.

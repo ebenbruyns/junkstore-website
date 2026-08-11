@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Needs C++ runtime."
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,9 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "8b64effe8a5b7689"
+last_modified_at: "2026-08-10"
+content_hash: "a6b6da763e145713"
 ---
 
-Hunting or haunting! The choice is yours in the upcoming asymmetrical Ghostbusters game from IllFonic, Ghostbusters: Spirits Unleashed. Play with up to four friends or solo on multiple platforms.
-
+An asymmetric multiplayer game in which four players hunt a ghost controlled by a fifth. The hunters sweep a building with proton packs and traps while the ghost slips between objects, scaring civilians before the team can close the trap.

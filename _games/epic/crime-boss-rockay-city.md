@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. You need to install Microsoft C++ runtime & accept a EULA"
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "a0a9cf90a2b8b882"
+last_modified_at: "2026-08-10"
+content_hash: "0cd8acb41a9ce8a8"
 ---
 
-Crime Boss: Rockay City is a 1-4 player co-op FPS heist game with enjoyable stealth and epic killing spree combat. Featuring a solo roguelike campaign that combines FPS and strategy elements with the most hilariously cheesy voice acting that make you laugh. 
+A first-person heist game with a roguelike campaign layer, set in a neon-lit 90s Florida city. You run jobs alone or with three others, and crew members lost during a campaign run stay lost as you fight for territory.

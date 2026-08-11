@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. Install C++ runtime from sliders menu - ./dependency/VC_resist.x64.exe & set ./MarvelRivals_Launcher.exe from then sliders menue."
+notes: "Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro)  - ./dependency/VC_resist.x64.exe & set ./MarvelRivals_Launcher.exe from then sliders menue."
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "4d4794f5d1796c26"
+last_modified_at: "2026-08-10"
+content_hash: "a180e1e580420452"
 ---
 
-Marvel Rivals is a Super Hero Team-Based PVP Shooterr! Assemble an all-star Marvel squad, devise countless strategies by combining powers to form unique Team-Up skills and fight in destructible, ever-changing battlefields across the continually evolving Marvel universe!
+A free third-person hero shooter using Marvel characters, played six against six. Every hero picks a Team-Up ability that works on its own and grows stronger when its partner is on your side, and the maps come apart as the fight goes on.

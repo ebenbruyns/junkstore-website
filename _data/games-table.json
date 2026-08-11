@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T23:48:39.365Z",
+  "generated_at": "2026-08-10T22:14:39.816Z",
   "total_games": 1072,
   "storefronts": {
     "Epic": {
@@ -8904,7 +8904,7 @@
       "standalone_rating": "yellow",
       "date_tested": "Dec '24",
       "cant_test_linux": false,
-      "native_linux": false,
+      "native_linux": true,
       "publisher": "Atari, Beamdog",
       "controller_input": "requires-mapping",
       "requires_eac_runtime": false,

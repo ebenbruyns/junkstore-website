@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. In desktop mode you will get the intro video, but in Game Mode you need to map buttons to Alt+Enter in order to skip this and get to the game menu.\n\nIn the proton settings in the Environment section set Mesa Extension Max Year to 2002"
+notes: "In desktop mode you will get the intro video, but in Game Mode you need to map buttons to Alt+Enter in order to skip this and get to the game menu.\n\nIn the proton settings in the Environment section set Mesa Extension Max Year to 2002"
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "c9dffb24de105817"
+last_modified_at: "2026-08-10"
+content_hash: "b67e3464418654af"
 ---
 
-Compilation pack including the Medal of Honor: Allied Assault main game and the Medal of Honor: Allied Assault Spearhead and Medal of Honor: Allied Assault Breakthrough expansion packs.
+The 2002 shooter with both expansions, following three different soldiers rather than one continuous story. Mike Powell, a Ranger seconded to the OSS, runs from North Africa to Omaha Beach. Spearhead drops Jack Barnes of the 501st paratroopers into Normandy, Belgium and Berlin, and Breakthrough takes John Baker of the 34th Infantry through Sicily and Italy, all as scripted set-piece missions built around squad-scale infantry fighting.

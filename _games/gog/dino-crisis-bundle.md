@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. Set launch command: WINEDLLOVERRIDES=\"ddraw=n,b\" %command%"
+notes: "Set launch command: WINEDLLOVERRIDES=\"ddraw=n,b\" %command%"
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -135,8 +135,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-04-01"
-content_hash: "6a1bd9f978062296"
+last_modified_at: "2026-08-10"
+content_hash: "f1e0bb51ca496bca"
 ---
 
-Three years ago, a scientist died during an experiment on 'Third Energy', a clean energy source. Government funding was cut, and the incident was considered insignificant. Until now.
+Two Capcom games that share their dinosaurs and little else. Dino Crisis is survival horror, with fixed cameras, scarce ammunition and locked doors in an island research facility, played as agent Regina. Dino Crisis 2 drops most of that for arcade-style action, splitting the campaign between Regina and a second lead, Dylan Morton.

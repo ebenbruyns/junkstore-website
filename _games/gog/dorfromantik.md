@@ -135,8 +135,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "ef5b5f8fe6d2c636"
+last_modified_at: "2026-08-10"
+content_hash: "9af69cf5013a408e"
 ---
 
-Dorfromantik is a peaceful building strategy and puzzle game where you create a beautiful and ever-growing village landscape by placing tiles. Explore a variety of colorful biomes, discover and unlock new tiles and complete quests to fill your world with life!
+A quiet tile-laying puzzle game about growing a landscape outward from a single hex. You draw tiles one at a time and rotate them to match forests, rivers and villages, scoring on how neatly the edges line up and how long you can keep the stack going.

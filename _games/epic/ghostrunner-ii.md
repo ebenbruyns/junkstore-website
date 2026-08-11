@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: 
+notes: May need Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "db544e45bbeecc85"
+last_modified_at: "2026-08-10"
+content_hash: "902676a178aebb50"
 ---
 
-Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. 
+The sequel to Ghostrunner, keeping the one-hit-kill sword combat and adding open areas outside the tower, including stretches on a motorbike. You take on a cult of rogue AI, with more freedom in how each encounter starts.

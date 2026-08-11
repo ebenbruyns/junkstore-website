@@ -123,8 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "f1fd91cae2de9e02"
+last_modified_at: "2026-08-10"
+content_hash: "ff703988813516cb"
 ---
 
-Faraway: Arctic Escape is a relaxing adventure escape game full of new puzzles to solve. The final sequel of the Faraway trilogy.
+The third entry in the Faraway puzzle series, moving the search for a missing father into frozen ruins. You work through a chain of self-contained temples, solving their mechanical locks and reading the notes he left behind at each one.

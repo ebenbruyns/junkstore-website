@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. May need to login to Bethesda to change visual settings to windowed"
+notes: May need to login to Bethesda to change visual settings to windowed
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-06-01"
-content_hash: "9253b9a3fec27030"
+last_modified_at: "2026-08-10"
+content_hash: "74a22ac097a888c7"
 ---
 
-DEATHLOOP is a next-gen first person shooter from Arkane Lyon, the award-winning studio behind Dishonored. In DEATHLOOP, two rival assassins are trapped in a mysterious timeloop on the island of Blackreef, doomed to repeat the same day for eternity.
+A first-person shooter set on an island stuck in one repeating day, from the studio behind Dishonored. You learn the routines of eight targets across four time periods and work out the single route that kills them all before midnight.

@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. Does have an audio issue that you need to install xact and d3dx9.27 to fix."
+notes: Does have an audio issue that you need to install xact and d3dx9.27 to fix.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-02-01"
-content_hash: "b76ac301c007ec0a"
+last_modified_at: "2026-08-10"
+content_hash: "64785f4405a0c9e1"
 ---
 
-The challenge of Super Meat Boy returns in Super Meat Boy Forever! Levels are brutal and death is inevitable. Players will run, jump, punch and kick their way through familiar places and new worlds all while enjoying a story truly meant for the big screen.
+A sequel that keeps the brutal difficulty but has Meat Boy running automatically, leaving you to time jumps, dives and punches. Levels are assembled from hand-designed chunks, so a stage is rebuilt each time you start it.

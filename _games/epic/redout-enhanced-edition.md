@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Install."
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,9 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "9bc19b55b3c003c5"
+last_modified_at: "2026-08-10"
+content_hash: "c12a57bb90f15233"
 ---
 
-NEXT GENERATION AG RACING IS HERE!
-Redout is a tribute to the classic racing monsters. It is designed to be an uncompromising, fast, tough and satisfying driving experience, soaked in that vertigo that stands at the core of the arcade racing genre.
+A high-speed anti-gravity racer in the tradition of Wipeout and F-Zero, tuned to be fast and unforgiving. You lean into corners with a separate strafe control, managing boost energy and hull damage across a long single player career.

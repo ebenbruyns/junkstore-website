@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. Install C++ runtime."
+notes: Needs Microsoft C++ Runtime.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "515169fed93aa106"
+last_modified_at: "2026-08-10"
+content_hash: "dd362d4db1a426ad"
 ---
 
-Embark on a magical journey in Disney Epic Mickey: Rebrushed! Shape your adventure with the stroke of a brush and transform Wasteland as Mickey Mouse
+A remake of the 2010 platformer, sending Mickey Mouse into Wasteland, the world where forgotten Disney characters ended up. You reshape levels with paint and thinner, restoring what is there or erasing it, and the game notices which you prefer.

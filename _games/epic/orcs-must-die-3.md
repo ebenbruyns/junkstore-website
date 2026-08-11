@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "1d907ea6a586232c"
+last_modified_at: "2026-08-10"
+content_hash: "6bd91f9b08b1d61b"
 ---
 
-Slice, burn, toss, zap, grind and gib massive hordes of repugnant orcs in this long-awaited successor to the award-winning Orcs Must Die! series.
+A tower defence game played from behind your own crossbow: lay traps along the corridors an orc horde has to cross, then join the fight yourself. This entry adds war scenarios with far larger waves and open battlefields.

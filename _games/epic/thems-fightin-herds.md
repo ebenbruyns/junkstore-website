@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. You need to install DirectX components."
+notes: You need to install DirectX components.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "9316d3419b3a3d9e"
+last_modified_at: "2026-08-10"
+content_hash: "d3d48514a202ab76"
 ---
 
-Them's Fightin' Herds is an indie fighting game featuring a cast of adorable animals designed by acclaimed cartoon producer Lauren Faust. Beneath the cute and cuddly surface, a mechanically-deep GGPO-powered fighter awaits!
+A 2D fighting game with a cast of hand-drawn hooved animals designed by Lauren Faust, sitting on top of a serious tournament-grade fighter. It ships with rollback netcode, a story mode and a step-by-step tutorial aimed at people who have never played one.

@@ -124,15 +124,15 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 
 # Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-01"
-content_hash: "1729bf38a4c6f46e"
+last_modified_at: "2026-08-10"
+content_hash: "680ac741372b28c4"
 ---
 
-Beacon Pines is a cute and creepy adventure game within a magical storybook. You play as both the reader of the book and its main character, Luka. Explore the town to find word charms. Use your charms to change the course of fate!
+A storybook adventure with a dark streak, told as a book you are able to rewrite. Playing a young deer in a quiet town, you sneak out at night, collect charmed words and slot them into the story to send events down a different path.

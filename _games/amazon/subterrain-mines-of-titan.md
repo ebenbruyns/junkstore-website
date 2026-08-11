@@ -123,8 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "908d97398194605a"
+last_modified_at: "2026-08-10"
+content_hash: "23932a84f2bfd802"
 ---
 
-Awaken from an abandoned stasis pod and discover a doomed mining camp on Titan in an uncompromising turn-based survival RPG. Survive the evolving horrors that lurk below and craft equipment, research new gear, fight against overwhelming odds, or even discover your true fate.
+A turn-based survival role-playing game that opens with you waking from a stasis pod in a doomed mining camp on Titan. You strip the base for parts, research better equipment and fight what has come up from below, with every action costing time you cannot get back.

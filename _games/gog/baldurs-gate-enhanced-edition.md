@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "5dade756b4748322"
+last_modified_at: "2026-08-10"
+content_hash: "d4570a2227c05cf0"
 ---
 
-Running on an upgraded and improved version of the Infinity Engine, Baldur's Gate: Enhanced Edition™ includes the entire Baldur's Gate adventure, the Tales of the Sword Coast expansion pack, and never-before-seen content including a new adventure and three new party members: the Calishite monk Rasaad yn Bashir, Neera the wild mage, and Dorn Il-Khan, the evil blackguard.
+The 1998 Dungeons & Dragons role-playing classic, updated with a modern interface, new companions and an arena mode. You play an orphan of Candlekeep pulled into a plot over the Sword Coast's iron supply, across the original campaign and the Tales of the Sword Coast expansion.

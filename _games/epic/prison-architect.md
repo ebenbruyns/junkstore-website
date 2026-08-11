@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Requires Paradox Interactive setup. May need to verify with Epic account before launch. Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**."
+notes: Requires Paradox Interactive setup.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,12 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "a29bf956fc85499e"
+last_modified_at: "2026-08-10"
+content_hash: "418703f9e359a072"
 ---
 
-Welcome Wardens!
-
-Only the world’s most ruthless Warden can contain the world’s most ruthless inmates. Design and develop your personalized penitentiary in Prison Architect.
-
-
+A management sim about designing and running a prison, from cell blocks and canteens to staffing and daily routine. You balance budget, security and inmate needs, and watch riots, escapes and small oversights spread from whatever you got wrong.

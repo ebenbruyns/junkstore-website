@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. If game doesn't launch try setting the .exe from sliders menu."
+notes: "If game doesn't launch try setting the .exe from sliders menu."
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "f5f41f1e8bbbd4e0"
+last_modified_at: "2026-08-10"
+content_hash: "3e002c3e446aeefa"
 ---
 
-Murder. Gods. Romance. Band practice? Unravel the mystery of the Last Muse’s death in an interactive roleplaying musical where Greek gods live hidden among us. Use your newfound powers of musical persuasion to choose how this wry and moving saga will unfold. How will the curtain fall?
+A narrative role-playing game where conversations turn into musical numbers, set among Greek gods living in the present day. Having inherited a dead Muse's powers, you choose how each song is sung, and those choices decide who trusts you and how the murder resolves.

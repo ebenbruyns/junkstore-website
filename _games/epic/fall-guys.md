@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. \nInstall the easy anti cheat runtime from the 'About' section- (make sure you are installing it to the SSD not the micro SD card)"
+notes: "Install the easy anti cheat runtime from the 'About' section - (make sure you are installing it to the SSD not the micro SD card)"
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "3e89a78793f6e4d9"
+last_modified_at: "2026-08-10"
+content_hash: "972caae7d90d5e2b"
 ---
 
-Fall Guys is a free, cross-platform multiplayer party royale game. Dive into escalating rounds of hilarious obstacle courses, lively survival arenas and more!
+A free multiplayer party game in which dozens of players stumble through obstacle courses together, each round knocking more of them out. Rounds mix races, team games and last-one-standing survival until a single bean is left.

@@ -123,8 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "dfaed52947fbab2c"
+last_modified_at: "2026-08-10"
+content_hash: "c1239ab843aba74f"
 ---
 
-Ten short arcade mini-games inspired by the Balloon Trip mode from the NES classic Balloon Fight. Drift through each stage, steering your balloonist past obstacles for as long as you can.
+Ten takes on the Balloon Trip mode from the NES game Balloon Fight, made for a graduate class built around Pippin Barr's talk on remaking the same game dozens of times. One is a faithful recreation and the rest add, remove or swap an ingredient, inverting the controls, draining your stamina as you flap, or turning the lights out.

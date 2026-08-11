@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "9b97915d8de32212"
+last_modified_at: "2026-08-10"
+content_hash: "c6012eff3296f992"
 ---
 
-A pig farmer decides he no longer wants to dispose of bodies for the mob. What follows is a discussion between him and his would-be killer.
+A short first-person story about a pig farmer who has decided to stop disposing of bodies for the mob, and the friend sent to talk him round. You spend an afternoon on chores about the farm while the conversation works its way toward an ending.

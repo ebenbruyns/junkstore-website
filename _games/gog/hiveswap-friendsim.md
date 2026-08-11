@@ -128,15 +128,15 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 
 # Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-01"
-content_hash: "548df735c627a44a"
+last_modified_at: "2026-08-10"
+content_hash: "4edbb2d9580361a5"
 ---
 
-A darkly comedic episodic visual novel set in the Homestuck/Hiveswap universe.
+An episodic comedy visual novel set in the Homestuck and Hiveswap universe, built from short encounters with the alien trolls of Alternia. Stranded on a hostile planet, you talk your way through one meeting at a time, trying to make a friend before something eats you.

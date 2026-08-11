@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ runtime."
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-04-01"
-content_hash: "d0868877806086c9"
+last_modified_at: "2026-08-10"
+content_hash: "42c5363e56deb918"
 ---
 
-Decades have passed and the Actress, Ella, returns to the abandoned theatre to uncover a preserved collection of extraordinary performances. Explore a variety of magical, hand-painted worlds as you collect the lost pieces of the past.
+A first-person narrative game set in an abandoned theatre, where an actress returns to recover the performances once staged there. You walk through hand-painted worlds built from those shows, collecting the pieces the building kept.

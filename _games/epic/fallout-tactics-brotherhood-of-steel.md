@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. Use Proton-7.0rc3-GE-1 to help with stuttering of cutscenes"
+notes: Use Proton-7.0rc3-GE-1 to help with stuttering of cutscenes
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,9 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-08-01"
-content_hash: "86401f6d4d69d044"
+last_modified_at: "2026-08-10"
+content_hash: "e02bcb867b23eb61"
 ---
 
-Tactical Squad-Based Combat comes to the Fallout® Universe!
-In these dark times, the Brotherhood - your Brotherhood - is all that stands between the rekindled flame of civilization and the howling, radiated wasteland.
+A squad tactics spin-off from the Fallout series, following a Brotherhood of Steel detachment pushing east through the Midwest. You recruit and equip a party of six and fight through a mix of turn-based and real-time combat.

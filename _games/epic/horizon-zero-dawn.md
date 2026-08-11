@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. Install C++ Runtime Dependency"
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-08-01"
-content_hash: "7227496244134914"
+last_modified_at: "2026-08-10"
+content_hash: "e590b99d3e55fcd4"
 ---
 
-Welcome to a vibrant world rich with the beauty of nature – but inhabited by awe-inspiring, highly advanced machines.
+An open-world action game set a thousand years after the collapse of civilisation, on an Earth where machines have taken the place of animals. Playing an outcast hunter named Aloy, you bring them down with a bow and traps while uncovering what ended the old world.

@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Requires HoyoPlay launcher. Requires HoyoPlay Account setup. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. You need to set the exe."
+notes: Requires HoyoPlay launcher. Requires HoyoPlay Account setup.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "8ef7313912772f9d"
+last_modified_at: "2026-08-10"
+content_hash: "39c954620dd6dbe1"
 ---
 
-Embark on a journey across Teyvat to find your lost sibling and seek answers from The Seven — the gods of each element. Explore this wondrous world, join forces with a diverse range of characters, and unravel the countless mysteries that Teyvat holds...
+A free open-world action role-playing game set in Teyvat, a continent divided between seven elemental gods. You search for a missing sibling while building a party whose elements combine to freeze, ignite or electrify whatever you point them at.

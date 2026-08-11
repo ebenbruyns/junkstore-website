@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. You need to set some keybindings to Alt+F4 to quit the game."
+notes: You need to set some keybindings to Alt+F4 to quit the game.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "2a661ebc5d92ab79"
+last_modified_at: "2026-08-10"
+content_hash: "99c0c6664d7d2997"
 ---
 
-HuniePop is a 2015 adult dating sim/match-3 puzzle game published and developed by HuniePot. Funding for the game was raised via Kickstarter. It is available in two versions, one censored and one uncensored, although the censored one can easily be patched. The game follows a player (can be male/female) trying to woo a variety of women by going on dates with them, giving them gifts and talking to them.
+A dating sim wrapped around a match-three puzzle game, with a fairy mentor coaching you between encounters. You build rapport in conversation, then play tile-matching rounds where the board stands in for how the date is actually going.

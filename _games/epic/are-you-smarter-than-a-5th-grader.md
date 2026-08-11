@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. \nNeeds Microsoft C++ Runtime (installed automatically in Junk Store Pro)."
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "96dd78b6928641f9"
+last_modified_at: "2026-08-10"
+content_hash: "3701f185683a09fd"
 ---
 
-Based on the popular TV franchise, this charming couch co-op quiz game for 1-8 players will have you face more than 6800 fully English-voiced questions. Prove how much you still know from school and that you are, in fact, smarter than a 5th grader.
+A couch quiz game for one to eight players, adapted from the television format. You work through fully voiced questions drawn from primary school subjects, with the option to lean on a classmate when one stumps you.

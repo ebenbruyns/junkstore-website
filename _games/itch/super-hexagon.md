@@ -123,8 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "3e0bb987bfe7676b"
+last_modified_at: "2026-08-10"
+content_hash: "baab747ec8ee9188"
 ---
 
-Super Hexagon is a minimal action game by Terry Cavanagh, with music by Chipzel.
+A minimal reflex game by Terry Cavanagh: rotate a triangle around the centre of a spinning hexagon and slip through gaps in walls closing from every side. Early runs last seconds, and the whole game is about pushing that number upward.

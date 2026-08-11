@@ -128,15 +128,15 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 
 # Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-01"
-content_hash: "4d970b8564c7259a"
+last_modified_at: "2026-08-10"
+content_hash: "01ffc390b71f9f78"
 ---
 
-A deep roguelike and card game that is played using only two buttons: Right and Down! Choose your hero and explore randomly generated card dungeons, gather powerful artifacts to get new abilities, and fight against mighty enemies! Will you make it to level 100?
+A card-based dungeon crawler played with two inputs only: move right, or move down. You pick a hero and work across a grid of face-down cards, weighing each step for loot, damage or a fight, aiming to reach level 50.

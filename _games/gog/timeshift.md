@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. Use alternate executable: `./bin/TimeShift.exe`. Tested with Proton 9.0-4"
+notes: "Use alternate executable: `./bin/TimeShift.exe`."
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
@@ -135,8 +135,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "706c6ada060ad741"
+last_modified_at: "2026-08-10"
+content_hash: "f390978c807378d9"
 ---
 
-Master time to become the ultimate weapon! Dr. Aiden Krone has made a Time Jump across the space-time continuum - a reckless act with frightening consequences.
+A first-person shooter built around a suit that slows, stops and reverses time. You fight through a rain-soaked alternate history left behind by a rogue scientist, using the suit as much for puzzles as for firefights.

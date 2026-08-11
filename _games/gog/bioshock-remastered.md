@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. \nTurn on Esync and Fsync toggles under Proton config to fix the low-res textures and long saving/loading."
+notes: Turn on Esync and Fsync toggles under Proton config to fix the low-res textures and long saving/loading.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "19433d960ae6bd2d"
+last_modified_at: "2026-08-10"
+content_hash: "94d59e4a38da1307"
 ---
 
-Explore the undersea city of Rapture, a haven for society's greatest minds that has devolved into a dystopian nightmare wrought by one man's hubris. Includes Museum of Orphaned Concepts, Challenge Rooms and Director's Commentary - Imagining BioShock.
+The remastered version of the 2007 shooter set in Rapture, an underwater city built as a utopia for great minds and long since collapsed. You move through its flooded halls with a mix of firearms and genetic plasmids, learning who built the place and what went wrong.

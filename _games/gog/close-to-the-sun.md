@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. May want to adjust scaling — text and menus get clipped."
+notes: May want to adjust scaling — text and menus get clipped.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: Native Steam Deck Controls
@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "8507b549e988e74f"
+last_modified_at: "2026-08-10"
+content_hash: "4431b843ba34e62a"
 ---
 
-Close to the Sun is a story-driven horror game that takes place at the turn of the 20th century on a mysterious ship complex created by Nikola Tesla for the sake of knowledge. In this alternative version of history, his scientific breakthroughs have already had a major impact on the world. You’re a young journalist looking for your sister and, as you approach this enormous and glorious complex for the first time, you quickly realize that something there has gone horribly wrong..."
+A first-person horror game set in 1897 aboard the Helios, an enormous research vessel built by Nikola Tesla and now gone quiet. Playing a journalist searching for her sister, you make your way through its art deco decks, avoiding whatever the experiments left behind.

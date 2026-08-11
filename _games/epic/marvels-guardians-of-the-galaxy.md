@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. You need to use touch screen on the Start screen to get into the game or change controller settings to mouse and keyboard to naviagte menus"
+notes: You need to use touch screen on the Start screen to get into the game or change controller settings to mouse and keyboard to naviagte menus
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "cce288e9d41bf691"
+last_modified_at: "2026-08-10"
+content_hash: "fdd8ede25036ac73"
 ---
 
-You are Star-Lord. The fate of the galaxy and the Guardians is in your hands. Time to show the universe what you’re made of. You got this. Probably.
+A single-player action adventure in which you play Star-Lord and issue orders to the rest of the Guardians mid-fight. Between battles the crew argue constantly, and your replies steer both the banter and how the story turns out.

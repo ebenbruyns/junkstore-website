@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Requires Stumble Upon Rumble Account setup. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**."
+notes: Requires Stumble Upon Rumble Account setup.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "224d797892c8780a"
+last_modified_at: "2026-08-10"
+content_hash: "7203cb8c1fe4f823"
 ---
 
-Retro Zelda meets Punch Out. Players use their movement to deceive their opponents and use the attacks to strike at the right time. The winner keeps on fighting while the others watch and chat. It's a real-time multiplayer game with servers of up to 30 players.
+An online brawler with retro top-down pixel art, fought in real time with punches, kicks and blocks. Movement is the main weapon, so feinting beats memorising combos, and winners stay in the ring while everyone else watches and chats, on servers holding up to thirty players.

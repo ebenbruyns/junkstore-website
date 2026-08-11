@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. You may want to adjust resolution/scaling."
+notes: You may want to adjust resolution/scaling.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "339706d768c07789"
+last_modified_at: "2026-08-10"
+content_hash: "ed9248a81d0a7aea"
 ---
 
-Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.
+Eight of Konami's early Castlevania games in one package, spanning NES, Game Boy, SNES and Mega Drive entries released between 1986 and 1994. Alongside the games sits an illustrated history of the series, with notes from the developers and artists behind it.

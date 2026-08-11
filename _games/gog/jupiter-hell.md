@@ -119,7 +119,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**.\nNo issue if you select Yes or No at the Vulkan prompt."
+notes: No issue if you select Yes or No at the Vulkan prompt.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "61c943f8e86843ee"
+last_modified_at: "2026-08-10"
+content_hash: "5099ebdc04eb0cd3"
 ---
 
-Jupiter Hell is a classic turn-based roguelike set in a 90's flavored sci-fi universe. Rip and tear zombies, demons and unmentionable monstrosities, using shotguns, chainguns and the trusty chainsaw, to the shine of CRT monitors and the tune of heavy metal!
+A turn-based roguelike that moves like an action game, where enemies act only when you do, set across the moons and stations of a doomed Jupiter mission. You pick a class, dig through procedurally built levels for weapons and mods, and lose the lot when you die.

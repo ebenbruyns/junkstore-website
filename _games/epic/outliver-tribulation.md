@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "May need to verify with Epic account before launch. Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ runtime."
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "0968daf736814d22"
+last_modified_at: "2026-08-10"
+content_hash: "638b9ac727ef52a8"
 ---
 
-A dark history comes calling in this "African Mythology meets Survival-Horror and Souls-like" experience! You play as the soldier who mysteriously ends up in a supernatural realm, of which her only way out is to partake in an ancient ritual... or so she believes.
+A survival horror game drawing on African mythology, following a soldier who wakes somewhere the living are not supposed to be. You fight through it with deliberate, souls-like combat while performing the ancient ritual that supposedly leads back out, or so she is told.

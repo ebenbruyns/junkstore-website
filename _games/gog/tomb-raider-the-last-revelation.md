@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-08-01"
-content_hash: "956ef1ad7f0dfb29"
+last_modified_at: "2026-08-10"
+content_hash: "41775b5ad44521f7"
 ---
 
-Tomb Raider IV: The Last Revelation is the fourth game of the Tomb Raider games series, it plays very similar to the previous games in the series but some new things have been added to the game. The biggest addition is that now rather large parts of the game consist of several interconnected levels sometimes explored in any order, with puzzles in one level often requiring that some actions are done in other levels. The new additions to Lara's arsenal are a revolver and a bow with several sets of arrows including exploding and poisonous ones.
+The fourth Tomb Raider, set almost entirely in Egypt, where Lara Croft lifts the Amulet of Horus from a sarcophagus and lets the god Set loose. After a short Cambodian prologue played as her teenage self, you work through one continuous run of tombs and temples, with the puzzles and traps pitched harder than in the earlier games.

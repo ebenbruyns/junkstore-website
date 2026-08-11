@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "60debc6fbeb2e6d9"
+last_modified_at: "2026-08-10"
+content_hash: "1789d8d3f059eb4d"
 ---
 
-First-person horror that will drag you to the depths of greed, power and madness. Developed by The Chinese Room, the creators of Dear Esther, and published Frictional Games, the studio behind Amnesia: The Dark Descent.
+A first-person horror game set in the London of 1899, following a wealthy industrialist who wakes with his memory in pieces and a vast machine running somewhere beneath his house. You descend through the works with nothing to fight back with, gradually piecing together what you built and why.

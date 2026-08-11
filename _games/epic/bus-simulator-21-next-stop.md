@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency, no extra setup required."
+notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "6b6e32c390010e7c"
+last_modified_at: "2026-08-10"
+content_hash: "7e28bf4478273998"
 ---
 
-It's your stop! Bus Simulator 21 Next Stop is here! Enjoy many game improvements and a brand-new game mode with this comprehensive update.
+A bus driving simulation covering both the route and the company behind it, across two fictional cities. You keep to a timetable and watch passenger comfort, then buy vehicles and hire drivers to expand the network.
