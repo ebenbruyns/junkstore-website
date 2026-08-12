@@ -546,4 +546,10 @@ notes:
     type: beta
     text: No issues or breakages - [SteamOS 3.8.25
       Beta](https://store.steampowered.com/news/app/1675200/view/667247155276153538)
+  - id: 1786567636742t9ij
+    date: 2026-08-12T00:00:00
+    type: client-beta
+    text: "No issues or breakages - [Steam Beta Client Update: August
+      11th](https://store.steampowered.com/news/app/1675200/view/66724715527615\
+      4239)"
 breakHistory: []
