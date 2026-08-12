@@ -121,7 +121,7 @@ layout: junkstore-default
       {%- assign cta_subtext = cta_subtexts[cta_idx] -%}
 
       <aside class="inline-blog-cta inline-blog-cta--auto" aria-label="Try Junk Store Pro">
-        <p><strong>Ready for an all-in-one launcher?</strong></p>
+        <p><strong>{{ page.cta_heading | default: "Ready for an all-in-one launcher?" }}</strong></p>
         <a href="/portal-redirect/" class="inline-blog-cta-button">
           🚀 Try Junk Store Pro Free for 7 Days
         </a>
