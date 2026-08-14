@@ -115,7 +115,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account."
+notes: "Endurance Boss Fight: Limit FPS to 60 otherwise it will freeze/crash."
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "2b2ff64377f3906b"
+last_modified_at: "2026-08-14"
+content_hash: "5025cffc13e67007"
 ---
 
 Armed only with raw instincts and the ability to push beyond the limits of human endurance, Lara must fight to unravel the dark history of a forgotten island to escape its relentless hold.

@@ -41,7 +41,7 @@ game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 languages_audio: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"7808","name":"steam-trading-cards"},{"id":"42","name":"Great Soundtrack"},{"id":"18","name":"Co-op"},{"id":"36","name":"Open World"},{"id":"9","name":"Online Co-Op"},{"id":"80","name":"Tactical"},{"id":"40852","name":"Steam Workshop"},{"id":"62","name":"Moddable"},{"id":"70","name":"War"},{"id":"102","name":"Turn-Based"},{"id":"89","name":"Historical"},{"id":"120","name":"Memes"},{"id":"101","name":"Turn-Based Strategy"},{"id":"164","name":"Cartoony"},{"id":"179","name":"Cartoon"},{"id":"100","name":"Grand Strategy"},{"id":"212","name":"4X"}]
-size: ""
+size: "10193 MB"
 install_size: ""
 achievements_total: 
 franchise_siblings: [{"rawg_id":983201,"slug":"sid-meiers-civilization-vii","name":"Sid Meier’s Civilization VII"},{"rawg_id":13633,"slug":"civilization-v","name":"Sid Meier's Civilization V"},{"rawg_id":13780,"slug":"sid-meiers-civilization-iv","name":"Sid Meier's Civilization IV"},{"rawg_id":17380,"slug":"sid-meiers-civilization-iii-complete","name":"Sid Meier's Civilization III Complete"},{"rawg_id":32060,"slug":"sid-meiers-civilization-2","name":"Sid Meier's Civilization 2"},{"rawg_id":32062,"slug":"sid-meiers-civilization","name":"Sid Meier's Civilization"}]

@@ -94,7 +94,7 @@ metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/baldurs-gate-enhanced-edition/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: "545"
+opencritic_id: "545/baldurs-gate-ii-enhanced-edition"
 opencritic_url: "https://opencritic.com/game/545/-"
 opencritic_score: 76
 opencritic_review_count: 34

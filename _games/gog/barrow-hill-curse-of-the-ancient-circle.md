@@ -39,7 +39,7 @@ age_ratings: {"pegi":{"rating":"7","descriptors":"Fear"},"dejus":{"rating":"14",
 release_date: "September 22, 2016"
 game_modes: ["Single player"]
 languages: ["German","English","Spanish","French","Italian"]
-languages_audio: ["English","German"]
+languages_audio: ["English","German","French","Polish","Russian","Ukrainian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "1249 MB"
 install_size: ""
@@ -105,10 +105,10 @@ metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/barrow-hill-curse-of-the-ancient-circle/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: ""
+opencritic_id: "545/baldurs-gate-ii-enhanced-edition"
 opencritic_url: ""
-opencritic_score: 
-opencritic_review_count: 
+opencritic_score: 76
+opencritic_review_count: 34
 twitch_id: ""
 twitch_url: ""
 playstation_id: ""

@@ -39,7 +39,7 @@ age_ratings: {"esrb":{"rating":"T","descriptors":"Animated Blood, Mild Language,
 release_date: "November 15, 2013"
 game_modes: ["Co-op","Multi-player","Single-player"]
 languages: ["Chinese Simplified","German","English","Spanish","French","Italian","Korean","Polish","Russian"]
-languages_audio: ["English"]
+languages_audio: ["English","German","French","Polish","Russian","Ukrainian"]
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"16","name":"Horror"},{"id":"141","name":"Point & Click"}]
 size: "3232 MB"
 install_size: ""

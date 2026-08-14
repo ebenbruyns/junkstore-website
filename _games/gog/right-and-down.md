@@ -41,7 +41,7 @@ game_modes: ["Single-player"]
 languages: ["Portuguese (Brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Portuguese","Chinese Traditional"]
 languages_audio: []
 tags_structured: []
-size: ""
+size: "227 MB"
 install_size: ""
 achievements_total: 18
 franchise_siblings: []

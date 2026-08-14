@@ -48,7 +48,7 @@ franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/breathedge"
 was_free_before: true
-giveaway_events: [{"start":"2023-01-01"},{"start":"2023-04-26","end":"2023-05-03"}]
+giveaway_events: [{"start":"2023-01-01"},{"start":"2023-04-26","end":"2023-05-03"},{"start":"2026-08-07","end":"2026-08-09"}]
 free_games_aliases: []
 
 # Images
