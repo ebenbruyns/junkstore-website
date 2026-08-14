@@ -25,7 +25,8 @@
 {%- if page.doc_section and page.doc_section != "" -%}
   {%- assign nav_sections = page.doc_section | split: "," -%}
 {%- else -%}
-  {%- assign nav_sections = all_docs | map: "doc_section" | uniq -%}
+  {%- include docs/section-order.html -%}
+  {%- assign nav_sections = docs_sections_ordered -%}
 {%- endif -%}
 
 <nav class="js-docs-nav" aria-label="Documentation">
@@ -57,7 +58,16 @@
     {%- if section == "" -%}{%- continue -%}{%- endif -%}
     {%- assign meta = site.data.doc_sections[section] -%}
     {%- assign section_pages = all_docs | where: "doc_section", section -%}
-    {%- assign section_label = meta.label | default: section | replace: "-", " " | capitalize -%}
+    {%- comment -%}
+      Only fall back to the folder name when no label is set. Chaining the
+      formatting onto `default` ran `capitalize` over a real label too, and it
+      downcases everything after the first letter.
+    {%- endcomment -%}
+    {%- if meta.label -%}
+      {%- assign section_label = meta.label -%}
+    {%- else -%}
+      {%- assign section_label = section | replace: "-", " " | capitalize -%}
+    {%- endif -%}
     {%- assign section_url = "/docs/" | append: section | append: "/" -%}
 
     <div class="js-docs-nav__section">
@@ -85,7 +95,11 @@
           {%- endunless -%}
           {%- if doc.doc_group != "" -%}
             {%- assign gmeta = meta.groups[doc.doc_group] -%}
-            {%- assign group_label = gmeta.label | default: doc.doc_group | replace: "-", " " | capitalize -%}
+            {%- if gmeta.label -%}
+              {%- assign group_label = gmeta.label -%}
+            {%- else -%}
+              {%- assign group_label = doc.doc_group | replace: "-", " " | capitalize -%}
+            {%- endif -%}
             <p class="js-docs-nav__group">{{ group_label }}</p>
           {%- endif -%}
           {%- comment -%}

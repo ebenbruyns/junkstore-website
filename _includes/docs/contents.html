@@ -16,12 +16,16 @@
   folder in the docs repo renders sensibly rather than blank. Nothing here
   needs editing when documentation is added.
 
+  The order they are listed in comes from section_order in that same data file,
+  via docs/section-order.html, which the sidebar uses too.
+
   Pages belonging to no section, such as the glossary, get a card of their own
   after the sections.
 {%- endcomment -%}
 
 {%- assign all_docs = site.docs | where_exp: "d", "d.doc_index != true" | sort: "doc_order" -%}
-{%- assign sections = all_docs | map: "doc_section" | uniq -%}
+{%- include docs/section-order.html -%}
+{%- assign sections = docs_sections_ordered -%}
 {%- assign standalone = all_docs | where: "doc_section", "" -%}
 
 <div class="js-docs-contents">
@@ -31,7 +35,17 @@
       {%- if section == "" -%}{%- continue -%}{%- endif -%}
       {%- assign meta = site.data.doc_sections[section] -%}
       {%- assign section_pages = all_docs | where: "doc_section", section -%}
-      {%- assign section_label = meta.label | default: section | replace: "-", " " | capitalize -%}
+      {%- comment -%}
+        The fallback formatting is applied only when there is no label to use.
+        Chaining it onto `default` ran `capitalize` over the real label too,
+        which downcases everything after the first letter: "User Manual" came
+        out as "User manual".
+      {%- endcomment -%}
+      {%- if meta.label -%}
+        {%- assign section_label = meta.label -%}
+      {%- else -%}
+        {%- assign section_label = section | replace: "-", " " | capitalize -%}
+      {%- endif -%}
       {%- assign groups = section_pages | map: "doc_group" | uniq | where_exp: "g", "g != ''" -%}
 
       <a class="js-docs-contents__card" href="/docs/{{ section }}/">
@@ -44,7 +58,11 @@
           {%- for g in groups -%}
             {%- assign gmeta = meta.groups[g] -%}
             {%- if forloop.first %} &middot; {% else %}, {% endif -%}
-            {{ gmeta.label | default: g | replace: "-", " " | capitalize }}
+            {%- if gmeta.label -%}
+              {{ gmeta.label }}
+            {%- else -%}
+              {{ g | replace: "-", " " | capitalize }}
+            {%- endif -%}
           {%- endfor -%}
         </p>
       </a>

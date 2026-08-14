@@ -1,0 +1,55 @@
+{%- comment -%}
+  The order the sections are listed in, on the contents page and in the sidebar.
+
+  Assigns `docs_sections_ordered`. Both callers need the same sequence, so it is
+  worked out once here rather than twice.
+
+  Without this the order came out of `map: "doc_section" | uniq` on the pages
+  themselves. Every section has a page at doc_order 0, so they all tied, and the
+  tie was broken by the source path: extensions/ before user/, alphabetically
+  and by accident. That is not the order a reader wants them in.
+
+  `section_order` in _data/doc_sections.yml is the authority. Sections listed
+  there come first, in that order; anything else follows in the order it was
+  already in. So a new folder in the docs repo still appears without anyone
+  editing the data file, it just appears last until someone places it.
+
+  Expects `all_docs` to be assigned by the caller.
+{%- endcomment -%}
+
+{%- assign docs_sections_present = all_docs | map: "doc_section" | uniq -%}
+
+{%- comment -%}
+  Names are matched inside a pipe-delimited string because Liquid has no way to
+  append to an array. The delimiters matter: a bare `contains` is a substring
+  test, so a section called "user" would match one called "users".
+{%- endcomment -%}
+{%- assign docs_sections_seen = "|" -%}
+{%- assign docs_sections_list = "" -%}
+
+{%- for section in site.data.doc_sections.section_order -%}
+  {%- assign key = "|" | append: section | append: "|" -%}
+  {%- if docs_sections_present contains section and section != "" -%}
+    {%- unless docs_sections_seen contains key -%}
+      {%- assign docs_sections_list = docs_sections_list | append: section | append: "," -%}
+      {%- assign docs_sections_seen = docs_sections_seen | append: section | append: "|" -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%}
+  Sections with no place in section_order, appended so nothing is ever dropped.
+  The empty section, which is a page belonging to none, is skipped: the glossary
+  is rendered separately by both callers.
+{%- endcomment -%}
+{%- for section in docs_sections_present -%}
+  {%- assign key = "|" | append: section | append: "|" -%}
+  {%- if section != "" -%}
+    {%- unless docs_sections_seen contains key -%}
+      {%- assign docs_sections_list = docs_sections_list | append: section | append: "," -%}
+      {%- assign docs_sections_seen = docs_sections_seen | append: section | append: "|" -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign docs_sections_ordered = docs_sections_list | split: "," -%}

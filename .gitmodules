@@ -1,3 +1,7 @@
 [submodule "_vendor/junk-docs"]
 	path = _vendor/junk-docs
 	url = https://github.com/SDK-Innovation/junk-docs.git
+	# Which branch `git submodule update --remote` follows, used by the deploy
+	# workflow. Without it the default is whatever the remote's HEAD points at,
+	# which works today but is decided at the far end rather than here.
+	branch = main

@@ -31,9 +31,23 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # Checks out _vendor/junk-docs, which the documentation import reads.
+          # Without it that directory is empty and the /docs/ section vanishes
+          # from the build.
           submodules: true
-          # If using the 'assets' git submodule from Chirpy Starter, uncomment above
-          # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
+
+      # The submodule records a commit, not a branch, so a checkout alone pins
+      # the documentation to whenever that pointer was last committed here. This
+      # moves it to the tip of the branch named in .gitmodules instead, so a
+      # merge into junk-docs main ships on the next deploy without anyone having
+      # to remember a bump commit. The committed pointer is still the floor: if
+      # this step is removed, the build falls back to it rather than breaking.
+      #
+      # Deliberately not scheduled. The docs change rarely, so they ride along
+      # with the next site deploy rather than triggering one of their own. Use
+      # the Actions tab's "Run workflow" to publish a docs-only change sooner.
+      - name: Use the latest documentation
+        run: git submodule update --remote --merge
 
       - name: Setup Pages
         id: pages

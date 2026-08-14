@@ -15,6 +15,20 @@
 # themselves, not from the keys in this file.
 repo_url: "https://github.com/SDK-Innovation/junk-docs"
 
+# The order sections are listed in on /docs/ and in the sidebar. Most readers
+# arriving at the docs want the user manual, so it leads; extensions are for the
+# smaller group who are building something. A section left out of this list
+# still renders, it just sorts after the ones named here.
+section_order:
+  - user
+  - extensions
+
+user:
+  label: "User Manual"
+  blurb: >-
+    Using Junk Store Pro on your Steam Deck: the menus, adding and launching
+    games, Proton and store settings, the file manager, and diagnostics.
+
 extensions:
   label: "Extensions"
   blurb: >-
