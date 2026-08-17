@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-10T22:14:39.816Z",
-  "total_games": 1072,
+  "generated_at": "2026-08-16T23:11:59.817Z",
+  "total_games": 1076,
   "storefronts": {
     "Epic": {
-      "total": 500,
-      "green_standalone": 439,
-      "green_decky": 450
+      "total": 503,
+      "green_standalone": 442,
+      "green_decky": 453
     },
     "GOG": {
-      "total": 404,
-      "green_standalone": 331,
+      "total": 405,
+      "green_standalone": 332,
       "green_decky": 361
     },
     "Amazon": {
@@ -1472,6 +1472,18 @@
       "databaseId": "1465560"
     },
     {
+      "slug": "airship-kingdoms-adrift",
+      "id": "933bd8cbb2b74c2684cfe27ee6b0695b",
+      "title": "Airship: Kingdoms Adrift",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": false,
+      "publisher": "Freedom Games",
+      "controller_input": "keyboard-mouse"
+    },
+    {
       "slug": "ak-xolotl-together",
       "id": "7ab9ea96-4e23-4dad-b024-6269b24ddffc",
       "title": "Ak-xolotl: Together",
@@ -2444,6 +2456,18 @@
       "publisher": "PlayWay",
       "controller_input": "native",
       "databaseId": "8032b75cf0914afa87c78d6914adc165"
+    },
+    {
+      "slug": "caravan-sandwitch",
+      "id": "e1f0b4ad4b16426e991276aceb81bbe2",
+      "title": "Caravan SandWitch",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": false,
+      "publisher": "Dear Villagers",
+      "controller_input": "native"
     },
     {
       "slug": "card-shark",
@@ -6600,6 +6624,17 @@
       "controller_input": "requires-mapping",
       "requires_eac_runtime": false,
       "databaseId": "4e4e5473a79b40a1a4aee3bb0f612718"
+    },
+    {
+      "slug": "steelrising",
+      "id": "800ab4cd7b3b4b1cae4b5bff81cdfa1a",
+      "title": "Steelrising",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": false,
+      "publisher": "Nacon"
     },
     {
       "slug": "strange-horticulture",
@@ -12227,6 +12262,18 @@
       "databaseId": "1097498205"
     },
     {
+      "slug": "pyramids-and-aliens-escape-room",
+      "id": "1872608764",
+      "title": "Pyramids and Aliens: Escape Room",
+      "storefront": "GOG",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": false,
+      "publisher": "mc2games",
+      "controller_input": "native"
+    },
+    {
       "slug": "quake-ii",
       "id": "433af97a-a711-461a-b423-1f0dfd9b42c8",
       "title": "Quake II",
@@ -14955,7 +15002,7 @@
       "storefront": "itch",
       "decky_rating": "unsupported",
       "standalone_rating": "green",
-      "date_tested": "Jun '26",
+      "date_tested": "Aug '26",
       "native_linux": true,
       "publisher": "Hexecutable",
       "controller_input": "keyboard-mouse",

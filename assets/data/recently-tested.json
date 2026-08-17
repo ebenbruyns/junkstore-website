@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-08-08T00:02:35.450Z",
+  "generated_at": "2026-08-16T23:11:59.848Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "airship-kingdoms-adrift",
+      "featured_in": "2026-08-17",
+      "post_url": "/blog/games-tested-2026-08-17/",
+      "title": "Airship: Kingdoms Adrift",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/1f57ff6f2a76a352f1e53f9e1563395699c5aeeac082c59cec848cc2244fcf12.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/0a5313a8acbb34443a7ae63147fb5060aafaabec1865c80c81a3670b7570e980.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "caravan-sandwitch",
+      "featured_in": "2026-08-17",
+      "post_url": "/blog/games-tested-2026-08-17/",
+      "title": "Caravan SandWitch",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/04daa46fa06b09ea9e8a614d19c3e2b4ecebb4447fc2f8710a5c7dc66bebbb76.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/3e9023d47bfa8850570d19c61f670d5c2bbdc902cc3f336b3976975430ed9b29.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "gog",
+      "slug": "pyramids-and-aliens-escape-room",
+      "featured_in": "2026-08-17",
+      "post_url": "/blog/games-tested-2026-08-17/",
+      "title": "Pyramids and Aliens: Escape Room",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/3c8a68b8f9ad165dd85a12e64913575a92c72b2969ef13b9e836d4a46514dfea.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/ee496091b2b8f91b0ede70bc5d0e7e8650c17c8c7ec4982a9b1c7076c14a9954.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "steelrising",
+      "featured_in": "2026-08-17",
+      "post_url": "/blog/games-tested-2026-08-17/",
+      "title": "Steelrising",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/853d6480c4497058f60b8cce115b10508c44a48d19631d6430661db6efd8e1c8.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/3dc4348053ad91b0a114dcd00e22a2f832077418853b74ea3d35f8d3a9702e5f.jpg?namespace=gamesdb"
+    },
     {
       "store": "epic",
       "slug": "beacon-pines",
@@ -80,46 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/19197cbf12098540c76061ffec00bc90827c298bb41909108b54273c2b7bfc93.jpg?namespace=gamesdb",
       "vertical_artwork": "https://images.gog.com/d8ab67cf72aaa449997c7ff11725fcb674bf56f6b436816d4136a86c8d0cbe39.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "foretales",
-      "featured_in": "2026-07-26",
-      "post_url": "/blog/games-tested-2026-07-26/",
-      "title": "Foretales",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/a32b63ff3a2703c9b525e4e8ba8b0275f7a43cbefde271fe55c332457a1acd27.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/b73e6059e5bbf93d25ef855706b71710ee89cbacc8b0026bc7e398597deb432e.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "amazon",
-      "slug": "in-sound-mind",
-      "featured_in": "2026-07-26",
-      "post_url": "/blog/games-tested-2026-07-26/",
-      "title": "In Sound Mind",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/576b6cb5a2bb4db79ffb230e9ea037083f6ccfcbbbd72a64a53ae0ee0fc78a66.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/8d62cb972b268cb0a3c143cd8cbdbb00f810a68328ca6e4e414f9c16593b5db1.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "mystic-academy-escape-room",
-      "featured_in": "2026-07-26",
-      "post_url": "/blog/games-tested-2026-07-26/",
-      "title": "Mystic Academy: Escape Room",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/f332cc2add7bf6c9e136f5a1875bf07f6686f939ddd160f8e5485794096791ea.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/e5d135edfb45599f466d065e3bc1aa9cb6cd559b23a5ec8628b49b49eff1b724.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "echo-generation-midnight-edition",
-      "featured_in": "2026-07-18",
-      "post_url": "/blog/games-tested-2026-07-18/",
-      "title": "Echo Generation: Midnight Edition",
-      "standalone_rating": "green",
-      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1072300/header.jpg",
-      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/d85d8cbcd8bd43308d262ba62af5b5ce/echo-generation-midnight-edition-ddk67.jpg"
     }
   ]
 }
