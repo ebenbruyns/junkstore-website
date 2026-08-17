@@ -135,14 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "a60bb2c1e2b8b5c5"
+last_modified_at: "2026-08-17"
+content_hash: "3aa6ac112b650be1"
 ---
 
-Shadow Sorcerer is a tie-in with the Dragonlance series of novels. The player controls a party of four adventurers that have just rescued 800 slaves and must shepherd them through the wilderness before the evil Dragon army catches up with them. There are three levels to the game:
-
--Strategic, where the player must move the refugees safely through the wilderness.
-- Tactical, where the party explores dungeons and other areas of interest, searching for information and treasure to assist the escape.
-- Political, where the players must deal with the refugee leaders and convince them to continue following the party.
-
-All three take place in real-time with the evil dragons constantly on the adventurers' heels slowly picking off the escapees.
+A tactical game in which you lead a column of refugees out of occupied Krynn, steering four heroes in real time while the people following them have to be fed and kept alive. It is sold inside Silver Box Classics, together with Heroes of the Lance, Dragons of Flame and War of the Lance.

@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-07-01"
-content_hash: "57e637df6260342a"
+last_modified_at: "2026-08-17"
+content_hash: "5a4953515c6eaaa8"
 ---
 
-The cutest, deadliest top-down roguelike shooter featuring AK-wielding Axolotls. Blast your way through the animal kingdom with an arsenal of kick-ass guns, mighty power-ups and even raise an army of trigger-happy baby axolotls. Double the firepower! Local co-op update now live!
+A top-down roguelite shooter starring an axolotl with an assault rifle. You fight through randomly generated rooms across a range of biomes, raising axolotl hatchlings back at base, and the Together release adds online and local co-op for a second player.

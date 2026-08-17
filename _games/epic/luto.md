@@ -131,10 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "91f3bcb40d911cdb"
+last_modified_at: "2026-08-17"
+content_hash: "75064df050274481"
 ---
 
-This is a story about death.
-
-Luto is a psychological horror experience where you take on the role of someone unable to leave their home. Every attempt to escape will lead you deeper into the unknown, where nothing is as it seems and everything will test your senses.
+A first-person psychological horror set inside a single house, played as someone who cannot make themselves leave it. Every attempt at the door folds the place back on itself, so rooms you thought you had left return joined up in ways the house should not allow.

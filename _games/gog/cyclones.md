@@ -135,10 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "80a2d6b5e444cc2c"
+last_modified_at: "2026-08-17"
+content_hash: "968a0f7695a689d5"
 ---
 
-In 2010, the Advanced Ideas Corporation (AI Corp) has discovered the remains of a crashed alien ship. The technological ability of this race (and the race itself) were far superior to what the Humans had. A few days after this discovery, the mothership of the alien race began to attack Earth, without provocation. The aliens quickly subdued the superpowers of the Earth and held them down under their mighty technological power.
-
-Earth geneticists studied the remains of the aliens retrived from the crashed ship discovered that the invaders were all cybernetically-enhanced creatures and that under such conditions there was no way that Earth could retaliate sufficiently to destroy these organisms. So, the AI Corp brought forth the Enhanced Combat Scouts (ECS) project. They developed a prototype and gave it the code name "Havoc". Havoc's mission is to disrupt and destroy the communication lines between the alien forces and their commander. He is Earth's last hope.
+A 1994 first-person shooter fought against the CyClones, captured humans an invading alien race has rebuilt as part-machine weapons. It carries everything multimedia meant at the time, with full-motion video, cinematics and digitised voices around the shooting, and it aims through a mouse crosshair you move independently of the way you are facing, which few shooters of the period allowed.

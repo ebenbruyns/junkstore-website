@@ -135,8 +135,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "f6967196c5da98b0"
+last_modified_at: "2026-08-17"
+content_hash: "cc904f35dd41ce11"
 ---
 
-Somewhere deep within the woods a timeless force is stirring. Beneath the ancient burial mound, known locally as Barrow Hill, a forgotten myth awakes...
+A point-and-click horror adventure set over a single night in the Cornish woods, where something beneath an ancient burial mound has begun to stir. You arrive at the autumn equinox, follow the trail of a missing archaeologist through shrines and standing stones, and use survey gear and CCTV to work out what is moving out there.

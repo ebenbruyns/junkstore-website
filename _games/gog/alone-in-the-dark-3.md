@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "34baae1b09181732"
+last_modified_at: "2026-08-17"
+content_hash: "3c305aff5379c444"
 ---
 
-Alone in the Dark 3 is a direct sequel to Alone in the Dark 2 and the last game of the original canon of the series. It has the exact same gameplay as the first two games but with reload action removed, more responsive shooting/fighting and more puzzles than the previous game. The main theme is the Wild West as Carnby is pitted against a town filled with zombie cowboy outlaws who attack him with revolvers and lever-action rifles.
+The third Alone in the Dark, which moves Edward Carnby out of haunted houses and into Slaughter Gulch, a western ghost town standing in as a film set. The crew has been taken, Emily Hartwood from the first game among them, and you shoot and investigate your way through the curse on the town.

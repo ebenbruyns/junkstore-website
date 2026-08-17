@@ -135,12 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "941796e175d4eae8"
+last_modified_at: "2026-08-17"
+content_hash: "e1274f244b537479"
 ---
 
-A space-time portal has suddenly appeared, and two brave adventures entered it. It led to Har'Akir, a scorched desert populated by vicious creatures who hold the few peaceful settlements in fear. The only way to escape this wretched place is to find the Stone Prophet, a wall of a obelisk with mysterious hieroglyphs written on it. The adventurers must find the path that leads to the Stone Prophet, but the cursed mummy of the ancient pharaoh Anhktepot is watching every step they make...
-
-Ravenloft: Stone Prophet is a sequel to Ravenloft: Strahd's Possession. It utilizes the same graphical engine and gameplay system. Like its predecessor, character creation and combat follow the Advanced Dungeons & Dragons role-playing rules; exploration and combat are viewed from first-person perspective, and the battles occur in real time. The player can import two characters from the previous game, or create two new ones. Up to four additional characters can be met in the game world and recruited to the party.
-
-The Egyptian-like desert setting of the game has brought an additional gameplay element: the necessity of regularly drinking water. The heroes must always carry enough water with them when they venture into the desert, or cast water-creating spells.
+The Ravenloft sequel, which trades Barovia's castles and fog for Har'Akir, a desert domain of tombs, dust and mummies. It keeps the first-person party role-playing of Strahd's Possession, and is sold as the Ravenloft Series pairing, so that game comes with it.

@@ -124,15 +124,15 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 
 # Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-01"
-content_hash: "a015e0f99874c2f1"
+last_modified_at: "2026-08-17"
+content_hash: "1314677f307cb4ff"
 ---
 
-Customize and manage your fleet of airships, plan trade routes, establish industries, explore the vast sky of Europa in the time of turmoil and national conflicts. Airship: Kingdoms Adrift is strategy-simulation game with rich lore and captivating story to explore. Also featuring online PvP mode.
+An airship trading and combat simulator set in Suthseg, a frontier archipelago the last Sky War passed over. You take a commission to found a trading company there, fitting out ships, hiring officers who each have a story of their own, and working across 70-odd settlements while the three powers holding an uneasy ceasefire turn their attention your way.

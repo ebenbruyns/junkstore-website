@@ -45,7 +45,7 @@ size: ""
 install_size: ""
 achievements_total: 10
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "60-minutes-to-extinction-escape-room|palindrome-syndrome-escape-room|tested-on-humans-escape-room"
 igdb_url: "https://www.igdb.com/games/pyramids-and-aliens-escape-room"
 was_free_before: true
 giveaway_events: [{"start":"2026-08-13","end":"2026-09-17"}]
@@ -128,15 +128,15 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 
 # Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-01"
-content_hash: "690456c816efcb37"
+last_modified_at: "2026-08-17"
+content_hash: "6cf2dc575566dd2b"
 ---
 
-Embark on an archeological adventure inside an ancient pyramid to find your missing mentor. As an intrepid explorer, solve puzzles, investigate clues, and unravel the pyramid's secrets. Spoiler: it was not built by humans!
+An escape room game set inside an Egyptian pyramid, where the archaeologist who trained you has gone missing. You work through puzzles built by escape room designers, first in the burial chambers and then in the alien temple they turn out to conceal.

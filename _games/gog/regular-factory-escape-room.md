@@ -45,7 +45,7 @@ size: "3570 MB"
 install_size: ""
 achievements_total: 5
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "60-minutes-to-extinction-escape-room|palindrome-syndrome-escape-room|tested-on-humans-escape-room"
 igdb_url: "https://www.igdb.com/games/regular-factory-escape-room"
 was_free_before: true
 giveaway_events: [{"start":"2026-07-09","end":"2026-08-09"}]
@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "f5fe1029cc25a6d0"
+last_modified_at: "2026-08-17"
+content_hash: "d631da8c9b4132d4"
 ---
 
-You don't work in a regular assembly line. In this escape room, you will investigate what is really being manufactured in a secret factory, explore mysterious places and solve puzzles. Will you unravel the truth?
+An escape room game set in the factory where you work, which turns out to be nothing like an ordinary assembly line. You search its rooms for hidden objects and codes, working through logic puzzles to find out what the place is really for.

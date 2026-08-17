@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "f4da2dd804f25280"
+last_modified_at: "2026-08-17"
+content_hash: "c7cbbdac1b718f24"
 ---
 
-Create alliances, defeat enemy kingdoms and forge an empire in this Dungeons & Dragons game world! Under the computer Dungeon Master, you'll interact with fantastic races, command dozens of troop types, send your heroes on quests and construct a variety of buildings and fortifications.
+A Dungeons & Dragons strategy game about carving out an empire against as many as four computer opponents drawn from a field of twenty. A computer Dungeon Master narrates and referees the whole thing, while you recruit humans, elves, orcs, dwarves and undead, send heroes off on quests and build fortifications.

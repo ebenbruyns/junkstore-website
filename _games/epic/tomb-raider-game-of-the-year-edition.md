@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-14"
-content_hash: "5025cffc13e67007"
+last_modified_at: "2026-08-17"
+content_hash: "430ba9f28731b9c9"
 ---
 
-Armed only with raw instincts and the ability to push beyond the limits of human endurance, Lara must fight to unravel the dark history of a forgotten island to escape its relentless hold.
+The 2013 Tomb Raider reboot, an action-adventure covering Lara Croft's first expedition. Her ship breaks up off the coast of Japan and the crew is scattered across an island that has no intention of letting them leave, so she hunts, climbs and fights her way across it. The Game of the Year edition bundles the add-ons released after launch, including the Tomb of the Lost Adventurer.

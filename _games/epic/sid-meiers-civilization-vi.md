@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-01-01"
-content_hash: "7921d52f7383d42b"
+last_modified_at: "2026-08-17"
+content_hash: "1f064e629bf4a856"
 ---
 
-Civilization is a turn-based strategy game in which you attempt to build an empire to stand the test of time. Become Ruler of the World by establishing and leading a civilization from the Stone Age to the Information Age. Wage war, conduct diplomacy, advance your culture, and go head-to-head with history’s greatest leaders as you attempt to build the greatest civilization the world has ever known.
+The sixth entry in Firaxis's Civilization series, a turn-based strategy game about taking one nation from a single settler to a world power over the whole span of history. Cities now spread onto neighbouring tiles as districts rather than stacking on one square, so where you put a campus, a harbour or a wonder shapes the map as much as your armies do.

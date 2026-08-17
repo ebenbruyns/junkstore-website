@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "1ee9675f6e248221"
+last_modified_at: "2026-08-17"
+content_hash: "acc62d4ce644ff30"
 ---
 
-Welcome to Vegas. New Vegas. Enjoy your stay!
+Obsidian's 2010 Fallout, set in a Mojave where rival factions are fighting over Hoover Dam and the Vegas strip. You open the game shot in the head and left in a shallow grave, then pick a side or crown yourself, with V.A.T.S. targeting, weapon modding and an optional hardcore mode. The Ultimate Edition collects all six add-ons, Dead Money and Old World Blues among them.

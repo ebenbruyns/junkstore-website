@@ -123,8 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "cc9df0d43a4222ad"
+last_modified_at: "2026-08-17"
+content_hash: "0e5791840dac8f16"
 ---
 
-In Sound Mind is an imaginative first-person psychological horror with frenetic puzzles, unique boss fights, and original music. Journey within the inner workings of the one place you can’t seem to escape - your own mind.
+A first-person psychological horror from the makers of Nightmare House 2. You wake in a building you cannot leave, work through the memories of several people exposed to the same experimental chemical, and face a boss drawn out of each one, with a cat named Tonia for company.

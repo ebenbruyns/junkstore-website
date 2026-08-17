@@ -123,8 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-05-01"
-content_hash: "06293b082b33a18e"
+last_modified_at: "2026-08-17"
+content_hash: "943c23aa32c10844"
 ---
 
-Baba Is You is a puzzle game where you can change the rules by which you play. In every level, the rules themselves are present as blocks you can interact with; by manipulating them, you can change how the level works and cause surprising, unexpected interactions! With some simple block-pushing you can turn yourself into a rock, turn patches of grass into dangerously hot obstacles, and even change the goal you need to reach to something entirely different.
+A puzzle game where the rules of each level sit on the board as blocks you can push. Rearrange them to turn yourself into a rock, make grass deadly or swap the goal for something else entirely, across more than 200 levels.

@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "521b7db8622e16fa"
+last_modified_at: "2026-08-17"
+content_hash: "63d769f2a9ea0f52"
 ---
 
-Guide Robbo the robot through the level while avoiding the lasers and other nasty things
+A puzzle game of 60 levels in which you steer a robot past hazards, pushing objects around and collecting what you need to open the way out. This is the VGA version, with 256-colour graphics and digitised speech calling out what you pick up as you go.

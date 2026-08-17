@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-01"
-content_hash: "d55c368704dbb97a"
+last_modified_at: "2026-08-17"
+content_hash: "47575aed6550cbac"
 ---
 
-Sol Cesto is a tactical and frenetic roguelite in which you have to master your luck. Choose a hero and reach the bottom of a random dungeon. In this grim world, every action has consequences...
+A roguelite about pushing your luck, played on a grid where you choose a row and then land at random on one of its four tiles. That tile might be a monster, a chest or a poison trap, so every step is a weighed gamble, and cursed teeth and magical items bend the odds as you descend in search of a long-lost sun.

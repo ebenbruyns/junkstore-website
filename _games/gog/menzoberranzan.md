@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "233f2c080d05f16e"
+last_modified_at: "2026-08-17"
+content_hash: "31fb9d91b520c5b2"
 ---
 
-RPG set in the underground Drow city Menzoberranzan in the Forgotten Realms world.
+A first-person Forgotten Realms role-playing game that takes your party from Icewind Dale down into the Underdark to free companions carried off by the drow. Drizzt Do'Urden's own story tangles with the rescue, and levitation and flight change how the fights work underground.

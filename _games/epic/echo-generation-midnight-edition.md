@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "f6136c21a76da8ac"
+last_modified_at: "2026-08-17"
+content_hash: "0a820976348245f4"
 ---
 
-Echo Generation: Midnight Edition
+A turn-based adventure set in the 1990s, where a mysterious crash turns a summer in Maple Town into a supernatural mystery. You take quests from the neighbours, recruit pets as party members, and unlock skills by collecting more than 30 comic books, each carrying its own minigame.

@@ -123,8 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-16"
-content_hash: "6e53c2e57e73d787"
+last_modified_at: "2026-08-17"
+content_hash: "8728733a256a3086"
 ---
 
-Beglitched is a game about insecurity, in our computers and ourselves. In a pastel world of networks where nobody truly knows what they’re doing, hacking is a magical art and the notorious Glitch Witch is the most premium archmagi of the net. Through what appears to be nothing more than random circumstance, YOU are her new apprentice. You must use your wits and cunning to unravel the mechanisms of an alien computer and survive amongst a veritable web of clowns, leftclickers, and filedraggers.
+A puzzle game about hacking, set in a pastel world of networks where nobody quite knows what they are doing. You are the new apprentice of the Glitch Witch, the net's most notorious hacker, hunting a hidden intruder across a grid with scans and matched tiles while you work out how an alien computer runs.

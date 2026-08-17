@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "d0ba1393ab1b10e4"
+last_modified_at: "2026-08-17"
+content_hash: "af42ba25021f27d2"
 ---
 
-In the game, the player character visits Lord British and is instructed by him to kill certain monsters. The final mission is to kill a balrog, and after this has been accomplished, Lord British proclaims that "thou hast proven thyself worthy of knighthood".
+Richard Garriott's first published game, from 1980, and the one Ultima grew out of. You take quests from Lord British and go down into wireframe dungeons under Akalabeth to kill the creatures Mondain has loosed on a land that used to be at peace.

@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-01"
-content_hash: "e90955302caaf1ec"
+last_modified_at: "2026-08-17"
+content_hash: "8126d7b8f2d854ae"
 ---
 
-Weakless is a beautiful, puzzle-adventure game with stunning organic environments, filled with curious life forms and a bioluminescent glow. Play as two Weavelings - carefree, wooden creatures - one of which is deaf, the other blind. Switch between the two, solve unique puzzles and save their world!
+A puzzle adventure about two Weavelings, one deaf and one blind, crossing a glowing fungal world neither can read on their own. You control only one at a time, so each puzzle turns on the sense the other one lacks, while the pair work to restore the flow of resin their civilisation lives on.

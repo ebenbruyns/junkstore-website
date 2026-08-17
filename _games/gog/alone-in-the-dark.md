@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "aca9e9d81152b1c1"
+last_modified_at: "2026-08-17"
+content_hash: "62446f63abf14935"
 ---
 
-Alone in the Dark is one of the first survival horror games and the first to utilize 3D models superimposed on pre-rendered backgrounds, which would become a key inspiration for upcoming horror games at the time, like the Resident Evil franchise. The player can use various weapons, such as pistol, rifle, swords and knives, though it is possible to kill most enemies with melee attacks. Some opponents can be beaten by solving a particular puzzle, while a significant number of opponents cannot be killed at all or only with certain weapons.
+The 1992 original, a survival horror game set in Derceto, a Louisiana mansion left empty by Jeremy Hartwood's suicide. You pick either the detective Edward Carnby or Hartwood's niece Emily to play, and explore in third person against fixed camera angles as the house turns on whoever you chose.

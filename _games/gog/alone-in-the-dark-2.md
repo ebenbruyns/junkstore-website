@@ -135,10 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "1dc83c728852d7eb"
+last_modified_at: "2026-08-17"
+content_hash: "1b758624a7bd2e14"
 ---
 
-Alone in the Dark 2 is the second instalment in the series and a direct sequel to Alone in the Dark. Like its predecessor, the game uses hybrid 2D–3D graphics and requires players to solve numerous puzzles while fighting zombie pirates along the way. Some enemies can be killed using the wide range of weapons at the player’s disposal, while others must be defeated through trickery.
-
-In addition to Edward Carnby, the game also includes a short section in which players control young Grace Saunders. Grace cannot fight, and the sections featuring her focus instead on quick reflexes and wits to evade and outsmart enemies.
+The second Alone in the Dark, in which Edward Carnby breaks into a mansion called Hell's Kitchen to get a kidnapped girl back from a gang of bootleggers who turn out to be long-dead pirates. It trades much of the first game's slow exploration for gunfights and set pieces, and hands you the girl herself to play for part of it.

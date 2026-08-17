@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "d30c1423ebf161e5"
+last_modified_at: "2026-08-17"
+content_hash: "6084dbbdaf23bb52"
 ---
 
-Heroes of the Lance is a side-scrolling action game. The game used actual Dungeons & Dragons statistics, with statistics for the characters exactly as they were in the rule books. Eight heroes from the Dragonlance novels series must be assembled for the quest, and only one is visible on the screen at a time; when one on-screen hero dies, the next in line appears.
+A side-scrolling action adventure set on Krynn, in which you take the Companions of the Lance into the ruins of Xak Tsaroth after the Disks of Mishakal. You switch between the eight companions as they tire or fall, which is the only way through. It is sold inside Silver Box Classics, together with Dragons of Flame, War of the Lance and Shadow Sorcerer.

@@ -124,15 +124,15 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 
 # Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-01"
-content_hash: "52ee7a6a43ee23ad"
+last_modified_at: "2026-08-17"
+content_hash: "505246ba557ead2c"
 ---
 
-Paris, 1789. The French Revolution has been suppressed with bloodshed by Louis XVI and his merciless mechanical army. Aegis, a mysterious automaton masterpiece, must confront the king's army alone to save history in this challenging action-RPG.
+A souls-like action role-playing game set in an alternate 1789 Paris, where Louis XVI has put down the revolution with an army of automatons. You play Aegis, a clockwork bodyguard built for the queen, crossing a vertical city by grappling hook and dash between fights that reward patient dodges and parries.

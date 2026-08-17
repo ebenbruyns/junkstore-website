@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-01"
-content_hash: "b0cc9fa15fdc8e1d"
+last_modified_at: "2026-08-17"
+content_hash: "ee9bf368f81fbb28"
 ---
 
-A squad-based tactical RPG with fluid turn-based combat, outpost, and follower management, set in the expansive Fantasy world of Zoria. Lead a team of four heroes with their unique skills and perks. Every team member contributes to undertaken battles.
+A squad-based tactical role-playing game set on the continent of Uram, overrun by hellspawn. You lead a party through turn-based fights, expand an outpost between them, and send the companions you are not fielding out on missions of their own to bring back resources and experience.

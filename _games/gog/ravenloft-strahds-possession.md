@@ -135,10 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "0121ed4c366dac93"
+last_modified_at: "2026-08-17"
+content_hash: "3ba404314657c191"
 ---
 
-Lord Dhelt of Elturel was attacked in his own castle. The mysterious assassin stole the Hole Symbol of Helm, a precious amulet with magical powers. Lord Dhelt asks you to bring the amulet back. But when you kill the assassin and retrieve the amulet, you are suddenly teleported into an unknown area. The way back is blocked by poisonous mist, and there is nothing you can do but explore the hostile surroundings and to solve the mystery of the amulet.
-
-Ravenloft: Strahd's Possession is a party-based RPG that utilizes AD&D rules. In the beginning you have a party of two people, using either pre-determined characters, or creating your own ones, picking from traditional AD&D races (human, elf, dwarf, etc.) and classes (fighter, cleric, etc.). Some characters will join your party during the course of the game, allowing maximum of four characters. Combat is done in real time. The 3D environment allows you to move smoothly through the game world, either with arrow keys, or by simply moving the mouse.
+A first-person party role-playing game set in Barovia, the domain held by the vampire Strahd von Zarovich, where the mists carry travellers in from other worlds and then refuse to let them back out. It is sold as the Ravenloft Series pairing, so Stone Prophet comes with it.

@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "ae00408031bef4af"
+last_modified_at: "2026-08-17"
+content_hash: "93809f99cfe1bcf4"
 ---
 
-Robbo is an action puzzle video game designed by Janusz Pelc and published by LK Avalon in 1989. It was originally released in Poland for the Atari XL/XE computers. It was later ported to other computer platforms and also released in the United States as The Adventures of Robbo in 1993.
+The original Robbo, a puzzle game across 56 planets where you gather the scattered parts of a broken escape capsule while the locals get in your way. Worth knowing before you buy: GOG will not add this one to your library unless you already own Robbo Millennium.

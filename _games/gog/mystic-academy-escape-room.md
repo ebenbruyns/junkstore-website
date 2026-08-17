@@ -45,7 +45,7 @@ size: "4507 MB"
 install_size: ""
 achievements_total: 5
 franchise_siblings: []
-franchise_slug: ""
+franchise_slug: "60-minutes-to-extinction-escape-room|palindrome-syndrome-escape-room|tested-on-humans-escape-room"
 igdb_url: "https://www.igdb.com/games/wizardry-school-escape-room"
 was_free_before: true
 giveaway_events: [{"start":"2026-07-23","end":"2026-08-23"}]
@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "e48f971ea4a7c05e"
+last_modified_at: "2026-08-17"
+content_hash: "f5698d8b88088f5b"
 ---
 
-Today is the day of your final exam to become a wizard. Within this enchanting escape room, you'll navigate a wizardry school, unravel puzzles, master new spells, and put your magical skills to the ultimate test. Will you emerge triumphant?
+An escape room game set on the day of your final exam at a school of wizardry. You work through logic puzzles across the school's rooms, learning spells and reading magical artefacts to prove you have earned the qualification.

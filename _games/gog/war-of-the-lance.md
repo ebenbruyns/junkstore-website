@@ -135,9 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "f10f85e11b27f611"
+last_modified_at: "2026-08-17"
+content_hash: "7152604c8c328a6e"
 ---
 
-War of the Lance is presented in a top-down view. In single player mode, the player plays the Whitestone side to fight the evil forces of the Highlord (controlled by the computer). In a two-player game, the second player will play the Highlord forces.
-This game is a turn-based strategy game. The player controls various units and heroes of an army against enemy forces. The game can be won in two ways. The player can win by controlling the enemy capitals (Highlord capital is Neraka and the Whitestone capitals are the four Knight countries (Solanthus, Caergoth, Gunthar, and Northern Ergoth) plus the Clerist Tower near Palanthus. If neither side can capture the enemy capitals by the end of the game (which is Mar/Apr 354), the side with more points (calculated from the size of their forces) wins. Each game year has 5 turns.
+A strategy game covering the whole War of the Lance, fought across a map of Ansalon with armies rather than a party of heroes. It is the odd one out of its collection, a wargame sitting beside three adventure games. It is sold inside Silver Box Classics, together with Heroes of the Lance, Dragons of Flame and Shadow Sorcerer.

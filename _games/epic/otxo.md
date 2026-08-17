@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-01"
-content_hash: "2273576b29b08431"
+last_modified_at: "2026-08-17"
+content_hash: "64f2f8613283eeaa"
 ---
 
-OTXO is a fast, brutal, violent roguelite, filled with precise but savage gunplay and time-bending slow motion.
+A violent top-down shooter with roguelite runs, set in a mansion you cannot leave until you find the woman you came for. You kick down doors and clear rooms in bursts of slow motion, picking from more than 100 abilities and a wide spread of guns across eight randomly arranged areas.

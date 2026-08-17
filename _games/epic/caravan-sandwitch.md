@@ -124,15 +124,15 @@ known_issues:
 
 # Meta
 database_id: ""
-is_featured: true
+is_featured: false
 owned: true
 
 # Freshness — drives <lastmod> in sitemap.xml. Only moves when a field we own
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-01"
-content_hash: "e2d03117208c77ca"
+last_modified_at: "2026-08-17"
+content_hash: "a375b8ae7ef73c8f"
 ---
 
-Embark on a journey across vast landscapes in Caravan SandWitch, a captivating narrative-driven exploration adventure game.
+A narrative exploration game set on Cigalo, a Provence-styled colony planet stripped back to desert by the people who worked it. You drive an old van across the countryside looking for your missing sister, upgrading it as you go to reach ruins and settlements that were closed off before. There is no combat and no way to die.

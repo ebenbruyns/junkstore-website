@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "f6c9689eabb093ea"
+last_modified_at: "2026-08-17"
+content_hash: "cd8a69e95a8c2911"
 ---
 
-Beneath a Steel Sky is a cyberpunk, point and click, adventure game. You assume the role of Robert Foster and embark on a quest to make the world a better place, along with your robot companion Joey.
+A 1994 cyberpunk point-and-click adventure following Robert Foster, taken from the wasteland after his village is destroyed and dropped into Union City. He survives the crash with the circuit board of Joey, the robot he built as a child, and the two go looking for answers in a city run by an AI dictatorship, where the wealthy live below the smog and everyone else is stacked in towers above it.
