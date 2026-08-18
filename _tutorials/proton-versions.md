@@ -7,6 +7,9 @@ permalink: /tutorials/proton-versions/
 date: 2025-06-26
 redirect_from:
   - /posts/j-how-to-check-or-change-your-proton-version-in-junk-store/
+  # Wine Cellar tutorial archived Aug 2026; nearest live topic is this page
+  - /tutorials/wine-cellar/
+  - /posts/k-how-to-install-decky-plugin-wine-cellar-for-proton-versions-management/
 categories: ["Universal"]
 tags: ["proton", "compatibility", "both-versions"]
 difficulty: "Intermediate"
@@ -51,9 +54,9 @@ card_blurb: 'Step-by-step guide on how to check and change your Proton version'
 
 <h3>Prerequisites: Install a Proton Manager</h3>
 
-<p>You'll need a tool to download and manage different Proton versions. You have two good options:</p>
+<p>You'll need a tool to download and manage different Proton versions. There are a couple of options, and which suits you depends on whether you'd rather stay in Game Mode or not.</p>
 
-<h4>Option 1: Wine Cellar (Our Preferred for Game Mode)</h4>
+<h4>Wine Cellar</h4>
 <ul>
 <li><strong>Decky plugin</strong> - works directly in Game Mode</li>
 <li><strong>No Desktop Mode needed</strong> for downloads and management</li>
@@ -61,7 +64,7 @@ card_blurb: 'Step-by-step guide on how to check and change your Proton version'
 <li><strong>Installation:</strong> Search "Wine Cellar" in Decky Plugin Store</li>
 </ul>
 
-<h4>Option 2: ProtonUp-Qt (Desktop Mode)</h4>
+<h4>ProtonUp-Qt</h4>
 <ul>
 <li><strong>Desktop application</strong> - download from Discover Store</li>
 <li><strong>Must use Desktop Mode</strong> to install new versions</li>
@@ -168,6 +171,6 @@ card_blurb: 'Step-by-step guide on how to check and change your Proton version'
 
 <ul>
 <li><strong>Game still won't work?</strong> Try a different GE-Proton version</li>
-<li><strong>Need more versions?</strong> Use Wine Cellar to download additional options</li>
+<li><strong>Need more versions?</strong> Use your Proton manager to download additional options</li>
 <li><strong>Unsure which version to use?</strong> Check our <a href="/games/tested/">compatibility database</a></li>
 </ul>
