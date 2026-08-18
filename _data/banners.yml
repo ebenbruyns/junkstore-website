@@ -51,9 +51,18 @@
 
 - id: "248f9ced-a8e6-4110-8fc1-afc3f1ea580c"
   title: "Extension Documentation"
-  isActive: true
+  isActive: false
   priority: 11
   startDate: null
   endDate: null
   targetPages: []
   content: "\U0001F4DA <strong style=\"color: #00adb5;\">Want a store or emulator we haven't added?</strong> You can build it yourself. <a href=\"/docs/\" style=\"color: #ffa366; text-decoration: underline;\">Read the extension docs \u2192</a><br><span class=\"promo-banner__note\">The simplest route needs no code at all.</span>"
+
+- id: "6b0f4d31-52ac-4e77-9a18-7c3d9e5f2a60"
+  title: "Documentation: user manual and extensions"
+  isActive: true
+  priority: 12
+  startDate: null
+  endDate: null
+  targetPages: []
+  content: "\U0001F4DA <strong style=\"color: #00adb5;\">The docs are live.</strong> <a href=\"/docs/user/\" style=\"color: #ffa366; text-decoration: underline;\">The user manual \u2192</a> covers every screen and setting, and <a href=\"/docs/extensions/\" style=\"color: #ffa366; text-decoration: underline;\">the extension docs \u2192</a> show you how to add a store we haven't.<br><span class=\"promo-banner__note\">Building an extension is simpler than it sounds, and the easiest route needs no code at all.</span>"
