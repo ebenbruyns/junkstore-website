@@ -9,7 +9,7 @@ redirect_from:
   - /posts/m-how-to-change-global-language-settings-for-epic/
 category: both
 section: configuration
-order: 3
+order: 4
 card_title: 'Change Game Language Settings'
 card_blurb: 'Change your Epic, GOG, or Amazon game language settings directly in Game Mode'
 ---

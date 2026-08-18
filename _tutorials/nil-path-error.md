@@ -10,9 +10,11 @@ tags: ["troubleshooting", "nil-path-error", "install-metadata", "game-details", 
 difficulty: "Advanced"
 category: pro
 section: configuration
-order: 1
+order: 2
 card_title: 'Fix the NIL Path Error'
 card_blurb: "When the usual fixes don't shift a NIL path error, set the paths by hand"
+help_discord_channel: '#js-pro-support'
+help_discord_url: 'https://discord.gg/EsrPQDUNQr'
 ---
 {% include content-schema.html type="tutorial" id="nil-path-error" %}
 

@@ -47,7 +47,7 @@ help_links:
 <strong>Log into the portal and download the latest build</strong>
 <p>Go to the <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener">portal</a> and sign in. If the password won't come to you, the login page has a reset option.</p>
 
-<p>Take the first file in the list, marked <strong>Recommended</strong> and <strong>LATEST</strong>. It's around 200 MB.</p>
+<p>Take the first file in the list, marked <strong>Recommended</strong> and <strong>LATEST</strong>.</p>
 <img src="/assets/images/tutorials/manual/portal-build-list.webp" alt="The portal's build list with a Release Channel dropdown set to Stable, and install-junkstore-v3.2.0.0 at the top marked Recommended and LATEST with a green Download Latest button" width="1000" height="292" loading="lazy" />
 
 <p><strong>This is where you pick your channel.</strong> There's no channel setting later in this method, so the file you choose here decides which release you get. Use the <strong>Release Channel</strong> dropdown to switch between them, then take the first file in the list.</p>
@@ -56,7 +56,7 @@ help_links:
 <li>
 <strong>Make it executable</strong>
 <p>It arrives without permission to run, so give it that first. Open <strong>Dolphin</strong> and go to <strong>Downloads</strong>.</p>
-<img src="/assets/images/tutorials/manual/downloaded-file.webp" alt="The downloaded install-junkstore-v3.2.0.0 file selected in the Dolphin Downloads folder, listed at 201.6 MiB" width="977" height="114" loading="lazy" />
+<img src="/assets/images/tutorials/manual/downloaded-file.webp" alt="The downloaded install-junkstore-v3.2.0.0 file selected in the Dolphin Downloads folder" width="977" height="114" loading="lazy" />
 
 <p>Right-click it and choose <strong>Properties</strong>.</p>
 <img src="/assets/images/tutorials/manual/properties-menu.webp" alt="The right-click context menu in Dolphin with Properties highlighted, showing the Alt+Return shortcut" width="308" height="79" loading="lazy" />

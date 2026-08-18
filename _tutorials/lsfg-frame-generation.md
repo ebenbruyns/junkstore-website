@@ -10,7 +10,7 @@ tags: ["lsfg", "frame-generation", "performance", "both-versions"]
 difficulty: "Intermediate"
 category: both
 section: configuration
-order: 4
+order: 5
 card_title: 'Enable LSFG Frame Generation'
 card_blurb: 'Step-by-step guide on how to enable LSFG frame generation'
 ---

@@ -163,7 +163,7 @@ help_links:
 <p>The new clients are installed, but the stores don't use them until you say so. <strong><a href="/docs/user/store-settings-reference/#legacy-clients">Use Legacy Clients</a></strong> is that switch, and there's one per store, so repeat this on each tab you generated.</p>
 
 <p>It lives on the store's own settings, which you get to from the <strong>cog</strong> at the top of the tab. It's in the row of buttons to the right of the search box, between the sliders and the shop icon.</p>
-<img src="/assets/images/tutorials/installer/tab-cog-button.webp" alt="The row of buttons to the right of the search box at the top of a store tab: sliders, then the cog for settings, then the shop and help buttons" width="1200" height="64" loading="lazy" />
+<img src="/assets/images/tutorials/installer/tab-cog-button.webp" alt="The row of buttons to the right of the search box at the top of a store tab, with the sliders button and the cog both outlined in red, followed by the shop and help buttons" width="1200" height="64" loading="lazy" />
 
 <p>Sliders and cog mean the same thing throughout Junk Store Pro: sliders are actions that happen, the cog is settings that stay. You want the cog.</p>
 

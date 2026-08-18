@@ -10,7 +10,7 @@ tags: ["clients", "setup", "pro-version"]
 difficulty: "Beginner"
 category: pro
 section: configuration
-order: 7
+order: 1
 card_title: 'Switch to the New Clients'
 card_blurb: 'Move a store off the legacy flatpak clients onto ours'
 help_discord_channel: '#js-pro-support'
@@ -29,26 +29,15 @@ help_links:
 
 <hr>
 
-<h3>Why bother</h3>
+<h3>Difference Between the Clients</h3>
 
-<ul>
-<li><strong>They're faster than the legacy clients</strong>, most noticeably when refreshing a library.</li>
-<li><strong>They're the only way to use more than one account with the same store.</strong></li>
-</ul>
+<p>Two things, mainly. Ours are quicker, which you'll notice most when refreshing a library. And they let you use more than one account with the same store, which the old ones could never do.</p>
 
 <div class="js-callout js-callout--warning">
-  <strong>One trade-off.</strong> The experimental cloud saves don't work with the new clients. If you're relying on those, stay where you are.
+  <strong>One catch:</strong> the experimental cloud saves don't work with the new clients. If you're using those, stay where you are for now.
 </div>
 
-<p><strong>Nothing needs reinstalling</strong>, and your games stay where they are. This is a setting, not a migration.</p>
-
-<hr>
-
-<h3>Where the buttons are</h3>
-
-<p>Both live in the row to the right of the search box at the top of each store tab. <strong>Sliders on the left, cog next to it</strong>: sliders are actions that happen, the cog is settings that stay.</p>
-
-<img src="/assets/images/tutorials/installer/tab-buttons-closeup.webp" alt="Close-up of the buttons at the top right of a store tab: the sliders button for actions, then the cog for settings, then the shop and help buttons" width="700" height="135" loading="lazy" />
+<p>Otherwise there's not much to weigh up. Your games stay put and nothing gets reinstalled, so it's a setting rather than a migration.</p>
 
 <hr>
 
@@ -61,7 +50,12 @@ help_links:
 
 <li>
 <strong>Turn Use Legacy Clients off</strong>
-<p>Open the <strong>cog</strong> on the store's tab and scroll to the bottom of <strong>Advanced</strong>.</p>
+<p>It lives on the store's own settings, which you get to from the <strong>cog</strong> at the top of the tab. It's in the row of buttons to the right of the search box, between the sliders and the shop icon.</p>
+<img src="/assets/images/tutorials/installer/tab-cog-button.webp" alt="The row of buttons to the right of the search box at the top of a store tab, with the sliders button and the cog both outlined in red, followed by the shop and help buttons" width="1200" height="64" loading="lazy" />
+
+<p>Sliders and cog mean the same thing throughout Junk Store Pro: sliders are actions that happen, the cog is settings that stay. You want the cog.</p>
+
+<p>Open it and scroll to the bottom of <strong>Advanced</strong>.</p>
 <img src="/assets/images/tutorials/installer/legacy-clients-setting.webp" alt="The bottom of a store's Advanced settings in Junk Store Pro, with Use Legacy Clients highlighted and the side panel explaining it uses legacy flatpak clients instead of the native ones" width="1000" height="625" loading="lazy" />
 
 <p>On, it looks like this. This is the one you don't want:</p>
