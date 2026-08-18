@@ -589,6 +589,17 @@ details.faq-item-compact[open] {
   text-decoration: none;
 }
 
+/* Stretch the title link over the whole card so the entire card is a real
+   link: right-click, middle-click and ctrl-click all work anywhere on it.
+   Replaces the old JS card-click handler, which used window.location and
+   so offered none of those. */
+.tutorial-item h4 a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
 .tutorial-item h4 a:hover {
   color: #e67300;
 }
@@ -653,6 +664,14 @@ details.faq-item-compact[open] {
 .tip-item h4 a {
   color: #fff;
   text-decoration: none;
+}
+
+/* Same stretched link as .tutorial-item, see the note there. */
+.tip-item h4 a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
 }
 
 .tip-item h4 a:hover {
