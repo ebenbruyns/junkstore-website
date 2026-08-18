@@ -10,10 +10,11 @@ tags: ["gog", "extension", "decky-plugin", "installation"]
 difficulty: "Intermediate"
 category: decky
 section: installation
-order: 3
+order: 4
 card_title: 'GOG Extension Install Guide'
 card_blurb: 'Step-by-step guide on downloading and installing the GOG Extension'
-help_discord_channel: '#decky-support'
+help_discord_channel: '#decky-plugin-support'
+help_discord_url: 'https://discord.gg/q7eEPAcwsW'
 help_links:
   - text: "Decky Plugin FAQ"
     url: "/help/faq/"

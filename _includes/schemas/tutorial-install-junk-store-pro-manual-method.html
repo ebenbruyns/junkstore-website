@@ -1,0 +1,57 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Install Junk Store Pro Manually",
+  "description": "Install Junk Store Pro on Steam Deck manually: download the build from the portal, make it executable, then generate your Epic, GOG, Amazon and itch tabs yourself.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Go to Desktop Mode",
+      "text": "Press the Steam button, then Power, then Switch to Desktop."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Log into the portal and download the latest build",
+      "text": "Go to portal.junkstore.xyz and sign in. Take the first file in the list, marked Recommended and LATEST. It is around 200 MB. This is also where you pick your channel, because there is no channel setting later in this method, so use the Release Channel dropdown to switch between them first.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/manual/portal-build-list.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Make it executable",
+      "text": "The file arrives without permission to run. Open Dolphin, go to Downloads, right-click the file and choose Properties. Open the Permissions tab, tick Allow executing file as program, then press OK.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/manual/permissions.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Run it",
+      "text": "Double-click the file. Choose Launch rather than an editor option, then Continue to confirm you trust it, then Yes when the installer asks whether to proceed. If double-clicking does nothing or opens a text editor, the permission did not take, or a custom icon theme is breaking the dialogue.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/manual/launch-prompt.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Wait for it to finish",
+      "text": "A Configuring Junk Store window logs what it is doing, including fetching the flatpak clients. This method installs the legacy flatpak clients and the emulator flatpaks by default, with no tickboxes to say otherwise. This step takes a while: wait until the window says Installation complete before pressing OK, because pressing OK too early cancels the installation and it fails quietly.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/manual/install-complete-log.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Back to Game Mode and sign in",
+      "text": "Return to Game Mode and tap SELECT to open Junk Store Pro. That is the button above the D-pad, the one Steam labels View. On a PC, Ctrl+3 does the same thing. Sign in with your portal credentials. This step only exists on the manual route, as the installer signs you in on your behalf.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/manual/js-pro-login.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Generate your stores",
+      "text": "A fresh install has no store tabs. Scroll down to Tools, then Generator, open the sliders menu beside the search bar and choose Download all presets from server. Then press the download button on each store you want. A tab appears for each one.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/manual/generator-extensions.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Sign in to each store",
+      "text": "Open each tab and sign in to the store itself, and the library fills in from there. Give it a few minutes, as the first sync builds a database for each store.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/manual/store-login.webp"
+    }
+  ]
+}
+</script>

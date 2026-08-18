@@ -12,10 +12,11 @@ tags: ["installation", "decky-loader", "epic-games", "setup"]
 difficulty: "Beginner"
 category: decky
 section: installation
-order: 1
+order: 3
 card_title: 'Install Junk Store Decky Plugin'
 card_blurb: 'Step-by-step guide to install Junk Store on your Steam Deck'
-help_discord_channel: '#decky-support'
+help_discord_channel: '#decky-plugin-support'
+help_discord_url: 'https://discord.gg/q7eEPAcwsW'
 help_links:
   - text: "Decky Plugin FAQ"
     url: "/help/faq/"
