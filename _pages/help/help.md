@@ -40,7 +40,7 @@ excerpt: " "
 
   <a href="/help/tutorials/" class="help-hub-card">
     <h2 class="help-hub-card__title">Tutorials</h2>
-    <p class="help-hub-card__desc">Step-by-step setup guides — Decky Plugin install, Pro install, GOG Extension, OAuth login, Wine Cellar, frame generation, and more.</p>
+    <p class="help-hub-card__desc">Step-by-step setup guides — Decky Plugin install, Pro install, GOG Extension, OAuth login, Proton versions, frame generation, and more.</p>
     <span class="help-hub-card__count">Setup &amp; how-to guides</span>
   </a>
 
@@ -75,7 +75,7 @@ excerpt: " "
   </a>
   <a href="/games/tested/" class="resource-card">
     <span class="resource-icon">🎮</span>
-    <span class="resource-text"><strong><span data-games-count>900</span>+ Games Tested</strong></span>
+    <span class="resource-text"><strong>{% include games-count.html %}+ Games Tested</strong></span>
   </a>
   <!-- The repo carries build-pdf.sh, so this is also the route to a single
        PDF of the whole documentation set. -->
@@ -137,23 +137,5 @@ excerpt: " "
     location.replace('/help/troubleshooting/#' + hash);
   }
   // Unknown hash — leave on hub.
-})();
-</script>
-
-<!-- Keep the "Games Tested" count in sync with the games table, which is
-     driven by the same games-table.json. Falls back to the static number
-     if the fetch fails or JS is off. -->
-<script>
-(function() {
-  fetch('/assets/data/games-table.json')
-    .then(function(r) { return r.json(); })
-    .then(function(d) {
-      var total = d.total_games || (d.games ? d.games.length : null);
-      if (!total) return;
-      document.querySelectorAll('[data-games-count]').forEach(function(el) {
-        el.textContent = total;
-      });
-    })
-    .catch(function() {});
 })();
 </script>

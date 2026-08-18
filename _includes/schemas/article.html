@@ -5,6 +5,10 @@
   Falls back to site-wide defaults where possible.
 {%- endcomment -%}
 {%- assign article_description = page.description | default: page.excerpt | default: site.description -%}
+{%- if article_description contains 'GAMES_COUNT' -%}
+  {%- capture games_count_value -%}{%- include games-count.html -%}{%- endcapture -%}
+  {%- assign article_description = article_description | replace: '{{GAMES_COUNT}}', games_count_value -%}
+{%- endif -%}
 {%- assign article_image = page.image | default: site.og_image -%}
 {%- assign article_modified = page.last_modified_at | default: page.date -%}
 <script type="application/ld+json">

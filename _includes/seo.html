@@ -14,6 +14,14 @@
 {%- assign canonical_url = page.canonical_url | default: page.url | replace: "/index.html", "/" | absolute_url %}
 
 {%- assign seo_description = page.description | default: page.excerpt | default: site.description -%}
+{%- comment -%}
+  Front matter is never run through Liquid, so descriptions carry a GAMES_COUNT
+  token that gets swapped for the live tally here. See _includes/games-count.html.
+{%- endcomment -%}
+{%- if seo_description contains 'GAMES_COUNT' -%}
+  {%- capture games_count_value -%}{%- include games-count.html -%}{%- endcapture -%}
+  {%- assign seo_description = seo_description | replace: '{{GAMES_COUNT}}', games_count_value -%}
+{%- endif -%}
 {%- if seo_description -%}
   {%- assign seo_description = seo_description | markdownify | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | escape_once | strip -%}
 {%- endif -%}

@@ -18,7 +18,6 @@
         allGames = data.games; // Store for search
         populateRecentlyTested(data.games);
         updateStoreStats(data);
-        updateTotalCount(data.total_games || data.games.length);
         initSearchAutocomplete();
       }
     } catch (error) {
@@ -187,11 +186,6 @@
 
     if (totalEl) totalEl.textContent = stats.total || 0;
     if (greenEl) greenEl.textContent = stats.green_standalone || stats.green_decky || 0;
-  }
-
-  function updateTotalCount(total) {
-    const el = document.getElementById('total-games-count');
-    if (el) el.textContent = `${total}+`;
   }
 
   // Helper functions
