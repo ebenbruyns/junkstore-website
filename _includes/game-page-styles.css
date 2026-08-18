@@ -551,6 +551,19 @@ button:focus,
   line-height: 1.7;
 }
 
+/* Testing notes come through markdownify, so they can contain links. Pin the
+   visited state too, otherwise it falls back to the browser's default purple
+   and disappears against the dark notes background. */
+.notes-box a,
+.notes-box a:visited {
+  color: #66bfff;
+  text-decoration: underline;
+}
+.notes-box a:hover,
+.notes-box a:focus {
+  color: #99d5ff;
+}
+
 /* Testing-notes screenshot: small thumbnail that enlarges via a CSS-only
    (:target) lightbox — no JavaScript. */
 .notes-screenshot {
