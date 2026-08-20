@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/openttd/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "fe257b04204d76cc"
+last_modified_at: "2026-08-20"
+content_hash: "d8f39ce2676b99ea"
 ---
 
-OpenTTD is a business simulation game in which players earn money by transporting passengers and cargo via road, rail, water, and air. It is an open-source remake and expansion of the 1995 Chris Sawyer video game Transport Tycoon Deluxe.
+An open-source remake and expansion of Transport Tycoon Deluxe, where you make money moving passengers and freight by road, rail, sea and air. Maps are generated up to 4096 tiles square across four climates, technology moves on as the years pass, and the in-game content service pulls in community-made vehicles, industries and scenarios.

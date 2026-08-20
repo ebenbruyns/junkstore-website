@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-adventures-of-robbo/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "63d769f2a9ea0f52"
+last_modified_at: "2026-08-20"
+content_hash: "0dc2e4a5cddd3be3"
 ---
 
 A puzzle game of 60 levels in which you steer a robot past hazards, pushing objects around and collecting what you need to open the way out. This is the VGA version, with 256-colour graphics and digitised speech calling out what you pick up as you go.

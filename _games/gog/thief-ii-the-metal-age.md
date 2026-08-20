@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/thief-ii-the-metal-age/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-05-01"
-content_hash: "f1a40ef44bb019d0"
+last_modified_at: "2026-08-20"
+content_hash: "3e071202794473b0"
 ---
 
-The ultimate thief is back! Tread softly as you make your way through 15 new complex, non-linear levels full of loot to steal and guards to outsmart. Improved enemy AI, new gadgets and a riveting story will draw you into the world of Thief II: The Metal Age, a place of powerful new technologies, fanatical religions and corruption.
+The second Thief, running 15 large non-linear levels built around staying unseen rather than fighting. You put out lights, listen for patrols and pick your way past guards for loot, in a city being reshaped by a mechanical religious order.

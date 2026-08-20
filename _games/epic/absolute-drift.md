@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/absolute-drift/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -132,7 +138,7 @@ owned: false
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "0542de2b93946865"
+content_hash: "149f7860eb494500"
 ---
 
 A top-down driving game built entirely around drifting, run across 34 tracks in a stark, near-monochrome world. The free Zen Edition update added night events, replays and ghost cars, so you can drive against a friend's best run or the fastest in the world.

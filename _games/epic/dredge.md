@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/dredge/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "8f4aca47c0ef0794"
+content_hash: "d1debcc7f18354c4"
 ---
 
 A fishing game with a horror story running underneath it. You captain a trawler around a remote archipelago, selling your catch and upgrading the boat, and the further out you sail and the later you stay, the less what you haul up looks like fish.

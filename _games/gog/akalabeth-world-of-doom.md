@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/akalabeth-world-of-doom/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "af42ba25021f27d2"
+last_modified_at: "2026-08-20"
+content_hash: "e9c578e0191102fe"
 ---
 
 Richard Garriott's first published game, from 1980, and the one Ultima grew out of. You take quests from Lord British and go down into wireframe dungeons under Akalabeth to kill the creatures Mondain has loosed on a land that used to be at peace.

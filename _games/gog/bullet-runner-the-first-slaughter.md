@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/bullet-runner-the-first-slaughter/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "15482a3958bda5af"
+last_modified_at: "2026-08-20"
+content_hash: "e9c51fd503e434b5"
 ---
 
-Big fucking guns + twin-stick action = Bullet Runner! Combine crazy movement and combat mechanics to dodge, slide, swing and shoot your way to victory! Brutal attacks, adrenaline, speed, power; you get them all. Free to play 4-hour single player campaign and an endless arena mode.
+The first act of Bullet Runner, released on its own: a linear single-player shooter built around speed and movement. You dodge, slide and swing through crowded arenas against large numbers of enemies, tuning a loadout from a spread of guns as you go.

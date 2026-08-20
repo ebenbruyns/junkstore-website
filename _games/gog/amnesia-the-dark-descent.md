@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/amnesia-the-dark-descent/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "7bc77163d55f0d1f"
+content_hash: "c103c65d32b8b81a"
 ---
 
 A first-person survival horror game in which you wake in a castle with your memory gone and something already hunting you through it. You have nothing to fight back with, so it becomes a matter of hiding, keeping a lamp lit, and staying out of a darkness that eats at your mind the longer you sit in it.

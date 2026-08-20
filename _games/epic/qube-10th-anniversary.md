@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/qube-10th-anniversary/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "1d30e26ad0b8a994"
+last_modified_at: "2026-08-20"
+content_hash: "5a2295257c13e40d"
 ---
 
 A rebuilt version of the first-person puzzle game in which gloves let you extend, launch and tilt coloured blocks out of blank white walls. The anniversary edition revises the original chapters and adds a new one.

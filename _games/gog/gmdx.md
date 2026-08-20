@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/gmdx/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "47c33ea7757bb6d9"
+content_hash: "fe0cc10bbccacf0d"
 ---
 
 A community overhaul mod for Deus Ex rather than a game of its own. It leaves the campaign and the story untouched and sharpens what sits underneath them, reworking combat, enemy AI and balance so the world is harsher and the slow, careful approaches the 2000 original was built around actually pay off. It needs a copy of Deus Ex installed to run.

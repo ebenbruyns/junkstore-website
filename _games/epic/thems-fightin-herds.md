@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/thems-fightin-herds/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "d3d48514a202ab76"
+last_modified_at: "2026-08-20"
+content_hash: "0ca30e136e5fea0c"
 ---
 
 A 2D fighting game with a cast of hand-drawn hooved animals designed by Lauren Faust, sitting on top of a serious tournament-grade fighter. It ships with rollback netcode, a story mode and a step-by-step tutorial aimed at people who have never played one.

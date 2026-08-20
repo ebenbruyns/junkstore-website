@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/celeste/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: ""
@@ -132,7 +138,7 @@ owned: false
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "225a282cd3bb1fe0"
+content_hash: "7fbd94564c8de87f"
 ---
 
 A precise, difficult platformer about Madeline climbing a mountain while her own anxiety climbs with her. There are more than 700 screens of it, each one a small puzzle of dashes and wall jumps, with harder B-side versions to unlock once you have cleared a chapter.

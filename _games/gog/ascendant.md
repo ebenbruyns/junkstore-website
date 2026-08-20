@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ascendant/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "9627cf7385b668bc"
+last_modified_at: "2026-08-20"
+content_hash: "ceafab5d726bf04b"
 ---
 
-Ascendant is the unforgiving beat 'em up that challenges you with a new world each time you play. It utilizes a number of modern roguelike elements such as permadeath and procedurally generated environments. You are a demigod who invades a plane controlled by your rivals. They will stop at nothing to eliminate you. Only the most impressive warriors will triumph over their armies of zealots and beasts.
+An unforgiving side-scrolling beat 'em up with roguelike elements: procedurally generated levels and permanent death. You play a demigod invading a plane held by rivals, working through their armies while collecting weapons, spells and blessings that might make the next attempt survivable.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/rime/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -132,7 +138,7 @@ owned: false
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "782f1c2196e4c882"
+content_hash: "d13c462eb332b040"
 ---
 
 A single-player puzzle adventure played as a boy washed up on an island after a storm, with a fox for company. You work through the puzzles of its long-forgotten ruins toward a tower at the centre that keeps drawing you back to it.

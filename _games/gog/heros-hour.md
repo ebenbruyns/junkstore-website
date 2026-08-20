@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/heros-hour/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "75eaee670eb02435"
+last_modified_at: "2026-08-20"
+content_hash: "f36134b3d3bc60db"
 ---
 
-Hero's Hour is a game inspired by the Heroes of Might and Magic turnbased strategy games. "Hour" refers to the more fast-paced gameplay, with combat taking place on a real-time simulated battlefield. You may just watch the battle as a casual player, or take control of your units as desired.
+A turn-based strategy game in the Heroes of Might and Magic tradition, with one difference: when two armies meet, the battle plays out in real time by itself and you influence it with spells rather than ordering each unit. You still explore procedural maps, build towns and level a hero between fights.

@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/10mg-snaaak/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-11-01"
-content_hash: "fbead26fc6e0df66"
+last_modified_at: "2026-08-20"
+content_hash: "d358d61c792faa3f"
 ---
 
 A short, atmospheric mix of Snake and Metroidvania, part of the 10mg series of ten-minute games. Wind your way through a forgotten underground laboratory as a formless creature, exploring its non-linear passages and the hazards lurking in them.

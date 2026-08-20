@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/genshin-impact/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "39c954620dd6dbe1"
+last_modified_at: "2026-08-20"
+content_hash: "5624e7bd70c84e02"
 ---
 
 A free open-world action role-playing game set in Teyvat, a continent divided between seven elemental gods. You search for a missing sibling while building a party whose elements combine to freeze, ignite or electrify whatever you point them at.

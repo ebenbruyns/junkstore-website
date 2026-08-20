@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/trinity-fusion/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "24bae67a1314237e"
+last_modified_at: "2026-08-20"
+content_hash: "5cae0efe528e4379"
 ---
 
-Take control of your parallel selves on a mission to save the dying multiverse in this rogue-lite action platformer!
+A side-scrolling roguelite across a collapsing multiverse, where each run starts in one of three separate realities with a different version of the same character. The hook is fusing those parallel selves partway through, so their powers and weapons combine into builds no single one of them could reach.

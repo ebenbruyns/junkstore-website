@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/shantae-and-the-pirates-curse/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "0b333f28d3ca8ac8"
+last_modified_at: "2026-08-20"
+content_hash: "f4a8215b1b643256"
 ---
 
-Embark on a brand new adventure with Shantae, the hair-whipping belly dancing genie. When she loses her magic, Shantae must team up with her nemesis, the nefarious pirate Risky Boots in order to save Sequin Land from an evil curse. As a pirate, Shantae gains new weapons to advance her quest, slay monsters, battle epic bosses…and hopefully get her magic back in the bargain! But can she really trust her deadliest enemy?
-
-The third Shantae game is the biggest yet! Beyond Sequin Land lie cursed islands and labyrinths each hiding a new piece of Pirate Gear - Flintlock Pistol, Pirate Hat, Scimitar, Risky's Boots, and even a Cannon. Upgrade Shantae's hair and weapons or unlock advanced Fighter's Moves. Locate maps, return lost Heart Squids, collect rare loot, and laugh out loud at the weird, wild, and wonderfully humorous cast of characters. Incredible stereoscopic visuals, unlockable Pirate-Mode, multiple endings, and an unforgettable soundtrack make this one game you won't want to miss!
+The third Shantae, and the one where she has lost her genie magic and has to work with Risky Boots, the pirate she usually fights. Her powers are replaced by pirate equipment found across cursed islands, a pistol, hat, scimitar, boots and cannon, each opening up parts of the map she could not reach before.

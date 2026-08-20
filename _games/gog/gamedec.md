@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/gamedec/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "c9665c663cde0750"
+last_modified_at: "2026-08-20"
+content_hash: "b23dbb8186b02fc8"
 ---
 
-Gamedec is a single-player cyberpunk isometric RPG. You are a game detective, who solves crimes inside virtual worlds. Use your wits to gather info from your witnesses and suspects, getting to the bottom of deceptive schemes. You are the sum of your choices.
+A cyberpunk isometric role-playing game with no combat in it, where you work as a game detective solving crimes committed inside virtual worlds. Cases are cracked by questioning witnesses and suspects and reading the evidence, and the game adjusts to the conclusions you draw rather than grading them.

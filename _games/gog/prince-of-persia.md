@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/prince-of-persia/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,9 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "ec6188dc0c5637d0"
+last_modified_at: "2026-08-20"
+content_hash: "4cda33bbf0cfa016"
 ---
 
-Prince of Persia is an action-adventure and platforming video game developed by Ubisoft Montreal and published by Ubisoft. It is part of the Prince of Persia franchise.
-The game is set in ancient Persia, with a player-character whose name is not revealed in the game. He is accompanied by a woman named Elika, whom he met after a large sandstorm diverted him from his course and he ended up in a mysterious land. Players traverse many different environments using his acrobatic abilities to scale walls and even crawl on the ceilings. Throughout the journey, players combat various enemies as they attempt to cleanse the land of corruption.
+The 2008 reboot, built by the Ubisoft Montreal team that made Assassin's Creed and drawn in hand-painted cel shading rather than realism. You travel with Elika, who catches you whenever a jump fails, so the acrobatics never end in death and the game is about the route rather than the retry.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/planet-of-lana/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "c72d3cf8d395bf43"
+last_modified_at: "2026-08-20"
+content_hash: "7bf053441bc27e30"
 ---
 
-A young girl and her loyal friend embark on a rescue mission through a colorful world full of cold machines and unfamiliar creatures. Planet of Lana is a cinematic puzzle adventure framed by an epic sci-fi saga that stretches across centuries and galaxies.
+A hand-painted side-scrolling puzzle adventure about a girl and a small animal companion crossing a planet being taken apart by a machine invasion. Most puzzles need the two of them doing different things at once, so the companion is the mechanic rather than decoration.

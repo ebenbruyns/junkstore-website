@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/warhammer-40000-dawn-of-war-ii/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "bac5813617aa0e0d"
+last_modified_at: "2026-08-20"
+content_hash: "538eb8b9ac502eb3"
 ---
 
 A real-time strategy game that drops base building in favour of a small squad you keep between missions, collected here with all three campaigns. You command four units at a time through cover-based skirmishes, levelling them and fitting new wargear as you go. Retribution changes that formula, adding capturable production buildings, a population cap and a choice of six playable races.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/prison-architect/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "6544da4c1dd2e471"
+content_hash: "4da441d766daa3c1"
 ---
 
 A management sim about designing and running a prison, from cell blocks and canteens to staffing and daily routine. You balance budget, security and inmate needs, and watch riots, escapes and small oversights spread from whatever you got wrong.

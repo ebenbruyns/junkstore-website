@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/snake-core/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-04-01"
-content_hash: "282d88431b668452"
+last_modified_at: "2026-08-20"
+content_hash: "0afc2197e93c2ee2"
 ---
 
-Are you ready to command a range of different units as they battle aliens in a mission-based take on the classic Snake? Select your path to victory!
+An arcade game that takes the shape of Snake and turns it into a war against an alien invasion. Your growing tail is a column of soldier units rather than a score counter, and missions ask for different things: clearing bombs, retrieving troops, holding a position.

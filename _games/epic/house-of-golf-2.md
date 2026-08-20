@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/house-of-golf-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "e9824915858d0fb0"
+last_modified_at: "2026-08-20"
+content_hash: "9a19856df6d48396"
 ---
 
 A miniature golf game played across courses built out of household furniture, scaled as if you were putting across a living room. You play alone or pass the controller around, with each hole set up as a small physics puzzle.

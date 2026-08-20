@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/trinity-fusion/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,14 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "6848070be87489fa"
+last_modified_at: "2026-08-20"
+content_hash: "5af1bc1b69d90538"
 ---
 
-Take control of your parallel selves on a mission to save the dying multiverse in this rogue-lite action platformer! Explore dark, sci-fi worlds and engage in fast-paced, smooth and precise combat.
-
-The various branches of the multiverse are always changing. Fight through a combination of procedurally-generated levels as well as hand-crafted challenges and arenas that will put your skills to the test. Levels with 3D graphics are seamlessly constructed out of hundreds of hand-made rooms.
-
-With weapons and attack systems that leverage our previous experience working on fighting games. You’ll slide, dash and dodge between enemy attacks and strike back with an arsenal of satisfying special weapons and abilities.
-
-Each of your parallel selves has their own world with multiple biomes to explore, as well as their own sets of unique abilities and weapons. Travel through a universe of desolate wastes and caverns roamed by mutant creatures, escape the endless forges and labs of a world ruled by machines, and survive the dangerous sky cities of a post-human society.
+A side-scrolling roguelite across a collapsing multiverse, where each run starts in one of three separate realities with a different version of the same character. The hook is fusing those parallel selves partway through, so their powers and weapons combine into builds no single one of them could reach.

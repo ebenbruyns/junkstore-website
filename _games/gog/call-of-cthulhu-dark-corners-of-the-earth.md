@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/call-of-cthulhu-dark-corners-of-the-earth/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "d7dc51d345c9c699"
+last_modified_at: "2026-08-20"
+content_hash: "1be44b58313767b7"
 ---
 
-Call of Cthulhu: Dark Corners of the Earth is a first-person horror game that combines intense action and adventure elements. You will draw upon your skills in exploration, investigation, and combat while faced with the seemingly impossible task of battling evil incarnate. Features a dynamic sanity system resulting in hallucinations, panic attacks, vertigo, paranoia, and more! Includes 1920s weaponry and vehicles as well as evil artifacts and alien technology, with Lovecraft's famous monsters and locations.
+A first-person Lovecraft horror game with no health bar and no crosshair, where injuries are treated limb by limb. A sanity system runs underneath it, so what your character has seen produces hallucinations, panic attacks and vertigo that you have to play through. It runs from a quiet New England town down into Deep One City.

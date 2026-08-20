@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/castlevania-anniversary-collection/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "ed9248a81d0a7aea"
+last_modified_at: "2026-08-20"
+content_hash: "d66a0b84aed92ce8"
 ---
 
 Eight of Konami's early Castlevania games in one package, spanning NES, Game Boy, SNES and Mega Drive entries released between 1986 and 1994. Alongside the games sits an illustrated history of the series, with notes from the developers and artists behind it.

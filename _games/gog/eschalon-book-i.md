@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/eschalon-book-i/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-02-01"
-content_hash: "caefe354e90a359a"
+last_modified_at: "2026-08-20"
+content_hash: "6cd74a187a536d42"
 ---
 
-Classic turn-based role-playing game, played with one customizable character. The player travels between towns, does quests and explores dungeons.
+A deliberately old-fashioned role-playing game on a tile grid, turn-based down to the dice: every action is rolled or calculated rather than resolved by reflexes. You wake with no memory of who you are and work that out across open country and dozens of dungeons, and the developers are explicit that this is not an action RPG.

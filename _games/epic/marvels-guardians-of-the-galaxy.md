@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/marvels-guardians-of-the-galaxy/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "fdd8ede25036ac73"
+last_modified_at: "2026-08-20"
+content_hash: "3ed5e57e041e203c"
 ---
 
 A single-player action adventure in which you play Star-Lord and issue orders to the rest of the Guardians mid-fight. Between battles the crew argue constantly, and your replies steer both the banter and how the story turns out.

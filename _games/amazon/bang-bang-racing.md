@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/bang-bang-racing/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "964d81003559da84"
+last_modified_at: "2026-08-20"
+content_hash: "4c95c040a84ea248"
 ---
 
 A top-down arcade racer built around clean cornering rather than raw speed. You pick from four classes of car and work through nine reversible circuits, hunting shortcuts and pit stops while cones and exploding barrels scatter across the track.

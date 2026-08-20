@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/king-of-retail/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-04-01"
-content_hash: "e2b0ba484a1a733c"
+last_modified_at: "2026-08-20"
+content_hash: "c475cfdccb81dece"
 ---
 
-The store is your kingdom! Expand your humble boutique into a thriving business: hire the right staff, decorate your displays, and lure in customers. Even your wildest ideas can turn a profit. Why not start a business that sells only white T-shirts and ketchup? PCs and beans? Your rule, your rules!
+A shop management sim in which you pick a theme, lay out the displays, hire and train staff, and try to turn a boutique into a chain. What you stock is entirely up to you, so a store selling nothing but white T-shirts and ketchup is a valid, if unwise, business plan.

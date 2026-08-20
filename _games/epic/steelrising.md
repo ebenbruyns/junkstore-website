@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/steelrising/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "505246ba557ead2c"
+last_modified_at: "2026-08-20"
+content_hash: "d2d3e151e5ad137c"
 ---
 
 A souls-like action role-playing game set in an alternate 1789 Paris, where Louis XVI has put down the revolution with an army of automatons. You play Aegis, a clockwork bodyguard built for the queen, crossing a vertical city by grappling hook and dash between fights that reward patient dodges and parries.

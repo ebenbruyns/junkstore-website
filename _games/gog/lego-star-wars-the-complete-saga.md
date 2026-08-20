@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/lego-star-wars-the-complete-saga/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-05-01"
-content_hash: "12a54cdaf9cc5f2a"
+last_modified_at: "2026-08-20"
+content_hash: "b8e04a5b6532d8ad"
 ---
 
-Play through a fun Star Wars galaxy that combines the endless customization of LEGO with the epic story from all six episodes of Star Wars. This is the definitive LEGO Star Wars comprising the first two games and expanding them with new characters, enhanced visuals, and more bonus levels than you can shake a lightsaber at.
-
-LEGO Star Wars: The Complete Saga is a family-friendly game, which is both funny and challenging. Pick and choose your characters wisely to engage in combat, solve puzzles and work together as a team to defeat the dark side.
+All six original Star Wars films played out in LEGO, collecting the two earlier LEGO Star Wars games into one release with extra characters and levels added. Everything breaks into studs, and most of it can be played with a second person on the same screen.

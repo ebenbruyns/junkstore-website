@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/hell-pie/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "eef4f5e4cccd0626"
+last_modified_at: "2026-08-20"
+content_hash: "e070b28ca3299e86"
 ---
 
-Hell Pie is a single player 3D-Platformer which empowers the player with an extensive set of moves based on a swing mechanic and lets him explore a combination of twisted large worlds and small challenging levels. Fighting against enemies, collecting weird cake ingredients and interactions with bizarre characters complement the gameplay. Our target audience are fans of old-school Action-Adventures and gamers who loved to play N64 classics such as Mario 64 or Banjo-Kazooie. Right now the game is in production and will be released in the 3rd quarter of 2020.
+A deliberately tasteless 3D platformer in which Nate, the Demon of Bad Taste, is sent to collect ingredients for Satan's birthday pie. He is chained to a small angel called Nugget, who doubles as a grappling point, so the two are stuck together for the whole game.

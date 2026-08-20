@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/shadowrun-returns/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "04fc7d5209f4c1e4"
+last_modified_at: "2026-08-20"
+content_hash: "b56f918d65f793bc"
 ---
 
-The unique cyberpunk-meets-fantasy world of Shadowrun has gained a huge cult following since its creation nearly 25 years ago. Now, creator Jordan Weisman returns to the world of Shadowrun, modernizing this classic game setting as a single player, turn-based tactical RPG.
+A turn-based tactical role-playing game set in 2054, where magic has come back to a cyberpunk world and elves, trolls, orks and dwarves live alongside people wired into machines. You are a shadowrunner in the Seattle sprawl, taking a job that starts with a killer and ends inside the megacorporations.

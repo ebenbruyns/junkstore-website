@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ravenloft-strahds-possession/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "3ba404314657c191"
+last_modified_at: "2026-08-20"
+content_hash: "29d1282174fcbb20"
 ---
 
 A first-person party role-playing game set in Barovia, the domain held by the vampire Strahd von Zarovich, where the mists carry travellers in from other worlds and then refuse to let them back out. It is sold as the Ravenloft Series pairing, so Stone Prophet comes with it.

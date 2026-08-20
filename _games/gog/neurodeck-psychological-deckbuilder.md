@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/neurodeck-psychological-deckbuilder/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-01-01"
-content_hash: "7be122bea8373287"
+last_modified_at: "2026-08-20"
+content_hash: "f6bf613ca5219431"
 ---
 
-Neurodeck is a psychological deckbuilding card game to challenge your fears. Build your deck &amp; capacities by answering personality tests, visiting rooms or meditating. Face your phobia and defeat them through the power of life-inspired cards.
+A deckbuilder in the Slay the Spire mould where the enemies are phobias and the cards are drawn from your own psychology. You answer personality tests to earn traits that change how a run plays, and work through a maze of the subconscious meditating and collecting improvements between fights.

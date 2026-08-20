@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/baldurs-gate-ii-enhanced-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "180b19ce6267c5e2"
+last_modified_at: "2026-08-20"
+content_hash: "6e1a012e7613db97"
 ---
 
 The second chapter of the Bhaalspawn saga, an isometric Dungeons & Dragons role-playing game rebuilt with a modern interface and extra companions. You break out of a wizard's dungeon in Amn, gather a party and follow the story through Shadows of Amn into its Throne of Bhaal conclusion.

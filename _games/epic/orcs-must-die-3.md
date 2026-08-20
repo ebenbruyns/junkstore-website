@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/orcs-must-die-3/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "6bd91f9b08b1d61b"
+last_modified_at: "2026-08-20"
+content_hash: "3d45ee5ff3f746fd"
 ---
 
 A tower defence game played from behind your own crossbow: lay traps along the corridors an orc horde has to cross, then join the fight yourself. This entry adds war scenarios with far larger waves and open battlefields.

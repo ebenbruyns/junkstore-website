@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/sid-meiers-civilization-vi/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "1f064e629bf4a856"
+last_modified_at: "2026-08-20"
+content_hash: "1a4ce83caeb2c726"
 ---
 
 The sixth entry in Firaxis's Civilization series, a turn-based strategy game about taking one nation from a single settler to a world power over the whole span of history. Cities now spread onto neighbouring tiles as districts rather than stacking on one square, so where you put a campus, a harbour or a wonder shapes the map as much as your armies do.

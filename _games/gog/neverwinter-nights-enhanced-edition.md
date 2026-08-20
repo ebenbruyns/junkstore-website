@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/neverwinter-nights-enhanced-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-01-01"
-content_hash: "b9c53652cee20cc4"
+last_modified_at: "2026-08-20"
+content_hash: "1a6d96b7cc3ffcf9"
 ---
 
-Neverwinter Nights: Enhanced Edition is an updated version of the 2002 video game Neverwinter Nights. The Enhanced Edition is based on Neverwinter Nights: Diamond Edition and it comes with the base game as well as the Shadows of Undrentide, Hordes of the Underdark, Kingmaker, Witch's Wake and ShadowGuard expansions. Remastered version brings numerous technological improvements to the game, including an updated graphics engine and revitalized multiplayer support.
+The modernised version of the same 2002 game and its expansions, rebuilt by Beamdog rather than remade. It adds proper support for 1080p and 4K displays, sharper visuals through pixel shaders and post-processing, and a run of fixes chosen with the long-standing community that still makes modules for it.

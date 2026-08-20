@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/cat-quest-ii/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "22d7e3ffb4192ee8"
+content_hash: "8be4cd36c1bcd380"
 ---
 
 A 2D open-world action role-playing game set across a kingdom of cats and a kingdom of dogs at war with each other. You play both of their kings at once, thrown together against their will to win back two thrones, alone or with a second player alongside you.

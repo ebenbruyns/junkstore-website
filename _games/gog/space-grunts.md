@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/space-grunts/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "50c0cfe7a316b2c0"
+content_hash: "a802a77df747f2a9"
 ---
 
 A turn-based roguelike set in a moon base that has started sending a distress signal. Turns resolve the instant you move, so it plays at arcade speed despite being turn-based, and picking a Leader, Enforcer or Tech junky changes the items and weapons you find inside.

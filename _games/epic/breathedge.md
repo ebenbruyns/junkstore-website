@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/breathedge/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "1e4d87a175a7afca"
+last_modified_at: "2026-08-20"
+content_hash: "ac200a1ac839a497"
 ---
 
 A first-person survival game set in the debris of a wrecked space hearse, which you boarded to carry your grandfather's ashes to his funeral. You scavenge for oxygen and parts, craft tools and vehicles, and dig into the conspiracy behind the crash, with an immortal chicken for company and jokes at every turn.

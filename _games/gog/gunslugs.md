@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/gunslugs/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-11-01"
-content_hash: "c801dd2df29c6995"
+last_modified_at: "2026-08-20"
+content_hash: "d0a6d739cf26e60f"
 ---
 
-Lock and load for chaotic, fast-paced action in Gunslugs! Battle the evil Black Duck Army across wild, procedurally generated levels packed with explosions, jetpacks, chicken guns, and rogue-like permadeath. Unlock heroes, conquer bizarre worlds, and fight your way to the gates of Hell!
+A fast side-scrolling run-and-gun through procedurally built levels, fighting the Black Duck Army with whatever you pick up, jetpacks and chicken guns included. Runs end permanently when you die, and clearing them unlocks more characters to start again with.

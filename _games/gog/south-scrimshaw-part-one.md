@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/south-scrimshaw-part-one/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "49b94bf3f7fb6e72"
+last_modified_at: "2026-08-20"
+content_hash: "6922f6c908afe33f"
 ---
 
-A science-fiction visual novel in the style of a nature documentary.
+A free visual novel written as a nature documentary about a species that does not exist, following a whale calf through an alien ocean. It runs on more than 400 illustrations painted in watercolour, ink and digital media, and it is linear rather than branching. These four chapters cover one life from birth to the end of adolescence.

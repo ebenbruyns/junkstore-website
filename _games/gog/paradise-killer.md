@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/paradise-killer/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "4d508854bf60f75e"
+content_hash: "2cd781d193fafd40"
 ---
 
 An open-world murder investigation on an island built outside reality by people trying to resurrect dead alien gods. You play Lady Love Dies, gathering evidence at your own pace, and can accuse anyone you like at the end so long as you can carry the argument at trial.

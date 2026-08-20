@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/beglitched/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "8728733a256a3086"
+last_modified_at: "2026-08-20"
+content_hash: "f4be1bc50e134fca"
 ---
 
 A puzzle game about hacking, set in a pastel world of networks where nobody quite knows what they are doing. You are the new apprentice of the Glitch Witch, the net's most notorious hacker, hunting a hidden intruder across a grid with scans and matched tiles while you work out how an alien computer runs.

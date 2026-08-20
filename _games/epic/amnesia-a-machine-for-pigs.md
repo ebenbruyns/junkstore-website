@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/amnesia-a-machine-for-pigs/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -132,7 +138,7 @@ owned: false
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "bead61194be94cf8"
+content_hash: "3948f3775d8487f1"
 ---
 
 A first-person horror game set in the London of 1899, following a wealthy industrialist who wakes with his memory in pieces and a vast machine running somewhere beneath his house. You descend through the works with nothing to fight back with, gradually piecing together what you built and why.

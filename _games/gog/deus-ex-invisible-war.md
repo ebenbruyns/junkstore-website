@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/deus-ex-invisible-war/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "ea97d8a9b0022fcb"
+last_modified_at: "2026-08-20"
+content_hash: "d98053a2ae0bbcab"
 ---
 
-Several religious and political factions see an opportunity to re-shape a worldwide government to their agendas. In this techno-nightmare, take part in the dark struggle to raise the world from its own ashes.
-
-This dynamic and innovative 1st person-action/adventure brings a level of reality unprecedented in a videogame. Biotech modifications allow players to see through walls, leap 40 feet into the air, regenerate critical body damage or render yourself radar invisible. Globe-hop to real world locations such as Seattle, Antarctica, and Cairo.
+The sequel to Deus Ex, set about twenty years later as the world starts climbing out of a global economic collapse. Religious and political factions all see the same opening to rebuild world government on their own terms, and you work through that as an agent whose loyalties are yours to place.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/mortal-kombat-trilogy/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "071cc8ba87c6d156"
+last_modified_at: "2026-08-20"
+content_hash: "7279889e2b8955ef"
 ---
 
-This successor to the arcade megahits features the meanest of the mean and the baddest of the bad. If you think you've mastered the moves and out-bossed the bosses, think again!
+The 1996 compilation that pulled the fighters and stages from the first three Mortal Kombat games into one roster, including characters cut from the arcade releases. It is one-on-one fighting with every finishing move intact, and the largest character list the 2D games ever had.

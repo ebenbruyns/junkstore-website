@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/robbo/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "93809f99cfe1bcf4"
+last_modified_at: "2026-08-20"
+content_hash: "a0c70d0d639607b4"
 ---
 
 The original Robbo, a puzzle game across 56 planets where you gather the scattered parts of a broken escape capsule while the locals get in your way. Worth knowing before you buy: GOG will not add this one to your library unless you already own Robbo Millennium.

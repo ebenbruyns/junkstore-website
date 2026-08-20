@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/faraway-arctic-escape/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "ff703988813516cb"
+last_modified_at: "2026-08-20"
+content_hash: "1c665b90c8d12aab"
 ---
 
 The third entry in the Faraway puzzle series, moving the search for a missing father into frozen ruins. You work through a chain of self-contained temples, solving their mechanical locks and reading the notes he left behind at each one.

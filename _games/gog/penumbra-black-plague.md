@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/penumbra-black-plague/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "eb6d7b9f5fcec726"
+last_modified_at: "2026-08-20"
+content_hash: "0fb96fed6833e46a"
 ---
 
-Surrounded by enemies and assaulted by terror from all sides, Philip must collect clues and solve vexing puzzles while combating the gnawing psychological terrors that assail his mind
+The sequel to Overture, continuing Philip's search for his father through an underground complex, with the combat removed entirely so hiding is the only answer. This Gold Edition also includes Requiem, a shorter expansion that drops the story for pure physics puzzles.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/super-meat-boy-forever/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "64785f4405a0c9e1"
+last_modified_at: "2026-08-20"
+content_hash: "3d6307933e6e8160"
 ---
 
 A sequel that keeps the brutal difficulty but has Meat Boy running automatically, leaving you to time jumps, dives and punches. Levels are assembled from hand-designed chunks, so a stage is rebuilt each time you start it.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/breath-of-fire-iv/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "eca41d5d4a65d82d"
+content_hash: "3001c1d06dc808af"
 ---
 
 A turn-based role-playing game that runs two stories against each other: Ryu, who can take dragon forms in battle, and Fou-Lu, an emperor from a thousand years earlier who is also playable and whose path keeps crossing his. Fights turn on chaining party members into combo actions.

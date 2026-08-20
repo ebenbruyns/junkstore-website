@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/the-abandoned-planet/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "47643f4094a88616"
+last_modified_at: "2026-08-20"
+content_hash: "d7da01375108e7cd"
 ---
 
 A pixel-art point-and-click adventure about an astronaut thrown through a wormhole onto a deserted planet. You work through first-person screens in the Myst tradition, piecing together where the inhabitants went and how to get home.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/tomb-raider-underworld/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,12 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "3d2421978225bfea"
+last_modified_at: "2026-08-20"
+content_hash: "10bb4bcffef3cee1"
 ---
 
-Tomb Raider: Underworld represents a new advancement in exploration-based gameplay. As fearless adventurer Lara Croft explore exotic locations around the world, each designed with an incredible attention to detail resulting in breathtaking high-definition visual fidelity that creates a truly believable world and delivers a new level of challenge and choice.
-
-Reach new heights with the broadest range of acrobatic abilities and utilize objects within the environment to uncover new paths to explore. Discover ancient mysteries of the underworld hidden within the coast of Thailand, frozen islands of the Arctic Sea, the jungles of Mexico, and more.
-
-Each level is an elaborate multi-stage puzzle masked within an interactive environmental playground offering more flexibility over how the area is solved. Choose to pacify or kill, target multiple enemies at once with the new dual-target system, and shoot with one hand while suspended with the other.
+The 2008 Tomb Raider, and the last of the run that began with Legend. Lara follows a trail through Norse myth across widely separated locations, from the Mediterranean seabed to Thailand and the Arctic, with the emphasis back on climbing and working out the shape of a ruin rather than on fighting.

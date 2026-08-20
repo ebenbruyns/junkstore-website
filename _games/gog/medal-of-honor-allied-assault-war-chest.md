@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/medal-of-honor-allied-assault-war-chest/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "b67e3464418654af"
+last_modified_at: "2026-08-20"
+content_hash: "8123a65f8724e406"
 ---
 
 The 2002 shooter with both expansions, following three different soldiers rather than one continuous story. Mike Powell, a Ranger seconded to the OSS, runs from North Africa to Omaha Beach. Spearhead drops Jack Barnes of the 501st paratroopers into Normandy, Belgium and Berlin, and Breakthrough takes John Baker of the 34th Infantry through Sicily and Italy, all as scripted set-piece missions built around squad-scale infantry fighting.

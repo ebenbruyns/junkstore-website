@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ravenloft-stone-prophet/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "e1274f244b537479"
+last_modified_at: "2026-08-20"
+content_hash: "45e3aa385ee8818b"
 ---
 
 The Ravenloft sequel, which trades Barovia's castles and fog for Har'Akir, a desert domain of tombs, dust and mummies. It keeps the first-person party role-playing of Strahd's Possession, and is sold as the Ravenloft Series pairing, so that game comes with it.

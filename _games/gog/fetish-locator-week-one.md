@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fetish-locator-week-one/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "08f79fa5c203b1cf"
+last_modified_at: "2026-08-20"
+content_hash: "be56fbad85685cad"
 ---
 
-Play as a young college student exploring love, lust, and sexual fetishes with the hottest women in town. Score points in the Fetish Locator app, which has taken the campus by storm. Make choices and decide the fate of the story in Fetish Locator!
+An adult visual novel set on a college campus, built around an app that scores students on the fetishes they log. You play a student working through that social game, and the choices you make steer which of the storylines you end up in. This is Week One of an episodic series rather than a complete story.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/postal-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "2a90311000c90b12"
+last_modified_at: "2026-08-20"
+content_hash: "7840f526197fbca0"
 ---
 
 A first-person black comedy built around a week of mundane errands, like cashing a cheque or returning a library book, in a town that reacts badly to everything. How much violence that week involves is left to you. The whole game can be finished without killing anyone.

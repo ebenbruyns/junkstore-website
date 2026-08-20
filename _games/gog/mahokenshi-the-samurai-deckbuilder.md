@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/mahokenshi-the-samurai-deckbuilder/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-03-01"
-content_hash: "0eb0e2f765c3688a"
+last_modified_at: "2026-08-20"
+content_hash: "9885e17ded1fa4b0"
 ---
 
-Mahokenshi is a turn-based blend of adventure, deck-building and deep hex-grid strategy. Create your deck, out-smart your enemy, battle challenging demons and adventure through the Celestial Islands to protect your home from the forces of corruption.
+A deckbuilder played across a map rather than in a straight line of fights. You are a samurai mage defending the floating Celestial Islands from corruption, moving over hex terrain to reach objectives while your deck handles both the travelling and the fighting.

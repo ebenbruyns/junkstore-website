@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fall-of-porcupine/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-01-01"
-content_hash: "0022d71f7e559eff"
+last_modified_at: "2026-08-20"
+content_hash: "b51f8c3df590b505"
 ---
 
-Guide young Finley through his first weeks at a provincial hospital. He is on fire for his apprenticeship as an internist. But a lot of pressure makes Finley's life difficult and our gameplay challenging.
+A hand-drawn narrative adventure about Finley, a newly qualified pigeon doctor starting at St Ursula's hospital in a small town of animals. You diagnose patients through conversation and treat them in short minigames, and between shifts the town turns out to be less friendly than it looks, with the healthcare system it runs on doing much of the damage.

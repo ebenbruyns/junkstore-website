@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/alone-in-the-dark-3/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "3c305aff5379c444"
+last_modified_at: "2026-08-20"
+content_hash: "3b5ea37a4aa711d9"
 ---
 
 The third Alone in the Dark, which moves Edward Carnby out of haunted houses and into Slaughter Gulch, a western ghost town standing in as a film set. The crew has been taken, Emily Hartwood from the first game among them, and you shoot and investigate your way through the curse on the town.

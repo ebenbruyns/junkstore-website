@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/beneath-a-steel-sky/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "cd8a69e95a8c2911"
+last_modified_at: "2026-08-20"
+content_hash: "d31ba94acb33f4fb"
 ---
 
 A 1994 cyberpunk point-and-click adventure following Robert Foster, taken from the wasteland after his village is destroyed and dropped into Union City. He survives the crash with the circuit board of Joey, the robot he built as a child, and the two go looking for answers in a city run by an AI dictatorship, where the wealthy live below the smog and everyone else is stacked in towers above it.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/disney-epic-mickey-rebrushed/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: ""
@@ -131,8 +137,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "dd362d4db1a426ad"
+last_modified_at: "2026-08-20"
+content_hash: "a95e14f854772969"
 ---
 
 A remake of the 2010 platformer, sending Mickey Mouse into Wasteland, the world where forgotten Disney characters ended up. You reshape levels with paint and thinner, restoring what is there or erasing it, and the game notices which you prefer.

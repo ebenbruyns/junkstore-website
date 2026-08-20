@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fear-platinum/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "cf0a727567cba746"
+last_modified_at: "2026-08-20"
+content_hash: "828f8f69e43b12fb"
 ---
 
-You are an elite soldier trained to deal with unusual situations others can't even imagine. Called in to confront a murderous force with paranormal abilities, you must contain a crisis spiraling quickly out of control. Discover the true meaning of F.E.A.R. in this unique fusion of stylized combat and supernatural suspense. 
- 
-An unidentified paramilitary force infiltrates a multi-billion dollar aerospace compound, taking hostages but issuing no demands. The government responds by sending in Special Forces, but loses contact after an unidentified signal interrupts radio communications. As part of a classified strike team created to deal with threats no one else can handle, your mission is simple: Eliminate the intruders at any cost.
+The 2005 shooter that paired unusually sharp enemy AI with a ghost story, following a special forces team sent into an aerospace compound taken by a paramilitary force. You survive the flanking by fighting in slow motion. Platinum adds both expansions: Extraction Point picks up after the first game with Alma loose in a ruined city, and Perseus Mandate runs alongside the original with a second F.E.A.R. team. The expansion multiplayer is gone.

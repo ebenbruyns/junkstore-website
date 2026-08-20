@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/total-annihilation-commander-pack/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "0f9fe7c5eda2fd05"
+last_modified_at: "2026-08-20"
+content_hash: "c6d2147c9a4a2edc"
 ---
 
-What began as a conflict over the transfer of consciousness from flesh to machines escalated into a war which has decimated a million worlds. The Core and the Arm have all but exhausted the resources of a galaxy in their struggle for domination. Both sides now crippled beyond repair, the remnants of their armies continue to battle on ravaged planets, their hatred fuelled by over four thousand years of total war. This is a fight to the death. For each side, the only acceptable outcome is the complete elimination of the other.
+The 1997 real-time strategy game that put whole armies on one map, fought between the Arm and the Core over a war about moving human minds into machines. Units keep firing on their own and the terrain shapes every shot. The Commander Pack collects the base game with both expansions, The Core Contingency and Battle Tactics.

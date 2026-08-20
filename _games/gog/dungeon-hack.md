@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dungeon-hack/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "0309481b699e4af1"
+last_modified_at: "2026-08-20"
+content_hash: "f8392b8c0861c67a"
 ---
 
 A dungeon crawler built on the Eye of the Beholder engine that generates a new dungeon every time you start. You send one character down through pits, traps and puzzles against a bestiary of more than fifty monsters, with an optional roguelike setting that makes death permanent.

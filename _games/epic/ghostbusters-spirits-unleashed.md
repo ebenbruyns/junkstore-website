@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/ghostbusters-spirits-unleashed/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "a6b6da763e145713"
+last_modified_at: "2026-08-20"
+content_hash: "465af2121a697549"
 ---
 
 An asymmetric multiplayer game in which four players hunt a ghost controlled by a fifth. The hunters sweep a building with proton packs and traps while the ghost slips between objects, scaring civilians before the team can close the trap.

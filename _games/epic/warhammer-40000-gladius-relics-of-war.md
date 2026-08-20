@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/warhammer-40000-gladius-relics-of-war/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "7a8911565b07be48"
+content_hash: "0a35736d3b7f9ba5"
 ---
 
 The first turn-based 4X strategy game set in Warhammer 40,000, fought over Gladius Prime, a colony world where digging up the relics woke something buried with them. You take the Astra Militarum, Space Marines, Orks or Necrons, each with its own technology tree and its own storyline. There is no diplomacy here to fall back on, so the only way out is to be the last faction standing.

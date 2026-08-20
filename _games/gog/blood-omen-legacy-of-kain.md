@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/blood-omen-legacy-of-kain/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-04-01"
-content_hash: "779bb8c84d77fe9d"
+last_modified_at: "2026-08-20"
+content_hash: "833b0ed86c4fc1b4"
 ---
 
-Blood Omen: Legacy of Kain is a top-down action-adventure video game with role-playing game elements. It is the first game in the Legacy of Kain series, and the only one developed by Silicon Knights and published by Crystal Dynamics. The game was first released in 1996 for the PlayStation, and later ported to Microsoft Windows. A Sega Saturn version was announced during production but later cancelled before release. It was followed by four sequels, which were all developed by Crystal Dynamics and published by Eidos Interactive.
+The first Legacy of Kain game, and the only one played from overhead rather than behind the shoulder. Kain is murdered by bandits and raised as a vampire by the necromancer Mortanius. Killing his killers takes almost no time at all, and the game proper is hunting the Circle of Nine, the mad guardians of the Pillars of Nosgoth. His health drains constantly, so you drink to keep going.

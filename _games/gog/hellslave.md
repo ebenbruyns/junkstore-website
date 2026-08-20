@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/hellslave/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "20a5006227ed0ffe"
+last_modified_at: "2026-08-20"
+content_hash: "c90c40f32739a623"
 ---
 
-Hellslave is a dark fantasy dungeon crawler where you make a pact with the Devil to fight back a demon invasion. Customize your character with powerful demonic abilities, explore a cursed world, and battle nightmarish enemies to save humanity if you can resist the darkness.
+A dark fantasy dungeon crawler in which stopping the demon invasion means signing with the Devil first. You choose which of six demons to serve, and that choice sets which powers you can take, so your character is built out of the bargain rather than a class.

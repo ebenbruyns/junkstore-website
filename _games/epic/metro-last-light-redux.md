@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/metro-last-light-redux/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,24 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "d1a007aac1a240c8"
+last_modified_at: "2026-08-20"
+content_hash: "691a36798d1342c1"
 ---
 
-Metro: Last Light Redux is the definitive version of the critically acclaimed ‘Metro: Last Light’, rebuilt in the latest and greatest iteration of the 4A Engine for Next Gen. Newcomers will get the chance to experience one of the finest story-driven shooters of all time; an epic adventure combining gripping survival horror, exploration and tactical combat and stealth. 
- 
-This definitive version also includes all previously released DLC, adding 10 hours of bonus single-player content to the huge solo campaign. Fans of the original game will notice new features and gameplay improvements, including new melee animations, the ability to check your watch and ammo supplies on the fly, and new full-body player animations. 
- 
-And those who favoured the more survival-horror oriented gameplay of the cult prequel ‘Metro 2033’ will find a new way to experience the campaign thanks to the introduction of two unique Play Styles – Survival and Spartan. The former transforms Last light from a more action-oriented stealth combat experience to a fraught, slow burn fight for survival. With the legendary Ranger Mode included to offer an extra layer of challenge and immersion, Metro: Last Light Redux offers hours of AAA gameplay for an incredible price. 
- 
-Game Features 
- 
-Immerse yourself in the Moscow Metro - witness one of the most atmospheric worlds in gaming brought to life with stunning next-gen visuals at 60FPS Brave the horrors of the Russian apocalypse - equip your gasmask and an arsenal of hand-made weaponry as you face the threat of deadly mutants, human foes, and the terrifying environment itself 
-   
-Rebuilt and Remastered for next-gen - with all previous DLC content included, new modes and features, and many gameplay improvement, this is the definitive version of the critically acclaimed classic that fans and newcomers alike will enjoy 
-   
-Two unique Play Styles : "Spartan" and "Survival" - approach the game as a slow burn Survival Horror, or tackle it with the combat skills of a Spartan Ranger in these two unique modes 
-   
-The legendary Ranger Mode returns - dare you play the fearsome Ranger Mode? No HUD, UI, deadlier combat and limited resources combine to create the ultimate immersive experience 
-  
-Based on the internationally bestselling novel series by Dmitry Glukhovsky
+The remastered version of the 2013 shooter, set in 2034 in the tunnels under a ruined Moscow. Mutants hold the surface and the poisoned sky above it, while the station-cities below fight each other over a doomsday weapon rather than uniting. Redux rebuilds it on the later engine and adds the harder Ranger modes.

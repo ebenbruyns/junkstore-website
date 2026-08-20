@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/loop-hero/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-08-01"
-content_hash: "df8aea22d9f238c3"
+last_modified_at: "2026-08-20"
+content_hash: "4f6526546ec9326e"
 ---
 
-The Lich has thrown the world into a timeless loop and plunged its inhabitants into never ending chaos. Wield an expanding deck of mystical cards to place enemies, buildings, and terrain along each unique expedition loop for the brave hero.
+A game where the hero walks the loop and fights by himself, and your job is to decide what he meets. You play cards onto the path to place monsters, buildings and terrain, because the loot only comes from the danger you put there yourself, then take what survives back to camp to build it up.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/amerzone-the-explorers-legacy-1999/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "c388cf50fce31cef"
+last_modified_at: "2026-08-20"
+content_hash: "c9246bb130b6a2e0"
 ---
 
-Amerzone is a first person adventure, similar to Myst, using 360º vision, movement and point & click interface. It's the first adventure game from the author of Syberia and Syberia 2, Benoît Sokal, presenting very rich scenarios and more than 50 puzzles to solve and 200 locations to visit.
+Benoît Sokal's first adventure game, made before the Syberia series. A dying explorer in a lighthouse asks a young reporter to finish what he started sixty years earlier: he stole a white bird's egg from the people of the Amerzone and was never believed about what he found. This is the 1999 original rather than the later remake.

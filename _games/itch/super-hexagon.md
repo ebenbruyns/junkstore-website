@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/super-hexagon/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "baab747ec8ee9188"
+last_modified_at: "2026-08-20"
+content_hash: "89f676a4dc5be5be"
 ---
 
 A minimal reflex game by Terry Cavanagh: rotate a triangle around the centre of a spinning hexagon and slip through gaps in walls closing from every side. Early runs last seconds, and the whole game is about pushing that number upward.

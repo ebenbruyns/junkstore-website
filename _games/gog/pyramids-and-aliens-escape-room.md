@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/pyramids-and-aliens-escape-room/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: ""
 standalone_rating: "green"
@@ -40,8 +46,8 @@ release_date: "December 5, 2024"
 game_modes: ["Single-player"]
 languages: ["Portuguese (Brazilian)","Chinese Simplified","German","English","Spanish","Latin American Spanish","French","Italian","Japanese","Korean","Portuguese"]
 languages_audio: ["English"]
-tags_structured: []
-size: ""
+tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"40836","name":"Full controller support"},{"id":"32","name":"Sci-fi"},{"id":"141","name":"Point & Click"},{"id":"107","name":"Family Friendly"},{"id":"117","name":"Mystery"},{"id":"89","name":"Historical"},{"id":"172","name":"Aliens"},{"id":"91","name":"Walking Simulator"},{"id":"178","name":"Illuminati"},{"id":"91686","name":"Family Sharing"},{"id":"208","name":"Alternate History"},{"id":"288","name":"Interactive Fiction"},{"id":"317","name":"Time Travel"},{"id":"140","name":"Hidden Object"},{"id":"291","name":"Conspiracy"},{"id":"326","name":"Investigation"},{"id":"575","name":"Logic"},{"id":"92376","name":"Aventure"},{"id":"68059","name":"Escape Room"},{"id":"91995","name":"Квест-комната"}]
+size: "3932 MB"
 install_size: ""
 achievements_total: 10
 franchise_siblings: []
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "6cf2dc575566dd2b"
+last_modified_at: "2026-08-20"
+content_hash: "4da7c784dbecda93"
 ---
 
 An escape room game set inside an Egyptian pyramid, where the archaeologist who trained you has gone missing. You work through puzzles built by escape room designers, first in the burial chambers and then in the alien temple they turn out to conceal.

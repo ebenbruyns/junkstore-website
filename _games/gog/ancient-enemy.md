@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ancient-enemy/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "a281314886d6c787"
+last_modified_at: "2026-08-20"
+content_hash: "d3ed856f38cb438c"
 ---
 
-Ancient Enemy is an RPG card battler set in a crumbling world where the forces of evil have already won. Blast distorted enemies with a satisfying range of spells and abilities. Journey into a scarred wilderness and defeat the deadliest foe of all!
+A card battler with role-playing progression, set after evil has already won and the world has begun coming apart. You cross a ruined wilderness fighting distorted things one duel at a time, drawing power back out of the landscape as you go, toward one last fight with what did this.

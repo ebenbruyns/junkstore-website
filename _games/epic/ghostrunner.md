@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/ghostrunner/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "8e11a2f9a4deb03d"
+last_modified_at: "2026-08-20"
+content_hash: "0e42865223e630b1"
 ---
 
 A first-person action game about a cybernetic assassin climbing a tower holding the last of humanity. One hit kills you and one hit kills them, so every room is a short, fast puzzle of wall-runs, dashes and a single sword.

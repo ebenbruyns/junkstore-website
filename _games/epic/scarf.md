@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/scarf/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "6b6f5806d15fc339"
+last_modified_at: "2026-08-20"
+content_hash: "fc57728dba8b6db1"
 ---
 
-Scarf is an atmospheric and emotional journey about what it means to be a hero. An adventure game mixing puzzles and 3D platforms. Explore beautifully crafted worlds and discover your true destiny with the help of a dragon-shaped scarf.
+A 3D platformer and puzzle adventure about what being a hero costs. Your companion is a scarf shaped like a dragon, and it is also your equipment: it grants the abilities you unlock as you work through each world toward the truth of your own story.

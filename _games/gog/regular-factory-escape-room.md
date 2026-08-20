@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/regular-factory-escape-room/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "d631da8c9b4132d4"
+last_modified_at: "2026-08-20"
+content_hash: "1aea9a5448640f93"
 ---
 
 An escape room game set in the factory where you work, which turns out to be nothing like an ordinary assembly line. You search its rooms for hidden objects and codes, working through logic puzzles to find out what the place is really for.

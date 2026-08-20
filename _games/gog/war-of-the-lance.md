@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/war-of-the-lance/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "7152604c8c328a6e"
+last_modified_at: "2026-08-20"
+content_hash: "3d11a64c002dbb33"
 ---
 
 A strategy game covering the whole War of the Lance, fought across a map of Ansalon with armies rather than a party of heroes. It is the odd one out of its collection, a wargame sitting beside three adventure games. It is sold inside Silver Box Classics, together with Heroes of the Lance, Dragons of Flame and Shadow Sorcerer.

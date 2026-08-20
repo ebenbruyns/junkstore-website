@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/airship-kingdoms-adrift/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "1314677f307cb4ff"
+last_modified_at: "2026-08-20"
+content_hash: "77bca8e1f20254dc"
 ---
 
 An airship trading and combat simulator set in Suthseg, a frontier archipelago the last Sky War passed over. You take a commission to found a trading company there, fitting out ships, hiring officers who each have a story of their own, and working across 70-odd settlements while the three powers holding an uneasy ceasefire turn their attention your way.

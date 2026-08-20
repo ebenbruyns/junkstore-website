@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/x-morph-defense-complete-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "2bc956cd3a6d70f5"
+last_modified_at: "2026-08-20"
+content_hash: "16b29d06613bccac"
 ---
 
-X-Morph: Defense Complete Edition includes: X-Morph: Defense core game, European Assault DLC, Survival Of The Fittest DLC, Last Bastion DLC.
+A tower defence game crossed with a top-down shooter, in which you are the alien invasion rather than the defenders. You lay out towers in build mode, then fly the ship yourself when the human counterattack lands, and the scenery collapses in real time as it gets shot. The Complete Edition takes in the expansions.

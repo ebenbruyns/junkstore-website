@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tomb-raider-game-of-the-year-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "430ba9f28731b9c9"
+last_modified_at: "2026-08-20"
+content_hash: "7d15b030e40f4eee"
 ---
 
 The 2013 Tomb Raider reboot, an action-adventure covering Lara Croft's first expedition. Her ship breaks up off the coast of Japan and the crew is scattered across an island that has no intention of letting them leave, so she hunts, climbs and fights her way across it. The Game of the Year edition bundles the add-ons released after launch, including the Tomb of the Lost Adventurer.

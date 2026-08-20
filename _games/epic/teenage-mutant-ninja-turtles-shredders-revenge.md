@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/teenage-mutant-ninja-turtles-shredders-revenge/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "31a1e1ad4e58ed3a"
+last_modified_at: "2026-08-20"
+content_hash: "839a1b5282fbd27d"
 ---
 
 A side-scrolling beat ’em up in the style of the arcade Turtles games, with pixel art and up to six players at once. The roster runs past the four turtles to April, Splinter and Casey, fighting through Foot Clan levels drawn from the 1987 cartoon.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fallout-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "d34e6e5ba3b0a6b9"
+content_hash: "53ed47320d2d0903"
 ---
 
 The sequel, set eighty years on, in which you leave a primitive village to find a terraforming kit that will keep it alive. The road there is strewn with radiation, mutants with ambitions, and a steady supply of people lying to you.

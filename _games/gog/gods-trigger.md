@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/gods-trigger/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,14 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-04-01"
-content_hash: "f308e77706df73ab"
+last_modified_at: "2026-08-20"
+content_hash: "ab66e1d869416b6e"
 ---
 
-"God’s Trigger is a fast paced, top-down, 3D action slasher where you, as a former army veteran and now a priest, begin your crusade against the evil of our times - gangs, drugs, human trafficking. You’re filled with God’s will to purify the world from its depravity. You are the hand of God and there will be no mercy for sinners!
-
-The main and most unique gameplay mechanics in God’s Trigger is called Divine Focus and gives the player the ability to avoid bullets and tactically plan his attacks. The time is running normally for as long as the player keeps moving. As soon as Zoran stops though, the time slows down too. This allows the player to actually see bullets coming his way and in result avoid them. Even though the player can activate and deactivate Divine Focus whenever he wants, the ability has its limits. To refill its resource, the player needs to kill at least one enemy, without Divine Focus being activated.
-
-Another feature important for how the gameplay evolves is a One Mistake rule which is really simple in its assumptions. Each hit is fatal for the main protagonist and means the game is over for the player.
-
-The main reason behind introducing those two mechanics to the game, was to give players the opportunity to experience the joy of a pure, hardcore gameplay, with no place for mistakes. But in the same time, to give them a lot of freedom in clearing up the level and deciding how their play through will look like."
+A top-down action game about clearing a room in seconds or dying trying. An angel and a demon work together to shoot their way toward Heaven and stop the apocalypse, and every room is a puzzle of split-second timing that you can play alone or with a second player.

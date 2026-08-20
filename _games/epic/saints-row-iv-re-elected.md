@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/saints-row-iv-re-elected/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "120fe755b156a5ea"
+content_hash: "c25180881d14dc85"
 ---
 
 The one where the gang leader becomes President of the United States and then has to fight off an alien invasion with superpowers. Re-Elected collects 25 add-on packs on top of the base game, including both story expansions, Enter the Dominatrix and How the Saints Save Christmas.

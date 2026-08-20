@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/deus-ex-mankind-divided/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "d8679caef83a66ef"
+content_hash: "899fb1e27739418a"
 ---
 
 Set in 2029, with mechanically augmented people segregated from everyone else and blamed for the terror attacks covering a wider conspiracy. You play Adam Jensen, an augmented agent working among people who despise what he is, and the weapons and augmentations you pick decide how each problem gets solved, by talking, sneaking or shooting.

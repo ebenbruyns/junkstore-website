@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/deliver-at-all-costs/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "a9c9584a4fe28afc"
+last_modified_at: "2026-08-20"
+content_hash: "7b898f4895bfdce1"
 ---
 
 A top-down action game about a courier taking increasingly unreasonable deliveries across a 1950s American town. Almost everything in the world can be destroyed, and most of the job involves driving through it rather than around it.

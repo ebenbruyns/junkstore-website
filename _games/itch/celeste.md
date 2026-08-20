@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/celeste/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -124,7 +130,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "5f99f493c4d070d0"
+content_hash: "a5ba2ada4abf01f3"
 ---
 
 A precise, difficult platformer about Madeline climbing a mountain while her own anxiety climbs with her. There are more than 700 screens of it, each one a small puzzle of dashes and wall jumps, with harder B-side versions to unlock once you have cleared a chapter.

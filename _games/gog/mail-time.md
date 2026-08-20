@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/mail-time/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-05-01"
-content_hash: "20c2ebc078205787"
+last_modified_at: "2026-08-20"
+content_hash: "9d4258c744fd1e3b"
 ---
 
-Cottagecore cozy adventure game about delivering mail to forest animals! take on the role of a fresh-on-the-job Mail Scout given her very first letter to deliver. All you have to do is find out exactly where the recipient Greg lives and deliver the letter, no biggie!
+A gentle platformer about your first day as a Mail Scout, delivering letters and parcels around a forest called Grumblewood Grove. You climb, glide and bounce between the animals waiting on their post, in a soft cottagecore setting with nothing chasing you.

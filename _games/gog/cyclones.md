@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/cyclones/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "968a0f7695a689d5"
+last_modified_at: "2026-08-20"
+content_hash: "1a28d71b53ab0202"
 ---
 
 A 1994 first-person shooter fought against the CyClones, captured humans an invading alien race has rebuilt as part-machine weapons. It carries everything multimedia meant at the time, with full-motion video, cinematics and digitised voices around the shooting, and it aims through a mouse crosshair you move independently of the way you are facing, which few shooters of the period allowed.

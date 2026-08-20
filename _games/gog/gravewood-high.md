@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/gravewood-high/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-01-01"
-content_hash: "5fb5b93b16a5fa7f"
+last_modified_at: "2026-08-20"
+content_hash: "4dec87c3e3ab0219"
 ---
 
-An infinitely replayable stealth horror game set in high school - with destructible environments, randomized level layouts and a smart opponent that develops new abilities the more you play.
+A horror game about escaping a school that rearranges itself while a teacher hunts you through it. There is a story campaign and an online co-op mode for up to six, where the exit may only fit one of you and betraying the others is a supported option. Worth knowing: the first two sections are free and the rest needs buying.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/grip/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-01-01"
-content_hash: "2e365e738d28711d"
+last_modified_at: "2026-08-20"
+content_hash: "e6ce89043dfc5930"
 ---
 
-Inspired by the Rollcage games of 1999 and 2000, Grip is a new IP for a new generation. A return to the hardcore combat racer, bristling with heavy weapons and packing ferocious speed, the game is an intense, sensory feast.
-
-Harnessing the awesome potential of Epic's Unreal Engine 4, GRIP will take you back to your nostalgic past, while simultaneously propelling you into a kick-ass future.
+A combat racer built on the idea that walls and ceilings are also track. The cars stick to any surface they can reach and hit speeds past 700mph, and you fight the other drivers with heavy weapons across 29 tracks on four planets.

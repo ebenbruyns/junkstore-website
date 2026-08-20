@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-life-and-suffering-of-sir-brante/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "3a2cc841e4664c72"
+last_modified_at: "2026-08-20"
+content_hash: "e0b349eacd58bf5c"
 ---
 
 A text-based narrative role-playing game played out on the pages of one man's journal, following him from birth to death in the Great Arknian Empire. You start as a commoner with no rights in a state that crushes dissent, and every choice about family, duty and defiance is paid for somewhere later in the life.

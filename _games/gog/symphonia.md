@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/symphonia/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "bc872b9162148c2b"
+content_hash: "dde0f4c3ef1d75f5"
 ---
 
 A non-violent platformer set in a place that runs on music and has been going quiet since its orchestra disappeared. You play Philemon, a violinist brought back into that decline, and the violin and bow double as your means of getting around while you gather players for a new orchestra.

@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/figment-2-creed-valley/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "a8e12438f9d84970"
+last_modified_at: "2026-08-20"
+content_hash: "15822aeefd7648d6"
 ---
 
-Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.
+The sequel, again set inside a human mind and again played as Dusty, the mind's courage. Nightmares have broken into what was a settled place, and the bosses are fought as musical numbers, singing their own accompaniment while you work out the fight.

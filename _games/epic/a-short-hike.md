@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/a-short-hike/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -131,8 +137,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "2e84858195377756"
+last_modified_at: "2026-08-20"
+content_hash: "167bf19e24967466"
 ---
 
-Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak. Follow the trails or explore the backcountry as you make your way to the summit. Along the way, meet other hikers, discover hidden treasures, and take in the world around you
+A small open-ended game about climbing to the summit of Hawk Peak Provincial Park, on foot or by gliding. You can follow the marked trails or strike off into the backcountry, meeting other hikers and turning up hidden things on the way, and it is over in an afternoon.

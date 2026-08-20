@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/grand-theft-auto-v/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "broken"
 standalone_rating: "broken"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "8fd22558f09b7cf9"
+content_hash: "dba26e31b085be99"
 ---
 
 Rockstar's open-world crime game, set across Los Santos and the country around it. You switch between three criminals, a street hustler, a retired bank robber and an unstable career psychopath, whose separate messes drag them into running heists together for people none of them can trust.

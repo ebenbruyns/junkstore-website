@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/simcity-3000-unlimited/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "90a82a36d387140b"
+last_modified_at: "2026-08-20"
+content_hash: "585ddaf12c22f745"
 ---
 
-In 2000, SimCity 3000 was re-released under different names in different regions, adding East Asian and European building sets, terrain colors, and other features.
+The expanded release of the 1999 city builder, where you zone land, run the utilities and keep a city solvent while its people complain. Unlimited adds European and Asian building sets so cities can be styled differently, plus 13 scenarios and the tools to build your own.

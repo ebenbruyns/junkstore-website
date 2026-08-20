@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/steamworld-heist/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-03-01"
-content_hash: "8c36004b7fd1424f"
+last_modified_at: "2026-08-20"
+content_hash: "54a368af7e78ac6c"
 ---
 
-Join Captain Piper Faraday, smuggler and occasional pirate, as she recruits a rag-tag team of steam-driven robots and sets out on a daring adventure. With your hearty crew you’ll board, loot and shoot your way through enemy spaceships. Overcome the challenges of the vast frontier by upgrading your robots with unique abilities, weapons – and even stylish hats!
+A turn-based tactics game where you aim every shot by hand rather than rolling for it. You captain a crew of steam-driven robot pirates boarding ships one deck at a time, and the aiming line means bullets can be bounced off walls to hit what is behind cover.

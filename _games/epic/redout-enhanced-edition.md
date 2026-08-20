@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/redout-enhanced-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "c12a57bb90f15233"
+last_modified_at: "2026-08-20"
+content_hash: "2edab9065ec8b81c"
 ---
 
 A high-speed anti-gravity racer in the tradition of Wipeout and F-Zero, tuned to be fast and unforgiving. You lean into corners with a separate strafe control, managing boost energy and hull damage across a long single player career.

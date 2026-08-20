@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/overcooked-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "e7ad359798eb257b"
+content_hash: "a18bcfd371ccbeb6"
 ---
 
 A cooking game for up to four players in which a kitchen brigade races to fill orders while the kitchen itself works against them. This second game goes back to the Onion Kingdom against a new enemy called the Unbread, and adds online play to the couch co-op the first one was built on.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/stumble-upon-rumble/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "7203cb8c1fe4f823"
+last_modified_at: "2026-08-20"
+content_hash: "fae336b6cb2e4cb7"
 ---
 
 An online brawler with retro top-down pixel art, fought in real time with punches, kicks and blocks. Movement is the main weapon, so feinting beats memorising combos, and winners stay in the ring while everyone else watches and chats, on servers holding up to thirty players.

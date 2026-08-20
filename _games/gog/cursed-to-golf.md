@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/cursed-to-golf/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "24a3365749aee546"
+last_modified_at: "2026-08-20"
+content_hash: "07df545ea9e3fb16"
 ---
 
-Cursed to Golf is a golf-like adventure where every shot counts. Players are tasked with making it out of Golf Purgatory to become a Golfing Legend. With insane hazards, otherworldly power-ups and tons of replayability, will you make it back alive or will you forever be… Cursed to Golf!?
+A side-scrolling golf game built as a roguelike, set in Golf Purgatory, where you are trying to play your way back out. Every hole has a shot limit, so the run ends unless you find the idols and power-up cards that buy you more, and the courses are laid out as hazard-filled dungeons rather than fairways.

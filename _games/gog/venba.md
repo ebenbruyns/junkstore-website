@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/venba/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "94e997735d6f47e7"
+last_modified_at: "2026-08-20"
+content_hash: "74772c71c2325832"
 ---
 
-Venba is a narrative cooking game, where you play as an Indian mom, who immigrates to Canada with her family in the 1980s. Players will cook various dishes and restore lost recipes, hold branching conversations and explore in this story about family, love, loss and more.
+A short narrative cooking game about a South Indian mother who moves to Canada with her family in the 1980s. You cook real dishes from a damaged recipe book, filling in the missing steps yourself, and the conversations around the food carry the story of her and her son. It runs one to two hours.

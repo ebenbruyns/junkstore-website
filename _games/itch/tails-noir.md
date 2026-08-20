@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/tails-noir/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -124,7 +130,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "5f3451812a146da6"
+content_hash: "baae60c3acaa583e"
 ---
 
 A narrative detective adventure in a dystopian Vancouver populated by animals, played as Howard Lotor, a raccoon private investigator who is explicitly not a hero. The case he lands is the biggest of his career and the story it opens up turns out to be about him rather than the crime.

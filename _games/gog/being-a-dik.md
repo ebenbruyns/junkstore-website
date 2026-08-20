@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/being-a-dik/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "6f2309c348a0deb7"
+last_modified_at: "2026-08-20"
+content_hash: "1c7f3860a1fb6af3"
 ---
 
-Being a DIK is a choice driven adult Visual Novel focusing on the fun parts of college life. The game is packed with humor, sex, romance, drama and a rich story. Play as a young male attending college at B&R and guide him through the experience.
+An adult visual novel about a first-year student who leaves home for Burgmeister & Royce college and is talked into joining a fraternity. Choices shape both what kind of person he becomes and which of the women around him respond to him, with optional mini-games and free-roam sections between scenes. This is Season 1 of an ongoing series.

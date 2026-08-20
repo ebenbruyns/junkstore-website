@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/sir-questionnaire/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,12 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-03-01"
-content_hash: "fbb435f6caab3282"
+last_modified_at: "2026-08-20"
+content_hash: "0fa380cacd17fa2a"
 ---
 
-"Sir Questionnaire is a turn-based hack’n’slash game, where you enter a dungeon and each room gives you two options: leave the room, or interact with what ever is in the room. This can be monsters, but also debris, treasure chests, pools of water, or just another door!
-
-Take pictures of your various encounters and complete your codex with information on the various entities that roam the dungeon.
-
-Take on Quests as you enter every game, ranging from easy to hard, with each quest type giving you a reward for your next game. The harder the quest, the bigger the reward, so choose wisely!"
+A turn-based dungeon crawler stripped down to one decision per room: interact with whatever is in there, or walk out. It might be a monster, a chest, a pool of water or a pile of rubble, and the game is built entirely around taking or refusing those small gambles.

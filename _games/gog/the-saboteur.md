@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-saboteur/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "a7b44230183e05ad"
+last_modified_at: "2026-08-20"
+content_hash: "3884b011cf634a6f"
 ---
 
-Experience the ultimate open-world action/adventure as The Saboteur. Fight, climb, and race your way through a uniquely stylized version of Nazi-occupied France...
+An open-world action game set in Nazi-occupied Paris in the 1940s, played as Sean Devlin, an Irish racing mechanic working with the Resistance to get at the officer who killed his friend. Occupied districts are drained to black and white, and colour returns to each one as you break the German hold on it.

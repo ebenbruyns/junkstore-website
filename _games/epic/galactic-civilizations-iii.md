@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/galactic-civilizations-iii/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "8c4e1590014f7620"
+content_hash: "a12b58f5e4cdce25"
 ---
 
 A 4X strategy game played at unusual scale, on maps holding anywhere from 16 to 100 rival powers. You take humanity or one of the alien civilisations, each with its own technology tree and ship parts, and can win by military conquest, cultural domination, technological ascension or political alliance rather than one fixed goal. It bundles the Crusade and Retribution expansions, and ships are built in a custom designer instead of picked off a list.

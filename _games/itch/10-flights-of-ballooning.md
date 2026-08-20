@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/10-flights-of-ballooning/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "c1239ab843aba74f"
+last_modified_at: "2026-08-20"
+content_hash: "46e14c42c80e4453"
 ---
 
 Ten takes on the Balloon Trip mode from the NES game Balloon Fight, made for a graduate class built around Pippin Barr's talk on remaking the same game dozens of times. One is a faithful recreation and the rest add, remove or swap an ingredient, inverting the controls, draining your stamina as you flap, or turning the lights out.

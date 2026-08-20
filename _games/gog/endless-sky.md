@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/endless-sky/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-02-01"
-content_hash: "5f399b4ef7c2fc12"
+last_modified_at: "2026-08-20"
+content_hash: "0ac384f440e506f6"
 ---
 
-Endless Sky is an open source 2D space trading and combat game inspired by the classic Escape Velocity series. Work your way up from a relatively wimpy shuttle, cargo ship, or fighter, to a highly upgraded and customized flagship or to a massive fleet of warships or freighters.
+A free 2D space trading and combat game in the shape of the old Escape Velocity games. You start with a shuttle or a small fighter and work up by hauling cargo, taking missions and fighting, until you are running a customised flagship or a fleet of them across hundreds of systems.

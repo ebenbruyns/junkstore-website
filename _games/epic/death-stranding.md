@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/death-stranding/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "48e8e041db40a9bd"
+content_hash: "54c498249077d054"
 ---
 
 Hideo Kojima's delivery game, in which you play Sam Bridges hauling cargo on foot across a broken America to reconnect the settlements left on it. The terrain is the opposition as much as anything living, and the ladders, ropes and roads other players leave behind turn up in your world through the Social Strand System.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/hellblade-senuas-sacrifice/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-07-01"
-content_hash: "6fceba41968eff56"
+last_modified_at: "2026-08-20"
+content_hash: "b7d71377fcecc2a7"
 ---
 
-From the makers of Heavenly Sword, Enslaved: Odyssey to the West, and DmC: Devil May Cry, comes a warrior's brutal journey into myth and madness. Set in the Viking age, a broken Celtic warrior embarks on a haunting vision quest into Viking Hell to fight for the soul of her dead lover.
+A third-person action game following Senua, a Celtic warrior walking into a Norse underworld to bargain for the soul of the man she lost. Her psychosis is built into how the game is played and heard, with voices layered through the audio, and the 2021 update reworked the visuals and added new features.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/xiii/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "f5d7f24ea166a65d"
+last_modified_at: "2026-08-20"
+content_hash: "4ba515222f7a81c3"
 ---
 
-XIII is a cel-shaded first-person shooter based on the popular Belgian cult comic created by Jean Van Hamme and illustrated by William Vance.
+The 2020 remake of the 2003 cel-shaded shooter, adapted from the Belgian comic. You wake wounded on a beach with no memory, a number tattooed near your collarbone and a locker key, and find you were involved in the assassination of the American president. Comic panels, speech bubbles and sound effects are drawn into the action itself.

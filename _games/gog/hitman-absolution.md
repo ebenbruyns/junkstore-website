@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/hitman-absolution/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "8aca9f19aaf109a3"
+last_modified_at: "2026-08-20"
+content_hash: "4b57b5b482330d45"
 ---
 
-Hitman: Absolution follows the Original Assassin undertaking his most personal contract to date. Betrayed by the Agency and hunted by the police, Agent 47 finds himself pursuing redemption in a corrupt and twisted world.
-
-Showcasing Io-Interactive’s new proprietary Glacier 2 technology, the game has been built from the ground up, boasting a cinematic story, distinctive art direction and highly original game design, Hitman Absolution combines much loved classic gameplay with completely new gameplay features for the Hitman franchise.
+A stealth game following Agent 47 after the Agency turns on him, with the police hunting him as well. It is the most linear entry in the series, trading the open contract sandboxes for staged levels, though the disguises and quiet kills are still the intended route through them.

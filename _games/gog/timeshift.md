@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/timeshift/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "f390978c807378d9"
+last_modified_at: "2026-08-20"
+content_hash: "ddcc0dee8b5e1a8c"
 ---
 
 A first-person shooter built around a suit that slows, stops and reverses time. You fight through a rain-soaked alternate history left behind by a rogue scientist, using the suit as much for puzzles as for firefights.

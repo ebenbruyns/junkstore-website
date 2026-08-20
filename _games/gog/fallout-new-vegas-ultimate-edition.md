@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fallout-new-vegas-ultimate-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "acc62d4ce644ff30"
+last_modified_at: "2026-08-20"
+content_hash: "a5ab924014f62e7c"
 ---
 
 Obsidian's 2010 Fallout, set in a Mojave where rival factions are fighting over Hoover Dam and the Vegas strip. You open the game shot in the head and left in a shallow grave, then pick a side or crown yourself, with V.A.T.S. targeting, weapon modding and an optional hardcore mode. The Ultimate Edition collects all six add-ons, Dead Money and Old World Blues among them.

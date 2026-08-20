@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tchia/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: ""
@@ -131,8 +137,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "d47000f3420ae799"
+last_modified_at: "2026-08-20"
+content_hash: "6fecd1865214fc1e"
 ---
 
 An open-world adventure set in an archipelago modelled on New Caledonia, where a girl can throw her soul into any animal or object she finds. You sail, climb and glide between islands, and play a ukulele that works as a real instrument.

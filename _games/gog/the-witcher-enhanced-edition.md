@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-witcher-enhanced-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,12 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "ae6ad1e06b6b93af"
+last_modified_at: "2026-08-20"
+content_hash: "9941a2703359d481"
 ---
 
-Based on the novels by a popular Polish writer Andrzej Sapkowski, The Witcher is an action-oriented, epic fantasy RPG that takes players on a journey through a world which in many ways mirrors our own. Take on the role of Geralt of Rivia, a professional monster hunter, as he embarks on a quest of self-discovery and revenge. 
- 
-The game's time-delayed decision-consequence system ensures that the consequences of your choices will become apparent only in the following chapters of Geralt's story, discouraging returns to a previous save point. 
- 
-The Enhanced Edition includes technical and gameplay improvements that bring shorter loading times, more natural animations, and improved inventory, among others. Two new adventures titled The Price of Neutrality and Side Effects will extend players' enjoyment of the game. Finally, the "D'jinni Adventure Editor" enables players to create their adventures and shared them with others.
+The first Witcher game, from 2007, picking up after Andrzej Sapkowski's novels rather than adapting them. You play Geralt of Rivia, a monster hunter who has lost his memory, working through choices that have no clean answers and whose consequences arrive chapters later. This Enhanced Edition adds a rewritten translation, more voice work and shorter loading.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/fallout-new-vegas/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -133,7 +139,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "d0a8833b0990eb5d"
+content_hash: "b25a79c81cd1cc35"
 ---
 
 Obsidian's 2010 Fallout, set in a Mojave where rival factions are fighting over Hoover Dam and the Vegas strip. You open the game shot in the head and left in a shallow grave, then pick a side or crown yourself, with V.A.T.S. targeting, weapon modding and an optional hardcore mode.

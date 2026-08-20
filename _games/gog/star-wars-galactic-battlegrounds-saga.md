@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/star-wars-galactic-battlegrounds-saga/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-02-01"
-content_hash: "a4d147e14e1bb962"
+last_modified_at: "2026-08-20"
+content_hash: "50e071fcac55a439"
 ---
 
-Lead the great armies of the Star Wars Episode II: Attack of the Clones saga in intense real-time strategy clashes. Enter the fray as the Galactic Empire, Rebel Alliance, Wookies, Trade Federation, Gungans or Royal Naboo to determine the course of the Galactic Civil War.
-
-Expand the battlefield with the Clone Campaigns addon. Choose to play as the breakaway Confederacy of Independent Systems or the Galactic Republic in 14 missions based on characters, vehicles and locations from Star Wars Episode II: Attack of the Clones.
+A real-time strategy game built on the Age of Empires II engine and dressed in Star Wars, where you gather resources and raise armies as the Empire, the Rebel Alliance, the Wookiees, the Trade Federation, the Gungans or Royal Naboo. The Saga release includes the Clone Campaigns expansion.

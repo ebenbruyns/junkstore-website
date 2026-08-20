@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/terraforming-mars/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: ""
 standalone_rating: "green"
@@ -124,7 +130,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "0cb0144e65a3e718"
+content_hash: "90cb49fef0999bd0"
 ---
 
 The digital version of the board game, in which rival corporations compete to make Mars liveable. You spend resources on projects that raise the temperature, thicken the atmosphere and fill oceans, and every step you fund also pulls more people off Earth to settle there.

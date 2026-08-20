@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/alt-frequencies/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "yellow"
@@ -124,7 +130,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "f61e0af7aa2dbd2f"
+content_hash: "31174430541becb1"
 ---
 
 An audio mystery played entirely through a radio dial, inside a three-minute time loop nobody else knows they are in. You record fragments of one broadcast and rebroadcast them on another, and what you choose to move changes the next loop for the hosts, conspiracists, politicians, activists and one dog on the other end.

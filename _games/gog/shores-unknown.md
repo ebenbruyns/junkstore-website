@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/shores-unknown/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "9b9a167fbaf9ab21"
+last_modified_at: "2026-08-20"
+content_hash: "01e7e8845ad19bec"
 ---
 
-A turn-based tactical RPG rendered in a rich, low-poly aesthetic. Build your own team of mercenaries, forge alliances, wage battles, and journey beyond the seething wall of fog known only as the Murk in this decision-influenced, narrative-driven adventure. What dangers await you on Shores Unknown?
+A tactical role-playing game where combat is fought without a grid: you give orders in a planning phase, then watch them play out. You lead a mercenary company on the wrong side of the ruling Crown, pushed north into the Murk, a wall of fog no ship has come back from.

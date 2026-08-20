@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/tomb-raider-the-last-revelation/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "41775b5ad44521f7"
+last_modified_at: "2026-08-20"
+content_hash: "f6990852e52cced1"
 ---
 
 The fourth Tomb Raider, set almost entirely in Egypt, where Lara Croft lifts the Amulet of Horus from a sarcophagus and lets the god Set loose. After a short Cambodian prologue played as her teenage self, you work through one continuous run of tombs and temples, with the puzzles and traps pitched harder than in the earlier games.

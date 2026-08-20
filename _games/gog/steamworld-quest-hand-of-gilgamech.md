@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/steamworld-quest-hand-of-gilgamech/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-01-01"
-content_hash: "0bf5bca459103a77"
+last_modified_at: "2026-08-20"
+content_hash: "700300d0918a13dc"
 ---
 
-SteamWorld Quest is the roleplaying card game you’ve been waiting for! Lead a party of aspiring heroes through a hand-drawn world and build, craft and upgrade your party’s decks in order to stop an ancient menace…
+A hand-drawn role-playing game where every fight is played from a deck. You build one out of more than 100 cards for a party of would-be heroes, in a fantasy setting populated by the steam-driven robots the SteamWorld games are built around.

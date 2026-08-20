@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/sunrider-mask-of-arcadius/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "940d2ee4bad66a74"
+last_modified_at: "2026-08-20"
+content_hash: "37201c51fbb01562"
 ---
 
-As Captain Kayto Shields, embark on a galactic voyage of heroism and survival. With his home world destroyed and his nation conquered, the inexperienced Captain Shields, and his newly minted vessel, the Sunrider, are left as the only hope against a galactic evil intent on subjugating all sentient life.
+A visual novel with turn-based space battles between its chapters. You are Kayto Shields, an untested captain whose home world has been destroyed and nation conquered, left with one new ship and a crew assembled along the way against an empire set on taking everything else.

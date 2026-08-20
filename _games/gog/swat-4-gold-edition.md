@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/swat-4-gold-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "9855e26bab4d5228"
+last_modified_at: "2026-08-20"
+content_hash: "54d284ecd59b04ec"
 ---
 
-SWAT 4 Gold Edition includes the critically acclaimed SWAT 4 and its exciting new expansion pack, SWAT 4: The Stetchkov Syndicate.
+A deliberate, slow tactical shooter about leading a five-person police team through a building without shooting the wrong person. You issue orders room by room, and the game scores you on restraint: arrests over kills, warnings given, civilians unharmed. The Gold Edition includes the Stetchkov Syndicate expansion.

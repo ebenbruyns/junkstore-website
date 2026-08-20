@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/otxo/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "64f2f8613283eeaa"
+last_modified_at: "2026-08-20"
+content_hash: "1f31942dbd8e6549"
 ---
 
 A violent top-down shooter with roguelite runs, set in a mansion you cannot leave until you find the woman you came for. You kick down doors and clear rooms in bursts of slow motion, picking from more than 100 abilities and a wide spread of guns across eight randomly arranged areas.

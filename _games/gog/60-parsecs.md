@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/60-parsecs/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: ""
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "fa22a4e2819f1540"
+last_modified_at: "2026-08-20"
+content_hash: "3a0a5ec4894512cd"
 ---
 
-60 Parsecs! is an Atomic Space Age adventure of scavenge and survival. Keep your crew alive and ready for action. Make difficult choices, face soup shortages and other horrors of outer space. And maybe reach your destination. Or not.
+A survival game that starts with a countdown: your space station is about to go, and you have sixty seconds to grab whatever supplies and crew you can carry before the escape shuttle leaves. What you managed to take decides everything after, as you ration soup and make grim decisions in deep space.

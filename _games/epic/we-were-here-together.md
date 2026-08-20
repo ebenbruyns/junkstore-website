@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/we-were-here-together/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "45ea400f0048563f"
+last_modified_at: "2026-08-20"
+content_hash: "de8d76bebb5dda06"
 ---
 
 A two-player co-operative puzzle game that begins at an Antarctic base camp and separates you and a partner inside the medieval castle you set out to reach, leaving radio as your only contact. Neither of you can see the other’s room, so every puzzle is solved by describing what is in front of you.

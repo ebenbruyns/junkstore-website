@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/kings-bounty-the-legend/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "d1d3d8282fd1dc5c"
+last_modified_at: "2026-08-20"
+content_hash: "43de2d7241c958cc"
 ---
 
-King's Bounty: The Legend is a Real-time / Turn-based Strategy with RPG elements. In a fairy tale fantasy world of fearless knights, evil mages, wise kings and beautiful princesses the player controls a hero. Leading their character through the game world, exploring it, commanding armies in battle and accomplishing various quests can mean great reward or huge defeats.
+A fantasy adventure with turn-based tactical battles, played as a royal treasure hunter sent across Endoria for gold and old secrets. You roam the map in real time and drop into turn-based fights when you meet something, commanding hired troops rather than levelling one hero.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/lego-star-wars-the-skywalker-saga/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "9a272ba206bc7306"
+content_hash: "7586b5bfc94b847e"
 ---
 
 All nine Skywalker films retold in LEGO, with each one playable from either end of the saga rather than in a fixed order. There are more than 300 characters, over 100 vehicles and 23 planets to fly between, and this release throws in the classic Obi-Wan Kenobi character.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/transistor/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "15f31a8b70e71da7"
+last_modified_at: "2026-08-20"
+content_hash: "e0bb01b4d38ddfa8"
 ---
 
 An isometric action role-playing game from the makers of Bastion, set in a city being erased around you. You carry a talking sword and build your own attacks by slotting functions together, freezing time to plan each exchange before it plays out.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/stray-gods-the-roleplaying-musical/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "3e002c3e446aeefa"
+last_modified_at: "2026-08-20"
+content_hash: "9b4649516fa7a5d8"
 ---
 
 A narrative role-playing game where conversations turn into musical numbers, set among Greek gods living in the present day. Having inherited a dead Muse's powers, you choose how each song is sung, and those choices decide who trusts you and how the murder resolves.

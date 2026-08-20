@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/bus-simulator-21-next-stop/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "7e28bf4478273998"
+last_modified_at: "2026-08-20"
+content_hash: "af6d10d065e6b8b1"
 ---
 
 A bus driving simulation covering both the route and the company behind it, across two fictional cities. You keep to a timetable and watch passenger comfort, then buy vehicles and hire drivers to expand the network.

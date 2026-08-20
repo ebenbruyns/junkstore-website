@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/max-the-curse-of-brotherhood/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -124,7 +130,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "e3aa9b9fdaf069cc"
+content_hash: "dc6e696d4e3a2a9f"
 ---
 
 A cinematic puzzle platformer in which Max goes after his younger brother Felix, taken from him into a hostile world. His only tool is a magic marker, used to draw new pieces of the landscape into a scene so that each obstacle turns into something he can climb, swing from or wash away.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/overcooked/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -131,8 +137,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-05-01"
-content_hash: "883283f68c07180e"
+last_modified_at: "2026-08-20"
+content_hash: "386fd9994a9ab954"
 ---
 
-Overcooked! is a co-op cooking game for 1-4 players. Working as a team, you and your fellow chefs must prepare, cook and serve up a variety of tasty orders before the baying customers storm out. Take part in an epic journey across the Onion Kingdom and tackle an increasingly challenging and bizarre gauntlet of kitchens which will push your skills of co-operation and co-ordination to the very limits.
+A cooking game for one to four players in which a kitchen brigade races to fill orders while the kitchen itself works against them. This is the first game, so it is couch co-op only: everyone has to be on the same machine, with no online play at all.

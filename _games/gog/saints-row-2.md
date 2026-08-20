@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/saints-row-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "3c9f8b16eeb35310"
+last_modified_at: "2026-08-20"
+content_hash: "692cb6dab4a5d8af"
 ---
 
-After the events of the first game, the protagonist awakens from a coma to find that the Third Street Saints have all but disappeared. Much like Saints Row, you are charged with retaking the city from three rival gangs, only this time as the leader of the saints. While fighting the Sons of Samedi, The Brotherhood, and The Ronin, the Saints also antagonize the Ultor Corporation, which seeks to eradicate gang violence in Stilwater once and for all.
+An open-world crime game set years after the first, with your character waking from a coma into a Stilwater that has moved on without the Saints. You rebuild the gang street by street, and almost everything about who you play, down to gender and voice, is yours to set.

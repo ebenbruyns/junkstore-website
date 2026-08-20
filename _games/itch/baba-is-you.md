@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/baba-is-you/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "943c23aa32c10844"
+last_modified_at: "2026-08-20"
+content_hash: "a7b93895c9e6177e"
 ---
 
 A puzzle game where the rules of each level sit on the board as blocks you can push. Rearrange them to turn yourself into a rock, make grass deadly or swap the goal for something else entirely, across more than 200 levels.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/simcity-4-deluxe-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "c27b99d427876973"
+last_modified_at: "2026-08-20"
+content_hash: "b009f92f3f6e11da"
 ---
 
-SimCity 4 Deluxe Edition includes the bestselling SimCity 4 and the all-new SimCity 4 Rush Hour Expansion Pack. Create the most massive region of cities ever, with a farming town, bedroom community, high-tech commercial center, and industrial backbone.
+The 2003 city builder, where cities sit in a shared region and compete for the same resources rather than standing alone. You zone, run the services and shape the terrain itself, and the Deluxe Edition adds the Rush Hour expansion, which hands over the transport network and lets you drive individual vehicles on missions.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/obduction/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "3342458645abda3d"
+last_modified_at: "2026-08-20"
+content_hash: "050e5d0c8497ead2"
 ---
 
-A sci-fi adventure from Cyan, the creators of Myst. Abducted far across the universe, you find yourself on a broken alien landscape with odd pieces of Earth. Explore, uncover, solve, and find a way to make it home.
+A first-person puzzle adventure from Cyan, who made Myst, and built on the same idea: no combat, no inventory pressure, just a strange place to work out. You are pulled across the universe onto a broken alien landscape with pieces of Earth stuck into it, and have to understand the machinery well enough to get home.

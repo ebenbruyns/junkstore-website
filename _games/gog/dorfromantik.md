@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dorfromantik/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: ""
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "9af69cf5013a408e"
+last_modified_at: "2026-08-20"
+content_hash: "768e21936cec8f38"
 ---
 
 A quiet tile-laying puzzle game about growing a landscape outward from a single hex. You draw tiles one at a time and rotate them to match forests, rivers and villages, scoring on how neatly the edges line up and how long you can keep the stack going.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/bio-menace/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "1452f496d2c31c4c"
+last_modified_at: "2026-08-20"
+content_hash: "44488d89e4e1075b"
 ---
 
 A 1993 Apogee side-scrolling shooter starring CIA agent Snake Logan, stranded in a Metro City overrun by mutants. You fight through three episodes of streets and laboratories with a growing arsenal, working toward Dr. Mangle's fortress.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dino-crisis-bundle/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "f1e0bb51ca496bca"
+last_modified_at: "2026-08-20"
+content_hash: "4bf942ffd02215f3"
 ---
 
 Two Capcom games that share their dinosaurs and little else. Dino Crisis is survival horror, with fixed cameras, scarce ammunition and locked doors in an island research facility, played as agent Regina. Dino Crisis 2 drops most of that for arcade-style action, splitting the campaign between Regina and a second lead, Dylan Morton.

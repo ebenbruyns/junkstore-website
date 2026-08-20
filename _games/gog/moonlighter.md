@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/moonlighter/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "3a445c62f0b89741"
+last_modified_at: "2026-08-20"
+content_hash: "bf2e85a869bc1062"
 ---
 
 An action role-playing game split between two jobs: raiding procedurally generated dungeons at night, and selling what you find in your shop by day. You set your own prices and read customer reactions to work out what the town will actually pay.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dishonored/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "7f9d45348947e0fa"
+content_hash: "dc0cce4b355c2c1e"
 ---
 
 A first-person stealth game in which you play Corvo Attano, bodyguard to an empress you are framed for murdering. You move through the plague-ridden city of Dunwall with blink teleportation, possession and a folding blade, and each mission can be finished without killing anyone at all, which changes how the city ends up.

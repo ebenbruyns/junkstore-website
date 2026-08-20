@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/baldurs-gate-enhanced-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "d4570a2227c05cf0"
+last_modified_at: "2026-08-20"
+content_hash: "9b5f94c6ed2da641"
 ---
 
 The 1998 Dungeons & Dragons role-playing classic, updated with a modern interface, new companions and an arena mode. You play an orphan of Candlekeep pulled into a plot over the Sword Coast's iron supply, across the original campaign and the Tales of the Sword Coast expansion.

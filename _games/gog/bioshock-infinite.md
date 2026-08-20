@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/bioshock-infinite/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "ec17df34cf018e28"
+content_hash: "25e03ffe0cffa57b"
 ---
 
 A first-person shooter set in Columbia, a city held in the sky by a mix of engineering and faith. You play Booker DeWitt, a private investigator deep in debt to the wrong people, sent to bring back Elizabeth, a woman shut away there since childhood who can tear openings into other worlds. This edition takes in Burial at Sea and Clash in the Clouds.

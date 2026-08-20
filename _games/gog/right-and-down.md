@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/right-and-down/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: ""
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "01ffc390b71f9f78"
+last_modified_at: "2026-08-20"
+content_hash: "21d4d5e0c9cc711d"
 ---
 
 A card-based dungeon crawler played with two inputs only: move right, or move down. You pick a hero and work across a grid of face-down cards, weighing each step for loot, damage or a fight, aiming to reach level 50.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/bioshock-2-remastered/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -133,7 +139,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "227345825f34b995"
+content_hash: "3e494262581c0ec6"
 ---
 
 The remaster of BioShock 2, in which you play Subject Delta, an early Big Daddy prototype searching Rapture for the Little Sister bonded to him. It runs at higher resolution than the 2010 release and takes in both add-ons, Minerva's Den and the Protector Trials.

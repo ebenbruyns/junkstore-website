@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/metro-last-light-redux/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "a41a1ce2f28581ea"
+last_modified_at: "2026-08-20"
+content_hash: "68feb90428235bd6"
 ---
 
-It is the year 2034. Beneath the ruins of post-apocalyptic Moscow, in the tunnels of the Metro, the remnants of mankind are besieged by deadly threats from outside – and within. Mutants stalk the catacombs beneath the desolate surface, and hunt amidst the poisoned skies above.
+The remastered version of the 2013 shooter, set in 2034 in the tunnels under a ruined Moscow. Mutants hold the surface and the poisoned sky above it, while the station-cities below fight each other over a doomsday weapon rather than uniting. Redux rebuilds it on the later engine and adds the harder Ranger modes.

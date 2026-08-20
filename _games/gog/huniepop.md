@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/huniepop/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "99c0c6664d7d2997"
+last_modified_at: "2026-08-20"
+content_hash: "0182f1aa6a073f46"
 ---
 
 A dating sim wrapped around a match-three puzzle game, with a fairy mentor coaching you between encounters. You build rapport in conversation, then play tile-matching rounds where the board stands in for how the date is actually going.

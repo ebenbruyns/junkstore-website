@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/jotun-valhalla-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "da36187de962bb41"
+content_hash: "ccb4ed5e321b7e39"
 ---
 
 A hand-drawn action game drawn from Norse myth, played as Thora, a Viking who died badly and has to earn her way into Valhalla. You explore Norse purgatory for runes and then fight the jotun, giant elementals, with a two-handed axe and whatever the gods have granted you. The Valhalla Edition adds a harder mode against all of them again.

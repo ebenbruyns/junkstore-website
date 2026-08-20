@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/summers-gone-season-1/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "530aee441d388527"
+last_modified_at: "2026-08-20"
+content_hash: "a41d70fe8d75b1c7"
 ---
 
-Summer's Gone is a high-quality, Interactive Visual Novel. This game is about healing, hope, and love. Overcome obstacles together, face demons of the past, and eventually... be happy.
+An adult interactive visual novel about a young man who has kept himself shut away for a long time, pushed out of it by starting at ZPR college. He was the star of his high school basketball team once, and the college tryouts are a few weeks off. It deals directly with depression, shame and loneliness rather than using them as backdrop. This is Season 1 of an episodic series, so it stops rather than ends.

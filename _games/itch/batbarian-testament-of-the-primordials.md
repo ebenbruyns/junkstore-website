@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/batbarian-testament-of-the-primordials/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -124,7 +130,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "2b43f05067deb17c"
+content_hash: "72bf28b9bfb377e9"
 ---
 
 An action adventure puzzle game about a barbarian who has fallen into an abyss with only a glowing bat named Pip for company. Pip is the puzzle mechanic as much as the sidekick, and you throw fruit to steer him around hundreds of rooms full of traps, bosses and eldritch business.

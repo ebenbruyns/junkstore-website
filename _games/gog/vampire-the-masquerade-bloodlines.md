@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/vampire-the-masquerade-bloodlines/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-07-01"
-content_hash: "254d9186ff32190b"
+last_modified_at: "2026-08-20"
+content_hash: "73ae62f04075b8d6"
 ---
 
-A first- and third-person Western RPG based on the Vampire: The Masquerade tabletop RPG with a heavy emphasis on character building and role-playing
+Troika's 2004 role-playing game, built on Valve's Source engine and set in the vampire underworld of modern Los Angeles. You pick a clan from the tabletop game it adapts, and that choice changes the powers you get and how people react to you, across quests you can talk, sneak or fight your way through.

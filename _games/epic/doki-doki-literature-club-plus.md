@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/doki-doki-literature-club-plus/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "6c4a0468c80a4745"
+last_modified_at: "2026-08-20"
+content_hash: "e0159e40550ece6b"
 ---
 
 A visual novel that presents itself as a school dating story about joining a literature club and writing poems for the girl you like. It is filed under psychological horror for reasons the opening hours deliberately do not admit to, and it is best played knowing as little else as possible. This is the Plus release, which adds six side stories, unlockable art and a larger soundtrack to the original.

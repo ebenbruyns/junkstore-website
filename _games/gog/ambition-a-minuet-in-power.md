@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ambition-a-minuet-in-power/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-02-01"
-content_hash: "d2544285cf1e742b"
+last_modified_at: "2026-08-20"
+content_hash: "75e3ed77994b1b25"
 ---
 
-A young woman finds herself alone in the streets of Paris, far from home and abandoned by the love of her life. In that moment, she decides to live for herself and seek her own passions, as France marches towards a violent uprising that will change history forever. Navigate the twisting social politics of pre-revolutionary Paris in a game world that’s different every time you play. Court, snub and seduce your way to the top of society. Extend your influence, uncover the intrigue of the coming revolution, and ensure that you end up on the winning side of history.
+A visual novel set in Paris from March 1789, playing a woman with no money and no protection in the months before the revolution. You dress for the room you are entering, trade gossip at salons and pick who to court, and the information you pass on shifts events, or gets you killed by them.

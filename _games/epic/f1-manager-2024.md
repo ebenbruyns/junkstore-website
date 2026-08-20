@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/f1-manager-2024/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "551729e586f3e0dc"
+last_modified_at: "2026-08-20"
+content_hash: "690185f23ff1c032"
 ---
 
 An officially licensed Formula 1 management game covering the 2024 season. You handle car development, strategy and staff for one of the ten constructors or a team of your own, calling pit stops and tyre changes live during each race.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/sol-cesto/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "47575aed6550cbac"
+last_modified_at: "2026-08-20"
+content_hash: "16d193b49ca1d71c"
 ---
 
 A roguelite about pushing your luck, played on a grid where you choose a row and then land at random on one of its four tiles. That tile might be a monster, a chest or a poison trap, so every step is a weighed gamble, and cursed teeth and magical items bend the odds as you descend in search of a long-lost sun.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/monument-valley/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "15b05379cd5c882f"
+content_hash: "e5df43d692a8498b"
 ---
 
 A quiet puzzle game about walking Ida, a silent princess, through buildings that could not exist. You rotate and slide the architecture until an impossible staircase lines up into a path, and this expanded release carries more of them than the original.

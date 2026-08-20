@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/alan-wake/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "a2db902dbe69564e"
+content_hash: "49b421511bba63d3"
 ---
 
 A third-person thriller in which a novelist hunting for his missing wife around the town of Bright Falls starts turning up pages of a horror story he cannot remember writing, and which keeps coming true ahead of him. It is built like a television series, and its fights turn on burning the dark off an enemy with a torch before a bullet will touch them.

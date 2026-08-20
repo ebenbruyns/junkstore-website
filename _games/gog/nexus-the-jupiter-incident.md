@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/nexus-the-jupiter-incident/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "b8e412ae63a8f6e1"
+content_hash: "03909665e61d78d5"
 ---
 
 A tactical space combat game set at the start of the 22nd century, with the solar system carved up between mega-corporations until a discovery at its edge upsets the balance between them. You command ships rather than pilot them, assigning power and targets from a distance across a mission-based campaign.

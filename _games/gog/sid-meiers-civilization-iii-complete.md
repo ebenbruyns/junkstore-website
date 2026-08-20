@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/sid-meiers-civilization-iii-complete/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "4d8e36b34897dcec"
+last_modified_at: "2026-08-20"
+content_hash: "1477d4f8ac6f63fd"
 ---
 
-Sid Meier's Civilization III: Complete, the latest offering in the Sid Meier's Civilization III franchise, provides gaming fans with Sid Meier's Civilization III, the highly-addictive journey of discovery, combined with the updated and enhanced multiplayer expansion pack Sid Meier's Civilization III: Play the World*, as well as all of the great new civilizations, scenarios, and features from Sid Meier's Civilization III: Conquests! Sid Meier's Civilization III: Complete provides more ways to explore, more strategies to employ, more modes of play, and more ways to win, all in one box!
+The third Civilization, a turn-based strategy game about taking one nation from a single settler through the whole of recorded history. This Complete release bundles the base game with both expansions, Play the World and Conquests.

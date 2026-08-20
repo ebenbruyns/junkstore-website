@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-coma-recut/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "aadb6a73893d1efd"
+last_modified_at: "2026-08-20"
+content_hash: "f1e8b3c3da60849e"
 ---
 
-"In this creepy Korean survival-horror you take the role of Youngho, a hapless student who finds himself trapped in the nightmarish halls of his high school. After drifting asleep during his final exam, he awakes in the school at night. The only problem is...he’s not alone. Relentlessly pursued by a psychotic killer, he must now muster the courage to solve the mystery of why he is here and how to escape."
+A hand-drawn Korean horror game about Youngho, a high school student locked inside Sehwa High overnight with something hunting him through it. You run, hide and search the building for what you need, and this Recut version is the remastered release with reworked mechanics.

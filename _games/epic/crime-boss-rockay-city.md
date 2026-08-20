@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/crime-boss-rockay-city/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "0cd8acb41a9ce8a8"
+last_modified_at: "2026-08-20"
+content_hash: "3828e7610346a262"
 ---
 
 A first-person heist game with a roguelike campaign layer, set in a neon-lit 90s Florida city. You run jobs alone or with three others, and crew members lost during a campaign run stay lost as you fight for territory.

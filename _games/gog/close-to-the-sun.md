@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/close-to-the-sun/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "4431b843ba34e62a"
+last_modified_at: "2026-08-20"
+content_hash: "4fa1f8343c7b1c4e"
 ---
 
 A first-person horror game set in 1897 aboard the Helios, an enormous research vessel built by Nikola Tesla and now gone quiet. Playing a journalist searching for her sister, you make your way through its art deco decks, avoiding whatever the experiments left behind.

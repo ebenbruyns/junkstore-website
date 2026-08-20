@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/grim-dawn-definitive-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "1e212eb743bb76a0"
+last_modified_at: "2026-08-20"
+content_hash: "7f99ee29beb9443f"
 ---
 
-Enter an apocalyptic fantasy world where humanity is on the brink of extinction, iron is valued above gold and trust is hard earned. This ARPG features complex character development, hundreds of unique items, crafting and quests with choice & consequence.
+An action role-playing game set after an apocalypse, where you combine two class skill trees into a single character. The Definitive Edition collects the base game with the Ashes of Malmouth and Forgotten Gods expansions and the rest of the add-ons, which takes the choice from the base game's six classes up to nine. Quests carry real consequences, and whole villages can survive or not depending on what you do.

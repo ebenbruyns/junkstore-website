@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/silent-hill-4-the-room/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "db8df2ab7494b990"
+last_modified_at: "2026-08-20"
+content_hash: "702923d009940dba"
 ---
 
-Silent Hill 4: The Room is the fourth installment in the Silent Hill survival horror series. The game is similar to the past entries in terms of atmosphere, never letting the player know what's behind the next corner or down the street.
+The fourth Silent Hill, in which Henry Townshend is locked inside his own apartment and can only leave through a hole that opens in the bathroom wall. The flat is the hub you keep returning to, viewed in first person, while everything on the other side is not.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/hidden-folks/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "a6766ec3033d85c8"
+content_hash: "c75abb6473d6f70d"
 ---
 
 A hand-drawn hidden-object game across 32 monochrome landscapes, where you pull back tent flaps, cut through bushes and slam doors to shake loose the people you are looking for. There are more than 300 targets in all, and every interaction is scored with sound effects made by mouth.

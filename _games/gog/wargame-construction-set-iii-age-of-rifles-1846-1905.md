@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/wargame-construction-set-iii-age-of-rifles-1846-1905/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "0fe47463e4c5cf35"
+last_modified_at: "2026-08-20"
+content_hash: "f668cdb129b55756"
 ---
 
 A turn-based wargame of the rifle era, covering the battles fought between 1846 and 1905 across Europe, Asia and South America rather than the American Civil War alone. It ships with the construction set of its title, so you can build your own scenarios on top of the ones included.

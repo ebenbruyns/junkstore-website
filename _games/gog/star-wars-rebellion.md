@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/star-wars-rebellion/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,12 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "6ba5d218a0698fa8"
+last_modified_at: "2026-08-20"
+content_hash: "7e2aea44cafcf549"
 ---
 
-Subvert the Empire. Crush the Alliance. Your Choice. Your Destiny.
-
-It is a time of great upheaval. The first Death Star has been destroyed, marking a major victory for the Rebellion. But the Empire remains strong. As commander, you must choose to take control of either the Rebel Alliance or the Galactic Empire. Your goal: complete domination of the galaxy.
-
-Take the galaxy by force. Take the galaxy through diplomacy. Take the galaxy via covert operations. Earn the loyalty (or resentment) of up to 200 worlds. Star Wars Rebellion gives you a myraid of means to implement strategy and tactics on a grand scale and in a real-time environment. With control of the entire Star Wars galaxy as the prize, will the Force be with you? Discover for yourself.
+A grand strategy game covering the whole galaxy after the first Death Star is destroyed. You take the Rebel Alliance or the Empire and go after the loyalty of up to 200 worlds by force, diplomacy or covert action, managing manufacturing and fleets, with fleet battles played out in their own 3D simulation.

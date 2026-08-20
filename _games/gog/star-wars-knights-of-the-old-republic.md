@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/star-wars-knights-of-the-old-republic/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "1e1f87f9db75117e"
+last_modified_at: "2026-08-20"
+content_hash: "9dbd651ba1ccbcd7"
 ---
 
-Choose Your Path! Set 4,000 years before the Galactic Empire, you are the last hope for the Jedi Order and the Republic...
+BioWare's role-playing game set four thousand years before the films, with the Jedi all but destroyed by the Sith. You build a party from nine possible companions, travel between eight worlds in your own ship the Ebon Hawk, learn over 40 Force powers and build a lightsaber, and the light or dark path is yours to pick.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/true-fear-forsaken-souls-part-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "38c2d89d5bb2ff21"
+last_modified_at: "2026-08-20"
+content_hash: "fc9b242546f09afc"
 ---
 
-True Fear: Forsaken Souls Part 2 is the sequel to one of the best rated horror escape games, acclaimed for its story and the atmosphere of horror mystery.
+The second part of a hidden-object horror series, continuing directly from the first rather than standing alone. You work through locked rooms and inventory puzzles while the story of what happened to the family keeps unfolding, so starting here means starting mid-sentence.

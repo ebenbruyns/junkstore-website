@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-darkest-tales-into-the-nightmare/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-04-01"
-content_hash: "86f9fd6b1eee0b96"
+last_modified_at: "2026-08-20"
+content_hash: "25801dbaa7f7119c"
 ---
 
-When a nightmare creeps into reality, the only ones that can help are those whose magical powers we’ve believed in since childhood. A brave teddy bear and his fairy sidekick head to the darker side of “happily ever after” to rescue his owner, Alicia.
+A dark platformer in which a discarded teddy bear goes after his owner, now grown up, through the wreckage of the fairy tales she once believed in. Teddy is the only one left who will fight for her, and the stories he crosses have curdled into something worse than they were.

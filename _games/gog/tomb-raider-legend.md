@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/tomb-raider-legend/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "c26361f3bea55d1e"
+last_modified_at: "2026-08-20"
+content_hash: "0be31c50a4ac8ae1"
 ---
 
-Tomb Raider: Legend is the seventh major game in the Tomb Raider series, now for the first time developed by Crystal Dynamics, along with the original character designer of the game's protagonist, Lara Croft. It serves as a reboot of the franchise, with a new incarnation of Lara Croft. The typical third-person action-adventure exploring is still present, and Lara can move more freely because specific jumps no longer limit her. As players travel through rough environments, they will need to run, dive, swim, climb on poles, ladders, and roofs, use zip lines, shimmy, and vault, with acrobatic actions such as somersaults and flips. Players need to cross difficult terrain, solve puzzles to advance or open up new areas, and engage in combat.
+The 2006 reboot that restarted the series after Angel of Darkness, and the first of the run that ends with Underworld. Lara chases an artefact across Bolivia, Japan, Africa and elsewhere, and the trail leads back to her mother's disappearance, which the series had left alone until then.

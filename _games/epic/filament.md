@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/filament/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "f7c8259fa5d0176e"
+content_hash: "28445c7906adf1b4"
 ---
 
 A puzzle game about dragging cables around obstacles to light every point in a room, set aboard the Alabaster, a ship whose crew has gone. Between puzzles you piece together what happened to them, and a hint system was added for the harder ones.

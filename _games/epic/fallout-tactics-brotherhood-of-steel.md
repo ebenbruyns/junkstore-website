@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/fallout-tactics-brotherhood-of-steel/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "e02bcb867b23eb61"
+last_modified_at: "2026-08-20"
+content_hash: "d4d6c750a8ed7788"
 ---
 
 A squad tactics spin-off from the Fallout series, following a Brotherhood of Steel detachment pushing east through the Midwest. You recruit and equip a party of six and fight through a mix of turn-based and real-time combat.

@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/figment/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -124,7 +130,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "76a33608a289c119"
+content_hash: "74fa85ac1d87211c"
 ---
 
 A musical action adventure set inside a single human mind, where new fears have taken shape as nightmares and started spreading. You play Dusty, the mind's retired courage, dragged out of retirement alongside his relentlessly cheerful friend Piper, and the bosses sing their own way through each fight.

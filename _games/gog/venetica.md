@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/venetica/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "ccbfc79ab4a711fd"
+last_modified_at: "2026-08-20"
+content_hash: "b960dd29895c41da"
 ---
 
-In a fantastical Venice, The Corpus are deceived by a cunning necromancer. Transformed into an undead fiend, the conniving imposter is hell-bent on destroying the reinstated Death and the council of Corpus. Only Scarlett, the daughter of Death, can stand in his way.
-Knowing nothing of her destiny at first, Scarlett has to learn about her special powers and become a mighty warrior, strong enough to defeat the greatest threat to the world of the living.
-She must master her incredible supernatural powers and capabilities, in order to save her father and curse the necromancer and his gruesome henchmen to the eternal hereafter.
+An action role-playing game set in a fantastical version of old Venice, played as Scarlett, the daughter of Death. A group of necromancers murders her companion and unseats Death himself, and she is the only one able to move between the living and the dead to put it right.

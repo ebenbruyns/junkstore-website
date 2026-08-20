@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/defenders-quest-valley-of-the-forgotten/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-04-01"
-content_hash: "011e9a37e68735c0"
+last_modified_at: "2026-08-20"
+content_hash: "d29a9fae7569e0a0"
 ---
 
-Defender's Quest is a tower defense and RPG hybrid that features classic tower defense gameplay intermingled with RPG mechanics.
+A tower defence game where the towers are characters who level up, learn skills and carry equipment, closer to a tactical role-playing game than to the usual thing. There are no random encounters and no padding, the battle speed is adjustable, and orders can be given with the game paused.

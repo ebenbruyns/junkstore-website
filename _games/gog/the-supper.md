@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-supper/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "3ab24d64be8cf66c"
+last_modified_at: "2026-08-20"
+content_hash: "043a8b0d02b90762"
 ---
 
-The Supper is a short adventure game about the darkest side of the human soul. Ms. Appleton was always a wellspring of kindness, until The Voice started talking to her.
+A free short point-and-click adventure about Ms Appleton, a tavern keeper taking orders from a voice in her head that will not stop. It tells her to cook a particular meal for some particular guests, and the game is the half hour it takes to do as she is told.

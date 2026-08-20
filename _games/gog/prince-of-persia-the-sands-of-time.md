@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/prince-of-persia-the-sands-of-time/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "54149ee9ffc24846"
+last_modified_at: "2026-08-20"
+content_hash: "60cbc95b16e78357"
 ---
 
 The 2003 platformer that rebuilt the series in 3D, set in a palace overrun after a magic dagger is unsealed. You chain wall-runs and vaults through collapsing architecture, rewinding time with the dagger whenever a jump goes wrong.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/higurashi-no-naku-koro-ni-chapter-1-onikakushi/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "0fb88788240e5d97"
+last_modified_at: "2026-08-20"
+content_hash: "b278248ae92ec537"
 ---
 
-Higurashi When They Cry is a sound novel. The music, backgrounds and characters work together to create a world that is the stage of a novel for the user to read. They laugh and cry and get angry. The user takes the point of view of the protagonist to experience the story.
+The first chapter of the sound novel that the Higurashi anime came from, free and with no choices to make: you read it. A boy has moved to a small village in the summer of 1983, and what starts as a friendly rural comedy turns as he learns what the village does once a year.

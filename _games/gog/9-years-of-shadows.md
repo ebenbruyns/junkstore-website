@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/9-years-of-shadows/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "14e40c5ef8f0dbfa"
+last_modified_at: "2026-08-20"
+content_hash: "07b9f0602805f45d"
 ---
 
-9 Years of Shadows is an emotionally-driven Metroidvania, enhanced by healing music that tells the story of Europa, a young woman of noble birth tasked with ending the curse that plagues her people and restoring color to all lands.
+A side-scrolling metroidvania about Europa, a warrior climbing into a mechanical giant called Talos to stop the corruption inside it before it takes the world. Colour has drained out of everything, and getting it back is both the story and the way the map opens up. She travels with a ghost, Apino.

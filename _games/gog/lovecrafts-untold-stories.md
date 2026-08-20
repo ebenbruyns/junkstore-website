@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/lovecrafts-untold-stories/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "ff2066c30b16e37e"
+content_hash: "e14bf222f5414af6"
 ---
 
 An action roguelite with role-playing elements, played through randomly generated levels built out of H.P. Lovecraft's stories. You pick one of five investigators, a private detective, a witch, a thief, a professor or a ghoul, each with its own weapons, storyline and levels, and fight cultists and Mythos creatures toward whatever will put down the Great Old Ones.

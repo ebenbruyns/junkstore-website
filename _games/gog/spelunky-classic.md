@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/spelunky-classic/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "152f7c37f88ad747"
+last_modified_at: "2026-08-20"
+content_hash: "4b0ed19d4113d364"
 ---
 
-Spelunky is a cave exploration / treasure-hunting game inspired by classic platform games and roguelikes, where the goal is to grab as much treasure from the cave as possible. Every time you play the cave's layout will be different. Use your wits, your reflexes, and the items available to you to survive and go ever deeper! Perhaps at the end you may find what you're looking for...
-
-Don't be afraid to die! But also don't be afraid to live! Happy Spelunky-ing!
+The original 2008 Spelunky: a platformer whose caves are generated fresh every run and where everything, including the ground itself, can be destroyed. You go down for treasure past monsters, traps and shopkeepers who remember being robbed, and death sends you back to the top.

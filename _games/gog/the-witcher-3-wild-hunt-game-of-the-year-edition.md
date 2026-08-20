@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-witcher-3-wild-hunt-game-of-the-year-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "0900e2d20992d532"
+content_hash: "99efd380b8e7a7ea"
 ---
 
 An open-world role-playing game in which Geralt of Rivia, a monster hunter for hire, takes a contract to find Ciri, a young woman being pursued across a continent already wrecked by war. The Game of the Year edition adds both expansions, Hearts of Stone and Blood and Wine, and every smaller add-on released for it.

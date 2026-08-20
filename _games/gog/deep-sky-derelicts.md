@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/deep-sky-derelicts/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-02-01"
-content_hash: "fc61824efa797b58"
+last_modified_at: "2026-08-20"
+content_hash: "184ed55c167df688"
 ---
 
-Deep Sky Derelicts will bring the players into the burdensome life of a society outcast, a scavenger trying to make a living, while aspiring for a better life of a full-fledged citizen. Players will be exploring derelict alien ships, fight, loot, hire mercenaries into their team, buy new weapons and upgrade their gear. The game’s retro-futuristic comic book aesthetic style creates a distinctive dark atmosphere of deep space, unknown locations and lost dystopian society. Rogue-like elements featuring such popular mechanics as procedurally-generated dungeons, turn-based combat with card-based actions and lethal threat lurking around every corner, are here to draw the players into an unforgiving, yet fascinating world with its own unique lore.
+A turn-based squad game with card-based combat, drawn in a retro-futuristic comic book style. You are a stateless scavenger in a future split cleanly into citizens and everyone else, picking over abandoned alien ships for salvage good enough to buy your way onto a planet's surface.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/train-sim-world-5/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "d5ef6857552b8036"
+last_modified_at: "2026-08-20"
+content_hash: "a63b800ac839b739"
 ---
 
 A train simulator that models real routes in detail, from cab controls to signalling and passenger timetables. This entry includes the London Underground's Bakerloo Line in full, alongside other licensed British, German and American routes.

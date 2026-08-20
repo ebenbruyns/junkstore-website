@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/styx-master-of-shadows/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "5f42e0b023d7d5d5"
+content_hash: "db237de8f2626f36"
 ---
 
 A stealth game with role-playing elements, played as Styx, a two-hundred-year-old goblin picking his way up the Tower of Akenash. Humans and elves guard the World-Tree at its centre and the amber it produces, and Styx is there for the amber and for what it might tell him about his own origins.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-falconeer/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-07-01"
-content_hash: "0f9582963d57721f"
+last_modified_at: "2026-08-20"
+content_hash: "407215128b28c3c2"
 ---
 
-Take to the skies aboard a feathered serpent and unleash fiery vengeance from above with The Hunter content pack. Includes a new ‘Mongres Hunter’ player Class.
+An aerial combat role-playing game flown on the back of a giant armoured warbird, over an ocean world of scattered island states. You take contracts for the factions fighting over it, and the dogfighting uses old-fashioned stick-and-throttle handling rather than modern lock-on.

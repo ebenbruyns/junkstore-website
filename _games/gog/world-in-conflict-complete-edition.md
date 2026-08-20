@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/world-in-conflict-complete-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-05-01"
-content_hash: "04f353db14ddd8b3"
+last_modified_at: "2026-08-20"
+content_hash: "3f55b2cfbe7c1c50"
 ---
 
-World in Conflict focuses on real-time tactics (RTT) gameplay, in a similar manner to Ground Control, a game developed by Massive Entertainment...
+A real-time strategy game of a Third World War that never happened, opening with a Soviet landing on the American west coast. There is no base building: you call in units by air and fight over ground that is destroyed permanently as you go. The Complete Edition adds the Soviet Assault campaign, played from the other side.

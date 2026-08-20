@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/horizon-zero-dawn/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: ""
@@ -131,8 +137,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "e590b99d3e55fcd4"
+last_modified_at: "2026-08-20"
+content_hash: "f93ac06485eb8abb"
 ---
 
 An open-world action game set a thousand years after the collapse of civilisation, on an Earth where machines have taken the place of animals. Playing an outcast hunter named Aloy, you bring them down with a bow and traps while uncovering what ended the old world.

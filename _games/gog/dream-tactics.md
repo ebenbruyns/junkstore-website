@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dream-tactics/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-11-01"
-content_hash: "fa72f46910e33139"
+last_modified_at: "2026-08-20"
+content_hash: "07d37c0e09d34a1f"
 ---
 
-Dream Tactics is a GBA-styled strategy RPG with cunning card combos and deep character customization. Pick your party, manage cards to create unique playstyles, and outsmart hordes of pillows in turn-based combat to save the Dream World from its inevitable collapse.
+A turn-based tactics game drawn in the style of a Game Boy Advance title, where each unit fights from a deck of cards rather than a fixed move list. You pick a party, build their decks around combos, and defend a collapsing Dream World from an army of pillows.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/darkest-dungeon-ii/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -132,7 +138,7 @@ owned: false
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "3644f06064606127"
+content_hash: "6e10f9cc393ac089"
 ---
 
 The follow-up to Red Hook's gothic horror role-playing game, rebuilt around runs rather than a standing roster. You load four heroes into a stagecoach and drive toward a distant mountain, and the resentments that build between them on the road cost you as much as the wounds do.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/super-meat-boy/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "065e65ec3c45d102"
+last_modified_at: "2026-08-20"
+content_hash: "8437ddee887c8874"
 ---
 
 A precision platformer about a skinless boy crossing saw blades and salt to reach his bandage girlfriend. Levels last seconds, death is constant and instant, and every failed attempt replays alongside you once you finally clear one.

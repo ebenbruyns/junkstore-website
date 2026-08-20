@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/bioshock-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "97a0304abc19ede3"
+content_hash: "3b0f00c1ec077595"
 ---
 
 Set about ten years after the first game, with Rapture still standing and girls going missing from the coast above it. This time you play a Big Daddy, one of the armoured divers from the original, walking the flooded city after an enemy you cannot see. This is the original 2010 release rather than the remaster.

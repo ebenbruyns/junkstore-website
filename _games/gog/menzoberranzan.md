@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/menzoberranzan/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "31fb9d91b520c5b2"
+last_modified_at: "2026-08-20"
+content_hash: "73f17ab80e380cc9"
 ---
 
 A first-person Forgotten Realms role-playing game that takes your party from Icewind Dale down into the Underdark to free companions carried off by the drow. Drizzt Do'Urden's own story tangles with the rescue, and levitation and flight change how the fights work underground.

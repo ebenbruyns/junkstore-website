@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/alone-in-the-dark-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "1b758624a7bd2e14"
+last_modified_at: "2026-08-20"
+content_hash: "3450b75f3c33b9ca"
 ---
 
 The second Alone in the Dark, in which Edward Carnby breaks into a mansion called Hell's Kitchen to get a kidnapped girl back from a gang of bootleggers who turn out to be long-dead pirates. It trades much of the first game's slow exploration for gunfights and set pieces, and hands you the girl herself to play for part of it.

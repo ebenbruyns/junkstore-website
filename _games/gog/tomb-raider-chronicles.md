@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/tomb-raider-chronicles/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-08-01"
-content_hash: "f7a266487a54cab3"
+last_modified_at: "2026-08-20"
+content_hash: "a481353a36c8efd1"
 ---
 
-Tomb Raider: Chronicles is the fifth game in the Tomb Raider series and the sequel to Tomb Raider: The Last Revelation. It was developed by Core Design and published by Eidos Interactive. Like its predecessors, Tomb Raider: Chronicles is an action game with puzzle-solving and platforming elements. The gameplay is very similar to that of the previous games, with the addition of a few new skills. Lara can now walk on tightropes, swing on horizontal bars, and somersault forwards from a ledge while crouching. A grappling hook has been added to her inventory. The game also includes a level editor, allowing the player to create new stages for Lara to explore.
+The fifth of the original Tomb Raider games, told entirely in flashback. Lara is missing in Egypt and presumed dead, and the friends gathered at her memorial recount four separate adventures from her past that had never been told, which is what you play.

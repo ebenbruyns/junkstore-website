@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/alone-in-the-dark/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "62446f63abf14935"
+last_modified_at: "2026-08-20"
+content_hash: "e4dd8883caa2e76d"
 ---
 
 The 1992 original, a survival horror game set in Derceto, a Louisiana mansion left empty by Jeremy Hartwood's suicide. You pick either the detective Edward Carnby or Hartwood's niece Emily to play, and explore in third person against fixed camera angles as the house turns on whoever you chose.

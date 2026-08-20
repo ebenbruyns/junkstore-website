@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/amnesia-the-bunker/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,10 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "a6df36716a9b85b6"
+last_modified_at: "2026-08-20"
+content_hash: "4986cea651fae434"
 ---
 
-Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker.
-
-Face the oppressing terrors stalking in the dark. Search for and use the tools and weapons at your disposal. Keep the lights on at all costs and make your way out alive.
+A first-person horror game set in a deserted First World War bunker with one monster loose in it, driven by AI rather than a script, so it does not follow a set route. You scavenge tools, craft what you can, and above all keep the generator running, because the dark is where it hunts.

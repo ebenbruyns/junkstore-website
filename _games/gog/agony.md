@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/agony/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "a8cbf280ece17f94"
+content_hash: "f09b086ddd79bdd3"
 ---
 
 A first-person survival horror game set in hell, played as a tormented soul with no memory of who it was. You have no way to fight, only the ability to possess the people and demons you meet, and the game is built as a semi-open world with several routes and several endings rather than one corridor.

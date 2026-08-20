@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/lorelai/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-02-01"
-content_hash: "67bc39912a6cf0d9"
+last_modified_at: "2026-08-20"
+content_hash: "481c92f70400e48d"
 ---
 
-Lorelai, a brand new emotional horror ride from the maker of The Cat Lady and Downfall, tells a coming of age story of a young girl trying to escape the hell of her toxic family home. But adulthood is like waking up from a long dream. There will be times you will wish you were asleep again... But you can never go back to the same dream.
+The last part of the Devil Came Through Here trilogy, after The Cat Lady and Downfall, though it stands on its own. A young woman tries to get out of a violent family home, and death turns out not to be the end of the attempt. It is a horror adventure with full voice acting, and it is written for adults.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/scorn/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "a74df73af286779a"
+last_modified_at: "2026-08-20"
+content_hash: "cb8ce3964951a44b"
 ---
 
 A first-person horror adventure set in a biomechanical world with no map, no dialogue and very little explanation. You solve mechanical puzzles built from bone and tissue, fight only when cornered, and read the story out of the architecture itself.

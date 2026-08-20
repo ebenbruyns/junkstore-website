@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/shadow-sorcerer/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "3aa6ac112b650be1"
+last_modified_at: "2026-08-20"
+content_hash: "f0489ef1ecc5c4d7"
 ---
 
 A tactical game in which you lead a column of refugees out of occupied Krynn, steering four heroes in real time while the people following them have to be fed and kept alive. It is sold inside Silver Box Classics, together with Heroes of the Lance, Dragons of Flame and War of the Lance.

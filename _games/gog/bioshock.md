@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/bioshock/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "3b14525f18aa3825"
+content_hash: "125e6fc094b57249"
 ---
 
 The 2007 shooter set in Rapture, an undersea city built as a haven for great minds and long since fallen apart. You carry conventional weapons and also rewrite your own DNA with injectable plasmids, so a fight can be settled by electrifying the water an enemy is standing in or freezing them and swinging a wrench.

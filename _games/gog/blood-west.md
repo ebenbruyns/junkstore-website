@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/blood-west/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-02-01"
-content_hash: "1ad3835454607a39"
+last_modified_at: "2026-08-20"
+content_hash: "d4e8c81e3f07976a"
 ---
 
-Weird west legends meet eldritch horror in BLOOD WEST, an immersive stealth FPS. Become the Undead Gunslinger, doomed to roam the barren lands until he manages to purge their curse, freeing his soul. 3 varied scenarios, perk-based progression, and 20+ hours of gameplay await you!
+A stealth-first shooter that puts eldritch horror in the old west. You are an undead gunslinger sent back to clear a curse off the land before your own soul is released, working through the Canyons, the Swamp and the Mountains, picking off what you can from cover rather than facing it.

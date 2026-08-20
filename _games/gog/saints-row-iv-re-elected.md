@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/saints-row-iv-re-elected/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "9b3c947c813b29b5"
+content_hash: "e4e2ea5817d53f70"
 ---
 
 The one where the gang leader becomes President of the United States and then has to fight off an alien invasion with superpowers. Re-Elected collects 25 add-on packs on top of the base game, including both story expansions, Enter the Dominatrix and How the Saints Save Christmas.

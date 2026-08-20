@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/prince-of-persia-warrior-within/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "5d2b8ff2824b7f1c"
+last_modified_at: "2026-08-20"
+content_hash: "00c7687aea9a28f0"
 ---
 
-Prince of Persia: Warrior Within is a video game and sequel to Prince of Persia: The Sands of Time. It picks up where The Sands of Time left off, adding new features, specifically, options in combat. The Prince now has the ability to wield two weapons at a time as well as the ability to steal his enemies' weapons and throw them. The Prince's repertoire of combat moves has been expanded into varying strings that allow players to attack enemies with more complexity than was possible in the previous game. Warrior Within has a darker tone than its predecessor adding in the ability for the Prince to dispatch his enemies with various finishing moves. In addition to the rewind, slow-down, and speed-up powers from The Sands of Time, the Prince also has a new sand power: a circular "wave" of sand that knocks down all surrounding enemies as well as damaging them.
+The darker sequel to The Sands of Time, with the Prince hunted across a cursed island stronghold by the Dahaka, a creature sent to collect the death he cheated. Its Free-Form Fighting System puts far more weight on swordplay than the first game did, and a heavy metal soundtrack replaces the storybook tone, though the running, climbing and time-rewinding are unchanged.

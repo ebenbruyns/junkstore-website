@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/gex/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "498f9621ee022183"
+content_hash: "cd84668aa7ada01b"
 ---
 
 A 1995 side-scrolling platformer starring a gecko who gets pulled into the television and has to work his way out through channels of parody. Gex fights with his tongue and tail across five worlds of film and TV send-ups, wisecracking the whole way through.

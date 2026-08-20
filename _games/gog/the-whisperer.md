@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-whisperer/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "9cd2cb8744bb689c"
+last_modified_at: "2026-08-20"
+content_hash: "b6fd8a98234e89d4"
 ---
 
-Explore an abandoned trading post and solve a complex puzzle to investigate the terrible secret it holds. The Whisperer is a short story-driven point & click game set in Lower Canada at the beginning of the 19th century.
+A short horror point-and-click set in Lower Canada in 1814, made in the mould of Scratches and The Dark Eye. You play Robert, a voyageur of the North West Company sent to a remote trading post where the two winterers living there have vanished, and finding out why means facing what is still in the valley. It runs about 45 minutes, and stands alone while also setting up The Whispering Valley.

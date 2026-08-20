@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/under-the-moon/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "6675075d0adde1fd"
+last_modified_at: "2026-08-20"
+content_hash: "bf2929d8d774eb86"
 ---
 
-Under the Moon is an indie, platformer - riddle game which adorned with great stylized graphics and atmosphere. Join Ali Kemal on his fantastic world-wide journey on the path of true love!
+A small indie platformer built around riddles, following Ali Kemal across the world after the person he loves. The puzzles are the point rather than the jumping, and it leans on its stylised art and a soundtrack written for it.

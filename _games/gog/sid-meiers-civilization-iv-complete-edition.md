@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/sid-meiers-civilization-iv-complete-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "ea10a62ce5cb77a6"
+last_modified_at: "2026-08-20"
+content_hash: "c694bbecea04c7d8"
 ---
 
-Sid Meier’s Civilization is widely recognized as one the greatest PC game franchises of all-time. Heralded as one of the top ten games of 2005, Civilization IV is a must-have for gamers around the globe. Sid Meier’s Civilization IV: The Complete Edition includes Civilization IV, plus all three expansions: Warlords, Beyond the Sword and Colonization.
+The fourth Civilization, the one that added religion and civics to the turn-based empire building, and the last of the series scored by a full choir. The Complete Edition collects the base game with the Warlords and Beyond the Sword expansions and the standalone Colonization.

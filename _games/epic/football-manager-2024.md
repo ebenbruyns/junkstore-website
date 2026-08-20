@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/football-manager-2024/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "0bb1202e7883bf85"
+content_hash: "08728119932bacb0"
 ---
 
 The 2024 edition of the football management series, played from the manager's chair rather than on the pitch. You handle transfers, tactics, training and the dressing room across a very large number of licensed leagues, and this edition was the first to carry the Japanese J1, J2 and J3 leagues.

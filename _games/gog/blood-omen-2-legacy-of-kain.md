@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/blood-omen-2-legacy-of-kain/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-05-01"
-content_hash: "c59559b776a41dbb"
+last_modified_at: "2026-08-20"
+content_hash: "a8bae4a13a22d81a"
 ---
 
-Blood Omen 2, the second instalment in the Legacy of Kain Series, is a 3rd person 3D action/combat game in which you assume the role of the vampire Kain. A compelling story takes you through huge, lushly detailed 3D environments and challenges your skills in combat, puzzle solving, stealth and exploration. With each success, you’ll gain new dark gifts that will grant Kain the ability to access treacherous new areas to explore and the power to face stronger, more aggressive enemies. As you develop a stronger, more skilled vampire, you’ll be rewarded with dozens of dazzling in-game cinematic sequences that unfold the continuing epic of Nosgoth, and Kain’s attempts to ultimately rule over it.
+Kain wakes centuries after being beaten by a warlord, with his armies dead and almost no vampires left. This one is played behind the shoulder rather than from overhead like the first Blood Omen, and turns on heavy weapons and Dark Gifts such as berserk and stealth, used through gothic cities of thieves, knights and demons.

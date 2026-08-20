@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/rime/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "6233631141195023"
+content_hash: "d785dbbf76e3c7eb"
 ---
 
 A single-player puzzle adventure played as a boy washed up on an island after a storm, with a fox for company. You work through the puzzles of its long-forgotten ruins toward a tower at the centre that keeps drawing you back to it.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/xcom-enemy-unknown-complete-pack/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "4fd90098c2265aec"
+content_hash: "4d0bdfba466bf563"
 ---
 
 Firaxis's 2012 remake of the strategy classic, where you run XCOM, a secret organisation set against an alien invasion. It splits between a base layer of research, funding and recruitment, and turn-based squad fights where a soldier who dies is gone for good. The Complete Pack takes in the Enemy Within expansion along with the smaller add-ons.

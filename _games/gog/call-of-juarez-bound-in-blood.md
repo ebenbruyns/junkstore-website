@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/call-of-juarez-bound-in-blood/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "0acbc7144f4306d7"
+last_modified_at: "2026-08-20"
+content_hash: "ea07f34d917b31ab"
 ---
 
-In the remote and deadly Wild West, the outlaw McCall brothers are on a quest for the legendary Gold of Juarez. In their journey across a vast landscape, these lawless gunslingers will stop at nothing to achieve their goal. Arm yourself with pistols, cannons, machine guns and more as you strike out on a mission with two fearless compatriots whose bonds of blood are only strengthened by the blood they spill together.
+The prequel to Call of Juarez, set in 1864 and following the McCall brothers after the legendary Gold of Juarez. You choose Ray or Thomas for each chapter, one built for close range with dual pistols and dynamite, the other for distance with a carbine and a lasso. Its online features were switched off in August 2016, leaving the campaign.

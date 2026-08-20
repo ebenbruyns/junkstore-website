@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/kerbal-space-program/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "f3e1a7bd357e6602"
+last_modified_at: "2026-08-20"
+content_hash: "ffbcaa3bafe8063f"
 ---
 
-In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics.
+A space programme sim where you bolt rockets together out of parts and they fly, or fail to, according to real aerodynamics and orbital mechanics. There are three modes: sandbox with everything unlocked, science for unlocking technology through experiments, and career, which adds funding, contracts and facility upgrades.

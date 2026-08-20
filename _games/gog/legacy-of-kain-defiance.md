@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/legacy-of-kain-defiance/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "96bdf64c132c2a1a"
+last_modified_at: "2026-08-20"
+content_hash: "dbe28ee7023e978d"
 ---
 
-Swords, sorcery, souls, and buckets of blood await you in Legacy of Kain: Defiance. Return to the corrupt world of Nosgoth, where the disfigured wraith Raziel pursues his creator, the vampire overlord Kain. Separated by their common enemies and time itself, the two anti-heroes must wage their own personal battles to discover what lies behind their destinies and defeat the vicious forces that seek to condemn their world to eternal damnation. While their foes plot and scheme, Kain and Raziel embark on a dark and twisted odyssey. In the end, only one of them may be left standing. 
- 
-The final chapter in the epic Legacy of Kain series is a time-bending, dimension-crossing, action-adventure game featuring more fast-paced combat than ever before. Take control of two mighty and highly-evolved vampires, each with a vast arsenal of combat moves and elaborate combos to unlock during their journey. A world filled to the brim with gruesome monsters, conflict and intrigue lies before them.
+The last Legacy of Kain game, splitting play between Kain, a vampire demigod, and Raziel, the wraith he killed. Both wield the Soul Reaver, in its physical and spectral forms, and their chapters alternate, pulling two long-running storylines toward the same ending.

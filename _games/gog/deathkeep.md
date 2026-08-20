@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/deathkeep/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-01-01"
-content_hash: "376eab0a6a8bd86a"
+last_modified_at: "2026-08-20"
+content_hash: "23a9b693c66bbee9"
 ---
 
-DeathKeep is a D&D dungeon delving the way you like it - fast, furious and fun! An evil Necromancer has escaped from his icy prison and is wreaking havoc upon the surrounding lands. Journey to this frozen wasteland and destroy the forces of evil - if you dare.
+A Dungeons & Dragons dungeon crawler played fast rather than carefully, with a necromancer loose in a frozen wasteland and you sent to stop him. There are more than 25 dungeons of eight floors each, running through icy caverns and towers.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/oaken/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "5ee8f0bb613f4198"
+last_modified_at: "2026-08-20"
+content_hash: "38e16eca31f7a4c0"
 ---
 
-Oaken is a tactical turn-based roguelike with deck management and 3D figurines. Explore the world of the Great Oak, gather allies and enhancements, learn to use the positioning and rotation for your advantage, choose how to upgrade your cards - all in order to restore the Oak's Song.
+A tactical roguelite fought on a hexagonal grid, where which way a unit faces matters as much as where it stands. You build a deck of spells and spirits and work across a randomly generated map, in a world set among the branches of a Great Oak whose guiding song has stopped.

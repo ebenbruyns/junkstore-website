@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/subterrain-mines-of-titan/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "23932a84f2bfd802"
+last_modified_at: "2026-08-20"
+content_hash: "8421f6ca343304c5"
 ---
 
 A turn-based survival role-playing game that opens with you waking from a stasis pod in a doomed mining camp on Titan. You strip the base for parts, research better equipment and fight what has come up from below, with every action costing time you cannot get back.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/pillars-of-eternity-definitive-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-08-01"
-content_hash: "7a3ed6f5f3a0bc9e"
+last_modified_at: "2026-08-20"
+content_hash: "368e37e4f6f2f0c8"
 ---
 
-Experience the game that revitalized the classic RPG genre in a complete and definitive package that includes every expansion, bonus, and update, presenting Pillars of Eternity at its best.
+Obsidian's isometric party role-playing game, built deliberately in the shape of the Infinity Engine games of the late nineties. You arrive in the Dyrwood as souls stop passing on properly and children are born empty, and you gather a party to work out why. The Definitive Edition takes in both parts of The White March and the later content packs.

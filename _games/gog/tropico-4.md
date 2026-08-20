@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/tropico-4/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-08-01"
-content_hash: "056b9122336b6d23"
+last_modified_at: "2026-08-20"
+content_hash: "5ffb964ba0702135"
 ---
 
-Fancy being a dictator? Well this is the ideal time! Build a Tropico and control who and what happens in it. Juggle foreign relations and run a nuclear program! Apply Edicts to make your people happier, or to scare them to obey the rules. Recruit soldiers and have them carry out your will. just make sure to watch out for rebel attacks and even international invasion!
+A city builder in which you run a Caribbean island as El Presidente, balancing what the population wants against what the superpowers will pay for. This one adds ministers you can appoint to push through unpopular policies, more foreign powers to play off each other, and natural disasters to recover from.

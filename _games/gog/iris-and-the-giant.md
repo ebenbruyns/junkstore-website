@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/iris-and-the-giant/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "439dc03a0979aa17"
+last_modified_at: "2026-08-20"
+content_hash: "55f51813bd5263c4"
 ---
 
-Iris and The Giant is a fusion of the CCG, RPG and roguelike genres. You play as Iris, who must brave her fears in her imaginary world. Dive into a melancholic and gripping adventure, filled with cute monsters and buried memories. Ready to face your inner demons?
+A card game with roguelike runs, played as a girl working through her own fears in an imagined world. The art is stripped back to flat shapes and the deck is built from 51 cards across attempts, with fragments of her memory turning up as you get further in.

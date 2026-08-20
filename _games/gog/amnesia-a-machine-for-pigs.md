@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/amnesia-a-machine-for-pigs/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "1789d8d3f059eb4d"
+last_modified_at: "2026-08-20"
+content_hash: "e9fafb777f2a6a27"
 ---
 
 A first-person horror game set in the London of 1899, following a wealthy industrialist who wakes with his memory in pieces and a vast machine running somewhere beneath his house. You descend through the works with nothing to fight back with, gradually piecing together what you built and why.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/arcade-paradise/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-01-01"
-content_hash: "dbe20dc945c08bd6"
+last_modified_at: "2026-08-20"
+content_hash: "6d945a3939f86a0f"
 ---
 
-Welcome to Arcade Paradise, the 90’s retro arcade adventure game. With the keys to the family laundromat, Ashley decides to transform the business and give the sleepy town of Grindstone something to get excited about! Stay one step ahead of your father, manage and invest profits, and build your very own Arcade Paradise!
+A 1990s business sim about quietly converting your family's laundromat into an arcade. You wash and fold to make the rent, then spend the takings on cabinets, and each of the 35-plus machines is a complete small game you can actually sit down and play.

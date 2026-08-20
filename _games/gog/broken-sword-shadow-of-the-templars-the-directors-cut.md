@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/broken-sword-shadow-of-the-templars-the-directors-cut/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "7b9c7c3318045863"
+last_modified_at: "2026-08-20"
+content_hash: "44fc8ecdc127470b"
 ---
 
-One of the all-time classic adventures, multi BAFTA-nominated "Broken Sword: Director's Cut" pitches sassy journalist Nico Collard, and intrepid American George Stobbart into a mysterious journey of intrigue and jeopardy. Guide George and Nico on their globe-spanning adventure, exploring exotic locations, solving ancient mysteries, and thwarting a dark conspiracy to reveal the secret truths of the Knights Templar.
+The 1996 point-and-click adventure. American tourist George Stobbart and French journalist Nico Collard follow a Templar conspiracy across several countries, and this 2009 Director's Cut adds a new storyline played as Nico, opening with a murder at the Palais Royale, alongside new puzzles.

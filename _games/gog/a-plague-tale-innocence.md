@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/a-plague-tale-innocence/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "81d86ddb5e3ae8e1"
+last_modified_at: "2026-08-20"
+content_hash: "04fbfc06c20fa44b"
 ---
 
-Follow the grim tale of young Amicia and her little brother Hugo, in a heartrending journey through the darkest hours of history. Hunted by Inquisition soldiers and surrounded by unstoppable swarms of rats, they will come to know and trust each other.
+A story-driven stealth adventure set in 14th-century France, following Amicia and her younger brother Hugo after their family is destroyed. Inquisition soldiers hunt them from one side and swarms of rats fill everything unlit from the other, so light is both the tool and the constraint.

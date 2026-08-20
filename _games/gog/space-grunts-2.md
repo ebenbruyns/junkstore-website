@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/space-grunts-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "e5cb360c27faccfa"
+content_hash: "6c8ad62034c5ba8c"
 ---
 
 The sequel, which keeps the fast turn-based roguelike structure of the first game but hands every action over to a deck of cards. Movement, attacks and item use are all played from your hand, through randomly assembled levels in a 1950s idea of science fiction.

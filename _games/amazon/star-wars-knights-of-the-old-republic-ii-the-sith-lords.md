@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/star-wars-knights-of-the-old-republic-ii-the-sith-lords/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "9852bc21842740d7"
+last_modified_at: "2026-08-20"
+content_hash: "00d91d52bc03ab81"
 ---
 
-Star Wars Knights of the Old Republic II: The Sith Lords is a sequel to the blockbuster RPG Star Wars Knights of the Old Republic. Players continue to enjoy the title's emotionally compelling and story-driven theme, additions to features such as new characters, classes, locations and force powers as well as a deeper look into the founding lore.
+Set five years after the first Knights of the Old Republic, with the Jedi hunted almost to extinction and the Republic close to collapse. You play the last Jedi still standing, cut off from the Force and trying to reconnect with it, and the choice between the light and dark sides runs through the whole game.

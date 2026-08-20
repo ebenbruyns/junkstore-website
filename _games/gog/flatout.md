@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/flatout/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-07-01"
-content_hash: "47d45d1d831c6f6b"
+last_modified_at: "2026-08-20"
+content_hash: "218a696436caa7fd"
 ---
 
-FlatOut is adrenaline-filled muscle car racing game packed with explosive physics, spectacular effects and graphics, innovative game play mechanics and good old fun!
+A demolition racer built on destructible tracks, where fences, tyre walls and scenery come apart as you drive through them. You race seven rivals for a championship, and crashing hard enough throws the driver out through the windscreen, which the game treats as a feature.

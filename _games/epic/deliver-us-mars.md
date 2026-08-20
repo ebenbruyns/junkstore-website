@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/deliver-us-mars/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "0a6513cd0ef46360"
+last_modified_at: "2026-08-20"
+content_hash: "b9c782be1711d1d0"
 ---
 
 A science fiction adventure that lands a small crew on Mars to recover stolen colony ships, pairing climbing and puzzle sections with a family story told in flashback. You explore abandoned installations with a cutting tool and a companion robot.

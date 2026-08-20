@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/penumbra-overture/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "682a9deb5ee6dc29"
+last_modified_at: "2026-08-20"
+content_hash: "2a70c0b8a421c319"
 ---
 
-First person survival horror game, emphasizing survival and problem solving instead of mindless violence and gore
+An early Frictional Games first-person horror, built around survival and problem solving rather than combat. Its physics system is the interface: doors, drawers and machinery are dragged and turned with the mouse as though your hand were on them, which is also what makes hiding from things so uncomfortable.

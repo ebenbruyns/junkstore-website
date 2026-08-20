@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/giana-sisters-twisted-dreams/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -124,7 +130,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "bdd1d9000bfc47c1"
+content_hash: "f91b48de1614efef"
 ---
 
 A hard platformer with one button that flips the entire level between two versions of a dream, changing the art, the music and what Giana can do in the same instant. Getting through a room usually means switching back and forth mid-jump rather than picking one form and staying in it.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/true-fear-forsaken-souls-part-1/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "8d729aac58ddd5b6"
+last_modified_at: "2026-08-20"
+content_hash: "aee02288ab5464bc"
 ---
 
-True Fear: Forsaken Souls takes the best of the psychological thriller, blending in fun and intuitive gameplay mechanics. Episode 1, the first in a trilogy, will long be remembered.
+The first part of a hidden-object horror trilogy, opening with a woman arriving at a sealed house where candles have been lit in every window for someone who has waited more than twenty years. It mixes inventory puzzles and hidden-object scenes with cinematics, and Part 2 continues directly from where it stops.

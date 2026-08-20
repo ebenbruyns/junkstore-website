@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/gravity-circuit/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,8 +138,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "77336043c461731c"
+last_modified_at: "2026-08-20"
+content_hash: "330ae9ddb67f48c9"
 ---
 
-Gravity Circuit is a flashy action packed 2D platformer in the spirit of console classics. Follow Kai, a lone operative war hero who harnesses the mysterious powers of the Gravity Circuit, on an adventure in a post-apocalyptic world inhabited by sentient robots.
+A fast 2D action platformer in the mould of the 16-bit console games it is openly modelled on. You play Kai, a war hero carrying the powers of the Gravity Circuit, called back out of retirement when the Virus Army resurfaces in a world run by sentient robots.

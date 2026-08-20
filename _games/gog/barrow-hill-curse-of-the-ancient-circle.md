@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/barrow-hill-curse-of-the-ancient-circle/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "cc904f35dd41ce11"
+last_modified_at: "2026-08-20"
+content_hash: "771de704f1a1cae9"
 ---
 
 A point-and-click horror adventure set over a single night in the Cornish woods, where something beneath an ancient burial mound has begun to stir. You arrive at the autumn equinox, follow the trail of a missing archaeologist through shrines and standing stones, and use survey gear and CCTV to work out what is moving out there.

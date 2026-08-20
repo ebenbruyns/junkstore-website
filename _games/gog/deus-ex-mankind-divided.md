@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/deus-ex-mankind-divided/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "028d78c3ae6b05ab"
+content_hash: "2b21d1f73bc30df0"
 ---
 
 Set in 2029, with mechanically augmented people segregated from everyone else and blamed for the terror attacks covering a wider conspiracy. You play Adam Jensen, an augmented agent working among people who despise what he is, and the weapons and augmentations you pick decide how each problem gets solved, by talking, sneaking or shooting.

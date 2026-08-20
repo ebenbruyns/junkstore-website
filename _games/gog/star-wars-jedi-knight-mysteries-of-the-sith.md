@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/star-wars-jedi-knight-mysteries-of-the-sith/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "de647354c291ad20"
+content_hash: "368ec0979d4e829f"
 ---
 
 The expansion to Jedi Knight: Dark Forces II, set five years later, in which you spend most of the game playing not Kyle Katarn but Mara Jade, his student and a former agent of the Emperor. She is sent to secure supplies for the New Republic while Kyle drifts toward the dark side, and it adds four weapons and five Force powers to the original.

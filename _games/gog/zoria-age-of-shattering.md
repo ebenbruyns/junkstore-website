@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/zoria-age-of-shattering/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: ""
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "ee9bf368f81fbb28"
+last_modified_at: "2026-08-20"
+content_hash: "147cca923a0411db"
 ---
 
 A squad-based tactical role-playing game set on the continent of Uram, overrun by hellspawn. You lead a party through turn-based fights, expand an outpost between them, and send the companions you are not fielding out on missions of their own to bring back resources and experience.

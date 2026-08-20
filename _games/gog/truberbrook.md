@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/truberbrook/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "2fc6b3eda3482bb9"
+last_modified_at: "2026-08-20"
+content_hash: "927af2705e16b344"
 ---
 
-Enjoy an adventurous vacation to a 1960's parallel universe! A Sci-Fi-Mystery Adventure Game with handmade scenery.
+A mystery adventure set in a remote West German village in the late 1960s, played as Hans Tannhauser, an American scientist who won the trip in a lottery. Every set was built as a physical miniature and scanned in, so the backgrounds are handmade rather than drawn.

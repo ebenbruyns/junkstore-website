@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/advanced-dungeons-dragons-heroes-of-the-lance/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "6084dbbdaf23bb52"
+last_modified_at: "2026-08-20"
+content_hash: "f053559f6b03056e"
 ---
 
 A side-scrolling action adventure set on Krynn, in which you take the Companions of the Lance into the ruins of Xak Tsaroth after the Disks of Mishakal. You switch between the eight companions as they tire or fall, which is the only way through. It is sold inside Silver Box Classics, together with Dragons of Flame, War of the Lance and Shadow Sorcerer.

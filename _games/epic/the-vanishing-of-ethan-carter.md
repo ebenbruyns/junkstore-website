@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-vanishing-of-ethan-carter/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "490071d7b779c76c"
+content_hash: "4d81cb7c3964330f"
 ---
 
 A first-person mystery with no combat in it at all, in which an occult detective works out what happened to a missing boy and his family by reassembling the scenes of their deaths. Buying it gets you two versions, the original and the Unreal Engine 4 remaster called Redux.

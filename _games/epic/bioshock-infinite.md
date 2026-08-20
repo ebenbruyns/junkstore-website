@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/bioshock-infinite/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -133,7 +139,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "4b6467c885385bf4"
+content_hash: "e2770f9be8fe0a94"
 ---
 
 A first-person shooter set in Columbia, a city held in the sky by a mix of engineering and faith. You play Booker DeWitt, a private investigator deep in debt to the wrong people, sent to bring back Elizabeth, a woman shut away there since childhood who can tear openings into other worlds. This edition takes in Burial at Sea and Clash in the Clouds.

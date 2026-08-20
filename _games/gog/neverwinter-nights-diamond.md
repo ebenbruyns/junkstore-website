@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/neverwinter-nights-diamond/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,17 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "189aafc96cdc53cd"
+last_modified_at: "2026-08-20"
+content_hash: "39099d995f6aac3f"
 ---
 
-Experience one of the most popular role-playing adventures of our time, a journey that has thrilled millions. Inhabit dreamlike worlds of myth and mystery. Boundless lands of deadly creatures, foreboding omens and bold heroism.
-
-This game puts you at the center of an epic tale of faith, war and betrayal, all the while staying true to the pen-and-paper role-playing tradition.
-Neverwinter Nights - A world without limits!
-
-The Diamond Edition includes the original Neverwinter Nights and three official expansion packs: Shadows of Undrentide, Hordes of the Underdark and Kingmaker.
-
-A fast-paced RPG with an intuitive interface, suitable for new players and RPG veterans alike.
-
-A classic RPG experience that will keep you entertained for over one hundred hours!
+The original 2002 Dungeons & Dragons role-playing game as it shipped, collected with both expansions, Shadows of Undrentide and Hordes of the Underdark, and the Kingmaker premium module bundle. It comes with the toolset the community built thousands of modules on. This is the unmodernised version, so compare it against the Enhanced Edition before buying.

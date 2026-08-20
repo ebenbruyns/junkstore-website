@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dark-deity/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "cc29ac1c82712ef1"
+last_modified_at: "2026-08-20"
+content_hash: "7c6f3a5d677dfe31"
 ---
 
-Command legendary heroes to reshape a land fractured by broken oaths, reckless wars, and secret arcane powers. Claim ancient artifacts and powerful weapons to empower your cast of 30 voiced, playable characters as they form bonds and battle their way to become legends.
+A turn-based tactics game in the Fire Emblem mould, following four cadets pulled out of a military academy and sent to war by a king about to break a thousand-year treaty. It runs 28 chapters with a cast of 30 playable characters who build relationships between battles.

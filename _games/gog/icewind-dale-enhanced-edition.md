@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/icewind-dale-enhanced-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "e3d21aee3cdb3d88"
+last_modified_at: "2026-08-20"
+content_hash: "706b7d6ab814bff6"
 ---
 
-Icewind Dale: Enhanced Edition revives the classic RPG with fresh updates for modern players. Build a party of Dungeons &amp; Dragons heroes and explore the frozen tundra in this retro fantasy adventure.
+The 2000 Dungeons & Dragons game rebuilt by Beamdog, and the one in its family that is about fighting rather than talking: you make all six party members yourself instead of recruiting them. This edition takes in the base campaign, both expansions, Heart of Winter and Trials of the Luremaster, and quests cut from the original.

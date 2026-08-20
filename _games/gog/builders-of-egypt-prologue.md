@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/builders-of-egypt-prologue/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-04-01"
-content_hash: "a32d6cf2c07ae334"
+last_modified_at: "2026-08-20"
+content_hash: "95f017e5d5af9d56"
 ---
 
-Builders Of Egypt: Prologue is a city-building economic strategy taking place in the Nile Valley. Immerse yourself in a world full of pyramids, where you will become a part of the ancient world. Create history, be history!
+A free slice of the city-building game Builders of Egypt, set in the Nile valley. You lay out a settlement, run its trade and resources and keep its people fed and its gods attended to. Being the prologue, it covers an early portion of the full game rather than the whole campaign.

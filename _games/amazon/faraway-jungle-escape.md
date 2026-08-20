@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/faraway-jungle-escape/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "324da712e1801bd0"
+last_modified_at: "2026-08-20"
+content_hash: "e93780b9d261591d"
 ---
 
 The second Faraway puzzle game, set in overgrown temples on a continent you have not seen before. Still following a missing father’s trail, about a year into the search, you reach the point where his notes stop reading like a solo expedition. He is not out here alone.

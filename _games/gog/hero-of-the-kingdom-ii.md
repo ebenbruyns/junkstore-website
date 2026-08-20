@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/hero-of-the-kingdom-ii/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "3e04b78698a39d62"
+last_modified_at: "2026-08-20"
+content_hash: "d9d3724f12e278ac"
 ---
 
-You and your sister had finally found a safe haven in a small fishing village. But more troubles came soon after that. The threat of an unstoppable crew of pirates spread its shadow over the entire kingdom. Your beloved sister was kidnapped by the pirates and taken far away to lands unknown. You have no choice but to embark on a journey to save her. You must be brave. You will travel to the end of the world, helping people, fulfilling quests, learning valuable skills, and finding hundreds of useful items.
+A gentle point-and-click adventure with no combat, no death and no way to fail. You build a ship, sail between sunny islands to get your sister back from pirates, and spend the time in between gathering things and helping people at whatever pace suits you.

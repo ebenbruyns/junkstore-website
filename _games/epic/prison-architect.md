@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/prison-architect/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "418703f9e359a072"
+last_modified_at: "2026-08-20"
+content_hash: "83f12b2422291267"
 ---
 
 A management sim about designing and running a prison, from cell blocks and canteens to staffing and daily routine. You balance budget, security and inmate needs, and watch riots, escapes and small oversights spread from whatever you got wrong.

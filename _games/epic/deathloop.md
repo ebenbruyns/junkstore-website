@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/deathloop/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "74a22ac097a888c7"
+last_modified_at: "2026-08-20"
+content_hash: "e8b24503ccbdc50e"
 ---
 
 A first-person shooter set on an island stuck in one repeating day, from the studio behind Dishonored. You learn the routines of eight targets across four time periods and work out the single route that kills them all before midnight.

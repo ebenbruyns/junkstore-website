@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fallout-3-game-of-the-year-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "d62bb4ea4ae93736"
+content_hash: "0edf85ede97fad6f"
 ---
 
 Bethesda's 2008 Fallout, which moved the series into first person and out into the ruins of Washington DC. You leave Vault 101 looking for your father and make your own way through a wasteland of radiation, super mutants and raiders. The Game of the Year edition adds all five add-ons, Broken Steel and Point Lookout among them.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/hammerting/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "5ee884b0fcb46c82"
+content_hash: "d7a688e4a1993e11"
 ---
 
 A colony management game about a dwarven mine that grows downward rather than across. You dig a clan's operation deeper into the mountains of Mara, mining and crafting weapons and gear, and send them up to the allies of your choice in the war going on above ground.

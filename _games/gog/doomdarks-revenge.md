@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/doomdarks-revenge/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,14 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-04-01"
-content_hash: "b89644dfa3c307bb"
+last_modified_at: "2026-08-20"
+content_hash: "248d1e8698f0ef08"
 ---
 
-The follow-up to the original Lords of Midnight game uses a similar game system to its predecessor, but the story is now much more complex. Luxor the Moonprince's son Morkin has been kidnapped by Shareth, daughter of Doomdark, the evil ruler deposed in the first game. The player initially takes control of Luxor, Rothron the Wise, and Morkin's lover Tarithel the Fey, although many more characters can be recruited as the game progresses, as they aim to banish Shareth and rescue Morkin. Shareth has brainwashed him, so he must also be turned back to Luxor's side.
-
-The game is effectively turn-based; your characters move by day (with a limited amount of movement possible, with each move in one of the 8 compass directions) and Shareth's by night. You will find plains, mountains, forests, underground tunnels and mysterious temples on your journey. A dark mist follows much of the area, which causes your characters to deteriorate in mood and thus become less effective.
-
-The characters are now split into five distinct tribes - Giant, Dwarf, Fey, Icemark and Barbarians, and recruiting new characters into your party isn't automatic - factors such as the game situation can make some refuse to join, turn on members of other races, or defect (as the Utarg did in the first game).
-
-There are several different objectives and possible outcomes to the game. Bringing Morkin back to the Gates of Varenorn is the most basic one, but many other characters ought to be saved, Shareth can be killed completely (with practice!), and there are many Crowns of Icemark to be retrieved. As in the first game, control of the full party only remains while Luxor is alive - his death means total defeat.
+Mike Singleton's 1985 sequel to The Lords of Midnight, mixing adventure and strategy across a landscape drawn in flat panoramic views. You command characters who can be recruited, sent out independently and lost for good, over a map far larger than the first game's.

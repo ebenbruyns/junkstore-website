@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/weird-west/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "34d1b3538af2c5e9"
+last_modified_at: "2026-08-20"
+content_hash: "ecf38910bfc3e0f7"
 ---
 
 An isometric immersive sim set on a frontier where the supernatural is ordinary, told through five characters whose stories overlap. Choices carry between them, and most problems have several solutions, from sneaking past to talking round to burning the place down.

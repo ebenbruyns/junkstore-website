@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/fall-guys/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "972caae7d90d5e2b"
+last_modified_at: "2026-08-20"
+content_hash: "4defee24c555c4ba"
 ---
 
 A free multiplayer party game in which dozens of players stumble through obstacle courses together, each round knocking more of them out. Rounds mix races, team games and last-one-standing survival until a single bean is left.

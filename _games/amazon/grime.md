@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/grime/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -124,7 +130,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "10edc2ab3ef34bfd"
+content_hash: "3b073477e7fda252"
 ---
 
 A fast and unforgiving side-scrolling action role-playing game in which your weapons are living things that change shape as you use them. You platform and fight across a set of interconnected areas, absorbing what you kill through a black hole set in your head and growing stronger as you take apart a world built out of anatomy and stone.

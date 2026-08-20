@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/pumpkin-jack/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "yellow"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "8bf618b24f86fcc0"
+last_modified_at: "2026-08-20"
+content_hash: "047b065fe5720360"
 ---
 
-Pumpkin Jack is a Spooky Scary 3D platformer in which you embody Jack, the Mythical Pumpkin Lord! Dive into an Epic Adventure through otherworldly landscapes and help the Evil annihilate the Good!
+A 3D platformer in the shape of the ones made twenty years earlier, played as Jack, a pumpkin-headed lord sent to help evil win for once. Levels run through bright cartoon Halloween landscapes and break up the platforming with vehicle sections and small puzzles.

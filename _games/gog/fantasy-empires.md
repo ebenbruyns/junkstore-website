@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fantasy-empires/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "c7cbbdac1b718f24"
+last_modified_at: "2026-08-20"
+content_hash: "55b726e73becd3da"
 ---
 
 A Dungeons & Dragons strategy game about carving out an empire against as many as four computer opponents drawn from a field of twenty. A computer Dungeon Master narrates and referees the whole thing, while you recruit humans, elves, orcs, dwarves and undead, send heroes off on quests and build fortifications.

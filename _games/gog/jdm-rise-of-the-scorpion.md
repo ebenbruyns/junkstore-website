@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/jdm-rise-of-the-scorpion/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: true
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-02-01"
-content_hash: "d7182714dd3c681f"
+last_modified_at: "2026-08-20"
+content_hash: "5b7a8061913dbc63"
 ---
 
-Discover the beginning of the story of the titular "Scorpion" through a story guided by manga panels. Take on the role of Hatori ‘Scorpion’ Hasashi - an offspring of a traditional Japanese family who became one of the best racers in the area. Strict parents and high school expectations couldn’t stop him from becoming a part of the drifting revolution!
-
-Find out how Hatori established his position and get behind the wheel of his car. In JDM: Rise of the Scorpion you will drive a unique vehicle, fast like a scorpion’s attack. Feel the adrenaline rising, and drift your way to the top.
+A racing game told between races through manga panels, following Hatori 'Scorpion' Hasashi, the son of a traditional Japanese family who has become one of the best drivers in the area against his parents' wishes.

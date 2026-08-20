@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/betrayer/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-11-01"
-content_hash: "f01f3d620cf1b227"
+last_modified_at: "2026-08-20"
+content_hash: "6fa54f461beae52a"
 ---
 
-Betrayer is a first person action adventure game that takes you to the New World at the turn of the 17th century. The year is 1604. You sailed from England expecting to join a struggling colony on the coast of Virginia. Instead, you find only ghosts and mysteries. What catastrophe blighted the land and drained it of color and life?
+A first-person action adventure set in Virginia in 1604, where the colony you sailed to join has been emptied of everyone living. Corrupted conquistadors and shadows hunt you through it, and you answer with muskets, bows and tomahawks, or by using the wind to cover your footsteps and pick them off quietly. It is drawn almost entirely in stark black and white.

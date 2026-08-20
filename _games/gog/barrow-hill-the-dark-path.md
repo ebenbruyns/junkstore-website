@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/barrow-hill-the-dark-path/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "21a36a171396a4c6"
+last_modified_at: "2026-08-20"
+content_hash: "6b69f09784573b36"
 ---
 
-Follow the Dark Path into a world of Druidic lore and Celtic myths. It is the Autumn Equinox on Barrow Hill, a time of great power, when the ancient standing stones are at their most powerful and dangerous.
+The sequel to Curse of the Ancient Circle, set ten years after it on another autumn equinox. You return to the Cornish woods knowing what happened the first time, and the local late-night DJ Emma Harry is back too, worried about a teenager mixed up in rituals near the old service station.

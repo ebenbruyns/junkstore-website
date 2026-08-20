@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/caravan-sandwitch/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-17"
-content_hash: "a375b8ae7ef73c8f"
+last_modified_at: "2026-08-20"
+content_hash: "bc9e685b96663ca6"
 ---
 
 A narrative exploration game set on Cigalo, a Provence-styled colony planet stripped back to desert by the people who worked it. You drive an old van across the countryside looking for your missing sister, upgrading it as you go to reach ruins and settlements that were closed off before. There is no combat and no way to die.

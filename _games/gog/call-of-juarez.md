@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/call-of-juarez/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "5341335d6cb484c8"
+last_modified_at: "2026-08-20"
+content_hash: "d0100365e826e222"
 ---
 
-Call of Juarez is an epic adventure western themed FPS game. The player alternately assumes the roles of two distinct, antagonistic characters: a sneaking fugitive Billy and his hunter the reverend Ray. Apart from the highly interesting, emotional and psychological aspect of the link between the two
+A western first-person shooter that alternates between two men on opposite sides of the same chase. Billy is the fugitive, moving by stealth and by whip, which he uses to fight, shift objects and swing himself across gaps. Reverend Ray is the preacher hunting him, with a revolver in each hand. Its online features were switched off in October 2024, leaving the single-player campaign.

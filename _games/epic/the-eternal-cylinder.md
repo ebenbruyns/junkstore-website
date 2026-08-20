@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-eternal-cylinder/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-10"
-content_hash: "da70442e24107411"
+last_modified_at: "2026-08-20"
+content_hash: "def96c7c3602b5ed"
 ---
 
 A survival adventure in which you guide a herd of small creatures across an alien plain, ahead of an enormous rolling cylinder that flattens everything behind it. What they eat mutates them, and those mutations are how you get past obstacles.

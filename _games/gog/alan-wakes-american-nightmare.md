@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/alan-wakes-american-nightmare/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "c3f1bc118e464150"
+last_modified_at: "2026-08-20"
+content_hash: "de5f9de165511231"
 ---
 
-A thrilling new storyline, hordes of creepy enemies, serious firepower and beautiful Arizona locations, combined with a fun and challenging new game mode!
+A standalone spin-off rather than a sequel, set in Arizona and pitting Wake against Mr Scratch, a version of himself. It leans harder on shooting than the original did, and adds a separate arcade mode built around surviving waves until dawn.

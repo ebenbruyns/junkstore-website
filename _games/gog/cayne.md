@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/cayne/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-04-01"
-content_hash: "ff7f244ef1931d45"
+last_modified_at: "2026-08-20"
+content_hash: "34b2551a45514af0"
 ---
 
-In this grim return to the STASIS universe, expectant protagonist, Hadley, wakes up in a facility. Where is she? Why is she there? And, why do they want her baby?
-
-Help panicked and anxious Hadley find her feet and brave stomach-churning situations to break free, by solving puzzles in this FREE horror adventure game.
+A free isometric point-and-click horror set in the Stasis universe, made by the same studio. Hadley wakes up heavily pregnant in a facility she does not recognise, and the question the game runs on is what they want with the baby. It is short, grim and fully voiced.

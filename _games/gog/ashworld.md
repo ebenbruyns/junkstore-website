@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ashworld/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "f3a1f945a21c29d7"
+last_modified_at: "2026-08-20"
+content_hash: "7b4ec3734fb7145a"
 ---
 
-Fight, scavenge, and survive in Ashworld, a post-apocalyptic open world filled with danger. Explore the desolate Ragelands, battle ruthless Ragers, and fend off night-stalking Skellies. Drive, craft, and strategize to endure this unforgiving wasteland where every resource matters.
+An open-world survival game set in a burnt-out wasteland called the Ragelands, where food and water run down constantly and night brings out things that do not come out in daylight. You drive between locations, scavenge what you can and craft the rest, all of it in pixel art.

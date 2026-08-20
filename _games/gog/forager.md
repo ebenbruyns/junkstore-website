@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/forager/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-02-01"
-content_hash: "b2a738a843594b2a"
+last_modified_at: "2026-08-20"
+content_hash: "8f5812c4d9ceb63b"
 ---
 
-The highly popular and quirky, idle game that you want to actively keep playing. Explore, craft, gather & manage resources, find secrets and build your base out of nothing! Buy land to explore and expand!
+A 2D open-world game about gathering, crafting and buying more land to gather on, drawn from Stardew Valley, Terraria and Zelda. You start with nothing on one small island, build a base, learn skills and blueprints, and decide for yourself whether to end up a farmer, a merchant, a builder or a dungeon raider.

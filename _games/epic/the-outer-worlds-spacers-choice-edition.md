@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-outer-worlds-spacers-choice-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,7 +138,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "ef0300ef8f50c886"
+content_hash: "adfbd883ab1a1d91"
 ---
 
 The remastered edition of Obsidian's science-fiction role-playing game, bundling the base game with all of its add-on content. You come out of cryosleep on a colonist ship that never arrived, and pick your way through a corporate-run colony as a character who can be as capable or as hopeless as you care to build.

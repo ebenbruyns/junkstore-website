@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fallout-a-post-nuclear-role-playing-game/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -136,7 +142,7 @@ owned: true
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
 last_modified_at: "2026-08-20"
-content_hash: "55f804efab469de2"
+content_hash: "49a3bcc68813eea0"
 ---
 
 The 1997 original, an isometric post-apocalyptic role-playing game built on the SPECIAL system, where the character you make decides which routes through a problem are even available. Your vault's water recycler has failed, so you are sent out into the ruins of a lost civilisation to find a replacement chip, talking, sneaking or shooting past mutants, gangsters and robots on the way.

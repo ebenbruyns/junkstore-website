@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/butcher/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-04-01"
-content_hash: "fb29c502b36ce7ff"
+last_modified_at: "2026-08-20"
+content_hash: "2bd7ead02853851e"
 ---
 
-Butcher is a fast-paced 2D shooter game and a blood-soaked love letter to the early 90s. As a cyborg programmed to eradicate the last remains of humanity, your sole purpose is to well... annihilate anything that moves.
-
-So grab your weapon of choice (from chainsaw, through shotgun, to grenade launcher) and kill your way through underground hideouts, post-apocalyptic cities, jungles and more. And if you're feeling creative, there are plenty other ways of ending your enemies' misery - hooks, lava pits, saws... no death will ever be the same.
+A fast, extremely violent 2D shooter in pixel art, built for quick deaths and quicker restarts. You play the machine sent to finish off what is left of humanity, and the levels are short arenas that reward reflexes over planning.
