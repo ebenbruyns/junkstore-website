@@ -135,10 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "c8ce3e98b0091301"
+last_modified_at: "2026-08-20"
+content_hash: "b8e412ae63a8f6e1"
 ---
 
-At the dawn of the 22nd century, the conquest of space and the colonization of the solar system is being monopolized by several huge and ambitious mega-corporations. Although extremely delicate and vulnerable, a balance is maintained by these companies. At the very edge of the solar system the companies make a discovery which will shift the technological advantage and upset the balance. And so a new conflict is born: "The Jupiter Incident".
-
-Nexus - The Jupiter Incident is a real-time mission-based tactical space game featuring spectacular real time battles and breathtaking motion picture quality. Focus on tactics and action as you control up to a dozen battleships encountering aliens, unknown solar systems and astrophysical phenomena in your struggle to save Earth.
+A tactical space combat game set at the start of the 22nd century, with the solar system carved up between mega-corporations until a discovery at its edge upsets the balance between them. You command ships rather than pilot them, assigning power and targets from a distance across a mission-based campaign.

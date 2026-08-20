@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "21d7e4f461cedfdd"
+last_modified_at: "2026-08-20"
+content_hash: "97a0304abc19ede3"
 ---
 
-BioShock 2 is the second game of the BioShock series and the sequel to BioShock. It continues the grand storyline of the underwater metropolis Rapture. BioShock 2 capitalizes and improves upon the high-quality effects, unique gameplay elements, and immersive atmosphere that defined the first game. It explores more brutal gameplay than its predecessor, with new enemies, weapons, Plasmids, and Gene Tonics.
+Set about ten years after the first game, with Rapture still standing and girls going missing from the coast above it. This time you play a Big Daddy, one of the armoured divers from the original, walking the flooded city after an enemy you cannot see. This is the original 2010 release rather than the remaster.

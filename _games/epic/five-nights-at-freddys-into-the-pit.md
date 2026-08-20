@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "47426cfe59e77b59"
+last_modified_at: "2026-08-20"
+content_hash: "7012f5c7ab8709f3"
 ---
 
-Survive five nights of terror in this chilling adventure game. Travel between time periods to solve puzzles, gather clues, and outrun the threat pursuing you. Move swiftly and stay hidden, and you may just survive. But be careful—it's not just your own life that’s on the line.
+A side story in the Five Nights at Freddy's series, played as Oswald, a bored kid who climbs into the ball pit at a run-down pizzeria and comes out in the past. You move between the two time periods gathering clues and solving puzzles, hiding from something that follows you across both.

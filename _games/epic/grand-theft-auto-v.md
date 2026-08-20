@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "62ee32421aeb5acf"
+last_modified_at: "2026-08-20"
+content_hash: "8fd22558f09b7cf9"
 ---
 
-Grand Theft Auto V is a vast open world game set in Los Santos, a sprawling sun-soaked metropolis struggling to stay afloat in an era of economic uncertainty and cheap reality TV. The game blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game’s three lead characters, playing all sides of the game’s interwoven story.
+Rockstar's open-world crime game, set across Los Santos and the country around it. You switch between three criminals, a street hustler, a retired bank robber and an unstable career psychopath, whose separate messes drag them into running heists together for people none of them can trust.

@@ -135,10 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "138391935cb715bb"
+last_modified_at: "2026-08-20"
+content_hash: "9b3c947c813b29b5"
 ---
 
-The US President must save the Earth from alien overlord Zinyak using superpowers and strange weapons in the wildest open world game ever. Includes all available DLC!
-
-The epic conclusion to the game that changed all the rules! The Saints have gone from the crackhouse to the White House—but the Earth has been invaded and it’s up to you to free the world from Overlord Zinyak and his alien empire. With homies new and old, superpowers and strange weapons, you must save the world in the wildest open world game ever! And this edition even includes all available DLC!
+The one where the gang leader becomes President of the United States and then has to fight off an alien invasion with superpowers. Re-Elected collects 25 add-on packs on top of the base game, including both story expansions, Enter the Dominatrix and How the Saints Save Christmas.

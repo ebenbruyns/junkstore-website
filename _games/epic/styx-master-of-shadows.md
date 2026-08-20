@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-01-01"
-content_hash: "24dc9c7435bd5175"
+last_modified_at: "2026-08-20"
+content_hash: "7b8e845ef4483796"
 ---
 
-Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.
+A stealth game with role-playing elements, played as Styx, a two-hundred-year-old goblin picking his way up the Tower of Akenash. Humans and elves guard the World-Tree at its centre and the amber it produces, and Styx is there for the amber and for what it might tell him about his own origins.

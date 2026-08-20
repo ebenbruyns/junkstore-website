@@ -123,17 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "ca7f06f9da5c241c"
+last_modified_at: "2026-08-20"
+content_hash: "e3aa9b9fdaf069cc"
 ---
 
-In its core Max: The Curse of Brotherhood is a physics-based puzzle/platformer and set in a 2.5D environment with a free and cinematic camera. The game has 7 chapters and 20 levels in total All levels are connected so the game feels like one long journey. Besides platforming, the gameplay twist is the magic marker which introduces a creative and open approach to how puzzles can be solved. Throughout the game the magic marker will gain different powers.
-
-The five powers are
-1. Earth pillars. You can create pillars from the earth to reach higher grounds.
-2. Tree branches - You can grow trees to use them as platforms, springboards, rafts and moveable objects. Branches also catch fire.
-3. Vines which work like ropes. You can crawl and swing in vines, but vines can also be used to tie objects together.
-4. Water streams can be shaped freely and will move objects as well as Max along their path.
-5. You must destroy obstacles and defeat Mustacho’s minions.
-
-Each of the five powers are introduced in settings similar to the power themselves. The magic marker is triggered by pressing and holding RT and controlled by the right analog stick of the Xbox One controller and while controlling the magic marker Max cannot move at all.
+A cinematic puzzle platformer in which Max goes after his younger brother Felix, taken from him into a hostile world. His only tool is a magic marker, used to draw new pieces of the landscape into a scene so that each obstacle turns into something he can climb, swing from or wash away.

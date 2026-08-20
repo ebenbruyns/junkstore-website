@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-01-01"
-content_hash: "be6f345ff7b95b2c"
+last_modified_at: "2026-08-20"
+content_hash: "529901ab40e0c58f"
 ---
 
-Chivalry 2 is a multiplayer first person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era - from clashing swords, to storms of flaming arrows, to sprawling castle sieges and more.
+A multiplayer first-person melee game built around the set pieces of medieval film battles. Up to 64 players fight at once, laying siege to castles with catapults, burning villages and swinging swords in crowded, messy formations.

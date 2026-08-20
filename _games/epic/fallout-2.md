@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-08-01"
-content_hash: "cb8776c980fe9f29"
+last_modified_at: "2026-08-20"
+content_hash: "559415f8bf5a2d1d"
 ---
 
-Fallout® 2 is the sequel to the critically acclaimed game that took RPG'ing out of the dungeons and into a dynamic, apocalyptic retro-future. Mastering your character's skills and traits for survival, Fallout® 2 challenges you to endure in a post-nuclear world
+The sequel, set eighty years on, in which you leave a primitive village to find a terraforming kit that will keep it alive. The road there is strewn with radiation, mutants with ambitions, and a steady supply of people lying to you.

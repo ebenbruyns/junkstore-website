@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "fe2ff18963d9ae57"
+last_modified_at: "2026-08-20"
+content_hash: "a2db902dbe69564e"
 ---
 
-Presented in the style of a TV series, Alan Wake features the trademark Remedy storytelling and pulse-pounding action sequences. As players dive deeper into the mystery, they'll face overwhelming odds, plot twists, and cliffhangers.
+A third-person thriller in which a novelist hunting for his missing wife around the town of Bright Falls starts turning up pages of a horror story he cannot remember writing, and which keeps coming true ahead of him. It is built like a television series, and its fights turn on burning the dark off an enemy with a torch before a bullet will touch them.

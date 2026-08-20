@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-02-01"
-content_hash: "a68d7f958d2b10f0"
+last_modified_at: "2026-08-20"
+content_hash: "ec17df34cf018e28"
 ---
 
-Indebted to the wrong people, private investigator Booker DeWitt must take on an impossible task: travel to Columbia, a flying city above the clouds, and rescue a mysterious woman named Elizabeth. Includes Burial at Sea Episodes 1/2 and Clash in the Clouds.
+A first-person shooter set in Columbia, a city held in the sky by a mix of engineering and faith. You play Booker DeWitt, a private investigator deep in debt to the wrong people, sent to bring back Elizabeth, a woman shut away there since childhood who can tear openings into other worlds. This edition takes in Burial at Sea and Clash in the Clouds.

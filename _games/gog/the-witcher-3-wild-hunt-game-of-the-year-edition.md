@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-08-01"
-content_hash: "971e5259457e011e"
+last_modified_at: "2026-08-20"
+content_hash: "0900e2d20992d532"
 ---
 
-Become a professional monster slayer and embark on an adventure of epic proportions! Upon its release, The Witcher 3: Wild Hunt became an instant classic, claiming over 250 Game of the Year awards. Now you can enjoy this huge, over 100-hour long, open-world adventure along with both its story-driven expansions worth an extra 50 hours of gameplay. This edition includes all additional content - new weapons, armor, companion outfits, new game mode and side quests.
+An open-world role-playing game in which Geralt of Rivia, a monster hunter for hire, takes a contract to find Ciri, a young woman being pursued across a continent already wrecked by war. The Game of the Year edition adds both expansions, Hearts of Stone and Blood and Wine, and every smaller add-on released for it.

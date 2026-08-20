@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "508b9540591e5b57"
+last_modified_at: "2026-08-20"
+content_hash: "4aae2cdc7151c65b"
 ---
 
-Dishonored 2 is set 15 years after the Lord Regent has been vanquished. An otherworldly usurper has seized Empress Emily Kaldwin’s throne. As Emily or Corvo, travel to Karnaca to track down your enemies and take back what’s rightfully yours. 
+A first-person stealth game in which you play Corvo Attano, bodyguard to an empress you are framed for murdering. You move through the plague-ridden city of Dunwall with blink teleportation, possession and a folding blade, and each mission can be finished without killing anyone at all, which changes how the city ends up.

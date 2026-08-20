@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "f9f0163bf62ecef3"
+last_modified_at: "2026-08-20"
+content_hash: "15b05379cd5c882f"
 ---
 
-Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.
+A quiet puzzle game about walking Ida, a silent princess, through buildings that could not exist. You rotate and slide the architecture until an impossible staircase lines up into a path, and this expanded release carries more of them than the original.

@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "ac36e4dc7bb9d625"
+last_modified_at: "2026-08-20"
+content_hash: "498f9621ee022183"
 ---
 
-Enter your television to defeat the evil Rez by collecting remotes to open worlds inside your tv. You are a gecko with all the usual platform hero skills such as jump, fire and close range attack, but also suction cups to help you scale walls, a tongue to pick up those tricky to get power-ups and plenty of wise-cracks to keep you amused. Use them all to make your way through TV land searching for the remotes, collecting pickups, power-ups and killing TVs.
+A 1995 side-scrolling platformer starring a gecko who gets pulled into the television and has to work his way out through channels of parody. Gex fights with his tongue and tail across five worlds of film and TV send-ups, wisecracking the whole way through.

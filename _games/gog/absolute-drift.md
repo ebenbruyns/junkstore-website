@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "71f808699c95f6cb"
+last_modified_at: "2026-08-20"
+content_hash: "54c778c7a51ea9e9"
 ---
 
-This is a drifting experience like no other. Journey from apprentice to master as you hone your skill in a gorgeous minimalist world. Push yourself to the limit on drifting tracks and wild mountain roads until you finally master the art of drifting.
+A top-down driving game built entirely around drifting, run across 34 tracks in a stark, near-monochrome world. The free Zen Edition update added night events, replays and ghost cars, so you can drive against a friend's best run or the fastest in the world.

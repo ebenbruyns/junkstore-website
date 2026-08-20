@@ -132,8 +132,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "63df6fe7448a6a5f"
+last_modified_at: "2026-08-20"
+content_hash: "d0a8833b0990eb5d"
 ---
 
-Feel the Heat in New Vegas! Not even nuclear fallout could slow the hustle of Sin City. Explore the vast expanses of the desert wastelands and see the Great Southwest as could only be imagined in Fallout.
+Obsidian's 2010 Fallout, set in a Mojave where rival factions are fighting over Hoover Dam and the Vegas strip. You open the game shot in the head and left in a shallow grave, then pick a side or crown yourself, with V.A.T.S. targeting, weapon modding and an optional hardcore mode.

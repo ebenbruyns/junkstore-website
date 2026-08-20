@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-04-01"
-content_hash: "930587230594623b"
+last_modified_at: "2026-08-20"
+content_hash: "7a8911565b07be48"
 ---
 
-Warhammer 40,000: Gladius – Relics of War is the first turn-based 4X strategy game set in the Warhammer 40,000 universe. Four factions will engage in a brutal war for dominance over the planet’s resources.
+The first turn-based 4X strategy game set in Warhammer 40,000, fought over Gladius Prime, a colony world where digging up the relics woke something buried with them. You take the Astra Militarum, Space Marines, Orks or Necrons, each with its own technology tree and its own storyline. There is no diplomacy here to fall back on, so the only way out is to be the last faction standing.

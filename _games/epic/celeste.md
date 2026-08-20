@@ -131,8 +131,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-06-01"
-content_hash: "922ecf614dd0a603"
+last_modified_at: "2026-08-20"
+content_hash: "225a282cd3bb1fe0"
 ---
 
-Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.
+A precise, difficult platformer about Madeline climbing a mountain while her own anxiety climbs with her. There are more than 700 screens of it, each one a small puzzle of dashes and wall jumps, with harder B-side versions to unlock once you have cleared a chapter.

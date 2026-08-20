@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "5e01a3b2ecfe71ec"
+last_modified_at: "2026-08-20"
+content_hash: "3b14525f18aa3825"
 ---
 
-BioShock is a horror-themed first-person shooter set in a steampunk underwater dystopia. The player is urged to turn everything into a weapon: biologically modifying their own body with Plasmids, hacking devices and systems, upgrading their weapons, crafting new ammo variants, and experimenting with different battle techniques are all possible. The game is described by the developers as a spiritual successor to their previous PC title System Shock 2. BioShock received high praise in critical reviews for its atmospheric audio and visual quality, absorbing and original plot and its unique gaming experience.
+The 2007 shooter set in Rapture, an undersea city built as a haven for great minds and long since fallen apart. You carry conventional weapons and also rewrite your own DNA with injectable plasmids, so a fight can be settled by electrifying the water an enemy is standing in or freezing them and swinging a wrench.

@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "116f1e0d6a722d75"
+last_modified_at: "2026-08-20"
+content_hash: "8c4e1590014f7620"
 ---
 
-Build a civilization that will stand the test of time! Choose from dozens of unique races and make a name for yourself across the galaxy through diplomacy, espionage, technological advances, and more.
+A 4X strategy game played at unusual scale, on maps holding anywhere from 16 to 100 rival powers. You take humanity or one of the alien civilisations, each with its own technology tree and ship parts, and can win by military conquest, cultural domination, technological ascension or political alliance rather than one fixed goal. It bundles the Crusade and Retribution expansions, and ships are built in a custom designer instead of picked off a list.

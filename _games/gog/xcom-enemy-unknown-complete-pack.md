@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-04-01"
-content_hash: "347da47500ed236f"
+last_modified_at: "2026-08-20"
+content_hash: "4fd90098c2265aec"
 ---
 
-From the makers of Sid Meier’s Civilization comes a game about civilization’s last stand. As the commander of an elite paramilitary organization known as XCOM, you control Earth’s defences against a terrifying alien invasion. This package includes the award-winning XCOM: Enemy Unknown and XCOM: Enemy Within expansion, plus all of the released add-on content.
+Firaxis's 2012 remake of the strategy classic, where you run XCOM, a secret organisation set against an alien invasion. It splits between a base layer of research, funding and recruitment, and turn-based squad fights where a soldier who dies is gone for good. The Complete Pack takes in the Enemy Within expansion along with the smaller add-ons.

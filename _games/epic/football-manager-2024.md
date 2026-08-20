@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "e407b41a2a520df6"
+last_modified_at: "2026-08-20"
+content_hash: "0bb1202e7883bf85"
 ---
 
-Progress never stops when you're pursuing footballing greatness. Gameplay upgrades empower you to develop a blueprint for success on and off the pitch. Pre-order for 10% off and Early Access*.
+The 2024 edition of the football management series, played from the manager's chair rather than on the pitch. You handle transfers, tactics, training and the dressing room across a very large number of licensed leagues, and this edition was the first to carry the Japanese J1, J2 and J3 leagues.

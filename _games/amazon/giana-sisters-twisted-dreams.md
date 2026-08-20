@@ -123,10 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "843f3af5ae74c857"
+last_modified_at: "2026-08-20"
+content_hash: "bdd1d9000bfc47c1"
 ---
 
-Giana Sisters: Twisted Dreams is a blistering hardcore platformer with contrasting worlds. Warp Giana’s vivid dreams to alter your abilities and destroy the twisted creatures lurking within. Giana Sisters: Twisted Dreams combines the challenge of retro era platforming with graphics that pack a visual punch and tight controls.
-
-Fluidly morph between two dynamically different dream worlds to solve puzzles and combat grueling enemies. Players will have to intertwine sweet Giana's twirling jump attack with Punk Giana's hammering dash attack to survive the dualling dimensions.
+A hard platformer with one button that flips the entire level between two versions of a dream, changing the art, the music and what Giana can do in the same instant. Getting through a room usually means switching back and forth mid-jump rather than picking one form and staying in it.

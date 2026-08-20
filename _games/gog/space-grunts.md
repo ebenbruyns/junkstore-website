@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-05-01"
-content_hash: "736918fd52330d0b"
+last_modified_at: "2026-08-20"
+content_hash: "50c0cfe7a316b2c0"
 ---
 
-The year 2476, Earth's space-federation has been building moon-bases across the galaxy. One of those moon-bases has been sending a distress signal. Space Grunts are a group of intergalactic "problem" solvers, sent to investigate..
+A turn-based roguelike set in a moon base that has started sending a distress signal. Turns resolve the instant you move, so it plays at arcade speed despite being turn-based, and picking a Leader, Enforcer or Tech junky changes the items and weapons you find inside.

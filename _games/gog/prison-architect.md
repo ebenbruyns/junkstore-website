@@ -135,12 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "aeba6f30b77f8387"
+last_modified_at: "2026-08-20"
+content_hash: "6544da4c1dd2e471"
 ---
 
-Welcome Wardens!
-
-Only the world’s most ruthless Warden can contain the world’s most ruthless inmates. Design and develop your personalized penitentiary in Prison Architect.
-
-
+A management sim about designing and running a prison, from cell blocks and canteens to staffing and daily routine. You balance budget, security and inmate needs, and watch riots, escapes and small oversights spread from whatever you got wrong.

@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "3ef08cecba4aed62"
+last_modified_at: "2026-08-20"
+content_hash: "977a221ad933eaa7"
 ---
 
-DREDGE is a single-player fishing adventure with a sinister undercurrent. Sell your catch, upgrade your boat, and dredge the depths for long-buried secrets. Explore a mysterious archipelago and discover why some things are best left forgotten.
+A fishing game with a horror story running underneath it. You captain a trawler around a remote archipelago, selling your catch and upgrading the boat, and the further out you sail and the later you stay, the less what you haul up looks like fish.

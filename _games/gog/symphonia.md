@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "c73b638eac5d7dc4"
+last_modified_at: "2026-08-20"
+content_hash: "bc872b9162148c2b"
 ---
 
-Embody a violinist and awaken a gigantic, forsaken world in this highly poetic platformer! Using your violin and bow, move towards the core of the realm to understand your role in this universe and play the best Concerto!
+A non-violent platformer set in a place that runs on music and has been going quiet since its orchestra disappeared. You play Philemon, a violinist brought back into that decline, and the violin and bow double as your means of getting around while you gather players for a new orchestra.

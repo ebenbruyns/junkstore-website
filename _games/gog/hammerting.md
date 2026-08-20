@@ -135,12 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "d32badd6fa19a22f"
+last_modified_at: "2026-08-20"
+content_hash: "5ee884b0fcb46c82"
 ---
 
-Hammerting is a vertical dwarven mining colony sim with RPG elements.
-
-Manage a clan of colorful dwarves, establish an epic mining operation, craft legendary swords and delve deep for greater glory, riches... and danger.
-
-With a war raging on the surface, the dwarves pledge to delve deep and, as the master craftspeople they are, produce and supply whatever is needed. From humble beginnings, you start with a few, hurried dwarves who need to set up operations. Ultimately, your small clan of dwarves will be known throughout the Upper Realms for their skill, and the base will span kilometers.
+A colony management game about a dwarven mine that grows downward rather than across. You dig a clan's operation deeper into the mountains of Mara, mining and crafting weapons and gear, and send them up to the allies of your choice in the war going on above ground.

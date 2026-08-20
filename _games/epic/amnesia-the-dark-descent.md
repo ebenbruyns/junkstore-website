@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "190f9d8f77d366d9"
+last_modified_at: "2026-08-20"
+content_hash: "2306bac093db91d6"
 ---
 
-Amnesia: The Dark Descent, a first person survival horror. A game about immersion, discovery and living through a nightmare. An experience that will chill you to the core.
+A first-person survival horror game in which you wake in a castle with your memory gone and something already hunting you through it. You have nothing to fight back with, so it becomes a matter of hiding, keeping a lamp lit, and staying out of a darkness that eats at your mind the longer you sit in it.

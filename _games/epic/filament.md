@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "ab9653477ad819ba"
+last_modified_at: "2026-08-20"
+content_hash: "f7c8259fa5d0176e"
 ---
 
-Solve challenging cable-based puzzles and uncover what really happened to the crew of The Alabaster. Now with Hint System (for those ultra tricky puzzles).
+A puzzle game about dragging cables around obstacles to light every point in a room, set aboard the Alabaster, a ship whose crew has gone. Between puzzles you piece together what happened to them, and a hint system was added for the harder ones.

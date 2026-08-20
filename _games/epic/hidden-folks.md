@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "328fe95ebb5f2737"
+last_modified_at: "2026-08-20"
+content_hash: "a6766ec3033d85c8"
 ---
 
-Search for hidden folks in hand-drawn, interactive, miniature landscapes. Unfurl tent flaps, cut through bushes, slam doors, and poke some crocodiles! Rooooaaaarrrr!!!!!
+A hand-drawn hidden-object game across 32 monochrome landscapes, where you pull back tent flaps, cut through bushes and slam doors to shake loose the people you are looking for. There are more than 300 targets in all, and every interaction is scored with sound effects made by mouth.

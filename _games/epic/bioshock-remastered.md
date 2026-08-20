@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-02-01"
-content_hash: "0fb3ce0beec181f6"
+last_modified_at: "2026-08-20"
+content_hash: "4bba5d687d811b3c"
 ---
 
-Explore the undersea city of Rapture, a haven for society's greatest minds that has devolved into a dystopian nightmare wrought by one man's hubris. Includes Museum of Orphaned Concepts, Challenge Rooms and Director's Commentary - Imagining BioShock.
+The remastered version of the 2007 shooter set in Rapture, an underwater city built as a utopia for great minds and long since collapsed. You move through its flooded halls with a mix of firearms and genetic plasmids, learning who built the place and what went wrong.

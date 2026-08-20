@@ -135,9 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "4d1ec7a91149024d"
+last_modified_at: "2026-08-20"
+content_hash: "d62bb4ea4ae93736"
 ---
 
-Prepare for the Future™
-Experience the most acclaimed game of 2008 like never before with Fallout 3: Game of the Year Edition. Create a character of your choosing and descend into a post-apocalyptic world where every minute is a fight for survival
+Bethesda's 2008 Fallout, which moved the series into first person and out into the ruins of Washington DC. You leave Vault 101 looking for your father and make your own way through a wasteland of radiation, super mutants and raiders. The Game of the Year edition adds all five add-ons, Broken Steel and Point Lookout among them.

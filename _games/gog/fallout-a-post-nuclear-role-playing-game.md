@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "8401b672a1724b89"
+last_modified_at: "2026-08-20"
+content_hash: "55f804efab469de2"
 ---
 
-You've just unearthed the classic post-apocalyptic role-playing game that revitalized the entire CRPG genre. Make the right decisions or you could end up as another fallen hero in the wastelands…
+The 1997 original, an isometric post-apocalyptic role-playing game built on the SPECIAL system, where the character you make decides which routes through a problem are even available. Your vault's water recycler has failed, so you are sent out into the ruins of a lost civilisation to find a replacement chip, talking, sneaking or shooting past mutants, gangsters and robots on the way.

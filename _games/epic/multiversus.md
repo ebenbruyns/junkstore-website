@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/multiversus/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: true
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -115,7 +121,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Works out of the box!<br>\nCan play in Epic offline mode as it is no longer an online game."
+notes: Only local or offline matches.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,10 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-03-01"
-content_hash: "f79fd6740e0bf25e"
+last_modified_at: "2026-08-20"
+content_hash: "4c5fee29242b4be1"
 ---
 
-MultiVersus is a free-to-play platform fighter that brings the depth of iconic WB stars to life across the nearly endless possibilities of play.
-
-MultiVersus was taken offline permanently and delisted from storefronts on May 30, 2025, while remaining playable through its offline modes.
+A free-to-play platform fighter built around Warner Bros characters, played in teams of two as much as one on one. Worth knowing before you install: the official servers were shut down for good on 30 May 2025, so there is no online matchmaking left. It still runs offline for local multiplayer, but only if you already had access to it.

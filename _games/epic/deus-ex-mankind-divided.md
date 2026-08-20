@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-01-01"
-content_hash: "f46e9f5a2f390d82"
+last_modified_at: "2026-08-20"
+content_hash: "d8679caef83a66ef"
 ---
 
-Now an experienced covert operative, Adam Jensen is forced to operate in a world that has grown to despise his kind. Armed with new state-of-the-art weapons and augmentations, he must choose the right approach, along with who to trust, to unravel a vast worldwide conspiracy.
+Set in 2029, with mechanically augmented people segregated from everyone else and blamed for the terror attacks covering a wider conspiracy. You play Adam Jensen, an augmented agent working among people who despise what he is, and the weapons and augmentations you pick decide how each problem gets solved, by talking, sneaking or shooting.

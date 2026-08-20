@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "7f4ab50b5a73500b"
+last_modified_at: "2026-08-20"
+content_hash: "a8cbf280ece17f94"
 ---
 
-Agony is a first-person, survival horror set in hell. You will begin your journey as a tormented soul within the depths of hell without any memories about your past. The special ability to control people on your path, and possess demons, gives you the measures to survive.
+A first-person survival horror game set in hell, played as a tormented soul with no memory of who it was. You have no way to fight, only the ability to possess the people and demons you meet, and the game is built as a semi-open world with several routes and several endings rather than one corridor.

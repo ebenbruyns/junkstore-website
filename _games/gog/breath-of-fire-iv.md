@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "5b50880e7540f125"
+last_modified_at: "2026-08-20"
+content_hash: "eca41d5d4a65d82d"
 ---
 
-Breath of Fire IV is a single-player game that continues the story with these "dragon people," who gave their lives to eradicate the evil goddess and restore peace in their world. This time around, battle has broken out between two powerful continents, and the fair Princess Elena has disappeared during a tour of the war-torn region. The princess's sister, Nina, who reigns o'er the Windia Kingdom, vows to retrieve her missing sibling. She meets Ryu along the way, who joins the epic quest
+A turn-based role-playing game that runs two stories against each other: Ryu, who can take dragon forms in battle, and Fou-Lu, an emperor from a thousand years earlier who is also playable and whose path keeps crossing his. Fights turn on chaining party members into combo actions.

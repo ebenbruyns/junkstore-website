@@ -251,6 +251,19 @@ button:focus,
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
+/* Delisted pill — the game can no longer be bought on this storefront, so it
+   sits beside the store badge rather than with the DOS/ScummVM engine chips:
+   it qualifies where you'd buy the game, not how it runs. Solid dark fill for
+   the same reason as previously-free, so it stays readable over hero art. */
+.hero-detail.delisted-hero {
+  background: #a4161a;        /* white on this is 7.75:1 — clears WCAG AAA */
+  border: 1px solid #ffffff;  /* white edge keeps it legible over any hero art */
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
 .hero-detail.community-tested {
   margin-left: auto;          /* push to far right of .hero-meta flex row */
   background: #00adb5;        /* solid teal, doesn't blend with hero artwork */
@@ -772,6 +785,26 @@ button:focus,
 .external-link:hover {
   text-decoration: none;
   filter: brightness(1.1);
+}
+
+/* Delisted storefront entry. Rendered as a span rather than a link because
+   the store page is gone and clicking it would only reach a 404. Kept in the
+   row so the reader can still see where the game was sold, but muted and
+   struck through so it does not read as somewhere to go. */
+.external-link--gone {
+  background: #3a3f47;
+  color: #d7dbe0;
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+  cursor: not-allowed;
+  box-shadow: none;
+  opacity: 0.85;
+}
+
+.external-link--gone:hover {
+  filter: none;
+  transform: none;
+  box-shadow: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {

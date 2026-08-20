@@ -84,6 +84,9 @@ layout: null
     <h1 class="hero-title">{{ page.game_title }}</h1>
     <div class="hero-meta" data-game-slug="{{ page.slug }}" data-game-storefront="{{ page.storefront_key }}" data-game-title="{{ page.game_title | escape }}" data-game-aliases="{{ page.free_games_aliases | default: empty | jsonify | escape }}">
       <span class="store-badge {{ page.storefront_key }}">{{ page.storefront }}</span>
+      {% if page.delisted %}
+      <span class="hero-detail delisted-hero" title="No longer available to buy on this store">Delisted</span>
+      {% endif %}
       {% if page.date_tested %}
       <span class="hero-detail">Tested {{ page.date_tested }}</span>
       {% endif %}
@@ -529,7 +532,16 @@ layout: null
       <h2>External Resources</h2>
       <div class="external-links">
         {% if page.store_url and page.store_url != "" %}
+          {% if page.delisted %}
+        {%- comment -%}
+          The store page is gone, so linking to it just serves a 404. Keep the
+          entry as plain text: it still tells the reader where the game used
+          to be sold, without sending them somewhere broken.
+        {%- endcomment -%}
+        <span class="external-link {{ page.storefront_key }} external-link--gone" title="Removed from the {{ page.storefront }} store — this page no longer exists">{{ page.storefront }} Store (delisted)</span>
+          {% else %}
         <a href="{{ page.store_url }}" target="_blank" rel="noopener" class="external-link {{ page.storefront_key }}">{{ page.storefront }} Store</a>
+          {% endif %}
         {% endif %}
         {% if page.pcgamingwiki_url and page.pcgamingwiki_url != "" %}
         <a href="{{ page.pcgamingwiki_url }}" target="_blank" rel="noopener" class="external-link pcgaming">PCGamingWiki</a>

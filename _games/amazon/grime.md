@@ -123,8 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-11-01"
-content_hash: "2ae92db991c006f2"
+last_modified_at: "2026-08-20"
+content_hash: "10edc2ab3ef34bfd"
 ---
 
-GRIME is a fast, unforgiving Action-Adventure RPG in which you crush your foes with living weapons that mutate form and function, and then consume their remains with a black hole to strengthen your vessel as you break apart a world of anatomical intrigue.
+A fast and unforgiving side-scrolling action role-playing game in which your weapons are living things that change shape as you use them. You platform and fight across a set of interconnected areas, absorbing what you kill through a black hole set in your head and growing stronger as you take apart a world built out of anatomy and stone.

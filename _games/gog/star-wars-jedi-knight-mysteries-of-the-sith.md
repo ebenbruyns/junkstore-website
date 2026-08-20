@@ -135,14 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "69d8f457a961f0ba"
+last_modified_at: "2026-08-20"
+content_hash: "de647354c291ad20"
 ---
 
-Jedi Knight: Dark Forces II includes  Jedi Knight: Dark Forces II and  Jedi Knight - Mysteries of the Sith.
-Whatever path Kyle Katarn chooses will change the face of the galaxy forever.
- Jedi Knight: Dark Forces II continues the story of Kyle Katarn, a young mercenary that successfully infiltrated the Empire, as he embarks on a quest to discover his past and learn the ways of the Jedi. In order to protect the galaxy Katarn must confront his father's murderers, led by the Dark Jedi Jerec, and stop them from obtaining the mysterious powers of a "Valley of the Jedi", a focal point for Jedi power and a Jedi burial ground. As Katarn embarks on his journey to defeat the Dark Jedi he must also shape his destiny, by choosing to follow either the light side, or the dark side.
-<br><br>
-<b>Mysteries of the Sith</b>
-<br><br>
-Kyle Katarn's adventures continue five years after the events in Dark Forces II. Invading Imperial forces advance upon a quiet Rebel outpost, interrupting Kyle's trianing of a brave new Jedi, Mara Jade. First introduced in Timothy Zahn's award-winning Star Wars™ novel, Heir to the Empire, Mara Jade combines her experiences as a smuggler and Emperor's Hand with her apprenticeship as a Jedi Knight. Mara's training will continue in the field as she makes use of four new weapons and five new Force™ powers to secure supplies for the New Republic. Meanwhile, Kyle pursues what he believes to be his destiny as he searches for secret treasures in an ancient Sith temple. Will you uncover the Mysteries of the Sith?
+The expansion to Jedi Knight: Dark Forces II, set five years later, in which you spend most of the game playing not Kyle Katarn but Mara Jade, his student and a former agent of the Emperor. She is sent to secure supplies for the New Republic while Kyle drifts toward the dark side, and it adds four weapons and five Force powers to the original.

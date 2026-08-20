@@ -131,10 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "e4a87486180d4773"
+last_modified_at: "2026-08-20"
+content_hash: "9a272ba206bc7306"
 ---
 
-Play through all nine Skywalker saga films in a game unlike any other. With over 300 playable characters, over 100 vehicles, and 23 planets to explore, a galaxy far, far away has never been more fun! 
-
-*Includes classic Obi-Wan Kenobi playable character
+All nine Skywalker films retold in LEGO, with each one playable from either end of the saga rather than in a fixed order. There are more than 300 characters, over 100 vehicles and 23 planets to fly between, and this release throws in the classic Obi-Wan Kenobi character.

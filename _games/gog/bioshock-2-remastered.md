@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-01-01"
-content_hash: "a509a7016a83ba49"
+last_modified_at: "2026-08-20"
+content_hash: "be9f7b513480c806"
 ---
 
-See Rapture through the eyes of Subject Delta, a fearsome Big Daddy prototype on a life-or-death mission to rescue his missing Little Sister. Includes Minerva’s Den and Protector Trials.
+The remaster of BioShock 2, in which you play Subject Delta, an early Big Daddy prototype searching Rapture for the Little Sister bonded to him. It runs at higher resolution than the 2010 release and takes in both add-ons, Minerva's Den and the Protector Trials.

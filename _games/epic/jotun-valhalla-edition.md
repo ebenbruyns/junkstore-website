@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-12-01"
-content_hash: "0f8865ceb544c6cd"
+last_modified_at: "2026-08-20"
+content_hash: "da36187de962bb41"
 ---
 
-Jotun is a hand-drawn action-exploration game set in Norse mythology. In Jotun, you play Thora, a Viking warrior who died an inglorious death and must prove herself to the Gods to enter Valhalla. Impress the Gods!
+A hand-drawn action game drawn from Norse myth, played as Thora, a Viking who died badly and has to earn her way into Valhalla. You explore Norse purgatory for runes and then fight the jotun, giant elementals, with a two-handed axe and whatever the gods have granted you. The Valhalla Edition adds a harder mode against all of them again.

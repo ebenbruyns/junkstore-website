@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-02-01"
-content_hash: "b75c17613ab64c2a"
+last_modified_at: "2026-08-20"
+content_hash: "028d78c3ae6b05ab"
 ---
 
-Deus Ex: Mankind Divided directly follows the aftermath of the Aug Incident, a day when mechanically augmented citizens all over the world were stripped of control over their minds and bodies, resulting in the deaths of millions of innocents. The year is now 2029, and the golden era of augmentations is over. Mechanically augmented humans have been deemed outcasts and segregated from the rest of society. Crime and acts of terror serve as a thin veil to cover up an overarching conspiracy aimed at controlling the future of mankind…
+Set in 2029, with mechanically augmented people segregated from everyone else and blamed for the terror attacks covering a wider conspiracy. You play Adam Jensen, an augmented agent working among people who despise what he is, and the weapons and augmentations you pick decide how each problem gets solved, by talking, sneaking or shooting.

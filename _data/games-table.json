@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T23:11:59.817Z",
+  "generated_at": "2026-08-20T02:12:42.483Z",
   "total_games": 1076,
   "storefronts": {
     "Epic": {
@@ -3226,9 +3226,9 @@
       "databaseId": "30647199e65341c2be84d81fa6964ff0"
     },
     {
-      "slug": "doki-doki-literature-club",
+      "slug": "doki-doki-literature-club-plus",
       "id": "a1d9b5e8-8797-4f5f-8394-81fe3b803de6",
-      "title": "Doki Doki Literature Club!",
+      "title": "Doki Doki Literature Club Plus!",
       "storefront": "Epic",
       "decky_rating": "green",
       "standalone_rating": "green",

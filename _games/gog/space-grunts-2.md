@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "5465b75e11bda426"
+last_modified_at: "2026-08-20"
+content_hash: "e5cb360c27faccfa"
 ---
 
-Space Grunts 2 combines fast turn-based gameplay with card-battling mechanics.
+The sequel, which keeps the fast turn-based roguelike structure of the first game but hands every action over to a deck of cards. Movement, attacks and item use are all played from your hand, through randomly assembled levels in a 1950s idea of science fiction.

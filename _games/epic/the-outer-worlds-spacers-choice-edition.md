@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "de55c87f4b90d236"
+last_modified_at: "2026-08-20"
+content_hash: "ef0300ef8f50c886"
 ---
 
-The Outer Worlds: Spacer’s Choice Edition is the ultimate way to play the award-winning RPG from Obsidian Entertainment and Private Division. Including the base game and all DLC, this remastered masterpiece is the absolute best version of The Outer Worlds.
+The remastered edition of Obsidian's science-fiction role-playing game, bundling the base game with all of its add-on content. You come out of cryosleep on a colonist ship that never arrived, and pick your way through a corporate-run colony as a character who can be as capable or as hopeless as you care to build.

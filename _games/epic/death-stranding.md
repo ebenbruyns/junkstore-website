@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "c832ae1fd212e899"
+last_modified_at: "2026-08-20"
+content_hash: "48e8e041db40a9bd"
 ---
 
-From legendary game creator Hideo Kojima comes an all-new, genre-defying experience. Sam Bridges must brave a world utterly transformed by the Death Stranding. Carrying the disconnected remnants of our future in his hands, he embarks on a journey to reconnect the shattered world
+Hideo Kojima's delivery game, in which you play Sam Bridges hauling cargo on foot across a broken America to reconnect the settlements left on it. The terrain is the opposition as much as anything living, and the ladders, ropes and roads other players leave behind turn up in your world through the Social Strand System.

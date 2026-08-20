@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-11-01"
-content_hash: "fa7794bbcba6ce80"
+last_modified_at: "2026-08-20"
+content_hash: "120fe755b156a5ea"
 ---
 
-You're the President now! The Saints have gone from the Penthouse to the White House - but Earth has been invaded and it’s up to you to save it with an arsenal of superpowers and strange weapons, in the wildest open world game ever.
+The one where the gang leader becomes President of the United States and then has to fight off an alien invasion with superpowers. Re-Elected collects 25 add-on packs on top of the base game, including both story expansions, Enter the Dominatrix and How the Saints Save Christmas.

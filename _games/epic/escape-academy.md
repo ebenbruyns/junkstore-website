@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-01-01"
-content_hash: "f6be06c3bc90d0e6"
+last_modified_at: "2026-08-20"
+content_hash: "0b741daf4bece755"
 ---
 
-Welcome to Escape Academy. Train to become the ultimate Escapist. Solve Puzzles. Hack Servers. Meet the Faculty. Brew the perfect cup of tea. Escape Rooms in single player or co-op with a friend - local or online!
+A puzzle game set at a school that trains professional escape artists, with more than a dozen rooms built by people who design real-world escape rooms. You can work through the whole campus alone or with a second player, in splitscreen at home or online.

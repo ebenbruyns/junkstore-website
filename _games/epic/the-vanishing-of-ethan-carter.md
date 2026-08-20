@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-04-01"
-content_hash: "55bb6ccdfa745728"
+last_modified_at: "2026-08-20"
+content_hash: "490071d7b779c76c"
 ---
 
-The Vanishing of Ethan Carter is a first-person mystery focused on exploration and discovery. As an occult-minded detective Paul Prospero, piece together the truth behind Ethan’s disappearance — and the fate of his family.
+A first-person mystery with no combat in it at all, in which an occult detective works out what happened to a missing boy and his family by reassembling the scenes of their deaths. Buying it gets you two versions, the original and the Unreal Engine 4 remaster called Redux.

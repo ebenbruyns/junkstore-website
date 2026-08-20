@@ -131,8 +131,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-06-01"
-content_hash: "3a2ab4a29d2a778c"
+last_modified_at: "2026-08-20"
+content_hash: "782f1c2196e4c882"
 ---
 
-Play as a young boy who has awakened on a mysterious island after a torrential storm. You see wild animals, long-forgotten ruins and a massive tower that beckons you to come closer. Armed with your wits and a will to overcome—and the guidance of a helpful fox—you must explore ...
+A single-player puzzle adventure played as a boy washed up on an island after a storm, with a fox for company. You work through the puzzles of its long-forgotten ruins toward a tower at the centre that keeps drawing you back to it.

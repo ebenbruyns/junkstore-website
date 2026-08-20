@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-11-01"
-content_hash: "4cdce6c4c5b51a9a"
+last_modified_at: "2026-08-20"
+content_hash: "ff2066c30b16e37e"
 ---
 
-Lovecraft’s Untold Stories is an action rogue-lite with RPG elements. Explore randomly generated levels based on Lovecraft's stories, fight cultists and monsters from the Mythos, improve your gear, solve puzzles, and find how to defeat the Great Old Ones.
+An action roguelite with role-playing elements, played through randomly generated levels built out of H.P. Lovecraft's stories. You pick one of five investigators, a private detective, a witch, a thief, a professor or a ghoul, each with its own weapons, storyline and levels, and fight cultists and Mythos creatures toward whatever will put down the Great Old Ones.

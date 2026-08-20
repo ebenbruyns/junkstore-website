@@ -123,12 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "5e1f7407a2140009"
+last_modified_at: "2026-08-20"
+content_hash: "5f3451812a146da6"
 ---
 
-Unfold the mysteries of a dystopic animal society inhabiting retrofuturistic Vancouver in a noir stealth adventure coming in 2019.
-
-Backbone is a pixel art cinematic adventure with stealth and action elements. As a private investigator Howard Lotor you are set to solve detective cases, interrogate witnesses, explore the intriguing retrofuturistic Vancouver, and sneak your way to safety using smell-based stealth mechanics.
-
-Backbone collides the visual and social contrasts of film noir with anthropomorphic animals and dystopian fiction. Crawl through the dark alleys of pixelated Vancouver, and experience the impactful storyline focused on themes of power and prejudice.
+A narrative detective adventure in a dystopian Vancouver populated by animals, played as Howard Lotor, a raccoon private investigator who is explicitly not a hero. The case he lands is the biggest of his career and the story it opens up turns out to be about him rather than the crime.

@@ -131,12 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "e6cd87b3e8cb1514"
+last_modified_at: "2026-08-20"
+content_hash: "4073cd8ec77a2dc4"
 ---
 
-The taming of the Red Planet has begun!
-
-Control your corporation, play project cards, build up production, place your cities and green areas on the map, and race for milestones and awards!
-
-Will your corporation lead the way into humanity's new era?
+The digital version of the board game, in which rival corporations compete to make Mars liveable. You spend resources on projects that raise the temperature, thicken the atmosphere and fill oceans, and every step you fund also pulls more people off Earth to settle there.

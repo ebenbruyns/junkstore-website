@@ -131,8 +131,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-05-01"
-content_hash: "2195188a5d19a898"
+last_modified_at: "2026-08-20"
+content_hash: "b243b7f60a520daf"
 ---
 
-Overcooked returns with a brand-new helping of chaotic cooking action! Journey back to the Onion Kingdom and assemble your team of chefs in classic couch co-op or online play for up to four players. Hold onto your aprons … it’s time to save the world (again!)
+A cooking game for up to four players in which a kitchen brigade races to fill orders while the kitchen itself works against them. This second game goes back to the Onion Kingdom against a new enemy called the Unbread, and adds online play to the couch co-op the first one was built on.

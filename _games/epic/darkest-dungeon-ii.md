@@ -131,8 +131,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-05-01"
-content_hash: "51dbf00e6dfba116"
+last_modified_at: "2026-08-20"
+content_hash: "3644f06064606127"
 ---
 
-The eagerly awaited follow-up to Red Hook's smash hit gothic horror RPG!  DDII will test your mettle and drive you to the brink of madness. Armor yourself with purpose and provision your party for the journey ahead. It will be arduous.
+The follow-up to Red Hook's gothic horror role-playing game, rebuilt around runs rather than a standing roster. You load four heroes into a stagecoach and drive toward a distant mountain, and the resentments that build between them on the road cost you as much as the wounds do.

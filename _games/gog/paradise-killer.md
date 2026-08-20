@@ -135,8 +135,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "8eb5c64a44d60972"
+last_modified_at: "2026-08-20"
+content_hash: "4d508854bf60f75e"
 ---
 
-Paradise Island, a world outside reality. There’s been a murder that only "investigation freak" Lady Love Dies can solve. Gather evidence and interrogate suspects in this open world adventure. You can accuse anyone, but you’ll have to prove your case in trial to convict. It’s up to you to decide who’s guilty.
+An open-world murder investigation on an island built outside reality by people trying to resurrect dead alien gods. You play Lady Love Dies, gathering evidence at your own pace, and can accuse anyone you like at the end so long as you can carry the argument at trial.

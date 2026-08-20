@@ -123,8 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "9b8a1c580a03164d"
+last_modified_at: "2026-08-20"
+content_hash: "2b43f05067deb17c"
 ---
 
-Batbarian: Testament of the Primordials is a snarky action-adventure puzzle game with a good dose of humor. Explore hundreds of secret-filled rooms, fight big bosses, gather companions for your party and use the powers of Pip -your bat buddy- to solve puzzles and escape the eldritch abyss!
+An action adventure puzzle game about a barbarian who has fallen into an abyss with only a glowing bat named Pip for company. Pip is the puzzle mechanic as much as the sidekick, and you throw fruit to steer him around hundreds of rooms full of traps, bosses and eldritch business.

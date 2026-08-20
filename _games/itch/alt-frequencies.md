@@ -123,8 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "b80b7cfecae648a3"
+last_modified_at: "2026-08-20"
+content_hash: "f61e0af7aa2dbd2f"
 ---
 
-Alt-Frequencies takes players on an audio-based journey where interactive investigation meets podcasting, and players are tasked with unravelling a mystery taking place between multiple radio stations among a disparate group of people.
+An audio mystery played entirely through a radio dial, inside a three-minute time loop nobody else knows they are in. You record fragments of one broadcast and rebroadcast them on another, and what you choose to move changes the next loop for the hosts, conspiracists, politicians, activists and one dog on the other end.

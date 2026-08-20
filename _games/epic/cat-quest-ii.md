@@ -131,8 +131,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "bb7f325ee272be3a"
+last_modified_at: "2026-08-20"
+content_hash: "b9d1181b2f952532"
 ---
 
-Open-world action-RPG in a fantasy realm of cats and dogs. CAT QUEST II lets you play solo or with a friend, as both a cat and dog! Quest in a world filled with magic, defeat monsters and collect loot in a catventure like never before!
+A 2D open-world action role-playing game set across a kingdom of cats and a kingdom of dogs at war with each other. You play both of their kings at once, thrown together against their will to win back two thrones, alone or with a second player alongside you.

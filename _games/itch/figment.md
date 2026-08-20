@@ -123,8 +123,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-11-01"
-content_hash: "8ee41a81fe323e4c"
+last_modified_at: "2026-08-20"
+content_hash: "76a33608a289c119"
 ---
 
-Figment is an action-adventure game that invites you to explore a unique surreal universe filled with music, humor and multi layered narrative.
+A musical action adventure set inside a single human mind, where new fears have taken shape as nightmares and started spreading. You play Dusty, the mind's retired courage, dragged out of retirement alongside his relentlessly cheerful friend Piper, and the bosses sing their own way through each fight.
