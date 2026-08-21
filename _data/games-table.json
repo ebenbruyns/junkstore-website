@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-20T02:12:42.483Z",
-  "total_games": 1076,
+  "generated_at": "2026-08-21T05:33:58.643Z",
+  "total_games": 1078,
   "storefronts": {
     "Epic": {
-      "total": 503,
-      "green_standalone": 442,
-      "green_decky": 453
+      "total": 504,
+      "green_standalone": 443,
+      "green_decky": 454
     },
     "GOG": {
       "total": 405,
@@ -13,8 +13,8 @@
       "green_decky": 361
     },
     "Amazon": {
-      "total": 84,
-      "green_standalone": 80,
+      "total": 85,
+      "green_standalone": 81,
       "green_decky": 0
     },
     "itch": {
@@ -831,6 +831,17 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "amzn1.adg.product.84582bbf-6d74-4d4b-b9ea-40a7ebc7da27"
+    },
+    {
+      "slug": "spray-paint-simulator",
+      "id": "amzn1.adg.product.9647fec7-00b4-4894-9438-4bcc21fae74d",
+      "title": "Spray Paint Simulator",
+      "storefront": "Amazon",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": false,
+      "publisher": "Whitethorn Games"
     },
     {
       "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
@@ -2481,6 +2492,17 @@
       "publisher": "Devolver Digital",
       "controller_input": "native",
       "databaseId": "9d4ccd48ba554809b402bf85c5806e0a"
+    },
+    {
+      "slug": "cardpocalypse",
+      "id": "Duck",
+      "title": "Cardpocalypse",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": false,
+      "publisher": "Versus Evil"
     },
     {
       "slug": "carrion",

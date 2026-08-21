@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-08-16T23:11:59.848Z",
+  "generated_at": "2026-08-21T05:35:24.848Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "albion-online",
+      "featured_in": "2026-08-21",
+      "post_url": "/blog/games-tested-2026-08-21/",
+      "title": "Albion Online",
+      "standalone_rating": "green",
+      "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/761890/capsule_231x87.jpg",
+      "vertical_artwork": "https://images.gog.com/53171d5eebad6e1ca2946f83b63e3c57fac561d1a5395486feaee953cf8f7b7a.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "cardpocalypse",
+      "featured_in": "2026-08-21",
+      "post_url": "/blog/games-tested-2026-08-21/",
+      "title": "Cardpocalypse",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/f6d4339c002941a205a98d62d10cff52eedb4e341426a9c78889111f0fc61c9c.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/c7c4509c9a0cd5df3909feb3223ff3237c86a54d7d9c701696a8a88206ac90f2.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "amazon",
+      "slug": "spray-paint-simulator",
+      "featured_in": "2026-08-21",
+      "post_url": "/blog/games-tested-2026-08-21/",
+      "title": "Spray Paint Simulator",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1811340/header.jpg",
+      "vertical_artwork": "https://images.gog.com/7677dca46dbe2f9e092cf72bb7e9519e7067991af4d98c6dbe3fa1b34accdac9.jpg?namespace=gamesdb"
+    },
     {
       "store": "epic",
       "slug": "airship-kingdoms-adrift",
@@ -90,36 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/16cbb93d11834659e6eda76c169dc73444923e4dac93497528216101853e05f6.jpg?namespace=gamesdb",
       "vertical_artwork": "https://images.gog.com/07c26125930ad808fa2ff6de999239419d18629beaf8f84e2741c92f4153bf8e.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "sol-cesto",
-      "featured_in": "2026-08-06",
-      "post_url": "/blog/games-tested-2026-08-06/",
-      "title": "Sol Cesto",
-      "standalone_rating": "green",
-      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2738490/header.jpg",
-      "vertical_artwork": "https://images.gog.com/db59c9868c1e1b221316f29f8934a366d7c3643a8088758fad6cb750a55076bb.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "weakless",
-      "featured_in": "2026-08-06",
-      "post_url": "/blog/games-tested-2026-08-06/",
-      "title": "Weakless",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/166076db45ffe8f470fda986a2ac12198d5d11588bcfa5f58c5091d79a047196.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/79b8f9f51b47bcfe96ce2c50791b530daee621f00ec969c18e058bddc0edfff8.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "zoria-age-of-shattering",
-      "featured_in": "2026-08-06",
-      "post_url": "/blog/games-tested-2026-08-06/",
-      "title": "Zoria: Age of Shattering",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/19197cbf12098540c76061ffec00bc90827c298bb41909108b54273c2b7bfc93.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/d8ab67cf72aaa449997c7ff11725fcb674bf56f6b436816d4136a86c8d0cbe39.jpg?namespace=gamesdb"
     }
   ]
 }

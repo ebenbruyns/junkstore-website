@@ -44,9 +44,9 @@ permalink: /blog/
           <span class="card-product-badge product--{{ featured_product | slugify }}">{{ featured_product }}</span>
         {% endif %}
         <span class="featured-card__date">{{ featured.date | date: "%B %d, %Y" }}</span>
-        {% if featured.read_time %}
-        <span class="featured-card__read-time">{{ featured.read_time }}</span>
-        {% endif %}
+        {% assign featured_words = featured.content | strip_html | number_of_words %}
+        {% assign featured_minutes = featured_words | divided_by: 200 | at_least: 1 %}
+        <span class="featured-card__read-time">{{ featured_minutes }} min read</span>
       </div>
       <h2 class="featured-card__title">
         <a href="{{ featured.url | relative_url }}">{{ featured.title }}</a>

@@ -9,7 +9,6 @@ excerpt: "Brief 1-2 sentence description that appears in post previews and socia
 image: /assets/images/blog/post-hero.jpg # Hero image - create if needed
 header:
   teaser: /assets/images/blog/post-thumb.jpg # Thumbnail - create if needed
-read_time: "X min read"
 toc: true # Table of contents for longer posts
 ---
 
