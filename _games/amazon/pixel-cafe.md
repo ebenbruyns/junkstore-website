@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/pixel-cafe/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "7c2f72d6be1cb6b2"
+last_modified_at: "2026-08-22"
+content_hash: "283d4980fd83af6b"
 ---
 
-Step into Pixel's shoes in this one-of-a-kind journey that bridges time, memories, and the aroma of fresh coffee. Dive deep into a city balancing its past and future. Engage in intense arcade challenges, immerse yourself in heartfelt stories, and navigate a world crafted in pixel art.
+An arcade time-management game wrapped in a visual novel, about Pixel, a small-town girl making her way in the city of Karstok, a place caught between a socialist past and a capitalist future. The work is coffee and cooking across ten very different bars, learning recipes and coping with poor conditions, and there are 50 optional Nightmare levels for anyone who finds the main run too easy. Between shifts you do up your grandmother's old house with furniture and posters. The story runs across three generations, drawn in pixel art, with an original soundtrack by Arkadiusz Reikowski.

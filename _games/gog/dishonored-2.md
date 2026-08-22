@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dishonored-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "fb2a1e42123908bf"
+last_modified_at: "2026-08-22"
+content_hash: "b8ad9ffde5695b40"
 ---
 
-Dishonored 2 is a first-person action video game and the sequel to Dishonored. It borrows many of the gameplay elements from the first opus: players define their own play style by blending action, assassination, stealth, mobility and combat. Combining tools at their disposal, players are allowed options to eliminate enemies, whether they choose to pursue them unseen or ruthlessly attack head on. Dishonored 2 features the same campaign style as its predecessor in which the protagonist must advance through a series of missions.
+The sequel to Dishonored, set fifteen years on, with an otherworldly usurper sitting on Emily Kaldwin's throne. You pick Emily or her royal protector Corvo Attano, each fully voiced and each with their own powers, and travel from Dunwall to Karnaca, a decaying coastal city where mysticism and industry collide, to take it back. Missions can be finished unseen, fought through, or some mix of the two, and the story responds to who you kill and who you spare. Signature locations include the Dust District and a madman's mansion of shifting walls and clockwork soldiers.

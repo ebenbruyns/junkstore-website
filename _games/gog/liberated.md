@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/liberated/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "33669be58dd87a66"
+last_modified_at: "2026-08-22"
+content_hash: "03ca1d55968ac506"
 ---
 
-Players will experience a story about a world where government authorities use advanced technology to manipulate the population. Civil rights are a thing of the past, with the government engaging in complete surveillance of every citizen in the world. Social media activity, online payments, and GPS location tracking from mobile devices are just some of the ways every single person is being monitored. In this world, there are insurgents resisting this oppression, fighting for their freedom, while government agents try to maintain order and control. In Liberated, players will experience both sides of this conflict, with every choice they make changing the course of the story.
+An action game staged inside a comic book, where the panels themselves are what you play through. The story is a near-future dystopia in which governments and corporations have joined up to track what people do and shape how they think, and it plays as a side-scrolling shooter with jumping, sneaking and puzzles in among the reading. The panels are hand-drawn in the tradition of Frank Miller and Will Eisner, with the look of 1940s and 50s noir cinema.

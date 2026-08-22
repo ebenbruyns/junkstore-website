@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/forma8/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,12 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "78edcf6736c16122"
+last_modified_at: "2026-08-22"
+content_hash: "5fb8a7007a6a8f4e"
 ---
 
-Explore, fight and solve puzzles. Uncover the secrets of a mysterious alien planet in this open world metroidvania adventure, where nothing is what it seems…
-
-Accidentally stranded during a crucial mission, the forma.8 probe will need to survive and accomplish the unthinkable. What really happened on this planet? Who, or what lived here? And when? What’s the secret behind its history? These are only but a handful of the questions in need of answers. Or else…everything will be lost.
-
-The peculiar visual style, coupled with a deep lore and classic action-adventure mechanics makes forma.8 a unique experience, worth savoring and enjoy to the fullest.
+A metroidvania played as forma.8, a small exploration probe stranded alone on an alien planet after an accident separated it from its companions. The job is to find a lost and powerful energy source before it is too late, working out through a large open world of ancient civilisations and buried lore, picking up power-ups that open the way further. It is drawn in hand-drawn vector graphics running at 60fps.

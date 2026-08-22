@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/tower-of-time/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "7296837e9f87b25f"
+last_modified_at: "2026-08-22"
+content_hash: "a30825953badf669"
 ---
 
-Tower of Time is an incredible adventure packed with over 50 hours of gameplay, hand-crafted levels, and a rich story told through cinematics. Taking classic RPG gameplay to the next level, Tower of Time features flexible character development, thousands of pieces of loot and equipment and the complex and tactical Arrow-Time real-time combat system.
+A party-based role-playing game set in a tower in the world of Artara, where technology met magic and it went badly. Combat is real time but built around Arrow-Time, which slows it to a crawl or pauses it outright so you can reposition and react, and the developers describe each battle as a tactical puzzle rather than something to grind through. There are seven classes, 150 enemies, 50 bosses and five difficulty levels, and an RPGlite mode that cuts the story back for players who mainly want the fighting. Permadeath is optional.

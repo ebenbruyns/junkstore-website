@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/king-of-seas/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "c206eb409122e995"
+last_modified_at: "2026-08-22"
+content_hash: "71e5e99173e483ed"
 ---
 
-King of Seas is an Action Role playing game set in a procedural pirate world. An epic adventure awaits you in a fantastic world, dotted with fights, lost islands and treasures. A universe that will keep you anchored as you struggle to become the king of all pirates.
+A pirate action role-playing game played out on open water. You take quests, trade goods between settlements that each produce something different, and fight rival pirates and sea monsters, with the bounty on your head rising after every win so worse things come looking for you. There are five hulls, sloop, brig, flute, frigate and galleon, over 900 items to fit them out with, and around 20 combat skills running from flamethrowers to voodoo rituals. Wind and weather matter, and the world redraws its shipping routes and difficulty as you take settlements.

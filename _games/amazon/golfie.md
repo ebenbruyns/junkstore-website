@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/golfie/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "b24af412edcfaf14"
+last_modified_at: "2026-08-22"
+content_hash: "49b6b306448fcdc5"
 ---
 
-Golfie is a run-based, roguelike minigolf deck builder. Play through procedurally-generated levels, build a deck of crazy card abilities, and try to beat all 18 holes. Pick your route carefully because no two runs – or shots – are the same!
+Minigolf crossed with a deckbuilder. Each single-player run is a procedurally generated set of 18 holes, and you play cards to change your shots, adding distance or elevation at the plain end and stranger powers further up. Finishing a hole over par costs energy, and when the energy is gone the run ends. Experience earned unlocks more cards for next time, and there are daily, endless and seeded runs. Up to eight people can play together, racing for the hole and collecting coins and crystals.

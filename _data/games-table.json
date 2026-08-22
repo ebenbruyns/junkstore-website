@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-21T05:33:58.643Z",
+  "generated_at": "2026-08-22T20:38:05.159Z",
   "total_games": 1078,
   "storefronts": {
     "Epic": {
       "total": 504,
       "green_standalone": 443,
-      "green_decky": 454
+      "green_decky": 455
     },
     "GOG": {
       "total": 405,
@@ -2390,7 +2390,7 @@
       "id": "22d800b8-1dd1-4651-8c8b-0d348f980acb",
       "title": "Bus Simulator 21 Next Stop",
       "storefront": "Epic",
-      "decky_rating": "yellow",
+      "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
       "cant_test_linux": false,

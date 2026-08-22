@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/auto-chess/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "8eea5e7a1a5bbfaa"
+last_modified_at: "2026-08-22"
+content_hash: "2fd2ce8f9c388b0b"
 ---
 
-Auto Chess is a multiplayer online strategy game co-developed by Dragonest Game Co.Ltd and Drodo Studio and published by Dragonest Game Co.Ltd.
+The auto battler that grew out of the Dota Auto Chess mod, released as a standalone game by Drodo. Eight players compete in the same match, drawing hero cards from a shared pool, combining and upgrading them and arranging the formation, after which the fighting resolves itself. Lineups are built from 22 races and 13 classes, and a match runs to tens of minutes.

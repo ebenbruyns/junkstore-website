@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/warhammer-40000-space-marine/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "447a694c0440d4a0"
+last_modified_at: "2026-08-22"
+content_hash: "2013a9a50dedba51"
 ---
 
-In Warhammer 40,000 Space Marine you are Captain Titus, a Space Marine of the Ultramarines chapter and a seasoned veteran of countless battles.
+You play Captain Titus of the Ultramarines, holding an Imperial Forge World against an Ork horde a million strong while a liberation fleet is on its way, with a worse threat waiting behind the Orks. The fighting is bolter and chainsword, with new weapons, upgrades, armour and abilities unlocked as you go. There is also 8 versus 8 online multiplayer, Space Marine squads against Chaos warbands, across Devastator, Assault and Tactical classes. This Anniversary Edition collects the original game with all the DLC released for it, plus the soundtrack, the original manual, the strategy guide and the artbook.

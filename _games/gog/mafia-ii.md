@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/mafia-ii/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "af1d66092a736b5a"
+last_modified_at: "2026-08-22"
+content_hash: "a28352705830584a"
 ---
 
-The storyline for Mafia II is a gritty drama and chronicles the rise of Vito Scaletta, the son of Sicilian immigrants. As the game progresses, Vito joins the Falcone crime family and becomes "a made man" along with his best friend Joe Barbaro.
+Vito Scaletta works his way up the Mafia in Empire Bay alongside his friend Joe, taking jobs of escalating reward and consequence. The setting moves out of the Second World War years and into the 1950s, with the architecture, cars, clothing and music changing as it goes, and the soundtrack drawn from artists of the period. Empire Bay covers about ten square miles. This row is the classic version of the game.

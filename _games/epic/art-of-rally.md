@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/art-of-rally/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "b3abd2feda6f672e"
+last_modified_at: "2026-08-22"
+content_hash: "26a1aa9b13186f2c"
 ---
 
-art of rally is a stylized experience inspired by the golden era of rally from the creator of Absolute Drift  Race across the world through colorful and stylized environments in top-down view.  Will you master the art of rally?
+A stylised rally game played from a top-down view, made by the person behind Absolute Drift. The career runs 91 stages across Finland, Sardinia, Norway, Japan, Germany, Kenya and Indonesia, in vintage cars from the 1960s through the 1980s, including Group B, Group S and Group A. Driving options run from beginner-friendly up to modes aimed at expert drivers, with the rally techniques to match, and there are daily and weekly leaderboard challenges plus photo and replay modes.

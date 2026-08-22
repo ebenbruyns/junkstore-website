@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/jorels-brother-and-the-most-important-game-of-the-galaxy/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "db103e1220e15786"
+last_modified_at: "2026-08-22"
+content_hash: "dffa1cdbb0f7d596"
 ---
 
-“Jorel’s Brother and The Most Important Game of the Galaxy” is a point-and-click adventure about an eight-year-old boy who lives with his eccentric family in the shadow of Jorel, his handsome and popular brother. Based on the award-winning Brazilian animation “Jorel’s Brother”.
+A point-and-click adventure based on the Brazilian animated series of the same name, played as an eight-year-old boy living in the shadow of Jorel, his handsome and popular older brother. A mysterious video game falls out of the sky and he will do anything to play it, which takes him through alien spaceships, authoritarian clowns, driving tests and a great deal of bureaucracy. The Complete Edition collects all three episodes, with art and scripts from the people who make the cartoon, more than 30 characters to talk to, minigames and a sticker album to fill.

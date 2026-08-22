@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ghost-of-a-tale/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "a96ae27f550d00e1"
+last_modified_at: "2026-08-22"
+content_hash: "61b639e54f5c3763"
 ---
 
-Ghost of a Tale is an action-RPG game in which you play as Tilo, a mouse and minstrel thrown into a perilous adventure. Through stealth and cunning you’ll be able to explore the secrets of Dwindling Heights Keep and navigate its dangers.
+An action role-playing game played as Tilo, a mouse and minstrel, in a medieval world populated only by animals. Tilo is not much of a fighter, so it leans on stealth, disguises and talking to the people you meet rather than on combat, as you work through the secrets of Dwindling Heights Keep looking for Merra, his true love. It was made by a very small team, with one person responsible for most of the art, design and code.

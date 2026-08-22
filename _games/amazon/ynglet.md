@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/ynglet/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "4e2957de668dc26f"
+last_modified_at: "2026-08-22"
+content_hash: "7915ff5dce5298cb"
 ---
 
-Swim, launch and bounce through this meditative floating platformer. A reactive soundscape creates the soundtrack to your exploration through the playful puzzles of Ynglet's hand drawn levels.
+A platformer with the platforms taken out. You jump, slide, bounce and float through an abstract sky instead, working out interlocking pockets of space, riding slipstreams, dashing into reflective pads and resting in bubbles. The soundtrack reacts to what you do, so moving composes a new melody as you go, and the art is hand-drawn in the style of margin doodles. Respawns are quick and the difficulty adjusts in fine steps.

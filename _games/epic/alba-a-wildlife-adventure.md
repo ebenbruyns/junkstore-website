@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/alba-a-wildlife-adventure/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "3bac9c4eac160c25"
+last_modified_at: "2026-08-22"
+content_hash: "f76ea6a9556b3fb9"
 ---
 
-Even the smallest person can make a big difference. Join Alba, as she sets out to save her beautiful island and its wildlife. And possibly start a revolution.
+From the studio behind Monument Valley. Alba is spending the summer with her grandparents on a Mediterranean island, and after seeing an animal in danger she and her friend Ines start a wildlife league to protect the place. You track down the island's species, clear the litter, and help townspeople until they sign up as volunteers, with her grandfather along as a keen birdwatcher. There is no rush and no time limit. The studio plants a tree for every download.

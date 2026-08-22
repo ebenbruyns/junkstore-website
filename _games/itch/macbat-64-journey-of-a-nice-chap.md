@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/macbat-64-journey-of-a-nice-chap/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "e06238c4713eae18"
+last_modified_at: "2026-08-22"
+content_hash: "fdf0da0d01329265"
 ---
 
-Macbat 64 is a low poly 3D Platformer and 4:3 loveletter to the late 90s. All the 3D platforming goodness from the late 90s is back! Search, Collect and Jump (multiple times in a row even!) like it's 1998!
+A low-poly 3D platformer presented in 4:3, made as a love letter to the late 1990s. The core of it is searching, collecting and jumping across a set of small worlds, but it keeps breaking off into other things: kart racing, 8-bit minigames, stunt driving in 80s cars, first-person shooting sections, 2.5D sections, a bar full of half-drunk characters and a temple full of water that the developer insists is not that difficult.

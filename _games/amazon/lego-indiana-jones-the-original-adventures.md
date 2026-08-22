@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/lego-indiana-jones-the-original-adventures/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "yellow"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "c91c8a5e73f042fe"
+last_modified_at: "2026-08-22"
+content_hash: "ad700cad30db0d07"
 ---
 
-Build, Battle and Brawl your way out of trouble! Play through all three classic Indiana Jones movies and relive your favorite Indy adventures in the tongue-in-cheek worlds of LEGO. Explore and Discover - Battle enemies, solve puzzles, and seek out the world's greatest treasures.
+All three of the classic Indiana Jones films played out in LEGO, with the tone kept tongue-in-cheek throughout. You fight your way past enemies, solve puzzles and go after the treasure, using the whip to disarm opponents and to swing across gaps. There are more than 60 playable characters, taking in Indy, his friends and his enemies, and a second player can join in alongside you.

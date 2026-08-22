@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/eastern-exorcist/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "ae16144fe57aacb9"
+last_modified_at: "2026-08-22"
+content_hash: "2fdd4cd55b800fe7"
 ---
 
-Eastern Exorcist is a stunning 2D side-scrolling action RPG set in a fantasy eastern world with vicious spirits and monsters. Play as a skilled exorcist against chaotic evil to fight your way through the brutal world, and experience different stories of joy and sorrow.
+A 2D side-scrolling action role-playing game set in an invented eastern world overrun by demons. You play a skilled exorcist cutting a way through them, in combat animated frame by frame. The art is hand-drawn in a Chinese ink painting style, and the cutscenes are staged in the form of Chinese opera.

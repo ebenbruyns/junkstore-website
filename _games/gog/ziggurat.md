@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ziggurat/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "ba680823cf43c481"
+last_modified_at: "2026-08-22"
+content_hash: "fd444194fcdcfa79"
 ---
 
-Dungeon-Crawling First Person Shooting at its finest! Fast-paced combat! Dozens of perks, spells and enemies! Level ups! Random Dungeons! Traps! Badass bosses! Carrots!
+A first-person shooter crossed with a dungeon crawler, played as a novice sorcerer taking a rite of passage through a randomly generated labyrinth. You work through rooms filled with traps and with treasure worth having, and there are bosses waiting at the end of them. The weapons are magical rather than conventional, magic staves, spellbooks and wands, all drawing on a mana reserve you have to keep an eye on. There is no inventory to manage and no near-identical loot to compare, and the perks are built to change how you play rather than to raise numbers, trading health for speed or ammo for mana regeneration.

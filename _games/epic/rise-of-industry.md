@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/rise-of-industry/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "411ef95574487c4e"
+last_modified_at: "2026-08-22"
+content_hash: "b0b2f439f7c21975"
 ---
 
-Test your entrepreneurial skills in the first title in the ROI series as you create & optimise production lines. As an early 20th Century industrialist, grow your empire & adapt to an ever-changing business landscape with unexpected events that could lead to boom…or bust.
+An industrial tycoon game set in the 1930s on procedurally generated maps. You build factories and production lines, move raw materials and finished goods by truck, train and airship, and supply the towns and cities that grow as you feed them. There are over 150 products, with the far end of the chain running to cars and computers. AI rivals go after the same market and can attempt a hostile takeover, random events and stock auctions keep shifting the ground, towns have their own personalities to adapt to, and you decide how much environmental damage to trade for output.

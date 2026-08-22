@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/havendock/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-03-01"
-content_hash: "da034177f9f167f7"
+last_modified_at: "2026-08-22"
+content_hash: "6967fb0d3d68309b"
 ---
 
-Breathe easy and thrive in this cozy colony sim. Build a haven for castaways, manage resources, live your best life on the ocean. Lead your humble settlement into a high-tech society.
+A cozy colony sim built out on open ocean, where the settlement starts as scrap pulled off floating debris and you lay it out how you like at your own pace. You take in survivors, teach them jobs so they can automate the work you would rather not do, and grow food and raise animals to keep everyone fed. The engineering runs from a water distiller and a coffee maker up through robots, power plants, a submarine and eventually a rocket. Boats reach the islands on the horizon, and the submarine goes down after ores and oil.

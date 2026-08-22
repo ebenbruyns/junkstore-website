@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/islets/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "77e11263ebbb06ad"
+last_modified_at: "2026-08-22"
+content_hash: "6b366d714f5f394d"
 ---
 
-Take to the sky and reunite a fragmented world in this surprisingly wholesome metroidvania! Help Iko adventure across beautiful hand-painted islands, receive letters from a quirky cast of characters, and face powerful monstrous adversaries.
+A metroidvania played as Iko, a would-be warrior flying a rickety airship between floating islands. Reigniting each island's magnetic core pulls them back together, and connecting them physically rearranges the map, opening new routes through areas you have already been. There are sky pirates and boss fights on the way, upgrades hidden in the corners, and a cast to befriend that includes a tour guide the developers themselves flag as having weird vibes. The world is hand-painted.

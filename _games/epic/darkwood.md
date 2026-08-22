@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/darkwood/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "b9fe62315351ac50"
+last_modified_at: "2026-08-22"
+content_hash: "6f0d37274740b8db"
 ---
 
-Darkwood - a new perspective on survival horror. Scavenge and explore a rich, ever-changing free-roam world by day, then hunker down in your hideout and pray for the morning light.
+A survival horror game split between day and night. Days are for exploring the woods and scavenging, dealing with inhabitants who have their own quests and their own feuds, so helping one can doom another. Nights are spent barricaded in a hideout with the generator running while whatever is outside tries to get in, and some of it cannot be killed with weapons. Landmarks are hand-crafted but the woods rearrange with each new game, there are no quest markers, and the developers say there are no jumpscares. Nightmare difficulty adds permadeath.

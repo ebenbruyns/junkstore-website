@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-battle-of-polytopia/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,8 +138,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "1d8ed5abcc67aa94"
+last_modified_at: "2026-08-22"
+content_hash: "24a3aba59a7d0242"
 ---
 
-Award-winning strategy game! Build your civilization, master tech, conquer tribes, and dominate the world map!
+A compact turn-based 4X strategy game. You take one of 16 tribes on a flat, square world and explore, expand, research technology, farm, build and fight, on maps generated fresh for every game across five sizes and several layouts. There are three modes, Perfection, Domination and Creative, diplomacy with peace treaties and embassies, stealth attacks using cloaks and daggers, and online multiplayer for up to 16 players.
