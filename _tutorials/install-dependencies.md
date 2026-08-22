@@ -98,7 +98,11 @@ help_links:
 
 <h3>If it isn't on the list</h3>
 
-<p>Older Windows games sometimes want a runtime or library the store doesn't know about. <strong><a href="/docs/user/game-page/#installing-a-dependency-that-isnt-in-the-dependencies-list">Run Exe</a></strong> is how you install one anyway, because whatever you run through it runs inside that game's own Windows environment.</p>
+<p>A game sometimes wants a runtime or library the store doesn't know about. <strong><a href="/docs/user/game-page/#installing-a-dependency-that-isnt-in-the-dependencies-list">Run Exe</a></strong> is how you install one anyway, because whatever you run through it runs inside that game's own Windows environment.</p>
+
+<div class="js-callout js-callout--tip">
+  <strong>The Visual C++ redistributable below is a worked example, not a job you need to do.</strong> On Epic it's fetched and installed with the game, as above, and on anything in the Dependencies list a toggle is all it takes. It's used here because it's the one everybody recognises. What matters is the method: any installer you can get into the game's folder can be run this way.
+</div>
 
 <div class="install-guide">
 <ol>
@@ -117,9 +121,9 @@ help_links:
 <strong>Run it with Run Exe</strong>
 <p>Open the <strong>sliders menu</strong> on the game's page, choose <strong>Run Exe in Game Dir</strong>, and pick the file you copied in.</p>
 <img src="/assets/images/tutorials/cpp-runtime/game-page-sliders.webp" alt="A Junk Store Pro game page for Alone in the Dark, with the Play Game button and the sliders and cog buttons beside it" width="1280" height="800" loading="lazy" />
-<p>The list is headed <strong>Select executable to run</strong> and shows every program found in the folder. Press <kbd>A</kbd> on the one you want.</p>
-<img src="/assets/images/tutorials/cpp-runtime/select-executable.webp" alt="The Select executable to run dialog for Prince of Persia: The Sands of Time, with a Run in same directory as executable toggle switched off above a list of five executables found in the game folder" width="2560" height="1600" loading="lazy" />
-<p><strong>Run in same directory as executable</strong> sits above the list and is off to begin with. Some installers only work when started from their own folder, because they expect their data files beside them, so if one runs and then complains about missing files, turn it on and try again. Set it before you press anything, since it applies to whatever you run next.</p>
+<p>The list is headed <strong>Select executable to run</strong> and shows every program found in the folder, the game's own launchers and installers included, so what you copied in may not be at the top. Press <kbd>A</kbd> on the one you want.</p>
+<img src="/assets/images/tutorials/cpp-runtime/select-executable.webp" alt="The Select executable to run dialog scrolled to the bottom, with VC_redist.x64.exe highlighted, the redistributable copied in by hand, sitting below the game's own executables such as INSTALL.EXE, CLEARDRV.EXE and JACK.BAT" width="1280" height="800" loading="lazy" />
+<p><strong>Run in same directory as executable</strong> is a toggle at the top of that list, above the executables and out of shot here, and it's off to begin with. Some installers only work when started from their own folder, because they expect their data files beside them, so if one runs and then complains about missing files, turn it on and try again. Set it before you press anything, since it applies to whatever you run next.</p>
 </li>
 
 <li>

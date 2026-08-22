@@ -35,7 +35,7 @@ help_discord_url: 'https://discord.gg/q7eEPAcwsW'
 <li>
 <strong>Download the redistributable</strong>
 <p>Grab it from Microsoft's own page: <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170" target="_blank" rel="noopener">Microsoft Visual C++ Redistributable downloads</a>.</p>
-<p>Take <strong>X64 Redistributable for Visual Studio 2015-2022</strong>, saved as something like <code>VC_redist.x64.exe</code>. An older game that shipped as 32-bit wants the <strong>X86</strong> one instead, so if the x64 installer makes no difference, try that.</p>
+<p>Take <strong>X64 Redistributable for Visual Studio 2015-2022</strong>, saved as something like <code>VC_redist.x64.exe</code>. A game that shipped as 32-bit wants the <strong>X86</strong> one instead, so if the x64 installer makes no difference, try that.</p>
 </li>
 
 <li>
