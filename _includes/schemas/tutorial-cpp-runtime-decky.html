@@ -1,0 +1,42 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Install the C++ Runtime in the Decky Plugin",
+  "description": "Fix game crashes and missing DLL errors in the Junk Store Decky plugin by installing the Microsoft Visual C++ redistributable into a game's folder by hand.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Download the redistributable",
+      "text": "Grab it from Microsoft's own page: Microsoft Visual C++ Redistributable downloads. Take X64 Redistributable for Visual Studio 2015-2022, saved as something like VC_redist.x64.exe. An older game that shipped as 32-bit wants the X86 one instead, so if the x64 installer makes no difference, try that."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Move the file into the game's folder",
+      "text": "Junk Store only lists what's in that folder, so the installer has to sit alongside the game: Epic games, The Callisto Protocol for instance: ~/Games/epic/TheCallistoProtocol GOG games: ~/Games/gog/your-game-folder"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Open the game in Junk Store",
+      "text": "Back in Game Mode, open Junk Store and go to the game's page."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Open the sliders menu",
+      "text": "Press the button with the sliders icon, next to Play Game, to open the Actions menu.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/cpp-runtime-decky/game-page-sliders.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Run the installer",
+      "text": "Choose Run exe in Game folder, at the top of the Actions menu. That lists every executable in the game's folder. Pick the redistributable you just put there.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/cpp-runtime-decky/actions-run-exe.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Work through the installer",
+      "text": "The installer behaves as it would on Windows. Accept the licence, let it finish, then launch the game."
+    }
+  ]
+}
+</script>

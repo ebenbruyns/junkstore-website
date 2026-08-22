@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Change Game Language in the Decky Plugin",
+  "description": "Change the language an Epic game runs in on Steam Deck using the Junk Store Decky plugin. Set LANG and HOST_LC_ALL in Additional Variables, with a language code table.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Open the game's Settings menu",
+      "text": "From the game's page in Junk Store, open the cog.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/change-language-decky/cog.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Select PROTON",
+      "text": "Select PROTON",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/change-language-decky/proton-config.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Set the dropdown to All",
+      "text": "That reveals the advanced options, which are hidden by default.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/change-language-decky/proton-all.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Enter both variables under ADVANCED",
+      "text": "Open ADVANCED, find Additional Variables, and enter both lines. This example sets Spanish: export HOST_LC_ALL=es_ES.UTF-8 export LANG=es_ES.UTF-8 Swap es_ES for the code you want from the table below. Both lines are needed, one on its own often isn't enough: LANG offers the game a default, while HOST_LC_ALL overrides the individual locale settings outright. Keep the word export on the front of each line. What you type is run as a line of script just before the game starts, and a plain LANG=es_ES.UTF-8 sets the value only for that script, not for the game that follows. It saves without complaint and does nothing, and nothing warns you. Advice copied from a forum post often leaves export off, because on a command line it isn't needed. The field shows only the start of what's in it, so a truncated export HOST_ is normal.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/change-language-decky/addvars.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Save",
+      "text": "Press X to save. The game will launch in that language from then on, and stays that way until you change it, so it's a once-per-game job."
+    }
+  ]
+}
+</script>

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/lords-of-midnight/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "broken"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-01-01"
-content_hash: "237094cba45f3388"
+last_modified_at: "2026-08-21"
+content_hash: "2128d9b6b197a136"
 ---
 
-Mike Singleton's '84 classic Adventure Strategy game, brought to and updated for Windows.
+Mike Singleton's 1984 original, updated for Windows, and the game Doomdark's Revenge follows. Singleton described it as neither simply an adventure game nor simply a war game but a new type he called an epic game: you guide individual characters across the land of Midnight on quests while also commanding armies against Doomdark, the witch king. Turn-based, meant to be dipped in and out of, and it ships with a novella.

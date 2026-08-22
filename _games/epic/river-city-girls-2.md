@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/river-city-girls-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "927db28f62daf5b3"
+last_modified_at: "2026-08-21"
+content_hash: "2e1db16c19e69349"
 ---
 
-Picking up shortly after the original, River City Girls 2 once again put you in control of Misako and Kyoko - as well as Kunio, Riki, and a few new characters - as they set out on an all-new beat-'em-up adventure across the mean streets of River City. New moves, new enemies, new recruits, new environments, and the return of an old foe await, along with the same over-the-top sense of humor and adrenaline-pumping combat of its predecessor. The game will also feature two-player co-op action both locally and online.
+A side-scrolling beat 'em up following Misako, Kyoko, Kunio and Riki, joined this time by Marian and Provie, when an old enemy comes back for revenge. It can be played in local or online co-op, and River City itself is larger than before, with a day and night cycle and more than 40 shops to spend winnings in. It is framed with an anime intro and comic-book cutscenes, and voiced in both English and Japanese.

@@ -11,6 +11,9 @@
     help_discord_channel: "#js-pro-support"     # names a Discord channel to post in
     help_discord_url: "https://discord.gg/..."  # optional: links that channel name straight there
     help_footer: false                          # opt out of the block entirely
+
+  Pro tutorials can also carry manual_links, rendered above this block by
+  _includes/help/manual-links.html. See that file for the shape.
 {% endcomment %}
 <div class="js-callout js-callout--help">
 <h3>Stuck or need help?</h3>
@@ -25,7 +28,12 @@
 {% endif %}
 </ul>
 
-<p><strong>Want the full detail?</strong> The <a href="/docs/user/">user manual</a> covers every screen and setting in Junk Store Pro, and is worth a look if you'd rather read up than hunt through fixes.</p>
+{% comment %}
+  The user manual documents Junk Store Pro, so this paragraph is Pro-only.
+  Decky and Universal tutorials skip it rather than point their readers at a
+  manual for a product they may not have.
+{% endcomment %}
+{% if page.category == "pro" %}<p><strong>Want the full detail?</strong> The <a href="/docs/user/">user manual</a> covers every screen and setting in Junk Store Pro, and is worth a look if you'd rather read up than hunt through fixes.</p>{% endif %}
 
 <p><strong>Still stuck?</strong> Open a support ticket right in the <a href="https://portal.junkstore.xyz/support" target="_blank" rel="noopener" class="community-btn support-btn"><i class="fas fa-headset"></i>Support Portal</a></p>
 

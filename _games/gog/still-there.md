@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/still-there/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "d9cc93e784e9ee30"
+last_modified_at: "2026-08-21"
+content_hash: "d5b9b5fa2def1f42"
 ---
 
-A sci-fi adventure into space station management, mysterious radio messages, motherfucking AIs, sociopathic people in charge, and finding one's true self in a galaxy way too far, far away.
-
-How far is far enough?
+A psychological adventure about Karl Hamba, the sole keeper of a space lighthouse, who maintains its systems with an AI for company until an emergency transmission breaks the routine. The puzzles are the station's actual machinery, and the game is about grief underneath the dark jokes and the coffee making.

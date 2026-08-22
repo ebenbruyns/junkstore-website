@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/between-time-escape-room/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "9a93dc48bfc8a0f9"
+last_modified_at: "2026-08-21"
+content_hash: "2764b62bc5d48d7a"
 ---
 
-You are going to steal a time machine. In this escape room, you have to travel through time, explore mysterious places and solve puzzles to get priceless treasures. Will you be able to make it back alive?
+An escape room game built around stealing a time machine and using it to lift treasures from five different periods of history. Each room is a set of logic puzzles, hidden objects and codes, with an artificial intelligence called A.I.T.M.A. running the machine.

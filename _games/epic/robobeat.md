@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/robobeat/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "b5d8c1c108b4f517"
+last_modified_at: "2026-08-21"
+content_hash: "057bb2b32fae5023"
 ---
 
-Keep your trigger finger on the pulse! In rhythm shooter Robobeat, it’s all about maximising your damage by shooting to the beat. Wall run, grapple hook, slide, and bunny hop your way through the haphazard mansion of a crazed robot-showman.
+A first-person shooter where shooting in time with the music does more damage and cuts your cooldowns. You play a bounty hunter chasing a rogue robot showman through his ever-shifting lair, a rogue-like run through procedurally generated levels, wall-running and sliding between shots, and you can load your own music files in and have the game build beats from them.

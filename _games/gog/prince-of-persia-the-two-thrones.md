@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/prince-of-persia-the-two-thrones/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,9 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "d015019af7b6bbeb"
+last_modified_at: "2026-08-21"
+content_hash: "c1e0898928519c25"
 ---
 
-Prince of Persia: The Two Thrones is an action-adventure video game developed and published by Ubisoft Montreal. It was released in December, 2005 in North America for the Xbox, Microsoft Windows, PlayStation 2, and the Nintendo GameCube. It was ported to the PlayStation Portable and Wii, under the title Prince of Persia: Rival Swords with the Wii version utilizing the motion-sensing functionality of its controller, while the PSP version added exclusive content. A remastered, high-definition, version of The Two Thrones was released on the PlayStation Network for the PlayStation 3 on December 21, 2010.
-Following Warrior Within, The Two Thrones is the closing chapter in the Sands of Time saga. Prince of Persia: Warrior Within, in which the Prince kills the Dahaka, essentially saving Kaileena. The game opens with the Prince and Kaileena about to sail into Babylon's port. Kaileena offers narration of the events passed and the story following, similar to the Prince's role as both protagonist and narrator in The Sands of Time.
+The third Sands of Time game, closing the trilogy after Warrior Within. The Prince comes home to Babylon to find it at war and himself hunted, and the Sands leave a Dark Prince taking him over by degrees, so you play both, switching between their weapons and styles. It adds stealth kills and the Daggertail to the free-form fighting, and you still slow and rewind time to undo a bad landing or a lost fight.

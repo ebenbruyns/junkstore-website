@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/marvels-midnight-suns/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "62db3bf789ed4964"
+last_modified_at: "2026-08-21"
+content_hash: "bce3eb48d8c9c805"
 ---
 
-Confront the darker side of the Marvel universe in an all-new Tactical RPG featuring Iron Man, Wolverine, Captain America, Ghost Rider, Blade, and more. 
+A tactical game from the XCOM studio where every action in a fight is played from a hand of cards. You play the Hunter, a character you build yourself, leading Marvel heroes and supernatural fighters against Lilith and the elder god Chthon. Between missions you live at the Abbey, a secret base you search for hidden items, and the friendships you build there feed back into what your squad can do.

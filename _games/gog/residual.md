@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/residual/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "5186e3b51c77d64d"
+last_modified_at: "2026-08-21"
+content_hash: "309bf2040f11b617"
 ---
 
-Explore a forgotten galaxy full of different planets, venture deeper into the planet to mine for rare resources, craft items to fix your ship, and discover ancient secrets and life forms. An exploration (survival) game like no other.. Adventure awaits!
+A survival platformer about a lone explorer stranded on a procedurally generated planet after a crash. You harvest food, build campfires and craft teleporters and mining gear to repair the ship, against hunger, cosmic storms and hostile plant life, with a floating robot called PDB following you and occasionally helping. How hard a planet is depends on where it sits relative to its sun: close in means heat, wind and little cover, further out means long nights and weak solar power for your suit.

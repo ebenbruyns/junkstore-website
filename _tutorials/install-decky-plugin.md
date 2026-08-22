@@ -54,7 +54,7 @@ help_links:
 <img src="/assets/images/install-decky/Dependencies.jpeg" alt="Install Junk Store dependencies" width="600" height="338" loading="lazy" />
 
 <div class="js-callout js-callout--warning">
-This might take around 30 seconds or longer. Just wait — it's normal.
+This might take around 30 seconds or longer. That's normal, so let it finish.
 </div>
 </li>
 
@@ -80,13 +80,13 @@ Make sure the Epic account you log in with has games in its library, or nothing 
 <img src="/assets/images/install-decky/Epic%20Library%20v2.jpeg" alt="Epic Games library in Junk Store" width="600" height="338" loading="lazy" />
 
 <div class="js-callout js-callout--warning">
-Games that need <strong>EA App</strong> or <strong>Origin</strong> won't show up — they aren't supported.
+Games that need <strong>EA App</strong> or <strong>Origin</strong> won't show up, because they aren't supported.
 </div>
 </li>
 
 <li>
 <strong>Test with a Small Game</strong>
-<p>To make sure everything works, try installing a smaller game. We recommend something simple like <strong>DOOM 64</strong>. Avoid huge or complex games right away — some need extra setup to work properly on Steam Deck.</p>
+<p>To make sure everything works, try installing a smaller game. We recommend something simple like <strong>DOOM 64</strong>. Avoid huge or complex games right away, since some need extra setup to work properly on Steam Deck.</p>
 <img src="/assets/images/install-decky/Doom64%20install.jpeg" alt="Installing DOOM 64 as test game" width="600" height="338" loading="lazy" />
 </li>
 

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/treasure-of-nadia/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "0232ef6963971d74"
+last_modified_at: "2026-08-21"
+content_hash: "e73203af1661bf7c"
 ---
 
-Treasure of Nadia is an erotic adventure game featuring 12 gorgeous women that you will meet as you adventure throughout the hidden caves and jungles searching for artifacts to make a name for yourself in the treasure hunting world.
+An adult adventure game set on the island of Cape Vedra, where you hunt for lost artefacts and sell them to fund the next dig. The cast of women you meet, a doctor, a librarian, an archaeologist and others, each have their own storyline, and the temple sections are built around genuine puzzles.

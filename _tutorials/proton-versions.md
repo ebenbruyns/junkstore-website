@@ -56,20 +56,20 @@ card_blurb: 'Step-by-step guide on how to check and change your Proton version'
 
 <p>You'll need a tool to download and manage different Proton versions. There are a couple of options, and which suits you depends on whether you'd rather stay in Game Mode or not.</p>
 
-<h4>Wine Cellar</h4>
+<h4>ProtonUp-Qt or ProtonPlus</h4>
+<ul>
+<li><strong>Desktop application</strong> - download from Discover Store</li>
+<li><strong>Must use Desktop Mode</strong> to install new versions</li>
+<li><strong>No restart required</strong> - updates apply when returning to Game Mode</li>
+<li>Search "ProtonUp-Qt" or "ProtonPlus" in Discover Store</li>
+</ul>
+
+<h4>Wine Cellar (Check it's still being updated)</h4>
 <ul>
 <li><strong>Decky plugin</strong> - works directly in Game Mode</li>
 <li><strong>No Desktop Mode needed</strong> for downloads and management</li>
 <li><strong>Requires restart</strong> after installing new Proton versions</li>
 <li><strong>Installation:</strong> Search "Wine Cellar" in Decky Plugin Store</li>
-</ul>
-
-<h4>ProtonUp-Qt</h4>
-<ul>
-<li><strong>Desktop application</strong> - download from Discover Store</li>
-<li><strong>Must use Desktop Mode</strong> to install new versions</li>
-<li><strong>No restart required</strong> - updates apply when returning to Game Mode</li>
-<li>Search "ProtonUp-Qt" in Discover Store</li>
 </ul>
 
 <p><strong>Quick Links:</strong> <a href="/tutorials/install-decky-plugin/">How to Install Junk Store</a></p>

@@ -1,0 +1,35 @@
+{% comment %}
+  "More in the manual" block for Pro tutorials.
+
+  The user manual documents Junk Store Pro, so this renders only when
+  page.category == "pro" and the page actually lists some links. Everything
+  else, Decky and Universal tutorials included, gets nothing.
+
+  Injected by the junkstore-page layout, just above the Need Help footer, so
+  tutorial .md files (and the companion app that generates them) don't carry
+  the markup.
+
+  Opt in per tutorial:
+    manual_links:
+      - text: "Per-game installation settings"
+        url: "/docs/user/store-settings-reference/#per-game-installation-settings"
+        note: "What each section of the panel is for"   # note is optional
+
+  These are for reading around the topic afterwards. Links that catch someone
+  mid-step belong inline in the step itself, not here.
+
+  scripts/check-doc-links.py verifies every /docs/user/ URL in _tutorials still
+  resolves to a real heading anchor in the generated _docs.
+{% endcomment %}
+{% if page.category == "pro" and page.manual_links %}
+<div class="js-callout js-callout--tip">
+<h3>More in the manual</h3>
+<p>The <a href="/docs/user/">user manual</a> covers the why behind these screens, if you want the detail rather than the steps.</p>
+
+<ul>
+{% for link in page.manual_links %}
+<li><a href="{{ link.url }}">{{ link.text }}</a>{% if link.note %} - {{ link.note }}{% endif %}</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}

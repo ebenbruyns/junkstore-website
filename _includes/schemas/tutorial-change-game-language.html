@@ -2,12 +2,47 @@
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "Change Language Settings",
-  "description": "",
+  "name": "How to Change Game Language in Junk Store Pro",
+  "description": "Change the language an Epic or GOG game runs in from Game Mode on Steam Deck. Pick a language per game in its Installation settings, no Desktop Mode needed.",
   "step": [
     {
       "@type": "HowToStep",
-      "text": "Change your Epic, GOG, or Amazon game language settings directly in Game Mode - no desktop switching required. There are two methods: ## Method 1: Environment Variables (for individual games) From the game page in Junk Store, click the \u2699\ufe0f Settings menu ![Settings menu on game page](/assets/images/tutorials/change-language/CogGamePage.webp) *Click the \u2699\ufe0f Settings menu from the game page* Select Game Configs ![Game configuration screen with dropdowns](/assets/images/tutorials/change-language/GameConfi.webp) *Select Game Configs to access the configuration screen* Change the dropdown to All Click ENVIRONMENT dropdown, click on LANG and select your preferred language ![Language dropdown with options](/assets/images/tutorials/change-language/LangDropdown.webp) *Click on LANG and select your preferred language* ![Language selection example](/assets/images/tutorials/change-language/LangSelection.webp) *Example of language selection* Press X to save changes ## Method 2: Installation Settings (affects game installation language) Select the appropriate tab for installation settings, then click the \u2699\ufe0f Settings menu from the game page in Junk Store ![Installation settings tab](/assets/images/tutorials/change-language/CogTab.webp) *Select the tab for installation settings and language configuration* Access the installation settings and configure the language preference ![Language dropdown with options](/assets/images/tutorials/change-language/LangDropdown.webp) *Access the language settings and select your preferred language* ![Language selection example](/assets/images/tutorials/change-language/LangSelection.webp) *Example of language selection for installation* This will download and install the game with your selected language files Note: If changing language after game installation, update the game from the \u2630 Slider menu to pull in new language packs Your game will launch in the selected language - all managed from Game Mode with no additional tools needed. --- ## Need More Help? If you run into trouble, check out: - **Universal:** [FAQ Section](/2.0faq/) for common questions - **Universal:** [Troubleshooting Guide](/2.0troubleshooting/) for technical issues - **Decky Plugin:** [Plugin-specific help](/faq/decky/) and [troubleshooting](/troubleshooting/decky/) - **Pro Version:** [Version-specific help](/2.0faq/) and [troubleshooting](/2.0troubleshooting/) **Still stuck? Get community help:** Discord Reddit .community-btn { display: inline-flex; align-items: center; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-weight: 600; font-size: 13px; transition: all 0.2s ease; border: 2px solid transparent; margin-left: 8px; color: white; } .discord-btn { background: #5865f2; color: white !important; } .reddit-btn { background: #ff4500; color: white !important; } .community-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); text-decoration: none; color: white; opacity: 0.9; }"
+      "name": "The normal way: per game, in Installation settings: Open the game's Installation settings",
+      "text": "On the game's page, open the cog, then choose Installation.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/change-language/game-settings-menu.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "The normal way: per game, in Installation settings: Open the Languages section",
+      "text": "The panel is built for that game by asking the store what it offers, so you'll see only the sections that apply. Languages lists the versions available beyond what's already installed."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "The normal way: per game, in Installation settings: Pick your language, then save",
+      "text": "The two stores hand you a different control, so it's worth knowing which one you're looking for. GOG gives you a dropdown and you pick one language. English is the default, and the help pane on the right lists what this particular game offers. Epic gives you tickboxes, none of them ticked, and you can choose more than one. Epic calls these install tags, and on some games they cover more than language. Press X to save the config.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/change-language/install-languages-gog.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "The normal way: per game, in Installation settings: If the game is already installed, verify or repair it",
+      "text": "The panel doesn't move any files on its own. Choosing a language records that you want it, it doesn't fetch it. Run Verify game or Repair game from the game's own menu to pull the language files down. Skip this and nothing appears to happen, which is the usual reason people report that changing a language did nothing. Expect it to take a while on a large game, since it checks what's on disk before working out what's missing. On a game you haven't installed yet there's nothing else to do, as the download picks up your choice. That's the reason to open this before installing something large. Nothing asks you about any of it by default, so you get English and every DLC you own, which can be a good deal more than you wanted. Setting it beforehand costs nothing. Setting it afterwards costs you a verify or repair."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "If the game offers no language option: Open the game's configs",
+      "text": "On the game's page, open the cog, then Game configs, and set the dropdown to All to reveal everything.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/change-language/GameConfi.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "If the game offers no language option: Set LANG under Environment",
+      "text": "Open the ENVIRONMENT section, select LANG, and choose your language. HOST_LC_ALL sits just above it and does the same job more forcefully: LANG offers the game a default, HOST_LC_ALL overrides the individual locale settings outright. Try LANG first and only reach for the other one if the game ignores it.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/change-language/LangDropdown.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "If the game offers no language option: Save",
+      "text": "Press X to save. Because you set it here rather than on the store, it affects this one game and is easy to undo."
     }
   ]
 }

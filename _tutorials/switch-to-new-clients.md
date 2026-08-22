@@ -13,6 +13,13 @@ section: configuration
 order: 1
 card_title: 'Switch to the New Clients'
 card_blurb: 'Move a store off the legacy flatpak clients onto ours'
+manual_links:
+  - text: "Legacy clients"
+    url: "/docs/user/store-settings-reference/#legacy-clients"
+    note: "What the switch changes, and what you give up"
+  - text: "Refresh games list"
+    url: "/docs/user/games/#refresh-games-list"
+    note: "How refreshing works on the supplied clients"
 help_discord_channel: '#js-pro-support'
 help_discord_url: 'https://discord.gg/EsrPQDUNQr'
 help_links:

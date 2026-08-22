@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/sugardew-island-your-cozy-farm-shop/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "89c082f95e274af7"
+last_modified_at: "2026-08-21"
+content_hash: "9bb9b78617fb0192"
 ---
 
-In this cozy farming game, you have to run your own farm shop. Take care of your animals and your farm, sell your goods to the cute Forest Folk, upgrade the island and fulfill small orders from the Harmony Tree to fill the island with life again.
+A small farming game with no time limits and nothing to fail, built as a deliberately simple take on the Harvest Moon games. You grow crops, keep animals and sell to the forest folk who come to your shop, filling orders from the Harmony Tree to bring the island back. You can befriend or date the locals. It runs about fifteen hours.

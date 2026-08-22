@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/alwas-awakening/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "df1c633b0e2322ca"
+last_modified_at: "2026-08-21"
+content_hash: "75d08e9902410b41"
 ---
 
-Use your magic staff and progress through a large interconnected world where you'll solve puzzles, fight enemies and defeat bosses in order to help free the land of Alwa. Explore and uncover the secrets by using your platforming skills in this challenging and charming 8-bit adventure game.
+An 8-bit style metroidvania across more than 400 rooms, played as Zoe, sent from another world with a magic staff and no instructions. There are no waypoints telling you where to go, and the staff, upgraded by gemstones you find along the way, is what opens the map up. You use it both to solve puzzles and to fight.

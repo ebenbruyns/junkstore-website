@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/lost-eidolons-veil-of-the-witch/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: ""
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "86b7bb3353ae2389"
+last_modified_at: "2026-08-21"
+content_hash: "922e0e7cc8367fac"
 ---
 
-From the world of "Lost Eidolons" comes an all-new turn-based strategy RPG. Stranded on a mysterious island with scattered memories, your only means of survival is to fight. Recruit allies, undertake a perilous journey, and battle to reclaim what you've lost... no matter how many deaths it takes.
+A roguelite spin-off from Lost Eidolons, where dying is the structure rather than the end. Shipwrecked and about to die, you take a witch's bargain and wake on a cursed island with no memory, building a squad of five for grid-based fights that turn on elemental effects: soak an enemy then electrify them, set fire to the ground they are standing on. Each death sends you back to a base camp where the rewards you carried out buy permanent upgrades.

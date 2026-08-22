@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/still-life-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "26348bdb003a65bb"
+last_modified_at: "2026-08-21"
+content_hash: "648e0044586df285"
 ---
 
-Who is hiding behind Mr. X? Still Life 2 reveals the long-awaited ending of Still Life and spells a new investigation for Agent Victoria McPherson.
+A point-and-click investigation that finishes the story the first Still Life left open. FBI agent Victoria McPherson is sent to Maine in 2008 after the East Coast Torturer kills again, and the journalist covering the case is taken by him hours later. You then play both women in alternating chapters, Victoria working the investigation and Paloma Hernandez trying to survive being held, so the game runs as two halves, one detective work and one escape.

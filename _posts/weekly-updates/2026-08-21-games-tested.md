@@ -67,7 +67,7 @@ This week featuring Spray Paint Simulator.
   <img src="https://images.gog.com/7677dca46dbe2f9e092cf72bb7e9519e7067991af4d98c6dbe3fa1b34accdac9.jpg?namespace=gamesdb" alt="Spray Paint Simulator" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/amazon/spray-paint-simulator/">Spray Paint Simulator</a></strong> <span class="store-badge amazon">Amazon</span>
-    <p class="game-blurb">This one is absorbing and weirdly cathartic. I lost about an hour without noticing, just happily spray painting things and watching them slowly transform. Then at the end you pull off all the prep work, the masking tape and the paper, and it reminded me of antifouling our boat. It's so rewarding seeing the end result of all that effort. I might keep this on my Deck for the days when I need a pick me up.</p>
+    <p class="game-blurb">This one is absorbing and weirdly cathartic. I lost about an hour without noticing, just happily spray painting things and watching them slowly transform. Then at the end you pull off all the prep work, the masking tape and the paper, and it reminded me of antifouling our boat. It's so rewarding seeing the end result of all that effort. I might keep this on my Deck for the days when nothing else I've done feels finished.</p>
     <a href="/games/amazon/spray-paint-simulator/" class="view-details">View compatibility details →</a>
   </div>
 </div>

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/nova-lands/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "6ae2d25c62b40e67"
+last_modified_at: "2026-08-21"
+content_hash: "b838a1fa00e06b64"
 ---
 
-Nova Lands is a factory building, exploration, and island management game. Explore, engage in combat, and automate your industry. The planet you’re on is full of mysteries, creatures, people, and things to do. Welcome to your new home amongst the stars!
+A 2D factory-building and island-management game, somewhere between Factorio, Forager and Satisfactory by its own account. You land on a new planet, gather everything from wood to unknown materials, and hand more and more of the work to helper bots that can run whole production chains while you go exploring. There is a blaster and creatures worth using it on, but a full pacifist run is supported, including buying peace off the bosses with valuables.

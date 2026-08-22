@@ -1,0 +1,55 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Install Game Dependencies in Junk Store Pro",
+  "description": "Install the runtimes and libraries a game needs in Junk Store Pro on Steam Deck. The Visual C++ runtime is automatic on Epic; toggle anything else in the game's Installation settings, no Desktop Mode required.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "The Dependencies list: Open the game's Installation settings",
+      "text": "On the game's page, open the cog, then choose Installation.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/cpp-runtime/game-settings-menu.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "The Dependencies list: Find the Dependencies section",
+      "text": "The panel is built for that particular game by asking the store what it offers, so you'll see up to four sections: DLC, Languages, Dependencies and User_Configs. A game only shows the sections that apply to it, so the panel looks different from one game to the next. That's the store answering honestly, not a fault. The list can be long, and it runs well beyond runtimes: DOSBox builds, ScummVM, OpenAL, nGlide and XNA all turn up on games that need them.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/cpp-runtime/dependencies-section.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "The Dependencies list: Toggle on what the game needs",
+      "text": "Switch on what the game is asking for, then press X to save.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/cpp-runtime/dependency-toggled-on.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "The Dependencies list: If the game is already installed, verify or repair it",
+      "text": "The panel on its own doesn't move any files. Toggling something records that you want it, it doesn't fetch it. Run Verify game or Repair game from the game's own menu to make the files match. Skip this and nothing appears to happen, which is the usual reason people report that changing a dependency did nothing. Expect it to take a while on a large game, since it checks what's already on disk before working out what's missing. On a game you haven't installed yet, there's nothing to do: the download picks up your choices.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/cpp-runtime/actions-verify-game.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "If it isn't on the list: Download the redistributable",
+      "text": "Get X64 Redistributable for Visual Studio 2015-2022 from the Microsoft C++ Redistributable downloads page. The file is named something like VC_redist.x64.exe."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "If it isn't on the list: Get the file into the game's folder",
+      "text": "Use the File Manager to copy it in, whether it's coming from an SD card, a USB drive or another machine on your network. Once it's in the game's folder it appears among that game's executables."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "If it isn't on the list: Run it with Run Exe",
+      "text": "Open the sliders menu on the game's page, choose Run Exe in Game Dir, and pick the file you copied in. The list is headed Select executable to run and shows every program found in the folder. Press A on the one you want. Run in same directory as executable sits above the list and is off to begin with. Some installers only work when started from their own folder, because they expect their data files beside them, so if one runs and then complains about missing files, turn it on and try again. Set it before you press anything, since it applies to whatever you run next.",
+      "image": "https://www.junkstore.xyz/assets/images/tutorials/cpp-runtime/game-page-sliders.webp"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "If it isn't on the list: Follow the installer",
+      "text": "It behaves the same as it would on a Windows PC. What it installs lands in that game's environment, where the game can find it."
+    }
+  ]
+}
+</script>

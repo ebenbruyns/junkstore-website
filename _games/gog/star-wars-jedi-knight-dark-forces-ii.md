@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/star-wars-jedi-knight-dark-forces-ii/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,11 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-02-01"
-content_hash: "6f315cd14d1f812e"
+last_modified_at: "2026-08-21"
+content_hash: "6382adcb448ebc3e"
 ---
 
-Whatever path Kyle Katarn chooses will change the face of the galaxy forever.
-Star Wars Jedi Knight: Dark Forces II continues the story of Kyle Katarn, a young mercenary that successfully infiltrated the Empire, as he embarks on a quest to discover his past and learn the ways of the Jedi.
-
-In order to protect the galaxy Katarn must confront his father's murderers, led by the Dark Jedi Jerec, and stop them from obtaining the mysterious powers of a "Valley of the Jedi", a focal point for Jedi power and a Jedi burial ground. As Katarn embarks on his journey to defeat the Dark Jedi he must also shape his destiny, by choosing to follow either the light side, or the dark side.
+The sequel to Dark Forces, and the game that gave Kyle Katarn a lightsaber. You work through 21 levels acquiring the Force, choosing light or dark as you go, against seven dark Jedi trying to draw power from an ancient burial ground. The expansion, Mysteries of the Sith, is sold separately.

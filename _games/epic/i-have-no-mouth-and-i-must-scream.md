@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/i-have-no-mouth-and-i-must-scream/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,9 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "28651be07db85a54"
+last_modified_at: "2026-08-21"
+content_hash: "40a735433dc6d595"
 ---
 
-I Have No Mouth, and I Must Scream is a point-and-click adventure game based upon Harlan Ellison's short story of the same title.
-The game's story is set in a world where an evil computer named AM has destroyed all of humanity except for five people, whom he has been keeping alive and torturing for the past 109 years. Each survivor has a fatal flaw in their character, and in an attempt to crush their spirits, AM has constructed a metaphorical adventure for each that preys upon their weaknesses. To succeed in the game, the player must make choices to prove that humans are better than machines, because they have the ability to redeem themselves. Woven into the fabric of the story are ethical dilemmas dealing with issues such as insanity, rape, paranoia and genocide.
+A point-and-click adaptation of Harlan Ellison's short story, with Ellison himself voicing AM, the computer that wiped out humanity and has kept five people alive for 109 years to torture. You play all five in turn through scenarios built from their individual weaknesses, and the puzzles are emotionally charged dilemmas rather than straight logic problems.

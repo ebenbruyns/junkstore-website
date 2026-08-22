@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/symphony-of-war-the-nephilim-saga/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-07-01"
-content_hash: "63fbf9ad1c10c17b"
+last_modified_at: "2026-08-21"
+content_hash: "23383744b651cf6b"
 ---
 
-Enter Tahnra, a land savaged by war. You, a fresh academy graduate with humble beginnings, will grow to lead a grand army against a corrupt adversary. Gather heroes, form bonds, and lead your force in turn-based battles. Make use of tactics, terrain, morale and more to bring peace to the land!
+A turn-based strategy role-playing game where you command squads rather than individual units, in a world called Tahnra left scarred by a long succession war. You start as an academy graduate sent against a rebel general, You place squads of up to nine soldiers on the map and take the ground, then the fights themselves resolve automatically and you watch. The campaign runs 30 to 40 hours with more than 50 classes to build troops from.

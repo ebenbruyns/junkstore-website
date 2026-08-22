@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/eschalon-book-ii/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,12 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "520b0e04af5b0c85"
+last_modified_at: "2026-08-21"
+content_hash: "d468b80c4c883396"
 ---
 
-A new chapter unfolds in the grand role playing saga!
-
-The time has come to return to the realm of Eschalon! A new menace threatens Mistfell and the northern provinces, and evidence of your mysterious past come to light which will make you question everything you know about yourself. Don't miss this thrilling sequel to 2007's award-winning Eschalon: Book I!
-
-Isometric turn-based single player role-playing game, with some survival aspects. Basic gameplay includes quests, combat, puzzles and skill checks.
+The middle chapter of the Eschalon trilogy, an isometric old-school role-playing game with strictly turn-based combat. War threatens the whole region and the way out lies in your character's own past. Snow and storms are more than an effect here, severe weather changes your stats and skills. The high-level adventure The Secret of Fathamurk is included. Worth knowing before you start: the developers say no experience of Book I is needed.

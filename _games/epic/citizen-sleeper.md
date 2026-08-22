@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/citizen-sleeper/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-06-01"
-content_hash: "67de0bbfbab2fa27"
+last_modified_at: "2026-08-21"
+content_hash: "f7ff97aa701252eb"
 ---
 
-Roleplaying in the ruins of interplanetary capitalism. Live the life of an escaped worker, washed-up on a lawless station at the edge of an interstellar society. Inspired by the flexibility and freedom of TTRPGs, explore the station, choose your friends, escape your past and change your future.
+A narrative role-playing game built on tabletop mechanics, played as a digitised human mind in an artificial body owned by the corporation now trying to reclaim it. The body is decaying and its makers want it back. You wash up on Erlin's Eye, a ruined station at the edge of the system, and each cycle deals you dice to spend on work, friendships and staying alive.

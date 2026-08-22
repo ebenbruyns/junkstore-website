@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/gunslugs-3-rogue-tactics/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-01-01"
-content_hash: "0856a5695a9767c4"
+last_modified_at: "2026-08-21"
+content_hash: "b1ec4ddf1b0e15c8"
 ---
 
-Grab your bandana and get ready for Gunslugs : Rogue Tactics! Sneak, shoot, and explode your way through ever-changing enemy strongholds in this rogue-lite stealth-action mashup. Go full-on Commando or channel your inner Snake—just make it out alive. No mission ever plays the same twice!
+The third Gunslugs, which swaps the straight run-and-gun of the earlier games for something you can play quietly. You can avoid cameras and take guards down one at a time, throw a tennis ball to pull them off position, or ignore all that and kick the door in. Levels are procedurally built and every run sets new objectives, so failing one just sends you back to try it differently.

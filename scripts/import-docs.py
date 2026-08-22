@@ -258,7 +258,9 @@ def slugify(text):
     punctuation dropped, spaces to hyphens.
     """
     s = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", text)   # links -> label
-    s = re.sub(r"[`*_~]", "", s)                         # inline emphasis, code
+    # Underscores survive: GitHub keeps them, so a heading like
+    # "LANG and HOST_LC_ALL" anchors as lang-and-host_lc_all in both places.
+    s = re.sub(r"[`*~]", "", s)                          # inline emphasis, code
     s = s.strip().lower()
     s = re.sub(r"[^\w\s-]", "", s)
     return re.sub(r"[\s-]+", "-", s).strip("-")

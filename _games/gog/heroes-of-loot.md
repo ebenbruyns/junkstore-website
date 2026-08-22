@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/heroes-of-loot/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-08-01"
-content_hash: "e2dc5c16e097c29a"
+last_modified_at: "2026-08-21"
+content_hash: "f48faed4b8f64bcf"
 ---
 
-Heroes of Loot combines the action of twin-stick shooters with the dungeon crawling of rogue-likes. You'll find yourself in the middle of hordes of ghosts, skulls, cyclops, critters and much more… Survive using quick reflexes, level up to improve your weapon, and if you have time complete some quests for extra loot and upgrades.
+A twin-stick shooter crossed with a dungeon crawler, drawn from 1980s Gauntlet by way of Robotron and Smash TV. You pick from four classes, Elf, Warrior, Wizard or Valkyrie, with a fifth to unlock, then fight through hordes of ghosts, skulls and cyclops, taking quests for extra loot when there is time. The dungeon learns from how you play and gets harder as you get better.
