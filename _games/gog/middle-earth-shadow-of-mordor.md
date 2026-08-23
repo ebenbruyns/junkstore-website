@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/middle-earth-shadow-of-mordor/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,16 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "8ed06715a3d8d676"
+last_modified_at: "2026-08-23"
+content_hash: "d00d0f0e70045eb0"
 ---
 
-Middle-earth: Shadow of Mordor is a open world third-person action role-playing video game developed by Monolith Productions and published by Warner Bros. Interactive Entertainment, which takes place in the world of J.R.R. Tolkien's Legendarium.
-
-The game takes place in the 60-year gap between the events of Tolkien's The Hobbit and The Lord of The Rings. It is a story of revenge, slaughter, and mystery set entirely in Mordor, the Land of Shadows. At its center is Talion, an ordinary man who loses everything, including his mortal life.
-
-The game is set in a fully open world, and features various role-playing game elements such as experience points and skills. There are various ways the player can complete their main objective. Aside from the main storyline, there are various side quests and random events the player can complete within Mordor.
-
-The melee system is inspired by that of the Batman Arkham series. Getting into a good fighting rhythm, using both regular attacks and counter-attacks will improve the player's combo multiplier.
-
-A unique feature of Middle-earth: Shadow of Mordor is the Nemesis system. Every enemy in the game has their own name, rank, and memory. These enemies will continue to do their own jobs and tasks even when they're off screen. If the player does not kill an enemy in an encounter, this enemy will remember the player and change their tactics and conversations based on the encounter.
+You play Talion, a Ranger of the Black Gate who loses his family and his own life in the opening and comes back bound to a vengeful wraith. The pull of it is that Sauron's orcs hold on to their fears, weaknesses and memories of you, so you can work out who to break and turn the army against itself from inside. It is set before The Lord of the Rings. Several online features were switched off at the end of 2020, including the Nemesis Forge transfer to Shadow of War, Vendetta missions and the leaderboards. The GOG row is the Game of the Year Edition, which adds the Season Pass missions, among them one that has you play Celebrimbor wielding the One Ring.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-last-stand-aftermath/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "9ab8b00bf96e27eb"
+last_modified_at: "2026-08-23"
+content_hash: "43a2eaa44481a344"
 ---
 
-From the creators of The Last Stand: Union City comes a new singleplayer rogue-lite action adventure. After you are infected by the zombie virus, set out to explore the apocalypse and find hope for your colony. You can make a difference. Don't give up.
+A single-player rogue-lite about scavenging the ruins after a zombie outbreak. The catch is that your survivor is already infected and will die of it whatever you do, so each run is spent gathering fuel to reach new places and materials to craft weapons before the virus finishes the job. When one dies you carry on as another, keeping perks and unlocks earned from how far the last one got. Mutations make you stronger at a cost.

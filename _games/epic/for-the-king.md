@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/for-the-king/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -131,8 +137,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "5f70953596c2f3e4"
+last_modified_at: "2026-08-23"
+content_hash: "38428be5f78bf7cb"
 ---
 
-For The King is a challenging blend of strategy, turn-based combat, and roguelike elements. Each playthrough is unique with procedural maps, quests, and events. Explore Fahrul in either single player, local, or online co-op.
+A turn-based adventure built like a board game. The king of Fahrul has been murdered and the queen has asked ordinary people to go and deal with the chaos, which means a party of three crossing overworld hexes, camping or pressing on at nightfall, and fighting through a slot system where attacks are resolved on dice rolls. Maps, quests, loot and events are generated fresh each time, and Lore earned across failed runs buys permanent unlocks. It plays solo, in local co-op or online, and the party can split up to cover ground. All the released expansion content is included.

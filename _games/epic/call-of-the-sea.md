@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/call-of-the-sea/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "5b45a3fbc4ab0c98"
+last_modified_at: "2026-08-23"
+content_hash: "b57a382c9cd61764"
 ---
 
-Call of the Sea is an otherworldly tale of mystery and love set in the 1930s South Pacific. Explore a lush island paradise, solve puzzles and unlock secrets in the hunt for your husband’s missing expedition.
+A first-person puzzle adventure set in 1934 in the South Pacific. Norah, who has an illness nobody can explain, follows her missing husband's expedition to an unnamed island scattered with the remains of a lost civilisation, and works out what happened to them from the clues they left. The puzzles are built into the ruins themselves. Norah is voiced throughout by Cissy Jones, who also voiced Delilah in Firewatch.

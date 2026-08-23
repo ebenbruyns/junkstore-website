@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/yooka-laylee-and-the-impossible-lair/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "8da6fb7c41c0d037"
+last_modified_at: "2026-08-23"
+content_hash: "af76161ec7ca165c"
 ---
 
-Yooka-Laylee and the Impossible Lair is a brand-new platform adventure from some of the key creative talent behind 'Donkey Kong Country'. With their arch-nemesis Capital B up to no good the buddy duo needs to spring into action once again to save the day!
+A 2.5D platformer made by people who worked on Donkey Kong Country, and a change of shape from the first Yooka-Laylee. The levels are side-on, but they hang off a 3D overworld that is a game in its own right, full of puzzles and objectives that unlock more of them. Flipping switches out there changes the levels themselves, flooding them, freezing them, wiring them up or turning them upside down. The final lair is open to you from the very start, but every bee you rescue along the way absorbs one hit for you when you go in.

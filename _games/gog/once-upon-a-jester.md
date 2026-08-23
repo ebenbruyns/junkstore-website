@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/once-upon-a-jester/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "5a4f09b2b1cfef1e"
+last_modified_at: "2026-08-23"
+content_hash: "ab79289cb8618331"
 ---
 
-Travel the kingdom as Jester with his best friend Sok to improvise theatre shows and perform on stages far and wide. Sing your hearts out, crack jokes and impress audiences to become the stars of the famous Royal Theatrical Spectacle!
-
-They embark on a grand adventure across a fantasy kingdom, meeting tons of wacky characters, performing improvised shows and singing their hearts out. Along the way, they unintentionally discover the freedom and joy of musical theatre. Will the pair change their wicked ways or do whatever it takes to get rich?
+Two friends, Sok and Jester, decide to steal the Royal Diamond, and the only way into the palace where it is kept is to become the best act in the kingdom. So you tour a fantasy country putting on improvised theatre shows, choosing how each one goes, and no two come out the same. It is a musical, and you sing. The characters are fully voiced, among them a friendly Wendigo, a tree looking for its roots and a blob of pesto. The soundtrack was written and performed by the game's own creators.

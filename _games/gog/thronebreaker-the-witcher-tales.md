@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/thronebreaker-the-witcher-tales/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,9 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "da6df8b0392d0d9d"
+last_modified_at: "2026-08-23"
+content_hash: "808ec8b152ab2050"
 ---
 
-Thronebreaker is a single player role-playing game set in the world of The Witcher that combines narrative-driven exploration with unique puzzles and card battle mechanics.
-This game spins a truly regal tale of Meve, a war-veteran and queen of two Northern Realms - Lyria and Rivia. Facing an imminent Nilfgaardian invasion, Meve is forced to once again enter the warpath and set out on a dark journey of destruction and revenge.
+A single-player role-playing game in the Witcher setting where the battles are fought with cards. You play Meve, a war veteran and queen of Lyria and Rivia, facing a Nilfgaardian invasion, across about 30 hours with 20 possible endings depending on the choices you make. Between battles there is a world to explore, villages to save and resources to scavenge, and a camp to develop where you recruit and train units and work on your companions. It was made by people who worked on The Witcher 3, and comes with the soundtrack, an artbook and a Witcher graphic novel.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/car-mechanic-simulator-2018/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "524e634a8e2bac37"
+last_modified_at: "2026-08-23"
+content_hash: "c26bb524eac72abf"
 ---
 
-Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game, where attention to car detail is astonishing. Find classic, unique cars in the new Barn Find module and Junkyard module.
+A garage simulator about repairing, painting, tuning and then driving cars. You start with a small workshop and build it up to a three-lifter garage with a paint shop and a parts warehouse, taking randomly generated jobs that each come with their own time limit. There are more than 40 cars, over 1,000 parts and 10 tools, plus car auctions to bid at, barns to search for abandoned vehicles and a junkyard to scavenge. Test, path and race tracks let you check your work afterwards.

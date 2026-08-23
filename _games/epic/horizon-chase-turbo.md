@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/horizon-chase-turbo/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "f661947a7d16b811"
+last_modified_at: "2026-08-23"
+content_hash: "523baed7923bd4e9"
 ---
 
-Horizon Chase Turbo is a racing game inspired by the great hits of the 80's and 90's. It recreates the classic arcade gameplay with unbound speed limits of fun. Full throttle on and enjoy!
+An arcade racer built to play like the ones it names as its models, Out Run, Lotus Turbo Challenge, Top Gear on the SNES and Rush. It goes around the world across 12 cups, 48 cities and 109 tracks, with 31 cars to unlock, and the weather turns from rain to snow to volcanic ash and sandstorms as you go. Barry Leitch, who scored Top Gear and Lotus Turbo Challenge, wrote the music. Split-screen for up to four players works in every mode.

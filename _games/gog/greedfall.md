@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/greedfall/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,14 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "fd3fd4bfe8c4e11c"
+last_modified_at: "2026-08-23"
+content_hash: "cd6fe8b40edb4259"
 ---
 
-Explore a fresh new world as you set foot - alongside many other settlers, mercenaries and treasure hunters - on a remote island seeping with magic, rumored to be filled with riches and lost secrets.
-
-GreedFall aims for a very unique visual identity, inspired by Baroque art from 17th Century Europe, depicting grandiose sceneries in muted warm colors and dark undertones.
-
-A grand journey filled with mystery follows, as you find yourself in the middle of ever-increasing tensions between the invading settlers and the locals, protected by supernatural beings, manifestation of the island's earthly magic.
-
-With a strong focus on its core RPG identity, GreedFall follows Spiders’ experience in building intricate worlds filled with mysteries to discover, weaving deep character interactions, and offering players great freedom to achieve quests and objectives in a multitude of different ways – through combat of course, but also through diplomacy, deception or stealth.
+A role-playing game about arriving on a remote island where the magic is real and several factions already want different things from it. Quests can be finished by fighting, by talking, by deceiving or by staying out of sight, and companions and whole factions can be befriended or betrayed, with the world shifting accordingly. You choose whether to play as a man or a woman, set your own appearance, and pick your abilities, spells and skills freely.

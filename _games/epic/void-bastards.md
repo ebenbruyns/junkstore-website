@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/void-bastards/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -131,8 +137,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "9edbb6d0285ad522"
+last_modified_at: "2026-08-23"
+content_hash: "b1294848e2d64a40"
 ---
 
-Void Bastards is a revolutionary new strategy-shooter that will test your wits as well as exercise your aim. Can you lead the misfit prisoners of the Void Ark through the derelict spaceships?
+A first-person shooter that asks you to plan before you shoot, from a team citing BioShock and System Shock 2. You lead a group of prisoners out of the Sargasso Nebula, choosing which derelict ships to board and reading their layout, hazards and systems first, then deciding on the spot whether to restore power, disable the defences, or leave with what you have. Supplies are crafted into improvised tools and weapons, including a distracting robo-kitty. The campaign runs 12 to 15 hours, and when a prisoner dies the next one steps up with your crafting progress intact.

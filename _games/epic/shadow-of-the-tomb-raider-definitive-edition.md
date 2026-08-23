@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/shadow-of-the-tomb-raider-definitive-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "8f67bde5a26cbe5d"
+last_modified_at: "2026-08-23"
+content_hash: "8173d7956bb9a5e8"
 ---
 
-In Shadow of the Tomb Raider Definitive Edition experience the final chapter of Lara’s origin as she is forged into the Tomb Raider she is destined to be.
+The last of the three games covering Lara Croft's origin, set in jungle and underwater rather than snow, with a Maya apocalypse to stop. Being outnumbered is the point here: you use mud as camouflage, strike from cover and disappear again, and work enemies through fear. The tombs need real traversal skill to reach and are full of lethal puzzles once you are inside, and there is a hidden city that the developers call the largest hub the series has had. This Definitive Edition adds all seven challenge tombs and every downloadable weapon, outfit and skill.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/wildcat-gun-machine/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "a97cb76d9846b316"
+last_modified_at: "2026-08-23"
+content_hash: "1b62e6842eeb368e"
 ---
 
-Wildcat Gun Machine is a bullet hell dungeon crawler where you take on hordes of disgusting flesh beasts with a wide variety of guns, giant mech robots, and cute kittens.
+A bullet hell dungeon crawler set against hordes of flesh beasts, with over 40 guns that each behave differently, from auto-aiming rounds to long-range laser beams. You work through maze-like dungeons freeing giant mechs from elder gods and fighting set-piece bosses. The encounters are deliberately hand-placed rather than randomised, so they work as combat puzzles, and the upgrades let you tune the difficulty yourself, buying extra respawns or putting the points into movement speed instead. There are also kittens.

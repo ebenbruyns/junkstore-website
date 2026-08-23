@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/bloody-hell/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "22aaa9ced989b71f"
+last_modified_at: "2026-08-23"
+content_hash: "05062f8476ca8968"
 ---
 
-Bloody Hell is a Bullet-Hell Metroidvania about using the blood of demons to your advantage. Fight Epic Bosses, and take revenge on the terrorising demons.
+A short free bullet-hell game about an angel sent to kill Satan. You dash, double dash, grapple and shoot through an interconnected map of Hell, tracked on your own map and occasionally crossed by minecart, against 20 enemy types and five demonic bosses. Holy powers found along the way open new routes, and there are upgrades to buy and combine. It was made by three students in the Netherlands.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/rugrats-adventures-in-gameland/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "18225786dcb0fd41"
+last_modified_at: "2026-08-23"
+content_hash: "66e559949c6b88b5"
 ---
 
-When Tommy, Chuckie, Phil, and Lil see a Reptar video game commercial, they imagine their own game! Switch between 8-bit and HD art, pick your favorite baby, and play solo or co-op in Rugrats: Adventures in Gameland—a neo-retro platformer bursting with nostalgia
+A platformer built on the conceit that the babies, having seen an advert for a Reptar game, are pretending to be inside one, so Tommy's house becomes the level. You can switch the art between 8-bit and HD at any time. There are four playable babies with different abilities, Tommy, Chuckie, Phil and Lil, bottles and Reptar coins to collect, boss fights entered with a screwdriver, and two-player co-op where the babies have to stay together.

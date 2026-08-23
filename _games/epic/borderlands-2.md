@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/borderlands-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "a7b9868ab9377ebf"
+last_modified_at: "2026-08-23"
+content_hash: "884e108758e83f73"
 ---
 
-The time is now to take out Handsome Jack.  Gather up your friends as you run rampant through the world collecting bazillions of loot and guns in an effort to save Pandora from the evil grips of the Hyperion Corporation.
+The second Borderlands, and the one that made Handsome Jack the series villain. Four new classes, the Siren, Commando, Gunzerker and Assassin, work through a revenge story on Pandora against Jack and the Hyperion corporation, with the Gunzerker able to dual-wield any two guns in the game. Loot is generated procedurally, weapons and shields and grenades and class mods alike. Four-player co-op runs online or over LAN, players can drop in and out without restarting, and gear carries between games.

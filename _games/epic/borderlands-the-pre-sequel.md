@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/borderlands-the-pre-sequel/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "eb990492ccc11adb"
+last_modified_at: "2026-08-23"
+content_hash: "d6fee9537c8392a1"
 ---
 
-LAUNCH INTO THE BORDERLANDS UNIVERSE AND SHOOT ‘N’ LOOT YOUR WAY THROUGH A BRAND NEW ADVENTURE THAT ROCKETS YOU ONTO PANDORA’S MOON IN BORDERLANDS: THE PRE-SEQUEL!
+The Borderlands game that sits between the first and second, set on Pandora's moon and telling how Handsome Jack became the villain of Borderlands 2. The low gravity changes how you move and fight, jumping and stomping across the surface, and it adds ice and laser weapons plus new vehicles. There are four playable classes, among them Wilhelm the Enforcer, Nisha the Lawbringer, Athena the Gladiator and, for the first time, a combat-ready Claptrap.

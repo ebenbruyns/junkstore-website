@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/card-shark/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "0d8de86383c08ee9"
+last_modified_at: "2026-08-23"
+content_hash: "1d89ed69d470eae7"
 ---
 
-Card Shark is an adventure game full of cunning, intrigue, and delectable deceit. Enter a world where you’ll need to play your opponents better than you play your cards.
+An adventure game about cheating at cards in 18th-century France, in which you learn the actual techniques and have to perform them under watch. Marking cards, false shuffles, deck switching and false deals are all taught and then tested, and the money buys you into higher and higher tables, from local card parlors up to the King's own. Getting caught is its own problem. It was made by Nerial, who made Reigns, with artwork by Nicolai Troshinsky and an orchestral score by Andrea Boccadoro.

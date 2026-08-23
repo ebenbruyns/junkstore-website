@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/immortal-redneck/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,20 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "d11879884b7c6a45"
+last_modified_at: "2026-08-23"
+content_hash: "d0adf6064a9e90db"
 ---
 
-"Lost.
-
-Furious.
-
-Immortal!
-
-When a redneck awakes bandaged in the Ancient Egypt with the only company of his most beloved weapons… The bloodbath starts! Use a ton of different weapons to kill bizarre enemies (from blue dinosaurs to flying skulls) and finish off some of the biggest bosses you’ve ever seen!!
-
-Unleash the power of the Gods! Receive the blessing of Apis, Sekhmet and more: each one will give you its own weapons and abilities. Also, you can get new skills in the scrolls that you’ll find in the dungeons… And buy new ones in the skill tree!
-
-Each time you play, the game will be DIFFERENT! Procedural dungeons filled with bad monsters wait for you to enter and discover the secrets of the Ancient Pyramids of Egypt.
-
-Blood, bullets, evil monsters, big bosses and a ton of fun: Take your gun and let the craziness begin!"
+A fast first-person shooter with rogue-lite structure, set in the three pyramids of Giza. A tourist wakes up mummified after an accident and goes in to find out why, through randomly generated rooms against 35 or so enemy types and two bosses per pyramid. There are nine classes to switch between at the start of a run, over 50 weapons that range from ordinary firearms to a potato launcher, and more than 100 scrolls that change the run as you pick them up, some helpful, some decidedly not. Death is permanent but the skill tree and the merchant's stock carry over.

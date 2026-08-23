@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/ghost-song/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "50bf66aab08e9f48"
+last_modified_at: "2026-08-23"
+content_hash: "334a5ae4ba51a8c3"
 ---
 
-On the desolate moon of Lorian V, a long-dormant Deadsuit awakens from slumber. Journey beneath the surface on an atmospheric 2D adventure of self-discovery, ancient mysteries, and cosmic terror. Explore winding caverns and acquire new abilities to unearth this alien world’s long-buried secrets.
+A 2D metroidvania set under the surface of Lorian, a dead moon, played as a Deadsuit that wakes armed and with no memory of what it is for. You work down through caverns lit by bioluminescent plants and abandoned labs, picking up weapons and abilities that open the next layer. The combat has its own rhythm: firing the blaster builds heat in the barrel, and that heat is what makes your melee attacks hit harder. There are voiced characters down there with their own reasons for being stuck.

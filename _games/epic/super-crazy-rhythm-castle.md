@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/super-crazy-rhythm-castle/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "eb9681ec864123c4"
+last_modified_at: "2026-08-23"
+content_hash: "bb575990d72c9b19"
 ---
 
-It’s Super Crazy Rhythm Castle, the chaotic rhythm adventure! A puzzling co-op mashup unlike anything you've ever heard. Solo, or with a band of up to three friends … … Can you conquer the castle?
+A rhythm game crossed with a co-op puzzle game, for one to four players, from the maker of the flash game Super Crazy Guitar Maniac Deluxe. You have to keep the beat and solve the room at the same time, which is the joke: throwing beans into a summoning ritual, shutting down a giant eggplant DJ, covering tiny meat people in gravy, all without dropping your combo. There are over 30 tracks across rock, hip hop and dubstep. Players can drop to three-button mode, or step off the music entirely and work the puzzle while someone else carries the song.

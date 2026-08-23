@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dex/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,12 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "34bb094eb638bad8"
+last_modified_at: "2026-08-23"
+content_hash: "2a580a662b6b0ee4"
 ---
 
-Discover the truth behind an enigmatic AI striving to reach the Singularity, a theoretical “event horizon” in which artificial intelligence will surpass human intelligence and all bets about the future will be off. How will you play your part in the story?
-
-Explore the futuristic city of Harbor Prime and meet its many inhabitants, answer the challenges the city has to offer, roam the neon-lit streets, and augment your character with skills and implants.
-
-Designed as a tribute to the classic RPGs from the ‘90s, updated for a modern audience, Dex invites you to become part of a living, breathing cyberpunk universe as you decide which ultimate path you will embrace.
+A 2D side-scrolling cyberpunk role-playing game with an open world, in which an organisation wants you dead and you work through the city of Harbor Prime finding out why. How you handle it is up to you, as an assassin, a hacker, a diplomat or simply by shooting, and you spend points on skills, equipment and augmentations that open different routes. Hacking takes you into cyberspace as a separate mode, where you fight off intrusion countermeasures to turn off turrets, overload devices and steal corporate data. The developers name Blade Runner and Neuromancer as the influences.

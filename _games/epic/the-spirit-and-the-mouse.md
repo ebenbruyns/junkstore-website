@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-spirit-and-the-mouse/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "92c3970aa5871693"
+last_modified_at: "2026-08-23"
+content_hash: "418ba030cd698f8f"
 ---
 
-Bring kindness and light to the people of Sainte-et-Claire as Lila—a tiny mouse with a big heart! Explore a quaint French village, make electrifying new friends, and do good deeds for those in need in this lush narrative adventure game.
+A gentle adventure played as Lila, a mouse in the French village of Sainte-et-Claire, who teams up with a spirit guardian called Lumion after a thunderstorm knocks out the power. You use electrical powers to get around at mouse scale, listen to what the villagers are worried about, and track down the Kibblins causing the faults. There are over 120 lightbulbs hidden around the town and the game gives you the tools to find them. The developers state plainly that there is no difficulty and it is not a precision platformer.

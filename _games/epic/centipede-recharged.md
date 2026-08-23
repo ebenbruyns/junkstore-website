@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/centipede-recharged/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "b80993ac4be14c18"
+last_modified_at: "2026-08-23"
+content_hash: "f0a7300501e0613a"
 ---
 
-Blast bugs and chase high scores in this glorious revival of an old-school classic, all while jamming to a heart-pounding original score by Megan McDuffee. Play solo or tag in a friend for local co-op across 30 unique challenges or the endless arcade mode.
+The 1980s Atari arcade game rebuilt for modern screens, widened to 16:9 with a new soundtrack by Megan McDuffee. Alongside the endless arcade mode there are 30 challenges that each bend the rules in some way, and a dozen power-ups that do things the original never had, clearing the screen with explosions, handing you a rail gun or slowing time down. Every mode can be played in local co-op with a second player.

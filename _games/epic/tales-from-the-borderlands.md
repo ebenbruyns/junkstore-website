@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tales-from-the-borderlands/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "86a11716c1390402"
+last_modified_at: "2026-08-23"
+content_hash: "7317091675fcd2d7"
 ---
 
-Tales from the Borderlands is a five-part episodic game set on the unforgiving world of Pandora between the events of Borderlands 2 and Borderlands 3. This is a story full of Borderlands' trademark humor, following two adventurers on their quest for greatness.
+Telltale's five-episode Borderlands story, set between the second and third games, and this row includes all five. You alternate between Rhys, a Hyperion company man who wants Handsome Jack's old job, and Fiona, a con artist, both of them narrating and neither of them reliable. A deal goes wrong and they have to work together through gangsters, bandits and Pandoran wildlife. Choices carry forward and change how it lands.
