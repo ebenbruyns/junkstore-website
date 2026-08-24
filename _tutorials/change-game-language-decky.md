@@ -12,7 +12,7 @@ tags: ["language", "game-settings", "decky-plugin"]
 difficulty: "Intermediate"
 category: decky
 section: configuration
-order: 11
+order: 12
 card_title: 'Change Game Language (Decky)'
 card_blurb: 'Set language environment variables per game in the Decky plugin'
 help_discord_channel: '#decky-plugin-support'

@@ -1,7 +1,7 @@
 ---
 layout: junkstore-post
 title: "Steam Deck Storage Full? Don't Reformat, Clear Out Your Non-Steam Files Instead"
-date: 2026-08-26
+date: 2026-08-25
 published: True
 categories: [Tip of the Week, Pro Version]
 tags: [junk-store, steam-deck, tips]

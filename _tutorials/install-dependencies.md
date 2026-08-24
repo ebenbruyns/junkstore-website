@@ -12,7 +12,7 @@ tags: ["c++", "runtime", "dependencies", "troubleshooting", "pro-version"]
 difficulty: "Beginner"
 category: pro
 section: configuration
-order: 8
+order: 9
 card_title: 'Install Game Dependencies'
 card_blurb: 'Toggle the runtimes and libraries a game needs in its Installation settings'
 manual_links:

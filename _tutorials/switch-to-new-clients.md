@@ -10,7 +10,7 @@ tags: ["clients", "setup", "pro-version"]
 difficulty: "Beginner"
 category: pro
 section: configuration
-order: 1
+order: 2
 card_title: 'Switch to the New Clients'
 card_blurb: 'Move a store off the legacy flatpak clients onto ours'
 manual_links:

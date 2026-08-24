@@ -10,7 +10,7 @@ tags: ["c++", "runtime", "dependencies", "troubleshooting", "decky-plugin"]
 difficulty: "Intermediate"
 category: decky
 section: configuration
-order: 10
+order: 11
 card_title: 'Install C++ Runtime (Decky)'
 card_blurb: 'Install the Visual C++ redistributable by hand in the Decky plugin'
 help_discord_channel: '#decky-plugin-support'

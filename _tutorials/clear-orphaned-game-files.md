@@ -10,7 +10,7 @@ tags: ["storage", "file-manager", "compatdata", "shader-cache", "disk-usage", "p
 difficulty: "Beginner"
 category: pro
 section: configuration
-order: 12
+order: 1
 card_title: 'Clear Out Orphaned Game Files'
 card_blurb: 'Clear the prefixes and shader cache left behind by games you uninstalled'
 manual_links:

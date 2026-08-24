@@ -13,7 +13,7 @@ tags: ["oauth", "authentication", "epic-games", "login", "both-versions"]
 difficulty: "Beginner"
 category: both
 section: configuration
-order: 6
+order: 7
 card_title: 'How to Login using OAuth'
 card_blurb: 'Step-by-step guide on logging in via third party logins'
 ---

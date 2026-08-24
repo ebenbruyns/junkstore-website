@@ -9,7 +9,7 @@ categories: [Pro Version]
 difficulty: "Beginner"
 category: pro
 section: configuration
-order: 3
+order: 4
 card_title: 'Import Games Over the Network'
 card_blurb: 'Copy a game from another device over your local network instead of re-downloading'
 help_discord_channel: '#js-pro-support'

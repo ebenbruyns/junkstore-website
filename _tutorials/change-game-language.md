@@ -10,7 +10,7 @@ tags: ["language", "game-settings", "pro-version"]
 difficulty: "Beginner"
 category: pro
 section: configuration
-order: 4
+order: 5
 card_title: 'Change Game Language'
 card_blurb: 'Pick a language per game in its Installation settings'
 manual_links:

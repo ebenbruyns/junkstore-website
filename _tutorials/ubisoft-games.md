@@ -10,7 +10,7 @@ tags: ["ubisoft", "third-party-launchers", "epic-games", "both-versions"]
 difficulty: "Advanced"
 category: both
 section: configuration
-order: 9
+order: 10
 card_title: 'Play Ubisoft Connect Games'
 card_blurb: 'Install Ubisoft Connect and launch Ubisoft games through Epic Games Store'
 ---
