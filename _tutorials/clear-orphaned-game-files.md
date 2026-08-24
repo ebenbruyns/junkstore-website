@@ -4,7 +4,7 @@ description: "Free up Steam Deck storage without reformatting. Use the Junk Stor
 excerpt: "Find the leftover Proton prefixes and shader cache from games you've uninstalled, and get that space back without reformatting"
 layout: junkstore-page
 permalink: /tutorials/clear-orphaned-game-files/
-date: 2026-08-26
+date: 2026-08-25
 categories: [Pro Version]
 tags: ["storage", "file-manager", "compatdata", "shader-cache", "disk-usage", "pro-version"]
 difficulty: "Beginner"
