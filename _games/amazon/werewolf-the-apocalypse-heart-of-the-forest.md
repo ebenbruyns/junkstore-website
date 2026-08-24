@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/werewolf-the-apocalypse-heart-of-the-forest/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "65e388255285e45e"
+last_modified_at: "2026-08-24"
+content_hash: "e633b7819834ed41"
 ---
 
-Explore the myths and monsters of Europe’s last primeval wilderness. Play as Maia, who arrives at the ancient Białowieża Forest looking to explore her family history. Discover Rage in an adventure game inspired by the experience of the legendary tabletop roleplaying game Werewolf: The Apocalypse.
+A narrative adventure adapting the Werewolf: The Apocalypse tabletop game, played as Maia, who comes to the Białowieża Forest on the Polish-Belarusian border to trace her family and finds out rather more than she went looking for. Choices move three attributes, Rage, Willpower and Health, and those in turn change which actions are open to you and how the world is presented, with the game reading your behaviour to decide what kind of werewolf you are. The art is collage, hand-illustrated characters set against photographs of the real places. It is written for people who have never touched the tabletop game as well as those who have.

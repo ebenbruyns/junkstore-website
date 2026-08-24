@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/naheulbeuks-dungeon-master/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "f0748b1119eff93d"
+last_modified_at: "2026-08-24"
+content_hash: "d92c845bd6358241"
 ---
 
-A dungeon in danger ! Build, manage, and defend your tower in the satirical heroic fantasy universe of Dungeon of Naheulbeuk. From a shaky establishment to an infamous lair!
+A management game set in the satirical Dungeon of Naheulbeuk universe, played as Reivax, steward of a wobbly tower, years before any adventurers turn up to raid it. You build and decorate rooms to attract patrons and staff, and hire minions from the various species of the land of Fangh, keeping them satisfied enough not to strike. Outside the staffing there is a tavern to run and goods to produce and sell on the market, all of it done without irritating your master, the evil sorcerer Zangdar. Once the dungeon has a reputation worth having you have to defend it, with traps for raiders, and mercenaries sent out to raid the neighbours.

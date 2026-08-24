@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/europa-universalis-iv/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "23616f70eca4ffe8"
+last_modified_at: "2026-08-24"
+content_hash: "4bbb619b38af7cdb"
 ---
 
-Rule your land and dominate the world with unparalleled freedom, depth and historical accuracy. Write a new history of the world and build an empire for the ages.
+A grand strategy game covering four centuries, from the late middle ages through to the Napoleonic era, in which you can take any nation on the map and run it. You accumulate land, wealth and prestige, develop your provinces, push trade through the ports that matter, and build alliances through royal marriage or keep your options open and strike when a neighbour is weak. Progress depends a great deal on who is on the throne, since a capable monarch develops quickly and a weak heir slows everything down, and monarch power is what you spend on technology and national ideas. Hundreds of historical events fire as you go, from civil wars up to the Protestant Reformation, and you can start at any date in the range.

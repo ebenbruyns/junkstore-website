@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/far-cry-6/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "red"
 standalone_rating: "red"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "82eb51c56daee9a0"
+last_modified_at: "2026-08-24"
+content_hash: "dbd4a3389bdc9121"
 ---
 
-Lead the revolution in this first-person open world guerrilla shooter. Fight with improvised weapons, travel however you can, and build your rebel network to take down Castillo's regime.
+A first-person open-world shooter set on Yara, an island nation under Antón Castillo. You play Dani Rojas, a local, building a guerrilla network out of the rebel groups, farmers, smugglers and outcasts you meet, with every community you help costing Castillo something. The Resolver idea runs through the weapons, which are improvised out of whatever is to hand: missile backpacks, and miniguns built out of motorbike engines. You fight alongside animal companions as well, among them Chorizo the dog and Guapo the gator. Yara is crossed on foot, on horseback, by helicopter, boat and jet ski. The whole campaign can be played in two-player co-op.

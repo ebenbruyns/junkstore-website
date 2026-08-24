@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/beholder-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "b27625e88ed7ae91"
+last_modified_at: "2026-08-24"
+content_hash: "008dfe3921c4e95d"
 ---
 
-Every citizen of our great State dreams of working at the Prime Ministry! You are lucky, intern – your dream has come true! While you are at the bottom of the career ladder, that is more than many of your fellow citizens will ever achieve! Have you already decided what you're going to become? Will you become a diligent and responsible officer decorated by the Wise Leader himself? Or will you become a hardline careerist capable of destroying anyone who stands between you and the Prime Minister's seat? Or maybe you are just a whistle-blower? If so, who sent you? And why? Whatever the case, you are now part of the Ministry! From this moment on, no one beyond these walls has ascendance over you! You are free to shape your own future! So, what are you going to become?
+You are a new intern at the Prime Ministry of a totalitarian state, which is further than most citizens will ever get. What you become from there is the game: a diligent officer decorated by the Wise Leader, a careerist who removes anyone standing between you and the Prime Minister's chair, or a whistle-blower who came in to expose the place, in which case the question of who sent you is also open. The work itself is paperwork, scheming against colleagues and spying on your boss.

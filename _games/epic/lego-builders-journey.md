@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/lego-builders-journey/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "1c95a1dcf60335b2"
+last_modified_at: "2026-08-24"
+content_hash: "e5f93af5a8233c5f"
 ---
 
-LEGO Builder’s Journey is an atmospheric, geometric puzzle game that asks us to sometimes follow the instructions… and sometimes to break the rules.
+A quiet geometric puzzle game made of LEGO bricks, where the question is when to follow the instructions and when to break them and solve it your own way. A wordless story runs underneath it. There is a separate Creative Mode with themed build plates for making whatever you like, a race car, a pirate ship, or a new scene from the game itself. A photo mode lets you set the camera angle and change the mood before taking a picture to share.

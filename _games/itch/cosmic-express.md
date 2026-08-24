@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/cosmic-express/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "94d6e6cfa473edea"
+last_modified_at: "2026-08-24"
+content_hash: "e35ac2ba1c308aa1"
 ---
 
-Plan the train route for the universe's most awkward space colony!
+A puzzle game about laying train track through a small space colony. Each alien has its own home to get to and the passenger car only holds one at a time, so the track has to be routed in exactly the right order. There are hundreds of levels and it is a good deal harder than it looks. The puzzles are by Alan Hazelden, who also made A Monster's Expedition and Sokobond, with artwork by Tyu Orphinae and an ambient soundtrack by Nick Dymond.

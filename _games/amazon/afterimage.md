@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/afterimage/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "0358aba433f20192"
+last_modified_at: "2026-08-24"
+content_hash: "c1f362030113a10c"
 ---
 
-Afterimage is a hand-drawn 2D action adventure that emphasizes fast-paced combat with diversified character builds, non-linear levels, and a gripping story set in the ruins of a fantasy world.
+A hand-drawn 2D action adventure set in Engardin, a world broken by a war between humanity and the goliaths that kept its order, and finished off by an explosion called The Razing. You play Renee, the only survivor of an attack on her village, who sets out with no memory of it to find her missing mentor. The world is non-linear and interconnected, opened up by abilities called Afterimages. There are over 170 enemy types waiting in the ruins, 30 of them bosses, and more than 200 pieces of equipment across six classes of weapon to build against them. Over 50 characters live out there too, each with their own side quests, and what Renee does decides which of several endings you reach.

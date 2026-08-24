@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/call-of-the-wild-the-angler/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "cbcd35919132792f"
+last_modified_at: "2026-08-24"
+content_hash: "23fc5b464ed8b531"
 ---
 
-From the creators of theHunter: Call of the Wild comes a genre-defying fishing experience! Explore a vast open world in search of the perfect fishing spot. Ride the open waters alone or with friends and embark on your journey to become a master angler.
+An open-world fishing game played alone or with up to 11 other people. Fish behave differently depending on the time of day, where you are and what you do, so landing the rare Legendary species means learning their habits rather than casting more. Three techniques are covered: float fishing, lure spinning and bottom fishing, with rods, reels, tackle and lures to combine as your inventory grows. You can also set the time of day, morning, day, evening or night, to improve your chances of a particular species. The whole reserve is open to fish anywhere in.

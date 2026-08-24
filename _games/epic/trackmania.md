@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/trackmania/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "red"
 standalone_rating: "red"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "f89b549a6aed0d85"
+last_modified_at: "2026-08-24"
+content_hash: "b93a34b8e87ce26f"
 ---
 
-Trackmania, the racing franchise from Ubisoft Nadeo, is back with the most compelling remake of Trackmania Nations.
+A precision racing game that is free to start, with a paid Club Access tier on top for the full seasonal campaigns, the community creations and the ability to host your own rooms and events. The driving runs over asphalt, dirt, grass, wood, plastic, ice and underwater, through jumps, loops, wall rides and sharp turns. The point of it is repeating a run until the line is right. Free access covers five new player-made Shorts tracks each week across five environments, the easiest official tracks each season, and hourly races on community tracks. There are track editors with over 3,000 building blocks, plus skin and replay editors.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/heads-will-roll-downfall/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "564c4c8b1dfd513a"
+last_modified_at: "2026-08-24"
+content_hash: "f33c7539e3aeb022"
 ---
 
-Heads Will Roll: Downfall is a combination of a tactical role-playing game and visual novel, in which you will assume the role of a medieval soldier.
+A turn-based tactical role-playing game wrapped in a visual novel, played as one of the thousands of faceless foot soldiers the English king sent to put down a rebellion in Scotland. Your soldier joined up to escape being tried for a crime he did not commit, and can go home cleared or stay missing. Combat weighs physical attributes, weapon skills, fatigue, wounds, armour coverage and the type and length of the weapon, so each exchange is worth thinking through. Loot off the battlefield crafts into poisons, medicines, equipment and crossbow bolts, and how you treat the men around you decides whether they help you later.

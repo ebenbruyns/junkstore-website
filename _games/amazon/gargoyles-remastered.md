@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/gargoyles-remastered/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "ad22d3e5760c7eb3"
+last_modified_at: "2026-08-24"
+content_hash: "42419aa6259659c3"
 ---
 
-Relive the legend of Goliath and save the world from destruction.
+A remaster of the 1990s 16-bit side-scrolling platformer based on the Gargoyles animated series. You play Goliath, scaling stone towers and buildings with your claws, gliding, and fighting hand to hand and in mid-air against the Eye of Odin. The remaster adds new animations, sound effects and a remastered soundtrack drawn from the series, and you can switch in real time between the new visuals and the original 16-bit look. It also adds widescreen, achievements and an instant rewind, while keeping the original gameplay as it was.

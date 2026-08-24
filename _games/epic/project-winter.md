@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/project-winter/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "4b010fa3dae4bf69"
+last_modified_at: "2026-08-24"
+content_hash: "b004e824537c0685"
 ---
 
-In Project Winter, survival is just the beginning. Work with your friends to escape the icy wilderness, but don’t get too comfortable. Traitors lurk among you, ready to lie, sabotage, and turn even the closest of friends against each other. Who will you trust?
+An eight-player survival game built on social deception. Survivors gather resources and repair objectives to get the cabin radio working and call in a rescue vehicle, while a hidden group of traitors, who know each other from the start and have their own radio channel, work to stop them without being identified. Talking is the whole game, through proximity voice, radio channels, text and emotes. The 2.0 update, Cabin Fever, added a faster streamlined mode alongside the original Classic rules, which are still there and still punishing.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/monument-valley-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "6f4b4f1c6690cb58"
+last_modified_at: "2026-08-24"
+content_hash: "3d112201bb5ef02f"
 ---
 
-Discover illusionary pathways and delightful puzzles as you learn the secrets of The Sacred Geometry. Follow the heart warming story of Ro in her journey through motherhood. Rediscover independence through manipulating monuments and evolving paths to explore new worlds.
+The sequel to Monument Valley, and a standalone one, so it does not need the first game. You guide Ro and her child through buildings that behave like optical illusions, clicking and dragging the architecture until an impossible path becomes a walkable one. The story follows Ro through motherhood and her child growing into independence. It is a calm, unhurried puzzle game meant to be finished rather than to beat you, made by ustwo games, who also made Alba: A Wildlife Adventure.

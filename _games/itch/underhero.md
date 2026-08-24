@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/underhero/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,10 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "2ba45f4f850a4799"
+last_modified_at: "2026-08-24"
+content_hash: "439e5d541fdaa05b"
 ---
 
-Underhero is a 2D side-scroller RPG adventure game with timing-based combat. It tells an intriguing and mysterious story, full of silly characters brimming with personality, quirky dialogue, and lots of weird humor.
-
-Inspired by Paper Mario games and RPGs in general, it tells the story of a world where the chosen hero has failed and an underling of the main villain takes his place as the new “hero”. Join the magical hilt Elizabeth the IV and the little Masked Kid, as they travel the world to restore Elizabeth’s long lost power, so they can defeat the tyrannical Mr. Stitches and save the world once and for all!
+A 2D side-scrolling role-playing game in which the chosen hero has already failed and one of the villain's own underlings, the little Masked Kid, takes the job instead. Combat is turn-based without the turns: you dodge, parry and attack on timing, and hitting on the beat of the music gives you critical hits. The enemies still think of you as a colleague, so you can talk to them mid-fight for tips, jokes and lore. It is drawn in pixel art, takes Paper Mario and other Nintendo role-playing games as its models, and ends with you going after your own boss, Mr. Stitches. The store page carries a seizure warning for flashing imagery.

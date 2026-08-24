@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/fate-the-cursed-king/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "1f288264a2ea3e0a"
+last_modified_at: "2026-08-24"
+content_hash: "2eb8fd1aa8ea5f50"
 ---
 
-Are you ready for the FATE-IEST of the FATE games? Welcome to the final chapter in the classic, action RPG series! FATE: The Cursed King has new weapons, spells, armor and AI-controlled allies! Wait, what?! Allies?? That’s right. This FATE game IS A PARTY. Woo! Party system!
+The final chapter of the FATE action role-playing series, and the one that introduces a party system, so you can recruit AI-controlled allies rather than going down alone. A disaster threatens the city of Ekbatan and the job is to break the curse before it is doomed for good. There are new weapons, spells and armour, levels that are procedurally generated so no dungeon repeats, and an economy for buying equipment, selling loot and gambling.

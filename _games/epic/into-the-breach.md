@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/into-the-breach/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-09-01"
-content_hash: "1683f7327a95bfb1"
+last_modified_at: "2026-08-24"
+content_hash: "968fd8e9fabe4c66"
 ---
 
-Control powerful mechs from the future to defeat an alien threat. Each attempt to save the world presents a new randomly generated challenge in this turn-based strategy game from the makers of FTL.
+A turn-based strategy game from the makers of FTL, in which mechs sent back from the future hold off giant creatures breeding under the earth. Every enemy attack is telegraphed before it lands, so each turn is a puzzle with a right answer rather than a gamble. The civilian buildings you are defending are also what powers your mechs, which makes your own stray fire expensive. Each run is randomly generated across the islands, and being defeated means sending help back through time into another timeline rather than starting over cold. The free Advanced Edition update added five squads, nearly forty weapons, four pilots and an Unfair difficulty.

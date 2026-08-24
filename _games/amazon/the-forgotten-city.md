@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/the-forgotten-city/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "f8e18bd2b1419f1b"
+last_modified_at: "2026-08-24"
+content_hash: "ab8c1ab827020295"
 ---
 
-The Forgotten City is a mystery adventure game of exploration and deduction, and a re-imagining of the critically acclaimed mod of the same name. Combat is an option, but violence will only get you so far. Only by questioning an intertwined community of colorful characters, cleverly exploiting the time loop, and making difficult moral choices can you hope to solve this epic mystery. Here, your decisions matter. The fate of the city is in your hands.
+A time-loop mystery set in an underground Roman city living under one rule: if any one person sins, everyone dies. You travel 2,000 years back and relive the city's final days over and over, questioning an interconnected cast and carrying what you learn into the next loop. Combat exists but only gets you so far, and the same problems can be solved with reason, charm, bribery, intimidation or the loop itself. You choose your character's gender, origin and backstory, the moral choices carry life-and-death consequences, and there are multiple endings.

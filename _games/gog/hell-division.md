@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/hell-division/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,10 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "e1ea78da3904c499"
+last_modified_at: "2026-08-24"
+content_hash: "bc19919441d043f7"
 ---
 
-Hell Division is a game from the 3rd person, which is a battle of combat drones.
-
-Become a pilot of an armed military drone and plunge into adrenaline-fueled action set in a cyberpunk city divided between two ruthless corporations. The confrontation is inevitable, the question is – will you prevail?
+A third-person action game in which you pilot a military drone, armed with small arms, through a cyberpunk corporate war over cyberspace. One manufacturer has taken most of it and intends to set the rules from here. The other has built the better machine but has far fewer of them, and yours is one of those, so you spend the game outnumbered, holding off dozens at a time on tactics rather than firepower. Six locations, several mission types, and enemies that vary in difficulty.

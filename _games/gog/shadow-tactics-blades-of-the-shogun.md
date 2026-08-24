@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/shadow-tactics-blades-of-the-shogun/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "dddd43f3b975b548"
+last_modified_at: "2026-08-24"
+content_hash: "2bf12d3c29dbb1c6"
 ---
 
-Shadow Tactics is a hardcore tactical stealth game set in Japan around the Edo period. A new Shogun seizes power over Japan and enforces nationwide peace. He recruits five specialists with extraordinary skills for assassination, sabotage and espionage.
+A tactical stealth game set in Edo-period Japan, in which a new Shogun recruits five specialists to deal with conspiracy and rebellion. Each plays differently: Hayato is an agile ninja working with sword and shuriken, Mugen a samurai who can take several enemies at once but gives up flexibility for it, Aiko a master of camouflage who distracts guards disguised as a geisha, Yuki a street child who sets traps and lures people onto them, and Takuma a marksman working at distance. Missions run through castles, snowy mountain monasteries and hidden forest camps, usually outnumbered about ten to one, and the group has to learn to work together over the course of them. Three difficulty levels.

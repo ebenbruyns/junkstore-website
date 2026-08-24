@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/sniper-ghost-warrior-contracts/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-09-01"
-content_hash: "f0058e33aad95a83"
+last_modified_at: "2026-08-24"
+content_hash: "5c6f31afb7ac4324"
 ---
 
-Become the ultimate assassin in the most realistic modern warfare sniping game available. Engage in an immersive single-player campaign across large, open-ended maps. Tactical thinking, stealth approach and precision in execution of long shots required.
+A single-player sniping game built around contracts, each with a clear objective, a fixed payment and optional bonus challenges you can take on for more. It is set in Siberia, across snow-covered mountains, forests and bases dug into the mountainside, and rival snipers are working the same ground and will interfere. An upgradeable AR mask scans the area and marks weak points and objects of interest, and the gadgets include drones, remote sniper turrets and gas grenades. It all pays into the same pot: contract fees, bonus challenges and the rewards for stealth and silent takedowns become cash to spend on upgrades.

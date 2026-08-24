@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/sunblaze/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "a5737834ca1caadd"
+last_modified_at: "2026-08-24"
+content_hash: "7e75c71f0009a968"
 ---
 
-Lead Josie, aka. Sunblaze into a superhero training simulator built by her dad, a retired protagonist fighting the evils of our universe. Sunblaze is a brain-twisting precision platformer with hundreds of challenging levels, an awesome story, a superb soundtrack, and a beautiful game design.
+A precision platformer with hundreds of hand-made levels. Josie's father, a retired superhero, has fixed up his old training simulator and lets her in to play, and the training room then goes rogue with her inside it. The levels are built from TNT, spikes, lasers and drones, and dying a great many times is the intended experience rather than a failure state. She has a cat with her. The controls and gameplay can be adjusted through accessibility options, and the developers note that the dying is optional.

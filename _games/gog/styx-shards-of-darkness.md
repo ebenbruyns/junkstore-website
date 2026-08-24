@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/styx-shards-of-darkness/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "233847fa560f87cc"
+last_modified_at: "2026-08-24"
+content_hash: "404f3ddb277ab7a1"
 ---
 
-Embark upon a stealthy adventure with new enemies, new environments, and a plethora of new mechanics aimed at refining the abilities and movement of Styx; grappling around corners, climbing ropes, and using his trusty knife as a zip-wire. Shards of Darkness aims to offer unparalleled freedom of movement, along with refined stealth and assassination mechanics, expanding and improving on the strengths of Styx: Master of Shadows
+A stealth game played as Styx, a goblin assassin, through large multi-layered levels you climb, swing and hang your way around, staying in the dark corners or going high to avoid being seen. It can be played alone or with a friend in co-op. The route runs up an Elven city, through Dwarf territory and out into unmapped land, and failing has consequences for Styx's own kin. Experience points go into assassination, infiltration or magic, and you gather ingredients to craft traps and items and produce clones of yourself to distract and mislead the guards.
