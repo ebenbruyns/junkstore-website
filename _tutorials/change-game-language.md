@@ -125,7 +125,7 @@ help_links:
 
 <p>The same two settings exist on <a href="/docs/user/store-settings-reference/#setting-a-language">the store's own cog</a>, where they apply to <strong>every game in that store</strong>.</p>
 
-<img src="/assets/images/tutorials/change-language/store-language-list.webp" alt="The store-wide language list, scrolled to show English, German, French, Italian, Spanish - Spain, Portuguese - Brazil, Japanese, Chinese Simplified and Korean, with more below" width="1000" height="1459" loading="lazy" />
+<img src="/assets/images/tutorials/change-language/store-language-list.webp" alt="The store-wide language list, scrolled to show English, German, French, Italian, Spanish - Spain, Portuguese - Brazil, Japanese, Chinese Simplified and Korean, with more below" width="440" height="642" loading="lazy" />
 
 <div class="js-callout js-callout--warning">
   <strong>One game's fix becomes every game's risk.</strong> Plenty of games aren't set up for it, and a tab-wide change can break ones that were working perfectly well. Set it on the single game that needs it instead.

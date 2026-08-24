@@ -62,6 +62,8 @@ To dig into storage, open a folder's context menu (right-click, or LT on the Dec
 
 From there you get a colour-coded map of everything in that folder, sized by how much space it is using, so the storage hogs jump straight out and you can clear them without guesswork.
 
+If your Deck is full, the File Browser is also how you clear out the prefixes and shader cache left behind by games you uninstalled. We walk through that in [How to Clear Out Orphaned Non-Steam Game Files](/tutorials/clear-orphaned-game-files/).
+
 ![Junk Store Disk Usage view on Steam Deck showing a colour-coded treemap of Epic game folders sized by disk space, totalling 2.9 GB, with each folder's size listed](/assets/images/blog/tips/button-chords/disk-usage-treemap.webp)
 
 ---

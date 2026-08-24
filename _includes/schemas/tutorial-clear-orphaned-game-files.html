@@ -1,0 +1,46 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Clear Out Orphaned Non-Steam Game Files on Steam Deck",
+  "description": "Free up Steam Deck storage without reformatting. Use the Junk Store Pro File Manager to find leftover Proton prefixes and shader cache from games you've uninstalled, check them for saves, and clear them out in Game Mode.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "text": "Check what you're starting with. Go to Steam Settings, then Storage, and note your free space and your NON-STEAM figure so you can see what you get back. NON-STEAM is a catch-all for anything the Steam client doesn't track as an official Steam store install, so it holds your Epic, GOG, Amazon and itch libraries, Proton prefixes, emulators and ROMs, Desktop Mode apps, and your Downloads and Trash. Much of that has to stay, so it won't ever be zero."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Open the File Manager. Hold SELECT and press X from anywhere in Steam, or open it from the Junk Store main menu. Press LB to show the sidebar, then choose Compatdata. Every folder now shows the game it belongs to instead of a bare ID number."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Read the colours. Green is a game from your Steam library, blue is a non-Steam game including anything Junk Store installed, and yellow is a runtime such as Proton itself. Leave the yellow ones alone, because runtimes are shared by everything that runs through them."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Find the orphans. Scroll to the bottom of the list. An orphaned folder has no game name to show, so it stays a bare number, carries an orange No Game badge, and the row is dimmed. That means the game was uninstalled and its prefix was left behind."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Check for saves before you delete a prefix. A Windows game usually keeps its saves inside its Proton prefix, under the numbered folder at pfx/drive_c/users/steamuser/, with Documents, Saved Games and AppData being the usual places. Copy anything worth keeping somewhere else first. This also works in reverse: saves lost after a reinstall are often still in the old orphaned prefix."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Select the orphans and move them to the trash. Hold R2 and move down the list to paint-select them, then press L2 to open File Operations and choose Move to Trash. The menu tells you how many items it is about to take."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Do the same in Shader Cache. Choose Shader Cache from the sidebar and repeat the process. Shader caches never hold saves, so orphaned shaders are safe to remove without checking inside them."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Empty the trash. Nothing gives the space back until you do this. Highlight Trash in the sidebar, press L2, and choose Empty Trash. This is permanent and asks for confirmation first."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Look elsewhere for more space. Check Downloads, Screenshots, Documents and Desktop from the sidebar, then highlight any folder or sidebar entry, press L2 and choose Disk Usage for everything else. The treemap draws every folder as a rectangle sized by the space it uses, so you can drill into the biggest one until you find the culprit and move it to the trash with X."
+    }
+  ]
+}
+</script>

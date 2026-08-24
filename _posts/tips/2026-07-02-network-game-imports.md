@@ -58,6 +58,8 @@ Open the Junk Store **File Manager** on the device you're importing to, find the
 
 **Want more detail?** Check out the [full network import tutorial](/tutorials/import-games-over-your-local-network/) for step-by-step screenshots, pairing tips, and importing from a folder instead.
 
+Once two Decks are paired, games aren't the only thing you can do across the connection. You can clear the leftovers off both machines from whichever one is in your hands, which we cover in [How to Clear Out Orphaned Non-Steam Game Files](/tutorials/clear-orphaned-game-files/).
+
 Networking is still a young feature, so there may be the odd rough edge. If something doesn't behave, open a ticket right in the <a href="https://portal.junkstore.xyz/support" target="_blank" rel="noopener" class="community-btn support-btn"><i class="fas fa-headset" style="margin-right: 6px;"></i>Support Portal</a> and we'll take a look.
 
 *Have questions about this tip? Join our community on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a>, <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a> or <a href="https://lemmy.world/c/junkstore4deck" target="_blank" rel="noopener" class="community-btn lemmy-btn"><span class="lemmy-icon" style="margin-right: 6px;"></span>Lemmy</a>!*
