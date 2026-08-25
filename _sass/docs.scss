@@ -259,6 +259,75 @@ $docs-code-bg: #1b2029;
     }
   }
 
+  /* ------------------------------------------------------------------------
+     Search results
+
+     Replace the tree in place rather than sitting above it. Two lists of page
+     names on top of one another, one ranked and one not, reads as a puzzle.
+
+     A result is three lines: what the passage is called, where it lives, and
+     the part of it that matched. The last one is the reason this is a search
+     and not a filter, so it gets room even though the column is narrow.
+     ------------------------------------------------------------------------ */
+
+  &__result {
+    display: block;
+    padding: 0.6rem 0.7rem;
+    border-radius: $border-radius;
+    color: $junkstore-gray-text;
+    text-decoration: none;
+
+    & + & {
+      margin-top: 0.15rem;
+    }
+
+    &:hover,
+    &.is-active {
+      background: $junkstore-bg-dark;
+    }
+
+    &:focus-visible {
+      @include focus-ring;
+    }
+
+    mark {
+      padding: 0;
+      background: transparent;
+      color: $junkstore-primary;
+      font-weight: 700;
+    }
+  }
+
+  &__result-title {
+    display: block;
+    color: $junkstore-light-text;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+
+  &__result-crumb {
+    display: block;
+    margin-top: 0.15rem;
+    color: $junkstore-meta-text;
+    font-size: 0.72rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  /* Three lines of quote is enough to judge a result by and short enough that
+     thirty of them still scroll sensibly in a 260px column. */
+  &__result-snippet {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 0.3rem;
+    color: $junkstore-gray-text;
+    font-size: 0.8rem;
+    line-height: 1.45;
+  }
+
   &__item {
     margin: 0;
   }

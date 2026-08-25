@@ -26,7 +26,15 @@ layout: junkstore-default
   JSON-LD) expects exactly that shape.
 {%- endcomment -%}
 
-<div class="js-docs{% if page.doc_index %} js-docs--index{% endif %}">
+{%- comment -%}
+  The two files the sidebar search fetches on first use, passed in rather than
+  hardcoded in the script so they survive a baseurl and so the paths stay
+  visible to anyone reading the layout. The index is written by
+  scripts/import-docs.py; both are fetched only when the box is focused.
+{%- endcomment -%}
+<div class="js-docs{% if page.doc_index %} js-docs--index{% endif %}"
+     data-search-index="{{ '/assets/data/docs-search.json' | relative_url }}"
+     data-search-lunr="{{ '/assets/js/lunr/lunr.min.js' | relative_url }}">
   {%- comment -%}
     No page tree on the contents page. Its section cards are the navigation,
     and a full tree beside them is two navigations competing for the same job.

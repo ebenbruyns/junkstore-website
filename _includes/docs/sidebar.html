@@ -30,12 +30,37 @@
 {%- endif -%}
 
 <nav class="js-docs-nav" aria-label="Documentation">
+  {%- comment -%}
+    The box does two jobs, depending on what has loaded.
+
+    Typing filters the tree below immediately, with no index and no network,
+    which is what makes it useful the instant the page renders. On first focus
+    assets/js/docs.js fetches the search index written by scripts/import-docs.py
+    and upgrades the same box to a full search over every heading in the docs,
+    body text included. If that never arrives, the filter is still there.
+
+    The placeholder says search rather than filter because search is what it
+    does once loaded, and because a box labelled "filter" invites nobody to
+    type what they are actually looking for.
+  {%- endcomment -%}
   <div class="js-docs-nav__search">
-    <label class="js-visually-hidden" for="docs-filter">Filter documentation</label>
+    <label class="js-visually-hidden" for="docs-filter">Search documentation</label>
     <input type="search" id="docs-filter" class="js-docs-nav__filter"
-           placeholder="Filter pages…" autocomplete="off">
-    <p class="js-docs-nav__empty" hidden>No pages match.</p>
+           placeholder="Search documentation…" autocomplete="off"
+           role="combobox" aria-expanded="false" aria-autocomplete="list"
+           aria-controls="docs-search-results">
+    <p class="js-docs-nav__empty" hidden>Nothing matches.</p>
   </div>
+
+  {%- comment -%}
+    Filled in by the search, and left empty until then. It replaces the tree
+    rather than sitting above it: two lists of page names stacked on top of one
+    another, one ranked and one not, is a puzzle rather than a navigation.
+  {%- endcomment -%}
+  <div class="js-docs-nav__results" id="docs-search-results" role="listbox"
+       aria-label="Search results" hidden></div>
+
+  <div class="js-docs-nav__tree">
 
   {%- comment -%}
     Pages outside every section sit at the top, above the section tree, and
@@ -127,4 +152,5 @@
       {%- endunless -%}
     </div>
   {%- endfor -%}
+  </div>{%- comment -%} .js-docs-nav__tree {%- endcomment -%}
 </nav>

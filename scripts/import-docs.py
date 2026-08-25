@@ -18,6 +18,8 @@ public and added as a submodule, point this at _vendor/junk-docs.
 """
 
 import argparse
+import gzip
+import json
 import os
 import re
 import shutil
@@ -160,6 +162,15 @@ DOCS_ROOT_URL = "/docs/"
 # _data/doc_sections.yml, not in this file, so the contents page, the sidebar,
 # the breadcrumbs and this script all read them from one place.
 SECTIONS_FILE = "_data/doc_sections.yml"
+
+# The search index the docs sidebar loads. Written here rather than by a Liquid
+# template because this script has already parsed every page: it knows the
+# section, the group, the heading anchors and the plain prose behind the
+# markdown, none of which Liquid can get at without doing the work twice.
+#
+# Gitignored and rebuilt on every import, exactly like _docs/ itself, so the
+# deploy workflow produces it as a side effect of the step it already runs.
+SEARCH_INDEX_FILE = "assets/data/docs-search.json"
 REDIRECTS_FILE = "_data/doc_redirects.yml"
 URLS_FILE = "_data/doc_urls.yml"
 
@@ -403,6 +414,124 @@ def add_heading_anchors(text):
     return "\n".join(out)
 
 
+# The two heading forms add_heading_anchors emits, read back so a page can be
+# split into its sections again for the search index.
+HEADING_WITH_ID = re.compile(r"^(#{2,6})\s+(.*?)\s*\{#([^}]+)\}\s*$")
+HEADING_BARE = re.compile(r"^(#{2,6})\s+(.+?)\s*$")
+ATTR_ID = re.compile(r'^\s*\{:\s*id="([^"]+)"\}\s*$')
+
+
+def plain_text(md):
+    """The prose under the markdown.
+
+    Good enough to search and to quote back as a snippet, which is all it is
+    for: it discards syntax rather than rendering it. Fenced code goes entirely.
+    A page of shell script matches almost any query and reads as noise in a
+    result list, and nobody searching the docs is looking for a bare flag.
+    """
+    text = re.sub(r"```.*?```", " ", md, flags=re.S)
+    text = re.sub(r"~~~.*?~~~", " ", text, flags=re.S)
+    text = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", text)          # images
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)       # links to labels
+    text = re.sub(r"<[^>]+>", " ", text)                       # inline html
+    text = re.sub(r"\{:[^}]*\}", " ", text)                    # attribute lists
+    text = re.sub(r"^[-:\s|]+$", " ", text, flags=re.M)        # table rules
+    text = re.sub(r"[`*_~>#|]", " ", text)                     # emphasis, tables
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def search_entries(srcpath, page_title, body, labels):
+    """Split a page into one search entry per heading.
+
+    A docs page here runs to thousands of words and covers a dozen separate
+    things. Indexed whole it produces one result for "shader cache" that drops
+    the reader at the top of a 6,000 word page to hunt for it. Split on
+    headings, the result carries the heading it was found under and links
+    straight down to it.
+
+    The prose before the first heading becomes the page's own entry, so a
+    search for what the page is about lands on the page rather than on whatever
+    subsection happened to score highest.
+
+    Keys are short because this file is downloaded whole:
+      t title  u url  s section  g group  p page (only on a subsection)
+      b body text
+
+    There is deliberately no snippet field. It would be the opening of b
+    repeated, which is a tenth of the file for nothing, and the sidebar can cut
+    a better one anyway: it knows what was searched for and can quote the part
+    of the passage that actually matched.
+    """
+    section = section_for(srcpath)
+    group = group_for(srcpath)
+    url = permalink_for(srcpath)
+
+    common = {"s": label_for(labels, section) if section else ""}
+    if group:
+        common["g"] = label_for(labels, section, group)
+
+    # Walk the body, starting a new chunk at each heading and remembering the
+    # anchor so the result can link into the page.
+    chunks = [{"title": page_title, "anchor": "", "lines": []}]
+    fenced = False
+
+    for line in body.split("\n"):
+        if line.lstrip().startswith(("```", "~~~")):
+            fenced = not fenced
+            chunks[-1]["lines"].append(line)
+            continue
+
+        if fenced:
+            chunks[-1]["lines"].append(line)
+            continue
+
+        # An attribute list on its own line carries the id for the heading
+        # immediately above it, which has already been started as a chunk.
+        attr = ATTR_ID.match(line)
+        if attr and not chunks[-1]["lines"]:
+            chunks[-1]["anchor"] = attr.group(1)
+            continue
+
+        with_id = HEADING_WITH_ID.match(line)
+        if with_id:
+            chunks.append({"title": with_id.group(2).strip(),
+                           "anchor": with_id.group(3), "lines": []})
+            continue
+
+        bare = HEADING_BARE.match(line)
+        if bare:
+            chunks.append({"title": bare.group(2).strip(),
+                           "anchor": "", "lines": []})
+            continue
+
+        chunks[-1]["lines"].append(line)
+
+    entries = []
+    for i, chunk in enumerate(chunks):
+        title = plain_text(chunk["title"])
+        text = plain_text("\n".join(chunk["lines"]))
+
+        # A heading with nothing under it is a divider, not a destination.
+        if i > 0 and not text:
+            continue
+        if not title and not text:
+            continue
+
+        entry = dict(common)
+        entry["t"] = title
+        entry["u"] = url + (f"#{chunk['anchor']}" if chunk["anchor"] else "")
+        entry["b"] = text
+        # The page title is what tells a reader which of six File Manager
+        # pages a subsection belongs to, so it rides along on all but the
+        # entry that already is the page.
+        if i > 0:
+            entry["p"] = page_title
+        entries.append(entry)
+
+    return entries
+
+
 def yaml_quote(s):
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
 
@@ -473,7 +602,8 @@ def build_page(srcpath, text, order, known, redirects, labels):
 
     fm.append("---")
 
-    return "\n".join(fm) + "\n\n" + body.lstrip("\n"), unresolved
+    page = "\n".join(fm) + "\n\n" + body.lstrip("\n")
+    return page, unresolved, search_entries(srcpath, title, body, labels)
 
 
 def collect(source):
@@ -569,6 +699,28 @@ def check_groups(section, ordered):
               f"so its heading will appear more than once in the sidebar")
 
 
+def write_search_index(entries):
+    """Write the index the docs sidebar searches, and report what it costs.
+
+    The size is printed because it is downloaded whole by anyone who uses the
+    box, and because it is the number that decides whether this stays a good
+    idea as the documentation grows. The site-wide Lunr index is the cautionary
+    tale: nobody watched it, and it reached two and a half megabytes.
+    """
+    os.makedirs(os.path.dirname(SEARCH_INDEX_FILE), exist_ok=True)
+    # Compact separators: this is read by a machine, and the whitespace of a
+    # pretty-printed file is a tenth of its size for no benefit.
+    payload = json.dumps(entries, ensure_ascii=False, separators=(",", ":"))
+
+    with open(SEARCH_INDEX_FILE, "w", encoding="utf-8") as f:
+        f.write(payload)
+
+    kb = len(payload.encode("utf-8")) / 1024
+    gz = len(gzip.compress(payload.encode("utf-8"))) / 1024
+    print(f"search index: {len(entries)} entries, {kb:.0f} KB "
+          f"({gz:.0f} KB gzipped) -> {SEARCH_INDEX_FILE}")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -609,6 +761,7 @@ def main():
     print(f"source: {source}")
     total, all_unresolved, images = 0, [], 0
     published = {}   # permalink -> source path, for the collision guard
+    search = []      # one entry per heading, written out as the search index
 
     # Every page in the repo, so a link that crosses out of its own section
     # still resolves. The glossary is linked from three pages inside
@@ -624,9 +777,10 @@ def main():
             with open(os.path.join(source, srcpath), encoding="utf-8") as f:
                 text = f.read()
 
-            page, unresolved = build_page(srcpath, text, i, known,
-                                          redirects, labels)
+            page, unresolved, entries = build_page(srcpath, text, i, known,
+                                                   redirects, labels)
             all_unresolved.extend(unresolved)
+            search.extend(entries)
 
             # Mirroring the source tree should make this impossible, since two
             # files cannot share a path. It is checked anyway because the cost
@@ -651,6 +805,8 @@ def main():
 
     write_index(args.out, sections)
     print(f"\nwrote {total} pages + index, copied {images} images")
+
+    write_search_index(search)
 
     check_redirect_targets(redirects, published)
     report_vanished_urls(published)

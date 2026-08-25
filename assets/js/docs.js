@@ -6,7 +6,7 @@
  *
  * Six jobs:
  *   1. the sidebar drawer on narrow screens
- *   2. the sidebar filter box
+ *   2. the sidebar search box, with a filter as its fallback
  *   3. scroll-spy on the "on this page" rail
  *   4. wrapping tables so wide ones scroll inside themselves
  *   5. copy buttons and hover anchors
@@ -89,17 +89,34 @@
   }
 
   /* ---------------------------------------------------------------------
-     2. Sidebar filter
+     2. Sidebar search box
 
-     Filters the rendered list rather than an index, so it needs no data and
-     is correct the moment the page loads.
+     One box, two behaviours, chosen by what has finished loading.
+
+     Typing narrows the rendered tree by page title straight away: no index,
+     no network, correct the moment the page renders. On first focus the
+     search index is fetched in the background, and once it arrives the same
+     box searches every heading in the documentation, body text included.
+
+     Written this way round so the box is never dead. If the index is slow,
+     blocked or missing, what is left is a working filter rather than a
+     spinner, and nothing has to be said about it.
      --------------------------------------------------------------------- */
 
-  function wireFilter() {
-    var input = root.querySelector('.js-docs-nav__filter');
-    var nav = root.querySelector('.js-docs-nav');
-    if (!input || !nav) return;
+  var MAX_RESULTS = 30;
+  var SNIPPET_CHARS = 150;
 
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;',
+               '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  /* Narrows the rendered tree by page title. No index and no network, so it
+     is correct the moment the page loads, and it is what the box does until
+     the real search has finished loading behind it. */
+  function makeFilter(nav) {
     var empty = nav.querySelector('.js-docs-nav__empty');
     var items = Array.prototype.slice.call(
       nav.querySelectorAll('.js-docs-nav__item')
@@ -111,8 +128,8 @@
       nav.querySelectorAll('.js-docs-nav__section')
     );
 
-    function apply() {
-      var q = input.value.trim().toLowerCase();
+    return function apply(query) {
+      var q = (query || '').trim().toLowerCase();
       var matches = 0;
 
       items.forEach(function (item) {
@@ -137,13 +154,277 @@
       });
 
       if (empty) empty.hidden = !q || matches > 0;
+    };
+  }
+
+  /* ---------------------------------------------------------------------
+     Full text search over the docs
+
+     The index is one entry per heading rather than one per page. A page here
+     runs to thousands of words across a dozen subjects, so a page-level hit
+     answers "somewhere in these 6,000 words" and leaves the reader to find
+     the rest themselves. Per heading, the result names the passage and links
+     into it.
+
+     It is a separate index from the site-wide one on /search/ on purpose.
+     That one carries a thousand game pages, which bury 45 documentation
+     pages by sheer weight no matter how the ranking is tuned.
+     --------------------------------------------------------------------- */
+
+  function loadScript(src) {
+    return new Promise(function (resolve, reject) {
+      var el = document.createElement('script');
+      el.src = src;
+      el.onload = resolve;
+      el.onerror = function () { reject(new Error('failed to load ' + src)); };
+      document.head.appendChild(el);
+    });
+  }
+
+  function buildIndex(entries) {
+    return window.lunr(function () {
+      this.ref('i');
+      /* A heading that names the thing is a better answer than a paragraph
+         that mentions it, and the page title is the next best signal. */
+      this.field('t', { boost: 12 });
+      this.field('p', { boost: 4 });
+      this.field('b');
+
+      var builder = this;
+      entries.forEach(function (entry, i) {
+        builder.add({
+          i: String(i),
+          t: entry.t || '',
+          p: entry.p || '',
+          b: entry.b || ''
+        });
+      });
+    });
+  }
+
+  function runQuery(idx, terms, trailing) {
+    return idx.query(function (q) {
+      terms.forEach(function (term, n) {
+        q.term(term, { boost: 10 });
+        /* Only the term being typed gets a wildcard, so results appear while
+           you are still mid-word without every earlier term going fuzzy. */
+        if (trailing && n === terms.length - 1) {
+          q.term(term, {
+            usePipeline: false,
+            wildcard: window.lunr.Query.wildcard.TRAILING,
+            boost: 4
+          });
+        }
+        q.term(term, { usePipeline: false, editDistance: 1, boost: 1 });
+      });
+    });
+  }
+
+  /* Mark the searched-for words wherever they appear in an already escaped
+     string. Terms of one character are skipped: they match inside almost
+     every word and the result is a line of confetti. */
+  function highlight(escaped, terms) {
+    var html = escaped;
+    terms.forEach(function (term) {
+      if (term.length < 2) return;
+      var safe = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      html = html.replace(new RegExp('(' + safe + ')', 'gi'), '<mark>$1</mark>');
+    });
+    return html;
+  }
+
+  /* A window of the passage around the first term that matched, rather than
+     its opening words, which are frequently the same boilerplate on every
+     page in a section. */
+  function snippet(body, terms) {
+    if (!body) return '';
+
+    var lower = body.toLowerCase();
+    var at = -1;
+    terms.forEach(function (term) {
+      if (!term) return;
+      var found = lower.indexOf(term);
+      if (found !== -1 && (at === -1 || found < at)) at = found;
+    });
+
+    var start = 0;
+    if (at > 60) {
+      /* Back up to a word boundary so the quote does not open mid-word. */
+      start = body.lastIndexOf(' ', at - 50);
+      if (start === -1) start = 0;
     }
 
-    input.addEventListener('input', apply);
+    var text = body.slice(start, start + SNIPPET_CHARS);
+    if (start > 0) text = '…' + text.replace(/^\s+/, '');
+    if (start + SNIPPET_CHARS < body.length) text = text.replace(/\s+\S*$/, '') + '…';
+
+    return highlight(escapeHtml(text), terms);
+  }
+
+  function wireSearchBox() {
+    var nav = root.querySelector('.js-docs-nav');
+    var input = root.querySelector('.js-docs-nav__filter');
+    if (!nav || !input) return;
+
+    var tree = nav.querySelector('.js-docs-nav__tree');
+    var results = nav.querySelector('.js-docs-nav__results');
+    var empty = nav.querySelector('.js-docs-nav__empty');
+    var filter = makeFilter(nav);
+    if (!tree || !results) {
+      /* Markup predates the search; the filter alone still works. */
+      input.addEventListener('input', function () { filter(input.value); });
+      return;
+    }
+
+    var indexUrl = root.getAttribute('data-search-index');
+    var lunrUrl = root.getAttribute('data-search-lunr');
+    var entries = null;
+    var idx = null;
+    var loading = false;
+    var active = -1;
+
+    function load() {
+      if (loading || idx || !indexUrl || !lunrUrl) return;
+      loading = true;
+
+      var scripts = window.lunr ? Promise.resolve() : loadScript(lunrUrl);
+      Promise.all([scripts, fetch(indexUrl).then(function (r) {
+        if (!r.ok) throw new Error('index ' + r.status);
+        return r.json();
+      })]).then(function (loaded) {
+        entries = loaded[1];
+        idx = buildIndex(entries);
+        /* Something may already have been typed while this was in flight. */
+        if (input.value.trim()) update();
+      }).catch(function () {
+        /* Leaves the filter in charge, which is a working search box with a
+           narrower reach rather than a broken one. Not worth a message. */
+        loading = false;
+      });
+    }
+
+    function showTree() {
+      results.hidden = true;
+      results.innerHTML = '';
+      tree.hidden = false;
+      input.setAttribute('aria-expanded', 'false');
+      active = -1;
+    }
+
+    function render(hits, terms) {
+      if (!hits.length) {
+        results.innerHTML = '';
+        results.hidden = true;
+        tree.hidden = true;
+        if (empty) empty.hidden = false;
+        input.setAttribute('aria-expanded', 'false');
+        return;
+      }
+
+      if (empty) empty.hidden = true;
+      tree.hidden = true;
+      results.hidden = false;
+      input.setAttribute('aria-expanded', 'true');
+
+      results.innerHTML = hits.map(function (hit, n) {
+        var e = entries[hit.ref];
+        /* For a subsection the page it came from is what tells you which of
+           six File Manager pages you are looking at. For a whole page, where
+           it sits in the manual is the more useful line.
+
+           Unless they are the same words: a heading often repeats its page's
+           title, and "Proton settings" over "Proton settings" tells nobody
+           anything. Fall back to the place in the manual. */
+        var crumb = (e.p && e.p !== e.t)
+          ? e.p
+          : [e.s, e.g].filter(Boolean).join(' · ');
+        return '<a class="js-docs-nav__result" role="option" aria-selected="false"' +
+               ' id="docs-result-' + n + '" href="' + escapeHtml(e.u) + '">' +
+               '<span class="js-docs-nav__result-title">' +
+                 highlight(escapeHtml(e.t), terms) + '</span>' +
+               (crumb ? '<span class="js-docs-nav__result-crumb">' +
+                        escapeHtml(crumb) + '</span>' : '') +
+               '<span class="js-docs-nav__result-snippet">' +
+                 snippet(e.b, terms) + '</span>' +
+               '</a>';
+      }).join('');
+      active = -1;
+    }
+
+    function update() {
+      var raw = input.value.trim();
+
+      if (!raw) {
+        filter('');
+        showTree();
+        return;
+      }
+
+      if (!idx) {
+        /* Still loading, or it failed. Narrow the tree instead. */
+        showTree();
+        filter(raw);
+        return;
+      }
+
+      var terms = raw.toLowerCase().split(/\s+/).filter(Boolean);
+      /* A trailing space means the last word is finished, so drop the
+         wildcard and stop matching everything that starts with it. */
+      var hits = runQuery(idx, terms, !/\s$/.test(input.value));
+      render(hits.slice(0, MAX_RESULTS), terms);
+    }
+
+    function move(step) {
+      var options = results.querySelectorAll('.js-docs-nav__result');
+      if (!options.length) return;
+
+      if (active >= 0 && options[active]) {
+        options[active].classList.remove('is-active');
+        options[active].setAttribute('aria-selected', 'false');
+      }
+      active += step;
+      if (active < 0) active = options.length - 1;
+      if (active >= options.length) active = 0;
+
+      options[active].classList.add('is-active');
+      options[active].setAttribute('aria-selected', 'true');
+      options[active].scrollIntoView({ block: 'nearest' });
+      input.setAttribute('aria-activedescendant', options[active].id);
+    }
+
+    var queued = null;
+    input.addEventListener('input', function () {
+      /* Typing arms the load as well as focusing does. Focus alone is one
+         event away from never happening: text restored on a back navigation,
+         a value set by the browser, a field reached without the window itself
+         being focused. load() is guarded, so calling it twice costs nothing. */
+      load();
+      window.clearTimeout(queued);
+      /* Short enough not to feel laggy, long enough that a fast typist runs
+         one query rather than one per letter. */
+      queued = window.setTimeout(update, 90);
+    });
+
+    input.addEventListener('focus', load);
+
     input.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') {
         input.value = '';
-        apply();
+        filter('');
+        showTree();
+        return;
+      }
+      if (e.key === 'ArrowDown') { e.preventDefault(); move(1); return; }
+      if (e.key === 'ArrowUp') { e.preventDefault(); move(-1); return; }
+      if (e.key === 'Enter') {
+        var options = results.querySelectorAll('.js-docs-nav__result');
+        if (active >= 0 && options[active]) {
+          e.preventDefault();
+          options[active].click();
+        } else if (options.length) {
+          e.preventDefault();
+          options[0].click();
+        }
       }
     });
   }
@@ -398,7 +679,7 @@
   }
 
   wireDrawer();
-  wireFilter();
+  wireSearchBox();
   wireScrollSpy();
   wireTables();
   wireCodeCopy();

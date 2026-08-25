@@ -87,6 +87,29 @@ layout: junkstore-default
   color: #cceeff;
 }
 
+/* What kind of thing a result is. Without it a documentation page, a blog post
+   and a game page are three identical rows and you cannot tell which sort of
+   answer you are about to open. */
+.js-search__list .archive__item-type {
+  display: inline-block;
+  margin-left: 0.6rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid #3a4a5c;
+  border-radius: 4px;
+  color: #9fb3c8;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.js-search__list .results__found,
+.js-search__results .results__found {
+  color: #9fb3c8;
+  font-size: 0.9rem;
+}
+
 .js-search__list .archive__item-excerpt {
   color: #ccc;
   font-size: 0.95rem;
