@@ -4,12 +4,13 @@
  * the pager and the tables all render server side and work with this file
  * absent or blocked.
  *
- * Five jobs:
+ * Six jobs:
  *   1. the sidebar drawer on narrow screens
  *   2. the sidebar filter box
  *   3. scroll-spy on the "on this page" rail
  *   4. wrapping tables so wide ones scroll inside themselves
  *   5. copy buttons and hover anchors
+ *   6. sizing the sticky columns to the space they actually have
  */
 (function () {
   'use strict';
@@ -312,10 +313,95 @@
     );
   }
 
+  /* ---------------------------------------------------------------------
+     6. Sticky column heights
+
+     The page tree and the rail are sticky at --docs-header-offset, and the
+     stylesheet caps them at `100vh - that offset - 2rem`. That figure is
+     right only once they have pinned. Before then they sit lower than the
+     offset, because the masthead, the promo bar and the shell's own padding
+     are still above them, so they overhang the bottom of the window by
+     exactly the difference: 93px at 1440x900.
+
+     The cost is not cosmetic. At the top of a docs page the last few entries
+     of the tree sit below the fold, and the column's own scrollbar bottoms
+     out before it reaches them, so nothing you do inside the column brings
+     them into view. On a tall window the tree fits and there is no scrollbar
+     at all, and the last entry is still cut off. Either way you have to
+     scroll the article to read the navigation, which is backwards.
+
+     So measure. A column's top edge does not depend on its own height (both
+     are top-anchored and align-self: start), which is what makes reading the
+     rect here safe: nothing we set feeds back into what we just measured.
+     --------------------------------------------------------------------- */
+
+  function wireStickyColumns() {
+    var columns = [
+      root.querySelector('.js-docs__sidebar'),
+      root.querySelector('.js-docs__rail')
+    ].filter(Boolean);
+    if (!columns.length) return;
+
+    /* Matches the 2rem the stylesheet leaves under a pinned column. */
+    var GAP = 32;
+
+    /* Below this the sidebar is a fixed-position drawer and the rail is not
+       rendered, so neither wants a measured height. Same value as
+       $docs-bp-drawer in _sass/docs.scss. */
+    var wide = window.matchMedia('(min-width: 1024px)');
+
+    function headerOffset() {
+      var raw = getComputedStyle(root)
+        .getPropertyValue('--docs-header-offset');
+      return parseFloat(raw) || 0;
+    }
+
+    function size() {
+      if (!wide.matches) {
+        columns.forEach(function (col) {
+          col.style.maxHeight = '';
+        });
+        return;
+      }
+
+      var min = headerOffset();
+
+      columns.forEach(function (col) {
+        /* Once the column unpins at the far end of its container the top edge
+           goes negative, which would hand it a height taller than the window.
+           Clamp at the pinned offset, which is as high as it ever gets. */
+        var top = Math.max(min, col.getBoundingClientRect().top);
+        var height = Math.max(0, window.innerHeight - top - GAP);
+        /* Rounded down: a fractional cap can leave a sliver of a row showing
+           below the fold, and it makes the value churn on every frame. */
+        var next = Math.floor(height) + 'px';
+
+        /* Only write on a change: this runs on every scroll frame. */
+        if (col.style.maxHeight !== next) col.style.maxHeight = next;
+      });
+    }
+
+    var queued = false;
+    function schedule() {
+      if (queued) return;
+      queued = true;
+      window.requestAnimationFrame(function () {
+        queued = false;
+        size();
+      });
+    }
+
+    window.addEventListener('scroll', schedule, { passive: true });
+    window.addEventListener('resize', schedule);
+    if (wide.addEventListener) wide.addEventListener('change', schedule);
+    size();
+  }
+
   wireDrawer();
   wireFilter();
   wireScrollSpy();
   wireTables();
   wireCodeCopy();
   wireHeadingAnchors();
+  wireStickyColumns();
 })();

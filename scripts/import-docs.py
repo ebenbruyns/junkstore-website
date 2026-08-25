@@ -82,6 +82,72 @@ READING_ORDER = {
     ],
 }
 
+# Grouping for a section whose pages sit in one flat folder upstream.
+#
+# extensions/ needs nothing here: it is already grouped by its own
+# subdirectories, and group_for picks those up on its own. user/ is nineteen
+# pages in a single folder. That is the right shape for the docs repo and for
+# the PDF, which are read front to back, and much too long to scan as one
+# undifferentiated list in a sidebar.
+#
+# This is presentational and nothing more. A page's URL comes from its source
+# path and its position from READING_ORDER above, and neither is touched here,
+# so regrouping never moves a page or needs a redirect.
+#
+# Keys are section-relative paths, as in READING_ORDER. Runs must stay
+# contiguous in reading order: the sidebar opens a new heading each time the
+# group changes as it walks that order, so a group split in two is rendered
+# as two headings of the same name. A page left out of the map is ungrouped,
+# which renders as a plain run with a gap above it. The labels these slugs
+# are shown under live in _data/doc_sections.yml, with everything else
+# human-readable.
+GROUPS = {
+    "user": {
+        # A group of one, on purpose. This page introduces the manual rather
+        # than starting anyone off, so it does not belong under Getting
+        # started, and left ungrouped it reads as an orphan sitting above the
+        # first heading. Its own heading is what makes it look deliberate.
+        "introduction": [
+            "introduction.md",
+        ],
+        "getting-started": [
+            "main-menu.md",
+            "games.md",
+            "game-page.md",
+        ],
+        "games-and-downloads": [
+            "download-queue.md",
+            "game-settings.md",
+            "proton-settings.md",
+        ],
+        "stores": [
+            "store-settings.md",
+            "store-settings-reference.md",
+            "setting-up-by-hand.md",
+        ],
+        "file-manager": [
+            "file-manager.md",
+            "file-manager-driving.md",
+            "file-manager-steam.md",
+            "file-manager-tools.md",
+            "networking.md",
+            "file-manager-reference.md",
+        ],
+        "settings-and-diagnostics": [
+            "settings.md",
+            "diagnostics.md",
+        ],
+    },
+}
+
+# Flattened once at import: "user/games.md" -> "getting-started".
+GROUP_BY_PATH = {
+    f"{section}/{path}": group
+    for section, groups in GROUPS.items()
+    for group, paths in groups.items()
+    for path in paths
+}
+
 # Files that are internal to the docs repo and should not be published, as
 # paths from the repo root. The root README is the repo's own front page: it
 # describes the directory layout for someone browsing on GitHub, and /docs/
@@ -173,7 +239,16 @@ def group_for(srcpath):
     """Subdirectory within the section, "" when the page sits directly in it.
 
     Drives the grouping on the contents page and in the sidebar.
+
+    GROUPS wins where it names a page, so a section that is flat upstream can
+    still be presented in groups here. Everywhere else the source tree decides,
+    which keeps a new subdirectory in the docs repo grouping correctly without
+    anyone editing this file.
     """
+    override = GROUP_BY_PATH.get(srcpath.replace(os.sep, "/"))
+    if override:
+        return override
+
     parts = srcpath.split(os.sep)
     return os.sep.join(parts[1:-1]) if len(parts) > 2 else ""
 
@@ -275,17 +350,24 @@ def add_heading_anchors(text):
 
     Writing the id into the markdown fixes that for the docs alone, and keeps
     the anchors stable and readable rather than positional.
+
+    Two syntaxes come out of here, and which one is used depends on the anchor.
+    See the note further down on numbered headings.
     """
+    lines = text.split("\n")
     out, fenced, seen = [], False, {}
 
-    for line in text.split("\n"):
+    for i, line in enumerate(lines):
         if line.lstrip().startswith(("```", "~~~")):
             fenced = not fenced
             out.append(line)
             continue
 
         m = None if fenced else re.match(r"^(#{2,6})\s+(.+?)\s*$", line)
-        if not m or m.group(2).endswith("}"):
+        # Leave a heading alone if it already carries an id, written either
+        # inline or as an attribute list on the line below.
+        following = lines[i + 1] if i + 1 < len(lines) else ""
+        if not m or m.group(2).endswith("}") or following.lstrip().startswith("{:"):
             out.append(line)
             continue
 
@@ -296,7 +378,27 @@ def add_heading_anchors(text):
         seen[anchor] = seen.get(anchor, 0) + 1
         if seen[anchor] > 1:
             anchor = f"{anchor}-{seen[anchor]}"
-        out.append(f"{hashes} {heading} {{#{anchor}}}")
+
+        if anchor[0].isdigit():
+            # A numbered heading ("2. Point it at the right program") slugs to
+            # an anchor starting with a digit, and kramdown's {#id} shorthand
+            # will not take one: it follows the XML rule that an id begins with
+            # a letter or an underscore.
+            #
+            # It does not complain either. It gives up on the braces, prints
+            # them in the page as literal text, and emits the heading with no
+            # id at all, which quietly drops it from "On this page" and breaks
+            # every anchor link pointing at it.
+            #
+            # The attribute form on the following line carries no such
+            # restriction, and takes the anchor byte for byte, so the anchors
+            # GitHub generates for these headings keep resolving here. slugify
+            # has already stripped anything that is not a word character, a
+            # space or a hyphen, so the value never needs quoting.
+            out.append(f"{hashes} {heading}")
+            out.append(f'{{: id="{anchor}"}}')
+        else:
+            out.append(f"{hashes} {heading} {{#{anchor}}}")
 
     return "\n".join(out)
 
@@ -429,6 +531,44 @@ def order_pages(section, pages):
     return ranked + extra
 
 
+def check_groups(section, ordered):
+    """Warn when GROUPS and the reading order have drifted apart.
+
+    Both failures below are silent in the rendered page, which is why they are
+    reported here rather than left to be noticed:
+
+    - a page named in GROUPS has been renamed or removed upstream, so a group
+      quietly loses an entry
+    - a group is no longer one contiguous run of the reading order, which the
+      sidebar renders as the same heading appearing twice
+
+    Neither is fatal. The pages still publish, and the docs repo is free to
+    move on without this script blocking an import.
+    """
+    groups = GROUPS.get(section)
+    if not groups:
+        return
+
+    ordered = [p.replace(os.sep, "/") for p in ordered]
+    listed = [f"{section}/{p}" for paths in groups.values() for p in paths]
+
+    missing = [p for p in listed if p not in ordered]
+    if missing:
+        print(f"  note: grouped but not found upstream: {', '.join(missing)}")
+
+    # Collapse the order into the sequence of groups it passes through, so a
+    # group appearing twice means its pages are no longer next to each other.
+    runs = []
+    for path in ordered:
+        group = group_for(path)
+        if not runs or runs[-1] != group:
+            runs.append(group)
+
+    for group in sorted({g for g in runs if g and runs.count(g) > 1}):
+        print(f"  warning: group '{group}' is split across the reading order, "
+              f"so its heading will appear more than once in the sidebar")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -478,6 +618,7 @@ def main():
     for section, pages in sections.items():
         print(f"\n{section or '(top level)'}/")
         ordered = order_pages(section, pages)
+        check_groups(section, ordered)
 
         for i, srcpath in enumerate(ordered):
             with open(os.path.join(source, srcpath), encoding="utf-8") as f:

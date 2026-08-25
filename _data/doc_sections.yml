@@ -6,8 +6,14 @@
 # upstream never breaks the site. Fill it in here when you want it described
 # properly.
 #
-# Read by _includes/docs/*.html. scripts/import-docs.py does not use this file
-# and has no opinion on names, so there is only one place to change them.
+# Read by _includes/docs/*.html for the contents page and the sidebar, and by
+# scripts/import-docs.py for the breadcrumb it writes into each page, so a name
+# is changed here once and changes everywhere.
+#
+# Which pages fall into which group is decided in scripts/import-docs.py, not
+# here. A group is usually a folder in the docs repo; the user manual is flat
+# upstream and is grouped by the GROUPS map in that script instead. This file
+# only says what a group is called.
 
 # Where the documentation is written. Surfaced as a card on /docs/ and used
 # nowhere else, so moving the repo means changing this one line. Not a section,
@@ -28,6 +34,19 @@ user:
   blurb: >-
     Using Junk Store Pro on your Steam Deck: the menus, adding and launching
     games, Proton and store settings, the file manager, and diagnostics.
+  groups:
+    introduction:
+      label: "Introduction"
+    getting-started:
+      label: "Getting started"
+    games-and-downloads:
+      label: "Games and downloads"
+    stores:
+      label: "Stores"
+    file-manager:
+      label: "The File Manager"
+    settings-and-diagnostics:
+      label: "Settings and diagnostics"
 
 extensions:
   label: "Extensions"

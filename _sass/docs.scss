@@ -89,6 +89,12 @@ $docs-code-bg: #1b2029;
      ---------------------------------------------------------------------- */
 
   &__sidebar {
+    /* The max-height below is the height of a column that has already pinned.
+       Until it does, the column starts lower than --docs-header-offset and
+       this value overhangs the window, putting the end of the tree out of
+       reach at the top of the page. wireStickyColumns() in assets/js/docs.js
+       measures the real top edge and overrides it; this stays as the value
+       for a first paint and for the script not running. Keep them in step. */
     @media (min-width: $docs-bp-drawer) {
       position: sticky;
       top: var(--docs-header-offset);
@@ -290,6 +296,9 @@ $docs-code-bg: #1b2029;
 .js-docs__rail {
   display: none;
 
+  /* Same pinned-state caveat as .js-docs__sidebar above, and the same script
+     corrects it. It shows up less often here only because most pages have a
+     short contents list. */
   @media (min-width: $docs-bp-rail) {
     display: block;
     position: sticky;
