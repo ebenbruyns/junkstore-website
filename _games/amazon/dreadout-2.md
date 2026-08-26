@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/dreadout-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "yellow"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "16c2b3765255b2c1"
+last_modified_at: "2026-08-26"
+content_hash: "505beaecb0c24495"
 ---
 
-Second installment of a third person action adventure survival horror with Indonesian supernatural in veins. Mixed gameplay of city exploring, “DreadOut” style smartphone ghost hunting and new action packed battle within DreadOut supernatural world.
+A third-person horror game drawn from Indonesian folklore and urban legend, played as Linda Meillinda, a high school student who can see ghosts. The hunting is done with her smartphone camera, which is what works on intangible spirits, while physical ones are dealt with using melee weapons and thrown objects, a change from the first game. Her hometown can be explored day and night, with residents both living and dead to talk to. Side quests and hidden stages are built on specific Indonesian legends, and there is a Ghostpedia app on the phone to fill in as you identify things.

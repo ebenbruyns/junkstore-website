@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/spa-taxi/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "89314926eab93d01"
+last_modified_at: "2026-08-26"
+content_hash: "69efbb15d7e1a010"
 ---
 
-Spaß Taxi is a clone of the original Space Taxi, where you need to bring passengers from one pad to another in weird environments with unexpected obstacles.
+A clone of the 1984 game Space Taxi, in which you fly passengers between landing pads through obstacle courses. This version adds rotation, so the taxi can turn to fit through narrow gaps or land on the ceiling. It also replaces lives with a health system: you pay to repair the car at a station, or carry a mechanic on board, and buy a new one when it is past repairing. Across 40 levels there are rockets and lasers to dodge and buttons and teleporters to work out. The passengers have opinions about your driving, some wanting loops and speed, others liable to be sick if you rotate too much. You can race the recorded ghosts of other players.

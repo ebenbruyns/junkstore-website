@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/bendy-and-the-ink-machine/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "6379102350d9e85a"
+last_modified_at: "2026-08-26"
+content_hash: "5b8fff866fb7da45"
 ---
 
-Bendy and the Ink Machine® is the first person puzzle action horror game that will forever ruin your childhood love of cartoons.
+A first-person horror game set in an abandoned animation studio. You play Henry, going back into the old Joey Drew Studios workshop and finding that the cartoons made there are now walking around. It works through puzzles and exploration of the studio's drawn walls and scribbled doors, with characters who may help or hinder you, and the question of who can be trusted is left open. Creatures called the Dark Puddles surround you while you work at it. You are never alone and never safe.

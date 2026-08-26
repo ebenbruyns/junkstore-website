@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/daymare-1998/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "6b6367ebe31ace6e"
+last_modified_at: "2026-08-26"
+content_hash: "94270a0acb7df9cc"
 ---
 
-Daymare: 1998 is a third-person survival horror game that recreates the mood of iconic titles from the '90s, with a fresh storyline. An incident that turns a small town into a deadly zone, three characters to play with and little time to find the truth, before its mutated citizens abruptly end your mission.
+A third-person survival horror game built deliberately in the shape of 1990s ones. Ammunition and save points are limited, there is backtracking, and the enemies take real effort to put down. A chemical weapon gets out of a secret research facility and turns a small town, and you work through it as three separate characters, an elite soldier, a helicopter pilot and a forest ranger, each of whom sees a different part of what happened. Inventory, health and position are checked on an in-world piece of gear rather than a menu.

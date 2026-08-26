@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/dishonored-death-of-the-outsider/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "4ee050b7e2867ec0"
+last_modified_at: "2026-08-26"
+content_hash: "0be93d72a5d6c0ff"
 ---
 
-Take on the role of Billie Lurk as she reunites with her old mentor, Daud, to undertake the greatest assassination ever conceived: killing the Outsider, a god-like figure whom they both see as instrumental to some of the Empire's most dishonorable moments. 
+A standalone Dishonored game, so it does not need the others first, built on Dishonored 2's systems and art. You play Billie Lurk, once a killer for hire in Dunwall, reunited with her old mentor Daud to attempt the assassination of the Outsider himself, the god-like figure behind the powers the series runs on. It moves through the worse parts of Karnaca, taking in underground fight clubs, black magic cults and a bank heist, with a new set of enemies including the Sisters of the Oracular Order and Clockwork Soldiers. Optional Contracts add extra targets, and an Original Game Plus mode lets you replay with powers from Dishonored 2.

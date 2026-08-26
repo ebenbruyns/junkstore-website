@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/genesis-noir/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,9 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "61340c7b47af036d"
+last_modified_at: "2026-08-26"
+content_hash: "a6967da4b9781301"
 ---
 
-A noir adventure spanning time and space.
-You play as No Man, a watch peddler caught in a love triangle with other cosmic beings, Miss Mass and Golden Boy. When your affair turns into a bitter confrontation, you will witness a gunshot fired by a jealous god—otherwise known as The Big Bang. Jump into the expanding universe and search for a way to prevent or destroy creation and save your love.
+A noir adventure in which the Big Bang is a gunshot. You play No Man, a watch peddler in a love triangle with two other cosmic beings, Miss Mass and Golden Boy, and when a jealous god fires the shot you jump into the expanding universe to find a way to stop the bullet reaching her. It works through tactile puzzles, experimenting with objects in small slivers of the universe: dialling a rotary phone, planting a garden, improvising with a musician, destroying a civilisation. The moments you visit run from the first microseconds of life to trillions of years ahead.

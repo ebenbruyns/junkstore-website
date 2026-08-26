@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/happy-game/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "408f9370d0623ad6"
+last_modified_at: "2026-08-26"
+content_hash: "9a8df82e2725b26c"
 ---
 
-A little boy falls asleep to a horrible nightmare. Can you make him happy again?
+A short horror adventure from Amanita Design, who made Botanicula and Chuchel, in which a small boy falls asleep into a nightmare and the job is to get him happy again. There are three nightmares to endure and escape, with puzzles set among smiley faces and pink bunnies that are not as friendly as they look. The songs and screeching are by the Czech band DVA.

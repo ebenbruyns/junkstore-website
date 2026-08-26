@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/salt-and-sanctuary/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "74e1a753d0e3376e"
+last_modified_at: "2026-08-26"
+content_hash: "9b1a05139b7f513b"
 ---
 
-Explore a haunting, punishing island in this stylized 2D action RPG. Salt and Sanctuary combines fast and brutal 2D combat with richly developed RPG mechanics in a cursed realm of forgotten cities, blood-soaked dungeons, and desecrated monuments.
+A 2D action role-playing game about a shipwrecked sailor washed up on an uncharted island of fog-filled valleys and salt-worn ruins. The combat is fast and the role-playing side is deep, with over 600 weapons, armour pieces, spells and items to find, craft and upgrade across forgotten cities, dungeons and desecrated monuments. It comes from Ska Studios, who also made The Dishwasher games and Charlie Murder.

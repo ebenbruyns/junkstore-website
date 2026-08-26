@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/you-will-die-here-tonight/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "7cc7c92b4f376796"
+last_modified_at: "2026-08-26"
+content_hash: "572f1bfdf300bffa"
 ---
 
-Immerse yourself in retro top-down visuals as you face the horrors of Breckenridge Hall through intense first-person combat. Scavenge, solve puzzles, and upgrade your gear. Do whatever it takes to survive—but remember: You Will Die Here Tonight.
+A survival horror game that switches between two views: top-down retro exploration of Breckenridge Estate, a cursed 19th-century mansion, and first-person arcade shooting when running stops being an option. You play each member of the Aries Division in turn, separated by something in the house. Your team members will die, and that is the structure rather than a failure, since the decisions each one made carry forward to help or hinder whoever is still alive. Resources are scarce, so what you take is what the next person does not get.

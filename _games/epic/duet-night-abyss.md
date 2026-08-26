@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/duet-night-abyss/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "eec3fa05d0f67bb3"
+last_modified_at: "2026-08-26"
+content_hash: "e5df74acdf1981d4"
 ---
 
-Duet Night Abyss is a fantasy adventure RPG with a high degree of freedom. The game features "Multiple Weapon Loadouts x 3D Combat" at its core, and tells the story of "Demons" from dual perspectives.
+A free-to-play action role-playing game told from two perspectives, one character exiled to a harsh northern border and the other caught inside a web of conspiracies, in a setting where magic and machinery sit side by side. Combat lets you switch between melee and ranged weapons mid-fight rather than locking a character to one class, with whipblades and crossbows on one side and sniper rifles, grenade launchers and hover guns on the other. The developers say characters and weapons are unlocked by farming fragments and materials at your own pace rather than through forced progression.

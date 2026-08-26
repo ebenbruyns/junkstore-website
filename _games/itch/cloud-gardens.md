@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/cloud-gardens/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,10 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "dc8025a7618d7978"
+last_modified_at: "2026-08-26"
+content_hash: "cd357585df57627d"
 ---
 
-A chill game about using plants to overgrow abandoned wasteland dioramas.
-
-In Cloud Gardens players must harness the power of nature to overgrow lo-fi scenes of urban decay and manufactured landscapes. By planting seeds in the right places, they’re able to create small overgrown dioramas of brutalism and beauty, salvaging and repurposing hundreds of discarded objects to create unique structures for nature to reclaim.
+A quiet game about growing plants over small dioramas of urban decay. You plant seeds and place discarded objects, and the objects are what encourage the vegetation to spread, so the two have to be balanced against each other. There is a campaign where each scene must be fully overgrown before you move on, and a sandbox mode with no goals at all. Completed dioramas can be downloaded as looping videos to share. The generative soundtrack is by Amos Roddy, who scored Kingdom.

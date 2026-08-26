@@ -14,7 +14,7 @@ permalink: /games/epic/bus-simulator-21-next-stop/
 delisted: false
 
 # Compatibility (Junk Store testing)
-decky_rating: "yellow"
+decky_rating: "green"
 standalone_rating: "green"
 date_tested: "Dec '24"
 proton_version: ""
@@ -73,7 +73,7 @@ requires_account_setup: false
 account_type: ""
 requires_verification: false
 set_executable: 
-dependencies: "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>"
+dependencies: 
 
 
 # Epic Features
@@ -121,7 +121,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: Needs Microsoft C++ Runtime (installed automatically in Junk Store Pro).
+notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency, no extra setup required."
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -137,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-20"
-content_hash: "af6d10d065e6b8b1"
+last_modified_at: "2026-08-22"
+content_hash: "3d24abfce0c5cadd"
 ---
 
 A bus driving simulation covering both the route and the company behind it, across two fictional cities. You keep to a timetable and watch passenger comfort, then buy vehicles and hire drivers to expand the network.

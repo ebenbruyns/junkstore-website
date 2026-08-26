@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/doom-64/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "1802cc9264ffc1d4"
+last_modified_at: "2026-08-26"
+content_hash: "68ec3127736db4c4"
 ---
 
-Fight against demons in your crusade to hunt down the Mother of Demons and stop Hell's invasion. As you battle through more than 30 action-packed levels, be on the lookout for enhanced weapons and secrets to help you put an end to the demonic threat.
+The 1997 Nintendo 64 game was re-released in enhanced form in 2020. It is a direct sequel to Doom II rather than a port of it. Years after you stopped Hell's invasion of Earth, the UAC research facilities on Mars were quarantined and abandoned, until a signal from a degraded satellite suggested one entity was still down there with the power to resurrect the demons. As the only marine left who fought them, you go after the Mother of Demons alone. The enhanced version adds upgraded visuals, better mouse and keyboard controls, controller support, widescreen and 60fps, across more than 30 levels plus the additional Lost Levels.

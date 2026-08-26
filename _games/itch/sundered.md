@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/sundered/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "463eabce1e7c8403"
+last_modified_at: "2026-08-26"
+content_hash: "f0696b69dce8b3ce"
 ---
 
-Sundered is a horrifying fight for survival and sanity, a hand­-drawn epic from the ​creators of ​Jotun. You play Eshe, a wanderer in a ruined world, trapped in ever­-changing caverns teeming with eldritch horrors. Harness the power of corrupted relics to defeat gigantic bosses, at the cost of your humanity.
+A hand-drawn metroidvania from the makers of Jotun, played as Eshe, a wanderer trapped in caverns that rearrange themselves. The choice the game keeps putting to you is whether to resist the corrupted relics you find or use them, since their power costs you your humanity and the endings differ accordingly. Enemies spawn dynamically in hordes rather than sitting in fixed positions, and the levels mix hand-built areas with procedurally generated ones. Death sends you back to a hub to spend what you earned on perks and abilities. The Eldritch Edition adds local co-op for up to four players, new areas and another boss.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/empty-shell/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "a2d48c6218346429"
+last_modified_at: "2026-08-26"
+content_hash: "228f1ca92dfeda5b"
 ---
 
-EMPTY SHELL will throw you in a dark industrial environment, a secret facility on a Japanese island. Each volunteer has signed a contract for a &quot;recovery operation&quot; without being privy to too many details. A tense roguelite survival horror with a top down perspective.
+A roguelite survival horror played from a top-down view surrounded by darkness, set in a secret facility on a Japanese island, where you play a volunteer who signed up for a vaguely worded recovery operation. The facility was supposed to have been abandoned for decades. When you die a new volunteer is sent in with randomised starting equipment and the levels are generated fresh, so the layout changes each time. You scavenge weapons, ammunition and gadgets, manage what fits in your inventory, buy upgrades between runs, and recover logs and documents from the 1950s that explain what the place used to do.

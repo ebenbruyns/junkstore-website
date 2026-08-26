@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/steamworld-heist-ii/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "aeeb80963956f2ed"
+last_modified_at: "2026-08-26"
+content_hash: "7492b1c25feb1d7f"
 ---
 
-Join Captain Leeway and his ragtag crew as they uncover the enigmatic menace threatening the Great Sea. Equip and upgrade your crew...
+A turn-based tactics game where you aim each shot by hand, lining up ricochets off walls rather than rolling for a hit. You play Captain Leeway, whose crew of steambots is looking into a water crisis that has started corroding metal, which for them is fatal. Between missions there is real-time naval combat in a submarine crossing the Great Sea. There are over 150 weapons, items and ship upgrades, and a job system for shaping crew members into what you need. The developers put it at over 30 hours. Steam Powered Giraffe wrote the soundtrack again, as they did for the first game.

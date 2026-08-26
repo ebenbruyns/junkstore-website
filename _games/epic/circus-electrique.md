@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/circus-electrique/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "b021499b31d3a82a"
+last_modified_at: "2026-08-26"
+content_hash: "0f871792710ed9c2"
 ---
 
-Circus Electrique is part story-driven RPG, part tactics, part circus management, and completely enthralling. When everyday Londoners mysteriously turn into vicious killers, only the show’s talented performers possess the skills necessary to save the city. 
+Part role-playing game, part turn-based tactics, part circus management, set in a steampunk Victorian London where ordinary people have started turning into killers and the circus performers are the only ones equipped to deal with it. You fight with Strongmen, Fire Blowers, Escape Artists, Clowns and others, fifteen archetypes in all, against Bobbies, sailors gone bad and the occasional mime. Between fights you rebuild the circus and put on shows, and a Devotion system tracks morale, which affects both how performers fight and how much money a show makes.

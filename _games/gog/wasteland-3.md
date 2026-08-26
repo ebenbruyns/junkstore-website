@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/wasteland-3/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "6248d8e4f7dfedba"
+last_modified_at: "2026-08-26"
+content_hash: "66c7aa1b542ea1ff"
 ---
 
-As the sole survivor of Team November, a Ranger squad dispatched to the icy Colorado wastes, you find this is a land of buried secrets, lost technology, fearsome lunatics, and deadly factions. No one here has ever heard of the Desert Rangers. Your reputation is yours to build from scratch, and your choices may save this land or doom it. With a renewed focus on macro-reactivity, you'll be picking between warring factions, deciding whether locations are destroyed or saved, and making other far reaching decisions that have a marked impact on the shape of your world.
+A party-based post-apocalyptic role-playing game with turn-based combat, set in frozen Colorado rather than the series' usual desert. You command a squad of Desert Rangers sent from a failing Arizona after the self-proclaimed Patriarch of Colorado offers help in exchange for dealing with his three children. You build a new base from nothing, find a vehicle that can handle the snow, and decide who to trust among the factions, cults and gangs. Squads run up to six Rangers with skills, perks and quirks, there is a battle truck you can upgrade, and the whole game can be played in story-driven co-op with a friend.

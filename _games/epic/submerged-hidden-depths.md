@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/submerged-hidden-depths/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "be56b5cfb0877ef3"
+last_modified_at: "2026-08-26"
+content_hash: "a2ec9a2efcd491e2"
 ---
 
-Boat, climb, interact and explore in the beautiful ruins of a sunken world.
+A third-person adventure with no combat in it at all, set in a drowned city where the tops of skyscrapers still stand above the water. You play Miku and Taku, one of them carrying a strange power she wants to put to good use and the other trying to stop it separating them. You boat between the ruins, climb the buildings that remain, collect relics of whatever came before, and search the wreckage for the seeds that might bring the place back. Something angry waits under the water.

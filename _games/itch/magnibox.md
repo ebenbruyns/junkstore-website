@@ -7,6 +7,12 @@ storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/magnibox/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "b9b534177b4342cf"
+last_modified_at: "2026-08-26"
+content_hash: "6dc6285d608b062f"
 ---
 
-Magnibox is a colorful and challenging puzzle game about a magnet that's also a box. Hand-crafted for your brain to enjoy!
+A puzzle game about a magnet that is also a box, so the puzzles are solved by pulling and pushing what is around you. There are 160 puzzles and more than 20 different mechanics introduced across them, drawn in colourful pixel art. Every level is unlocked from the start, so you can skip anything that stalls you and come back.

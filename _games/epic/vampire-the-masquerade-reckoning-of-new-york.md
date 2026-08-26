@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/vampire-the-masquerade-reckoning-of-new-york/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,8 +138,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "437abade1b66ea5b"
+last_modified_at: "2026-08-26"
+content_hash: "60e193c0d29fa6ef"
 ---
 
-Vampire: The Masquerade - Reckoning of New York is a narrative game set in the World of Darkness Universe. Play as one of the members of the Vampire Clans in a shifting political landscape between the Camarilla and the Anarchs while trying your best to survive.
+A visual novel set in the World of Darkness, and the third and final part of Draw Distance's New York series. You play a Kindred in New York in 2024, caught between the Camarilla and the Anarchs as the balance between them shifts. Vampiric Disciplines get you through problems, or past the hunters already following you. Hunger works against you throughout, with the Beast waiting behind it. The story is told from two perspectives.

@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/endless-space-definitive-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "6fbfbc80f10ad1c0"
+last_modified_at: "2026-08-26"
+content_hash: "c80ca9a4a1b7ab50"
 ---
 
-Endless Space - Definitive Edition includes all the expansions and updates released for the game (including Endless Space Disharmony).
+A turn-based 4X strategy game about colonising space, played as one of twelve civilisations competing for control of Dust, a substance left behind by an older people who once flew between the stars. You can win through trade and diplomacy, through exploration, through technology or through fleets. Ships are built from modules, armament, engines and mods rather than picked off a list. Heroes are hired to run fleets or govern systems. Galaxies are generated to whatever size, shape, density and age you set. Turns resolve simultaneously, and up to seven opponents can play. This Definitive Edition includes every expansion and update, Disharmony among them.

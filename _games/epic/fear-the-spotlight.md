@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/fear-the-spotlight/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "5a54b034fc8b77e6"
+last_modified_at: "2026-08-26"
+content_hash: "e73af1c18adf1cbd"
 ---
 
-Fear the Spotlight is an atmospheric third-person horror adventure with a disturbing mystery to unravel. Sneak into school after hours with Vivian and Amy, survive a séance gone wrong, solve tactile puzzles, and, whatever you do, stay out of the spotlight…
+A third-person horror game about two students, Vivian and Amy, breaking into Sunnyside High after hours for a séance. It goes wrong, Amy disappears, the school turns into a worse version of itself, and Vivian is left to avoid the gaze of something walking the corridors, which means staying out of the spotlight. The puzzles are tactile, solved with the objects you carry: a flashlight, a screwdriver, a wrench. It is built as an entry point for people new to horror rather than a hard game, in a deliberately retro 1990s style, and it was the first game published by Blumhouse Games.

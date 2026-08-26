@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/qube-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "8062a8fb19fd6a32"
+last_modified_at: "2026-08-26"
+content_hash: "4bf5a197db3c9cbe"
 ---
 
-As stranded archaeologist, Amelia Cross, you must solve the puzzles of this mysterious world and find a way back home.
+A first-person puzzle game, sequel to Q.U.B.E., played as Amelia Cross, an archaeologist who wakes among the ruins of an alien landscape wearing a suit with manipulation gloves and no memory of arriving. The gloves change the structure of the building around you, which is how you get through it. Another survivor, Commander Emma Sutcliffe, guides you at a distance. There are eleven puzzle areas and over 80 individual puzzles. Colour-blind support uses symbols alongside the colours, and the score is by David Housden.

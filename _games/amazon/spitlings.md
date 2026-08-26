@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/spitlings/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "89e49d5914f20efd"
+last_modified_at: "2026-08-26"
+content_hash: "5325b6a6de4251b5"
 ---
 
-Spitlings is a cute but hardcore Arcade game that’s made for playing locally with friends. Over hundred levels to start with and an easy-to-learn level editor will make sure, you never run out of challenges. Keep playing to unlock new music tracks, new characters to play with and new visual themes for certain levels. With the level editor, players can first build a level together and play it right afterwards. The multiplayer is cooperative to the last extend: If one player fails, everyone has to restart the level. Prepare for a lot of shouting.
+An arcade game for one to four players in which you clear the screen of bouncing bubbles by spitting your own teeth at them. The same teeth are what you jump with, and the supply is limited, so attacking and moving compete for it. The co-op is unusually strict: if one player fails, everybody restarts the level together. There are over 100 levels, each with a harder b-side version unlocked by beating its time challenge, a story campaign told in interactive comic cutscenes, and a party mode with mutators that do things like turn the level upside down or stop you landing.

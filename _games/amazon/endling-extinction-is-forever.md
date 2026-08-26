@@ -7,6 +7,12 @@ storefront: "Amazon"
 storefront_key: "amazon"
 permalink: /games/amazon/endling-extinction-is-forever/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "unsupported"
 standalone_rating: "green"
@@ -123,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-10-01"
-content_hash: "ced013d220e7212e"
+last_modified_at: "2026-08-26"
+content_hash: "118a69ee5c2191fb"
 ---
 
-As the last mother fox on Earth, your cubs need all your care to survive in a merciless world that slowly destroys itself. You have to help them, teach them and save them. And you should never forget that extinction is forever.
+A 3D side-scrolling survival game played as the last mother fox on Earth, keeping a litter of cubs alive in a landscape being stripped by people. You move them at night and shelter during the day, hunt to feed them while trying not to be hunted, and teach them skills so they are less vulnerable as they grow. The cubs develop their own personalities and fears. The environments are based on real current issues, and the decisions the game asks for are deliberately hard ones.
