@@ -1,9 +1,16 @@
 {% comment %}
-  "More in the manual" block for Pro tutorials.
+  "More in the manual" block for tutorials.
 
-  The user manual documents Junk Store Pro, so this renders only when
-  page.category == "pro" and the page actually lists some links. Everything
-  else, Decky and Universal tutorials included, gets nothing.
+  The user manual documents Junk Store Pro and nothing else, which is why this
+  block used to render only on category: pro. That also silenced it on the
+  tutorials marked category: both, several of which cover Pro features that
+  the manual documents properly.
+
+  It now renders on pro and both, and the copy carries the caveat the
+  condition used to: the link says "Junk Store Pro user manual", so a Decky
+  reader on a combined tutorial can see it is not about their app before
+  following it. category: decky stays excluded, and a page with no
+  manual_links still gets nothing.
 
   Injected by the junkstore-page layout, just above the Need Help footer, so
   tutorial .md files (and the companion app that generates them) don't carry
@@ -21,10 +28,11 @@
   scripts/check-doc-links.py verifies every /docs/user/ URL in _tutorials still
   resolves to a real heading anchor in the generated _docs.
 {% endcomment %}
-{% if page.category == "pro" and page.manual_links %}
+{% assign manual_link_categories = "pro,both" | split: "," %}
+{% if page.manual_links and manual_link_categories contains page.category %}
 <div class="js-callout js-callout--tip">
 <h3>More in the manual</h3>
-<p>The <a href="/docs/user/">user manual</a> covers the why behind these screens, if you want the detail rather than the steps.</p>
+<p>The <a href="/docs/user/">Junk Store Pro user manual</a> covers the why behind these screens, if you want the detail rather than the steps.</p>
 
 <ul>
 {% for link in page.manual_links %}

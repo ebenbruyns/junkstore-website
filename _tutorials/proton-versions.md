@@ -18,6 +18,13 @@ section: configuration
 order: 9
 card_title: 'How to Check/Change Proton Version'
 card_blurb: 'Step-by-step guide on how to check and change your Proton version'
+manual_links:
+  - text: "The platform's configs"
+    url: "/docs/user/game-settings/#the-platforms-configs"
+    note: "Which launcher runs a game, which version, and which variant"
+  - text: "Proton settings"
+    url: "/docs/user/proton-settings/"
+    note: "The editor behind anti-cheat runtimes, frame limiting and upscaling"
 ---
 {% include content-schema.html type="tutorial" id="proton-versions" %}
 

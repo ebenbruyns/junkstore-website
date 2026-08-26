@@ -12,6 +12,16 @@ section: configuration
 order: 4
 card_title: 'Import Games Over the Network'
 card_blurb: 'Copy a game from another device over your local network instead of re-downloading'
+manual_links:
+  - text: "Reaching another machine"
+    url: "/docs/user/networking/"
+    note: "Browsing and copying files on another Deck, desktop or server"
+  - text: "Turning it on, and naming your device"
+    url: "/docs/user/networking/#turning-it-on-and-naming-your-device"
+    note: "The three discovery settings, and what each one announces"
+  - text: "Network settings"
+    url: "/docs/user/settings/#network"
+    note: "What the controls do, rather than what they are for"
 help_discord_channel: '#js-pro-support'
 help_discord_url: 'https://discord.gg/EsrPQDUNQr'
 ---

@@ -13,6 +13,13 @@ section: installation
 order: 1
 card_title: 'Install Junk Store Pro with the Installer'
 card_blurb: 'The quick route: one file does the whole job'
+manual_links:
+  - text: "Signing in to Junk Store Pro"
+    url: "/docs/user/main-menu/#signing-in-to-junk-store-pro"
+    note: "The account that proves your copy is licensed, and what it is not"
+  - text: "The buttons"
+    url: "/docs/user/settings/#the-buttons"
+    note: "Taking an update once you are installed"
 help_discord_channel: '#js-pro-support'
 help_discord_url: 'https://discord.gg/EsrPQDUNQr'
 help_links:

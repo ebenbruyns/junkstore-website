@@ -13,6 +13,13 @@ section: configuration
 order: 3
 card_title: 'Fix the NIL Path Error'
 card_blurb: "When the usual fixes don't shift a NIL path error, set the paths by hand"
+manual_links:
+  - text: "The parts that point at files"
+    url: "/docs/user/game-settings/#the-parts-that-point-at-files"
+    note: "Install Path, Working Directory, Application Path and Arguments, and which one matters most"
+  - text: "Choose what runs it"
+    url: "/docs/user/setting-up-by-hand/#3-choose-what-runs-it"
+    note: "Why the Proton version is Steam's setting rather than Junk Store's"
 help_discord_channel: '#js-pro-support'
 help_discord_url: 'https://discord.gg/EsrPQDUNQr'
 ---

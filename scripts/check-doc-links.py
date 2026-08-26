@@ -29,14 +29,25 @@ DOCS_URL = "/docs/"
 
 # href="/docs/user/game-settings/#lang-and-host_lc_all" and the markdown form.
 LINK_RE = re.compile(r'["(](/docs/[^"()\s]*)["()\s]')
-# Anchors are written into the markdown by import-docs.py as {#some-id}.
-ANCHOR_RE = re.compile(r"^#{1,6}\s+.*?\{#([^}]+)\}\s*$", re.MULTILINE)
+# import-docs.py writes heading ids in two forms, and both have to be read
+# here or a valid link gets reported as broken.
+#
+#   ## Heading {#some-id}          the usual inline form
+#   ## 2. Heading                  an id starting with a digit, which
+#   {: id="2-heading"}             kramdown's {#...} shorthand refuses
+#
+# Only matching the first form made every numbered heading invisible to this
+# check: links to them were flagged broken, and a genuinely broken one would
+# not have been caught at all.
+ANCHOR_INLINE_RE = re.compile(r"^#{1,6}\s+.*?\{#([^}]+)\}\s*$", re.MULTILINE)
+ANCHOR_ATTR_RE = re.compile(r'^#{1,6}\s+.*\n\{:\s*id="([^"]+)"\}\s*$', re.MULTILINE)
 
 
 def anchors_for(path):
-    """Every heading id on a generated docs page."""
+    """Every heading id on a generated docs page, in either written form."""
     with open(path, encoding="utf-8") as f:
-        return set(ANCHOR_RE.findall(f.read()))
+        text = f.read()
+    return set(ANCHOR_INLINE_RE.findall(text)) | set(ANCHOR_ATTR_RE.findall(text))
 
 
 def docs_index():

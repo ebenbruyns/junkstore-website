@@ -16,6 +16,13 @@ section: configuration
 order: 8
 card_title: 'How to Login using OAuth'
 card_blurb: 'Step-by-step guide on logging in via third party logins'
+manual_links:
+  - text: "Logging in to a store"
+    url: "/docs/user/main-menu/#logging-in-to-a-store"
+    note: "Why a store login and your Junk Store Pro account are unrelated"
+  - text: "Signing in to Junk Store Pro"
+    url: "/docs/user/main-menu/#signing-in-to-junk-store-pro"
+    note: "The other sign-in, and which one is which"
 ---
 {% include content-schema.html type="tutorial" id="oauth-login" %}
 

@@ -13,6 +13,10 @@ section: configuration
 order: 7
 card_title: 'Enable LSFG Frame Generation'
 card_blurb: 'Step-by-step guide on how to enable LSFG frame generation'
+manual_links:
+  - text: "LSFG: frame generation"
+    url: "/docs/user/proton-settings/#lsfg-frame-generation"
+    note: "What LSFG does, and what has to be installed before it does anything"
 ---
 {% include content-schema.html type="tutorial" id="lsfg-frame-generation" %}
 
