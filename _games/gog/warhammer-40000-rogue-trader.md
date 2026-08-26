@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/warhammer-40000-rogue-trader/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "9d74d925fff44379"
+last_modified_at: "2026-08-26"
+content_hash: "026651f8b1d291f4"
 ---
 
-You will take on the role of a Rogue Trader, a scion of an ancient dynasty of daring privateers, that reign over their own merchant empire and explore the fringes of Imperial space with the blessing of the Emperor Himself. Thanks to their Warrant of Trade - the Rogue Trader is endowed with privileges and power beyond imagination as well as the task of expanding the borders of the Imperium. At their disposal is a gargantuan voidship of immense power and innumerable servants and personnel ready to do the bidding of their lord. Their adventures begin in the vast Koronus Expanse - a treacherous region of unexplored space at the edge of Humanity’s domain.
+A classical isometric role-playing game set in Warhammer 40,000, from the studio behind Pathfinder: Wrath of the Righteous. You captain your own voidship through the Koronus Expanse, a barely charted and dangerous stretch of space, gathering a retinue that can take in psykers and xenos and steering their personal stories as well as your own. Combat is turn-based and tactical, built on cover and positioning. Your decisions change the world and the people in it, including how faithful you stay to the God-Emperor, and whether to consort with the enemies of Mankind. It adapts the tabletop Rogue Trader ruleset.

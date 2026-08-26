@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/hellpoint/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "1c10c4780c387233"
+last_modified_at: "2026-08-26"
+content_hash: "e6b4376d0bcca70a"
 ---
 
-Hellpoint is a dark sci fi action RPG set in the aftermath of a massive quantum cataclysm. Every living being quickly lost their mind as their memories and bodies were merged with alternate versions of themselves from parallel universes. The accident also attracted entities of immense power that should have been left alone, in the depth of other dimensions.
+An action role-playing game on Irid Novo, a wrecked space colony orbiting a black hole, played as a Spawn of the Authority sent to find out what caused the disaster there. The orbit runs in real time and where the station sits triggers events: bosses appearing, hordes arriving, enemy stats and positions changing. Weapons each have special abilities that unlock the more you fight with them. It is a hard game and the co-op is pitched as the answer to that: the whole thing can be played through split screen or online, with loot shared and the second player's progress kept. You can also play against other players rather than alongside them.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/bear-and-breakfast/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "6d56ce2522bb2381"
+last_modified_at: "2026-08-26"
+content_hash: "e920cafa772779d0"
 ---
 
-Bear and Breakfast is a laid-back management adventure game where you build and run a bed and breakfast...but you’re a bear.
+A management adventure in which you play Hank, a bear running a bed and breakfast for tourists who have not thought this through. He and his friends find an abandoned shack and turn it into a business, building and furnishing guest rooms, bathrooms and parlours down to the fixtures, and keeping visitors happy enough to hold the reputation up and bring more in. Quests and story lines for the folk living out in the forest pay out in items and perks for the inn. The forest itself has a plot of its own, which gets deeper the further the business expands.

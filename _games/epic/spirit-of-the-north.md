@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/spirit-of-the-north/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "a8c4b0cc638fe508"
+last_modified_at: "2026-08-26"
+content_hash: "71214d693a0f4822"
 ---
 
-Spirit of the North is a single-player 3rd-person adventure game inspired by the breathtaking and mysterious landscapes of Iceland. The story takes root from various pieces of Nordic folklore.
+A third-person adventure played as an ordinary red fox, in a landscape modelled on Iceland and drawing on Nordic folklore. There is no dialogue and no narration anywhere in it by design, so what happened to the ruined land and to the spirit fox who guards the Northern Lights has to be read out of the surroundings. The puzzles are environmental, solved with powers the guardian gives you. The score runs to 14 original orchestral pieces.

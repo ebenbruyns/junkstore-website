@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/breachway/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "c18f276caa3bbfa7"
+last_modified_at: "2026-08-26"
+content_hash: "8216882ddd5dbb13"
 ---
 
-Assemble your crew, load out your ship, and explore the galaxy in this deck-building space roguelike. Your deck is determined by your spaceship's loadout, mix and match equipment to discover different powerful card synergies, and obliterate your enemies in tactical space battles
+A deckbuilding roguelike in space where the deck comes out of the ship. Every chassis, weapon system, defensive upgrade and internal module you fit brings its own cards with it, so refitting the ship is how you rebuild the deck. Crew are hired to run that equipment and have morale, skills and their own allegiances to four factions, whose opinion of you opens or closes access to their arsenals. Battles are turn-based, and your sensors tell you what the enemy is about to do, so cooldowns and order of operations decide them.

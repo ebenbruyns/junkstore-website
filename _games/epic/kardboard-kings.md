@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/kardboard-kings/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "82df2708fadd5d04"
+last_modified_at: "2026-08-26"
+content_hash: "f0bcb2e7b2331265"
 ---
 
-Open your own Card shop by the seaside! Buy, trade and sell Cards, OR keep them for your own collection! Earn reputation with customers, beat your shop goals, unlock new decorations, and host exciting events to bring everyone to the best Card shop in town!
+A shop simulator about running a seaside card store, played as Harry Hsu, who has inherited his father's failing one along with a little cash and almost no stock. You buy, sell and hold cards for a game called Warlock, watching a market that moves on reprints, rumours, rule changes, kids' meal promos and church condemnations. There are over 100 cards to collect, customers whose decks you can help build or whose trust you can abuse, and a shop to rebrand and redecorate. A masked thief runs underneath it as a mystery, and Card Game Island is a separate roguelite deckbuilding mode where one loss sends you home.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/cook-serve-delicious-3/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "61f7447da04a9d8b"
+last_modified_at: "2026-08-26"
+content_hash: "6f6c1da2ad2a2ac4"
 ---
 
-Cook, serve and manage your food truck as you dish out hundreds of different foods across war-torn America in this massive sequel to the million-selling series!
+A cooking game played out of a food truck crossing a war-torn United States towards the Iron Cook Foodtruck Championships, with two robots, Whisk and Cleaver, for company. The cooking is a timed test of speed and memory rather than a relaxed one, with difficulty settings to match your skill. There are over 200 foods to serve across 387 levels, which the developers put at more than 100 hours. The truck takes upgrade modules that change how it plays and around 100 trinkets that only decorate it. Local splitscreen co-op can be switched on and off mid-game. The accessibility options cover motion, flashing and strobe, audio and colour blindness.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/killing-floor-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "6ce3edbfe9e2f5a2"
+last_modified_at: "2026-08-26"
+content_hash: "001be8e41f2832d8"
 ---
 
-In KILLING FLOOR 2, players descend into continental Europe after it has been overrun by horrific, murderous clones called Zeds that were created by rogue elements of the Horzine Corporation. 6-player Co-Op & 12-player VS Zed-slaughtering mayhem.
+A co-op shooter set across continental Europe a month after the first game, with Horzine Biotech's failed experiment loose and the cloned specimens, the Zeds, everywhere. Communications have failed, governments have collapsed and the survivors are hiding. You play among the civilians and mercenaries who banded together and set up privately funded bases, tracking outbreaks and going into them. Six players work through the waves together to a boss, or twelve take turns in versus mode, one team playing the humans in one match and the Zeds in the next. Perks carry talent choices that push different playstyles, the weapons run from military rifles through improvised junk to mad scientist hardware, and melee has attack types of its own. Zed Time drops everything into slow motion when it triggers. The gore is a selling point rather than a side effect, with limbs and blood left lying around the map, and the Zeds will take you apart the same way given the chance.

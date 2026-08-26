@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/priest-simulator-vampire-show/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "0112258675782fc2"
+last_modified_at: "2026-08-26"
+content_hash: "a936f689f2e3cd67"
 ---
 
-A mockumental action game. Go forth and rock in the absolute weirdest and most messed up simulator in the history of sandbox shooters. Fully unprofessional English language version. This dub will have you in stitches.
+A sandbox shooter staged as a mockumentary and set in a version of modern Poland, played as a vampire priest trying to get his batoon back so he can return to Hell. You fight shatanists and Hell's envoys with eight weapons, two at a time since you have two hands, and craft upgrades out of black metal. The church itself is a project: buy restoration blueprints, renovate it, raise the faith level and unlock confession and sermons. The previous pastor sold the villagers demonic totems, so there are possessions to sort out and exorcisms to perform as well. The English dub is deliberately unprofessional, which is how the game sells itself, batoon and all.

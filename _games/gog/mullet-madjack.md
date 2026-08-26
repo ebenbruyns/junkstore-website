@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/mullet-madjack/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "fbf2d1d7b39c8fa7"
+last_modified_at: "2026-08-26"
+content_hash: "5212147464d1cc75"
 ---
 
-Mullet Madjack is a single-player fast-paced FPS that brings you directly inside a classic anime.
+A first-person shooter where your health is a timer. In its future people and the internet have merged into one being that needs a hit of dopamine every ten seconds or dies, so you have ten seconds, killing is what puts more back, and stopping is what kills you. It is staged as a classic anime, with animated cutscenes between floors, and built around climbing a tower and beating your own times. The developers put the split at 90 per cent arcade and 10 per cent roguelite: the stages are handcrafted and dealt out at random, and there are over 50 power-ups that change how a run plays. There is an endless mode on random levels and a classic mode with the timer removed. Accessibility options include a purple blood mode and switches for camera shake and flashes.

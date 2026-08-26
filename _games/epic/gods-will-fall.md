@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/gods-will-fall/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "cfbfaec2be39e3bb"
+last_modified_at: "2026-08-26"
+content_hash: "46ee20fe0f2646d9"
 ---
 
-Experience the trials of 8 warriors in their plight to sever the gods’ grip on humanity as you take on legions of beasts in each of the gods’ realms.
+A game about a clan of eight Celtic survivors taking on the gods who have ruled and tormented humanity for millennia. Each god has its own hellish domain, and you send warriors in one at a time to face what lives there. Succeed and a legend is made, fail and the clan is smaller for it, and the story that comes out differs accordingly. This Valiant Edition adds the Valley of the Dormant Gods pack, with three more gods and their domains, two more warrior types, and further items, skills and gear.

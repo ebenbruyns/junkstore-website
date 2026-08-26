@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/sherlock-holmes-the-awakened/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "93aafcc2c466404c"
+last_modified_at: "2026-08-26"
+content_hash: "8a55aced46e62c11"
 ---
 
-Experience a nerve-racking Lovecraftian adventure, rebuilt from the ground up with modern graphics and gameplay. Become Sherlock Holmes...
+A remake of the 2008 game of the same name, rebuilt from the ground up rather than remastered, which puts Sherlock Holmes into Lovecraft's Cthulhu Mythos. It is set in 1882, when Holmes and John are still only roommates, and covers how they became the pair everyone knows. The case is a series of disappearances tied to a cult worshipping an Ancient God, and it runs from Baker Street to a psychiatric hospital in Switzerland and the Louisiana wetlands. You work it as a detective, finding clues and going over crime scenes, with side quests alongside the main investigation. Holmes, who deals in reason, has to hold off his own encroaching insanity while chasing questions that have no rational answer, and in the remake that insanity is a mechanic rather than only a plot point.

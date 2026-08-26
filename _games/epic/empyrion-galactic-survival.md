@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/empyrion-galactic-survival/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "eb8a0fb4a5d9bb8c"
+last_modified_at: "2026-08-26"
+content_hash: "34170f968934a692"
 ---
 
-Build and explore in a true space sandbox survival adventure. Construct mighty capital vessels, sprawling planetary settlements, and vast space stations in your galactic journey to discover the mysteries of Empyrion
+A space sandbox that puts survival, construction and first-person shooting together. You build capital vessels, fighters, planetary settlements and space stations piece by piece anywhere you like, and the terrain is voxel-based, so it can be flattened, dug into or tunnelled through. Planets each have their own gravity, atmosphere, climate, wildlife and resources, and staying alive means managing food, oxygen, materials and ammunition. Some of the alien races you meet are peaceful and some will destroy you given the chance, which is what the weapons are for. It plays solo or in multiplayer with factions, protected PvE areas and PvP planets. Community blueprints can be downloaded from the Workshop and modified.

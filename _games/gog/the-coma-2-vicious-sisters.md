@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-coma-2-vicious-sisters/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "aa842ac39e1f7fe8"
+last_modified_at: "2026-08-26"
+content_hash: "f5e996f28f79d3d4"
 ---
 
-The Coma 2: Vicious Sisters is a Korean survival horror-adventure. As Mina Park, you must venture from your deserted school to survive.
+A Korean survival horror game in which Mina Park wakes at night in Sehwa High and finds the school changed into something else. Something wearing her teacher's face is following her, a demoness the game names Dark Song, and getting out means going into the surrounding district while she hunts. Running and using your flashlight both make you easier to find, so exploring and staying alive pull against each other, and hiding is how you get out of a bad encounter. Injuries can be permanent, and crafting is how you prepare for what is coming. It is hand-illustrated, with comic strips through it.

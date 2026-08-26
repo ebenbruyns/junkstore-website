@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/moving-out/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "1191bb62557ae5ef"
+last_modified_at: "2026-08-26"
+content_hash: "7fd98acac96ab716"
 ---
 
-Moving Out is a ridiculous physics-based moving simulator that brings new meaning to "couch co-op"! As a newly certified Furniture Arrangement & Relocation Technician, you’ll take on moving jobs all across the busy town of Packmore.
+A physics game about moving furniture, for one to four players on the same couch. You work for Smooth Moves in the town of Packmore, and the job is getting beds and sofas out of a house and into a truck by whatever route works, including straight through the windows. The destinations move on from sleepy suburbs to farms, haunted houses and virtual reality as your reputation grows. An assist mode adjusts the difficulty so anyone can play.

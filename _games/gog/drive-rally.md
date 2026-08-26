@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/drive-rally/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "670cd0ace3f49564"
+last_modified_at: "2026-08-26"
+content_hash: "7217d14f7dedc2ec"
 ---
 
-Drive Rally lets you relive the 90s in the most exciting era in motorsport history, where dust, mud, and snow are badges of honor.
+An arcade rally game set in the 1990s, with more than 600km of stages spread over six locations, from snowy Finland to deserts in the United States. The 25 cars sit in three rally classes and are inventions rather than licensed makes, with names like Das Holzwagen and The Doggo, and you build each one up yourself through the body, paintwork and decals. Six co-drivers call the notes and pass judgement on your driving, each with their own championship to finish, which is how more cars unlock. There is a free roam mode with collectibles, a local party mode where up to 12 take turns, global leaderboards with saved ghosts, a photo mode, and support for wheels including force feedback.

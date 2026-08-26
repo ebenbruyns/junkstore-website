@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/stasis-bone-totem/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "ddb785f244d91fe0"
+last_modified_at: "2026-08-26"
+content_hash: "8440c37f111cfbc8"
 ---
 
-Get ready for a thrilling underwater adventure with classic point-and-click gameplay. Sci-fi & horror, we have it here! Explore with three characters simultaneously. Featuring atmospheric isometric graphics, rendered video, and a soundtrack by Mark Morgan.
+An isometric point-and-click horror adventure set underwater. Mac and Charlie are a married pair of salvagers who find an abandoned oil rig in the Pacific and, with it, something the Cayne Corporation would rather stayed hidden. You play the two of them and their Super-Toy, Moses, switching between all three to work the puzzles out. It is part of the Stasis series and keeps the same isometric point-and-click form, with a score by Mark Morgan. The content warning on it is depictions of blood.

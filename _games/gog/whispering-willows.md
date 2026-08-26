@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/whispering-willows/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "ffd356448a38aa3d"
+last_modified_at: "2026-08-26"
+content_hash: "23b7e8a3d47ffe20"
 ---
 
-Young Elena Elkhorn embarks on a harrowing journey to find her missing father and discover the secrets of the Willows Mansion. Aiding her journey is a unique amulet, she received from her father, which allows her to astral project her spirit into a ghostly-realm and communicate with the dead. Play as Elena to find her missing father, use your astral projection to solves the mansion's tricks and puzzles, help the lingering souls and discover so much more in Whispering Willows.
+A hand-drawn 2D horror puzzle adventure in which Elena Elkhorn goes looking for her missing father at the Willows Mansion. An amulet he gave her lets her project her spirit out of her body, which is how she reaches places she cannot walk into and talks to the dead still lingering there. Their unfinished business and the mansion's own history are what the puzzles are made of.

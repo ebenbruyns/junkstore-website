@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/city-of-brass/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "741d50f766deb5b6"
+last_modified_at: "2026-08-26"
+content_hash: "3a0ba7bc6b58e0cc"
 ---
 
-Become a daring thief in City of Brass, a first-person action adventure from senior BioShock developers.  
+A first-person roguelite from senior BioShock developers, set in an Arabian Nights city you are robbing before time runs out. You carry a scimitar and a whip, and the whip is as much for baiting and tripping as for hitting. The city is full of traps, pits, blades, spears, sprung paving slabs and poison gas, and the trick is turning them on whatever is chasing you. Genies imprisoned there will barter advantages for loot. The layout is generated fresh each run.

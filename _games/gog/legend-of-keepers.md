@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/legend-of-keepers/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "405ca23312b08fd0"
+last_modified_at: "2026-08-26"
+content_hash: "09526f2fd4175170"
 ---
 
-Legend of Keepers is the perfect mix between a Dungeon Defender and a Roguelite. You have been hired as a dungeon guardian by the Dungeons Company. Your job is simple: Protect their dungeons!
+A dungeon management game crossed with a roguelite, played from the other side of the door. You are employed by the Dungeons Company to protect their dungeons, which means checking an incoming party's stats and resistances, then placing monsters and traps to suit, and watching the heroes walk in and set them off. When they reach your monsters it becomes a turn-based fight. Staff have to be managed too, strikes included. Each run differs, but your Master keeps some bonuses between them.

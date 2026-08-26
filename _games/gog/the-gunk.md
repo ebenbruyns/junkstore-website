@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-gunk/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "21f4a3ed851ed3b3"
+last_modified_at: "2026-08-26"
+content_hash: "ba25b9a30d3b9e28"
 ---
 
-The Gunk is an adventure game that stars Rani, one part of our duo of gritty space haulers, struggling to make a buck as they chance upon an untouched planet brimming with life. They came in search of valuable resources, and it looks like they've hit the jackpot...
+An action adventure played as Rani, one of two space haulers short of money who find an untouched planet and then the parasite covering it. A Power Glove pulls the gunk off, and the plant life that comes back is what lets you reach further in. The story is carried over radio between the two of them, and the trust between them frays as it goes. Rani is voiced by Fiona Nova. It comes from Image & Form, the SteamWorld studio.
