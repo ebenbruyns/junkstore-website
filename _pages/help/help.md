@@ -44,22 +44,45 @@ excerpt: " "
     <span class="help-hub-card__count">Setup &amp; how-to guides</span>
   </a>
 
-  <!-- Generated from the junk-docs repository. The description stays generic
-       on purpose: this covers how Junk Store works as well as extensions, and
-       more sections are coming. The count and the section list are both read
-       from the collection, so this card describes itself accurately as the
-       documentation grows without anyone editing it. -->
+  <!-- Generated from the junk-docs repository, one card per section.
+
+       Split in two because a single card could not honestly describe both.
+       The section began as extension authoring and was labelled "Developer
+       Documentation"; it now also holds a user manual for everyday use, and
+       that label was telling ordinary users to stay away from the one thing
+       written for them.
+
+       Counts and the group list are read from the collection, so both cards
+       keep describing themselves correctly as the documentation grows,
+       without anyone editing this file. Labels come from
+       _data/doc_sections.yml, the same place the sidebar and breadcrumbs
+       read them from. -->
   {%- assign doc_pages = site.docs | where_exp: "d", "d.doc_index != true" -%}
-  {%- assign doc_sections = doc_pages | map: "doc_section" | uniq | where_exp: "s", "s != ''" -%}
-  <a href="/docs/" class="help-hub-card">
-    <h2 class="help-hub-card__title">Developer Documentation</h2>
-    <p class="help-hub-card__desc">Technical documentation for Junk Store: how it works under the bonnet, and how to build your own extensions. Written for people building or digging into things rather than for everyday use.</p>
+  {%- assign user_docs = doc_pages | where: "doc_section", "user" -%}
+  {%- comment -%}
+    Sorted by doc_order so the group list comes out in reading order,
+    Guides then Concepts then Reference, matching the sidebar. Unsorted,
+    site.docs comes back in path order and the card said "Concepts,
+    Guides, Reference", contradicting the tree next to it.
+  {%- endcomment -%}
+  {%- assign ext_docs = doc_pages | where: "doc_section", "extensions" | sort: "doc_order" -%}
+  {%- assign ext_groups = ext_docs | map: "doc_group" | uniq | where_exp: "g", "g != ''" -%}
+
+  <a href="/docs/user/" class="help-hub-card">
+    <h2 class="help-hub-card__title">{{ site.data.doc_sections.user.label | default: "User Manual" }}</h2>
+    <p class="help-hub-card__desc">Using Junk Store Pro day to day: the menus, store tabs, installing and launching games, Proton and store settings, the File Manager, and diagnostics.</p>
+    <span class="help-hub-card__count">{{ user_docs | size }} pages</span>
+  </a>
+
+  <a href="/docs/extensions/" class="help-hub-card">
+    <h2 class="help-hub-card__title">{{ site.data.doc_sections.extensions.label | default: "Extensions" }}</h2>
+    <p class="help-hub-card__desc">Adding new sources of games to Junk Store Pro: a storefront, an emulator, a folder of ROMs. Guides to get you started, plus concepts and reference.</p>
     <span class="help-hub-card__count">
-      {{- doc_pages | size }} pages
-      {%- for s in doc_sections -%}
-        {%- assign meta = site.data.doc_sections[s] -%}
+      {{- ext_docs | size }} pages
+      {%- for g in ext_groups -%}
+        {%- assign gmeta = site.data.doc_sections.extensions.groups[g] -%}
         {%- if forloop.first %} &middot; {% else %}, {% endif -%}
-        {{ meta.label | default: s | replace: "-", " " | capitalize }}
+        {{ gmeta.label | default: g | replace: "-", " " | capitalize }}
       {%- endfor -%}
     </span>
   </a>

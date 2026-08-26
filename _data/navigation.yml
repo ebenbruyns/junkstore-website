@@ -4,6 +4,8 @@ main:
     url: /features/
   - title: "Support"
     url: /help/
+  - title: "Docs"
+    url: /docs/
   - title: "Games"
     url: /games/
   - title: "Free Now"

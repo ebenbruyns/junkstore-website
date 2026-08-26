@@ -1,0 +1,61 @@
+{%- comment -%}
+  TechArticle JSON-LD for documentation pages.
+
+  Included from _includes/seo.html for anything in the docs collection except
+  the /docs/ contents page, which is a list of sections rather than an article.
+
+  Deliberately carries no datePublished or dateModified. Jekyll hands every
+  collection document a default date of the build time, so the BlogPosting
+  schema these pages used to get was claiming the manual was published and
+  modified at the moment the site was built, on every deploy. No date is
+  better than a wrong one, and neither is required by schema.org.
+
+  If a real modification date is wanted later, the honest source is the commit
+  date of the page in the junk-docs repository, which scripts/import-docs.py
+  could write into the front matter as it imports.
+{%- endcomment -%}
+{%- assign doc_description = page.description | default: page.excerpt | default: site.description -%}
+{%- assign doc_section_label = "" -%}
+{%- if page.doc_section and page.doc_section != "" -%}
+  {%- assign doc_meta = site.data.doc_sections[page.doc_section] -%}
+  {%- assign doc_section_label = doc_meta.label | default: page.doc_section -%}
+{%- endif -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": {{ page.title | markdownify | strip_html | strip_newlines | jsonify }},
+  "description": {{ doc_description | markdownify | strip_html | strip_newlines | jsonify }},
+  {%- comment -%}
+    The documentation covers Junk Store Pro specifically, not the free Decky
+    plugin, which is a separate application.
+  {%- endcomment -%}
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "Junk Store Pro",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "SteamOS, Linux"
+  },
+  {%- if doc_section_label != "" %}
+  "articleSection": {{ doc_section_label | jsonify }},
+  {%- endif %}
+  "inLanguage": "en",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.title | jsonify }},
+    "url": {{ "/" | absolute_url | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ site.og_image | absolute_url | jsonify }}
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ page.url | absolute_url | jsonify }}
+  }
+}
+</script>

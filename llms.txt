@@ -175,6 +175,60 @@ They work from their sailboat, Taleisin, moored in Kawau Island north of Aucklan
 - **/get_started/** - Quick start installation guide
 - **/about/** - Team information and project background
 - **/tutorials/** - Step-by-step guides for specific features
+- **/docs/** - Full written documentation: the Junk Store Pro user manual and the extension authoring guide
+
+## Documentation
+
+Junk Store Pro has full written documentation at https://junkstore.xyz/docs/.
+It is the authoritative source for how the app works and what each setting
+does. All of it describes Junk Store Pro. The free Decky plugin is a different
+application and is not covered here.
+
+Two parts: a user manual for people using the app, and an extension guide for
+people adding new sources of games to it.
+
+### User Manual - /docs/user/
+
+For everyday use of Junk Store Pro.
+
+- /docs/user/introduction/ - How Junk Store Pro is put together, and why it works the way it does
+- /docs/user/main-menu/ - The main menu, reachable from anywhere in the Steam interface
+- /docs/user/games/ - Store tabs and game grids: one tab per store you have installed
+- /docs/user/game-page/ - A game's page: artwork, description, and everything you can do with that one game
+- /docs/user/download-queue/ - The download queue, where installs, updates and imports are watched
+- /docs/user/game-settings/ - A game's own settings, reached from the cog next to the launch button
+- /docs/user/proton-settings/ - Proton settings for one game, including which Proton version it runs under
+- /docs/user/store-settings/ - A store's settings: where its games install, how they download, what runs them
+- /docs/user/store-settings-reference/ - Every store setting, with the level each one appears at
+- /docs/user/setting-up-by-hand/ - Setting a game up by hand when it did not come from a supported store
+- /docs/user/file-manager/ - The File Manager: work with files on your Deck without leaving Game Mode
+- /docs/user/file-manager-driving/ - Using the File Manager: moving around, two panes, selecting, copying and deleting
+- /docs/user/file-manager-steam/ - The File Manager and Steam: artwork, launch targets, and cleaning up what uninstalled games leave behind
+- /docs/user/file-manager-tools/ - File viewers, the disk analyser, and the other tools built into the File Manager
+- /docs/user/networking/ - Reaching another machine, to browse and copy files from a desktop or a server
+- /docs/user/file-manager-reference/ - Every File Manager shortcut, and what to do when it behaves unexpectedly
+- /docs/user/settings/ - Junk Store Pro's own settings
+- /docs/user/diagnostics/ - Diagnostics, for when something is wrong and you need to know what
+
+### Extensions - /docs/extensions/
+
+For adding new sources of games: a storefront, an emulator, a folder of ROMs,
+a collection of DOS games.
+
+- /docs/extensions/introduction/ - What an extension is and the vocabulary used throughout
+- /docs/extensions/workflows/ - How the extension tools work together in practice
+- /docs/extensions/guides/quickstart/ - The recommended path for a new extension, with no scripting and no development tools
+- /docs/extensions/guides/emulators-and-roms/ - Getting a folder of ROMs showing up as a store, using the wizard
+- /docs/extensions/guides/overriding-actions/ - Changing how one action behaves without modifying the extension
+- /docs/extensions/guides/authoring-by-hand/ - Writing an extension directly, for cases the wizard cannot express
+- /docs/extensions/guides/when-a-game-will-not-run/ - Working out why a game that is not on Steam will not start
+- /docs/extensions/concepts/ - How extensions are found, how launching works, the config schema, config layering, and the Generator
+- /docs/extensions/reference/ - Custom scripts, script output, static.json, the downloader protocol, settings, actions and types, download methods, DOSBox import, sharing and licensing
+- /docs/extensions/troubleshooting/ - When an extension does not behave as intended
+
+### Glossary - /docs/glossary/
+
+Words used in Junk Store Pro and in this documentation, in plain language.
 
 ## Game Compatibility Database
 
@@ -322,6 +376,43 @@ Yes. Junk Store Pro includes emulator integration for retro gaming. You can down
 
 ### Is Junk Store extensible? Can I add my own integrations?
 Yes. Junk Store is a launcher platform with extensible architecture. It includes a wizard-guided tool for creating custom extensions. If something isn't supported, you can build your own integration.
+
+### How do I change the Proton version for a single game on Steam Deck?
+In Junk Store Pro, open the game's page, press the cog next to the launch
+button, and use the Proton settings editor. Full details:
+https://junkstore.xyz/docs/user/proton-settings/
+
+### Where do I see download progress in Junk Store Pro?
+Everything Junk Store Pro downloads goes through one queue: installs, updates
+and imports together. See https://junkstore.xyz/docs/user/download-queue/
+
+### How do I change where a store installs its games?
+Each store has a cog on its tab, which opens its settings: install location,
+how games download, and what runs them. See
+https://junkstore.xyz/docs/user/store-settings/
+
+### How do I see what is using storage on my Steam Deck?
+Junk Store Pro's File Manager includes a disk analyser that works in Game Mode.
+See https://junkstore.xyz/docs/user/file-manager-tools/
+
+### How do I copy files to my Steam Deck from another computer?
+Junk Store Pro's File Manager can browse and copy files on another machine: a
+Deck, a desktop, or a server holding ROMs. See
+https://junkstore.xyz/docs/user/networking/
+
+### What are the numbered compatdata folders on my Steam Deck?
+They are the Proton prefixes for each game. Junk Store Pro's File Manager
+labels them with real game names and shows what uninstalled games have left
+behind. See https://junkstore.xyz/docs/user/file-manager-steam/
+
+### How do I run diagnostics in Junk Store Pro?
+Hold SELECT and press Y, or press Ctrl+D with a keyboard. It works anywhere in
+Steam, not just inside Junk Store Pro. See
+https://junkstore.xyz/docs/user/diagnostics/
+
+### Can I add my own storefront, emulator or ROM folder to Junk Store Pro?
+Yes. Junk Store Pro has a wizard-guided extension system that needs no
+scripting. Start at https://junkstore.xyz/docs/extensions/guides/quickstart/
 
 ## Social Media & Community
 

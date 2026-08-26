@@ -37,7 +37,20 @@
 {%- assign page_teaser_image = page.header.teaser | default: site.og_image | absolute_url | escape -%}
 {%- assign site_og_image = site.og_image | absolute_url | escape -%}
 
-{%- if page.date -%}
+{%- comment -%}
+  Jekyll gives every collection document a default date of the build time when
+  its front matter does not set one. Keying purely off page.date therefore made
+  each documentation page an "article", which pulled in the BlogPosting schema
+  and stamped it with datePublished and dateModified of the moment the site was
+  built. That told search engines the whole user manual was written minutes ago
+  and rewritten on every deploy.
+
+  Documentation is handled on its own below, as TechArticle, and carries no
+  date at all rather than a fabricated one.
+{%- endcomment -%}
+{%- if page.collection == "docs" -%}
+  {%- assign og_type = "website" -%}
+{%- elsif page.date -%}
   {%- assign og_type = "article" -%}
 {%- else -%}
   {%- assign og_type = "website" -%}
@@ -123,6 +136,10 @@
 
 {% if og_type == "article" %}
   {% include schemas/article.html %}
+{% endif %}
+
+{% if page.collection == "docs" and page.doc_index != true %}
+  {% include schemas/tech-article.html %}
 {% endif %}
 
 {% if site.google_site_verification %}

@@ -15,7 +15,7 @@ tags: ["proton", "compatibility", "both-versions"]
 difficulty: "Intermediate"
 category: both
 section: configuration
-order: 8
+order: 9
 card_title: 'How to Check/Change Proton Version'
 card_blurb: 'Step-by-step guide on how to check and change your Proton version'
 ---
