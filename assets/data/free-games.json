@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-08-24T19:37:46.696Z",
+  "generated_at": "2026-08-27T02:14:51.666Z",
   "games": [
-    {
-      "id": "manual_1782421420505_claim-terraforming-mars-amazon-luna",
-      "title": "Terraforming Mars",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/terraforming-mars-aga/dp/amzn1.pg.item.805ab02d-bcd9-4d95-81ad-6c495def553e?ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2FA13LzjGRSiL.jpg&w=480&output=webp&q=80",
-      "end_date": "2026-08-27T00:00:00.000Z",
-      "end_date_formatted": "Thu, 27 Aug · 00:00 UTC",
-      "first_seen": "2026-06-25 21:03:40",
-      "original_price": null
-    },
     {
       "id": "gp-3754",
       "title": "Bolmn",
@@ -36,6 +24,18 @@
       "end_date_formatted": "Thu, 27 Aug · 15:00 UTC",
       "first_seen": "2026-08-20 18:00:04",
       "original_price": "$24.99"
+    },
+    {
+      "id": "gp-3232",
+      "title": "Brutal Legend (itchio)",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://doublefine.itch.io/brutal-legend",
+      "image": "https://www.gamerpower.com/offers/1b/6881e29986949.jpg",
+      "end_date": "2026-08-27T23:59:00Z",
+      "end_date_formatted": "Thu, 27 Aug · 23:59 UTC",
+      "first_seen": "2026-08-27 02:14:44",
+      "original_price": "$14.99"
     },
     {
       "id": "gp-3496",
@@ -144,6 +144,18 @@
       "end_date_formatted": "Mon, 31 Aug · 23:59 UTC",
       "first_seen": "2026-08-13 00:02:53",
       "original_price": "$4.99"
+    },
+    {
+      "id": "gp-3555",
+      "title": "Together After Dark",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/en-US/p/together-after-dark-fa0ce0",
+      "image": "https://www.gamerpower.com/offers/1b/69cafab460c8e.jpg",
+      "end_date": "2026-09-03T15:00:00.000Z",
+      "end_date_formatted": "Thu, 3 Sept · 15:00 UTC",
+      "first_seen": "2026-07-15 05:44:57",
+      "original_price": "$2.99"
     },
     {
       "id": "manual_1786041721255_right-and-down",

@@ -77,10 +77,11 @@ help_links:
   </div>
 
   <div class="js-card js-card--success">
-    <h4 class="js-card__title">Access itch</h4>
-    <p class="js-card__text">Enable the itch extension for indie games.</p>
-    <div class="js-card__link"><a href="/help/faq/#how-to-access-itch-io-beta">Learn how →</a></div>
+    <h4 class="js-card__title">Import a game you already have</h4>
+    <p class="js-card__text">Copy it from another machine or a folder instead of downloading it again.</p>
+    <div class="js-card__link"><a href="/tutorials/import-games-over-your-local-network/">Learn how →</a></div>
   </div>
+
 </div>
 
 <!-- IF SOMETHING GOES WRONG -->
