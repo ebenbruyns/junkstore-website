@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-08-21T05:35:24.848Z",
+  "generated_at": "2026-08-28T21:01:27.537Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "breathedge",
+      "featured_in": "2026-08-29",
+      "post_url": "/blog/games-tested-2026-08-29/",
+      "title": "Breathedge",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/267992ec9bfbae142508d66ddd8fe41730af1573377242e83080f9bdc082ef48.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/f927e40bb2977a2461d2675306cdcb71fa96ec7c65cea5785c1a2996b201be02.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "clash-artifacts-of-chaos",
+      "featured_in": "2026-08-29",
+      "post_url": "/blog/games-tested-2026-08-29/",
+      "title": "Clash: Artifacts of Chaos",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/cd694d0ede3d8c394ec909769d6f23380e8de4b5c89f8850950fef6eccb43111.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/b26bd9d10bd3c56ef4fec871a88df76563b10af72053f5a56de4640d70777c7b.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "amazon",
+      "slug": "havendock",
+      "featured_in": "2026-08-29",
+      "post_url": "/blog/games-tested-2026-08-29/",
+      "title": "Havendock",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/428c8f15ac1ecbd0716411b227eb82bc3fb8067c54b27876d4a52196a0c80583.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/f625230d9801098e723b55d47684728de4645213b0fdb65ea4bc059a1f8c3d68.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "rival-stars-horse-racing-desktop-edition",
+      "featured_in": "2026-08-29",
+      "post_url": "/blog/games-tested-2026-08-29/",
+      "title": "Rival Stars Horse Racing: Desktop Edition",
+      "standalone_rating": "green",
+      "icon_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1166860/header.jpg",
+      "vertical_artwork": "https://images.gog.com/980d0265e977de7f9082e2201c3eef4103f75b9103af0da5b5e1c12b708431f2.jpg?namespace=gamesdb"
+    },
     {
       "store": "epic",
       "slug": "albion-online",
@@ -80,46 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/05b16aa177d5e1392b35c737ddcacfae666f9a8c121003c889060107596e2f91.jpg?namespace=gamesdb",
       "vertical_artwork": "https://images.gog.com/086f08af97f86cbd6ab69f328e98fe8536d515f8ee6a7e264efffef76b48ddd4.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "hiveswap-friendsim",
-      "featured_in": "2026-08-08",
-      "post_url": "/blog/games-tested-2026-08-08/",
-      "title": "Hiveswap Friendsim",
-      "standalone_rating": "red",
-      "icon_image": "https://images.gog-statics.com/4d258277f7e83b7a62a7511ba620cb9d8a07478e21734ec2039b7ee3de80362e.png",
-      "vertical_artwork": "https://images.gog.com/0f35ff8f6f06220f73b0baa7682dad74a7f698afc6cfc7482317f7aea8b39c83.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "right-and-down",
-      "featured_in": "2026-08-08",
-      "post_url": "/blog/games-tested-2026-08-08/",
-      "title": "Right and Down",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/73e007ff4c15ecd3bd92703dc560c5ebfd36d701acb241d64c152897de48e70d.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/b65b457bda60daa7984634eb491c40e3b4d8b1f6276ed834e67c309f5c61340d.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "we-were-here-together",
-      "featured_in": "2026-08-08",
-      "post_url": "/blog/games-tested-2026-08-08/",
-      "title": "We Were Here Together",
-      "standalone_rating": "green",
-      "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/865360/capsule_231x87.jpg",
-      "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/865360/library_600x900.jpg"
-    },
-    {
-      "store": "epic",
-      "slug": "otxo",
-      "featured_in": "2026-08-06",
-      "post_url": "/blog/games-tested-2026-08-06/",
-      "title": "OTXO",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/16cbb93d11834659e6eda76c169dc73444923e4dac93497528216101853e05f6.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/07c26125930ad808fa2ff6de999239419d18629beaf8f84e2741c92f4153bf8e.jpg?namespace=gamesdb"
     }
   ]
 }

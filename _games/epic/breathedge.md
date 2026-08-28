@@ -54,7 +54,7 @@ franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/breathedge"
 was_free_before: true
-giveaway_events: [{"start":"2023-01-01"},{"start":"2023-04-26","end":"2023-05-03"},{"start":"2026-08-07","end":"2026-08-09"}]
+giveaway_events: [{"start":"2023-01-01"},{"start":"2023-04-26","end":"2023-05-03"},{"start":"2026-08-07","end":"2026-08-09"},{"start":"2026-08-27","end":"2026-09-03"}]
 free_games_aliases: []
 
 # Images
@@ -66,7 +66,7 @@ icon_image: "https://images.gog.com/267992ec9bfbae142508d66ddd8fe41730af15733772
 # hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
 # hackable/limited deliberately excluded — no "HDR with a mod" claims.
 hdr: false
-controller_input: "requires-mapping"
+controller_input: "native"
 community_layout: false
 required_launcher: ""
 requires_account_setup: false
@@ -137,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-20"
-content_hash: "ac200a1ac839a497"
+last_modified_at: "2026-08-28"
+content_hash: "3be028b367b2ae9d"
 ---
 
 A first-person survival game set in the debris of a wrecked space hearse, which you boarded to carry your grandfather's ashes to his funeral. You scavenge for oxygen and parts, craft tools and vehicles, and dig into the conspiracy behind the crash, with an immortal chicken for company and jokes at every turn.

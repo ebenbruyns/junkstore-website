@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-22T20:38:05.159Z",
-  "total_games": 1078,
+  "generated_at": "2026-08-28T20:42:49.091Z",
+  "total_games": 1081,
   "storefronts": {
     "Epic": {
-      "total": 504,
-      "green_standalone": 443,
-      "green_decky": 455
+      "total": 506,
+      "green_standalone": 445,
+      "green_decky": 457
     },
     "GOG": {
       "total": 405,
@@ -13,8 +13,8 @@
       "green_decky": 361
     },
     "Amazon": {
-      "total": 85,
-      "green_standalone": 81,
+      "total": 86,
+      "green_standalone": 82,
       "green_decky": 0
     },
     "itch": {
@@ -510,6 +510,18 @@
       "publisher": "Big Fish Games",
       "controller_input": "keyboard-mouse",
       "databaseId": "amzn1.adg.product.d94750f3-d3df-4f0b-87e0-c8c0d08b8b03"
+    },
+    {
+      "slug": "havendock",
+      "id": "amzn1.adg.product.b5f87c1f-22bc-43f5-983d-4903f0d05efe",
+      "title": "Havendock",
+      "storefront": "Amazon",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": true,
+      "publisher": "IndieArk",
+      "controller_input": "keyboard-mouse"
     },
     {
       "slug": "heaven-dust-2",
@@ -2353,7 +2365,7 @@
       "cant_test_linux": false,
       "native_linux": false,
       "publisher": "HypeTrain Digital",
-      "controller_input": "requires-mapping",
+      "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "0a20ccd3f1b3464da750a4dbf8c80d7c"
     },
@@ -2735,6 +2747,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "Arrowroot"
+    },
+    {
+      "slug": "clash-artifacts-of-chaos",
+      "id": "46a3c41a19ed4b1ea431483b4639c648",
+      "title": "Clash: Artifacts of Chaos",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": false,
+      "publisher": "Nacon",
+      "controller_input": "native"
     },
     {
       "slug": "clone-drone-in-the-danger-zone",
@@ -5945,6 +5969,18 @@
       "publisher": "Crystal Dynamics",
       "controller_input": "native",
       "databaseId": "f7cc1c999ac146f39b356f53e3489514"
+    },
+    {
+      "slug": "rival-stars-horse-racing-desktop-edition",
+      "id": "d9da08fd23dd4078a520c9923780c153",
+      "title": "Rival Stars Horse Racing: Desktop Edition",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Aug '26",
+      "native_linux": false,
+      "publisher": "PikPok",
+      "controller_input": "native"
     },
     {
       "slug": "river-city-girls",
