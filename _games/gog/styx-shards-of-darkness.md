@@ -141,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-24"
-content_hash: "404f3ddb277ab7a1"
+last_modified_at: "2026-08-29"
+content_hash: "b4c2c6e4ec836e1b"
 ---
 
-A stealth game played as Styx, a goblin assassin, through large multi-layered levels you climb, swing and hang your way around, staying in the dark corners or going high to avoid being seen. It can be played alone or with a friend in co-op. The route runs up an Elven city, through Dwarf territory and out into unmapped land, and failing has consequences for Styx's own kin. Experience points go into assassination, infiltration or magic, and you gather ingredients to craft traps and items and produce clones of yourself to distract and mislead the guards.
+A stealth game played as Styx, a goblin assassin, through large multi-layered levels you climb, swing and hang your way around, staying in the dark corners or going high to avoid being seen. The version sold here is single player, without the co-op mode the game carries on other storefronts. The route runs up an Elven city, through Dwarf territory and out into unmapped land, and failing has consequences for Styx's own kin. Experience points go into assassination, infiltration or magic, and you gather ingredients to craft traps and items and produce clones of yourself to distract and mislead the guards.

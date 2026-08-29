@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/blade-of-darkness/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "4221c4b0debdc1c9"
+last_modified_at: "2026-08-29"
+content_hash: "7b12dc5cfb4a6d62"
 ---
 
-Blade of Darkness is a hardcore fantasy action-adventure with unique combat mechanics and role-playing elements that pioneered the “soulsborne” genre. Pick one of four characters to hack and slash through a gory quest to save the world from the forces of Chaos.
+A 2001 action adventure that its own store page credits as an ancestor of the soulsborne line, re-released in HD with widescreen up to 4K, gamepad support and a reworked camera, and with the gameplay, content and story left as they were. You pick one of four champions, Tukaram the barbarian, Naglfar the dwarf, Sargon the knight or Zoe the amazon, each with their own strengths and fighting skills. Combat is combo-based and extremely bloody, to the point where you can take a limb off an enemy and then fight with it. The levels carry physics puzzles and traps alongside the fighting.

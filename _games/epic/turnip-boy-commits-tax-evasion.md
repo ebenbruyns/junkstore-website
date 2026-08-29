@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/turnip-boy-commits-tax-evasion/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "2882fbdc0be9e34b"
+last_modified_at: "2026-08-29"
+content_hash: "b5876bbdcb518bf7"
 ---
 
-Play as an adorable yet trouble-making turnip. Avoid paying taxes, solve plantastic puzzles, harvest crops and battle massive beasts all in a journey to tear down a corrupt vegetable government!
+A short top-down adventure played as a turnip who has not paid his taxes and has been evicted for it. Paying the debt back to Mayor Onion means running errands around a garden community of vegetables and fruit who all have problems of their own, solving puzzles and fighting animals of various sizes, while working out what has gone wrong with the place. Tax documents can be ripped up wherever you find them, which is how you get rid of the paper trail.

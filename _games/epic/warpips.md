@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/warpips/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "8201b8c6134a1726"
+last_modified_at: "2026-08-29"
+content_hash: "ddb8705789b7c4c8"
 ---
 
-Warpips is the ultimate quick to learn but amazingly deep tug-of-war strategy game. Deploy the right composition of soldiers, tanks, helicopters and planes in this tight, streamlined strategy-focused war game. Compose the best army, research the right tech; overwhelm your enemy!
+A tug-of-war strategy game where you decide what to send rather than steering it. You buy infantry, vehicles, helicopters and planes into a lane and they fight their way across, taking cover and reacting on their own, with airstrikes, missiles and artillery to call down on top of them. Rounds run about ten to twenty minutes, battles are randomly generated so no two go the same way, and an unlockable upgrade tree opens the full roster over time. The developers state there are no microtransactions.

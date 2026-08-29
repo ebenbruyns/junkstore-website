@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/deaths-door/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "b7b0e29fde307b20"
+last_modified_at: "2026-08-29"
+content_hash: "073fcd3db0d9d07e"
 ---
 
-Reaping souls of the dead and punching a clock might get monotonous but it's honest work for a Crow. The job gets lively when your assigned soul is stolen and you must track down a desperate thief to a realm untouched by death...
+An action adventure played as a crow employed to collect the souls of the dead. The soul you were assigned is stolen, and chasing the thief takes you into a place death never reached, where everything has grown well past the age it should have. Combat runs on a melee weapon, arrows and magic, and it punishes mistakes, with character stats and upgrades to shape as you go. The bosses are large and have reasons of their own for what they are doing. The tone is bleak with a dry sense of humour running under it.

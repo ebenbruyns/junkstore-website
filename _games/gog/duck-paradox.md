@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/duck-paradox/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "b7c336b043159ae3"
+last_modified_at: "2026-08-29"
+content_hash: "89fd8b2295d65815"
 ---
 
-Shoot bouncing bullets to kill corrupted versions of your Pet Duck. Slow down time to maneuver in a flashy way as you try to solve puzzles under pressure and chain explosions to rescue the original version of your Pet Duck!
+A precision platformer with roguelike runs, played as Dr Paraducks, a scientist chasing her pet duck through the multiverse after her time machine failed. The ray gun fires bouncing bullets, so every miss ricochets off the walls and comes back as another problem, which makes aiming the whole game. Time can be slowed to work through puzzles and barricades. Two random upgrades are offered at the end of each level, so builds differ every reset. There are over fifty levels across three worlds, plus an endless survival mode and a harder one that has to be unlocked.

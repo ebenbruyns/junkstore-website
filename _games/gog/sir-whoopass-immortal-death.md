@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/sir-whoopass-immortal-death/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "4fa993f00370c581"
+last_modified_at: "2026-08-29"
+content_hash: "864250ce90f9b87f"
 ---
 
-Meet Sir Whoopass, the hero who due to a series of hilarious and poor life choices manages to bring chaos and disarray to an utopian world. He must find The Villain-Beating Artifact to vanquish The Immortal and stop him from spawning all manner of evil monsters and creatures. Also cheese.
+A comic hack and slash in which you play a knight who caused the disaster he is now trying to fix, and whose plan for fixing it is to give his arch-nemesis, The Immortal, a thorough beating. The world of Weirdwood is open to wander, with forests, caves, puzzles, treasure and a stack of side quests, and the weapons run from swords and maces to wands. It plays for jokes throughout, puns and fourth wall breaks included, with arcade minigames sitting inside it and IRS agents on your back. It is single player only. The store notes violence and blood.

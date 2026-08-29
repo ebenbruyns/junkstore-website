@@ -137,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-26"
-content_hash: "9eaa0b6a64d320ea"
+last_modified_at: "2026-08-29"
+content_hash: "350e471e8878caae"
 ---
 
-A visual novel with light turn-based combat, played as Atom Eve from the Invincible comics. It gives as much room to her life with the Teen Team, her family and her friends as to the powers, and the choices you make shape both her relationships and what kind of hero she settles into being. Points can go into combat skills or into unlocking extra dialogue instead. The art is directed by Rossi Gifford and the writing by Jill Murray, and it is the first original Invincible game from Skybound. The fights are staged to look like the comic, and it carries the comic's content with it, so there is violence and bloody injury behind the art style.
+A visual novel with light turn-based combat, played as Atom Eve from the Invincible comics. The Teen Team, her family and the people she knows get as much room as the powers do, and the choices you make shape both her relationships and what kind of hero she settles into being. Points can go into combat skills or into unlocking extra dialogue instead. The art is directed by Rossi Gifford and the writing by Jill Murray, and it is the first original Invincible game from Skybound. The fights are staged to look like the comic, and it carries the comic's content with it, so there is violence and bloody injury behind the art style.

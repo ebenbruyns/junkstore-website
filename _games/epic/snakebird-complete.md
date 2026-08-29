@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/snakebird-complete/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "ab873b855cf1f8e0"
+last_modified_at: "2026-08-29"
+content_hash: "6d16a1e4cb24e640"
 ---
 
-Experience hit puzzle classic Snakebird and Snakebird Primer in Snakebird Complete, a brand new package that reunites both beloved titles into one seamless experience. Now with a hint system!
+A puzzle game about moving creatures that are part snake and part bird by folding them into whatever shape the obstacle in front of them needs, be that pushing, lifting, teleporting or ignoring gravity. Eating fruit makes you longer, which is as often the problem as the solution. The original alone carries over fifty levels on a non-linear map of themed zones. This Complete edition packages that game together with Snakebird Primer, the gentler of the two, and adds a hint system on top.

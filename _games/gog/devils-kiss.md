@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/devils-kiss/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "40b72c7301e3f2d2"
+last_modified_at: "2026-08-29"
+content_hash: "54409337a149aa39"
 ---
 
-Find out how it all started in this enticing Visual Novel prequel for "Lair of the Clockwork God". Join heroes Dan and Ben as they navigate a rough first school day stuffed with flirting, demons, a vast conspiracy and all manner of compromising personal information.
+A short visual novel that works as a prequel to Lair of the Clockwork God, covering how Dan and Ben met over a rough first day at school, with flirting, demons, a globe-spanning conspiracy and a lot of compromising personal information. Dan arrives looking to attach himself to whichever mid-nineties gaming archetype carries the most clout, with a view to a career as a useless sidekick, so the cast is made of personified genres: point and click, RPG, shooty-bang adventurer. It is free with any purchase of Lair of the Clockwork God. The store flags language and suggestive themes, with no nudity.

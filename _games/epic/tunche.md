@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tunche/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "fb4948c669098aee"
+last_modified_at: "2026-08-29"
+content_hash: "88463157ca288fd9"
 ---
 
-Tunche is a charming hand-drawn action game with roguelike elements. Team up with your friends or play solo. Choose from 5 unique characters and restore peace in the Amazon rainforest!
+A hand-drawn beat-em-up with roguelike elements, set in the Amazon rainforest and played across four worlds with their own enemies, bosses and stories. Up to four people can play in local co-op. There are five characters, among them Rumi the sorceress, Pancho the musician, Qaru the bird boy, Nayra the warrior and Hat Kid, on loan from A Hat in Time. Skills and ultimate abilities are learned over repeated playthroughs, which is how you get further in.

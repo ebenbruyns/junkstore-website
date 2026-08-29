@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/mafia-definitive-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "efbd5c49c896d901"
+last_modified_at: "2026-08-29"
+content_hash: "4f8bd844610d26a5"
 ---
 
-Re-made from the ground up, rise through the ranks of the Mafia during the Prohibition era of organized crime. After a run-in with the mob, cab driver Tommy Angelo is thrust into a deadly underworld. Initially uneasy about falling in with the Salieri crime family, Tommy soon finds that the rewards are too big to ignore.
+A remake of the 2002 game, rebuilt from the ground up rather than tidied up. It is Prohibition-era Lost Heaven in the 1930s, and you are Tommy Angelo, a cab driver who does one job for the mob and finds the rewards too big to walk away from. The story and gameplay are expanded over the original and the score is the original one. Owning it unlocks Tommy's suit and cab in the Definitive Editions of Mafia II and Mafia III. The store marks it as mature.

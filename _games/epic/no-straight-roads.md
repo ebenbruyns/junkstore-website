@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/no-straight-roads/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "da39717dd293901b"
+last_modified_at: "2026-08-29"
+content_hash: "de2ed5a48b8260c5"
 ---
 
-Welcome to Vinyl City! Play with Mayday and Zuke for the Musical Revolution in this action adventure game created by Wan Hazmer, one of the lead game designer of FF XV and Daim Dziauddin, SFV's concept artist.
+An action adventure about starting a rock band and bringing down an EDM empire called NSR, set in a place called Vinyl City. Combat is third person with the rhythm running through it, and the bosses are musical megastars, among them a boy band, a globe-spinning DJ and a child prodigy pianist. It can be played in local split screen co-op. The version sold here is the Encore Edition, which folds in the Christmas Edition update and adds more tracks, a new opening cinematic and over 500 pieces of fan art to find around the city.

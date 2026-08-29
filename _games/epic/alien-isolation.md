@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/alien-isolation/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -131,8 +137,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "fbc1491bdbf48c19"
+last_modified_at: "2026-08-29"
+content_hash: "3f2eb5ff41f063b6"
 ---
 
-Discover the true meaning of fear in Alien: Isolation, a survival horror set in an atmosphere of constant dread and mortal danger...   Created using the CATHODE™ engine.
+A survival horror game set fifteen years after the first Alien film, played as Amanda Ripley, who travels to the decommissioned station Sevastopol because her mother's flight recorder has turned up there. The alien is one creature rather than waves of them, and it hunts by its senses and reacts to what you do rather than following a script, so it cannot be beaten in a straight fight. You scavenge, hack systems and craft what you need, then decide each time to hide, distract it or run. The store warns that when it catches you the deaths are graphic.

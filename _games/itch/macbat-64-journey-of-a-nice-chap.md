@@ -129,8 +129,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-22"
-content_hash: "fdf0da0d01329265"
+last_modified_at: "2026-08-29"
+content_hash: "491383c80b087e30"
 ---
 
-A low-poly 3D platformer presented in 4:3, made as a love letter to the late 1990s. The core of it is searching, collecting and jumping across a set of small worlds, but it keeps breaking off into other things: kart racing, 8-bit minigames, stunt driving in 80s cars, first-person shooting sections, 2.5D sections, a bar full of half-drunk characters and a temple full of water that the developer insists is not that difficult.
+A low-poly 3D platformer presented in 4:3, made as a love letter to the late 1990s. The core of it is searching, collecting and jumping across a set of small worlds, but it keeps breaking off into other things: a kart race, minigames rendered in 8-bit, stunt driving in cars from the 80s, stretches of first-person shooting, stretches in 2.5D, a bar staffed by characters some way into their drinks, and a water temple the developer swears is not as bad as it looks.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/lacuna/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "19e045a1bc50b550"
+last_modified_at: "2026-08-29"
+content_hash: "49182c0ccc6033a6"
 ---
 
-A murder. A hack. A bombing. All it takes to plunge the solar system into war – unless you do something about it. Help CDI agent Neil Conrad make a string of increasingly difficult decisions in this modern dialog-driven adventure set in a gorgeous 2D sci-fi noir universe.
+A dialogue-driven detective adventure in a 2D sci-fi noir setting, played as Neil Conrad, a CDI agent pulled out of bed by a murder that turns into the thing the solar system is about to go to war over. You ask questions, collect evidence and decide what it adds up to, and nothing stops you being wrong. It drops most adventure game furniture on purpose: you move with WASD or a controller rather than pointing and clicking, there is no inventory, and conversations do not let you work through every option one by one. Choices stick and the story branches to several endings. The store flags strong language, cartoon violence and use of tobacco and alcohol.

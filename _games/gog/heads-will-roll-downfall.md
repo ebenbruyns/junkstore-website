@@ -141,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-24"
-content_hash: "f33c7539e3aeb022"
+last_modified_at: "2026-08-29"
+content_hash: "5c2d419feb36d19e"
 ---
 
-A turn-based tactical role-playing game wrapped in a visual novel, played as one of the thousands of faceless foot soldiers the English king sent to put down a rebellion in Scotland. Your soldier joined up to escape being tried for a crime he did not commit, and can go home cleared or stay missing. Combat weighs physical attributes, weapon skills, fatigue, wounds, armour coverage and the type and length of the weapon, so each exchange is worth thinking through. Loot off the battlefield crafts into poisons, medicines, equipment and crossbow bolts, and how you treat the men around you decides whether they help you later.
+A turn-based tactical role-playing game wrapped in a visual novel, played as an anonymous foot soldier in the army the English king marched into Scotland to crush a rebellion. Your soldier signed up to escape trial for a crime he did not commit, and can come home cleared or stay missing on the battlefield. Combat takes account of weapon skill and the reach and type of the weapon, plus fatigue, wounds, how much armour covers what, and raw physical condition, so each exchange is worth thinking through. Loot off the battlefield crafts into poisons, medicines, equipment and crossbow bolts, and how you treat the men around you decides whether they help you later.

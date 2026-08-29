@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/hive-jump-2-survivors/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "da0a7098ad12614d"
+last_modified_at: "2026-08-29"
+content_hash: "fde8f33d48f10332"
 ---
 
-Become an agent of vengeance in this bullet-heaven action roguelite! You are the lone survivor of your squad, on an alien planet with just your weapon, a jetpack, and the courage to keep fighting. Kill off alien swarms and transform their valuable guts into explosive upgrades and vital utilities.
+A bullet heaven roguelite played as the last survivor of a squad of jetpack troopers, fighting waves of insects on an alien planet. The jetpack is the main tool, used to dodge, cross the terrain and attack whatever is below you. There are 19 Jumpers with their own stats, weapons and abilities, and the shooting can be left on auto so you concentrate on moving, or aimed yourself. Enemy goo is the currency for weapons, utilities and relics inside a run, and amber buys permanent upgrades between them. The biomes run from crystal caverns to frozen tundra and volcanic wasteland.

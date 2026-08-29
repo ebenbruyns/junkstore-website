@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/death-stranding-directors-cut/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -131,8 +137,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "27bb7768c74328ba"
+last_modified_at: "2026-08-29"
+content_hash: "a626f7072e9a324e"
 ---
 
-From legendary game creator Hideo Kojima comes a genre-defying experience, now expanded in this definitive DIRECTOR’S CUT. As Sam Bridges, your mission is to deliver hope to humanity by connecting the last survivors of a decimated America. 
+Hideo Kojima's game about carrying cargo across a broken America, played as Sam Bridges, a courier reconnecting the last survivors one delivery at a time after an event called the Death Stranding opened a door between the living and the dead and left things from the other side walking around. This is the expanded Director's Cut, and the PC version adds high frame rate support, a photo mode and ultrawide monitors, along with crossover items from Half-Life and Cyberpunk 2077. The Social Strand System connects you to other players around the world. The store marks it as mature.

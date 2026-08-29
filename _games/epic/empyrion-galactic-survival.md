@@ -137,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-26"
-content_hash: "34170f968934a692"
+last_modified_at: "2026-08-29"
+content_hash: "419c447d759c228a"
 ---
 
-A space sandbox that puts survival, construction and first-person shooting together. You build capital vessels, fighters, planetary settlements and space stations piece by piece anywhere you like, and the terrain is voxel-based, so it can be flattened, dug into or tunnelled through. Planets each have their own gravity, atmosphere, climate, wildlife and resources, and staying alive means managing food, oxygen, materials and ammunition. Some of the alien races you meet are peaceful and some will destroy you given the chance, which is what the weapons are for. It plays solo or in multiplayer with factions, protected PvE areas and PvP planets. Community blueprints can be downloaded from the Workshop and modified.
+A space sandbox that puts survival, construction and first-person shooting together. You build capital vessels, fighters, planetary settlements and space stations piece by piece anywhere you like, and the terrain is voxel-based, so it can be flattened, dug into or tunnelled through. Planets each have their own gravity, atmosphere, climate, wildlife and resources, and staying alive means managing food, oxygen, materials and ammunition. Some of the alien races you meet are peaceful and some will destroy you given the chance, which is what the weapons are for. It plays solo or in multiplayer with factions, protected PvE areas and PvP planets. Prebuilt community blueprints can be brought in and customised.

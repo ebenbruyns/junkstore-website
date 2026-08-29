@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/shapez/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "d670296d6b86f7fc"
+last_modified_at: "2026-08-29"
+content_hash: "1039e71c5bbb5241"
 ---
 
-shapez is a game about building factories to automate the creation and processing of increasingly complex shapes across an infinitely expanding map.
+A factory building game about automating shapes. You mine basic shapes, cut them into segments, rotate and stack them and deliver what the hub asks for, and each delivery unlocks buildings and a more awkward shape to make. Paint is extracted and mixed for colour. The map is infinite and there are no enemies, timers or resource limits, so the only pressure is the pressure you make for yourself. Copy and paste tools handle scaling up, and there is optional wiring and logic for anyone who wants to build a machine that can produce any shape at all.

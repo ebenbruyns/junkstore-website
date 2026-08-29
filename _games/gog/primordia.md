@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/primordia/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "74ad752071017589"
+last_modified_at: "2026-08-29"
+content_hash: "96ec0fa25ed21eaa"
 ---
 
-Life has ceased. Man is but a myth. And now, even the machines have begun to fail. Lead Horatio Nullbuilt and his sarcastic sidekick Crispin on a journey through the crumbling world of Primordia...
+A point-and-click adventure set long after humans have gone, played as Horatio Nullbuilt, a solitary robot who studies the Book of Man and lives on an airship with his sardonic companion Crispin. A rogue machine steals the power core the two of them need to survive, and the search for it takes them into the city of Metropol and into the question of where Horatio came from. Logan Cunningham voices the lead. A number of the puzzles are optional and are there to tell you more about the world rather than to block progress.

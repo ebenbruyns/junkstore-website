@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/against-all-odds/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -131,8 +137,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "6fdc73f2fa01b257"
+last_modified_at: "2026-08-29"
+content_hash: "382a0a5c5a1e2969"
 ---
 
-Water's cut. Rent's due. Jobs, scarce. Time to get rich. Enter the Slaughter League & win against all odds in supremely lethal races. Platforming meets slaughter in this casual racing game designed for players looking for a new experience - or wind down with blood & guts galore!
+A racing platformer built out of lethal obstacle courses, in which you run a track lined with flamethrowers, tesla coils and buzzsaws while commentators narrate what happens to you. Dying is expected and is meant to be funny, so the ragdolls and death animations are part of the appeal, and the goal is a good time with as few deaths as you can manage. Placing well earns Rank Saws, which unlock more tracks. Racers are put together from more than a hundred cosmetic items.

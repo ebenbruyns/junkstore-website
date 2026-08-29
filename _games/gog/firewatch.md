@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/firewatch/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-10-01"
-content_hash: "ffeeed6203d87e87"
+last_modified_at: "2026-08-29"
+content_hash: "7dbae10647503acf"
 ---
 
-Firewatch is a single-player first-person video game where you, as a man named Henry, explore the Wyoming wilderness after taking a summer job as a fire lookout.
+A mystery played in first person, alone in the Wyoming backcountry in the summer of 1989, as Henry, who has taken a job as a fire lookout to get away from a mess at home. Your supervisor Delilah is on the other end of a handheld radio and is the only person you speak to. When something odd draws you out of the tower the forest opens up, and the choices you make either build that one relationship or wreck it. The developers note it is a game about adults having adult conversations, which is worth knowing before handing it to a younger player.

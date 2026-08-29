@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/while-true-learn/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "d4c10c2eabf3d083"
+last_modified_at: "2026-08-29"
+content_hash: "05f789f8dceb094b"
 ---
 
-You’re a machine learning specialist who makes neural networks but your cat seems to be better at it. Now you must solve puzzles to build a cat-to-human translation system. Earn a fortune, buy kickass cat outfits and learn how machine learning really works!
+A puzzle game about machine learning, played as a programmer who works out that their cat is better at coding than they are and sets about building a cat-to-human translation system. The puzzles are visual programming, dragging blocks around and wiring them together, loosely modelled on real techniques from expert systems up to recurrent neural networks. No coding experience is needed. Between puzzles you take freelance contracts, answer email and spend the money, including on outfits for the cat.

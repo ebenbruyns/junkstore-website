@@ -141,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-20"
-content_hash: "4dec87c3e3ab0219"
+last_modified_at: "2026-08-29"
+content_hash: "545bc1004a930447"
 ---
 
-A horror game about escaping a school that rearranges itself while a teacher hunts you through it. There is a story campaign and an online co-op mode for up to six, where the exit may only fit one of you and betraying the others is a supported option. Worth knowing: the first two sections are free and the rest needs buying.
+A horror game about escaping a school that rearranges itself while a teacher hunts you through it, with the layout, the items and the puzzle locations changing between attempts. The pursuer is an AI that tracks you down and sets traps rather than walking a patrol route. The version sold here is the single player story campaign, without the online co-op mode the game carries on other storefronts. Worth knowing: the first two sections are free and the rest needs buying.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/beholder/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -132,8 +138,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "bed3ca2ad30c9f40"
+last_modified_at: "2026-08-29"
+content_hash: "7705f0ba5675d1a4"
 ---
 
-You’re a state-installed landlord in a totalitarian country. Place listening devices, steal and sneak into your tenants’ apartments. Use what you uncovered to report anyone capable of plotting against the state. You MUST! But WILL you?
+The state has installed you as manager of an apartment block in a country where it controls everything, and keeping the tenants happy is the cover for the real job. You bug apartments while tenants are out, search their belongings, build profiles for your superiors and report anyone who looks like a threat to the state. You also have a family with needs of your own to pay for. Report a father and his children are orphaned, keep quiet and you carry the risk yourself, or use what you found to blackmail him. There are dozens of quests and several endings depending on what you do.

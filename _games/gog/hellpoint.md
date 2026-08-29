@@ -141,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-26"
-content_hash: "e6b4376d0bcca70a"
+last_modified_at: "2026-08-29"
+content_hash: "ef262c167c74b9e4"
 ---
 
-An action role-playing game on Irid Novo, a wrecked space colony orbiting a black hole, played as a Spawn of the Authority sent to find out what caused the disaster there. The orbit runs in real time and where the station sits triggers events: bosses appearing, hordes arriving, enemy stats and positions changing. Weapons each have special abilities that unlock the more you fight with them. It is a hard game and the co-op is pitched as the answer to that: the whole thing can be played through split screen or online, with loot shared and the second player's progress kept. You can also play against other players rather than alongside them.
+An action role-playing game on Irid Novo, a wrecked space colony orbiting a black hole, played as a Spawn of the Authority sent to find out what caused the disaster there. The orbit runs in real time and where the station sits triggers events: bosses appearing, hordes arriving, enemy stats and positions changing. Each weapon carries special abilities of its own, which open up as you put use into it. It is a hard game and the co-op is pitched as the answer to that: the whole thing can be played through split screen or online, with loot shared and the second player's progress kept. You can also play against other players rather than alongside them.

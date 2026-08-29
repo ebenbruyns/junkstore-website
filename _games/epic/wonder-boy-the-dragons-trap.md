@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/wonder-boy-the-dragons-trap/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -131,8 +137,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "691880c181025b9a"
+last_modified_at: "2026-08-29"
+content_hash: "5b65f71a0e7fc5fc"
 ---
 
-The cult classic returns with hand-drawn animation and re-orchestrated music! Battle dragons, transform into unique animal forms, and explore vast lands in search of a cure. Switch anytime between modern visuals or retro 8-bit style!
+A remake of the Master System platformer, redrawn by hand with a re-orchestrated score. You are cursed into a half-human lizard by the Meka-Dragon and go looking for the Salamander Cross to lift it, and every dragon you kill turns the curse into another form: mouse, piranha, lion, hawk, each with abilities that open up different parts of the map. You can play as Hu-Man or as Hu-Girl, who is new to this version. There are three difficulty levels, and the graphics and sound can be flipped between modern and 8-bit at any point, including mid-game.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/raidborn/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -135,8 +141,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "35f3a8b5f30d3d8f"
+last_modified_at: "2026-08-29"
+content_hash: "93070b613089dba3"
 ---
 
-Enough of wasting precious time by walking eternal distances and engaging in endless dialogue? Want to get to the fun part quickly?
+A first-person fantasy action RPG built around dungeon crawling rather than an open world, with a stream of dungeons and quests, loot, crafting and enchanting, and an outpost you build up and staff with a hired crew. The skill system is open rather than class-based, so you can end up a swordmaster, a barbarian, a rogue, a craftsman or some mix of them. Combat is combo-based with ragdoll physics behind it, and enemies can be kicked into traps and off ledges. Difficulty runs from a relaxed adventure through to a hardcore roguelike setting.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/riot-civil-unrest/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -135,8 +141,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "265c9767e2551b49"
+last_modified_at: "2026-08-29"
+content_hash: "6785eb3e56a8ebcc"
 ---
 
-As civil crisis deepens and inequality tears the very fabric of society the discontentment of the masses manifests itself in violent public disturbances and civil disorder. Play as the police or the angry horde as Riot – Civil Unrest places you in some of the world's most fractious disputes.
+A strategy game about crowd control and protest, built on real events. The campaigns cover the Indignados in Spain, the Arab Spring in Egypt, Keratea in Greece and NoTAV in Italy, with more than thirty standalone scenarios on top, among them the Gilets Jaunes in Paris and the G20 clashes in Hamburg. You can take either side. As the police you command assault, tactical and ballistic squads and choose between smoke, rubber bullets and live ammunition. As the rioters you direct crowds, journalists and molotovs. Performance is rated, and force can end a scenario quickly at the cost of public opinion. Its creator was at the NoTAV protests and made it to describe them. It ships with an editor for building new scenarios.
