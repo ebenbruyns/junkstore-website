@@ -222,6 +222,21 @@ button:focus,
   border-color: rgba(248, 113, 113, 0.4);
   color: #f87171;
 }
+/* Generic chip states, reusing the Linux Build palette above.
+   --caution: a real limitation, not a failure (e.g. the launcher must be
+   online). --unknown: neutral grey, so "we haven't checked" can never be
+   mistaken for a pass. */
+.feature-chip--caution {
+  background: rgba(251, 191, 36, 0.13);
+  border-color: rgba(251, 191, 36, 0.4);
+  color: #fcd34d;
+}
+.feature-chip--unknown {
+  background: rgba(148, 163, 184, 0.13);
+  border-color: rgba(148, 163, 184, 0.4);
+  color: #cbd5e1;
+}
+
 /* Classic-game engine tags — retro amber (DOS) and violet (ScummVM) so they
    read as "how this runs", distinct from the green "feature supported" chips. */
 .feature-chip--dos {

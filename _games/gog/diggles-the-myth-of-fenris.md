@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/diggles-the-myth-of-fenris/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/ce9989399318173e86b4b57040b2cff11a0fa2c6a0aa
 hdr: false
 controller_input: "requires-mapping"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,10 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "a0dea7bf631008e9"
+last_modified_at: "2026-08-30"
+content_hash: "44d63fe41010a9a4"
 ---
 
-Godfather Odin has chosen the Diggles to set out on a long and burdensome expedition to the center of the earth where the hound of hell, Fenris, spreads terror. Fenris was once Odin's watchdog and ran away. Ever since he became aware of his growing power and strength he has been terrifying the underground world. Fenris must be disarmed and put on a chain. This task requires a very special chain, a chain that can only be forged by the Diggles...
-
-Accomplishing this dangerous mission will take decades and involved many generations of dwarves. During their journey the dwarves have to pass through 4 different worlds and more than 100 different quests have to be solved. The player has to arrange a daily schedule for the dwarves by determining how much they work and what they do in their leisure time. The player has to teach them how to forge weapons, cook mushrooms, raise hamsters, produce tools and invent machines. Like people in real life, the dwarves also want to have some spare time in order to sleep, eat, play cards, go bowling or to a pub. Male and female Diggles can even fall in love with each other and thus conceive their offspring, which ensures the survival of their clan and can transmit their learned attributes to their dwarf children. The player's most important goal is to prepare the Diggles for the crucial fight with Fenris.
+A colony management game with an adventure running through it, set underground among dwarves called Diggles who have been handed the job of dealing with Fenris by Odin. You dig tunnels, mine, farm mushrooms and fight what lives down there, developing each Diggle separately since no two start alike. Feed and entertain them and you get more of them. There are over 50 production sites, a technology tree, 20 crafting tools and seven resources, with more than 40 quests carried by hand-made cutscenes. It is a re-release of a game from around 2001, brought to modern Windows with the story, visuals and gameplay untouched and no legacy DRM.

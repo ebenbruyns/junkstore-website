@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/kill-knight/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/b3c22193572fe28be836080813fdf2149930bbcb05df
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "368df0c51d84029f"
+last_modified_at: "2026-08-30"
+content_hash: "74b6cf98c0fb26c1"
 ---
 
-KILL KNIGHT is an ultra-responsive arcade-inspired isometric action shooter. Condemned to eternal sufferance, deep within the voids of an eldritch arena, you must wield an arsenal of devastating weaponry to obliterate swarms of otherworldly horrors - and MASTER THE DEMON WITHIN.
+An isometric arcade shooter about clearing arenas, played as a desecrated corpse in reanimated armour sent to kill the last angel. Five hand-made layers, each worse than the one before, with pistols, heavy weapons, swords and armour unlocked by completing challenges. Killing quickly raises Kill Power, which increases speed and damage, so the design pushes you forward rather than into cover. There are four difficulty settings, a Sever mode that welds all five layers into one run, and global leaderboards. The store notes frequent violence and a great deal of blood.

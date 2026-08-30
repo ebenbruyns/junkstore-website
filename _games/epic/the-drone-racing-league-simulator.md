@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-drone-racing-league-simulator/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/35ffab31602c9257c5284e67ea0ccf51788f0b09ff33
 hdr: false
 controller_input: "requires-mapping"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "d108e189da39449a"
+last_modified_at: "2026-08-30"
+content_hash: "6baf44a3214002dc"
 ---
 
-DRL Simulator® is the premier first-person view (FPV) racing game and simulator.  DRL SIM® offers a robust, evolving feature set, including high-intensity drone racing. It packs tracks that DRL's real world pilots compete on, with more added every season.
+A first-person-view drone racing simulator built by the Drone Racing League itself, using aerodynamic modelling and physics taken from their real machines so the handling matches. A tutorial covers the basic FPV manoeuvres, and replays let you study your racing lines against your lap times. The tracks include the courses their pilots race in the World Championship. Drones are built from a very large number of part combinations and then skinned, with some skins sold separately, and you can design courses of your own. Multiplayer is cross-platform with a leaderboard on each map. Doing well on it has been a route into the professional league.

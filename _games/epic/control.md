@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/control/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/f5d4c750155f5ed637ed1b3c207b01d32429ded62d66
 hdr: true
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "74a5a7426c558780"
+last_modified_at: "2026-08-30"
+content_hash: "33ee86797912ca73"
 ---
 
-After a secretive agency in New York is invaded by an otherworldly threat, you become the new Director struggling to regain Control.
+A third-person action game set inside the Federal Bureau of Control, a government agency housed in a building that rearranges itself and tasked with containing objects that should not exist. You arrive looking for your missing brother and end up running the place while a corrupting presence spreads through it. Combat pairs a gun that reshapes into different forms with telekinesis, so most of the furniture and most of the walls are ammunition. This Ultimate Edition takes in both expansions, The Foundation and AWE. The store notes blood, violence and strong language.

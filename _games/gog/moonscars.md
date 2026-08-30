@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/moonscars/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/738c359506944e06a664a4c97d342f714389ecce6a0d
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "12b6541bee272f2c"
+last_modified_at: "2026-08-30"
+content_hash: "e3b673a4b1256b1a"
 ---
 
-Push the limits of your combat skills, and master new abilities to progress through an unforgiving nonlinear 2D world. Face off against the relentless darkness that seeks to destroy you. In Moonscars, every death is a lesson learnt—and as you overcome each challenge, new truths will be revealed.
+A 2D action game with soulslike bones, played as Grey Irma, a warrior made of clay who is looking for the Sculptor that made her and an explanation to go with it. The world is non-linear and painterly, the combat runs on sword work, parries, special weapons and witchery, and dying is the ordinary way to learn a fight. The story deals in betrayal, suffering and revenge among other beings of flesh and clay. Single player.

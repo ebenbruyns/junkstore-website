@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/abzu/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/b5357de8bd82c95db4da2d6058ae13ea7332edc4bdea
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "d906b92c4857bd58"
+last_modified_at: "2026-08-30"
+content_hash: "e5fb6d04c135ea2d"
 ---
 
-From the art director of Journey® and Flower®, ABZÛ is a beautiful underwater adventure that evokes the dream of diving.
+An underwater game about diving, from the art director of Journey and Flower. You swim as a lone diver through ocean environments, working gradually downward towards something old at the bottom. There are hundreds of species modelled on real animals, and the schools of fish respond to you, to each other and to predators as you pass through them. The swimming itself is the substance of it rather than a way of getting somewhere. The name comes from old mythology, ab meaning water and zu meaning to know.

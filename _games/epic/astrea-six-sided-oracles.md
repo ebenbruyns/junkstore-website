@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/astrea-six-sided-oracles/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/a53f7c4a099523b0403c253d9ae9db51531f6b7b547a
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "45d485a22f830a8c"
+last_modified_at: "2026-08-30"
+content_hash: "ff81c4e8f1205f10"
 ---
 
-An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.
+A deckbuilding roguelike that uses dice in place of cards. Damage comes in two kinds that pull against each other: purification hurts enemies and heals you, corruption hurts you and heals them, and taking corruption deliberately is how you switch on the stronger abilities pinned to your health bar. Take too much and it consumes you. There are over 350 dice in three types, reliable, balanced and risky, and individual die faces can be edited. Six oracles play differently, with 20 upgradeable sentinels rolling support dice and over 170 blessings that change how a run behaves.

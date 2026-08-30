@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/talisman-digital-edition/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/385ac5aa01bd2b65e648e8a0dba801f729d093ca14d9
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,12 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "62bd56db1206cd37"
+last_modified_at: "2026-08-30"
+content_hash: "985124a927ab7557"
 ---
 
-Talisman Digital Edition - The Magical Quest Game for 1 to 4 players.
-
-The officially licensed multiplayer version of the classic fantasy adventure board game, Talisman.
-
-In Talisman Digital Edition, there are 14 characters a player can control, from the heroic Warrior to the powerful Sorceress. In this perilous adventure, players battle it out to journey across a dangerous land and be the first to claim the Crown of Command, a magical artefact with the power to destroy all rivals and make the bearer the true ruler of the kingdom. On your travels, you will need strength, courage and some good dice rolls to survive the dangers you face and beat your opponents to the centre of the board.
+The licensed digital version of the revised fourth edition of Games Workshop's Talisman, the fantasy board game from 1983, carrying the full ruleset and all the expansions released for that edition. You pick a character with fixed strengths, weaknesses, special abilities and an alignment, then roll around a board of quests, monsters, traps and magical disasters trying to reach the Crown of Command at the centre before anyone else. Alignment can shift during a game depending on what you land on. Up to six can play, online or hot-seat on one machine, and online games can be saved and picked up later.

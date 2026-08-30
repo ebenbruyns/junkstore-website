@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/worms-revolution/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/1443d7e99df4acacfce0403597249d546cf17f1efc20
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "6324b3aa27f7b78a"
+last_modified_at: "2026-08-30"
+content_hash: "7292ecfc6a755ff8"
 ---
 
-Worms Revolution is the latest game in the classic turn-based strategy series to come to the PC, featuring exciting new features and beautiful 3D graphics whilst retaining the classic 2D gameplay that fans love. Choose to play the extensive single player mode which features both campaign and puzzle missions or dive straight into multiplayer warfare via online or local play. For the first time ever see the inclusion of dynamic water, physics objects and worm classes! Customize your experience by choosing what classes you play with, what they look like and even how they speak!
+A turn-based artillery game keeping the 2D format with 3D scenery behind it. The additions here are worm classes, Soldier, Scout, Scientist and Heavy, which you mix into a team from a pool of 16, and dynamic water, which flows, arrives with several new weapons and can be drained away again. Physics objects sit around the map and release fire, poison or water when they go up. There are 32 campaign missions and 20 puzzle missions, four environments, a level editor, and local or online matches for up to four players across deathmatch, forts and classic modes. Worms can be customised down to hats, moustaches and victory dances.

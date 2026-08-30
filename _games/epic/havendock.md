@@ -54,7 +54,7 @@ franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/havendock"
 was_free_before: true
-giveaway_events: [{"start":"2026-03-26","end":"2026-04-02"}]
+giveaway_events: [{"start":"2026-03-26","end":"2026-04-02"},{"start":"2026-08-27","end":"2026-10-29"}]
 free_games_aliases: []
 
 # Images
@@ -68,6 +68,13 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2020710/capsule_231x87.j
 hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -94,7 +101,7 @@ native_linux: true
 
 # HowLongToBeat
 hltb_main: "22 Hours"
-hltb_main_extra: ""
+hltb_main_extra: "27.5 Hours"
 hltb_completionist: "28 Hours"
 hltb_url: "https://howlongtobeat.com/game/127854"
 

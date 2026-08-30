@@ -339,12 +339,13 @@ layout: null
     {% assign tech_count = 1 %}{% comment %} Recommended Proton always shows {% endcomment %}
     {% if page.controller_input %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.community_layout %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.suspend_resume and page.suspend_resume != "" %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.offline_play and page.offline_play != "" %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.hdr %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.required_launcher and page.required_launcher != "" %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.requires_account_setup %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.requires_verification %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     {% if page.requires_eac_runtime or page.requires_battleye_runtime or page.cant_test_linux %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
-    {% if page.must_be_online %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     <div class="info-section">
       <h2>Technical Details</h2>
       <div class="info-grid info-grid--{{ tech_count }}">
@@ -358,6 +359,28 @@ layout: null
         <div class="info-item">
           <div class="info-label">Community Layout</div>
           <div class="info-value community-layout-badge">🎮 Available</div>
+        </div>
+        {% endif %}
+        {% comment %}
+          Suspend & resume: does the game survive the Deck being slept mid-play?
+          Shown only when we have actually tested it, so a missing row means
+          "we don't know", never "it's fine".
+        {% endcomment %}
+        {% if page.suspend_resume and page.suspend_resume != "" %}
+        <div class="info-item">
+          <div class="info-label">Suspend &amp; Resume</div>
+          <div class="info-value" title="Whether the game survives putting the Steam Deck to sleep mid-game and waking it up">{% include game-page-suspend-text.html state=page.suspend_resume %}</div>
+        </div>
+        {% endif %}
+        {% comment %}
+          Offline play: does the game itself run with no connection. Shown only
+          when checked, so a missing row means "we don't know". The Epic
+          launcher's offline mode is a separate chip in Epic Features.
+        {% endcomment %}
+        {% if page.offline_play and page.offline_play != "" %}
+        <div class="info-item">
+          <div class="info-label">Offline Play</div>
+          <div class="info-value" title="Whether the game itself runs without an internet connection">{% include game-page-offline-text.html state=page.offline_play %}</div>
         </div>
         {% endif %}
         {% if page.hdr %}
@@ -399,12 +422,13 @@ layout: null
           </div>
         </div>
         {% endif %}
-        {% if page.must_be_online %}
-        <div class="info-item">
-          <div class="info-label">Online Requirement</div>
-          <div class="info-value">Always Online</div>
-        </div>
-        {% endif %}
+        {%- comment -%}
+          The old "Online Requirement: Always Online" row lived here, built from
+          must_be_online. That field describes the EPIC LAUNCHER, so stating it
+          in the game-facts section claimed something about the game itself. It
+          now renders as the Epic Launcher chip in Epic Features, and the
+          game's own behaviour is the Offline Play row above.
+        {%- endcomment -%}
       </div>
 
       {% comment %}
@@ -457,18 +481,41 @@ layout: null
       chips so the section stays small. Hides entirely if nothing is enabled.
     {% endcomment %}
     {% if page.storefront_key == 'epic' %}
+      {%- comment -%}
+        must_be_online is in this guard deliberately. It used to have its own
+        row in Technical Details; now that it renders as the amber launcher
+        chip, a game whose ONLY Epic signal is must_be_online (Albion Online,
+        for one) would otherwise lose the section entirely — and with it, the
+        fact that it needs a connection.
+      {%- endcomment -%}
       {% assign any_epic_feature = false %}
-      {% if page.epic_achievements or page.epic_cloud_saves or page.epic_offline_mode or page.supports_eos %}
+      {% if page.epic_achievements or page.epic_cloud_saves or page.epic_offline_mode or page.supports_eos or page.must_be_online %}
         {% assign any_epic_feature = true %}
       {% endif %}
       {% if any_epic_feature %}
       <div class="info-section info-section--compact">
         <h2>Epic Features</h2>
         <div class="feature-chips">
-          {% if page.epic_achievements %}<span class="feature-chip">✓ Achievements</span>{% endif %}
-          {% if page.epic_cloud_saves %}<span class="feature-chip">✓ Cloud Saves</span>{% endif %}
-          {% if page.epic_offline_mode %}<span class="feature-chip">✓ Can Play Offline</span>{% endif %}
-          {% if page.supports_eos %}<span class="feature-chip">✓ Epic Online Services</span>{% endif %}
+          {% if page.epic_achievements %}<span class="feature-chip">Achievements</span>{% endif %}
+          {% if page.epic_cloud_saves %}<span class="feature-chip">Cloud Saves</span>{% endif %}
+          {%- comment -%}
+            Epic Launcher state, as one label with two mutually exclusive
+            values. epic_offline_mode and must_be_online are the two sides of
+            the same launcher setting — 114 and 62 games, never both.
+
+            When neither is set (335 pages) nothing renders. A lone grey "not
+            tested" chip under its own heading was all heading and no
+            information, so unknown stays silent, the same way Suspend &
+            Resume and Offline Play do.
+
+            This is the LAUNCHER, not the game. Whether the game itself runs
+            without a connection is `offline_play`, in Technical Details. The
+            old label here read "Can Play Offline", which claimed the second
+            thing from the first.
+          {%- endcomment -%}
+          {% if page.epic_offline_mode %}<span class="feature-chip">Epic Launcher: Offline Supported</span>
+          {% elsif page.must_be_online %}<span class="feature-chip feature-chip--caution">Epic Launcher: Always Online</span>{% endif %}
+          {% if page.supports_eos %}<span class="feature-chip">Epic Online Services</span>{% endif %}
         </div>
       </div>
       {% endif %}
@@ -485,7 +532,7 @@ layout: null
       <div class="info-section info-section--compact">
         <h2>GOG Features</h2>
         <div class="feature-chips">
-          {% if page.gog_cloud_saves %}<span class="feature-chip">✓ Cloud Saves</span>{% endif %}
+          {% if page.gog_cloud_saves %}<span class="feature-chip">Cloud Saves</span>{% endif %}
           {% if page.dos_game %}<span class="feature-chip feature-chip--dos">🕹️ DOS</span>{% endif %}
           {% if page.scummvm_game %}<span class="feature-chip feature-chip--scummvm">👾 ScummVM</span>{% endif %}
           {%- comment -%}
@@ -493,9 +540,9 @@ layout: null
           in source here (wrapped in this Liquid comment) until the data
           is trustworthy enough to surface. Move any line OUT of this
           block to re-enable.
-          {% if page.gog_achievements %}<span class="feature-chip">✓ Achievements</span>{% endif %}
-          {% if page.gog_overlay %}<span class="feature-chip">✓ Galaxy Overlay</span>{% endif %}
-          {% if page.gog_leaderboards %}<span class="feature-chip">✓ Leaderboards</span>{% endif %}
+          {% if page.gog_achievements %}<span class="feature-chip">Achievements</span>{% endif %}
+          {% if page.gog_overlay %}<span class="feature-chip">Galaxy Overlay</span>{% endif %}
+          {% if page.gog_leaderboards %}<span class="feature-chip">Leaderboards</span>{% endif %}
           {% if page.gog_native_linux %}
             {% assign lin_rating = page.linux_build_rating %}
             {% if lin_rating == 'green' %}

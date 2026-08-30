@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-outer-worlds/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/aa19797f0bd02195753d7152db811245a86c3b066d9b
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "b7c1c80b9ef48c34"
+last_modified_at: "2026-08-30"
+content_hash: "db40cdf719072fb2"
 ---
 
-The Outer Worlds is a new single-player sci-fi RPG from Obsidian Entertainment and Private Division. As you explore the furthest reaches of space and encounter a host of factions all vying for power, who you decide to become will determine the fate of everyone in Halcyon. In the corporate equation for the colony, you are the unplanned variable.
+A single-player first-person role-playing game from Obsidian, set in Halcyon, a colony out at the far edge of settled space that is owned outright and run by a corporate board. You wake decades late off a colony ship and walk into a conspiracy, with factions pulling in different directions and no obligation to please any of them. Companions join with missions and ideals of their own, and can be steered towards their goals or turned to yours. The flaw system is the unusual part: the game notices what keeps killing you and offers a permanent debuff, a fear of a particular creature say, in exchange for an extra perk on the spot. The store notes blood and gore, intense violence and strong language.

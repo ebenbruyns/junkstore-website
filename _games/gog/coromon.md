@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/coromon/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/c44c64710bdc8d51f45d29f9601e30be40d862deb467
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "7371fc14087a19c4"
+last_modified_at: "2026-08-30"
+content_hash: "4bf2594f648835de"
 ---
 
-Coromon is a modern monster taming game with retro pixelart. Coromon brings an immersive storyline, strategic turn-based combat and challenging puzzles to a classic genre.
+A monster-taming role-playing game in the old mould, played as a newly hired Battle Researcher for a society called Lux Solis on a world called Velua. There are more than 100 creatures to catch and train, sorted by element, traits and skills. Battles are turn-based on a stamina system where every action costs energy, so draining an opponent's stamina or loading them with status conditions can be worth more than damage. The campaign runs around 30 hours across six zones with routes between them. You can also put a squad up against other players online.

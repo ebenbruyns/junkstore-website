@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-dark-eye-chains-of-satinav/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/82a0de390c3b1f60a7d71f35be0f2eaed7de9ff01cee
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,10 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "3f194694f5418002"
+last_modified_at: "2026-08-30"
+content_hash: "d678237aeccddb61"
 ---
 
-With a history of more than 25 years, The Dark Eye is one of Europe's best-known role-playing brands. In addition to the popular pen & paper adventures, TDE has also inspired a series of successful computer games. The Dark Eye: Chains of Satinav immerses players deep in the world of Aventuria, where they experience an amazing story and explore lands never before featured in a TDE computer game.
-
-In Andergast, whose inhabitants are considered to be notoriously superstitious, King Efferdan awaits a state visit from high-ranking dignitaries. For centuries the kingdom has been at odds with neighboring Nostria, but now first steps are being undertaken toward a lasting peace. But a plague of crows troubles the king, for the birds are acting with unusual aggressiveness, even attacking humans. Moreover, there are those among the citizens of Andergast who swear that the crows are bringing them dark nightmares. As the belligerent creatures infiltrate even the castle itself, the king seeks a skilled bird catcher - an opportunity for young Geron to prove that the reputation for ill luck that has followed him since childhood is undeserved. Following an audience with the king, the prestigious task is assigned to him. However, not only does his task prove unexpectedly difficult, but it also turns out to be the first step of the greatest adventure of his life, which will lead him to the borders of the charted lands of Aventuria and beyond.
+A point-and-click adventure set in Aventuria, the world of the German pen and paper game The Dark Eye. The kingdom of Andergast is edging towards peace with its neighbour after centuries of hostility, and is meanwhile troubled by crows that have turned aggressive and are said to be bringing people nightmares. The king wants a bird catcher, which is how Geron, a young man carrying a reputation for bad luck since childhood, gets the job, and the job turns out to go a long way past the crows. Daedalic made it, with a full voice cast and an orchestral score. Single player.

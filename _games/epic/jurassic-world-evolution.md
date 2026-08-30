@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/jurassic-world-evolution/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/a5f81632f3526dcf4f1ad1c4dc9dac72ddd26f1456b3
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "9466e0c84f3bd671"
+last_modified_at: "2026-08-30"
+content_hash: "f074329f3b6b89da"
 ---
 
-Take charge of operations on the legendary islands of the Muertes archipelago and bring the wonder, majesty and danger of dinosaurs to life. Build for Science, Entertainment or Security interests in an uncertain world where life always finds a way.
+A park management game set on the Muertes islands, where you breed dinosaurs and then try to keep them and the visitors alive at once. Three divisions, science, entertainment and security, want different things from you and you decide which to satisfy. Gene work changes each animal's behaviour, traits and appearance, and the money it brings in funds the hunt for more lost DNA. You can run it from the management screens or drop down to ground level and into the air to handle a problem yourself. Espionage, breakouts and tropical storms are the things that go wrong, and characters from the films turn up through the story.

@@ -1,0 +1,13 @@
+{%- comment -%}
+  Maps the admin's offline_play value to display text. This is the GAME's
+  behaviour with no connection — the Epic launcher's own offline mode is
+  epic_offline_mode, shown as a chip in the Epic Features section.
+  An unset value never reaches here; the caller guards on it, because
+  "not checked" must not read as "plays offline".
+{%- endcomment -%}
+{%- case include.state -%}
+{%- when 'yes' -%}Plays offline
+{%- when 'no' -%}Needs a connection
+{%- when 'partial' -%}Partly — single player works
+{%- else -%}Unknown
+{%- endcase -%}

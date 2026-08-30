@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/among-us/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/7b4063fd7cff3e2a250d1f5a0493863d2ae4d9d97969
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "2e9fb247049e6222"
+last_modified_at: "2026-08-30"
+content_hash: "40a38ac60a9846eb"
 ---
 
-Play with 4-10 players online or via local WiFi as you attempt to prepare your spaceship for departure, but beware as one or more random players among the Crew are Impostors bent on killing everyone!
+A party game for four to fifteen players aboard a spaceship, where most of the crew work through repair tasks and one or more impostors kill them off. Crew win by finishing every task or voting out every impostor. Impostors win by thinning the numbers, and they have sabotage, vents and closing doors to help. Bodies get reported, meetings get called, and the arguing in those meetings is the actual game. Four maps, a classic mode and a hide and seek mode, played online or over local wifi with cross-platform play between PC, console, Android and iOS. It is built to be played with voice chat among people who know each other.

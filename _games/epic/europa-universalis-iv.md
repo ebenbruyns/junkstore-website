@@ -68,6 +68,13 @@ icon_image: "https://images.gog.com/4549f2e85bd14d7a8f2009fa1dc773c8dc7a6a64ccea
 hdr: false
 controller_input: "mouse-only"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: true
 account_type: "Paradox Interactive"

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/chasm-the-rift/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/1558f3997be9e6f3bffa63944355644c3d37834c03b7
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,10 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "defcbc5610286f7d"
+last_modified_at: "2026-08-30"
+content_hash: "3fce0930d63cddd2"
 ---
 
-Humankind, in the process of evolution, has encountered a mysterious phenomenon - the destruction of the normal flow of time. From the past to the future, time rifts are forming in Earth's atmosphere. These rifts lead to different periods of history. Through them the most aggressive creatures from the past, present, and the future, have begun to infiltrate our time. These mutants, known as Timestrikers, have begun a complete and systemic eradication of all human life. You are a specially trained commando who has been volunteered to investigate a recent attack by the Timestrikers.
-
-Utilizing an arsenal of devastating weapons and mysterious items from the past and the future, you have been authorized to terminate any mutant creatures that attempt to obstruct your investigation. Each assignment gets you closer to the heart of your goal. A mission briefing gets you moving in the right direction, but it's up to you to carry out your orders. Grab your weapon and report to the Commander immediately!
+A 1997 first-person shooter made in Ukraine, re-released and running on modern machines with 4K support, reworked sound and achievements added. Time channels have opened in the atmosphere and turned ordinary creatures into mutations, and you are part of the commando unit sent to close them. Limbs come off the monsters and they keep attacking with whatever is left. The BladeGun is the weapon it is remembered for, and there is a weather system pushing rain, snow, wind and dust around. The original DOSBox build is included alongside the updated one. The store notes animated violence, blood and gore by the standards of the time.

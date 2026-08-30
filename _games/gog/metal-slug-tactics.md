@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/metal-slug-tactics/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/2fb58e7779fd5afd39f04159e01367531455ac18efe1
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "bae861bc76ab50f6"
+last_modified_at: "2026-08-30"
+content_hash: "bf72c22daf3fb7b0"
 ---
 
-METAL SLUG is back with a brand new entry in the METAL SLUG universe. Discover a new side of the emblematic run'n'gun and jump into a dynamic tactical RPG with roguelike elements!
+A turn-based tactics game built out of Metal Slug, with roguelite runs behind it. You pick a squad from the series regulars, set weapon loadouts and mods, and fight across hand-made maps against Morden's Rebel Army. A SYNC mechanic lets units attack together for heavier damage, and reinforcements can be called in, artillery, airstrikes and the Metal Slug itself. Experience earned in a run unlocks weapons and perks, so a failed attempt still pays. It is single player.

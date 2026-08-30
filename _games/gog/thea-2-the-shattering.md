@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/thea-2-the-shattering/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/03fc0c0178ff665fb4b2b6e92d62d53696eccce81585
 hdr: false
 controller_input: "requires-mapping"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "6b39abf7104afb35"
+last_modified_at: "2026-08-30"
+content_hash: "a04c8dc42430ff5d"
 ---
 
-In the dark lands inspired by Slavic myth, life is a struggle for survival against ever increasing odds, be it natural or malevolent. Can you lead your flock to prosperity in this innovative blend of 4X strategy, RPG and card game?
+A mix of 4X strategy, survival, role-playing and a card game, in which you play a deity from a Slavic pantheon steering a small group of believers. The map is procedurally generated, and you can settle and build towns or stay nomadic, which is the harder road. Conflicts resolve through a card battle that can be fought physically, mentally or spiritually, so talking or scaring your way out counts as a win. Materials are gathered and crafted into equipment. Co-op takes up to three players. The store warns of a mature storyline covering bloody sacrifice, sexual assault and violence against children and animals, with nudity in a small number of the artworks.

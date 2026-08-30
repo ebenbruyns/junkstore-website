@@ -47,7 +47,7 @@ game_modes: ["Single-player","Multi-player","Co-op","Online Co-op"]
 languages: ["English","French","German","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Italian"]
 languages_audio: []
 tags_structured: [{"id":"31","name":"Singleplayer"},{"id":"40847","name":"Steam Achievements"},{"id":"7","name":"Multiplayer"},{"id":"40836","name":"Full controller support"},{"id":"40849","name":"Steam Cloud"},{"id":"18","name":"Co-op"},{"id":"118","name":"Story Rich"},{"id":"411","name":"cooperative"},{"id":"8","name":"First-Person"},{"id":"9","name":"Online Co-Op"},{"id":"4","name":"Funny"},{"id":"37","name":"Sandbox"},{"id":"107","name":"Family Friendly"},{"id":"5","name":"Replay Value"},{"id":"571","name":"3D"},{"id":"165","name":"Colorful"},{"id":"77","name":"Realistic"},{"id":"67","name":"Management"},{"id":"138","name":"Relaxing"},{"id":"195","name":"Economy"},{"id":"91686","name":"Family Sharing"},{"id":"86","name":"Education"},{"id":"42473","name":"Immersive Sim"},{"id":"14653","name":"wholesome"}]
-size: ""
+size: "8290 MB"
 install_size: ""
 achievements_total: 
 franchise_siblings: []
@@ -68,6 +68,13 @@ icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/1811340/header.jp
 hdr: false
 controller_input: ""
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -85,9 +92,9 @@ cant_test_linux: false
 native_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
+hltb_main: "8 Hours"
+hltb_main_extra: "12 Hours"
+hltb_completionist: "12 Hours"
 hltb_url: "https://howlongtobeat.com/game/156660"
 
 # Links

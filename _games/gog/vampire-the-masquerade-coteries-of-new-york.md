@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/vampire-the-masquerade-coteries-of-new-york/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/80ef8b0f9f3c15900fa58e41b21377c1ca36d8dac4ba
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "93a13670e3685fe1"
+last_modified_at: "2026-08-30"
+content_hash: "ac552659e6585eca"
 ---
 
-Coteries of New York presents the struggle for power between two vampiric factions: Camarilla and Anarchs among the iconic buildings and night lights of Big Apple.
+A narrative game set in the World of Darkness on the fifth edition rules, about the standoff between the traditionalist Camarilla and the independent Anarchs in New York. You pick one of three characters, a Ventrue, a Toreador or a Brujah, and each brings different powers, a different ethical footing and different lines. Four other vampires have agendas and quests of their own, and up to two of them will back you at the end depending on how you have handled them. It is closer to a visual novel than an action game, and single player. The store flags offensive language, violence, drug references, blasphemy and critique of religion and ideology.

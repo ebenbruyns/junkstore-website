@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/time-loader/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/790e38ab62b044f20684d9e20bf97eda1c6c91d579cf
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-11-01"
-content_hash: "9b8f0b676fca77ff"
+last_modified_at: "2026-08-30"
+content_hash: "7c19f716c60ab533"
 ---
 
-In Time Loader, you play as a small, time-traveling robot sent on a mission by its inventor to alter past events in order to undo a tragic childhood accident. But meddling with time has serious consequences. You can change the past but will you be able to deal with the repercussions in the present?
+A side-scrolling physics puzzle game played as a small robot sent back to the 1990s to prevent an accident, which means crossing an ordinary house at roughly the size of a toy car. Upgrades come thick and fast, boosters, harpoons, screwdrivers, and household objects become terrain and obstacles at that scale. The story branches on what you choose, and changing the past produces results you then have to sit with. Single player.

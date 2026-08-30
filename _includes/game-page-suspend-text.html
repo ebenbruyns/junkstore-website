@@ -1,0 +1,11 @@
+{%- comment -%}
+  Maps the admin's suspend_resume value to display text. Mirrors
+  game-page-controller-text.html. An unset value never reaches here — the
+  caller guards on it — because "not tested" must not read as "works".
+{%- endcomment -%}
+{%- case include.state -%}
+{%- when 'clean' -%}Clean
+{%- when 'slow' -%}Recovers slowly
+{%- when 'breaks' -%}Breaks
+{%- else -%}Unknown
+{%- endcase -%}

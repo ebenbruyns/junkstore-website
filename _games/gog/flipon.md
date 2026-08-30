@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/flipon/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/84ddee8db51e10ae78898e4d4a0e517d3cbd4724aa46
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "364f820db292f651"
+last_modified_at: "2026-08-30"
+content_hash: "3ef25d9d1246e457"
 ---
 
-Join Kat and her crew in an epic quest in Flipon, a juicy, fun and fast-paced arcade puzzle game!
+A fast arcade puzzle game about aligning blocks to clear them and chain combos, wrapped in a story about Kat and a crew of miners crossing a solar system. The campaign runs more than 75 levels over five or more planets, each guarded by a boss, and mixes objectives, survival, boss fights, puzzles and challenges. There is a score attack mode with online leaderboards, a procedural puzzle generator for endless practice, and a local versus mode for up to four players. Six powers can be spent during fights.
