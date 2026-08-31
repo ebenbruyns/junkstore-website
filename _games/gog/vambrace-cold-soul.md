@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/vambrace-cold-soul/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/b8f8ae16c455a96ce185e5be4e93f69d709a8ea50d08
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-01-01"
-content_hash: "ac29b23d4abafd4d"
+last_modified_at: "2026-08-31"
+content_hash: "6119d8566b45d858"
 ---
 
-Vambrace: Cold Soul is a roguelike fantasy-adventure set amidst a frozen landscape. Plan your expeditions underground, then journey to the cursed city surface with your team of heroes. Wield unique powers, avoid dangerous traps, brave strange encounters, and survive deadly combat!
+A story-led roguelite in a cursed city held under permanent frost by the King of Shades and walked by its own dead. You play Evelia Lyric, whose Aetherbrace makes her the one living person who can get up to the surface at all. Runs are expeditions: pick your party, camp to recover, work through encounters, and sell or craft what you bring back.

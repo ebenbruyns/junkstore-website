@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/terratech/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/d98526cc6611a0f68c8ee5c3350abac9304534e5fddb
 hdr: true
 controller_input: "keyboard-mouse"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "fe96daaced3fe2d7"
+last_modified_at: "2026-08-31"
+content_hash: "2536d682f53577eb"
 ---
 
-TerraTech is an open-world, sandbox adventure game, where you design & build your own creations through a mix of crafting, combat and discovery. Design vehicles from a huge library of blocks. Scavenge, craft & buy new parts to survive and become the ultimate planetary prospector.
+An open-world sandbox about building vehicles out of blocks and then using them to mine, fight and expand. Parts are scavenged, crafted or bought from rival mining corporations, and a Tech can be a combat vehicle, a resource gatherer or a processing base. The worlds are generated and unbounded, and there are co-op and versus modes.

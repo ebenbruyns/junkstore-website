@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tannenberg/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/e923e315dee9e9b132a2fc3a91fa3df01ba372168832
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "b55cafa61934c3f2"
+last_modified_at: "2026-08-31"
+content_hash: "9f4c68e6f14389c3"
 ---
 
-Experience authentic First World War action with 64 player battles of maneuver on the Eastern Front. Grab your rifle, ready your sabre and keep your gas mask close as you prepare to play a part in one of the most significant conflicts in history!
+A First World War shooter on the Eastern Front, built around 64-player battles for sectors of a shifting front. Seven squads, more than 50 period weapons, eight large maps. In the Maneuver mode you choose which sectors to attack and hold while both sides try to outflank and encircle each other. AI bots fill out the servers, and gore can be switched off.

@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/quake-ii/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/c5c504f49427b9182fff3f0d3796c5db38bac9a9c902
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "a9e29b698cf4d7c9"
+last_modified_at: "2026-08-31"
+content_hash: "647feab8642b303d"
 ---
 
-Quake II is a first-person shooter video game developed by id Software and published by Activision. It is not a direct sequel to Quake, id decided to revert to an existing trademark when they were unable to agree on a new name that did not violate another company's trademark.
+The 1997 id Software shooter, enhanced. The strike on the Strogg homeworld failed and you are inside their military installations, outnumbered, shutting the war machine down. This version adds 4K and widescreen, reworked models and lighting, both original mission packs, a new expansion and Quake II 64, with the original build included.

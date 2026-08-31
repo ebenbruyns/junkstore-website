@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/space-hulk-deathwing/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/ab624c010bcf769aff8770e2d2ab29f008f23e6f53f9
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,12 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "5489b0746183e853"
+last_modified_at: "2026-08-31"
+content_hash: "c6da11a345c63017"
 ---
 
-Space Hulk: Deathwing is a First-Person Shooter experience of Games Workshop's classic Space Hulk boardgame set in the universe of Warhammer 40,000, developed on Unreal Engine 4 by Streum On Studio, the team behind E.Y.E: Divine Cybermancy. Published by Focus Home Interactive and co-produced by Cyanide Studio, Space Hulk: Deathwing offers players the chance to experience a desperate battle against Genestealers in the claustrophobic tunnels of a Space Hulk, as they will gain skills, new abilities and new equipment thanks to experience earned during perilous missions.
-
-Space Hulks drift along the currents of the Warp, the immaterial dimension of Chaos. Made up of gigantic mangled asteroids, derelict ship wrecks and other spatial debris, they sometimes grow to the size of a moon and often contain treasured and ancient lost technologies. However, they are ripe with danger including infestations of the lethal Genestealers.
-
-Players take on the role of a Space Marine from one of the most secret and most feared Space Marine Companies: the Deathwing from the Dark Angels. Strap on your Terminator armour and equip the emblematic weaponry of the Space Marines to overcome the threats awaiting you in the Space Hulk. As a Librarian, you will also master the destructive powers of the Psykers. Your skills and performance in battle grant you Fervor Points, to spend on 4 skill trees allowing you to improve your abilities, unlock new powers, access powerful relics and devastating new weapons.
+A first-person shooter in Warhammer 40,000, played as a Terminator of the Dark Angels clearing Genestealers out of a derelict called the Space Hulk Olethros. The corridors are tight and the armour is heavy, so it is a slow squad game rather than a fast one. The Enhanced Edition adds a Chaplain class, new enemies and randomly generated Special Missions.

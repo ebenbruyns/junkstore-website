@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/star-wars-bounty-hunter/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/1d874d81094927287e0d08c09dbaa439b1e5f5f0874f
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,12 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "782225509bea9cbb"
+last_modified_at: "2026-08-31"
+content_hash: "996f682998d93e5c"
 ---
 
-Star Wars: Bounty Hunter (released in Japan as Star Wars: Jango Fett) is a Star Wars video game developed and published by LucasArts for the GameCube and Sony PlayStation 2, released in 2002. In the game, players play as the bounty hunter Jango Fett, featured in the 2002 film Star Wars Episode II: Attack of the Clones, to which this game serves as a prequel. Both Temuera Morrison and Leeanna Walsman reprise their roles from the film as Jango Fett and Zam Wesell, respectively.
-
-The main objective of Star Wars: Bounty Hunter is to hunt Dark Jedi Komari Vosa. During the game, it is revealed why Jango Fett was chosen as the template for the Grand Army of the Republic, how Boba Fett, his cloned "son" was born, and how Jango acquired Slave I.
-
-Players also fight many "bosses", such as Montross and Longo "Two-Guns". There are also side objectives, such as collecting secondary bounties, that open special bonus items in the game. When the player beats a chapter, blooper reels - comedic machinima productions - are unlocked.
+A re-release of the 2002 action game, played as Jango Fett before the events of Attack of the Clones, hired to bring in a Dark Jedi. Dual blasters, a flamethrower and a whipcord, with acrobatic movement between the fights. Aspyr optimised it for current hardware rather than rebuilding it.

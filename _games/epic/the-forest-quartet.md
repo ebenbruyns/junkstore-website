@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-forest-quartet/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/61c8876721088c28296c5e7929955e88e79f1764f2f4
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "003fd3e0191b15e1"
+last_modified_at: "2026-08-31"
+content_hash: "8a1a8456c5fe997c"
 ---
 
-The Forest Quartet is a 3D narrative puzzler about a gone, but not forgotten, lead singer. Play her spirit and travel through 3 acts unique to the members of her band for a final farewell concert. Face their emotions, solve puzzles and fight the corruption plaguing their souls.
+A short puzzle adventure played as the spirit of Nina, a dead singer, moving through three acts, one for each surviving member of her band, towards a last performance. Each act is that person's grief turned into a place. You sing to interact with things and become a swarm of butterflies to get around. It runs about an evening and it is about grief throughout.

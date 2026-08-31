@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tharsis/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/d9c3b48254a9cb72ac7d0f3d61b79ff365f601fff6e4
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "6ec4a4126192343c"
+last_modified_at: "2026-08-31"
+content_hash: "17ef6b2ad97c4f19"
 ---
 
-Tharsis is a turn-based space strategy game. With dice. And cannibalism. It puts you in control of humanity’s first mission to Mars, just as it’s struck by a micrometeorite storm. 
+A turn-based strategy game about a doomed first mission to Mars, played with dice. A micrometeoroid storm has wrecked the ship and killed two of the crew, and each turn you send the survivors into whichever modules are failing and roll for the outcome. Food runs short, the crew come apart, and cannibalism is on the table.

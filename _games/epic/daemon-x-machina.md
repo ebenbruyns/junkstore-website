@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/daemon-x-machina/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/69cd587edb9a33532d0c52876685a0dfd4fa14d9fab5
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "fa60a90b014f195f"
+last_modified_at: "2026-08-31"
+content_hash: "2cb21ee09bb762b0"
 ---
 
-Pilot your fully customizable Arsenal mech and join your fellow mercenaries in defending humanity from the corrupted machines and gigantic robots in this post-apocalyptic action game!
+A mech action game, piloting a customisable Arsenal against corrupted AIs called Immortals after a calamity known as Moonfall. Parts come off defeated enemies and go onto your machine mid-battle, and the pilot can take body modifications that buy new skills at the cost of looking human. The mech design is by Shoji Kawamori.

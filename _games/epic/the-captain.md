@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-captain/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/0b10086468b44f6d9be6802afd0594f5faf53fe59db9
 hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "30d17d157a602240"
+last_modified_at: "2026-08-31"
+content_hash: "29faea905bfee62b"
 ---
 
-Race back home across the galaxy.  Collect new friends.  Make new enemies.  You won't be able to save everyone.  Who will you leave behind?  Which civilizations will you save - or destroy - along the way?  The decisions are up to you.  You are... The Captain!
+A retro-styled adventure about getting home. You are a Spacefleet officer stranded on the far side of the galaxy carrying the only thing that can stop what is heading for Earth, and every detour costs time. Encounters can be fought, avoided or slipped past, and the game is upfront that you will not be able to save everyone.

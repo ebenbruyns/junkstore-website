@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/the-dungeon-of-naheulbeuk-the-amulet-of-chaos/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/e23dbbce5b4898944c602adf2b667bb2e81862b85a40
 hdr: false
 controller_input: "keyboard-mouse"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "afe2b9ed902b4e86"
+last_modified_at: "2026-08-31"
+content_hash: "a9626bbf1af345e8"
 ---
 
-The ULTIMATE EDITION includes the base game THE DUNGEON OF NAHEULBEUK: THE AMULET OF CHAOS, the Season Pass of 3 DLC, a Goodies Pack and the game Soundtrack.
+A turn-based tactical role-playing game and a comedy, adapted from a French audio series that parodies tabletop role-playing. You lead seven mismatched characters, each with their own skill tree, against a bestiary of more than a hundred enemies, with beer kegs and other destructibles that carry status effects. Difficulty runs from a simplified story mode up to nightmare.

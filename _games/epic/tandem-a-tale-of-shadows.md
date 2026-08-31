@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/tandem-a-tale-of-shadows/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/d40b8d03c5f2948947ccef1a160fcd4b57f39d0d1f3c
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "d0e4d362d3b4a37a"
+last_modified_at: "2026-08-31"
+content_hash: "731fba358a818016"
 ---
 
-Tandem : A Tale of Shadows redefines the puzzle platformer genre with a unique gameplay and exceptional aesthetics. Help Emma and the teddy bear Fenton solve the mystery of the disappearance of the famous magician Thomas Kane.
+A puzzle platformer played across two views at once. Emma is seen from above and the teddy bear Fenton from the side, and you alternate between them to get either one past what is in front of it. The pair are looking into a magician's disappearance, across five Victorian-styled worlds.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/skydrift-infinity/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/7ac7f54f204b38f8d7f23f7c8aa1f946258299ce0a49
 hdr: false
 controller_input: ""
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-01-01"
-content_hash: "eae5de61487a93ea"
+last_modified_at: "2026-08-31"
+content_hash: "a1c5a922cb39028d"
 ---
 
-Skydrift Infinity is an action-packed arcade game focusing on the experience of flying alone, and with others, in a light, quick, fast-paced style.
+An arcade flying game about racing and shooting at the same time, with a drifting mechanic for holding the corners and weapons for removing whoever is in front. Sixteen planes across vintage, modern and fantasy sets, and six power-ups you can carry two of, upgrade, or convert into boost. Armed races and deathmatches over canyons, tundra and islands.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/predator-hunting-grounds/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/15f551db0bb35b5a66a4f3c54ae398ea122946440415
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,10 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "8e4e46384d6ed22c"
+last_modified_at: "2026-08-31"
+content_hash: "d2828b4a80453ab0"
 ---
 
-Drop into the Predator universe through a new competitive online multiplayer experience.
-
-Play as an elite Fireteam charged to complete paramilitary operations while a Predator mercilessly hunts you. Or, BE the Predator, armed with all the deadly alien weaponry you've grown to love and pursue your prey.
+An asymmetric shooter. Four players run a Fireteam through a mission while a fifth hunts them as the Predator, who has the alien kit and the height advantage. You play it against other people rather than alone, and it is extremely gory, down to dismemberment and skinned corpses left around the maps.

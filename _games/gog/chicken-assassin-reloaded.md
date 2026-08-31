@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/chicken-assassin-reloaded/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/a5494ee5ff41abc855281aa9c40297b02ef02195d400
 hdr: false
 controller_input: "requires-mapping"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,14 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "0f68dddbac4e7e9e"
+last_modified_at: "2026-08-31"
+content_hash: "161249f9ee1222b3"
 ---
 
-Chicken Assassin is a fast paced action-RPG with an outrageous storyline filled with over-the-top humor that boasts a myriad of colorful enemies and visually stunning levels and environments.
-
-Prepare to give your hand an intense workout as you battle a slew of eclectic adversaries and encounter special bosses in this frenetically action packed game!
-
-You play as Mean Mcallister, the living embodiment of what would happen if you combined Rambo, Foghorn Leghorn, a bottle of hot sauce, and a case of energy drinks together.
-
-When the evil mastermind Spritzel and the Henchmen abduct your girlfriend, Candy, you embark on a frantic journey to save her, leaving mayhem and destruction along your path. As you progress, you can upgrade Mean with various fighting styles and skills, access an arsenal of weapons to dole out punishment, and customize clothing that boosts your stat attributes.
+An action role-playing game built on button mashing, played as a chicken whose girlfriend has been taken by a villain called Spritzel. You work through hordes of enemies and set-piece bosses, picking up fighting styles, weapons and clothing that shift your stats as you go. The humour is broad and constant.

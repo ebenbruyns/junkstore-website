@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/the-town-of-light/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/d7eacd20e08568894279201f2ff47e8be10f92c2301f
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "227d06f59c8bf6e3"
+last_modified_at: "2026-08-31"
+content_hash: "45efe626ef0fe11b"
 ---
 
-The Town of Light is a psychological adventure told in the first person. The story is set in Italy in the first half of the 20th Century in a place which really existed and has been meticulously reconstructed. Exploring and interacting with the environment you will relive the history of the main character through her confused viewpoint and on the basis of your choices, the story will develop in different ways.
+A first-person psychological adventure set in a real Italian asylum, reconstructed in detail, following Renee, committed at sixteen in 1938 because nobody could place her. The story comes back through her own confused account and develops differently depending on what you choose. There is nothing supernatural in it. The horror is the history, and it is made for adults.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/necromunda-hired-gun/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/644daea536caedcce6a0336f2c53bc0b86c186b61e27
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "e2f6a56ebc339ea7"
+last_modified_at: "2026-08-31"
+content_hash: "f0f87eff4dc3bd53"
 ---
 
-Become a Hired Gun. The money’s good, the dog’s loyal, and the gun’s reliable. Embark on an indie fast-paced, violent, and thrilling FPS set in the darkest reaches of Warhammer 40,000’s most infamous hive city.
+A fast first-person shooter in Necromunda, the Warhammer 40,000 hive city, played as a bounty hunter taking contracts on gangers and mutants. Augments let you run along walls, a grappling hook covers the gaps, and a cyber-mastiff runs ahead to find and kill things for you. From the studio that made Space Hulk: Deathwing.

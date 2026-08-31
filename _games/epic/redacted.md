@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/redacted/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "yellow"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://cdn.cloudflare.steamstatic.com/steam/apps/2229940/header.jp
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2024-12-01"
-content_hash: "9b253a4f5333f967"
+last_modified_at: "2026-08-31"
+content_hash: "8515c706f38247df"
 ---
 
-In [REDACTED], a fast-action isometric roguelike, a shadowy agent watches Black Iron Prison spiral into chaos. As one of the last guards, fight through monsters, rivals, and reanimated corpses of your fellow guards to escape the penitentiary alive.
+A roguelike about escaping Black Iron, a prison on Jupiter's moon Callisto overrun by infected inmates, played as an ordinary guard heading for the last escape pod. Runs start fresh, and what you carry out buys permanent gear for the next attempt. The complication is the other survivors, who want the same pod and will attack you remotely or challenge you to a duel.
