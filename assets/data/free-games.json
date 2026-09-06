@@ -1,42 +1,6 @@
 {
-  "generated_at": "2026-09-02T19:51:54.761Z",
+  "generated_at": "2026-09-04T20:04:56.649Z",
   "games": [
-    {
-      "id": "gp-3555",
-      "title": "Together After Dark",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/en-US/p/together-after-dark-fa0ce0",
-      "image": "https://www.gamerpower.com/offers/1b/69cafab460c8e.jpg",
-      "end_date": "2026-09-03T15:00:00.000Z",
-      "end_date_formatted": "Thu, 3 Sept · 15:00 UTC",
-      "first_seen": "2026-07-15 05:44:57",
-      "original_price": "$2.99"
-    },
-    {
-      "id": "gp-3759",
-      "title": "Rival Stars Horse Racing",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/p/rival-stars-horse-racing-dd09de",
-      "image": "https://www.gamerpower.com/offers/1b/6a90554f27ee1.jpg",
-      "end_date": "2026-09-03T15:00:00.000Z",
-      "end_date_formatted": "Thu, 3 Sept · 15:00 UTC",
-      "first_seen": "2026-08-27 18:00:04",
-      "original_price": "$29.99"
-    },
-    {
-      "id": "gp-2336",
-      "title": "Breathedge",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/en-US/p/breathedge",
-      "image": "https://www.gamerpower.com/offers/1b/644a8e3ec8e21.jpg",
-      "end_date": "2026-09-03T15:00:00.000Z",
-      "end_date_formatted": "Thu, 3 Sept · 15:00 UTC",
-      "first_seen": "2026-08-27 18:00:04",
-      "original_price": "$24.99"
-    },
     {
       "id": "gp-3496",
       "title": "Cherophobia",
@@ -74,6 +38,18 @@
       "original_price": "$2.99"
     },
     {
+      "id": "gp-3765",
+      "title": "Poubelle City",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://rono-ok.itch.io/poubelle-city",
+      "image": "https://www.gamerpower.com/offers/1b/6a9990ba771d1.jpg",
+      "end_date": "2026-09-04T23:59:00Z",
+      "end_date_formatted": "Fri, 4 Sept · 23:59 UTC",
+      "first_seen": "2026-09-03 18:00:04",
+      "original_price": "$3.99"
+    },
+    {
       "id": "gp-3421",
       "title": "Very Realistic Game Dev Simulator",
       "storefront": "itchio",
@@ -98,6 +74,18 @@
       "original_price": "$4.99"
     },
     {
+      "id": "gp-3766",
+      "title": "Beach Invasion 1944",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/beach-invasion-1944-d654d6",
+      "image": "https://www.gamerpower.com/offers/1b/6a9acdcbb2177.jpg",
+      "end_date": "2026-09-07T23:59:00.000Z",
+      "end_date_formatted": "Mon, 7 Sept · 23:59 UTC",
+      "first_seen": "2026-09-04 15:00:07",
+      "original_price": "$9.99"
+    },
+    {
       "id": "gp-3709",
       "title": "NoRush! - Tower Edition Giveaways",
       "storefront": "epic",
@@ -120,6 +108,18 @@
       "end_date_formatted": "Thu, 10 Sept · 00:00 UTC",
       "first_seen": "2026-08-06 18:43:30",
       "original_price": "$1.59"
+    },
+    {
+      "id": "gp-3763",
+      "title": "Alone With You",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/alone-with-you-028a15",
+      "image": "https://www.gamerpower.com/offers/1b/6a998bd861dec.jpg",
+      "end_date": "2026-09-10T15:00:00.000Z",
+      "end_date_formatted": "Thu, 10 Sept · 15:00 UTC",
+      "first_seen": "2026-09-03 18:00:04",
+      "original_price": "$9.99"
     },
     {
       "id": "manual_1781815170095_space-grunts-2",
@@ -240,6 +240,30 @@
       "end_date_formatted": "Thu, 1 Oct · 00:00 UTC",
       "first_seen": "2026-08-27 19:19:09",
       "original_price": "$29.99"
+    },
+    {
+      "id": "manual_1788463445953_war-mongrels",
+      "title": "War Mongrels",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/war-hospital-epic/dp/amzn1.pg.item.77edd2b0-e0d7-41b2-87f7-8ef5541701e4?ingress=amzn&ref_=SM_WarHospital_S01_FGWP_CRWN",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Foffer%2F7b57136ac766477eb1e687dcd0310da5%2FEGS_WarMongrels_DestructiveCreations_S1_2560x1440-23c3b42537f2d5052d6a7bdd9d6db0fa&w=480&output=webp&q=80",
+      "end_date": "2026-10-08T00:00:00.000Z",
+      "end_date_formatted": "Thu, 8 Oct · 00:00 UTC",
+      "first_seen": "2026-09-03 19:24:05",
+      "original_price": "$44.99"
+    },
+    {
+      "id": "manual_1788463562379_just-die-already",
+      "title": "Just Die Already",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/just-die-already-epic/dp/amzn1.pg.item.1197607b-4bcd-4aba-a43d-0103afdf7d76?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2FsalesEvent%2FsalesEvent%2FEGS_JustDieAlready_DoubleMoose_S5_1920x1080-ab0a72182a2dbbead850ff3ab81a4f73&w=480&output=webp&q=80",
+      "end_date": "2026-10-08T00:00:00.000Z",
+      "end_date_formatted": "Thu, 8 Oct · 00:00 UTC",
+      "first_seen": "2026-09-03 19:26:02",
+      "original_price": "$14.99"
     },
     {
       "id": "manual_1785442029467_weakless",
