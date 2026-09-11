@@ -605,6 +605,12 @@ notes:
       Blog post: [The 160-Day Stable Streak Ends (Fix Already Out)](/blog/160-day-streak-ends/)<br>
 
       Update that broke Pro: [Steam Beta Client Update: September 9th](https://store.steampowered.com/news/app/1675200/view/689767689898427835)
+  - id: 1789166692262fvat
+    date: 2026-09-11T00:00:00
+    type: client-beta
+    text: "No issues or breakages - [Steam Beta Client Update: September
+      10th](https://store.steampowered.com/news/app/1675200/view/69202012415931\
+      2258)"
 breakHistory:
   - id: 1
     brokeDate: 2026-04-02T01:30:00.000Z
