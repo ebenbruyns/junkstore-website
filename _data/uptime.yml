@@ -4,11 +4,14 @@
 # will be overwritten on the next sync.
 
 steamosVersion: 3.7.20
-lastResetDate: 2026-04-02T01:30:00.000Z
+lastResetDate: 2026-09-10T00:00:00.000Z
 currentStatus: up
-resetReason: Launch of version 3
+resetReason: "Valve updated their minifier in the [Steam Beta Client Update:
+  September
+  9th](https://store.steampowered.com/news/app/1675200/view/689767689898427835).
+  Full story in the [dev update](/blog/160-day-streak-ends/)."
 version: Pro
-fixedIn: ""
+fixedIn: 3.2.1.2
 notes:
   - id: "1776034710117"
     date: 2026-04-02T00:00:00
@@ -593,4 +596,22 @@ notes:
     text: "No issues or breakages - [Steam Beta Client Update: September
       6th](https://store.steampowered.com/news/app/1675200/view/689767689898427\
       811)"
-breakHistory: []
+  - id: 178908528915946gx
+    date: 2026-09-10T00:00:00
+    type: client-beta
+    text: |-
+      ***Breakage due to Valve updating their minifier*** Updates pushed to all channels, those who have a lapsed license can get a patch, just open a support ticket in the Portal so we can help you out. <br>
+
+      Blog post: [The 160-Day Stable Streak Ends (Fix Already Out)](/blog/160-day-streak-ends/)<br>
+
+      Update that broke Pro: [Steam Beta Client Update: September 9th](https://store.steampowered.com/news/app/1675200/view/689767689898427835)
+breakHistory:
+  - id: 1
+    brokeDate: 2026-04-02T01:30:00.000Z
+    fixedDate: 2026-09-10T00:00:00.000Z
+    reason: "Valve updated their minifier in the [Steam Beta Client Update:
+      September
+      9th](https://store.steampowered.com/news/app/1675200/view/689767689898427\
+      835). Full story in the [dev update](/blog/160-day-streak-ends/)."
+    steamosVersion: 3.7.20
+    fixedIn: 3.2.1.2
