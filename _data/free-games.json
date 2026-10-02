@@ -1,101 +1,17 @@
 {
-  "generated_at": "2026-09-24T20:15:05.388Z",
+  "generated_at": "2026-10-01T19:34:50.782Z",
   "games": [
     {
-      "id": "gp-3496",
-      "title": "Cherophobia",
+      "id": "gp-3794",
+      "title": "Express No. 6",
       "storefront": "itchio",
       "website_slug": null,
-      "store_url": "https://worsteventgames.itch.io/cherophobia",
-      "image": "https://www.gamerpower.com/offers/1b/698fa7369c1f5.jpg",
-      "end_date": "2026-09-25T23:59:00Z",
-      "end_date_formatted": "Fri, 25 Sept · 23:59 UTC",
-      "first_seen": "2026-08-13 20:44:18",
-      "original_price": "$1.99"
-    },
-    {
-      "id": "gp-3422",
-      "title": "Do You Have a Moment to Talk About Our Lord and Savior?",
-      "storefront": "itchio",
-      "website_slug": null,
-      "store_url": "https://worsteventgames.itch.io/do-you-have-a-moment-to-talk-about-our-lord-and-savior",
-      "image": "https://www.gamerpower.com/offers/1b/6946b8c46bc9b.jpg",
-      "end_date": "2026-09-25T23:59:00Z",
-      "end_date_formatted": "Fri, 25 Sept · 23:59 UTC",
-      "first_seen": "2026-08-13 20:44:18",
-      "original_price": "$2.99"
-    },
-    {
-      "id": "gp-3421",
-      "title": "Very Realistic Game Dev Simulator",
-      "storefront": "itchio",
-      "website_slug": null,
-      "store_url": "https://worsteventgames.itch.io/very-realistic-game-dev-simulator",
-      "image": "https://www.gamerpower.com/offers/1b/6946b7c157bca.jpg",
-      "end_date": "2026-09-25T23:59:35Z",
-      "end_date_formatted": "Fri, 25 Sept · 23:59 UTC",
-      "first_seen": "2026-07-28 00:01:22",
-      "original_price": "$1.99"
-    },
-    {
-      "id": "gp-3676",
-      "title": "Dire Echo (itchio)",
-      "storefront": "itchio",
-      "website_slug": null,
-      "store_url": "https://truegamesstudio.itch.io/dire-echo",
-      "image": "https://www.gamerpower.com/offers/1b/6a27eafa35794.jpg",
-      "end_date": "2026-09-30T23:59:00Z",
-      "end_date_formatted": "Wed, 30 Sept · 23:59 UTC",
-      "first_seen": "2026-06-09 20:04:31",
-      "original_price": "$5.99"
-    },
-    {
-      "id": "gp-3697",
-      "title": "NIGHTBELL",
-      "storefront": "itchio",
-      "website_slug": null,
-      "store_url": "https://truegamesstudio.itch.io/nightbell",
-      "image": "https://www.gamerpower.com/offers/1b/6a456f543d3c9.jpg",
-      "end_date": "2026-09-30T23:59:00Z",
-      "end_date_formatted": "Wed, 30 Sept · 23:59 UTC",
-      "first_seen": "2026-07-01 20:48:02",
-      "original_price": "$3.99"
-    },
-    {
-      "id": "manual_1787858349966_clash-artifacts-of-chaos",
-      "title": "Clash - Artifacts of Chaos",
-      "storefront": "amazon",
-      "website_slug": null,
-      "store_url": "https://luna.amazon.com/claims/clash-artifacts-of-chaos-epic/dp/amzn1.pg.item.f156cdf9-2d60-465f-9977-b0fac64e9fc3?ingress=amzn",
-      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2Fe39bb30cfdd6460f8b3b67fe8ced4291%2Fclash--artifacts-of-chaos-wurzy.jpg&w=480&output=webp&q=80",
-      "end_date": "2026-10-01T00:00:00.000Z",
-      "end_date_formatted": "Thu, 1 Oct · 00:00 UTC",
-      "first_seen": "2026-08-27 19:19:09",
-      "original_price": "$29.99"
-    },
-    {
-      "id": "gp-3790",
-      "title": "Mechabellum",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/p/mechabellum-88a843",
-      "image": "https://www.gamerpower.com/offers/1b/6ab53cef0ee78.jpg",
-      "end_date": "2026-10-01T15:00:00.000Z",
-      "end_date_formatted": "Thu, 1 Oct · 15:00 UTC",
-      "first_seen": "2026-09-24 20:00:32",
-      "original_price": "$14.99"
-    },
-    {
-      "id": "gp-3029",
-      "title": "Astrea: Six Sided Oracles",
-      "storefront": "epic",
-      "website_slug": null,
-      "store_url": "https://store.epicgames.com/en-US/p/astrea-six-sided-oracles-33c949",
-      "image": "https://www.gamerpower.com/offers/1b/6765967d0be6d.jpg",
-      "end_date": "2026-10-01T15:00:00.000Z",
-      "end_date_formatted": "Thu, 1 Oct · 15:00 UTC",
-      "first_seen": "2026-09-24 20:00:32",
-      "original_price": "$24.99"
+      "store_url": "https://askgames.itch.io/express-no6",
+      "image": "https://www.gamerpower.com/offers/1b/6abbe81be9821.jpg",
+      "end_date": "2026-10-05T23:59:00Z",
+      "end_date_formatted": "Mon, 5 Oct · 23:59 UTC",
+      "first_seen": "2026-09-29 19:01:38",
+      "original_price": "$4.99"
     },
     {
       "id": "manual_1788463445953_war-mongrels",
@@ -120,6 +36,30 @@
       "end_date_formatted": "Thu, 8 Oct · 00:00 UTC",
       "first_seen": "2026-09-03 19:26:02",
       "original_price": "$14.99"
+    },
+    {
+      "id": "gp-3798",
+      "title": "BURIED STARS",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/buried-stars-d7c88c",
+      "image": "https://www.gamerpower.com/offers/1b/6abe774ebcab0.jpg",
+      "end_date": "2026-10-08T15:00:00.000Z",
+      "end_date_formatted": "Thu, 8 Oct · 15:00 UTC",
+      "first_seen": "2026-10-01 18:56:52",
+      "original_price": "$39.99"
+    },
+    {
+      "id": "gp-3797",
+      "title": "System Shock 2: 25th Anniversary Remaster",
+      "storefront": "epic",
+      "website_slug": null,
+      "store_url": "https://store.epicgames.com/p/system-shock-2-25th-anniversary-remaster-cb94d9",
+      "image": "https://www.gamerpower.com/offers/1b/6abe75902a6dd.jpg",
+      "end_date": "2026-10-08T15:00:00.000Z",
+      "end_date_formatted": "Thu, 8 Oct · 15:00 UTC",
+      "first_seen": "2026-10-01 18:56:52",
+      "original_price": "$29.99"
     },
     {
       "id": "manual_1789077084746_drop-duchy",
@@ -240,6 +180,30 @@
       "end_date_formatted": "Thu, 29 Oct · 00:00 UTC",
       "first_seen": "2026-09-24 20:14:45",
       "original_price": "$39.99"
+    },
+    {
+      "id": "manual_1790883183422_five-nights-at-freddy-s-into-the-pit",
+      "title": "Five Nights at Freddy's: Into the Pit",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/five-nights-at-freddys-into-the-pit-epic/dp/amzn1.pg.item.9d2ad65c-0963-4e2d-93e6-75ad2a4bfc87?ingress=amzn&ref_=SM_FiveNightsatFreddysIntothePit_S01_FGWP_CRWN",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fcdn1.epicgames.com%2Fspt-assets%2F5c65df08b03a43eb8be026116ef8e979%2Ffive-nights-at-freddys-into-the-pit-1iryg.png&w=480&output=webp&q=80",
+      "end_date": "2026-11-05T00:00:00.000Z",
+      "end_date_formatted": "Thu, 5 Nov · 00:00 UTC",
+      "first_seen": "2026-10-01 19:33:03",
+      "original_price": "$19.99"
+    },
+    {
+      "id": "manual_1790883281075_doom-2016-80-off-gog-com",
+      "title": "DOOM (2016) 80% off | GOG.COM",
+      "storefront": "amazon",
+      "website_slug": null,
+      "store_url": "https://luna.amazon.com/claims/doom-gog/dp/amzn1.pg.item.b095156c-1207-49f0-801a-75ac03b74def?ingress=amzn",
+      "image": "https://wsrv.nl/?url=https%3A%2F%2Fimages.gog-statics.com%2F82a7cd303997644e10450fad1be3a3666f5cb0cfbc1fa44b38b429e607e64426.jpg&w=480&output=webp&q=80",
+      "end_date": "2026-11-05T00:00:00.000Z",
+      "end_date_formatted": "Thu, 5 Nov · 00:00 UTC",
+      "first_seen": "2026-10-01 19:34:41",
+      "original_price": "$3.99"
     },
     {
       "id": "gp-2204",
