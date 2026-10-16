@@ -721,6 +721,12 @@ notes:
     text: "No issues or breakages - [Steam Client Update: October
       13th](https://store.steampowered.com/news/app/1675200/view/67513416235981\
       5513)"
+  - id: 17921233096922jgp
+    date: 2026-10-16T00:00:00
+    type: client-beta
+    text: "No issues or breakages - [Steam Beta Client Update: October
+      15th](https://store.steampowered.com/news/app/1675200/view/68751969497697\
+      5613)"
 breakHistory:
   - id: 1
     brokeDate: 2026-04-02T01:30:00.000Z
