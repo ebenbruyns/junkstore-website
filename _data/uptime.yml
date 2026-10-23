@@ -732,6 +732,35 @@ notes:
     type: beta
     text: No issues or breakages - [SteamOS 3.9.3
       Beta](https://store.steampowered.com/news/app/1675200/view/687519694976975287)
+  - id: 1792382486457xh1b
+    date: 2026-10-18T00:00:00
+    type: client-beta
+    text: "No issues or breakages - [Steam Beta Client Update: October
+      16th](https://store.steampowered.com/news/app/1675200/view/68751969497697\
+      5837)"
+  - id: 1792641190596fbhk
+    date: 2026-10-22T00:00:00
+    type: client-stable
+    text: "No issues or breakages - [Steam Client Update: October
+      21st](https://store.steampowered.com/news/app/1675200/view/68751969497697\
+      8185)"
+  - id: 1792641245662xa0o
+    date: 2026-10-22T00:00:00
+    type: client-beta
+    text: "No issues or breakages - [Steam Beta Client Update: October
+      21st](https://store.steampowered.com/news/app/1675200/view/69427572882224\
+      2448)"
+  - id: 1792641307950s8mj
+    date: 2026-10-22T00:00:00
+    type: beta
+    text: No issues or breakages - [SteamOS 3.9.4
+      Beta](https://store.steampowered.com/news/app/1675200/view/694275728822242439)
+  - id: 1792723981859xwj9
+    date: 2026-10-23T00:00:00
+    type: client-beta
+    text: "No issues or breakages - [Steam Beta Client Update: October
+      22nd](https://store.steampowered.com/news/app/1675200/view/69427572882224\
+      4201)"
 breakHistory:
   - id: 1
     brokeDate: 2026-04-02T01:30:00.000Z
