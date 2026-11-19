@@ -47,7 +47,7 @@ published: true
 {%- if last_break -%}
   {%- assign lb_start = last_break.brokeDate | date: "%s" | plus: 0 -%}
   {%- assign lb_end = last_break.fixedDate | date: "%s" | plus: 0 -%}
-  {%- assign previous_streak_days = lb_end | minus: lb_start | divided_by: 86400 -%}
+  {%- assign previous_streak_days = lb_end | minus: lb_start | plus: 43200 | divided_by: 86400 -%}
 {%- endif -%}
 
 {%- comment -%} Sort notes most-recent-first {%- endcomment -%}
@@ -59,7 +59,8 @@ published: true
   Build-time derivation eliminates the JS rewrite that was causing CLS on the
   status card when the launch version differed from current.
 {%- endcomment -%}
-{%- assign current_steamos = uptime.steamosVersion -%}
+{%- assign launch_steamos = uptime.steamosVersion | append: "" -%}
+{%- assign current_steamos = launch_steamos -%}
 {%- for note in sorted_notes -%}
   {%- if note.type == "stable" -%}
     {%- assign parts = note.text | split: "SteamOS " -%}
@@ -82,7 +83,7 @@ published: true
     <div class="status-stat">
       <div class="stat-number"
            data-status-days
-           data-reset-date="{{ uptime.lastResetDate }}">{{ days_at_build }}</div>
+           data-reset-date="{{ uptime.lastResetDate | date: "%Y-%m-%dT%H:%M:%S%:z" }}">{{ days_at_build }}</div>
       <div class="stat-label">days stable</div>
     </div>
     <div class="status-stat">
@@ -93,10 +94,10 @@ published: true
 
   <div class="last-reset-info">
     <p id="status-steamos-line">
-      {%- if current_steamos == uptime.steamosVersion -%}
-      <strong>SteamOS:</strong> {{ uptime.steamosVersion }}
+      {%- if current_steamos == launch_steamos -%}
+      <strong>SteamOS:</strong> {{ launch_steamos }}
       {%- else -%}
-      <strong>SteamOS:</strong> {{ uptime.steamosVersion }} at launch &middot; {{ current_steamos }} current
+      <strong>SteamOS:</strong> {{ launch_steamos }} at launch &middot; {{ current_steamos }} current
       {%- endif -%}
     </p>
     <p><strong>Stable since:</strong> {{ uptime.lastResetDate | date: "%-d %B %Y" }}</p>
@@ -183,15 +184,24 @@ published: true
     Longest streak includes the current run. Days tracked = every stable
     period so far plus the current one.
   {%- endcomment -%}
-  {%- assign longest_streak = days_at_build -%}
-  {%- assign total_days_tracked = days_at_build -%}
+  {%- comment -%}
+    Days tracked runs from the start of the first recorded period to now, so it
+    keeps counting between builds (the script below updates it live) and doesn't
+    drop a day per break by flooring each period separately.
+  {%- endcomment -%}
+  {%- assign past_longest = 0 -%}
+  {%- assign first_period = sorted_breaks | last -%}
+  {%- assign tracking_start = first_period.brokeDate | date: "%Y-%m-%dT%H:%M:%S%:z" -%}
   {%- for b in sorted_breaks -%}
     {%- assign b_start = b.brokeDate | date: "%s" | plus: 0 -%}
     {%- assign b_end = b.fixedDate | date: "%s" | plus: 0 -%}
-    {%- assign d = b_end | minus: b_start | divided_by: 86400 -%}
-    {%- if d > longest_streak -%}{%- assign longest_streak = d -%}{%- endif -%}
-    {%- assign total_days_tracked = total_days_tracked | plus: d -%}
+    {%- assign d = b_end | minus: b_start | plus: 43200 | divided_by: 86400 -%}
+    {%- if d > past_longest -%}{%- assign past_longest = d -%}{%- endif -%}
   {%- endfor -%}
+  {%- assign longest_streak = past_longest -%}
+  {%- if days_at_build > longest_streak -%}{%- assign longest_streak = days_at_build -%}{%- endif -%}
+  {%- assign track_start_seconds = tracking_start | date: "%s" | plus: 0 -%}
+  {%- assign total_days_tracked = now_seconds | minus: track_start_seconds | divided_by: 86400 -%}
   {%- assign break_count = sorted_breaks.size -%}
 
   <div class="track-record-stats">
@@ -200,11 +210,16 @@ published: true
       <div class="record-stat__label">total break{% if break_count != 1 %}s{% endif %}</div>
     </div>
     <div class="record-stat">
-      <div class="record-stat__num">{{ longest_streak }}</div>
+      <div class="record-stat__num"
+           data-longest-streak
+           data-past-longest="{{ past_longest }}"
+           data-reset-date="{{ uptime.lastResetDate | date: "%Y-%m-%dT%H:%M:%S%:z" }}">{{ longest_streak }}</div>
       <div class="record-stat__label">longest stable streak (days)</div>
     </div>
     <div class="record-stat">
-      <div class="record-stat__num">{{ total_days_tracked }}</div>
+      <div class="record-stat__num"
+           data-status-days
+           data-reset-date="{{ tracking_start }}">{{ total_days_tracked }}</div>
       <div class="record-stat__label">days tracked since launch</div>
     </div>
   </div>
@@ -222,7 +237,7 @@ published: true
       {%- for entry in sorted_breaks -%}
         {%- assign e_start = entry.brokeDate | date: "%s" | plus: 0 -%}
         {%- assign e_end = entry.fixedDate | date: "%s" | plus: 0 -%}
-        {%- assign e_days = e_end | minus: e_start | divided_by: 86400 -%}
+        {%- assign e_days = e_end | minus: e_start | plus: 43200 | divided_by: 86400 -%}
       <tr>
         <td>{{ entry.brokeDate | date: "%-d %b %Y" }} to {{ entry.fixedDate | date: "%-d %b %Y" }}</td>
         <td>{{ e_days }}</td>
@@ -262,6 +277,16 @@ published: true
     if (days >= 0 && String(days) !== el.textContent.trim()) {
       el.textContent = days;
     }
+  });
+
+  // Longest streak: the current run takes over once it beats the best past one
+  document.querySelectorAll('[data-longest-streak]').forEach(function (el) {
+    var reset = new Date(el.getAttribute('data-reset-date'));
+    var past = parseInt(el.getAttribute('data-past-longest'), 10) || 0;
+    if (isNaN(reset)) return;
+    var current = Math.floor((Date.now() - reset.getTime()) / 86400000);
+    var longest = Math.max(past, current);
+    if (String(longest) !== el.textContent.trim()) el.textContent = longest;
   });
 
   // Show-all-notes button: reveals the .hidden-note rows and removes itself

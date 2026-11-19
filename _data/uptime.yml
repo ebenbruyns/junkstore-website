@@ -821,5 +821,5 @@ breakHistory:
     reason: Breakage due to Valve changing their build tooling - [Steam Client Beta
       - November
       18th](https://store.steampowered.com/news/group/4397053/view/712292033362921462)
-    steamosVersion: 3.9.6
+    steamosVersion: 3.9
     fixedIn: v3.3.0-beta-20261119-182200
