@@ -3,15 +3,14 @@
 # Edit uptime data in the admin UI, not here — manual changes
 # will be overwritten on the next sync.
 
-steamosVersion: 3.7.20
-lastResetDate: 2026-09-10T00:00:00.000Z
+steamosVersion: 3.9
+lastResetDate: 2026-11-19T00:00:00.000Z
 currentStatus: up
-resetReason: "Valve updated their minifier in the [Steam Beta Client Update:
-  September
-  9th](https://store.steampowered.com/news/app/1675200/view/689767689898427835).
-  Full story in the [dev update](/blog/160-day-streak-ends/)."
+resetReason: Breakage due to Valve changing their build tooling - [Steam Client
+  Beta - November
+  18th](https://store.steampowered.com/news/group/4397053/view/712292033362921462)
 version: Pro
-fixedIn: 3.2.1.2
+fixedIn: v3.3.0-beta-20261119-182200
 notes:
   - id: "1776034710117"
     date: 2026-04-02T00:00:00
@@ -795,6 +794,17 @@ notes:
     text: "No issues or breakages - [Steam Client Update: November
       11th](https://store.steampowered.com/news/app/1675200/view/68752223541028\
       4741)"
+  - id: 179459912323288ke
+    date: 2026-11-13T00:00:00
+    type: beta
+    text: No issues or breakages - [SteamOS 3.9.6
+      Beta](https://store.steampowered.com/news/app/1675200/view/687522235410285093)
+  - id: 1795066192481ighd
+    date: 2026-11-19T00:00:00
+    type: client-beta
+    text: Breakage due to Valve changing their build tooling - [Steam Client Beta -
+      November
+      18th](https://store.steampowered.com/news/group/4397053/view/712292033362921462)
 breakHistory:
   - id: 1
     brokeDate: 2026-04-02T01:30:00.000Z
@@ -805,3 +815,11 @@ breakHistory:
       835). Full story in the [dev update](/blog/160-day-streak-ends/)."
     steamosVersion: 3.7.20
     fixedIn: 3.2.1.2
+  - id: 2
+    brokeDate: 2026-09-10T00:00:00.000Z
+    fixedDate: 2026-11-19T00:00:00.000Z
+    reason: Breakage due to Valve changing their build tooling - [Steam Client Beta
+      - November
+      18th](https://store.steampowered.com/news/group/4397053/view/712292033362921462)
+    steamosVersion: 3.9.6
+    fixedIn: v3.3.0-beta-20261119-182200

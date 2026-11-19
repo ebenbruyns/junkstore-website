@@ -138,9 +138,10 @@ layout: junkstore-default
 
     <!-- Post Footer (tags hidden for SEO) -->
     <footer class="js-post__footer">
-      {% if page.tags %}
+      {% assign seo_tags = page.tags | where_exp: "t", "t != 'Marketing'" %}
+      {% if seo_tags.size > 0 %}
       <div class="js-post__tags-seo" style="display: none;">
-        {% for tag in page.tags %}
+        {% for tag in seo_tags %}
           <span>{{ tag }}</span>
         {% endfor %}
       </div>

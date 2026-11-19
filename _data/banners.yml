@@ -66,3 +66,12 @@
   endDate: null
   targetPages: []
   content: "\U0001F4DA <strong style=\"color: #00adb5;\">The docs are live.</strong> <a href=\"/docs/user/\" style=\"color: #ffa366; text-decoration: underline;\">The user manual \u2192</a> covers every screen and setting, and <a href=\"/docs/extensions/\" style=\"color: #ffa366; text-decoration: underline;\">the extension docs \u2192</a> show you how to add a store we haven't.<br><span class=\"promo-banner__note\">Building an extension is simpler than it sounds, and the easiest route needs no code at all.</span>"
+
+- id: "9e3b7c52-1d4f-4a86-b2e0-6f8a1c3d5e27"
+  title: "Steam Client Beta Breakage Nov 18"
+  isActive: true
+  priority: 13
+  startDate: "2026-11-19T00:00"
+  endDate: null
+  targetPages: []
+  content: "⚠️ <strong style=\"color: #00adb5;\">On the Steam Client Beta?</strong> Valve's November 18th beta broke Junk Store Pro. It's fixed in v3.3.0 beta. <a href=\"/status/\" style=\"color: #ffa366; text-decoration: underline;\">See the status page →</a><br><span class=\"promo-banner__note\">To get the fix, update Junk Store Pro from our beta build channel.</span>"
