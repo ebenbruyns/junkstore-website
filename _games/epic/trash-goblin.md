@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/trash-goblin/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -48,7 +54,7 @@ franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/trash-goblin"
 was_free_before: true
-giveaway_events: [{"start":"2026-05-07","end":"2026-05-14"}]
+giveaway_events: [{"start":"2026-05-07","end":"2026-05-14"},{"start":"2026-10-29","end":"2026-12-03"}]
 free_games_aliases: []
 
 # Images
@@ -62,6 +68,13 @@ icon_image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-05-01"
-content_hash: "4ba690a1f99ebc71"
+last_modified_at: "2026-11-22"
+content_hash: "251f7ca4b6c6f328"
 ---
 
-A wholesome, cosy shopkeeping game with no pressures, no stress, and endless good vibes! Uncover and clean trinkets then upcycle them to sell to endless colourful, quirky customers. Spend your savings to upgrade your shop, buy better tools, plus expand and customise your space.
+A relaxed shopkeeping game where you chip old trinkets out of dirt, scrub them clean and sell them to a stream of odd customers. Trinkets can be combined into new items or have their materials swapped onto each other, and your savings go on better tools and a bigger workshop. There is no pressure and no wrong way to run the shop.

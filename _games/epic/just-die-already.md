@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/just-die-already/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -48,7 +54,7 @@ franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/just-die-already"
 was_free_before: true
-giveaway_events: [{"start":"2022-04-27","end":"2022-05-04"}]
+giveaway_events: [{"start":"2022-04-27","end":"2022-05-04"},{"start":"2026-09-03","end":"2026-10-08"}]
 free_games_aliases: []
 
 # Images
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/b704dceb7856f4d36b1f1b71a281d4a5411b11e5463b
 hdr: false
 controller_input: "requires-mapping"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: "clean"
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: "no"
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -115,7 +128,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: Requires manual controller/key mapping.
+notes: While you can toggle offline, it still wants to connect to EOS.
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-07-01"
-content_hash: "7749d3290f396ddc"
+last_modified_at: "2026-11-22"
+content_hash: "d2a457858780f0cd"
 ---
 
-Just Die Already is an old people mayhem sandbox game created by the designers of Goat Simulator. You are old and angry and you've just been kicked out of your retirement home. How will you survive in a world that wants you to Just Die Already?
+A physics sandbox from the designers of Goat Simulator, played as an elderly person who has just been kicked out of their retirement home. Getting into a new one means earning tickets by completing dangerous challenges around an open town, in a body that breaks at the slightest knock. Limbs come off, heads included, and it can be played online with friends.

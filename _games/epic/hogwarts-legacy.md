@@ -7,8 +7,14 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/hogwarts-legacy/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
-decky_rating: "green"
+decky_rating: "broken"
 standalone_rating: "green"
 date_tested: "May '26"
 proton_version: ""
@@ -62,6 +68,13 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/990080/capsule_231x87.jp
 hdr: true
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -115,7 +128,7 @@ geforcenow_id: ""
 geforcenow_url: ""
 
 # Notes
-notes: "Works out of the box!"
+notes: "Recent changes to this games  requirements has broken it via the Decky plugin. It works out of the box in the **New** Epic client in Junk Store Pro."
 notes_screenshot: ""
 notes_screenshot_caption: 
 controller_config: 
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-05-01"
-content_hash: "7e900b585b4da158"
+last_modified_at: "2026-11-22"
+content_hash: "4d1fab067d7ba609"
 ---
 
-Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.
+An open-world action role-playing game set at Hogwarts in the 1800s, long before the books. You play a new student who holds the key to an old secret that threatens the wizarding world, and Dark wizards are after it. Between lessons you learn spells, brew potions, care for magical beasts and explore the castle, Hogsmeade and the countryside around them.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/beyond-blue/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/f76a8d2b6fbc119c7e2cdb7e8d91715733dea569cdba
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-02-01"
-content_hash: "2d45441b560e670a"
+last_modified_at: "2026-11-22"
+content_hash: "08e9db6dd3ea0e56"
 ---
 
-Beyond Blue is a single-player narrative adventure that takes you deep into our planet’s beating blue heart.  Set in the near future, Beyond Blue explores the mysteries of our ocean through the eyes of Mirai, a deep-sea explorer and scientist. Become a part of a newly-formed r...
+A narrative game about deep-ocean research, played as Mirai across eight dives with a new team and technology built to see and hear what is down there. It is closer to a documentary than to a game with fail states, and it carries sixteen short films with real ocean scientists. The soundtrack takes in Miles Davis.

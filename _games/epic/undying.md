@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/undying/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/f6e8cd321f8dd89a7448b746dd14d71d773079f0515f
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-02-01"
-content_hash: "8b18378a6f11ea5c"
+last_modified_at: "2026-11-22"
+content_hash: "2735524bb1819e01"
 ---
 
-Infected by a zombie, Anling's days are limited. She must now fight to survive, not for herself but her young son, Cody. Ensure Cody's survival in this zombie-infested world by protecting him, searching for safety, and teaching him valuable skills at any cost.
+A zombie survival game about a mother who has already been bitten. Anling has a limited amount of time before the infection takes her, and spends it teaching her son Cody how to stay alive without her, so every scavenging run doubles as a lesson. The people you meet live or die on how you handle them.

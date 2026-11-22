@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/legacy-of-kain-soul-reaver-1-2-remastered/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: ""
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/e14f64ea9c7386d37bcb88360b3f69dd01425db99b0d
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: false
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-02-01"
-content_hash: "a74b88505760d662"
+last_modified_at: "2026-11-22"
+content_hash: "854ad09eb8746c70"
 ---
 
-Experience the epic conflict of Kain and Raziel in original form or with remastered graphics.
+Both Soul Reaver games, remastered for the series' 25th anniversary, with the original graphics still there to switch back to. You are Raziel, executed by your former master Kain and risen again for revenge, fighting with claws, telekinetic bolts and the Wraith Blade. Shifting between the spectral and material realms is how the puzzles and the routes work.

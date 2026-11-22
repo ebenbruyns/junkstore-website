@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/kingdom-come-deliverance/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -63,6 +69,13 @@ icon_image: "https://images.gog.com/5e32f4b72226ff3066f8dc8a14a6a336beb2a9da84df
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -132,8 +145,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-01-01"
-content_hash: "bfdf61819f14a4e1"
+last_modified_at: "2026-11-22"
+content_hash: "1ce93c91dde763d3"
 ---
 
-Kingdom Come: Deliverance is a story-driven open-world RPG that immerses you in an epic adventure in the Holy Roman Empire. Avenge your parents' death as you battle invading forces, go on game-changing quests, and make influential choices.
+An open-world role-playing game set in medieval Bohemia, played as Henry, a blacksmith's son whose village is burned in a mercenary raid ordered by a king with designs on his half-brother's throne. It goes for historical realism rather than fantasy: real places, real politics, and a fight you have had no training for.

@@ -53,26 +53,6 @@ published: true
 {%- comment -%} Sort notes most-recent-first {%- endcomment -%}
 {%- assign sorted_notes = uptime.notes | sort: "date" | reverse -%}
 
-{%- comment -%}
-  Extract the most recent SteamOS version from stable notes. Format-tolerant —
-  works with both "[SteamOS X.Y.Z Release](...)" and "[SteamOS X.Y.Z](...)".
-  Build-time derivation eliminates the JS rewrite that was causing CLS on the
-  status card when the launch version differed from current.
-{%- endcomment -%}
-{%- assign launch_steamos = uptime.steamosVersion | append: "" -%}
-{%- assign current_steamos = launch_steamos -%}
-{%- for note in sorted_notes -%}
-  {%- if note.type == "stable" -%}
-    {%- assign parts = note.text | split: "SteamOS " -%}
-    {%- if parts.size > 1 -%}
-      {%- assign rest = parts[1] | split: "]" | first | split: " " | first | split: ")" | first -%}
-      {%- if rest contains "." -%}
-        {%- assign current_steamos = rest -%}
-        {%- break -%}
-      {%- endif -%}
-    {%- endif -%}
-  {%- endif -%}
-{%- endfor -%}
 
 <div class="status-page">
 
@@ -94,11 +74,7 @@ published: true
 
   <div class="last-reset-info">
     <p id="status-steamos-line">
-      {%- if current_steamos == launch_steamos -%}
-      <strong>SteamOS:</strong> {{ launch_steamos }}
-      {%- else -%}
-      <strong>SteamOS:</strong> {{ launch_steamos }} at launch &middot; {{ current_steamos }} current
-      {%- endif -%}
+      <strong>Tested on SteamOS:</strong> {{ uptime.steamosVersion }}
     </p>
     <p><strong>Stable since:</strong> {{ uptime.lastResetDate | date: "%-d %B %Y" }}</p>
     {%- if last_break -%}

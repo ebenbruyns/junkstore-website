@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/botany-manor/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -48,7 +54,7 @@ franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/botany-manor"
 was_free_before: true
-giveaway_events: [{"start":"2026-02-05","end":"2026-02-12"}]
+giveaway_events: [{"start":"2026-02-05","end":"2026-02-12"},{"start":"2026-09-10","end":"2026-10-15"},{"start":"2026-09-18","end":"2026-10-15"}]
 free_games_aliases: []
 
 # Images
@@ -62,6 +68,13 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1425350/capsule_231x87.j
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: "clean"
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: "yes"
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-02-01"
-content_hash: "f87fcab5f8b2e530"
+last_modified_at: "2026-11-22"
+content_hash: "21833efe43fef76d"
 ---
 
-Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora.
+A first-person puzzle game set in 1890 in an English manor house and its gardens. You play Arabella Greene, a retired botanist finishing a book about forgotten plants, and each puzzle is working out from letters, posters and notes around the house how to grow one of them. Room by room you also learn what her career cost her as a woman in science.

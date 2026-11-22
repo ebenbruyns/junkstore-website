@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/redemption-reapers/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/2f1f17433a5c23c81a4e003a5270af281e428ca191f3
 hdr: false
 controller_input: ""
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,9 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "54975b01ccef8c73"
+last_modified_at: "2026-11-22"
+content_hash: "4430dff483066a1a"
 ---
 
-Descending suddenly on the world, the macabre Mort armies destroy nation after nation, leaving humanity decimated in their wake.
-Among the forces resisting the Mort is a small band of mercenaries known as the Ashen Hawk Brigade.
+A grim tactical role-playing game in which a monstrous army called the Mort has already wiped out whole kingdoms as the story begins. You command the Ashen Hawk Brigade, a five-person mercenary crew built around ambush tactics that was despised long before it became the only thing still resisting. The supplies stay scarce, the odds stay bad, and the tone stays bleak.

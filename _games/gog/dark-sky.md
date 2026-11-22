@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/dark-sky/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/34aa2a42eb1fa04b75484562287d98201bf2ca553740
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-02-01"
-content_hash: "dfd72d1596b84179"
+last_modified_at: "2026-11-22"
+content_hash: "f7dacf957d89ae4d"
 ---
 
-Lead a party of unlikely heroes as they uncover the truth behind a planetary catastrophe in this immersive turn-based RPG. Craft and upgrade character cards into powerful combos while you battle your way through this beautifully hand-drawn alien world!
+A narrative deckbuilder with grid-based tactical combat, set on a frontier mining planet where something has started pulling ships out of the sky. You play a shipyard worker who gathers a team of survivors, and each character brings their own cards into a combined deck. Position on the grid matters, and cards upgrade along branching trees.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/lysfanga-the-time-shift-warrior/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/f48fe6a2790bdd5187f9e8ce7d2d3494e069aeef5067
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-02-01"
-content_hash: "e3698bd6016dd02c"
+last_modified_at: "2026-11-22"
+content_hash: "d3097a3ddeb333da"
 ---
 
-Your Kingdom’s fate relies on you… you… and you. Rewind time to create clones of your past-selves, and fight with an army of your own. Become legion and triumph over hordes of monsters to rescue Antala in this Hack'N'Slash game with a tactical twist.
+A tactical action game where you clear timed arenas by rewinding a few seconds and letting copies of your earlier attempts fight alongside you. Each pass has to be planned around what your past selves are already doing, so a room becomes a puzzle you solve in layers. Arenas can be replayed for better scores, with modifiers to make them harder.

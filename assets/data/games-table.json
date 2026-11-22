@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-28T20:42:49.091Z",
-  "total_games": 1081,
+  "generated_at": "2026-11-21T20:23:20.626Z",
+  "total_games": 1106,
   "storefronts": {
     "Epic": {
-      "total": 506,
-      "green_standalone": 445,
-      "green_decky": 457
+      "total": 522,
+      "green_standalone": 461,
+      "green_decky": 471
     },
     "GOG": {
-      "total": 405,
-      "green_standalone": 332,
+      "total": 412,
+      "green_standalone": 339,
       "green_decky": 361
     },
     "Amazon": {
-      "total": 86,
-      "green_standalone": 82,
+      "total": 88,
+      "green_standalone": 84,
       "green_decky": 0
     },
     "itch": {
@@ -856,6 +856,18 @@
       "publisher": "Whitethorn Games"
     },
     {
+      "slug": "squirrel-with-a-gun",
+      "id": "amzn1.adg.product.cd30d5a5-1a36-4888-be23-f87e0a488431",
+      "title": "Squirrel with a Gun",
+      "storefront": "Amazon",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "native_linux": false,
+      "publisher": "Maximum Entertainment",
+      "controller_input": "native"
+    },
+    {
       "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
       "id": "6f76a67f-79d0-49de-97f0-7cbc6ef3be8e",
       "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
@@ -1166,6 +1178,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "amzn1.adg.product.c25c2ac3-b318-4192-96b7-bafef73060b9"
+    },
+    {
+      "slug": "wall-world-2",
+      "id": "amzn1.adg.product.9bb45e2f-9b7b-4c67-8734-4d65e97fe0ea",
+      "title": "Wall World 2",
+      "storefront": "Amazon",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Sep '26",
+      "native_linux": false,
+      "publisher": "Alawar",
+      "controller_input": "native"
     },
     {
       "slug": "warhammer-40000-dawn-of-war",
@@ -1611,6 +1635,18 @@
       "databaseId": "8935bb3e1420443a9789fe01758039a5"
     },
     {
+      "slug": "alone-with-you",
+      "id": "253cd6fdf0404daaa451a8520c85910e",
+      "title": "Alone With You",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Sep '26",
+      "native_linux": true,
+      "publisher": "BancyCo",
+      "controller_input": "native"
+    },
+    {
       "slug": "amnesia-a-machine-for-pigs",
       "id": "a2c022e0-694b-4970-9cdb-87df2db82cac",
       "title": "Amnesia: A Machine for Pigs",
@@ -1893,6 +1929,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "Camellia"
+    },
+    {
+      "slug": "astral-ascent",
+      "id": "77f83ebadd0543ec938020fb68dc49bb",
+      "title": "Astral Ascent",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Sep '26",
+      "native_linux": true,
+      "publisher": "Hibernian Workshop",
+      "controller_input": "native"
     },
     {
       "slug": "astrea-six-sided-oracles",
@@ -2761,6 +2809,18 @@
       "controller_input": "native"
     },
     {
+      "slug": "clem",
+      "id": "215612840ccd4331b534fcbb42c88950",
+      "title": "Clem",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "native_linux": false,
+      "publisher": "Iceberg Interactive",
+      "controller_input": "native"
+    },
+    {
       "slug": "clone-drone-in-the-danger-zone",
       "id": "2d59763b-fa44-41c2-a9ac-f37f712690bf",
       "title": "Clone Drone in the Danger Zone",
@@ -3389,6 +3449,18 @@
       "databaseId": "65c25644a2e0444d8766967a008b1d69"
     },
     {
+      "slug": "drop-duchy",
+      "id": "52d3eaa2c300434b918c2b440148eb7f",
+      "title": "Drop Duchy",
+      "storefront": "Epic",
+      "decky_rating": "yellow",
+      "standalone_rating": "green",
+      "date_tested": "Sep '26",
+      "native_linux": false,
+      "publisher": "The Arcade Crew",
+      "controller_input": "native"
+    },
+    {
       "slug": "duet-night-abyss",
       "id": "6764eb1f-2cdc-4d1f-904f-8703fe4ed216",
       "title": "Duet Night Abyss",
@@ -3879,6 +3951,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "ef041e69837d410ea851934ef879ba7b"
+    },
+    {
+      "slug": "flotsam",
+      "id": "b1cb2fc221124bf88472bc1be0de2034",
+      "title": "Flotsam",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "native_linux": false,
+      "publisher": "Stray Fawn Publishing",
+      "controller_input": "native"
     },
     {
       "slug": "football-manager-2024",
@@ -4414,6 +4498,16 @@
       "databaseId": "886e934842de46bc8a65644e7d4fb75b"
     },
     {
+      "slug": "high-on-life",
+      "id": "bf6280c4650b492c8a601faa1d2b59bc",
+      "title": "High on Life",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "publisher": "Squanch Games"
+    },
+    {
       "slug": "hitman-world-of-assassination",
       "id": "5d9352a1-b9fe-4e6f-8b4b-7b5a13ad6c75",
       "title": "Hitman World of Assassination",
@@ -4433,7 +4527,7 @@
       "id": "37f48b30-5f60-4ee6-83c9-c365e95c497d",
       "title": "Hogwarts Legacy",
       "storefront": "Epic",
-      "decky_rating": "green",
+      "decky_rating": "broken",
       "standalone_rating": "green",
       "date_tested": "May '26",
       "cant_test_linux": false,
@@ -4502,6 +4596,17 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "48cfbcf29a4441a894d05a203e03dc74"
+    },
+    {
+      "slug": "hue",
+      "id": "Herring",
+      "title": "Hue",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "publisher": "Curve Digital",
+      "controller_input": "native"
     },
     {
       "slug": "humankind",
@@ -4746,6 +4851,7 @@
       "date_tested": "March '25",
       "native_linux": false,
       "publisher": "Frontier Developments",
+      "controller_input": "native",
       "databaseId": "70883ed009994efe86d00a5fb8f2b52e"
     },
     {
@@ -4890,6 +4996,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "7555248a2a3242f2ac3627a80fcfba69"
+    },
+    {
+      "slug": "knightica",
+      "id": "ddfb6dd47850494e8d4c6378f9a88d0b",
+      "title": "Knightica",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "native_linux": false,
+      "publisher": "Goblinz Publishing",
+      "controller_input": "native"
     },
     {
       "slug": "legion-td-2",
@@ -5074,6 +5192,18 @@
       "databaseId": "1203dd46538a4abd8cd12d715528e2c2"
     },
     {
+      "slug": "luftrausers",
+      "id": "367b958278744d8c9f44dac339e5bd02",
+      "title": "Luftrausers",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Sep '26",
+      "native_linux": true,
+      "publisher": "Devolver Digital",
+      "controller_input": "native"
+    },
+    {
       "slug": "lumbearjack",
       "id": "13ee61a1-d556-4ed5-849f-c6945e96166f",
       "title": "LumbearJack",
@@ -5179,6 +5309,18 @@
       "databaseId": "Turtle"
     },
     {
+      "slug": "mark-of-the-deep",
+      "id": "8117701582b549ea90c864b157adc969",
+      "title": "Mark of the Deep",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "native_linux": false,
+      "publisher": "Mad Mimic Interactive",
+      "controller_input": "native"
+    },
+    {
       "slug": "marvel-rivals",
       "id": "d47671e6-7dac-4165-a028-ece89721591e",
       "title": "Marvel Rivals",
@@ -5222,6 +5364,17 @@
       "databaseId": "49550aa9fcd74552ae07c4e9f2c262fe"
     },
     {
+      "slug": "mechabellum",
+      "id": "a477f73fc8b54e09ba7a35f9579797cb",
+      "title": "Mechabellum",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Sep '26",
+      "publisher": "Paradox Arc",
+      "controller_input": "keyboard-mouse"
+    },
+    {
       "slug": "metro-last-light-redux",
       "id": "dfed0a5b-7def-4924-a40a-77a35b86c58f",
       "title": "Metro: Last Light Redux",
@@ -5235,6 +5388,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "Speedwell"
+    },
+    {
+      "slug": "mindcop",
+      "id": "5caae733e3484ec2ae7ccd884549f5d8",
+      "title": "Mindcop",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Sep '26",
+      "native_linux": false,
+      "publisher": "Plug In Digital",
+      "controller_input": "native"
     },
     {
       "slug": "monopoly-madness",
@@ -6359,6 +6524,18 @@
       "controller_input": "requires-mapping",
       "requires_eac_runtime": false,
       "databaseId": "e87a43f695bc409ca8858206678ac7e7"
+    },
+    {
+      "slug": "shogun-showdown",
+      "id": "1fe58090c33849fab06bc2e441dabf2e",
+      "title": "Shogun Showdown",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Sep '26",
+      "native_linux": true,
+      "publisher": "Goblinz Publishing",
+      "controller_input": "native"
     },
     {
       "slug": "sid-meiers-civilization-vi",
@@ -8194,6 +8371,18 @@
       "databaseId": "46f5370341aa44308a2b2433ee59fdfb"
     },
     {
+      "slug": "war-hospital",
+      "id": "857848741a364bf8a838af91aae67700",
+      "title": "War Hospital",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Sep '26",
+      "native_linux": false,
+      "publisher": "Nacon",
+      "controller_input": "native"
+    },
+    {
       "slug": "war-tanks",
       "id": "dd5cab3a-fd8c-4f47-89d2-642f22087a18",
       "title": "War Tanks",
@@ -8308,6 +8497,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "5ab7c9b39f81481c88dce1e4f106a594"
+    },
+    {
+      "slug": "werewolf-the-apocalypse-earthblood",
+      "id": "Teal",
+      "title": "Werewolf: The Apocalypse - Earthblood",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "native_linux": false,
+      "publisher": "Bigben Interactive",
+      "controller_input": "native"
     },
     {
       "slug": "what-remains-of-edith-finch",
@@ -8484,6 +8685,18 @@
       "databaseId": "Wombat"
     },
     {
+      "slug": "wrc-generations",
+      "id": "96aa9b93b32241209c2786bd7e0ea3a6",
+      "title": "WRC Generations",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "native_linux": false,
+      "publisher": "Nacon",
+      "controller_input": "native"
+    },
+    {
       "slug": "yooka-laylee-and-the-impossible-lair",
       "id": "454d6c7d-9fa9-4527-8e6c-1bea58cb475e",
       "title": "Yooka-Laylee and the Impossible Lair",
@@ -8600,6 +8813,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "2099051765"
+    },
+    {
+      "slug": "a-new-beginning-final-cut",
+      "id": "1207659150",
+      "title": "A New Beginning: Final Cut",
+      "storefront": "GOG",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "native_linux": false,
+      "publisher": "Daedalic Entertainment",
+      "controller_input": "keyboard-mouse"
     },
     {
       "slug": "a-plague-tale-innocence",
@@ -9345,6 +9570,18 @@
       "databaseId": "1580300418"
     },
     {
+      "slug": "bounty-train",
+      "id": "1455194922",
+      "title": "Bounty Train",
+      "storefront": "GOG",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "native_linux": false,
+      "publisher": "Daedalic Entertainment",
+      "controller_input": "keyboard-mouse"
+    },
+    {
       "slug": "breachway",
       "id": "685fab50-c1c6-4cdd-818d-69988d3e348d",
       "title": "Breachway",
@@ -9608,6 +9845,17 @@
       "databaseId": "1316203883"
     },
     {
+      "slug": "citadel-remonstered",
+      "id": "1786501441",
+      "title": "Citadel Remonstered",
+      "storefront": "GOG",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "publisher": "Virtual Design",
+      "controller_input": "keyboard-mouse"
+    },
+    {
       "slug": "close-to-the-sun",
       "id": "f4545da6-f583-4049-969c-85db945146b4",
       "title": "Close to the Sun",
@@ -9651,6 +9899,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1964712512"
+    },
+    {
+      "slug": "conarium",
+      "id": "1528332522",
+      "title": "Conarium",
+      "storefront": "GOG",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "native_linux": true,
+      "publisher": "Iceberg Interactive",
+      "controller_input": "native"
     },
     {
       "slug": "coromon",
@@ -10063,6 +10323,18 @@
       "databaseId": "1390579243"
     },
     {
+      "slug": "doom-doom-ii",
+      "id": "1413291984",
+      "title": "DOOM + DOOM II",
+      "storefront": "GOG",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Sep '26",
+      "native_linux": false,
+      "publisher": "Bethesda Softworks LLC",
+      "controller_input": "native"
+    },
+    {
       "slug": "doomdarks-revenge",
       "id": "5937235a-d5e6-4c00-a3c3-32c3f3f1c579",
       "title": "Doomdark's Revenge",
@@ -10090,6 +10362,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1721001406"
+    },
+    {
+      "slug": "dragons-dogma-dark-arisen",
+      "id": "1242384383",
+      "title": "Dragon's Dogma: Dark Arisen",
+      "storefront": "GOG",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "native_linux": false,
+      "publisher": "Capcom",
+      "controller_input": "native"
     },
     {
       "slug": "dream-tactics",
@@ -12419,6 +12703,18 @@
       "controller_input": "native"
     },
     {
+      "slug": "relic-hunters-zero-remix",
+      "id": "1205909172",
+      "title": "Relic Hunters Zero: Remix",
+      "storefront": "GOG",
+      "decky_rating": "",
+      "standalone_rating": "green",
+      "date_tested": "Nov '26",
+      "native_linux": true,
+      "publisher": "Akupara Games",
+      "controller_input": "native"
+    },
+    {
       "slug": "residual",
       "id": "041240c1-d0c3-40d2-a952-2d73eb58d7dc",
       "title": "Residual",
@@ -14691,15 +14987,15 @@
     },
     {
       "slug": "alone-with-you",
+      "id": "244674",
       "title": "Alone With You",
       "storefront": "itch",
       "decky_rating": "unsupported",
       "standalone_rating": "green",
       "date_tested": "Jun '26",
-      "native_linux": false,
+      "native_linux": true,
       "publisher": "BancyCo",
-      "controller_input": "native",
-      "databaseId": ""
+      "controller_input": "native"
     },
     {
       "slug": "alt-frequencies",

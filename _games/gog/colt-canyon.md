@@ -7,6 +7,12 @@ storefront: "GOG"
 storefront_key: "gog"
 permalink: /games/gog/colt-canyon/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/98a6e91037000e251d37935a5a79721c35466a4e7294
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -135,8 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "28c2110fdb2da61a"
+last_modified_at: "2026-11-22"
+content_hash: "2c92699af0ba4091"
 ---
 
-Colt Canyon is a pixel art rogue-lite shooter where you have to save your kidnapped partner from the ruthless bandits. Shoot your way through a hostile canyon full of hidden treasures, weapons, obstacles and all kinds of bloodthirsty scum.
+A pixel-art roguelike shooter set in a canyon full of bandits, where you go in after your kidnapped partner and then have to get back out again with them. Over a hundred weapons, stealth as a genuine option, horses, and prisoners you free along the way who fight alongside you. Permadeath is optional and there is local co-op.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/el-hijo-a-wild-west-tale/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/b2ebfa474c7f7fdb174a84130c204003c8a48965b080
 hdr: false
 controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "21167a7af000e510"
+last_modified_at: "2026-11-22"
+content_hash: "f50cc64b59b9cf86"
 ---
 
-"El Hijo - A Wild West Tale" is an exciting spaghetti-western stealth game, in which you guide a 6-year-old boy on his quest to find his mother.
+A spaghetti-western stealth game about a six-year-old looking for his mother after bandits burn their farm and she leaves him at a monastery to keep him safe. He escapes. It is deliberately non-violent, trading fighting for hiding and childish mischief, across the monastery, a stretch of desert and a frontier town full of crime.

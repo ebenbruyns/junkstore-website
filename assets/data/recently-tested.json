@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-08-28T21:01:27.537Z",
+  "generated_at": "2026-11-21T23:53:22.495Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "clem",
+      "featured_in": "2026-11-22",
+      "post_url": "/blog/games-tested-2026-11-22/",
+      "title": "Clem",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/7628960a98cbfee451e69b3c1617c4d25324fe2d17c9713660f7c9769e5466d7.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/15299cdb6e3a88870918b17db5247f7b71c2a049192def6700785446d3bbd5f8.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "mark-of-the-deep",
+      "featured_in": "2026-11-22",
+      "post_url": "/blog/games-tested-2026-11-22/",
+      "title": "Mark of the Deep",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/b97d062bead419b4fc2007914c5fe97714016a50c91313bf362be0b6a510c58e.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/fdd537180f8c9260c0291c99f06e459a201fdb9b3122172d3b2595557148c065.jpg?namespace=gamesdb"
+    },
+    {
+      "store": "epic",
+      "slug": "werewolf-the-apocalypse-earthblood",
+      "featured_in": "2026-11-22",
+      "post_url": "/blog/games-tested-2026-11-22/",
+      "title": "Werewolf: The Apocalypse - Earthblood",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/266dd0320618eb722abca6c3c208f47d2b8bfd547c05103ff9c1194fe902edf3.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/fd61ce5730f68b433884afe6cee608abc00abce96a03d47c6ceaf500df184bda.jpg?namespace=gamesdb"
+    },
     {
       "store": "epic",
       "slug": "breathedge",
@@ -90,36 +120,6 @@
       "standalone_rating": "green",
       "icon_image": "https://images.gog.com/04daa46fa06b09ea9e8a614d19c3e2b4ecebb4447fc2f8710a5c7dc66bebbb76.jpg?namespace=gamesdb",
       "vertical_artwork": "https://images.gog.com/3e9023d47bfa8850570d19c61f670d5c2bbdc902cc3f336b3976975430ed9b29.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "gog",
-      "slug": "pyramids-and-aliens-escape-room",
-      "featured_in": "2026-08-17",
-      "post_url": "/blog/games-tested-2026-08-17/",
-      "title": "Pyramids and Aliens: Escape Room",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/3c8a68b8f9ad165dd85a12e64913575a92c72b2969ef13b9e836d4a46514dfea.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/ee496091b2b8f91b0ede70bc5d0e7e8650c17c8c7ec4982a9b1c7076c14a9954.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "steelrising",
-      "featured_in": "2026-08-17",
-      "post_url": "/blog/games-tested-2026-08-17/",
-      "title": "Steelrising",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/853d6480c4497058f60b8cce115b10508c44a48d19631d6430661db6efd8e1c8.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/3dc4348053ad91b0a114dcd00e22a2f832077418853b74ea3d35f8d3a9702e5f.jpg?namespace=gamesdb"
-    },
-    {
-      "store": "epic",
-      "slug": "beacon-pines",
-      "featured_in": "2026-08-08",
-      "post_url": "/blog/games-tested-2026-08-08/",
-      "title": "Beacon Pines",
-      "standalone_rating": "green",
-      "icon_image": "https://images.gog.com/05b16aa177d5e1392b35c737ddcacfae666f9a8c121003c889060107596e2f91.jpg?namespace=gamesdb",
-      "vertical_artwork": "https://images.gog.com/086f08af97f86cbd6ab69f328e98fe8536d515f8ee6a7e264efffef76b48ddd4.jpg?namespace=gamesdb"
     }
   ]
 }

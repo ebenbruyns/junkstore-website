@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/jurassic-world-evolution-2/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -48,7 +54,7 @@ franchise_siblings: [{"rawg_id":1006932,"slug":"jurassic-world-evolution-3","nam
 franchise_slug: "jurassic-park|jurassic-park-2-the-chaos-cont|jurassic-park-3-danger-zone|jurassic-park-3-dino-defender|jurassic-park-aftermath|jurassic-park-dinosaur-battles|jurassic-park-iii-island-attac|jurassic-park-iii-park-builder|jurassic-park-iii-the-dna-fact|jurassic-park-legacy|jurassic-park-operation-genesi|jurassic-park-rampage-edition|jurassic-park-the-new-park|jurassic-world-evolution-2|jurassic-world-evolution-2-2|jurassic-world-evolution-3|the-lost-world-jurassic-park|the-lost-world-jurassic-park-1|warpath-jurassic-park"
 igdb_url: "https://www.igdb.com/games/jurassic-world-evolution-2"
 was_free_before: true
-giveaway_events: [{"start":"2025-03-20","end":"2025-03-27"}]
+giveaway_events: [{"start":"2025-03-20","end":"2025-03-27"},{"start":"2026-11-12","end":"2026-12-17"}]
 free_games_aliases: []
 
 # Images
@@ -60,8 +66,15 @@ icon_image: "https://images.gog.com/e830ce00665938d6b93e14113058537be2e6b5269a07
 # hdr = genuine out-of-the-box HDR support only (PCGW "true"/"always on");
 # hackable/limited deliberately excluded — no "HDR with a mod" claims.
 hdr: false
-controller_input: ""
+controller_input: "native"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: "clean"
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: "no"
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -74,7 +87,7 @@ dependencies:
 requires_eos: true
 supports_eos: false
 epic_achievements: false
-epic_offline_mode: false
+epic_offline_mode: true
 epic_cloud_saves: true
 must_be_online: false
 
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2025-03-01"
-content_hash: "a44c4dddd2fbec36"
+last_modified_at: "2026-11-22"
+content_hash: "ac5f2ab7a4864f96"
 ---
 
-Jurassic World Evolution 2 is the much-anticipated sequel to Frontier’s highly successful Jurassic World Evolution, building upon the groundbreaking and immersive 2018 management simulation.
+The park management sequel, picking up after Fallen Kingdom with dinosaurs loose across the United States rather than contained on an island. The campaign has you catching and housing them, with Jeff Goldblum and Bryce Dallas Howard back in their film roles. Four modes in all, including a sandbox and a set of challenges.

@@ -7,6 +7,12 @@ storefront: "Epic"
 storefront_key: "epic"
 permalink: /games/epic/idle-champions-of-the-forgotten-realms/
 
+# Availability
+# Set when the game has been pulled from this storefront, or shut down. It
+# qualifies the storefront above rather than how the game runs, so the page
+# should show it next to the store name rather than with the engine pills.
+delisted: false
+
 # Compatibility (Junk Store testing)
 decky_rating: "green"
 standalone_rating: "green"
@@ -62,6 +68,13 @@ icon_image: "https://images.gog.com/7881c8c78ad998fd39c2d9d6170d0c7e15eaca56cacb
 hdr: false
 controller_input: "mouse-only"
 community_layout: false
+# Sleep the Deck mid-game and wake it: clean | slow | breaks. Empty means
+# untested — the page shows nothing rather than claiming it works.
+suspend_resume: ""
+# Does the GAME run with no connection: yes | no | partial. Empty means we
+# have not checked. Not to be confused with epic_offline_mode below, which is
+# the Epic launcher's offline mode and says nothing about the game itself.
+offline_play: ""
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -131,8 +144,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-03-01"
-content_hash: "41ca18ee75459bb2"
+last_modified_at: "2026-11-22"
+content_hash: "537dd461cdd9855b"
 ---
 
-Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.
+A free-to-play idle strategy game built on Dungeons & Dragons. You arrange a party of famous characters into a formation and they fight on their own, even with the game closed. There are over 140 champions to collect, from Drizzt and Minsc to Astarion and Karlach, and the skill is in placing them so their abilities feed off each other.

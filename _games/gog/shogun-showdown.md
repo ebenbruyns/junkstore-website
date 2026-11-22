@@ -40,13 +40,13 @@ publisher: Goblinz Publishing, Gamera Games
 developer: Roboatino
 genre: "Role-playing (RPG), Strategy, Turn-based strategy (TBS), Indie, Card & Board Game"
 franchise: 
-age_rating_summary: 
+age_rating_summary: 10 (ESRB)
 age_ratings: {"dejus":{"rating":"10","descriptors":"Violência"}}
 release_date: "September 5, 2024"
 game_modes: ["Single-player"]
 languages: ["Portuguese (brazilian)","Chinese Simplified","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","Chinese Traditional"]
 languages_audio: []
-tags_structured: []
+tags_structured: [{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1386","name":"Turn-Based"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21119","name":"Great for Beginners"}]
 size: "109 MB"
 install_size: ""
 achievements_total: 
@@ -54,7 +54,7 @@ franchise_siblings: []
 franchise_slug: ""
 igdb_url: "https://www.igdb.com/games/shogun-showdown"
 was_free_before: true
-giveaway_events: [{"start":"2024-11-01"}]
+giveaway_events: [{"start":"2024-11-01"},{"start":"2026-09-17","end":"2026-09-24"}]
 free_games_aliases: []
 
 # Images
@@ -118,7 +118,7 @@ metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/shogun-showdown/"
 
 # Cross-Catalog IDs (Game Catalog API)
-opencritic_id: "17254"
+opencritic_id: "17254/shogun-showdown"
 opencritic_url: "https://opencritic.com/game/17254/-"
 opencritic_score: 87
 opencritic_review_count: 20
@@ -148,8 +148,8 @@ owned: true
 # AND that changes what a reader gets is edited (ratings, testing notes, Proton
 # version, description). content_hash is how the next export knows whether
 # anything material changed; don't hand-edit either line.
-last_modified_at: "2026-08-20"
-content_hash: "3561c617c350998c"
+last_modified_at: "2026-11-22"
+content_hash: "d4d419ceb6486172"
 ---
 
-A turn-based roguelike fought on a single line of tiles, where you queue attacks and step in and out of range rather than trading blows. Each run builds a small deck of attack tiles and skills to combo together, working toward the Shogun, in pixel art with a Japanese setting.
+A turn-based roguelike set on a single row of tiles, where enemies show what they are about to do and every move, turn and attack has to be timed against that. Your attacks are tiles you upgrade and combo as the run goes, and dying unlocks new characters, attacks and skills for the next try. Pixel art and a Japanese setting.
