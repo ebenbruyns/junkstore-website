@@ -3,7 +3,7 @@
 # Edit uptime data in the admin UI, not here — manual changes
 # will be overwritten on the next sync.
 
-steamosVersion: 3.9.5
+steamosVersion: 3.9.6
 lastResetDate: 2026-11-19T00:00:00.000Z
 currentStatus: up
 resetReason: Breakage due to Valve changing their build tooling - [Steam Client
@@ -805,6 +805,16 @@ notes:
     text: Breakage due to Valve changing their build tooling - [Steam Client Beta -
       November
       18th](https://store.steampowered.com/news/group/4397053/view/712292033362921462)
+  - id: 17957247163635p0n
+    date: 2026-11-24T00:00:00
+    type: beta
+    text: No issues or breakages - [SteamOS 3.9.7
+      Beta](https://store.steampowered.com/news/app/1675200/view/694278903563288585)
+  - id: 1795724776041zymr
+    date: 2026-11-24T00:00:00
+    type: client-beta
+    text: No issues or breakages - [Steam Client Beta - November
+      24th](https://store.steampowered.com/news/group/4397053/view/713418568234960322)
 breakHistory:
   - id: 1
     brokeDate: 2026-04-02T01:30:00.000Z
